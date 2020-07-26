@@ -1,0 +1,54 @@
+site_name: Lojban made easy
+site_url: https://lojban.pw
+plugins:
+    - search
+    - minify:
+        minify_html: true
+nav:
+    - Home: index.md
+    - Dialects: articles/dialects.md
+    - Lojban Live Chat: articles/live_chat.md
+    - Complete Lojban Language: articles/complete-lojban-language.md
+    - la krulermorna: articles/krulermorna.md
+    # - Basic: basic.md
+    # - Cases: cases.md
+    # - Verbs: verbs.md
+    # - Metalinguistic: metalinguistic.md
+    # - Text structure: text-structure.md
+    # - Suffixes: suffixes.md
+
+extra_css: ['css/extra.css']
+
+markdown_extensions:
+  - admonition
+  - meta
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: "#"
+      baselevel: 1
+theme:
+    feature:
+        tabs: true
+    name: material
+    custom_dir: 'theme'
+    palette:
+        primary: deep orange
+        accent: pink
+    favicon: 'img/jbotcan.svg'
+    icon:
+        logo: material/library
+    highlightjs: false
+    show_sidebar: true
+docs_dir: src
+site_dir: docs
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: 'https://discord.gg/wasp5fj'
+    - icon: fontawesome/brands/github-alt
+      link: 'https://github.com/lagleki/lojban/issues'
+    - icon: fontawesome/brands/facebook
+      link: 'https://facebook.com/groups/lojban'
+    - icon: fontawesome/brands/reddit
+      link: 'https://reddit.com/r/lojban'

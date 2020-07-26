@@ -1,0 +1,248 @@
+/* .navbar {
+  background: rgb(56,136,233);
+  background: linear-gradient( to bottom, rgba(56,136,233, 1) 0%, rgba(34,87,213, 1) 13%, rgba(38,99,224, 1) 88%, rgba(25,65,165, 1) 100% );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6db3f2', endColorstr='#1e69de', GradientType=0);
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+  background: rgb(56,136,233);
+  border-radius: 4px;
+} */
+/* .headerlink {
+  color: #ccc;
+  font-size: 80%;
+  font-weight: normal;
+  margin-left: 0.25rem;
+}
+
+.bs-sidebar.well {
+  padding: 0;
+  /* max-height: 80%; */
+  overflow-y: auto;
+}
+
+@media (min-width: 992px) {
+  .bs-sidebar.affix {
+    position: fixed;
+    top: 45px;
+    max-height: calc(100% - 45px);
+  }
+} */
+
+jbo {
+  font-weight: bold;
+}
+
+this {
+  white-space: nowrap;
+  font-style: italic;
+  border-style: dashed;
+  border-width: 1px;
+  padding: 0 7px 0 6px;
+  margin: 0 2px 0 2px;
+  border-color: #aaa;
+  border-radius: 3px;
+}
+
+this[undecorated] {
+  background-color: #ffff0033;
+}
+
+this[context] {
+  background-color: #33ff0033;
+}
+
+this[speaker] {
+  background-color: #f1564e;
+  padding: 0em 0.75em;
+  border: none;
+  border-radius: 2em;
+  color: #ffffff;
+}
+
+this[another] {
+  background-color: #ff6a0033;
+}
+
+this[attached] {
+  background-color: #3f00ff33;
+}
+/* 
+blockquote {
+  color: black;
+  max-width: 400px;
+  margin-right: auto;
+  border: 4px solid #1e90ff;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 23px;
+}
+
+blockquote:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #1e90ff;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #1e90ff;
+  border-bottom: 10px solid transparent;
+  right: -21px;
+  top: 12px;
+}
+
+blockquote:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 7px solid #fff;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #fff;
+  border-bottom: 7px solid transparent;
+  right: -11px;
+  top: 16px;
+} */
+
+blockquote, .md-typeset blockquote {
+  font-size: inherit;
+  color: black;
+  border: 0px;
+  border-left: solid 3px #1e90ff;
+  margin: 15px 25px 15px 0px;
+  padding: 2px 8px 2px 8px;
+  width: auto;
+}
+
+blockquote p {
+  font-weight: normal;
+  font-size: 100%;
+  line-height: inherit;
+}
+
+lojban {
+  color: #6f6f6f;
+  display: block;
+  border: 0px;
+  border-left: double 8px #24c756;
+  margin: 15px 25px 15px 0px;
+  padding: 2px 8px 2px 8px;
+  width: auto;
+}
+
+lojban:before {
+  content: "Lojban ";
+  font-style: italic;
+  font-size: 85%;
+  margin-bottom: 5px;
+  position: relative;
+  top: -0.5rem;
+  margin-right: 5px;
+  color: #5d5d5d;
+}
+
+description {
+  border-width: 1px;
+  border-style: dashed;
+  display: block;
+  padding: 5px;
+  border-color: #ccc;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 1px 1px 4px #555 inset;
+  margin-bottom: 5px;
+}
+
+.common {
+  border: 0px;
+  line-height: 2em;
+  border-left: double 8px #ffa500;
+  border-radius: 0px;
+  margin: 15px 25px 15px 25px;
+  padding: 10px 8px 10px 8px;
+  width: auto;
+  width: 61.8%;
+}
+
+dl {
+  margin-left: 25px;
+}
+
+table.wikitable {
+  color: #222;
+  margin: 1em 0;
+  border: 1px solid #a2a9b1;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+table.wikitable > tr > th,
+table.wikitable > tr > td,
+table.wikitable > * > tr > th,
+table.wikitable > * > tr > td {
+  border: 1px solid #a2a9b1;
+  padding: 0.2em 0.4em;
+  /* vertical-align: middle; */
+}
+
+dt,
+dd {
+  display: inline;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dt::after {
+  font-weight: normal;
+  content: " ≈ ";
+}
+dd {
+  font-style: italic;
+}
+dd::after {
+  content: "\a";
+  white-space: pre;
+}
+
+side {
+  border: 1px dashed #333;
+  margin: 12.5px 25px 12.5px 0px;
+  width: auto;
+  display: inline-block;
+  /* align: top; */
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+li {
+  line-height: 2em;
+}
+
+figure {
+  clear: right;
+  float: right;
+  width: 98px;
+  max-width: 100%;
+  /* display: inline-block; */
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 5px auto 5px auto;
+}
+
+figure > img {
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 0 1px 0 !important;
+}
+
+figure > figcaption {
+  text-align: left;
+  margin: 2px;
+}
