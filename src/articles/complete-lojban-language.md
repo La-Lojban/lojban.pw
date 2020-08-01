@@ -23,7 +23,7 @@
     *   [with prefixes](https://lojban.pw/cll/uncll-1.2.10/cll_diffs/diff_new_xhtml_no_chunks/difference_prefixed.html),
     *   [without prefixes](https://lojban.pw/cll/uncll-1.2.10/cll_diffs/diff_new_xhtml_no_chunks/difference.html).
 
-#### Short list of changes compared to the previous version 'geklojban-1.2.8.1 June 2020'
+#### Short list of changes compared to the previous version 'geklojban-1.2.9 July 2020'
 
 * Chrestomathy (selected texts) volume added afer the last chapter
 * dots are never omitted in words, not even in Lojban Words Index
