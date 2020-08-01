@@ -21,9 +21,9 @@ Adheres to the original book published in 1997 and:
 
 Available:
 
-* [PDF](/cll/uncll-1.2.9/cll.pdf) - in a PDF file for download
-* [HTML in sections](/cll/uncll-1.2.9/xhtml_section_chunks/) - in HTML files
-* [EPUB](/cll/uncll-1.2.9/cll.epub) - as an EPUB book
+* [PDF](/cll/uncll-1.2.10/cll.pdf) - in a PDF file for download
+* [HTML in sections](/cll/uncll-1.2.10/xhtml_section_chunks/) - in HTML files
+<!-- * [EPUB](/cll/uncll-1.2.10/cll.epub) - as an EPUB book -->
 
 [More info...](/articles/complete-lojban-language)
 
