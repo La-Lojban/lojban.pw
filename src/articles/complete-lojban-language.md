@@ -25,7 +25,7 @@
 
 #### Short list of changes compared to the previous version 'geklojban-1.2.9 July 2020'
 
-* Chrestomathy (selected texts) volume added afer the last chapter
+* Chrestomathy (selected texts) volume added after the last chapter
 * dots are never omitted in words, not even in Lojban Words Index
 
 #### [git source](https://github.com/lojban/cll/compare/geklojban-1.2.10)
