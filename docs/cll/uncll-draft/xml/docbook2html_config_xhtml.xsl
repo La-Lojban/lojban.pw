@@ -2,7 +2,18 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" version="1.0">
 
   <xsl:template name="user.head.content">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async='async' src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/javascript">
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$']]
+      }
+    };
+    </script>
+    <!-- <script id="MathJax-script" async='async'
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </xsl:template>
 

@@ -37,8 +37,8 @@ function funcContentGloss(Node, sance, text) {
 var examples = document.querySelectorAll(".example > .title > strong");
 
 Array.from(examples).forEach(function (Node) {
-	var number = Node.innerText.trim().replace(/ *Example (.*?)\. *$/, '$1');
-	processNode(document.location.href.replace(/\/[^\/]+$/, '/') + "assets/media/examples/" + text + ".ogg", Node, number, funcExample)
+	var text = Node.innerText.trim().replace(/ *Example (.*?)\. *$/, '$1');
+	processNode(document.location.href.replace(/\/[^\/]+$/, '/') + "assets/media/examples/" + text + ".ogg", Node, text,funcExample)
 });
 
 function funcExample(Node, sance, text) {
@@ -47,21 +47,15 @@ function funcExample(Node, sance, text) {
 		"<button class='tutci tutci-mupli' onclick=\"document.getElementById('sance_" +
 		encodeValsiForWeb(text) +
 		"').play()\">▶</button>";
+
 	return Node
 }
 
-var terms = document.querySelectorAll("span.glossterm");
+var terms = document.querySelectorAll(".guibutton");
 
 Array.from(terms).forEach(function (Node) {
-	var text = Node.innerText;
-	processNode("https://la-lojban.github.io/sutysisku/sance/vreji/" + encodeValsiForWeb(text) + ".mp3", Node, text, funcGlossary)
+	var slug = encodeValsiForWeb(Node.innerText);
+	var li = "<button class='tutci' onclick=\"(function (){var s=new Audio('./assets/media/vreji/" + slug + ".mp3');s.play()})()\">▶</button>"
+	Node.parentNode.insertAdjacentHTML('beforeend', li)
+	Node.remove()
 });
-
-function funcGlossary(Node, sance, text) {
-	Node.parentNode.appendChild(sance);
-	Node.parentNode.innerHTML +=
-		"<button class='tutci' onclick=\"document.getElementById('sance_" +
-		encodeValsiForWeb(text) +
-		"').play()\">▶</button>";
-	return Node
-}

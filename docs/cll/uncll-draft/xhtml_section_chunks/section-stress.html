@@ -10,7 +10,15 @@
     <link rel="up" href="chapter-phonology.html" title="Chapter 3. The hills are alive with the sounds of Lojban" />
     <link rel="prev" href="section-buffer-vowels.html" title="3.8. Buffering of consonant clusters" />
     <link rel="next" href="section-anglophone-phonetics.html" title="3.10. IPA for English speakers" />
-    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" type="text/javascript">
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$']]
+      }
+    };
+    </script>
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
@@ -46,14 +54,14 @@
           </div>
         </div>
       </div>
-      <p><a id="idm46036846390400" class="indexterm"></a>      A Lojban word has one syllable for each of its vowels, diphthongs, and syllabic consonants (referred to simply as      <span class="quote">“<span class="quote">vowels</span>”</span>      for the purposes of this section.) Syllabication rules determine which of the consonants separating two vowels belong to the preceding vowel and which to the following vowel. These rules are conventional only; the phonetic facts of the matter about how utterances are syllabified in any language are always very complex.    </p>
-      <p><a id="idm46036846387776" class="indexterm"></a>
+      <p><a id="idm45563585712656" class="indexterm"></a>      A Lojban word has one syllable for each of its vowels, diphthongs, and syllabic consonants (referred to simply as      <span class="quote">“<span class="quote">vowels</span>”</span>      for the purposes of this section.) Syllabication rules determine which of the consonants separating two vowels belong to the preceding vowel and which to the following vowel. These rules are conventional only; the phonetic facts of the matter about how utterances are syllabified in any language are always very complex.    </p>
+      <p><a id="idm45563585710032" class="indexterm"></a>
       A single consonant always belongs to the following vowel. A consonant pair is normally divided between the two vowels; however, if the pair constitute a valid initial consonant pair, they are normally both assigned to the following vowel. A consonant triple is divided between the first and second consonants. Apostrophes and commas, of course, also represent syllable breaks. Syllabic consonants usually appear alone in their syllables.
     </p>
-      <p><a id="idm46036846385600" class="indexterm"></a>
+      <p><a id="idm45563585707856" class="indexterm"></a>
       It is permissible to vary from these rules in Lojbanized names. For example, there are no definitive rules for the syllabication of Lojbanized names with consonant clusters longer than three consonants. The comma is used to indicate variant syllabication or to explicitly mark normal syllabication.
     </p>
-      <p><a id="idm46036846383568" class="indexterm"></a>
+      <p><a id="idm45563585705824" class="indexterm"></a>
       Here are some examples of Lojban syllabication:
     </p>
       <div class="pronunciation-example example">
@@ -177,12 +185,12 @@
       or before
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">zb</em></span>.
     </p>
-      <p><a id="idm46036846346400" class="indexterm"></a><a id="idm46036846345136" class="indexterm"></a><a id="idm46036846343872" class="indexterm"></a>
+      <p><a id="idm45563585668656" class="indexterm"></a><a id="idm45563585667392" class="indexterm"></a><a id="idm45563585666128" class="indexterm"></a>
       Stress is a relatively louder pronunciation of one syllable in a word or group of words. Since every syllable has a vowel sound (or diphthong or syllabic consonant) as its nucleus, and the stress is on the vowel sound itself, the terms
       <span class="quote">“<span class="quote">stressed syllable</span>”</span>      and
       <span class="quote">“<span class="quote">stressed vowel</span>”</span>      are largely interchangeable concepts.
     </p>
-      <p><a id="idm46036846340912" class="indexterm"></a>
+      <p><a id="idm45563585663168" class="indexterm"></a>
       Most Lojban words are stressed on the next-to-the-last, or penultimate, syllable. In counting syllables, however, syllables whose vowel is
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">y</em></span>
       or which contain a syllabic consonant (
@@ -193,22 +201,22 @@
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">n</em></span>
       , or
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">r</em></span>) are never counted. (The Lojban term for penultimate stress is
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036846333904" class="indexterm"></a>da'amoi terbasna</em></span>.) Similarly, syllables created solely by adding a buffer vowel, such as
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563585656160" class="indexterm"></a>da'amoi terbasna</em></span>.) Similarly, syllables created solely by adding a buffer vowel, such as
       <span class="IPA">[ɪ]</span>
       , are not counted.
     </p>
-      <p><a id="idm46036846331552" class="indexterm"></a>
+      <p><a id="idm45563585653808" class="indexterm"></a>
       There are actually three levels of stress – primary, secondary, and weak. Weak stress is the lowest level, so it really means no stress at all. Weak stress is required for syllables containing
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">y</em></span>
       , a syllabic consonant, or a buffer vowel.
     </p>
-      <p><a id="idm46036846328416" class="indexterm"></a><a id="idm46036846327120" class="indexterm"></a><a id="idm46036846325824" class="indexterm"></a><a id="idm46036846324528" class="indexterm"></a>
+      <p><a id="idm45563585650672" class="indexterm"></a><a id="idm45563585649376" class="indexterm"></a><a id="idm45563585648080" class="indexterm"></a><a id="idm45563585646784" class="indexterm"></a>
       Primary stress is required on the penultimate syllable of Lojban content words (called
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036846322720" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-brivla"><em class="glossterm">brivla</em></a></em></span>). Lojbanized names (called
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036846320400" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-cmevla"><em class="glossterm">cmevla</em></a></em></span>) may be stressed on any syllable, but if a syllable other than the penultimate is stressed, the syllable (or at least its vowel) must be capitalized in writing. Lojban structural words (called
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036846317856" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-cmavo"><em class="glossterm">cmavo</em></a></em></span>) may be stressed on any syllable or none at all. However, primary stress may not be used in a syllable just preceding a brivla, unless a pause divides them; otherwise, the two words may run together.
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563585644976" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-brivla"><em class="glossterm">brivla</em></a></em></span>). Lojbanized names (called
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563585642656" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-cmevla"><em class="glossterm">cmevla</em></a></em></span>) may be stressed on any syllable, but if a syllable other than the penultimate is stressed, the syllable (or at least its vowel) must be capitalized in writing. Lojban structural words (called
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563585640112" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-cmavo"><em class="glossterm">cmavo</em></a></em></span>) may be stressed on any syllable or none at all. However, primary stress may not be used in a syllable just preceding a brivla, unless a pause divides them; otherwise, the two words may run together.
     </p>
-      <p><a id="idm46036846315424" class="indexterm"></a>
+      <p><a id="idm45563585637680" class="indexterm"></a>
       Secondary stress is the optional and non-distinctive emphasis used for other syllables besides those required to have either weak or primary stress. There are few rules governing secondary stress, which typically will follow a speaker's native language habits or preferences. Secondary stress can be used for contrast, or for emphasis of a point. Secondary stress can be emphasized at any level up to primary stress, although the speaker must not allow a false primary stress in brivla, since errors in word resolution could result.
     </p>
       <p>  The following are Lojban words with stress explicitly shown:</p>
@@ -234,7 +242,7 @@
       <p class="noindent">
       (In a fully-buffered dialect, the pronunciation would be:
       <span class="IPA">['di kə ʒɪ vo]</span>.) Note that the syllable
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036846307040" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ky"><em class="glossterm">ky.</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563585629296" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ky"><em class="glossterm">ky.</em></a></em></span>
       is not counted in determining stress. The vowel
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">y</em></span>
       is never stressed in a normal Lojban context.
@@ -245,7 +253,7 @@
           <strong>Example 3.24. 
 
 
-        <a id="idm46036846302640" class="indexterm"></a>
+        <a id="idm45563585624896" class="indexterm"></a>
 
 
         <a id="c3e9d7"></a>
@@ -288,7 +296,7 @@
       </div>
       <br class="pronunciation-example example-break" />
       <p class="indent">However, there is no need to insert a buffer in every possible place just because it is inserted in one place: partial buffering is also acceptable. In every case, however, the stress remains in the same place: on the first syllable.</p>
-      <p><a id="idm46036846290816" class="indexterm"></a>
+      <p><a id="idm45563585613072" class="indexterm"></a>
       The English pronunciation of
       <span class="quote">“<span class="quote">Armstrong</span>”</span>      , as spelled in English, is not correct by Lojban standards; the letters
       <span class="quote">“<span class="quote">ng</span>”</span>      in English represent a velar nasal (IPA
@@ -423,7 +431,7 @@
         <a id="example-random-id-Ki4a"></a>
         <p class="title">
           <strong>Example 3.30. 
-        <a id="idm46036846247408" class="indexterm"></a>
+        <a id="idm45563585569664" class="indexterm"></a>
         <a id="c3e9d13"></a>
       </strong>
         </p>
@@ -451,11 +459,11 @@
       In
       <a class="xref" href="section-stress.html#example-random-id-Ki4a" title="Example 3.30. ">Example 3.30</a>
       ,
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036846238512" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ehu"><em class="glossterm">.e'u</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563585560768" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ehu"><em class="glossterm">.e'u</em></a></em></span>
       is a cmavo and
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036846236192" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-bridi"><em class="glossterm">bridi</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563585558448" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-bridi"><em class="glossterm">bridi</em></a></em></span>
       is a brivla. Either of the first two pronunciations is permitted: no primary stress on either syllable of
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036846233744" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ehu"><em class="glossterm">.e'u</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563585556000" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ehu"><em class="glossterm">.e'u</em></a></em></span>
       , or primary stress on the first syllable. The third pronunciation, which places primary stress on the second syllable of the cmavo, requires that – since the following word is a brivla – the two words must be separated by a pause. Consider the following two cases:
     </p>
       <div class="pronunciation-example example">
@@ -498,7 +506,7 @@
       <br class="pronunciation-example example-break" />
       <p class="indent">
       If the cmavo
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036846221104" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-no"><em class="glossterm">no</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563585543360" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-no"><em class="glossterm">no</em></a></em></span>
       in
       <a class="xref" href="section-stress.html#example-random-id-qiXR" title="Example 3.32. ">Example 3.32</a>
       were to be stressed, the phrase would sound exactly like the given pronunciation of

@@ -10,7 +10,15 @@
     <link rel="up" href="index.html" title="The Incomplete Lojban Language" />
     <link rel="prev" href="section-oddball-orthographies.html" title="3.12. Oddball orthographies" />
     <link rel="next" href="section-cmavo.html" title="4.2. cmavo" />
-    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" type="text/javascript">
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$']]
+      }
+    };
+    </script>
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
@@ -58,7 +66,7 @@
             </div>
           </div>
         </div>
-        <p><a id="idm46036845458464" class="indexterm"></a><a id="idm46036845457200" class="indexterm"></a><a id="idm46036845455904" class="indexterm"></a>
+        <p><a id="idm45563584780816" class="indexterm"></a><a id="idm45563584779552" class="indexterm"></a><a id="idm45563584778256" class="indexterm"></a>
       Morphology is the part of grammar that deals with the form of words. Lojban's morphology is fairly simple compared to that of many languages, because Lojban words don't change form depending on how they are used. English has only a small number of such changes compared to languages like Russian, but it does have changes like
       <span class="quote">“<span class="quote">boys</span>”</span>
       as the plural of
@@ -68,12 +76,12 @@
       as the past-tense form of
       <span class="quote">“<span class="quote">walk</span>”</span>. To make plurals or past tenses in Lojban, you add separate words to the sentence that express the number of boys, or the time when the walking was going on.
     </p>
-        <p><a id="idm46036845452048" class="indexterm"></a><a id="idm46036845450736" class="indexterm"></a><a id="idm46036845449536" class="indexterm"></a>
+        <p><a id="idm45563584774400" class="indexterm"></a><a id="idm45563584773088" class="indexterm"></a><a id="idm45563584771792" class="indexterm"></a>
       However, Lojban does have what is called
       <span class="quote">“<span class="quote">derivational morphology</span>”</span>
       : the capability of building new words from old words. In addition, the form of words tells us something about their grammatical uses, and sometimes about the means by which they entered the language. Lojban has very orderly rules for the formation of words of various types, both the words that already exist and new words yet to be created by speakers and writers.
     </p>
-        <p><a id="idm46036845446944" class="indexterm"></a>
+        <p><a id="idm45563584769200" class="indexterm"></a>
       A stream of Lojban sounds can be uniquely broken up into its component words according to specific rules. These so-called
       <span class="quote">“<span class="quote">morphology rules</span>”</span>
       are summarized in this chapter. (However, a detailed algorithm for breaking sounds into words has not yet been fully debugged, and so is not presented in this book.) First, here are some conventions used to talk about groups of Lojban letters, including vowels and consonants.
@@ -81,7 +89,7 @@
         <div class="orderedlist">
           <ol class="orderedlist" type="1">
             <li class="listitem">
-              <p><a id="idm46036845443520" class="indexterm"></a><a id="idm46036845442256" class="indexterm"></a><a id="idm46036845440944" class="indexterm"></a>
+              <p><a id="idm45563584765776" class="indexterm"></a><a id="idm45563584764512" class="indexterm"></a><a id="idm45563584763200" class="indexterm"></a>
           V represents any single Lojban vowel except
           <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">y</em></span>
           ; that is, it represents
@@ -97,7 +105,7 @@
         </p>
             </li>
             <li class="listitem">
-              <p><a id="idm46036845432816" class="indexterm"></a>
+              <p><a id="idm45563584755072" class="indexterm"></a>
           VV represents either a diphthong, one of the following:
           </p>
               <table border="0" summary="Simple list" class="simplelist">
@@ -268,7 +276,7 @@
         </p>
             </li>
             <li class="listitem">
-              <p><a id="idm46036845386208" class="indexterm"></a><a id="idm46036845384880" class="indexterm"></a><a id="idm46036845383552" class="indexterm"></a><a id="idm46036845382224" class="indexterm"></a><a id="idm46036845380896" class="indexterm"></a><a id="idm46036845379568" class="indexterm"></a>
+              <p><a id="idm45563584708464" class="indexterm"></a><a id="idm45563584707136" class="indexterm"></a><a id="idm45563584705808" class="indexterm"></a><a id="idm45563584704480" class="indexterm"></a><a id="idm45563584703152" class="indexterm"></a><a id="idm45563584701824" class="indexterm"></a>
           C represents a single Lojban consonant, not including the apostrophe, one of
           <span class="simplelist"><span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">b</em></span>
             , 
@@ -316,7 +324,7 @@
         </p>
             </li>
             <li class="listitem">
-              <p><a id="idm46036845348400" class="indexterm"></a>
+              <p><a id="idm45563584670656" class="indexterm"></a>
           CC represents two adjacent consonants of type C which constitute one of the 48 permissible initial consonant pairs:
         </p>
               <div class="informaltable">
@@ -648,7 +656,7 @@
               </div>
             </li>
             <li class="listitem">
-              <p><a id="idm46036845253616" class="indexterm"></a>
+              <p><a id="idm45563584575872" class="indexterm"></a>
           C/C represents two adjacent consonants which constitute one of the permissible consonant pairs (not necessarily a permissible initial consonant pair). The permissible consonant pairs are explained in
           <a class="xref" href="section-clusters.html" title="3.6. Consonant clusters">Section 3.6</a>. In brief, any consonant pair is permissible unless it: contains two identical letters, contains both a voiced (excluding
           <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">r</em></span>
@@ -661,13 +669,13 @@
         </p>
             </li>
             <li class="listitem">
-              <p><a id="idm46036845246672" class="indexterm"></a>
+              <p><a id="idm45563584568928" class="indexterm"></a>
           C/CC represents a consonant triple. The first two consonants must constitute a permissible consonant pair; the last two consonants must constitute a permissible initial consonant pair.
         </p>
             </li>
           </ol>
         </div>
-        <p><a id="idm46036845244400" class="indexterm"></a><a id="idm46036845243104" class="indexterm"></a><a id="idm46036845241840" class="indexterm"></a><a id="idm46036845240576" class="indexterm"></a><a id="idm46036845239728" class="indexterm"></a>
+        <p><a id="idm45563584566656" class="indexterm"></a><a id="idm45563584565360" class="indexterm"></a><a id="idm45563584564096" class="indexterm"></a><a id="idm45563584562832" class="indexterm"></a><a id="idm45563584561984" class="indexterm"></a>
       Lojban has three basic word classes – parts of speech – in contrast to the eight that are traditional in English. These three classes are called cmavo, brivla, and cmevla. Each of these classes has uniquely identifying properties – an arrangement of letters that allows the word to be uniquely and unambiguously recognized as a separate word in a string of Lojban, upon either reading or hearing, and as belonging to a specific word-class.
     </p>
         <p>

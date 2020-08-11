@@ -10,7 +10,15 @@
     <link rel="up" href="chapter-mekso.html" title="Chapter 18. lojbau mekso: mathematical expressions in Lojban" />
     <link rel="prev" href="section-number-questions.html" title="18.12. Number questions" />
     <link rel="next" href="section-infix-again.html" title="18.14. Infix operators revisited" />
-    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" type="text/javascript">
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$']]
+      }
+    };
+    </script>
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
@@ -63,13 +71,13 @@
           </tr>
         </table>
       </div>
-      <p class="indent"><a id="idm46036805349648" class="indexterm"></a>
+      <p class="indent"><a id="idm45563544671856" class="indexterm"></a>
       Subscripting is a general Lojban feature, not used only in mekso; there are many things that can logically be subscripted, and grammatically a subscript is a free modifier, usable almost anywhere. In particular, of course, mekso variables (lerfu strings) can be subscripted:
     </p>
       <div class="interlinear-gloss-example example">
         <a id="example-random-id-MT0a"></a>
         <p class="title">
-          <strong>Example 18.98. <a id="c18e13d1"></a><a id="idm46036805346656" class="indexterm"></a></strong>
+          <strong>Example 18.98. <a id="c18e13d1"></a><a id="idm45563544668864" class="indexterm"></a></strong>
         </p>
         <div class="interlinear-gloss-example example-contents">
           <div class="informaltable">
@@ -112,11 +120,11 @@
         </div>
       </div>
       <br class="interlinear-gloss-example example-break" />
-      <p class="indent"><a id="idm46036805335264" class="indexterm"></a>
+      <p class="indent"><a id="idm45563544657472" class="indexterm"></a>
       Subscripts always begin with the flag
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036805333504" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-xi"><em class="glossterm">xi</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563544655712" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-xi"><em class="glossterm">xi</em></a></em></span>
       (of selma'o XI).
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036805331136" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-xi"><em class="glossterm">xi</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563544653520" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-xi"><em class="glossterm">xi</em></a></em></span>
       may be followed by a number, a lerfu string, or a general mekso expression in parentheses:
     </p>
       <div class="interlinear-gloss-example example">
@@ -205,17 +213,17 @@
         </div>
       </div>
       <br class="interlinear-gloss-example example-break" />
-      <p class="indent"><a id="idm46036805308832" class="indexterm"></a><a id="idm46036805307568" class="indexterm"></a><a id="idm46036805306256" class="indexterm"></a>
+      <p class="indent"><a id="idm45563544631024" class="indexterm"></a><a id="idm45563544629760" class="indexterm"></a><a id="idm45563544628448" class="indexterm"></a>
       Note that subscripts attached directly to lerfu words (variables) generally need a
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036805304576" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-boi"><em class="glossterm">boi</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563544626608" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-boi"><em class="glossterm">boi</em></a></em></span>
       terminating the variable. Free modifiers, of which subscripts are one variety, generally require the explicit presence of an otherwise elidable terminator.
     </p>
-      <p><a id="idm46036805302272" class="indexterm"></a><a id="idm46036805301424" class="indexterm"></a>
+      <p><a id="idm45563544624272" class="indexterm"></a><a id="idm45563544623424" class="indexterm"></a>
       There is no standard way of handling superscripts (other than those used as exponents) or for subscripts or superscripts that come before the main expression. If necessary, further cmavo could be assigned to selma'o XI for these purposes.
     </p>
-      <p><a id="idm46036805299440" class="indexterm"></a><a id="idm46036805298592" class="indexterm"></a><a id="idm46036805297280" class="indexterm"></a>
+      <p><a id="idm45563544621440" class="indexterm"></a><a id="idm45563544620592" class="indexterm"></a><a id="idm45563544619280" class="indexterm"></a>
       The elidable terminator for a subscript is that for a general number or lerfu string, namely
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036805295456" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-boi"><em class="glossterm">boi</em></a></em></span>. By convention, a subscript following another subscript is taken to be a sub-subscript:
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563544617456" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-boi"><em class="glossterm">boi</em></a></em></span>. By convention, a subscript following another subscript is taken to be a sub-subscript:
     </p>
       <div class="interlinear-gloss-example example">
         <a id="example-random-id-FddL"></a>

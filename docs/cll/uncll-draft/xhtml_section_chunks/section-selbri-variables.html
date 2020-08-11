@@ -10,7 +10,15 @@
     <link rel="up" href="chapter-quantifiers.html" title="Chapter 16. “Who did you pass on the road? Nobody”: Lojban and logic" />
     <link rel="prev" href="section-demorgans-law.html" title="16.12. Logical connectives and DeMorgan's law" />
     <link rel="next" href="section-notes-on-variables.html" title="16.14. A few notes on variables" />
-    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" type="text/javascript">
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$']]
+      }
+    };
+    </script>
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
@@ -46,30 +54,30 @@
           </div>
         </div>
       </div>
-      <p><a id="idm46036810077888" class="indexterm"></a><a id="idm46036810077072" class="indexterm"></a>      In addition to the variables
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810075312" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-da"><em class="glossterm">da</em></a></em></span>
+      <p><a id="idm45563549400032" class="indexterm"></a><a id="idm45563549399216" class="indexterm"></a>      In addition to the variables
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549397456" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-da"><em class="glossterm">da</em></a></em></span>
       ,
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810072960" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-de"><em class="glossterm">de</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549395104" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-de"><em class="glossterm">de</em></a></em></span>
       , and
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810070608" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-di"><em class="glossterm">di</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549392752" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-di"><em class="glossterm">di</em></a></em></span>
       that we have seen so far, which function as sumti and belong to selma'o KOhA, there are three corresponding variables
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810068144" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-buha"><em class="glossterm">bu'a</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549390288" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-buha"><em class="glossterm">bu'a</em></a></em></span>
       ,
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810065792" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-buhe"><em class="glossterm">bu'e</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549387936" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-buhe"><em class="glossterm">bu'e</em></a></em></span>
       , and
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810063440" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-buhi"><em class="glossterm">bu'i</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549385584" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-buhi"><em class="glossterm">bu'i</em></a></em></span>
       which function as selbri and belong to selma'o GOhA. These new variables allow existential or universal claims which are about the relationships between objects rather than the objects themselves. We will start with the usual silly examples; the literal translation will represent
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810060816" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-buha"><em class="glossterm">bu'a</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549382960" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-buha"><em class="glossterm">bu'a</em></a></em></span>
       ,
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810058464" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-buhe"><em class="glossterm">bu'e</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549380608" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-buhe"><em class="glossterm">bu'e</em></a></em></span>
       and
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810056112" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-buhi"><em class="glossterm">bu'i</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549378256" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-buhi"><em class="glossterm">bu'i</em></a></em></span>
       with F, G, and H respectively.
     </p>
       <div class="interlinear-gloss-example example">
         <a id="example-random-id-gEWB"></a>
         <p class="title">
-          <strong>Example 16.105. <a id="c16e13d1"></a><a id="idm46036810053024" class="indexterm"></a></strong>
+          <strong>Example 16.105. <a id="c16e13d1"></a><a id="idm45563549375168" class="indexterm"></a></strong>
         </p>
         <div class="interlinear-gloss-example example-contents">
           <div class="informaltable">
@@ -118,24 +126,24 @@
         </div>
       </div>
       <br class="interlinear-gloss-example example-break" />
-      <p class="indent"><a id="idm46036810039712" class="indexterm"></a>
+      <p class="indent"><a id="idm45563549361856" class="indexterm"></a>
       The translations of
       <a class="xref" href="section-selbri-variables.html#example-random-id-gEWB" title="Example 16.105. ">Example 16.105</a>
       show how unidiomatic selbri variables are in English; Lojban sentences like
       <a class="xref" href="section-selbri-variables.html#example-random-id-gEWB" title="Example 16.105. ">Example 16.105</a>
       need to be totally reworded in English. Furthermore, when a selbri variable appears in the prenex, it is necessary to precede it with a quantifier such as
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810036592" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-suho"><em class="glossterm">su'o</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549358736" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-suho"><em class="glossterm">su'o</em></a></em></span>
       ; it is ungrammatical to just say
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810033936" class="indexterm"></a>bu'a zo'u</em></span>. This rule is necessary because only sumti can appear in the prenex, and
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810032016" class="indexterm"></a>su'o bu'a</em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549356080" class="indexterm"></a>bu'a zo'u</em></span>. This rule is necessary because only sumti can appear in the prenex, and
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549354160" class="indexterm"></a>su'o bu'a</em></span>
       is technically a sumti – in fact, it is an indefinite description like
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810030096" class="indexterm"></a>re nanmu</em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549352240" class="indexterm"></a>re nanmu</em></span>
       , since
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810028416" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-buha"><em class="glossterm">bu'a</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549350560" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-buha"><em class="glossterm">bu'a</em></a></em></span>
       is grammatically equivalent to a brivla like
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810026096" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-nanmu"><em class="glossterm">nanmu</em></a></em></span>. However, indefinite descriptions involving the bu'a-series cannot be imported from the prenex.
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549348240" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-nanmu"><em class="glossterm">nanmu</em></a></em></span>. However, indefinite descriptions involving the bu'a-series cannot be imported from the prenex.
     </p>
-      <p><a id="idm46036810023648" class="indexterm"></a>
+      <p><a id="idm45563549345792" class="indexterm"></a>
       When the prenex is omitted, the preceding number has to be omitted too:
     </p>
       <div class="interlinear-gloss-example example">
@@ -166,9 +174,9 @@
         </div>
       </div>
       <br class="interlinear-gloss-example example-break" />
-      <p class="indent"><a id="idm46036810014560" class="indexterm"></a>
+      <p class="indent"><a id="idm45563549336704" class="indexterm"></a>
       As a result, if the number before the variable is anything but
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036810012864" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-suho"><em class="glossterm">su'o</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563549335008" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-suho"><em class="glossterm">su'o</em></a></em></span>
       , the prenex is required:
     </p>
       <div class="interlinear-gloss-example example">

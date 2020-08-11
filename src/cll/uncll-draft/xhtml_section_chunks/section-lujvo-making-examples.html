@@ -10,7 +10,15 @@
     <link rel="up" href="chapter-morphology.html" title="Chapter 4. The shape of words to come: Lojban morphology" />
     <link rel="prev" href="section-lujvo-scoring.html" title="4.12. The lujvo scoring algorithm" />
     <link rel="next" href="section-gismu-making.html" title="4.14. The gismu creation algorithm" />
-    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" type="text/javascript">
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$']]
+      }
+    };
+    </script>
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
@@ -46,7 +54,7 @@
           </div>
         </div>
       </div>
-      <p><a id="idm46036843475536" class="indexterm"></a>      This section contains examples of making and scoring lujvo. First, we will start with the tanru      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843473440" class="indexterm"></a>gerku zdani</em></span>      (
+      <p><a id="idm45563582797808" class="indexterm"></a>      This section contains examples of making and scoring lujvo. First, we will start with the tanru      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582795712" class="indexterm"></a>gerku zdani</em></span>      (
       <span class="quote">“<span class="quote">dog house</span>”</span>) and construct a lujvo meaning
       <span class="quote">“<span class="quote">doghouse</span>”</span>
       , that is, a house where a dog lives. We will use a brute-force application of the algorithm in
@@ -55,7 +63,7 @@
     </p>
       <p>
       The rafsi for
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843469920" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-gerku"><em class="glossterm">gerku</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582792192" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-gerku"><em class="glossterm">gerku</em></a></em></span>
       are:
     </p>
       <table border="0" summary="Simple list" class="simplelist">
@@ -78,7 +86,7 @@
       </table>
       <p>
       The rafsi for
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843460352" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-zdani"><em class="glossterm">zdani</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582782624" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-zdani"><em class="glossterm">zdani</em></a></em></span>
       are:
     </p>
       <table border="0" summary="Simple list" class="simplelist">
@@ -101,13 +109,13 @@
       and
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">-gerk-</em></span>
       as possible rafsi for
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843449040" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-gerku"><em class="glossterm">gerku</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582771456" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-gerku"><em class="glossterm">gerku</em></a></em></span>
       ; Step 2 directs us to use
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">-zda-</em></span>
       and
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">-zdani</em></span>
       as possible rafsi for
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843444656" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-zdani"><em class="glossterm">zdani</em></a></em></span>. The six possible forms of the lujvo are then:
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582767120" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-zdani"><em class="glossterm">zdani</em></a></em></span>. The six possible forms of the lujvo are then:
     </p>
       <table border="0" summary="Simple list" class="simplelist">
         <tr>
@@ -173,11 +181,11 @@
       </table>
       <p>
       We must then insert appropriate hyphens in each case. The first two forms need no hyphenation:
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843426224" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ge"><em class="glossterm">ge</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582748688" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ge"><em class="glossterm">ge</em></a></em></span>
       cannot fall off the front, because the following word would begin with
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">rz</em></span>
       , which is not a permissible initial consonant pair. So the lujvo forms are
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843422896" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-gerzda"><em class="glossterm">gerzda</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582745296" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-gerzda"><em class="glossterm">gerzda</em></a></em></span>
       and
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">gerzdani</em></span>.
     </p>
@@ -206,9 +214,9 @@
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">gerkyzdani</em></span>
       respectively.
     </p>
-      <p><a id="idm46036843410256" class="indexterm"></a>
+      <p><a id="idm45563582732528" class="indexterm"></a>
       The scoring algorithm is heavily weighted in favor of short lujvo, so we might expect that
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843408432" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-gerzda"><em class="glossterm">gerzda</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582730704" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-gerzda"><em class="glossterm">gerzda</em></a></em></span>
       would win. Its
       <code class="varname">L</code>
       score is 6, its
@@ -220,17 +228,17 @@
       score is 12, and its
       <code class="varname">V</code>
       score is 3, for a final score of 5878. The other forms have scores of 7917, 6367, 9506, 8008, and 10047 respectively. Consequently, this lujvo would probably appear in the dictionary in the form
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843403568" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-gerzda"><em class="glossterm">gerzda</em></a></em></span>.
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582725840" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-gerzda"><em class="glossterm">gerzda</em></a></em></span>.
     </p>
       <p>
       For the next example, we will use the tanru
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843400448" class="indexterm"></a>bloti klesi</em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582722720" class="indexterm"></a>bloti klesi</em></span>
       (
       <span class="quote">“<span class="quote">boat class</span>”</span>) presumably referring to the category (rowboat, motorboat, cruise liner) into which a boat falls. We will omit the long rafsi from the process, since lujvo containing long rafsi are almost never preferred by the scoring algorithm when there are short rafsi available.
     </p>
       <p>
       The rafsi for
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843397328" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-bloti"><em class="glossterm">bloti</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582719600" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-bloti"><em class="glossterm">bloti</em></a></em></span>
       are
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">-lot-</em></span>
       ,
@@ -238,7 +246,7 @@
       , and
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">-lo'i-</em></span>
       ; for
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843392000" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-klesi"><em class="glossterm">klesi</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582714272" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-klesi"><em class="glossterm">klesi</em></a></em></span>
       they are
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">-kle-</em></span>
       and
@@ -271,7 +279,7 @@
           <td>
             <span xml:lang="jbo" class="foreignphrase" lang="jbo">
               <em xml:lang="jbo" class="foreignphrase" lang="jbo">
-                <a id="idm46036843380384" class="indexterm"></a>
+                <a id="idm45563582702656" class="indexterm"></a>
                 <a class="glossterm" href="go01.html#valsi-blolei">
                   <em class="glossterm">blolei</em>
                 </a>
@@ -289,7 +297,7 @@
       Only
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">lo'irlei</em></span>
       requires hyphenation (to avoid confusion with the cmavo sequence
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843374912" class="indexterm"></a>lo'i lei</em></span>). All six forms are valid versions of the lujvo, as are the six further forms using long rafsi; however, the scoring algorithm produces the following results:
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582697184" class="indexterm"></a>lo'i lei</em></span>). All six forms are valid versions of the lujvo, as are the six further forms using long rafsi; however, the scoring algorithm produces the following results:
     </p>
       <div class="informaltable">
         <table>
@@ -329,7 +337,7 @@
             <td>
               <span xml:lang="jbo" class="foreignphrase" lang="jbo">
                 <em xml:lang="jbo" class="foreignphrase" lang="jbo">
-                  <a id="idm46036843362560" class="indexterm"></a>
+                  <a id="idm45563582684832" class="indexterm"></a>
                   <a class="glossterm" href="go01.html#valsi-blolei">
                     <em class="glossterm">blolei</em>
                   </a>
@@ -348,9 +356,9 @@
           </tr>
         </table>
       </div>
-      <p><a id="idm46036843356880" class="indexterm"></a>
+      <p><a id="idm45563582679152" class="indexterm"></a>
       So the form
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843355184" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-blolei"><em class="glossterm">blolei</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582677456" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-blolei"><em class="glossterm">blolei</em></a></em></span>
       is preferred, but only by a tiny margin over
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">blokle</em></span>
       ; "lotlei" and "lotkle" are only slightly worse;
@@ -361,7 +369,7 @@
     </p>
       <p>
       Our third example will result in forming both a lujvo and a cmevla from the tanru
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843349008" class="indexterm"></a>logji bangu girzu</em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582671280" class="indexterm"></a>logji bangu girzu</em></span>
       , or
       <span class="quote">“<span class="quote">logical-language group</span>”</span>
       in English. (
@@ -781,7 +789,7 @@
           <td>
             <span xml:lang="jbo" class="foreignphrase" lang="jbo">
               <em xml:lang="jbo" class="foreignphrase" lang="jbo">
-                <a id="idm46036843223632" class="indexterm"></a>
+                <a id="idm45563582545904" class="indexterm"></a>
                 <a class="glossterm" href="go01.html#valsi-lojbangirz">
                   <em class="glossterm">lojbangirz</em>
                 </a>
@@ -817,22 +825,22 @@
           </td>
         </tr>
       </table>
-      <p><a id="idm46036843214384" class="indexterm"></a><a id="idm46036843212672" class="indexterm"></a>
+      <p><a id="idm45563582536656" class="indexterm"></a><a id="idm45563582534944" class="indexterm"></a>
       The only fully reduced lujvo forms are
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">lojbangri</em></span>
       and
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843209920" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-lojbaugri"><em class="glossterm">lojbaugri</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582532192" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-lojbaugri"><em class="glossterm">lojbaugri</em></a></em></span>
       , of which the latter has a slightly lower score: 8827 versus 8796, respectively. However, for the name of the organization, we chose to make sure the name of the language was embedded in it, and to use the clearer long-form rafsi for
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843207328" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-girzu"><em class="glossterm">girzu</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582529600" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-girzu"><em class="glossterm">girzu</em></a></em></span>
       , producing
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">.lojbangirz.</em></span>
     </p>
       <p>
       Finally, here is a four-part lujvo with a cmavo in it, based on the tanru
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843203232" class="indexterm"></a>nakni ke cinse ctuca</em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582525504" class="indexterm"></a>nakni ke cinse ctuca</em></span>
       or
       <span class="quote">“<span class="quote">male (sexual teacher)</span>”</span>. The
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843201104" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ke"><em class="glossterm">ke</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582523376" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ke"><em class="glossterm">ke</em></a></em></span>
       cmavo ensures the interpretation
       <span class="quote">“<span class="quote">teacher of sexuality who is male</span>”</span>
       , rather than
@@ -857,7 +865,7 @@
           <td>
             <span xml:lang="jbo" class="foreignphrase" lang="jbo">
               <em xml:lang="jbo" class="foreignphrase" lang="jbo">
-                <a id="idm46036843191920" class="indexterm"></a>
+                <a id="idm45563582514192" class="indexterm"></a>
                 <a class="glossterm" href="go01.html#valsi-nakykemcinctu">
                   <em class="glossterm">nakykemcinctu</em>
                 </a>
@@ -1013,19 +1021,19 @@
           </td>
         </tr>
       </table>
-      <p><a id="idm46036843148480" class="indexterm"></a>
+      <p><a id="idm45563582470752" class="indexterm"></a>
       Of these forms,
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843146752" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-nakykemcinctu"><em class="glossterm">nakykemcinctu</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582469024" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-nakykemcinctu"><em class="glossterm">nakykemcinctu</em></a></em></span>
       is the shortest and is preferred by the scoring algorithm. On the whole, however, it might be better to just make a lujvo for
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843144000" class="indexterm"></a>cinse ctuca</em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582466272" class="indexterm"></a>cinse ctuca</em></span>
       (which would be
       <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo">cinctu</em></span>) since the sex of the teacher is rarely important. If there was a reason to specify
       <span class="quote">“<span class="quote">male</span>”</span>
       , then the simpler tanru
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843140544" class="indexterm"></a>nakni cinctu</em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582462816" class="indexterm"></a>nakni cinctu</em></span>
       (
       <span class="quote">“<span class="quote">male sexual-teacher</span>”</span>) would be appropriate. This tanru is actually shorter than the four-part lujvo, since the
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036843138336" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ke"><em class="glossterm">ke</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563582460608" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ke"><em class="glossterm">ke</em></a></em></span>
       required for grouping need not be expressed.
     </p>
     </div>

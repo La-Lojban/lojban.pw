@@ -678,7 +678,7 @@ hr {
   width: 100%;
 }
 
-.display-none, .article > .titlepage hr {
+.guibutton, .display-none, .article > .titlepage hr {
   display: none;
 }
 

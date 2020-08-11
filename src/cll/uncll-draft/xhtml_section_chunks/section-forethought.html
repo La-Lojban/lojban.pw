@@ -10,7 +10,15 @@
     <link rel="up" href="chapter-mekso.html" title="Chapter 18. lojbau mekso: mathematical expressions in Lojban" />
     <link rel="prev" href="section-simple-infix.html" title="18.5. Simple infix expressions and equations" />
     <link rel="next" href="section-useful-selbri.html" title="18.7. Other useful selbri for mekso bridi" />
-    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" type="text/javascript">
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$']]
+      }
+    };
+    </script>
     <meta xmlns="" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:docbook="http://docbook.org/ns/docbook" name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
@@ -212,17 +220,17 @@
       <br class="interlinear-gloss-example example-break" />
       <p class="indent">
       Note that the normally elidable number terminator
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806880848" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-boi"><em class="glossterm">boi</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546203056" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-boi"><em class="glossterm">boi</em></a></em></span>
       is required after
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806878528" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-pa"><em class="glossterm">pa</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546200736" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-pa"><em class="glossterm">pa</em></a></em></span>
       and
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806876176" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-re"><em class="glossterm">re</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546198384" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-re"><em class="glossterm">re</em></a></em></span>
       because otherwise the reading would be
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806873520" class="indexterm"></a>pareci</em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546195728" class="indexterm"></a>pareci</em></span>
       = 123. It is not required after
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806871808" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ci"><em class="glossterm">ci</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546194016" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ci"><em class="glossterm">ci</em></a></em></span>
       but is inserted here in brackets for the sake of symmetry. The only time
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806869488" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-boi"><em class="glossterm">boi</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546191696" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-boi"><em class="glossterm">boi</em></a></em></span>
       is required is, as in
       <a class="xref" href="section-forethought.html#example-random-id-I0Bm" title="Example 18.32. ">Example 18.32</a>
       , when there are two consecutive numbers or lerfu strings.
@@ -231,7 +239,7 @@
       Forethought mekso can use any number of operands, in
       <a class="xref" href="section-forethought.html#example-random-id-I0Bm" title="Example 18.32. ">Example 18.32</a>
       , three. How do we know how many operands there are in ambiguous circumstances? The usual Lojban solution is employed: an elidable terminator, namely
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806865616" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-kuhe"><em class="glossterm">ku'e</em></a></em></span>. Here is an example:
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546187824" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-kuhe"><em class="glossterm">ku'e</em></a></em></span>. Here is an example:
     </p>
       <div class="interlinear-gloss-example example">
         <a id="example-random-id-IxMG"></a>
@@ -300,41 +308,41 @@
       <br class="interlinear-gloss-example example-break" />
       <p class="noindent">
       where we know that
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806847152" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vaha"><em class="glossterm">va'a</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546169360" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vaha"><em class="glossterm">va'a</em></a></em></span>
       is a forethought operator because there is no operand preceding it.
     </p>
-      <p><span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806844208" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vaha"><em class="glossterm">va'a</em></a></em></span>
+      <p><span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546166416" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vaha"><em class="glossterm">va'a</em></a></em></span>
       is the numerical negation operator, of selma'o VUhU. In contrast,
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806841888" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vuhu"><em class="glossterm">vu'u</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546164096" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vuhu"><em class="glossterm">vu'u</em></a></em></span>
       is not used for numerical negation, but only for subtraction, as it always has two or more operands. Do not confuse
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806839424" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vaha"><em class="glossterm">va'a</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546161632" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vaha"><em class="glossterm">va'a</em></a></em></span>
       and
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806837072" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vuhu"><em class="glossterm">vu'u</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546159280" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vuhu"><em class="glossterm">vu'u</em></a></em></span>
       , which are operators, with
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806834688" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-nihu"><em class="glossterm">ni'u</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546156896" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-nihu"><em class="glossterm">ni'u</em></a></em></span>
       , which is part of a number.
     </p>
       <p>
       In
       <a class="xref" href="section-forethought.html#example-random-id-IxMG" title="Example 18.33. ">Example 18.33</a>
       , the operator
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806830944" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vaha"><em class="glossterm">va'a</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546153152" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vaha"><em class="glossterm">va'a</em></a></em></span>
       and the terminator
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806828576" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-kuhe"><em class="glossterm">ku'e</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546150784" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-kuhe"><em class="glossterm">ku'e</em></a></em></span>
       serve in effect as parentheses. (The regular parentheses
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806826256" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vei"><em class="glossterm">vei</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546148464" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vei"><em class="glossterm">vei</em></a></em></span>
       and
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806823904" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-veho"><em class="glossterm">ve'o</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546146112" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-veho"><em class="glossterm">ve'o</em></a></em></span>
       are NOT used for this purpose.) If the
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806821520" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-kuhe"><em class="glossterm">ku'e</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546143728" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-kuhe"><em class="glossterm">ku'e</em></a></em></span>
       were omitted, the
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806818880" class="indexterm"></a>su'i zy</em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546141136" class="indexterm"></a>su'i zy</em></span>
       would be swallowed up by the
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806817168" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vaha"><em class="glossterm">va'a</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546139424" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vaha"><em class="glossterm">va'a</em></a></em></span>
       forethought operator, which would then appear to have two operands,
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806814848" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ny"><em class="glossterm">ny.</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546137104" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-ny"><em class="glossterm">ny.</em></a></em></span>
       and
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806812224" class="indexterm"></a>su'i zy.</em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546134384" class="indexterm"></a>su'i zy.</em></span>
       , where the latter is also a forethought expression.
     </p>
       <p>
@@ -383,41 +391,41 @@
       <br class="interlinear-gloss-example example-break" />
       <p class="indent">
       Again, no parentheses are used. The construct
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806798224" class="indexterm"></a>ma'o fy.boi</em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546120432" class="indexterm"></a>ma'o fy.boi</em></span>
       is the equivalent of an operator, and appears in forethought here (although it could also be used as a regular infix operator). In mathematics, letters sometimes mean functions and sometimes mean variables, with only the context to tell which. Lojban chooses to accept the variable interpretation as the default, and uses the special flag
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806796208" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-maho"><em class="glossterm">ma'o</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546118416" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-maho"><em class="glossterm">ma'o</em></a></em></span>
       to mark a lerfu string as an operator. The cmavo
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806793808" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-xy"><em class="glossterm">xy.</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546116016" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-xy"><em class="glossterm">xy.</em></a></em></span>
       and
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806791552" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-zy"><em class="glossterm">zy.</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546113664" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-zy"><em class="glossterm">zy.</em></a></em></span>
       are variables, but
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806789232" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-fy"><em class="glossterm">fy.</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546111344" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-fy"><em class="glossterm">fy.</em></a></em></span>
       is an operator (a function) because
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806786848" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-maho"><em class="glossterm">ma'o</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546108960" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-maho"><em class="glossterm">ma'o</em></a></em></span>
       marks it as such. The
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806784480" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-boi"><em class="glossterm">boi</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546106592" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-boi"><em class="glossterm">boi</em></a></em></span>
       is required because otherwise the
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806782096" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-xy"><em class="glossterm">xy.</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546104208" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-xy"><em class="glossterm">xy.</em></a></em></span>
       would look like part of the operator name. (The use of
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806779696" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-maho"><em class="glossterm">ma'o</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546101808" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-maho"><em class="glossterm">ma'o</em></a></em></span>
       can be generalized from lerfu strings to any mekso operand: see
       <a class="xref" href="section-miscellany.html" title="18.21. Miscellany">Section 18.21</a>.)
     </p>
       <p>
       When using forethought mekso, the optional marker
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806776464" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-peho"><em class="glossterm">pe'o</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546098576" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-peho"><em class="glossterm">pe'o</em></a></em></span>
       may be placed in front of the operator. This usage can help avoid confusion by providing clearly marked
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806774016" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-peho"><em class="glossterm">pe'o</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546096128" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-peho"><em class="glossterm">pe'o</em></a></em></span>
       and
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806771664" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-kuhe"><em class="glossterm">ku'e</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546093776" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-kuhe"><em class="glossterm">ku'e</em></a></em></span>
       pairs to delimit the operand list.
       <a class="xref" href="section-forethought.html#example-random-id-I0Bm" title="Example 18.32. ">Example 18.32</a>
       to
       <a class="xref" href="section-forethought.html#example-random-id-VybU" title="Example 18.34. ">Example 18.34</a>
       , respectively, with explicit
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806768128" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-peho"><em class="glossterm">pe'o</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546090240" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-peho"><em class="glossterm">pe'o</em></a></em></span>
       and
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806765776" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-kuhe"><em class="glossterm">ku'e</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546087888" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-kuhe"><em class="glossterm">ku'e</em></a></em></span>
       :
     </p>
       <div class="interlinear-gloss-example example">
@@ -426,7 +434,7 @@
           <strong>Example 18.35. <a id="c18e6d4"></a></strong>
         </p>
         <div class="interlinear-gloss-example example-contents">
-          <p xml:lang="jbo" class="jbophrase" lang="jbo"><a id="idm46036806761504" class="indexterm"></a>li pe'o su'i paboi reboi ciboi ku'e du li xa</p>
+          <p xml:lang="jbo" class="jbophrase" lang="jbo"><a id="idm45563546083616" class="indexterm"></a>li pe'o su'i paboi reboi ciboi ku'e du li xa</p>
         </div>
       </div>
       <br class="interlinear-gloss-example example-break" />
@@ -436,7 +444,7 @@
           <strong>Example 18.36. <a id="c18e6d5"></a></strong>
         </p>
         <div class="interlinear-gloss-example example-contents">
-          <p xml:lang="jbo" class="jbophrase" lang="jbo"><a id="idm46036806757792" class="indexterm"></a>li py. su'i pe'o va'a ny. ku'e su'i zy du li xy.</p>
+          <p xml:lang="jbo" class="jbophrase" lang="jbo"><a id="idm45563546079904" class="indexterm"></a>li py. su'i pe'o va'a ny. ku'e su'i zy du li xy.</p>
         </div>
       </div>
       <br class="interlinear-gloss-example example-break" />
@@ -446,15 +454,15 @@
           <strong>Example 18.37. <a id="c18e6d6"></a></strong>
         </p>
         <div class="interlinear-gloss-example example-contents">
-          <p xml:lang="jbo" class="jbophrase" lang="jbo"><a id="idm46036806754080" class="indexterm"></a>li zy du li pe'o ma'o fy.boi xy. ku'e</p>
+          <p xml:lang="jbo" class="jbophrase" lang="jbo"><a id="idm45563546076192" class="indexterm"></a>li zy du li pe'o ma'o fy.boi xy. ku'e</p>
         </div>
       </div>
       <br class="interlinear-gloss-example example-break" />
       <p class="indent">
       Note: When using forethought mekso, be sure that the operands really are operands: they cannot contain regular infix expressions unless parenthesized with
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806751536" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vei"><em class="glossterm">vei</em></a></em></span>
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546073648" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-vei"><em class="glossterm">vei</em></a></em></span>
       and
-      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm46036806749184" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-veho"><em class="glossterm">ve'o</em></a></em></span>. An earlier version of the complex
+      <span xml:lang="jbo" class="foreignphrase" lang="jbo"><em xml:lang="jbo" class="foreignphrase" lang="jbo"><a id="idm45563546071296" class="indexterm"></a><a class="glossterm" href="go01.html#valsi-veho"><em class="glossterm">ve'o</em></a></em></span>. An earlier version of the complex
       <a class="xref" href="section-connectives-within-mekso.html#example-random-id-k36J" title="Example 18.119. ">Example 18.119</a>
       came to grief because I forgot this rule.
     </p>
