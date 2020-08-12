@@ -11,10 +11,10 @@
     <dc:identifier id="isbn-id">urn:isbn:978-0-9660283-3-1</dc:identifier>
     <meta refines="#isbn-id" property="identifier-type" scheme="onix:codelist5">15</meta>
     <dc:language>en-US</dc:language>
-    <meta property="dcterms:modified">2020-08-11T15:25:31Z</meta>
+    <meta property="dcterms:modified">2020-08-12T07:31:56Z</meta>
     <meta name="cover" content="media/cover.jpg"/>
     <dc:publisher>The Logical Language Group</dc:publisher>
-    <dc:description>Version geklojban-1.2.11, Generated 2020-08-11</dc:description>
+    <dc:description>Version geklojban-1.2.11, Generated 2020-08-12</dc:description>
     <dc:language>en</dc:language>
   </metadata>
   <manifest>
