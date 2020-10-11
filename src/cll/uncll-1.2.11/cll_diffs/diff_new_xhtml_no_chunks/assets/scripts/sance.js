@@ -758,23 +758,22 @@ function processNode(urli, Node, text, func) {
         case 0:
           _context.next = 2;
           return regeneratorRuntime.awrap(new Promise(function (resolve) {
-            try {
-              var http = new XMLHttpRequest();
-              http.open('HEAD', urli, false);
-              http.send();
-
-              if (http.status == 200) {
+            fetch(urli, {
+              method: 'HEAD'
+            }).then(function (res) {
+              if (res.status == 200) {
                 var sance = new Audio(urli);
                 sance.id = "sance_" + encodeValsiForWeb(text);
                 sance.addEventListener('canplaythrough', function (event) {
                   Node = func(Node, sance, text);
                   resolve();
                 });
+              } else {
+                resolve();
               }
-            } catch (error) {
-              console.log(error);
+            }).catch(function () {
               resolve();
-            }
+            });
           }));
 
         case 2:

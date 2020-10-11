@@ -10,7 +10,7 @@
 
 ## Releases
 
-### geklojban-1.2.11 October 2020
+### geklojban-1.2.11.1 October 2020
 
 #### Compiled version
 *   read the final document that is to be used for printing and publication. Notice that the title page has the document explicitly marked as "geklojban-1.2.11" and has the name of the organization published it different from the LLG; this is done to emphasize that it's not an LLG publication:
@@ -28,6 +28,7 @@
 * Audio links (audio by la tcakoi, la .lindar., la .aionys.) are added to "splits by sections" and "split by chapters" HTML versions of the book
 * fix several mistypes
 * add hanzi characters to one Chinese example
+* 1.2.11.1 hotfix release: make audio buttons in HTML pages actually work
 
 #### [git source](https://github.com/lojban/cll/compare/geklojban-1.2.11)
 
