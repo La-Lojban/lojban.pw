@@ -23,6 +23,7 @@ Fun fact: this is the symbol of jelly called **lo jduli** in Lojban (pronounced 
 * [ckule](https://t.me/joinchat/BLVsYz4hC9ulWahupDLovA) - "school", mostly for questions from you as a beginner. It may also be used by active members when "lojban" channel becomes too active.
 * [jbosnu](https://t.me/joinchat/BLVsYz20Boixl0xN-0TrPw) - a group for talking in Lojban only
 * [jboselbau](https://t.me/joinchat/CJYorT2ma6UVfhb9YThEqw) - a group for discussions not necessarily related to Lojban.
+* [voknoi](https://t.me/joinchat/IA5__x1TXTaLH2sKyOvMQg) - a group for voice only messages in Lojban.
 * [@lojbo](https://t.me/lojbo) - groups in other languages
 
 # ![slack](https://github.com/La-Lojban/suho-pixra-pe-la-jbotcan/blob/master/slack-24.png?raw=true) Free Slack messenger
