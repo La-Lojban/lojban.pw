@@ -1,0 +1,30 @@
+{
+  "name": "lojban-made-easy",
+  "version": "1.0.0",
+  "description": "Lojban free unofficial documentation",
+  "main": "link-fixer/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "push": "git add . ; git commit -m 'fix' ; git push -u origin master --force",
+    "fix": "node link-fixer",
+    "deploy": "npm run fix ; mkdocs build ; npm run push",
+    "clean_cll": "cd src/cll ; find . -type f -name '*.xml' -exec rm {} + ; find . -type d -name 'dtd' -exec rm -rf {} + ; find . -type d -name 'xml' -exec rm -rf {} + ; find . -type f -name '*.out' -exec rm {} + ; find . -type f -name '*.new' -exec rm {} + ; find . -type d -name '*_epub' -exec rm -rf {} + ; find . -type f -name '*.xml-*' -exec rm {} + ; find . -type d -name 'epub-xhtml' -exec rm -rf {} + ; find . -type d -name 'diff_new_xhtml_section_chunks' -exec rm -rf {} + ; find . -type d -name 'diff_*_chapter_chunks' -exec rm -rf {} + ; find . -type d -name 'diff_old_*' -exec rm -rf {} + ; find . -type f -name '*.done' -exec rm {} + ; cd ../../",
+    "prune": "npm run clean_cll ; npm run fix ; git checkout --orphan newBranch ; git add -A ; git commit -m 'init' ;git branch -D master ; git branch -m master ; git push -f origin master ; git gc --aggressive --prune=all ; npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/la-lojban/lojban-made-easy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/la-lojban/lojban-made-easy/issues"
+  },
+  "homepage": "https://github.com/la-lojban/lojban-made-easy#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "path-extra": "^4.3.0"
+  }
+}

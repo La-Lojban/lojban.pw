@@ -1,0 +1,70 @@
+site_name: Lojban made easy
+site_url: https://lojban.pw
+plugins:
+    - search:
+        lang: en
+    - minify:
+        minify_html: true
+nav:
+    - Home: index.md
+    - Learn Lojban: books/learn-lojban.md
+    - Complete Lojban Language: articles/complete-lojban-language.md
+    - Lojban Live Chat: articles/live_chat.md
+    - Dialects: articles/dialects.md
+    - la krulermorna: articles/krulermorna.md
+    - How to say "play" in Lojban: articles/how-to-say-play-in-lojban.md
+    # - Basic: basic.md
+    # - Cases: cases.md
+    # - Verbs: verbs.md
+    # - Metalinguistic: metalinguistic.md
+    # - Text structure: text-structure.md
+    # - Suffixes: suffixes.md
+
+extra_css: ['assets/css/extra.css']
+
+markdown_extensions:
+  - def_list
+  - admonition
+  - meta
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: "#"
+      baselevel: 1
+theme:
+    feature:
+        tabs: true
+    name: material
+    custom_dir: 'theme'
+    palette:
+      - scheme: default
+        primary: deep orange
+        accent: amber
+        toggle:
+          icon: material/toggle-switch-off-outline
+          name: Switch to dark mode
+      - scheme: slate
+        primary: black
+        accent: amber
+        toggle:
+          icon: material/toggle-switch
+          name: Switch to light mode
+    favicon: 'assets/img/lojbo.svg'
+    logo: 'assets/img/lojbo.svg'
+    highlightjs: false
+    show_sidebar: true
+docs_dir: src
+site_dir: docs
+extra:
+  disqus: lojban-pw
+  copyright: ''
+  generator: false
+  social:
+    - icon: fontawesome/brands/discord
+      link: 'https://discord.gg/wasp5fj'
+    - icon: fontawesome/brands/github-alt
+      link: 'https://github.com/lagleki/lojban/issues'
+    - icon: fontawesome/brands/facebook
+      link: 'https://facebook.com/groups/lojban'
+    - icon: fontawesome/brands/reddit
+      link: 'https://reddit.com/r/lojban'
