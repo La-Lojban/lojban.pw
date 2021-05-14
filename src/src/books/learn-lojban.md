@@ -204,16 +204,16 @@ It might sound strange how person can be a "verb" but in fact this makes Lojban 
 </thead>
 <tbody>
 <tr>
-<td><b>prenu</b> - <i>to be a person</i> </td>
-<td><b>le prenu</b> - <i>the person</i>
+<td><b>prenu</b> — <i>to be a person</i> </td>
+<td><b>le prenu</b> — <i>the person</i>
 </td></tr>
 <tr>
-<td><b>tavla</b> - <i>to speak to</i> </td>
-<td><b>le tavla</b> - <i>the speaker</i>
+<td><b>tavla</b> — <i>to speak to</i> </td>
+<td><b>le tavla</b> — <i>the speaker</i>
 </td></tr>
 </tbody></table>
 
-We can also say that **le** creates a noun from a relation word with roughly the meaning of _the one which is …_ (_is a person_ - _the person_), or even _those who do…_ (_to speak to_ - _the speakers_), _those who are…_ (_are people_ - _the people_).
+We can also say that **le** creates a noun from a relation word with roughly the meaning of _the one which is …_ (_is a person_ — _the person_), or even _those who do…_ (_to speak to_ — _the speakers_), _those who are…_ (_are people_ — _the people_).
 
 Notice, that Lojban by default doesn't differentiate between _the speaker_ or _the speakers_. That is, **le tavla** is vague in that regard and we will soon discover ways to define the number.
 
@@ -773,8 +773,8 @@ So what is expressed using intonation in English is expressed by moving **xu** a
 
 **xu** is an interjection word. Here are the features of Lojban interjections:
 
-- interjection modifies the construct before it. So when put after certain part of the relation like pronoun or a verb it modifies that verb: **do xu nelci le gerku** - _Do YOU like the dogs?_
-- being put in the beginning of a relation, interjection modifies the whole relation: **xu do nelci le gerku** - _Do you like the dogs?_
+- interjection modifies the construct before it. So when put after certain part of the relation like pronoun or a verb it modifies that verb: **do xu nelci le gerku** — _Do YOU like the dogs?_
+- being put in the beginning of a relation, interjection modifies the whole relation: **xu do nelci le gerku** — _Do you like the dogs?_
 - we can put an interjection after different parts of the same relation shifting the meaning.
 
 Interjections don't break compound verbs, they can be used within them:
@@ -1242,7 +1242,7 @@ Actually, in English _but_ is the same as _and_ + it adds a flavor of contrast.
 
 In Lojban we just use the conjunction **.i je** (or **.e**, **gi'e**, **je** depending on what we connect) and add the falvor of contrast to it with the interjection **ku'i**. That will give us the necessary contrast. As usual, the interjection modifies the construct before it.
 
-### Events: ‘_dancing and being together_’ - «**le nu dansu .e le nu kansa**»
+### Events: ‘_dancing and being together_’ — «**le nu dansu .e le nu kansa**»
 
 Any relation can be turned into a verb by putting **nu** in front of it:
 
@@ -1382,7 +1382,7 @@ Close the right part of the table. Translate to Lojban the sentences on the left
 <td><b>mi djica le nu do gleki</b>
 </td></tr></tbody></table>
 
-### Modal terms. Simple tenses: ‘_was_’, ‘_is_’, ‘_will be_’ - «**pu**», «**ca**», «**ba**»
+### Modal terms. Simple tenses: ‘_was_’, ‘_is_’, ‘_will be_’ — «**pu**», «**ca**», «**ba**»
 
 Tenses in Lojban are expressed as modal terms. We've already seen the modal term **ca** meaning _at present_.
 
@@ -1497,13 +1497,13 @@ Both sentences mean the same, **ba pluka** is a single verb meaning _… will be
 
 The structure of **le nicte ba pluka** is the following:
 
-- **le nicte** - the head of the sentence with just one term **le nicte**
-- **ba pluka** - the tail of the sentence with just one verb **ba pluka**
+- **le nicte** — the head of the sentence with just one term **le nicte**
+- **ba pluka** — the tail of the sentence with just one verb **ba pluka**
 
 Contrast this with the previous sentence **le nicte ba cu pluka**:
 
-- **le nicte ba** - the head of the sentence with two terms **le nicte** and **ba**
-- **pluka** - the tail of the sentence with just one verb **pluka**
+- **le nicte ba** — the head of the sentence with two terms **le nicte** and **ba**
+- **pluka** — the tail of the sentence with just one verb **pluka**
 
 The advantage of **le nicte ba pluka** over **le nicte ba cu pluka** is only in conciseness, you can usually skip saying **cu** in such cases since the sentence can't be understood otherwise anyway.
 
@@ -1600,7 +1600,7 @@ We can use the same rules for describing the past using **pu** instead of **ca**
 
 The relative order of tenses is important. In **ca co'i** we first say something happens in present (**ca**), then we state that in this present time the described event has been completed (**co'i**). Only when using this order we get Present Perfect tense.
 
-### Modal terms. Intervals: ‘_during_’ - «**ze'a**»
+### Modal terms. Intervals: ‘_during_’ — «**ze'a**»
 
 Another series of modal terms emphasizes that events happened during an interval:
 
@@ -1645,7 +1645,7 @@ le nicte
 
 When using **ze'a** we are talking about the whole interval of what we describe. Don't forget that **nicte** is itself an event so we don't need **nu** here.
 
-### Modal terms. ‘_because_’ - «**ri'a**», ‘_towards_’ - «**fa'a**», ‘_at (place)_’ - «**bu'u**»
+### Modal terms. ‘_because_’ — «**ri'a**», ‘_towards_’ — «**fa'a**», ‘_at (place)_’ — «**bu'u**»
 
 Modal term for _because_:
 
@@ -1929,7 +1929,7 @@ Here is a compact representation of Lojban sounds:
 	- **b d g v z j** (voiced)
 	- **p t k f s c x** (unvoiced)
 	- **l m n r**
-	- **i u**. They are considered consonants when put between two vowels or in the beginning of a word. **.iaua** - **i** and **u** are consonants here. **.iai** - here is the consonant **i** with an vowel **ai** after it.
+	- **i u**. They are considered consonants when put between two vowels or in the beginning of a word. **.iaua** — **i** and **u** are consonants here. **.iai** — here is the consonant **i** with an vowel **ai** after it.
 	- **'** (apostrophe). It is put only between two vowels: **.e'e**, **.u'i**
 	- **.** (dot, word break)
 
@@ -3098,10 +3098,10 @@ Usually we don't need all the places of a verb, so we can omit the unnecessary o
 > _I love you._
 
 - **fa** marks the first place of a verb (x1)
-- **fe** - marks the second place (x2)
-- **fi** - marks the third place (x3)
-- **fo** - marks the fourth place (x4)
-- **fu** - marks the fifth place (x5)
+- **fe** — marks the second place (x2)
+- **fi** — marks the third place (x3)
+- **fo** — marks the fourth place (x4)
+- **fu** — marks the fifth place (x5)
 
 More examples:
 
@@ -3575,7 +3575,7 @@ If there are several modal terms in one relation, the rule is that we read them 
 
 Let's take **mi mo'u co'a speni**.
 
-**mo'u** means that an event is complete. Which event? The event **co'a speni** - to become married. Hence, **mi mo'u co'a speni** means _I finish the process of the becoming married_, i.e. _I am newlywed._
+**mo'u** means that an event is complete. Which event? The event **co'a speni** — to become married. Hence, **mi mo'u co'a speni** means _I finish the process of the becoming married_, i.e. _I am newlywed._
 
 We say in such case that **co'a speni** is within the "scope" of **mo'u**.
 
@@ -3954,7 +3954,7 @@ For quoting text we place quotation particle **lu** before the quote and place *
 cusku
 : x1 expresses/says x2 (quote) to audience x3
 
-A nice feature of Lojban is that **lu** - «quote» and **li'u** - «unquote» marks are pronounceable. It is quite handy since in spoken Lojban you don't have to change intonation to show where a quoted text starts and ends.
+A nice feature of Lojban is that **lu** — «quote» and **li'u** — «unquote» marks are pronounceable. It is quite handy since in spoken Lojban you don't have to change intonation to show where a quoted text starts and ends.
 
 However, in written text that quotes a conversation, the author often pays reader's attention to the content of quotations. In such cases **sei** is preferred.
 
@@ -4445,7 +4445,7 @@ Thus, Lojban has several words for _that …_, depending on what sort of thing i
 - If _that_ describes what can be seen, heard, what happens, use **nu**.
 - If _that_ describes what you think, some fact or information, use **du'u**.
 - If _that_ describes what you say, use **se du'u**.
-  - But if you need a literal quote use **lu … li'u**.
+	- But if you need a literal quote use **lu … li'u**.
 
 ### Emotional interjections
 
@@ -4697,24 +4697,25 @@ Common examples of interjections:
 
 - interjection with bare root:
 
-  > **ju'o le bruna co'i klama**
+	> **ju'o le bruna co'i klama**
 
-  > _I'm sure, the brother has come._
+	> _I'm sure, the brother has come._
 
 - scalar particle **cu'i** turns bare interjection into the middle attitude:
 
-  > **ju'o cu'i le bruna co'i klama**
+	> **ju'o cu'i le bruna co'i klama**
 
-  > _Maybe the brother has come, I'm not sure._
+	> _Maybe the brother has come, I'm not sure._
 
 - scalar particle **nai** turns interjection into the opposite attitude:
 
-  > **ju'o nai le bruna co'i klama**
+	> **ju'o nai le bruna co'i klama**
 
-  > _Maybe the brother has come, maybe not, I have no idea_
+	> _Maybe the brother has come, maybe not, I have no idea_
 
-  - Similarly, **ui** is _Whee! Yay!_ while **ui nai** means _Alas!_
-  - Precise meanings of interjections that are meaningful with their scalar particles **cu'i** and **nai** are given in the dictionary.
+	Similarly, **ui** is _Whee! Yay!_ while **ui nai** means _Alas!_
+
+	Precise meanings of interjections that are meaningful with their scalar particles **cu'i** and **nai** are given in the dictionary.
 
 - scalar particle **sai** denotes strong intensity of interjection:
 
@@ -4732,88 +4733,88 @@ Suffixes are added after the root of interjection (together with its scalar part
 
 - interjection suffix **pei** turns interjection into a question.
 
-  > — **.au pei do e mi klama le zarci**
+	> — **.au pei do e mi klama le zarci**
 
-  > — **.au cu'i**
+	> — **.au cu'i**
 
-  > — _Do you want that you and I go to the store?_
+	> — _Do you want that you and I go to the store?_
 
-  > — _Meh, I don't have any preferences._
+	> — _Meh, I don't have any preferences._
 
-  <!-- -->
+	<!-- -->
 
-  > — **ie pei tu melbi**
+	> — **ie pei tu melbi**
 
-  > — **ie**
+	> — **ie**
 
-  > — _That one is pretty, isn't it?_
+	> — _That one is pretty, isn't it?_
 
-  > — _Yeah._
+	> — _Yeah._
 
 - interjection suffix **dai** shows another's feelings, not feelings of the speaker:
 
-  > **ui nai dai do na ku co'i jinga**
+	> **ui nai dai do na ku co'i jinga**
 
-  > _You must be sad, you haven't won._
+	> _You must be sad, you haven't won._
 
-  <!-- -->
+	<!-- -->
 
-  > **.a'u**
+	> **.a'u**
 
-  > _That's interesting!_
+	> _That's interesting!_
 
-  <!-- -->
+	<!-- -->
 
-  > **.a'u dai**
+	> **.a'u dai**
 
-  > _That must have been interesting for you!_
+	> _That must have been interesting for you!_
 
 - Bare interjections express the attitude of the speaker. **ei do cliva** means not _You ought to leave_, but _I feel the obligation for you to leave_. **dai** shows that the speaker is empathizing someone else's feelings.
 
-  > **.ei dai do cliva**
+	> **.ei dai do cliva**
 
-  > _You feel the obligation for yourself to leave._
+	> _You feel the obligation for yourself to leave._
 
 Note that interjections don't necessarily show attitude towards the speakers themselves. Instead, they express speakers' attitude towards other things.
 
 - interjection suffix **zo'o** marks the attitude as expressed not seriously:
 
-  > **e'u zo'o do pinxe ti**
+	> **e'u zo'o do pinxe ti**
 
-  > _I suggest that you drink it (kidding)._
+	> _I suggest that you drink it (kidding)._
 
-  **zo'o** is used just like the smiley-face in e-mail, to indicate that you're being humorous when saying something, and it's used for much the same reason. Although, simleys can be ambiguous, and **zo'o** has only one meaning, which is handy.
+	**zo'o** is used just like the smiley-face in e-mail, to indicate that you're being humorous when saying something, and it's used for much the same reason. Although, simleys can be ambiguous, and **zo'o** has only one meaning, which is handy.
 
 - Suffixes can also be modified with scalar particles:
 
-  > **ie zo'o nai**
+	> **ie zo'o nai**
 
-  > _I agree (not kidding)._
+	> _I agree (not kidding)._
 
-  **zo'o nai** is used to show that the information is not a joke:
+	**zo'o nai** is used to show that the information is not a joke:
 
 - Suffixes can be used on its own:
 
-  - **pei** when used alone asks for any interjection that the listener would feel appropriate:
+	- **pei** when used alone asks for any interjection that the listener would feel appropriate:
 
-    > — **pei le lunra cu crino**
+		> — **pei le lunra cu crino**
 
-    > — **.ie nai**
+		> — **.ie nai**
 
-    > — _The moon is green (what is your feeling about it?)_
+		> — _The moon is green (what is your feeling about it?)_
 
-    > — _I disagree._
+		> — _I disagree._
 
 - For other suffixes they mean that the root interjection **ju'a** (_I state_) was omitted:
 
-  > **zo'o do kusru**
+	> **zo'o do kusru**
 
-  > **ju'a zo'o do kusru**
+	> **ju'a zo'o do kusru**
 
-  > _You are cruel (kidding)._
+	> _You are cruel (kidding)._
 
-  ju'a
-  : interjection: I state (don't confuse it with **ju'o** (I'm sure))
+	ju'a
+	: interjection: I state (don't confuse it with **ju'o** (I'm sure))
 
 ### Just for reference: interjections in a table
 
@@ -5423,7 +5424,7 @@ re'i
 
 > _Do you see that thing near you?_
 
-In English we say _Сan you see_, in Lojban we say just **xu do viska** - _You see?_
+In English we say _Сan you see_, in Lojban we say just **xu do viska** — _You see?_
 
 <!-- -->
 
@@ -5671,7 +5672,7 @@ Similarly to vision, we can say _hear a sound_ and _hear something producing the
 
 #### Perception in general
 
-We can also use the vague **ganse** - _to sense stimulus_.
+We can also use the vague **ganse** — _to sense stimulus_.
 
 ganse
 : x1 senses stimulus x2 (object, event) by means x3
@@ -5915,7 +5916,7 @@ carmi
 manku
 : x1 is dark
 
-### Emotions: «**cmila**» - ‘_to laugh_’. «**cisma**» - ‘_to smile_’
+### Emotions: «**cmila**» — ‘_to laugh_’. «**cisma**» — ‘_to smile_’
 
 > **coi**
 
@@ -6532,7 +6533,7 @@ Modal terms don't remove ordered places (**fa**, **fe**, **fi**, **fo**, **fu**)
 
 > _I go to a river, to a house._
 
-Here, the first example uses **se ka'a** to connect **le rirxe** and then the second place of **klama** follows being filled with **le dinju**. It's the same as just filling the second place of **klama** two times, that is connecting them with **.e** - _and_.
+Here, the first example uses **se ka'a** to connect **le rirxe** and then the second place of **klama** follows being filled with **le dinju**. It's the same as just filling the second place of **klama** two times, that is connecting them with **.e** — _and_.
 
 However, **se ka'a** is nice when applied to other verbs like **cadzu** in a previous example.
 
@@ -6578,7 +6579,7 @@ x1 of the relation describes the most one in this comparison, the relation itsel
 
 The dictionary explains such tricky cases where the relation defined by the term might pose difficulty. In practice, the relation is often clear from the examples provided.
 
-### Using «**ne**» + term. «**se mau**» - ‘_more than …_’
+### Using «**ne**» + term. «**se mau**» — ‘_more than …_’
 
 > **mi ne se mau do cu melbi**
 
@@ -6729,7 +6730,7 @@ se steci
 
 > _It's not true that only I like bananas._
 
-– maybe no one likes bananas, maybe me + others lime them. -->
+— maybe no one likes bananas, maybe me + others lime them. -->
 
 <!-- One more interesting example:
 
@@ -6838,7 +6839,7 @@ Some examples:
 
 > _At least one person loves you._
 
-### ‘_never_’ - «**no roi**», ‘_always_’ - «**ro roi**»
+### ‘_never_’ — «**no roi**», ‘_always_’ — «**ro roi**»
 
 Terms specifying the number of times:
 
@@ -6871,7 +6872,7 @@ Without **pu** the construct **re roi** may mean that once I went to the market 
 
 > _I come here once a week._
 
-### ‘_for the first time_’ - «**pa re'u**», ‘_for the last time_’ - «**ro re'u**»
+### ‘_for the first time_’ — «**pa re'u**», ‘_for the last time_’ — «**ro re'u**»
 
 - **pa re'u** = _for the first time_
 - **re re'u** = _for the second time_
@@ -6953,11 +6954,32 @@ Bare terms without arguments after them can be moved around the sentence by addi
 Here are several places where modal terms can go.
 
 - modal term modifies the relation to the right of it:
-  - **ca ku mi citka** - _Now I eat._ The term labelled with a word **ku** as being completed
-  - **ca le cabdei mi citka** - _Today I eat_. The term with a noun after it as its argument.
-  - **mi ca citka** - _I now eat._ tense particle before the main verb and without a noun.
+  
+	> **ca ku mi citka**
+
+	> _Now I eat._
+
+	— the term labelled with a word **ku** as being completed.
+
+	> **ca le cabdei mi citka**
+	
+	> _Today I eat._
+	
+	— the term with a noun after it as its argument.
+	
+	> **mi ca citka**
+	
+	> _I now eat._
+	
+	— tense particle before the main verb and without a noun.
+
 - Modal term is applied to the whole relation:
-  - **mi citka ca** - _I eat now._ Modal term at the end of the relation.
+	
+	> **mi citka ca**
+	
+	> _I eat now._
+	
+	— modal term at the end of the relation.
 
 ### Joining statements with modals
 
@@ -7201,7 +7223,7 @@ Scope is created only by:
 
 - borders of relation,
 - term modals,
-- nouns starting with numbers (like **pa le prenu** - _one of the persons_),
+- nouns starting with numbers (like **pa le prenu** — _one of the persons_),
 <!-- - discursive interjections **po'o**, **ji'a**. -->
 
 **da**, **de**, **di** if used without a prenex and without an explicit number in front are meant to mean **su'o da**, **su'o de**, **su'o di** and thus also create scope.
@@ -7306,7 +7328,7 @@ Thus in English
 And in Lojban
 
 - only the tense of the main relation is relative to whoever utters the relation.
-- the other tenses are relative to each other. This is why, in **la .alis. pu cusku le se du'u ri pu penmi la .doris. la'u le djedi be li ci** the second **pu** is relative to the first **pu**. In **la .alis. pu cusku le se du'u ri ca kansa la .doris.**, we use **ca** (_at the same time_) which is relative to the outer relation (**pu cusku** - _said_).
+- the other tenses are relative to each other. This is why, in **la .alis. pu cusku le se du'u ri pu penmi la .doris. la'u le djedi be li ci** the second **pu** is relative to the first **pu**. In **la .alis. pu cusku le se du'u ri ca kansa la .doris.**, we use **ca** (_at the same time_) which is relative to the outer relation (**pu cusku** — _said_).
 
 However, we can use the modal term **nau** (_at the time or place of the speaker_), which will give the same effect as how English works:
 
@@ -7472,7 +7494,7 @@ This does not mean that Romans are not attacking Carthage these days. In Lojban,
 
 > _That's a big dog. This is a dog covering a large space._
 
-### «**pu'o**» - ‘_to be about_’, «**ba'o**» - ‘_no longer_’, «**za'o**» - ‘_still_’, «**xa'o**» - ‘_already_’
+### «**pu'o**» — ‘_to be about_’, «**ba'o**» — ‘_no longer_’, «**za'o**» — ‘_still_’, «**xa'o**» — ‘_already_’
 
 Here are several sets of modal terms that can help us add finer meanings when necessary.
 
@@ -8718,9 +8740,9 @@ Cardinal numbers are placed before ordinal numbers in a string and separated by 
 
 > _the first three cups of coffee_
 
-Without **boi** it would turn into **ci pa moi** – _thirty-first_.
+Without **boi** it would turn into **ci pa moi** — _thirty-first_.
 
-### «**gau**» - make them do it
+### «**gau**» — make them do it
 
 The term **gau** marks the agent of event:
 
@@ -8750,7 +8772,7 @@ There is also another method that retains the same order of words as in English:
 
 > **ko jai gau kalri fai le canko** > _Open the window!_
 
-Here we transform the verb **kalri** - _to be open_ into a verb
+Here we transform the verb **kalri** — _to be open_ into a verb
 
 jai gau kalri
 : to open something
@@ -8785,7 +8807,7 @@ Some more variations:
 
 > _Move the car here!_
 
-**muvdu** - _moves to some place_ is transformed into a new verb **jai gau muvdu** - _to move something or someone to some place_.
+**muvdu** — _moves to some place_ is transformed into a new verb **jai gau muvdu** — _to move something or someone to some place_.
 
 muvdu
 : x1 moves to x2 from x3 via x4
@@ -8803,7 +8825,7 @@ jai gau muvdu fai le karce
 
 > _Make Alice come!_
 
-### ‘_Why_?’ - «**ri'a**», «**ni'i**», «**mu'i**», «**ki'u**»
+### ‘_Why_?’ — «**ri'a**», «**ni'i**», «**mu'i**», «**ki'u**»
 
 > **- ri'a ma carvi**
 
@@ -9544,7 +9566,7 @@ It is also possible to use conjunctions when replying:
 
 > **na .e nai** — _Neither_ (not the first and not the second one is chosen)
 
-You can ask questions in the same way about the other kinds of conjunctions we have looked at. The interrogative conjunction for relation tails is **gi'i**, for compound verbs - **je'i**, for sentences — **.i je'i**.
+You can ask questions in the same way about the other kinds of conjunctions we have looked at. The interrogative conjunction for relation tails is **gi'i**, for compound verbs — **je'i**, for sentences — **.i je'i**.
 
 Indirect questions are achieved by using **ji kau**:
 
@@ -10139,7 +10161,7 @@ The fact that it was a compound verb could quickly be lost in speech due to the 
 
 It is the same relation as the previous Lojban one, but much more easy to understand. Notice that any noun before the compound verb fills **se jibri**, while any following it only fills the modifying verb: **fanva**.
 
-The strength by which two verbs are bound together with **co** is very weak – even weaker than normal compound verb grouping without any grouping words. This makes sure that, in a co-construct, the leftmost verb word is always the verb being modified, and the rightmost always modifies, even if any of those parts are compound verbs. This makes a co-construct easy to understand:
+The strength by which two verbs are bound together with **co** is very weak — even weaker than normal compound verb grouping without any grouping words. This makes sure that, in a co-construct, the leftmost verb word is always the verb being modified, and the rightmost always modifies, even if any of those parts are compound verbs. This makes a co-construct easy to understand:
 
 > **ti pelxu plise co kukte**
 
