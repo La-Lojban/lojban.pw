@@ -1,0 +1,698 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="isbn-id">
+  <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title id="title">The Complete Lojban Language</dc:title>
+    <meta refines="#title" property="title-type">main</meta>
+    <meta refines="#title" property="file-as">Complete Lojban Language, The</meta>
+    <dc:creator id="creator">John Woldemar Cowan</dc:creator>
+    <meta refines="#creator" property="file-as">Woldemar, John Cowan</meta>
+    <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
+    <!-- Note that the EPUB and the hardcover have different ISBNs -->
+    <dc:identifier id="isbn-id">urn:isbn:978-0-9660283-3-1</dc:identifier>
+    <meta refines="#isbn-id" property="identifier-type" scheme="onix:codelist5">15</meta>
+    <dc:language>en-US</dc:language>
+    <meta property="dcterms:modified">2020-04-21T14:28:57Z</meta>
+    <meta name="cover" content="media/cover.jpg"/>
+    <dc:publisher>The Logical Language Group</dc:publisher>
+    <dc:description>Version geklojban-1.2.6, Generated 2020-04-21</dc:description>
+    <dc:language>en</dc:language>
+  </metadata>
+  <manifest>
+    <item id="cover" href="cover.html" media-type="application/xhtml+xml" />
+    <item properties="cover-image" id="cover_image" href="media/cover.jpg" media-type="image/jpeg"/>
+    <item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml"/>
+    <item href="final.css" id="css" media-type="text/css"/>
+<item id="sectionvuhuhtml"  href="section-vuhu.html" media-type="application/xhtml+xml"/>
+<item id="sectionproposedlerfuwordshtml"  href="section-proposed-lerfu-words.html" media-type="application/xhtml+xml"/>
+<item id="sectionnestinghtml"  href="section-nesting.html" media-type="application/xhtml+xml"/>
+<item id="sectiondependentplaceshtml"  href="section-dependent-places.html" media-type="application/xhtml+xml"/>
+<item id="sectionfourscoreandsevenhtml"  href="section-four-score-and-seven.html" media-type="application/xhtml+xml"/>
+<item id="sectionrigohiserieshtml"  href="section-ri-gohi-series.html" media-type="application/xhtml+xml"/>
+<item id="sectionanglophonediphthongshtml"  href="section-anglophone-diphthongs.html" media-type="application/xhtml+xml"/>
+<item id="creditshtml"  href="credits.html" media-type="application/xhtml+xml"/>
+<item id="sectionconnectiveshtml"  href="section-connectives.html" media-type="application/xhtml+xml"/>
+<item id="sectionsubscriptsgeneralhtml"  href="section-subscripts-general.html" media-type="application/xhtml+xml"/>
+<item id="sectioncoinversionhtml"  href="section-co-inversion.html" media-type="application/xhtml+xml"/>
+<item id="sectionoddballorthographieshtml"  href="section-oddball-orthographies.html" media-type="application/xhtml+xml"/>
+<item id="sectionlogicalconnectionhtml"  href="section-logical-connection.html" media-type="application/xhtml+xml"/>
+<item id="sectionmodalnegationhtml"  href="section-modal-negation.html" media-type="application/xhtml+xml"/>
+<item id="sectionerasurehtml"  href="section-erasure.html" media-type="application/xhtml+xml"/>
+<item id="sectionradixenhtml"  href="section-radixen.html" media-type="application/xhtml+xml"/>
+<item id="sectioncomplexgroupinghtml"  href="section-complex-grouping.html" media-type="application/xhtml+xml"/>
+<item id="sectiondiphthongshtml"  href="section-diphthongs.html" media-type="application/xhtml+xml"/>
+<item id="sectionICAOalphabethtml"  href="section-ICAO-alphabet.html" media-type="application/xhtml+xml"/>
+<item id="sectionmiserieshtml"  href="section-mi-series.html" media-type="application/xhtml+xml"/>
+<item id="sectionkohabrodaserieshtml"  href="section-koha-broda-series.html" media-type="application/xhtml+xml"/>
+<item id="sectionindefinitenumbershtml"  href="section-indefinite-numbers.html" media-type="application/xhtml+xml"/>
+<item id="sectionvowelpairshtml"  href="section-vowel-pairs.html" media-type="application/xhtml+xml"/>
+<item id="sectiongreekhtml"  href="section-greek.html" media-type="application/xhtml+xml"/>
+<item id="sectionmasseshtml"  href="section-masses.html" media-type="application/xhtml+xml"/>
+<item id="sectioncomparativeshtml"  href="section-comparatives.html" media-type="application/xhtml+xml"/>
+<item id="sectionstructureofutteranceshtml"  href="section-structure-of-utterances.html" media-type="application/xhtml+xml"/>
+<item id="sectiondirectioncmavohtml"  href="section-direction-cmavo.html" media-type="application/xhtml+xml"/>
+<item id="sectioncopyrighthtml"  href="section-copyright.html" media-type="application/xhtml+xml"/>
+<item id="sectionscalesnegationhtml"  href="section-scales-negation.html" media-type="application/xhtml+xml"/>
+<item id="sectiondescriptorshtml"  href="section-descriptors.html" media-type="application/xhtml+xml"/>
+<item id="sectionnumbersummaryhtml"  href="section-number-summary.html" media-type="application/xhtml+xml"/>
+<item id="sectionindefinitedescriptionshtml"  href="section-indefinite-descriptions.html" media-type="application/xhtml+xml"/>
+<item id="sectionspatialtenseshtml"  href="section-spatial-tenses.html" media-type="application/xhtml+xml"/>
+<item id="sectioneventsandcontourshtml"  href="section-events-and-contours.html" media-type="application/xhtml+xml"/>
+<item id="sectionlujvomeaningshtml"  href="section-lujvo-meanings.html" media-type="application/xhtml+xml"/>
+<item id="sectionattitudinalshtml"  href="section-attitudinals.html" media-type="application/xhtml+xml"/>
+<item id="sectionlogicconclusionhtml"  href="section-logic-conclusion.html" media-type="application/xhtml+xml"/>
+<item id="sectioneventshtml"  href="section-events.html" media-type="application/xhtml+xml"/>
+<item id="chapterstructurehtml"  href="chapter-structure.html" media-type="application/xhtml+xml"/>
+<item id="sectionmeksoselbrihtml"  href="section-mekso-selbri.html" media-type="application/xhtml+xml"/>
+<item id="sectionmorepropositionshtml"  href="section-more-propositions.html" media-type="application/xhtml+xml"/>
+<item id="sectionmodifiershtml"  href="section-modifiers.html" media-type="application/xhtml+xml"/>
+<item id="sectionattitudinalscopehtml"  href="section-attitudinal-scope.html" media-type="application/xhtml+xml"/>
+<item id="sectionirregularBAIhtml"  href="section-irregular-BAI.html" media-type="application/xhtml+xml"/>
+<item id="sectionbuffervowelshtml"  href="section-buffer-vowels.html" media-type="application/xhtml+xml"/>
+<item id="sectionvariantbridistructurehtml"  href="section-variant-bridi-structure.html" media-type="application/xhtml+xml"/>
+<item id="sectionBAIhtml"  href="section-BAI.html" media-type="application/xhtml+xml"/>
+<item id="chaptercataloguehtml"  href="chapter-catalogue.html" media-type="application/xhtml+xml"/>
+<item id="sectionnpartlujvohtml"  href="section-n-part-lujvo.html" media-type="application/xhtml+xml"/>
+<item id="sectionconstructssummaryhtml"  href="section-constructs-summary.html" media-type="application/xhtml+xml"/>
+<item id="chapternegationhtml"  href="chapter-negation.html" media-type="application/xhtml+xml"/>
+<item id="sectionbasicdescriptorshtml"  href="section-basic-descriptors.html" media-type="application/xhtml+xml"/>
+<item id="sectionnameshtml"  href="section-names.html" media-type="application/xhtml+xml"/>
+<item id="sectionlojbanwithinmeksohtml"  href="section-lojban-within-mekso.html" media-type="application/xhtml+xml"/>
+<item id="sectionmiscellanyhtml"  href="section-miscellany.html" media-type="application/xhtml+xml"/>
+<item id="sectionquantifiedvariableshtml"  href="section-quantified-variables.html" media-type="application/xhtml+xml"/>
+<item id="sectionwhatiscllhtml"  href="section-what-is-cll.html" media-type="application/xhtml+xml"/>
+<item id="sectionnotesonvariableshtml"  href="section-notes-on-variables.html" media-type="application/xhtml+xml"/>
+<item id="sectionscalarnegationhtml"  href="section-scalar-negation.html" media-type="application/xhtml+xml"/>
+<item id="chaptertourhtml"  href="chapter-tour.html" media-type="application/xhtml+xml"/>
+<item id="sectiontopiccommentshtml"  href="section-topic-comments.html" media-type="application/xhtml+xml"/>
+<item id="sectionintervalsizeshtml"  href="section-interval-sizes.html" media-type="application/xhtml+xml"/>
+<item id="sectionpauseshtml"  href="section-pauses.html" media-type="application/xhtml+xml"/>
+<item id="sectionvocativesandcommandshtml"  href="section-vocatives-and-commands.html" media-type="application/xhtml+xml"/>
+<item id="sectionnihohtml"  href="section-niho.html" media-type="application/xhtml+xml"/>
+<item id="indexhtml"  href="index.html" media-type="application/xhtml+xml"/>
+<item id="sectionothernegationhtml"  href="section-other-negation.html" media-type="application/xhtml+xml"/>
+<item id="sectionsumtiandbridiquestionshtml"  href="section-sumti-and-bridi-questions.html" media-type="application/xhtml+xml"/>
+<item id="sectionstickymodalshtml"  href="section-sticky-modals.html" media-type="application/xhtml+xml"/>
+<item id="sectionvectorsmatriceshtml"  href="section-vectors-matrices.html" media-type="application/xhtml+xml"/>
+<item id="sectionpahtml"  href="section-pa.html" media-type="application/xhtml+xml"/>
+<item id="sectionnahehtml"  href="section-nahe.html" media-type="application/xhtml+xml"/>
+<item id="sectiondihuandlahedihuhtml"  href="section-dihu-and-lahe-dihu.html" media-type="application/xhtml+xml"/>
+<item id="sectionsomebrivlahtml"  href="section-some-brivla.html" media-type="application/xhtml+xml"/>
+<item id="sectionselbrivariableshtml"  href="section-selbri-variables.html" media-type="application/xhtml+xml"/>
+<item id="sectionconnectedmodalshtml"  href="section-connected-modals.html" media-type="application/xhtml+xml"/>
+<item id="sectionalienalphabetshtml"  href="section-alien-alphabets.html" media-type="application/xhtml+xml"/>
+<item id="sectionmathhtml"  href="section-math.html" media-type="application/xhtml+xml"/>
+<item id="sectionexplicitmagnitudeshtml"  href="section-explicit-magnitudes.html" media-type="application/xhtml+xml"/>
+<item id="sectionstorytimehtml"  href="section-story-time.html" media-type="application/xhtml+xml"/>
+<item id="sectioncharactercodeshtml"  href="section-character-codes.html" media-type="application/xhtml+xml"/>
+<item id="chapterphonologyhtml"  href="chapter-phonology.html" media-type="application/xhtml+xml"/>
+<item id="chapterattitudinalshtml"  href="chapter-attitudinals.html" media-type="application/xhtml+xml"/>
+<item id="sectionrelativeclausecmavosummaryhtml"  href="section-relative-clause-cmavo-summary.html" media-type="application/xhtml+xml"/>
+<item id="ix03html"  href="ix03.html" media-type="application/xhtml+xml"/>
+<item id="sectionquantifiedsumtihtml"  href="section-quantified-sumti.html" media-type="application/xhtml+xml"/>
+<item id="sectionnumberquestionshtml"  href="section-number-questions.html" media-type="application/xhtml+xml"/>
+<item id="sectionzohecoheserieshtml"  href="section-zohe-cohe-series.html" media-type="application/xhtml+xml"/>
+<item id="sectionsumticonnectionhtml"  href="section-sumti-connection.html" media-type="application/xhtml+xml"/>
+<item id="sectionlujvomakinghtml"  href="section-lujvo-making.html" media-type="application/xhtml+xml"/>
+<item id="sectiontruthandconnectivequestionshtml"  href="section-truth-and-connective-questions.html" media-type="application/xhtml+xml"/>
+<item id="sectionlujvoscoringhtml"  href="section-lujvo-scoring.html" media-type="application/xhtml+xml"/>
+<item id="sectiontruthquestionshtml"  href="section-truth-questions.html" media-type="application/xhtml+xml"/>
+<item id="sectionvocativescaleshtml"  href="section-vocative-scales.html" media-type="application/xhtml+xml"/>
+<item id="sectionquotationhtml"  href="section-quotation.html" media-type="application/xhtml+xml"/>
+<item id="sectionevidentialshtml"  href="section-evidentials.html" media-type="application/xhtml+xml"/>
+<item id="sectionmoihtml"  href="section-moi.html" media-type="application/xhtml+xml"/>
+<item id="sectionstickytenseshtml"  href="section-sticky-tenses.html" media-type="application/xhtml+xml"/>
+<item id="sectionlujvomakingexampleshtml"  href="section-lujvo-making-examples.html" media-type="application/xhtml+xml"/>
+<item id="sectionquantifiergroupinghtml"  href="section-quantifier-grouping.html" media-type="application/xhtml+xml"/>
+<item id="sectionlujvohtml"  href="section-lujvo.html" media-type="application/xhtml+xml"/>
+<item id="sectioncausalshtml"  href="section-causals.html" media-type="application/xhtml+xml"/>
+<item id="sectionacronymshtml"  href="section-acronyms.html" media-type="application/xhtml+xml"/>
+<item id="sectiontanruhtml"  href="section-tanru.html" media-type="application/xhtml+xml"/>
+<item id="sectiongohasummaryhtml"  href="section-goha-summary.html" media-type="application/xhtml+xml"/>
+<item id="sectionsubeventshtml"  href="section-sub-events.html" media-type="application/xhtml+xml"/>
+<item id="sectionforethoughthtml"  href="section-forethought.html" media-type="application/xhtml+xml"/>
+<item id="sectionselectingplaceshtml"  href="section-selecting-places.html" media-type="application/xhtml+xml"/>
+<item id="sectiontemporaltenseshtml"  href="section-temporal-tenses.html" media-type="application/xhtml+xml"/>
+<item id="sectionapproximationhtml"  href="section-approximation.html" media-type="application/xhtml+xml"/>
+<item id="sectionparentheseshtml"  href="section-parentheses.html" media-type="application/xhtml+xml"/>
+<item id="sectionconnectiveswithinmeksohtml" properties="mathml" href="section-connectives-within-mekso.html" media-type="application/xhtml+xml"/>
+<item id="sectionattitudinalsconclusionhtml"  href="section-attitudinals-conclusion.html" media-type="application/xhtml+xml"/>
+<item id="sectioneventcontourshtml"  href="section-event-contours.html" media-type="application/xhtml+xml"/>
+<item id="sectionasymmetrictanruhtml"  href="section-asymmetric-tanru.html" media-type="application/xhtml+xml"/>
+<item id="sectionmorequotationshtml"  href="section-more-quotations.html" media-type="application/xhtml+xml"/>
+<item id="mediachaptertoursvgpng"  href="media/chapter-tour.svg.png" media-type="image/png"/>
+<item id="mediachaptergrammarssvgpng"  href="media/chapter-grammars.svg.png" media-type="image/png"/>
+<item id="mediachaptertensesgif"  href="media/chapter-tenses.gif" media-type="image/gif"/>
+<item id="mediachapterconnectivessvgpng"  href="media/chapter-connectives.svg.png" media-type="image/png"/>
+<item id="mediachaptermeksogif"  href="media/chapter-mekso.gif" media-type="image/gif"/>
+<item id="mediachapterstructuregif"  href="media/chapter-structure.gif" media-type="image/gif"/>
+<item id="mediachapteranaphoriccmavosvgpng"  href="media/chapter-anaphoric-cmavo.svg.png" media-type="image/png"/>
+<item id="medialogopng"  href="media/logo.png" media-type="image/png"/>
+<item id="mediachaptermorphologygif"  href="media/chapter-morphology.gif" media-type="image/gif"/>
+<item id="mediachaptercataloguesvgpng"  href="media/chapter-catalogue.svg.png" media-type="image/png"/>
+<item id="mediachaptersumtigif"  href="media/chapter-sumti.gif" media-type="image/gif"/>
+<item id="mediachapterquantifiersgif"  href="media/chapter-quantifiers.gif" media-type="image/gif"/>
+<item id="mediachapterabstractionssvgpng"  href="media/chapter-abstractions.svg.png" media-type="image/png"/>
+<item id="mediachaptersumtitcitagif"  href="media/chapter-sumti-tcita.gif" media-type="image/gif"/>
+<item id="mediachapterphonologygif"  href="media/chapter-phonology.gif" media-type="image/gif"/>
+<item id="mediachapterselbrisvgpng"  href="media/chapter-selbri.svg.png" media-type="image/png"/>
+<item id="mediachapterattitudinalsgif"  href="media/chapter-attitudinals.gif" media-type="image/gif"/>
+<item id="mediachapternegationgif"  href="media/chapter-negation.gif" media-type="image/gif"/>
+<item id="mediachapterlujvosvgpng"  href="media/chapter-lujvo.svg.png" media-type="image/png"/>
+<item id="mediachapterletteralsgif"  href="media/chapter-letterals.gif" media-type="image/gif"/>
+<item id="mediachapterrelativeclausessvgpng"  href="media/chapter-relative-clauses.svg.png" media-type="image/png"/>
+<item id="mediachapter2diagramsvgpng"  href="media/chapter-2-diagram.svg.png" media-type="image/png"/>
+<item id="mediachapteraboutsvgpng"  href="media/chapter-about.svg.png" media-type="image/png"/>
+<item id="sectionsumtiraisinghtml"  href="section-sumti-raising.html" media-type="application/xhtml+xml"/>
+<item id="chaptersumtitcitahtml"  href="chapter-sumti-tcita.html" media-type="application/xhtml+xml"/>
+<item id="sectionmodalrelativephraseshtml"  href="section-modal-relative-phrases.html" media-type="application/xhtml+xml"/>
+<item id="sectionexplicitoperatorprecedencehtml"  href="section-explicit-operator-precedence.html" media-type="application/xhtml+xml"/>
+<item id="sectioncategorieshtml"  href="section-categories.html" media-type="application/xhtml+xml"/>
+<item id="sectionstresshtml"  href="section-stress.html" media-type="application/xhtml+xml"/>
+<item id="sectioninfixagainhtml"  href="section-infix-again.html" media-type="application/xhtml+xml"/>
+<item id="sectionsimpleinfixhtml"  href="section-simple-infix.html" media-type="application/xhtml+xml"/>
+<item id="chaptermorphologyhtml"  href="chapter-morphology.html" media-type="application/xhtml+xml"/>
+<item id="sectionmodalselbrihtml"  href="section-modal-selbri.html" media-type="application/xhtml+xml"/>
+<item id="sectionbibliographyhtml"  href="section-bibliography.html" media-type="application/xhtml+xml"/>
+<item id="sectionlerfuprosumtihtml"  href="section-lerfu-pro-sumti.html" media-type="application/xhtml+xml"/>
+<item id="sectionabstractorconnectionhtml"  href="section-abstractor-connection.html" media-type="application/xhtml+xml"/>
+<item id="chapterconnectiveshtml"  href="chapter-connectives.html" media-type="application/xhtml+xml"/>
+<item id="sectionpureemotionshtml"  href="section-pure-emotions.html" media-type="application/xhtml+xml"/>
+<item id="sectionsimpletanruhtml"  href="section-simple-tanru.html" media-type="application/xhtml+xml"/>
+<item id="sectioncmevlahtml"  href="section-cmevla.html" media-type="application/xhtml+xml"/>
+<item id="sectionconstructionsummaryhtml"  href="section-construction-summary.html" media-type="application/xhtml+xml"/>
+<item id="sectiontenseselmahosummaryhtml"  href="section-tense-selmaho-summary.html" media-type="application/xhtml+xml"/>
+<item id="sectiondescriptionsumtihtml"  href="section-description-sumti.html" media-type="application/xhtml+xml"/>
+<item id="sectionamountshtml"  href="section-amounts.html" media-type="application/xhtml+xml"/>
+<item id="sectiondemorganslawhtml"  href="section-demorgans-law.html" media-type="application/xhtml+xml"/>
+<item id="sectiontenselogicalconnectionhtml"  href="section-tense-logical-connection.html" media-type="application/xhtml+xml"/>
+<item id="sectionrelativephraseshtml"  href="section-relative-phrases.html" media-type="application/xhtml+xml"/>
+<item id="sectiondahohtml"  href="section-daho.html" media-type="application/xhtml+xml"/>
+<item id="chapterquantifiershtml"  href="chapter-quantifiers.html" media-type="application/xhtml+xml"/>
+<item id="sectionscopehtml"  href="section-scope.html" media-type="application/xhtml+xml"/>
+<item id="chapterrelativeclauseshtml"  href="chapter-relative-clauses.html" media-type="application/xhtml+xml"/>
+<item id="sectiontertauSEhtml"  href="section-tertau-SE.html" media-type="application/xhtml+xml"/>
+<item id="sectionquantifieddescriptionshtml"  href="section-quantified-descriptions.html" media-type="application/xhtml+xml"/>
+<item id="sectionsumtiqualifiershtml"  href="section-sumti-qualifiers.html" media-type="application/xhtml+xml"/>
+<item id="sectionanomalouslujvohtml"  href="section-anomalous-lujvo.html" media-type="application/xhtml+xml"/>
+<item id="sectionvoihtml"  href="section-voi.html" media-type="application/xhtml+xml"/>
+<item id="sectiondisclaimershtml"  href="section-disclaimers.html" media-type="application/xhtml+xml"/>
+<item id="sectionsubbriditenseshtml"  href="section-sub-bridi-tenses.html" media-type="application/xhtml+xml"/>
+<item id="sectiondiscursiveshtml"  href="section-discursives.html" media-type="application/xhtml+xml"/>
+<item id="sectionhebrewhtml"  href="section-hebrew.html" media-type="application/xhtml+xml"/>
+<item id="sectiontenseshtml"  href="section-tenses.html" media-type="application/xhtml+xml"/>
+<item id="sectionbridinegationhtml"  href="section-bridi-negation.html" media-type="application/xhtml+xml"/>
+<item id="sectionfehehtml"  href="section-fehe.html" media-type="application/xhtml+xml"/>
+<item id="sectionothermeksouseshtml"  href="section-other-mekso-uses.html" media-type="application/xhtml+xml"/>
+<item id="sectionpronunciationhtml"  href="section-pronunciation.html" media-type="application/xhtml+xml"/>
+<item id="sectionfahohtml"  href="section-faho.html" media-type="application/xhtml+xml"/>
+<item id="sectionmultiplecompoundbridihtml"  href="section-multiple-compound-bridi.html" media-type="application/xhtml+xml"/>
+<item id="sectionlojbancharactershtml"  href="section-lojban-characters.html" media-type="application/xhtml+xml"/>
+<item id="chapterletteralshtml"  href="chapter-letterals.html" media-type="application/xhtml+xml"/>
+<item id="sectionexercisehtml"  href="section-exercise.html" media-type="application/xhtml+xml"/>
+<item id="sectionkegroupinghtml"  href="section-ke-grouping.html" media-type="application/xhtml+xml"/>
+<item id="sectionsumtibaseddescriptionshtml"  href="section-sumti-based-descriptions.html" media-type="application/xhtml+xml"/>
+<item id="sectionsymmetrictanruhtml"  href="section-symmetric-tanru.html" media-type="application/xhtml+xml"/>
+<item id="sectionjaihtml"  href="section-jai.html" media-type="application/xhtml+xml"/>
+<item id="sectiontcitahtml"  href="section-tcita.html" media-type="application/xhtml+xml"/>
+<item id="sectionimplicitabstractionhtml"  href="section-implicit-abstraction.html" media-type="application/xhtml+xml"/>
+<item id="sectionsignspunctuationhtml" properties="mathml" href="section-signs-punctuation.html" media-type="application/xhtml+xml"/>
+<item id="sectionabstractionlujvohtml"  href="section-abstraction-lujvo.html" media-type="application/xhtml+xml"/>
+<item id="sectionmeksoconnectionshtml"  href="section-mekso-connections.html" media-type="application/xhtml+xml"/>
+<item id="sectioncompoundspatialtenseshtml"  href="section-compound-spatial-tenses.html" media-type="application/xhtml+xml"/>
+<item id="sectionelidingkekehehtml"  href="section-eliding-ke-kehe.html" media-type="application/xhtml+xml"/>
+<item id="chaptersumtihtml"  href="chapter-sumti.html" media-type="application/xhtml+xml"/>
+<item id="sectionthreeparttanruhtml"  href="section-three-part-tanru.html" media-type="application/xhtml+xml"/>
+<item id="sectionpossessivesumtihtml"  href="section-possessive-sumti.html" media-type="application/xhtml+xml"/>
+<item id="sectionsampledialoguehtml"  href="section-sample-dialogue.html" media-type="application/xhtml+xml"/>
+<item id="sectiondimensionalityhtml"  href="section-dimensionality.html" media-type="application/xhtml+xml"/>
+<item id="sectioncuhtml"  href="section-cu.html" media-type="application/xhtml+xml"/>
+<item id="sectionculturalgismuhtml"  href="section-cultural-gismu.html" media-type="application/xhtml+xml"/>
+<item id="sectionmixedconnectionhtml"  href="section-mixed-connection.html" media-type="application/xhtml+xml"/>
+<item id="sectionnonlogicalcontinuedcontinuedhtml"  href="section-non-logical-continued-continued.html" media-type="application/xhtml+xml"/>
+<item id="sectionnonlogicalcontinuedhtml"  href="section-non-logical-continued.html" media-type="application/xhtml+xml"/>
+<item id="sectionallBAIhtml"  href="section-all-BAI.html" media-type="application/xhtml+xml"/>
+<item id="chaptergrammarshtml"  href="chapter-grammars.html" media-type="application/xhtml+xml"/>
+<item id="sectionmiscellanioushtml"  href="section-miscellanious.html" media-type="application/xhtml+xml"/>
+<item id="sectionbasicphoneticshtml"  href="section-basic-phonetics.html" media-type="application/xhtml+xml"/>
+<item id="sectionselbriscalarnegationhtml"  href="section-selbri-scalar-negation.html" media-type="application/xhtml+xml"/>
+<item id="sectionmeksonumbershtml"  href="section-mekso-numbers.html" media-type="application/xhtml+xml"/>
+<item id="sectionnoihtml"  href="section-noi.html" media-type="application/xhtml+xml"/>
+<item id="sectionquotationshtml"  href="section-quotations.html" media-type="application/xhtml+xml"/>
+<item id="chaptermeksohtml" properties="mathml" href="chapter-mekso.html" media-type="application/xhtml+xml"/>
+<item id="sectionzihehtml"  href="section-zihe.html" media-type="application/xhtml+xml"/>
+<item id="sectionihtml"  href="section-i.html" media-type="application/xhtml+xml"/>
+<item id="sectiontypicalshtml"  href="section-typicals.html" media-type="application/xhtml+xml"/>
+<item id="sectionsomesimplebridihtml"  href="section-some-simple-bridi.html" media-type="application/xhtml+xml"/>
+<item id="sectionpossessionhtml"  href="section-possession.html" media-type="application/xhtml+xml"/>
+<item id="sectionconnectedtenseshtml"  href="section-connected-tenses.html" media-type="application/xhtml+xml"/>
+<item id="sectionplaceconversionhtml"  href="section-place-conversion.html" media-type="application/xhtml+xml"/>
+<item id="sectionbridinegationtenseshtml"  href="section-bridi-negation-tenses.html" media-type="application/xhtml+xml"/>
+<item id="sectionothersummaryhtml"  href="section-other-summary.html" media-type="application/xhtml+xml"/>
+<item id="sectionareallquestionsansweredhtml"  href="section-are-all-questions-answered.html" media-type="application/xhtml+xml"/>
+<item id="sectionlerfucmavosummaryhtml"  href="section-lerfu-cmavo-summary.html" media-type="application/xhtml+xml"/>
+<item id="sectiontermshtml"  href="section-terms.html" media-type="application/xhtml+xml"/>
+<item id="sectionanaphoricrafsihtml"  href="section-anaphoric-rafsi.html" media-type="application/xhtml+xml"/>
+<item id="sectiongismumakinghtml"  href="section-gismu-making.html" media-type="application/xhtml+xml"/>
+<item id="sectionbasictanruhtml"  href="section-basic-tanru.html" media-type="application/xhtml+xml"/>
+<item id="sectionminorabstractionshtml"  href="section-minor-abstractions.html" media-type="application/xhtml+xml"/>
+<item id="ix02html"  href="ix02.html" media-type="application/xhtml+xml"/>
+<item id="sectionkohasummaryhtml"  href="section-koha-summary.html" media-type="application/xhtml+xml"/>
+<item id="chapterselbrihtml"  href="chapter-selbri.html" media-type="application/xhtml+xml"/>
+<item id="sectionbridiconnectionhtml"  href="section-bridi-connection.html" media-type="application/xhtml+xml"/>
+<item id="sectionmodalconnectiveshtml"  href="section-modal-connectives.html" media-type="application/xhtml+xml"/>
+<item id="sectionusefulselbrihtml"  href="section-useful-selbri.html" media-type="application/xhtml+xml"/>
+<item id="sectionanglophonephoneticshtml"  href="section-anglophone-phonetics.html" media-type="application/xhtml+xml"/>
+<item id="sectionaffirmationshtml"  href="section-affirmations.html" media-type="application/xhtml+xml"/>
+<item id="sectionhesitationhtml"  href="section-hesitation.html" media-type="application/xhtml+xml"/>
+<item id="sectionaccentsmultiplelettershtml"  href="section-accents-multiple-letters.html" media-type="application/xhtml+xml"/>
+<item id="sectionelidableterminatorshtml"  href="section-elidable-terminators.html" media-type="application/xhtml+xml"/>
+<item id="sectioncompoundbridihtml"  href="section-compound-bridi.html" media-type="application/xhtml+xml"/>
+<item id="sectionduhtml"  href="section-du.html" media-type="application/xhtml+xml"/>
+<item id="sectionmehohtml"  href="section-meho.html" media-type="application/xhtml+xml"/>
+<item id="sectionnaoutsideprenexhtml"  href="section-na-outside-prenex.html" media-type="application/xhtml+xml"/>
+<item id="sectioncahahtml"  href="section-caha.html" media-type="application/xhtml+xml"/>
+<item id="sectionpropertieshtml"  href="section-properties.html" media-type="application/xhtml+xml"/>
+<item id="chapterlujvohtml"  href="chapter-lujvo.html" media-type="application/xhtml+xml"/>
+<item id="sectiongismuhtml"  href="section-gismu.html" media-type="application/xhtml+xml"/>
+<item id="sectionbasicquestionshtml"  href="section-basic-questions.html" media-type="application/xhtml+xml"/>
+<item id="sectiontenseconnectionhtml"  href="section-tense-connection.html" media-type="application/xhtml+xml"/>
+<item id="sectionprosumtihtml"  href="section-pro-sumti.html" media-type="application/xhtml+xml"/>
+<item id="sectionanyhtml"  href="section-any.html" media-type="application/xhtml+xml"/>
+<item id="sectionprettyschoolgroupingshtml"  href="section-pretty-school-groupings.html" media-type="application/xhtml+xml"/>
+<item id="sectionquestionsempathycontourshtml"  href="section-questions-empathy-contours.html" media-type="application/xhtml+xml"/>
+<item id="sectionconventionshtml"  href="section-conventions.html" media-type="application/xhtml+xml"/>
+<item id="sectionafterthoughtconnectivesgroupinghtml"  href="section-afterthought-connectives-grouping.html" media-type="application/xhtml+xml"/>
+<item id="sectionorderofsumtihtml"  href="section-order-of-sumti.html" media-type="application/xhtml+xml"/>
+<item id="sectioncyrillichtml"  href="section-cyrillic.html" media-type="application/xhtml+xml"/>
+<item id="sectionsomeselbrihtml"  href="section-some-selbri.html" media-type="application/xhtml+xml"/>
+<item id="sectionmodaljaihtml"  href="section-modal-jai.html" media-type="application/xhtml+xml"/>
+<item id="sectiontensequestionshtml"  href="section-tense-questions.html" media-type="application/xhtml+xml"/>
+<item id="sectionnonlogicalconnectiveshtml"  href="section-non-logical-connectives.html" media-type="application/xhtml+xml"/>
+<item id="chapterabstractionshtml"  href="chapter-abstractions.html" media-type="application/xhtml+xml"/>
+<item id="sectionbahehtml"  href="section-bahe.html" media-type="application/xhtml+xml"/>
+<item id="sectionothertableshtml"  href="section-other-tables.html" media-type="application/xhtml+xml"/>
+<item id="sectionuniversalclaimshtml"  href="section-universal-claims.html" media-type="application/xhtml+xml"/>
+<item id="go01html"  href="go01.html" media-type="application/xhtml+xml"/>
+<item id="sectiongismuplacestructureshtml"  href="section-gismu-place-structures.html" media-type="application/xhtml+xml"/>
+<item id="sectionseltauSEhtml"  href="section-seltau-SE.html" media-type="application/xhtml+xml"/>
+<item id="sectionorderofplaceshtml"  href="section-order-of-places.html" media-type="application/xhtml+xml"/>
+<item id="sectionvuhohtml"  href="section-vuho.html" media-type="application/xhtml+xml"/>
+<item id="sectionfourbasicshtml"  href="section-four-basics.html" media-type="application/xhtml+xml"/>
+<item id="sectiontruthfunctionssummaryhtml"  href="section-truth-functions-summary.html" media-type="application/xhtml+xml"/>
+<item id="sectionFAhtml"  href="section-FA.html" media-type="application/xhtml+xml"/>
+<item id="sectionsumticmavohtml"  href="section-sumti-cmavo.html" media-type="application/xhtml+xml"/>
+<item id="sectionlerfulistehtml"  href="section-lerfu-liste.html" media-type="application/xhtml+xml"/>
+<item id="sectioncmavointeractionshtml"  href="section-cmavo-interactions.html" media-type="application/xhtml+xml"/>
+<item id="sectionrelativeclausesandvocativeshtml"  href="section-relative-clauses-and-vocatives.html" media-type="application/xhtml+xml"/>
+<item id="chapteranaphoriccmavohtml"  href="chapter-anaphoric-cmavo.html" media-type="application/xhtml+xml"/>
+<item id="sectionlujvoconsiderationshtml"  href="section-lujvo-considerations.html" media-type="application/xhtml+xml"/>
+<item id="sectioninitialpairshtml"  href="section-initial-pairs.html" media-type="application/xhtml+xml"/>
+<item id="sectionnegationboundarieshtml"  href="section-negation-boundaries.html" media-type="application/xhtml+xml"/>
+<item id="sectionchinesecharactershtml"  href="section-chinese-characters.html" media-type="application/xhtml+xml"/>
+<item id="sectiondihuserieshtml"  href="section-dihu-series.html" media-type="application/xhtml+xml"/>
+<item id="sectiontiserieshtml"  href="section-ti-series.html" media-type="application/xhtml+xml"/>
+<item id="sectiontruthvalueshtml"  href="section-truth-values.html" media-type="application/xhtml+xml"/>
+<item id="sectionselbrimodalshtml"  href="section-selbri-modals.html" media-type="application/xhtml+xml"/>
+<item id="sectionselmahosummaryhtml"  href="section-selmaho-summary.html" media-type="application/xhtml+xml"/>
+<item id="sectionvohaserieshtml"  href="section-voha-series.html" media-type="application/xhtml+xml"/>
+<item id="sectionintervalpropertieshtml"  href="section-interval-properties.html" media-type="application/xhtml+xml"/>
+<item id="sectionsummaryhtml"  href="section-summary.html" media-type="application/xhtml+xml"/>
+<item id="sectionmovementhtml"  href="section-movement.html" media-type="application/xhtml+xml"/>
+<item id="sectiontermsetshtml"  href="section-termsets.html" media-type="application/xhtml+xml"/>
+<item id="sectionrafsihtml"  href="section-rafsi.html" media-type="application/xhtml+xml"/>
+<item id="sectioneventtypeshtml"  href="section-event-types.html" media-type="application/xhtml+xml"/>
+<item id="sectionrafsifuhivlahtml"  href="section-rafsi-fuhivla.html" media-type="application/xhtml+xml"/>
+<item id="sectionsumtcitahtml"  href="section-sumtcita.html" media-type="application/xhtml+xml"/>
+<item id="sectionmetalinguisticnegationhtml"  href="section-metalinguistic-negation.html" media-type="application/xhtml+xml"/>
+<item id="sectionforethoughtbridiconnectionhtml"  href="section-forethought-bridi-connection.html" media-type="application/xhtml+xml"/>
+<item id="sectiondabuhaserieshtml"  href="section-da-buha-series.html" media-type="application/xhtml+xml"/>
+<item id="sectionindirectquestionshtml"  href="section-indirect-questions.html" media-type="application/xhtml+xml"/>
+<item id="chaptertenseshtml"  href="chapter-tenses.html" media-type="application/xhtml+xml"/>
+<item id="sectionaccentshtml"  href="section-accents.html" media-type="application/xhtml+xml"/>
+<item id="sectionabstractorshtml"  href="section-abstractors.html" media-type="application/xhtml+xml"/>
+<item id="sectionmeselbrihtml"  href="section-me-selbri.html" media-type="application/xhtml+xml"/>
+<item id="sectionfuhivlahtml"  href="section-fuhivla.html" media-type="application/xhtml+xml"/>
+<item id="sectionattitudinalspacehtml"  href="section-attitudinal-space.html" media-type="application/xhtml+xml"/>
+<item id="chapterabouthtml"  href="chapter-about.html" media-type="application/xhtml+xml"/>
+<item id="sectionuppercasehtml"  href="section-upper-case.html" media-type="application/xhtml+xml"/>
+<item id="ix01html"  href="ix01.html" media-type="application/xhtml+xml"/>
+<item id="sectionbesumtihtml"  href="section-be-sumti.html" media-type="application/xhtml+xml"/>
+<item id="sectionvaguenesshtml"  href="section-vagueness.html" media-type="application/xhtml+xml"/>
+<item id="sectiondaandzohuhtml"  href="section-da-and-zohu.html" media-type="application/xhtml+xml"/>
+<item id="sectionsubscriptsmathhtml"  href="section-subscripts-math.html" media-type="application/xhtml+xml"/>
+<item id="sectioncompoundattitudinalshtml"  href="section-compound-attitudinals.html" media-type="application/xhtml+xml"/>
+<item id="sectionpredicationshtml"  href="section-predications.html" media-type="application/xhtml+xml"/>
+<item id="sectionpropositionalemotionshtml"  href="section-propositional-emotions.html" media-type="application/xhtml+xml"/>
+<item id="sectiontanrumeaningshtml"  href="section-tanru-meanings.html" media-type="application/xhtml+xml"/>
+<item id="sectionrestrictedclaimshtml"  href="section-restricted-claims.html" media-type="application/xhtml+xml"/>
+<item id="sectionconstantshtml"  href="section-constants.html" media-type="application/xhtml+xml"/>
+<item id="sectionintensityscalehtml"  href="section-intensity-scale.html" media-type="application/xhtml+xml"/>
+<item id="sectionclustershtml"  href="section-clusters.html" media-type="application/xhtml+xml"/>
+<item id="sectioncmavohtml"  href="section-cmavo.html" media-type="application/xhtml+xml"/>
+<item id="sectiontensesvsmodalshtml"  href="section-tenses-vs-modals.html" media-type="application/xhtml+xml"/>
+<item id="sectiontensenegationhtml"  href="section-tense-negation.html" media-type="application/xhtml+xml"/>
+<item id="sectionkehahtml"  href="section-keha.html" media-type="application/xhtml+xml"/>
+<item id="sectionsumtinegationhtml"  href="section-sumti-negation.html" media-type="application/xhtml+xml"/>
+<item id="sectionvocativesyntaxhtml"  href="section-vocative-syntax.html" media-type="application/xhtml+xml"/>
+<item id="sectionreversepolishnotationhtml"  href="section-reverse-polish-notation.html" media-type="application/xhtml+xml"/>
+<item id="sectionbuhtml"  href="section-bu.html" media-type="application/xhtml+xml"/>
+<item id="sectionquestionsandanswershtml"  href="section-questions-and-answers.html" media-type="application/xhtml+xml"/>
+<item id="sectionSEhtml"  href="section-SE.html" media-type="application/xhtml+xml"/>
+<item id="sectioncmavoselbrihtml"  href="section-cmavo-selbri.html" media-type="application/xhtml+xml"/>
+<item id="sectioncaptionshtml"  href="section-captions.html" media-type="application/xhtml+xml"/>
+<item id="sectionmorphologybrivlahtml"  href="section-morphology-brivla.html" media-type="application/xhtml+xml"/>
+<item id="sectionprenexelisionhtml"  href="section-prenex-elision.html" media-type="application/xhtml+xml"/>
+<item id="sectionsixtypeshtml"  href="section-six-types.html" media-type="application/xhtml+xml"/>
+<item id="sectionsetshtml"  href="section-sets.html" media-type="application/xhtml+xml"/>
+<item id="sectionpunctuationhtml"  href="section-punctuation.html" media-type="application/xhtml+xml"/>
+<item id="sectioncehuhtml"  href="section-cehu.html" media-type="application/xhtml+xml"/>
+<item id="sectionsymmetricalasymmetricalhtml"  href="section-symmetrical-asymmetrical.html" media-type="application/xhtml+xml"/>
+<item id="sectionutteranceordinalshtml"  href="section-utterance-ordinals.html" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref linear="yes" idref="cover"/>
+    <itemref linear="yes" idref="indexhtml"/>
+<itemref linear="yes" idref="chapterabouthtml"/>
+<itemref linear="yes" idref="sectionwhatiscllhtml"/>
+<itemref linear="yes" idref="sectionconventionshtml"/>
+<itemref linear="yes" idref="sectiondisclaimershtml"/>
+<itemref linear="yes" idref="creditshtml"/>
+<itemref linear="yes" idref="sectionbibliographyhtml"/>
+<itemref linear="yes" idref="sectioncaptionshtml"/>
+<itemref linear="yes" idref="sectioncopyrighthtml"/>
+<itemref linear="yes" idref="chaptertourhtml"/>
+<itemref linear="yes" idref="sectionpronunciationhtml"/>
+<itemref linear="yes" idref="sectionsumticmavohtml"/>
+<itemref linear="yes" idref="sectionsomeselbrihtml"/>
+<itemref linear="yes" idref="sectionsomesimplebridihtml"/>
+<itemref linear="yes" idref="sectionvariantbridistructurehtml"/>
+<itemref linear="yes" idref="sectionorderofsumtihtml"/>
+<itemref linear="yes" idref="sectionstructureofutteranceshtml"/>
+<itemref linear="yes" idref="sectionbasictanruhtml"/>
+<itemref linear="yes" idref="sectiondescriptionsumtihtml"/>
+<itemref linear="yes" idref="sectionsomebrivlahtml"/>
+<itemref linear="yes" idref="sectiondihuandlahedihuhtml"/>
+<itemref linear="yes" idref="sectionpossessionhtml"/>
+<itemref linear="yes" idref="sectionvocativesandcommandshtml"/>
+<itemref linear="yes" idref="sectionbasicquestionshtml"/>
+<itemref linear="yes" idref="sectionattitudinalshtml"/>
+<itemref linear="yes" idref="sectiontenseshtml"/>
+<itemref linear="yes" idref="sectiontermshtml"/>
+<itemref linear="yes" idref="chapterphonologyhtml"/>
+<itemref linear="yes" idref="sectionbasicphoneticshtml"/>
+<itemref linear="yes" idref="sectionlojbancharactershtml"/>
+<itemref linear="yes" idref="sectiondiphthongshtml"/>
+<itemref linear="yes" idref="sectionvowelpairshtml"/>
+<itemref linear="yes" idref="sectionclustershtml"/>
+<itemref linear="yes" idref="sectioninitialpairshtml"/>
+<itemref linear="yes" idref="sectionbuffervowelshtml"/>
+<itemref linear="yes" idref="sectionstresshtml"/>
+<itemref linear="yes" idref="sectionanglophonephoneticshtml"/>
+<itemref linear="yes" idref="sectionanglophonediphthongshtml"/>
+<itemref linear="yes" idref="sectionoddballorthographieshtml"/>
+<itemref linear="yes" idref="chaptermorphologyhtml"/>
+<itemref linear="yes" idref="sectioncmavohtml"/>
+<itemref linear="yes" idref="sectionmorphologybrivlahtml"/>
+<itemref linear="yes" idref="sectiongismuhtml"/>
+<itemref linear="yes" idref="sectionlujvohtml"/>
+<itemref linear="yes" idref="sectionrafsihtml"/>
+<itemref linear="yes" idref="sectionfuhivlahtml"/>
+<itemref linear="yes" idref="sectioncmevlahtml"/>
+<itemref linear="yes" idref="sectionpauseshtml"/>
+<itemref linear="yes" idref="sectionlujvoconsiderationshtml"/>
+<itemref linear="yes" idref="sectionlujvomakinghtml"/>
+<itemref linear="yes" idref="sectionlujvoscoringhtml"/>
+<itemref linear="yes" idref="sectionlujvomakingexampleshtml"/>
+<itemref linear="yes" idref="sectiongismumakinghtml"/>
+<itemref linear="yes" idref="sectionculturalgismuhtml"/>
+<itemref linear="yes" idref="sectionrafsifuhivlahtml"/>
+<itemref linear="yes" idref="chapterselbrihtml"/>
+<itemref linear="yes" idref="sectionsimpletanruhtml"/>
+<itemref linear="yes" idref="sectionthreeparttanruhtml"/>
+<itemref linear="yes" idref="sectioncomplexgroupinghtml"/>
+<itemref linear="yes" idref="sectionkegroupinghtml"/>
+<itemref linear="yes" idref="sectionlogicalconnectionhtml"/>
+<itemref linear="yes" idref="sectionbesumtihtml"/>
+<itemref linear="yes" idref="sectioncoinversionhtml"/>
+<itemref linear="yes" idref="sectioncmavoselbrihtml"/>
+<itemref linear="yes" idref="sectionmeselbrihtml"/>
+<itemref linear="yes" idref="sectionplaceconversionhtml"/>
+<itemref linear="yes" idref="sectionselbriscalarnegationhtml"/>
+<itemref linear="yes" idref="sectionbridinegationtenseshtml"/>
+<itemref linear="yes" idref="sectionasymmetrictanruhtml"/>
+<itemref linear="yes" idref="sectionsymmetrictanruhtml"/>
+<itemref linear="yes" idref="sectionprettyschoolgroupingshtml"/>
+<itemref linear="yes" idref="chaptersumtihtml"/>
+<itemref linear="yes" idref="sectionbasicdescriptorshtml"/>
+<itemref linear="yes" idref="sectionmasseshtml"/>
+<itemref linear="yes" idref="sectionsetshtml"/>
+<itemref linear="yes" idref="sectiontypicalshtml"/>
+<itemref linear="yes" idref="sectionquantifiedsumtihtml"/>
+<itemref linear="yes" idref="sectionquantifieddescriptionshtml"/>
+<itemref linear="yes" idref="sectionindefinitedescriptionshtml"/>
+<itemref linear="yes" idref="sectionsumtibaseddescriptionshtml"/>
+<itemref linear="yes" idref="sectionsumtiqualifiershtml"/>
+<itemref linear="yes" idref="sectionvocativesyntaxhtml"/>
+<itemref linear="yes" idref="sectionnameshtml"/>
+<itemref linear="yes" idref="sectionprosumtihtml"/>
+<itemref linear="yes" idref="sectionquotationhtml"/>
+<itemref linear="yes" idref="sectionnumbersummaryhtml"/>
+<itemref linear="yes" idref="chapteranaphoriccmavohtml"/>
+<itemref linear="yes" idref="sectionmiserieshtml"/>
+<itemref linear="yes" idref="sectiontiserieshtml"/>
+<itemref linear="yes" idref="sectiondihuserieshtml"/>
+<itemref linear="yes" idref="sectionkohabrodaserieshtml"/>
+<itemref linear="yes" idref="sectionrigohiserieshtml"/>
+<itemref linear="yes" idref="sectionzohecoheserieshtml"/>
+<itemref linear="yes" idref="sectionvohaserieshtml"/>
+<itemref linear="yes" idref="sectionsumtiandbridiquestionshtml"/>
+<itemref linear="yes" idref="sectionkehahtml"/>
+<itemref linear="yes" idref="sectioncehuhtml"/>
+<itemref linear="yes" idref="sectiondabuhaserieshtml"/>
+<itemref linear="yes" idref="sectiondahohtml"/>
+<itemref linear="yes" idref="sectionduhtml"/>
+<itemref linear="yes" idref="sectionanaphoricrafsihtml"/>
+<itemref linear="yes" idref="sectionkohasummaryhtml"/>
+<itemref linear="yes" idref="sectiongohasummaryhtml"/>
+<itemref linear="yes" idref="sectionothersummaryhtml"/>
+<itemref linear="yes" idref="chapterrelativeclauseshtml"/>
+<itemref linear="yes" idref="sectionnoihtml"/>
+<itemref linear="yes" idref="sectionrelativephraseshtml"/>
+<itemref linear="yes" idref="sectionzihehtml"/>
+<itemref linear="yes" idref="sectionvoihtml"/>
+<itemref linear="yes" idref="sectiondescriptorshtml"/>
+<itemref linear="yes" idref="sectionpossessivesumtihtml"/>
+<itemref linear="yes" idref="sectionvuhohtml"/>
+<itemref linear="yes" idref="sectionrelativeclausesandvocativeshtml"/>
+<itemref linear="yes" idref="sectionnestinghtml"/>
+<itemref linear="yes" idref="sectionrelativeclausecmavosummaryhtml"/>
+<itemref linear="yes" idref="chaptersumtitcitahtml"/>
+<itemref linear="yes" idref="sectioncuhtml"/>
+<itemref linear="yes" idref="sectionFAhtml"/>
+<itemref linear="yes" idref="sectionSEhtml"/>
+<itemref linear="yes" idref="sectionselbrimodalshtml"/>
+<itemref linear="yes" idref="sectionBAIhtml"/>
+<itemref linear="yes" idref="sectioncausalshtml"/>
+<itemref linear="yes" idref="sectionmodalconnectiveshtml"/>
+<itemref linear="yes" idref="sectionmodalselbrihtml"/>
+<itemref linear="yes" idref="sectionmodalrelativephraseshtml"/>
+<itemref linear="yes" idref="sectionmixedconnectionhtml"/>
+<itemref linear="yes" idref="sectionmodaljaihtml"/>
+<itemref linear="yes" idref="sectionmodalnegationhtml"/>
+<itemref linear="yes" idref="sectionstickymodalshtml"/>
+<itemref linear="yes" idref="sectionconnectedmodalshtml"/>
+<itemref linear="yes" idref="sectionirregularBAIhtml"/>
+<itemref linear="yes" idref="sectionallBAIhtml"/>
+<itemref linear="yes" idref="chaptertenseshtml"/>
+<itemref linear="yes" idref="sectionspatialtenseshtml"/>
+<itemref linear="yes" idref="sectioncompoundspatialtenseshtml"/>
+<itemref linear="yes" idref="sectiontemporaltenseshtml"/>
+<itemref linear="yes" idref="sectionintervalsizeshtml"/>
+<itemref linear="yes" idref="sectionvaguenesshtml"/>
+<itemref linear="yes" idref="sectiondimensionalityhtml"/>
+<itemref linear="yes" idref="sectionmovementhtml"/>
+<itemref linear="yes" idref="sectionintervalpropertieshtml"/>
+<itemref linear="yes" idref="sectioneventcontourshtml"/>
+<itemref linear="yes" idref="sectionfehehtml"/>
+<itemref linear="yes" idref="sectiontcitahtml"/>
+<itemref linear="yes" idref="sectionstickytenseshtml"/>
+<itemref linear="yes" idref="sectionstorytimehtml"/>
+<itemref linear="yes" idref="sectionsubbriditenseshtml"/>
+<itemref linear="yes" idref="sectiontenseconnectionhtml"/>
+<itemref linear="yes" idref="sectiontenselogicalconnectionhtml"/>
+<itemref linear="yes" idref="sectiontensenegationhtml"/>
+<itemref linear="yes" idref="sectioncahahtml"/>
+<itemref linear="yes" idref="sectionconnectedtenseshtml"/>
+<itemref linear="yes" idref="sectionsubeventshtml"/>
+<itemref linear="yes" idref="sectionjaihtml"/>
+<itemref linear="yes" idref="sectiontensesvsmodalshtml"/>
+<itemref linear="yes" idref="sectiontensequestionshtml"/>
+<itemref linear="yes" idref="sectionexplicitmagnitudeshtml"/>
+<itemref linear="yes" idref="sectionexercisehtml"/>
+<itemref linear="yes" idref="sectiontenseselmahosummaryhtml"/>
+<itemref linear="yes" idref="sectiondirectioncmavohtml"/>
+<itemref linear="yes" idref="chapterabstractionshtml"/>
+<itemref linear="yes" idref="sectioneventshtml"/>
+<itemref linear="yes" idref="sectioneventtypeshtml"/>
+<itemref linear="yes" idref="sectionpropertieshtml"/>
+<itemref linear="yes" idref="sectionamountshtml"/>
+<itemref linear="yes" idref="sectiontruthvalueshtml"/>
+<itemref linear="yes" idref="sectionpredicationshtml"/>
+<itemref linear="yes" idref="sectionindirectquestionshtml"/>
+<itemref linear="yes" idref="sectionminorabstractionshtml"/>
+<itemref linear="yes" idref="sectionsumtiraisinghtml"/>
+<itemref linear="yes" idref="sectioneventsandcontourshtml"/>
+<itemref linear="yes" idref="sectionabstractorconnectionhtml"/>
+<itemref linear="yes" idref="sectionsummaryhtml"/>
+<itemref linear="yes" idref="chapterlujvohtml"/>
+<itemref linear="yes" idref="sectiontanrumeaningshtml"/>
+<itemref linear="yes" idref="sectionlujvomeaningshtml"/>
+<itemref linear="yes" idref="sectionselectingplaceshtml"/>
+<itemref linear="yes" idref="sectionsymmetricalasymmetricalhtml"/>
+<itemref linear="yes" idref="sectiondependentplaceshtml"/>
+<itemref linear="yes" idref="sectionorderofplaceshtml"/>
+<itemref linear="yes" idref="sectionnpartlujvohtml"/>
+<itemref linear="yes" idref="sectionseltauSEhtml"/>
+<itemref linear="yes" idref="sectiontertauSEhtml"/>
+<itemref linear="yes" idref="sectionelidingkekehehtml"/>
+<itemref linear="yes" idref="sectionabstractionlujvohtml"/>
+<itemref linear="yes" idref="sectionimplicitabstractionhtml"/>
+<itemref linear="yes" idref="sectionanomalouslujvohtml"/>
+<itemref linear="yes" idref="sectioncomparativeshtml"/>
+<itemref linear="yes" idref="sectiongismuplacestructureshtml"/>
+<itemref linear="yes" idref="chapterattitudinalshtml"/>
+<itemref linear="yes" idref="sectionpureemotionshtml"/>
+<itemref linear="yes" idref="sectionpropositionalemotionshtml"/>
+<itemref linear="yes" idref="sectionintensityscalehtml"/>
+<itemref linear="yes" idref="sectionattitudinalspacehtml"/>
+<itemref linear="yes" idref="sectioncategorieshtml"/>
+<itemref linear="yes" idref="sectionmodifiershtml"/>
+<itemref linear="yes" idref="sectioncompoundattitudinalshtml"/>
+<itemref linear="yes" idref="sectionscopehtml"/>
+<itemref linear="yes" idref="sectionquestionsempathycontourshtml"/>
+<itemref linear="yes" idref="sectionevidentialshtml"/>
+<itemref linear="yes" idref="sectiondiscursiveshtml"/>
+<itemref linear="yes" idref="sectionmiscellanioushtml"/>
+<itemref linear="yes" idref="sectionvocativescaleshtml"/>
+<itemref linear="yes" idref="sectionsampledialoguehtml"/>
+<itemref linear="yes" idref="sectionattitudinalsconclusionhtml"/>
+<itemref linear="yes" idref="chapterconnectiveshtml"/>
+<itemref linear="yes" idref="sectionfourbasicshtml"/>
+<itemref linear="yes" idref="sectionsixtypeshtml"/>
+<itemref linear="yes" idref="sectionbridiconnectionhtml"/>
+<itemref linear="yes" idref="sectionforethoughtbridiconnectionhtml"/>
+<itemref linear="yes" idref="sectionsumticonnectionhtml"/>
+<itemref linear="yes" idref="sectionmorepropositionshtml"/>
+<itemref linear="yes" idref="sectionafterthoughtconnectivesgroupinghtml"/>
+<itemref linear="yes" idref="sectioncompoundbridihtml"/>
+<itemref linear="yes" idref="sectionmultiplecompoundbridihtml"/>
+<itemref linear="yes" idref="sectiontermsetshtml"/>
+<itemref linear="yes" idref="sectiontanruhtml"/>
+<itemref linear="yes" idref="sectiontruthandconnectivequestionshtml"/>
+<itemref linear="yes" idref="sectionnonlogicalconnectiveshtml"/>
+<itemref linear="yes" idref="sectionnonlogicalcontinuedhtml"/>
+<itemref linear="yes" idref="sectionnonlogicalcontinuedcontinuedhtml"/>
+<itemref linear="yes" idref="sectionmeksoconnectionshtml"/>
+<itemref linear="yes" idref="sectionsumtcitahtml"/>
+<itemref linear="yes" idref="sectionabstractorshtml"/>
+<itemref linear="yes" idref="sectionconstructssummaryhtml"/>
+<itemref linear="yes" idref="sectiontruthfunctionssummaryhtml"/>
+<itemref linear="yes" idref="sectionconstructionsummaryhtml"/>
+<itemref linear="yes" idref="sectionothertableshtml"/>
+<itemref linear="yes" idref="chapternegationhtml"/>
+<itemref linear="yes" idref="sectionbridinegationhtml"/>
+<itemref linear="yes" idref="sectionscalarnegationhtml"/>
+<itemref linear="yes" idref="sectionnahehtml"/>
+<itemref linear="yes" idref="sectionscalesnegationhtml"/>
+<itemref linear="yes" idref="sectionsumtinegationhtml"/>
+<itemref linear="yes" idref="sectionothernegationhtml"/>
+<itemref linear="yes" idref="sectiontruthquestionshtml"/>
+<itemref linear="yes" idref="sectionaffirmationshtml"/>
+<itemref linear="yes" idref="sectionmetalinguisticnegationhtml"/>
+<itemref linear="yes" idref="sectionareallquestionsansweredhtml"/>
+<itemref linear="yes" idref="chapterquantifiershtml"/>
+<itemref linear="yes" idref="sectiondaandzohuhtml"/>
+<itemref linear="yes" idref="sectionuniversalclaimshtml"/>
+<itemref linear="yes" idref="sectionrestrictedclaimshtml"/>
+<itemref linear="yes" idref="sectionprenexelisionhtml"/>
+<itemref linear="yes" idref="sectionquantifiedvariableshtml"/>
+<itemref linear="yes" idref="sectionquantifiergroupinghtml"/>
+<itemref linear="yes" idref="sectionanyhtml"/>
+<itemref linear="yes" idref="sectionnegationboundarieshtml"/>
+<itemref linear="yes" idref="sectionconnectiveshtml"/>
+<itemref linear="yes" idref="sectionnaoutsideprenexhtml"/>
+<itemref linear="yes" idref="sectiondemorganslawhtml"/>
+<itemref linear="yes" idref="sectionselbrivariableshtml"/>
+<itemref linear="yes" idref="sectionnotesonvariableshtml"/>
+<itemref linear="yes" idref="sectionlogicconclusionhtml"/>
+<itemref linear="yes" idref="chapterletteralshtml"/>
+<itemref linear="yes" idref="sectionlerfulistehtml"/>
+<itemref linear="yes" idref="sectionuppercasehtml"/>
+<itemref linear="yes" idref="sectionbuhtml"/>
+<itemref linear="yes" idref="sectionalienalphabetshtml"/>
+<itemref linear="yes" idref="sectionaccentshtml"/>
+<itemref linear="yes" idref="sectionpunctuationhtml"/>
+<itemref linear="yes" idref="sectionchinesecharactershtml"/>
+<itemref linear="yes" idref="sectionlerfuprosumtihtml"/>
+<itemref linear="yes" idref="sectionmehohtml"/>
+<itemref linear="yes" idref="sectionmathhtml"/>
+<itemref linear="yes" idref="sectionacronymshtml"/>
+<itemref linear="yes" idref="sectioncharactercodeshtml"/>
+<itemref linear="yes" idref="sectionlerfucmavosummaryhtml"/>
+<itemref linear="yes" idref="sectionproposedlerfuwordshtml"/>
+<itemref linear="yes" idref="sectiongreekhtml"/>
+<itemref linear="yes" idref="sectioncyrillichtml"/>
+<itemref linear="yes" idref="sectionhebrewhtml"/>
+<itemref linear="yes" idref="sectionaccentsmultiplelettershtml"/>
+<itemref linear="yes" idref="sectionICAOalphabethtml"/>
+<itemref linear="yes" idref="chaptermeksohtml"/>
+<itemref linear="yes" idref="sectionmeksonumbershtml"/>
+<itemref linear="yes" idref="sectionsignspunctuationhtml"/>
+<itemref linear="yes" idref="sectionconstantshtml"/>
+<itemref linear="yes" idref="sectionsimpleinfixhtml"/>
+<itemref linear="yes" idref="sectionforethoughthtml"/>
+<itemref linear="yes" idref="sectionusefulselbrihtml"/>
+<itemref linear="yes" idref="sectionindefinitenumbershtml"/>
+<itemref linear="yes" idref="sectionapproximationhtml"/>
+<itemref linear="yes" idref="sectionradixenhtml"/>
+<itemref linear="yes" idref="sectionmeksoselbrihtml"/>
+<itemref linear="yes" idref="sectionnumberquestionshtml"/>
+<itemref linear="yes" idref="sectionsubscriptsmathhtml"/>
+<itemref linear="yes" idref="sectioninfixagainhtml"/>
+<itemref linear="yes" idref="sectionvectorsmatriceshtml"/>
+<itemref linear="yes" idref="sectionreversepolishnotationhtml"/>
+<itemref linear="yes" idref="sectionconnectiveswithinmeksohtml"/>
+<itemref linear="yes" idref="sectionlojbanwithinmeksohtml"/>
+<itemref linear="yes" idref="sectionothermeksouseshtml"/>
+<itemref linear="yes" idref="sectionexplicitoperatorprecedencehtml"/>
+<itemref linear="yes" idref="sectionmiscellanyhtml"/>
+<itemref linear="yes" idref="sectionfourscoreandsevenhtml"/>
+<itemref linear="yes" idref="sectionselmahosummaryhtml"/>
+<itemref linear="yes" idref="sectionvuhuhtml"/>
+<itemref linear="yes" idref="sectionpahtml"/>
+<itemref linear="yes" idref="sectionmoihtml"/>
+<itemref linear="yes" idref="chapterstructurehtml"/>
+<itemref linear="yes" idref="sectionihtml"/>
+<itemref linear="yes" idref="sectionnihohtml"/>
+<itemref linear="yes" idref="sectiontopiccommentshtml"/>
+<itemref linear="yes" idref="sectionquestionsandanswershtml"/>
+<itemref linear="yes" idref="sectionsubscriptsgeneralhtml"/>
+<itemref linear="yes" idref="sectionutteranceordinalshtml"/>
+<itemref linear="yes" idref="sectionattitudinalscopehtml"/>
+<itemref linear="yes" idref="sectionquotationshtml"/>
+<itemref linear="yes" idref="sectionmorequotationshtml"/>
+<itemref linear="yes" idref="sectionbahehtml"/>
+<itemref linear="yes" idref="sectionparentheseshtml"/>
+<itemref linear="yes" idref="sectionerasurehtml"/>
+<itemref linear="yes" idref="sectionhesitationhtml"/>
+<itemref linear="yes" idref="sectionfahohtml"/>
+<itemref linear="yes" idref="sectioncmavointeractionshtml"/>
+<itemref linear="yes" idref="sectionelidableterminatorshtml"/>
+<itemref linear="yes" idref="chaptercataloguehtml"/>
+<itemref linear="yes" idref="chaptergrammarshtml"/>
+<itemref linear="yes" idref="go01html"/>
+<itemref linear="yes" idref="ix01html"/>
+<itemref linear="yes" idref="ix02html"/>
+<itemref linear="yes" idref="ix03html"/>
+  </spine>
+</package>
