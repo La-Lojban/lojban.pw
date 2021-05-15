@@ -10150,23 +10150,23 @@ There is another way of restructuring compound verbs.
 jibri
 : x1 is a job of x2
 
-dotybau
-: x1 is German used by x2 to say x3
+If I wanted to say that I'm a professional translator from English to German, I could use **be** and **bei**:
 
-glibau
-: x1 is English used by x2 to say x3
+> **mi fanva be le dotco bei le glico be'o se jibri**
 
-If I wanted to say that I'm a professional translator from English to German, I could mess around with **be**, **bei**:
+> _I'm a professional translator to German from English._
 
-> **mi fanva be le dotybau bei le glibau be'o se jibri**
+dotco
+: x1 is German
 
-> _I'm a professional translator from English to German_
+glico
+: x1 is English
 
 The fact that it was a compound verb could quickly be lost in speech due to the complicated structure of the sentence. Here, we can use the word **co**:
 
 **co** — inverts the compound verb, making the rightmost verb word modify the leftmost instead of the other way around. Any previous noun fills the modified, any following noun fills the modifier.
 
-> **mi se jibri co fanva le dotybau le glibau**
+> **mi se jibri co fanva le dotco le glico**
 
 It is the same relation as the previous Lojban one, but much more easy to understand. Notice that any noun before the compound verb fills **se jibri**, while any following it only fills the modifying verb: **fanva**.
 
@@ -10188,7 +10188,7 @@ merko
 Here is the list of different kind of groupers in compound verbs ranked from the tighest to the most loose:
 
 1.  **bo** and **ke … ke'e**
-2.  Logical connectives other than **gi'e** series
+2.  logical connectives for compound verbs like **je**
 3.  not using grouping words
 4.  **co**
 
