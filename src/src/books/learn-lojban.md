@@ -137,6 +137,9 @@ do
 
 > _I now talk to you._
 
+ca
+: now
+
 <figure>
 	<img src="https://mw.lojban.org/images/thumb/7/77/xractu-mi-cropped.png/96px-xractu-mi-cropped.png" alt="mi">
 	<figcaption>
@@ -163,9 +166,15 @@ do
 
 Each sentence in Lojban consists of the following parts from the left to the right:
 
-- the head: consists of so called "terms". **le prenu**, **mi**, **ca** are terms in the examples above.
-- the head separator **cu** showing that the head ended. It can be omitted when it's obvious anyway that the head is completed. Remember that the letter **c** in Lojban is pronounced as _sh_ in English? **cu** is pronounced just as English _shoe_
-- the tail: the main relation (**tavla**, **prami**) with possibly one or more terms after it: the terms **mi**, **do** in the examples above.
+- the head:
+	- consists of so called "terms",
+	- **le prenu**, **mi**, **ca** are terms in the examples above.
+- the head separator **cu**:
+	- pronounced as _shoe_ since **c** is for _sh_,
+	- shows that the head ended,
+	- it can be omitted when it's obvious anyway that the head is completed
+- the tail:
+	- the main relation (**tavla**, **prami**) with possibly one or more terms after it: the terms **mi**, **do** in the examples above.
 
 One of your first thoughts might be "Where are nouns and verbs in Lojban?"
 
