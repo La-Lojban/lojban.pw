@@ -10170,19 +10170,21 @@ The fact that it was a compound verb could quickly be lost in speech due to the 
 
 It is the same relation as the previous Lojban one, but much more easy to understand. Notice that any noun before the compound verb fills **se jibri**, while any following it only fills the modifying verb: **fanva**.
 
-The strength by which two verbs are bound together with **co** is very weak — even weaker than normal compound verb grouping without any grouping words. This makes sure that, in a co-construct, the leftmost verb word is always the verb being modified, and the rightmost always modifies, even if any of those parts are compound verbs. This makes a co-construct easy to understand:
+The strength by which two verbs are bound together with **co** is very weak — even weaker than normal compound verb grouping without any grouping words. This makes sure that, in a co-construct, the leftmost component is always the verb being modified, and the rightmost component always modifies, even if any of those parts are compound verbs. This makes a co-construct easy to understand:
 
 > **ti pelxu plise co kukte**
 
 is read as **ti (pelxu plise) co kukte**, which is the same as **ti kukte pelxu bo plise**. This also means that a **ke … ke'e** cannot encompass a **co**.
 
-However, **gi'e**, **gi'a** etc. bind even looser than **co**. This is in order to totally avoid confusion about which verb word binds to which in a **gi'e**. The answer is simple: **gi'e** never emcompasses any verb groups.
+Another example:
 
-How can you express _I am an important American buyer of computers_ using a **co**?
+> **mi merko limna co mutce certu**
+> _I am a much experienced American swimmer._
 
-Answer: **mi skami te vecnu co vajni merko**
+merko
+: x1 is American (the USA sense)
 
-If it's of any use, this is the list of different kind of verb word groupers ranked by strength:
+Here is the list of different kind of groupers in compond verbs ranked from the tighest to the most loose:
 
 1.  **bo** and **ke … ke'e**
 2.  Logical connectives other than **gi'e** series
