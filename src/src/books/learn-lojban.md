@@ -10179,18 +10179,18 @@ is read as **ti (pelxu plise) co kukte**, which is the same as **ti kukte pelxu 
 Another example:
 
 > **mi merko limna co mutce certu**
+
 > _I am a much experienced American swimmer._
 
 merko
 : x1 is American (the USA sense)
 
-Here is the list of different kind of groupers in compond verbs ranked from the tighest to the most loose:
+Here is the list of different kind of groupers in compound verbs ranked from the tighest to the most loose:
 
 1.  **bo** and **ke … ke'e**
 2.  Logical connectives other than **gi'e** series
 3.  not using grouping words
 4.  **co**
-5.  **gi'e** series
 
 ### Explicit termination of nouns
 
