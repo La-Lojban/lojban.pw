@@ -10218,6 +10218,62 @@ as opposed to:
 
 The qualifier word **lu'o** placed before a noun converts it into a mass made of members of that noun. In this case **ke'a** refers to the set of my friends **le'i pendo be mi** and then **lu'o** converts the members of the set into a mass, the crowd of my friends.
 
+### Sets and subsets
+
+Some infinitives may imply more than one **ce'u**:
+
+> **le'i prenu cu simxu le ka prami**
+
+> **le'i prenu cu simxu le ka ce'u prami ce'u**
+
+simxu
+: members of the set x1 reciprocally do x2
+
+The verb **simxu** takes every possible pair from the set specified in place x1 at asserts the relation specified within x2.
+
+If we have three people then it would mean all of them love each other.
+
+> **do ce la .alis. ce mi simxu le ka prami**
+
+> **do ce la .alis. ce mi simxu le ka ce'u prami ce'u**
+
+> _You, Alice and I all love each other._
+
+ce
+: conjunction: turns several nouns/pronouns into a set
+
+The conjunction **ce** connects nouns and pronouns into a set, thus **do ce la .alis. ce mi** might be a more verbose way of **le'i prenu** from the previous example for the case when we want to name the members of the set.
+
+In total we assert 6 relations:
+
+1. You love Alice.
+2. You love me.
+3. Alice loves me.
+4. Alice loves you.
+5. I love Alice.
+6. I love you.
+
+Hence, **simxu** is a nice shortcut for expressing mutual relation.
+
+Now consider the example:
+
+> **le'i su'o cmima be le'i prenu cu simxu le ka prami**
+
+> _Some of the people love each other._
+
+cmima
+: x1 is a member of set x2
+
+In this example we are showing that a subset of the people in question (a subset of **le'i prenu**) has mutual love.
+
+This allows us to convey even more tricker ideas:
+
+> **le'i su'o citno cmima be le'i stati prenu cu simxu le ka prami**
+
+> _Some youngsters from those smart people love each other._
+
+> `Some young members of the set of smart people love each other.`
+
 <!-- ## Second order logic
 
 We've seen **da** (and **de**, **di**) being a "variable" in noun form with declared meanings depending on propositions given.
