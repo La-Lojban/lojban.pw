@@ -2835,7 +2835,7 @@ It can also happen that we need to attach **be** to a noun and then attach **pe*
 
 > _Who gave the book to you (and who is related to Paris) is smart._
 
-**be'o** shows that the nouns attached with **be** and with **bei** (if they are used) end, and thus **pe la paris** is attached to the whole bigger noun **pa pendo be do be'o** and **le pu posydu'a be le pa cukta bei do be'o**.
+**be'o** shows that the nouns attached with **be** and with **bei** (if they are used) end, and thus **pe la paris** is attached to the whole noun **le pa pendo be do be'o** and **le pu posydu'a be le pa cukta bei do be'o**.
 
 Compare it to:
 
