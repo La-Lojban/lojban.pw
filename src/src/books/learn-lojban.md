@@ -10226,6 +10226,8 @@ Some infinitives may imply more than one **ce'u**:
 
 > **le'i prenu cu simxu le ka ce'u prami ce'u**
 
+>_The people love each other._
+
 simxu
 : members of the set x1 reciprocally do x2
 
