@@ -358,6 +358,12 @@ Again context would probably tell who loves whom and who runs.
 
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
+pinxe
+: … drinks … (something)
+
+le ladru
+: the milk
+
 <table style="table-layout: fixed;">
 <tbody><tr>
 <td><b>do citka</b>
@@ -374,12 +380,6 @@ Close the right part of the table. Translate from Lojban the sentences on the le
 </td>
 <td><i>I eat apples.</i>
 </td></tr></tbody></table>
-
-pinxe
-: … drinks … (something)
-
-le ladru
-: the milk
 
 ### «**.i**» separates sentences
 
@@ -519,6 +519,28 @@ le za'u prenu
 
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
+le prenu
+: the person, people
+
+stati
+: … is smart, … has a talent
+
+klama
+: … comes to … (some place or object)
+
+nelci
+: … likes (something)
+
+le zarci
+: the market
+
+le najnimre
+: the orange (fruit), the oranges
+
+le badna
+: the banana, bananas
+
+
 <table style="table-layout: fixed;">
 	<tbody>
 		<tr>
@@ -543,27 +565,6 @@ Close the right part of the table. Translate from Lojban the sentences on the le
 		</tr>
 	</tbody>
 </table>
-
-le prenu
-: the person, people
-
-stati
-: … is smart, … has a talent
-
-klama
-: … comes to … (some place or object)
-
-nelci
-: … likes (something)
-
-le zarci
-: the market
-
-le najnimre
-: the orange (fruit), the oranges
-
-le badna
-: the banana, bananas
 
 Close the right part of the table. Translate to Lojban the sentences on the left.
 
@@ -642,8 +643,22 @@ mutce
 
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
-<table style="table-layout: fixed;">
+sutra
+: … is quick
 
+barda
+: … is big
+
+cmalu
+: … is small
+
+bajra
+: … runs
+
+mlatu
+: … is a cat
+
+<table style="table-layout: fixed;">
 <tbody><tr>
 <td><b>le melbi karce</b>
 </td>
@@ -674,21 +689,6 @@ Close the right part of the table. Translate from Lojban the sentences on the le
 </td>
 <td><i>the running cat</i>
 </td></tr></tbody></table>
-
-sutra
-: … is quick
-
-barda
-: … is big
-
-cmalu
-: … is small
-
-bajra
-: … runs
-
-mlatu
-: … is a cat
 
 Close the right part of the table. Translate to Lojban the sentences on the left.
 
@@ -934,6 +934,18 @@ In English to be polite one has to use _could you_ + _please_ + a question). In 
 
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
+le tcati
+: the tea
+
+le ckafi
+: coffee
+
+catlu
+: to watch
+
+le skina
+: the film, the movie
+
 <table style="table-layout: fixed;">
 
 <tbody><tr>
@@ -951,18 +963,6 @@ Close the right part of the table. Translate from Lojban the sentences on the le
 </td>
 <td><i>Please, watch the film!</i>
 </td></tr></tbody></table>
-
-le tcati
-: the tea
-
-le ckafi
-: coffee
-
-catlu
-: to watch
-
-le skina
-: the film, the movie
 
 Close the right part of the table. Translate to Lojban the sentences on the left.
 
@@ -1352,6 +1352,12 @@ All Lojban words are divided into two groups:
 
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
+pilno
+: to use (something)
+
+le skami
+: the computer
+
 <table style="table-layout: fixed;">
 
 <tbody><tr>
@@ -1369,12 +1375,6 @@ Close the right part of the table. Translate from Lojban the sentences on the le
 </td>
 <td><i>Do you want me to eat the <u>apple</u>?</i>
 </td></tr></tbody></table>
-
-pilno
-: to use (something)
-
-le skami
-: the computer
 
 Close the right part of the table. Translate to Lojban the sentences on the left.
 
@@ -1747,6 +1747,24 @@ Thus we can move **ba le nu mi dansu** around the sentence provided that it's st
 
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
+le tsani
+: the sky
+
+zvati
+: …is present at … (some place or event), … stays at … (some place)
+
+le canko
+: the window
+
+le fagri
+: the fire
+
+mi'o
+: You and I
+
+le tcati
+: the tea
+
 <table style="table-layout: fixed;">
 
 <tbody><tr>
@@ -1779,24 +1797,6 @@ Close the right part of the table. Translate from Lojban the sentences on the le
 </td>
 <td><i>When I go home you drink tea because you are thirsty.</i>
 </td></tr></tbody></table>
-
-le tsani
-: the sky
-
-zvati
-: …is present at … (some place or event), … stays at … (some place)
-
-le canko
-: the window
-
-le fagri
-: the fire
-
-mi'o
-: You and I
-
-le tcati
-: the tea
 
 Close the right part of the table. Translate to Lojban the sentences on the left.
 
