@@ -462,7 +462,7 @@ Let's add a number after **le**.
 
 > _The one person talks to me._
 
-We add a number after **le** and thus specify individual cats.
+We add a number after **le** and thus specify individual people.
 
 For numbers consisting of several digits we just string those digits together.
 
