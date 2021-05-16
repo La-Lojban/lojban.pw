@@ -10268,7 +10268,7 @@ cmima
 
 In this example we are showing that a subset of the people in question (a subset of **le'i prenu**) has mutual love.
 
-This allows us to convey even more tricker ideas:
+This allows us to convey even trickier ideas:
 
 > **le'i su'o citno cmima be le'i stati prenu cu simxu le ka prami**
 
