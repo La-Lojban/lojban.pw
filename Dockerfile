@@ -10,7 +10,8 @@ RUN apt-get install -y python3 python3-dev python3-pip nodejs npm
 
 RUN apt-get install -y vim nano
 
-RUN pip3 install mkdocs mkdocs-material mkdocs-minify-plugin
+RUN pip3 install mkdocs mkdocs-material mkdocs-minify-plugin mdx_include pymdown-extensions
+
 
 RUN echo 'alias build="cd /app/src && mkdocs build -d /app/docs"' >> ~/.bashrc
 

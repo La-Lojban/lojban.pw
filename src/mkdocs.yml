@@ -23,6 +23,9 @@ nav:
 extra_css: ['assets/css/extra.css']
 
 markdown_extensions:
+  - md_in_html
+  - mdx_include
+  - pymdownx.snippets
   - def_list
   - admonition
   - meta
