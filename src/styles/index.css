@@ -1,0 +1,472 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: "Linux Libertine";
+    src: url("/assets/fonts/linux-libertine/LinLibertine_RBI.otf");
+    font-style: italic;
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: "Linux Libertine";
+    src: url("/assets/fonts/linux-libertine/LinLibertine_RI.otf");
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Linux Libertine";
+    src: url("/assets/fonts/linux-libertine/LinLibertine_RB.otf");
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: "Linux Libertine";
+    src: url("/assets/fonts/linux-libertine/LinLibertine_R.otf");
+  }
+}
+
+b,
+strong {
+  @apply font-semibold;
+}
+
+small {
+  @apply italic
+}
+
+.lme-ml-0 {
+  @apply ml-0;
+}
+.lme-ml-2 {
+  @apply ml-2;
+}
+.lme-ml-4 {
+  @apply ml-4;
+}
+.lme-ml-6 {
+  @apply ml-6;
+}
+
+a {
+  @apply text-deep-orange-700 hover:text-deep-orange-600;
+}
+
+.h-screen-50 {
+  height: 50vh;
+}
+
+.toc-core {
+  @apply scrollbar-thin scrollbar-track-gray-200 scrollbar-thumb-gray-400 hover:scrollbar-thumb-deep-orange-500;
+}
+
+.sidebar {
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  -ms-scroll-snap-type: none;
+  scroll-snap-type: none;
+  top: 0;
+}
+.sidebar-inner {
+  background-color: var(--md-default-bg-color);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+article h2 {
+  @apply text-3xl mt-8 mb-4 leading-snug;
+}
+
+article h3 {
+  @apply text-2xl mt-4 mb-4 leading-snug;
+}
+
+article h4 {
+  @apply text-xl mt-4 mb-4 leading-snug;
+}
+
+article h1:before,
+article h2:before,
+article h3:before,
+article h4:before,
+article h5:before,
+article h6:before {
+  @apply -mt-20 pt-20 block;
+  content: "";
+}
+
+article a.in-heading,
+article a.in-toc,
+md-footer-social__link.in-heading {
+  @apply hover:text-deep-orange-500;
+}
+
+@media print {
+  .in-heading, nav {
+    @apply hidden;
+  }
+}
+
+span.in-heading.hash {
+  @apply text-gray-300 hover:text-deep-orange-600 ml-1;
+}
+
+article dl {
+  @apply m-4 mr-0;
+}
+
+article dd {
+  @apply mx-0;
+}
+
+article p,
+article ul,
+article ol {
+  @apply my-2;
+}
+
+article table {
+  @apply shadow table-auto	divide-y divide-gray-200 w-full border border-collapse border-gray-200 rounded-sm;
+}
+
+@media print {
+  table td:before,
+  table td:after {
+    content: "";
+    height: 4px;
+    display: block;
+  }
+}
+
+@media print {
+  table,
+  table td,
+  table tr,
+  table th,
+  .wrapper,
+  dl,
+  .common {
+    break-inside: avoid;
+  }
+}
+
+.md-typeset__table {
+  @apply inline-block mb-3 min-w-full rounded-sm;
+}
+
+.md-typeset__scrollwrap {
+  @apply my-4 overflow-x-auto rounded-sm;
+}
+
+article table thead {
+  @apply bg-gray-50;
+}
+
+article table th,
+article .first_col table tr td:first-child {
+  @apply align-top text-center font-bold tracking-wider px-3 py-4 border border-collapse border-gray-200;
+}
+
+article table tbody {
+  @apply bg-white divide-y divide-gray-200;
+}
+
+article table tbody tr {
+  @apply hover:bg-gray-100;
+}
+
+article table tbody td,
+article .first_col table tr td:first-child {
+  @apply align-top text-left px-3 py-4 border border-collapse border-gray-200;
+}
+
+body {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial,
+    sans-serif;
+  font-feature-settings: "kern", "liga";
+}
+
+img {
+  @apply inline;
+}
+
+.md-footer-social__link {
+  display: inline-block;
+  height: 1.6rem;
+  text-align: center;
+  width: 1.6rem;
+  color: white;
+}
+
+@media print {
+  .footer {
+    @apply hidden;
+  }
+}
+
+.logo {
+  @apply w-12 h-12 mt-4 hover:opacity-70;
+}
+
+body .lojbo {
+  font-family: "Linux Libertine", Libertine, Constantia, "Lucida Bright",
+    Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif",
+    "Liberation Serif", Georgia, serif;
+}
+
+[data-md-color-primary="youtube"] {
+  --md-primary-fg-color: #ee0f0f;
+  --md-primary-fg-color--light: #ecb7b7;
+  --md-primary-fg-color--dark: #90030c;
+}
+
+/* .navbar {
+  background: rgb(56,136,233);
+  background: linear-gradient( to bottom, rgba(56,136,233, 1) 0%, rgba(34,87,213, 1) 13%, rgba(38,99,224, 1) 88%, rgba(25,65,165, 1) 100% );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6db3f2', endColorstr='#1e69de', GradientType=0);
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+  background: rgb(56,136,233);
+  border-radius: 4px;
+} */
+/* .headerlink {
+  color: #ccc;
+  font-size: 80%;
+  font-weight: normal;
+  margin-left: 0.25rem;
+}
+
+.bs-sidebar.well {
+  padding: 0;
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+@media (min-width: 992px) {
+  .bs-sidebar.affix {
+    position: fixed;
+    top: 45px;
+    max-height: calc(100% - 45px);
+  }
+} */
+
+article > dl > dd > em:before {
+  content: "‘";
+}
+
+article > dl > dd > em:after {
+  content: "’";
+}
+
+article > dl > dd > strong:before {
+  content: "«";
+}
+
+article > dl > dd > strong:after {
+  content: "»";
+}
+
+article ol {
+  @apply list-outside	list-decimal pl-8;
+}
+
+article ul {
+  @apply list-none;
+}
+
+article ul li {
+  @apply ml-6;
+  text-indent: -1rem;
+}
+
+article ul li dl:first-child {
+  @apply inline ml-0;
+}
+
+article ul li > * {
+  text-indent: 0;
+}
+
+article ul li > ul {
+  @apply ml-0 mt-0;
+}
+
+article ul li > ul > li {
+  @apply ml-6;
+}
+
+article ul li > p:first-child {
+  @apply inline;
+}
+
+article ul li::before {
+  margin-left: -0.5rem;
+  content: "🌼 ";
+}
+
+article ul li ul li::before {
+  margin-left: -0.5rem;
+  content: "⚙️ ";
+}
+
+.with-blockquote {
+  @apply py-2 pl-3 pr-0;
+}
+
+article blockquote {
+  @apply flex relative py-4 px-3 m-0 bg-gray-100 hover:bg-gray-200 border-0 shadow rounded-sm rounded-l-none;
+  border-left: 3px solid #1e90ff;
+}
+
+article blockquote:before {
+  @apply pointer-events-none inset-0 block absolute border border-l-0 border-gray-200 rounded-sm rounded-l-none;
+  content: "";
+}
+
+.common + blockquote {
+  @apply border-l-0 ml-4;
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: -3px 0px 0px 0px #ffa500, -5px 0px 0px 0px #fff,
+    -8px 0px 0px 0px #ffa500, var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+article blockquote p {
+  @apply font-normal;
+}
+
+article blockquote p > *:not(span) {
+  @apply block;
+}
+
+dt,
+dd {
+  display: inline;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dt::after {
+  font-weight: normal;
+  content: " ≈ ";
+}
+dd {
+  font-style: italic;
+}
+dd::after {
+  content: "\a";
+  white-space: pre;
+}
+
+article figure {
+  @apply ml-3 mt-1 mb-3 w-32 border border-gray-200 bg-gray-100 shadow rounded-sm clear-right float-right;
+}
+
+article figure .figure_img {
+  @apply -m-px;
+}
+
+article figure img {
+  @apply w-full border-0 block m-0 rounded-t-sm;
+}
+
+article figcaption {
+  @apply text-xs m-3 text-center;
+}
+
+/* wide figure */
+
+article figure.wide {
+  @apply w-auto max-w-full float-none;
+}
+
+article figure.wide img {
+  @apply h-auto max-w-full;
+}
+
+article figure.wide .figure_img {
+  @apply h-auto;
+}
+
+/* glekwille */
+
+jbo {
+  font-weight: bold;
+}
+
+this {
+  white-space: nowrap;
+  font-style: italic;
+  border-style: dashed;
+  border-width: 1px;
+  padding: 0 7px 0 6px;
+  margin: 0 2px 0 2px;
+  border-color: #aaa;
+  border-radius: 3px;
+}
+
+this[undecorated] {
+  background-color: #ffff0033;
+}
+
+this[context] {
+  background-color: #33ff0033;
+}
+
+this[speaker] {
+  background-color: #f1564e;
+  padding: 0em 0.75em;
+  border: none;
+  border-radius: 2em;
+  color: #ffffff;
+}
+
+this[another] {
+  background-color: #ff6a0033;
+}
+
+this[attached] {
+  background-color: #3f00ff33;
+}
+
+lojban {
+  color: #6f6f6f;
+  display: block;
+  border: 0px;
+  border-left: double 8px #24c756;
+  margin: 15px 25px 15px 0px;
+  padding: 2px 8px 2px 8px;
+  width: auto;
+}
+
+lojban:before {
+  content: "Lojban ";
+  font-style: italic;
+  font-size: 85%;
+  margin-bottom: 5px;
+  position: relative;
+  top: -0.5rem;
+  margin-right: 5px;
+  color: #5d5d5d;
+}
+
+description {
+  border-width: 1px;
+  border-style: dashed;
+  display: block;
+  padding: 5px;
+  border-color: #ccc;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 1px 1px 4px #555 inset;
+  margin-bottom: 5px;
+}
