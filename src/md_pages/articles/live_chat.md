@@ -34,9 +34,9 @@ Fun fact: this is the symbol of jelly called **lo jduli** in Lojban (pronounced 
 * Open [lojban.slack.com](https://lojban.slack.com).
 Ask questions on Lojban in #ckule channel, talk in or about Lojban in #lojban channel and talk in Lojban only in #jbosnu channel.
 
-## Matrix network (Riot messenger and others)
+<!-- ## Matrix network (Riot messenger and others)
 
 * [lojban](https://matrix.to/#/#freenode_#lojban:matrix.org) - the main group publicly logged: any questions
 * [ckule](https://matrix.to/#/#freenode_#ckule:matrix.org) - "school", mostly for questions from you as a beginner. It may also be used by active members when "lojban" channel becomes too active.
 * [jbosnu](https://matrix.to/#/#freenode_#jbosnu:matrix.org) - a group for talking in Lojban only
-* [jboselbau](https://matrix.to/#/#freenode_##jboselbau:matrix.org) - a group for discussions not necessarily related to Lojban.
+* [jboselbau](https://matrix.to/#/#freenode_##jboselbau:matrix.org) - a group for discussions not necessarily related to Lojban. -->

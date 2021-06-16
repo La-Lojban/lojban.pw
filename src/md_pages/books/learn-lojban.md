@@ -3428,6 +3428,9 @@ Dictionaries specify when places of verbs have to be filled with sets.
 
 We use **lei** instead of **le** to show that the mass of objects is relevant to the action but not those objects individually. Compare:
 
+> **le prenu pu smaji**
+> _The people were silent._
+<!-- -->
 > **lei prenu pu smaji**
 > _The crowd was silent._
 
@@ -9255,6 +9258,52 @@ In standard approach the speaker uses a separate conjunction **e** when connecti
 
 >**mi nelci le plise .e le jisra**
 >_I like apples and juice._ -->
+
+### Why verbs are defined as they are?
+
+English uses a limited set of prepositions that are reused across various verbs and thus have no fixed meaning. Compare the usage of the English preposition _to_:
+
+> _I speak to you._
+
+<!-- -->
+> _I come to you._
+<!-- -->
+
+> _To me it looks pretty._
+
+In each of those examples the _to_ has a new role that is at best remotely similar to roles in other sentences.
+
+Needless to say that other languages use other ways of marking roles of verbs that in many cases are very different from those used in English.
+
+Lojban marks core roles of relations by fully defining such relations with the roles placed in sequence (or marked with **fa**, **fe**, ...):
+
+klama
+: x1 comes to x2 ...
+
+tavla
+: x1 talks to x2 ...
+
+melbi
+: x1 is beautiful, pretty to x2 ...
+
+Such core roles are essential in defining relations.
+
+However, there can be optional roles that make relations more precise:
+
+> _I speak to you while I'm eating._
+<!-- -->
+
+> _I come to you because I have a problem._
+
+In Lojban a similar notion of such optional roles is expressed via separate relations or for most common cases with modal tags:
+
+> **mi tavla do ze'a le nu mi citka**
+> _I speak to you while I'm eating._
+<!-- -->
+> **mi klama do ki'u le nu mi se nabmi**
+> _I come to you because I have a problem._
+
+Prepositions in English are similar to modal tags in Lojban, but in Lojban modal tags always have a single (even if vague) meaning each.
 
 ## Lojban community
 
