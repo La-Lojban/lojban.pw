@@ -30,7 +30,7 @@ strong {
 }
 
 small {
-  @apply italic
+  @apply italic;
 }
 
 .lme-ml-0 {
@@ -110,7 +110,8 @@ md-footer-social__link.in-heading {
 }
 
 @media print {
-  .in-heading, nav {
+  .tutci, .in-heading,
+  nav {
     @apply hidden;
   }
 }
@@ -469,4 +470,27 @@ description {
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   box-shadow: 1px 1px 4px #555 inset;
   margin-bottom: 5px;
+}
+
+.audio-inline {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.tutci {
+  line-height: 150%;
+  background: #eee;
+  border-radius: 3px;
+  border: 1px solid #333;
+  cursor: pointer;
+  color: #000;
+  padding: 1px 6px;
+  margin: 0 4px 0 4px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #666;
+  max-height: 24px;
+  font-size: 50%;
+  top: -4px;
+  display: inline-block;
+  position: relative;
 }

@@ -1,5 +1,5 @@
 ---
-title: ‘Learn Lojban’ course
+title: 🎓 ‘Learn Lojban’ course
 ---
 
 <div class="lojbo">
@@ -20,86 +20,97 @@ Lojban uses the Latin alphabet (vowels are colored):
 
 <dl><dd><b><font color="#FF1493">a</font> b c d <font color="#FF1493">e</font> f g <font color="#FF1493">i</font> j k l m n <font color="#FF1493">o</font> p r s t <font color="#FF1493">u</font> v x <font color="#FF1493">y</font> z ' .</b></dd></dl>
 
-Letters are pronounced exactly as they are written.
+Letters are pronounced as they are written.
 
-There are six vowels in Lojban:
-
-<table>
-<tbody><tr>
-<td><b><center><font color="#FF1493">a</font></center></b>
-</td>
-<td> as in <i>b<u>a</u>th</i> (not as in <i>face</i>)
-</td></tr>
-<tr>
-<td><b><center><font color="#FF1493">e</font></center></b>
-</td>
-<td> as in <i>g<u>e</u>t</i>
-</td></tr>
-<tr>
-<td><b><center><font color="#FF1493">i</font></center></b>
-</td>
-<td> as in <i>mach<u>i</u>ne</i> (not as in <i>hit</i>)
-</td></tr>
-<tr>
-<td><b><center><font color="#FF1493">o</font></center></b>
-</td>
-<td> as in <i>ch<u>o</u>ice</i>, <i>n<u>o</u>t</i> or <i>ough</i> in <i>th<u>ough</u>t</i> (not as in <i>so</i>, <b>o</b> should be a "pure" sound).
-</td></tr>
-<tr>
-<td><b><center><font color="#FF1493">u</font></center></b>
-</td>
-<td> as in <i>c<u>oo</u>l</i> (not as in <i>but</i>)
-</td></tr>
-<tr>
-<td><b><center><font color="#FF1493">y</font></center></b>
-</td>
-<td> as in <i>comm<u>a</u></i> (not as in <i>misty</i> or <i>cycle</i>)
-</td></tr></tbody></table>
-
-As for consonants they are pronounced like in English or Latin, but there are a few differences:
+There are 10 vowels in Lojban:
 
 <table>
 <tbody><tr>
-<td><b>c</b>
+<td><b class="audio-inline"><font color="#FF1493" class="guibutton">a</font></b></td>
+<td> as in <i>b<u>a</u>th</i> (not as in <i>face</i>)</td>
+</tr>
+<tr>
+<td><b class="audio-inline"><font class="guibutton"color="#FF1493">e</font></b></td>
+<td> as in <i>g<u>e</u>t</i></td>
+</tr>
+<tr>
+<td><b class="audio-inline"><font class="guibutton" color="#FF1493">i</font></b></td>
+<td> as in <i>mach<u>i</u>ne</i> (not as in <i>hit</i>)</td>
+</tr>
+<tr>
+<td><b class="audio-inline"><font class="guibutton" color="#FF1493">o</font></b></td>
+<td> as in <i>ch<u>o</u>ice</i>, <i>n<u>o</u>t</i> or <i>ough</i> in <i>th<u>ough</u>t</i> (not as in <i>so</i>, <b>o</b> should be a "pure" sound).</td>
+</tr>
+<tr>
+<td><b class="audio-inline"><font class="guibutton" color="#FF1493">u</font></b></td>
+<td> as in <i>c<u>oo</u>l</i> (not as in <i>but</i>)</td>
+</tr>
+<tr>
+<td><b class="audio-inline"><font class="guibutton" color="#FF1493">y</font></b></td>
+<td> as in <i>comm<u>a</u></i> (not as in <i>misty</i> or <i>cycle</i>)</td>
+</tr>
+<tr>
+<td colspan="2">4 vowels are written using combinations of letters:</td>
+</tr>
+<tr>
+<td><b class="audio-inline"><font color="#FF1493" class="guibutton">au</font></b></td>
+<td> as in <i>c<u>ow</u></i></td></tr>
+<tr>
+<td><b class="audio-inline"><font color="#FF1493" class="guibutton">ai</font></b></td>
+<td> as in <i>h<u>igh</u></i></td></tr>
+<tr>
+<td><b class="audio-inline"><font class="guibutton"color="#FF1493">ei</font></b></td>
+<td> as in <i>w<u>eigh</u></i></td></tr>
+<tr>
+<td><b class="audio-inline"><font class="guibutton" color="#FF1493">oi</font></b></td>
+<td> as in <i>b<u>oy</u></i></td></tr>
+</tbody></table>
+
+
+As for consonants they are pronounced like in English or Latin, but there are several differences:
+
+<table>
+<tbody><tr>
+<td><span class="audio-inline"><b class="guibutton">c</b></span>
 </td>
 <td>is pronounced as <i>c</i> in <i>ocean</i>, as <i>sh</i> in <i>shop</i>.
 </td></tr>
 <tr>
-<td><b>g</b>
+<td><span class="audio-inline"><b class="guibutton">g</b></span>
 </td>
 <td>always <i>g</i> as in <i>gum</i> (never <i>g</i> as in <i>gem</i>).
 </td></tr>
 <tr>
-<td><b>j</b>
+<td><span class="audio-inline"><b class="guibutton">j</b></span>
 </td>
 <td>like <i>s</i> in <i>pleasure</i> or <i>treasure</i>, like <i>j</i> in French <i>bonjour</i>.
 </td></tr>
 <tr>
-<td><b>x</b>
+<td><span class="audio-inline"><b class="guibutton">x</b></span>
 </td>
 <td>like <i>ch</i> in Scottish <i>loch</i> or as in German <i>Bach</i>, Spanish <i>Jose</i> or Arabic <i>Khaled</i>. Try pronouncing <i>ksss</i> while keeping your tongue down and you get this sound.
 </td></tr>
 <tr>
-<td><b> ' </b>
+<td><span class="audio-inline"><b class="guibutton"> ' </b></span>
 </td>
 <td>like English <i>h</i>. So the apostrophe is regarded as a proper letter of Lojban and pronounced like a <i>h</i>. It can be found only between vowels. For example, <b>u'i</b> is pronounced as <i>oo-hee</i> (whereas <b>ui</b> is pronounced as <i>wee</i>).
 </td></tr>
 <tr>
-<td><b>.</b>
+<td><span class="audio-inline"><b>.</b></span>
 </td>
 <td>a full stop (period, word break) is also regarded as a letter in Lojban. It's a short pause in speech to stop words running into each other. Actually any word starting with a vowel has a full stop placed in front of it. This helps prevent undesirable merging of two sequential words into one.
 </td></tr>
 <tr>
-<td><b>i</b>
+<td><span class="audio-inline"><b>i</b></span>
 </td>
-<td><b>i</b> before vowels is considered a consonant and pronounced shorter, for example:
+<td><span class="audio-inline"><b>i</b></span> before vowels is considered a consonant and pronounced shorter, for example:
 <ul><li><b>ia</b> is pronounced as <i>ya</i> in <i>yard</i></li>
 <li><b>ie</b> is pronounced as <i>ye</i> in <i>yes</i></li></ul>
 </td></tr>
 <tr>
-<td><b>u</b>
+<td><span class="audio-inline"><b>u</b></span>
 </td>
-<td><b>u</b> before vowels is considered a consonant and pronounced shorter, for example:
+<td><span class="audio-inline"><b>u</b></span> before vowels is considered a consonant and pronounced shorter, for example:
 <ul><li><b>ua</b> is pronounced as <i>wo</i> in <i>wow</i></li>
 <li><b>ue</b> is pronounced as <i>whe</i> in <i>when</i></li></ul>
 </td></tr></tbody></table>
@@ -7111,7 +7122,7 @@ The following table represents the basic Lojban alphabet and how to pronounce le
 <tbody><tr>
 <td>'
 </td>
-<td><font color="#FF1493"><b>a</b></font>
+<td><b><font  class="guibutton" color="#FF1493">a</font></b>
 </td>
 <td>b
 </td>
@@ -7119,7 +7130,7 @@ The following table represents the basic Lojban alphabet and how to pronounce le
 </td>
 <td>d
 </td>
-<td><font color="#FF1493"><b>e</b></font>
+<td><b><font  class="guibutton" color="#FF1493">e</font></b>
 </td></tr>
 <tr>
 <td><b>.y'y.</b>
@@ -7142,7 +7153,7 @@ The following table represents the basic Lojban alphabet and how to pronounce le
 </td>
 <td>g
 </td>
-<td><font color="#FF1493"><b>i</b></font>
+<td><b><font  class="guibutton" color="#FF1493">i</font></b>
 </td>
 <td>j
 </td>
@@ -7171,7 +7182,7 @@ The following table represents the basic Lojban alphabet and how to pronounce le
 </td>
 <td>n
 </td>
-<td><font color="#FF1493"><b>o</b></font>
+<td><b><font  class="guibutton" color="#FF1493">o</font></b>
 </td>
 <td>p
 </td>
@@ -7198,13 +7209,13 @@ The following table represents the basic Lojban alphabet and how to pronounce le
 <tr>
 <td>t
 </td>
-<td><font color="#FF1493"><b>u</b></font>
+<td><b><font  class="guibutton" color="#FF1493">u</font></b>
 </td>
 <td>v
 </td>
 <td>x
 </td>
-<td><font color="#FF1493"><b>y</b></font>
+<td><b><font  class="guibutton" color="#FF1493">y</font></b>
 </td>
 <td>z
 </td></tr>

@@ -1,8 +1,8 @@
 ---
-title: Unofficial ‘Complete Lojban Language’ book
+title: 📕 Unofficial ‘Complete Lojban Language’ book
 ---
 
-**CLL unofficial** (colloquially, *UnCLL*, *InCLL*) is a project by Gleki of regular experimental unofficial (not necessarily approved by the Logical Language Group) builds of the Complete Lojban Language book.
+**CLL unofficial** (colloquially, *UnCLL*, *InCLL*) is a project organized by Gleki of regular experimental unofficial (not necessarily approved by the Logical Language Group) builds of the Complete Lojban Language book.
 
 *   Send your feedback (noticed bugs, proposals, suggestions) to one of the following places:
     *   [Lojban Reddit group](https://www.reddit.com/r/lojban/)
@@ -18,7 +18,6 @@ title: Unofficial ‘Complete Lojban Language’ book
 #### Compiled version
 *   read the final document that is to be used for printing and publication. Notice that the title page has the document explicitly marked as "geklojban-1.2.13" and has the name of the organization published it different from the LLG; this is done to emphasize that it's not an LLG publication:
     *   [PDF format](https://la-lojban.github.io/uncll/uncll-1.2.13/cll.pdf)
-    <!-- *   [EPUB format](https://la-lojban.github.io/uncll/uncll-1.2.13/cll.epub) -->
     *   [HTML format, one page is one section of the book](https://la-lojban.github.io/uncll/uncll-1.2.13/xhtml_section_chunks/)
     *   [HTML format - the whole book in one very long page](https://la-lojban.github.io/uncll/uncll-1.2.13/xhtml_no_chunks/)
 * or read the so called ["difference" PDF document](https://la-lojban.github.io/uncll/uncll-1.2.13/cll_diffs/cll_difference_prefixed.pdf) that compares geklojban-1.2.13 to the UnCLL, version 1.2.12 (published in November 2020). The document has insertions marked with green and "ins\`" prefix and deletions marked with red and "del\`" prefix. Prefixes are added so that you can use Cmd+F or Ctrl+F to quickly find the differences in the PDF document. There is [an alternative difference version without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.13/cll_diffs/cll_difference.pdf) (but then you'll have to manually scroll the document to find the differences).
@@ -53,7 +52,6 @@ title: Unofficial ‘Complete Lojban Language’ book
 #### Compiled version
 *   read the final document that is to be used for printing and publication. Notice that the title page has the document explicitly marked as "geklojban-1.2.12" and has the name of the organization published it different from the LLG; this is done to emphasize that it's not an LLG publication:
     *   [PDF format](https://la-lojban.github.io/uncll/uncll-1.2.12/cll.pdf)
-    <!-- *   [EPUB format](https://la-lojban.github.io/uncll/uncll-1.2.12/cll.epub) -->
     *   [HTML format, one page is one section of the book](https://la-lojban.github.io/uncll/uncll-1.2.12/xhtml_section_chunks/)
     *   [HTML format - the whole book in one very long page](https://la-lojban.github.io/uncll/uncll-1.2.12/xhtml_no_chunks/)
 * or read the so called ["difference" PDF document](https://la-lojban.github.io/uncll/uncll-1.2.12/cll_diffs/cll_difference_prefixed.pdf) that compares geklojban-1.2.12 to the CLL published in 2016 (2016-08-27 release). The document has insertions marked with green and "ins\`" prefix and deletions marked with red and "del\`" prefix. Prefixes are added so that you can use Cmd+F or Ctrl+F to quickly find the differences in the PDF document. There is [an alternative difference version without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.12/cll_diffs/cll_difference.pdf) (but then you'll have to manually scroll the document to find the differences).
@@ -86,7 +84,6 @@ title: Unofficial ‘Complete Lojban Language’ book
 #### Compiled version
 *   read the final document that is to be used for printing and publication. Notice that the title page has the document explicitly marked as "geklojban-1.2.11" and has the name of the organization published it different from the LLG; this is done to emphasize that it's not an LLG publication:
     *   [PDF format](https://la-lojban.github.io/uncll/uncll-1.2.11/cll.pdf)
-    <!-- *   [EPUB format](https://la-lojban.github.io/uncll/uncll-1.2.11/cll.epub) -->
     *   [HTML format, one page is one section of the book](https://la-lojban.github.io/uncll/uncll-1.2.11/xhtml_section_chunks/)
     *   [HTML format - the whole book in one very long page](https://la-lojban.github.io/uncll/uncll-1.2.11/xhtml_no_chunks/)
 * or read the so called ["difference" PDF document](https://la-lojban.github.io/uncll/uncll-1.2.11/cll_diffs/cll_difference_prefixed.pdf) that compares geklojban-1.2.11 to the CLL published in 2016 (2016-08-27 release). The document has insertions marked with green and "ins\`" prefix and deletions marked with red and "del\`" prefix. Prefixes are added so that you can use Cmd+F or Ctrl+F to quickly find the differences in the PDF document. There is [an alternative difference version without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.11/cll_diffs/cll_difference.pdf) (but then you'll have to manually scroll the document to find the differences).
@@ -113,7 +110,6 @@ title: Unofficial ‘Complete Lojban Language’ book
 #### Compiled version
 *   read the final document that is to be used for printing and publication. Notice that the title page has the document explicitly marked as "geklojban-1.2.10" and has the name of the organization published it different from the LLG; this is done to emphasize that it's not an LLG publication:
     *   [PDF format](https://la-lojban.github.io/uncll/uncll-1.2.10/cll.pdf)
-    <!-- *   [EPUB format](https://la-lojban.github.io/uncll/uncll-1.2.10/cll.epub) -->
     *   [HTML format, one page is one section of the book](https://la-lojban.github.io/uncll/uncll-1.2.10/xhtml_section_chunks/)
     *   [HTML format - the whole book in one very long page](https://la-lojban.github.io/uncll/uncll-1.2.10/xhtml_no_chunks/)
 * or read the so called ["difference" PDF document](https://la-lojban.github.io/uncll/uncll-1.2.10/cll_diffs/cll_difference_prefixed.pdf) that compares geklojban-1.2.10 to the CLL published in 2016 (2016-08-27 release). The document has insertions marked with green and "ins\`" prefix and deletions marked with red and "del\`" prefix. Prefixes are added so that you can use Cmd+F or Ctrl+F to quickly find the differences in the PDF document. There is [an alternative difference version without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.10/cll_diffs/cll_difference.pdf) (but then you'll have to manually scroll the document to find the differences).
@@ -168,7 +164,6 @@ title: Unofficial ‘Complete Lojban Language’ book
 #### Compiled version
 *   read the final document that is to be used for printing and publication. Notice that the title page has the document explicitly marked as "geklojban-1.2.8.1" and has the name of the organization published it different from LLG; this is done to emphasize that it's not an LLG publication:
     *   [PDF format](https://la-lojban.github.io/uncll/uncll-1.2.8.1/cll.pdf)
-    <!-- *   [EPUB format](https://la-lojban.github.io/uncll/uncll-1.2.8.1/cll.epub) -->
     *   [HTML format, one page is one section of the book](https://la-lojban.github.io/uncll/uncll-1.2.8.1/xhtml_section_chunks/)
     *   [HTML format - the whole book in one very long page](https://la-lojban.github.io/uncll/uncll-1.2.8.1/xhtml_no_chunks/)
 * or read the so called ["difference" PDF document](https://la-lojban.github.io/uncll/uncll-1.2.8.1/cll_diffs/cll_difference_prefixed.pdf) that compares geklojban-1.2.8.1 to the CLL published in 2016 (2016-08-27 release). The document has insertions marked with green and "ins\`" prefix and deletions marked with red and "del\`" prefix. Prefixes are added so that you can use Cmd+F or Ctrl+F to quickly find the differences in the PDF document. There is [an alternative difference version without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.8.1/cll_diffs/cll_difference.pdf) (but then you'll have to manually scroll the document to find the differences).
