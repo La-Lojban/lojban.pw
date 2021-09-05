@@ -679,6 +679,9 @@ kukte
 mlatu
 : … is a cat
 
+le prenu
+: the person
+
 le plise
 : the apples
 
