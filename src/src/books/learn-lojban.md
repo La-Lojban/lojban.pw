@@ -538,12 +538,8 @@ nelci
 le zarci
 : the market
 
-le najnimre
-: the orange (fruit), the oranges
-
-le badna
-: the banana, bananas
-
+le plise
+: the apples
 
 <table style="table-layout: fixed;">
 	<tbody>
