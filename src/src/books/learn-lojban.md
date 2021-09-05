@@ -646,11 +646,23 @@ mutce
 
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
+melbi
+: … is beautiful, nice
+
+karce
+: x1 is a car …
+
 sutra
 : … is quick
 
+klama
+: x1 comes to x2 …
+
 barda
 : … is big
+
+zdani
+: … is a home or nest to … (someone)
 
 cmalu
 : … is small
@@ -658,8 +670,17 @@ cmalu
 bajra
 : … runs
 
+citka
+: … eats … (something)
+
+kukte
+: … delicious/tasty (something)
+
 mlatu
 : … is a cat
+
+le plise
+: the apples
 
 <table style="table-layout: fixed;">
 <tbody><tr>
