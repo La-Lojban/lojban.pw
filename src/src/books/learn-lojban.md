@@ -361,8 +361,14 @@ Close the right part of the table. Translate from Lojban the sentences on the le
 pinxe
 : … drinks … (something)
 
+citka
+: … eats … (something)
+
 le ladru
 : the milk
+
+le plise
+: the apples
 
 <table style="table-layout: fixed;">
 <tbody><tr>
@@ -394,8 +400,6 @@ The most precise way of uttering or writing sentences in Lojban would be placing
 When saying one sentence after another in English we make a pause (it may be short) between them. But pause has many different meanings in English. In Lojban we have a better way of understanding where one sentence ends and another begins.
 
 Also note that sometimes when pronouncing words quickly you can't figure out where one sentence ends and the word of the next sentence begins. Therefore it's advised to use the word **.i** before starting a new sentence.
-
-### Numbers: ‘_1 2 3 4 5 6 7 8 9 0_’ = «**pa re ci vo mu xa ze bi so no**»
 
 **le** simply turns a verb into a noun but such noun has no number associated with it. The sentence
 
