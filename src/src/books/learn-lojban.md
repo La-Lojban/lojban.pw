@@ -535,6 +535,9 @@ klama
 nelci
 : … likes (something)
 
+kukte
+: … delicious/tasty (something)
+
 le zarci
 : the market
 
