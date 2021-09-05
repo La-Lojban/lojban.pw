@@ -482,7 +482,7 @@ The number **za'u** means _more than …_ (_\>_ in math), the number **me'i** me
 
 > **le za'u re prenu cu tavla mi**
 
-> _More then two people talk to me._
+> _More than two people talk to me._
 
 <!-- -->
 
