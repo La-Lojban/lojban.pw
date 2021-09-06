@@ -11,6 +11,10 @@ module.exports = {
   },
   theme: {
     extend: {
+      screens: {
+        'print': {'raw': 'print'},
+        // => @media print { ... }
+      },
       colors: {
         'accent-1': '#FAFAFA',
         'accent-2': '#EAEAEA',

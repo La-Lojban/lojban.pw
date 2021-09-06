@@ -13,6 +13,35 @@ title: 📕 Unofficial ‘Complete Lojban Language’ book
 
 ## Releases
 
+### geklojban-1.2.14 July 2021
+
+#### Compiled version
+*   read the final document that is to be used for printing and publication. Notice that the title page has the document explicitly marked as "geklojban-1.2.14" and has the name of the organization published it different from the LLG; this is done to emphasize that it's not an LLG publication:
+    *   [PDF format](https://la-lojban.github.io/uncll/uncll-1.2.14/cll.pdf)
+    *   [HTML format, one page is one section of the book](https://la-lojban.github.io/uncll/uncll-1.2.14/xhtml_section_chunks/)
+    *   [HTML format - the whole book in one very long page](https://la-lojban.github.io/uncll/uncll-1.2.14/xhtml_no_chunks/)
+* or read the so called ["difference" PDF document](https://la-lojban.github.io/uncll/uncll-1.2.14/cll_diffs/cll_difference_prefixed.pdf) that compares geklojban-1.2.14 to the UnCLL, version 1.2.12 (published in November 2020). The document has insertions marked with green and "ins\`" prefix and deletions marked with red and "del\`" prefix. Prefixes are added so that you can use Cmd+F or Ctrl+F to quickly find the differences in the PDF document. There is [an alternative difference version without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.14/cll_diffs/cll_difference.pdf) (but then you'll have to manually scroll the document to find the differences).
+*   or read the difference document in HTML format instead:
+    *   [with prefixes](https://la-lojban.github.io/uncll/uncll-1.2.14/cll_diffs/diff_new_xhtml_no_chunks/difference_prefixed.html),
+    *   [without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.14/cll_diffs/diff_new_xhtml_no_chunks/difference.html).
+
+#### Short list of changes compared to the previous version 'geklojban-1.2.11.1 October 2020'
+
+#### Source code
+
+* it's one of the major improvements. [Lojban Words Glossary](https://la-lojban.github.io/uncll/uncll-1.2.14/xhtml_section_chunks/go01.html) got around 200 new examples of sentences in Lojban with their translation to English. Since the number of core words in Lojban is around 2000 it means ~10% of this task is done
+* fixed errors in with **bo**, **ke'e** in Chapter 5. 'Scalar negation of selbri'
+* fix an incorrect name of one audio file
+* more improvements to the index: added ZEhA and more BAI
+* better explain cmevla according to the dotside
+* add missing dots in cmavo where necessary
+* fix punctuation in 'Kubla Khan' poem translation
+
+[git source of the UnCLL](https://github.com/lojban/cll/compare/geklojban-master)
+
+* [Compared with version 'geklojban-1.2.12 November 2020': git difference](https://github.com/lojban/cll/compare/geklojban-1.2.12...geklojban-1.2.14)
+* [Comparison between the official CLL v.1.1 edition (2016) and the UnCLL November 2020 edition': git difference](https://github.com/lojban/cll/compare/6c0556c7b17f96b3bf41e.133ba18ef4868e056a...geklojban-1.2.12)
+
 ### geklojban-1.2.13 May 2021
 
 #### Compiled version

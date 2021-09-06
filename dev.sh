@@ -1,6 +1,6 @@
 docker kill lme
 docker rm -f lme
-
+docker build -t lme .
 docker run -d -it --name lme  \
 -v ~/.ssh:/root/.ssh:Z \
 -v $(pwd)/src:/app/src/:Z \

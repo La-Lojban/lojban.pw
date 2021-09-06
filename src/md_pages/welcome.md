@@ -19,7 +19,7 @@ A course teaching Lojban from its formal foundations but in simple words and lot
 
 * [PDF](/vreji/uencu/learn-lojban.pdf) - in a PDF file for download
 
-### Unofficial ‘Complete Lojban Language’ book, May 2021 edition
+### Unofficial ‘Complete Lojban Language’ book, July 2021 edition
 
 Adheres to the original book published in 1997 and:
 
@@ -29,9 +29,9 @@ Adheres to the original book published in 1997 and:
 
 Available:
 
-* [PDF](https://la-lojban.github.io/uncll/uncll-1.2.13/cll.pdf) - in a PDF file for download
-* [HTML in sections](https://la-lojban.github.io/uncll/uncll-1.2.13/xhtml_section_chunks/) - in HTML files
-<!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.13/cll.epub) - as an EPUB book -->
+* [PDF](https://la-lojban.github.io/uncll/uncll-1.2.14/cll.pdf) - in a PDF file for download
+* [HTML in sections](https://la-lojban.github.io/uncll/uncll-1.2.14/xhtml_section_chunks/) - in HTML files
+<!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.14/cll.epub) - as an EPUB book -->
 
 [More info...](/articles/complete-lojban-language)
 

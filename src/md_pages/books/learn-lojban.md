@@ -186,7 +186,7 @@ Each sentence in Lojban consists of the following parts from the left to the rig
 - the head separator **cu**:
 	- pronounced as _shoe_ since **c** is for _sh_,
 	- shows that the head ended,
-	- it can be omitted when it's obvious anyway that the head is completed.
+	- can be omitted when it's clear anyway that the head is completed.
 - the tail:
 	- the main relation (**tavla**, **prami**) with possibly one or more terms after it: the terms **mi**, **do** in the examples above.
 
@@ -217,7 +217,7 @@ and thus
 le tavla
 : the speaker
 
-It might sound strange how person can be a "verb" but in fact this makes Lojban very simple:
+It might sound strange how _person_ can be a "verb" but in fact this makes Lojban very simple:
 
 <table>
 <thead>
@@ -475,7 +475,7 @@ If we want to count we can separate numbers with **.i**:
 The number **za'u** means _more than …_ (_\>_ in math), the number **me'i** means _less than_ (_<_ in math):
 
 > **le za'u re prenu cu tavla mi**
-> _More then two people talk to me._
+> _More than two people talk to me._
 
 <!-- -->
 
@@ -607,6 +607,14 @@ Now you know why there was **cu** after nouns in our example
 > _The person talks to me._
 
 Without **cu** it'd turn into **le pa prenu tavla** … with the meaning _the person-talker_ whatever that could mean.
+
+Consider:
+
+> **le pa tavla pendo**
+> _The talking friend_
+<!-- -->
+> **le pa tavla cu pendo**
+> _The talking one is a friend._
 
 Remember about placing **cu** before the main verb in a relation to prevent unintentional creating of compound verbs.
 
@@ -1798,7 +1806,7 @@ la .djansyn.
 la .suzyn.
 : Susan
 
-In the English name _Susan_ the two letters _s_ are pronounced differently. The second one is actually a _z_, and the _a_ is not really an _a_ sound, it's the "schwa" explained in the beginning of this chapter. So _Susan_ is written **.suzyn.** in Lojban.
+In the English name _Susan_ the two letters _s_ are pronounced differently. The second one is actually a _z_, and the _a_ is not really an _a_ sound, it's the "schwa" explained in the beginning of this chapter. So _Susan_ is written as **.suzyn.** in Lojban.
 
 Pay attention to how the name is pronounced natively. Thus, the English and French names _Robert_ come out differently in Lojban: the English name is rather **.robyt.** in UK English, or **.rabyrt.** in some American dialects, but the French is **.rober.**
 
@@ -2433,7 +2441,7 @@ How do we say _You are my friend_ ?
 And now how do we say _My friend is smart._?
 
 > **le pendo be mi cu stati**
-> _My friend is crazy._
+> _My friend is smart._
 
 So when we convert a verb into a noun (**pendo** — _to be a friend_ into **le pendo** — _a friend_) we can still retain other places of that verb by placing **be** after it.
 
@@ -2762,7 +2770,7 @@ Other examples:
 > **ti du la .alis. noi mi ta'e zgana bu'u le panka**
 > _This is Alice, whom I habitually see in the park._
 
-**noi du** and **poi du** are used in Lojban to introduce alternate names for something. So they correspond to English _namely, i.e._:
+**noi du** and **poi du** are used in Lojban to introduce alternate names for something. They correspond to English _namely, i.e._:
 
 > **la .alis. cu penmi le prenu noi du la .abdul.**
 > _Alice met the person, namely Abdul._
@@ -8169,21 +8177,18 @@ Suppose you come home and hear someone scratching. You can say one of the follow
 > **fau su'o da tu mlatu**
 > **fau da tu mlatu**
 > _This might be/possibly is a cat. It is possible that this is a cat._
-
 > (You keep several animals at home. So it might be your cat scratching but you are not sure.)
 
 <!-- -->
 
 > **fau ro da tu mlatu**
 > _this must be/certainly is the cat._
-
 > (You have a cat and such noise can be produced by only one object, that cat.)
 
 <!-- -->
 
 > **fau so'e da tu mlatu**
 > _This should be/probably is the cat._
-
 > (If you have a dog then it can also produce such sounds but your dog usually doesn't do that so the cat is more likely.)
 
 <!-- -->
@@ -8699,7 +8704,7 @@ le pipno
 > **la .alis. cu jinvi le du'u le prenu cu cizra**
 > _Alice has an opinion that the person is strange._
 
-By default the main relation of sentence asserts some information. Relations inside places or relations that are relative relations may not be asserted. In the last example that the man is crazy is not asserted by the speaker. It's only Alice's opinion.
+By default the main relation of sentence asserts some information. Relations inside places or relations that are relative relations may not be asserted. In the last example that the man is strange is not asserted by the speaker. It's only Alice's opinion.
 
 The interjection **ju'a** makes the relation asserted by the speaker. The first sentence can be thus rephrased as:
 

@@ -9,7 +9,7 @@ RUN apt-get install -y build-essential software-properties-common curl
 
 RUN apt-get install -y python3 python3-dev python3-pip
 
-RUN apt-get install --yes wget curl git
+RUN apt-get install --yes wget curl git vim
 RUN curl --silent --location https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install --yes nodejs
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg |  apt-key add - \
@@ -51,3 +51,5 @@ WORKDIR /app/
 RUN git config --global user.email "gleki.is.my.name@gmail.com" && git config --global user.name "lagleki"
 
 WORKDIR /app/src
+
+RUN chown -R 1000:1000 /root
