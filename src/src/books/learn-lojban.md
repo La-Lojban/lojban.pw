@@ -891,6 +891,51 @@ lazni
 
 #### Task
 
+barda
+: … is big
+
+zdani
+: … is a home or nest to … (someone)
+
+melbi
+: … is beautiful, nice
+
+le prenu
+: the person
+
+stati
+: … is smart, … has a talent
+
+klama
+: … comes to … (some place or object)
+
+le zarci
+: the market
+
+verba
+: is a child, immature person
+
+prami
+: to love somebody or something 
+
+mlatu
+: … is a cat
+
+karce
+: x1 is a car …
+
+sutra
+: … is quick
+
+le najnimre
+: the orange (fruit), the oranges
+
+kukte
+: … delicious/tasty (something)
+
+le gerku
+: the dog, the dogs
+
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
 <table style="table-layout: fixed;">
