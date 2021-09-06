@@ -361,8 +361,14 @@ Close the right part of the table. Translate from Lojban the sentences on the le
 pinxe
 : … drinks … (something)
 
+citka
+: … eats … (something)
+
 le ladru
 : the milk
+
+le plise
+: the apples
 
 <table style="table-layout: fixed;">
 <tbody><tr>
@@ -394,8 +400,6 @@ The most precise way of uttering or writing sentences in Lojban would be placing
 When saying one sentence after another in English we make a pause (it may be short) between them. But pause has many different meanings in English. In Lojban we have a better way of understanding where one sentence ends and another begins.
 
 Also note that sometimes when pronouncing words quickly you can't figure out where one sentence ends and the word of the next sentence begins. Therefore it's advised to use the word **.i** before starting a new sentence.
-
-### Numbers: ‘_1 2 3 4 5 6 7 8 9 0_’ = «**pa re ci vo mu xa ze bi so no**»
 
 **le** simply turns a verb into a noun but such noun has no number associated with it. The sentence
 
@@ -482,7 +486,7 @@ The number **za'u** means _more than …_ (_\>_ in math), the number **me'i** me
 
 > **le za'u re prenu cu tavla mi**
 
-> _More then two people talk to me._
+> _More than two people talk to me._
 
 <!-- -->
 
@@ -531,15 +535,14 @@ klama
 nelci
 : … likes (something)
 
+kukte
+: … delicious/tasty (something)
+
 le zarci
 : the market
 
-le najnimre
-: the orange (fruit), the oranges
-
-le badna
-: the banana, bananas
-
+le plise
+: the apples
 
 <table style="table-layout: fixed;">
 	<tbody>
@@ -643,11 +646,23 @@ mutce
 
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
+melbi
+: … is beautiful, nice
+
+karce
+: x1 is a car …
+
 sutra
 : … is quick
 
+klama
+: x1 comes to x2 …
+
 barda
 : … is big
+
+zdani
+: … is a home or nest to … (someone)
 
 cmalu
 : … is small
@@ -655,8 +670,20 @@ cmalu
 bajra
 : … runs
 
+citka
+: … eats … (something)
+
+kukte
+: … delicious/tasty (something)
+
 mlatu
 : … is a cat
+
+le prenu
+: the person
+
+le plise
+: the apples
 
 <table style="table-layout: fixed;">
 <tbody><tr>
@@ -820,6 +847,8 @@ je'u
 je'u nai
 : interjection meaning "falsely, not truly"
 
+**nai** is a modifier of interjections, it creates the opposite meaning when put after them.
+
 Another way to answer _yes_ is to repeat the main verb, for example
 
 > — **xu le mlatu cu melbi**
@@ -860,9 +889,52 @@ lazni
 
 > _It is false that I like the dogs._
 
-**nai** is a modifier of interjections, it creates the opposite meaning when put after them.
-
 #### Task
+
+barda
+: … is big
+
+zdani
+: … is a home or nest to … (someone)
+
+melbi
+: … is beautiful, nice
+
+le prenu
+: the person
+
+stati
+: … is smart, … has a talent
+
+klama
+: … comes to … (some place or object)
+
+le zarci
+: the market
+
+verba
+: is a child, immature person
+
+prami
+: to love somebody or something 
+
+mlatu
+: … is a cat
+
+karce
+: x1 is a car …
+
+sutra
+: … is quick
+
+le najnimre
+: the orange (fruit), the oranges
+
+kukte
+: … delicious/tasty (something)
+
+le gerku
+: the dog, the dogs
 
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
@@ -934,17 +1006,41 @@ In English to be polite one has to use _could you_ + _please_ + a question). In 
 
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
+sutra
+: … is quick
+
+bajra
+: … runs
+
+pinxe
+: … drinks … (something)
+
 le tcati
 : the tea
-
-le ckafi
-: coffee
 
 catlu
 : to watch
 
 le skina
 : the film, the movie
+
+stati
+: … is smart, … has a talent
+
+klama
+: … comes to … (some place or object)
+
+zdani
+: … is a home or nest to … (someone)
+
+le ckafi
+: coffee
+
+kurji
+: … takes care of … (someone or something)
+
+verba
+: is a child, immature person
 
 <table style="table-layout: fixed;">
 
@@ -1182,6 +1278,84 @@ In order to emphasize that you and I participate in the same action we use a spe
 The pronoun **mi'o** (_you and I together_) can actually be expressed as **mi joi do**, which means exactly the same (it's just longer). In Lojban you may use not a single word for _we_ but more precise constructs like **mi joi le pendo** (literally _I and the friends_).
 
 #### Task
+
+nelci
+: … likes … (something or someone)
+
+le badna
+: the banana
+
+le plise
+: the apples
+
+sutra
+: … is quick
+
+stati
+: … is smart, … has a talent
+
+za'u
+: more than …
+
+le prenu
+: the person
+
+casnu
+: … discusses …
+
+karce
+: x1 is a car …
+
+le gerku
+: the dog, the dogs
+
+citka
+: … eats … (something)
+
+le najnimre
+: the orange (fruit), the oranges
+
+le badna
+: the banana
+
+pendo
+: … is a friend of … (someone)
+
+nelci
+: … likes … (something or someone)
+
+carvi
+: … is rain, … is raining
+
+klama
+: … comes to … (some place or object)
+
+le zarci
+: the market
+
+catlu
+: to watch
+
+barda
+: … is big
+
+melbi
+: … is beautiful, nice
+
+verba
+: is a child, immature person
+
+pinxe
+: … drinks … (something)
+
+le ladru
+: the milk
+
+le jisra
+: juice
+
+cmalu
+: … is small
 
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
