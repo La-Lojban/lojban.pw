@@ -847,6 +847,8 @@ je'u
 je'u nai
 : interjection meaning "falsely, not truly"
 
+**nai** is a modifier of interjections, it creates the opposite meaning when put after them.
+
 Another way to answer _yes_ is to repeat the main verb, for example
 
 > — **xu le mlatu cu melbi**
@@ -886,8 +888,6 @@ lazni
 > **je'u nai mi nelci le gerku**
 
 > _It is false that I like the dogs._
-
-**nai** is a modifier of interjections, it creates the opposite meaning when put after them.
 
 #### Task
 
