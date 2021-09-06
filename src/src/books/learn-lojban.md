@@ -1279,6 +1279,84 @@ The pronoun **mi'o** (_you and I together_) can actually be expressed as **mi jo
 
 #### Task
 
+nelci
+: … likes … (something or someone)
+
+le badna
+: the banana
+
+le plise
+: the apples
+
+sutra
+: … is quick
+
+stati
+: … is smart, … has a talent
+
+za'u
+: more than …
+
+le prenu
+: the person
+
+casnu
+: … discusses …
+
+karce
+: x1 is a car …
+
+le gerku
+: the dog, the dogs
+
+citka
+: … eats … (something)
+
+le najnimre
+: the orange (fruit), the oranges
+
+le badna
+: the banana
+
+pendo
+: … is a friend of … (someone)
+
+nelci
+: … likes … (something or someone)
+
+carvi
+: … is rain, … is raining
+
+klama
+: … comes to … (some place or object)
+
+le zarci
+: the market
+
+catlu
+: to watch
+
+barda
+: … is big
+
+melbi
+: … is beautiful, nice
+
+verba
+: is a child, immature person
+
+pinxe
+: … drinks … (something)
+
+le ladru
+: the milk
+
+le jisra
+: juice
+
+cmalu
+: … is small
+
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
 <table style="table-layout: fixed;">
