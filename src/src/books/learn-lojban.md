@@ -1006,17 +1006,41 @@ In English to be polite one has to use _could you_ + _please_ + a question). In 
 
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
+sutra
+: … is quick
+
+bajra
+: … runs
+
+pinxe
+: … drinks … (something)
+
 le tcati
 : the tea
-
-le ckafi
-: coffee
 
 catlu
 : to watch
 
 le skina
 : the film, the movie
+
+stati
+: … is smart, … has a talent
+
+klama
+: … comes to … (some place or object)
+
+zdani
+: … is a home or nest to … (someone)
+
+le ckafi
+: coffee
+
+kurji
+: … takes care of … (someone or something)
+
+verba
+: is a child, immature person
 
 <table style="table-layout: fixed;">
 
