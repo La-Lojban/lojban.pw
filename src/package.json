@@ -31,7 +31,7 @@
     "remark-deflist": "^0.3.0",
     "remark-extract-toc": "^1.1.0",
     "remark-gfm": "^1.0.0",
-    "remark-html": "13.0.1",
+    "remark-html": "13.0.2",
     "remark-parse": "^9.0.0",
     "remark-rehype": "^8.1.0",
     "sass": "^1.35.1",
