@@ -2463,6 +2463,12 @@ By default it attaches the second place (x2). We can attach more places by separ
 
 Another example:
 
+<!-- > **le pendo be mi cu tavla**
+> _The friends of mine are talking._
+> **le pendo mi cu tavla**
+> **le pendo cu tavla mi**
+> _The friends are talking to me._ -->
+
 > **mi klama le pendo be do**
 > _I come to a friend of yours._
 
@@ -2867,7 +2873,7 @@ xamgu
 > **mi se xamgu le nu mi tadni la .lojban.**
 > _For me it's good to study Lojban._
 
-The same can be dont with nouns:
+The same can be done with nouns:
 
 le posydu'a
 : those who give in possession, the givers, the donors, the donators
