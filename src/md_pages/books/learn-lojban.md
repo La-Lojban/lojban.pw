@@ -4852,7 +4852,7 @@ They may help you get used to colloquial Lojban faster.
 	: when …
 
 	> **mi pu bebna ca le nu mi citno**
-	> _I was stupid whne I was young._
+	> _I was stupid when I was young._
 * 
 	va'o le nu
 	: provided that …
