@@ -4852,7 +4852,7 @@ They may help you get used to colloquial Lojban faster.
 	: when …
 
 	> **mi pu bebna ca le nu mi citno**
-	> _I was stupid whne I was young._
+	> _I was stupid when I was young._
 * 
 	va'o le nu
 	: provided that …
@@ -7263,11 +7263,11 @@ We can spell word using these names. For example, CNN will be **cy. ny. ny.**
 
 A string of one or more letter names works as a pronoun. And we can use them for another method of referring to nouns and names earlier used in speech.
 
-> **la .alis. pu klama le nurma .i le nurma melbi la .alis.**
+> **la .alis. pu klama le nurma .i le nurma cu melbi la .alis.**
 > **la .alis. pu klama le nurma .i ri melbi la .alis.**
 > **la .alis. pu klama le nurma .i ny. melbi la .alis.**
 > **la .alis. pu klama le nurma .i ny. melbi .a bu**
-> _Alice went to the country. The rural are is beautiful to Alice._
+> _Alice went to the country. The rural area is beautiful to Alice._
 > _Alice went to the country. It is beautiful to her._
 
 All the Lojban variants mean the same.
