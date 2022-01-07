@@ -1203,7 +1203,7 @@ ku'i
 
 Actually, in English _but_ is the same as _and_ + it adds a flavor of contrast.
 
-In Lojban we just use the conjunction **.i je** (or **.e**, **gi'e**, **je** depending on what we connect) and add the falvor of contrast to it with the interjection **ku'i**. That will give us the necessary contrast. As usual, the interjection modifies the construct before it.
+In Lojban we just use the conjunction **.i je** (or **.e**, **gi'e**, **je** depending on what we connect) and add the flavor of contrast to it with the interjection **ku'i**. That will give us the necessary contrast. As usual, the interjection modifies the construct before it.
 
 ### Events: ‘_dancing and being together_’ — «**le nu dansu .e le nu kansa**»
 
