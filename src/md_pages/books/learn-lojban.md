@@ -1429,7 +1429,7 @@ Also note that adding a noun after a tense particle can lead to drastically diff
 > **le nicte ba le nu citka cu pluka**
 > _The night is pleasant after eating._
 
-Note that **ca** can extend slightly into the past and the future, meaning _just about now_. Thus, **ca** reflects a widely used around the world the notion of "present time".
+Note that **ca** can extend slightly into the past and the future, meaning _just about now_. Thus, **ca** reflects a widely used around the world notion of "present time".
 
 It is also possible to integrate tense particles into the verb:
 
@@ -2240,7 +2240,7 @@ Similarly, in
 
 the second place of **citka** is still omitted. A new word **ba** with its argument **le nu mi cadzu** adds meaning to the sentence.
 
-The order of arguments of compound verbs is the same as the of the last verb word in it:
+The order of arguments of compound verbs is the same as the one of the last verb word in it:
 
 > **tu sutra bajra pendo mi**
 > _That is my quickly running friend._
@@ -3120,7 +3120,7 @@ However, prenex is useful and necessary when you need to use **da** deep inside 
 
 Notice how the meaning changes. Here, we can't omit the prenex because it will change to the meaning of the previous example.
 
-Ine more example:
+One more example:
 
 > **le nu pilno pa le bangu vau na ku banzu**
 > _Using just one of the languages is not enough._
@@ -3163,7 +3163,7 @@ tavla
 > **pa da poi ckape zo'u mi djica le nu da na ku fasnu**
 > _There is one dangerous thing: I wish it never happens._
 
-**da** doesn't imply any particular objects or events, which is often useful:
+**da** doesn't imply any particular objects of events, which is often useful:
 
 > **xu do tavla su'o da poi na ku slabu do**
 > _Do you talk to someone not familiar to you? (no particular person in mind is described)._
@@ -4187,7 +4187,7 @@ In this case you probably thought that was something dangerous but it's only a c
 
 You can add or remove interjections to/from a sentence without the risk of breaking it.
 
-Any word that starts with a pure vowel (excluding **u** and **i** before vowels) is prefixed with a dot in Lojban in writing and with a puase in speech. So the correct spelling is **.a'o** and so on. It's common to omit dots. We will do this later in this course for brevity. However, while speaking you should always show this dot by making a short pause before saying such word to prevent merging two neighboring words together into one.
+Any word that starts with a pure vowel (excluding **u** and **i** before vowels) is prefixed with a dot in Lojban in writing and with a pausee in speech. So the correct spelling is **.a'o** and so on. It's common to omit dots. We will do this later in this course for brevity. However, while speaking you should always show this dot by making a short pause before saying such word to prevent merging two neighboring words together into one.
 
 Like with **xu** or **sei**\-relations we can add interjections after any noun, pronoun or verb thus expressing our attitude towards that part of the sentence.
 
@@ -5097,7 +5097,7 @@ le xrula
 > **.i na ku ckape**
 > _It's not dangerous._
 
-> **.i ca ti mi gasnu le nu da vi zvati**
+> **.i ca ti mi ganse le nu da vi zvati**
 > _And now I can sense a presence of someone here._
 
 <!-- -->
@@ -5239,7 +5239,7 @@ ganse le lenku
 For observing our perceptions we can use **zgana**:
 
 > **mi zgana le tarmi be le plise**
-> _I observer the form of an apple._
+> _I observe the form of an apple._
 
 > **.i le plise cu se tarmi le'e cukla**
 > _The apple is round._
@@ -5396,7 +5396,7 @@ le xamsi
 : sea
 
 > **.i mi catlu le prenu noi dasni le zirpu taxfu**
-> _I look at a woman who wears the violet dress._
+> _I look at a person who wears the violet dress._
 
 dasni
 : x1 wears x2 (something)
@@ -5631,7 +5631,7 @@ xadni
 > _I hit something with the head and the left hand. Now the finger of the hand hurts. But the right hand doesn't hurt._
 
 darxi
-: x2 hits x2 with x3
+: x1 hits x2 with x3
 
 Most of words for parts of body have the same place structure as **xadni**:
 
@@ -5898,7 +5898,7 @@ zdani
 : x1 is a home of x2
 
 se zdani
-: x2 lives in x2, x1 inhabits x2
+: x1 lives in x2, x1 inhabits x2
 
 tcadu
 : x1 is a city or town
