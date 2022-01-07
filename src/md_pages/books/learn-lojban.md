@@ -3120,7 +3120,7 @@ However, prenex is useful and necessary when you need to use **da** deep inside 
 
 Notice how the meaning changes. Here, we can't omit the prenex because it will change to the meaning of the previous example.
 
-Ine more example:
+One more example:
 
 > **le nu pilno pa le bangu vau na ku banzu**
 > _Using just one of the languages is not enough._

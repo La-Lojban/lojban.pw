@@ -42,7 +42,8 @@ COPY src/package*.json /app/
 
 WORKDIR /app/
 
-RUN npm i -g npm-check-updates yarn
+RUN npm i -g yarn
+RUN yarn global add npm-check-updates
 
 RUN apt-get install --yes git
 
@@ -53,3 +54,5 @@ RUN git config --global user.email "gleki.is.my.name@gmail.com" && git config --
 WORKDIR /app/src
 
 RUN chown -R 1000:1000 /root
+
+RUN yarn
