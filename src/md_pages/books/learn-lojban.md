@@ -3163,7 +3163,7 @@ tavla
 > **pa da poi ckape zo'u mi djica le nu da na ku fasnu**
 > _There is one dangerous thing: I wish it never happens._
 
-**da** doesn't imply any particular objects of events, which is often useful:
+**da** doesn't imply any particular objects or events, which is often useful:
 
 > **xu do tavla su'o da poi na ku slabu do**
 > _Do you talk to someone not familiar to you? (no particular person in mind is described)._
@@ -4187,7 +4187,7 @@ In this case you probably thought that was something dangerous but it's only a c
 
 You can add or remove interjections to/from a sentence without the risk of breaking it.
 
-Any word that starts with a pure vowel (excluding **u** and **i** before vowels) is prefixed with a dot in Lojban in writing and with a pausee in speech. So the correct spelling is **.a'o** and so on. It's common to omit dots. We will do this later in this course for brevity. However, while speaking you should always show this dot by making a short pause before saying such word to prevent merging two neighboring words together into one.
+Any word that starts with a pure vowel (excluding **u** and **i** before vowels) is prefixed with a dot in Lojban in writing and with a pause in speech. So the correct spelling is **.a'o** and so on. It's common to omit dots. We will do this later in this course for brevity. However, while speaking you should always show this dot by making a short pause before saying such word to prevent merging two neighboring words together into one.
 
 Like with **xu** or **sei**\-relations we can add interjections after any noun, pronoun or verb thus expressing our attitude towards that part of the sentence.
 
