@@ -117,7 +117,7 @@ As for consonants they are pronounced like in English or Latin, but there are se
 
 Stress is put on the last but one vowel. If a word has only one vowel you just don't stress it.
 
-**r** can be pronounced like the _r_ in English, Scottish, French, Russian, thus there is a range of acceptable pronunciation for it.
+**r** can be pronounced like the _r_ in English, Scottish, Russian, thus there is a range of acceptable pronunciation for it.
 
 Non-Lojban vowels like short _i_ and _u_ in Standard British English _hit_ and _but_ are used by some people to separate consonants. So if you have problems spitting out two consonant one after another, e.g. the **vl** in **tavla** (which means _to talk to_), then you can say _tavɪla_ — where the _ɪ_ is very short, but other vowels: **a**, **u** have to be long.
 
@@ -923,6 +923,9 @@ catlu
 le skina
 : the film, the movie
 
+kurji
+: to care of (someone, something)
+
 <table style="table-layout: fixed;">
 
 <tbody><tr>
@@ -1669,6 +1672,9 @@ le fagri
 
 mi'o
 : You and I
+
+le purdi
+: the garden
 
 le tcati
 : the tea
@@ -2793,9 +2799,9 @@ tunba
 
 We can place a tense not only before the main verb of a relation but at the end of it giving the same result:
 
-**mi ca tcidu
-mi tcidu ca**
-_I (now read)._
+> **mi ca tcidu**
+> **mi tcidu ca**
+> _I (now read)._
 
 tcidu
 : to read (some text)
@@ -4410,7 +4416,10 @@ Note that interjections don't necessarily show attitude towards the speakers the
 	> **ie zo'o nai**
 	> _I agree (not kidding)._
 
-	**zo'o nai** is used to show that the information is not a joke:
+	- **zo'o nai** is used to show that the information is not a joke:
+
+		> **zo'o nai ra pu klama la paris**
+		> _— I'm serious, he went to Paris._
 
 - Suffixes can be used on its own:
 
@@ -5329,7 +5338,7 @@ cidni
 
 #### Colors
 
-Different language use different sets of words to denote colors. Some languages just use compare the color of objects with colors of other "prototype" objects. In Lojban we use all the options:
+Different language use different sets of words to denote colors. Some languages just refer to the color by referencing other "prototype" objects with similar color (or shade, form ...) In Lojban we use all the options:
 
 > **ti xunre**
 > _This is red._
@@ -6309,7 +6318,7 @@ za'u re'u
 : again, not for the first time
 
 re re'u
-: two times (same here, no context is needed, and even the exact number of times is given)
+: for the second time (same here, no context is needed, and even the exact number of times is given)
 
 ### Terms: their location within a relation
 
