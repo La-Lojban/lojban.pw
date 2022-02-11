@@ -5869,10 +5869,10 @@ jdini
 : x1 is money
 
 rupnusudu
-: x1 costs x2 US dollars
+: x1 costs x2 (number) US dollars
 
 rupne'uru
-: x1 costs x2 euro
+: x1 costs x2 (number) euro
 
 ### Shop, buildings
 
@@ -8171,8 +8171,8 @@ Relations with **da'i** may include the term with **fau**:
 fau
 : with the event of …
 
-rupnu
-: x1 is x2 (number) US dollars
+rupnusudu
+: x1 costs x2 (number) US dollars
 
 pa ki'o ki'o
 : 1 million
@@ -8182,8 +8182,27 @@ pa ki'o ki'o
 
 Here the event inside **fau** is equally imagined together with **mi gleki**. And here is the reverse example:
 
-> **da'i nai mi gleki fau le nu mi ponse le rupnu be li pa ki'o ki'o**
+> **da'i nai mi gleki fau le nu mi ponse le rupnusudu be li pa ki'o ki'o**
 > _Having one million dollars I am happy._
+
+In many circumstances the word **fau** can be safely replaced with just **ca** (_at the same time as ..._):
+
+> **da'i nai mi gleki ca le nu do klama**
+> _I'm happy when you come._
+
+Other prepositions can be used when necessary:
+
+> **da'i mi denpa ze'a le nu do limna**
+> _I would wait while you took a swim._
+
+denpa
+: x1 waits for x2 (event)...
+
+ze'a
+: through some time, for a while, during …
+
+limna
+: x1 swims
 
 ### Probabilities
 
@@ -8222,7 +8241,7 @@ Notice that we omitted **da'i** for brevity. But if we want to be explicitly cle
 2.  **fau da'i ro da** — the event _would necessarily happen._
 3.  **fau da'i so'e da** — the event _is probable, will probably happen, is likely to happen._
 4.  **fau da'i so'o da** — the event _is remotely probable, could/might happen._
-5.  **fau da'i so'u da** — the event _is not likely, probably don't happen._
+5.  **fau da'i so'u da** — the event _is not likely, probably doesn't happen._
 6.  **fau da'i no da** — the event _is not possible._
 
 The difference between these is in the number of imaginary situations we take into account. We don't describe those situations, we just mark them as **da** (_something_) letting the context (or our listeners) decide what those situations are.

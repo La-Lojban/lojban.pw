@@ -55,4 +55,6 @@ WORKDIR /app/src
 
 RUN chown -R 1000:1000 /root
 
-RUN yarn
+RUN npm config set registry https://registry.npmjs.org/
+
+# RUN yarn
