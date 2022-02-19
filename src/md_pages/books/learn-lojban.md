@@ -784,35 +784,22 @@ Interjections don't break compound verbs, they can be used within them:
 > **do nelci le barda xu gerku**
 > _Do you like the BIG dogs?_
 
-Now how to reply to such 'yes/no' questions?
-
-> **— xu do nelci le gerku**
-> _— Do you like the dogs?_
-
-<!-- -->
-
-> **— je'u**
-> _— Yes._
-> `— True`
-
-or
-
-> **je'u nai**
-> _No._
-> `Not true`
-
-je'u
-: interjection meaning "truly"
-
-je'u nai
-: interjection meaning "falsely, not truly"
-
-Another way to answer _yes_ is to repeat the main verb, for example
+Now how to reply to such 'yes/no' questions? You repeat the main verb:
 
 > **— xu le mlatu cu melbi**
 > **— melbi**
 > _— Are the cats pretty?_
 > _— Pretty._
+
+To answer 'no' we use the modal term **na ku**:
+
+> **— xu le mlatu cu melbi**
+> **— na ku melbi**
+> _— Are the cats pretty?_
+> _— Not pretty._
+
+na ku
+: term: it is false that ...
 
 Or we can use a special verb **go'i** that simply refers the main verb of the previous relation:
 
@@ -826,20 +813,29 @@ go'i
 
 Here, **go'i** means the same as **melbi** since **melbi** is the relation of the previous relation.
 
+> **— xu le mlatu cu melbi**
+> **— na ku go'i**
+> _— Are the cats pretty?_
+> _— Not pretty._
+
 This course doesn't recommend negating **go'i** for negative answers. Just use **je'u nai**.
 
-Since **je'u** and **je'u nai** are also interjections. We can use them not only in questions:
+The modal term **na ku** can be used not only in answers:
 
-> **je'u do lazni**
-> _Truly you are lazy._
-
-lazni
-: … is lazy
-
-> **je'u nai mi nelci le gerku**
+> **na ku mi nelci le gerku**
 > _It is false that I like the dogs._
+> _I don't like the dogs._
+<!-- -->
+> **mi na ku nelci do**
+> _I don't like you._
 
-**nai** is a modifier of interjections, it creates the opposite meaning when put after them.
+Its opposite, the term **ja'a ku** affirms the meaning:
+
+> **mi ja'a ku nelci do**
+> _I do like you._
+
+ja'a ku
+: term: it is true that …
 
 #### Task
 
@@ -853,7 +849,7 @@ Close the right part of the table. Translate from Lojban the sentences on the le
 <td><i>Is the big home beautiful?</i>
 </td></tr>
 <tr>
-<td><b>— le prenu cu stati xu<br/>— je'u nai</b>
+<td><b>— le prenu cu stati xu<br/>— na ku stati</b>
 </td>
 <td><i>— Are the people smart?<br/>— No.</i>
 </td></tr>
@@ -880,7 +876,7 @@ Close the right part of the table. Translate to Lojban the sentences on the left
 <tr>
 <td><i>— Is the orange tasty?<br/>— Yes, it is.</i>
 </td>
-<td><b>— xu le najnimre cu kukte<br/>— je'u</b>
+<td><b>— xu le najnimre cu kukte<br/>— kukte</b>
 </td></tr>
 <tr>
 <td><i>Does the dog love you?</i>
@@ -1297,7 +1293,7 @@ All Lojban words are divided into two groups:
 
 - particles (called **le cmavo** in Lojban). Examples: **le**, **nu**, **mi**
 - verbs (called **le selbrivla** in Lojban). Examples: **gleki**, **klama**.
-  It is quite common to write several particles one after another without spaces between them. This is allowed by Lojban grammar. So don't be surprised to see **lenu** instead of **le nu**, **je'unai** instead of **je'u nai**, **jonai** instead of **jo nai** and so on. This doesn't change the meaning. However, this is not applied to verbs: they are to be separated with spaces.
+  It is quite common to write several particles one after another without spaces between them. This is allowed by Lojban grammar. So don't be surprised to see **lenu** instead of **le nu**, **naku** instead of **na ku**, **jonai** instead of **jo nai** and so on. This doesn't change the meaning. However, this is not applied to verbs: they are to be separated with spaces.
 
 #### Task
 
@@ -1736,24 +1732,6 @@ Close the right part of the table. Translate to Lojban the sentences on the left
 </td>
 <td><b>mi'o pu ca'o zvati le zdani ca le nu carvi</b>
 </td></tr></tbody></table>
-
-### Negation
-
-The term **na ku** makes everything to its right within the relation negative in meaning:
-
-> **mi na ku nelci do**
-> _I don't like you._
-
-na ku
-: term: it is not true that …
-
-Its opposite, the term **ja'a ku** affirms the meaning:
-
-> **mi ja'a ku nelci do**
-> _I do like you._
-
-ja'a ku
-: term: it is true that …
 
 ### Names. Choosing a name
 
@@ -3728,6 +3706,9 @@ Interjections and vocatives work like **sei** constructs:
 > **je'u mi jinga sei ra cusku**
 > _Truly, "I won", he said._
 
+je'u
+: interjection: truly
+
 As you can see **je'u** is not his words. It's your attitude to the relation. If you want to quote "**je'u mi jinga**" use quotation marks getting:
 
 > **lu je'u mi jinga li'u se cusku ra**
@@ -5027,7 +5008,7 @@ In English we say _Сan you see_, in Lojban we say just **xu do viska** — _You
 
 <!-- -->
 
-> **je'u .i plise**
+> **viska .i plise**
 > **.i le plise cu xunre .i skari le ka xunre**
 > _Yes. It is an apple._
 > _The apple is red. It's colored red._
@@ -5040,7 +5021,7 @@ plise
 
 <!-- -->
 
-> **je'u .i le plise cu barda**
+> **viska .i le plise cu barda**
 > _Yes. The apple is big._
 
 <!-- -->
@@ -5100,7 +5081,7 @@ le xrula
 
 <!-- -->
 
-> **je'u .i mi cortu le cidni**
+> **cortu .i mi cortu le cidni**
 > _Yes, I feel pain in the knee._
 
 > **.i na ku ckape**
@@ -5581,7 +5562,7 @@ ku'i
 
 <!-- -->
 
-> **je'u**
+> **bilma**
 > _Yes._
 
 <!-- -->
@@ -5730,6 +5711,9 @@ cidni
 
 > **je'u pei**
 > _Really?_
+
+je'u
+: interjection: truly
 
 The verbs for names of family members have a similar place structure:
 
@@ -7107,7 +7091,7 @@ le stizu
 <td><i>Did you take a car?</i>
 </td></tr>
 <tr>
-<td style="text-align:right;"><b>.i je'u nai<br/>.i mi'a pu klama fu le trene<br/>.i ze'a le cacra mi'a zvati bu'u le carce</b>
+<td style="text-align:right;"><b>.i na ku se marce<br/>.i mi'a pu klama fu le trene<br/>.i ze'a le cacra mi'a zvati bu'u le carce</b>
 </td>
 <td><i>No.<br/>We went by train.<br/>For one hour we were in a wagon.</i>
 </td></tr></tbody></table>
@@ -8177,7 +8161,7 @@ rupnusudu
 pa ki'o ki'o
 : 1 million
 
-> **mo da'i fau le nu mi cusku lu je'u nai li'u**
+> **mo da'i fau le nu mi cusku lu ie nai li'u**
 > _What if I say "no"?_
 
 Here the event inside **fau** is equally imagined together with **mi gleki**. And here is the reverse example:
@@ -8621,7 +8605,7 @@ Note that tenses as terms and tenses attached to the main relation of the relati
 Another type of English _or_ can be found in questions:
 
 > **— xu do pinxe le tcati .o nai le ckafi?**
-> **— je'u**
+> **— pinxe**
 > _— Will you drink tea or coffee?_
 > _— Yes._
 
@@ -9086,8 +9070,10 @@ Everything expressed in text should also be expressed in speech and vice versa. 
 
 **lu** … **li'u** quote only text that is grammatically correct. To quote any Lojban text we use **lo'u** … **le'u** quote instead.
 
-> **xu lo'u je le'u lojbo sumsmi .i je'u nai**
-> _Is "je" a term? No._
+> — **xu lo'u je le'u lojbo sumsmi**
+> — **na ku sumsmi**
+> _— Is "je" a term?_
+> _— No._
 
 <!-- -->
 
