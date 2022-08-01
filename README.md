@@ -8,7 +8,8 @@ Edit `config/config.ts`.
 
 ## How to use
 
-* `bash dev.sh`
+* `bash build.sh` - you may use it only once
+* `bash dev.sh` - run the docker container
 * run `yarn` in the docker console
 * `yarn dev` - run locally
 * `yarn export` - compile to a static folder

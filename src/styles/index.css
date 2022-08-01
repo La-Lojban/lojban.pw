@@ -494,3 +494,49 @@ description {
   display: inline-block;
   position: relative;
 }
+
+#velsku {
+  text-align: left;
+  margin: 0;
+  /* display: none; */
+  /* justify-content: baseline; */
+  /* align-items: flex-start; */
+  padding: 0;
+  /* height: 28px; */
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  background: white;
+  z-index: 10;
+}
+
+#velsku ul {
+  padding: 0.1rem;
+  display: flex;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-shadow: 0 0 0 1px rgb(56 136 233), 0 0 0 2px rgb(34 87 213),
+    0 0 0 3px rgb(38 99 224), 0 0 0 4px rgb(25 65 165);
+  margin-top: 3px;
+}
+
+.velsku_pamei {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#velsku a {
+  color: #2b79e0;
+  text-decoration: none;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  user-select: none;
+  cursor: default;
+}

@@ -6654,6 +6654,21 @@ Here is an example in English style:
 > **la .alis. pu cusku le se du'u ri nau pu kansa la .doris.**
 > _Alis said that she was with Doris._
 
+<!-- To say such phrases as `in three days` or `two years ago` we basically put time intervals in sequence without overlapping. Hence a new verb:
+
+> **le cabna cu dzoli le nu mi penmi do vau li ci le ka prulamdei**
+> _I will meet you in three days (as measured from now)._
+
+> **dzoli le nu mi penmi do vau li ci le ka prulamdei**
+> **dzoli le nu mi penmi do vau li ci le ka prulamdei**
+> **prulamdeidzo le nu mi penmi do vau li ci**
+> **mi penmi do fi'o prulamdeidzo be fi li ci**
+> _I will meet you in three days._
+
+> **le cabna cu dzoli le nu mi zvati le stuzi vau li re le ka bavlamdeidzo**
+> **le nu mi zvati le stuzi vau le cabna cu dzoli li re le ka prulamdeidzo**
+> _I visited that place two years ago._ -->
+
 ### Distance in time and space
 
 fau
@@ -7339,8 +7354,8 @@ Some examples:
 
 <!-- -->
 
-> **mi'a penmi do de'i li cy. ci**
-> _We'll meet you at three o'clock._
+> **mi'a ba penmi do**
+> _We'll meet you._
 
 <!-- -->
 
