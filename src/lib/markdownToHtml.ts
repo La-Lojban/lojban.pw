@@ -20,7 +20,7 @@ const processor = unified()
   .use(slug)
   .use(extractToc, { keys: ["data"], flatten: true });
 
-const { wrap } = require("./rehype-wrap-all");
+import { wrap } from "./rehype-wrap-all";
 
 export default async function markdownToHtml(markdown: string) {
   const result = await unified()

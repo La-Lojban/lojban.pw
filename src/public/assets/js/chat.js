@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     const velsku = document.getElementById("velsku_sebenji");
-    if (velsku) velsku.innerHTML = `<span class="velsku_pamei">[${msg.s}] ${msg.w}: ${msg.d}</span>`;
+    if (velsku) velsku.innerHTML = `<span class="velsku_pamei">${msg.w}: ${msg.d}</span>`;
   });
   socket1Chat.on("history", function (data) {
     if (!socket1Chat_connected) return;
@@ -39,6 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
       w: i.author,
     };
     const velsku = document.getElementById("velsku_sebenji");
-    if (velsku) velsku.innerHTML = `<span class="velsku_pamei">[${msg.s}] ${msg.w}: ${msg.d}</span>`;
+    if (velsku) velsku.innerHTML = `<span class="velsku_pamei">${msg.w}: ${msg.d}</span>`;
   });
 });

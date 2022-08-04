@@ -1,5 +1,28 @@
 # Lojban vs programming languages
 
+## Monad
+
+take from https://modernweb.com/a-gentle-introduction-to-monads-in-javascript/
+
+
+search for lisp monads
+
+https://cl-monad-macros.common-lisp.dev/monad-macros.pdf
+
+```clojure
+(defun maybe (val)
+  (lambda (msg &optional f m)
+    (case msg
+      ((bind) (if val (funcall f val) m))
+      (otherwise val))))
+
+(defun bind (m f)
+  (funcall m 'bind f m)) ;message passing
+
+(defun value (m)
+  (funcall m 'value))    ; message passig
+```
+
 ## ACID
 
 ## CAP theorem
