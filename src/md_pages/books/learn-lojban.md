@@ -2,6 +2,9 @@
 title: 🎓 ‘Learn Lojban’ course
 ---
 
+<div class="hide-for-print">
+[PDF version of this page](/assets/vreji/uencu/learn-lojban.pdf)
+</div>
 <div class="lojbo">
 
 How to use this course:

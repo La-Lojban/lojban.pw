@@ -5,8 +5,9 @@
     "dev": "NODE_ENV=development next",
     "build": "npx next telemetry disable && next build",
     "start": "next start",
+    "print": "next start & sleep 5 && node lib/printer && ./lib/printer/shrink-pdf.sh",
     "export": "yarn build && next export",
-    "deploy": "npx next telemetry disable && rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages --repo https://github.com/La-Lojban/lojban-made-easy.git -d out -t true",
+    "deploy": "npx next telemetry disable && rm -rf node_modules/.cache && rimraf out && next build && yarn print && next export && touch out/.nojekyll && gh-pages --repo https://github.com/La-Lojban/lojban-made-easy.git -d out -t true && pkill node",
     "typecheck": "tsc"
   },
   "dependencies": {

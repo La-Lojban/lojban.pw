@@ -1,7 +1,7 @@
 FROM alpine
 
 ENV PYTHONUNBUFFERED=1
-RUN apk add --update python3 && ln -sf python3 /usr/bin/python
+RUN apk add python3 && ln -sf python3 /usr/bin/python
 RUN python3 -m ensurepip
 RUN pip3 install --upgrade pip setuptools
 
@@ -25,6 +25,8 @@ RUN addgroup -S pptruser && adduser -S -G pptruser pptruser \
     && mkdir -p /home/pptruser/Downloads /app \
     && chown -R pptruser:pptruser /home/pptruser \
     && chown -R pptruser:pptruser /app
+
+RUN apk add ghostscript
 
 # Run everything after as non-privileged user.
 

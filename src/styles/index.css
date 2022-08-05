@@ -110,8 +110,10 @@ md-footer-social__link.in-heading {
 }
 
 @media print {
-  .tutci, .in-heading,
-  nav {
+  .tutci,
+  .in-heading,
+  nav,
+  .hide-for-print {
     @apply hidden;
   }
 }
@@ -205,12 +207,6 @@ img {
   text-align: center;
   width: 1.6rem;
   color: white;
-}
-
-@media print {
-  .footer {
-    @apply hidden;
-  }
 }
 
 .logo {
