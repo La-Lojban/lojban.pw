@@ -8853,6 +8853,9 @@ It is normal to use in speech only **.i** to separate sentence but you might wan
 	</tr>
 </table>
 
+dirgo
+: x1 is a drop of material x2 ...
+
 ### «**to**» … «**toi**» for parenthetical remarks
 
 Comments that we place inside parentheses in English text are formed using the word **to** instead of the left parenthesis and **toi** instead of the right parenthesis:
