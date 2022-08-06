@@ -7,7 +7,7 @@ const fs = require("fs");
     .filter((i) => i.endsWith(".md"))
     .map((i) => i.replace(/.md$/, ""));
 
-  console.log('generating PDF files for', urls);
+  console.log("generating PDF files for", urls);
   const browser = await puppeteer.launch({
     headless: true,
     args: [
@@ -23,7 +23,10 @@ const fs = require("fs");
     await page.goto(url, {
       waitUntil: "networkidle0",
     });
-    const pdf = await page.pdf({ format: "A4" });
+    const pdf = await page.pdf({
+      format: "A4",
+      margin: { top: "20px", right: "20px", bottom: "20px", left: "20px" },
+    });
     const pdfFile =
       "/app/src/public/vreji/uencu/" +
       url.split("/").slice("-1")[0] +
