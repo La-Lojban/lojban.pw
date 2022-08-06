@@ -1,31 +1,10 @@
 # Lojban vs programming languages
 
-## Monad
-
-take from https://modernweb.com/a-gentle-introduction-to-monads-in-javascript/
-
-
-search for lisp monads
-
-https://cl-monad-macros.common-lisp.dev/monad-macros.pdf
-
-```clojure
-(defun maybe (val)
-  (lambda (msg &optional f m)
-    (case msg
-      ((bind) (if val (funcall f val) m))
-      (otherwise val))))
-
-(defun bind (m f)
-  (funcall m 'bind f m)) ;message passing
-
-(defun value (m)
-  (funcall m 'value))    ; message passig
-```
-
 ## ACID
 
 ## CAP theorem
+
+https://en.wikipedia.org/wiki/CAP_theorem
 
 In theoretical computer science, the CAP theorem, also named Brewer's theorem after computer scientist Eric Brewer, states that any distributed data store can only provide two of the following three guarantees:[1][2][3]
 
@@ -69,7 +48,15 @@ Database systems designed with traditional ACID guarantees in mind such as RDBMS
 
 ## Mocking in unit testing
 
+## Boxes, references, recursive references, lu'i
+
+https://doc.rust-lang.org/book/ch15-01-box.html
+
+https://stackoverflow.com/questions/31949579/understanding-and-relationship-between-box-ref-and?answertab=trending#tab-top
+
 ## Mutexes and dialogues
+
+https://ru.wikipedia.org/wiki/%D0%9C%D1%8C%D1%8E%D1%82%D0%B5%D0%BA%D1%81#%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B_%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F
 
 ## Entropy and dialogues
 

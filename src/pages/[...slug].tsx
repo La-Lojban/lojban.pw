@@ -35,7 +35,10 @@ const Post = ({ post, preview }: Props) => {
     name: i.value,
     url: `${router.asPath.replace(/#.*/, "")}#${i.id}`,
   }));
-  const has_toc = toc_list.length > 0;
+  const hasToc = toc_list.length > 0;
+  const isBook = post?.slug?.[0] === "books";
+  const pdfUrl = `/vreji/uencu/${post?.slug?.[1]}.pdf`;
+
   return (
     <Layout preview={preview}>
       <div>
@@ -86,9 +89,18 @@ const Post = ({ post, preview }: Props) => {
                 </div>
               </div> */}
                 <PostBody post={post} />
-                {has_toc && (
+                {hasToc && (
                   <nav className="hidden md:block toc w-full md:w-1/5 sticky px-2 bottom-0 md:top-20 h-16 md:h-screen font-medium text-sm overflow-ellipsis">
                     <div className="toc-core h-4/5 overflow-y-auto">
+                      {isBook && (
+                        <Link href={pdfUrl} key={pdfUrl}>
+                          <a
+                            className={`block font-semibold text-black in-toc hover:no-underline px-3 py-2 lme-ml-0`}
+                          >
+                            📁 PDF version
+                          </a>
+                        </Link>
+                      )}
                       {toc_list.map((item) => (
                         <Link href={item.url} key={item.url}>
                           <a
