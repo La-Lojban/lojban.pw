@@ -1,5 +1,9 @@
 import html from "remark-html";
 const deflist = require("remark-deflist");
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
+const { document } = new JSDOM(`<body></body>`).window;
+import { fromDom } from "hast-util-from-dom";
 
 // const include = require('./remark-include/index.js')
 const unified = require("unified");
@@ -8,11 +12,9 @@ import remark2rehype from "remark-rehype";
 const gfm = require("remark-gfm");
 const format = require("rehype-format");
 import stringify from "rehype-stringify";
-import h from "hastscript";
 import raw from "rehype-raw";
 
 import { slug } from "./remark-slug/";
-import link from "rehype-autolink-headings";
 
 const extractToc = require("remark-extract-toc");
 const processor = unified()
@@ -20,7 +22,7 @@ const processor = unified()
   .use(slug)
   .use(extractToc, { keys: ["data"], flatten: true });
 
-import { wrap } from "./rehype-wrap-all";
+import { transform } from "./rehype-transform-all";
 
 export default async function markdownToHtml(markdown: string) {
   const result = await unified()
@@ -36,7 +38,7 @@ export default async function markdownToHtml(markdown: string) {
     .use(raw)
     .use(format)
     .use(stringify) // makes it all faster???
-    .use(wrap, [
+    .use(transform, [
       { selector: "blockquote", wrapper: "div.wrapper.with-blockquote" },
       { selector: "figure", wrapper: "div.wrapper" },
       { selector: "figure > img", wrapper: "div.figure_img" },
@@ -45,13 +47,45 @@ export default async function markdownToHtml(markdown: string) {
         selector: "div.md-typeset__table",
         wrapper: "div.md-typeset__scrollwrap",
       },
-    ])
-    .use(link, {
-      behavior: "append",
-      content: () => {
-        return [h("span.in-heading.hash", "#")];
+      {
+        selector: "div.md-typeset__table",
+        wrapper: "div.md-typeset__scrollwrap",
       },
-    })
+      {
+        selector: "h1, h2, h3, h4, h5",
+        func: ({ node }: { node: any }) => {
+          const a = document.createElement("a");
+          a.className = "print:hidden";
+          a.innerHTML = `<span class="in-heading hash">#</span>`;
+          a.setAttribute(
+            "aria-hidden",
+            true
+          );
+          a.setAttribute("tabindex", -1)
+          a.setAttribute("href", "#" + node.properties.id)
+          const hast = fromDom(a);
+          node.children.push(hast);
+        },
+      },
+      {
+        selector: ".guibutton",
+        func: ({ parent, node }: { parent: any; node: any }) => {
+          function encodeValsiForWeb(v: string) {
+            return encodeURIComponent(v).replace(/'/g, "\\'").trim();
+          }
+          const slug = encodeValsiForWeb(node.children[0].value);
+          const button = document.createElement("button");
+          button.className = "tutci print:hidden";
+          button.innerHTML = "▶";
+          button.setAttribute(
+            "onclick",
+            `(function (){var s=new Audio('https://la-lojban.github.io/sutysisku/sance/lerfu/${slug}.ogg');s.play()})()`
+          );
+          const hast = fromDom(button);
+          parent.children.push(hast);
+        },
+      },
+    ])
     .process(markdown);
   const node = processor.parse(markdown);
   const tree = (processor as any)

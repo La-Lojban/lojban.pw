@@ -2,38 +2,34 @@ import { visit } from "../unist-util-visit";
 import { selectAll } from "hast-util-select";
 import { parseSelector } from "hast-util-parse-selector";
 
-function transform(tree: any, { selector, wrapper = "div" }: any) {
+function transformAll(tree: any, { selector, wrapper, func }: any) {
   for (const match of selectAll(selector, tree)) {
-    visit(
-      tree,
-      match,
-      (
-        node: any,
-        i: any,
-        parent: any
-      ) => {
+    visit(tree, match, (node: any, i: any, parent: any) => {
+      if (func instanceof Function) {
+        func.apply(null, [{ parent, node, nodeIndex: i }]);
+      } else if (wrapper) {
         const wrap = parseSelector(wrapper);
         wrap.children = [node];
         parent.children[i] = wrap;
       }
-    );
+    });
   }
 }
 
 /*
  * Attacher
  */
-export const wrap = (allOptions: any[]) => {
+export const transform = (allOptions: any[]) => {
   /*
    * Transformer
    */
   return (tree: any) => {
     if (Array.isArray(allOptions)) {
       allOptions.forEach((options) => {
-        transform(tree, options);
+        transformAll(tree, options);
       });
     } else {
-      transform(tree, allOptions);
+      transformAll(tree, allOptions);
     }
   };
 };

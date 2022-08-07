@@ -20,7 +20,7 @@ export default function Header({ toc = [], path = '' }: { toc?: any, path?: stri
   const toc_list: TocItem[] = (toc.map((i: any) => ({ depth: i.depth, name: i.value, url: `${path}#${i.id}` })))
   const has_toc = toc_list.length > 0
   return (
-    <Popover as="nav" className="sticky top-0 z-50 bg-deep-orange-400 shadow-md">
+    <Popover as="nav" className="sticky top-0 z-50 bg-deep-orange-400 shadow-md print:hidden">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

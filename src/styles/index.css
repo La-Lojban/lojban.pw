@@ -4,23 +4,23 @@
 @layer base {
   @font-face {
     font-family: "Linux Libertine";
-    src: url("/assets/fonts/linux-libertine/LinLibertine_RBI.otf");
+    src: url("/vreji/fonts/LinLibertine_RBI.otf");
     font-style: italic;
     font-weight: 600;
   }
   @font-face {
     font-family: "Linux Libertine";
-    src: url("/assets/fonts/linux-libertine/LinLibertine_RI.otf");
+    src: url("/vreji/fonts/LinLibertine_RI.otf");
     font-style: italic;
   }
   @font-face {
     font-family: "Linux Libertine";
-    src: url("/assets/fonts/linux-libertine/LinLibertine_RB.otf");
+    src: url("/vreji/fonts/LinLibertine_RB.otf");
     font-weight: 600;
   }
   @font-face {
     font-family: "Linux Libertine";
-    src: url("/assets/fonts/linux-libertine/LinLibertine_R.otf");
+    src: url("/vreji/fonts/LinLibertine_R.otf");
   }
 }
 
@@ -107,15 +107,6 @@ article a.in-heading,
 article a.in-toc,
 md-footer-social__link.in-heading {
   @apply hover:text-deep-orange-500;
-}
-
-@media print {
-  .tutci,
-  .in-heading,
-  nav,
-  .hide-for-print {
-    @apply hidden;
-  }
 }
 
 span.in-heading.hash {

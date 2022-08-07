@@ -17,6 +17,7 @@ if (process.env.NODE_ENV !== 'development') {
   Router.events.on('routeChangeComplete', () => {
     NProgress.done()
     closeXicon()
+    window && window.dispatchEvent(new Event('popstate'));
   });
   Router.events.on('routeChangeError', () => NProgress.done());
 }

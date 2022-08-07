@@ -10,7 +10,7 @@ Here is copyright-free unofficial libre documentation on Lojban language. Lojban
 Send any suggestions to [gleki.is.my.name@gmail.com](mailto:gleki.is.my.name@gmail.com) or just add issues at [Lojban source repository](https://github.com/la-lojban/lojban-made-easy/issues).
 
 Lojban and related stuff is discussed in [Lojban chats in Discord messenger](https://discord.gg/wasp5fj).
- 
+
 ## Resources
 
 ### [‘Learn Lojban’ course](/books/learn-lojban)
@@ -23,7 +23,7 @@ A course teaching Lojban from its formal foundations but in simple words and lot
 
 Adheres to the original book published in 1997 and:
 
-* fixes mistypes 
+* fixes mistypes
 * fixes contradictions
 * adds other new stuff not violating previous stuff
 

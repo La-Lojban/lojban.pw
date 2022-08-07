@@ -54,7 +54,6 @@ const Post = ({ post, preview }: Props) => {
                     {post.title} | {site_title}
                   </title>
                   <meta property="og:image" content={post?.ogImage?.url} />
-                  <script src="/assets/sance.js"></script>
                 </Head>
                 {/* <div className="w-1/5 md:flex flex-col md:flex-row md:min-h-screen hidden">
                 <div className="flex flex-col w-full md:w-64 text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800 flex-shrink-0" x-data="{ open: false }">

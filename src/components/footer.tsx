@@ -5,7 +5,7 @@ import { footer } from "../config/config";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center text-center p-1 mt-12 fixed hide-for-print">
+    <footer className="flex justify-center text-center p-1 mt-12 fixed print:hidden">
       <Container>
         <div id="velsku" className="noselect">
           <ul className="flex flex-row">

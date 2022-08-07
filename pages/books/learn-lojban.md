@@ -2,7 +2,7 @@
 title: 🎓 ‘Learn Lojban’ course
 ---
 
-<div class="hide-for-print">
+<div class="print:hidden">
 
 [📁 PDF version of this page](/vreji/uencu/learn-lojban.pdf)
 
@@ -70,7 +70,6 @@ There are 10 vowels in Lojban:
 <td><b class="audio-inline"><font class="guibutton" color="#FF1493">oi</font></b></td>
 <td> as in <i>b<u>oy</u></i></td></tr>
 </tbody></table>
-
 
 As for consonants they are pronounced like in English or Latin, but there are several differences:
 
@@ -160,40 +159,40 @@ ca
 : now
 
 <figure>
-	<img src="https://mw.lojban.org/images/thumb/7/77/xractu-mi-cropped.png/96px-xractu-mi-cropped.png" alt="mi">
-	<figcaption>
-	<b>mi</b><br/>
-	<i>I</i>
-	</figcaption>
+ <img src="https://mw.lojban.org/images/thumb/7/77/xractu-mi-cropped.png/96px-xractu-mi-cropped.png" alt="mi">
+ <figcaption>
+ <b>mi</b><br/>
+ <i>I</i>
+ </figcaption>
 </figure>
 
 <figure>
-	<img src="https://mw-live.lojban.org/images/thumb/0/09/Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg/320px-Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg" alt="tavla">
-	<figcaption>
-	<b>tavla</b><br/>
-	<i>to talk</i>
-	</figcaption>
+ <img src="https://mw-live.lojban.org/images/thumb/0/09/Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg/320px-Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg" alt="tavla">
+ <figcaption>
+ <b>tavla</b><br/>
+ <i>to talk</i>
+ </figcaption>
 </figure>
 
 <figure>
-	<img src="https://mw.lojban.org/images/thumb/f/f2/xractu-do-cropped.png/96px-xractu-do-cropped.png" alt="do">
-	<figcaption>
-	<b>do</b><br/>
-	<i>you</i>
-	</figcaption>
+ <img src="https://mw.lojban.org/images/thumb/f/f2/xractu-do-cropped.png/96px-xractu-do-cropped.png" alt="do">
+ <figcaption>
+ <b>do</b><br/>
+ <i>you</i>
+ </figcaption>
 </figure>
 
 Each sentence in Lojban consists of the following parts from the left to the right:
 
 - the head:
-	- consists of so called "terms",
-	- **le prenu**, **mi**, **ca** are terms in the examples above.
+  - consists of so called "terms",
+  - **le prenu**, **mi**, **ca** are terms in the examples above.
 - the head separator **cu**:
-	- pronounced as _shoe_ since **c** is for _sh_,
-	- shows that the head ended,
-	- can be omitted when it's clear anyway that the head is completed.
+  - pronounced as _shoe_ since **c** is for _sh_,
+  - shows that the head ended,
+  - can be omitted when it's clear anyway that the head is completed.
 - the tail:
-	- the main relation (**tavla**, **prami**) with possibly one or more terms after it: the terms **mi**, **do** in the examples above.
+  - the main relation (**tavla**, **prami**) with possibly one or more terms after it: the terms **mi**, **do** in the examples above.
 
 One of your first thoughts might be "Where are nouns and verbs in Lojban?"
 
@@ -212,7 +211,7 @@ To turn such "verb" into a noun we put a short word **le** in front of it:
 le prenu
 : the person
 
-Similarly, 
+Similarly,
 
 tavla
 : … speaks to …
@@ -313,11 +312,11 @@ You could say this when you see a car coming. Here the context would be clear en
 We can of course be more precise and say, for example:
 
 <figure>
-	<img src="https://mw.lojban.org/images/thumb/5/5a/xractu-ti-cropped.png/96px-xractu-ti-cropped.png" alt="ti">
-	<figcaption>
-	<b>ti</b><br/>
-	<i>this one (near me, the speaker)</i>
-	</figcaption>
+ <img src="https://mw.lojban.org/images/thumb/5/5a/xractu-ti-cropped.png/96px-xractu-ti-cropped.png" alt="ti">
+ <figcaption>
+ <b>ti</b><br/>
+ <i>this one (near me, the speaker)</i>
+ </figcaption>
 </figure>
 
 > **ti karce**
@@ -534,45 +533,44 @@ le najnimre
 le badna
 : the banana, bananas
 
-
 <table style="table-layout: fixed;">
-	<tbody>
-		<tr>
-			<td>le mu prenu cu klama le zarci</td>
-			<td>The five people come to the market.</td>
-		</tr>
-		<tr>
-			<td>le pa re prenu cu stati .i do stati</td>
-			<td>The 12 people are smart. You are smart.</td>
-		</tr>
-		<tr>
-			<td>le prenu cu nelci le plise</td>
-			<td>The people like the apples.</td>
-		</tr>
-		<tr>
-			<td>le za'u re prenu cu citka .i le me'i mu prenu cu pinxe le ladru</td>
-			<td>More than two people eat. Fewer than 5 people drink the milk.</td>
-		</tr>
-		<tr>
-			<td>le za'u re prenu cu stati</td>
-			<td>More than two people are smart.</td>
-		</tr>
-	</tbody>
+ <tbody>
+  <tr>
+   <td>le mu prenu cu klama le zarci</td>
+   <td>The five people come to the market.</td>
+  </tr>
+  <tr>
+   <td>le pa re prenu cu stati .i do stati</td>
+   <td>The 12 people are smart. You are smart.</td>
+  </tr>
+  <tr>
+   <td>le prenu cu nelci le plise</td>
+   <td>The people like the apples.</td>
+  </tr>
+  <tr>
+   <td>le za'u re prenu cu citka .i le me'i mu prenu cu pinxe le ladru</td>
+   <td>More than two people eat. Fewer than 5 people drink the milk.</td>
+  </tr>
+  <tr>
+   <td>le za'u re prenu cu stati</td>
+   <td>More than two people are smart.</td>
+  </tr>
+ </tbody>
 </table>
 
 Close the right part of the table. Translate to Lojban the sentences on the left.
 
 <table style="table-layout: fixed;">
-	<tbody>
-		<tr>
-			<td>The 256 people are smart.</td>
-			<td>le re mu xa prenu cu stati</td>
-		</tr>
-		<tr>
-			<td>Fewer than 12 apples are tasty.</td>
-			<td>le me'i pa re plise cu kukte</td>
-		</tr>
-	</tbody>
+ <tbody>
+  <tr>
+   <td>The 256 people are smart.</td>
+   <td>le re mu xa prenu cu stati</td>
+  </tr>
+  <tr>
+   <td>Fewer than 12 apples are tasty.</td>
+   <td>le me'i pa re plise cu kukte</td>
+  </tr>
+ </tbody>
 </table>
 
 ### Compound verbs
@@ -774,13 +772,13 @@ So what is expressed using intonation in English is expressed by moving **xu** a
 
 - interjection modifies the construct before it. So when put after certain part of the relation like pronoun or a verb it modifies that verb:
 
-	> **do xu nelci le gerku**
-	> _Do YOU like the dogs?_
+ > **do xu nelci le gerku**
+ > _Do YOU like the dogs?_
 
 - being put in the beginning of a relation, interjection modifies the whole relation:
 
-	> **xu do nelci le gerku**
-	> _Do you like the dogs?_
+ > **xu do nelci le gerku**
+ > _Do you like the dogs?_
 
 - we can put an interjection after different parts of the same relation shifting the meaning.
 
@@ -1801,18 +1799,18 @@ Pay attention to how the name is pronounced natively. Thus, the English and Fren
 
 Here are "Lojbanizations" of some names:
 
-* _Alice_ ⇒ **la .alis.**
-* _Mei Li_ ⇒ **la .meilis.**
-* _Bob_ ⇒ **la .bab.**
-* _Abdul_ ⇒ **la .abdul.**
-* _Yan or Ian_ ⇒ **la .ian.**
-* _Ali_ ⇒ **la .al.**
-* _Doris_ ⇒ **la .doris.**
-* _Michelle_ ⇒ **la .micel.**
-* _Kevin_ ⇒ **la .kevin.**
-* _Edward_ ⇒ **la .edvard.**
-* _Adam_ ⇒ **la .adam.**
-* _Lucas_ ⇒ **la .lukas.**
+- _Alice_ ⇒ **la .alis.**
+- _Mei Li_ ⇒ **la .meilis.**
+- _Bob_ ⇒ **la .bab.**
+- _Abdul_ ⇒ **la .abdul.**
+- _Yan or Ian_ ⇒ **la .ian.**
+- _Ali_ ⇒ **la .al.**
+- _Doris_ ⇒ **la .doris.**
+- _Michelle_ ⇒ **la .micel.**
+- _Kevin_ ⇒ **la .kevin.**
+- _Edward_ ⇒ **la .edvard.**
+- _Adam_ ⇒ **la .adam.**
+- _Lucas_ ⇒ **la .lukas.**
 
 Notes:
 
@@ -1825,26 +1823,26 @@ Notes:
 Here is a compact representation of Lojban sounds:
 
 - vowels:
-	- **a e i o u y au ai ei oi**
+  - **a e i o u y au ai ei oi**
 - consonants:
-	- **b d g v z j** (voiced)
-	- **p t k f s c x** (unvoiced)
-	- **l m n r**
-	- **i u**. They are considered consonants when put between two vowels or in the beginning of a word. **.iaua** — **i** and **u** are consonants here. **.iai** — here is the consonant **i** with an vowel **ai** after it.
-	- **'** (apostrophe). It is put only between two vowels: **.e'e**, **.u'i**
-	- **.** (dot, word break)
+  - **b d g v z j** (voiced)
+  - **p t k f s c x** (unvoiced)
+  - **l m n r**
+  - **i u**. They are considered consonants when put between two vowels or in the beginning of a word. **.iaua** — **i** and **u** are consonants here. **.iai** — here is the consonant **i** with an vowel **ai** after it.
+  - **'** (apostrophe). It is put only between two vowels: **.e'e**, **.u'i**
+  - **.** (dot, word break)
 
 We first write a name with Lojban letters and then change it according to these rules:
 
-1.  it ends in consonants except **'** . Additionally they are wrapped by a dot from each side: **.lojban.** It's quite common to omit word breaks in informal texts.
-2.  vowels can be put only between two consonants: **.sam.**, **.no'am.**
-3.  double consonants are merged into one: _dd_ becomes **d**, _nn_ becomes **n** etc. Or a **y** is out between them: **.nyn.**
-4.  if a voiced and a unvoiced consonants are next to each other then **y** is inserted inside: **kv** becomes **kyv**. Or you can remove one of the letters instead: **pb** can be turned into a single **p** or a single **b**.
-5.  if one of **c**, **j**, **s**, **z** are next to each other then **y** is inserted inside: **jz** becomes **jyz**. Or you can remove one of the letters instead: **cs** can be turned into a single **c** or a single **s**.
-6.  if **x** is next to **c** or next to **k** then **y** is inserted inside: **cx** becomes **cyx**, **xk** becomes **xyk**. Or you can remove one of the letters instead: **kx** can be turned into a single **x**.
-7.  the substrings **mz**, **nts**, **ntc**, **ndz**, **ndj** are fixed by adding **y** inside or deleting one of the letters: **nytc** or **nc**, **.djeimyz.**
-8.  double **ii** between vowels is merged into a single **i**: **.eian.** (but not **.eiian.**)
-9.  double **uu** between vowels is merged into a single **u**: **.auan.** (but not **.auuan.**)
+1. it ends in consonants except **'** . Additionally they are wrapped by a dot from each side: **.lojban.** It's quite common to omit word breaks in informal texts.
+2. vowels can be put only between two consonants: **.sam.**, **.no'am.**
+3. double consonants are merged into one: _dd_ becomes **d**, _nn_ becomes **n** etc. Or a **y** is out between them: **.nyn.**
+4. if a voiced and a unvoiced consonants are next to each other then **y** is inserted inside: **kv** becomes **kyv**. Or you can remove one of the letters instead: **pb** can be turned into a single **p** or a single **b**.
+5. if one of **c**, **j**, **s**, **z** are next to each other then **y** is inserted inside: **jz** becomes **jyz**. Or you can remove one of the letters instead: **cs** can be turned into a single **c** or a single **s**.
+6. if **x** is next to **c** or next to **k** then **y** is inserted inside: **cx** becomes **cyx**, **xk** becomes **xyk**. Or you can remove one of the letters instead: **kx** can be turned into a single **x**.
+7. the substrings **mz**, **nts**, **ntc**, **ndz**, **ndj** are fixed by adding **y** inside or deleting one of the letters: **nytc** or **nc**, **.djeimyz.**
+8. double **ii** between vowels is merged into a single **i**: **.eian.** (but not **.eiian.**)
+9. double **uu** between vowels is merged into a single **u**: **.auan.** (but not **.auuan.**)
 10. The sound for the English "h" as in Harry can be either dropped or replaced with **x**. _Harry_ can become **.aris.** or **.xaris.**
 
 ### Relation words as names
@@ -1889,19 +1887,19 @@ Here are a few examples of Lojbanic names:in
 ### ‘_he_’ ‘_she_’
 
 <figure>
-	<img src="https://mw.lojban.org/images/thumb/5/56/Miss_Rep_Dominicana_07_Ada_Aimee.jpg/96px-Miss_Rep_Dominicana_07_Ada_Aimee.jpg" alt="le ninmu">
-	<figcaption>
-	<b>le ninmu</b><br/>
-	<i>the woman (female human)</i>
-	</figcaption>
+ <img src="https://mw.lojban.org/images/thumb/5/56/Miss_Rep_Dominicana_07_Ada_Aimee.jpg/96px-Miss_Rep_Dominicana_07_Ada_Aimee.jpg" alt="le ninmu">
+ <figcaption>
+ <b>le ninmu</b><br/>
+ <i>the woman (female human)</i>
+ </figcaption>
 </figure>
 
 <figure>
-	<img src="https://mw.lojban.org/images/thumb/3/3b/Jens_Fink-Jensen.jpg/96px-Jens_Fink-Jensen.jpg" alt="le nanmu">
-	<figcaption>
-	<b>le nanmu</b><br/>
-	<i>the man (male human)</i>
-	</figcaption>
+ <img src="https://mw.lojban.org/images/thumb/3/3b/Jens_Fink-Jensen.jpg/96px-Jens_Fink-Jensen.jpg" alt="le nanmu">
+ <figcaption>
+ <b>le nanmu</b><br/>
+ <i>the man (male human)</i>
+ </figcaption>
 </figure>
 
 Lojban doesn't really have words for _he_ or _she_. Possible solutions:
@@ -1982,35 +1980,35 @@ co'o
 Since vocatives work like interjections we have nice types of greetings:
 
 <figure>
-	<img src="https://mw.lojban.org/images/thumb/5/57/Alishan_sunrise.JPG/96px-Alishan_sunrise.JPG" alt="cerni">
-	<figcaption>
-	<b>cerni</b><br/>
-	<i>… is morning</i>
-	</figcaption>
+ <img src="https://mw.lojban.org/images/thumb/5/57/Alishan_sunrise.JPG/96px-Alishan_sunrise.JPG" alt="cerni">
+ <figcaption>
+ <b>cerni</b><br/>
+ <i>… is morning</i>
+ </figcaption>
 </figure>
 
 <figure>
-	<img src="https://mw.lojban.org/images/thumb/1/19/Fanabe_beach_Day_6_Sunset_2_%28400636804%29.jpg/96px-Fanabe_beach_Day_6_Sunset_2_%28400636804%29.jpg" alt="vanci">
-	<figcaption>
-	<b>vanci</b><br/>
-	<i>… is evening</i>
-	</figcaption>
+ <img src="https://mw.lojban.org/images/thumb/1/19/Fanabe_beach_Day_6_Sunset_2_%28400636804%29.jpg/96px-Fanabe_beach_Day_6_Sunset_2_%28400636804%29.jpg" alt="vanci">
+ <figcaption>
+ <b>vanci</b><br/>
+ <i>… is evening</i>
+ </figcaption>
 </figure>
 
 <figure>
-	<img src="https://mw.lojban.org/images/thumb/0/01/The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg/96px-The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg" alt="donri">
-	<figcaption>
-	<b>donri</b><br/>
-	<i>… is daylight time</i>
-	</figcaption>
+ <img src="https://mw.lojban.org/images/thumb/0/01/The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg/96px-The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg" alt="donri">
+ <figcaption>
+ <b>donri</b><br/>
+ <i>… is daylight time</i>
+ </figcaption>
 </figure>
 
 <figure>
-	<img src="https://mw.lojban.org/images/thumb/d/de/Stormy_night_skies_in_Glacier_%284455539994%29.jpg/96px-Stormy_night_skies_in_Glacier_%284455539994%29.jpg" alt="nicte">
-	<figcaption>
-	<b>nicte</b><br/>
-	<i>… is night</i>
-	</figcaption>
+ <img src="https://mw.lojban.org/images/thumb/d/de/Stormy_night_skies_in_Glacier_%284455539994%29.jpg/96px-Stormy_night_skies_in_Glacier_%284455539994%29.jpg" alt="nicte">
+ <figcaption>
+ <b>nicte</b><br/>
+ <i>… is night</i>
+ </figcaption>
 </figure>
 
 <div class="common"></div>
@@ -2333,27 +2331,27 @@ You may study places when you find them useful or when people use them in a dial
 
 Most of verbs have one or two places. Usually you can guess the order using context and a few rules of thumb:
 
-1.  The first place is often the person or thing who does something or is something:
+1. The first place is often the person or thing who does something or is something:
 
     **klama** = _x1 goes …_
 
-2.  The object of some action is usually just after the first place:
+2. The object of some action is usually just after the first place:
 
     **punji** = _x1 puts x2 on x3_,
 
     **posydu'a** = _x1 gives x2 (gift) to x3 (recipient)_
 
-3.  And the next place will usually be filled with the recipient:
+3. And the next place will usually be filled with the recipient:
 
     **punji** = _x1 puts x2 on x3_,
 
     **posydu'a** = _x1 gives x2 (gift) to x3 (recipient)_
 
-4.  Destination (_to_) places nearly always come before origins (_from_) places:
+4. Destination (_to_) places nearly always come before origins (_from_) places:
 
     **klama** = _x1 goes to x2 from x3_
 
-5.  Less-used places come towards the end. These tend to be things like ‘by standard’, ‘by means’ or ‘made of’.
+5. Less-used places come towards the end. These tend to be things like ‘by standard’, ‘by means’ or ‘made of’.
 
 The general idea is that first come the places which are most likely to be used.
 
@@ -2398,27 +2396,27 @@ because you want to do something, you want some event happening with the apple, 
 ### Places for nouns
 
 <figure>
-	<img src="https://mw.lojban.org/images/thumb/b/b9/Alex_friends.JPG/96px-Alex_friends.JPG" alt="le pendo">
-	<figcaption>
-	<b>le pendo</b><br/>
-	<i>the friend / the friends</i>
-	</figcaption>
+ <img src="https://mw.lojban.org/images/thumb/b/b9/Alex_friends.JPG/96px-Alex_friends.JPG" alt="le pendo">
+ <figcaption>
+ <b>le pendo</b><br/>
+ <i>the friend / the friends</i>
+ </figcaption>
 </figure>
 
 <figure>
-	<img src="https://mw.lojban.org/images/thumb/8/8a/Ezhednevnik.jpg/96px-Ezhednevnik.jpg" alt="le cukta">
-	<figcaption>
-	<b>le cukta</b><br/>
-	<i>the book, the books</i>
-	</figcaption>
+ <img src="https://mw.lojban.org/images/thumb/8/8a/Ezhednevnik.jpg/96px-Ezhednevnik.jpg" alt="le cukta">
+ <figcaption>
+ <b>le cukta</b><br/>
+ <i>the book, the books</i>
+ </figcaption>
 </figure>
 
 <figure>
-	<img src="https://mw.lojban.org/images/thumb/f/fe/Fetch_volumes_ok_2.jpg/96px-Fetch_volumes_ok_2.jpg" alt="mi posydu'a pa cukta">
-	<figcaption>
-	<b>mi posydu'a le cukta</b><br/>
-	<i>I give the book</i>
-	</figcaption>
+ <img src="https://mw.lojban.org/images/thumb/f/fe/Fetch_volumes_ok_2.jpg/96px-Fetch_volumes_ok_2.jpg" alt="mi posydu'a pa cukta">
+ <figcaption>
+ <b>mi posydu'a le cukta</b><br/>
+ <i>I give the book</i>
+ </figcaption>
 </figure>
 
 How do we say _You are my friend_ ?
@@ -3429,8 +3427,8 @@ cizra
 
 Did you catch that?
 
-1.  _Everything is strange here_ means that if something is not strange somewhere then it becomes strange at this place.
-2.  _Here everything is strange_ simply describes those objects or events that are here (and they are strange). We don't know anything about others in other places.
+1. _Everything is strange here_ means that if something is not strange somewhere then it becomes strange at this place.
+2. _Here everything is strange_ simply describes those objects or events that are here (and they are strange). We don't know anything about others in other places.
 
 Another example with a noun started with a number:
 
@@ -3481,11 +3479,11 @@ Dictionaries specify when places of verbs have to be filled with sets.
 ### Masses
 
 <figure>
-	<img src="https://mw.lojban.org/images/thumb/f/ff/2935770197_f39591ed59_o.jpg/96px-2935770197_f39591ed59_o.jpg" alt="lei prenu cu sruri le jubme">
-	<figcaption>
-	<b>lei prenu cu sruri le jubme</b><br/>
-	<i>The people surrounded the table.</i>
-	</figcaption>
+ <img src="https://mw.lojban.org/images/thumb/f/ff/2935770197_f39591ed59_o.jpg/96px-2935770197_f39591ed59_o.jpg" alt="lei prenu cu sruri le jubme">
+ <figcaption>
+ <b>lei prenu cu sruri le jubme</b><br/>
+ <i>The people surrounded the table.</i>
+ </figcaption>
 </figure>
 
 > **lei prenu pu sruri le jubme**
@@ -4103,7 +4101,7 @@ Thus, Lojban has several words for _that …_, depending on what sort of thing i
 - If _that_ describes what can be seen, heard, what happens, use **nu**.
 - If _that_ describes what you think, some fact or information, use **du'u**.
 - If _that_ describes what you say, use **se du'u**.
-	- But if you need a literal quote use **lu … li'u**.
+  - But if you need a literal quote use **lu … li'u**.
 
 ### Emotional interjections
 
@@ -4296,13 +4294,13 @@ si'a
 
 Interjection can consist of
 
-1.  the root like **ui** (_Yay!_)
-2.  then suffixes like **pei**, **dai**, **zo'o**:
+1. the root like **ui** (_Yay!_)
+2. then suffixes like **pei**, **dai**, **zo'o**:
 
     > **ui zo'o**
     > _Yay! (kidding, I'm not actually happy)_
 
-3.  both the root and each of the suffixes can be modified with scalar particles like **nai**:
+3. both the root and each of the suffixes can be modified with scalar particles like **nai**:
 
     > **ui nai**
     > _Alas!_
@@ -4317,35 +4315,35 @@ Interjection can consist of
 
 Some examples of how scalar particles work.
 
-* **ju'o** = _interjection: I'm sure (certaintty)_
-* **ju'o cu'i** = _interjection: maybe, perhaps (uncertainty)_
-* **ju'o nai** = _interjection: I have no idea!_
+- **ju'o** = _interjection: I'm sure (certaintty)_
+- **ju'o cu'i** = _interjection: maybe, perhaps (uncertainty)_
+- **ju'o nai** = _interjection: I have no idea!_
 
 Common examples of interjections:
 
 - interjection with bare root:
 
-	> **ju'o le bruna co'i klama**
-	> _I'm sure, the brother has come._
+ > **ju'o le bruna co'i klama**
+ > _I'm sure, the brother has come._
 
 - scalar particle **cu'i** turns bare interjection into the middle attitude:
 
-	> **ju'o cu'i le bruna co'i klama**
-	> _Maybe the brother has come, I'm not sure._
+ > **ju'o cu'i le bruna co'i klama**
+ > _Maybe the brother has come, I'm not sure._
 
 - scalar particle **nai** turns interjection into the opposite attitude:
 
-	> **ju'o nai le bruna co'i klama**
-	> _Maybe the brother has come, maybe not, I have no idea_
+ > **ju'o nai le bruna co'i klama**
+ > _Maybe the brother has come, maybe not, I have no idea_
 
-	Similarly, **ui** is _Whee! Yay!_ while **ui nai** means _Alas!_
+ Similarly, **ui** is _Whee! Yay!_ while **ui nai** means _Alas!_
 
-	Precise meanings of interjections that are meaningful with their scalar particles **cu'i** and **nai** are given in the dictionary.
+ Precise meanings of interjections that are meaningful with their scalar particles **cu'i** and **nai** are given in the dictionary.
 
 - scalar particle **sai** denotes strong intensity of interjection:
 
-	> **.u'i sai**
-	> _Ha-ha-ha!_
+ > **.u'i sai**
+ > _Ha-ha-ha!_
 
 Vocatives too can be modified with scalar particles:
 
@@ -4356,74 +4354,74 @@ Suffixes are added after the root of interjection (together with its scalar part
 
 - interjection suffix **pei** turns interjection into a question.
 
-	> **— .au pei do e mi klama le zarci**
-	> **— .au cu'i**
-	> _— Do you want that you and I go to the store?_
-	> _— Meh, I don't have any preferences._
+ > **— .au pei do e mi klama le zarci**
+ > **— .au cu'i**
+ > _— Do you want that you and I go to the store?_
+ > _— Meh, I don't have any preferences._
 
-	<!-- -->
+ <!-- -->
 
-	> **— ie pei tu melbi**
-	> **— ie**
-	> _— That one is pretty, isn't it?_
-	> _— Yeah._
+ > **— ie pei tu melbi**
+ > **— ie**
+ > _— That one is pretty, isn't it?_
+ > _— Yeah._
 
 - interjection suffix **dai** shows another's feelings, not feelings of the speaker:
 
-	> **ui nai dai do na ku co'i jinga**
-	> _You must be sad, you haven't won._
+ > **ui nai dai do na ku co'i jinga**
+ > _You must be sad, you haven't won._
 
-	<!-- -->
+ <!-- -->
 
-	> **.a'u**
-	> _That's interesting!_
+ > **.a'u**
+ > _That's interesting!_
 
-	<!-- -->
+ <!-- -->
 
-	> **.a'u dai**
-	> _That must have been interesting for you!_
+ > **.a'u dai**
+ > _That must have been interesting for you!_
 
 - Bare interjections express the attitude of the speaker. **ei do cliva** means not _You ought to leave_, but _I feel the obligation for you to leave_. **dai** shows that the speaker is empathizing someone else's feelings.
 
-	> **.ei dai do cliva**
-	> _You feel the obligation for yourself to leave._
+ > **.ei dai do cliva**
+ > _You feel the obligation for yourself to leave._
 
 Note that interjections don't necessarily show attitude towards the speakers themselves. Instead, they express speakers' attitude towards other things.
 
 - interjection suffix **zo'o** marks the attitude as expressed not seriously:
 
-	> **e'u zo'o do pinxe ti**
-	> _I suggest that you drink it (kidding)._
+ > **e'u zo'o do pinxe ti**
+ > _I suggest that you drink it (kidding)._
 
-	**zo'o** is used just like the smiley-face in e-mail, to indicate that you're being humorous when saying something, and it's used for much the same reason. Although, simleys can be ambiguous, and **zo'o** has only one meaning, which is handy.
+ **zo'o** is used just like the smiley-face in e-mail, to indicate that you're being humorous when saying something, and it's used for much the same reason. Although, simleys can be ambiguous, and **zo'o** has only one meaning, which is handy.
 
 - Suffixes can also be modified with scalar particles:
 
-	> **ie zo'o nai**
-	> _I agree (not kidding)._
+ > **ie zo'o nai**
+ > _I agree (not kidding)._
 
-	- **zo'o nai** is used to show that the information is not a joke:
+- **zo'o nai** is used to show that the information is not a joke:
 
-		> **zo'o nai ra pu klama la paris**
-		> _— I'm serious, he went to Paris._
+  > **zo'o nai ra pu klama la paris**
+  > _— I'm serious, he went to Paris._
 
 - Suffixes can be used on its own:
 
-	- **pei** when used alone asks for any interjection that the listener would feel appropriate:
+  - **pei** when used alone asks for any interjection that the listener would feel appropriate:
 
-		> **— pei le lunra cu crino**
-		> **— .ie nai**
-		> _— The moon is green (what is your feeling about it?)_
-		> _— I disagree._
+  > **— pei le lunra cu crino**
+  > **— .ie nai**
+  > _— The moon is green (what is your feeling about it?)_
+  > _— I disagree._
 
 - For other suffixes they mean that the root interjection **ju'a** (_I state_) was omitted:
 
-	> **zo'o do kusru**
-	> **ju'a zo'o do kusru**
-	> _You are cruel (kidding)._
+ > **zo'o do kusru**
+ > **ju'a zo'o do kusru**
+ > _You are cruel (kidding)._
 
-	ju'a
-	: interjection: I state (don't confuse it with **ju'o** (I'm sure))
+ ju'a
+ : interjection: I state (don't confuse it with **ju'o** (I'm sure))
 
 ### Just for reference: interjections in tables
 
@@ -4790,141 +4788,159 @@ Here are some common structures used by fluent speakers of Lojban + examples ill
 
 They may help you get used to colloquial Lojban faster.
 
-* 
-	.i ku'i
-	: But…
+-
+ .i ku'i
+ : But…
 
-	> **mi djuno .i ku'i mi na ku djica**
-	> _I know. But I don't want._
-* 
-	mi djica le nu
-	: I want that …
+ > **mi djuno .i ku'i mi na ku djica**
+ > _I know. But I don't want._
+ >
+-
+ mi djica le nu
+ : I want that …
 
-	> **mi djica le nu mi sipna**
-	> _I want to sleep._
-	> `I want that I sleep.`
-* 
-	mi djuno le du'u ma kau
-	: I know what/who …
+ > **mi djica le nu mi sipna**
+ > _I want to sleep._
+ > `I want that I sleep.`
+ >
+-
+ mi djuno le du'u ma kau
+ : I know what/who …
 
-	> **mi djuno le du'u ma kau smuni zo coi**
-	> _I know what is the meaning of **coi**._
+ > **mi djuno le du'u ma kau smuni zo coi**
+ > _I know what is the meaning of **coi**._
 
-	<!-- -->
+ <!-- -->
 
-	> **mi na ku djuno**
-	> _I don't know._
-* 
-	jinvi le du'u
-	: … has an opinion that …
+ > **mi na ku djuno**
+ > _I don't know._
+ >
+-
+ jinvi le du'u
+ : … has an opinion that …
 
-	> **mi jinvi le du'u la .lojban. cu zabna**
-	> _I think that Lojban is cool._
+ > **mi jinvi le du'u la .lojban. cu zabna**
+ > _I think that Lojban is cool._
 
-	<!-- -->
+ <!-- -->
 
-	> **coi ro do**
-	> _Hello, everyone!_
+ > **coi ro do**
+ > _Hello, everyone!_
 
-	<!-- -->
+ <!-- -->
 
-	> **co'o ro do**
-	> _Bye, everyone!_
-* 
-	.ai mi
-	: I'm going to …
+ > **co'o ro do**
+ > _Bye, everyone!_
+ >
+-
+ .ai mi
+ : I'm going to …
 
-	> **ai mi cliva .i co'o**
-	> _I'm going to leave. Bye!_
-* 
-	.ei mi
-	: I should …
+ > **ai mi cliva .i co'o**
+ > _I'm going to leave. Bye!_
+ >
+-
+ .ei mi
+ : I should …
 
-	> **.ei mi citka .i co'o**
-	> _I should eat. Bye!_
-* 
-	ca le nu
-	: when …
+ > **.ei mi citka .i co'o**
+ > _I should eat. Bye!_
+ >
+-
+ ca le nu
+ : when …
 
-	> **mi pu bebna ca le nu mi citno**
-	> _I was stupid when I was young._
-* 
-	va'o le nu
-	: provided that …
+ > **mi pu bebna ca le nu mi citno**
+ > _I was stupid when I was young._
+ >
+-
+ va'o le nu
+ : provided that …
 
-	> **va'o le nu do djica vau mi ka'e ciksi**
-	> _If you want I can explain._
-* 
-	simlu le ka
-	: … seems to be …
+ > **va'o le nu do djica vau mi ka'e ciksi**
+ > _If you want I can explain._
+ >
+-
+ simlu le ka
+ : … seems to be …
 
-	> **simlu le ka zabna**
-	> _It seems to be cool._
-* 
-	ca le cabdei
-	: today
+ > **simlu le ka zabna**
+ > _It seems to be cool._
+ >
+-
+ ca le cabdei
+ : today
 
-	> **ca le cabdei mi surla**
-	> _Today I rest._
-* 
-	mi nelci
-	: I like
+ > **ca le cabdei mi surla**
+ > _Today I rest._
+ >
+-
+ mi nelci
+ : I like
 
-	> **mi nelci le mlatu**
-	> _I like the cat._
-* 
-	le nu pilno
-	: using …
+ > **mi nelci le mlatu**
+ > _I like the cat._
+ >
+-
+ le nu pilno
+ : using …
 
-	> **na ku le nu pilno le vlaste cu nandu**
-	> _Using dictionaries isn't hard._
-* 
-	kakne le ka
-	: capable of …
+ > **na ku le nu pilno le vlaste cu nandu**
+ > _Using dictionaries isn't hard._
+ >
+-
+ kakne le ka
+ : capable of …
 
-	> **xu do kakne le ka sutra tavla**
-	> _Are you able to talk quickly?_
-* 
-	tavla fi
-	: talk about …
+ > **xu do kakne le ka sutra tavla**
+ > _Are you able to talk quickly?_
+ >
+-
+ tavla fi
+ : talk about …
 
-	> **.e'ei tavla fi le skami**
-	> _Let's talk about computers!_
-* 
-	mutce le ka
-	: very …
+ > **.e'ei tavla fi le skami**
+ > _Let's talk about computers!_
+ >
+-
+ mutce le ka
+ : very …
 
-	> **mi mutce le ka se cinri**
-	> _I am very interested._
-* 
-	troci le ka
-	: … tries to …
+ > **mi mutce le ka se cinri**
+ > _I am very interested._
+ >
+-
+ troci le ka
+ : … tries to …
 
-	> **mi troci le ka tavla fo la .lojban.**
-	> _I am trying to talk in Lojban._
-* 
-	rinka le nu
-	: (event) leads to …
+ > **mi troci le ka tavla fo la .lojban.**
+ > _I am trying to talk in Lojban._
+ >
+-
+ rinka le nu
+ : (event) leads to …
 
-	> **le nu mi tadni la .lojban. cu rinka le nu mi jimpe fi do**
-	> _That I study Lojban makes me understand you._
-* 
-	gasnu le nu
-	: (agent) causes …
+ > **le nu mi tadni la .lojban. cu rinka le nu mi jimpe fi do**
+ > _That I study Lojban makes me understand you._
+ >
+-
+ gasnu le nu
+ : (agent) causes …
 
-	> **mi pu gasnu le nu le skami pe mi co'a spofu**
-	> _I made it so that my computer got broken._
-* 
-	xusra le du'u
-	: assert that …
+ > **mi pu gasnu le nu le skami pe mi co'a spofu**
+ > _I made it so that my computer got broken._
+ >
+-
+ xusra le du'u
+ : assert that …
 
-	> **xu do xusra le du'u mi na ku drani**
-	> _Do you state that I am not right?_
+ > **xu do xusra le du'u mi na ku drani**
+ > _Do you state that I am not right?_
 
-	<!-- -->
+ <!-- -->
 
-	> **mi na ku kanpe**
-	> _I am not sure._
+ > **mi na ku kanpe**
+ > _I am not sure._
 
 ### A simple dialogue
 
@@ -6040,8 +6056,8 @@ And now an interesting sentence:
 
 It can mean two different things in English!
 
-1.  Bob likes Betty and he likes Mary less.
-2.  Bob likes Betty but Mary likes Betty too, though not as much as Bob does!
+1. Bob likes Betty and he likes Mary less.
+2. Bob likes Betty but Mary likes Betty too, though not as much as Bob does!
 
 Do we compare Betty with Mary in how Bob likes them?
 
@@ -6330,30 +6346,30 @@ Here are several places where modal terms can go.
 
 - modal term modifies the relation to the right of it:
   
-	> **ca ku mi citka**
-	> _Now I eat._
+ > **ca ku mi citka**
+ > _Now I eat._
 
-	— the term labelled with a word **ku** as being completed.
+ — the term labelled with a word **ku** as being completed.
 
-	> **ca le cabdei mi citka**
-	
-	> _Today I eat._
-	
-	— the term with a noun after it as its argument.
-	
-	> **mi ca citka**
-	
-	> _I now eat._
-	
-	— tense particle before the main verb and without a noun.
+ > **ca le cabdei mi citka**
+
+ > _Today I eat._
+
+ — the term with a noun after it as its argument.
+
+ > **mi ca citka**
+
+ > _I now eat._
+
+ — tense particle before the main verb and without a noun.
 
 - Modal term is applied to the whole relation:
-	
-	> **mi citka ca**
-	
-	> _I eat now._
-	
-	— modal term at the end of the relation.
+
+ > **mi citka ca**
+
+ > _I eat now._
+
+ — modal term at the end of the relation.
 
 ### Joining statements with modals
 
@@ -6462,82 +6478,82 @@ Translating as **da**:
 
 - _some_: something unspecified:
 
-	> **da pu klama .i je ko smadi le du'u da me ma kau**
-	>_Somebody came. Guess who it was._
+ > **da pu klama .i je ko smadi le du'u da me ma kau**
+ >_Somebody came. Guess who it was._
 
-	<!-- -->
+ <!-- -->
 
-	> **mi pu tirna da .i je mi fliba le ka jimpe le du'u da mo kau**
-	>_I heard something, but I fail to understand what it was._
+ > **mi pu tirna da .i je mi fliba le ka jimpe le du'u da mo kau**
+ >_I heard something, but I fail to understand what it was._
 
 - _some_ in questions turns into _anything_, _anybody_, in Lojban it's still **da**:
 
-	> **xu su'o da pu klama**
-	>_Did anybody come?_
+ > **xu su'o da pu klama**
+ >_Did anybody come?_
 
 - _some_ when using commands, request, suggestions:
 
-	> **e'u mi'o pilno su'o da poi drata**
-	>_Let's try other things._
+ > **e'u mi'o pilno su'o da poi drata**
+ >_Let's try other things._
 
-	<!-- -->
+ <!-- -->
 
-	> **e'u mi'o troci bu'u su'o da poi drata**
-	>_Let's try somewhere else._
+ > **e'u mi'o troci bu'u su'o da poi drata**
+ >_Let's try somewhere else._
 
 - _any_ can be used in inner relations:
 
-	> **mi rivbi le ka jdice da**
-	>_I avoided taking any decision._
+ > **mi rivbi le ka jdice da**
+ >_I avoided taking any decision._
 
-	like in relations inside modal terms:
+ like in relations inside modal terms:
 
-	> **ba le nu do zgana da vau ko klama**
-	>_After you notice anything, come!_
+ > **ba le nu do zgana da vau ko klama**
+ >_After you notice anything, come!_
 
 - Scope: _any_ is used in English when negating while Lojban uses **na ku** but then still **da**:
 
-	> **mi na ku viska su'o da poi prenu**
-	>_I don't see anybody._
+ > **mi na ku viska su'o da poi prenu**
+ >_I don't see anybody._
 
 - _any_ is used when making no distinction among members we talk about:
 
-	> **.au nai mi tavla su'o da poi na ku slabu mi**
-	>_I don't want to talk to just anybody._
+ > **.au nai mi tavla su'o da poi na ku slabu mi**
+ >_I don't want to talk to just anybody._
 
 - Scope: negation has to be used in an appropriate relation like here:
 
-	> **mi jinvi le du'u na ku da jimpe**
-	>_I don't think that anybody understands._
+ > **mi jinvi le du'u na ku da jimpe**
+ >_I don't think that anybody understands._
 
-	This can be rephrased as:
+ This can be rephrased as:
 
-	> **mi jinvi le du'u no da jimpe**
-	>_I think that nobody understands._
+ > **mi jinvi le du'u no da jimpe**
+ >_I think that nobody understands._
 
 - _every_ is turned into _any_ in comparisons and translated as **ro da**:
 
-	> **do zmadu ro da le ka se canlu**
-	>_You are taller than anybody._
-	>`You exceed everybody in size.`
+ > **do zmadu ro da le ka se canlu**
+ >_You are taller than anybody._
+ >`You exceed everybody in size.`
 
 - _any_ is used when providing choice and translated as **ro da**:
 
-	> **ro da poi do nelci zo'u .e'a do citka da**
-	>_You may eat anything you like._
-	>`For everything that you like I allow you to eat it.`
+ > **ro da poi do nelci zo'u .e'a do citka da**
+ >_You may eat anything you like._
+ >`For everything that you like I allow you to eat it.`
 
 - _anyone_, _somewhere_:
 
-	> **e'u mi'o troci bu'u su'o da poi drata**
-	>_Let's try somewhere else._
+ > **e'u mi'o troci bu'u su'o da poi drata**
+ >_Let's try somewhere else._
 
-	Here, **su'o da poi drata** actually means _any other thing or things, place or places_. The number of such places is not specified although any such place might fit.
+ Here, **su'o da poi drata** actually means _any other thing or things, place or places_. The number of such places is not specified although any such place might fit.
 
-	What if we want to say _any place but only one place_?
+ What if we want to say _any place but only one place_?
 
-	> **e'u mi'o troci bu'u pa da poi drata**
-	>_Let's try at another place._
+ > **e'u mi'o troci bu'u pa da poi drata**
+ >_Let's try at another place._
 
 Translating _any_ as **le'e** in generic statements:
 
@@ -7589,7 +7605,6 @@ Thus, **go'i** copies the previous relation with those particles:
 
 >— _ He doesn't (love)._
 
-
 > **— la .bob. na'e prami la .alis.**
 > _— Bob doesn't love Alice._
 
@@ -8067,9 +8082,9 @@ mu'i
 
 In this example, what we have is not two events which are physically connected, like clouds and rain, but three events:
 
-1.  Kevin pulls my hair.
-2.  I decide, as a result of this, to hit Kevin.
-3.  I hit Kevin.
+1. Kevin pulls my hair.
+2. I decide, as a result of this, to hit Kevin.
+3. I hit Kevin.
 
 English misses out the second event and says _Sally hit Joey because he pulled her hair._ However, this is not only vague but, some would say, psychologically dangerous. People do not generally react to stimuli automatically, but as a result of motivation, and confusing complex responses with simple physical causation may lead us to believe that we have no control over our emotions or even our actions. Thus, it is often useful to say not just physical reactions (**ri'a**) but emphasize responses which have a cognitive/emotional element (**mu'i**).
 
@@ -8241,12 +8256,12 @@ Suppose you come home and hear someone scratching. You can say one of the follow
 
 Notice that we omitted **da'i** for brevity. But if we want to be explicitly clear about the events being imaginary **da'i** in these examples is to be put inside the **fau** relation:
 
-1.  **fau da'i da** denotes that the event in this relation _is possible, may/can possibly happen._
-2.  **fau da'i ro da** — the event _would necessarily happen._
-3.  **fau da'i so'e da** — the event _is probable, will probably happen, is likely to happen._
-4.  **fau da'i so'o da** — the event _is remotely probable, could/might happen._
-5.  **fau da'i so'u da** — the event _is not likely, probably doesn't happen._
-6.  **fau da'i no da** — the event _is not possible._
+1. **fau da'i da** denotes that the event in this relation _is possible, may/can possibly happen._
+2. **fau da'i ro da** — the event _would necessarily happen._
+3. **fau da'i so'e da** — the event _is probable, will probably happen, is likely to happen._
+4. **fau da'i so'o da** — the event _is remotely probable, could/might happen._
+5. **fau da'i so'u da** — the event _is not likely, probably doesn't happen._
+6. **fau da'i no da** — the event _is not possible._
 
 The difference between these is in the number of imaginary situations we take into account. We don't describe those situations, we just mark them as **da** (_something_) letting the context (or our listeners) decide what those situations are.
 
@@ -8633,9 +8648,9 @@ That's a weird but a perfectly reasonable answer: _Yes, I will drink tea or coff
 
 Why this happens is because _or_ has several meanings in English:
 
-1.  _A or B_ can mean _either A, or B but not both_. We use **.onai** here.
-2.  _A or B_ can mean _A or B or both_. We use **.a** here.
-3.  _A or B?_ can be a question meaning _select from A and B, which of them do you choose?_ We use **ji** here.
+1. _A or B_ can mean _either A, or B but not both_. We use **.onai** here.
+2. _A or B_ can mean _A or B or both_. We use **.a** here.
+3. _A or B?_ can be a question meaning _select from A and B, which of them do you choose?_ We use **ji** here.
 
 Thus in the last case we use a separate question conjunction **ji**:
 
@@ -8808,54 +8823,54 @@ In Lojban we use the left interjection **ba'e**.
 It is normal to use in speech only **.i** to separate sentence but you might want to use **ni'o** especially in a written text to structure it.
 
 <table>
-	<tr>
-		<td>ni'o</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>.i le pa nintadni cu klama le ctuca bu'u le galtu bu'u le darno cmana</td>
-		<td>A newbie visited the master far high in the mountains.</td>
-	</tr>
-	<tr>
-		<td>.i sei le nintadni cu cusku doi le ctuca noi certu tavla fo la .lojban. vau do skicu e'o fi mi fe le nu fi ma kau fa la .lojban. cu frica le'e drata bangu</td>
-		<td>The newbie said: "Master, you speak fluent Lojban. Please, tell me what is the difference between Lojban and other languages."</td>
-	</tr>
-	<tr>
-		<td>.i le ctuca cu friti tu'a le kabri be lei jinto djacu le nintadni gi'e ba bo cusku</td>
-		<td>The master offered him a cup of spring water and then said:</td>
-	</tr>
-	<tr>
-		<td>lu .i ca ti ko catlu le djacu gi'e skicu ri li'u</td>
-		<td>Now look at the water and describe it.</td>
-	</tr>
-	<tr>
-		<td>.i ku'i sei le nintadni cu cusku mi mo'u pinxe ri i je mi na ku kakne le ka catlu</td>
-		<td>The newbie said: "But I drank it up. I can't look at it."</td>
-	</tr>
-	<tr>
-		<td>.i ki'u ma do na ku kakne sei le ctuca cu cusku</td>
-		<td>Why can't you?, the master said.</td>
-	</tr>
-	<tr>
-		<td>.i sei le nintadni cu cusku le djacu ca pagbu le xadni be mi</td>
-		<td>The newbie said: "Now it's a part of my body."</td>
-	</tr>
-	<tr>
-		<td>ni'o</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>.i su'o da poi prenu zo'u le mudri co'a pagbu le zdani be da</td>
-		<td>A piece of wood becomes a part of someone's house.</td>
-	</tr>
-	<tr>
-		<td>.i su'o de poi prenu zo'u su'o lo bangu poi se tadni cu co'a pagbu le menli be de</td>
-		<td>A language learnt becomes a part of someone's mind.</td>
-	</tr>
-	<tr>
-		<td>.i su'o di zo'u le dirgo be le djacu co'a pagbu da poi zmadu fi le ka banli</td>
-		<td>A drop of water becomes a part of something greater.</td>
-	</tr>
+ <tr>
+  <td>ni'o</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>.i le pa nintadni cu klama le ctuca bu'u le galtu bu'u le darno cmana</td>
+  <td>A newbie visited the master far high in the mountains.</td>
+ </tr>
+ <tr>
+  <td>.i sei le nintadni cu cusku doi le ctuca noi certu tavla fo la .lojban. vau do skicu e'o fi mi fe le nu fi ma kau fa la .lojban. cu frica le'e drata bangu</td>
+  <td>The newbie said: "Master, you speak fluent Lojban. Please, tell me what is the difference between Lojban and other languages."</td>
+ </tr>
+ <tr>
+  <td>.i le ctuca cu friti tu'a le kabri be lei jinto djacu le nintadni gi'e ba bo cusku</td>
+  <td>The master offered him a cup of spring water and then said:</td>
+ </tr>
+ <tr>
+  <td>lu .i ca ti ko catlu le djacu gi'e skicu ri li'u</td>
+  <td>Now look at the water and describe it.</td>
+ </tr>
+ <tr>
+  <td>.i ku'i sei le nintadni cu cusku mi mo'u pinxe ri i je mi na ku kakne le ka catlu</td>
+  <td>The newbie said: "But I drank it up. I can't look at it."</td>
+ </tr>
+ <tr>
+  <td>.i ki'u ma do na ku kakne sei le ctuca cu cusku</td>
+  <td>Why can't you?, the master said.</td>
+ </tr>
+ <tr>
+  <td>.i sei le nintadni cu cusku le djacu ca pagbu le xadni be mi</td>
+  <td>The newbie said: "Now it's a part of my body."</td>
+ </tr>
+ <tr>
+  <td>ni'o</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>.i su'o da poi prenu zo'u le mudri co'a pagbu le zdani be da</td>
+  <td>A piece of wood becomes a part of someone's house.</td>
+ </tr>
+ <tr>
+  <td>.i su'o de poi prenu zo'u su'o lo bangu poi se tadni cu co'a pagbu le menli be de</td>
+  <td>A language learnt becomes a part of someone's mind.</td>
+ </tr>
+ <tr>
+  <td>.i su'o di zo'u le dirgo be le djacu co'a pagbu da poi zmadu fi le ka banli</td>
+  <td>A drop of water becomes a part of something greater.</td>
+ </tr>
 </table>
 
 dirgo
@@ -8977,48 +8992,48 @@ In English _you_ has several meanings that are translated to Lojban in certain w
 
 - _you_ as _the one person I'm talking to_:
 
-	> **le pa do**
-	> _you one_
+ > **le pa do**
+ > _you one_
 
-	We know that **le re prenu** means _the two people_. It's also possible to put numbers after **le** and before pronouns.
+ We know that **le re prenu** means _the two people_. It's also possible to put numbers after **le** and before pronouns.
 
 - _you_ as _all of the people I'm talking to_:
 
-	> **ro do**
-	> <span>_each of you_, _all of you_ (or Southern U.S. _y'all_)</span>
+ > **ro do**
+ > <span>_each of you_, _all of you_ (or Southern U.S. _y'all_)</span>
 
-	You can also use numbers with **ko**:
+ You can also use numbers with **ko**:
 
-	> **ro ko klama ti**
-	> _All of you, get over here._
+ > **ro ko klama ti**
+ > _All of you, get over here._
 
 - _you_ as _a number of people I'm talking to_:
 
-	> **le re do**
-	> _you two_
+ > **le re do**
+ > _you two_
 
-	For example, once can start e-mails to their parents with **coi le re do**.
+ For example, once can start e-mails to their parents with **coi le re do**.
 
-	Notice that **re do** means _two of you_ and **re le ci do** means _two of you three_.
+ Notice that **re do** means _two of you_ and **re le ci do** means _two of you three_.
 
 - _you_ as _the person or people I'm talking to plus some other person or people_:
 
-	do'o
-	: pronoun: _you and someone else_
+ do'o
+ : pronoun: _you and someone else_
 
 - _you_ as _anyone_ (e.g. _Money can't buy you love._):
 
-	It's normally expressed by
+ It's normally expressed by
 
-	ro da
-	: _all **da**_
+ ro da
+ : _all **da**_
 
-	or 
+ or
 
-	ro lo prenu
-	: _all persons_
+ ro lo prenu
+ : _all persons_
 
-	But often you can just miss it out altogether (or place **zo'e** in that place).
+ But often you can just miss it out altogether (or place **zo'e** in that place).
 <!-- The recommended method is turning pronouns into verbs first:
 
 >**lo re me do ko klama ti**
@@ -9056,7 +9071,7 @@ It's much safer to use **pe** explicitly and put it after the noun to which it i
 > **zoi gy. John is a man .gy. cu glico jufra**
 > _“John is a man” is an English sentence._
 
-where **gy.** stands for **glico**. Other popular choices of delimiting words are **.kuot.**, a Lojban name which sounds like the English word*quote*, and the word _zoi_ itself. Another possibility is a Lojban word suggesting the topic of the quotation.
+where **gy.** stands for **glico**. Other popular choices of delimiting words are **.kuot.**, a Lojban name which sounds like the English word_quote_, and the word_zoi_ itself. Another possibility is a Lojban word suggesting the topic of the quotation.
 
 Lojban strictly avoids any confusion between things and the names of things:
 
@@ -9229,10 +9244,10 @@ merko
 
 Here is the list of different kind of groupers in compound verbs ranked from the tighest to the most loose:
 
-1.  **bo** and **ke … ke'e**
-2.  logical connectives for compound verbs like **je**
-3.  not using grouping words
-4.  **co**
+1. **bo** and **ke … ke'e**
+2. logical connectives for compound verbs like **je**
+3. not using grouping words
+4. **co**
 
 ### Explicit termination of nouns
 

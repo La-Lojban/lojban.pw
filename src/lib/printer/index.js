@@ -23,6 +23,13 @@ const fs = require("fs");
     await page.goto(url, {
       waitUntil: "networkidle0",
     });
+    // let div_selector_to_remove = ".print:hidden";
+    // await page.evaluate((sel) => {
+    //   const elements = document.querySelectorAll(sel);
+    //   for (let i = 0; i < elements.length; i++) {
+    //     elements[i].parentNode.removeChild(elements[i]);
+    //   }
+    // }, div_selector_to_remove);
     const pdf = await page.pdf({
       format: "A4",
       margin: { top: "20px", right: "20px", bottom: "20px", left: "20px" },
