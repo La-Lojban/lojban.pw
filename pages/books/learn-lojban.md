@@ -192,7 +192,7 @@ Each sentence in Lojban consists of the following parts from the left to the rig
   - shows that the head ended,
   - can be omitted when it's clear anyway that the head is completed.
 - the tail:
-  - the main relation (**tavla**, **prami**) with possibly one or more terms after it: the terms **mi**, **do** in the examples above.
+  - the main relation construct (**tavla**, **prami**) with possibly one or more terms after it: the terms **mi**, **do** in the examples above.
 
 One of your first thoughts might be "Where are nouns and verbs in Lojban?"
 
@@ -240,7 +240,7 @@ It might sound strange how _person_ can be a "verb" but in fact this makes Lojba
 </td></tr>
 </tbody></table>
 
-We can also say that **le** creates a noun from a relation word with roughly the meaning of _the one which is …_ (_is a person_ — _the person_), or even _those who do…_ (_to speak to_ — _the speakers_), _those who are…_ (_are people_ — _the people_).
+We can also say that **le** creates a noun from a relation construct with roughly the meaning of _the one which is …_ (_is a person_ — _the person_), or even _those who do…_ (_to speak to_ — _the speakers_), _those who are…_ (_are people_ — _the people_).
 
 Notice, that Lojban by default doesn't differentiate between _the speaker_ or _the speakers_. That is, **le tavla** is vague in that regard and we will soon discover ways to define the number.
 
@@ -300,7 +300,7 @@ citka
 
 Here, **le plise** means _the apples_, **kukte** means _is tasty / are tasty_.
 
-A simpler sentence in Lojban would contain only one main verb:
+A simpler sentence in Lojban would contain only one main relation word:
 
 > **karce**
 > _Car!_
@@ -619,7 +619,7 @@ Consider:
 > **le pa tavla cu pendo**
 > _The talking one is a friend._
 
-Remember about placing **cu** before the main verb in a relation to prevent unintentional creating of compound verbs.
+Remember about placing **cu** before the main relation construct in a sentence to prevent unintentional creation of compound verbs.
 
 Compound verbs can contain more than two verbs. In this case the first verb modifies the second one, the second one modifies the third and so on:
 
@@ -787,7 +787,7 @@ Interjections don't break compound verbs, they can be used within them:
 > **do nelci le barda xu gerku**
 > _Do you like the BIG dogs?_
 
-Now how to reply to such 'yes/no' questions? You repeat the main verb:
+Now how to reply to such 'yes/no' questions? You repeat the main relation:
 
 > **— xu le mlatu cu melbi**
 > **— melbi**
@@ -804,7 +804,7 @@ To answer 'no' we use the modal term **na ku**:
 na ku
 : term: it is false that ...
 
-Or we can use a special verb **go'i** that simply refers the main verb of the previous relation:
+Or we can use a special verb **go'i** that simply refers to the main relation of the previous sentence:
 
 > **— xu le mlatu cu melbi**
 > **— go'i**
@@ -1172,7 +1172,7 @@ Close the right part of the table. Translate to Lojban the sentences on the left
 <tbody><tr>
 <td><i>The friends and I like the rain.</i>
 </td>
-<td><b>le pendo e mi cu nelci le carvi</b>
+<td><b>le pendo .e mi cu nelci le carvi</b>
 </td></tr>
 <tr>
 <td><i>Either I or you go to the market.</i>
@@ -1227,7 +1227,7 @@ viska
 le lunra
 : the Moon
 
-Here **le nicte** is a noun of the sentence and **nu mi viska le lunra** is the main verb of the sentence as it starts with **nu**. But inside this main verb we can see another relation (**mi viska le lunra**) embedded!
+Here **le nicte** is a noun of the sentence and **nu mi viska le lunra** is the main relation of the sentence as it starts with **nu**. But inside this main relation we can see another relation (**mi viska le lunra**) embedded!
 
 The word **nu** actually transforms a sentence into a verb that denotes an event or a process.
 
@@ -1343,11 +1343,9 @@ Close the right part of the table. Translate to Lojban the sentences on the left
 
 ### Modal terms. Simple tenses: ‘_was_’, ‘_is_’, ‘_will be_’ — «**pu**», «**ca**», «**ba**»
 
-Tenses in Lojban are expressed as modal terms. We've already seen the modal term **ca** meaning _at present_.
+In Lojban we express time when something happens (grmmatically, in English it's usually called _tense_) with modal terms. We've already seen the modal term **ca** meaning _at present_.
 
-Modal terms specify additional, clarifying information.
-
-Here is the series of tense terms that tell when something happens:
+Here is the series of time-related terms that tell when something happens:
 
 > **le prenu pu cu tavla mi**
 > _The people talked to me._
@@ -1362,7 +1360,7 @@ Here is the series of tense terms that tell when something happens:
 > **le prenu ba cu tavla mi**
 > _The people will talk to me._
 
-If after the tense particle we use a bare noun then we get a term with a slightly different meaning:
+If after the time-related particle we use a bare noun then we get a term with a slightly different meaning:
 
 > **mi pinxe le ladru ca le nu do klama**
 > _I drink milk while you are coming._
@@ -1372,7 +1370,7 @@ The **ca le nu do klama** part is a long term meaning _while you come / while yo
 > **mi citka ba le nu mi dansu**
 > _I eat after I dance._
 
-tense particles are grouped into series by their meaning to make them easier to remember and use.
+Time-related particles are grouped into series by their meaning to make them easier to remember and use.
 
 Words for simple tense:
 
@@ -1408,7 +1406,7 @@ Note, that the term **pu** (past tense) is put only in the main relation (**mi p
 
 We shouldn't put **pu** with **dansu** (unlike English) as **mi dansu** is viewed relative to **mi pu cu citka** so we already know that everything was in past.
 
-More examples of terms of tense:
+More examples of time-related terms:
 
 > **le nicte cu pluka**
 > _The night is pleasant._
@@ -1419,27 +1417,27 @@ pluka
 > **ba le nicte cu pluka**
 > _After the night it is pleasant._
 
-Here, the head of the sentence contains one term **ba le nicte**, a term with its noun. Then after the separator **cu** the main verb of the sentence **pluka** is followed (**pluka** alone means _It is pleasant._)
+Here, the head of the sentence contains one term **ba le nicte**, a term with its noun. Then after the separator **cu** the main relation of the sentence **pluka** is followed (**pluka** alone means _It is pleasant._)
 
 To say _will be pleasant_ we should use the past tense term:
 
 > **le nicte ba cu pluka**
 > _The night will be pleasant._
 
-Also note that adding a noun after a tense particle can lead to drastically different meaning:
+Also note that adding a noun after a time-related particle can lead to drastically different meaning:
 
 > **le nicte ba le nu citka cu pluka**
 > _The night is pleasant after eating._
 
 Note that **ca** can extend slightly into the past and the future, meaning _just about now_. Thus, **ca** reflects a widely used around the world notion of "present time".
 
-It is also possible to integrate tense particles into the verb:
+It is also possible to integrate modal particles into the main relation construct:
 
 > **le nicte ba cu pluka**
 > **le nicte ba pluka**
 > _The night will be pleasant._
 
-Both sentences mean the same, **ba pluka** is a single verb meaning _… will be pleasant_.
+Both sentences mean the same, **ba pluka** is a relation construct meaning _… will be pleasant_.
 
 The structure of **le nicte ba pluka** is the following:
 
@@ -1453,7 +1451,7 @@ Contrast this with the previous sentence **le nicte ba cu pluka**:
 
 The advantage of **le nicte ba pluka** over **le nicte ba cu pluka** is only in conciseness, you can usually skip saying **cu** in such cases since the sentence can't be understood otherwise anyway.
 
-If you wish to put a modal term before a noun you can separate it by explicitly "ending" the term with the helper word **ku**:
+If you wish to put a modal term before a noun you can separate it from the following text by explicitly "ending" the term with the helper word **ku**:
 
 > **ba ku le nicte cu pluka**
 > **le nicte ba cu pluka**
@@ -1464,7 +1462,7 @@ If you wish to put a modal term before a noun you can separate it by explicitly 
 
 ### Modal terms. Event contours: «**co'a**», «**ca'o**», «**co'i**»
 
-Another series of tense particles, _event contours_:
+Another series of time-related particles, _event contours_:
 
 co'a
 : tense particle: the event is at its beginning
@@ -1531,11 +1529,11 @@ We can use the same rules for describing the past using **pu** instead of **ca**
 > **le prenu ba co'i tavla mi**
 > _The people will have talked to me._
 
-The relative order of tenses is important. In **ca co'i** we first say something happens in present (**ca**), then we state that in this present time the described event has been completed (**co'i**). Only when using this order we get Present Perfect tense.
+The relative order of time-related particles is important. In **ca co'i** we first say something happens in present (**ca**), then we state that in this present time the described event has been completed (**co'i**). Only when using this order we get Present Perfect tense.
 
 ### Modal terms. Intervals: ‘_during_’ — «**ze'a**»
 
-Another series of modal terms emphasizes that events happened during an interval:
+Another series of modal particles emphasizes that events happened during an interval:
 
 ze'i
 : for a short time
@@ -1575,7 +1573,7 @@ When using **ze'a** we are talking about the whole interval of what we describe.
 
 ### Modal terms. ‘_because_’ — «**ri'a**», ‘_towards_’ — «**fa'a**», ‘_at (place)_’ — «**bu'u**»
 
-Modal term for _because_:
+Modal particle for _because_:
 
 > **mi pinxe ri'a le nu mi taske**
 > _I drink because I am thirsty._
@@ -1594,7 +1592,7 @@ taske
 xagji
 : … is hungry
 
-Modal terms denoting place work the same way:
+Modal particles denoting place work the same way:
 
 > **mi klama fa'a do to'o le zdani**
 > _I go to you from the home._
@@ -1613,7 +1611,7 @@ to'o
 bu'u
 : at … (some place)
 
-One thing is important. **nu** shows that a new relation in a sentence starts. Put **vau** after such relation to show its right border like we have right bracks ")" or "]" in math. Here is an example:
+One thing is important. **nu** shows that a new relation in a sentence starts. Put **kei** after such relation to show its right border like we have right bracks ")" or "]" in math. Here is an example:
 
 > **le gerku cu plipe fa'a mi ca le nu do ca'o klama**
 > _The dog jumps towards me when you are coming._
@@ -1623,12 +1621,12 @@ plipe
 
 but
 
-> **le gerku cu plipe ca le (nu do ca'o klama vau) fa'a mi**
+> **le gerku cu plipe ca le (nu do ca'o klama kei) fa'a mi**
 > _The dog jumps (when you are coming) towards me._
 
 Brackets are used here only to show the structure, they are not necessary in a normal Lojban text.
 
-We use **vau** after the inner relation **nu do ca'o klama** to show that it ended and the main relation continues with its **cu**, terms, nouns, pronouns.
+We use **kei** after the inner relation **nu do ca'o klama** to show that it ended and the main relation continues with its **cu**, terms, nouns, pronouns.
 
 Compare this sentence with the following:
 
@@ -1639,16 +1637,16 @@ As you can see **do klama fa'a mi** is a relation inside the big one. So **fa'a 
 
 Now you, not the dog, come towards me.
 
-At the end of the sentence **vau** is never needed as it's already the right border.
+At the end of the sentence **kei** is never needed as it's already the right border.
 
-One more example with a tense particle:
+One more example with a time-related particle:
 
 > **mi pu citka le plise ba le nu mi dansu**
 > _I ate the apples after I danced._
 
 <!-- -->
 
-> **mi pu citka ba le nu mi dansu vau le plise**
+> **mi pu citka ba le nu mi dansu kei le plise**
 > _I ate (after I danced) the apples._
 
 Thus we can move **ba le nu mi dansu** around the sentence provided that it's still put after **pu**.
@@ -1706,7 +1704,7 @@ le tcati
 <td><i>Are you happy when you are walking in the garden?</i>
 </td></tr>
 <tr>
-<td><b>ca le nu mi klama le zdani vau do pinxe le tcati ri'a le nu do taske</b>
+<td><b>ca le nu mi klama le zdani kei do pinxe le tcati ri'a le nu do taske</b>
 </td>
 <td><i>When I go home you drink tea because you are thirsty.</i>
 </td></tr></tbody></table>
@@ -1975,7 +1973,7 @@ co'o
 > _Hello everyone!_
 > `Hello each of you`
 
-— is how people usually start a conversation with several people. Other numbers are possible of course: <b>coi re do</b> means <i>Hello you two</i> etc.
+— is how people usually start a conversation with several people. Other numbers are possible of course: **coi re do** means *Hello you two* etc.
 
 Since vocatives work like interjections we have nice types of greetings:
 
@@ -2181,7 +2179,7 @@ We can also omit nouns making the sentence more vague:
 > _It is raining._
 > `is rain, is raining`
 
-(although tense here is determined by context, it can also mean _It often rains_, _It was raining_ etc.)
+(although time here is determined by context, it can also mean _It often rains_, _It was raining_ etc.)
 
 > **prami do**
 > _Someone loves you._
@@ -2271,6 +2269,43 @@ posydu'a
 le cukta
 : the books
 
+### Relations inside relations
+
+In
+> **le nicte cu nu mi viska le lunra**
+> *The night is when I see the Moon.*
+
+we have
+
+- **le nicte** - x1 of the relation,
+- **nu mi viska le lunra** - the main relation.
+
+However, inside **nu mi viska le lunra** we have another sentence with
+
+- **mi** - x1 of the inner relation,
+- **viska** - the inner relation,
+- **le lunra** - x2 of the inner relation.
+
+So notice that despite having an inner structure the **nu mi viska le lunra** is also relation with its first term filled with **le nicte** in this case.
+
+Similarly, in
+
+> **mi citka ba le nu mi dansu**
+> _I eat after I dance._
+
+we have
+
+- **mi** - x1 of the relation,
+- **citka** - the main relation,
+- **ba le nu mi dansu** - a modal term of the main relation of the sentence.
+
+And inside this term we have:
+
+- **mi** - x1 of the relation inside the term,
+- **dansu** - the main relation construct inside the term.
+
+Such "recursive" mechanism of wrapping relations into relations allows expressing complex ideas precisely.
+
 ### Why are verbs defined the way they are?
 
 English uses a limited set of prepositions that are reused across various verbs and thus have no fixed meaning. Compare the usage of the English preposition _to_:
@@ -2307,7 +2342,7 @@ However, there can be optional roles that make relations more precise:
 
 > _It's hard to me because this thing is heavy._
 
-In Lojban a similar notion of such optional roles is expressed via separate relations or for most common cases with modal tags:
+In Lojban a similar notion of such optional roles is expressed via separate relations or for most common cases with modal terms:
 
 > **mi tavla do ze'a le nu mi citka**
 > _I speak to you while I'm eating._
@@ -2321,7 +2356,7 @@ nandu
 tilju
 : x1 is heavy
 
-Prepositions in English are similar to modal tags in Lojban, but in Lojban modal tags always have a single (even if vague) meaning each.
+Prepositions in English are similar to modal particles in Lojban, although a usual English preposition can nhave many meanings while in Lojban every modal particle has only one (even if vague) meaning.
 
 ### General rules in the order of arguments
 
@@ -2611,7 +2646,7 @@ The meaning has changed a lot.
 
 Finally, **voi** is used to form **le**-like nouns but with relative clauses:
 
-> **ti voi le nu ke'a cisma cu pluka mi cu zutse**
+> **ti voi le nu ke'a cisma cu pluka mi cu zutse tu**
 > _These ones whose smile pleases me are sitting down._
 
 ti
@@ -2624,7 +2659,7 @@ pluka
 : x1 is pleasant to x2
 
 zutse
-: x1 sits, is sitting
+: x1 sits, is sitting on x2
 
 Here, **voi** defines the object near me.
 
@@ -2642,6 +2677,23 @@ Compare it to:
 > _These ones (who are incidentally such that their smile pleases me) are sitting down._
 
 **noi** simply adds incidental information that is not necessary to determine what **ti** (_these ones_) refers to. Perhaps, there is nobody else around to describe.
+
+Finally, just like **nu** has the right border marker **kei** we have 
+
+ku'o
+: right border marker for **poi**, **noi** and **voi**.
+
+> **mi tavla la .doris. noi ca zutse tu ku'o .e la .alis. noi ca cisma**
+> _I talk to Doris, who is now sitting over there, and Alice who now smiles._
+
+Notice that without **ku'o** we would have **tu** (_over there_) joined together with **la .alis.** (_Alice_) leading to a weird meaning:
+
+> **mi tavla la .doris. noi ca zutse tu .e la .alis. noi ca cisma**
+> _I talk to Doris, who is now sitting over there and on top of Alice (who now smiles)._
+
+Notice the **zutse tu .e la .alis.** part.
+
+For all of **poi**, **noi** and **voi** the right border marker is still the same: **ku'o**.
 
 ### Short relative clauses. ‘_About_’
 
@@ -2669,6 +2721,12 @@ ne
 pe
 : that is about, has relation to … (a noun/pronoun follows)
 
+> **le pa penbi ne mi ge'u .e le pa cukta ne do cu xunre**
+> _The pen, which is mine, and the book, which is yours, are red._
+
+ge'u
+: right border marker for **pe**, **ne**.
+
 ### «**be**» and «**pe**»
 
 Notice that relative clauses are attached to nouns whereas **be** connects to the verb that is transformed into a noun afterwards.
@@ -2689,24 +2747,27 @@ Here, **be mi** is applied only to the verb **melbi** = _to be beautiful to … 
 
 It can also happen that we need to attach **be** to a noun and then attach **pe** to the same noun:
 
-> **le pa pendo be do be'o pe la paris cu stati**
+> **le pa pendo be do be'o pe la .paris. cu stati**
 > _The friend of yours who is related to Paris is smart._
 
 <!-- -->
 
-> **le pu posydu'a be le pa cukta bei do be'o pe la paris cu stati**
+> **le pu posydu'a be le pa cukta bei do be'o pe la .paris. cu stati**
 > _Who gave the book to you (and who is related to Paris) is smart._
 
-**be'o** shows that the nouns attached with **be** and with **bei** (if they are used) end, and thus **pe la paris** is attached to the whole noun **le pa pendo be do be'o** and **le pu posydu'a be le pa cukta bei do be'o**.
+be'o
+: right border marker for the string of nouns attached with **be** and **bei**
+
+Here, **pe la .paris.** is attached to the whole noun **le pa pendo be do be'o** and to **le pu posydu'a be le pa cukta bei do be'o**.
 
 Compare it to:
 
-> **le pa pendo be do pe la paris cu stati**
+> **le pa pendo be do pe la .paris. cu stati**
 > _The friend of yours (who is related to Paris) is smart._
 
 <!-- -->
 
-> **le pu posydu'a be le pa cukta bei do pe la paris cu stati**
+> **le pu posydu'a be le pa cukta bei do pe la .paris. cu stati**
 > _Who gave the book to you (who is related to Paris) is smart._
 
 The difference in the meaning is huge. In the first two examples your friend has some relation to Paris (maybe, he/she is from Paris). In the second two examples, you have this relation.
@@ -2732,7 +2793,7 @@ me
 > _Alice habitually teaches._
 
 ta'e
-: modal term: the event happens habitually
+: modal particle: the event happens habitually
 
 > **la .alis. cu du le ctuca**
 > _Alice is the teacher._
@@ -2776,9 +2837,9 @@ When using **me** you can connect several nouns with _and_:
 tunba
 : x1 is a sibling of x2
 
-### Modal terms inside nouns
+### Modal particles inside nouns
 
-We can place a tense not only before the main verb of a relation but at the end of it giving the same result:
+We can place a modal particle not only before the main relation construct of the sentence but at the end of it giving the same result:
 
 > **mi ca tcidu**
 > **mi tcidu ca**
@@ -2808,7 +2869,7 @@ Other examples:
 > **le nu mi klama le pa cmana pu cu pluka**
 > _That I went to a mountain is pleasant._
 
-When not using **nu** we don't have event relations. Nouns start with **le** and end in its verb (like a single or a compound verb). Thus we can insert tenses to a verb in nouns only before that verb:
+When not using **nu** we don't have event relations. Nouns start with **le** and end in its verb (whether it's a single or a compound verb). Thus we can put term particles before a verb in a noun only before that verb:
 
 > **le pu kunti tumla ca purdi**
 > _What was a desert is now a garden._
@@ -2817,9 +2878,17 @@ So **pu** belongs to **le kunti tumla** and **ca** belongs to **purdi** (as **le
 
 This doesn't contradict with using **be** after the verb since with **be** you change the verb: **bangu be mi** is considered one verb.
 
-Placing tense particles after nouns binds them to outer verbs:
+Having several modal particles in order is no problem:
+> **le pu ze'u kunti tumla ca purdi**
+> _What was for a long time a desert is now a garden._
+
+ze'u
+: modal term: for a long time
+
+Placing term particles after nouns binds them to outer verbs:
 
 > **le kunti tumla pu purdi**
+> **(le kunti tumla) pu purdi**
 > _The desert was a garden._
 
 ### New nouns from places of the same verb
@@ -2877,7 +2946,7 @@ Thus, in Lojban we don't need a separate word for _gift_. We reuse the same verb
 
 For the ease of understanding and memorizing predicate words prefixed with **se** are put into the dictionary in entries for many verbs together with their definitions although you can figure out their meaning yourself.
 
-### Changing other places in main verbs
+### Changing other places in main relations
 
 **se** is the first particle in the series **se, te, ve, xe** (they go in alphabetical order):
 
@@ -2934,7 +3003,7 @@ le xe klama
 
 ### Free word order. Tags for places
 
-Usually we don't need all the places of a verb, so we can omit the unnecessary ones by replacing them with **zo'e**. However, we can use _place tags_ to explicitly refer to a needed place. Place tags work like modal words but deal with the place structure of verbs:
+Usually we don't need all the places of a verb, so we can omit the unnecessary ones by replacing them with **zo'e**. However, we can use _place tags_ to explicitly refer to a needed place. Place tags work like modal particles but deal with the place structure of relations:
 
 > **mi prami do** is the same as
 > **fa mi prami fe do**
@@ -2995,7 +3064,7 @@ We can use place tags inside nouns by placing them after **be**:
 
 ---
 
-Another option in placing nouns is that we can put all the nouns of one main verb in front of the verb (preserving their relative order). Because of this freedom we can say:
+Another option in placing nouns is that we can put all the nouns of one main relation in front of the relation construct (preserving their relative order). Because of this freedom we can say:
 
 > **mi do prami** which is the same as
 
@@ -3109,7 +3178,7 @@ Notice how the meaning changes. Here, we can't omit the prenex because it will c
 
 One more example:
 
-> **le nu pilno pa le bangu vau na ku banzu**
+> **le nu pilno pa le bangu kei na ku banzu**
 > _Using just one of the languages is not enough._
 
 pilno
@@ -3120,7 +3189,7 @@ banzu
 
 Compare it to:
 
-> **le nu pilno le pa bangu vau na ku banzu**
+> **le nu pilno le pa bangu kei na ku banzu**
 > _Using the language (the one in question) is not enough._
 
 More examples:
@@ -3289,7 +3358,7 @@ ponse
 
 ### Scope
 
-The order of terms starting with numbers and modal terms matters and is to be read left to right:
+The order of terms starting with numbers, modal terms and modal particles of relation constructs matters and is to be read left to right:
 
 > **ci le pendo cu tavla re le verba**
 > _There are three friends, each talking to two children._
@@ -3298,14 +3367,14 @@ The overall number of children here maybe as high as 6.
 
 By using **zo'u** we can make our sentence more clear:
 
-> **ci da poi me le pendo vau re de poi me le verba zo'u da tavla de**
+> **ci da poi me le pendo ku'o re de poi me le verba zo'u da tavla de**
 > _For three **da** which are among the friends, for two **de** which are among the children: **da** talks to **de**._
 
 Here we see that each of the friends is said to talk to two children, and it might be different children each time; up to six children in total.
 
 How then are we to express the other interpretation, in which just two children are involved? We cannot just reverse the order of variables in the prenex to
 
-> **re de poi me le verba vau ci da poi me le pendo zo'u da tavla de**
+> **re de poi me le verba ku'o ci da poi me le pendo zo'u da tavla de**
 > _For two **de** which are among the children, for three **da** which are among the friends, **da** talks to **de**_
 
 for although we have now limited the number of children to exactly two, we end up with an indeterminate number of friends, from three to six. The distinction is called a “scope distinction”: in the first example **ci da poi me le pendo** is said to have wider scope than **re de poi me le verba**, and therefore precedes it in the prenex. In the second example the reverse is true.
@@ -3318,7 +3387,7 @@ To make to scope equal we use a special conjunction **ce'e** connecting two noun
 
 which picks out two groups, one of three friends and the other of two children, and says that each of the friends talks to each of the children.
 
-The order matters with modal terms too:
+The order matters with modal particles modifying main relation constructs too:
 
 > **mi speni**
 > _I am married, I have a wife or a husband._
@@ -3346,7 +3415,7 @@ Now compare:
 > _I get widowed._
 > `I become finishing being married.`
 
-If there are several modal terms in one relation, the rule is that we read them from left to right, thinking it as a so called _imaginary journey_. We begin at an implied point in time and space (the speaker's "now and here" if no noun follows), and then follow the modal terms one after another from left to right.
+If there are several modal particles in one sentence, the rule is that we read them from left to right together, thinking it as a so called _imaginary journey_. We begin at an implied point in time and space (the speaker's "now and here" if no noun follows), and then follow the modals one after another from left to right.
 
 Let's take **mi mo'u co'a speni**.
 
@@ -3370,7 +3439,7 @@ Another example:
 > **mi ta'e co'a citka**
 > _I habitually start to eat._
 
-Examples with tenses:
+Examples with simple tenses:
 
 > **mi pu ba klama le cmana**
 > _It happened before I went to the mountain._
@@ -3380,7 +3449,7 @@ Examples with tenses:
 > _It will happen after I went to the mountain._
 > `I in future: in past: go to the mountain.`
 
-The rule of reading terms from the left to the right can be overriden by connecting terms with the conjunction **ce'e**:
+The rule of reading terms from the left to the right can be overriden by connecting modal particles with the conjunction **ce'e**:
 
 > **mi ba ce'e pu klama le cmana**
 > _I went and will go to the mountain._
@@ -3389,9 +3458,9 @@ The rule of reading terms from the left to the right can be overriden by connect
 > **mi cadzu ba le nu mi citka ce'e pu le nu mi sipna**
 > _I walk after I eat and before I sleep._
 
-### Modal terms + «**da**» + nouns that start with numbers
+### Modal particles + «**da**» + nouns that start with numbers
 
-Like with terms the position of **da** matters:
+Like with modal terms the position of **da** matters:
 
 > **mi ponse da**
 > _There is something I own._
@@ -3411,7 +3480,7 @@ This might look like a mind-breaking example. Here, a person was able to say _I 
 
 Another example:
 
-> **ro da vi cizra**
+> **ro da vi cu cizra**
 > _Everything is strange here._
 > `Every thing here strange`
 
@@ -3456,7 +3525,7 @@ I might not have any bananas or apples at hand. I'm simply talking about bananas
 
 To make a noun describing the set of object or events (from which we derive such typical element) we use the word **le'i**:
 
-> **le danlu pendo pe mi cu mupli le ka ca da co'a morsi vau le'i mabru**
+> **le danlu pendo pe mi cu mupli le ka ca da co'a morsi kei le'i mabru**
 > _My pet is an example that at one point mammals die._
 
 danlu
@@ -3812,7 +3881,7 @@ xabju
 se xabju
 : … (some place) is inhabited by … (someone)
 
-**mo** is like **ma**, but questions the main verb, not a noun — it's like English _What does X do?_ or _What is X?_ (remember, Lojban doesn't force you to distinguish between being and doing!)
+**mo** is like **ma**, but questions the main relation, not a noun — it's like English _What does X do?_ or _What is X?_ (remember, Lojban doesn't force you to distinguish between being and doing!)
 
 We can see **mo** as asking someone to describe the relationship between the nouns in the question.
 
@@ -4354,7 +4423,7 @@ Suffixes are added after the root of interjection (together with its scalar part
 
 - interjection suffix **pei** turns interjection into a question.
 
- > **— .au pei do e mi klama le zarci**
+ > **— .au pei do .e mi klama le zarci**
  > **— .au cu'i**
  > _— Do you want that you and I go to the store?_
  > _— Meh, I don't have any preferences._
@@ -4390,7 +4459,7 @@ Note that interjections don't necessarily show attitude towards the speakers the
 
 - interjection suffix **zo'o** marks the attitude as expressed not seriously:
 
- > **e'u zo'o do pinxe ti**
+ > **.e'u zo'o do pinxe ti**
  > _I suggest that you drink it (kidding)._
 
  **zo'o** is used just like the smiley-face in e-mail, to indicate that you're being humorous when saying something, and it's used for much the same reason. Although, simleys can be ambiguous, and **zo'o** has only one meaning, which is handy.
@@ -4402,7 +4471,7 @@ Note that interjections don't necessarily show attitude towards the speakers the
 
 - **zo'o nai** is used to show that the information is not a joke:
 
-  > **zo'o nai ra pu klama la paris**
+  > **zo'o nai ra pu klama la .paris.**
   > _— I'm serious, he went to Paris._
 
 - Suffixes can be used on its own:
@@ -4857,7 +4926,7 @@ They may help you get used to colloquial Lojban faster.
  va'o le nu
  : provided that …
 
- > **va'o le nu do djica vau mi ka'e ciksi**
+ > **va'o le nu do djica kei mi ka'e ciksi**
  > _If you want I can explain._
  >
 -
@@ -5936,7 +6005,7 @@ zarci
 
 ### How do modal terms refer to the relation?
 
-- Some modal terms like those that describe tense connect the current relation with the one in the noun after them:
+- Some modal terms like those that describe time (tense) connect the current relation with the one in the noun after them:
 
 > **mi cadzu ca le nu le cipni cu vofli**
 > _I walk when the birds fly._
@@ -6026,7 +6095,7 @@ This example is similar to
 > **mi zmadu do le ka melbi**
 > _I exceed you in prettiness._
 
-In other words, the main verb **melbi** is similar to the third place of **zmadu**, which specifies the comparison criteria. Two more examples:
+In other words, the main relation **melbi** is similar to the third place of **zmadu**, which specifies the comparison criteria. Two more examples:
 
 > **mi prami do ne se mau la .doris.**
 > _I love you more than Doris._
@@ -6124,7 +6193,7 @@ The concept of _not only_ is similarly expressed:
 
 <!-- A more precise one:
 
-> **mi se steci le ka nelci le'e badna vau le'i pendo be mi**
+> **mi se steci le ka nelci le'e badna kei le'i pendo be mi**
 > _I'm the only one who likes bananas among my friends._ (by the way, implying that you are a friend to yourself)
 
 se steci
@@ -6132,7 +6201,7 @@ se steci
 
 <!-- Note that this example implies that you are a friend to yourself :) Otherwise, please, use an even more precise statement:
 
-> **mi se steci le ka nelci le'e badna vau le'i me mi .e le pendo be mi**
+> **mi se steci le ka nelci le'e badna kei le'i me mi .e le pendo be mi**
 > _I'm the only one who likes bananas among the set of me and my friends._ -->
 
 <!-- Negating this we get:
@@ -6267,7 +6336,7 @@ zarci
 > **mi pu re roi klama le zarci**
 > _I went to the market twice._
 
-Without **pu** the construct **re roi** may mean that once I went to the market but the second time I will be there only in the future. These tense particles can be used with a noun after them:
+Without **pu** the construct **re roi** may mean that once I went to the market but the second time I will be there only in the future. These time-related particles can be used with a noun after them:
 
 > **mi klama ti pa roi le jeftu**
 > _I come here once a week._
@@ -6282,7 +6351,7 @@ Without **pu** the construct **re roi** may mean that once I went to the market 
 - **za'u re'u** = _again_
 - **ro re'u** = _for the last time_
 
-The tense particle **re'u** works like **roi** but tells for which time this event happens.
+The time-related particle **re'u** works like **roi** but tells the number of the iteration for which this event happens.
 
 Compare:
 
@@ -6325,9 +6394,9 @@ za'u re'u
 re re'u
 : for the second time (same here, no context is needed, and even the exact number of times is given)
 
-### Terms: their location within a relation
+### Modal particles: their location within a relation
 
-> **le nu tcidu vau ca cu nandu**
+> **le nu tcidu kei ca cu nandu**
 > _Reading is now difficult._
 
 <!-- -->
@@ -6342,14 +6411,14 @@ Bare terms without arguments after them can be moved around the sentence by addi
 > **ca le nu tcidu cu nandu**
 > _When reading it's difficult._
 
-Here are several places where modal terms can go.
+Here are several places where modal particles can go.
 
 - modal term modifies the relation to the right of it:
   
  > **ca ku mi citka**
  > _Now I eat._
 
- — the term labelled with a word **ku** as being completed.
+ — the term is labelled with a word **ku** as being completed.
 
  > **ca le cabdei mi citka**
 
@@ -6361,7 +6430,7 @@ Here are several places where modal terms can go.
 
  > _I now eat._
 
- — tense particle before the main verb and without a noun.
+ — modal particle before the main relation construct and without a noun.
 
 - Modal term is applied to the whole relation:
 
@@ -6460,12 +6529,12 @@ zo'u
 
 The two pronouns **da** and **de** tell us that there are two things which stand in the relationship that one sees the other. It might be the case that the supposed two things are really just a single thing that loves itself: nothing in the sentence rules out that interpretation, which is why the colloquial translation does not say _Somebody sees somebody else._ The things referred to by different pronouns of **da** series may be different or the same.
 
-It is perfectly okay for these pronouns to appear more than once in the main relation:
+It is perfectly okay for these pronouns to appear more than once in the same sentence:
 
 > **da zo'u da prami da**
 > _There is **da** such that **da** loves **da**.There is someone who loves himself/herself._
 
-It is not necessary for a pronoun to be the direct noun of the the main verb:
+It is not necessary for a pronoun to be the direct noun of the relation:
 
 > **da zo'u le gerku pe da cu viska mi**
 > _There is **da** such that the dog of them sees me. Somebody's dog sees me._
@@ -6493,12 +6562,12 @@ Translating as **da**:
 
 - _some_ when using commands, request, suggestions:
 
- > **e'u mi'o pilno su'o da poi drata**
+ > **.e'u mi'o pilno su'o da poi drata**
  >_Let's try other things._
 
  <!-- -->
 
- > **e'u mi'o troci bu'u su'o da poi drata**
+ > **.e'u mi'o troci bu'u su'o da poi drata**
  >_Let's try somewhere else._
 
 - _any_ can be used in inner relations:
@@ -6508,7 +6577,7 @@ Translating as **da**:
 
  like in relations inside modal terms:
 
- > **ba le nu do zgana da vau ko klama**
+ > **ba le nu do zgana da kei ko klama**
  >_After you notice anything, come!_
 
 - Scope: _any_ is used in English when negating while Lojban uses **na ku** but then still **da**:
@@ -6545,14 +6614,14 @@ Translating as **da**:
 
 - _anyone_, _somewhere_:
 
- > **e'u mi'o troci bu'u su'o da poi drata**
+ > **.e'u mi'o troci bu'u su'o da poi drata**
  >_Let's try somewhere else._
 
  Here, **su'o da poi drata** actually means _any other thing or things, place or places_. The number of such places is not specified although any such place might fit.
 
  What if we want to say _any place but only one place_?
 
- > **e'u mi'o troci bu'u pa da poi drata**
+ > **.e'u mi'o troci bu'u pa da poi drata**
  >_Let's try at another place._
 
 Translating _any_ as **le'e** in generic statements:
@@ -6575,7 +6644,7 @@ Using **le**. We use **le** when we describe specific objects, places, events:
 Scope is created only by:
 
 - borders of relation,
-- term modals,
+- modals terms and modal particles of main relation construct,
 - nouns starting with numbers (like **pa le prenu** — _one of the persons_),
 <!-- - discursive interjections **po'o**, **ji'a**. -->
 
@@ -6629,14 +6698,16 @@ Lojban tenses treat time and space the same. Saying that _I worked a long time a
 
 ### Points in time and place
 
-Modal term without a noun after it describes the event as relative to _here_ and _now_:
+Modal particle without a noun after it describes the event as relative to _here_ and _now_:
 
 > **mi pinxe ba**
+> **mi ba pinxe**
 > _I will drink._
 
 <!-- -->
 
 > **mi pinxe bu'u**
+> **mi bu'u pinxe**
 > _I drink at this place._
 
 Modal term with a noun after it describes the event as relative to the event in that noun:
@@ -6677,17 +6748,17 @@ Here is an example in English style:
 
 <!-- To say such phrases as `in three days` or `two years ago` we basically put time intervals in sequence without overlapping. Hence a new verb:
 
-> **le cabna cu dzoli le nu mi penmi do vau li ci le ka prulamdei**
+> **le cabna cu dzoli le nu mi penmi do kei li ci le ka prulamdei**
 > _I will meet you in three days (as measured from now)._
 
-> **dzoli le nu mi penmi do vau li ci le ka prulamdei**
-> **dzoli le nu mi penmi do vau li ci le ka prulamdei**
-> **prulamdeidzo le nu mi penmi do vau li ci**
+> **dzoli le nu mi penmi do kei li ci le ka prulamdei**
+> **dzoli le nu mi penmi do kei li ci le ka prulamdei**
+> **prulamdeidzo le nu mi penmi do kei li ci**
 > **mi penmi do fi'o prulamdeidzo be fi li ci**
 > _I will meet you in three days._
 
-> **le cabna cu dzoli le nu mi zvati le stuzi vau li re le ka bavlamdeidzo**
-> **le nu mi zvati le stuzi vau le cabna cu dzoli li re le ka prulamdeidzo**
+> **le cabna cu dzoli le nu mi zvati le stuzi kei li re le ka bavlamdeidzo**
+> **le nu mi zvati le stuzi kei le cabna cu dzoli li re le ka prulamdeidzo**
 > _I visited that place two years ago._ -->
 
 ### Distance in time and space
@@ -7067,7 +7138,7 @@ le stizu
 <td><i>Where is Alice?</i>
 </td></tr>
 <tr>
-<td style="text-align:right;"><b>la .alis. ca na ku zvati le bu'u tcadu<br/>.i mi pu mrilu le srana be le cukta fi la .alis.<br/>.i ri ca ca'o vofli la .paris.<br/>.i ku'i mi pu zi te benji le se mrilu be la .alis.<br/>.i ri curmi le nu mi'a pilno le cukta<br/>.i e'o do bevri ri mi</b>
+<td style="text-align:right;"><b>la .alis. ca na ku zvati le bu'u tcadu<br/>.i mi pu mrilu le srana be le cukta fi la .alis.<br/>.i ri ca ca'o vofli la .paris.<br/>.i ku'i mi pu zi te benji le se mrilu be la .alis.<br/>.i ri curmi le nu mi'a pilno le cukta<br/>.i .e'o do bevri ri mi</b>
 </td>
 <td> Alice is now not in the city.<br/>I mailed about the book to her.<br/>Alice is now flying to Paris.<br/>But I just received a mail from her.<br/>She allows us to use the book.<br/>Please, bring it to me.
 </td></tr>
@@ -7077,7 +7148,7 @@ le stizu
 <td>Where can I get the book?
 </td></tr>
 <tr>
-<td style="text-align:right;"><b>le purdi .i e'o do klama le bartu</b>
+<td style="text-align:right;"><b>le purdi .i .e'o do klama le bartu</b>
 </td>
 <td>In the garden. Please, go outside.
 </td></tr>
@@ -7532,12 +7603,12 @@ When there are no embedded relations those two words mean the same:
 
 **lo nei** can give funny results when applied to mutual actions:
 
->**la alis e la kevin cu cinba lo nei**
+>**la .alis. e la .kevin. cu cinba lo nei**
 >_Alice kisses herself, and Kevin kisses himself._
 
 Here is the solution:
 
->**la alis jo'u la kevin cu cinba zu'ai**
+>**la .alis. jo'u la .kevin. cu cinba zu'ai**
 >_Alice and Kevin kiss each other_
 
 It means the same as:
@@ -8147,7 +8218,7 @@ fengu
 
 ### ‘_If … then_’
 
-> **fau le nu do cizra vau mi ba prami do**
+> **ba ku fau le nu do cizra kei mi prami do**
 > _If you are strange then I'll love you._
 
 fau
@@ -8280,7 +8351,7 @@ pacna
 
 <!-- -->
 
-> **mi kanpe le nu do ba jinga vau li so'e**
+> **mi kanpe le nu do ba jinga kei li so'e**
 > _You'll probably win._
 > `I expect with a high probability that you will win.`
 
@@ -8390,7 +8461,7 @@ curmi
 tolcru
 : x1 forbids/prohibits x2 (possible event)
 
-> **xu do stidi le ka sipna vau mi**
+> **xu do stidi le ka sipna kei mi**
 > _Do you suggest that I sleep?_
 
 stidi
@@ -8605,7 +8676,7 @@ uantida
 
 With **gi'e** we keep the head of the relation constant, and specify nouns after each of the verb (**kelci la .soker.**, **klama le zdani** …)
 
-Thus when using **gi'e** we have several main verbs in the tail, which means that it's actually several relations (with a common head) joined together.
+Thus when using **gi'e** we have several relations in the tail joined together but having a common head.
 
 **gi'e** has the same final vowel as in **je** and thus means _and_.
 
@@ -8699,7 +8770,7 @@ Consider the waiter asks a visitor
 
 Once the visitor answers, the waiter knows whether the visitor wants to eat lamb or beef:
 
-> **ba le nu le vitke cu spusku vau le bevri cu djuno le du'u le vitke cu djica le nu ri citka le'e dembi ji kau le'e rismi**
+> **ba le nu le vitke cu spusku kei le bevri cu djuno le du'u le vitke cu djica le nu ri citka le'e dembi ji kau le'e rismi**
 > _After the visitor replies, the waiter knows whether the visitor wants to eat the beans or the rice._
 
 ### Forethought conjunctions
@@ -8832,7 +8903,7 @@ It is normal to use in speech only **.i** to separate sentence but you might wan
   <td>A newbie visited the master far high in the mountains.</td>
  </tr>
  <tr>
-  <td>.i sei le nintadni cu cusku doi le ctuca noi certu tavla fo la .lojban. vau do skicu e'o fi mi fe le nu fi ma kau fa la .lojban. cu frica le'e drata bangu</td>
+  <td>.i sei le nintadni cu cusku doi le ctuca noi certu tavla fo la .lojban. ku'o do skicu .e'o fi mi fe le nu fi ma kau fa la .lojban. cu frica le'e drata bangu</td>
   <td>The newbie said: "Master, you speak fluent Lojban. Please, tell me what is the difference between Lojban and other languages."</td>
  </tr>
  <tr>

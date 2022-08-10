@@ -5,7 +5,6 @@ const { JSDOM } = jsdom;
 const { document } = new JSDOM(`<body></body>`).window;
 import { fromDom } from "hast-util-from-dom";
 
-// const include = require('./remark-include/index.js')
 const unified = require("unified");
 import parse from "remark-parse";
 import remark2rehype from "remark-rehype";
@@ -26,14 +25,11 @@ import { transform } from "./rehype-transform-all";
 
 export default async function markdownToHtml(markdown: string) {
   const result = await unified()
-    // .use(include, { cwd: process.env.md_content })
     .use(html)
     .use(parse)
     .use(gfm)
     .use(slug)
-    // .use(directive)
     .use(deflist)
-    // .use(htmlDirectives)
     .use(remark2rehype, { allowDangerousHtml: true }) // 4sec
     .use(raw)
     .use(format)
