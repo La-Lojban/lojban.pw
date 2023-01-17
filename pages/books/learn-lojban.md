@@ -13,7 +13,7 @@ How to use this course:
 
 1. read it
 2. collect your feedback and suggestions
-3. send them to [the live chat](/articles/live_chat)
+3. send them to [the live chat](https://lojban.pw/articles/live_chat/)
 
 ## Lesson 1. The language at a glance
 
@@ -32,7 +32,7 @@ There are 10 vowels in Lojban:
 <table>
 <tbody><tr>
 <td><b class="audio-inline"><font color="#FF1493" class="guibutton">a</font></b></td>
-<td> as in <i>b<u>a</u>th</i> (not as in <i>face</i>)</td>
+<td> as in <i>f<u>a</u>ther</i> (not as in <i>face</i>)</td>
 </tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton"color="#FF1493">e</font></b></td>
@@ -137,6 +137,8 @@ The basic unit in Lojban is called **bridi** meaning "sentence", "relation". Her
 le prenu
 : the person
 
+<pixra url="/assets/pixra/cilre/tavla.jpg" caption="tavla" definition="... talks to ..."></pixra>
+
 tavla
 : … talks to …, … speaks to …
 
@@ -158,29 +160,9 @@ do
 ca
 : now
 
-<figure>
- <img src="https://mw.lojban.org/images/thumb/7/77/xractu-mi-cropped.png/96px-xractu-mi-cropped.png" alt="mi">
- <figcaption>
- <b>mi</b><br/>
- <i>I</i>
- </figcaption>
-</figure>
-
-<figure>
- <img src="https://mw-live.lojban.org/images/thumb/0/09/Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg/320px-Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg" alt="tavla">
- <figcaption>
- <b>tavla</b><br/>
- <i>to talk</i>
- </figcaption>
-</figure>
-
-<figure>
- <img src="https://mw.lojban.org/images/thumb/f/f2/xractu-do-cropped.png/96px-xractu-do-cropped.png" alt="do">
- <figcaption>
- <b>do</b><br/>
- <i>you</i>
- </figcaption>
-</figure>
+<pixra url="https://mw.lojban.org/images/thumb/7/77/xractu-mi-cropped.png/96px-xractu-mi-cropped.png" caption="mi" definition="I"/>
+<pixra url="https://mw-live.lojban.org/images/thumb/0/09/Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg/320px-Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg" caption="tavla" definition="... talks to ..."/>
+<pixra url="https://mw.lojban.org/images/thumb/f/f2/xractu-do-cropped.png/96px-xractu-do-cropped.png" caption="do" definition="you"/>
 
 Each sentence in Lojban consists of the following parts from the left to the right:
 
@@ -277,6 +259,8 @@ fonxa
 le fonxa
 : the phone, the phones
 
+<pixra url="/assets/pixra/cilre/citka3.jpg" caption="citka" definition="... eats ... (something)"/>
+
 > **mi citka**
 > _I eat._
 
@@ -302,6 +286,8 @@ Here, **le plise** means _the apples_, **kukte** means _is tasty / are tasty_.
 
 A simpler sentence in Lojban would contain only one main relation word:
 
+<pixra url="/assets/pixra/cilre/karce.jpg" caption="karce" definition="... is a car"/>
+
 > **karce**
 > _Car!_
 
@@ -311,13 +297,7 @@ You could say this when you see a car coming. Here the context would be clear en
 
 We can of course be more precise and say, for example:
 
-<figure>
- <img src="https://mw.lojban.org/images/thumb/5/5a/xractu-ti-cropped.png/96px-xractu-ti-cropped.png" alt="ti">
- <figcaption>
- <b>ti</b><br/>
- <i>this one (near me, the speaker)</i>
- </figcaption>
-</figure>
+<pixra url="https://mw.lojban.org/images/thumb/5/5a/xractu-ti-cropped.png/96px-xractu-ti-cropped.png" caption="ti" definition="this one (near me, the speaker)"/>
 
 > **ti karce**
 > _This is a car._
@@ -331,8 +311,10 @@ Similarly, you can say
 
 where
 
+<pixra url="/assets/pixra/cilre/carvi.jpg" caption="carvi" definition="... is a rain"/>
+
 carvi
-: … is rain, … is raining
+: … is a rain, … is raining
 
 or
 
@@ -589,6 +571,8 @@ melbi
 zdani
 : … is a home or nest to … (someone)
 
+<pixra url="/assets/pixra/cilre/dansu.jpg" caption="dansu" definition="... dances"/>
+
 > **do melbi dansu**
 > _You nicely dance._
 
@@ -727,6 +711,8 @@ We turn any assertion into a _yes/no_ question by simply putting the word **xu**
 > **xu do nelci le gerku**
 > _Do you like the dogs?_
 
+<pixra url="/assets/pixra/cilre/gerku.jpg" caption="le gerku" definition="the dog / the dogs"/>
+
 le gerku
 : the dog, the dogs
 
@@ -802,7 +788,7 @@ To answer 'no' we use the modal term **na ku**:
 > _— Not pretty._
 
 na ku
-: term: it is false that ...
+: term: it is false that …
 
 Or we can use a special verb **go'i** that simply refers to the main relation of the previous sentence:
 
@@ -1215,8 +1201,10 @@ Any relation can be turned into a verb by putting **nu** in front of it:
 > _The night is when I see the Moon._
 > `Night is the event when I see the Moon.`
 
+<pixra url="/assets/pixra/cilre/nicte.jpg" caption="nicte" definition="... is nighttime"/>
+
 nicte
-: (some event) is a nighttime
+: (some event) is nighttime
 
 le nicte
 : the nighttime, nighttimes
@@ -1459,6 +1447,18 @@ If you wish to put a modal term before a noun you can separate it from the follo
 > _The night will be pleasant._
 
 **ku** prevents **ba le nicte** from appearing thus retaining **ba ku** and **le nicte** as separate terms.
+
+
+One last note: English definitions of Lojban words may use tenses even when the original Lojban words do not imply them, e.g.:
+
+tavla
+: … talks to …, … speaks to …
+
+pluka
+: … is pleasant
+
+Although _talks_, _is_ etc. are in present tense (we can't always get rid of tense in English words because that's how English works) we must always assume that tense is not implied in the meaning of the defined Lojban words unless the English definition explicitly mentions such tense restrictions.
+
 
 ### Modal terms. Event contours: «**co'a**», «**ca'o**», «**co'i**»
 
@@ -1884,21 +1884,8 @@ Here are a few examples of Lojbanic names:in
 
 ### ‘_he_’ ‘_she_’
 
-<figure>
- <img src="https://mw.lojban.org/images/thumb/5/56/Miss_Rep_Dominicana_07_Ada_Aimee.jpg/96px-Miss_Rep_Dominicana_07_Ada_Aimee.jpg" alt="le ninmu">
- <figcaption>
- <b>le ninmu</b><br/>
- <i>the woman (female human)</i>
- </figcaption>
-</figure>
-
-<figure>
- <img src="https://mw.lojban.org/images/thumb/3/3b/Jens_Fink-Jensen.jpg/96px-Jens_Fink-Jensen.jpg" alt="le nanmu">
- <figcaption>
- <b>le nanmu</b><br/>
- <i>the man (male human)</i>
- </figcaption>
-</figure>
+<pixra url="https://mw.lojban.org/images/thumb/5/56/Miss_Rep_Dominicana_07_Ada_Aimee.jpg/96px-Miss_Rep_Dominicana_07_Ada_Aimee.jpg" caption="le ninmu" definition="the woman (female human)"/>
+<pixra url="https://mw.lojban.org/images/thumb/3/3b/Jens_Fink-Jensen.jpg/96px-Jens_Fink-Jensen.jpg" caption="le nanmu" definition="the man (male human)"/>
 
 Lojban doesn't really have words for _he_ or _she_. Possible solutions:
 
@@ -1977,37 +1964,10 @@ co'o
 
 Since vocatives work like interjections we have nice types of greetings:
 
-<figure>
- <img src="https://mw.lojban.org/images/thumb/5/57/Alishan_sunrise.JPG/96px-Alishan_sunrise.JPG" alt="cerni">
- <figcaption>
- <b>cerni</b><br/>
- <i>… is morning</i>
- </figcaption>
-</figure>
-
-<figure>
- <img src="https://mw.lojban.org/images/thumb/1/19/Fanabe_beach_Day_6_Sunset_2_%28400636804%29.jpg/96px-Fanabe_beach_Day_6_Sunset_2_%28400636804%29.jpg" alt="vanci">
- <figcaption>
- <b>vanci</b><br/>
- <i>… is evening</i>
- </figcaption>
-</figure>
-
-<figure>
- <img src="https://mw.lojban.org/images/thumb/0/01/The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg/96px-The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg" alt="donri">
- <figcaption>
- <b>donri</b><br/>
- <i>… is daylight time</i>
- </figcaption>
-</figure>
-
-<figure>
- <img src="https://mw.lojban.org/images/thumb/d/de/Stormy_night_skies_in_Glacier_%284455539994%29.jpg/96px-Stormy_night_skies_in_Glacier_%284455539994%29.jpg" alt="nicte">
- <figcaption>
- <b>nicte</b><br/>
- <i>… is night</i>
- </figcaption>
-</figure>
+<pixra url="https://mw.lojban.org/images/thumb/5/57/Alishan_sunrise.JPG/96px-Alishan_sunrise.JPG" caption="cerni" definition="... is morning"/>
+<pixra url="/assets/pixra/cilre/vanci.jpg" caption="vanci" definition="... is evening"/>
+<pixra url="https://mw.lojban.org/images/thumb/0/01/The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg/96px-The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg" caption="donri" definition="... is daylight time"/>
+<pixra url="/assets/pixra/cilre/nicte.jpg" caption="nicte" definition="... is nighttime"/>
 
 <div class="common"></div>
 
@@ -2209,6 +2169,8 @@ the second place of **klama** is still omitted. For example:
 > **mi klama fa'a le cmana le zdani**
 > _I come (in the direction of the mountain) to the home._
 
+<pixra url="/assets/pixra/cilre/cmana.jpg" caption="cmana" definition="... is a mountain"/>
+
 le cmana
 : the mountain
 
@@ -2322,16 +2284,16 @@ In each of those examples the _to_ has a new role that is at best remotely simil
 
 Needless to say that other languages use other ways of marking roles of verbs that in many cases are very different from those used in English.
 
-Lojban marks core roles of relations by fully defining such relations with the roles placed in sequence (or marked with **fa**, **fe**, ...):
+Lojban marks core roles of relations by fully defining such relations with the roles placed in sequence (or marked with **fa**, **fe**, …):
 
 klama
-: x1 comes to x2 ...
+: x1 comes to x2 …
 
 tavla
-: x1 talks to x2 ...
+: x1 talks to x2 …
 
 melbi
-: x1 is beautiful, pretty to x2 ...
+: x1 is beautiful, pretty to x2 …
 
 Such core roles are essential in defining relations.
 
@@ -2430,29 +2392,9 @@ because you want to do something, you want some event happening with the apple, 
 
 ### Places for nouns
 
-<figure>
- <img src="https://mw.lojban.org/images/thumb/b/b9/Alex_friends.JPG/96px-Alex_friends.JPG" alt="le pendo">
- <figcaption>
- <b>le pendo</b><br/>
- <i>the friend / the friends</i>
- </figcaption>
-</figure>
-
-<figure>
- <img src="https://mw.lojban.org/images/thumb/8/8a/Ezhednevnik.jpg/96px-Ezhednevnik.jpg" alt="le cukta">
- <figcaption>
- <b>le cukta</b><br/>
- <i>the book, the books</i>
- </figcaption>
-</figure>
-
-<figure>
- <img src="https://mw.lojban.org/images/thumb/f/fe/Fetch_volumes_ok_2.jpg/96px-Fetch_volumes_ok_2.jpg" alt="mi posydu'a pa cukta">
- <figcaption>
- <b>mi posydu'a le cukta</b><br/>
- <i>I give the book</i>
- </figcaption>
-</figure>
+<pixra url="https://mw.lojban.org/images/thumb/b/b9/Alex_friends.JPG/96px-Alex_friends.JPG" caption="le pendo" definition="the friend / the friends"/>
+<pixra url="https://mw.lojban.org/images/thumb/8/8a/Ezhednevnik.jpg/96px-Ezhednevnik.jpg" caption="le cukta" definition="the book / the books"/>
+<pixra url="https://mw.lojban.org/images/thumb/f/fe/Fetch_volumes_ok_2.jpg/96px-Fetch_volumes_ok_2.jpg" caption="mi posydu'a pa cukta" definition="I give the book"/>
 
 How do we say _You are my friend_ ?
 
@@ -3547,13 +3489,7 @@ Dictionaries specify when places of verbs have to be filled with sets.
 
 ### Masses
 
-<figure>
- <img src="https://mw.lojban.org/images/thumb/f/ff/2935770197_f39591ed59_o.jpg/96px-2935770197_f39591ed59_o.jpg" alt="lei prenu cu sruri le jubme">
- <figcaption>
- <b>lei prenu cu sruri le jubme</b><br/>
- <i>The people surrounded the table.</i>
- </figcaption>
-</figure>
+<pixra url="/assets/pixra/cilre/sruri.jpeg" caption="lei prenu cu sruri le jubme" definition="The people surrounded the table."/>
 
 > **lei prenu pu sruri le jubme**
 > _The people surrounded the table._
@@ -5041,10 +4977,10 @@ tavla
 > _Good. What will be the weather tomorrow?_
 
 zabna
-: ... is nice, cool
+: … is nice, cool
 
 tcima
-: ... is the weather
+: … is the weather
 
 ca
 : at (some time)
@@ -5409,7 +5345,7 @@ cidni
 
 #### Colors
 
-Different language use different sets of words to denote colors. Some languages just refer to the color by referencing other "prototype" objects with similar color (or shade, form ...) In Lojban we use all the options:
+Different language use different sets of words to denote colors. Some languages just refer to the color by referencing other "prototype" objects with similar color (or shade, form …) In Lojban we use all the options:
 
 > **ti xunre**
 > _This is red._
@@ -8275,7 +8211,7 @@ Here the event inside **fau** is equally imagined together with **mi gleki**. An
 > **da'i nai mi gleki fau le nu mi ponse le rupnusudu be li pa ki'o ki'o**
 > _Having one million dollars I am happy._
 
-In many circumstances the word **fau** can be safely replaced with just **ca** (_at the same time as ..._):
+In many circumstances the word **fau** can be safely replaced with just **ca** (_at the same time as …_):
 
 > **da'i nai mi gleki ca le nu do klama**
 > _I'm happy when you come._
@@ -8286,7 +8222,7 @@ Other prepositions can be used when necessary:
 > _I would wait while you took a swim._
 
 denpa
-: x1 waits for x2 (event)...
+: x1 waits for x2 (event)…
 
 ze'a
 : through some time, for a while, during …
@@ -8945,7 +8881,7 @@ It is normal to use in speech only **.i** to separate sentence but you might wan
 </table>
 
 dirgo
-: x1 is a drop of material x2 ...
+: x1 is a drop of material x2 …
 
 ### «**to**» … «**toi**» for parenthetical remarks
 
@@ -9460,7 +9396,7 @@ In standard approach the speaker uses a separate conjunction **e** when connecti
 
 Join the [live chat](https://lojban.pw/articles/live_chat/) for more info.
 
-## [Dictionary](https://mw.lojban.org/papri/L17-B)
+## [Dictionary](https://la-lojban.github.io/uncll/uncll-1.2.14/xhtml_section_chunks/go01.html)
 
-An addendum to this course.
+Contains phrases with examples of possible usage.
 </div>

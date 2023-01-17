@@ -30,7 +30,7 @@ RUN apk add ghostscript
 
 # Run everything after as non-privileged user.
 
-USER pptruser
+# USER pptruser
 
 RUN mkdir -p /app/src
 

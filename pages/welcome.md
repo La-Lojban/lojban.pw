@@ -29,9 +29,9 @@ Adheres to the original book published in 1997 and:
 
 Available:
 
-* [PDF](https://la-lojban.github.io/uncll/uncll-1.2.14/cll.pdf) - in a PDF file for download
-* [HTML in sections](https://la-lojban.github.io/uncll/uncll-1.2.14/xhtml_section_chunks/) - in HTML files
-<!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.14/cll.epub) - as an EPUB book -->
+* [PDF](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.pdf) - in a PDF file for download
+* [HTML in sections](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/) - in HTML files
+<!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.epub) - as an EPUB book -->
 
 [More info...](/articles/complete-lojban-language)
 

@@ -16,12 +16,10 @@ const Footer = () => {
                   key={network.name}
                 >
                   <Link href={network.link || ""}>
-                    <a>
                       <FontAwesomeIcon
                         className="w-4 mt-1"
                         icon={network.icon}
                       />
-                    </a>
                   </Link>
                 </li>
               );

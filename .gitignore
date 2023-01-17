@@ -1,3 +1,4 @@
+!archive
 src/md_pages/archive/
 package-lock.json
 yarn.lock

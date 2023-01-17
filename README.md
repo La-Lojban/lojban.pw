@@ -12,5 +12,4 @@ Edit `config/config.ts`.
 * `bash dev.sh` - run the docker container
 * run `yarn` in the docker console
 * `yarn dev` - run locally
-* `yarn export` - compile to a static folder
-* `yarn deploy` - deploy to your github pages
+* `yarn deploy` - compile to a static folder & deploy to your github pages

@@ -7,11 +7,41 @@ title: 📕 Unofficial ‘Complete Lojban Language’ book
 *   Send your feedback (noticed bugs, proposals, suggestions) to one of the following places:
     *   [Lojban Reddit group](https://www.reddit.com/r/lojban/)
     *   [Lojban Facebook group](https://www.facebook.com/groups/lojban)
-    *   Live chat: [Telegram chat](https://t.me/joinchat/BLVsYz3hCF8mCAb6fzW1Rw) or [Discord chat](https://discord.gg/BVm4EYR)
+    *   Live chat: [Telegram chat](https://t.me/lojban) or [Discord chat](https://discord.gg/BVm4EYR)
     *   to <gleki.is.my.name@gmail.com> (Gleki&nbsp;Arxokuna), the maintainer of the UnCLL.
 
 
 ## Releases
+
+### geklojban-1.2.15 October 2022
+
+#### Compiled version
+*   read the final document that is to be used for printing and publication. Notice that the title page has the document explicitly marked as "geklojban-1.2.15" and has the name of the organization published it different from the LLG; this is done to emphasize that it's not an LLG publication:
+    *   [PDF format](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.pdf)
+    *   [HTML format, one page is one section of the book](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/)
+    *   [HTML format - the whole book in one very long page](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_no_chunks/)
+* or read the so called ["difference" PDF document](https://la-lojban.github.io/uncll/uncll-1.2.15/diff_from_previous/cll_difference_prefixed.pdf) that compares geklojban-1.2.15 to the UnCLL, version 1.2.14 (published in July 2021). The document has insertions marked with green and "ins\`" prefix and deletions marked with red and "del\`" prefix. Prefixes are added so that you can use Cmd+F or Ctrl+F to quickly find the differences in the PDF document. There is [an alternative difference version without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.15/diff_from_previous/cll_difference.pdf) (but then you'll have to manually scroll the document to find the differences).
+*   or read the difference document in HTML format instead:
+    *   [with prefixes](https://la-lojban.github.io/uncll/uncll-1.2.15/diff_from_previous/difference_prefixed.html),
+    *   [without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.15/diff_from_previous/difference.html).
+
+#### Short list of changes compared to the previous version 'geklojban-1.2.14 July 2021'
+
+* fix mistypes and stylistic problems in the chrestomathy (thanks to koyshi, gleki)
+* [issue #475](https://github.com/lojban/cll/issues/475) **nunkilbra** changed to **nunkilca'a** (thanks up4kid)
+* [issue #466](https://github.com/lojban/cll/issues/466) improved tosmabru test algorithm (thanks vpbroman)
+* [issue #473](https://github.com/lojban/cll/issues/473) "matrix transpose" cmavo now uses superscript T for transposition operator
+* Helvetica font mentions are replaced with Comic font mentions ("Comic" is a name of an at least one open-source font) 
+* fixed other minor mistypes (thanks Matt Nazarian, mattfbacon, la-kanba)
+* CSS changes to make html versions work better on devices in dark mode (thanks to NathanHawks) 
+* the UnCLL now has visual difference files from the previous release and separately for the official release.
+
+[git source of the UnCLL](https://github.com/lojban/cll/compare/geklojban-master)
+
+* [Compared with version 'geklojban-1.2.12 November 2020': git difference](https://github.com/lojban/cll/compare/geklojban-1.2.12...geklojban-1.2.14)
+* [Comparison between the official CLL v.1.1 edition (2016) and the UnCLL November 2020 edition': git difference](https://github.com/lojban/cll/compare/6c0556c7b17f96b3bf41e.133ba18ef4868e056a...geklojban-1.2.12)
+* the ["difference" PDF document](https://la-lojban.github.io/uncll/uncll-1.2.15/diff_from_official/cll_difference_prefixed.pdf) that compares geklojban-1.2.15 to the official CLL v.1.1 edition (2016). The document has insertions marked with green and "ins\`" prefix and deletions marked with red and "del\`" prefix. Prefixes are added so that you can use Cmd+F or Ctrl+F to quickly find the differences in the PDF document. There is [an alternative difference version without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.15/diff_from_official/cll_difference.pdf) (but then you'll have to manually scroll the document to find the differences).
+
 
 ### geklojban-1.2.14 July 2021
 
@@ -26,8 +56,6 @@ title: 📕 Unofficial ‘Complete Lojban Language’ book
     *   [without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.14/cll_diffs/diff_new_xhtml_no_chunks/difference.html).
 
 #### Short list of changes compared to the previous version 'geklojban-1.2.11.1 October 2020'
-
-#### Source code
 
 * it's one of the major improvements. [Lojban Words Glossary](https://la-lojban.github.io/uncll/uncll-1.2.14/xhtml_section_chunks/go01.html) got around 200 new examples of sentences in Lojban with their translation to English. Since the number of core words in Lojban is around 2000 it means ~10% of this task is done
 * fixed errors in with **bo**, **ke'e** in Chapter 5. 'Scalar negation of selbri'
@@ -55,8 +83,6 @@ title: 📕 Unofficial ‘Complete Lojban Language’ book
     *   [without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.13/cll_diffs/diff_new_xhtml_no_chunks/difference.html).
 
 #### Short list of changes compared to the previous version 'geklojban-1.2.11.1 October 2020'
-
-#### Source code
 
 * add new beautiful chapter pictures by [la-ninpre](https://github.com/la-ninpre)
 * add a translation of 'In Xanadu' poem to the chrestomathy

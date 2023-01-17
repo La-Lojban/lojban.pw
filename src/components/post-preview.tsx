@@ -28,8 +28,8 @@ const PostPreview = ({
       </div> */}
       <div>
         <h2 className="text-gray-800 text-2xl text-center">
-          <Link as={`/${slug.join("/")}`} href="/[...slug]">
-            <a className="hover:underline">{title}</a>
+          <Link as={`/${slug.join("/")}`} href="/[...slug]" className="hover:underline">
+           {title}
           </Link>
         </h2>
         <div className="mt-2 text-gray-600">
