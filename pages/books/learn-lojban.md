@@ -160,9 +160,9 @@ do
 ca
 : now
 
-<pixra url="https://mw.lojban.org/images/thumb/7/77/xractu-mi-cropped.png/96px-xractu-mi-cropped.png" caption="mi" definition="I"/>
-<pixra url="https://mw-live.lojban.org/images/thumb/0/09/Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg/320px-Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg" caption="tavla" definition="... talks to ..."/>
-<pixra url="https://mw.lojban.org/images/thumb/f/f2/xractu-do-cropped.png/96px-xractu-do-cropped.png" caption="do" definition="you"/>
+<pixra url="https://mw.lojban.org/images/thumb/7/77/xractu-mi-cropped.png/96px-xractu-mi-cropped.png" caption="mi" definition="I"></pixra>
+<pixra url="https://mw-live.lojban.org/images/thumb/0/09/Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg/320px-Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg" caption="tavla" definition="... talks to ..."></pixra>
+<pixra url="https://mw.lojban.org/images/thumb/f/f2/xractu-do-cropped.png/96px-xractu-do-cropped.png" caption="do" definition="you"></pixra>
 
 Each sentence in Lojban consists of the following parts from the left to the right:
 
@@ -259,7 +259,7 @@ fonxa
 le fonxa
 : the phone, the phones
 
-<pixra url="/assets/pixra/cilre/citka3.jpg" caption="citka" definition="... eats ... (something)"/>
+<pixra url="/assets/pixra/cilre/citka3.jpg" caption="citka" definition="... eats ... (something)"></pixra>
 
 > **mi citka**
 > _I eat._
@@ -286,7 +286,7 @@ Here, **le plise** means _the apples_, **kukte** means _is tasty / are tasty_.
 
 A simpler sentence in Lojban would contain only one main relation word:
 
-<pixra url="/assets/pixra/cilre/karce.jpg" caption="karce" definition="... is a car"/>
+<pixra url="/assets/pixra/cilre/karce.jpg" caption="karce" definition="... is a car"></pixra>
 
 > **karce**
 > _Car!_
@@ -297,7 +297,7 @@ You could say this when you see a car coming. Here the context would be clear en
 
 We can of course be more precise and say, for example:
 
-<pixra url="https://mw.lojban.org/images/thumb/5/5a/xractu-ti-cropped.png/96px-xractu-ti-cropped.png" caption="ti" definition="this one (near me, the speaker)"/>
+<pixra url="https://mw.lojban.org/images/thumb/5/5a/xractu-ti-cropped.png/96px-xractu-ti-cropped.png" caption="ti" definition="this one (near me, the speaker)"></pixra>
 
 > **ti karce**
 > _This is a car._
@@ -311,7 +311,7 @@ Similarly, you can say
 
 where
 
-<pixra url="/assets/pixra/cilre/carvi.jpg" caption="carvi" definition="... is a rain"/>
+<pixra url="/assets/pixra/cilre/carvi.jpg" caption="carvi" definition="... is a rain"></pixra>
 
 carvi
 : … is a rain, … is raining
@@ -571,7 +571,7 @@ melbi
 zdani
 : … is a home or nest to … (someone)
 
-<pixra url="/assets/pixra/cilre/dansu.jpg" caption="dansu" definition="... dances"/>
+<pixra url="/assets/pixra/cilre/dansu.jpg" caption="dansu" definition="... dances"></pixra>
 
 > **do melbi dansu**
 > _You nicely dance._
@@ -711,7 +711,7 @@ We turn any assertion into a _yes/no_ question by simply putting the word **xu**
 > **xu do nelci le gerku**
 > _Do you like the dogs?_
 
-<pixra url="/assets/pixra/cilre/gerku.jpg" caption="le gerku" definition="the dog / the dogs"/>
+<pixra url="/assets/pixra/cilre/gerku.jpg" caption="le gerku" definition="the dog / the dogs"></pixra>
 
 le gerku
 : the dog, the dogs
@@ -1201,7 +1201,7 @@ Any relation can be turned into a verb by putting **nu** in front of it:
 > _The night is when I see the Moon._
 > `Night is the event when I see the Moon.`
 
-<pixra url="/assets/pixra/cilre/nicte.jpg" caption="nicte" definition="... is nighttime"/>
+<pixra url="/assets/pixra/cilre/nicte.jpg" caption="nicte" definition="... is nighttime"></pixra>
 
 nicte
 : (some event) is nighttime
@@ -1884,8 +1884,8 @@ Here are a few examples of Lojbanic names:in
 
 ### ‘_he_’ ‘_she_’
 
-<pixra url="https://mw.lojban.org/images/thumb/5/56/Miss_Rep_Dominicana_07_Ada_Aimee.jpg/96px-Miss_Rep_Dominicana_07_Ada_Aimee.jpg" caption="le ninmu" definition="the woman (female human)"/>
-<pixra url="https://mw.lojban.org/images/thumb/3/3b/Jens_Fink-Jensen.jpg/96px-Jens_Fink-Jensen.jpg" caption="le nanmu" definition="the man (male human)"/>
+<pixra url="https://mw.lojban.org/images/thumb/5/56/Miss_Rep_Dominicana_07_Ada_Aimee.jpg/96px-Miss_Rep_Dominicana_07_Ada_Aimee.jpg" caption="le ninmu" definition="the woman (female human)"></pixra>
+<pixra url="https://mw.lojban.org/images/thumb/3/3b/Jens_Fink-Jensen.jpg/96px-Jens_Fink-Jensen.jpg" caption="le nanmu" definition="the man (male human)"></pixra>
 
 Lojban doesn't really have words for _he_ or _she_. Possible solutions:
 
@@ -1964,10 +1964,10 @@ co'o
 
 Since vocatives work like interjections we have nice types of greetings:
 
-<pixra url="https://mw.lojban.org/images/thumb/5/57/Alishan_sunrise.JPG/96px-Alishan_sunrise.JPG" caption="cerni" definition="... is morning"/>
-<pixra url="/assets/pixra/cilre/vanci.jpg" caption="vanci" definition="... is evening"/>
-<pixra url="https://mw.lojban.org/images/thumb/0/01/The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg/96px-The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg" caption="donri" definition="... is daylight time"/>
-<pixra url="/assets/pixra/cilre/nicte.jpg" caption="nicte" definition="... is nighttime"/>
+<pixra url="https://mw.lojban.org/images/thumb/5/57/Alishan_sunrise.JPG/96px-Alishan_sunrise.JPG" caption="cerni" definition="... is morning"></pixra>
+<pixra url="/assets/pixra/cilre/vanci.jpg" caption="vanci" definition="... is evening"></pixra>
+<pixra url="https://mw.lojban.org/images/thumb/0/01/The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg/96px-The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg" caption="donri" definition="... is daylight time"></pixra>
+<pixra url="/assets/pixra/cilre/nicte.jpg" caption="nicte" definition="... is nighttime"></pixra>
 
 <div class="common"></div>
 
@@ -2169,7 +2169,7 @@ the second place of **klama** is still omitted. For example:
 > **mi klama fa'a le cmana le zdani**
 > _I come (in the direction of the mountain) to the home._
 
-<pixra url="/assets/pixra/cilre/cmana.jpg" caption="cmana" definition="... is a mountain"/>
+<pixra url="/assets/pixra/cilre/cmana.jpg" caption="cmana" definition="... is a mountain"></pixra>
 
 le cmana
 : the mountain
@@ -2392,9 +2392,9 @@ because you want to do something, you want some event happening with the apple, 
 
 ### Places for nouns
 
-<pixra url="https://mw.lojban.org/images/thumb/b/b9/Alex_friends.JPG/96px-Alex_friends.JPG" caption="le pendo" definition="the friend / the friends"/>
-<pixra url="https://mw.lojban.org/images/thumb/8/8a/Ezhednevnik.jpg/96px-Ezhednevnik.jpg" caption="le cukta" definition="the book / the books"/>
-<pixra url="https://mw.lojban.org/images/thumb/f/fe/Fetch_volumes_ok_2.jpg/96px-Fetch_volumes_ok_2.jpg" caption="mi posydu'a pa cukta" definition="I give the book"/>
+<pixra url="https://mw.lojban.org/images/thumb/b/b9/Alex_friends.JPG/96px-Alex_friends.JPG" caption="le pendo" definition="the friend / the friends"></pixra>
+<pixra url="https://mw.lojban.org/images/thumb/8/8a/Ezhednevnik.jpg/96px-Ezhednevnik.jpg" caption="le cukta" definition="the book / the books"></pixra>
+<pixra url="https://mw.lojban.org/images/thumb/f/fe/Fetch_volumes_ok_2.jpg/96px-Fetch_volumes_ok_2.jpg" caption="mi posydu'a pa cukta" definition="I give the book"></pixra>
 
 How do we say _You are my friend_ ?
 
@@ -3489,7 +3489,7 @@ Dictionaries specify when places of verbs have to be filled with sets.
 
 ### Masses
 
-<pixra url="/assets/pixra/cilre/sruri.jpeg" caption="lei prenu cu sruri le jubme" definition="The people surrounded the table."/>
+<pixra url="/assets/pixra/cilre/sruri.jpeg" caption="lei prenu cu sruri le jubme" definition="The people surrounded the table."></pixra>
 
 > **lei prenu pu sruri le jubme**
 > _The people surrounded the table._
