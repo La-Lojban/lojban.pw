@@ -137,7 +137,7 @@ The basic unit in Lojban is called **bridi** meaning "sentence", "relation". Her
 le prenu
 : the person
 
-<pixra url="/assets/pixra/cilre/tavla.jpg" caption="tavla" definition="... talks to ..."></pixra>
+<pixra url="/assets/pixra/cilre/tavla.jpg" caption="tavla" definition="… talks to …"></pixra>
 
 tavla
 : … talks to …, … speaks to …
@@ -161,7 +161,7 @@ ca
 : now
 
 <pixra url="https://mw.lojban.org/images/thumb/7/77/xractu-mi-cropped.png/96px-xractu-mi-cropped.png" caption="mi" definition="I"></pixra>
-<pixra url="https://mw-live.lojban.org/images/thumb/0/09/Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg/320px-Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg" caption="tavla" definition="... talks to ..."></pixra>
+<pixra url="https://mw-live.lojban.org/images/thumb/0/09/Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg/320px-Bono_U2_with_Horst_K%C3%B6hler_at_Prague_2000_IMF.jpeg" caption="tavla" definition="… talks to …"></pixra>
 <pixra url="https://mw.lojban.org/images/thumb/f/f2/xractu-do-cropped.png/96px-xractu-do-cropped.png" caption="do" definition="you"></pixra>
 
 Each sentence in Lojban consists of the following parts from the left to the right:
@@ -259,7 +259,7 @@ fonxa
 le fonxa
 : the phone, the phones
 
-<pixra url="/assets/pixra/cilre/citka3.jpg" caption="citka" definition="... eats ... (something)"></pixra>
+<pixra url="/assets/pixra/cilre/citka3.jpg" caption="citka" definition="… eats … (something)"></pixra>
 
 > **mi citka**
 > _I eat._
@@ -286,7 +286,7 @@ Here, **le plise** means _the apples_, **kukte** means _is tasty / are tasty_.
 
 A simpler sentence in Lojban would contain only one main relation word:
 
-<pixra url="/assets/pixra/cilre/karce.jpg" caption="karce" definition="... is a car"></pixra>
+<pixra url="/assets/pixra/cilre/karce.jpg" caption="karce" definition="… is a car"></pixra>
 
 > **karce**
 > _Car!_
@@ -311,7 +311,7 @@ Similarly, you can say
 
 where
 
-<pixra url="/assets/pixra/cilre/carvi.jpg" caption="carvi" definition="... is a rain"></pixra>
+<pixra url="/assets/pixra/cilre/carvi.jpg" caption="carvi" definition="… is a rain"></pixra>
 
 carvi
 : … is a rain, … is raining
@@ -559,6 +559,8 @@ Close the right part of the table. Translate to Lojban the sentences on the left
 
 Compound verbs (**le tanru** in Lojban) are several verb words one after another.
 
+<pixra url="/assets/pixra/cilre/merlbi_zdani.jpg" caption="melbi zdani" definition="… is a nice home (to somebody)"></pixra>
+
 > **tu melbi zdani**
 > _That one is a nice home._
 
@@ -571,7 +573,7 @@ melbi
 zdani
 : … is a home or nest to … (someone)
 
-<pixra url="/assets/pixra/cilre/dansu.jpg" caption="dansu" definition="... dances"></pixra>
+<pixra url="/assets/pixra/cilre/dansu.jpg" caption="dansu" definition="… dances"></pixra>
 
 > **do melbi dansu**
 > _You nicely dance._
@@ -887,6 +889,8 @@ The interjection **.e'o** in the beginning of a sentence turns it into a request
 lebna
 : to take (something)
 
+<pixra url="/assets/pixra/cilre/cukta.jpg" caption="cukta" definition="… is a book"></pixra>
+
 le cukta
 : the book
 
@@ -1017,11 +1021,11 @@ Both variations mean the same, simply **gi'e** leads to a more consise realizati
 
 We also have tools to add _and_ for components of compound verbs:
 
-> **le melbi je cmalu zdani cu zvati ti**
-> _The pretty and small home is here._
+> **le melbi je cmalu zdani cu jibni ti**
+> _The pretty and small home is near._
 
-zvati
-: … is present at …
+jibni
+: … is near to …
 
 ti
 : this thing, this place near me
@@ -1201,7 +1205,7 @@ Any relation can be turned into a verb by putting **nu** in front of it:
 > _The night is when I see the Moon._
 > `Night is the event when I see the Moon.`
 
-<pixra url="/assets/pixra/cilre/nicte.jpg" caption="nicte" definition="... is nighttime"></pixra>
+<pixra url="/assets/pixra/cilre/nicte.jpg" caption="nicte" definition="… is nighttime"></pixra>
 
 nicte
 : (some event) is nighttime
@@ -1916,6 +1920,8 @@ Another option is to use the short pronoun **ri**. It refers to the previous nou
 > **mi pu klama le nurma .i ri melbi**
 > _I went to the country. It was beautiful._
 
+<pixra url="/assets/pixra/cilre/nurma.jpg" caption="nurma" definition="… is nighttime"></pixra>
+
 le nurma
 : the rural area
 
@@ -1964,10 +1970,10 @@ co'o
 
 Since vocatives work like interjections we have nice types of greetings:
 
-<pixra url="https://mw.lojban.org/images/thumb/5/57/Alishan_sunrise.JPG/96px-Alishan_sunrise.JPG" caption="cerni" definition="... is morning"></pixra>
-<pixra url="/assets/pixra/cilre/vanci.jpg" caption="vanci" definition="... is evening"></pixra>
-<pixra url="https://mw.lojban.org/images/thumb/0/01/The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg/96px-The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg" caption="donri" definition="... is daylight time"></pixra>
-<pixra url="/assets/pixra/cilre/nicte.jpg" caption="nicte" definition="... is nighttime"></pixra>
+<pixra url="https://mw.lojban.org/images/thumb/5/57/Alishan_sunrise.JPG/96px-Alishan_sunrise.JPG" caption="cerni" definition="… is morning"></pixra>
+<pixra url="/assets/pixra/cilre/vanci.jpg" caption="vanci" definition="… is evening"></pixra>
+<pixra url="https://mw.lojban.org/images/thumb/0/01/The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg/96px-The_Strand%2C_Ballinskelligs%2C_Kerry%2C_1990_%287787237516%29.jpg" caption="donri" definition="… is daylight time"></pixra>
+<pixra url="/assets/pixra/cilre/nicte.jpg" caption="nicte" definition="… is nighttime"></pixra>
 
 <div class="common"></div>
 
@@ -2169,7 +2175,7 @@ the second place of **klama** is still omitted. For example:
 > **mi klama fa'a le cmana le zdani**
 > _I come (in the direction of the mountain) to the home._
 
-<pixra url="/assets/pixra/cilre/cmana.jpg" caption="cmana" definition="... is a mountain"></pixra>
+<pixra url="/assets/pixra/cilre/cmana.jpg" caption="cmana" definition="… is a mountain"></pixra>
 
 le cmana
 : the mountain

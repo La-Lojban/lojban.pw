@@ -2,6 +2,8 @@ docker kill lojban_made_easy 2> /dev/null
 docker rm -f lojban_made_easy 2> /dev/null
 docker run -d -it --name lojban_made_easy  \
 -v $(pwd)/pages:/app/src/md_pages/:Z \
+-v $(pwd)/assets:/app/src/public/assets/:Z \
+-v $(pwd)/config:/app/src/config/:Z \
 -v $(pwd)/src:/app/src/:Z \
 -v $(pwd)/.git:/app/.git/:Z \
 -v $(pwd)/.gitignore:/app/.gitignore:Z \

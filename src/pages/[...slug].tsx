@@ -30,7 +30,7 @@ const Post = ({ post, preview }: Props) => {
 		return <ErrorPage statusCode={404} />;
 	}
 
-	const toc_list: TocItem[] = post?.toc.map((i: any) => ({
+	const toc_list: TocItem[] = (post?.toc ?? []).map((i: any) => ({
 		depth: i.depth,
 		name: i.value,
 		url: `${router.asPath.replace(/#.*/, "")}#${i.id}`,

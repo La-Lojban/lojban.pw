@@ -1,18 +1,17 @@
-import deflist from "remark-deflist";
-import jsdom from "jsdom";
-const { JSDOM } = jsdom;
-const { document } = new JSDOM(`<body></body>`).window;
-import { parse as hp, HTMLElement } from "node-html-parser";
 
 import { unified } from "unified";
 import parse from "remark-parse";
-import remark2rehype from "remark-rehype";
 import gfm from "remark-gfm";
-import stringify from "rehype-stringify";
+import deflist from "remark-deflist";
+import remark2rehype from "remark-rehype";
 import raw from "rehype-raw";
+import stringify from "rehype-stringify";
+
+import { parse as hp, HTMLElement } from "node-html-parser";
 import { tocSelector, transformers } from "../config/transformers";
 import { sluggify } from "./html-prettifier/slugger";
 import { createElementFromSelector } from "./html-prettifier/elements";
+import { TocElem } from "../types/toc";
 
 export default async function markdownToHtml(markdown: string) {
 	const root = hp(
@@ -40,7 +39,7 @@ export default async function markdownToHtml(markdown: string) {
 		},
 	};
 
-	const toc = Array.from(
+	const toc: TocElem[] = Array.from(
 		root.querySelectorAll(tocTransformers.querySelectorAll)
 	).map(tocTransformers.fn);
 

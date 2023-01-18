@@ -12,7 +12,7 @@ Choose the messenger you like.
 
 The main chat publicly logged: any questions
 
-Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/joinchat/BLVsYz3hCF8mCAb6fzW1Rw), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### ![](https://github.com/La-Lojban/suho-pixra-pe-la-jbotcan/blob/master/jduli-24.png?raw=true) #ckule - "School"
 

@@ -1,4 +1,5 @@
 import Author from './author'
+import { TocElem } from './toc'
 
 type PostType = {
   slug: string[]
@@ -11,7 +12,7 @@ type PostType = {
     url: string
   }
   content: string
-  toc?: any
+  toc?: TocElem[]
 }
 
 export default PostType

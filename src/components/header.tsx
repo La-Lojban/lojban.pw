@@ -5,6 +5,7 @@ import { BellIcon, Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 import { closeXicon } from "../lib/buttons";
 import { header } from "../config/config";
+import { TocElem } from "../types/toc";
 
 // const profile = ['Your Profile', 'Settings', 'Sign out']
 
@@ -20,13 +21,13 @@ export default function Header({
 	toc = [],
 	path = "",
 }: {
-	toc?: any;
+	toc?: TocElem[];
 	path?: string;
 }) {
-	const toc_list: TocItem[] = toc.map((i: any) => ({
-		depth: i.depth,
-		name: i.value,
-		url: `${path}#${i.id}`,
+	const toc_list: TocItem[] = toc.map((tocElem) => ({
+		depth: parseInt(tocElem.depth),
+		name: tocElem.value,
+		url: `${path}#${tocElem.id}`,
 	}));
 	const has_toc = toc_list.length > 0;
 	return (
