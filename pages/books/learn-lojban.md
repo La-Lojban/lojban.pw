@@ -135,7 +135,7 @@ Now, let's turn to constructing our first sentences in Lojban.
 The basic unit in Lojban is called **bridi**, meaning "sentence" or "relation." Here are two simple examples:
 
 
-<pixra url="/assets/pixra/cilre/tavla.jpg" caption="tavla" definition="… talks to …"></pixra>
+<pixra url="/assets/pixra/cilre/tavla.png" caption="tavla" definition="… talks to …"></pixra>
 <pixra url="/assets/pixra/cilre/mi.png" caption="mi" definition="I / me"></pixra>
 
 > **le prenu cu tavla mi**
