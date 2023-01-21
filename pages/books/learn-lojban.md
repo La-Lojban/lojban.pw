@@ -828,7 +828,7 @@ Here, **go'i** means the same as **melbi** since **melbi** is the relation of th
 > _— Are the cats pretty?_
 > _— Not pretty._
 
-This course doesn't recommend negating **go'i** for negative answers. Just use **je'u nai**.
+<!-- This course doesn't recommend negating **go'i** for negative answers. Just use **je'u nai**. -->
 
 The modal term **na ku** can be used not only in answers:
 
