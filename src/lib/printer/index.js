@@ -23,6 +23,11 @@ const fs = require("fs");
     await page.goto(url, {
       waitUntil: "networkidle0",
     });
+    // await new Promise(resolve => setTimeout(resolve, 1500));
+    // await page.screenshot();
+    // await page.evaluateHandle('document.fonts.ready');
+
+
     // let div_selector_to_remove = ".print:hidden";
     // await page.evaluate((sel) => {
     //   const elements = document.querySelectorAll(sel);

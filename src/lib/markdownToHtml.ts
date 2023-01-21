@@ -1,29 +1,34 @@
-
 import { unified } from "unified";
-import parse from "remark-parse";
+import remarkParse from "remark-parse";
 import gfm from "remark-gfm";
 import deflist from "remark-deflist";
 import remark2rehype from "remark-rehype";
 import raw from "rehype-raw";
 import stringify from "rehype-stringify";
 
-import { parse as hp, HTMLElement } from "node-html-parser";
+import htmlParser, { HTMLElement } from "node-html-parser";
 import { tocSelector, transformers } from "../config/transformers";
 import { sluggify } from "./html-prettifier/slugger";
 import { createElementFromSelector } from "./html-prettifier/elements";
 import { TocElem } from "../types/toc";
 
-export default async function markdownToHtml(markdown: string) {
-	const root = hp(
+export default async function markdownToHtml({
+	content,
+	fullPath,
+}: {
+	content: string;
+	fullPath: string;
+}) {
+	const root = htmlParser.parse(
 		(
 			await unified()
-				.use(parse)
+				.use(remarkParse)
 				.use(gfm)
 				.use(deflist)
 				.use(remark2rehype, { allowDangerousHtml: true }) // 4sec
 				.use(raw)
 				.use(stringify) // makes it all faster???
-				.process(markdown)
+				.process(content)
 		).toString()
 	);
 
@@ -53,7 +58,7 @@ export default async function markdownToHtml(markdown: string) {
 	function wrapperFn(wrapper: string, element: HTMLElement) {
 		const wrapperElement = createElementFromSelector(wrapper);
 		wrapperElement.innerHTML = wrapperElement.innerHTML + element.outerHTML;
-		element.insertAdjacentHTML('afterend',wrapperElement.outerHTML);
+		element.insertAdjacentHTML("afterend", wrapperElement.outerHTML);
 		element.remove();
 	}
 

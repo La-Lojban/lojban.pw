@@ -138,9 +138,10 @@ export async function getStaticProps({ params }: Params) {
 		"content",
 		"ogImage",
 		"coverImage",
+		"fullPath"
 	]);
 
-	const { text, toc } = await markdownToHtml((post.content as string) || "");
+	const { text, toc } = await markdownToHtml({content: (post.content as string) || "", fullPath: post.fullPath as string});
 
 	return {
 		props: {

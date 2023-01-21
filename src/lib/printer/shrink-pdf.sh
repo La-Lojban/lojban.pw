@@ -80,7 +80,7 @@ usage ()
 if [ ! -z "$3" ]; then
 	res="$3"
 else
-	res="150"
+	res="300"
 fi
 
 echo "Shrinking pdf files"

@@ -157,7 +157,7 @@ article table {
 }
 
 .md-typeset__scrollwrap {
-  @apply my-4 overflow-x-auto rounded-sm;
+  @apply mb-4 overflow-x-auto rounded-sm;
 }
 
 article table thead {
@@ -305,8 +305,8 @@ article ul li ul li::before {
   content: "⚙️ ";
 }
 
-.with-blockquote {
-  @apply py-2 pl-3 pr-0;
+article div.wrapper.with_blockquote {
+  @apply pt-1 pb-2 pl-3 pr-0;
 }
 
 article blockquote {
@@ -356,8 +356,9 @@ dd::after {
   white-space: pre;
 }
 
+
 article figure {
-  @apply ml-3 mt-1 mb-3 w-32 border border-gray-200 bg-gray-100 shadow rounded-sm clear-right float-right;
+  @apply ml-3 mt-1 mb-3 w-full print:w-40 md:w-40 border border-gray-200 bg-gray-100 shadow rounded-sm clear-right float-right;
 }
 
 article figure .figure_img {
@@ -391,7 +392,9 @@ article figure.wide .figure_img {
 jbo {
   font-weight: bold;
 }
-
+code {
+  font-size: 80%;
+}
 this {
   white-space: nowrap;
   font-style: italic;
@@ -526,4 +529,18 @@ description {
   /* Safari */
   user-select: none;
   cursor: default;
+}
+
+#fullpage {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-color: black;
 }

@@ -16,6 +16,12 @@ RUN apk add \
       yarn \
       git vim curl bash
 
+# Installs latest Chromium package.
+RUN apk add --no-cache \
+    font-noto-emoji
+
+RUN fc-cache -f && rm -rf /var/cache/*
+
 # Tell Puppeteer to skip installing Chrome. We'll be using the installed package.
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
     PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser

@@ -25,7 +25,7 @@ export const transformers = [
 			element.innerHTML = element.innerHTML + a.outerHTML;
 		},
 	},
-	{ selector: "blockquote", wrapper: "div.wrapper.with-blockquote" },
+	{ selector: "blockquote", wrapper: "div.wrapper.with_blockquote" },
 	{ selector: "table", wrapper: "div.md-typeset__table" },
 	{
 		selector: "div.md-typeset__table",
