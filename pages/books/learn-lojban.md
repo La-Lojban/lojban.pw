@@ -2516,7 +2516,7 @@ Using **be** for verbs not converted to nouns has no effect: **mi nelci be do** 
 <!-- -->
 
 > **le prenu noi pendo mi cu tavla mi**
-> _The person, who is incidentally a friend of mine, talks to me._
+> _The person, who incidentally is a friend of mine, talks to me._
 
 blabi
 : … is white
@@ -2564,10 +2564,10 @@ Removing the relative clause with **poi** changes the meaning:
 
 On the other hand, relative clauses with **noi** contain just additional information about the noun to which they are attached. That noun is sufficiently defined by itself so that removing a relative clause with **noi** doesn't change its meaning:
 
-<pixra url="/assets/pixra/cilre/panka_ninmu.png" caption="le prenu noi mi ta'e zgana bu'u le panka" definition="The person, whom I habitually see in the park."></pixra>
+<pixra url="/assets/pixra/cilre/panka_ninmu.png" caption="le prenu noi mi ta'e zgana bu'u le panka" definition="The person whom I habitually see in the park."></pixra>
 
 > **mi nelci la .doris. noi mi ta'e zgana bu'u le panka**
-> _I like Doris, whom I habitually see in the park._
+> _I like Doris whom I habitually see in the park._
 > _I like Doris. What else can I say about her? I habitually see her in the park._
 
 zgana
@@ -2614,7 +2614,7 @@ So literally our Lojbanic sentence sounds like
 
 > **mi nelci la .doris. noi mi ta'e zgana bu'u le panka**
 > **mi nelci la .doris. noi mi ta'e zgana ke'a bu'u le panka**
-> _I like Doris, whom I habitually see in the park._
+> _I like Doris whom I habitually see in the park._
 
 Here, **mi** fills the first place of the verb **ta'e zgana** (_… habitually sees …_), thus, **ke'a** is assumed for the next, second place.
 
@@ -2815,7 +2815,7 @@ Other examples:
 <!-- -->
 
 > **ti du la .alis. noi mi ta'e zgana bu'u le panka**
-> _This is Alice, whom I habitually see in the park._
+> _This is Alice whom I habitually see in the park._
 
 **noi du** and **poi du** are used in Lojban to introduce alternate names for something. They correspond to English _namely, i.e._:
 
