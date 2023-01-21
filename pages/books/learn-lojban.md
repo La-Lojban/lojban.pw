@@ -150,6 +150,8 @@ tavla
 mi
 : I, me
 
+<pixra url="/assets/pixra/cilre/mi_prami_do.png" caption="mi prami do" definition="I love you."></pixra>
+
 > **mi prami do**
 > _I love you._
 
@@ -2906,8 +2908,6 @@ We can swap the first two places round in the verb using **se** and thus change 
 **do posydu'a ti mi** means exactly the same as **ti se posydu'a do mi**. The difference is solely in style.
 
 You may want to change things around for different emphasis, for example, to mention the more important things in a sentence first. So the following pairs mean the same thing:
-
-<pixra url="/assets/pixra/cilre/mi_prami_do.png" caption="mi prami do" definition="I love you."></pixra>
 
 > **mi prami do**
 > _I love you._
