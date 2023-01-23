@@ -135,9 +135,6 @@ Now, let's turn to constructing our first sentences in Lojban.
 The basic unit in Lojban is called **bridi**, meaning "sentence" or "relation." Here are two simple examples:
 
 
-<pixra url="/assets/pixra/cilre/tavla.png" caption="tavla" definition="… talks to …"></pixra>
-<pixra url="/assets/pixra/cilre/mi.png" caption="mi" definition="I / me"></pixra>
-
 > **le prenu cu tavla mi**
 > _The person speaks to me._
 
@@ -147,21 +144,25 @@ le prenu
 tavla
 : … talks to …, … speaks to …
 
+<pixra url="/assets/pixra/cilre/tavla.png" caption="tavla" definition="… talks to …"></pixra>
+
 mi
 : I, me
 
-<pixra url="/assets/pixra/cilre/mi_prami_do.png" caption="mi prami do" definition="I love you."></pixra>
+<pixra url="/assets/pixra/cilre/mi.png" caption="mi" definition="I / me"></pixra>
 
 > **mi prami do**
 > _I love you._
 
+<pixra url="/assets/pixra/cilre/mi_prami_do.png" caption="mi prami do" definition="I love you."></pixra>
+
 prami
 : … loves … (someone)
 
-<pixra url="/assets/pixra/cilre/do.png" caption="do" definition="you"></pixra>
-
 do
 : you
+
+<pixra url="/assets/pixra/cilre/do.png" caption="do" definition="you"></pixra>
 
 > **mi ca cu tavla do**
 > _I now talk to you._
@@ -239,13 +240,14 @@ Terms in Lojban, no matter where they are used in a given sentence, are mostly r
 
 Some more examples:
 
-<pixra url="/assets/pixra/cilre/nintadni.png" caption="nintadni" definition="… is a new student, fresher"></pixra>
 
 > **mi nintadni**
 > _I am a new student._
 
 nintadni
 : … is a new student, a newbie
+
+<pixra url="/assets/pixra/cilre/nintadni.png" caption="nintadni" definition="… is a new student, fresher"></pixra>
 
 Unlike in English we don't have to add the verb "am/is/are/to be" to the sentence. It is already there. The relation word **nintadni** (_… is a new student_) already has this English "am/is/are/to be" built into its English translation.
 
@@ -254,10 +256,11 @@ Unlike in English we don't have to add the verb "am/is/are/to be" to the sentenc
 
 <!-- -->
 
-<pixra url="/assets/pixra/cilre/pilno_le_fonxa.png" caption="le prenu cu pilno le fonxa" definition="The person uses the phone."></pixra>
 
 > **mi pilno le fonxa**
 > _I use the phone._
+
+<pixra url="/assets/pixra/cilre/pilno_le_fonxa.png" caption="le prenu cu pilno le fonxa" definition="The person uses the phone."></pixra>
 
 pilno
 : … uses … (something)
@@ -268,7 +271,6 @@ fonxa
 le fonxa
 : the phone, the phones
 
-<pixra url="/assets/pixra/cilre/citka.png" caption="citka" definition="… eats … (something)"></pixra>
 
 > **mi citka**
 > _I eat._
@@ -276,6 +278,7 @@ le fonxa
 citka
 : … eats … (something)
 
+<pixra url="/assets/pixra/cilre/citka.png" caption="citka" definition="… eats … (something)"></pixra>
 <!-- -->
 
 > **do citka**
@@ -291,14 +294,17 @@ citka
 > **le plise cu kukte**
 > _The apples are tasty._
 
+<pixra url="/assets/pixra/cilre/le_plise_cu_kukte.png" caption="le plise cu kukte" definition="The apples are tasty."></pixra>
+
 Here, **le plise** means _the apples_, **kukte** means _is tasty / are tasty_.
 
 A simpler sentence in Lojban would contain only one main relation word:
 
-<pixra url="/assets/pixra/cilre/karce.png" caption="karce" definition="… is a car"></pixra>
 
 > **karce**
 > _Car!_
+
+<pixra url="/assets/pixra/cilre/karce.png" caption="karce" definition="… is a car"></pixra>
 
 You could say this when you see a car coming. Here the context would be clear enough that there is a car somewhere around and probably it's dangerous.
 
@@ -306,12 +312,14 @@ You could say this when you see a car coming. Here the context would be clear en
 
 We can of course be more precise and say, for example:
 
-<pixra url="/assets/pixra/cilre/ti.png" caption="ti" definition="this one (near me, the speaker)"></pixra>
 
 > **ti karce**
 > _This is a car._
 
-where **ti** is a pronoun meaning _this thing near me_.
+ti
+: pronoun: this thing near me
+
+<pixra url="/assets/pixra/cilre/ti.png" caption="ti" definition="this one (near me, the speaker)"></pixra>
 
 Similarly, you can say
 
@@ -320,10 +328,10 @@ Similarly, you can say
 
 where
 
-<pixra url="/assets/pixra/cilre/carvi.png" caption="carvi" definition="… is a rain"></pixra>
-
 carvi
 : … is a rain, … is raining
+
+<pixra url="/assets/pixra/cilre/carvi.png" caption="carvi" definition="… is a rain"></pixra>
 
 or
 
@@ -354,13 +362,14 @@ Again context would probably tell who loves whom and who runs.
 
 Close the right part of the table. Translate from Lojban the sentences on the left.
 
-<pixra url="/assets/pixra/cilre/pinxe_le_ladru.png" caption="ti pinxe le ladru" definition="This one drinks milk."></pixra>
 
 pinxe
 : … drinks … (something)
 
 le ladru
 : the milk
+
+<pixra url="/assets/pixra/cilre/pinxe_le_ladru2.png" caption="le prenu cu pinxe le ladru" definition="The person drinks milk."></pixra>
 
 <table style="table-layout: fixed;">
 <tbody><tr>
@@ -524,15 +533,15 @@ le zarci
 
 <pixra url="/assets/pixra/cilre/zarci.png" caption="le prenu cu zvati le zarci" definition="The person is at the store."></pixra>
 
-<pixra url="/assets/pixra/cilre/najnimre.png" caption="najnimre" definition="… is an orange"></pixra>
-
 le najnimre
 : the orange (fruit), the oranges
 
-<pixra url="/assets/pixra/cilre/badna.png" caption="badna" definition="… is a banana"></pixra>
+<pixra url="/assets/pixra/cilre/najnimre.png" caption="najnimre" definition="… is an orange"></pixra>
 
 le badna
 : the banana, bananas
+
+<pixra url="/assets/pixra/cilre/badna.png" caption="badna" definition="… is a banana"></pixra>
 
 <table style="table-layout: fixed;">
  <tbody>
@@ -578,10 +587,11 @@ Close the right part of the table. Translate to Lojban the sentences on the left
 
 Compound verbs (**le tanru** in Lojban) are several verb words placed one after another.
 
-<pixra url="/assets/pixra/cilre/melbi_zdani.jpg" caption="melbi zdani" definition="… is a nice home"></pixra>
 
 > **tu melbi zdani**
 > _That one is a nice home._
+
+<pixra url="/assets/pixra/cilre/melbi_zdani.jpg" caption="melbi zdani" definition="… is a nice home"></pixra>
 
 tu
 : that one (away from you and me)
@@ -592,13 +602,14 @@ melbi
 zdani
 : … is a home or nest to … (someone)
 
-<pixra url="/assets/pixra/cilre/dansu.png" caption="dansu" definition="… dances"></pixra>
 
 > **do melbi dansu**
 > _You nicely dance._
 
 dansu
 : … dances
+
+<pixra url="/assets/pixra/cilre/dansu.png" caption="dansu" definition="… dances"></pixra>
 
 Here, the verb **melbi** adds an additional meaning as it is to the left of another verb: **zdani**. The left part is usually translated using adjectives and adverbs.
 
@@ -628,11 +639,11 @@ Remember about placing **cu** before the main relation construct in a sentence t
 
 Compound verbs can contain more than two verbs. In this case, the first verb modifies the second one, the second one modifies the third, and so on:
 
-<pixra url="/assets/pixra/cilre/cmalu_karce.png" caption="cmalu karce" definition="… is a small car"></pixra>
 
 > **le pa melbi cmalu karce**
 > _the pretty-small car, the car small in a pretty way_
 
+<pixra url="/assets/pixra/cilre/cmalu_karce.png" caption="cmalu karce" definition="… is a small car"></pixra>
 <!-- -->
 
 > **le mutce melbi zdani**
@@ -656,6 +667,8 @@ cmalu
 
 bajra
 : … runs
+
+<pixra url="/assets/pixra/cilre/bajra.png" caption="le prenu cu bajra" definition="The person runs."></pixra>
 
 mlatu
 : … is a cat
@@ -734,10 +747,11 @@ To turn any assertion into a _yes/no_ question, we simply insert the word **xu**
 > **xu do nelci le gerku**
 > _Do you like the dogs?_
 
-<pixra url="/assets/pixra/cilre/le_prenu_e_le_gerku.png" caption="ti prenu .i ti gerku" definition="This is a person. This is a dog."></pixra>
 
 le gerku
 : the dog, the dogs
+
+<pixra url="/assets/pixra/cilre/le_prenu_e_le_gerku.png" caption="ti prenu .i ti gerku" definition="This is a person. This is a dog."></pixra>
 
 Remember that in Lojban, punctuation like "?" (question mark) is totally optional and used mostly for stylistic purposes. After all, we use the question word **xu** that shows the question anyway.
 
@@ -919,14 +933,20 @@ Close the right part of the table. Translate from Lojban the sentences on the le
 le tcati
 : the tea
 
+<pixra url="/assets/pixra/cilre/tcati.png" caption="tcati" definition="... is some tea"></pixra>
+
 le ckafi
 : coffee
 
-catlu
-: to watch
+<pixra url="/assets/pixra/cilre/tcati.png" caption="tcati" definition="... is some tea"></pixra>
+
+zgana
+: to watch, observe (using any senses)
 
 le skina
 : the film, the movie
+
+<pixra url="/assets/pixra/cilre/zgana_le_skina.png" caption="le prenu cu zgana le skina" definition="The person watches the movie."></pixra>
 
 kurji
 : to care of (someone, something)
@@ -944,7 +964,7 @@ kurji
 <td><i>Please, drink tea!</i>
 </td></tr>
 <tr>
-<td><b>.e'o catlu le skina</b>
+<td><b>.e'o zgana le skina</b>
 </td>
 <td><i>Please, watch the film!</i>
 </td></tr></tbody></table>
@@ -1017,10 +1037,11 @@ Since both sentences have the same tail we can use a contraction: the conjunctio
 
 And we can use **.e** for connecting nouns and pronouns in other positions:
 
-<pixra url="/assets/pixra/cilre/pinxe_le_jisra.png" caption="le prenu cu pinxe le jisra" definition="The person drinks the juice."></pixra>
 
 > **mi pinxe le ladru .e le jisra**
 > _I drink the milk and the juice._
+
+<pixra url="/assets/pixra/cilre/pinxe_le_jisra.png" caption="le prenu cu pinxe le jisra" definition="The person drinks the juice."></pixra>
 
 That would mean the same as:
 
@@ -1039,10 +1060,11 @@ Both variations mean the same, simply **gi'e** leads to a more consise realizati
 
 We also have tools to add _and_ for components of compound verbs:
 
-<pixra url="/assets/pixra/cilre/melbi_je_cmalu_zdani.jpg" caption="melbi je cmalu zdani" definition="… is a pretty-and-small home"></pixra>
 
 > **le melbi je cmalu zdani cu jibni ti**
 > _The pretty and small home is near._
+
+<pixra url="/assets/pixra/cilre/melbi_je_cmalu_zdani.jpg" caption="melbi je cmalu zdani" definition="… is a pretty-and-small home"></pixra>
 
 jibni
 : … is near to …
@@ -1054,8 +1076,8 @@ ti
 
 Without **je** the sentence changes the meaning:
 
-> **le melbi cmalu zdani cu zvati**
-> _The prettily small home is here._
+> **le melbi cmalu zdani cu jibni**
+> _The prettily small home is near._
 
 Here **melbi** modifies **cmalu** and **melbi cmalu** modifies **zdani** according to how compound verbs work.
 
@@ -1076,21 +1098,24 @@ ja
 
 **.a** = _and/or_ when connecting nouns and pronouns.
 
-<pixra url="/assets/pixra/cilre/fengu.png" caption="fengu" definition="… is angry"></pixra>
 
 fengu
 : … is angry
 
-<pixra url="/assets/pixra/cilre/bilma.png" caption="le prenu cu bilma" definition="The person is ill"></pixra>
+<pixra url="/assets/pixra/cilre/fengu.png" caption="fengu" definition="… is angry"></pixra>
 
 bilma
 : … is ill
+
+<pixra url="/assets/pixra/cilre/bilma.png" caption="le prenu cu bilma" definition="The person is ill"></pixra>
 
 vitke
 : to visit
 
 dzena
-: … is an ancestor
+: … is an ancestor of …
+
+<pixra url="/assets/pixra/cilre/dzena.png" caption="dzena" definition="… is an ancestor of …"></pixra>
 
 > **le karce cu blabi jo nai grusi**
 > _The car is either white or gray._
@@ -1229,10 +1254,11 @@ Any relation can be turned into a verb by putting **nu** in front of it:
 > _The night is when I see the Moon._
 > `Night is an event when I see the Moon.`
 
-<pixra url="/assets/pixra/cilre/nicte.png" caption="nicte" definition="… is nighttime"></pixra>
 
 nicte
 : (some event) is nighttime
+
+<pixra url="/assets/pixra/cilre/nicte_fi_mi.png" caption="le nicte" definition="the nighttime"></pixra>
 
 le nicte
 : the nighttime, nighttimes
@@ -1507,13 +1533,14 @@ Most verbs describe events without specifying the stage of those events. Event c
 > **mi pu co'a cikna**
 > _I woke up._
 
-<pixra url="/assets/pixra/cilre/coha_cikna.png" caption="le prenu co'a cikna" definition="The person wakes up."></pixra>
 
 cikna
 : … is awake
 
 co'a cikna
 : … wakes up, becomes awake
+
+<pixra url="/assets/pixra/cilre/coha_cikna.png" caption="le prenu co'a cikna" definition="The person wakes up."></pixra>
 
 pu co'a cikna
 : … woke up, became awake
@@ -1593,10 +1620,11 @@ Compare **ze'a** with **ca**:
 > **mi pu ca le nicte cu sipna**
 > _I slept at night._
 
-<pixra url="/assets/pixra/cilre/sipna.png" caption="le prenu ca'o sipna" definition="The person is sleeping."></pixra>
 
 sipna
 : … sleeps
+
+<pixra url="/assets/pixra/cilre/sipna.png" caption="le prenu ca'o sipna" definition="The person is sleeping."></pixra>
 
 le nicte
 : the nighttime
@@ -1618,15 +1646,16 @@ Modal particle for _because_:
 ri'a
 : because … (of some event)
 
-<pixra url="/assets/pixra/cilre/taske.png" caption="taske" definition="… is thirsty"></pixra>
 
 taske
 : … is thirsty
 
-<pixra url="/assets/pixra/cilre/xagji.png" caption="xagji" definition="… is hungry"></pixra>
+<pixra url="/assets/pixra/cilre/taske.png" caption="taske" definition="… is thirsty"></pixra>
 
 xagji
 : … is hungry
+
+<pixra url="/assets/pixra/cilre/xagji.png" caption="xagji" definition="… is hungry"></pixra>
 
 Modal particles denoting place work the same way:
 
@@ -1656,10 +1685,11 @@ bu'u
 
 One thing is important. **nu** shows that a new relation in a sentence starts. Put **kei** after such relation to show its right border like we have right bracks ")" or "]" in math. Here is an example:
 
-<pixra url="/assets/pixra/cilre/le_gerku_cu_plipe.jpg" caption="le gerku cu plipe fa'a mi" definition="The dog jumps towards me."></pixra>
 
 > **le gerku cu plipe fa'a mi ca le nu do ca'o klama**
 > _The dog jumps towards me when you are coming._
+
+<pixra url="/assets/pixra/cilre/le_gerku_cu_plipe.jpg" caption="le gerku cu plipe fa'a mi" definition="The dog jumps towards me."></pixra>
 
 plipe
 : to jump
@@ -1791,13 +1821,14 @@ If one's name is Bob then we can create a cmevla ourselves that would sound as c
 
 The most simple example of using a name would be
 
-<pixra url="/assets/pixra/cilre/tcidu.png" caption="le prenu ca'o tcidu" definition="The person is reading."></pixra>
 
 > **la .bab. cu tcidu**
 > _Bob reads/is reading._
 
 tcidu
 : … reads
+
+<pixra url="/assets/pixra/cilre/tcidu.png" caption="le prenu ca'o tcidu" definition="The person is reading."></pixra>
 
 **la** is similar to **le** but it converts a word not to a simple noun but to a name.
 
@@ -1931,16 +1962,18 @@ Here are a few examples of Lojbanic names:in
 
 ### ‘_he_’ ‘_she_’
 
-<pixra url="/assets/pixra/cilre/ninmu.png" caption="le ninmu" definition="the woman (female human)"></pixra>
-<pixra url="/assets/pixra/cilre/nanmu.png" caption="le nanmu" definition="the man (male human)"></pixra>
 
 Lojban doesn't really have words for _he_ or _she_. Possible solutions:
 
 le ninmu
 : the woman (in gender sense)
 
+<pixra url="/assets/pixra/cilre/ninmu.png" caption="le ninmu" definition="the woman (female human)"></pixra>
+
 le nanmu
 : the male man (in gender sense)
+
+<pixra url="/assets/pixra/cilre/nanmu.png" caption="le nanmu" definition="the man (male human)"></pixra>
 
 > **le ninmu cu tavla le nanmu .i le ninmu cu jatna**
 > _The woman talk to the man. She is a leader._
@@ -1963,20 +1996,22 @@ Another option is to use the short pronoun **ri**. It refers to the previous nou
 > **mi pu klama le nurma .i ri melbi**
 > _I went to the country. It was beautiful._
 
-<pixra url="/assets/pixra/cilre/nurma.png" caption="nurma" definition="… is a rural area"></pixra>
 
 le nurma
 : the rural area
+
+<pixra url="/assets/pixra/cilre/nurma.png" caption="nurma" definition="… is a rural area"></pixra>
 
 Here, **ri** refers to the country side.
 
 > **mi tavla le pendo .i ri jundi**
 > _I talk to the friend. He/she is attentive._
 
-<pixra url="/assets/pixra/cilre/jundi.png" caption="jundi" definition="The person is attentive."></pixra>
 
 jundi
 : … is attentive
+
+<pixra url="/assets/pixra/cilre/jundi.png" caption="jundi" definition="The person is attentive."></pixra>
 
 Here, **ri** refers to the friend.
 
@@ -2220,10 +2255,11 @@ the second place of **klama** is still omitted. For example:
 > **mi klama fa'a le cmana le zdani**
 > _I come (in the direction of the mountain) to the home._
 
-<pixra url="/assets/pixra/cilre/cmana.png" caption="cmana" definition="… is a mountain"></pixra>
 
 le cmana
 : the mountain
+
+<pixra url="/assets/pixra/cilre/cmana.png" caption="cmana" definition="… is a mountain"></pixra>
 
 And here the second place of **klama** is **do**. And the sentence means that the mountain is just a direction whereas the final point is you.
 
@@ -2440,14 +2476,14 @@ because you want to do something, you want some event happening with the apple, 
 
 ### Places for nouns
 
-<pixra url="/assets/pixra/cilre/pendo.png" caption="le pendo" definition="the friend / the friends"></pixra>
-<pixra url="/assets/pixra/cilre/posyduha.png" caption="le prenu cu posydu'a le plise le pendo" definition="The person gives the apple to the friend."></pixra>
 
 How do we say _You are my friend_ ?
 
 > **do pendo mi**
 > _You are my friend._
 > `You are a friend of me.`
+
+<pixra url="/assets/pixra/cilre/pendo.png" caption="le pendo" definition="the friend / the friends"></pixra>
 
 And now how do we say _My friend is smart._?
 
@@ -2461,6 +2497,7 @@ By default it attaches the second place (x2). We can attach more places by separ
 > **mi posydu'a le plise do**
 > _I give the apple to you._
 
+<pixra url="/assets/pixra/cilre/posyduha.png" caption="le prenu cu posydu'a le plise le pendo" definition="The person gives the apple to the friend."></pixra>
 <!-- -->
 
 > **le posydu'a be le plise bei mi**
@@ -2566,7 +2603,6 @@ Removing the relative clause with **poi** changes the meaning:
 
 On the other hand, relative clauses with **noi** contain just additional information about the noun to which they are attached. That noun is sufficiently defined by itself so that removing a relative clause with **noi** doesn't change its meaning:
 
-<pixra url="/assets/pixra/cilre/panka_ninmu.png" caption="le prenu noi mi ta'e zgana bu'u le panka" definition="The person whom I habitually see in the park."></pixra>
 
 > **mi nelci la .doris. noi mi ta'e zgana bu'u le panka**
 > _I like Doris whom I habitually see in the park._
@@ -2574,6 +2610,8 @@ On the other hand, relative clauses with **noi** contain just additional informa
 
 zgana
 : to observe (using any senses)
+
+<pixra url="/assets/pixra/cilre/panka_ninmu.png" caption="le prenu noi mi ta'e zgana bu'u le panka" definition="The person whom I habitually see in the park."></pixra>
 
 Removing the relative clause with **noi** retains the meaning: _I like Doris._
 
@@ -2622,10 +2660,11 @@ Here, **mi** fills the first place of the verb **ta'e zgana** (_… habitually s
 
 Relative clauses like usual relations can contain constructs with modal terms:
 
-<pixra url="/assets/pixra/cilre/le_tricu_cu_barda.png" caption="le tricu cu barda" definition="The tree is big."></pixra>
 
 > **le tricu noi mi pu klama ke'a ca le cabdei cu barda**
 > _The tree, to which I went today, is big._
+
+<pixra url="/assets/pixra/cilre/le_tricu_cu_barda.png" caption="le tricu cu barda" definition="The tree is big."></pixra>
 
 le cabdei
 : the day of today
@@ -2639,10 +2678,11 @@ The meaning has changed a lot.
 
 Finally, **voi** is used to form **le**-like nouns but with relative clauses:
 
-<pixra url="/assets/pixra/cilre/voi.png" caption="mi nelci ti voi le nu ke'a cisma cu pluka mi" definition="I like these whose smiles pleases me."></pixra>
 
 > **ti voi le nu ke'a cisma cu pluka mi cu zutse tu**
 > _These ones whose smile pleases me are sitting down._
+
+<pixra url="/assets/pixra/cilre/voi.png" caption="mi nelci ti voi le nu ke'a cisma cu pluka mi" definition="I like these whose smiles pleases me."></pixra>
 
 ti
 : this one near me, these ones near me
@@ -2866,10 +2906,11 @@ Other examples:
 
 When not using **nu** we don't have event relations. Nouns start with **le** and end in its verb (whether it's a single or a compound verb). Thus we can put term particles before a verb in a noun only before that verb:
 
-<pixra url="/assets/pixra/cilre/coha_purdi.png" caption="le pu kunti tumla ca purdi" definition="What was a desert is now a garden."></pixra>
 
 > **le pu kunti tumla ca purdi**
 > _What was a desert is now a garden._
+
+<pixra url="/assets/pixra/cilre/coha_purdi.png" caption="le pu kunti tumla ca purdi" definition="What was a desert is now a garden."></pixra>
 
 So **pu** belongs to **le kunti tumla** and **ca** belongs to **purdi** (as **le pu kunti tumla** can't add **ca** in the end).
 
@@ -2884,11 +2925,12 @@ ze'u
 
 Placing term particles after nouns binds them to outer verbs:
 
-<pixra url="/assets/pixra/cilre/cohu_purdi.png" caption="le kunti tumla pu purdi" definition="The desert was a garden."></pixra>
 
 > **le kunti tumla pu purdi**
 > **(le kunti tumla) pu purdi**
 > _The desert was a garden._
+
+<pixra url="/assets/pixra/cilre/cohu_purdi.png" caption="le kunti tumla pu purdi" definition="The desert was a garden."></pixra>
 
 ### New nouns from places of the same verb
 
@@ -3021,8 +3063,6 @@ More examples:
 
 **fi** marks **le tcadu** as the third place of **klama** (the origin of movement). Without **fi**, the sentence would turn into **mi klama le tcadu** meaning _I go to the city._
 
-<pixra url="/assets/pixra/cilre/pinxe_fi_le_kabri.png" caption="le prenu cu pinxe fi le kabri" definition="The person drinks from the glass."></pixra>
-
 > **mi pinxe fi le kabri** is the same as
 > **mi pinxe zo'e le kabri**
 > _I drink (something) from the cup._
@@ -3032,6 +3072,8 @@ pinxe
 
 le kabri
 : the cup, the glass
+
+<pixra url="/assets/pixra/cilre/pinxe_fi_le_kabri.png" caption="le prenu cu pinxe fi le kabri" definition="The person drinks from the glass."></pixra>
 
 > **mi tugni zo'e le nu vitke le rirni**
 > **mi tugni fi le nu vitke le rirni**
@@ -3101,7 +3143,6 @@ The following sentences are also equal in meaning:
 
 Infinitives are verbs that are often prefixed with _to_ in English. Examples include _I like to run_ with _to run_ being the infinitive.
 
-<pixra url="/assets/pixra/cilre/troci_cadzu.png" caption="le verba cu troi le ka cadzu" definition="The child tries to walk."></pixra>
 
 > **le verba cu troci le ka cadzu**
 > _The child is trying to walk._
@@ -3114,6 +3155,8 @@ troci
 
 cadzu
 : x1 walks
+
+<pixra url="/assets/pixra/cilre/troci_cadzu.png" caption="le verba cu troci le ka cadzu" definition="The child tries to walk."></pixra>
 
 The particle **ka** works much like **nu** but it indicates that the noun on the left does or would do the action following **ka**. It makes the first noun of the outer verb (**troci** in this case) also the first omitted noun of the embedded verb started by **ka** (**cadzu** in this case) so you don't have to repeat this noun the second time.
 
@@ -3553,11 +3596,12 @@ Dictionaries specify when places of verbs have to be filled with sets.
 
 ### Masses
 
-<pixra url="/assets/pixra/cilre/sruri.png" caption="lei prenu cu sruri le jubme" definition="The people surrounded the table."></pixra>
 
 > **lei prenu pu sruri le jubme**
 > _The people surrounded the table._
 > `The mass of people did surround the table.`
+
+<pixra url="/assets/pixra/cilre/sruri.png" caption="lei prenu cu sruri le jubme" definition="The people surrounded the table."></pixra>
 
 We use **lei** instead of **le** to show that the mass of objects is relevant to the action but not those objects individually. Compare:
 
@@ -3753,13 +3797,14 @@ We can also nest quotations, for example:
 
 which is similar to
 
-<pixra url="/assets/pixra/cilre/rinsa.png" caption="le prenu cu rinsa le pendo" definition="The person greets the friend."></pixra>
 
 > **la .ian. pu cusku lu la .djein. pu rinsa mi li'u**
 > _Yan said "Jane greeted me."_
 
 rinsa
 : x1 greets someone x2
+
+<pixra url="/assets/pixra/cilre/rinsa.png" caption="le prenu cu rinsa le pendo" definition="The person greets the friend."></pixra>
 
 Note that in Lojban we distinguish things and their names:
 
@@ -4077,13 +4122,14 @@ Consider the example:
 djuno
 : x1 knows x2 (proposition) about x3
 
-<pixra url="/assets/pixra/cilre/na_jimpe.png" caption="mi na jimpe" definition="I don't understand."></pixra>
 
 > **mi jimpe le du'u do pu citka**
 > _I understand that you were eating._
 
 jimpe
 : x1 understands x2 (proposition) about x3
+
+<pixra url="/assets/pixra/cilre/na_jimpe.png" caption="mi na jimpe" definition="I don't understand."></pixra>
 
 In places that describe facts the particle **du'u** is used (instead of **nu**).
 
@@ -4185,13 +4231,14 @@ We know such interjection as **.a'o** (_I hope_). There are interjections expres
 
 Here are examples of widely used emotional interjections:
 
-<pixra url="/assets/pixra/cilre/ui_jinga.png" caption="ui mi jinga" definition="Yay! I won!"></pixra>
 
 > **do jinga ui**
 > _You won! (I'm happy about that!)_
 
 ui
 : interjection: _Yay!_, interjection of happiness
+
+<pixra url="/assets/pixra/cilre/ui_jinga.png" caption="ui mi jinga" definition="Yay! I won!"></pixra>
 
 Interjections work like **sei** with their relations. **ui** means the same as **sei mi gleki** so we could as well say **do jinga sei mi gleki** meaning the same (although it's a bit more lengthy).
 
@@ -4221,7 +4268,6 @@ ie nai
 .au
 : interjection of desire
 
-<pixra url="/assets/pixra/cilre/clira.png" caption="mi clira klama" definition="I came early."></pixra>
 
 > **.a'o do clira klama**
 > _I hope you come early._
@@ -4231,6 +4277,8 @@ ie nai
 
 clira
 : x1 happens early
+
+<pixra url="/assets/pixra/cilre/clira.png" caption="mi clira klama" definition="I came early."></pixra>
 
 > **.ei mi ciska le xatra**
 > _I should write a letter._
@@ -4970,12 +5018,12 @@ They may help you get used to colloquial Lojban faster.
  >
 - <dl><dt>rinka le nu</dt><dd>(event) leads to …</dd></dl>
 
-<pixra url="/assets/pixra/cilre/tadni.png" caption="mi tadni" definition="I study."></pixra>
-
  > **le nu mi tadni la .lojban. cu rinka le nu mi jimpe fi do**
  > _That I study Lojban makes me understand you._
  >
 - <dl><dt>gasnu le nu</dt><dd>(agent) causes …</dd></dl>
+
+<pixra url="/assets/pixra/cilre/tadni.png" caption="mi tadni" definition="I study."></pixra>
 
  > **mi pu gasnu le nu le skami pe mi co'a spofu**
  > _I made it so that my computer got broken._
@@ -5134,10 +5182,11 @@ makcu
 > **.i .oi**
 > _Oh-no._
 
-<pixra url="/assets/pixra/cilre/xrula.png" caption="xrula" definition="flower"></pixra>
 
 le xrula
 : the flower(s)
+
+<pixra url="/assets/pixra/cilre/xrula.png" caption="xrula" definition="flower"></pixra>
 
 > **ma pu fasnu**
 > _What happened?_
@@ -5419,7 +5468,6 @@ Below are some examples with colors that follow those of English language. Other
 > **le tsani cu xunre ca le cerni**
 > _The sky is red in the morning._
 
-<pixra url="/assets/pixra/cilre/tsani.png" caption="tsani .i solri" definition="The sky. The sun."></pixra>
 
 le tsani
 : the sky
@@ -5429,6 +5477,8 @@ le tsani
 
 le solri
 : the Sun
+
+<pixra url="/assets/pixra/cilre/tsani.png" caption="tsani .i solri" definition="The sky. The sun."></pixra>
 
 simlu
 : x1 looks like x2 (property of x1)
