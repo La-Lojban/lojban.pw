@@ -358,7 +358,7 @@ dd::after {
 
 
 article figure {
-  @apply ml-3 mt-1 mb-3 w-full print:w-48 md:w-48 border border-gray-200 bg-gray-100 shadow rounded-sm clear-right float-right;
+  @apply md:ml-3 mt-1 mb-3 w-full print:w-48 md:w-48 border border-gray-200 bg-gray-100 shadow rounded-sm clear-right md:float-right;
 }
 
 article figure .figure_img {

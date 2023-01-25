@@ -154,10 +154,11 @@ mi
 > **mi prami do**
 > _I love you._
 
-<pixra url="/assets/pixra/cilre/mi_prami_do.png" caption="mi prami do" definition="I love you."></pixra>
 
 prami
 : … loves … (someone)
+
+<pixra url="/assets/pixra/cilre/mi_prami_do.png" caption="prami" definition="… loves … (someone)"></pixra>
 
 do
 : you
@@ -933,12 +934,12 @@ Close the right part of the table. Translate from Lojban the sentences on the le
 le tcati
 : the tea
 
-<pixra url="/assets/pixra/cilre/tcati.png" caption="tcati" definition="... is some tea"></pixra>
+<pixra url="/assets/pixra/cilre/tcati.png" caption="tcati" definition="… is some tea"></pixra>
 
 le ckafi
 : coffee
 
-<pixra url="/assets/pixra/cilre/tcati.png" caption="tcati" definition="... is some tea"></pixra>
+<pixra url="/assets/pixra/cilre/ckafi.png" caption="ckafi" definition="… is some coffee"></pixra>
 
 zgana
 : to watch, observe (using any senses)
@@ -1003,6 +1004,8 @@ Close the right part of the table. Translate to Lojban the sentences on the left
 
 > **do .e mi nintadni**
 > _You and I are newbies._
+
+<pixra url="/assets/pixra/cilre/do_e_mi_nintadni.png" caption="do .e mi nintadni" definition="You and I are new students."></pixra>
 
 <!-- -->
 
