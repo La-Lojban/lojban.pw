@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [
+  content: [
     "./pages/**/*.tsx", 
     "./components/**/*.tsx", 
     "./lib/**/*.tsx", 

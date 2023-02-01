@@ -14,7 +14,7 @@ type Props = {
 const PostHeader = ({ title, coverImage, date, author }: Props) => {
   return (
     <>
-      <PostTitle>{title}</PostTitle>
+      {title && <PostTitle>{title}</PostTitle>}
       {author?.name && <div className="hidden md:block md:mb-12">
         <Avatar name={author?.name} picture={author?.picture} />
       </div>}

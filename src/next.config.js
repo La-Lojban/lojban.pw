@@ -1,5 +1,5 @@
-const { join } = require('path')
-const md_content = join(process.cwd(), 'md_pages')
+const { join } = require("path");
+const md_content = join(process.cwd(), "md_pages");
 
 module.exports = {
 	trailingSlash: true,
@@ -14,6 +14,6 @@ module.exports = {
 	// 	return config
 	// },
 	env: {
-		md_content
+		md_content,
 	},
-}
+};

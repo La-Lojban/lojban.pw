@@ -40,27 +40,27 @@ export const links = [
   {
     rel: "apple-touch-icon",
     sizes: "180x180",
-    href: "/vreji/img/lojbo-180.png",
+    href: "/assets/icons/lojbo-180.png",
   },
   {
     rel: "icon",
     type: "image/png",
     sizes: "32x32",
-    href: "/vreji/img/lojbo-32.png",
+    href: "/assets/icons/lojbo-32.png",
   },
   {
     rel: "icon",
     type: "image/png",
     sizes: "16x16",
-    href: "/vreji/img/lojbo-16.png",
+    href: "/assets/icons/lojbo-16.png",
   },
   { rel: "manifest", href: "/favicon/site.webmanifest" },
   {
     rel: "mask-icon",
-    href: "/vreji/img/lojbo.svg",
+    href: "/assets/icons/lojbo.svg",
     color: "#000000",
   },
-  { rel: "shortcut icon", href: "/vreji/img/lojbo.svg" },
+  { rel: "shortcut icon", href: "/assets/icons/lojbo.svg" },
 ]
 
 export const meta = [
@@ -68,5 +68,5 @@ export const meta = [
   { name: "msapplication-config", content: "/favicon/browserconfig.xml" },
   { name: "theme-color", content: "#000" },
   { name: "description", content: "My app" },
-  { property: "og:image", content: "https://example.come/vreji/img/lojbo.svg" },
+  { property: "og:image", content: "https://example.come/assets/icons/lojbo.svg" },
 ]

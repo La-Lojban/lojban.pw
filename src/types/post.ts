@@ -1,8 +1,10 @@
 import Author from './author'
 import { TocElem } from './toc'
 
+
 type PostType = {
   slug: string[]
+  "meta.title"?: string
   title: string
   date: string
   coverImage: string

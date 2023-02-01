@@ -33,3 +33,4 @@ yarn-error.log*
 .env.production.local
 !archive/
 tmp/
+data/.cache

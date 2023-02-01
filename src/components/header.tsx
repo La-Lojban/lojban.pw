@@ -44,7 +44,7 @@ export default function Header({
 									<Link href="/welcome">
 										<img
 											className="logo"
-											src="/vreji/img/lojbo.svg"
+											src="/assets/icons/lojbo.svg"
 											alt="Lojban logo"
 										/>
 									</Link>

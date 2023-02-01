@@ -50,7 +50,7 @@ const Post = ({ post, preview }: Props) => {
 						<>
 							<article className="mt-10 mx-auto max-w-7xl px-4 sm:mt-8 sm:px-6 flex md:flex-row flex-wrap">
 								<Head>
-									<title>{`${post.title} | ${site_title}`}</title>
+									<title>{`${post["meta.title"] ?? post.title} | ${site_title}`}</title>
 									<meta property="og:image" content={post?.ogImage?.url} />
 								</Head>
 								{/* <div className="w-1/5 md:flex flex-col md:flex-row md:min-h-screen hidden">
@@ -132,6 +132,7 @@ type Params = {
 export async function getStaticProps({ params }: Params) {
 	const post = getPostBySlug(params.slug, [
 		"title",
+		"meta.title",
 		"date",
 		"slug",
 		"author",
