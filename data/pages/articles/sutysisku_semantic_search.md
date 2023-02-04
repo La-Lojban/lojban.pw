@@ -4,7 +4,7 @@ title: la sutysisku and similarity search
 
 [la sutysisku](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&versio=masno&sisku=marvellous&bangu=en) is a web application that can work offline. It provides access to Lojban dictionaries among other features.
 
-![la sutysisku - similarity search](/assets/arxivo/sutysisku_simsa.png)
+![la sutysisku - similarity search](/assets/pixra/arxivo/sutysisku_simsa.png)
 
 One feature of la sutysisku is the so called similarity search. If you want to know how to say "_marvellous_" in Lojban you may not expect the very word "marvellous" in the Lojban definition, instead you might expect similar in meaning words like "_brilliant_", "_delightful_", "_superlative_". la sutysisku tries its best to find words with definitions containing such synonymous or similar in meaning words.
 
