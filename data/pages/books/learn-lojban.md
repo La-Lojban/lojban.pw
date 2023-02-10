@@ -1987,33 +1987,27 @@ le nonmu
 le nunmu
 : the non-binary-gendered person
 
-although in most cases the simplest **le prenu** (_the person_) or personal names are fine.
+However, in most cases, using **le prenu** (_the person_) or personal names is sufficient.
 
-Another option is to use the short pronoun **ri**. It refers to the previous noun:
+Another option is to use the short pronoun **ri**, which refers to the previous noun:
 
-> **mi pu klama le nurma .i ri melbi**
+> **mi pu klama le nurma .i ri melbi** (**ri** refers to the country side)
 > _I went to the country. It was beautiful._
-
 
 le nurma
 : the rural area
 
 <pixra url="/assets/pixra/cilre/nurma.png" caption="nurma" definition="… is a rural area"></pixra>
 
-Here, **ri** refers to the country side.
-
-> **mi tavla le pendo .i ri jundi**
+> **mi tavla le pendo .i ri jundi** (**ri** refers to the friend)
 > _I talk to the friend. He/she is attentive._
-
 
 jundi
 : … is attentive
 
 <pixra url="/assets/pixra/cilre/jundi.png" caption="jundi" definition="The person is attentive."></pixra>
 
-Here, **ri** refers to the friend.
-
-**ri** skips pronouns **mi** (_I_) and **do** (_you_):
+Note: **ri** skips pronouns **mi** (_I_) and **do** (_you_):
 
 > **le prenu cu tavla mi .i ri pendo mi**
 > _The person talks to me. He/she is a friend of mine._
@@ -2022,7 +2016,7 @@ Here, **ri** skips the previous pronoun **mi** and thus refers to **le prenu** t
 
 ### Introducing yourself. Vocatives
 
-_Vocatives_ in Lojban are words that function just like interjections (**xu** which we earlier discussed) but they attach the following noun after them:
+In Lojban, _vocatives_ are words that behave like interjections (e.g. like **xu** which we earlier discussed) but they attach the following noun after them:
 
 > **coi do**
 > _Hello, you!_
@@ -2076,7 +2070,7 @@ Since vocatives work like interjections we have nice types of greetings:
 > **nicte coi**
 > _Nightly greetings!_
 
-Note that in English _Goodnight!_ means _Goodbye!_ or denotes wishing someone spending good night. By its meaning _Goodnight!_ doesn't belong to the series of greetings above. Thus, we use a different wording in Lojban:
+Note: in English _Goodnight!_ means _Goodbye!_ or denotes wishing someone spending good night. By its meaning _Goodnight!_ doesn't belong to the series of greetings above. Thus, we use a different wording in Lojban:
 
 <div class="common"></div>
 
@@ -2131,7 +2125,7 @@ Two more vocatives are are **ki'e** for saying thanks and **je'e** for accepting
 sidju
 : … helps … (someone)
 
-We can omit the noun after the vocative only if this is the ends of the sentence. For example we can just say
+We can omit the noun after the vocative only if this is the end of the sentence. For example, we can just say:
 
 > **— coi .i xu do kanro**
 > _— Hello. How do you do?_
@@ -2140,7 +2134,7 @@ We can omit the noun after the vocative only if this is the ends of the sentence
 kanro
 : … is healthy
 
-Here, a new sentence starts immediately after the vocative **coi** so we omitted the name. Or we can say:
+Here, a new sentence starts immediately after the vocative **coi**, so we omitted the name. Or we can say:
 
 > **coi do mi djica le nu do sidju mi**
 > _Hello. I want you to help me._
@@ -2148,7 +2142,7 @@ Here, a new sentence starts immediately after the vocative **coi** so we omitted
 
 Thus, in case you don't know the name of the listener you just place **do** after it if you want to continue the same sentence after the vocative.
 
-If you use the vocative on its own (without a noun after it) and the sentence is not finished yet then you need to separate it from the rest, because the things likeliest to follow the vocative in a sentence could easily be misconstrued as describing your addressee. Use the word **do** for that. For example,
+If you use the vocative on its own (without a noun after it) and the sentence is not finished yet, then you need to separate it from the rest. This is because the things that are most likely to follow the vocative in a sentence could easily be misconstrued as describing your addressee. Use the word **do** for separation. For example,
 
 > **coi do la .alis. la .doris. pu cliva**
 > _Hello! Alice left Doris._
@@ -2159,18 +2153,18 @@ If you use the vocative on its own (without a noun after it) and the sentence is
 > **coi la .alis. la .doris. pu cliva**
 > _Hello, Alice! Doris left._
 
-And if you want to put both vocatives and interjections modifying the whole sentence please put interjections first:
+And if you want to put both vocatives and interjections, modifying the whole sentence please put the interjections first:
 
 > **.ui coi do la .alis. la .doris. pu cliva**
 > _Yay, Hello! Alice left Doris._
 
-Note that in the beginning of sentences usually interjections are put before vocatives because
+Note: in the beginning of a sentence, interjections are usually put before vocatives because:
 
 > **coi .ui do la .alis. la .doris. pu cliva** means
 
 > _Hello (I'm happy about this greeting) you! Alice left Doris._
 
-So an interjection immediately after a vocative modifies that vocative. Similarly, interjection modifies the vocative noun when being put after it:
+So an interjection immediately after a vocative modifies that vocative. Similarly, an interjection modifies the vocative noun when being put after it:
 
 > **coi do .ui la .alis. la .doris. pu cliva**
 > _Hello you (I'm happy about you)! Alice left Doris._

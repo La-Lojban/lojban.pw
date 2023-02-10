@@ -42,7 +42,7 @@ const { sluggify } = require("../html-prettifier/slugger");
       timeout: 0,
 		});
 		const pdfFile =
-			"/app/src/public/vreji/uencu/" +
+			"/vreji/uencu/" +
 			url.split("/").slice("-1")[0] +
 			"-pre.pdf";
 		fs.writeFileSync(pdfFile, pdf);

@@ -42,7 +42,7 @@ RUN mkdir -p /app/src
 
 WORKDIR /app/
 
-RUN yarn global add npm-check-updates npx
+# RUN yarn global add npm-check-updates npx
 
 WORKDIR /app/
 

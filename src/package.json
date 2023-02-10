@@ -3,21 +3,23 @@
   "version": "2.0.0",
   "scripts": {
     "dev": "NODE_ENV=development next",
-    "build": "npx next telemetry disable && next build",
-    "start": "next start",
+    "compile": "next telemetry disable && yarn build && yarn print_service && yarn export && touch out/.nojekyll && cp -avr /app/service/DNS/* out/ && cp -avr /vreji out/",
+    "build": "next build",
+    "print_service": "mkdir -p /vreji/uencu && next start & sleep 5 && node lib/printer && ./lib/printer/shrink-pdf.sh",
     "export": "next export",
-    "print": "yarn build && yarn print_service && pkill node",
+    "clean": "rm -rf node_modules && rm -rf .next",
+    "start": "next start",
     "publication": "gh-pages --repo https://github.com/La-Lojban/lojban-made-easy.git -d out -t true",
-    "deploy": "npx next telemetry disable && rm -rf node_modules/.cache && rimraf out && next build && yarn print_service && yarn export && touch out/.nojekyll && cp -avr public/DNS/* out/ && yarn publication && pkill node",
-    "typecheck": "tsc",
-    "print_service": "mkdir -p public/vreji/uencu && next start & sleep 5 && node lib/printer && ./lib/printer/shrink-pdf.sh"
+    "deploy": "yarn compile && yarn publication && pkill node",
+    "print": "yarn compile && pkill node",
+    "typecheck": "tsc"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.2.1",
-    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@headlessui/react": "^1.7.9",
-    "@heroicons/react": "^2.0.14",
+    "@headlessui/react": "^1.7.10",
+    "@heroicons/react": "^2.0.15",
     "classnames": "2.3.2",
     "date-fns": "^2.29.3",
     "gray-matter": "^4.0.3",
@@ -25,7 +27,6 @@
     "next": "^13.1.6",
     "node-html-parser": "^6.1.4",
     "nprogress": "^0.2.0",
-    "puppeteer": "^19.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rehype-raw": "^6.1.1",
@@ -41,17 +42,18 @@
   },
   "devDependencies": {
     "@next/env": "^13.1.6",
-    "@types/jsdom": "^20.0.1",
-    "@types/node": "^18.11.19",
+    "@types/jsdom": "^21.1.0",
+    "@types/node": "^18.13.0",
     "@types/nprogress": "^0.2.0",
     "@types/react": "^18.0.27",
     "autoprefixer": "^10.4.13",
     "babel-plugin-transform-define": "^2.1.0",
     "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
+    "puppeteer": "^19.6.3",
     "rimraf": "^4.1.2",
     "tailwind-scrollbar": "^2.1.0",
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.2.6"
   },
   "license": "MIT"
 }

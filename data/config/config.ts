@@ -1,7 +1,7 @@
 export const site_title = "Lojban.pw"
-export const home_title = "Lojban language documentation"
+export const home_title = "Learn Lojban website"
 
-export const CMS_NAME = "Lojban made easy"
+export const CMS_NAME = "Learn Lojban website"
 import {
   faDiscord,
   faFacebook,

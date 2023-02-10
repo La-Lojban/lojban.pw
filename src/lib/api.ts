@@ -1,7 +1,7 @@
 import fs from "fs";
 import { join, resolve, relative, extname } from "path";
 import matter from "gray-matter";
-import { promises as fsp } from 'fs';
+import { promises as fsp } from "fs";
 
 const postsDirectory = process.env.md_content || "";
 
@@ -26,22 +26,26 @@ export async function getPostSlugs() {
 	return await getFiles();
 }
 
-export function getPostBySlug(slug: string[], fields: string[] = []) {
+type Items = {
+	slug: string[];
+	[key: string]: string | string[] | boolean;
+};
+
+export function getPostBySlug(slug: string[], fields: string[] = []): Items {
 	const realSlug = slug.join("/");
 	const fullPath = join(postsDirectory, `${realSlug}.md`);
 	const fileContents = fs.readFileSync(fullPath, "utf8");
 	const { data, content } = matter(fileContents);
 
-	type Items = {
-		[key: string]: string | string[];
-	};
-
-	const items: Items = {};
+	const items: Items = {slug: []};
 
 	// Ensure only the minimal needed data is exposed
 	fields.forEach((field) => {
 		if (field === "slug") {
 			items[field] = slug;
+		}
+		if (field === "hidden") {
+			items[field] = slug?.map(part=>part.charAt(0))?.includes("!")
 		}
 		if (field === "content") {
 			items[field] = content;
@@ -60,15 +64,16 @@ export function getPostBySlug(slug: string[], fields: string[] = []) {
 	return items;
 }
 
-export async function getAllPosts(fields: string[] = []) {
+export async function getAllPosts(fields: string[] = [], showHidden = false) {
 	const slugs = await getPostSlugs();
 	const posts = slugs
 		.map((slug: string) =>
 			getPostBySlug(slug.replace(/\.md$/, "").split("/"), fields)
 		)
 		.filter(
-			(post: any) =>
-				!fields.includes("title") || typeof post.title !== "undefined"
+			(post) =>
+				(showHidden || !post?.hidden) &&
+				(!fields.includes("title") || typeof post.title !== "undefined")
 		)
 		// sort posts by date in descending order
 		.sort((post1, post2) => (post1.date > post2.date ? -1 : 1));

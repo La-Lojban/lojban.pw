@@ -85,7 +85,7 @@ fi
 
 echo "Shrinking pdf files"
 
-for file in ./public/vreji/uencu/*-pre.pdf
+for file in /vreji/uencu/*-pre.pdf
 do
 	output=$(echo "$file" | sed "s/-pre.pdf/.pdf/")
 

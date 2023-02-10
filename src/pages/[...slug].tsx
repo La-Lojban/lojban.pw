@@ -39,7 +39,8 @@ const Post = ({ post, preview }: Props) => {
 	const isBook = post?.slug?.[0] === "books";
 	const pdfUrl = `/vreji/uencu/${post?.slug?.[1]}.pdf`;
 
-	return (
+	const title = `${post["meta.title"] ?? post.title} | ${site_title}`;
+	const pageToRender = (
 		<Layout preview={preview}>
 			<div>
 				<Container>
@@ -50,7 +51,7 @@ const Post = ({ post, preview }: Props) => {
 						<>
 							<article className="mt-10 mx-auto max-w-7xl px-4 sm:mt-8 sm:px-6 flex md:flex-row flex-wrap">
 								<Head>
-									<title>{`${post["meta.title"] ?? post.title} | ${site_title}`}</title>
+									<title>{title}</title>
 									<meta property="og:image" content={post?.ogImage?.url} />
 								</Head>
 								{/* <div className="w-1/5 md:flex flex-col md:flex-row md:min-h-screen hidden">
@@ -119,6 +120,7 @@ const Post = ({ post, preview }: Props) => {
 			</div>
 		</Layout>
 	);
+	return pageToRender;
 };
 
 export default Post;
@@ -132,6 +134,7 @@ type Params = {
 export async function getStaticProps({ params }: Params) {
 	const post = getPostBySlug(params.slug, [
 		"title",
+		"hidden",
 		"meta.title",
 		"date",
 		"slug",
@@ -139,10 +142,13 @@ export async function getStaticProps({ params }: Params) {
 		"content",
 		"ogImage",
 		"coverImage",
-		"fullPath"
+		"fullPath",
 	]);
 
-	const { text, toc } = await markdownToHtml({content: (post.content as string) || "", fullPath: post.fullPath as string});
+	const { text, toc } = await markdownToHtml({
+		content: (post.content as string) || "",
+		fullPath: post.fullPath as string,
+	});
 
 	return {
 		props: {
@@ -156,7 +162,7 @@ export async function getStaticProps({ params }: Params) {
 }
 
 export async function getStaticPaths() {
-	const posts = await getAllPosts(["slug"]);
+	const posts = await getAllPosts(["slug", "hidden"], true);
 	return {
 		paths: posts.map((posts) => {
 			return {
