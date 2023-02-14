@@ -1,7 +1,10 @@
 const { join } = require("path");
 const md_content = join(process.cwd(), "md_pages");
+const withPWA = require("next-pwa")({
+	dest: "public",
+});
 
-module.exports = {
+module.exports = withPWA({
 	trailingSlash: true,
 	// assetPrefix: 'lojban-',
 	// webpack: (config, { dev }) => {
@@ -16,4 +19,4 @@ module.exports = {
 	env: {
 		md_content,
 	},
-};
+});
