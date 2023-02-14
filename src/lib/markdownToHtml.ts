@@ -44,9 +44,25 @@ export default async function markdownToHtml({
 		},
 	};
 
-	const toc: TocElem[] = Array.from(
+	let toc: TocElem[] = Array.from(
 		root.querySelectorAll(tocTransformers.querySelectorAll)
 	).map(tocTransformers.fn);
+
+	//fix duplicate ids
+	const idCounts = toc.reduce((acc, item) => {
+		// Increment the count for this item's id, or set it to 1 if it doesn't exist
+		acc[item.id] = (acc[item.id] || 0) + 1;
+		return acc;
+	}, {} as { [key: string]: number });
+
+	toc = toc.map((item) => {
+		if (idCounts[item.id] > 1) {
+			// Increment the item's id if it is duplicated in the array
+			item.id += "-" + (idCounts[item.id] - 1).toString();
+			idCounts[item.id]--; // Decrement the count for this id
+		}
+		return item;
+	});
 
 	//transformers
 	transformers.forEach(({ selector, fn, wrapper }) =>

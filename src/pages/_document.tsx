@@ -12,6 +12,7 @@ export default class MyDocument extends Document {
 					<NextScript />
 					<script src="/assets/js/chat.js"></script>
 					<script src="/assets/js/img.js"></script>
+					<script src="/assets/js/headers.js"></script>
 					{/* <script src="/assets/indices/stork.js"></script> */}
 
 					{/* <script>

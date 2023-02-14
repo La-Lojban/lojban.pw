@@ -89,7 +89,7 @@ const Post = ({ post, preview }: Props) => {
 								<PostBody post={post} />
 								{hasToc && (
 									<nav className="hidden md:block toc w-full md:w-1/5 sticky px-2 bottom-0 md:top-20 h-16 md:h-screen font-medium text-sm overflow-ellipsis">
-										<div className="toc-core h-4/5 overflow-y-auto">
+										<div id="toc-core" className="toc-core h-4/5 overflow-y-auto">
 											{isBook && (
 												<Link
 													href={pdfUrl}
