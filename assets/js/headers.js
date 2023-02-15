@@ -7,13 +7,17 @@ function debounce(func, delay) {
 		var context = this;
 		var args = arguments;
 		clearTimeout(timeoutId);
-		timeoutId = setTimeout(function () { func.apply(context, args); }, delay);
+		timeoutId = setTimeout(function () {
+			func.apply(context, args);
+		}, delay);
 	};
 }
 
 function getClosestHeaderId() {
 	headers = Array.prototype.slice.call(document.querySelectorAll("h1, h2, h3"));
-	tocHeaders = Array.prototype.slice.call(document.querySelectorAll("a.in-toc"));
+	tocHeaders = Array.prototype.slice.call(
+		document.querySelectorAll("a.in-toc")
+	);
 
 	var closestHeader = null;
 	var distance = Number.MAX_VALUE;
@@ -33,7 +37,22 @@ function getClosestHeaderId() {
 	tocHeaders.forEach(function (a) {
 		if (a.href.endsWith(hashedId)) {
 			a.classList.add("hover");
-			document.getElementById("toc-core").scrollTop = a.offsetTop;
+
+			var tocCore = document.getElementById("toc-core");
+			var tocCoreRect = tocCore.getBoundingClientRect();
+
+			var elementRect = a.getBoundingClientRect();
+
+			var isVisible =
+				elementRect.top >= tocCoreRect.top &&
+				elementRect.bottom <= tocCoreRect.bottom;
+			if (!isVisible)
+				// tocCore.scrollTop = a.offsetTop;
+				tocCore.scrollTo({
+					top: a.offsetTop,
+					left: 0,
+					behavior: 'smooth'
+				  });
 		} else {
 			a.classList.remove("hover");
 		}
@@ -43,3 +62,4 @@ function getClosestHeaderId() {
 var debouncedGetClosestHeaderId = debounce(getClosestHeaderId, 1000);
 
 window.addEventListener("scroll", debouncedGetClosestHeaderId);
+
