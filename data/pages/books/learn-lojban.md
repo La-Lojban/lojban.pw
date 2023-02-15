@@ -5275,6 +5275,8 @@ tarmi
 cukla
 : x1 is round (in form)
 
+<pixra url="/assets/pixra/cilre/coha_viska.png" caption="le prenu co'a viska le cipni" definition="The person notices, begins to see the bird."></pixra>
+
 > **mi viska le plise**
 > _I see the apple._
 
@@ -5284,7 +5286,6 @@ cukla
 > **.i le plise cu se tarmi le cukla**
 > _The apple is round._
 
-<pixra url="/assets/pixra/cilre/coha_viska.png" caption="le prenu co'a viska le cipni" definition="The person notices, begins to see the bird."></pixra>
 
 <!-- -->
 <!-- > **mi viska le se skari be le plise**
@@ -5300,6 +5301,8 @@ Note: we can both say _see the form of the apple_ and _see the apple_.
 tirna
 : x1 hears x2 (object or sound)
 
+<pixra url="/assets/pixra/cilre/le_prenu_cu_tirna_lei_djacu.png" caption="le prenu cu tirna lei djacu" definition="The person hears the waters."></pixra>
+
 > **mi tirna le palta**
 > _I hear the plate_
 
@@ -5311,7 +5314,6 @@ tirna
 > **.i le palta cu se sance le cladu**
 > _It sounds loud._
 
-<pixra url="/assets/pixra/cilre/le_prenu_cu_tirna_lei_djacu.png" caption="le prenu cu tirna lei djacu" definition="The person hears the waters."></pixra>
 
 le palta
 : the plate
@@ -5401,10 +5403,11 @@ sumne
 panci
 : x1 is an odor of x2 (object)
 
+<pixra url="/assets/pixra/cilre/sumne.png" caption="le mlatu cu sumne le xrula" definition="The cat smells the flower."></pixra>
+
 > **mi sumne le xrula**
 > _I smell the flower._
 
-<pixra url="/assets/pixra/cilre/sumne.png" caption="le mlatu cu sumne le xrula" definition="The cat smells the flower."></pixra>
 
 <!-- -->
 
