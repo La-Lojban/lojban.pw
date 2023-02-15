@@ -1,36 +1,36 @@
-let headers = [];
-let tocHeaders = [];
+var headers = [];
+var tocHeaders = [];
 
 function debounce(func, delay) {
-	let timeoutId;
+	var timeoutId;
 	return function () {
-		const context = this;
-		const args = arguments;
+		var context = this;
+		var args = arguments;
 		clearTimeout(timeoutId);
-		timeoutId = setTimeout(() => func.apply(context, args), delay);
+		timeoutId = setTimeout(function () { func.apply(context, args); }, delay);
 	};
 }
 
 function getClosestHeaderId() {
-	headers = Array.from(document.querySelectorAll("h1, h2, h3"));
-	tocHeaders = Array.from(document.querySelectorAll("a.in-toc"));
+	headers = Array.prototype.slice.call(document.querySelectorAll("h1, h2, h3"));
+	tocHeaders = Array.prototype.slice.call(document.querySelectorAll("a.in-toc"));
 
-	let closestHeader = null;
-	let distance = Number.MAX_VALUE;
-	const currentPosition = window.scrollY;
+	var closestHeader = null;
+	var distance = Number.MAX_VALUE;
+	var currentPosition = window.scrollY;
 
-	for (let i = 0; i < headers.length; i++) {
-		const header = headers[i];
-		const currentDistance = Math.abs(currentPosition - header.offsetTop);
+	for (var i = 0; i < headers.length; i++) {
+		var header = headers[i];
+		var currentDistance = Math.abs(currentPosition - header.offsetTop);
 		if (currentDistance < distance) {
 			closestHeader = header;
 			distance = currentDistance;
 		}
 	}
 
-	const hashedId = "#" + closestHeader.id;
+	var hashedId = "#" + closestHeader.id;
 	history.replaceState(null, null, hashedId);
-	tocHeaders.forEach((a) => {
+	tocHeaders.forEach(function (a) {
 		if (a.href.endsWith(hashedId)) {
 			a.classList.add("hover");
 			document.getElementById("toc-core").scrollTop = a.offsetTop;
@@ -40,6 +40,6 @@ function getClosestHeaderId() {
 	});
 }
 
-const debouncedGetClosestHeaderId = debounce(getClosestHeaderId, 1000);
+var debouncedGetClosestHeaderId = debounce(getClosestHeaderId, 1000);
 
 window.addEventListener("scroll", debouncedGetClosestHeaderId);
