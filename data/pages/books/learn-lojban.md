@@ -5400,6 +5400,8 @@ panci
 > **mi sumne le xrula**
 > _I smell the flower._
 
+<pixra url="/assets/pixra/cilre/sumne.png" caption="le mlatu cu sumne le xrula" definition="The cat smells the flower."></pixra>
+
 <!-- -->
 
 > **mi sumne le panci be le za'u xrula**
