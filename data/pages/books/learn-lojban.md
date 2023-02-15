@@ -5284,6 +5284,8 @@ cukla
 > **.i le plise cu se tarmi le cukla**
 > _The apple is round._
 
+<pixra url="/assets/pixra/cilre/coha_viska.png" caption="le prenu co'a viska le cipni" definition="The person notices, begins to see the bird."></pixra>
+
 <!-- -->
 <!-- > **mi viska le se skari be le plise**
 > _I see the color of the apple._ -->
@@ -5308,6 +5310,8 @@ tirna
 
 > **.i le palta cu se sance le cladu**
 > _It sounds loud._
+
+<pixra url="/assets/pixra/cilre/le_prenu_cu_tirna_lei_djacu.png" caption="le prenu cu tirna lei djacu" definition="The person hears the waters."></pixra>
 
 le palta
 : the plate
