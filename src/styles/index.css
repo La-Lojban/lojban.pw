@@ -118,7 +118,7 @@ md-footer-social__link.in-heading {
   @apply hover:text-deep-orange-500;
 }
 article a.in-toc.hover {
-  @apply text-deep-orange-500;
+  @apply font-bold text-deep-orange-500;
 }
 
 span.in-heading.hash {
