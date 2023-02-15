@@ -14,7 +14,11 @@ function debounce(func, delay) {
 }
 
 function getClosestHeaderId() {
-	headers = Array.prototype.slice.call(document.querySelectorAll("h1, h2, h3"));
+	headers = Array.prototype.slice
+		.call(document.querySelectorAll("h1, h2, h3"))
+		.sort(function (a, b) {
+			return a.offsetTop < b.offsetTop;
+		});
 	tocHeaders = Array.prototype.slice.call(
 		document.querySelectorAll("a.in-toc")
 	);
@@ -25,7 +29,8 @@ function getClosestHeaderId() {
 
 	for (var i = 0; i < headers.length; i++) {
 		var header = headers[i];
-		var currentDistance = Math.abs(currentPosition - header.offsetTop);
+		if (currentPosition < header.offsetTop) break;
+		var currentDistance = currentPosition - header.offsetTop;
 		if (currentDistance < distance) {
 			closestHeader = header;
 			distance = currentDistance;
@@ -51,8 +56,8 @@ function getClosestHeaderId() {
 				tocCore.scrollTo({
 					top: a.offsetTop,
 					left: 0,
-					behavior: 'smooth'
-				  });
+					behavior: "smooth",
+				});
 		} else {
 			a.classList.remove("hover");
 		}
@@ -62,4 +67,3 @@ function getClosestHeaderId() {
 var debouncedGetClosestHeaderId = debounce(getClosestHeaderId, 1000);
 
 window.addEventListener("scroll", debouncedGetClosestHeaderId);
-
