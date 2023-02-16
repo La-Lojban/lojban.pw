@@ -29,11 +29,13 @@ function getClosestHeaderId() {
 
 	for (var i = 0; i < headers.length; i++) {
 		var header = headers[i];
-		if (currentPosition < header.offsetTop) break;
-		var currentDistance = currentPosition - header.offsetTop;
+		// if (currentPosition < header.offsetTop) break;
+		var currentDistance = Math.abs(currentPosition - header.offsetTop);
 		if (currentDistance < distance) {
 			closestHeader = header;
 			distance = currentDistance;
+		} else {
+			break;
 		}
 	}
 

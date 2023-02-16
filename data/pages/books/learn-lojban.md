@@ -1178,7 +1178,7 @@ In order to emphasize that you and I participate in the same action, we use a sp
 
 The pronoun **mi'o** (_you and I together_) can actually be expressed as **mi joi do**, which means exactly the same (it's just longer). In Lojban, you may use not a single word for _we_ but more precise constructs like **mi joi le pendo** (literally _I and the friends_).
 
-<pixra url="/assets/pixra/cilre/casnu.png" caption="do joi le pendo joi mi cu casnu" definition="You, the friend and I are in a discussion."></pixra>
+<pixra url="/assets/pixra/cilre/casnu.png" caption="do joi le pendo joi mi casnu" definition="You, the friend and I are in a discussion."></pixra>
 
 #### Task
 
@@ -5152,9 +5152,6 @@ In English we say _Сan you see_, in Lojban we say just **xu do viska** — _You
 > _Yes. It is an apple._
 > _The apple is red. It's colored red._
 
-plise
-: … is apple
-
 > **xu do viska le tarmi be le plise**
 > _Can you see the form of the apple?_
 
@@ -5431,14 +5428,23 @@ In Lojban we can easily separate between those cases like shown in the examples 
 vrusi
 : x1 is a taste of x2
 
-> **mi zgana le vrusi be le plise**
-> _I taste the apple._
-> `I observe the taste of the apple`
+<pixra url="/assets/pixra/cilre/zgana_le_vrusi.png" caption="le prenu cu zgana le vrusi be le grute" definition="The person tastes, observes the taste of the fruit."></pixra>
 
+> **mi zgana le vrusi be le grute**
+> _I taste the apple._
+> `I observe the taste of the fruit`
+
+le grute
+: the fruit, the fruits
 <!-- -->
 
-> **.i le plise cu se vrusi le kukte**
+<pixra url="/assets/pixra/cilre/se_vrusi_lo_ka_kukte.png" caption="le grute cu se vrusi le titla" definition="The fruits are sweet."></pixra>
+
+> **.i le plise cu se vrusi le titla**
 > _The apple tastes sweet._
+
+titla
+: … is sweet, … is a sweetie
 
 #### Sense of touch
 
