@@ -2352,7 +2352,7 @@ Such "recursive" mechanism of wrapping relations into relations allows expressin
 
 ### Why are verbs defined the way they are?
 
-English uses a limited set of prepositions that are reused across various verbs and thus have no fixed meaning. Compare the usage of the English preposition _to_:
+English uses a limited set of prepositions that are reused across various verbs and, thus, have no fixed meaning. For example, consider the English preposition _to_:
 
 > _I speak to you._
 
@@ -2362,11 +2362,11 @@ English uses a limited set of prepositions that are reused across various verbs 
 
 > _To me it looks pretty._
 
-In each of those examples the _to_ has a new role that is at best remotely similar to roles in other sentences.
+In each of those examples, _to_ has a new role that is, at best, remotely similar to roles in other sentences.
 
-Needless to say that other languages use other ways of marking roles of verbs that in many cases are very different from those used in English.
+It's important to note that other languages use different ways of marking roles of verbs that, in many cases, are very different from those used in English.
 
-Lojban marks core roles of relations by fully defining such relations with the roles placed in sequence (or marked with **fa**, **fe**, …):
+Lojban, for instance, marks core roles of relations by fully defining such relations with the roles placed in sequence (or marked with **fa**, **fe**, and so on):
 
 klama
 : x1 comes to x2 …
@@ -2386,7 +2386,7 @@ However, there can be optional roles that make relations more precise:
 
 > _It's hard to me because this thing is heavy._
 
-In Lojban a similar notion of such optional roles is expressed via separate relations or for most common cases with modal terms:
+In Lojban, a similar notion of such optional roles is expressed via separate relations or, for most common cases, with modal terms:
 
 > **mi tavla do ze'a le nu mi citka**
 > _I speak to you while I'm eating._
@@ -2400,7 +2400,7 @@ nandu
 tilju
 : x1 is heavy
 
-Prepositions in English are similar to modal particles in Lojban, although a usual English preposition can nhave many meanings while in Lojban every modal particle has only one (even if vague) meaning.
+Prepositions in English are similar to modal particles in Lojban, although a usual English preposition can have many meanings while in Lojban, every modal particle has only one (even if vague) meaning.
 
 ### General rules in the order of arguments
 
