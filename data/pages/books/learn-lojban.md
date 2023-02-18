@@ -1688,7 +1688,7 @@ to'o
 bu'u
 : at … (some place)
 
-Note: **nu** shows that a new relation in a sentence starts. We put **kei** after such relation to show its right border, similar to how we use ")" or "]" in math. For example:
+Note: **nu** shows that a new inner embedded sentence starts within the main sentence. We put **kei** after such relation to show its right border, similar to how we use ")" or "]" in math. For example:
 
 > **le gerku cu plipe fa'a mi ca le nu do ca'o klama**
 > _The dog jumps towards me when you are coming._
@@ -1705,7 +1705,7 @@ but
 
 Brackets _(_ and_)_ are used here only to show the structure; they are not necessary in a normal Lojban text.
 
-We use **kei** after the inner relation **nu do ca'o klama** to show that it ended, and the main relation continues with its **cu**, terms, nouns, pronouns.
+We use **kei** after the inner sentence **do ca'o klama** to show that it ended, and the main relation continues with its **cu**, terms, nouns, pronouns.
 
 Compare this sentence with the following:
 
@@ -2404,13 +2404,15 @@ Prepositions in English are similar to modal particles in Lojban, although a usu
 
 ### General rules in the order of arguments
 
-The order of places in verbs might be sometimes hard to remember. But let's not worry — like in English you don't need to remember all places of all verbs (do you remember the meaning of hundreds of thousands of words in English?)
+The order of places in verbs might be sometimes hard to remember, but let's not worry — you don't need to remember all the places of all verbs. (Do you remember the meaning of hundreds of thousands of words in English?)
 
 You may study places when you find them useful or when people use them in a dialogue with you.
 
-Most of verbs have one or two places. Usually you can guess the order using context and a few rules of thumb:
+Most verbs have two-three places.
 
-1. The first place is often the person or thing who does something or is something:
+Usually, you can guess the order using context and a few rules of thumb:
+
+1. The first place is often the person or thing that does something or is something:
 
     **klama** = _x1 goes …_
 
@@ -2422,13 +2424,13 @@ Most of verbs have one or two places. Usually you can guess the order using cont
 
     **punji** = _x1 puts x2 on x3_,
 
-4. Destination (_to_) places nearly always come before origins (_from_) places:
+4. Destination (_to_) places nearly always come before origin (_from_) places:
 
     **klama** = _x1 goes to x2 from x3_
 
     <pixra url="/assets/pixra/cilre/klama_fi.png" caption="le prenu cu klama fi le zarci" definition="The person goes out of the shop."></pixra>
 
-5. Less-used places come towards the end. These tend to be things like ‘by standard’, ‘by means’ or ‘made of’.
+5. Less-used places come towards the end. These tend to be things like _by standard_, _by means_ or _made of_.
 
 The general idea is that first come the places which are most likely to be used.
 
@@ -2436,7 +2438,7 @@ No need to fill all places all the time. Unfilled places just have values irrele
 
 ### Infinitives
 
-Infinitives are verbs that are often prefixed with _to_ in English. Examples include _I like to run_ with _to run_ being the infinitive.
+Infinitives are verbs that are often prefixed with _to_ in English. Examples include _I like to run_, with _to run_ being the infinitive.
 
 > **le verba cu troci le ka cadzu**
 > _The child is trying to walk._
@@ -2452,14 +2454,14 @@ cadzu
 
 <pixra url="/assets/pixra/cilre/troci_cadzu.png" caption="le verba cu troci le ka cadzu" definition="The child tries to walk."></pixra>
 
-The particle **ka** works much like **nu** but it indicates that the noun on the left does or would do the action following **ka**. It makes the first noun of the outer verb (**troci** in this case) also the first omitted noun of the embedded verb started by **ka** (**cadzu** in this case) so you don't have to repeat this noun the second time.
+The particle **ka** works much like nu, but it indicates that the noun on the left does or would do the action following **ka**. It makes the first noun of the outer verb (**troci** in this case) also the first omitted noun of the embedded verb started by **ka** (**cadzu** in this case), so you don't have to repeat this noun the second time.
 
-Some verbs require only infinitives in some of their places. Definitions of such words mark such places with the term _property_ or **ka**. For example,
+Some verbs require only infinitives in some of their places. Definitions of such words mark such places with the term _property_ or **ka**. For example:
 
 cinmo
 : x1 feels x2 (ka)
 
-This means that the infinitive in the second place (x2) is applied to some place (most likely, the first place, x1). Cases where infinitive is applied to places other than x2 are rare and are explained for corresponding verbs or in case of verbs invented unofficially can be deduced from common sense.
+This means that the infinitive in the second place (x2) is applied to some place (most likely, the first place, x1). Cases where the infinitive is applied to places other than x2 are rare and are explained for corresponding verbs or in the case of verbs invented unofficially, can be deduced from common sense.
 
 Note that only the first unfilled place of the embedded relation takes the meaning of the outer place:
 
@@ -2469,7 +2471,7 @@ Note that only the first unfilled place of the embedded relation takes the meani
 tcidu
 : x1 reads x2 from x3
 
-Here, the first unfilled place is the second place of **prami** thus it takes the value **mi** (_I_).
+Here, the first unfilled place is the second place of **prami**, thus it takes the value **mi** (_I_).
 
 It is also possible by using the pronoun **ce'u** to explicitly mark a place that has to be applied to some outer noun:
 
@@ -9413,7 +9415,7 @@ Here is the list of different kind of groupers in compound verbs ranked from the
 
 ### Explicit termination of nouns
 
-the small word **ku** can be used at the end of a noun to explicitly show its right border. **ku** is analogous to right bracket in math.
+the small word **ku** can be used at the end of a noun to explicitly show its right border. **ku** is analogous to the right bracket in math.
 
 > **tu du le badna ku ui**
 > **tu du le ui badna**
@@ -9424,6 +9426,60 @@ as opposed to:
 > **tu du le badna ui**
 > _That is the banana (yay that it's a banana and not something else in nature!)_
 
+### Avoiding explicit termination
+
+Another style of speaking is to avoid termination. Here are some common cases:
+
+Elimination of **li'u**, the right quotation mark:
+
+> **lu mi prami do li'u cu se cusku la .alis.**
+> **lu mi prami do li'u se cusku la .alis.**
+> **lu mi prami do cu se cusku la .alis.**
+> _"I love you,"" said Alice._
+
+**li'u** can be elided here because there cannot be two main relation constructs in one sentence. Hence, we first read **lu mi prami do** part, and then when we see the **cu**, we realize that we cannot continue this quoted sentence further. We assume that the quotation ended and the outer sentence continues. Thus, no ambiguity arises. 
+
+Elimination of **ku'o**, the right border of relative clauses:
+
+> **le prenu noi mi zgana ke'a ku'o ca tavla le pendo be mi**
+> **le prenu noi mi zgana ke'a ca tavla le pendo be mi**
+> _The person whom I'm observing is now talking to my friend._
+
+**ku'o** can be elided here when the relative clause that we need (**mi zgana ke'a**) ends in a term, **ke'a** in this case. After the relative clause, something other than a term starts, so the relative clause cannot be continued, and thus we know it successfully ends without any explicit right bracket words.
+
+A similar trick would be to place **ke'a** always at the end of the relative clause:
+
+> **le prenu noi ke'a melbi ku'o ca tavla le pendo be mi**
+> **le prenu noi melbi fa ke'a ca tavla le pendo be mi**
+> _The person who is pretty is now talking to my friend._
+
+However, in the following case, termination is necessary:
+
+> **le prenu noi mi zgana ke'a ku'o le pendo be mi ca tavla**
+> _The person whom I'm observing is now talking to my friend._
+
+because after the relative clause **mi zgana ke'a**, we chose to place another term (**le pendo be mi**) not belonging to the current relative clause.
+
+A semi-trick here would be to use **ce'e**:
+
+> **le prenu noi mi ke'a zgana ce'e le pendo be mi ca tavla**
+> _The person whom I'm observing is now talking to my friend._
+
+Here, we end the relative clause with the main relation construct **zgana**. Then we have the conjunction **ce'e** and a term afterwards (**le pendo be mi**). Since **ce'e** can join only terms, we know that to the left of **ce'e**, we have a term, which can only be **le prenu noi mi ke'a**. Hence, the meaning is retained, and no ambiguity arises. Note that we still need a separate word, **ce'e**, in such cases, so although we eliminated the bright bracket word, we still had to introduce something else.
+
+Elimination of **kei**, the right border of inner sentences:
+
+>**mi cinmo le ka badri kei le tcini**
+>**le ka badri cu se cinmo mi le tcini**
+>**mi cinmo fi le tcini fe le ka badri**
+>**mi cinmo le ka badri ce'e le tcini**
+>_I feel sad regarding the situation._
+
+>**mi stidi lo ka citka su'o da kei do**
+>**mi stidi lo ka ce'u su'o da citka ce'e do**
+>_I suggest that you eat something._
+
+As you can see, no trick makes the result shorter than the original with **kei**, so for conciseness, you may wish to use **kei**.
 ### Conversion from sets to masses
 
 > **le prenu cu pa moi le'i pendo be mi ku noi lu'o ke'a ca smaji**
