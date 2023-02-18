@@ -4,7 +4,7 @@ meta.title: Learn Lojban
 
 **Lojban** is a spoken logical language that was created in 1987 and is now supported by its speakers.
 
-Here is a copyright-free, unofficial, libre tutorials and documentation on the Lojban language.
+Here are copyright-free, unofficial, libre tutorials and documentation on the Lojban language.
 
 You can send any suggestions to [gleki.is.my.name@gmail.com](mailto:gleki.is.my.name@gmail.com) or add issues at the [Lojban source repository](https://github.com/la-lojban/lojban-made-easy/issues).
 

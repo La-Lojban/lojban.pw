@@ -374,12 +374,9 @@ article figure {
 }
 
 article figure .figure_img {
-  @apply -m-px bg-cover w-full print:w-48 print:h-48 md:w-48 md:h-48 ;
+  @apply -m-px bg-contain bg-no-repeat h-0 w-full print:w-48 print:h-48 md:w-48 md:h-48 ;
+  padding-top: 100%;
 }
-
-/* article figure img {
-  @apply w-full border-0 block m-0 rounded-t-sm;
-} */
 
 article figcaption {
   @apply text-xs m-3 text-center;
