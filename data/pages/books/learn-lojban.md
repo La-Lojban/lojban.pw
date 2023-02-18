@@ -3000,11 +3000,11 @@ Other examples:
 
 When not using **nu** we don't have event relations. Nouns start with **le** and end in its verb (whether it's a single or a compound verb). Thus we can put term particles before a verb in a noun only before that verb:
 
+<pixra url="/assets/pixra/cilre/coha_purdi.png" caption="le pu kunti tumla ca purdi" definition="What was a desert is now a garden."></pixra>
 
 > **le pu kunti tumla ca purdi**
 > _What was a desert is now a garden._
 
-<pixra url="/assets/pixra/cilre/coha_purdi.png" caption="le pu kunti tumla ca purdi" definition="What was a desert is now a garden."></pixra>
 
 So **pu** belongs to **le kunti tumla** and **ca** belongs to **purdi** (as **le pu kunti tumla** can't add **ca** in the end).
 
@@ -3019,12 +3019,12 @@ ze'u
 
 Placing term particles after nouns binds them to outer verbs:
 
+<pixra url="/assets/pixra/cilre/cohu_purdi.png" caption="le kunti tumla pu purdi" definition="The desert was a garden."></pixra>
 
 > **le kunti tumla pu purdi**
 > **(le kunti tumla) pu purdi**
 > _The desert was a garden._
 
-<pixra url="/assets/pixra/cilre/cohu_purdi.png" caption="le kunti tumla pu purdi" definition="The desert was a garden."></pixra>
 
 ### New nouns from places of the same verb
 
