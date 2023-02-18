@@ -2009,7 +2009,7 @@ jundi
 
 Here, **ri** refers to the friend.
 
-<pixra url="/assets/pixra/cilre/jundi.png" caption="jundi" definition="The person is attentive."></pixra>
+<pixra url="/assets/pixra/cilre/jundi.png" caption="le prenu cu jundi" definition="The person is attentive."></pixra>
 
 Note: **ri** skips pronouns **mi** (_I_) and **do** (_you_):
 
