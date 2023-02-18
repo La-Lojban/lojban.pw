@@ -1815,7 +1815,7 @@ Close the right part of the table. Translate the sentences on the left to Lojban
 
 ### Names. Choosing a name
 
-**le cmevla**, or _name word_, is a special kind of word used to build personal names. It's easy to recognize le cmevla in a text flow as they are the only words that end in a consonant and are wrapped by one dot on each side.
+**le cmevla**, or _name word_, is a special kind of word used to build personal names. It's easy to recognize le cmevla in a text flow, as they are the only words that end in a consonant and are wrapped by one dot on each side.
 
 Examples of le cmevla are: **.paris.**, **.robin.**
 
@@ -1833,7 +1833,7 @@ tcidu
 
 **la** is similar to **le**, but it converts a word into a name instead of a simple noun.
 
-In English, we start a word with a capital letter to show that it is a name. In Lojban we use the prefix word **la**.
+In English, we start a word with a capital letter to show that it is a name. In Lojban, we use the prefix word **la**.
 
 Always use **la** when producing names!
 
@@ -1848,9 +1848,9 @@ It's common to omit dots in front of and at the end of le cmevla to write texts 
 
 > **la bab djansyn cu tcidu**
 
-However, in spoken language it is still necessary to put a short pause before and after le cmevla.
+However, in spoken language, it is still necessary to put a short pause before and after le cmevla.
 
-Bob's first name, the name of the language _Lojban_ can be used in Lojban without many changes:
+Bob's first name, the name of the language _Lojban_, can be used in Lojban without many changes:
 
 > **la .lojban. cu bangu mi**
 > _I speak Lojban._
@@ -1889,8 +1889,8 @@ Here are "Lojbanizations" of some names:
 
 Notes:
 
-* Two extra full stops (periods) are necessary because if you don't put those pauses in speech, you might not know where the name starts and ends, or in other words, where the previous word ends and the next word begins.
-* The last letter of a cmevla must be a consonant. If a name doesn't end in a consonant, we usually add an **s** to the end; so in Lojban, _Mary_ becomes **.meris.**, _Joe_ becomes **.djos.**, and so on. An alternative is to leave out the last vowel, so _Mary_ would become **.mer.** or **.meir**.
+* Two additional full stops (periods) are necessary because if you don't put those pauses in speech, it might become difficult to know where the name starts and ends, or in other words, where the previous word ends and the next word begins.
+* The last letter of a cmevla must be a consonant. If a name doesn't end in a consonant, we usually add an **s** to the end; so in Lojban, _Mary_ becomes **.meris.**, _Joe_ becomes **.djos.**, and so on. Alternatively, we can leave out the last vowel, so _Mary_ would become **.mer.** or **.meir**.
 * You can also put a full stop between a person's first and last names (though it's not compulsory), so _Jim Jones_ becomes **.djim.djonz.**
 
 ### Rules for making le cmevla
@@ -1909,7 +1909,7 @@ Here is a compact representation of Lojban sounds:
 
 To create a Lojban name, follow these rules:
 
-1. the name must end in a consonant except **'**. If notб add a consonant at the end yourself. Additionally, wrap it with a dot from each side: **.lojban.**.
+1. the name must end in a consonant except **'**. If not, add a consonant at the end yourself. Additionally, wrap it with a dot from each side: **.lojban.**.
 2. vowels can only be placed between two consonants:  **.sam.**, **.no'am.**
 3. double consonants are merged into one: _dd_ becomes **d**, _nn_ becomes **n** etc. Or a **y** is placed between them: **.nyn.**
 4. if a voiced and an unvoiced consonants are next to each other, insert a **y** between them: **kv** becomes **kyv**. Alternatively, you can remove one of the letters instead: **pb** can be turned into a single **p** or a single **b**.
@@ -1922,9 +1922,9 @@ To create a Lojban name, follow these rules:
 
 ### Relation words as names
 
-You can pick a fun nickname in Lojban by using not only cmevla but also relation words. You can also translate your current name into Lojban if you know what it means, or choose a brand new Lojban name.
+You can select an enjoyable nickname in Lojban by using not only cmevla but also relation words. You can also translate your present name into Lojban if you know what it means, or choose a completely new Lojban name.
 
-Here are some examples:
+Here are a few examples:
 
 <table>
 <thead>
@@ -1987,9 +1987,9 @@ le nonmu
 le nunmu
 : the non-binary-gendered person
 
-However, in most cases, using **le prenu** (_the person_) or personal names is sufficient.
+However, in most situations, using **le prenu** (_the person_) or personal names is sufficient.
 
-Another option is to use the short pronoun **ri**, which refers to the previous noun:
+Another choice is to use the short pronoun **ri**, which refers to the previous noun:
 
 > **mi pu klama le nurma .i ri melbi** (**ri** refers to the country side)
 > _I went to the country. It was beautiful._
@@ -2012,11 +2012,11 @@ Note: **ri** skips pronouns **mi** (_I_) and **do** (_you_):
 > **le prenu cu tavla mi .i ri pendo mi**
 > _The person talks to me. He/she is a friend of mine._
 
-Here, **ri** skips the previous pronoun **mi** and thus refers to **le prenu** that is the previous noun/pronoun available.
+Here, **ri** skips the previous pronoun **mi** and thus refers to **le prenu** which is the preceding noun/pronoun available.
 
 ### Introducing yourself. Vocatives
 
-In Lojban, _vocatives_ are words that behave like interjections (e.g. like **xu** which we earlier discussed) but they attach the following noun after them:
+In Lojban, _vocatives_ are words that behave like interjections (such as **xu** which we earlier discussed), but they require the following noun to be attached to them:
 
 > **coi do**
 > _Hello, you!_
@@ -2024,7 +2024,7 @@ In Lojban, _vocatives_ are words that behave like interjections (e.g. like **xu*
 coi
 : vocative: Hello! Hi!
 
-We use **coi** + a noun or pronoun to greet someone.
+We use **coi** followed by a noun or pronoun to greet someone.
 
 > **co'o do**
 > _Goodbye to you._
@@ -2070,7 +2070,7 @@ Since vocatives work like interjections we have nice types of greetings:
 > **nicte coi**
 > _Nightly greetings!_
 
-Note: in English _Goodnight!_ means _Goodbye!_ or denotes wishing someone spending good night. By its meaning _Goodnight!_ doesn't belong to the series of greetings above. Thus, we use a different wording in Lojban:
+Note: in English _Goodnight!_ means _Goodbye!_ or denotes wishing someone a good night. By its meaning, _Goodnight!_ doesn't belong to the series of greetings above. Thus, we use different wording in Lojban:
 
 <div class="common"></div>
 
@@ -2100,7 +2100,7 @@ The vocative **mi'e** + a noun/pronoun is used to introduce yourself:
 mi'e
 : vocative: identifies speaker
 
-The vocative **doi** is used to show who we're talking to:
+The vocative **doi** is used to address someone directly:
 
 > **mi cliva doi la .robert.**
 > _I'm leaving, Robert._
@@ -2108,14 +2108,14 @@ The vocative **doi** is used to show who we're talking to:
 cliva
 : to leave (something or someone)
 
-Without **doi** the name might become the first noun of the relation:
+Without **doi**, the name might become the first noun of the relation:
 
 > **mi cliva la .robert.**
 > _I'm leaving Robert._
 
-**doi** is a like Old English _O_ (as in _O ye of little faith_) or the Latin vocative (as in _Et tu, Brute_). Some languages don't distinguish between these contexts although as you can see Old English and Latin did.
+**doi** is a like Old English _O_ (as in _O ye of little faith_) or the Latin vocative (as in _Et tu, Brute_). Some languages don't distinguish between these contexts, although as you can see, Old English and Latin did.
 
-Two more vocatives are are **ki'e** for saying thanks and **je'e** for accepting them:
+Two more vocatives are **ki'e** for saying thanks and **je'e** for accepting them:
 
 > **— ki'e do do pu sidju mi**
 > **— je'e do**
@@ -2125,7 +2125,7 @@ Two more vocatives are are **ki'e** for saying thanks and **je'e** for accepting
 sidju
 : … helps … (someone)
 
-We can omit the noun after the vocative only if this is the end of the sentence. For example, we can just say:
+We can omit the noun after the vocative only if this is at the end of the sentence. For example, we can just say:
 
 > **— coi .i xu do kanro**
 > _— Hello. How do you do?_
@@ -2140,9 +2140,9 @@ Here, a new sentence starts immediately after the vocative **coi**, so we omitte
 > _Hello. I want you to help me._
 > `Hello you. I want that you help me.`
 
-Thus, in case you don't know the name of the listener you just place **do** after it if you want to continue the same sentence after the vocative.
+Thus, if you don't know the name of the listener and you want to continue the same sentence after the vocative, you just place **do** after it.
 
-If you use the vocative on its own (without a noun after it) and the sentence is not finished yet, then you need to separate it from the rest. This is because the things that are most likely to follow the vocative in a sentence could easily be misconstrued as describing your addressee. Use the word **do** for separation. For example,
+If you use the vocative on its own (without a noun after it) and the sentence is not finished yet, then you need to separate it from the rest. This is because the things that are most likely to follow the vocative in a sentence could easily be misconstrued as describing your addressee. To separate it from the following noun/pronoun, use the word **do**. For example,
 
 > **coi do la .alis. la .doris. pu cliva**
 > _Hello! Alice left Doris._
@@ -2173,7 +2173,7 @@ So an interjection immediately after a vocative modifies that vocative. Similarl
 
 ### Order of arguments
 
-Earlier we provided such definitions of verbs as:
+Earlier we provided definitions of verbs such as:
 
 mlatu
 : … is a cat, to be a cat
@@ -2187,7 +2187,7 @@ prami
 klama
 : … come to …
 
-The dictionary at the end of this textbook presents all verbs with x1, x2 etc. symbols:
+Dictionaries can present verbs with symbols such as x1, x2 etc.:
 
 prami
 : x1 loves x2
@@ -2201,14 +2201,14 @@ citka
 klama
 : x1 comes to x2 …
 
-These x1, x2 etc. are quite simple. They are called places of arguments and more precisely represent the order in which we add nouns or pronouns. For example:
+These x1, x2, and so on are called _places of arguments_, and they represent the order in which we place nouns or pronouns in the sentence. For example:
 
 > **mi prami do**
 > _I love you._
 
-This also means that
+This sentence also implies that
 
-- x1 denotes _the one who loves_ and
+- x1 denotes _the one who loves_, and
 - x2 denotes _the one who is loved by_.
 
 The advantage of such style of definitions is that all participants of a relation are in one definition.
@@ -2219,7 +2219,7 @@ We can also omit nouns making the sentence more vague:
 > _It is raining._
 > `is rain, is raining`
 
-(although time here is determined by context, it can also mean _It often rains_, _It was raining_ etc.)
+(although time here is determined by context, it can also mean _It often rains_, _It was raining_, etc.)
 
 > **prami do**
 > _Someone loves you._
@@ -2239,7 +2239,7 @@ is the same as
 > **zo'e prami zo'e**
 > _Someone loves someone._
 
-Modal terms like **ca**, **fa'a** etc. add new places to relations but they don't remove existing places of verbs. In
+Modal terms like **ca**, **fa'a** etc. add new places to relations, but they don't remove existing places of verbs. In
 
 > **mi klama fa'a do**
 > _I come towards you._
@@ -2255,11 +2255,11 @@ le cmana
 
 <pixra url="/assets/pixra/cilre/cmana.png" caption="cmana" definition="… is a mountain"></pixra>
 
-And here the second place of **klama** is **do**. And the sentence means that the mountain is just a direction whereas the final point is you.
+And here, the second place of **klama** is **do**. The sentence means that the mountain is just a direction, whereas the final point is you.
 
-Here, the term **fa'a la cmana** (_in the direction of the mountain_) doesn't replace the second place of the verb **klama**. The second place of **klama** is **la zdani** here.
+Here, the term **fa'a la cmana** (_in the direction of the mountain_) doesn't replace the second place of the verb **klama**. The second place of **klama** is **le zdani** here.
 
-The sentence means that my home is simply located in the direction of the mountain but it doesn't mean I want to reach that mountain. The final destination of me coming is not necessarily the mountain but the home.
+The sentence means that my home is simply located in the direction of the mountain, but it doesn't necessarily mean I want to reach that mountain. The final destination of me coming is not necessarily the mountain but the home.
 
 Similarly, in
 
@@ -2277,7 +2277,7 @@ The order of arguments of compound verbs is the same as the one of the last verb
 pendo
 : … is a friend of … (someone)
 
-So the order of arguments is the same as of **pendo** alone.
+So the order of arguments is the same as that of **pendo** alone.
 
 ### More than two places
 
