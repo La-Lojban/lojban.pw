@@ -6,6 +6,7 @@ import { HTMLElement } from "node-html-parser";
 import { createElementFromSelector } from "../lib/html-prettifier/elements";
 
 import { sluggify } from "../lib/html-prettifier/slugger";
+import { sanitizeUrl } from "../lib/html-prettifier/sanitizer";
 
 export const tocSelector = "h1, h2, h3";
 export const transformers = [
@@ -39,7 +40,7 @@ export const transformers = [
 		selector: "p > pixra",
 		fn: (element: HTMLElement) => {
 			const wrapperElement = createElementFromSelector("div.wrapper");
-			wrapperElement.innerHTML = `<figure><div class="figure_img"><img src="${element.attributes.url}" alt="${element.attributes.caption}"></div><figcaption><b>${element.attributes.caption}</b><br/><i>${element.attributes.definition}</i></figcaption></figure>`;
+			wrapperElement.innerHTML = `<figure><div class="figure_img" style="background-image:url('${sanitizeUrl(element.attributes.url)}')"></div><figcaption><b>${element.attributes.caption}</b><br/><i>${element.attributes.definition}</i></figcaption></figure>`;
 			element.insertAdjacentHTML("afterend", wrapperElement.outerHTML);
 			element.remove();
 		},

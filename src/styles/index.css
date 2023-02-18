@@ -370,16 +370,16 @@ dd::after {
 
 
 article figure {
-  @apply print:ml-3 md:ml-3 mt-1 mb-3 w-full print:w-48 md:w-48 print:float-right md:float-right border border-gray-200 bg-gray-100 shadow rounded-sm clear-right;
+  @apply print:ml-3 md:ml-3 mt-1 mb-3 print:float-right md:float-right border border-gray-200 bg-gray-100 shadow rounded-sm clear-right;
 }
 
 article figure .figure_img {
-  @apply -m-px;
+  @apply -m-px bg-cover w-full print:w-48 print:h-48 md:w-48 md:h-48 ;
 }
 
-article figure img {
+/* article figure img {
   @apply w-full border-0 block m-0 rounded-t-sm;
-}
+} */
 
 article figcaption {
   @apply text-xs m-3 text-center;
