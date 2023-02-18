@@ -1991,19 +1991,23 @@ However, in most situations, using **le prenu** (_the person_) or personal names
 
 Another choice is to use the short pronoun **ri**, which refers to the previous noun:
 
-> **mi pu klama le nurma .i ri melbi** (**ri** refers to the country side)
+> **mi pu klama le nurma .i ri melbi**
 > _I went to the country. It was beautiful._
 
 le nurma
 : the rural area
 
+Here, **ri** refers to the country side.
+
 <pixra url="/assets/pixra/cilre/nurma.png" caption="nurma" definition="… is a rural area"></pixra>
 
-> **mi tavla le pendo .i ri jundi** (**ri** refers to the friend)
+> **mi tavla le pendo .i ri jundi**
 > _I talk to the friend. He/she is attentive._
 
 jundi
 : … is attentive
+
+Here, **ri** refers to the friend.
 
 <pixra url="/assets/pixra/cilre/jundi.png" caption="jundi" definition="The person is attentive."></pixra>
 
@@ -2292,11 +2296,11 @@ pinxe
 > **le kabri**
 > _the cup_
 
-In this case there are three places and if you want to exclude the second place in the middle you have to use **zo'e:**
+In this case, there are three places, and if you want to exclude the second place in the middle, you have to use **zo'e**:
 > **mi pinxe zo'e le kabri**
 > _I drink \[something\] from the cup._
 
-If we omit **zo'e** we get something meaningless:
+If we omit **zo'e**, we get something meaningless:
 
 > **mi pinxe le kabri**
 > _I drink the cup._
@@ -2317,16 +2321,16 @@ In
 
 we have
 
-- **le nicte** - x1 of the relation,
-- **nu mi viska le lunra** - the main relation.
+- **le nicte** as x1 of the relation,
+- **nu mi viska le lunra** as the main relation.
 
-However, inside **nu mi viska le lunra** we have another sentence with
+However, inside **nu mi viska le lunra**, we have another sentence with
 
 - **mi** - x1 of the inner relation,
 - **viska** - the inner relation,
 - **le lunra** - x2 of the inner relation.
 
-So notice that despite having an inner structure the **nu mi viska le lunra** is also relation with its first term filled with **le nicte** in this case.
+So, despite having an inner structure, **nu mi viska le lunra** is still a relation with its first term filled with **le nicte** in this case.
 
 Similarly, in
 
@@ -2335,14 +2339,14 @@ Similarly, in
 
 we have
 
-- **mi** - x1 of the relation,
-- **citka** - the main relation,
-- **ba le nu mi dansu** - a modal term of the main relation of the sentence.
+- **mi** as x1 of the relation,
+- **citka** as the main relation construct,
+- **ba le nu mi dansu** as a modal term of the main relation of the sentence.
 
-And inside this term we have:
+Inside this term, we have:
 
-- **mi** - x1 of the relation inside the term,
-- **dansu** - the main relation construct inside the term.
+- **mi** as x1 of the relation inside the term
+- **dansu** as the main relation construct inside the term.
 
 Such "recursive" mechanism of wrapping relations into relations allows expressing complex ideas precisely.
 
