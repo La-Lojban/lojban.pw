@@ -35,8 +35,10 @@ It is available in the following formats:
 
 ## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - a slick unofficial dictionary
 
-* [De facto standard definitions of words](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje)
-* [Experimental definitions and examples](https://la-lojban.github.io/sutysisku/jb/#seskari=cnano&sisku=coi_munje)
+Explore [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), a dictionary for Lojban that includes:
+
+* De facto standard definitions of words
+* Experimental definitions and usage examples
 
 ## License
 
