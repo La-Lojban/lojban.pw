@@ -11,21 +11,6 @@ export default class MyDocument extends Document {
 					<Main />
 					<NextScript />
 					<script src="/assets/js/chat.js"></script>
-					<script src="/assets/js/headers.js"></script>
-					{/* <script src="/assets/indices/stork.js"></script> */}
-
-					{/* <script>
-      stork.register(
-        'federalist',
-        '/assets/indices/federalist.st'
-      )
-    </script> */}
-					{/* <script>
-      
-    </script> */}
-					{/* <div
-						id="fullpage"
-					></div> */}
 				</body>
 			</Html>
 		);

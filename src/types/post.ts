@@ -21,7 +21,6 @@ export type TPost = {
 }
 
 export type PostProps<S> = {
-  ref: RefObject<HTMLDivElement>;
 	post: TPost;
   state?: S;
   setState?: React.Dispatch<React.SetStateAction<S>>;

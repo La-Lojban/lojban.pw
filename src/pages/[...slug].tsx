@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Link from "next/link";
 
 import { useRouter } from "next/router";
@@ -13,7 +14,6 @@ import markdownToHtml from "../lib/markdownToHtml";
 import { TPost } from "../types/post";
 import { site_title } from "../config/config";
 import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
-import { useRef, useState } from "react";
 
 type Props = {
 	post: TPost;
@@ -55,7 +55,6 @@ const Post = ({ post, preview }: Props) => {
 	const currentImgIndex = images.findIndex(
 		(element) => element.original === state.currentImgUrl
 	);
-	const containerRef = useRef(null);
 
 	const title = `${post["meta.title"] ?? post.title} | ${site_title}`;
 	const pageToRender = (
@@ -125,7 +124,6 @@ const Post = ({ post, preview }: Props) => {
 									post={post}
 									state={state}
 									setState={setState}
-									ref={containerRef}
 								/>
 								{hasToc && (
 									<nav className="hidden md:block toc w-full md:w-1/5 sticky px-2 bottom-0 md:top-20 h-16 md:h-screen font-medium text-sm overflow-ellipsis">

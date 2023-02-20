@@ -5,6 +5,8 @@ import Router from "next/router";
 import "../styles/nprogress.css";
 
 import { closeXicon } from "../lib/buttons";
+import { useEffect } from "react";
+import { debouncedGetClosestHeaderId } from "../lib/toc";
 NProgress.configure({
 	minimum: 0.3,
 	easing: "ease",
@@ -23,6 +25,14 @@ if (process.env.NODE_ENV !== "development") {
 }
 
 export default function MyApp({ Component, pageProps }: AppProps) {
+	useEffect(() => {
+		
+		document.addEventListener("scroll", debouncedGetClosestHeaderId);
+		return () => {
+		  document.removeEventListener("scroll", debouncedGetClosestHeaderId);
+		};
+	  }, []);
+	  
 	return <Component {...pageProps} />;
 }
 
