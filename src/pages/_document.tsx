@@ -5,12 +5,10 @@ export default class MyDocument extends Document {
 		return (
 			<Html lang="en">
 				<Head>
-					<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js"></script>
 				</Head>
 				<body className="bg-gray-100">
 					<Main />
 					<NextScript />
-					<script src="/assets/js/chat.js"></script>
 				</body>
 			</Html>
 		);
