@@ -4,13 +4,13 @@ import Intro from '../components/intro'
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
-import Post from '../types/post'
+import {TPost} from '../types/post'
 import Header from '../components/header'
 
 import { home_title } from '../config/config'
 
 type Props = {
-  allPosts: Post[]
+  allPosts: TPost[]
 }
 
 const Index = ({ allPosts }: Props) => {

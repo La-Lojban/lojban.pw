@@ -1,3 +1,5 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -540,8 +542,8 @@ description {
   cursor: default;
 }
 
-#fullpage {
-  display: none;
+.fullpage {
+  display: block;
   position: fixed;
   z-index: 9999;
   top: 0;

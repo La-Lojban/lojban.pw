@@ -14,9 +14,8 @@ RUN apk add \
       ttf-freefont \
       nodejs \
       yarn \
-      git vim curl bash
+      vim curl bash
 
-# Installs latest Chromium package.
 RUN apk add --no-cache \
     font-noto-emoji
 
@@ -34,19 +33,9 @@ RUN addgroup -S pptruser && adduser -S -G pptruser pptruser \
 
 RUN apk add ghostscript
 
-# Run everything after as non-privileged user.
-
-# USER pptruser
-
-RUN mkdir -p /app/src
-
-WORKDIR /app/
-
 # RUN yarn global add npm-check-updates npx
 
-WORKDIR /app/
-
-RUN git config --global user.email "gleki.is.my.name@gmail.com" && git config --global user.name "lagleki"
+RUN mkdir -p /app/src
 
 WORKDIR /app/src
 

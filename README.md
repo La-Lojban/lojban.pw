@@ -11,4 +11,4 @@ https://lojban.pw website source code
 * `bash dev.sh` - run the docker container
 * run `yarn` in the docker console
 * `yarn dev` - run the website in dev mode locally, access it at http://localhost:3298/
-* `yarn deploy` - compile to a static folder & manually deploy to your GitHub pages
+* `yarn compile` - compile to a static folder

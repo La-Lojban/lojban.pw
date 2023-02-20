@@ -1,29 +1,27 @@
 // import markdownStyles from '../styles/markdown-styles.module.css'
-import PostType from '../types/post'
-import PostHeader from '../components/post-header'
+import { PostProps } from "../types/post";
+import PostHeader from "../components/post-header";
+import { buildDOMFromJSONBasic } from "../lib/json2react";
 
-type Props = {
-  post: PostType
-}
-
-const PostBody = ({ post }: Props) => {
-
-  return (
-    <>
-      <div className="mx-auto w-full md:w-3/5 bg-gray-100">
-      <PostHeader
-        title={post.title}
-        coverImage={post.coverImage}
-        date={post.date}
-        author={post.author}
-      />
-        <div
+const PostBody = ({ post, state, setState, ref }: PostProps<any>) => {
+	const content = buildDOMFromJSONBasic(post.content, { state, setState });
+	return (
+		<>
+			<div className="mx-auto w-full md:w-3/5 bg-gray-100" ref={ref}>
+				<PostHeader
+					title={post.title}
+					coverImage={post.coverImage}
+					date={post.date}
+					author={post.author}
+				/>
+				{content}
+				{/* <div
           // className={markdownStyles['markdown']}
           dangerouslySetInnerHTML={{ __html: post?.content }}
-        />
-      </div>
-    </>
-  )
-}
+        /> */}
+			</div>
+		</>
+	);
+};
 
-export default PostBody
+export default PostBody;

@@ -1,1 +1,1 @@
-docker build --no-cache -t lojban_made_easy .
+docker build -t lojban_made_easy .

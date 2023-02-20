@@ -11,6 +11,8 @@ import { tocSelector, transformers } from "../config/transformers";
 import { sluggify } from "./html-prettifier/slugger";
 import { createElementFromSelector } from "./html-prettifier/elements";
 import { TocElem } from "../types/toc";
+import { GalleryImg } from "../types/gallery-img";
+// import { serializeHTMLNodeTree } from "./json2react";
 
 export default async function markdownToHtml({
 	content,
@@ -32,22 +34,17 @@ export default async function markdownToHtml({
 		).toString()
 	);
 
-	const tocTransformers = {
-		querySelectorAll: tocSelector,
-		fn: (element: HTMLElement) => {
-			const { id, rawTagName } = element;
+	// Prepare ToC
+	let toc: TocElem[] = Array.from(root.querySelectorAll(tocSelector)).map(
+		(element: HTMLElement) => {
+			const { rawTagName } = element;
 			return {
 				depth: rawTagName.replace(/^h/g, ""),
 				value: element.textContent,
 				id: sluggify(element.innerText),
 			};
-		},
-	};
-
-	let toc: TocElem[] = Array.from(
-		root.querySelectorAll(tocTransformers.querySelectorAll)
-	).map(tocTransformers.fn);
-
+		}
+	);
 	//fix duplicate ids
 	const idCounts = toc.reduce((acc, item) => {
 		// Increment the count for this item's id, or set it to 1 if it doesn't exist
@@ -64,19 +61,35 @@ export default async function markdownToHtml({
 		return item;
 	});
 
-	//transformers
+	//Prepare image gallery
+	let imgs: Partial<GalleryImg>[] = Array.from(
+		root.querySelectorAll('pixra')
+	).map((element: HTMLElement) => {
+			return {
+				url: element.getAttribute('url'),
+				caption: element.getAttribute('caption'),
+				definition: element.getAttribute('definition')
+			};
+		});
+
+	//Transform elements of the page
 	transformers.forEach(({ selector, fn, wrapper }) =>
 		Array.from(root.querySelectorAll(selector)).forEach(
-			fn ? fn : wrapper ? (element) => wrapperFn(wrapper, element) : () => {}
+			fn
+				? fn
+				: wrapper
+				? (element) =>
+						((wrapper: string, element: HTMLElement) => {
+							const wrapperElement = createElementFromSelector(wrapper);
+							wrapperElement.innerHTML =
+								wrapperElement.innerHTML + element.outerHTML;
+							element.insertAdjacentHTML("afterend", wrapperElement.outerHTML);
+							element.remove();
+						})(wrapper, element)
+				: () => {}
 		)
 	);
 
-	function wrapperFn(wrapper: string, element: HTMLElement) {
-		const wrapperElement = createElementFromSelector(wrapper);
-		wrapperElement.innerHTML = wrapperElement.innerHTML + element.outerHTML;
-		element.insertAdjacentHTML("afterend", wrapperElement.outerHTML);
-		element.remove();
-	}
-
-	return { toc, text: root.outerHTML };
+	// const text = serializeHTMLNodeTree(root);
+	return { toc, text: root.outerHTML, imgs };
 }

@@ -1,8 +1,9 @@
+import { RefObject } from 'react'
 import Author from './author'
+import { GalleryImg } from './gallery-img'
 import { TocElem } from './toc'
 
-
-type PostType = {
+export type TPost = {
   slug: string[]
   hidden?: boolean
   "meta.title"?: string
@@ -16,6 +17,12 @@ type PostType = {
   }
   content: string
   toc?: TocElem[]
+  imgs?: GalleryImg[]
 }
 
-export default PostType
+export type PostProps<S> = {
+  ref: RefObject<HTMLDivElement>;
+	post: TPost;
+  state?: S;
+  setState?: React.Dispatch<React.SetStateAction<S>>;
+};

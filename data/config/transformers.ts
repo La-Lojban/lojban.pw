@@ -40,7 +40,8 @@ export const transformers = [
 		selector: "p > pixra",
 		fn: (element: HTMLElement) => {
 			const wrapperElement = createElementFromSelector("div.wrapper");
-			wrapperElement.innerHTML = `<figure><div class="figure_img" style="background-image:url('${sanitizeUrl(element.attributes.url)}')"></div><figcaption><b>${element.attributes.caption}</b><br/><i>${element.attributes.definition}</i></figcaption></figure>`;
+			const url = sanitizeUrl(element.attributes.url);
+			wrapperElement.innerHTML = `<figure><div class="figure_img" data-url="${url}" style="background-image:url('${url}')"></div><figcaption><b>${element.attributes.caption}</b><br/><i>${element.attributes.definition}</i></figcaption></figure>`;
 			element.insertAdjacentHTML("afterend", wrapperElement.outerHTML);
 			element.remove();
 		},

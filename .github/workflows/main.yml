@@ -22,7 +22,7 @@ jobs:
     - name: Run Docker container
       uses: kohlerdominik/docker-run-action@v1
       with:
-        run: yarn && yarn compile && yarn clean
+        run: yarn && yarn build && yarn clean
         image: lojban:${{ env.TAG_NAME }}
         volumes: |
           /output:/app/src/out

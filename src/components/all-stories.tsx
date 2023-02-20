@@ -1,8 +1,8 @@
 import PostPreview from './post-preview'
-import Post from '../types/post'
+import {TPost} from '../types/post'
 
 type Props = {
-  posts: Post[]
+  posts: TPost[]
 }
 
 const AllStories = ({ posts }: Props) => {
