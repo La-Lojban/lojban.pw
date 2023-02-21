@@ -9,4 +9,4 @@ docker run -d -it --name lojban_made_easy  \
 -v $(pwd)/src:/app/src/:Z \
 -p 3298:3000 \
 lojban_made_easy
-docker exec -it lojban_made_easy sh
+docker exec -it lojban_made_easy bash

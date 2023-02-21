@@ -1,46 +1,32 @@
-FROM alpine
+FROM ubuntu:latest
 
-ENV PYTHONUNBUFFERED=1
-RUN apk add python3 && ln -sf python3 /usr/bin/python
-RUN python3 -m ensurepip
-RUN pip3 install --upgrade pip setuptools
+RUN apt-get update 
 
-RUN apk add \
-      chromium \
-      nss \
-      freetype \
-      harfbuzz \
-      ca-certificates \
-      ttf-freefont \
-      nodejs \
-      yarn \
-      vim curl bash
+# install common
+RUN apt-get install -y vim bash curl gnupg2
 
-RUN apk add --no-cache \
-    font-noto-emoji
+# install python
+RUN apt-get install -y python3 python3-pip
 
-RUN fc-cache -f && rm -rf /var/cache/*
+# install pdf-related
+RUN apt-get install -y ghostscript
 
-# Tell Puppeteer to skip installing Chrome. We'll be using the installed package.
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
-    PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser
+# install nodejs
+RUN curl -sL https://deb.nodesource.com/setup_lts.x | bash -
+RUN apt-get update && \
+    apt-get install -y nodejs
+RUN npm install -g yarn
 
-# Add user so we don't need --no-sandbox.
-RUN addgroup -S pptruser && adduser -S -G pptruser pptruser \
-    && mkdir -p /home/pptruser/Downloads /app \
-    && chown -R pptruser:pptruser /home/pptruser \
-    && chown -R pptruser:pptruser /app
+# install fonts
+RUN apt-get install -y fonts-noto-color-emoji fonts-freefont-ttf
 
-RUN apk add ghostscript
+# cleanup
+RUN apt-get autoclean && rm -rf /var/lib/apt/lists/*
 
-# RUN yarn global add npm-check-updates npx
-
+#create workspace
 RUN mkdir -p /app/src
-
 WORKDIR /app/src
 
-# RUN chown -R 1000:1000 /root
-
-RUN yarn config set registry https://registry.npmjs.org/
+RUN npx playwright install chromium && npx playwright install-deps
 
 # RUN yarn

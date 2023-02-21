@@ -1,4 +1,4 @@
-const puppeteer = require("puppeteer");
+const puppeteer = require("playwright");
 const fs = require("fs");
 const { sluggify } = require("../html-prettifier/slugger");
 
@@ -9,7 +9,7 @@ const { sluggify } = require("../html-prettifier/slugger");
 		.map((i) => sluggify(i.replace(/.md$/, "")));
 
 	console.log("generating PDF files for", urls);
-	const browser = await puppeteer.launch({
+	const browser = await puppeteer.chromium.launch({
 		headless: true,
 		args: [
 			"--disable-dev-shm-usage",
@@ -37,14 +37,13 @@ const { sluggify } = require("../html-prettifier/slugger");
 		//   }
 		// }, div_selector_to_remove);
 		const pdf = await page.pdf({
+			printBackground: true,
 			format: "A4",
 			margin: { top: "20px", right: "20px", bottom: "20px", left: "20px" },
-      timeout: 0,
+			timeout: 0,
 		});
 		const pdfFile =
-			"/vreji/uencu/" +
-			url.split("/").slice("-1")[0] +
-			"-pre.pdf";
+			"/vreji/uencu/" + url.split("/").slice("-1")[0] + "-pre.pdf";
 		fs.writeFileSync(pdfFile, pdf);
 		console.log(`pdf file saved: ${pdfFile}`);
 	}
