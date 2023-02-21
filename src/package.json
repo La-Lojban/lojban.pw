@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "scripts": {
     "dev": "NODE_ENV=development next",
-    "start": "next start",
+    "start": "NODE_ENV=production next start",
     "compile": "yarn build && pkill node",
     "build": "next telemetry disable && next build && yarn print && yarn export && touch out/.nojekyll && cp -avr /app/service/DNS/* out/ && cp -avr /vreji out/",
     "print": "mkdir -p /vreji/uencu && next start & sleep 5 && node lib/printer && ./lib/printer/shrink-pdf.sh",
