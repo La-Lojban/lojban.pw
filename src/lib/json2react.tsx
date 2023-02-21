@@ -34,6 +34,19 @@ export function buildDOMFromJSONBasic(
 					domToReact(domNode.children)
 				);
 				return el;
+			} else if (domNode instanceof Element && domNode.attribs?.onclick) {
+				const {onclick, ...props} = attributesToProps(domNode.attribs);
+				const el = React.createElement(
+					domNode.tagName,
+					{
+						...props,
+						onClick: () => {
+							eval(domNode.attribs.onclick);
+						},
+					},
+					domToReact(domNode.children)
+				);
+				return el;
 			}
 			return domNode;
 		},
