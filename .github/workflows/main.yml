@@ -46,11 +46,11 @@ jobs:
       with:
         ref: gh-pages
 
-    # - name: Clean up the current branch
-    #   run: |
-    #     git rm -rf .  2>/dev/null
-    #     git clean -df
-    #   # rm -rf ./*
+    - name: Clean up the current branch
+      run: |
+        git rm -rf .  2>/dev/null
+        git clean -df
+        rm -rf ./*
 
     # - name: Download to branch
     #   uses: dawidd6/action-download-artifact@v2
