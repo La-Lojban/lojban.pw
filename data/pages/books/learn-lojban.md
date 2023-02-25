@@ -1829,7 +1829,7 @@ The simplest example of using a name would be
 tcidu
 : … reads
 
-<pixra url="/assets/pixra/cilre/tcidu.png" caption="le prenu ca'o tcidu" definition="The person is reading."></pixra>
+<pixra url="/assets/pixra/cilre/tcidu_la_lojban.png" caption="le prenu ca'o tcidu" definition="The person is reading."></pixra>
 
 **la** is similar to **le**, but it converts a word into a name instead of a simple noun.
 
@@ -1859,6 +1859,15 @@ Bob's first name, the name of the language _Lojban_, can be used in Lojban witho
 
 bangu
 : … is a language used by … (someone)
+
+<!-- -->
+> **mi nintadni la .lojban.**
+> _I am a new student of Lojban._
+<!-- -->
+> **mi tadni la .lojban.**
+> _I study Lojban._
+
+<pixra url="/assets/pixra/cilre/tadni.png" caption="le prenu ca ca'o tadni la .lojban." definition="The person is now studying Lojban."></pixra>
 
 Lojban letters directly correspond to sounds, so there are some rules for adapting names to how they are written in Lojban. This may sound strange — after all, a name is a name — but all languages do this to some extent. For example, English speakers tend to pronounce _Jose_ as _Hozay_, and _Margaret_ in Chinese is _Magelita_. Some sounds simply don't exist in some languages, so you need to rewrite the name so that it only contains Lojban sounds and is spelt according to letter-sound correspondence.
 
