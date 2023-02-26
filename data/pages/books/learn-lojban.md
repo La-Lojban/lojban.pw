@@ -5609,7 +5609,7 @@ manku
 
 ### «**sipna**» — ‘_to sleep_’, «**sanji**» — ‘_to be aware_’, 
 
-Here are examples showing some basic aspects of the mind:
+The following are examples that illustrate some basic aspects of the mind:
 
 > **pu ku mi cikna gi'e ku'i na ganse le nu do klama
 > _I was awake but didn't sense your arrival._
@@ -5630,6 +5630,22 @@ Here are examples showing some basic aspects of the mind:
 > **mi sanji le nu mi sanji**
 > _I am aware that I'm aware._
 > _I am self-conscious._
+
+sipna
+: x1 sleeps
+
+cikna
+: x1 is awake
+
+ganse
+: observer x1 senses, notices some stimulus (event) by mrans x3
+
+sanji
+: x1 is conscious, aware of x2 (event)
+
+**ganse** doesn't imply any mental processing; it just describes perception, recognition, detection of some stimulus via sensory channels (specified in x3).
+
+On the other hand, **sanji** describes passive sensing which involves mental processing but not necessarily via sensory inputs at all (some mental relationships are not detected by the senses).
 
 ### Emotions: «**cmila**» — ‘_to laugh_’, «**cisma**» — ‘_to smile_’
 
