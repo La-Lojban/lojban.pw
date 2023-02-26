@@ -21,6 +21,7 @@ export default async function markdownToHtml({
 	content: string;
 	fullPath: string;
 }) {
+	console.log(fullPath);
 	const root = htmlParser.parse(
 		(
 			await unified()

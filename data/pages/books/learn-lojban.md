@@ -134,6 +134,7 @@ Now, let's turn to constructing our first sentences in Lojban.
 
 The basic unit in Lojban is called **bridi**, meaning "sentence" or "relation." Here are two simple examples:
 
+<pixra url="/assets/pixra/cilre/tavla.png" caption="le prenu cu tavla mi" definition="The person talks to me."></pixra>
 
 > **le prenu cu tavla mi**
 > _The person speaks to me._
@@ -144,12 +145,12 @@ le prenu
 tavla
 : … talks to …, … speaks to …
 
-<pixra url="/assets/pixra/cilre/tavla.png" caption="tavla" definition="… talks to …"></pixra>
+<pixra url="/assets/pixra/cilre/mi.png" caption="mi" definition="I / me"></pixra>
 
 mi
 : I, me
 
-<pixra url="/assets/pixra/cilre/mi.png" caption="mi" definition="I / me"></pixra>
+<pixra url="/assets/pixra/cilre/mi_prami_do2.png" caption="mi prami do" definition="I love you."></pixra>
 
 > **mi prami do**
 > _I love you._
@@ -158,12 +159,11 @@ mi
 prami
 : … loves … (someone)
 
-<pixra url="/assets/pixra/cilre/mi_prami_do2.png" caption="prami" definition="… loves … (someone)"></pixra>
+<pixra url="/assets/pixra/cilre/do.png" caption="do" definition="you"></pixra>
 
 do
 : you
 
-<pixra url="/assets/pixra/cilre/do.png" caption="do" definition="you"></pixra>
 
 > **mi ca cu tavla do**
 > _I now talk to you._
@@ -248,7 +248,7 @@ Some more examples:
 nintadni
 : … is a new student, a newbie
 
-<pixra url="/assets/pixra/cilre/nintadni.png" caption="nintadni" definition="… is a new student, fresher"></pixra>
+<pixra url="/assets/pixra/cilre/nintadni.png" caption="mi nintadni" definition="I am a new student, a fresher."></pixra>
 
 Unlike in English we don't have to add the verb "am/is/are/to be" to the sentence. It is already there. The relation word **nintadni** (_… is a new student_) already has this English "am/is/are/to be" built into its English translation.
 
@@ -257,11 +257,11 @@ Unlike in English we don't have to add the verb "am/is/are/to be" to the sentenc
 
 <!-- -->
 
+<pixra url="/assets/pixra/cilre/pilno_le_fonxa.png" caption="le prenu cu pilno le fonxa" definition="The person uses the phone."></pixra>
 
 > **mi pilno le fonxa**
 > _I use the phone._
 
-<pixra url="/assets/pixra/cilre/pilno_le_fonxa.png" caption="le prenu cu pilno le fonxa" definition="The person uses the phone."></pixra>
 
 pilno
 : … uses … (something)
@@ -279,7 +279,7 @@ le fonxa
 citka
 : … eats … (something)
 
-<pixra url="/assets/pixra/cilre/citka.png" caption="citka" definition="… eats … (something)"></pixra>
+<pixra url="/assets/pixra/cilre/citka.png" caption="mi citka" definition="I eat."></pixra>
 <!-- -->
 
 > **do citka**
@@ -301,11 +301,11 @@ Here, **le plise** means _the apples_, **kukte** means _is tasty / are tasty_.
 
 A simpler sentence in Lojban would contain only one main relation word:
 
+<pixra url="/assets/pixra/cilre/karce.png" caption="karce" definition="It is a car."></pixra>
 
 > **karce**
 > _Car!_
-
-<pixra url="/assets/pixra/cilre/karce.png" caption="karce" definition="… is a car"></pixra>
+> It is a car._
 
 You could say this when you see a car coming. Here the context would be clear enough that there is a car somewhere around and probably it's dangerous.
 
@@ -363,8 +363,7 @@ Again context would probably tell who loves whom and who runs.
 
 #### Task
 
-Close the right part of the table. Translate the sentences on the left from Lojban.
-
+<pixra url="/assets/pixra/cilre/pinxe_le_djacu.png" caption="le prenu cu pinxe le djacu" definition="The person drinks the water."></pixra>
 
 pinxe
 : … drinks … (something)
@@ -372,7 +371,7 @@ pinxe
 le djacu
 : the water
 
-<pixra url="/assets/pixra/cilre/pinxe_le_djacu.png" caption="le prenu cu pinxe le djacu" definition="The person drinks the water."></pixra>
+Close the right part of the table. Translate the sentences on the left from Lojban.
 
 <table style="table-layout: fixed;">
 <tbody><tr>
@@ -517,8 +516,6 @@ le za'u prenu
 
 #### Task
 
-Close the right part of the table. Translate the sentences on the left from Lojban.
-
 stati
 : … is smart, … has a talent
 
@@ -546,6 +543,8 @@ le badna
 : the banana, bananas
 
 <pixra url="/assets/pixra/cilre/badna.png" caption="badna" definition="… is a banana"></pixra>
+
+Close the right part of the table. Translate the sentences on the left from Lojban.
 
 <table style="table-layout: fixed;">
  <tbody>
@@ -606,14 +605,13 @@ melbi
 zdani
 : … is a home or nest to … (someone)
 
+<pixra url="/assets/pixra/cilre/dansu.png" caption="le prenu cu melbi dansu" definition="The person nicely dances."></pixra>
 
 > **do melbi dansu**
 > _You nicely dance._
 
 dansu
 : … dances
-
-<pixra url="/assets/pixra/cilre/dansu.png" caption="dansu" definition="… dances"></pixra>
 
 Here, the verb **melbi** adds an additional meaning as it is to the left of another verb: **zdani**. The left part is usually translated using adjectives and adverbs.
 
@@ -643,11 +641,11 @@ Remember about placing **cu** before the main relation construct in a sentence t
 
 Compound verbs can contain more than two verbs. In this case, the first verb modifies the second one, the second one modifies the third, and so on:
 
+<pixra url="/assets/pixra/cilre/cmalu_karce.png" caption="ti cmalu karce" definition="This is a small car."></pixra>
 
 > **le pa melbi cmalu karce**
 > _the pretty-small car, the car small in a pretty way_
 
-<pixra url="/assets/pixra/cilre/cmalu_karce.png" caption="cmalu karce" definition="… is a small car"></pixra>
 <!-- -->
 
 > **le mutce melbi zdani**
@@ -657,8 +655,6 @@ mutce
 : … is very, … is much
 
 #### Task
-
-Close the right part of the table. Translate the sentences on the left from Lojban.
 
 sutra
 : … is quick
@@ -671,6 +667,8 @@ cmalu
 
 mlatu
 : … is a cat
+
+Close the right part of the table. Translate the sentences on the left from Lojban.
 
 <table style="table-layout: fixed;">
 <tbody><tr>
@@ -2496,12 +2494,12 @@ Another example:
 
 ### Types of places
 
-The dictionary often mentions other types of places, e.g.
+The dictionary often mentions other types of places, for example:
 
 djica
 : x1 wants x2 (event)
 
-This _event_ means that you have to fill the place with a noun that represents an event. E.g.
+This _event_ means that you have to fill the place with a noun that represents an event. For instance:
 
 le nicte
 : nighttime
@@ -2519,12 +2517,12 @@ So we get
 > **do djica le nu mi dansu**
 > _You want me to dance._
 
-In Lojban, it's not allowed to say, e.g.:
+In Lojban, it is not allowed to say, for example:
 
 > **mi djica le plise**
 > _I want the apple._
 
-because you want to do something with the apple or you want some event happening with the apple, e.g.:
+because you want to do something with the apple or you want some event happening with the apple, such as:
 
 > **mi djica le nu mi citka le plise**
 > _I want to eat the apple._
@@ -2560,7 +2558,7 @@ titla
 
 <pixra url="/assets/pixra/cilre/djica_tuha_le_titla.png" caption="le prenu cu djica tu'a le titla" definition="The person wants the sweetie."></pixra>
 
-Place structure may put too much burden to specify actions or events. Sometimes we want to specify only some object in those events or places and skip describing the action or the event altogether.
+Place structure may put too much burden on specifying actions or events. Sometimes we want to specify only some object in those events or places and skip describing the action or the event altogether.
 
 In the examples above _I suggest the pub._ most likely implies going to the pub and _I want the apple._ implies eating it.
 
@@ -4297,6 +4295,7 @@ ie nai
 .au
 : interjection of desire
 
+<pixra url="/assets/pixra/cilre/clira.png" caption="mi clira klama" definition="I came early."></pixra>
 
 > **.a'o do clira klama**
 > _I hope you come early._
@@ -4307,13 +4306,16 @@ ie nai
 clira
 : x1 happens early
 
-<pixra url="/assets/pixra/cilre/clira.png" caption="mi clira klama" definition="I came early."></pixra>
+<pixra url="/assets/pixra/cilre/ciska.png" caption=".ei mi ciska le xatra ti voi pelji ku'o le penbi" definition="I should write the letter on this paper using the pen."></pixra>
 
-> **.ei mi ciska le xatra**
-> _I should write a letter._
+> **.ei mi ciska le xatra le pelji le penbi**
+> _I should write the letter on the paper using the pen._
 
 .ei
 : I should … (obligation)
+
+ciska
+: x1 writes x2 on medium x4
 
 > **i'e do pu gunka le vajni**
 > _Very good! You did an important work._
