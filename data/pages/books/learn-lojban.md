@@ -5611,17 +5611,17 @@ manku
 
 The following are examples that illustrate some basic aspects of the mind:
 
-> **pu ku mi cikna gi'e ku'i na ganse le nu do klama
+> **pu ku mi cikna gi'e ku'i na ganse le nu do klama**
 > _I was awake but didn't sense your arrival._
 
 <!-- -->
 
-> **pu ku ca le nu mi sipna kei mi ganse ku'i le nu do klama
+> **pu ku ca le nu mi sipna kei mi ganse ku'i le nu do klama**
 > _While I was asleep I nevertheless sensed you coming._
 
 <!-- -->
 
-> **pu ku mi ca'o sipna gi'e sanji le nu mi sipna
+> **pu ku mi ca'o sipna gi'e sanji le nu mi sipna**
 > _I was sleeping and I was aware that I was sleeping._
 > _I was having a lucid dream._
 
