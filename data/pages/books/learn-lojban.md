@@ -5607,7 +5607,31 @@ carmi
 manku
 : x1 is dark
 
-### Emotions: «**cmila**» — ‘_to laugh_’. «**cisma**» — ‘_to smile_’
+### «**sipna**» — ‘_to sleep_’, «**sanji**» — ‘_to be aware_’, 
+
+Here are examples showing some basic aspects of the mind:
+
+> **pu ku mi cikna gi'e ku'i na ganse le nu do klama
+> _I was awake but didn't sense your arrival._
+
+<!-- -->
+
+> **pu ku ca le nu mi sipna kei mi ganse ku'i le nu do klama
+> _While I was asleep I nevertheless sensed you coming._
+
+<!-- -->
+
+> **pu ku mi ca'o sipna gi'e sanji le nu mi sipna
+> _I was sleeping and I was aware that I was sleeping._
+> _I was having a lucid dream._
+
+<!-- -->
+
+> **mi sanji le nu mi sanji**
+> _I am aware that I'm aware._
+> _I am self-conscious._
+
+### Emotions: «**cmila**» — ‘_to laugh_’, «**cisma**» — ‘_to smile_’
 
 > **coi**
 > **.i ma nuzba**
