@@ -5607,7 +5607,7 @@ carmi
 manku
 : x1 is dark
 
-### «**sipna**» — ‘_to sleep_’, «**sanji**» — ‘_to be aware_’, 
+### «**sipna**» — ‘_to sleep_’, «**sanji**» — ‘_to be aware_’
 
 The following are examples that illustrate some basic aspects of the mind:
 
