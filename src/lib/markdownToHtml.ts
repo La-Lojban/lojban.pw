@@ -12,6 +12,8 @@ import { sluggify } from "./html-prettifier/slugger";
 import { createElementFromSelector } from "./html-prettifier/elements";
 import { TocElem } from "../types/toc";
 import { GalleryImg } from "../types/gallery-img";
+import includeMarkdownPlugin from "./remark-plugins/include";
+import path from "path";
 // import { serializeHTMLNodeTree } from "./json2react";
 
 export default async function markdownToHtml({
@@ -21,10 +23,10 @@ export default async function markdownToHtml({
 	content: string;
 	fullPath: string;
 }) {
-	console.log(fullPath);
 	const root = htmlParser.parse(
 		(
 			await unified()
+				.use(includeMarkdownPlugin, { resolveFrom: path.resolve(fullPath, '..') })
 				.use(remarkParse)
 				.use(gfm)
 				.use(deflist)
@@ -64,14 +66,14 @@ export default async function markdownToHtml({
 
 	//Prepare image gallery
 	let imgs: Partial<GalleryImg>[] = Array.from(
-		root.querySelectorAll('pixra')
+		root.querySelectorAll("pixra")
 	).map((element: HTMLElement) => {
-			return {
-				url: element.getAttribute('url'),
-				caption: element.getAttribute('caption'),
-				definition: element.getAttribute('definition')
-			};
-		});
+		return {
+			url: element.getAttribute("url"),
+			caption: element.getAttribute("caption"),
+			definition: element.getAttribute("definition"),
+		};
+	});
 
 	//Transform elements of the page
 	transformers.forEach(({ selector, fn, wrapper }) =>

@@ -5621,6 +5621,8 @@ The following are examples that illustrate some basic aspects of the mind:
 
 <!-- -->
 
+<pixra url="/assets/pixra/cilre/le_prenu_cu_senva_tuha_le_nei.png" caption="mi ca'o sipna gi'e sanji le nu mi sipna" definition="I sleep and I'm aware that I sleep."></pixra>
+
 > **pu ku mi ca'o sipna gi'e sanji le nu mi sipna**
 > _I was sleeping and I was aware that I was sleeping._
 > _I was having a lucid dream._
