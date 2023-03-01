@@ -17,13 +17,15 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag lojban:${{ env.TAG_NAME }}
+      run: docker build . --file Dockerfile --tag lojban:latest
+      # run: docker build . --file Dockerfile --tag lojban:${{ env.TAG_NAME }}
     
     - name: Run Docker container
       uses: kohlerdominik/docker-run-action@v1
       with:
         run: yarn && yarn build && yarn clean
-        image: lojban:${{ env.TAG_NAME }}
+        image: lojban:latest
+        # image: lojban:${{ env.TAG_NAME }}
         volumes: |
           /output:/app/src/out
           ${{ github.workspace }}/data/config:/app/src/config \

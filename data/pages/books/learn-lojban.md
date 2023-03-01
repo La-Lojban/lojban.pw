@@ -2,10 +2,11 @@
 title: 🎓 ‘Learn Lojban’ course
 ---
 
-<div class="print:hidden">
+<div class="print:hidden lojbo">
 
 [📁 PDF version of this page](/vreji/uencu/learn-lojban.pdf)
 
+<hr/>
 </div>
 <div class="lojbo">
 

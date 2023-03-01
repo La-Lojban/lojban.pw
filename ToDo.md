@@ -1,5 +1,4 @@
 * add search functionality
-* add remark include plugin
 * add remark mermaid plugin
 * split some pages into chapters but pdfs must be single
 * thumbnails for gallery

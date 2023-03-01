@@ -1,5 +1,6 @@
 import { unified } from "unified";
 import remarkParse from "remark-parse";
+import rehypeMathjax from 'rehype-mathjax'
 import gfm from "remark-gfm";
 import deflist from "remark-deflist";
 import remark2rehype from "remark-rehype";
@@ -28,6 +29,7 @@ export default async function markdownToHtml({
 			await unified()
 				.use(includeMarkdownPlugin, { resolveFrom: path.resolve(fullPath, '..') })
 				.use(remarkParse)
+				.use(rehypeMathjax)
 				.use(gfm)
 				.use(deflist)
 				.use(remark2rehype, { allowDangerousHtml: true }) // 4sec
