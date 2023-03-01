@@ -555,3 +555,7 @@ description {
   background-position: center center;
   background-color: black;
 }
+
+.math-inline svg {
+  @apply inline;
+}

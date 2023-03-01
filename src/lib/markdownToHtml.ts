@@ -1,5 +1,6 @@
 import { unified } from "unified";
 import remarkParse from "remark-parse";
+import remarkMath from 'remark-math'
 import rehypeMathjax from 'rehype-mathjax'
 import gfm from "remark-gfm";
 import deflist from "remark-deflist";
@@ -29,10 +30,11 @@ export default async function markdownToHtml({
 			await unified()
 				.use(includeMarkdownPlugin, { resolveFrom: path.resolve(fullPath, '..') })
 				.use(remarkParse)
-				.use(rehypeMathjax)
 				.use(gfm)
 				.use(deflist)
+				.use(remarkMath)
 				.use(remark2rehype, { allowDangerousHtml: true }) // 4sec
+				.use(rehypeMathjax)
 				.use(raw)
 				.use(stringify) // makes it all faster???
 				.process(content)
