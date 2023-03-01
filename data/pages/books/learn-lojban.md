@@ -5485,6 +5485,8 @@ sefta
 
 <!-- -->
 
+<pixra url="/assets/pixra/cilre/cortu.png" caption="mi cortu le cidni be mi" definition="My knee hurts."></pixra>
+
 > **mi cortu le cidni**
 > _I feel pain in my knee, my knee hurts._
 
