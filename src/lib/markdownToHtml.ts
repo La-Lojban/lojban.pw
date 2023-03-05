@@ -15,6 +15,7 @@ import { createElementFromSelector } from "./html-prettifier/elements";
 import { TocElem } from "../types/toc";
 import { GalleryImg } from "../types/gallery-img";
 import includeMarkdownPlugin from "./remark-plugins/include";
+import remarkMermaid from './remark-plugins/mermaid-ssr';
 import path from "path";
 // import { serializeHTMLNodeTree } from "./json2react";
 
@@ -31,6 +32,8 @@ export default async function markdownToHtml({
 				.use(includeMarkdownPlugin, { resolveFrom: path.resolve(fullPath, '..') })
 				.use(remarkParse)
 				.use(gfm)
+				// .use(remarkMermaid, { wrap: true, className: ["mermaid"] })
+				.use(remarkMermaid as any, {renderDark: false})
 				.use(deflist)
 				.use(remarkMath)
 				.use(remark2rehype, { allowDangerousHtml: true }) // 4sec

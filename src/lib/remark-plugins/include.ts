@@ -7,11 +7,11 @@ function flatMap(ast: any, fn: any) {
 
 	function transform(node: any, index: number, parent: null) {
 		if (node.children) {
-			var out = [];
-			for (var i = 0, n = node.children.length; i < n; i++) {
-				var xs = transform(node.children[i], i, node);
+			let out = [];
+			for (let i = 0, n = node.children.length; i < n; i++) {
+				const xs = transform(node.children[i], i, node);
 				if (xs) {
-					for (var j = 0, m = xs.length; j < m; j++) {
+					for (let j = 0, m = xs.length; j < m; j++) {
 						out.push(xs[j]);
 					}
 				}
