@@ -56,7 +56,8 @@ const Post = ({ post, preview }: Props) => {
 		(element) => element.original === state.currentImgUrl
 	);
 
-	const title = `${post["meta.title"] ?? post.title} | ${site_title}`;
+	const title_core = post["meta.title"] ?? post.title
+	const title = title_core? `${title_core} | ${site_title}` : site_title;
 	const pageToRender = (
 		<Layout preview={preview}>
 			<div>

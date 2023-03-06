@@ -5,26 +5,18 @@ import { unified } from "unified";
 import { is } from "unist-util-is";
 import { visit } from "unist-util-visit";
 
+import { isParent } from "./mdast-util-node-is";
+
 import type { Code, Paragraph } from "mdast";
-import type Mermaid from "mermaid";
+// import type Mermaid from "mermaid";
 import type { MermaidConfig } from "mermaid";
 import type { Config as SvgoConfig } from "svgo";
 import type { Plugin, Transformer } from "unified";
 import type { Node, Parent } from "unist";
 import type { VFileCompatible } from "vfile";
 
-// copy from https://github.com/haxibami/haxibami.net
-
-function isObject(target: unknown): target is { [key: string]: unknown } {
-  return typeof target === "object" && target !== null;
-}
-
-function isParent(node: unknown): node is Parent {
-  return isObject(node) && Array.isArray(node.children);
-}
-
 // we want to check types for browser-executed mermaid codes, but don't want to "import" any mermaid modules in them.
-declare const mermaid: typeof Mermaid;
+// declare const mermaid: typeof Mermaid;
 
 export const UserTheme = {
   Forest: "forest",
@@ -34,7 +26,7 @@ export const UserTheme = {
   Null: "null",
 } as const;
 
-export type Theme = typeof UserTheme[keyof typeof UserTheme];
+export type Theme = (typeof UserTheme)[keyof typeof UserTheme];
 
 export interface RemarkMermaidOptions {
   /**
@@ -66,9 +58,8 @@ export interface RemarkMermaidOptions {
 }
 
 function svgParse(svg: string): Node {
-  const processor = unified().use(rehypeParse, { fragment: true });
+  const processor = unified().use(rehypeParse);
   const ast = processor.parse(svg);
-  // console.log("pafter process", ast);
   return ast;
 }
 
@@ -95,6 +86,7 @@ const remarkMermaid: Plugin<[RemarkMermaidOptions?]> = function mermaidTrans(
 
   const settings = Object.assign({}, DEFAULT_SETTINGS, options);
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   return async (node: Node, _file: VFileCompatible) => {
     const mermaidBlocks = getMermaidBlocks(node);
     if (mermaidBlocks.length === 0) {
@@ -105,36 +97,33 @@ const remarkMermaid: Plugin<[RemarkMermaidOptions?]> = function mermaidTrans(
       viewport: { width: 1000, height: 3000 },
     });
     const page = await context.newPage();
-    await page.setContent(`<!DOCTYPE html>`);
-    await page.addScriptTag({
-      url: "https://unpkg.com/mermaid@9/dist/mermaid.min.js",
-      type: "module",
-    });
-    // await page.setViewportSize({ width: 1000, height: 3000 });
-    const svgResults = await page.evaluate(
-      ({ blocks, theme }) => {
-        const config: MermaidConfig = {
-          theme: theme,
-          startOnLoad: false,
-
-          /**
-           * setting htmlLabels to false
-           * to prevent mermaid svg containing html tags
-           * which will be styled by css
-           * and cause the text in svg to be cut off
-           * NOTE: maybe other type of chart would be affected too
-           * then change that type of chart to htmlLabels: true
-           */
-          flowchart: { htmlLabels: false },
-        };
-        mermaid.mermaidAPI.initialize(config);
-        return blocks.map(([code, ,], id) => {
-          const svg = mermaid.mermaidAPI.render(`mermaid-${id}`, code.value);
-          return svg;
-        });
-      },
-      { blocks: mermaidBlocks, theme: settings.theme }
+    const config: MermaidConfig = {
+      theme: settings.theme,
+      startOnLoad: false,
+    };
+    await page.setContent(
+      `<!DOCTYPE html><html><body><div>
+      ${mermaidBlocks
+        .map(([node]) => `<pre class="mermaid">${node.value}</pre>`)
+        .join("")}
+      </div><p></p></body>
+      <script type="module">
+        import mermaid from 'https://unpkg.com/mermaid@10.0.0/dist/mermaid.esm.min.mjs';
+        mermaid.initialize(${JSON.stringify(config)});
+        await mermaid.run()
+        document.querySelector("p").remove();
+      </script>
+      </html>`
     );
+    await page.waitForSelector("p", {
+      state: "detached",
+    });
+    const svgResults = await page.evaluate(() => {
+      const pres = document.querySelectorAll(".mermaid");
+      return Array.from(pres).map(
+        (pre) => pre.querySelector("svg")?.outerHTML ?? ""
+      );
+    });
     await browser.close();
 
     mermaidBlocks.forEach(([, index, parent], i) => {
@@ -187,7 +176,6 @@ function getMermaidBlocks(node: Node): MermaidBlock[] {
 }
 
 function optSvg(svg: string) {
-  // console.log("before opt svg", svg);
   const svgoOptions: SvgoConfig = {
     js2svg: {
       indent: 2,
@@ -230,7 +218,6 @@ function optSvg(svg: string) {
   };
 
   const value = optimize(svg, svgoOptions).data;
-  // console.log("after opt svg", value);
   return value;
 }
 

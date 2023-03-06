@@ -1,11 +1,7 @@
-!archive
-src/md_pages/archive/
-package-lock.json
-yarn.lock
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-src/node_modules/
+node_modules
 /.pnp
 .pnp.js
 
@@ -13,7 +9,7 @@ src/node_modules/
 /coverage
 
 # next.js
-src/.next/
+.next
 src/out/
 
 # misc
@@ -31,6 +27,5 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
-!archive/
 tmp/
 data/.cache
