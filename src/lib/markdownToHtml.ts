@@ -1,10 +1,15 @@
 import { unified } from "unified";
 import remarkParse from "remark-parse";
-import remarkMath from 'remark-math'
-import rehypeMathjax from 'rehype-mathjax'
-import gfm from "remark-gfm";
-import deflist from "remark-deflist";
-import remark2rehype from "remark-rehype";
+// import gfm from "remark-gfm";
+import includeMarkdownPlugin from "./remark-plugins/include";
+import remarkMermaid from "./remark-plugins/mermaid-ssr";
+import rehypeKatex from "rehype-katex";
+import {
+	remarkDefinitionList,
+	defListHastHandlers,
+} from "remark-definition-list";
+import remarkMath from "remark-math";
+import remarkRehype from "remark-rehype";
 import raw from "rehype-raw";
 import stringify from "rehype-stringify";
 
@@ -14,8 +19,6 @@ import { sluggify } from "./html-prettifier/slugger";
 import { createElementFromSelector } from "./html-prettifier/elements";
 import { TocElem } from "../types/toc";
 import { GalleryImg } from "../types/gallery-img";
-import includeMarkdownPlugin from "./remark-plugins/include";
-import remarkMermaid from './remark-plugins/mermaid-ssr';
 import path from "path";
 // import { serializeHTMLNodeTree } from "./json2react";
 
@@ -29,15 +32,22 @@ export default async function markdownToHtml({
 	const root = htmlParser.parse(
 		(
 			await unified()
-				.use(includeMarkdownPlugin, { resolveFrom: path.resolve(fullPath, '..') })
+				.use(includeMarkdownPlugin, {
+					resolveFrom: path.resolve(fullPath, ".."),
+				})
 				.use(remarkParse)
-				.use(gfm)
+				// .use(gfm)
 				.use(remarkMermaid, { wrap: true, className: ["mermaid"] })
-				// .use(remarkMermaid as any, {renderDark: false})
-				.use(deflist)
 				.use(remarkMath)
-				.use(remark2rehype, { allowDangerousHtml: true }) // 4sec
-				.use(rehypeMathjax)
+				.use(remarkDefinitionList)
+				.use(remarkRehype, {
+					handlers: {
+						// any other handlers
+						...defListHastHandlers,
+					},
+					allowDangerousHtml: true,
+				}) // 4sec
+				.use(rehypeKatex)
 				.use(raw)
 				.use(stringify) // makes it all faster???
 				.process(content)

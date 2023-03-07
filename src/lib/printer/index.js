@@ -1,4 +1,4 @@
-const puppeteer = require("playwright");
+const puppeteer = require("playwright-core");
 const fs = require("fs");
 const { sluggify } = require("../html-prettifier/slugger");
 

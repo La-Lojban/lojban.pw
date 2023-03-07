@@ -1,4 +1,4 @@
-import * as playwright from "playwright";
+import * as playwright from "playwright-core";
 import rehypeParse from "rehype-parse";
 import { optimize } from "svgo";
 import { unified } from "unified";

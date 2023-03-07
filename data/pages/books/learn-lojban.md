@@ -306,7 +306,7 @@ A simpler sentence in Lojban would contain only one main relation word:
 
 > **karce**
 > _Car!_
-> It is a car._
+> _It is a car._
 
 You could say this when you see a car coming. Here the context would be clear enough that there is a car somewhere around and probably it's dangerous.
 
@@ -2199,29 +2199,29 @@ prami
 klama
 : … come to …
 
-Dictionaries can present verbs with symbols such as x1, x2 etc.:
+Dictionaries can present verbs with symbols such as $x_1$, $x_2$ etc.:
 
 prami
-: x1 loves x2
+: $x_1$ loves $x_2$
 
 karce
-: x1 is a car …
+: $x_1$ is a car …
 
 citka
-: x1 eats x2 …
+: $x_1$ eats $x_2$ …
 
 klama
-: x1 comes to x2 …
+: $x_1$ comes to $x_2$ …
 
-These x1, x2, and so on are called _places of arguments_, and they represent the order in which we place nouns or pronouns in the sentence. For example:
+These $x_1$, $x_2$, and so on are called _places of arguments_, and they represent the order in which we place nouns or pronouns in the sentence. For example:
 
 > **mi prami do**
 > _I love you._
 
 This sentence also implies that
 
-- x1 denotes _the one who loves_, and
-- x2 denotes _the one who is loved by_.
+- $x_1$ denotes _the one who loves_, and
+- $x_2$ denotes _the one who is loved by_.
 
 The advantage of such style of definitions is that all participants of a relation are in one definition.
 
@@ -2299,7 +2299,7 @@ There might be more than two places. For example:
 > _I drink the water from the cup._
 
 pinxe
-: x1 drinks x2 from x3
+: $x_1$ drinks $x_2$ from $x_3$
 
 > **le kabri**
 > _the cup_
@@ -2319,7 +2319,7 @@ Another example:
 > _I give you the apples._
 
 plicru
-: x1 gives, donates to x2 some object x3; x1 allows someone x2 to use x3 
+: $x_1$ gives, donates to $x_2$ some object $x_3$; $x_1$ allows someone $x_2$ to use $x_3$ 
 
 ### Relations inside relations
 
@@ -2329,14 +2329,14 @@ In
 
 we have
 
-- **le nicte** as x1 of the relation,
+- **le nicte** as $x_1$ of the relation,
 - **nu mi viska le lunra** as the main relation.
 
 However, inside **nu mi viska le lunra**, we have another sentence with
 
-- **mi** - x1 of the inner relation,
+- **mi** - $x_1$ of the inner relation,
 - **viska** - the inner relation,
-- **le lunra** - x2 of the inner relation.
+- **le lunra** - $x_2$ of the inner relation.
 
 So, despite having an inner structure, **nu mi viska le lunra** is still a relation with its first term filled with **le nicte** in this case.
 
@@ -2347,13 +2347,13 @@ Similarly, in
 
 we have
 
-- **mi** as x1 of the relation,
+- **mi** as $x_1$ of the relation,
 - **citka** as the main relation construct,
 - **ba le nu mi dansu** as a modal term of the main relation of the sentence.
 
 Inside this term, we have:
 
-- **mi** as x1 of the relation inside the term
+- **mi** as $x_1$ of the relation inside the term
 - **dansu** as the main relation construct inside the term.
 
 Such "recursive" mechanism of wrapping relations into relations allows expressing complex ideas precisely.
@@ -2377,13 +2377,13 @@ It's important to note that other languages use different ways of marking roles 
 Lojban, for instance, marks core roles of relations by fully defining such relations with the roles placed in sequence (or marked with **fa**, **fe**, and so on):
 
 klama
-: x1 comes to x2 …
+: $x_1$ comes to $x_2$ …
 
 tavla
-: x1 talks to x2 …
+: $x_1$ talks to $x_2$ …
 
 melbi
-: x1 is beautiful, pretty to x2 …
+: $x_1$ is beautiful, pretty to $x_2$ …
 
 Such core roles are essential in defining relations.
 
@@ -2403,10 +2403,10 @@ In Lojban, a similar notion of such optional roles is expressed via separate rel
 > _It's hard to me because this thing is heavy._
 
 nandu
-: x1 is hard to x2
+: $x_1$ is hard to $x_2$
 
 tilju
-: x1 is heavy
+: $x_1$ is heavy
 
 Prepositions in English are similar to modal particles in Lojban, although a usual English preposition can have many meanings while in Lojban, every modal particle has only one (even if vague) meaning.
 
@@ -2426,15 +2426,15 @@ Usually, you can guess the order using context and a few rules of thumb:
 
 2. The object of some action is usually just after the first place:
 
-    **punji** = _x1 puts x2 on x3_,
+    **punji** = _x1 puts $x_2$ on x3_,
 
 3. And the next place will usually be filled with the recipient:
 
-    **punji** = _x1 puts x2 on x3_,
+    **punji** = _x1 puts $x_2$ on x3_,
 
 4. Destination (_to_) places nearly always come before origin (_from_) places:
 
-    **klama** = _x1 goes to x2 from x3_
+    **klama** = _x1 goes to $x_2$ from x3_
 
     <pixra url="/assets/pixra/cilre/klama_fi.png" caption="le prenu cu klama fi le zarci" definition="The person goes out of the shop."></pixra>
 
@@ -2455,10 +2455,10 @@ le verba
 : the child, the children
 
 troci
-: x1 tries to do or to be x2 (ka)
+: $x_1$ tries to do or to be $x_2$ (ka)
 
 cadzu
-: x1 walks
+: $x_1$ walks
 
 <pixra url="/assets/pixra/cilre/troci_cadzu.png" caption="le verba cu troci le ka cadzu" definition="The child tries to walk."></pixra>
 
@@ -2467,9 +2467,9 @@ The particle **ka** works much like nu, but it indicates that the noun on the le
 Some verbs require only infinitives in some of their places. Definitions of such words mark such places with the term _property_ or **ka**. For example:
 
 cinmo
-: x1 feels x2 (ka)
+: $x_1$ feels $x_2$ (ka)
 
-This means that the infinitive in the second place (x2) is applied to some place (most likely, the first place, x1). Cases where the infinitive is applied to places other than x2 are rare and are explained for corresponding verbs or in the case of verbs invented unofficially, can be deduced from common sense.
+This means that the infinitive in the second place ($x_2$) is applied to some place (most likely, the first place, $x_1$). Cases where the infinitive is applied to places other than $x_2$ are rare and are explained for corresponding verbs or in the case of verbs invented unofficially, can be deduced from common sense.
 
 Note that only the first unfilled place of the embedded relation takes the meaning of the outer place:
 
@@ -2477,7 +2477,7 @@ Note that only the first unfilled place of the embedded relation takes the meani
 > _I try to be loved by you._
 
 tcidu
-: x1 reads x2 from x3
+: $x_1$ reads $x_2$ from $x_3$
 
 Here, the first unfilled place is the second place of **prami**, thus it takes the value **mi** (_I_).
 
@@ -2498,7 +2498,7 @@ Another example:
 The dictionary often mentions other types of places, for example:
 
 djica
-: x1 wants x2 (event)
+: $x_1$ wants $x_2$ (event)
 
 This _event_ means that you have to fill the place with a noun that represents an event. For instance:
 
@@ -2535,7 +2535,7 @@ because you want to do something with the apple or you want some event happening
 > _I suggest going to the pub._
 
 stidi
-: x1 suggest action x2 (property) to x3
+: $x_1$ suggest action $x_2$ (property) to $x_3$
 
 > **mi stidi tu'a le barja**
 > _I suggest the pub._
@@ -2563,7 +2563,7 @@ Place structure may put too much burden on specifying actions or events. Sometim
 
 In the examples above _I suggest the pub._ most likely implies going to the pub and _I want the apple._ implies eating it.
 
-However, the Lojban verb **stidi** requires a property in its x2 place. Similarly, **djica** requires an event in its x2 place.
+However, the Lojban verb **stidi** requires a property in its $x_2$ place. Similarly, **djica** requires an event in its $x_2$ place.
 
 The short so called qualifier word **tu'a** before a term implies an abstraction (property, event, or proposition) but selects only this term from this abstraction skipping the rest. It can be vaguely translated as _something about_:
 
@@ -2594,7 +2594,7 @@ And now how do we say _My friend is smart._?
 
 So when we convert a verb into a noun (**pendo** — _to be a friend_ into **le pendo** — _a friend_) we can still retain other places of that verb by placing **be** after it.
 
-By default it attaches the second place (x2). We can attach more places by separating them with **bei**:
+By default it attaches the second place ($x_2$). We can attach more places by separating them with **bei**:
 
 > **mi plicru do le plise**
 > _I give you the apple._
@@ -2623,7 +2623,7 @@ Another example:
 > _I come to a friend of yours._
 
 klama
-: x1 comes to x2 from x3 …
+: $x_1$ comes to $x_2$ from $x_3$ …
 
 We can't omit **be** because **le pendo do** are two independent places:
 
@@ -2733,7 +2733,7 @@ le pa tricu
 : the tree (one tree)
 
 barda
-: x1 is big/large
+: $x_1$ is big/large
 
 And now let's join those two sentences:
 
@@ -2790,13 +2790,13 @@ ti
 : this one near me, these ones near me
 
 cisma
-: x1 smiles
+: $x_1$ smiles
 
 pluka
-: x1 is pleasant to x2
+: $x_1$ is pleasant to $x_2$
 
 zutse
-: x1 sits, is sitting on x2
+: $x_1$ sits, is sitting on $x_2$
 
 Here, **voi** defines the object near me.
 
@@ -2873,7 +2873,7 @@ Actually, **le bangu pe mi** is a better translation of _my language_, since lik
 However, you can say **le birka be mi** as _my arm_. Even if you saw off your arm, it'll still be yours. That's why **birka** has a place of the owner:
 
 birka
-: x1 is an arm of x2
+: $x_1$ is an arm of $x_2$
 
 Notice that **be** attaches to the verb word. But **pe**, **ne**, **poi** and **noi** attach to nouns. For example,
 
@@ -2972,7 +2972,7 @@ When using **me** you can connect several nouns with _and_:
 > _Those are some (or all) of my friends and my siblings._
 
 tunba
-: x1 is a sibling of x2
+: $x_1$ is a sibling of $x_2$
 
 ### Modal particles inside nouns
 
@@ -3045,7 +3045,7 @@ Placing term particles after nouns binds them to outer verbs:
 > _I'm granted with this by you._
 
 plicru
-: x1 gives to x2 something x3 for use
+: $x_1$ gives to $x_2$ something $x_3$ for use
 
 We can swap the first two places round in the verb using **se** and thus change the place structure.
 
@@ -3108,7 +3108,7 @@ For the ease of understanding and memorizing predicate words prefixed with **se*
 > _I made the chair out of the piece of wood._
 
 zbasu
-: x1 builds, makes x2 out of x3
+: $x_1$ builds, makes $x_2$ out of $x_3$
 
 le pa stizu
 : the chair
@@ -3127,7 +3127,7 @@ The **mi** has now moved to the third place in the sentence, and can now be drop
 Similarly to our example with **le se plicru** (_the recipient_) and **le te plicru** (_the gift_) we can use **te**, **ve**, **xe** to get more words from other places of verbs:
 
 klama
-: x1 goes to x2 from x3 via x4 by means x5
+: $x_1$ goes to $x_2$ from $x_3$ via $x_4$ by means $x_5$
 
 Thus, we can derive that
 
@@ -3158,11 +3158,11 @@ Usually we don't need all the places of a verb, so we can omit the unnecessary o
 > **fa mi prami fe do**
 > _I love you._
 
-- **fa** marks the first place of a verb (x1)
-- **fe** — marks the second place (x2)
-- **fi** — marks the third place (x3)
-- **fo** — marks the fourth place (x4)
-- **fu** — marks the fifth place (x5)
+- **fa** marks the first place of a verb ($x_1$)
+- **fe** — marks the second place ($x_2$)
+- **fi** — marks the third place ($x_3$)
+- **fo** — marks the fourth place ($x_4$)
+- **fu** — marks the fifth place ($x_5$)
 
 More examples:
 
@@ -3176,7 +3176,7 @@ More examples:
 > _I drink (something) from the cup._
 
 pinxe
-: x1 drinks x2 from x3
+: $x_1$ drinks $x_2$ from $x_3$
 
 le kabri
 : the cup, the glass
@@ -3188,7 +3188,7 @@ le kabri
 > _I agree (with someone) about visiting parents._
 
 tugni
-: x1 agrees with someone x2 about x3 (proposition)
+: $x_1$ agrees with someone $x_2$ about $x_3$ (proposition)
 
 le rirni
 : the parent / the parents
@@ -3305,7 +3305,7 @@ By default, **da** as a pronoun alone means the same as **su'o da** (_there is a
 > _Someone talk to themselves about themselves._
 
 tavla
-: x1 talks to someone x2 about topic x3
+: $x_1$ talks to someone $x_2$ about topic $x_3$
 
 > **pa da poi ckape zo'u mi djica le nu da na ku fasnu**
 > _There is one dangerous thing: I wish it never happens._
@@ -3404,7 +3404,7 @@ The English verb _to have_ has several meanings.
 > `There is something that is an arm of me`
 
 birka
-: x1 is an arm of x2
+: $x_1$ is an arm of $x_2$
 
 We use the same strategy for expressing family relationship:
 
@@ -3420,7 +3420,7 @@ We use the same strategy for expressing family relationship:
 > _I have two brothers and they are tall._
 
 clani
-: x1 is long, tall
+: $x_1$ is long, tall
 
 So we don't need the verb _to have_ to denote such relationship. The same for other family members:
 
@@ -3447,7 +3447,7 @@ So we don't need the verb _to have_ to denote such relationship. The same for ot
 > _I have a child (or children)._
 
 panzi
-: x1 is a child, offspring of x2
+: $x_1$ is a child, offspring of $x_2$
 
 Note that using a number in front of **da** isn't necessary if context is enough.
 
@@ -3465,7 +3465,7 @@ Another meaning of _to have_ is _to keep_:
 > _I have the car._
 
 ralte
-: x1 keeps x2 in their possesion
+: $x_1$ keeps $x_2$ in their possesion
 
 ---
 
@@ -3475,7 +3475,7 @@ If you own, possess something according to some law or documents you should use 
 > _I own the car._
 
 ponse
-: x1 owns x2
+: $x_1$ owns $x_2$
 
 ### Scope
 
@@ -3592,7 +3592,7 @@ Like with modal terms the position of **da** matters:
 > _I lost all my property._
 
 ponse
-: x1 owns x2
+: $x_1$ owns $x_2$
 
 co'u
 : modal term: the event stops
@@ -3609,7 +3609,7 @@ vi
 : here, at a short distance
 
 cizra
-: x1 is strange
+: $x_1$ is strange
 
 > **vi ku ro da cizra**
 > _Here everything is strange._
@@ -3652,19 +3652,19 @@ To make a noun describing the set of object or events (from which we derive such
 > _My pet is an example that at one point mammals die._
 
 danlu
-: x1 is a mammal
+: $x_1$ is a mammal
 
 morsi
-: x1 is dead
+: $x_1$ is dead
 
 co'a morsi
-: x1 dies
+: $x_1$ dies
 
 ca da
 : at some point in time
 
 mupli
-: x1 is an example of x2 (property) among x3 (set)
+: $x_1$ is an example of $x_2$ (property) among $x_3$ (set)
 
 Dictionaries specify when places of verbs have to be filled with sets.
 
@@ -3692,7 +3692,7 @@ lei prenu
 : the crowd, the mass of people
 
 smaji
-: x1 is silent
+: $x_1$ is silent
 
 > **le since cu sruri le garna**
 > _The snakes surrounded the rod._
@@ -3717,7 +3717,7 @@ smaji
 > _It's not true that each of the two rings is a symbol of Lojban._
 
 djine
-: x1 is a ring
+: $x_1$ is a ring
 
 Indeed, only the two rings together form a symbol.
 
@@ -3742,7 +3742,7 @@ In Lojban we can easily distinguish between these two cases:
 > (so that every apple might be light but together they are heavy)
 
 tilju
-: x1 is heavy
+: $x_1$ is heavy
 
 As you can see there is an important difference between describing one object of a mass or describing the mass as a whole.
 
@@ -3758,7 +3758,7 @@ As you can see there is an important difference between describing one object of
 > (so that every apple weighs ≈ 33 grams on average)
 
 grake
-: x1 weighs x2 (number) grams
+: $x_1$ weighs $x_2$ (number) grams
 
 When a place of a relation requires a number as mentioned by the dictionary then to use that number we prefix it with the word **li**.
 
@@ -3812,7 +3812,7 @@ For quoting text we place quotation particle **lu** before the quote and place *
 > _I say "I love you."_
 
 cusku
-: x1 expresses/says x2 (quote) to audience x3
+: $x_1$ expresses/says $x_2$ (quote) to audience $x_3$
 
 A nice feature of Lojban is that **lu** — «quote» and **li'u** — «unquote» marks are pronounceable. It is quite handy since in spoken Lojban you don't have to change intonation to show where a quoted text starts and ends.
 
@@ -3830,7 +3830,7 @@ which is similar to
 > _Yan said "Jane greeted me."_
 
 rinsa
-: x1 greets someone x2
+: $x_1$ greets someone $x_2$
 
 <pixra url="/assets/pixra/cilre/rinsa2.png" caption="le prenu cu rinsa le pendo" definition="The person greets the friend."></pixra>
 
@@ -3882,18 +3882,18 @@ Several common verbs related to talking:
 > _I replied to her question by saying in reply "I am going home."_
 
 spuda
-: x1 replies to x2 by doing x3 (property of x1)
+: $x_1$ replies to $x_2$ by doing $x_3$ (property of $x_1$)
 
 The remaining three verbs have identical place structure:
 
 cusku
-: x1 expresses/says x2 (quote) to audience x3
+: $x_1$ expresses/says $x_2$ (quote) to audience $x_3$
 
 retsku
-: x1 asks x2 (quote) to audience x3
+: $x_1$ asks $x_2$ (quote) to audience $x_3$
 
 spusku
-: x1 replies/says answer x2 (quote) to audience x3
+: $x_1$ replies/says answer $x_2$ (quote) to audience $x_3$
 
 ### «**zo**» — quoting one word
 
@@ -3904,7 +3904,7 @@ spusku
 > _My name is Robin._
 
 cmene
-: x1 (quote) is a name of x2 …
+: $x_1$ (quote) is a name of $x_2$ …
 
 This is how you present yourself in Lojban using your Lojbanized name.If you have a name consisting of more than one verb word then use **lu … li'u**:
 
@@ -3973,7 +3973,7 @@ This is the most common way of asking _How do you do?_, _Howdy?_ in Lojban. Some
 > _— I'm happy._
 
 gleki
-: x1 is happy
+: $x_1$ is happy
 
 > **— mi kanro**
 > _— I'm healthy._
@@ -3994,7 +3994,7 @@ Another way of asking _How do you do?_:
 > _— How do you feel (emotionally)?_
 
 cinmo
-: x1 feels x2 (property of x1)
+: $x_1$ feels $x_2$ (property of $x_1$)
 
 Other examples:
 
@@ -4037,7 +4037,7 @@ To differentiate between _to do_ and _to be someone or something_ we use additio
 > _Mei Li is does cleaning._
 
 zukte
-: x1 does x2 (property of x1)
+: $x_1$ does $x_2$ (property of $x_1$)
 
 lumci
 : to clean (something)
@@ -4148,14 +4148,14 @@ Consider the example:
 > _I know that you are smart._
 
 djuno
-: x1 knows x2 (proposition) about x3
+: $x_1$ knows $x_2$ (proposition) about $x_3$
 
 
 > **mi jimpe le du'u do pu citka**
 > _I understand that you were eating._
 
 jimpe
-: x1 understands x2 (proposition) about x3
+: $x_1$ understands $x_2$ (proposition) about $x_3$
 
 <pixra url="/assets/pixra/cilre/na_jimpe.png" caption="mi na jimpe" definition="I don't understand."></pixra>
 
@@ -4169,7 +4169,7 @@ Note that the relation started with **du'u** doesn't have to be true:
 > _That you are a cat is false._
 
 jitfa
-: x1 (proposition) is false
+: $x_1$ (proposition) is false
 
 Where to use **du'u** and where to use **nu**? You may look into the dictionary:
 
@@ -4305,7 +4305,7 @@ ie nai
 : interjection: I hope
 
 clira
-: x1 happens early
+: $x_1$ happens early
 
 <pixra url="/assets/pixra/cilre/ciska.png" caption=".ei mi ciska le xatra ti voi pelji ku'o le penbi" definition="I should write the letter on this paper using the pen."></pixra>
 
@@ -4316,7 +4316,7 @@ clira
 : I should … (obligation)
 
 ciska
-: x1 writes x2 on medium x4
+: $x_1$ writes $x_2$ on medium $x_4$
 
 > **i'e do pu gunka le vajni**
 > _Very good! You did an important work._
@@ -5279,16 +5279,16 @@ In this dialogue, the most important verbs for human senses were used. Here are 
 #### Vision
 
 viska
-: x1 sees x2 (object, form, color)
+: $x_1$ sees $x_2$ (object, form, color)
 
 skari
-: x1 is an object with the color x2 (property)
+: $x_1$ is an object with the color $x_2$ (property)
 
 tarmi
-: x1 is the form of x2
+: $x_1$ is the form of $x_2$
 
 cukla
-: x1 is round (in form)
+: $x_1$ is round (in form)
 
 <pixra url="/assets/pixra/cilre/coha_viska.png" caption="le prenu co'a viska le cipni" definition="The person notices, begins to see the bird."></pixra>
 
@@ -5314,7 +5314,7 @@ Note: we can both say _see the form of the apple_ and _see the apple_.
 #### Hearing
 
 tirna
-: x1 hears x2 (object or sound)
+: $x_1$ hears $x_2$ (object or sound)
 
 <pixra url="/assets/pixra/cilre/le_prenu_cu_tirna_lei_djacu.png" caption="le prenu cu tirna lei djacu" definition="The person hears the waters."></pixra>
 
@@ -5334,13 +5334,13 @@ le palta
 : the plate
 
 cladu
-: x1 is loud
+: $x_1$ is loud
 
 tolycladu
-: x1 is quite in sound
+: $x_1$ is quite in sound
 
 tonga
-: x1 is a tone of x2
+: $x_1$ is a tone of $x_2$
 
 We can use **cladu** and similar words directly:
 
@@ -5378,7 +5378,7 @@ Similarly to vision, we can say _hear a sound_ and _hear something producing the
 We can also use the vague **ganse** — _to sense stimulus_.
 
 ganse
-: x1 senses stimulus x2 (object, event) by means x3
+: $x_1$ senses stimulus $x_2$ (object, event) by means $x_3$
 
 ganse le glare
 : to feel the heat
@@ -5400,7 +5400,7 @@ For observing our perceptions we can use **zgana**:
 > _The apple is round._
 
 zgana
-: x1 notices, observes, watches x2. Not limited to vision
+: $x_1$ notices, observes, watches $x_2$. Not limited to vision
 
 Some words can be used with different sensory verbs. For example, we can
 
@@ -5413,10 +5413,10 @@ zgana le sefta
 #### Sense of smell
 
 sumne
-: x1 smells x2 (odor)
+: $x_1$ smells $x_2$ (odor)
 
 panci
-: x1 is an odor of x2 (object)
+: $x_1$ is an odor of $x_2$ (object)
 
 <pixra url="/assets/pixra/cilre/sumne.png" caption="le mlatu cu sumne le xrula" definition="The cat smells the flower."></pixra>
 
@@ -5444,7 +5444,7 @@ In Lojban we can easily separate between those cases like shown in the examples 
 #### Sense of taste
 
 vrusi
-: x1 is a taste of x2
+: $x_1$ is a taste of $x_2$
 
 <pixra url="/assets/pixra/cilre/zgana_le_vrusi.png" caption="le prenu cu zgana le vrusi be le grute" definition="The person tastes, observes the taste of the fruit."></pixra>
 
@@ -5467,7 +5467,7 @@ titla
 #### Sense of touch
 
 sefta
-: x1 is a surface of x2
+: $x_1$ is a surface of $x_2$
 
 > **mi zgana le sefta be le plise**
 > _I palpate, touch-feel the surface of the apple._
@@ -5491,10 +5491,10 @@ sefta
 > _I feel pain in my knee, my knee hurts._
 
 cortu
-: x1 feels pain in x2 (organ, part of x1's body)
+: $x_1$ feels pain in $x_2$ (organ, part of $x_1$'s body)
 
 cidni
-: x1 is a knee of x2
+: $x_1$ is a knee of $x_2$
 
 #### Colors
 
@@ -5504,7 +5504,7 @@ Different language use different sets of words to denote colors. Some languages 
 > _This is red._
 
 xunre
-: x1 is red
+: $x_1$ is red
 
 > **ti skari le ka xunre**
 > _This is red. This has the color or red things._
@@ -5535,22 +5535,22 @@ le solri
 <pixra url="/assets/pixra/cilre/tsani.png" caption="tsani .i solri" definition="The sky. The sun."></pixra>
 
 simlu
-: x1 looks like x2 (property of x1)
+: $x_1$ looks like $x_2$ (property of $x_1$)
 
 > **.i le pelxu xrula cu se farna le solri**
 > _Yellow flowers are oriented towards the Sun._
 
 se farna
-: x1 is oriented towards x2
+: $x_1$ is oriented towards $x_2$
 
 farna
-: x1 is the direction of x2
+: $x_1$ is the direction of $x_2$
 
 > **.i le pezli be le tricu cu crino**
 > _Leaves of trees are green._
 
 pezli
-: x1 is a leaf of x2
+: $x_1$ is a leaf of $x_2$
 
 le tricu
 : tree
@@ -5562,7 +5562,7 @@ zvati
 : … is present at …
 
 korbi
-: x1 is the border of x2
+: $x_1$ is the border of $x_2$
 
 le xamsi
 : sea
@@ -5571,25 +5571,25 @@ le xamsi
 > _I look at a person who wears the violet dress._
 
 dasni
-: x1 wears x2 (something)
+: $x_1$ wears $x_2$ (something)
 
 xunre
-: x1 is red
+: $x_1$ is red
 
 narju
-: x1 is orange
+: $x_1$ is orange
 
 pelxu
-: x1 is yellow
+: $x_1$ is yellow
 
 crino
-: x1 is green
+: $x_1$ is green
 
 blanu
-: x1 is blue
+: $x_1$ is blue
 
 zirpu
-: x1 is violet
+: $x_1$ is violet
 
 Other useful verbs:
 
@@ -5602,13 +5602,13 @@ Other useful verbs:
 > _The light from the Sun was intense._
 
 gusni
-: x1 is a light illuminating x2 from the light source x3
+: $x_1$ is a light illuminating $x_2$ from the light source $x_3$
 
 carmi
-: x1 is intense, bright
+: $x_1$ is intense, bright
 
 manku
-: x1 is dark
+: $x_1$ is dark
 
 ### «**sipna**» — ‘_to sleep_’, «**sanji**» — ‘_to be aware_’
 
@@ -5637,18 +5637,18 @@ The following are examples that illustrate some basic aspects of the mind:
 > _I am self-conscious._
 
 sipna
-: x1 sleeps
+: $x_1$ sleeps
 
 cikna
-: x1 is awake
+: $x_1$ is awake
 
 ganse
-: observer x1 senses, notices some stimulus (event) by mrans x3
+: observer $x_1$ senses, notices some stimulus (event) by mrans $x_3$
 
 sanji
-: x1 is conscious, aware of x2 (event)
+: $x_1$ is conscious, aware of $x_2$ (event)
 
-**ganse** doesn't imply any mental processing; it just describes perception, recognition, detection of some stimulus via sensory channels (specified in x3).
+**ganse** doesn't imply any mental processing; it just describes perception, recognition, detection of some stimulus via sensory channels (specified in $x_3$).
 
 On the other hand, **sanji** describes passive sensing which involves mental processing but not necessarily via sensory inputs at all (some mental relationships are not detected by the senses).
 
@@ -5662,7 +5662,7 @@ On the other hand, **sanji** describes passive sensing which involves mental pro
 > _You seem to be sad._
 
 badri
-: x1 is sad about x2
+: $x_1$ is sad about $x_2$
 
 <pixra url="/assets/pixra/cilre/badri.png" caption="le prenu cu simlu lo ka badri" definition="The person seems to be sad."></pixra>
 
@@ -5670,7 +5670,7 @@ badri
 > _I am frustrated that my brother gets married a woman._
 
 steba
-: x1 feels frustration about x2
+: $x_1$ feels frustration about $x_2$
 
 > **mi se cfipu**
 > **.i xu do na ku gleki le nu le bruna co'a speni**
@@ -5678,10 +5678,10 @@ steba
 > _You are not happy that the brother gets married?_
 
 se cfipu
-: x1 is confused about x2
+: $x_1$ is confused about $x_2$
 
 gleki
-: x1 is happy about x2
+: $x_1$ is happy about $x_2$
 
 > **ie**
 > **.i le ninmu cu pindi**
@@ -5696,7 +5696,7 @@ le jdini
 : the money
 
 kakne
-: x1 is capable of x2 (property of x1)
+: $x_1$ is capable of $x_2$ (property of $x_1$)
 
 > **ua**
 > **.i la'a do kanpe le nu le ninmu na ku prami le bruna**
@@ -5707,7 +5707,7 @@ la'a
 : interjection: probably, it's likely
 
 kanpe
-: x1 expects x2 (some event )
+: $x_1$ expects $x_2$ (some event )
 
 > **mi terpa le nu le ninmu ba tarti le xlali**
 > **.i ku'i le bruna cu cisma ca ro nu ri tavla le ninmu**
@@ -5717,58 +5717,58 @@ kanpe
 > _And she usually laughs._
 
 terpa
-: x1 fears x2
+: $x_1$ fears $x_2$
 
 cisma
-: x1 smiles
+: $x_1$ smiles
 
 cmila
-: x1 laughs
+: $x_1$ laughs
 
 > **mi kucli le nu le ninmu cu prami le bruna**
 > _I wonder whether the girl likes the brother._
 
 kucli
-: x1 is curious of x2
+: $x_1$ is curious of $x_2$
 
 > **mi na ku kanpe**
 > _I don't expect that._
 
 kanpe
-: x1 expects that x2 (event) happens
+: $x_1$ expects that $x_2$ (event) happens
 
 > **ko surla**
 > _Relax!_
 
 surla
-: x1 relaxes by doing x2 (property of x1)
+: $x_1$ relaxes by doing $x_2$ (property of $x_1$)
 
 cinmo
-: x1 feels emotion x2 (property of x1)
+: $x_1$ feels emotion $x_2$ (property of $x_1$)
 
 nelci
-: x1 likes x2
+: $x_1$ likes $x_2$
 
 manci
-: x1 feels awe or wonder about x2
+: $x_1$ feels awe or wonder about $x_2$
 
 fengu
-: x1 is angry about x2
+: $x_1$ is angry about $x_2$
 
 xajmi
-: x1 thinks x2 is funny
+: $x_1$ thinks $x_2$ is funny
 
 se zdile
-: x1 is amused by x2
+: $x_1$ is amused by $x_2$
 
 zdile
-: x1 is amusing
+: $x_1$ is amusing
 
 djica
-: x1 desires x2
+: $x_1$ desires $x_2$
 
 pacna
-: x1 hopes that x2 is true
+: $x_1$ hopes that $x_2$ is true
 
 ### Health
 
@@ -5809,7 +5809,7 @@ le mikce
 > _I assume that I have a cold._
 
 cortu
-: x1 has pain in x2 (organ, part of x1's body)
+: $x_1$ has pain in $x_2$ (organ, part of $x_1$'s body)
 
 la .zukam.
 : common cold (disease)
@@ -5818,13 +5818,13 @@ la .zukam.
 > _Get well!_
 
 kanro
-: x1 is healthy
+: $x_1$ is healthy
 
 > **ki'e**
 > _Thanks._
 
 bilma
-: x1 is ill or sick with symptoms x2 from disease x3
+: $x_1$ is ill or sick with symptoms $x_2$ from disease $x_3$
 
 Note that the second place of **bilma** describes symptoms like **le ka cortu le galxe** = _to have pain in the throat_
 
@@ -5836,10 +5836,10 @@ The third place is the name of the disease leading to those symptoms: Obviously,
 > _The man has a long body. The man is tall._
 
 se xadni
-: x1 has the body x2
+: $x_1$ has the body $x_2$
 
 xadni
-: x1 is the body of x2
+: $x_1$ is the body of $x_2$
 
 > **mi pu darxi fi le stedu .e le zunle xance**
 > **.i ca ti le degji be le xance cu cortu**
@@ -5847,17 +5847,17 @@ xadni
 > _I hit something with the head and the left hand. Now the finger of the hand hurts. But the right hand doesn't hurt._
 
 darxi
-: x1 hits x2 with x3
+: $x_1$ hits $x_2$ with $x_3$
 
 Most of words for parts of body have the same place structure as **xadni**:
 
 stedu
-: x1 is a head of x2
+: $x_1$ is a head of $x_2$
 
 However, some describe smaller parts:
 
 degji
-: x1 is a finger/toe on part x2 (hand, foot)
+: $x_1$ is a finger/toe on part $x_2$ (hand, foot)
 
 > **le degji be le xance be le ninmu cu clani**
 > _The woman's fingers are long._
@@ -5867,13 +5867,13 @@ degji
 > _I can see the feet. But I don't see its toes._
 
 janco
-: x1 is a joint attaching limbs x2
+: $x_1$ is a joint attaching limbs $x_2$
 
 ctebi
-: x1 is a lip of mouth, orifice x2
+: $x_1$ is a lip of mouth, orifice $x_2$
 
 cidni
-: x1 is a knee or elbow of limb x2
+: $x_1$ is a knee or elbow of limb $x_2$
 
 ![](https://mw.lojban.org/images/thumb/9/9e/xadni.png/500px-xadni.png)
 
@@ -5944,7 +5944,7 @@ je'u
 The verbs for names of family members have a similar place structure:
 
 speni
-: x1 is a husband/wife of x2
+: $x_1$ is a husband/wife of $x_2$
 
 **co'a speni** means _to get married_:
 
@@ -5952,33 +5952,33 @@ speni
 > _I married Susan._
 
 lanzu
-: x1 is a family including x2
+: $x_1$ is a family including $x_2$
 
 panzi
-: x1 is a child of x2
+: $x_1$ is a child of $x_2$
 
 tixnu
-: x1 is a daughter of x2
+: $x_1$ is a daughter of $x_2$
 
 bersa
-: x1 is a son of x2
+: $x_1$ is a son of $x_2$
 
 tunba
-: x1 is a sibling (brother/sister) of x2
+: $x_1$ is a sibling (brother/sister) of $x_2$
 
 bruna
-: x1 is a brother of x2
+: $x_1$ is a brother of $x_2$
 
 mensi
-: x1 is a sister of x2
+: $x_1$ is a sister of $x_2$
 
 Note that **panzi** can be applied to grown-up children of someone
 
 verba
-: x1 is a child, immature person of age x2 (event)
+: $x_1$ is a child, immature person of age $x_2$ (event)
 
 panzi
-: x1 is a child, offspring of x2
+: $x_1$ is a child, offspring of $x_2$
 
 **verba** doesn't necessarily talk of it as of a family member:
 
@@ -5986,10 +5986,10 @@ panzi
 > _The son of my friend is a child of three years old._
 
 citno
-: x1 is young
+: $x_1$ is young
 
 laldo
-: x1 is old, aged
+: $x_1$ is old, aged
 
 Pairs of traditional words (for humans only):
 
@@ -6021,13 +6021,13 @@ le nakni
 These word describe parental (not necessarily genetic) relations:
 
 mamta
-: x1 is a mother of x2, x1 acts maternally
+: $x_1$ is a mother of $x_2$, $x_1$ acts maternally
 
 patfu
-: x1 is a father of x2
+: $x_1$ is a father of $x_2$
 
 rirni
-: x1 is a parent of x2, x1 raises x2
+: $x_1$ is a parent of $x_2$, $x_1$ raises $x_2$
 
 ### In the shop
 
@@ -6064,25 +6064,25 @@ ki'o
 : comma between digits so that **pa ki'o** is _1, 000_ (_one thousand_)
 
 vecnu
-: x1 sells x2 to x3
+: $x_1$ sells $x_2$ to $x_3$
 
 te vecnu
-: x1 buys x2 from x3
+: $x_1$ buys $x_2$ from $x_3$
 
 pleji
-: x1 pays x2 to x3 for x4
+: $x_1$ pays $x_2$ to $x_3$ for $x_4$
 
 jdima
-: x1 is the price of x2
+: $x_1$ is the price of $x_2$
 
 jdini
-: x1 is money
+: $x_1$ is money
 
 rupnusudu
-: x1 costs x2 (number) US dollars
+: $x_1$ costs $x_2$ (number) US dollars
 
 rupne'uru
-: x1 costs x2 (number) euro
+: $x_1$ costs $x_2$ (number) euro
 
 ### Shop, buildings
 
@@ -6108,34 +6108,34 @@ rupne'uru
 > _I live near a shop._
 
 stuzi
-: x1 is a place
+: $x_1$ is a place
 
 dinju
-: x1 is a building, house
+: $x_1$ is a building, house
 
 zdani
-: x1 is a home of x2
+: $x_1$ is a home of $x_2$
 
 se zdani
-: x1 lives in x2, x1 inhabits x2
+: $x_1$ lives in $x_2$, $x_1$ inhabits $x_2$
 
 tcadu
-: x1 is a city or town
+: $x_1$ is a city or town
 
 jarbu
-: x1 is a suburban are of city/town x2
+: $x_1$ is a suburban are of city/town $x_2$
 
 nurma
-: x1 is a rural area, x1 is in the country
+: $x_1$ is a rural area, $x_1$ is in the country
 
 kumfa
-: x1 is a room
+: $x_1$ is a room
 
 vikmi kumfa
-: x1 is a toilet
+: $x_1$ is a toilet
 
 zarci
-: x1 is a shop
+: $x_1$ is a shop
 
 ## Lesson 5. Modal terms, «**da**», their relative position
 
@@ -6183,7 +6183,7 @@ However, **se ka'a** is nice when applied to other verbs like **cadzu** in a pre
 > _The person walked as if he was carrying something heavy._
 
 bevri
-: x1 carries x2
+: $x_1$ carries $x_2$
 
 tai
 : modal term: like …, resembling …
@@ -6197,7 +6197,7 @@ tai
 se rai
 : term from **se traji**: being most in …
 
-Here x1 of the relation corresponds to the most one in comparison specified after **se rai**.
+Here $x_1$ of the relation corresponds to the most one in comparison specified after **se rai**.
 
 - Finally, some terms describe relations of the first place of the relation and the relation itself with the noun after the term:
 
@@ -6213,7 +6213,7 @@ lo fragari
 lo jbari
 : berries
 
-x1 of the relation describes the most one in this comparison, the relation itself describes the comparison.
+$x_1$ of the relation describes the most one in this comparison, the relation itself describes the comparison.
 -->
 
 The dictionary explains such tricky cases where the relation defined by the term might pose difficulty. In practice, the relation is often clear from the examples provided.
@@ -6288,13 +6288,13 @@ However, **se mau** always compares the noun after it with the first place of th
 > `I equal the sister of me in meters. But i am not identical to the sister.`
 
 dunli
-: x1 (any type) is equal to x2 (any type) in x3 (property of x1 and x2 with **kau**)
+: $x_1$ (any type) is equal to $x_2$ (any type) in $x_3$ (property of $x_1$ and $x_2$ with **kau**)
 
 mitre
-: x1 is x2 meters long
+: $x_1$ is $x_2$ meters long
 
 du
-: x1 (any type) is identical to x2 (any type)
+: $x_1$ (any type) is identical to $x_2$ (any type)
 
 **dunli** compares two places for a single property, while **du** compares for identity. My sister and I are the same height, but we are not the same person. Clark Kent and Superman have different admirers, but they are the same person.
 
@@ -6310,10 +6310,10 @@ The same goes for another two verbs:
 > _Someone other than me is able to help._
 
 frica
-: x1 (any type) differs from x2 (any type) in x3 (property of x1 and x2 with **kau**)
+: $x_1$ (any type) differs from $x_2$ (any type) in $x_3$ (property of $x_1$ and $x_2$ with **kau**)
 
 drata
-: x1 (any type) is not the same as x2 (any type)
+: $x_1$ (any type) is not the same as $x_2$ (any type)
 
 ### The concept of ‘_only_’
 
@@ -6333,7 +6333,7 @@ The concept of _not only_ is similarly expressed:
 > _I'm the only one who likes bananas among my friends._ (by the way, implying that you are a friend to yourself)
 
 se steci
-: x1 is the only one in x2 (property of x1) among x3 (set) -->
+: $x_1$ is the only one in $x_2$ (property of $x_1$) among $x_3$ (set) -->
 
 <!-- Note that this example implies that you are a friend to yourself :) Otherwise, please, use an even more precise statement:
 
@@ -6358,13 +6358,13 @@ se steci
 > `The one who does attempts and nothing but it fails.`
 
 troci
-: x1 tries to do x2 (property of x1)
+: $x_1$ tries to do $x_2$ (property of $x_1$)
 
 snada
-: x1 succeeds in doing x2 (property of x1)
+: $x_1$ succeeds in doing $x_2$ (property of $x_1$)
 .
 fliba
-: x1 fails in doing x2 (property of x1)
+: $x_1$ fails in doing $x_2$ (property of $x_1$)
 
 And one more solution:
 
@@ -6467,7 +6467,7 @@ Terms specifying the number of times:
 > _I go to the market too often._
 
 zarci
-: x1 is a market
+: $x_1$ is a market
 
 > **mi pu re roi klama le zarci**
 > _I went to the market twice._
@@ -7116,7 +7116,7 @@ Examples:
 > _He stopped breathing (sudden unpredictable change)._
 
 vasxu
-: x1 breathes x2
+: $x_1$ breathes $x_2$
 
 > **mi pu mo'u citka le plise**
 > _I've eaten the apple up._
@@ -7163,7 +7163,7 @@ di'a
 > _I am back (being attentive)._
 
 jundi
-: x1 pays attention to x2
+: $x_1$ pays attention to $x_2$
 
 These two expressions are common in text chats for saying that you stop paying attention or away, and then back online:
 
@@ -7230,25 +7230,25 @@ Event contours can be used to refer to space if we prefix them with **fe'e**:
 > _The house is to the left of the rock if viewed from here._
 
 zunle
-: x1 is to the left of x2 as viewed from x3
+: $x_1$ is to the left of $x_2$ as viewed from $x_3$
 
 pritu
-: x1 is to the right of x2 as viewed from x3
+: $x_1$ is to the right of $x_2$ as viewed from $x_3$
 
 crane
-: x1 is in front of x2 (x1 is between x2 and whoever watches) as viewed from x3
+: $x_1$ is in front of $x_2$ ($x_1$ is between $x_2$ and whoever watches) as viewed from $x_3$
 
 trixe
-: x1 is behind x2 as viewed from x3
+: $x_1$ is behind $x_2$ as viewed from $x_3$
 
 sanli
-: x1 stands on x2
+: $x_1$ stands on $x_2$
 
 zutse
-: x1 sits on x2
+: $x_1$ sits on $x_2$
 
 vreta
-: x1 lies on x2
+: $x_1$ lies on $x_2$
 
 le dertu
 : the ground, the dirt
@@ -7350,25 +7350,25 @@ le penbi
 </td></tr></tbody></table>
 
 marce
-: x1 is a vehicle carrying x2
+: $x_1$ is a vehicle carrying $x_2$
 
 se marce
-: x1 is a passenger of x2
+: $x_1$ is a passenger of $x_2$
 
 <!-- jai zu'e se marce
-: x1 takes a vehicle x2 as a passenger -->
+: $x_1$ takes a vehicle $x_2$ as a passenger -->
 
 karce
-: x1 is a car carrying x2
+: $x_1$ is a car carrying $x_2$
 
 bloti
-: x1 is a boat carrying x2
+: $x_1$ is a boat carrying $x_2$
 
 vinji
-: x1 is an aircraft carrying x2
+: $x_1$ is an aircraft carrying $x_2$
 
 trene
-: x1 is a train of cars x2
+: $x_1$ is a train of cars $x_2$
 
 ## Lesson 7. Letters, referring to relations, dates
 
@@ -7606,7 +7606,7 @@ Some examples:
 > _We want you to go away._
 
 cliva
-: x1 leaves
+: $x_1$ leaves
 
 ### «**ri**» instead of ‘_he_’ and ‘_she_’
 
@@ -7619,7 +7619,7 @@ ri
 > _I look at a man. He is handsome._
 
 melbi
-: x1 is beautiful / pretty / handsome to someone x2
+: $x_1$ is beautiful / pretty / handsome to someone $x_2$
 
 **ri** refers to the previous completed noun used in text or someone's speech:
 
@@ -7632,7 +7632,7 @@ melbi
 > `Alice sleeps in the room of [previous noun].`
 
 sledi'u
-: x1 is a room for purpose x2 (proposition)
+: $x_1$ is a room for purpose $x_2$ (proposition)
 
 The **ri** is equivalent to repeating the last noun or name, which is **la .alis.** here.
 
@@ -7659,7 +7659,7 @@ Pronouns that are stable across the dialogue or story are ignored by **ri**. We 
 > `I wash me`
 
 lumci
-: x1 washes x2
+: $x_1$ washes $x_2$
 
 > **mi prami mi**
 > _I love myself._
@@ -7783,7 +7783,7 @@ Examples:
 > **.i la .alis. cu zgana le nanmu .i le se go'i cu melbi**
 > _Alice watches a man. He is handsome._
 
-Here, **le se go'i** refers to the second place (x2) of the preceding relation, which is **le nanmu**.
+Here, **le se go'i** refers to the second place ($x_2$) of the preceding relation, which is **le nanmu**.
 
 Another example:
 
@@ -7849,7 +7849,7 @@ Here, **ja'a ku** replaces **na ku** in the original relation. -->
 > _Eleven hours_
 
 tcika
-: x1 (hours, minutes, seconds) is the time of event x2
+: $x_1$ (hours, minutes, seconds) is the time of event $x_2$
 
 In Lojban times are always the times of something. So we ask what the time is of **ti**, meaning _this event/thing_, or, in other words _now_.
 
@@ -7899,7 +7899,7 @@ And one useful example:
 > _It's July, 1._
 
 detri
-: x1 (year, month, day) is the date/time of event x2
+: $x_1$ (year, month, day) is the date/time of event $x_2$
 
 Another option:
 
@@ -7927,7 +7927,7 @@ Prefixes with numbers after them can be used in any order (let's use digits to s
 > _The fifth of July (seventh month), year 2005 is when I was born._
 
 jbena
-: x1 is born
+: $x_1$ is born
 
 We can also use **de'i**:
 
@@ -7957,7 +7957,7 @@ For days of week usually Monday is the first day:
 > _I am 22 years old._
 
 nanca
-: x1 is of duration of x2 (number) years
+: $x_1$ is of duration of $x_2$ (number) years
 
 **nanca** specifies the duration, and in order too say _two years long_ you fill the second place with a number prefixed with **li**.
 
@@ -7965,13 +7965,13 @@ nanca
 > _The child is two months old._
 
 masti
-: x1 is x2 months long
+: $x_1$ is $x_2$ months long
 
 > **le nu carvi cu djedi li ci**
 > _It's raining for three days._
 
 djedi
-: x1 (event) is x2 (number) full days long
+: $x_1$ (event) is $x_2$ (number) full days long
 
 <!-- ### New verbs from one scale
 
@@ -8112,26 +8112,26 @@ For asking for a number we use **ma**:
 Ordinal numbers such as _first_, _second_, _third_ are used to put things in order. In Lojban they are formed with a number plus **moi** immediately after it:
 
 pa moi
-: x1 is first among x2 (set)
+: $x_1$ is first among $x_2$ (set)
 
 re moi
-: x1 is second among x2 (set)
+: $x_1$ is second among $x_2$ (set)
 
 ci moi
-: x1 is third among x2 (set)
+: $x_1$ is third among $x_2$ (set)
 
 …
 
 ro moi
-: x1 is last among x2 (set)
+: $x_1$ is last among $x_2$ (set)
 
 It is also possible to use verbs instead of numbers:
 
 me mi moi
-: x1 is mine
+: $x_1$ is mine
 
 me do moi
-: x1 is yours
+: $x_1$ is yours
 
 In this case we had to convert pronouns to verbs using **me**.
 
@@ -8189,7 +8189,7 @@ gau
 : modal term: caused by … (agent), driven by … (someone, some object)
 
 kalri
-: x1 is open
+: $x_1$ is open
 
 Thus, such verbs as _to open something_, _to move something_ can be rephrased as _to make something open_, _to make something move_ and therefore we don't need to learn extra verbs for every such meaning. Instead we add the term **gau** all the time.
 
@@ -8231,10 +8231,10 @@ Some more variations:
 **muvdu** — _moves to some place_ is transformed into a new verb **jai gau muvdu** — _to move something or someone to some place_.
 
 muvdu
-: x1 moves to x2 from x3 via x4
+: $x_1$ moves to $x_2$ from $x_3$ via $x_4$
 
 jai gau muvdu fai le karce
-: x1 moves the car to x2 from x3 via x4
+: $x_1$ moves the car to $x_2$ from $x_3$ via $x_4$
 
 > **la .alis. cu klama**
 > _Alice comes._
@@ -8259,7 +8259,7 @@ ri'a ma
 : why?
 
 klaku
-: x1 cries
+: $x_1$ cries
 
 Unlike **gau** the term **ri'a** expects not an agent, but an event like _the clouds are crying_:
 
@@ -8318,10 +8318,10 @@ le jemna
 : the gem
 
 zabna
-: x1 is cool, nice
+: $x_1$ is cool, nice
 
 gunka
-: x1 works
+: $x_1$ works
 
 ki'u
 : modal term: because (due to explanation …)
@@ -8363,7 +8363,7 @@ Other examples:
 > _I am so angry._
 
 fengu
-: x1 is angry at x2 (clause) for action x3 (property of x2)
+: $x_1$ is angry at $x_2$ (clause) for action $x_3$ (property of $x_2$)
 
 ### ‘_If … then_’
 
@@ -8411,7 +8411,7 @@ fau
 : with the event of …
 
 rupnusudu
-: x1 costs x2 (number) US dollars
+: $x_1$ costs $x_2$ (number) US dollars
 
 pa ki'o ki'o
 : 1 million
@@ -8435,13 +8435,13 @@ Other prepositions can be used when necessary:
 > _I would wait while you took a swim._
 
 denpa
-: x1 waits for x2 (event)…
+: $x_1$ waits for $x_2$ (event)…
 
 ze'a
 : through some time, for a while, during …
 
 limna
-: x1 swims
+: $x_1$ swims
 
 ### Probabilities
 
@@ -8493,7 +8493,7 @@ Some verbs have **da'i** implied in some of their places when you don't use **da
 > _I hope you will have a pleasant sleep._
 
 pacna
-: x1 hopes for x2 (possible event) with likelihood x3 (number, by default **li so'a** i.e. close to 1)
+: $x_1$ hopes for $x_2$ (possible event) with likelihood $x_3$ (number, by default **li so'a** i.e. close to 1)
 
 > **mi kanpe le nu do klama**
 > _I expect you to come._
@@ -8510,7 +8510,7 @@ pacna
 > _I know for a fact that if a rock lands on my foot, it will hurt._
 
 kanpe
-: x1 expects x2 (possible event) with expected likelihood x3 (a number from 0 till 1, the default value is **li so'a**, i.e. near 1)
+: $x_1$ expects $x_2$ (possible event) with expected likelihood $x_3$ (a number from 0 till 1, the default value is **li so'a**, i.e. near 1)
 
 Unlike **pacna** the verb **kanpe** doesn't necessarily imply hope or wish. It can describe impartial expectation, subjective evaluation of the probability of a situation.
 
@@ -8525,7 +8525,7 @@ Unlike **pacna** the verb **kanpe** doesn't necessarily imply hope or wish. It c
 > _- Maybe._
 
 cumki
-: x1 (possible event) is possible, x1 may, might occur, x1 is a maybe.
+: $x_1$ (possible event) is possible, $x_1$ may, might occur, $x_1$ is a maybe.
 
 > **- xu ba carvi**
 > **- lakne**
@@ -8533,7 +8533,7 @@ cumki
 > _- Probably._
 
 lakne
-: x1 (possible event) is probable, likely
+: $x_1$ (possible event) is probable, likely
 
 > **mi djica le nu do jinga**
 > _I want you to win._
@@ -8544,7 +8544,7 @@ lakne
 > _I would rather visit Paris. I want to visit Paris._
 
 djica
-: x1 wants x2 (possible event)
+: $x_1$ wants $x_2$ (possible event)
 
 > **mi te mukti le ka klama la .paris.**
 > _I will visit Paris. I motivated to visit Paris._
@@ -8555,7 +8555,7 @@ djica
 > _I'm visiting Paris intentionally._
 
 te mukti
-: x1 is motivated to bring about goal x2 (possible event) by motive x3 (event)
+: $x_1$ is motivated to bring about goal $x_2$ (possible event) by motive $x_3$ (event)
 
 > **mi kakne le ka limna**
 > _I am able to swim._
@@ -8566,67 +8566,67 @@ te mukti
 > _I could work. I was able to work._
 
 kakne
-: x1 can, is able to do x2 (property of x1)
+: $x_1$ can, is able to do $x_2$ (property of $x_1$)
 
-x2 describes a possible event.
+$x_2$ describes a possible event.
 
 > **mi te javni le ka gunka**
 > _I should work._
 
 te javni
-: x1 should/ought to do x2 (property of x1) under rule x3 (proposition)
+: $x_1$ should/ought to do $x_2$ (property of $x_1$) under rule $x_3$ (proposition)
 
-x2 describes a possible event.
+$x_2$ describes a possible event.
 
 > **do na ku te javni le ka tcidu**
 > _You don't have to read._
 
 na ku te javni
-: x1 doesn't have to, needn't to do x2 (property of x1) under rule x3 (proposition)
+: $x_1$ doesn't have to, needn't to do $x_2$ (property of $x_1$) under rule $x_3$ (proposition)
 
-x2 describes a possible event.
+$x_2$ describes a possible event.
 
 > **mi nitcu le nu mi sipna**
 > _I need to sleep._
 
 nitcu
-: x1 needs x2 (possible event)
+: $x_1$ needs $x_2$ (possible event)
 
 > **mi bilga le ka gunka**
 > _I must work. I am obliged to work._
 
 bilga
-: x1 must, is obliged to do x2 (property of x1)
+: $x_1$ must, is obliged to do $x_2$ (property of $x_1$)
 
 > **mi curmi le nu do citka ti**
 > _I allow you to eat this._
 
 curmi
-: x1 allows/permits x2 (possible event)
+: $x_1$ allows/permits $x_2$ (possible event)
 
 > **mi tolcru le nu do nerkla**
 > _I forbid you to enter._
 
 tolcru
-: x1 forbids/prohibits x2 (possible event)
+: $x_1$ forbids/prohibits $x_2$ (possible event)
 
 > **xu do stidi le ka sipna kei mi**
 > _Do you suggest that I sleep?_
 
 stidi
-: x1 inspires x2 (possible action) in actor x3
+: $x_1$ inspires $x_2$ (possible action) in actor $x_3$
 
 <!-- >**mi na ku birti le du'u ra klama**
 >_I'm not sure if he comes._
 
 birti
-: x1 is sure that x2 (proposition) is true -->
+: $x_1$ is sure that $x_2$ (proposition) is true -->
 
 > **mi senpi le du'u ra kakne le ka limna**
 > _I doubt that he can swim._
 
 senpi
-: x1 doubts that x2 (proposition) is true
+: $x_1$ doubts that $x_2$ (proposition) is true
 
 <!-- **senpi** is the same as **na'e birti** -->
 
@@ -8636,7 +8636,7 @@ senpi
 <!-- -->
 
 > **se xanri**
-> _x1 imagines x2 (possible event)_
+> _x1 imagines $x_2$ (possible event)_
 
 <!-- -->
 
@@ -8819,7 +8819,7 @@ The last Lojban sentence means that the friend is also a spouse.
 > _I played soccer, went home, ate the banana._
 
 uantida
-: a non-official verb: x1 plays the game, participates in the game x2
+: a non-official verb: $x_1$ plays the game, participates in the game $x_2$
 
 **gi'e** connects several relations into one with some nouns shared. Look at this: It expands into **pu ku mi kelci la .soker. i je pu ku mi klama le zdani** … which would be lengthier.
 
@@ -8957,7 +8957,7 @@ Here, like in English _not_ is stated before the first noun.
 > _I both dance and play the piano._
 
 zgipli
-: x1 plays musical instrument x2
+: $x_1$ plays musical instrument $x_2$
 
 le pipno
 : piano
@@ -9007,7 +9007,7 @@ pe'a
 : interjection: marks a construct as metaphorically used.
 
 tarci
-: x1 is a star
+: $x_1$ is a star
 
 **tarci** denotes real stars, objects in the sky. The interjection **pe'a** transforms it into a metaphorical meaning.
 
@@ -9094,7 +9094,7 @@ It is normal to use in speech only **.i** to separate sentence but you might wan
 </table>
 
 dirgo
-: x1 is a drop of material x2 …
+: $x_1$ is a drop of material $x_2$ …
 
 ### «**to**» … «**toi**» for parenthetical remarks
 
@@ -9110,10 +9110,10 @@ drata
 : … is different from …
 
 plise
-: x1 is an apple
+: $x_1$ is an apple
 
 fusra
-: x1 rots or decays with agent x2
+: $x_1$ rots or decays with agent $x_2$
 
 Such parenthetical remarks can go anywhere interjections can — meaning pretty much anywhere in a Lojban sentence. With parentheses, just like with quotes, you need to know where the parenthesis starts, and where it ends.
 
@@ -9143,7 +9143,7 @@ But Lojban allows you to be more precise about what words you are correcting.
 > _I'm learning the English word, … er, Lojban word._
 
 valsi
-: x1 is a word with the meaning x2 in language x3
+: $x_1$ is a word with the meaning $x_2$ in language $x_3$
 
 The problem with **si** is, you have to count words. This can get tedious, and you shouldn't have to keep a transcript of your words when you want to correct yourself.
 
@@ -9359,7 +9359,7 @@ Using **be** you can attach not only the default places of verbs but even terms:
 > _This letter, dated the 4th, is mailed on the 7th_
 
 xatra
-: x1 is a letter
+: $x_1$ is a letter
 
 A date tagged with **de'i** applies only to the **xatra**. Compare:
 
@@ -9427,7 +9427,7 @@ There is another way of restructuring compound verbs.
 > _I'm a professional translator_
 
 jibri
-: x1 is a job of x2
+: $x_1$ is a job of $x_2$
 
 If I wanted to say that I'm a professional translator from English to German, I could use **be** and **bei**:
 
@@ -9435,10 +9435,10 @@ If I wanted to say that I'm a professional translator from English to German, I 
 > _I'm a professional translator to German from English._
 
 dotco
-: x1 is German
+: $x_1$ is German
 
 glico
-: x1 is English
+: $x_1$ is English
 
 The fact that it was a compound verb could quickly be lost in speech due to the complicated structure of the sentence. Here, we can use the word **co**:
 
@@ -9460,7 +9460,7 @@ Another example:
 > _I am a much experienced American swimmer._
 
 merko
-: x1 is American (the USA sense)
+: $x_1$ is American (the USA sense)
 
 Here is the list of different kind of groupers in compound verbs ranked from the tighest to the most loose:
 
@@ -9553,9 +9553,9 @@ Some infinitives may imply more than one **ce'u**:
 >_The people love each other._
 
 simxu
-: members of the set x1 reciprocally do x2
+: members of the set $x_1$ reciprocally do $x_2$
 
-The verb **simxu** takes every possible pair from the set specified in place x1 at asserts the relation specified within x2.
+The verb **simxu** takes every possible pair from the set specified in place $x_1$ at asserts the relation specified within $x_2$.
 
 If we have three people then it would mean all of them love each other.
 
@@ -9585,7 +9585,7 @@ Now consider the example:
 > _Some of the people love each other._
 
 cmima
-: x1 is a member of set x2
+: $x_1$ is a member of set $x_2$
 
 In this example we are showing that a subset of the people in question (a subset of **le'i prenu**) has mutual love.
 
