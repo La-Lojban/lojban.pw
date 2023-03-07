@@ -2422,19 +2422,19 @@ Usually, you can guess the order using context and a few rules of thumb:
 
 1. The first place is often the person or thing that does something or is something:
 
-    **klama** = _x1 goes …_
+    **klama** = _$x_1$ goes …_
 
 2. The object of some action is usually just after the first place:
 
-    **punji** = _x1 puts $x_2$ on x3_,
+    **punji** = _$x_1$ puts $x_2$ on $x_3$_,
 
 3. And the next place will usually be filled with the recipient:
 
-    **punji** = _x1 puts $x_2$ on x3_,
+    **punji** = _$x_1$ puts $x_2$ on $x_3$_,
 
 4. Destination (_to_) places nearly always come before origin (_from_) places:
 
-    **klama** = _x1 goes to $x_2$ from x3_
+    **klama** = _$x_1$ goes to $x_2$ from $x_3$_
 
     <pixra url="/assets/pixra/cilre/klama_fi.png" caption="le prenu cu klama fi le zarci" definition="The person goes out of the shop."></pixra>
 
@@ -8636,12 +8636,12 @@ senpi
 <!-- -->
 
 > **se xanri**
-> _x1 imagines $x_2$ (possible event)_
+> _$x_1$ imagines $x_2$ (possible event)_
 
 <!-- -->
 
 > **xanri**
-> _x1 (possible event) is imagined by x2_
+> _$x_1$ (possible event) is imagined by $x_2$_
 
 ## Lesson 9. Logical conjunctions
 
