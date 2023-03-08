@@ -1615,6 +1615,8 @@ ze'u
 
 <!-- -->
 
+<pixra url="/assets/pixra/cilre/sipna_zeha.png" caption="le prenu cu sipna ze'a le nu carvi" definition="The person is sleeping while it's raining."></pixra>
+
 > **mi pu ze'a le nicte cu sipna**
 > _I slept through the night. I slept all night._
 
@@ -2520,8 +2522,9 @@ So we get
 
 In Lojban, it is not allowed to say, for example:
 
+
 > **mi djica le plise**
-> _I want the apple._
+> _I want the apple._ <div class="naldra"></div> 
 
 because you want to do something with the apple or you want some event happening with the apple, such as:
 
