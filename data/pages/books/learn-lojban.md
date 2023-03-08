@@ -1694,7 +1694,7 @@ Note: **nu** shows that a new inner embedded sentence starts within the main sen
 > **le gerku cu plipe fa'a mi ca le nu do ca'o klama**
 > _The dog jumps towards me when you are coming._
 
-<pixra url="/assets/pixra/cilre/le_gerku_cu_plipe.jpg" caption="le gerku cu plipe fa'a mi" definition="The dog jumps towards me."></pixra>
+<pixra url="/assets/pixra/cilre/le_gerku_faha_plipe.png" caption="le gerku cu plipe fa'a mi" definition="The dog jumps towards me."></pixra>
 
 plipe
 : to jump
