@@ -7023,12 +7023,17 @@ This does not mean that Romans are not attacking Carthage these days. In Lojban,
 
 <!-- -->
 
+<pixra url="/assets/pixra/cilre/le_vehi_ja_vehu_cmana.png" caption="le ve'i cmana cu jibni le ve'u cmana" definition="The hill is near the mountain."></pixra>
+
 > **le cmana**
 > _mountain/hill_
 
 <!-- -->
 
 > **le ve'u cmana**
+> _mountain_
+
+> **le ve'i cmana**
 > _hill_
 
 <!-- -->
