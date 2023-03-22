@@ -131,11 +131,9 @@ Non-Lojban vowels like the short _i_ and _u_ in Standard British English _hit_ a
 
 ### The simplest sentence
 
-Now, let's turn to constructing our first sentences in Lojban.
+Now, let's construct our first sentences in Lojban.
 
-The basic unit in Lojban is called **bridi**, meaning "sentence" or "relation." Here are two simple examples:
-
-<pixra url="/assets/pixra/cilre/tavla.png" caption="le prenu cu tavla mi" definition="The person talks to me."></pixra>
+The basic unit in Lojban is called **bridi**, meaning "sentence". Here are three simple examples:
 
 > **le prenu cu tavla mi**
 > _The person speaks to me._
@@ -146,28 +144,20 @@ le prenu
 tavla
 : … talks to …, … speaks to …
 
-<pixra url="/assets/pixra/cilre/mi.png" caption="mi" definition="I / me"></pixra>
-
-mi
-: I, me
-
-<pixra url="/assets/pixra/cilre/mi_prami_do2.png" caption="mi prami do" definition="I love you."></pixra>
-
 > **mi prami do**
 > _I love you._
-
 
 prami
 : … loves … (someone)
 
-<pixra url="/assets/pixra/cilre/do.png" caption="do" definition="you"></pixra>
-
 do
 : you
 
-
 > **mi ca cu tavla do**
 > _I now talk to you._
+
+mi
+: I, me
 
 ca
 : now
@@ -184,9 +174,15 @@ Each sentence in Lojban consists of the following parts from the left to the rig
 - the tail:
   - the main relation construct (**tavla**, **prami**) with possibly one or more terms after it: the terms **mi**, **do** in the examples above.
 
-One of your first thoughts might be "Where are nouns and verbs in Lojban?"
+<pixra url="/assets/pixra/cilre/tavla.png" caption="le prenu cu tavla mi" definition="The person talks to me."></pixra>
 
-Well, in Lojban we mostly speak of relations rather than nouns and verbs.
+<pixra url="/assets/pixra/cilre/mi.png" caption="mi" definition="I / me"></pixra>
+
+<pixra url="/assets/pixra/cilre/mi_prami_do2.png" caption="mi prami do" definition="I love you."></pixra>
+
+<pixra url="/assets/pixra/cilre/do.png" caption="do" definition="you"></pixra>
+
+In Lojban, we mostly speak of relations rather than nouns and verbs.
 
 Here are the two relation words, which roughly correspond to verbs:
 
@@ -241,7 +237,6 @@ Terms in Lojban, no matter where they are used in a given sentence, are mostly r
 - modal terms like **ca** (_now, in present_). Modal terms specify additional, сlarifying information.
 
 Some more examples:
-
 
 > **mi nintadni**
 > _I am a new student._
