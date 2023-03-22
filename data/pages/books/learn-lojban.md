@@ -144,6 +144,9 @@ le prenu
 tavla
 : … talks to …, … speaks to …
 
+mi
+: I, me
+
 > **mi prami do**
 > _I love you._
 
@@ -155,9 +158,6 @@ do
 
 > **mi ca cu tavla do**
 > _I now talk to you._
-
-mi
-: I, me
 
 ca
 : now
