@@ -114,12 +114,15 @@ article h6 {
   @apply clear-both;
 }
 
-article a.in-heading,
-article a.in-toc,
+a.in-heading,
+a.in-toc,
+a.in-topbat-toc,
 md-footer-social__link.in-heading {
   @apply hover:text-deep-orange-500;
 }
-article a.in-toc.hover {
+a.in-toc.hover,
+a.in-topbar-toc.hover
+ {
   @apply font-bold text-deep-orange-500;
 }
 

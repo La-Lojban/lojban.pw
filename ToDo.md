@@ -1,5 +1,6 @@
-* add search functionality
 * split some pages into chapters but pdfs must be single
+* add search functionality
+
 * thumbnails for gallery
 * check for PWA problems
 * use cache in github actions

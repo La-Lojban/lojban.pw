@@ -9,80 +9,82 @@ import { closeXicon } from "../lib/buttons";
 import { useEffect } from "react";
 import { debouncedGetClosestHeaderId } from "../lib/toc";
 NProgress.configure({
-	minimum: 0.3,
-	easing: "ease",
-	speed: 800,
-	showSpinner: false,
+  minimum: 0.3,
+  easing: "ease",
+  speed: 800,
+  showSpinner: false,
 });
 
 if (process.env.NODE_ENV !== "development") {
-	Router.events.on("routeChangeStart", () => NProgress.start());
-	Router.events.on("routeChangeComplete", () => {
-		NProgress.done();
-		closeXicon();
-		window && window.dispatchEvent(new Event("popstate"));
-	});
-	Router.events.on("routeChangeError", () => NProgress.done());
+  Router.events.on("routeChangeStart", () => NProgress.start());
+  Router.events.on("routeChangeComplete", () => {
+    NProgress.done();
+    closeXicon();
+    window && window.dispatchEvent(new Event("popstate"));
+  });
+  Router.events.on("routeChangeError", () => NProgress.done());
 }
 
 const trimSocketChunk = (text: string) =>
-	text.replace(/[\n\r]+$/gims, " ").replace(/<br *\/?>/gims, " ");
+  text.replace(/[\n\r]+$/gims, " ").replace(/<br *\/?>/gims, " ");
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-	useEffect(() => {
-		document.addEventListener("scroll", debouncedGetClosestHeaderId);
-		return () => {
-			document.removeEventListener("scroll", debouncedGetClosestHeaderId);
-		};
-	}, []);
+  useEffect(() => {
+    document.addEventListener("scroll", debouncedGetClosestHeaderId);
+    window.addEventListener("resize", () => debouncedGetClosestHeaderId);
+    return () => {
+      document.removeEventListener("scroll", debouncedGetClosestHeaderId);
+      window.addEventListener("resize", () => debouncedGetClosestHeaderId);
+    };
+  }, []);
 
-	useEffect(() => {
-		let socket1Chat_connected: boolean;
-		const socket1Chat = io("wss://jbotcan.org:9091", {
-			transports: ["polling", "websocket"],
-		});
+  useEffect(() => {
+    let socket1Chat_connected: boolean;
+    const socket1Chat = io("wss://jbotcan.org:9091", {
+      transports: ["polling", "websocket"],
+    });
 
-		socket1Chat.on("connect", () => {
-			console.log(socket1Chat);
-			socket1Chat_connected = true;
-		});
+    socket1Chat.on("connect", () => {
+      console.log(socket1Chat);
+      socket1Chat_connected = true;
+    });
 
-		socket1Chat.on("connect_error", () => {
-			console.log("1chat connection error");
-		});
+    socket1Chat.on("connect_error", () => {
+      console.log("1chat connection error");
+    });
 
-		socket1Chat.on("sentFrom", (data: any) => {
-			if (!socket1Chat_connected) return;
-			const i = data.data;
+    socket1Chat.on("sentFrom", (data: any) => {
+      if (!socket1Chat_connected) return;
+      const i = data.data;
 
-			const msg = {
-				d: trimSocketChunk(i.chunk),
-				s: i.channelId,
-				w: i.author,
-			};
+      const msg = {
+        d: trimSocketChunk(i.chunk),
+        s: i.channelId,
+        w: i.author,
+      };
 
-			const velsku = document.getElementById("velsku_sebenji");
-			if (velsku)
-				velsku.innerHTML =
-					'<span class="velsku_pamei">' + msg.w + ": " + msg.d + "</span>";
-		});
+      const velsku = document.getElementById("velsku_sebenji");
+      if (velsku)
+        velsku.innerHTML =
+          '<span class="velsku_pamei">' + msg.w + ": " + msg.d + "</span>";
+    });
 
-		socket1Chat.on("history", (data: any) => {
-			if (!socket1Chat_connected) return;
-			const i = data.slice(-1)[0];
-			if (!i) return;
-			const msg = {
-				d: trimSocketChunk(i.chunk),
-				s: i.channelId,
-				w: i.author,
-			};
-			const velsku = document.getElementById("velsku_sebenji");
-			if (velsku)
-				velsku.innerHTML =
-					'<span class="velsku_pamei">' + msg.w + ": " + msg.d + "</span>";
-		});
-	}, []);
-	return <Component {...pageProps} />;
+    socket1Chat.on("history", (data: any) => {
+      if (!socket1Chat_connected) return;
+      const i = data.slice(-1)[0];
+      if (!i) return;
+      const msg = {
+        d: trimSocketChunk(i.chunk),
+        s: i.channelId,
+        w: i.author,
+      };
+      const velsku = document.getElementById("velsku_sebenji");
+      if (velsku)
+        velsku.innerHTML =
+          '<span class="velsku_pamei">' + msg.w + ": " + msg.d + "</span>";
+    });
+  }, []);
+  return <Component {...pageProps} />;
 }
 
 // MyApp.getInitialProps = async (appContext: AppContext) => {
