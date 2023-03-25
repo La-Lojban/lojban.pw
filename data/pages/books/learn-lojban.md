@@ -96,7 +96,7 @@ As for consonants, they are pronounced like in English or Latin, but there are s
 <tr>
 <td><span class="audio-inline"><b class="guibutton">x</b></span>
 </td>
-<td>like <i>ch</i> in Scottish <i>loch</i> or as in German <i>Bach</i>, like <i>J</i> in Spanish <i>Jose</i> or <i>Kh</i> Arabic <i>Khaled</i>. Try pronouncing <i>ksss</i> while keeping your tongue down and you get this sound.
+<td>like <i>ch</i> in Scottish <i>loch</i> or as in German <i>Bach</i>, like <i>J</i> in Spanish <i>Jose</i> or <i>Kh</i> in Modern Arabic <i>Khaled</i>. Try pronouncing <i>ksss</i> while keeping your tongue down and you get this sound.
 </td></tr>
 <tr>
 <td><span class="audio-inline"><b class="guibutton"> ' </b></span>
