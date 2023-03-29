@@ -60,7 +60,7 @@ const Post = ({ post, preview }: Props) => {
 	const title = title_core? `${title_core} | ${site_title}` : site_title;
 	const pageToRender = (
 		<Layout preview={preview}>
-			<div>
+			<div className="mb-6">
 				<Container>
 					<Header toc={post?.toc} path={router.asPath.replace(/#.*/, "")} />
 					{router.isFallback ? (
