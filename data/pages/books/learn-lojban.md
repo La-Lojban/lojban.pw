@@ -2573,7 +2573,7 @@ The short so called qualifier word **tu'a** before a term implies an abstraction
 > **mi djica tu'a le plise**
 > _I want something about the apple (probably, eating it, maybe chewing it, licking it, throwing it at your friend etc.)_
 
-When skipping abstractions only context decides what was skipped.
+When skipping abstractions only context tell us what was skipped.
 
 ### Places for nouns
 
@@ -2585,12 +2585,12 @@ How do we say _You are my friend_ ?
 
 <pixra url="/assets/pixra/cilre/pendo.png" caption="le pendo" definition="the friend / the friends"></pixra>
 
-And now how do we say _My friend is smart._?
+And now, how do we say _My friend is smart._?
 
 > **le pendo be mi cu stati**
 > _My friend is smart._
 
-So when we convert a verb into a noun (**pendo** — _to be a friend_ into **le pendo** — _a friend_) we can still retain other places of that verb by placing **be** after it.
+So when we convert a verb into a noun (**pendo** — _to be a friend_ into **le pendo** — _a friend_), we can still retain other places of that verb by placing **be** after it.
 
 By default it attaches the second place ($x_2$). We can attach more places by separating them with **bei**:
 
@@ -2660,16 +2660,16 @@ Using **be** for verbs not converted to nouns has no effect: **mi nelci be do** 
 blabi
 : … is white
 
-In the first sentence the word _that_ is essential to identifying the person in question, it clarifies whom among people in context we are talking about. Out of probably many people around we choose only those who are my friends. Maybe there is only one person around that is my friend.
+In the first sentence, the word _that_ is essential to identifying the person in question. It clarifies whom among the people in the context we are talking about. We choose only those who are my friends out of probably many people around. Maybe there is only one person around that is my friend.
 
-As for _who is incidentally a friend of mine_ from the second sentence it just provides additional information about the person. It doesn't help us to identify the person. For example, this might happen when all the people around are my friends.
+As for _who is incidentally a friend of mine_ from the second sentence, it just provides additional information about the person. It doesn't help us identify the person. For example, this might happen when all the people around are my friends.
 
 **poi pendo mi** is a relative clause, a relation attached to the right of the noun **le prenu**. It ends just before the next word **cu**:
 
 > **le prenu (poi pendo mi) cu tavla mi**
 > _The person that is friend of mine talks to me._
 
-In Lojban we use **poi** for relative clauses that identify entities (objects, people or events) and **noi** for incidental information.
+In Lojban, we use **poi** for relative clauses that identify entities (objects, people or events) and **noi** for incidental information.
 
 > **la .bob. ba co'a speni le ninmu poi pu xabju le nurma**
 > _Bob will marry a girl who lived in the country._
@@ -2715,7 +2715,7 @@ zgana
 
 Removing the relative clause with **noi** retains the meaning: _I like Doris._
 
-In spoken English the distinction is often achieved using intonation or by guessing. Also relative clauses with **noi** are traditionally separated with commas in English, they use _which_ or _who_ and the word _that_ is not used in them.
+In spoken English, the distinction is often achieved using intonation or by guessing. Also, relative clauses with **noi** are traditionally separated with commas in English. They use _which_ or _who_, and the word _that_ is not used in them.
 
 Let's have another example.
 
@@ -2744,13 +2744,13 @@ So literally our Lojbanic sentence sounds like
 
 > _The tree, such that I go to which, is big._
 
-**ke'a** can be dropped if we are to place it just after **noi** or **poi**. That's why the two following sentences mean the same:
+**ke'a** can be dropped if context is sufficient enough. The two following sentences mean the same:
 
 > **le prenu poi pendo mi cu tavla mi**
 > **le prenu poi ke'a pendo mi cu tavla mi**
 > _The person that is friend of mine talks to me._
 
-**ke'a** goes to the first unfilled place:
+**ke'a** is often assumed to go to the first unfilled place:
 
 > **mi nelci la .doris. noi mi ta'e zgana bu'u le panka**
 > **mi nelci la .doris. noi mi ta'e zgana ke'a bu'u le panka**
@@ -2759,7 +2759,6 @@ So literally our Lojbanic sentence sounds like
 Here, **mi** fills the first place of the verb **ta'e zgana** (_… habitually sees …_), thus, **ke'a** is assumed for the next, second place.
 
 Relative clauses like usual relations can contain constructs with modal terms:
-
 
 > **le tricu noi mi pu klama ke'a ca le cabdei cu barda**
 > _The tree, to which I went today, is big._
@@ -2777,7 +2776,6 @@ Note that **ca le cabdei** belongs to the relative clause. Compare:
 The meaning has changed a lot.
 
 Finally, **voi** is used to form **le**-like nouns but with relative clauses:
-
 
 > **ti voi le nu ke'a cisma cu pluka mi cu zutse tu**
 > _These ones whose smile pleases me are sitting down._
@@ -2813,7 +2811,7 @@ Compare it to:
 
 **noi** simply adds incidental information that is not necessary to determine what **ti** (_these ones_) refers to. Perhaps, there is nobody else around to describe.
 
-Finally, just like **nu** has the right border marker **kei** we have 
+Finally, just like **nu** has the right border marker **kei**, we have 
 
 ku'o
 : right border marker for **poi**, **noi** and **voi**.
@@ -2832,7 +2830,7 @@ For all of **poi**, **noi** and **voi** the right border marker is still the sam
 
 ### Short relative clauses. ‘_About_’
 
-Sometimes you might need to attach to a noun an additional noun or pronoun:
+Sometimes, you might need to attach an additional noun or pronoun to another noun:
 
 > **mi djuno le vajni pe do**
 > _I know something important about you._
@@ -2840,7 +2838,7 @@ Sometimes you might need to attach to a noun an additional noun or pronoun:
 le vajni
 : something important
 
-**pe** and **ne** are similar to **poi** and **noi** but connect nouns (and pronouns) to nouns:
+**pe** and **ne** are similar to **poi** and **noi**, but they connect nouns (and pronouns) to nouns:
 
 > **le pa penbi pe mi cu xunre**
 > _The pen that is mine is red._ <span>(_mine_ is essential to identifying the pen in question)</span>
@@ -2861,7 +2859,7 @@ pe
 
 ge'u
 : right border marker for **pe**, **ne**.
-
+<!-- style fixed -->
 ### «**be**» and «**pe**»
 
 Notice that relative clauses are attached to nouns whereas **be** connects to the verb that is transformed into a noun afterwards.
