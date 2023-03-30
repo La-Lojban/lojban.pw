@@ -26,7 +26,7 @@ export const UserTheme = {
   Null: "null",
 } as const;
 
-export type Theme = (typeof UserTheme)[keyof typeof UserTheme];
+export type Theme = typeof UserTheme[keyof typeof UserTheme];
 
 export interface RemarkMermaidOptions {
   /**
@@ -55,6 +55,10 @@ export interface RemarkMermaidOptions {
    * @default []
    */
   className?: string[];
+
+  htmlLabels?: boolean;
+
+  securityLevel?: "loose" | undefined;
 }
 
 function svgParse(svg: string): Node {
@@ -97,8 +101,10 @@ const remarkMermaid: Plugin<[RemarkMermaidOptions?]> = function mermaidTrans(
       viewport: { width: 1000, height: 3000 },
     });
     const page = await context.newPage();
+    let errorMessages: string[] = [];
+    page.on("console", (msg) => errorMessages.push(msg.text()));
     const config: MermaidConfig = {
-      theme: settings.theme,
+      ...settings,
       startOnLoad: false,
     };
     await page.setContent(
@@ -115,46 +121,55 @@ const remarkMermaid: Plugin<[RemarkMermaidOptions?]> = function mermaidTrans(
       </script>
       </html>`
     );
-    await page.waitForSelector("p", {
-      state: "detached",
-    });
-    const svgResults = await page.evaluate(() => {
-      const pres = document.querySelectorAll(".mermaid");
-      return Array.from(pres).map(
-        (pre) => pre.querySelector("svg")?.outerHTML ?? ""
-      );
-    });
+    let svgResults: string[];
+    try {
+      await page.waitForSelector("p", {
+        state: "detached",
+      });
+      svgResults = await page.evaluate(() => {
+        const pres = document.querySelectorAll(".mermaid");
+        return Array.from(pres).map(
+          (pre) => pre.querySelector("svg")?.outerHTML ?? ""
+        );
+      });
+    } catch (error: any) {
+      svgResults = [errorMessages.concat(error?.message).join(";")];
+    }
     await browser.close();
 
-    mermaidBlocks.forEach(([, index, parent], i) => {
-      const svgAst = svgParse(optSvg(svgResults[i]));
-      if (settings.wrap) {
-        parent.children[index] = {
-          type: "parent",
-          children: [],
-          data: {
-            hChildren: [
-              {
-                type: "element",
-                children: [svgAst],
-                tagName: "div",
-                properties: {
-                  className: settings.className,
+    if (errorMessages.length > 0) {
+      console.log(errorMessages);
+    } else {
+      mermaidBlocks.forEach(([, index, parent], i) => {
+        const svgAst = svgParse(optSvg(svgResults[i] ?? svgResults[0]));
+        if (settings.wrap) {
+          parent.children[index] = {
+            type: "parent",
+            children: [],
+            data: {
+              hChildren: [
+                {
+                  type: "element",
+                  children: [svgAst],
+                  tagName: "div",
+                  properties: {
+                    className: settings.className,
+                  },
                 },
-              },
-            ],
-          },
-        } as Parent;
-      } else {
-        parent.children[index] = {
-          type: "paragraph",
-          children: [],
-          data: {
-            hChildren: [svgAst],
-          },
-        } as Paragraph;
-      }
-    });
+              ],
+            },
+          } as Parent;
+        } else {
+          parent.children[index] = {
+            type: "paragraph",
+            children: [],
+            data: {
+              hChildren: [svgAst],
+            },
+          } as Paragraph;
+        }
+      });
+    }
   };
 };
 

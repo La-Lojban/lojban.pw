@@ -5,8 +5,8 @@ import includeMarkdownPlugin from "./remark-plugins/include";
 import remarkMermaid from "./remark-plugins/mermaid-ssr";
 import rehypeKatex from "rehype-katex";
 import {
-	remarkDefinitionList,
-	defListHastHandlers,
+  remarkDefinitionList,
+  defListHastHandlers,
 } from "remark-definition-list";
 import remarkMath from "remark-math";
 import remarkRehype from "remark-rehype";
@@ -23,93 +23,98 @@ import path from "path";
 // import { serializeHTMLNodeTree } from "./json2react";
 
 export default async function markdownToHtml({
-	content,
-	fullPath,
+  content,
+  fullPath,
 }: {
-	content: string;
-	fullPath: string;
+  content: string;
+  fullPath: string;
 }) {
-	const root = htmlParser.parse(
-		(
-			await unified()
-				.use(includeMarkdownPlugin, {
-					resolveFrom: path.resolve(fullPath, ".."),
-				})
-				.use(remarkParse)
-				// .use(gfm)
-				.use(remarkMermaid, { wrap: true, className: ["mermaid"] })
-				.use(remarkMath)
-				.use(remarkDefinitionList)
-				.use(remarkRehype, {
-					handlers: {
-						// any other handlers
-						...defListHastHandlers,
-					},
-					allowDangerousHtml: true,
-				}) // 4sec
-				.use(rehypeKatex)
-				.use(raw)
-				.use(stringify) // makes it all faster???
-				.process(content)
-		).toString()
-	);
+  const root = htmlParser.parse(
+    (
+      await unified()
+        .use(includeMarkdownPlugin, {
+          resolveFrom: path.resolve(fullPath, ".."),
+        })
+        .use(remarkParse)
+        // .use(gfm)
+        .use(remarkMermaid, {
+          wrap: true,
+          className: ["mermaid"],
+        //   htmlLabels: true,
+        //   securityLevel: "loose",
+        })
+        .use(remarkMath)
+        .use(remarkDefinitionList)
+        .use(remarkRehype, {
+          handlers: {
+            // any other handlers
+            ...defListHastHandlers,
+          },
+          allowDangerousHtml: true,
+        }) // 4sec
+        .use(rehypeKatex)
+        .use(raw)
+        .use(stringify) // makes it all faster???
+        .process(content)
+    ).toString()
+  );
 
-	// Prepare ToC
-	let toc: TocElem[] = Array.from(root.querySelectorAll(tocSelector)).map(
-		(element: HTMLElement) => {
-			const { rawTagName } = element;
-			return {
-				depth: rawTagName.replace(/^h/g, ""),
-				value: element.textContent,
-				id: sluggify(element.innerText),
-			};
-		}
-	);
-	//fix duplicate ids
-	const idCounts = toc.reduce((acc, item) => {
-		// Increment the count for this item's id, or set it to 1 if it doesn't exist
-		acc[item.id] = (acc[item.id] || 0) + 1;
-		return acc;
-	}, {} as { [key: string]: number });
+  // Prepare ToC
+  let toc: TocElem[] = Array.from(root.querySelectorAll(tocSelector)).map(
+    (element: HTMLElement) => {
+      const { rawTagName } = element;
+      return {
+        depth: rawTagName.replace(/^h/g, ""),
+        value: element.textContent,
+        id: sluggify(element.innerText),
+      };
+    }
+  );
+  //fix duplicate ids
+  const idCounts = toc.reduce((acc, item) => {
+    // Increment the count for this item's id, or set it to 1 if it doesn't exist
+    acc[item.id] = (acc[item.id] || 0) + 1;
+    return acc;
+  }, {} as { [key: string]: number });
 
-	toc = toc.map((item) => {
-		if (idCounts[item.id] > 1) {
-			// Increment the item's id if it is duplicated in the array
-			item.id += "-" + (idCounts[item.id] - 1).toString();
-			idCounts[item.id]--; // Decrement the count for this id
-		}
-		return item;
-	});
+  toc = toc.map((item) => {
+    if (idCounts[item.id] > 1) {
+      // Increment the item's id if it is duplicated in the array
+      item.id += "-" + (idCounts[item.id] - 1).toString();
+      idCounts[item.id]--; // Decrement the count for this id
+    }
+    return item;
+  });
 
-	//Prepare image gallery
-	let imgs: Partial<GalleryImg>[] = Array.from(
-		root.querySelectorAll("pixra")
-	).map((element: HTMLElement) => {
-		return {
-			url: element.getAttribute("url"),
-			caption: element.getAttribute("caption"),
-			definition: element.getAttribute("definition"),
-		};
-	});
+  //Prepare image gallery
+  let imgs: Partial<GalleryImg>[] = Array.from(
+    root.querySelectorAll("pixra")
+  ).map((element: HTMLElement) => {
+    return {
+      url: element.getAttribute("url"),
+      caption: element.getAttribute("caption"),
+      definition: element.getAttribute("definition"),
+    };
+  });
 
-	//Transform elements of the page
-	transformers.forEach(({ selector, fn, wrapper }) =>
-		Array.from(root.querySelectorAll(selector)).forEach(
-			fn
-				? fn
-				: wrapper
-				? (element) =>
-						((wrapper: string, element: HTMLElement) => {
-							const wrapperElement = createElementFromSelector(wrapper);
-							wrapperElement.innerHTML =
-								wrapperElement.innerHTML + element.outerHTML;
-							element.insertAdjacentHTML("afterend", wrapperElement.outerHTML);
-							element.remove();
-						})(wrapper, element)
-				: () => {}
-		)
-	);
+  //Transform elements of the page
+  transformers.forEach(({ selector, fn, wrapper }) =>
+    Array.from(root.querySelectorAll(selector)).forEach(
+      fn
+        ? fn
+        : wrapper
+        ? (element) =>
+            ((wrapper: string, element: HTMLElement) => {
+              const wrapperElement = createElementFromSelector(wrapper);
+              wrapperElement.innerHTML =
+                wrapperElement.innerHTML + element.outerHTML;
+              element.insertAdjacentHTML("afterend", wrapperElement.outerHTML);
+              element.remove();
+            })(wrapper, element)
+        : () => {}
+    )
+  );
 
-	// const text = serializeHTMLNodeTree(root);
-	return { toc, text: root.outerHTML, imgs };
+  // const text = serializeHTMLNodeTree(root);
+  return { toc, text: root.outerHTML, imgs };
 }

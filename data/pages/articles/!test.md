@@ -51,26 +51,30 @@ Filling in sumti into terbricmi:
 
 ```mermaid
 flowchart TB
-    subgraph bridi
-        x1[\x1/]
+    %%common settings
+    subgraph bridi["relation"]
+        x1[\"x#8321;"/]
         selbri
-        x2[\x2/]
+        x2[\"x#8322;"/]
     end
-    subgraph sumti
+    subgraph sumti["list of sumti"]
         s1-.->x1
         s2-.->x2
     end
-
+    classDef s fill:#6ff,stroke:#333,stroke-width:1px;
+    class s1 s;
+    class s2 s;
+    class selbri s;
+    classDef x fill:#ff6,stroke:#333,stroke-width:1px,stroke-dasharray: 5 2;
+    class x1 x;
+    class x2 x;
+    style bridi fill:#fff,stroke:#333
+    
+    %%
     %% input your sumti:
     s1[/mi\]
     s2[/do\]
     %% input your selbri
     selbri[(tavla)]
 
-    style s1 fill:#6ff,stroke:#333,stroke-width:1px
-    style s2 fill:#6ff,stroke:#333,stroke-width:1px
-    style selbri fill:#fff,stroke:#333,stroke-width:1px
-    style x1 fill:#ff6,stroke:#333,stroke-dasharray: 5 2
-    style x2 fill:#ff6,stroke:#333,stroke-dasharray: 5 2
-    style bridi fill:#fff,stroke:#333
 ```

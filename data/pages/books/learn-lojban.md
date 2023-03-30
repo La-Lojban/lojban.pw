@@ -2210,7 +2210,7 @@ citka
 klama
 : $x_1$ comes to $x_2$ …
 
-These $x_1$, $x_2$, and so on are called _places of arguments_, and they represent the order in which we place nouns or pronouns in the sentence. For example:
+These $x_1$, $x_2$, and so on are called _places_, _roles of relation_ or _arguments_, and they represent the order in which we place nouns or pronouns in the sentence. For example:
 
 > **mi prami do**
 > _I love you._
@@ -2219,6 +2219,39 @@ This sentence also implies that
 
 - $x_1$ denotes _the one who loves_, and
 - $x_2$ denotes _the one who is loved by_.
+
+In other words, each relation has one or more roles, and those roles are specified and labeled as $x_1$, $x_2$, and so on. We put nouns and pronouns in order, thus filling these roles and giving a concrete meaning to the relation, thus forming a sentence.
+
+```mermaid
+flowchart TB
+    %%common settings
+    subgraph bridi["relation"]
+        x1[\"x#8321;"/]
+        selbri
+        x2[\"x#8322;"/]
+    end
+    subgraph sumti["list of sumti"]
+        s1-.->x1
+        s2-.->x2
+    end
+    classDef s fill:#6807F7,stroke:#333,stroke-width:1px,color:#fff;
+    class s1 s;
+    class s2 s;
+    classDef x fill:#FFF863,stroke:#333,stroke-width:1px,stroke-dasharray: 5 2;
+    class x1 x;
+    class x2 x;
+    classDef blabi fill:#fff,stroke:#333;
+    class selbri blabi;
+    class bridi blabi;
+
+    %%
+    %% input your sumti:
+    s1[/mi\]
+    s2[/do\]
+    %% input your selbri
+    selbri[(prami)]
+
+```
 
 The advantage of such style of definitions is that all participants of a relation are in one definition.
 
