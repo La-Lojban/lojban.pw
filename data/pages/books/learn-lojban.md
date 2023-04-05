@@ -174,6 +174,38 @@ Each sentence in Lojban consists of the following parts from the left to the rig
 - the tail:
   - the main relation construct (**tavla**, **prami**) with possibly one or more terms after it: the terms **mi**, **do** in the examples above.
 
+```mermaid
+flowchart LR
+    %% common structure:
+    subgraph sentence
+        direction LR
+        head-terms
+        cu
+        tail
+    end
+    head-terms ~~~ cu ~~~ tail
+    subgraph tail["tail"]
+        %% direction LR
+        selbri ~~~ tail-terms
+    end
+    %%  semi-automated
+    subgraph head-terms["head terms"]
+        t1
+        t2
+    end
+    subgraph tail-terms["tail terms"]
+        tt3
+        %% tt4
+    end
+    %%todo: automatically link all terms to selbri
+
+    t1[mi]
+    t2[ca]
+    selbri[(tavla)]
+    tt3[do]
+    %% tt4["la .lojban."]
+```
+
 <pixra url="/assets/pixra/cilre/tavla.png" caption="le prenu cu tavla mi" definition="The person talks to me."></pixra>
 
 <pixra url="/assets/pixra/cilre/mi.png" caption="mi" definition="I / me"></pixra>
