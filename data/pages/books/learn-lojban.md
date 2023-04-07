@@ -2276,7 +2276,6 @@ flowchart TB
     class selbri blabi;
     class bridi blabi;
 
-    %%
     %% input your sumti:
     s1(mi)
     s2(do)
