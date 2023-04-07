@@ -177,32 +177,32 @@ Each sentence in Lojban consists of the following parts from the left to the rig
 ```mermaid
 flowchart LR
     %% common structure:
-    subgraph sentence
+    subgraph sentence["<i>sentence</i>#nbsp;"]
         direction LR
         head-terms
         cu
         tail
     end
     head-terms ~~~ cu ~~~ tail
-    subgraph tail["tail"]
+    subgraph tail["<i>tail</i>#nbsp;"]
         %% direction LR
         selbri ~~~ tail-terms
     end
     %%  semi-automated
-    subgraph head-terms["head terms"]
+    subgraph head-terms["<i>head terms</i>#nbsp;"]
         t1
         t2
     end
-    subgraph tail-terms["tail terms"]
+    subgraph tail-terms["<i>tail terms</i>#nbsp;"]
         tt3
         %% tt4
     end
     %%todo: automatically link all terms to selbri
 
-    t1[mi]
-    t2[ca]
+    t1(mi)
+    t2(ca)
     selbri[(tavla)]
-    tt3[do]
+    tt3(do)
     %% tt4["la .lojban."]
 ```
 
@@ -2257,12 +2257,12 @@ In other words, each relation has one or more roles, and those roles are specifi
 ```mermaid
 flowchart TB
     %%common settings
-    subgraph bridi["relation"]
-        x1[\"x#8321;"/]
+    subgraph bridi["<i>relation</i>#nbsp;"]
+        x1("x#8321;")
         selbri
-        x2[\"x#8322;"/]
+        x2("x#8322;")
     end
-    subgraph sumti["list of sumti"]
+    subgraph sumti["<i>list of sumti</i>#nbsp;"]
         s1-.->x1
         s2-.->x2
     end
@@ -2278,8 +2278,8 @@ flowchart TB
 
     %%
     %% input your sumti:
-    s1[/mi\]
-    s2[/do\]
+    s1(mi)
+    s2(do)
     %% input your selbri
     selbri[(prami)]
 
@@ -3604,6 +3604,35 @@ Let's take **mi mo'u co'a speni**.
 **mo'u** means that an event is complete. Which event? The event **co'a speni** — to become married. Hence, **mi mo'u co'a speni** means _I finish the process of the becoming married_, i.e. _I am newlywed._
 
 We say in such case that **co'a speni** is within the "scope" of **mo'u**.
+
+```mermaid
+flowchart LR
+    %% common structure:
+    subgraph sentence["<i>sentence</i>#nbsp;"]
+        direction LR
+        head-terms
+        tail
+    end
+    head-terms ~~~ tail
+    subgraph head-terms["<i>head</i>#nbsp;"]
+        t1
+    end
+    subgraph tail["<i>tail</i>#nbsp;"]
+        subgraph m1["mo'u"]
+            subgraph m2["co'a"]
+                brivla
+            end
+        end
+    end
+
+    t1[mi]
+    brivla[(speni)]
+
+    classDef blabi fill:#fff,stroke:#333;
+    class m1 blabi;
+    class m2 blabi;
+
+```
 
 In **mi co'a mo'u speni** the order or event is different.
 
