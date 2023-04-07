@@ -81,7 +81,7 @@ const remarkMermaid: Plugin<[RemarkMermaidOptions?]> = function mermaidTrans(
 ): Transformer {
   const DEFAULT_SETTINGS = {
     launchOptions: {
-      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+      args: ["--no-sandbox", "--disable-setuid-sandbox","--disable-web-security"],
     },
     theme: "default",
     wrap: false,
@@ -112,13 +112,14 @@ const remarkMermaid: Plugin<[RemarkMermaidOptions?]> = function mermaidTrans(
       ${mermaidBlocks
         .map(([node]) => `<pre class="mermaid">${node.value}</pre>`)
         .join("")}
-      </div><p></p></body>
+      </div><p></p>
       <script type="module">
-        import mermaid from 'https://unpkg.com/mermaid@10.0.0/dist/mermaid.esm.min.mjs';
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
         mermaid.initialize(${JSON.stringify(config)});
         await mermaid.run()
         document.querySelector("p").remove();
       </script>
+      </body>
       </html>`
     );
     let svgResults: string[];
