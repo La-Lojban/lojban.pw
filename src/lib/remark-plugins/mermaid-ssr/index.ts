@@ -43,6 +43,11 @@ export interface RemarkMermaidOptions {
    */
   theme?: Theme;
 
+  themeVariables?: {
+    fontSize?: string;
+    fontFamily?: string;
+  };
+
   /**
    * Whether to wrap svg with <div> element.
    *
@@ -81,7 +86,11 @@ const remarkMermaid: Plugin<[RemarkMermaidOptions?]> = function mermaidTrans(
 ): Transformer {
   const DEFAULT_SETTINGS = {
     launchOptions: {
-      args: ["--no-sandbox", "--disable-setuid-sandbox","--disable-web-security"],
+      args: [
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--disable-web-security",
+      ],
     },
     theme: "default",
     wrap: false,

@@ -569,5 +569,9 @@ description {
 }
 
 div.mermaid > svg {
-  @apply mx-auto;
+  @apply mx-auto !max-w-full;
+}
+
+div.mermaid > svg div {
+  font-size: 0.9rem;
 }

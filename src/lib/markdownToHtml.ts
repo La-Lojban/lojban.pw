@@ -40,8 +40,13 @@ export default async function markdownToHtml({
         .use(remarkMermaid, {
           wrap: true,
           className: ["mermaid"],
-        //   htmlLabels: true,
-        //   securityLevel: "loose",
+          themeVariables: {
+            // fontSize: '0.8rem',
+            fontFamily:
+              "Linux Libertine, Libertine, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif",
+          },
+          //   htmlLabels: true,
+          //   securityLevel: "loose",
         })
         .use(remarkMath)
         .use(remarkDefinitionList)

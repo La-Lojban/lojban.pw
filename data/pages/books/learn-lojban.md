@@ -180,7 +180,7 @@ flowchart LR
     subgraph sentence["<i>sentence</i>#nbsp;"]
         direction LR
         head-terms
-        cu
+        cu{{"cu"}}
         tail
     end
     head-terms ~~~ cu ~~~ tail
@@ -3624,7 +3624,7 @@ flowchart LR
         end
     end
 
-    t1[mi]
+    t1(mi)
     brivla[(speni)]
 
     classDef blabi fill:#fff,stroke:#333;

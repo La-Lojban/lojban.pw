@@ -27,6 +27,6 @@ RUN apt-get autoclean && rm -rf /var/lib/apt/lists/*
 RUN mkdir -p /app/src
 WORKDIR /app/src
 
-# RUN npx playwright install chromium && npx playwright install-deps
+RUN npx playwright install chromium && npx playwright install-deps
 
 # RUN yarn
