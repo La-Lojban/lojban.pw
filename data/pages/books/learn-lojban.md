@@ -185,7 +185,7 @@ flowchart LR
     end
     head-terms ~~~ cu ~~~ tail
     subgraph tail["<i>tail</i>#nbsp;"]
-        %% direction LR
+        direction LR
         selbri ~~~ tail-terms
     end
     %%  semi-automated

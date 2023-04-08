@@ -28,25 +28,13 @@ export const UserTheme = {
 
 export type Theme = typeof UserTheme[keyof typeof UserTheme];
 
-export interface RemarkMermaidOptions {
+export interface RemarkMermaidOptions extends MermaidConfig {
   /**
    * Launch options to pass to playwright.
    *
    * @default {}
    */
   launchOptions?: playwright.LaunchOptions;
-
-  /**
-   * The Mermaid theme to use.
-   *
-   * @default 'default'
-   */
-  theme?: Theme;
-
-  themeVariables?: {
-    fontSize?: string;
-    fontFamily?: string;
-  };
 
   /**
    * Whether to wrap svg with <div> element.
@@ -60,10 +48,6 @@ export interface RemarkMermaidOptions {
    * @default []
    */
   className?: string[];
-
-  htmlLabels?: boolean;
-
-  securityLevel?: "loose" | undefined;
 }
 
 function svgParse(svg: string): Node {

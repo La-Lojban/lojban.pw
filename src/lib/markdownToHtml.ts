@@ -45,6 +45,9 @@ export default async function markdownToHtml({
             fontFamily:
               "Linux Libertine, Libertine, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif",
           },
+          flowchart: {
+            useMaxWidth: true,
+          },
           //   htmlLabels: true,
           //   securityLevel: "loose",
         })
