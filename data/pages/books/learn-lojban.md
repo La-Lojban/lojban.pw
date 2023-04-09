@@ -3642,6 +3642,7 @@ flowchart LR
     classDef blabi fill:#fff,stroke:#333;
     class m1 blabi;
     class m2 blabi;
+    class sentence blabi;
 
 ```
 
