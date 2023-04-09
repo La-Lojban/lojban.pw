@@ -568,10 +568,11 @@ description {
   @apply select-none;
 }
 
-/* div.mermaid > svg {
-  @apply mx-auto !max-w-full;
-  transform: scale(1.25);
-} */
+div.mermaid > svg {
+  @apply mx-auto;
+  /* @apply mx-auto !max-w-full; */
+  /* transform: scale(1.25); */
+}
 
 div.mermaid > svg div {
   font-size: 0.95rem;
