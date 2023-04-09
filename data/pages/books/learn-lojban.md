@@ -166,13 +166,16 @@ Each sentence in Lojban consists of the following parts from the left to the rig
 
 - the head:
   - consists of so-called "terms",
-  - **le prenu**, **mi**, **ca** are terms in the examples above.
+  - **le prenu** is the only head term in the example **le prenu cu tavla mi** above,
+  - **mi**, **ca** are head terms in the example **mi ca cu tavla do** above.
 - the head separator **cu**:
   - pronounced as _shoe_ since **c** is for _sh_,
   - shows that the head has ended,
   - can be omitted when it's clear that the head is completed.
 - the tail:
-  - the main relation construct (**tavla**, **prami**) with possibly one or more terms after it: the terms **mi**, **do** in the examples above.
+  - the main relation construct (**tavla**, **prami**) with possibly one or more terms after it,
+  - **mi** is the only tail term in the example **le prenu cu tavla mi** above.
+  - **do** is the only tail term in the example **mi ca cu tavla do** above.
 
 ```mermaid
 flowchart LR
@@ -204,6 +207,15 @@ flowchart LR
     selbri[(tavla)]
     tt3(do)
     %% tt4["la .lojban."]
+
+    classDef x fill:#FFF863,stroke:#333,stroke-width:1px,stroke-dasharray: 5 2;
+    class t1 x;
+    class t2 x;
+    class tt3 x;
+    classDef blabi fill:#fff,stroke:#333;
+    class selbri blabi;
+    class sentence blabi;
+
 ```
 
 <pixra url="/assets/pixra/cilre/tavla.png" caption="le prenu cu tavla mi" definition="The person talks to me."></pixra>

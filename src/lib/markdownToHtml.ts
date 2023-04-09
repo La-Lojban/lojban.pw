@@ -41,7 +41,6 @@ export default async function markdownToHtml({
           wrap: true,
           className: ["mermaid"],
           themeVariables: {
-            // fontSize: '0.8rem',
             fontFamily:
               "Linux Libertine, Libertine, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif",
           },

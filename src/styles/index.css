@@ -571,9 +571,9 @@ description {
 div.mermaid > svg {
   @apply mx-auto;
   /* @apply mx-auto !max-w-full; */
-  /* transform: scale(1.25); */
 }
 
-div.mermaid > svg div {
-  font-size: 0.95rem;
+div.mermaid > svg foreignObject {
+  height: 120%;
 }
+
