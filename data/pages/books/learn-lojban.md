@@ -3644,6 +3644,9 @@ flowchart LR
     class m2 blabi;
     class sentence blabi;
 
+    classDef x fill:#FFF863,stroke:#333,stroke-width:1px,stroke-dasharray: 5 2;
+    class t1 x;
+    class brivla blabi;
 ```
 
 In **mi co'a mo'u speni** the order or event is different.
