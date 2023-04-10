@@ -634,7 +634,7 @@ Compound verbs (**le tanru** in Lojban) are several verb words placed one after 
 > **tu melbi zdani**
 > _That one is a nice home._
 
-<pixra url="/assets/pixra/cilre/melbi_zdani.jpg" caption="melbi zdani" definition="… is a nice home"></pixra>
+<pixra url="/assets/pixra/cilre/melbi_zdani.svg" caption="melbi zdani" definition="… is a nice home"></pixra>
 
 tu
 : that one (away from you and me)
