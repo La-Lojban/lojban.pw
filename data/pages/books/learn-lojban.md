@@ -3981,11 +3981,10 @@ la fircku
 
 zausku
 : x1 praises x2 for audience x3 via means x4
-<!-- style fixes -->
 
 ### Quotation marks
 
-For quoting text we place quotation particle **lu** before the quote and place **li'u** after it. The result is a noun representing a quoted text:
+For quoting text, we place the quotation particle **lu** before the quote and place **li'u** after it. The result is a noun representing the quoted text:
 
 > **mi cusku lu mi prami do li'u**
 > _I say "I love you."_
@@ -3993,27 +3992,26 @@ For quoting text we place quotation particle **lu** before the quote and place *
 cusku
 : $x_1$ expresses/says $x_2$ (quote) to audience $x_3$
 
-A nice feature of Lojban is that **lu** — «quote» and **li'u** — «unquote» marks are pronounceable. It is quite handy since in spoken Lojban you don't have to change intonation to show where a quoted text starts and ends.
+A nice feature of Lojban is that **lu** — «quote» and **li'u** — «unquote» marks are pronounceable. It is quite handy since, in spoken Lojban, you don't have to change intonation to show where a quoted text starts and ends.
 
-However, in written text that quotes a conversation, the author often pays reader's attention to the content of quotations. In such cases **sei** is preferred.
+However, in written text that quotes a conversation, the author often draws the reader's attention to the content of quotations. In such cases, **sei** is preferred.
 
 We can also nest quotations, for example:
 
 > **la .ian. pu cusku lu la .djein. pu cusku lu coi li'u mi li'u**
-> _Yan said "Jane said ‘Hello’ to me."_
+> _Yan said, "Jane said, ‘Hello’ to me."_
 
 which is similar to
 
-
 > **la .ian. pu cusku lu la .djein. pu rinsa mi li'u**
-> _Yan said "Jane greeted me."_
+> _Yan said, "Jane greeted me."_
 
 rinsa
 : $x_1$ greets someone $x_2$
 
 <pixra url="/assets/pixra/cilre/rinsa2.svg" caption="le prenu cu rinsa le pendo" definition="The person greets the friend."></pixra>
 
-Note that in Lojban we distinguish things and their names:
+Note that in Lojban, we distinguish things and their names:
 
 > **lu le munje li'u cu cmalu**
 > _"The universe" is small._
@@ -4026,7 +4024,7 @@ Note that in Lojban we distinguish things and their names:
 le munje
 : the universe, world
 
-Here, the text _"the universe"_ is small whereas the universe is not.
+Here, the text _"the universe"_ is small, whereas the universe is not.
 
 ---
 
@@ -4038,27 +4036,27 @@ Interjections and vocatives work like **sei** constructs:
 je'u
 : interjection: truly
 
-As you can see **je'u** is not his words. It's your attitude to the relation. If you want to quote "**je'u mi jinga**" use quotation marks getting:
+As you can see, **je'u** is not part of his words. It represents your attitude toward the relation. If you want to quote "**je'u mi jinga**", use quotation marks like this:
 
 > **lu je'u mi jinga li'u se cusku ra**
 > _"Truly, I won", he said._
 
-See the difference between the two examples?
+Notice the difference between the two examples?
 
-Several common verbs related to talking:
+Here are several common verbs related to talking:
 
 > **ra pu retsku lu do klama ma li'u**
-> _She asked "Where do you go?"_
+> _She asked, "Where do you go?"_
 
 <!-- -->
 
 > **mi pu spusku lu mi klama le zdani li'u**
-> _I replied "I am going home."_
+> _I replied, "I am going home."_
 
 <!-- -->
 
 > **mi pu spuda le se retsku be ra le ka spusku lu mi klama le zdani li'u**
-> _I replied to her question by saying in reply "I am going home."_
+> _I replied to her question by saying, "I am going home."_
 
 spuda
 : $x_1$ replies to $x_2$ by doing $x_3$ (property of $x_1$)
@@ -4076,7 +4074,7 @@ spusku
 
 ### «**zo**» — quoting one word
 
-**zo** is a quotation marker, just like **lu**. However, **zo** quotes only one word immediately after it. This means it does not have an unquote word like **li'u**: we already know where the quotation ends. Thus we save two syllables making our speech more concise.
+**zo** is a quotation marker, similar to **lu**. However, **zo** quotes only one word immediately following it. This means it does not require an unquote word like **li'u**; we already know where the quotation ends. By doing this, we save two syllables and make our speech more concise.
 
 > **zo .robin. cmene mi**
 > _"Robin" is my name._
@@ -4085,24 +4083,24 @@ spusku
 cmene
 : $x_1$ (quote) is a name of $x_2$ …
 
-This is how you present yourself in Lojban using your Lojbanized name.If you have a name consisting of more than one verb word then use **lu … li'u**:
+To present yourself in Lojban using your Lojbanized name, follow the example above. If your name consists of more than one verb word, use **lu … li'u**:
 
 > **lu .robin.djonsyn. li'u cmene mi**
 > _Robin Johnson is my name._
 
-Another way is to use **me**.
+Another approach is to use **me**:
 
 > **mi me la .robin.djonsyn.**
 > _I'm Robin Johnson._
 
-Note that the first place of **cmene** is a quote, a text. Thus, we use not **la** (prefix for names) but **lu … li'u** or **zo** to make a quote and fill the first place of **cmene** with it. Thus, **mi me la .robin.** but
+Note that the first place of **cmene** is a quote, a text. Therefore, we use **lu … li'u** or **zo** to create a quote and fill the first place of **cmene** with it, instead of **la** (prefix for names). Thus, we write **mi me la .robin.** but
 
 > **zo .robin. cmene mi**
 > `"Robin" (quotation) is a name of me`
 
 ### Content questions
 
-English also has a number of _wh-_ questions — _who_, _what_ etc. In Lojban we use one word for all of these: **ma**. This is like an instruction to fill in the missing place. For example:
+English has seeveral _wh-_ question words — _who_, _what_ etc. In Lojban, we use one word for all of these: **ma**. This is like an instruction to fill in the missing place. For example:
 
 > **— do klama ma**
 > **— la .london.**
@@ -4123,7 +4121,7 @@ English also has a number of _wh-_ questions — _who_, _what_ etc. In Lojban we
 > <span>_— I give you what?_ (probably meaning _What was it I was supposed to be giving you?_)</span>
 > _— The apple._
 
-To translate _which/what_ we also use **ma**:
+To translate _which/what_, we also use **ma**:
 
 > **— ma gugde gi'e se xabju do**
 > **— le gugde'usu**
@@ -4138,7 +4136,7 @@ xabju
 se xabju
 : … (some place) is inhabited by … (someone)
 
-**mo** is like **ma**, but questions the main relation, not a noun — it's like English _What does X do?_ or _What is X?_ (remember, Lojban doesn't force you to distinguish between being and doing!)
+**mo** is similar to **ma**, but it questions the main relation instead of a noun. It's like asking _What does X do?_ or _What is X?_ in English (remember, Lojban doesn't force you to distinguish between being and doing!).
 
 We can see **mo** as asking someone to describe the relationship between the nouns in the question.
 
@@ -4146,7 +4144,7 @@ We can see **mo** as asking someone to describe the relationship between the nou
 > _— How do you do? What's up?_
 > `— You are what, you do what?`
 
-This is the most common way of asking _How do you do?_, _Howdy?_ in Lojban. Some possible answers:
+This is the most common way of asking _How do you do?_ or _Howdy?_ in Lojban. Some possible answers:
 
 > **— mi gleki**
 > _— I'm happy._
@@ -4307,9 +4305,9 @@ The word **xo** means _How many?_ and thus asks for a number. The full answer wi
 > **le mu prenu cu klama ti**
 > _The 5 people are coming to this place._
 
-So the person being asked is supposed to put an appropriate value in place of **xo**.
+The person being asked is supposed to put an appropriate value in place of **xo**.
 
-A few more examples:
+Here are a few more examples:
 
 > **le xo botpi cu kunti**
 > _How many bottles are empty?_
@@ -4329,7 +4327,6 @@ Consider the example:
 djuno
 : $x_1$ knows $x_2$ (proposition) about $x_3$
 
-
 > **mi jimpe le du'u do pu citka**
 > _I understand that you were eating._
 
@@ -4338,9 +4335,9 @@ jimpe
 
 <pixra url="/assets/pixra/cilre/na_jimpe.svg" caption="mi na jimpe" definition="I don't understand."></pixra>
 
-In places that describe facts the particle **du'u** is used (instead of **nu**).
+In places that describe facts, the particle **du'u** is used (instead of **nu**).
 
-**djuno** (_to know_) and **jimpe** (_to understand_) describe facts. It'd be stupid to say _I understand that you were eating but in fact you weren't._
+**djuno** (_to know_) and **jimpe** (_to understand_) describe facts. It would be illogical to say, _I understand that you were eating, but in fact, you weren't._
 
 Note that the relation started with **du'u** doesn't have to be true:
 
@@ -4350,21 +4347,21 @@ Note that the relation started with **du'u** doesn't have to be true:
 jitfa
 : $x_1$ (proposition) is false
 
-Where to use **du'u** and where to use **nu**? You may look into the dictionary:
+When should you use **du'u** and when should you use **nu**? You may consult the dictionary:
 
 - The label _(du'u)_ or _(proposition)_ marks places where **du'u** is recommended.
 - The label _(nu)_ or _(event)_ marks places where **nu** is recommended.
 
-If by mistake you use **nu** instead of **du'u** you will still be understood. But usually people speaking fluent Lojban distinguish these particles.
+If you mistakenly use **nu** instead of **du'u**, you will still be understood. However, fluent Lojban speakers typically distinguish between these particles.
 
 ### Indirect questions
 
 > **mi djuno le du'u ma kau tadni la .lojban.**
 > _I know who is studying Lojban._
 
-This is called an indirect question. The word _who_ here is not a request for information, there's no question mark. The answer is presumed. In fact you yourself know the answer to the question _Who is learning Lojban?_
+This is called an indirect question. The word _who_ here is not a request for information, and there is no question mark. The answer is presumed, and in fact, you yourself know the answer to the question _Who is learning Lojban?_
 
-**kau** is an interjection that we put after a question word telling that its an indirect question.
+**kau** is an interjection that we put after a question word to indicate it's an indirect question.
 
 If I ask you the question **ma tadni la .lojban.**, you know what value to fill in the **ma** slot with: **la .kevin.** So you could just say
 
@@ -4389,22 +4386,22 @@ You can put it after other question words:
 > **mi djuno le du'u le xo kau prenu cu tadni la .lojban.**
 > _I know how many people study Lojban._
 
-### Indirect quotations (reported speech)
+### Indirect quotations (reported speech): ‘_I said that I would come._’
 
-A relation like _Alice said "Michelle said “Hello” to me"_ can also be expressed in a rather more subtle way:
+A relation like _Alice said, "Michelle said, 'Hello' to me"_ can also be expressed in a subtler way:
 
 > **la .alis. pu cusku zo'e pe le nu la .micel. pu rinsa le ninmu**
 > _Alice said something about Michelle greeting her before._
-> `Alice said something about the event of Michelle greeted her.`
+> `Alice said something about the event of Michelle greeting her.`
 
-or a bit shorter:
+Alternatively, you can make it shorter:
 
 > **la .alis. pu cusku le se du'u la .micel. pu rinsa le ninmu**
 > _Alice said that Michelle had greeted her._
 
-The combination **se du'u** allows expressing indirect speech.
+The combination **se du'u** allows the expression of indirect speech.
 
-Here are the examples of verbs related to talking when using reported speech:
+Here are some examples of verbs related to talking when using reported speech:
 
 > **le ninmu pu retsku le se du'u mi klama ma kau**
 > _She asked where I was going._
@@ -4427,10 +4424,11 @@ Questions in reported speech:
 
 Thus, Lojban has several words for _that …_, depending on what sort of thing is meant.
 
-- If _that_ describes what can be seen, heard, what happens, use **nu**.
-- If _that_ describes what you think, some fact or information, use **du'u**.
+- If _that_ describes what can be seen, heard, or what happens, use **nu**.
+- If _that_ describes what you think, some fact, or information, use **du'u**.
 - If _that_ describes what you say, use **se du'u**.
-  - But if you need a literal quote use **lu … li'u**.
+  - But if you need a literal quote, use **lu … li'u**.
+<!-- style fixes -->
 
 ### Emotional interjections
 
@@ -9512,8 +9510,8 @@ Everything expressed in text should also be expressed in speech and vice versa. 
 
 **lu** … **li'u** quote only text that is grammatically correct. To quote any Lojban text we use **lo'u** … **le'u** quote instead.
 
-> — **xu lo'u je le'u lojbo sumsmi**
-> — **na ku sumsmi**
+> **— xu lo'u je le'u lojbo sumsmi**
+> **— na ku sumsmi**
 > _— Is "je" a term?_
 > _— No._
 
