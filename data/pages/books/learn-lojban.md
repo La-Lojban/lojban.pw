@@ -3396,30 +3396,30 @@ tavla
 
 ### Nouns of existence
 
-**pa da poi me le pendo be mi zo'u mi prami da**
-_There is someone who is a friend of mine, such that I love them._
+> **pa da poi me le pendo be mi zo'u mi prami da**
+> _There is someone who is a friend of mine, such that I love them._
 
 Since **da** is used only once, we might be tempted to get rid of the prenex. But how should we handle the relative clause **poi pendo mi** (_who is a friend of mine_)?
 
 Thankfully, in Lojban there is a shortcut:
 
-**pa da poi me le pendo be mi zo'u mi prami da**
-**mi prami pa le pendo be mi**
-_There is someone who is a friend of mine, such that I love them._
+> **pa da poi me le pendo be mi zo'u mi prami da**
+> **mi prami pa le pendo be mi**
+> _There is someone who is a friend of mine, such that I love them._
 
 Both sentences mean the same.
 
 Nouns starting with numbers like **pa le pendo** (_there is someone who is a friend of mine_), **ci le prenu** (_there are three people_) may refer to new entities every time they are used. That's why
 
-**pa le pendo be mi ca tavla pa le pendo be mi**
-_There is one friend of mine who talks to one friend of mine._
+> **pa le pendo be mi ca tavla pa le pendo be mi**
+> _There is one friend of mine who talks to one friend of mine._
 
 This sentence is not precise in telling whether it's your friend talking to himself/herself, or you are describing two friends of yours such that the first one is talking to your second one.
 
 It's more reasonable to say:
 
-**le pa pendo be mi ca tavla ri**
-_The friend of mine is talking to himself/herself._
+> **le pa pendo be mi ca tavla ri**
+> _The friend of mine is talking to himself/herself._
 
 ri
 : pronoun: refers to the previous noun excluding **mi**, **do**.
@@ -3431,18 +3431,18 @@ Note the difference:
 - **da** means _there is something/someone_, **da** always refers to the same entity when used more than once in the same relation.
 - noun like **pa le mlatu** (with a bare number) is similar to using **pa da poi me le mlatu** but it can refer to new entities every time it is used.
 
-**mi nitcu le nu pa da poi mikce zo'u da kurju mi**
-_I need a doctor to take care of me (implying "any doctor will do")._
+> **mi nitcu le nu pa da poi mikce zo'u da kurju mi**
+> _I need a doctor to take care of me (implying "any doctor will do")._
 
 <!-- -->
 
-**pa da poi mikce zo'u mi nitcu le nu da kurju mi**
-_There is a doctor whom I need to take care of me._
+> **pa da poi mikce zo'u mi nitcu le nu da kurju mi**
+> _There is a doctor whom I need to take care of me._
 
 One more example:
 
-**le nu pilno pa le bangu kei na ku banzu**
-_Using just one of the languages is not enough._
+> **le nu pilno pa le bangu kei na ku banzu**
+> _Using just one of the languages is not enough._
 
 pilno
 : … uses …
