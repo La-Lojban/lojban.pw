@@ -3924,7 +3924,6 @@ tilju
 
 As you can see, there is an important difference between describing an object within a mass and describing the mass itself.
 
-<!-- style fixes -->
 ### Numbers in places
 
 > **le ci plise cu grake li pa no no**
@@ -3939,15 +3938,16 @@ As you can see, there is an important difference between describing an object wi
 grake
 : $x_1$ weighs $x_2$ (number) grams
 
-When a place of a relation requires a number as mentioned by the dictionary then to use that number we prefix it with the word **li**.
+When a place of a relation requires a number as mentioned by the dictionary, then to use that number, we prefix it with the word **li**.
 
-**li** is a prefix signalling that a number, a timestamp or some math expression is coming.
+**li** is a prefix signaling that a number, a timestamp, or some math expression is coming.
 
 > **li mu no**
 > _Number 50._
 
-A simple **mu no** not being prefixed by **li** would be used to denote 5 objects or events.
+A simple **mu no** not being prefixed by **li** would be used to denote 50 objects or events.
 
+<!-- style fixes -->
 ## Lesson 3. Quoting. Questions. Interjections
 
 ### «**sei**»: comments to the text
