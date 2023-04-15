@@ -2947,7 +2947,7 @@ However, you can say **le birka be mi** as _my arm_. Even if you saw off your ar
 birka
 : $x_1$ is an arm of $x_2$
 
-Note that **be** attaches to the verb word. But **pe**, **ne**, **poi** and **noi** attach to nouns. For example,
+Note that a construct with **be** is a part of the verb, whereas **pe**, **ne**, **poi** and **noi** attach to nouns. For example,
 
 > **le pa melbi be mi fonxa pe le pa pendo be mi cu barda**
 > `The beautiful to me phone of the friend of mine is big.`
@@ -3048,11 +3048,9 @@ When using **me**, you can connect several nouns with _and_:
 tunba
 : $x_1$ is a sibling of $x_2$
 
-<!-- style fixed -->
-
 ### Modal particles inside nouns
 
-We can place a modal particle not only before the main relation construct of the sentence but at the end of it giving the same result:
+We can place a modal particle not only before the main relation construct of the sentence but also at the end of it, producing the same result:
 
 > **mi ca tcidu**
 > **mi tcidu ca**
@@ -3061,7 +3059,7 @@ We can place a modal particle not only before the main relation construct of the
 tcidu
 : to read (some text)
 
-When using **nu** we create a relation describing some event. Notice, the difference between these two examples:
+When using **nu**, we create a relation describing some event. Notice the difference between these two examples:
 
 > **le nu tcidu ca cu nandu**
 > _The current reading is complicated, difficult._
@@ -3075,28 +3073,27 @@ Other examples:
 
 > **mi klama le pa cmana pu**
 > _I went to the mountain._
-> `I go to a mountain (in past).`
+> `I go to a mountain (in the past).`
 
 <!-- -->
 
 > **le nu mi klama le pa cmana pu cu pluka**
 > _That I went to a mountain is pleasant._
 
-When not using **nu** we don't have event relations. Nouns start with **le** and end in its verb (whether it's a single or a compound verb). Thus we can put term particles before a verb in a noun only before that verb:
+When not using **nu**, we don't have event relations. Nouns start with **le** and end with their verb (whether it's a single or a compound verb, with **be** construct in them or not). Thus, we can put term particles before a verb in a noun only before that verb:
 
 <pixra url="/assets/pixra/cilre/coha_purdi.svg" caption="le pu kunti tumla ca purdi" definition="What was a desert is now a garden."></pixra>
 
 > **le pu kunti tumla ca purdi**
 > _What was a desert is now a garden._
 
+So **pu** belongs to **le kunti tumla** and **ca** belongs to **purdi** (as **le pu kunti tumla** can't add **ca** at the end).
 
-So **pu** belongs to **le kunti tumla** and **ca** belongs to **purdi** (as **le pu kunti tumla** can't add **ca** in the end).
+This doesn't contradict using **be** after the verb since, with **be**, you change the verb: **bangu be mi** is considered one verb.
 
-This doesn't contradict with using **be** after the verb since with **be** you change the verb: **bangu be mi** is considered one verb.
-
-Having several modal particles in order is no problem:
+Having several modal particles in order is not a problem:
 > **le pu ze'u kunti tumla ca purdi**
-> _What was for a long time a desert is now a garden._
+> _What was a desert for a long time is now a garden._
 
 ze'u
 : modal term: for a long time
@@ -3109,7 +3106,6 @@ Placing term particles after nouns binds them to outer verbs:
 > **(le kunti tumla) pu purdi**
 > _The desert was a garden._
 
-
 ### New nouns from places of the same verb
 
 > **do plicru mi ti**
@@ -3118,12 +3114,12 @@ Placing term particles after nouns binds them to outer verbs:
 <!-- -->
 
 > **mi se plicru ti do**
-> _I'm granted with this by you._
+> _I'm granted this by you._
 
 plicru
-: $x_1$ gives to $x_2$ something $x_3$ for use
+: $x_1$ gives $x_2$ something $x_3$ for use
 
-We can swap the first two places round in the verb using **se** and thus change the place structure.
+We can swap the first two places in the verb using **se** and thus change the place structure.
 
 **do plicru mi ti** means exactly the same as **mi se plicru do ti**. The difference is solely in style.
 
@@ -3146,12 +3142,12 @@ xamgu
 : … is good for (someone)
 
 > **mi se xamgu le nu mi tadni la .lojban.**
-> _For me it's good to study Lojban._
+> _For me, it's good to study Lojban._
 
 The same can be done with nouns:
 
 le plicru
-: those who gives, the givers, the donors, the donators
+: those who give, the givers, the donors, the donators
 
 le se plicru
 : those who are given to, recipients of gifts
@@ -3159,17 +3155,19 @@ le se plicru
 le te plicru
 : those objects that are given for use, gifts
 
-**te** swaps the first and the third places of verbs.
+**te** swaps the first and third places of verbs.
 
-As we know, when we add **le** in front of a verb it becomes a noun. So
+As we know, when we add **le** in front of a verb, it becomes a noun. So
 
 - **le plicru** means _those which could fit in the first place of **plicru**_
 - **le se plicru** means _those which could fit in the second place of **plicru**_
 - **le te plicru** means _those which could fit in the third place of **plicru**_
 
-Thus, in Lojban we don't need separate words for _donor_, _recipient_, _gift_. We reuse the same verb and save a lot of effort because of such clever design. Indeed, we can't imagine a gift without implying that someone gave it or will give it. When useful phenomena are interconnected Lojban reflects this.
+Thus, in Lojban, we don't need separate words for _donor_, _recipient_, and _gift_. We reuse the same verb and save a lot of effort because of such clever design. Indeed, we can't imagine a gift without implying that someone gave it or will give it. When useful phenomena are interconnected, Lojban reflects this.
 
-For the ease of understanding and memorizing predicate words prefixed with **se**, **te** are put into the dictionary in entries for many verbs together with their definitions although you can figure out their meaning yourself.
+For the ease of understanding and memorizing predicate words prefixed with **se**, **te** are put into the dictionary in entries for many verbs together with their definitions, although you can figure out their meaning yourself.
+
+<!-- style fixed -->
 
 ### Changing other places in main relations
 
