@@ -2938,7 +2938,7 @@ ge'u
 
 ### «**be**» and «**pe**»
 
-Note that relative clauses are attached to nouns, while **be** connects to the verb that is transformed into a noun afterward.
+Note that relative clauses are attached to nouns, while **be** is a part of the verb.
 
 Actually, **le bangu pe mi** is a better translation of _my language_, since, like in English, the two nouns are related to each other in a vague way.
 
@@ -2947,14 +2947,14 @@ However, you can say **le birka be mi** as _my arm_. Even if you saw off your ar
 birka
 : $x_1$ is an arm of $x_2$
 
-Note that a construct with **be** is a part of the verb, whereas **pe**, **ne**, **poi** and **noi** attach to nouns. For example,
+Let's show once again that a construct with **be** is a part of the verb, whereas **pe**, **ne**, **poi** and **noi** attach to nouns:
 
 > **le pa melbi be mi fonxa pe le pa pendo be mi cu barda**
 > `The beautiful to me phone of the friend of mine is big.`
 
-Here, **be mi** is only applied to the verb **melbi** = _to be beautiful to … (someone)_. But **pe le pa pendo** is applied to the whole noun **le pa melbi be mi fonxa** = _the beautiful to me phone_.
+Here, **be mi** is attached to the verb **melbi** = _to be beautiful to … (someone)_ and thus creates a new verb **melbi be mi** = _to be beautiful to me_. But **pe le pa pendo be mi** (_of my friend_) is applied to the whole noun **le pa melbi be mi fonxa** (_the beautiful to me phone_).
 
-It can also happen that we need to attach **be** to a noun and then attach **pe** to the same noun:
+It can also happen that we need to attach **be** to a verb, transform that verb into a noun and then attach **pe** to that noun:
 
 > **le pa pendo be do be'o pe la .paris. cu stati**
 > _The friend of yours who is related to Paris is smart._
@@ -2981,7 +2981,7 @@ Compare it to:
 > **le pu plicru be do bei le pa plise pe la .paris. cu stati**
 > _Who gave you the apple (the apple that is related to Paris) is smart._
 
-In these last two examples, either you are related to Paris or the apple.
+In these last two examples, however, either you are related to Paris or the apple.
 
 ### ‘_Alice is a teacher_’ and ‘_Alice is the teacher_’
 
@@ -3167,18 +3167,16 @@ Thus, in Lojban, we don't need separate words for _donor_, _recipient_, and _gif
 
 For the ease of understanding and memorizing predicate words prefixed with **se**, **te** are put into the dictionary in entries for many verbs together with their definitions, although you can figure out their meaning yourself.
 
-<!-- style fixed -->
-
 ### Changing other places in main relations
 
-**se** is the first particle in the series **se, te, ve, xe** (they go in alphabetical order):
+The series **se, te, ve, xe** (in alphabetical order) consists of particles that change places in main relations:
 
-- **se** changes round the first and second places
-- **te** changes round the first and third places
-- **ve**, the first and fourth, and
-- **xe**, the first and fifth.
+- **se** swaps the first and second places
+- **te** swaps the first and third places
+- **ve** swaps the first and fourth places
+- **xe** swaps the first and fifth places.
 
-> **mi zbasu le pa stizu le mudri**
+> **mi zbasu le pa stizu le mudri**  
 > _I made the chair out of the piece of wood._
 
 zbasu
@@ -3190,15 +3188,15 @@ le pa stizu
 le mudri
 : the piece of wood
 
-> **le mudri cu te zbasu le stizu mi**
+> **le mudri cu te zbasu le stizu mi**  
 > _The piece of wood is what the chair is made of by me._
 
-The **mi** has now moved to the third place in the sentence, and can now be dropped out without being missed if we are too lazy to specify who made the chair or we just don't know who made it:
+The **mi** has now moved to the third place of the relation and can be dropped if we are too lazy to specify who made the chair or if we just don't know who made it:
 
-> **le mudri cu te zbasu le stizu**
+> **le mudri cu te zbasu le stizu**  
 > _The piece of wood is the material of the chair._
 
-Similarly to our example with **le se plicru** (_the recipient_) and **le te plicru** (_the gift_) we can use **te**, **ve**, **xe** to get more words from other places of verbs:
+Similarly to our example with **le se plicru** (_the recipient_) and **le te plicru** (_the gift_), we can use **te**, **ve**, **xe** to derive more words from other places of verbs:
 
 klama
 : $x_1$ goes to $x_2$ from $x_3$ via $x_4$ by means $x_5$
@@ -3220,30 +3218,30 @@ le ve klama
 le xe klama
 : the means of coming
 
-**le xe klama** and the fifth place of **klama** can denote any means of movement like driving a car or your walking on foot.
+**le xe klama** and the fifth place of **klama** can denote any means of movement, like driving a car or walking on foot.
 
-**se** is used a lot more than the other particles for swapping places.
+**se** is used more frequently than the other particles for swapping places.
 
-### Free word order. Tags for places
+### Free word order: tags for places
 
-Usually we don't need all the places of a verb, so we can omit the unnecessary ones by replacing them with **zo'e**. However, we can use _place tags_ to explicitly refer to a needed place. Place tags work like modal particles but deal with the place structure of relations:
+Usually, we don't need all the places of a verb, so we can omit the unnecessary ones by replacing them with **zo'e**. However, we can use _place tags_ to explicitly refer to a needed place. Place tags work like modal particles but deal with the place structure of relations:
 
 > **mi prami do** is the same as
 > **fa mi prami fe do**
 > _I love you._
 
 - **fa** marks the first place of a verb ($x_1$)
-- **fe** — marks the second place ($x_2$)
-- **fi** — marks the third place ($x_3$)
-- **fo** — marks the fourth place ($x_4$)
-- **fu** — marks the fifth place ($x_5$)
+- **fe** marks the second place ($x_2$)
+- **fi** marks the third place ($x_3$)
+- **fo** marks the fourth place ($x_4$)
+- **fu** marks the fifth place ($x_5$)
 
 More examples:
 
 > **mi klama fi le tcadu**
 > _I go from the city._
 
-**fi** marks **le tcadu** as the third place of **klama** (the origin of movement). Without **fi**, the sentence would turn into **mi klama le tcadu** meaning _I go to the city._
+**fi** marks **le tcadu** as the third place of **klama** (the origin of movement). Without **fi**, the sentence would turn into **mi klama le tcadu**, meaning _I go to the city._
 
 > **mi pinxe fi le kabri** is the same as
 > **mi pinxe zo'e le kabri**
@@ -3267,42 +3265,41 @@ tugni
 le rirni
 : the parent / the parents
 
-With place tags we can move places around:
+With place tags, we can move places around:
 
 > **fe mi fi le plise pu plicru**
 > _Someone gave the apple to me._
 
-Here
+Here,
 
 - **le plise** = _the apple_, we put it into the third place of **plicru**, what is given
 - **mi** = _me_, we put it into the second place of **plicru**, the recipient.
 
-As we can see in the last example we can't even reflect the order of words in its English translation.
+As we can see in the last example, we can't even reflect the order of words in its English translation.
 
-Extensive use of place tags can make our speech harder to perceive but they allow for more freedom.
+Extensive use of place tags can make our speech harder to perceive, but they allow for more freedom.
 
-Unlike **se** series using place tags like **fa** doesn't change the place structure.
+Unlike **se** series, using place tags like **fa** doesn't change the place structure.
 
 ---
 
 We can use place tags inside nouns by placing them after **be**:
 
-> **le plicru be mi cu pendo mi**
-> _Who gives me something is my friend._
+> **le pa klama be fi le tcadu cu pendo mi**
+> _The one who comes to the city is my friend._
 
 ---
 
-Another option in placing nouns is that we can put all the nouns of one main relation in front of the relation construct (preserving their relative order). Because of this freedom we can say:
+We may also put all the nouns of one main relation in front of the sentence tail (preserving their relative order). Because of this freedom, we can say:
 
 > **mi do prami** which is the same as
-
+> **mi do cu prami** which is the same as
 > **mi prami do**
 > _I love you._
 
 <!-- -->
 
 > **ko kurji ko** is the same as
-
 > **ko ko kurji**
 > _Take care of yourself._
 
@@ -3321,6 +3318,7 @@ The following sentences are also equal in meaning:
 > **mi do le pa plise cu plicru**
 > _I you the apple give._
 
+
 ### Prenex
 
 Prenex is a "prefix" of relation, in which you can declare variables to be used later:
@@ -3334,7 +3332,7 @@ zo'u
 da
 : pronoun: variable.
 
-The pronoun **da** is translated as _there is something/someone …_ If we use **da** the second time in the same relation it always refers to the same thing as the first **da**:
+The pronoun **da** is translated as _there is something/someone …_ If we use **da** the second time in the same relation, it always refers to the same thing as the first **da**:
 
 > **mi djica le nu su'o da poi kukte zo'u mi citka da**
 > _I wish there was at least something tasty so that I eat it._
@@ -3342,20 +3340,22 @@ The pronoun **da** is translated as _there is something/someone …_ If we use *
 su'o
 : number: at least 1
 
-If the variable is used in the same relation and not in any embedded relations then you can omit the prenex altogether:
+If the variable is used in the same relation and not in any embedded relations, then you can omit the prenex altogether:
 
 > **mi djica le nu su'o da poi kukte zo'u mi citka da**
 > **mi djica le nu mi citka su'o da poi kukte**
 > _I wish there was at least something tasty so that I eat it._
+> _I wish for something to be so that I eat it._
 
 Both examples mean the same, in both cases **su'o da** denotes _there is (were/will be) something or somebody_.
 
 However, prenex is useful and necessary when you need to use **da** deep inside your relation, i.e. within embedded relations:
 
 > **su'o da poi kukte zo'u mi djica le nu mi citka da**
-> _There is at least somethint tasty: I wish I ate it, I want to eat it._
+> _There is at least something tasty: I wish I ate it, I want to eat it._
+> _There is something tasty I wish to eat._
 
-Notice how the meaning changes. Here, we can't omit the prenex because it will change to the meaning of the previous example.
+Notice how the meaning changes. Here, we can't omit the prenex because it will change the meaning of the previous example.
 
 More examples:
 
@@ -3371,12 +3371,12 @@ More examples:
 By default, **da** as a pronoun alone means the same as **su'o da** (_there is at least one …_) unless an explicit number is used.
 
 > **da tavla da**
-> _Someone talk to themselves._
+> _Someone talks to themselves._
 
 <!-- -->
 
 > **da tavla da da**
-> _Someone talk to themselves about themselves._
+> _Someone talks to themselves about themselves._
 
 tavla
 : $x_1$ talks to someone $x_2$ about topic $x_3$
@@ -3396,30 +3396,30 @@ tavla
 
 ### Nouns of existence
 
-> **pa da poi me le pendo be mi zo'u mi prami da**
-> _There is someone who is a friend of me such that I love him/her._
+**pa da poi me le pendo be mi zo'u mi prami da**
+_There is someone who is a friend of mine, such that I love them._
 
-Since **da** is used only once we are tempted to get rid of the prenex. But how to handle the relative clause **poi pendo mi** (_who is a friend of mine_)?
+Since **da** is used only once, we might be tempted to get rid of the prenex. But how should we handle the relative clause **poi pendo mi** (_who is a friend of mine_)?
 
 Thankfully, in Lojban there is a shortcut:
 
-> **pa da poi me le pendo be mi zo'u mi prami da**
-> **mi prami pa le pendo be mi**
-> _There is someone who is a friend of me such that I love him/her._
+**pa da poi me le pendo be mi zo'u mi prami da**
+**mi prami pa le pendo be mi**
+_There is someone who is a friend of mine, such that I love them._
 
 Both sentences mean the same.
 
 Nouns starting with numbers like **pa le pendo** (_there is someone who is a friend of mine_), **ci le prenu** (_there are three people_) may refer to new entities every time they are used. That's why
 
-> **pa le pendo be mi ca tavla pa le pendo be mi**
-> _There is one friend of mine who talks to one friend of mine._
+**pa le pendo be mi ca tavla pa le pendo be mi**
+_There is one friend of mine who talks to one friend of mine._
 
-This sentence is not precise in telling whether it's your friend talking to himself/herself or you are describing two friends of yours such that the first one is talking to your second one.
+This sentence is not precise in telling whether it's your friend talking to himself/herself, or you are describing two friends of yours such that the first one is talking to your second one.
 
 It's more reasonable to say:
 
-> **le pa pendo be mi ca tavla ri**
-> _The friend of mine is talking to himself/herself._
+**le pa pendo be mi ca tavla ri**
+_The friend of mine is talking to himself/herself._
 
 ri
 : pronoun: refers to the previous noun excluding **mi**, **do**.
@@ -3431,19 +3431,18 @@ Note the difference:
 - **da** means _there is something/someone_, **da** always refers to the same entity when used more than once in the same relation.
 - noun like **pa le mlatu** (with a bare number) is similar to using **pa da poi me le mlatu** but it can refer to new entities every time it is used.
 
-> **mi nitcu le nu pa da poi mikce zo'u da kurju mi**
-> _I need a doctor to take care of me (implying "any doctor will do")._
+**mi nitcu le nu pa da poi mikce zo'u da kurju mi**
+_I need a doctor to take care of me (implying "any doctor will do")._
 
 <!-- -->
 
-> **pa da poi mikce zo'u mi nitcu le nu da kurju mi**
-> _There is a doctor whom I need to take care of me._
-
+**pa da poi mikce zo'u mi nitcu le nu da kurju mi**
+_There is a doctor whom I need to take care of me._
 
 One more example:
 
-> **le nu pilno pa le bangu kei na ku banzu**
-> _Using just one of the languages is not enough._
+**le nu pilno pa le bangu kei na ku banzu**
+_Using just one of the languages is not enough._
 
 pilno
 : … uses …
@@ -3468,6 +3467,8 @@ Notice the difference:
 
 > **mi djica tu'a le pa plise**
 > _I want something about the apple (the apple in question)._
+
+<!-- style fixed -->
 
 ### ‘_I have an arm._’ ‘_I have a brother._’
 
