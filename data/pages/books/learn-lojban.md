@@ -3947,12 +3947,11 @@ When a place of a relation requires a number as mentioned by the dictionary, the
 
 A simple **mu no** not being prefixed by **li** would be used to denote 50 objects or events.
 
-<!-- style fixes -->
 ## Lesson 3. Quoting. Questions. Interjections
 
 ### «**sei**»: comments to the text
 
-The particle **sei** allows to insert into a relation a comment about our attitude about what is said in that relation:
+The particle **sei** allows inserting a comment about our attitude regarding what is said in a relation:
 
 > **do jinga sei mi gleki**
 > _You won! (I'm happy about that!)_
@@ -3962,7 +3961,7 @@ However:
 > **do jinga sei la .ian. cu gleki**
 > _You won! (And Yan is happy about that!)_
 
-Like with nouns formed with **le** the relation formed with **sei** must end in a verb.
+Like with nouns formed using **le**, the relation formed with **sei** must end in a verb.
 
 > **la .alis. cu prami sei la .bob. cu gleki la .kevin.**
 
@@ -3972,7 +3971,7 @@ Let's add brackets to make it more easily readable.
 > _Alice loves (Bob is happy) Kevin._
 > _Alice loves Kevin (Bob is happy)._
 
-We can add more nouns to the verb with **be** and **bei** like we do for nouns:
+We can add more nouns to the verb with **be** and **bei** as we do for nouns:
 
 > **do jinga sei mi zausku be fo la fircku**
 > _You won! (I'll post congrats on Facebook)_
@@ -3981,7 +3980,8 @@ la fircku
 : Facebook
 
 zausku
-: to praise
+: x1 praises x2 for audience x3 via means x4
+<!-- style fixes -->
 
 ### Quotation marks
 
