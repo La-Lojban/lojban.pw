@@ -2935,24 +2935,24 @@ pe
 
 ge'u
 : right border marker for **pe**, **ne**.
-<!-- style fixed -->
+
 ### «**be**» and «**pe**»
 
-Notice that relative clauses are attached to nouns whereas **be** connects to the verb that is transformed into a noun afterwards.
+Note that relative clauses are attached to nouns, while **be** connects to the verb that is transformed into a noun afterward.
 
-Actually, **le bangu pe mi** is a better translation of _my language_, since like in English, the two nouns are related to each other in a vague way.
+Actually, **le bangu pe mi** is a better translation of _my language_, since, like in English, the two nouns are related to each other in a vague way.
 
-However, you can say **le birka be mi** as _my arm_. Even if you saw off your arm, it'll still be yours. That's why **birka** has a place of the owner:
+However, you can say **le birka be mi** as _my arm_. Even if you saw off your arm, it will still be yours. That's why **birka** has a place of the owner:
 
 birka
 : $x_1$ is an arm of $x_2$
 
-Notice that **be** attaches to the verb word. But **pe**, **ne**, **poi** and **noi** attach to nouns. For example,
+Note that **be** attaches to the verb word. But **pe**, **ne**, **poi** and **noi** attach to nouns. For example,
 
 > **le pa melbi be mi fonxa pe le pa pendo be mi cu barda**
 > `The beautiful to me phone of the friend of mine is big.`
 
-Here, **be mi** is applied only to the verb **melbi** = _to be beautiful to … (someone)_. But **pe le pa pendo** is applied to the whole noun **le pa melbi be mi fonxa** = _the beautiful to me phone_.
+Here, **be mi** is only applied to the verb **melbi** = _to be beautiful to … (someone)_. But **pe le pa pendo** is applied to the whole noun **le pa melbi be mi fonxa** = _the beautiful to me phone_.
 
 It can also happen that we need to attach **be** to a noun and then attach **pe** to the same noun:
 
@@ -2969,6 +2969,8 @@ be'o
 
 In these examples, **pe la .paris.** is attached to the whole noun **le pa pendo be do be'o** and to the whole noun **le pu plicru be do bei le pa plise be'o**.
 
+In these two examples, your friend has some relation to Paris (maybe, he/she is from Paris).
+
 Compare it to:
 
 > **le pa pendo be do pe la .paris. cu stati**
@@ -2979,11 +2981,11 @@ Compare it to:
 > **le pu plicru be do bei le pa plise pe la .paris. cu stati**
 > _Who gave you the apple (the apple that is related to Paris) is smart._
 
-The difference in the meaning is huge. In the first two examples your friend has some relation to Paris (maybe, he/she is from Paris). In the last two examples, either you are related to Paris or the apple.
+In these last two examples, either you are related to Paris or the apple.
 
 ### ‘_Alice is a teacher_’ and ‘_Alice is the teacher_’
 
-In English the verb _is, are, to be_ makes a noun work like a verb in English. In Lojban even such concepts as _cat_ (**mlatu**), _person_ (**prenu**), _house_ (**dinju**), _home_ (**zdani**) work like verbs by default. Only pronouns work as nouns.
+In English, the verb _is, are, to be_ makes a noun work like a verb. In Lojban, even such concepts as _cat_ (**mlatu**), _person_ (**prenu**), _house_ (**dinju**), _home_ (**zdani**) function like verbs by default. Only pronouns work as nouns.
 
 However, here are three cases:
 
@@ -3010,13 +3012,13 @@ ta'e
 du
 : … is identical to …
 
-The particle **me** takes a noun after it and shows that there are probably other teachers, and Alice is one of them.
+The particle **me** takes a noun after it and indicates that there are likely other teachers, and Alice is one among them.
 
-However, when using the verb **du** we mean that Alice is, for example, the teacher that we have been searching for or talking about.
+The particle **du** is used when Alice is, for example, the teacher that we have been searching for or talking about. It indicates identity.
 
-Thus **me** and **du** can sometimes reflect what in English we use the verb _to be/is/was_ for.
+Thus, **me** and **du** can sometimes correspond to what in English we express using the verb _to be/is/was_.
 
-In Lojban we first rely on the meaning of what we need to say, not necessarily on how it is literally said in English or other languages.
+In Lojban, we prioritize the meaning of what we intend to say, rather than relying on how it is literally expressed in English or other languages.
 
 Other examples:
 
@@ -3033,18 +3035,20 @@ Other examples:
 > **ti du la .alis. noi mi ta'e zgana bu'u le panka**
 > _This is Alice whom I habitually see in the park._
 
-**noi du** and **poi du** are used in Lojban to introduce alternate names for something. They correspond to English _namely, i.e._:
+**noi du** and **poi du** are used to introduce alternate names for something. They correspond to English _namely, i.e._:
 
 > **la .alis. cu penmi le prenu noi du la .abdul.**
 > _Alice met the person, namely Abdul._
 
-When using **me** you can connect several nouns with _and_:
+When using **me**, you can connect several nouns with _and_:
 
 > **tu me le pendo be mi be'o .e le tunba be mi**
 > _Those are some (or all) of my friends and my siblings._
 
 tunba
 : $x_1$ is a sibling of $x_2$
+
+<!-- style fixed -->
 
 ### Modal particles inside nouns
 

@@ -76,11 +76,11 @@ usage ()
 	echo "  Usage: $1 [resolution_in_dpi]"
 }
 
-# Output resolution defaults to 72 unless given:
+# Output resolution defaults to 96 unless given:
 if [ ! -z "$3" ]; then
 	res="$3"
 else
-	res="300"
+	res="96"
 fi
 
 echo "Shrinking pdf files"
