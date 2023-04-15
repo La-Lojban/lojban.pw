@@ -9475,7 +9475,7 @@ It's much safer to use **pe** explicitly and put it after the noun to which it i
 > **zoi gy. John is a man .gy. cu glico jufra**
 > _“John is a man” is an English sentence._
 
-where **gy.** stands for **glico**. Other popular choices of delimiting words are **.kuot.**, a Lojban name which sounds like the English word_quote_, and the word_zoi_ itself. Another possibility is a Lojban word suggesting the topic of the quotation.
+where **gy.** stands for **glico**. Other popular choices of delimiting words are the word _zoi_ itself and a Lojban word suggesting the topic of the quotation.
 
 Lojban strictly avoids any confusion between things and the names of things:
 
