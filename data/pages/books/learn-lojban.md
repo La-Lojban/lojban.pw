@@ -4432,10 +4432,9 @@ Thus, Lojban has several words for _that …_, depending on what sort of thing i
 
 ### Emotional interjections
 
-We know such interjection as **.a'o** (_I hope_). There are interjections expressing other emotional states. They are similar to smileys like ;-) or :-( but in Lojban we can be more specific about our emotions still remaining concise in our speech.
+We know such interjections as **.a'o** (_I hope_). There are interjections expressing other emotional states. They are similar to smileys like ;-) or :-( but in Lojban, we can be more specific about our emotions while still remaining concise in our speech.
 
 Here are examples of widely used emotional interjections:
-
 
 > **do jinga ui**
 > _You won! (I'm happy about that!)_
@@ -4496,7 +4495,7 @@ ciska
 : $x_1$ writes $x_2$ on medium $x_4$
 
 > **i'e do pu gunka le vajni**
-> _Very good! You did an important work._
+> _Very good! You did important work._
 
 i'e
 : interjection: _Fine!_ (approval)
@@ -4507,19 +4506,22 @@ i'e
 .o'u
 : interjection: _Phew!_ (relaxation)
 
-In this case you probably thought that was something dangerous but it's only a cat so you are saying **.o'u**.
+In this case, you probably thought that was something dangerous, but it's only a cat, so you are saying **.o'u**.
 
-> **.u'i ti zmiku**
+> **.u'i ti zmitci**
 > _Ha-ha, this is a robot._
 
 .u'i
 : interjection: _Ha-ha!_ (amusement)
 
-You can add or remove interjections to/from a sentence without the risk of breaking it.
+zmitci
+: ... is an automatic tool
 
-Any word that starts with a pure vowel (excluding **u** and **i** before vowels) is prefixed with a dot in Lojban in writing and with a pause in speech. So the correct spelling is **.a'o** and so on. It's common to omit dots. We will do this later in this course for brevity. However, while speaking you should always show this dot by making a short pause before saying such word to prevent merging two neighboring words together into one.
+You can add or remove interjections to or from a sentence without the risk of breaking it.
 
-Like with **xu** or **sei**\-relations we can add interjections after any noun, pronoun or verb thus expressing our attitude towards that part of the sentence.
+Any word that starts with a pure vowel (excluding **u** and **i** before vowels) is prefixed with a dot in Lojban in writing and with a pause in speech. So, the correct spelling is **.a'o** and so on. It's common to omit dots in writing. However, while speaking, you should always show this dot by making a short pause before saying such a word to prevent merging two neighboring words together into one.
+
+Like with **xu** or **sei**-relations, we can add interjections after any noun, pronoun, or verb, thus expressing our attitude towards that part of the sentence.
 
 ### Urging interjections
 
