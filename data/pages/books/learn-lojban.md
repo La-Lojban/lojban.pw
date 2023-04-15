@@ -4494,10 +4494,10 @@ clira
 ciska
 : $x_1$ writes $x_2$ on medium $x_4$
 
-> **i'e do pu gunka le vajni**
+> **.i'e do pu gunka le vajni**
 > _Very good! You did important work._
 
-i'e
+.i'e
 : interjection: _Fine!_ (approval)
 
 > **.o'u tu mlatu**
