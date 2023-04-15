@@ -3468,11 +3468,9 @@ Notice the difference:
 > **mi djica tu'a le pa plise**
 > _I want something about the apple (the apple in question)._
 
-<!-- style fixed -->
-
 ### ‘_I have an arm._’ ‘_I have a brother._’
 
-The English verb _to have_ has several meanings.
+The English verb _to have_ has several meanings. Let's list some of them.
 
 > **pa da birka mi**
 > _I have an arm._
@@ -3481,7 +3479,7 @@ The English verb _to have_ has several meanings.
 birka
 : $x_1$ is an arm of $x_2$
 
-We use the same strategy for expressing family relationship:
+We use the same strategy for expressing family relationships:
 
 > **pa da bruna mi**
 > **mi se bruna pa da**
@@ -3492,12 +3490,12 @@ We use the same strategy for expressing family relationship:
 <!-- -->
 
 > **re lo bruna be mi cu clani**
-> _I have two brothers and they are tall._
+> _I have two brothers, and they are tall._
 
 clani
 : $x_1$ is long, tall
 
-So we don't need the verb _to have_ to denote such relationship. The same for other family members:
+So we don't need the verb _to have_ to denote such relationships. The same applies to other family members:
 
 > **da mamta mi**
 > **mi se mamta da**
@@ -3524,7 +3522,7 @@ So we don't need the verb _to have_ to denote such relationship. The same for ot
 panzi
 : $x_1$ is a child, offspring of $x_2$
 
-Note that using a number in front of **da** isn't necessary if context is enough.
+Note that using a number in front of **da** isn't necessary if the context is enough.
 
 ---
 
@@ -3540,48 +3538,55 @@ Another meaning of _to have_ is _to keep_:
 > _I have the car._
 
 ralte
-: $x_1$ keeps $x_2$ in their possesion
+: $x_1$ keeps $x_2$ in their possession
 
 ---
 
-If you own, possess something according to some law or documents you should use **ponse**:
+If you own, possess something according to some law or documents, you should use **ponse**:
 
 > **mi ponse le karce**
 > _I own the car._
+> _I have the car._
 
 ponse
 : $x_1$ owns $x_2$
 
+
 ### Scope
 
-The order of terms starting with numbers, modal terms and modal particles of relation constructs matters and is to be read left to right:
+The order of 
+* terms, starting with numbers,
+* modal terms, and
+* modal particles of relation constructs,
+
+matters and should be read from left to right:
 
 > **ci le pendo cu tavla re le verba**
 > _There are three friends, each talking to two children._
 
-The overall number of children here maybe as high as 6.
+The overall number of children here may be as high as six.
 
-By using **zo'u** we can make our sentence more clear:
+By using **zo'u**, we can make our sentence clearer:
 
 > **ci da poi me le pendo ku'o re de poi me le verba zo'u da tavla de**
 > _For three **da** which are among the friends, for two **de** which are among the children: **da** talks to **de**._
 
-Here we see that each of the friends is said to talk to two children, and it might be different children each time; up to six children in total.
+Here, we see that each of the friends is said to talk to two children, and it might be different children each time, with up to six children in total.
 
-How then are we to express the other interpretation, in which just two children are involved? We cannot just reverse the order of variables in the prenex to
+How then can we express the other interpretation, in which just two children are involved? We cannot merely reverse the order of variables in the prenex to:
 
 > **re de poi me le verba ku'o ci da poi me le pendo zo'u da tavla de**
 > _For two **de** which are among the children, for three **da** which are among the friends, **da** talks to **de**_
 
-for although we have now limited the number of children to exactly two, we end up with an indeterminate number of friends, from three to six. The distinction is called a “scope distinction”: in the first example **ci da poi me le pendo** is said to have wider scope than **re de poi me le verba**, and therefore precedes it in the prenex. In the second example the reverse is true.
+Although we have now limited the number of children to exactly two, we end up with an indeterminate number of friends, ranging from three to six. This distinction is called a “scope distinction”: in the first example, **ci da poi me le pendo** is said to have a wider scope than **re de poi me le verba**, and therefore precedes it in the prenex. In the second example, the reverse is true.
 
-To make to scope equal we use a special conjunction **ce'e** connecting two nouns:
+To make the scope equal, we use a special conjunction **ce'e** connecting two nouns:
 
 > **ci da poi me le pendo ce'e re de poi me le verba cu tavla**
 > **ci le pendo ce'e re le verba cu tavla**
 > _Three friends [and] two children, talk._
 
-which picks out two groups, one of three friends and the other of two children, and says that each of the friends talks to each of the children.
+This picks out two groups, one of three friends and the other of two children, and says that each of the friends talks to each of the children.
 
 The order matters with modal particles modifying main relation constructs too:
 
@@ -3611,13 +3616,13 @@ Now compare:
 > _I get widowed._
 > `I become finishing being married.`
 
-If there are several modal particles in one sentence, the rule is that we read them from left to right together, thinking it as a so called _imaginary journey_. We begin at an implied point in time and space (the speaker's "now and here" if no noun follows), and then follow the modals one after another from left to right.
+If there are several modal particles in one sentence, the rule is that we read them from left to right together, thinking of it as a so-called _imaginary journey_. We begin at an implied point in time and space (the speaker's "now and here" if no noun follows), and then follow the modals one after another from left to right.
 
 Let's take **mi mo'u co'a speni**.
 
-**mo'u** means that an event is complete. Which event? The event **co'a speni** — to become married. Hence, **mi mo'u co'a speni** means _I finish the process of the becoming married_, i.e. _I am newlywed._
+**mo'u** means that an event is complete. Which event? The event **co'a speni** — to become married. Hence, **mi mo'u co'a speni** means _I finish the process of becoming married_, i.e., _I am newlywed._
 
-We say in such case that **co'a speni** is within the "scope" of **mo'u**.
+In such cases, we say that **co'a speni** is within the "scope" of **mo'u**.
 
 ```mermaid
 flowchart LR
@@ -3652,7 +3657,7 @@ flowchart LR
     class brivla blabi;
 ```
 
-In **mi co'a mo'u speni** the order or event is different.
+In **mi co'a mo'u speni**, the order of events is different.
 
 First, it is said that an event started (**co'a**), then it is stated that it is an event of finishing being married. Hence, **mi co'a mo'u speni** means _I get widowed_.
 
@@ -3678,7 +3683,7 @@ Examples with simple tenses:
 > _It will happen after I went to the mountain._
 > `I in future: in past: go to the mountain.`
 
-The rule of reading terms from the left to the right can be overriden by connecting modal particles with the conjunction **ce'e**:
+The rule of reading terms from left to right can be overridden by connecting modal particles with the conjunction **ce'e**:
 
 > **mi ba ce'e pu klama le cmana**
 > _I went and will go to the mountain._
@@ -3689,7 +3694,7 @@ The rule of reading terms from the left to the right can be overriden by connect
 
 ### Modal particles + «**da**» + nouns that start with numbers
 
-Like with modal terms the position of **da** matters:
+Like with modal terms, the position of **da** matters:
 
 > **mi ponse da**
 > _There is something I own._
@@ -3705,7 +3710,7 @@ ponse
 co'u
 : modal term: the event stops
 
-This might look like a mind-breaking example. Here, a person was able to say _I own something._ But then for every thing the person owned this situation ended.
+This might look like a mind-breaking example. Here, a person was able to say _I own something._ But then for everything the person owned, this situation ended.
 
 Another example:
 
@@ -3720,17 +3725,17 @@ cizra
 : $x_1$ is strange
 
 > **vi ku ro da cizra**
-> _Here everything is strange._
+> _Here, everything is strange._
 > `Here: every thing strange`
 
-Did you catch that?
+Did you catch the difference?
 
-1. _Everything is strange here_ means that if something is not strange somewhere then it becomes strange at this place.
-2. _Here everything is strange_ simply describes those objects or events that are here (and they are strange). We don't know anything about others in other places.
+1. _Everything is strange here_ means that if something is not strange somewhere, it becomes strange at this place.
+2. _Here, everything is strange_ simply describes those objects or events that are here (and they are strange). We don't know anything about others in other places.
 
-<pixra url="/assets/pixra/cilre/viku_cizra.svg" caption="vi ku ro da cizra" definition="Here everything is strange."></pixra>
+<pixra url="/assets/pixra/cilre/viku_cizra.svg" caption="vi ku ro da cizra" definition="Here, everything is strange."></pixra>
 
-Another example with a noun started with a number:
+Another example with a noun starting with a number:
 
 > **pa le prenu ta'e jundi**
 > _There is one person who is habitually attentive._
@@ -3738,23 +3743,23 @@ Another example with a noun started with a number:
 — it is the same person who is attentive.
 
 > **ta'e ku pa le prenu cu jundi**
-> _It habitually happends that there is one person who is attentive._
+> _It habitually happens that there is one person who is attentive._
 
-— it is always that one person is attentive. People may change but there is one always attentive.
+— it is always that one person is attentive. People may change, but there is always one attentive person.
 
 ### Generic nouns. ‘I like cats (in general)’. Sets
 
 > **mi nelci le'e mlatu**
 > _I like cats._
 
-We've seen **le** being mostly translated as English _the_. However, in some cases we might want to describe some typical object or event that best exemplifies such type of objects or events in out context. In this case we replace **le** with **le'e**:
+We've seen **le** being mostly translated as the English _the_. However, in some cases, we might want to describe a typical object or event that best exemplifies a type of object or event in our context. In this case, we replace **le** with **le'e**:
 
 > **mi nelci le'e badna .i mi na ku nelci le'e plise**
 > _I like bananas. I don't like apples._
 
 I might not have any bananas or apples at hand. I'm simply talking about bananas and apples as I understand, remember, or define them.
 
-To make a noun describing the set of object or events (from which we derive such typical element) we use the word **le'i**:
+To make a noun describing the set of objects or events (from which we derive such a typical element), we use the word **le'i**:
 
 > **le danlu pendo pe mi cu mupli le ka ca da co'a morsi kei le'i mabru**
 > _My pet is an example that at one point mammals die._
@@ -3774,10 +3779,75 @@ ca da
 mupli
 : $x_1$ is an example of $x_2$ (property) among $x_3$ (set)
 
-Dictionaries specify when places of verbs have to be filled with sets.
+Dictionaries specify places of verbs that have to be filled with sets.
 
 ### Masses
 
+> **lei prenu pu sruri le jubme**
+> _The people surrounded the table._
+> `The mass of people did surround the table.`
+
+<pixra url="/assets/pixra/cilre/sruri.svg" caption="The people surrounded the table." definition="The people surrounded the table."></pixra>
+
+We use **lei** instead of **le** to show that the mass of objects is relevant to the action, but not those objects individually. Compare:
+
+We use **lei** instead of **le** to show that the mass of objects is relevant to the action, but not those objects individually. Compare:
+
+**The people were silent.**
+<!-- -->
+**The crowd was silent.**
+
+le prenu
+: the person, the people
+
+lei prenu
+: the crowd, the mass of people
+
+smaji
+: $x_1$ is silent
+
+**The snakes surrounded the rod.**
+_Each of the snakes surrounded the rod._
+
+— here, each snake surrounded the rod probably by curling around it.
+
+**The snakes surrounded the rod.**
+_The snakes together as a mass surrounded the rod._
+
+— here, we don't care about individual snakes, but we state that snakes as a mass surrounded the rod.
+
+<pixra url="/assets/pixra/cilre/sruri_since.svg" caption="The snake surrounded the person." definition="The snake surrounded the person."></pixra>
+
+**The two rings is a symbol of Lojban.**
+<!-- -->
+**It's not true that each of the two rings is a symbol of Lojban.**
+
+djine
+: $x_1$ is a ring
+
+Indeed, only the two rings together form a symbol.
+
+Consider a sentence:
+
+_Apples are heavy._
+
+Does it mean that each apple is heavy, or does it mean that they are heavy if taken together?
+
+In Lojban, we can easily distinguish between these two cases:
+
+**Each of the three apples is heavy.**
+**Each of the apples is heavy.**
+<!-- -->
+**The three apples are heavy in total.**
+(so that every apple might be light, but together they are heavy)
+
+tilju
+: $x_1$ is heavy
+
+As you can see, there is an important difference between describing one object of a mass or describing the mass.
+
+
+### Masses
 
 > **lei prenu pu sruri le jubme**
 > _The people surrounded the table._
@@ -3785,7 +3855,7 @@ Dictionaries specify when places of verbs have to be filled with sets.
 
 <pixra url="/assets/pixra/cilre/sruri.svg" caption="lei prenu cu sruri le jubme" definition="The people surrounded the table."></pixra>
 
-We use **lei** instead of **le** to show that the mass of objects is relevant to the action but not those objects individually. Compare:
+We use **lei** instead of **le** to show that the mass of objects is relevant to the action, but not those objects individually. Compare:
 
 > **le prenu pu smaji**
 > _The people were silent._
@@ -3812,7 +3882,7 @@ smaji
 > _The snakes surrounded the rod._
 > _The snakes together as a mass surrounded the rod._
 
-— here, we don't care about individual snakes but we state that snakes as a mass surrounded the rod.
+— here, we don't care about individual snakes, but we state that snakes as a mass surrounded the rod.
 
 <pixra url="/assets/pixra/cilre/sruri_since.svg" caption="le pa since cu sruri le prenu" definition="The snake surrounded the person."></pixra>
 
@@ -3833,9 +3903,9 @@ Consider a sentence:
 
 > _Apples are heavy._
 
-Does it mean that each apple is heavy or does it mean that they are heavy if taken together?
+Does it mean that each apple is heavy, or does it mean that they are heavy if taken together?
 
-In Lojban we can easily distinguish between these two cases:
+In Lojban, we can easily distinguish between these two cases:
 
 > **le ci plise cu tilju**
 > _Each of the three apples is heavy._
@@ -3847,13 +3917,14 @@ In Lojban we can easily distinguish between these two cases:
 
 > **lei ci plise cu tilju**
 > _The three apples are heavy in total._
-> (so that every apple might be light but together they are heavy)
+> (so that every apple might be light, but together they are heavy)
 
 tilju
 : $x_1$ is heavy
 
-As you can see there is an important difference between describing one object of a mass or describing the mass as a whole.
+As you can see, there is an important difference between describing an object within a mass and describing the mass itself.
 
+<!-- style fixes -->
 ### Numbers in places
 
 > **le ci plise cu grake li pa no no**
