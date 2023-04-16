@@ -5145,13 +5145,12 @@ We can explicitly label the relation as complete with **vau** and then put the i
 ## Lesson 4. Practice
 
 Now we know the most crucial parts of the grammar and can start accumulating new words through situations.
-<!-- style fixes -->
 
 ### Colloquial expressions
 
-Here are some common structures used by fluent speakers of Lojban + examples illustrating their usage.
+Here are some common structures used by fluent speakers of Lojban, along with examples illustrating their usage.
 
-They may help you get used to colloquial Lojban faster.
+They may help you get used to colloquial Lojban more quickly.
 
 - <dl><dt>.i ku'i</dt><dd>But…</dd></dl>
  > **mi djuno .i ku'i mi na ku djica**
@@ -5340,8 +5339,6 @@ pacna
 
 ### Human senses
 
-Verbs related perception will be explained after the dialogue.
-
 > **ju'i la .alis.**
 > _Hey, Alice!_
 
@@ -5359,7 +5356,9 @@ re'i
 
 In English we say _Сan you see_, in Lojban we say just **xu do viska** — _You see?_
 
-<!-- -->
+----
+
+Verbs related to perception will be explained after the dialogue.
 
 > **viska .i plise**
 > **.i le plise cu xunre .i skari le ka xunre**
@@ -5470,7 +5469,7 @@ le xrula
 > **ju'i la .alis.**
 > _Hey, Alice!.._
 
-In this dialogue, the most important verbs for human senses were used. Here are their place structures, along with additional verbs and examples.
+In this dialogue, the most important verbs for human senses were used. In the following sections we shall explain their place structures, along with additional verbs and examples.
 
 #### Vision
 
@@ -5633,9 +5632,10 @@ panci
 > **.i le plise cu se panci le xrula**
 > _The apple smells of flowers._
 
-Note that English confuses smelling an odor and smelling an object that produces that odor. We say _to smell the apple_, _the apple smells of flowers (has the scent of flowers)_. This two-fold distinction is important because an apple produces aromatic particles that are distinct from the apple itself. The same for a falling plate and its sound — we may not want to mix them.
+Note that English can be confusing when it comes to distinguishing between smelling an odor and smelling an object that produces that odor. We say _to smell the apple_, _the apple smells of flowers (has the scent of flowers)_. This two-fold distinction is important because an apple produces aromatic particles that are distinct from the apple itself. The same applies to a falling plate and its sound — we may not want to mix them.
 
-In Lojban we can easily separate between those cases like shown in the examples above.
+In Lojban, we can easily separate these cases, as demonstrated in the examples above.
+
 
 #### Sense of taste
 
@@ -5694,7 +5694,7 @@ cidni
 
 #### Colors
 
-Different language use different sets of words to denote colors. Some languages just refer to the color by referencing other "prototype" objects with similar color (or shade, form …) In Lojban we use all the options:
+Different languages use different sets of words to denote colors. Some languages simply refer to colors by referencing other "prototype" objects with similar colors, shades, or forms. In Lojban, we use all the options:
 
 > **ti xunre**
 > _This is red._
@@ -5713,11 +5713,10 @@ xunre
 le ciblu
 : the blood
 
-Below are some examples with colors that follow those of English language. Other verbs for colors can be used, they would reflect how people speaking other languages are used to classify things.
+Here are some color examples that align with the English language. You can also use other color verbs, reflecting the way how speakers of different languages typically categorize things.
 
 > **le tsani cu xunre ca le cerni**
 > _The sky is red in the morning._
-
 
 le tsani
 : the sky
@@ -5808,7 +5807,7 @@ manku
 
 ### «**sipna**» — ‘_to sleep_’, «**sanji**» — ‘_to be aware_’
 
-The following are examples that illustrate some basic aspects of the mind:
+The following examples illustrate some basic aspects of the mind:
 
 > **pu ku mi cikna gi'e ku'i na ganse le nu do klama**
 > _I was awake but didn't sense your arrival._
@@ -5846,7 +5845,7 @@ sanji
 
 **ganse** doesn't imply any mental processing; it just describes perception, recognition, detection of some stimulus via sensory channels (specified in $x_3$).
 
-On the other hand, **sanji** describes passive sensing which involves mental processing but not necessarily via sensory inputs at all (some mental relationships are not detected by the senses).
+On the other hand, **sanji** describes passive sensing, which involves mental processing but not necessarily via sensory inputs at all (some mental relationships are not detected by the senses).
 
 ### Emotions: «**cmila**» — ‘_to laugh_’, «**cisma**» — ‘_to smile_’
 
@@ -5863,7 +5862,7 @@ badri
 <pixra url="/assets/pixra/cilre/badri.svg" caption="le prenu cu simlu lo ka badri" definition="The person seems to be sad."></pixra>
 
 > **mi steba le nu le bruna be mi co'a speni le ninmu**
-> _I am frustrated that my brother gets married a woman._
+> _I am frustrated that my brother gets married the woman._
 
 steba
 : $x_1$ feels frustration about $x_2$
@@ -5905,7 +5904,7 @@ la'a
 kanpe
 : $x_1$ expects $x_2$ (some event )
 
-> **mi terpa le nu le ninmu ba tarti le xlali**
+> **mi terpa le nu le ninmu ba tarti lo xlali**
 > **.i ku'i le bruna cu cisma ca ro nu ri tavla le ninmu**
 > **.i ri ta'e cmila**
 > _I am afraid that she will behave bad._
@@ -6022,9 +6021,7 @@ kanro
 bilma
 : $x_1$ is ill or sick with symptoms $x_2$ from disease $x_3$
 
-Note that the second place of **bilma** describes symptoms like **le ka cortu le galxe** = _to have pain in the throat_
-
-The third place is the name of the disease leading to those symptoms: Obviously, you may fill any place of **bilma**.
+Note that the second place of **bilma** describes symptoms, such as **le ka cortu le galxe** = _to have pain in the throat_. The third place indicates the name of the disease causing those symptoms. Obviously, you may wish to skip filling these places of **bilma**.
 
 ### Human body
 
@@ -6168,7 +6165,7 @@ bruna
 mensi
 : $x_1$ is a sister of $x_2$
 
-Note that **panzi** can be applied to grown-up children of someone
+Note that **panzi** can be applied to grown-up children:
 
 verba
 : $x_1$ is a child, immature person of age $x_2$ (event)
@@ -6176,7 +6173,7 @@ verba
 panzi
 : $x_1$ is a child, offspring of $x_2$
 
-**verba** doesn't necessarily talk of it as of a family member:
+**verba** doesn't necessarily talk of the child as of a family member:
 
 > **le bersa be le pendo be mi cu verba le nanca be li ci**
 > _The son of my friend is a child of three years old._
@@ -6204,9 +6201,9 @@ le nanla
 le remna
 : the humans
 
-Note that **le prenu** means _the people_, _the persons_. In fairy tales and fantastic stories not only humans (**le remna**) but animals or alien beings from other planets can be persons.
+Note that **le prenu** means _the people_ or _the persons_. In fairy tales and fantastic stories, not only humans (**lo'e remna**) but also animals or alien beings from other planets can be considered persons.
 
-These words can be used for describing genetically determined sex (both in animals and humans) as opposed to gender:
+These words can be used to describe genetically determined sex (both in animals and humans) as opposed to gender:
 
 le fetsi
 : the female
@@ -6334,6 +6331,7 @@ zarci
 : $x_1$ is a shop
 
 ## Lesson 5. Modal terms, «**da**», their relative position
+<!-- style fixes -->
 
 ### How do modal terms refer to the relation?
 
