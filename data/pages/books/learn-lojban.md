@@ -945,7 +945,16 @@ Close the right part of the table. Translate the sentences on the left to Lojban
 <td><b>xu le gerku cu prami do</b>
 </td></tr></tbody></table>
 
-### Polite requests
+### Happiness and polite requests: ‘_Yay!_’ = «**ui**», ‘_Please!_’ = «**.e'o**»
+
+The interjection **ui** show happiness of the one who is speaking. It is used just like the smiley face ‘_:)_’ the smiley-face in messaging, to indicate that you're glad of something. Although, smileys can be ambiguous, and **ui** has only one meaning, which is handy.
+
+> **ui do klama**
+> _Yay, you are coming!_
+
+ui
+: interjection: _Yay!_, interjection of happiness
+
 
 The interjection **.e'o** at the beginning of a sentence turns it into a polite request:
 
@@ -988,7 +997,13 @@ kurji
 
 <table style="table-layout: fixed;">
 
-<tbody><tr>
+<tbody>
+<tr>
+<td><b>ui carvi</b>
+</td>
+<td><i>Yay, it rains! Yay, it is raining!</i>
+</td></tr>
+<tr>
 <td><b>.e'o do sutra bajra</b>
 </td>
 <td><i>Run quickly!</i>
@@ -1022,6 +1037,12 @@ Close the right part of the table. Translate the sentences on the left to Lojban
 <td><i>Please, drink the coffee!</i>
 </td>
 <td><b>.e'o do pinxe le ckafi</b>
+</td></tr>
+<tr>
+<tr>
+<td><i>Yay, I talk to you!</i>
+</td>
+<td><b>ui mi tavla do</b>
 </td></tr>
 <tr>
 <td><i>Please, take care of the child.</i>
@@ -4428,13 +4449,10 @@ Thus, Lojban has several words for _that …_, depending on what sort of thing i
 - If _that_ describes what you think, some fact, or information, use **du'u**.
 - If _that_ describes what you say, use **se du'u**.
   - But if you need a literal quote, use **lu … li'u**.
-<!-- style fixes -->
 
-### Emotional interjections
+### Emotional interjections: ‘_Yay!_’ = «**ui**», ‘_Aye!_’ = «**ie**», ‘_Phew!_’ = «**.o'u**»
 
-We know such interjections as **.a'o** (_I hope_). There are interjections expressing other emotional states. They are similar to smileys like ;-) or :-( but in Lojban, we can be more specific about our emotions while still remaining concise in our speech.
-
-Here are examples of widely used emotional interjections:
+We know such interjections as **ui** (_Yay!_), **.a'o** (_I hope_).
 
 > **do jinga ui**
 > _You won! (I'm happy about that!)_
@@ -4445,6 +4463,8 @@ ui
 <pixra url="/assets/pixra/cilre/ui_jinga.svg" caption="ui mi jinga" definition="Yay! I won!"></pixra>
 
 Interjections work like **sei** with their relations. **ui** means the same as **sei mi gleki** so we could as well say **do jinga sei mi gleki** meaning the same (although it's a bit more lengthy).
+
+There are interjections expressing other emotional states. They are similar to smileys like ;-) or :-( but in Lojban, we can be more specific about our emotions while still remaining concise in our speech.
 
 > **ie tu mlatu**
 > _Yes, that is a cat._
@@ -4525,7 +4545,7 @@ Like with **xu** or **sei**-relations, we can add interjections after any noun, 
 
 ### Urging interjections
 
-A special group of interjections (in English called "imperative/hortative" interjections) make instigations, commands, requests, among which we already know **.e'o**:
+A special group of "imperative/hortative" interjections are used for instigations, commands, and requests. We have already encountered **.e'o**:
 
 > **.e'o mi ciksi da poi mi cusku djica**
 > _Please, let me explain what I want to say._
@@ -4548,7 +4568,7 @@ le nenri
 > _C'mon, do it!_
 
 .e'ei
-: interjection: _Come on!_ (encourgament, instigation, provokation). Unofficial word
+: interjection: _Come on!_ (encouragement, instigation, provocation). Unofficial word
 
 > **.e'i do zutse doi le verba**
 > _Sit down, child!_
@@ -4572,27 +4592,27 @@ le nenri
 > **bajra**
 > _Someone runs._
 
-In English the verb itself is a command:
+In English, the verb itself is a command:
 
 > _Run!_
 
-In Lojban **bajra** as a sentence means _Someone runs_ (or _is running_ / _was running_ and so on depending on context). **bajra** can also mean a command _Do run!_ but sometimes context isn't enough to make you decide whether it's an urge to run or simply a statement of the fact that someone runs or is running.
+In Lojban, **bajra** as a sentence means _Someone runs_ (or _is running_ / _was running_, depending on context). **bajra** can also mean a command, _Do run!_, but sometimes context isn't enough to determine if it's an urge to run or simply a statement that someone runs or is running.
 
-The pronoun **ko** is used instead of **do** to make requests, suggestions, commands.
+The pronoun **ko** is used instead of **do** to make requests, suggestions, or commands:
 
 > **ko bajra**
 > _Run! Do run! Do it so that you run!_
 
-**ko** is simply a more vague alternative to **do .e'o**, **do .e'u**, **do .e'i**.
+**ko** is a more vague alternative to **do .e'o**, **do .e'u**, **do .e'i**.
 
-It's perfectly fine to say a more precise
+It's perfectly fine to say something more precise, like:
 
 > **do .e'o bajra**
 > _You, please run!_
 
 putting the emphasis in our politeness onto **do** (_you_).
 
-Moving **ko** in a relation moves command/request to that part, for example:
+By moving **ko** in a relation, the command/request is moved to that part. For example:
 
 > **nelci ko**
 > _Make it so you are liked by someone!_
@@ -4600,9 +4620,9 @@ Moving **ko** in a relation moves command/request to that part, for example:
 nelci
 : … likes … (something or someone)
 
-As you can see we have to restructure this relation in English which still sounds weird, but you could use it in Lojban in the sense of _Try to make a good impression._
+As you can see, we have to restructure this relation in English, which still sounds strange. However, you could use it in Lojban in the sense of _Try to make a good impression._
 
-Note that **prami** corresponds to English _to love_ while **nelci** corresponds to English _to like_.
+Note that **prami** corresponds to English _to love_, while **nelci** corresponds to English _to like_.
 
 We can even have several **ko** in one sentence:
 
@@ -4640,10 +4660,10 @@ si'a
 
 ### Structure of interjections: «**nai**», «**sai**», «**pei**», «**dai**»
 
-Interjection can consist of
+Interjections can consist of
 
-1. the root like **ui** (_Yay!_)
-2. then suffixes like **pei**, **dai**, **zo'o**:
+1. the root, like **ui** (_Yay!_)
+2. after it suffixes like **pei**, **dai**, **zo'o**:
 
     > **ui zo'o**
     > _Yay! (kidding, I'm not actually happy)_
@@ -4669,38 +4689,38 @@ Some examples of how scalar particles work.
 
 Common examples of interjections:
 
-- interjection with bare root:
+- an interjection made of a bare root:
 
  > **ju'o le bruna co'i klama**
  > _I'm sure, the brother has come._
 
-- scalar particle **cu'i** turns bare interjection into the middle attitude:
+- the scalar particle **cu'i** turns a bare root interjection into its middle attitude:
 
  > **ju'o cu'i le bruna co'i klama**
  > _Maybe the brother has come, I'm not sure._
 
-- scalar particle **nai** turns interjection into the opposite attitude:
+- the scalar particle **nai** turns inttheyerjection into the opposite attitude:
 
  > **ju'o nai le bruna co'i klama**
  > _Maybe the brother has come, maybe not, I have no idea_
 
- Similarly, **ui** is _Whee! Yay!_ while **ui nai** means _Alas!_
+ Similarly, **ui** is _Whee! Yay!_, while **ui nai** means _Alas!_
 
  Precise meanings of interjections that are meaningful with their scalar particles **cu'i** and **nai** are given in the dictionary.
 
-- scalar particle **sai** denotes strong intensity of interjection:
+- the scalar particle **sai** denotes strong intensity of interjection:
 
  > **.u'i sai**
  > _Ha-ha-ha!_
 
-Vocatives too can be modified with scalar particles:
+Vocatives can also be modified with scalar particles:
 
 > **ki'e sai do**
 > _Thank you a lot!_
 
-Suffixes are added after the root of interjection (together with its scalar particles if we used them):
+Suffixes are added after the root of the interjection (together with its scalar particles if we used them):
 
-- interjection suffix **pei** turns interjection into a question.
+- the interjection suffix **pei** turns interjection into a question.
 
  > **— .au pei do .e mi klama le zarci**
  > **— .au cu'i**
@@ -4714,7 +4734,7 @@ Suffixes are added after the root of interjection (together with its scalar part
  > _— That one is pretty, isn't it?_
  > _— Yeah._
 
-- interjection suffix **dai** shows another's feelings, not feelings of the speaker:
+- the interjection suffix **dai** shows feelings of others, not feelings of the speaker:
 
  > **ui nai dai do na ku co'i jinga**
  > _You must be sad, you haven't won._
@@ -4729,19 +4749,17 @@ Suffixes are added after the root of interjection (together with its scalar part
  > **.a'u dai**
  > _That must have been interesting for you!_
 
-- Bare interjections express the attitude of the speaker. **ei do cliva** means not _You ought to leave_, but _I feel the obligation for you to leave_. **dai** shows that the speaker is empathizing someone else's feelings.
+- Bare interjections express the speaker's attitude. **ei do cliva** means not _You ought to leave_, but _I feel the obligation for you to leave_. **dai** shows that the speaker is empathizing someone else's feelings.
 
  > **.ei dai do cliva**
  > _You feel the obligation for yourself to leave._
 
-Note that interjections don't necessarily show attitude towards the speakers themselves. Instead, they express speakers' attitude towards other things.
+Note that interjections don't necessarily show attitude towards the speakers themselves. Instead, they express the speakers' attitude towards other things.
 
-- interjection suffix **zo'o** marks the attitude as expressed not seriously:
+- the interjection suffix **zo'o** marks the attitude as expressed not seriously:
 
  > **.e'u zo'o do pinxe ti**
  > _I suggest that you drink it (kidding)._
-
- **zo'o** is used just like the smiley-face in e-mail, to indicate that you're being humorous when saying something, and it's used for much the same reason. Although, simleys can be ambiguous, and **zo'o** has only one meaning, which is handy.
 
 - Suffixes can also be modified with scalar particles:
 
@@ -4762,7 +4780,7 @@ Note that interjections don't necessarily show attitude towards the speakers the
   > _— The moon is green (what is your feeling about it?)_
   > _— I disagree._
 
-- For other suffixes they mean that the root interjection **ju'a** (_I state_) was omitted:
+- For other suffixes, it means that the root interjection **ju'a** (_I state_) was omitted:
 
  > **zo'o do kusru**
  > **ju'a zo'o do kusru**
@@ -4773,7 +4791,7 @@ Note that interjections don't necessarily show attitude towards the speakers the
 
 ### Just for reference: interjections in tables
 
-Here is a bigger picture: emotional, urging and some other interjections in series.
+Here is a more comprehensive view: emotional, urging, and various other interjections by series.
 
 <table>
 <tbody><tr>
@@ -5073,18 +5091,16 @@ Here is a bigger picture: emotional, urging and some other interjections in seri
 <td><b>.o'u nai</b><br/>stress, anxiety
 </td></tr></tbody></table>
 
-Note how an emotion changes to its opposite with **nai** and to the middle emotion using **cu'i**.
+Notice how an emotion changes to its opposite when using **nai**, and to the middle emotion when using **cu'i**.
 
 Why are some cells of interjections with **cu'i** and **nai** empty? Because English lacks concise ways of expressing such emotions.
 
-What is more, most of such interjections are used quite seldom.
-
-These tables might help you understand their design.
+Moreover, many of these interjections are rarely used.
 
 ### Combining interjections
 
 > **iu ui nai**
-> _I am unhappily in love._
+> _Unhappily in love._
 
 <!-- -->
 
@@ -5094,7 +5110,7 @@ These tables might help you understand their design.
 jinga
 : … wins
 
-In this case the victory was unprobable, I'm surprised and happy at the same time.
+In this case, the victory was improbable, so I'm surprised and happy at the same time.
 
 Interjections (unlike scalar particles and interjection suffixes) don't modify each other:
 
@@ -5102,12 +5118,12 @@ Interjections (unlike scalar particles and interjection suffixes) don't modify e
 > **ui ue do jinga**
 > _Oh, you won! I'm so happy!_
 
-Here two interjections modify the same construct (the whole sentence) but they don't modify each other so their order is not important.
+Here, two interjections modify the same construct (the whole sentence) but they don't modify each other so their order is not important.
 
 > **pei .u'i le gerku cu sutra plipe**
 > _(What do you feel?) Heh, the dog is quickly jumping._
 
-Here **pei** is used alone and doesn't modify **.u'i** which is put after it.
+Here, **pei** is used alone and doesn't modify **.u'i**, which is put after it.
 
 ### Forgot to put an interjection at the beginning?
 
@@ -5119,7 +5135,7 @@ Here **pei** is used alone and doesn't modify **.u'i** which is put after it.
 > **ui do pu sidju mi**
 > _Yay, you helped me._
 
-What if we forgot to add **ui** at the beginning of this relation?
+What if we forgot to add **ui** at the beginning of this sentence?
 
 We can explicitly label the relation as complete with **vau** and then put the interjection:
 
@@ -5128,7 +5144,8 @@ We can explicitly label the relation as complete with **vau** and then put the i
 
 ## Lesson 4. Practice
 
-Now we know most crucial parts of the grammar and can start accumulating new words through situations.
+Now we know the most crucial parts of the grammar and can start accumulating new words through situations.
+<!-- style fixes -->
 
 ### Colloquial expressions
 
