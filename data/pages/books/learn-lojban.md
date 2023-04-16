@@ -6331,11 +6331,10 @@ zarci
 : $x_1$ is a shop
 
 ## Lesson 5. Modal terms, «**da**», their relative position
-<!-- style fixes -->
 
 ### How do modal terms refer to the relation?
 
-- Some modal terms like those that describe time (tense) connect the current relation with the one in the noun after them:
+Some modal terms, like those that describe time (tense), connect the current relation with the one in the noun after them:
 
 > **mi cadzu ca le nu le cipni cu vofli**
 > _I walk when the birds fly._
@@ -6369,9 +6368,9 @@ Modal terms don't remove ordered places (**fa**, **fe**, **fi**, **fo**, **fu**)
 > **mi klama fe le rirxe .e le dinju**
 > _I go to a river, to a house._
 
-Here, the first example uses **se ka'a** to connect **le rirxe** and then the second place of **klama** follows being filled with **le dinju**. It's the same as just filling the second place of **klama** two times, that is connecting them with **.e** — _and_.
+In the first example, **se ka'a** connects **le rirxe** and then the second place of **klama** follows, being filled with **le dinju**. It's the same as just filling the second place of **klama** two times, connecting them with **.e** — _and_.
 
-However, **se ka'a** is nice when applied to other verbs like **cadzu** in a previous example.
+However, **se ka'a** is useful when applied to other verbs like **cadzu** in a previous example.
 
 > **le prenu pu cadzu tai le nu ri bevri su'o da poi tilju**
 > _The person walked as if he was carrying something heavy._
@@ -6408,14 +6407,13 @@ lo jbari
 : berries
 
 $x_1$ of the relation describes the most one in this comparison, the relation itself describes the comparison.
--->
 
-The dictionary explains such tricky cases where the relation defined by the term might pose difficulty. In practice, the relation is often clear from the examples provided.
+The dictionary explains such tricky cases where the relation defined by the term might pose difficulty. In practice, the relation is often clear from the examples provided. -->
 
 ### Using «**ne**» + term. «**se mau**» — ‘_more than …_’
 
-> **mi ne se mau do cu melbi**
-> _I am prettier than you._
+**mi ne se mau do cu melbi**
+_I am prettier than you._
 
 se mau
 : term from **se zmadu**: more than; the relation itself describes the comparison
@@ -6472,41 +6470,38 @@ However, **se mau** always compares the noun after it with the first place of th
 
 <!-- -->
 
-> **la betis cu se nelci la bob se mau la maris**
+> **la .betis. cu se nelci la .bob. se mau la .maris.**
 > _Betty is loved by Bob more than Mary. Bob likes Mary less._
 
 ### Comparisons: ‘_equal_’, ‘_the same_’
 
-> **mi dunli le mensi be mi le ka mitre .i ku'i mi na ku du le mensi**
-> _I am as big as my sister. But I'm not her._
-> `I equal the sister of me in meters. But i am not identical to the sister.`
+> **I am as big as my sister, but I'm not her.**
+> _I equal my sister in meters, but I am not identical to her._
 
-dunli
+**dunli**
 : $x_1$ (any type) is equal to $x_2$ (any type) in $x_3$ (property of $x_1$ and $x_2$ with **kau**)
 
-mitre
+**mitre**
 : $x_1$ is $x_2$ meters long
 
-du
+**du**
 : $x_1$ (any type) is identical to $x_2$ (any type)
 
 **dunli** compares two places for a single property, while **du** compares for identity. My sister and I are the same height, but we are not the same person. Clark Kent and Superman have different admirers, but they are the same person.
 
 The same goes for another two verbs:
 
-> **mi frica do le ka nelci ma kau**
-> _We differ from each other in what we like._
-> `I differ from you in liking what.`
+> **We differ from each other in what we like.**
+> _I differ from you in liking what._
 
 <!-- -->
 
-> **le drata be mi cu kakne le ka sidju**
-> _Someone other than me is able to help._
+> **Someone other than me is able to help.**
 
-frica
+**frica**
 : $x_1$ (any type) differs from $x_2$ (any type) in $x_3$ (property of $x_1$ and $x_2$ with **kau**)
 
-drata
+**drata**
 : $x_1$ (any type) is not the same as $x_2$ (any type)
 
 ### The concept of ‘_only_’
@@ -6666,7 +6661,7 @@ zarci
 > **mi pu re roi klama le zarci**
 > _I went to the market twice._
 
-Without **pu** the construct **re roi** may mean that once I went to the market but the second time I will be there only in the future. These time-related particles can be used with a noun after them:
+Without **pu**, the construct **re roi** may mean that I went to the market once but the second time I will be there will only happen in the future. These time-related particles can be used with a noun after them:
 
 > **mi klama ti pa roi le jeftu**
 > _I come here once a week._
@@ -6681,7 +6676,7 @@ Without **pu** the construct **re roi** may mean that once I went to the market 
 - **za'u re'u** = _again_
 - **ro re'u** = _for the last time_
 
-The time-related particle **re'u** works like **roi** but tells the number of the iteration for which this event happens.
+The time-related particle **re'u** works like **roi**, but tells the number of iterations for which the event occurs.
 
 Compare:
 
@@ -6725,6 +6720,7 @@ re re'u
 : for the second time (same here, no context is needed, and even the exact number of times is given)
 
 ### Modal particles: their location within a relation
+<!-- style fixes -->
 
 > **le nu tcidu kei ca cu nandu**
 > _Reading is now difficult._
@@ -6739,36 +6735,33 @@ Bare terms without arguments after them can be moved around the sentence by addi
 **ku** prevents the following nouns from attaching to such terms. Compare:
 
 > **ca le nu tcidu cu nandu**
-> _When reading it's difficult._
+> _When reading, it's difficult._
 
 Here are several places where modal particles can go.
 
-- modal term modifies the relation to the right of it:
-  
- > **ca ku mi citka**
- > _Now I eat._
+- Modal term modifies the relation to the right of it:
 
- — the term is labelled with a word **ku** as being completed.
+  > **ca ku mi citka**
+  > _Now I eat._
 
- > **ca le cabdei mi citka**
+  — here the term is labeled with a word **ku** as being completed.
 
- > _Today I eat._
+  > **ca le cabdei mi citka**
+  > _Today I eat._
 
- — the term with a noun after it as its argument.
+  — here the term has a noun after it as its argument.
 
- > **mi ca citka**
+  > **mi ca citka**
+  > _I now eat._
 
- > _I now eat._
-
- — modal particle before the main relation construct and without a noun.
+  — here the modal particle is a part of the main relation construct and without a noun.
 
 - Modal term is applied to the whole relation:
 
- > **mi citka ca**
+  > **mi citka ca**
+  > _I eat now._
 
- > _I eat now._
-
- — modal term at the end of the relation.
+  — here the modal term at the end of the relation.
 
 ### Joining statements with modals
 
