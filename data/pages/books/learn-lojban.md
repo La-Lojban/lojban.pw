@@ -6773,23 +6773,23 @@ Here are several places where modal particles can go.
 > **mi pinxe le jisra .i ca bo do co'i klama le zdani**
 > _I am drinking the juice, and at the same time you come home._
 
-The two examples mean the same. The second option is mostly used when any of the original relations sound bulky.
+The two examples convey the same meaning. The second option is mostly used when any of the original relations sound bulky.
 
 Another use is to move modal terms out of scope of other modal terms:
 
 > **mi na ku te vecnu ki'u le nu kargu**
 > _It's not true that I buy because it's expensive._
 
-So one might suppose that I only buy things if they are expensive. But no, I don't act thay way.
+In this example, one might suppose that I only buy things if they are expensive. However, that's not the case.
 
 Here, **na ku** negates that _I buy things because they are expensive_. **na ku** is applied to the whole relation, thus it "covers" **ki'u**.
 
 > **mi na ku te vecnu .i ki'u bo kargu**
 > _I don't buy. It's because it's expensive._
 
-Here, I don't buy things. Why? Because they are expensive. Maybe I prefer only cheap things.
+In this case, I don't buy things. Why? Because they are expensive. Maybe I prefer only cheap things.
 
-Here, **ki'u** is placed to another sentence. Thus, **na ku** doesn't scope over it.
+Here, **ki'u** is placed in another sentence. Thus, **na ku** doesn't scope over it.
 
 Both examples could be translated as _I don't buy because it's expensive._ However, they mean different things.
 
@@ -6809,7 +6809,7 @@ A special rule is for using **.i ba bo** and **.i pu bo**. Compare:
 
 ### Existing things, ‘_there are …_’
 
-There are actually three words in **da** series: **da**, **de**, **di**. We use them if you need to refer to different objects in one discourse:
+There are actually three words in the **da** series: **da**, **de**, and **di**. We use them when referring to different objects in one discourse:
 
 > **ci le mlatu cu citka re le finpe**
 > _There are three cats, there are two fishes for each cat, and each cat eats two fishes._
@@ -6850,12 +6850,12 @@ zo'u
 > **da de zo'u da viska de**
 > _There is **da** and **de** such that **da** sees **de**._
 
-The two pronouns **da** and **de** tell us that there are two things which stand in the relationship that one sees the other. It might be the case that the supposed two things are really just a single thing that loves itself: nothing in the sentence rules out that interpretation, which is why the colloquial translation does not say _Somebody sees somebody else._ The things referred to by different pronouns of **da** series may be different or the same.
+The two pronouns **da** and **de** indicate that there are two things which stand in the relationship that one sees the other. It might be the case that the supposed two things are really just a single thing that loves itself: nothing in the sentence rules out that interpretation, which is why the colloquial translation does not say _Somebody sees somebody else._ The things referred to by different pronouns of **da** series may be different or the same.
 
 It is perfectly okay for these pronouns to appear more than once in the same sentence:
 
 > **da zo'u da prami da**
-> _There is **da** such that **da** loves **da**.There is someone who loves himself/herself._
+> _There is **da** such that **da** loves **da**. There is someone who loves himself/herself._
 
 It is not necessary for a pronoun to be the direct noun of the relation:
 
