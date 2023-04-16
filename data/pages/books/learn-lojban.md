@@ -6864,121 +6864,117 @@ It is not necessary for a pronoun to be the direct noun of the relation:
 
 ### ‘_any_’ and ‘_some_’ in examples
 
-The words _any_ and _some_ and their derivatives have many meanings in English. We should be careful to translate that intended meaning:
+The words _any_ and _some_, along with their derivatives, have many meanings in English. We should be careful when translating the intended meaning:
 
 Translating as **da**:
 
 - _some_: something unspecified:
 
- > **da pu klama .i je ko smadi le du'u da me ma kau**
- >_Somebody came. Guess who it was._
+  > **da pu klama .i je ko smadi le du'u da me ma kau**
+  > _Somebody came. Guess who it was._
 
- <!-- -->
+  <!-- -->
 
- > **mi pu tirna da .i je mi fliba le ka jimpe le du'u da mo kau**
- >_I heard something, but I fail to understand what it was._
+  > **mi pu tirna da .i je mi fliba le ka jimpe le du'u da mo kau**
+  > _I heard something, but I fail to understand what it was._
 
-- _some_ in questions turns into _anything_, _anybody_, in Lojban it's still **da**:
+- _some_ in questions turns into _anything_, _anybody_; in Lojban, it's still **da**:
 
- > **xu su'o da pu klama**
- >_Did anybody come?_
+  > **xu su'o da pu klama**
+  > _Did anybody come?_
 
-- _some_ when using commands, request, suggestions:
+- _some_ when using commands, requests, or suggestions:
 
- > **.e'u mi'o pilno su'o da poi drata**
- >_Let's try other things._
+  > **.e'u mi'o pilno su'o da poi drata**
+  > _Let's try something else. Let's try other things._
 
- <!-- -->
+  <!-- -->
 
- > **.e'u mi'o troci bu'u su'o da poi drata**
- >_Let's try somewhere else._
+  > **.e'u mi'o troci bu'u su'o da poi drata**
+  > _Let's try somewhere else._
 
 - _any_ can be used in inner relations:
 
- > **mi rivbi le ka jdice da**
- >_I avoided taking any decision._
+  > **mi rivbi le ka jdice da**
+  > _I avoided taking any decision._
 
- like in relations inside modal terms:
+  Like in relations inside modal terms:
 
- > **ba le nu do zgana da kei ko klama**
- >_After you notice anything, come!_
+  > **ba le nu do zgana da kei ko klama**
+  > _After you notice anything, come!_
 
-- Scope: _any_ is used in English when negating while Lojban uses **na ku** but then still **da**:
+- Scope: _any_ is used in English when negating, while Lojban uses **na ku** but then still **da**:
 
- > **mi na ku viska su'o da poi prenu**
- >_I don't see anybody._
+  > **mi na ku viska su'o da poi prenu**
+  > _I don't see anybody._
 
 - _any_ is used when making no distinction among members we talk about:
 
- > **.au nai mi tavla su'o da poi na ku slabu mi**
- >_I don't want to talk to just anybody._
+  > **.au nai mi tavla su'o da poi na ku slabu mi**
+  > _I don't want to talk to just anybody._
 
-- Scope: negation has to be used in an appropriate relation like here:
+- Scope: Negation should be used in an appropriate relation, as shown below:
 
- > **mi jinvi le du'u na ku da jimpe**
- >_I don't think that anybody understands._
+  > **mi jinvi le du'u na ku da jimpe**
+  > _I don't think that anybody understands._
 
- This can be rephrased as:
+  This can be rephrased as:
 
- > **mi jinvi le du'u no da jimpe**
- >_I think that nobody understands._
+  > **mi jinvi le du'u no da jimpe**
+  > _I think that nobody understands._
 
-- _every_ is turned into _any_ in comparisons and translated as **ro da**:
+- In comparisons, _every_ is turned into _any_ and translated as **ro da**:
 
- > **do zmadu ro da le ka se canlu**
- >_You are taller than anybody._
- >`You exceed everybody in size.`
+  > **do zmadu ro da le ka se canlu**
+  > _You are taller than anybody._
+  > `You exceed everybody in size.`
 
-- _any_ is used when providing choice and translated as **ro da**:
+- When providing choice, _any_ is used and translated as **ro da**:
 
- > **ro da poi do nelci zo'u .e'a do citka da**
- >_You may eat anything you like._
- >`For everything that you like I allow you to eat it.`
+  > **ro da poi do nelci zo'u .e'a do citka da**
+  > _You may eat anything you like._
+  > `For everything that you like, I allow you to eat it.`
 
-- _anyone_, _somewhere_:
+- For terms like _anyone_ and _somewhere_:
 
- > **.e'u mi'o troci bu'u su'o da poi drata**
- >_Let's try somewhere else._
+  > **.e'u mi'o troci bu'u su'o da poi drata**
+  > _Let's try somewhere else._
 
- Here, **su'o da poi drata** actually means _any other thing or things, place or places_. The number of such places is not specified although any such place might fit.
+  Here, **su'o da poi drata** means _any other thing or things, place or places_. The number of such places is not specified, although any such place might fit.
 
- What if we want to say _any place but only one place_?
+  To say _any place but only one place_, use:
 
- > **.e'u mi'o troci bu'u pa da poi drata**
- >_Let's try at another place._
+  > **.e'u mi'o troci bu'u pa da poi drata**
+  > _Let's try at another place._
 
-Translating _any_ as **le'e** in generic statements:
+- Translating _any_ as **le'e** in generic statements:
 
-> **le'e gerku cu se tuple le vo da**
->_Any dog has four legs. Dogs have four legs._
+  > **le'e gerku cu se tuple le vo da**
+  > _Any dog has four legs. Dogs are expected to have four legs._
 
-Using **le**. We use **le** when we describe specific objects, places, events:
+- Using **le** when describing specific objects, places, or events:
 
-> **le drata zo'u .e'u mi'o pilno ri**
->_The other thing, let's use it._
+  > **le drata zo'u .e'u mi'o pilno ri**
+  > _The other thing, let's use it._
 
-<!-- -->
-
-> **le drata stuzi zo'u .e'u mi'o troci bu'u ri**
->_The other place, let's try there._
+  > **le drata stuzi zo'u .e'u mi'o troci bu'u ri**
+  > _The other place, let's try there._
 
 ### Resume: which constructs does scope affect?
 
 Scope is created only by:
 
-- borders of relation,
-- modals terms and modal particles of main relation construct,
-- nouns starting with numbers (like **pa le prenu** — _one of the persons_),
+- borders of relations,
+- modal terms and modal particles of the main relation construct,
+- nouns starting with numbers (like **pa le prenu** — _one of the persons_).
 <!-- - discursive interjections **po'o**, **ji'a**. -->
 
 **da**, **de**, **di** if used without a prenex and without an explicit number in front are meant to mean **su'o da**, **su'o de**, **su'o di** and thus also create scope.
 
-Thus the relative order of such constructs changes the meaning:
+Thus, the relative order of such constructs changes the meaning:
 
 > **pa le prenu ca ku zvati**
 > _There is one person who is now present._
-
-<!-- -->
 
 > **ca ku pa le prenu ca zvati**
 > _Now there is one person._
@@ -6997,12 +6993,12 @@ Here, **ki'u le nu kargu** is under the scope of **na ku**:
 > **na ku mi te vecnu ki'u le nu kargu**
 > _It's not true that: I buy because it's expensive._
 
-But here, **ki'u le ne kargu** is not under the scope of **na ku**. **ki'u** is applied to the whole previous sentence including **na ku**:
+But here, **ki'u le ne kargu** is not under the scope of **na ku**. **ki'u** is applied to the whole previous sentence, including **na ku**:
 
 > **mi na ku te vecnu .i ki'u bo kargu**
 > _I don't buy. It's because it's expensive._
 
-## Lesson 6. Modal terms: time and space
+## Lesson 6: modal terms: time and space
 
 > **mi citka le cirla**
 
@@ -7013,15 +7009,15 @@ Possible translations:
 > _I always eat cheese._
 > _In a moment, I will have just finished eating cheese._
 
-Tenses in Lojban are optional, we don't have to think all the time what tense to use.
+Tenses in Lojban are optional; we don't have to think all the time about which tense to use.
 
 Context often resolves what is correct. We add tenses when we feel we need them.
 
-Lojban tenses treat time and space the same. Saying that _I worked a long time ago_ is not grammatically different than saying _I work far away to the north_. English treats words like _earlier_, past tense ending _\-ed_ and space words like _in_ or _near_ in three different schemes, while in Lojban they follow the same principle.
+Lojban tenses treat time and space the same. Saying that _I worked a long time ago_ is not grammatically different from saying _I work far away to the north_. English treats words like _earlier_, past tense ending _-ed_, and space words like _in_ or _near_ in three different schemes, while in Lojban they follow the same principle.
 
 ### Points in time and place
 
-Modal particle without a noun after it describes the event as relative to _here_ and _now_:
+A modal particle without a noun following it describes the event as relative to *here* and *now*:
 
 > **mi pinxe ba**
 > **mi ba pinxe**
@@ -7033,14 +7029,14 @@ Modal particle without a noun after it describes the event as relative to _here_
 > **mi bu'u pinxe**
 > _I drink at this place._
 
-Modal term with a noun after it describes the event as relative to the event in that noun:
+A modal term with a noun following it describes the event as relative to the event in that noun:
 
 > **mi pinxe ba le nu mi cadzu**
 > _I drink after I walk._
 
 ### Events relative to other events in time
 
-In English we use the so called "sequence of tenses":
+In English, we use the so-called "sequence of tenses":
 
 > **la .alis. pu cusku le se du'u ri pu penmi la .doris. la'u le djedi be li ci**
 > _Alice told that she had seen Doris three days before._
@@ -7052,15 +7048,15 @@ Here, the event _had seen Doris_ happens before the event _Alice said_. However,
 
 the two events (_told_ and _was with Doris_) happen at the same time.
 
-Thus in English
+Thus, in English:
 
-- the tense of the main relation is understood relative to whoever utters this relation.
-- the tense of the relation inside the main relation is also understood relative to whoever utters this relation.
+- The tense of the main relation is understood relative to whoever utters this relation.
+- The tense of the relation inside the main relation is also understood relative to whoever utters this relation.
 
-And in Lojban
+In Lojban:
 
-- only the tense of the main relation is relative to whoever utters the relation.
-- the other tenses are relative to each other. This is why, in **la .alis. pu cusku le se du'u ri pu penmi la .doris. la'u le djedi be li ci** the second **pu** is relative to the first **pu**. In **la .alis. pu cusku le se du'u ri ca kansa la .doris.**, we use **ca** (_at the same time_) which is relative to the outer relation (**pu cusku** — _said_).
+- Only the tense of the main relation is relative to whoever utters the relation.
+- The other tenses are relative to each other. This is why, in **la .alis. pu cusku le se du'u ri pu penmi la .doris. la'u le djedi be li ci** the second **pu** is relative to the first **pu**. In **la .alis. pu cusku le se du'u ri ca kansa la .doris.**, we use **ca** (_at the same time_) which is relative to the outer relation (**pu cusku** — _said_).
 
 However, we can use the modal term **nau** (_at the time or place of the speaker_), which will give the same effect as how English works:
 
@@ -7113,7 +7109,7 @@ zu
 vu
 : far away from …; far away
 
-This is how we can use tense combinations specifying how far we ago into the past or future:
+This is how we can use tense combinations to specify how far we go into the past or future:
 
 - **pu zu** means _a long time ago_
 - **pu za** means _a while ago_
@@ -7122,26 +7118,26 @@ This is how we can use tense combinations specifying how far we ago into the pas
 - **ba za** means _in a while_
 - **ba zu** means _in a long time_
 
-Notice the vowel order **i**, **a** and **u**. This order appears again and again in Lojban, and might be worth to memorize. _Short_ and _long_ in are always context dependent, relative and subjective. Two hundred years is a short time for a species to evolve, but a long time to wait for the bus.
+Notice the vowel order **i**, **a**, and **u**. This order appears repeatedly in Lojban and might be worth memorizing. _Short_ and _long_ are always context-dependent, relative, and subjective. For example, two hundred years is a short time for a species to evolve but a long time to wait for the bus.
 
-**zi**, **za** and **zu** modify the tense particle like **pu** and **ba** that is said before it:
+**zi**, **za**, and **zu** modify the tense particle like **pu** and **ba** that is said before it:
 
-- **pu zu** is _a long time ago_. **pu** shows that we begin in the past, **zu** then that it is a long time backwards.
-- **zu pu** is _far away in time there is a point after some event_. **zu** shows that we begin at some point far away in time from now, **pu** then, that we move backwards from that point.
+- **pu zu** is _a long time ago_. **pu** shows that we begin in the past, and **zu** indicates that it is a long time backwards.
+- **zu pu** is _far away in time; there is a point after some event_. **zu** shows that we begin at some point far away in time from now, and **pu** indicates that we move backward from that point.
 
-Thus **pu zu** is always in the past. **zu pu** could be in the future.
+Thus, **pu zu** is always in the past, whereas **zu pu** could be in the future.
 
-Spatial distance is marked in a similar way by **vi**, **va** and **vu** for short, unspecified (medium) and long distance in space.
+Spatial distance is marked similarly by **vi**, **va**, and **vu** for short, unspecified (medium), and long distance in space.
 
-To specify distance in time or space we use the modal term **la'u** with an argument specifying the distance:
+To specify distance in time or space, we use the modal term **la'u** with an argument specifying the distance:
 
 > **ba ku la'u le djedi be li ci mi zvati ti**
-> _In three days I will be here._
+> _In three days, I will be here._
 
-The space equivalent of **ca** is **bu'u**. And **fau** is more vague than two of them, it can mean time, space or situation.
+The space equivalent of **ca** is **bu'u**, and **fau** is more vague than the two of them, as it can mean time, space, or situation.
 
 > **ba za vu ku mi gunka**
-> _Some time in the future, I will work a place long away._
+> _Some time in the future, I will work a place far away._
 
 gunka
 : to work
@@ -7151,10 +7147,10 @@ gunka
 > `I here-past-long-time-distance work`
 
 > **pu zu vu ku zasti fa le ninmu .e le nanmu**
-> _Long ago and far away lived a woman and a man._
+> _Long ago and far away, a woman and a man lived._
 
 The last sentence is how fairy tales often begin.
-
+<!-- style fixes -->
 ### Duration in time and space
 
 ze'i
