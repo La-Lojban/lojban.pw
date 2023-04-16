@@ -6720,7 +6720,7 @@ re re'u
 : for the second time (same here, no context is needed, and even the exact number of times is given)
 
 ### Modal particles: their location within a relation
-<!-- style fixes -->
+
 
 > **le nu tcidu kei ca cu nandu**
 > _Reading is now difficult._
@@ -7150,7 +7150,7 @@ gunka
 > _Long ago and far away, a woman and a man lived._
 
 The last sentence is how fairy tales often begin.
-<!-- style fixes -->
+
 ### Duration in time and space
 
 ze'i
@@ -7171,44 +7171,44 @@ ze'u
 ve'u
 : modal term: over the long space
 
-Again it's easy to remember given the pattern **i**, **a**, **u**.
+Again, it's easy to remember given the pattern **i**, **a**, **u**.
 
 > **mi ze'u bajra**
 > _I run for a long time._
 
-<!-- -->
+---
 
 > **la .bob. ze'u pinxe le birje**
 > _Bob drinks beer for a long time._
 
-<!-- -->
+---
 
 > **mi ba zi ze'a xabju la .djakartas.**
-> _Pretty soon I'm going to live in Jakarta for a while._
+> _Pretty soon, I'm going to live in Jakarta for a while._
 
-<!-- -->
+---
 
 > **le jenmi pe la .romas. ba ze'u gunta la .kart.xadact.**
 > _The army of Romans will be attacking Carthage for a long time._
 
-This does not mean that Romans are not attacking Carthage these days. In Lojban, if we say that something is true at a particular time, it doesn't mean that it is not true at any other time. You can say **pu ba ze'u** so that we know that this activity was in future when viewed from some point in past but in past when viewed from today.
+This does not mean that Romans are not attacking Carthage these days. In Lojban, if we say that something is true at a particular time, it doesn't mean that it is not true at any other time. You can say **pu ba ze'u** so that we know that this activity was in the future when viewed from some point in the past but in the past when viewed from today.
 
 > **le xamsi**
 > _sea/ocean_
 
-<!-- -->
+---
 
 > **le ve'u xamsi**
 > _ocean_
 
-<!-- -->
+---
 
 <pixra url="/assets/pixra/cilre/le_vehi_ja_vehu_cmana.svg" caption="le ve'i cmana cu jibni le ve'u cmana" definition="The hill is near the mountain."></pixra>
 
 > **le cmana**
 > _mountain/hill_
 
-<!-- -->
+---
 
 > **le ve'u cmana**
 > _mountain_
@@ -7216,12 +7216,12 @@ This does not mean that Romans are not attacking Carthage these days. In Lojban,
 > **le ve'i cmana**
 > _hill_
 
-<!-- -->
+---
 
 > **do ve'u klama le dotco gugde ze'u**
-> _You spend a long time traveling a long space to Germany._
+> _You spend a long time traveling a long distance to Germany._
 
-<!-- -->
+---
 
 > **ti ve'u gerku**
 > _That's a big dog. This is a dog covering a large space._
@@ -7230,7 +7230,7 @@ This does not mean that Romans are not attacking Carthage these days. In Lojban,
 
 Here are several sets of modal terms that can help us add finer meanings when necessary.
 
-With the _event contours_ and unlike **pu**, **ca** and **ba** we view each event as having shape with certain stages:
+With _event contours_, unlike **pu**, **ca**, and **ba**, we view each event as having a shape with certain stages:
 
 pu'o
 : modal term: to be about to do something (the event has not yet happened)
@@ -7353,9 +7353,9 @@ di'a
 jundi
 : $x_1$ pays attention to $x_2$
 
-These two expressions are common in text chats for saying that you stop paying attention or away, and then back online:
+These two expressions are common in text chats for indicating that you are away or not paying attention, and then coming back online:
 
-One could of course also say just **de'a** or **di'a** and hope the point gets across.
+One could, of course, also say just **de'a** or **di'a** and hope the point gets across.
 
 ### Continuous and progressive events
 
@@ -7363,12 +7363,12 @@ ru'i
 : modal term: the event is continuous
 
 > **.i mi pu ru'i citka le plise**
-> _I was eating apples one and on without stop._
+> _I was continuously eating apples._
 
 Note the difference:
 
-- **ru'i** says that the event is continuous and never pauses.
-- **ca'o** says that the event progresses. It may sometimes pause and then resume its progress.
+- **ru'i** indicates that the event is continuous and never pauses.
+- **ca'o** implies that the event progresses. It may sometimes pause and then resume its progress.
 
 ### Place contours
 
@@ -7557,6 +7557,7 @@ vinji
 
 trene
 : $x_1$ is a train of cars $x_2$
+<!-- style fixes -->
 
 ## Lesson 7. Letters, referring to relations, dates
 
