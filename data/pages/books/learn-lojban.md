@@ -6286,7 +6286,7 @@ rupne'uru
 
 > **le korbi be le cmana**
 > **.i mi se zdani le nurma**
-> **.i le zdani be mi cu barda dinju gi'e se sledi'u ci da .e le vimdi'u .e le lumdi'u**
+> **.i le zdani be mi cu barda dinju gi'e se sledi'u ci da .e le vimstu .e le lumstu**
 > _The edge of the mountain._
 > _I live in the country._
 > _My home is a big house and has three rooms plus a toilet plus a bathroom._
@@ -6306,6 +6306,15 @@ stuzi
 dinju
 : $x_1$ is a building, house
 
+sledi'u
+: $x_1$ is a room, a part of a building $x_2$
+
+vimstu
+: $x_1$ is a toilet, a place for excreting
+
+lumstu
+: $x_1$ is a bathroom, a place for washing something
+
 zdani
 : $x_1$ is a home of $x_2$
 
@@ -6320,12 +6329,6 @@ jarbu
 
 nurma
 : $x_1$ is a rural area, $x_1$ is in the country
-
-kumfa
-: $x_1$ is a room
-
-vikmi kumfa
-: $x_1$ is a toilet
 
 zarci
 : $x_1$ is a shop
@@ -7175,18 +7178,18 @@ Again, it's easy to remember given the pattern **i**, **a**, **u**.
 
 > **mi ze'u bajra**
 > _I run for a long time._
+<!-- -->
+> **do ze'u klama le mi'a gugde ze'u**
+> _You spend a long time coming to our country._
+mi'a
+: we without you
 
----
-
-> **la .bob. ze'u pinxe le birje**
-> _Bob drinks beer for a long time._
-
----
+gugde
+: ... is a country
 
 > **mi ba zi ze'a xabju la .djakartas.**
 > _Pretty soon, I'm going to live in Jakarta for a while._
-
----
+<!-- -->
 
 > **le jenmi pe la .romas. ba ze'u gunta la .kart.xadact.**
 > _The army of Romans will be attacking Carthage for a long time._
@@ -7195,33 +7198,24 @@ This does not mean that Romans are not attacking Carthage these days. In Lojban,
 
 > **le xamsi**
 > _sea/ocean_
-
----
+<!-- -->
 
 > **le ve'u xamsi**
 > _ocean_
-
----
 
 <pixra url="/assets/pixra/cilre/le_vehi_ja_vehu_cmana.svg" caption="le ve'i cmana cu jibni le ve'u cmana" definition="The hill is near the mountain."></pixra>
 
 > **le cmana**
 > _mountain/hill_
-
----
+<!-- -->
 
 > **le ve'u cmana**
 > _mountain_
+<!-- -->
 
 > **le ve'i cmana**
 > _hill_
-
----
-
-> **do ve'u klama le dotco gugde ze'u**
-> _You spend a long time traveling a long distance to Germany._
-
----
+<!-- -->
 
 > **ti ve'u gerku**
 > _That's a big dog. This is a dog covering a large space._
@@ -7502,7 +7496,7 @@ le penbi
 <td>I notice no tables.
 </td></tr>
 <tr>
-<td style="text-align:right;"><b>ko carna gi'e muvdu le pritu .i le jubme cu crane le cmalu dinju .i le fonxa cu cpana le jubme .i ji'a ko jgari le penbi .e le pelji .i le za'u dacti cu cpana si'a le jubme .i ba ku ko bevri le ci dacti le zdani gi'e punji fi le kumfa pe mi</b>
+<td style="text-align:right;"><b>ko carna gi'e muvdu le pritu .i le jubme cu crane le cmalu dinju .i le fonxa cu cpana le jubme .i ji'a ko jgari le penbi .e le pelji .i le za'u dacti cu cpana si'a le jubme .i ba ku ko bevri le ci dacti le zdani gi'e punji fi le sledi'u pe mi</b>
 </td>
 <td>Turn and move to the right. The table is in front of a small building. The phone is on top of the table. Also, take a pencil and a paper. They are similarly on top of the table. Then bring the three things home and put them to my room.
 </td></tr>
@@ -7631,7 +7625,7 @@ The following table represents the basic Lojban alphabet and how to pronounce le
 </td>
 <td>n
 </td>
-<td><b><font  class="guibutton" color="#FF1493">o</font></b>
+<td><b><font class="guibutton" color="#FF1493">o</font></b>
 </td>
 <td>p
 </td>
@@ -7682,13 +7676,13 @@ The following table represents the basic Lojban alphabet and how to pronounce le
 <td><b>zy.</b>
 </td></tr></tbody></table>
 
-As you can see
+As you can see:
 
-- to get the name for a vowel, we add the word **bu**
-- to get the name for a consonant, we add **y.** to the consonant
+- to get the name for a vowel, we add the word **bu**.
+- to get the name for a consonant, we add **y.** to the consonant.
 - the word for **'** (apostrophe) is **.y'y**.
 
-We can spell word using these names. For example, CNN will be **cy. ny. ny.**
+We can spell words using these names. For example, CNN will be **cy. ny. ny.**
 
 <!-- A capital letter alone has a special meaning. It denotes the name of that letter:
 
@@ -7696,7 +7690,7 @@ We can spell word using these names. For example, CNN will be **cy. ny. ny.**
 
 ### Letters instead of ‘_he_’ and ‘_she_’
 
-A string of one or more letter names works as a pronoun. And we can use them for another method of referring to nouns and names earlier used in speech.
+A string of one or more letter names can function as a pronoun, providing an alternative method for referring to previously mentioned nouns and names in speech.
 
 > **la .alis. pu klama le nurma .i le nurma cu melbi la .alis.**
 > **la .alis. pu klama le nurma .i ri melbi la .alis.**
@@ -7705,19 +7699,19 @@ A string of one or more letter names works as a pronoun. And we can use them for
 > _Alice went to the country. The rural area is beautiful to Alice._
 > _Alice went to the country. It is beautiful to her._
 
-All the Lojban variants mean the same.
+All the Lojban variants above have the same meaning.
 
-As the first letter in **.alis.** is **a** (we ignore the dot) and the first letter in **nurma** is **n** we can use letter words to refer to those nouns correspondingly:
+Since the first letter in **.alis.** is **a** (ignoring the dot) and the first letter in **nurma** is **n**, we can use letter words to refer to those nouns correspondingly:
 
 - **.a bu** refers to **la .alis.**
 - **ny.** refers to **le nurma**
 
-This method might be more convenient than English _he_ or _she_ or event Lojban **ri** or **ra**. This method allows us to make the speech more concise but at the same time precise not forcing us to repeat possible long names or nouns over and over again.
+This method might be more convenient than English _he_ or _she_, or even Lojban **ri** or **ra**. It allows us to make speech more concise yet precise, without having to repeat potentially long names or nouns repeatedly.
 
-But notice that it can happen that we'd like to refer back to, say, **le nurma**, but then before we can do so, another noun or name that starts with **n** appeared in the meantime, so that **ny.** can no longer refer to the rural area. The quickest way out is to repeat the entire noun or name, i.e. say **le nurma**:
+However, it's important to note that there may be situations where we want to refer back to, for example, **le nurma**, but another noun or name starting with **n** appears in the meantime, making **ny.** unable to refer to the rural area. In such cases, the quickest solution is to repeat the entire noun or name, i.e., say **le nurma**:
 
 > **bu'u le nurma la .alis. pu penmi la .nik. i ri se zdani bu'u le nurma**
-> _In the country Alice met Nick. He has his home in the country._
+> _In the country, Alice met Nick. He has his home in the country._
 
 zdani
 : … is a home to …
@@ -7725,7 +7719,7 @@ zdani
 se zdani
 : … has a home …, … lives in …
 
-If a name consists of several cmevla you can use the first letters of them to refer to that name. The same is for compound verbs:
+If a name consists of several cmevla, you can use the first letters of them to refer to that name. The same applies to compound verbs:
 
 > **la .djan.smit. cu citka le glare stasu .i dy.sy. nelci fy.sy.**
 > _John Smith is eating the hot soup. He likes it._
@@ -7733,9 +7727,9 @@ If a name consists of several cmevla you can use the first letters of them to re
 glare
 : … is hot
 
-**dy.sy.** is a single pronoun. Same for **fy.sy.**, of course.
+**dy.sy.** is a single pronoun. The same applies to **fy.sy.**.
 
-If you need to put several pronouns one after another separate them with the word **boi**:
+If you need to put several pronouns one after another, separate them with the word **boi**:
 
 > **mi klama la .paris. la .moskov.**
 > _I go to Paris from Moscow._
@@ -7745,16 +7739,16 @@ If you need to put several pronouns one after another separate them with the wor
 > **mi klama py. boi my.**
 > _I go to P from M._
 
-The sentence **mi klama py. my.** would mean _I go to PM_ which wouldn't mean what is needed here.
+The sentence **mi klama py. my.** would mean _I go to PM_, which would mean something different.
 
 > **la .tom.silver. pu zvati .i je'u ty. sy. boi .ui pu sidju mi**
-> _Tom Silver was present. And actually TS (yay!) helped me._
+> _Tom Silver was present. And actually, TS (yay!) helped me._
 
-If you put an interjection after such letters separate them with **boi**. Without **boi** interjections will refer to the last letter.
+If you put an interjection after such letters, separate them with **boi**. Without **boi**, interjections will refer to the last letter.
 
-### ‘_we_’ — different ways of saying that
+### Different ways of saying ‘_we_’ in lojban
 
-In Lojban, there are several pronouns close in meaning to _we_.
+In Lojban, there are several pronouns close in meaning to _we_:
 
 mi'o
 : you and I
@@ -7763,16 +7757,16 @@ mi'a
 : we without you
 
 ma'a
-: you and I and another one/others
+: you, I, and others
 
-So when speaking you'd have to be a bit more careful which meaning of _we_ you need.
+So, when speaking, you have to be more careful about which meaning of _we_ you need.
 
 And finally:
 
 mi
 : I or the speakers
 
-**mi** can also mean _we_! Lojban makes no distinction between singular and plural by default. So if several people are speaking all together, **mi** (which refers to the one or more speakers) is perfectly correct for _we_. In practice, you'll usually get **mi** used like that when one person is presuming to speak (or more often, to write) on behalf of others.
+**mi** can also mean _we_! Lojban makes no distinction between singular and plural by default. So, if several people are speaking together, **mi** (which refers to one or more speakers) is perfectly correct for _we_. In practice, you'll usually find **mi** used like this when one person is presuming to speak (or more often, to write) on behalf of others.
 
 Some examples:
 
@@ -7799,13 +7793,13 @@ cliva
 
 ### «**ri**» instead of ‘_he_’ and ‘_she_’
 
-Earlier we learned of the pronoun **ri**:
+Earlier, we learned about the pronoun **ri**:
 
 ri
 : pronoun: refers to the previous noun or pronoun that just finished (skipping stable pronouns like **mi**, **do**, words for _we_)
 
 > **mi catlu le nanmu .i ri melbi**
-> _I look at a man. He is handsome._
+> _I look at the man. He is handsome._
 
 melbi
 : $x_1$ is beautiful / pretty / handsome to someone $x_2$
@@ -7816,7 +7810,7 @@ melbi
 > _Alice sleeps in Alice's room._
 > `Alice sleeps-in the of-Alice room.`
 
-> **la .alis. cu sipna bu'u le kumfa pe ri**
+> **la .alis. cu sipna bu'u le sledi'u pe ri**
 > _Alice sleeps in her room._
 > `Alice sleeps in the room of [previous noun].`
 
@@ -7825,21 +7819,21 @@ sledi'u
 
 The **ri** is equivalent to repeating the last noun or name, which is **la .alis.** here.
 
-One aspect to notice is that **ri** does not repeat **le kumfa pe ri** (which is also a noun), because **ri** is a part of that noun and therefore that noun is not "previous", not finished yet when **ri** appears. This prevents **ri** from making it recursively refer to itself.
+One aspect to notice is that **ri** does not repeat **le sledi'u pe ri** (which is also a noun), because **ri** is a part of that noun and therefore that noun is not "previous", not finished yet when **ri** appears. This prevents **ri** from making it recursively refer to itself.
 
 Another example:
 
 > **le du'u le prenu cu melbi cu se djuno ri**
 > _That the person is pretty is known to herself._
 
-The **ri** refers to **le prenu** (and not **le du'u le prenu cu melbi** although both nouns are complete: **le prenu** starts last, after the start of **le du'u le prenu cu melbi**.
+The **ri** refers to **le prenu** (and not **le du'u le prenu cu melbi** although both nouns are complete: **le prenu** starts last, after the start of **le du'u le prenu cu melbi**).
 
-Relation inside **sei** forms a parallel text. **ri** skips nouns inside **sei**\-relations:
+Relation inside **sei** forms a parallel text. **ri** skips nouns inside **sei**-relations:
 
 > **mi viska la .lukas. sei la .doris. pu cusku .i ri jibni la .micel.**
 > _I see Lucas, — Doris said. He is near Michelle._
 
-In this example **ri** cannot refer to **la .doris.** We simply skip the whole **sei la .doris. pu cusku** relation when deciding what **ri** should refer to.
+In this example, **ri** cannot refer to **la .doris.** We simply skip the whole **sei la .doris. pu cusku** relation when deciding what **ri** should refer to.
 
 Pronouns that are stable across the dialogue or story are ignored by **ri**. We just repeat them directly:
 
@@ -7854,13 +7848,13 @@ lumci
 > _I love myself._
 > `I love me.`
 
-However,
+However:
 
-- the pronouns **ti**, **ta**, **tu** are picked up by **ri**, because you might have changed what you are pointing at, so repeating **tu** may not be effective.
-- likewise, **ri** itself (or rather its antecedent) can be repeated by a later **ri**; in fact, a string of **ri** words with no other intervening nouns always repeat the same noun:
+- The pronouns **ti**, **ta**, **tu** are picked up by **ri** because you might have changed what you are pointing at, so repeating **tu** may not be effective.
+- Similarly, **ri** itself (or rather, its antecedent) can be repeated by a later **ri**. In fact, a string of **ri** words with no other intervening nouns will always repeat the same noun:
 
-> **la .alis. cu catlu le nanmu .i ri melbi .i ri co'a zgana .a bu**
-> _Alice notices a man. He is handsome. He notices Alice._
+  > **la .alis. cu catlu le nanmu .i ri melbi .i ri co'a zgana .a bu**
+  > _Alice notices a man. He is handsome. He notices Alice._
 
 zgana
 : to observe
@@ -7868,9 +7862,9 @@ zgana
 co'a zgana
 : to start observing, to notice
 
-Here the second **ri** has as antecedent the first **ri**, which has as antecedent **le nanmu**. All three refer to the same thing: the man.
+In this example, the second **ri** has the first **ri** as its antecedent, which in turn has **le nanmu** as its antecedent. All three refer to the same thing: the man.
 
-Only you decide what, where and when to use in speech: the method with **le**+verb words, the method with letter names or with **ri**.
+Ultimately, you decide what, where, and when to use in speech: the method with **le**+verb words, the method with letter names, or with **ri**.
 
 <!-- ### "_Myself, themselves_"
 
