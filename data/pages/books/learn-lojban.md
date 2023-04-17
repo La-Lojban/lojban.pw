@@ -7946,7 +7946,7 @@ It means the same as:
 >_Alice kisses Kevin, and Kevin kisses Alice._
 
 **zu'ai** is put into the second place of the verb. It shows the mutual action between the first place and the second place. Members of this mutual action are put to the first and connected with the conjunction **jo'u**. -->
-
+<!-- style fixes -->
 ### «**go'i**» for the previous relation
 
 > **la .alis. cu klama le barja .i la .alis. cu viska le nanmu**
