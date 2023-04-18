@@ -7313,10 +7313,14 @@ vasxu
 > **ra pu de'a vasxu**
 > _She ceased to breath (but may breath again later)._
 
+<pixra url="/assets/pixra/cilre/deha_vasxu.svg" caption="mi de'a vasxu" definition="I pause in breathing. I hold my breath."></pixra>
+
 <!-- -->
 
 > **mi pu di'a citka le plise**
 > _I resumed eating apples._
+
+<pixra url="/assets/pixra/cilre/diha_vasxu.svg" caption="mi di'a vasxu" definition="I resume breathing."></pixra>
 
 co'a
 : modal term: the event starts (the border of the event)
@@ -7551,7 +7555,6 @@ vinji
 
 trene
 : $x_1$ is a train of cars $x_2$
-<!-- style fixes -->
 
 ## Lesson 7. Letters, referring to relations, dates
 
