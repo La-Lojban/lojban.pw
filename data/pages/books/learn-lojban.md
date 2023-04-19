@@ -7956,12 +7956,10 @@ It means the same as:
 > **la .alis. cu klama le barja .i le go'i cu viska le nanmu**
 > _Alice comes to the bar. She sees a man._
 
-**le go'i** refers to the first place of the previous relation.
-
-**go'i** presents yet another way of referring back to a noun that we need.
-
-- **le se go'i** refers to the second place of the previous relation
-- **le te go'i** to the third etc.:
+- **le go'i** refers to the first place of the previous relation.
+  - **go'i** presents yet another way of referring back to a noun that we need.
+- **le se go'i** refers to the second place of the previous relation.
+- **le te go'i** refers to the third place, and so on.
 
 Examples:
 
@@ -7975,12 +7973,12 @@ Another example:
 
 > _Bill saw Nick. He hit him._
 
-English doesn't bother with precision here — _he_ just means _some male person mentioned somewhere near in the text or deduced from context._ Did Bill hit Bob, or did Bob hit Bill? We don't know. In Lojban we can say:
+English doesn't bother with precision here — _he_ just means _some male person mentioned somewhere near in the text or deduced from context._ Did Bill hit Bob, or did Bob hit Bill? We don't know. In Lojban, we can say:
 
 > **la .bil. pu viska la .nik. .i le se go'i cu darxi le go'i**
 > _Bill saw Nick. Nick hit Bill._
 
-Although, in most cases **ri** or letter words can be used:
+However, in most cases, **ri** or letter words can be used:
 
 > **la .bil. cu viska la .nik. i ri darxi la .bil.**
 > **la .bil. cu viska la .nik. i ny. darxi by.**
@@ -8037,13 +8035,13 @@ Here, **ja'a ku** replaces **na ku** in the original relation. -->
 tcika
 : $x_1$ (hours, minutes, seconds) is the time of event $x_2$
 
-In Lojban times are always the times of something. So we ask what the time is of **ti**, meaning _this event/thing_, or, in other words _now_.
+In Lojban, times are always the times of something. So we ask what the time is of **ti**, meaning _this event/thing_, or, in other words, _now_.
 
 **li**, a prefix for numbers, is used for timestamps too.
 
-- **cacra bu** is a prefix signalling that the number of hours follows. 24-hour time is used almost always in Lojban.
-- **mentu bu** is a prefix signalling that the number of minutes follows.
-- **snidu bu** is a prefix signalling that the number of seconds follows.
+- **cacra bu** is a prefix signaling that the number of hours follows. 24-hour time is used almost always in Lojban.
+- **mentu bu** is a prefix signaling that the number of minutes follows.
+- **snidu bu** is a prefix signaling that the number of seconds follows.
 
 > **li cacra bu pa pa mentu bu pa no**
 > _11:10 (Ten minutes past eleven)_
@@ -8092,10 +8090,10 @@ Another option:
 > **— ma ca detri**
 > _— What is the date now?_
 
-- **nanca bu** is a prefix signalling that the year follows.
-- **masti bu** is a prefix signalling that the month follows.
-- **jefydei bu** is a prefix signalling that the day of week follows.
-- **djedi bu** is a prefix signalling that the day follows.
+- **nanca bu** is a prefix signaling that the year follows.
+- **masti bu** is a prefix signaling that the month follows.
+- **jefydei bu** is a prefix signaling that the day of week follows.
+- **djedi bu** is a prefix signaling that the day follows.
 
 Prefixes with numbers after them can be used in any order (let's use digits to show numbers):
 
@@ -8120,9 +8118,9 @@ We can also use **de'i**:
 > **mi ba klama de'i li masti bu pano**
 > _I will come in October._
 
-Particles in Lojban can be written without spaces in between like in this **pano**, which is the same as **pa no**.
+Particles in Lojban can be written without spaces in between, like in this **pano**, which is the same as **pa no**.
 
-For days of week usually Monday is the first day:
+For days of the week, usually, Monday is the first day:
 
 > **mi gunka de'i li jefydei bu pa**
 > _I work on Monday._
@@ -8145,7 +8143,7 @@ For days of week usually Monday is the first day:
 nanca
 : $x_1$ is of duration of $x_2$ (number) years
 
-**nanca** specifies the duration, and in order too say _two years long_ you fill the second place with a number prefixed with **li**.
+**nanca** specifies the duration, and to say _two years long_, fill the second place with a number prefixed by **li**.
 
 > **le verba cu masti li re**
 > _The child is two months old._
@@ -8235,9 +8233,9 @@ pu'i
 nu'o
 : term of potential: hasn't ever happened
 
-This series of so called terms of potential describes possible situations.
+This series of so-called terms of potential describes possible situations.
 
-Note that **ka'e** means that an event can happen whereas, for example,
+Note that **ka'e** means that an event can happen, whereas, for example,
 
 > **le'e cipni cu kakne le ka vofli**
 > _Birds are capable of flying._
@@ -8253,20 +8251,20 @@ describes abilities dependent on actions of participants.
 
 **li** that we saw earlier is similar to **le** but it starts a mathematical expression (or just a number or a timestamp).
 
-Note that **li re su'i ci** (_2+3_) is one single expression considered as one noun.
+Note that **li re su'i ci** (_2+3_) is considered a single expression and treated as one noun.
 
 **du** is a verb and means _to be equal to_.
 
 - **su'i** means _plus_.
 - **vu'u** means _minus_.
-- **pi'i** means _times_ and is used for multiplication
+- **pi'i** means _times_ and is used for multiplication.
 - **fe'i** means _divided by_ and is used for division.
 
-**pi** is a decimal separator so **no pi mu** means _0.5_, **ci ze pi pa so** means _37.19_.
+**pi** is a decimal separator, so **no pi mu** means _0.5_, and **ci ze pi pa so** means _37.19_.
 
-In some notations 0.35 can be written as .35 and in Lojban we can also drop zero saying **pi mu**.
+In some notations, 0.35 can be written as .35, and in Lojban, we can also drop zero by saying **pi mu**.
 
-Here are some other examples.
+Here are some other examples:
 
 > **li pare fe'i ci du li vo**
 > _12 : 3 = 4._
@@ -8281,9 +8279,9 @@ Here are some other examples.
 > **li pano vu'u mu pi'i re du li no**
 > _10 — 5 ⋅ 2 = 0._
 
-Notice that you put **li** only once before the equation and once after it. Thus _12 : 3_ is considered one number. Indeed, _4_ is the same as _12 : 3_. They are both numbers.
+Notice that you put **li** only once before the equation and once after it. Thus, _12 : 3_ is considered one number. Indeed, _4_ is the same as _12 : 3_. They are both numbers.
 
-For asking for a number we use **ma**:
+For asking for a number, we use **ma**:
 
 > **li ci su'i vo du ma**
 > _3 + 4 = ?_
@@ -8295,7 +8293,7 @@ For asking for a number we use **ma**:
 
 ### ‘_First_’, ‘_second_’, ‘_last_’
 
-Ordinal numbers such as _first_, _second_, _third_ are used to put things in order. In Lojban they are formed with a number plus **moi** immediately after it:
+Ordinal numbers such as _first_, _second_, and _third_ are used to arrange items in order. In Lojban, they are formed by adding a number followed by **moi**:
 
 pa moi
 : $x_1$ is first among $x_2$ (set)
@@ -8311,7 +8309,7 @@ ci moi
 ro moi
 : $x_1$ is last among $x_2$ (set)
 
-It is also possible to use verbs instead of numbers:
+Verbs can also be used instead of numbers:
 
 me mi moi
 : $x_1$ is mine
@@ -8319,7 +8317,7 @@ me mi moi
 me do moi
 : $x_1$ is yours
 
-In this case we had to convert pronouns to verbs using **me**.
+In this case, we had to convert pronouns to verbs using **me**.
 
 > **le prenu cu pa moi le'i se prami be mi**
 > _He is my first love._
@@ -8356,11 +8354,11 @@ Cardinal numbers are placed before ordinal numbers in a string and separated by 
 > **le ci boi pa moi be le'i kabri pe le ckafi**
 > _the first three cups of coffee_
 
-Without **boi** it would turn into **ci pa moi** — _thirty-first_.
+Without **boi**, it would turn into **ci pa moi** — _thirty-first_.
 
 ### «**gau**» — make them do it
 
-The term **gau** marks the agent of event:
+The term **gau** marks the agent of an event:
 
 > **le canko cu kalri**
 > _The window is open._
@@ -8371,13 +8369,13 @@ The term **gau** marks the agent of event:
 > _You open the window._
 > `The window driven-by you is open`
 
-gau
-: modal term: caused by … (agent), driven by … (someone, some object)
+**gau**:
+- modal term: caused by … (agent), driven by … (someone, some object)
 
-kalri
-: $x_1$ is open
+**kalri**:
+- $x_1$ is open
 
-Thus, such verbs as _to open something_, _to move something_ can be rephrased as _to make something open_, _to make something move_ and therefore we don't need to learn extra verbs for every such meaning. Instead we add the term **gau** all the time.
+Thus, verbs like _to open something_ and _to move something_ can be rephrased as _to make something open_ and _to make something move_. Therefore, we don't need to learn extra verbs for every such meaning. Instead, we add the term **gau** all the time.
 
 There is also another method that retains the same order of words as in English:
 
@@ -8385,10 +8383,10 @@ There is also another method that retains the same order of words as in English:
 > **ko jai gau kalri fai le canko**
 > _Open the window!_
 
-Here we transform the verb **kalri** — _to be open_ into a verb
+Here, we transform the verb **kalri** — _to be open_ into a verb:
 
-jai gau kalri
-: to open something
+**jai gau kalri**:
+- to open something
 
 The first place of **kalri** can be shown by using a place tag **fai**.
 
@@ -8416,11 +8414,11 @@ Some more variations:
 
 **muvdu** — _moves to some place_ is transformed into a new verb **jai gau muvdu** — _to move something or someone to some place_.
 
-muvdu
-: $x_1$ moves to $x_2$ from $x_3$ via $x_4$
+**muvdu**:
+- $x_1$ moves to $x_2$ from $x_3$ via $x_4$
 
-jai gau muvdu fai le karce
-: $x_1$ moves the car to $x_2$ from $x_3$ via $x_4$
+**jai gau muvdu fai le karce**:
+- $x_1$ moves the car to $x_2$ from $x_3$ via $x_4$
 
 > **la .alis. cu klama**
 > _Alice comes._
@@ -8429,7 +8427,7 @@ jai gau muvdu fai le karce
 
 > **la .alis. gau ko klama**
 > _Make Alice come!_
-
+<!-- style fixes -->
 ### ‘_Why_?’ — «**ri'a**», «**ni'i**», «**mu'i**», «**ki'u**»
 
 > **- ri'a ma carvi**
