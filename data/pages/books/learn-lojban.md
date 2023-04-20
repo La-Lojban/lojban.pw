@@ -8445,17 +8445,17 @@ ri'a ma
 klaku
 : $x_1$ cries
 
-Unlike **gau** the term **ri'a** expects not an agent, but an event like _the clouds are crying_:
+Unlike **gau**, the term **ri'a** expects not an agent, but an event, such as _the clouds are crying_:
 
 > **le dilnu cu klaku ri'a le nu le dargu cu cilmo**
-> _Skies are crying resulting in the road being wet._
+> _The skies are crying, resulting in the wet road._
 
 _Therefore_ is the reverse word compared to _because_:
 
 > **le dilnu cu klaku .i se ri'a bo le dargu cu cilmo**
-> _Skies are crying. Therefore the road is wet._
+> _The skies are crying. Therefore, the road is wet._
 
-cilmo
+**cilmo**
 : ... is wet
 
 Another type of _why_ is **ni'i**:
@@ -8470,35 +8470,35 @@ Another type of _why_ is **ni'i**:
 > **le solri na ku te gusni .i se ni'i bo nicte**
 > _The sun is not shining. Therefore, it's night._
 
-ni'i
+**ni'i**
 : modal term: logically because of …
 
-se ni'i
+**se ni'i**
 : modal term: with the logical consequence that …, logically therefore
 
-Here we can't use **ri'a** as we are talking not about a result but about logical implication. The fact that it is night just logically follows from the sun not shining.
+Here, we can't use **ri'a** as we are talking not about a result but about logical implication. The fact that it is night just logically follows from the sun not shining.
 
 > **mi darxi la .kevin. mu'i le nu ky. lacpu le kerfa be mi**
 > _I hit Kevin because he pulled my hair._
 
-mu'i
+**mu'i**
 : term: because (of motive …)
 
-In this example, what we have is not two events which are physically connected, like clouds and rain, but three events:
+In this example, what we have is not two events that are physically connected, like clouds and rain, but three events:
 
 1. Kevin pulls my hair.
 2. I decide, as a result of this, to hit Kevin.
 3. I hit Kevin.
 
-English misses out the second event and says _Sally hit Joey because he pulled her hair._ However, this is not only vague but, some would say, psychologically dangerous. People do not generally react to stimuli automatically, but as a result of motivation, and confusing complex responses with simple physical causation may lead us to believe that we have no control over our emotions or even our actions. Thus, it is often useful to say not just physical reactions (**ri'a**) but emphasize responses which have a cognitive/emotional element (**mu'i**).
+English omits the second event and says _Sally hit Joey because he pulled her hair._ However, this is not only vague but, some would say, psychologically dangerous. People do not generally react to stimuli automatically, but as a result of motivation, and confusing complex responses with simple physical causation may lead us to believe that we have no control over our emotions or even our actions. Thus, it is often useful to say not just physical reactions (**ri'a**) but emphasize responses which have a cognitive/emotional element (**mu'i**).
 
 > **le ctuca pu plicru la .ben. le jemna ki'u le nu by. pu zabna gunka**
-> _The teacher gave to Ben the gem as a present because he worked nice._
+> _The teacher gave Ben the gem as a present because he worked well._
 
-le ctuca
+**le ctuca**
 : the teacher
 
-le jemna
+**le jemna**
 : the gem
 
 zabna
@@ -8510,18 +8510,18 @@ gunka
 ki'u
 : modal term: because (due to explanation …)
 
-The difference between motivation and justification is not always clear, but we can say that justification involves some rule or standard while motivation does not require it. Compare:
+The difference between motivation and justification is not always clear, but we can say that justification involves some rule or standard, while motivation does not require it. Compare:
 
 > **le ctuca pu plicru la .ben. le jemna ki'u le nu by. pu zabna gunka**
-> _The teacher gave Ben the gem as a present motivated by his work nice._
+> _The teacher gave Ben the gem as a present, motivated by his nice work._
 
-This says only that Ben's hard work motivated the teacher to give him the gem whereas with **ki'u** we might imply that it is the custom for teachers to give gems as a reward for good work.
+This says only that Ben's hard work motivated the teacher to give him the gem, whereas with **ki'u**, we might imply that it is the custom for teachers to give gems as a reward for good work.
 
-Note: Don't get **ki'u** mixed up with **ku'i** which means _but, however_.
+Note: Don't get **ki'u** mixed up with **ku'i**, which means _but, however_.
 
-**ki'u** appeals to more general considerations than **mu'i**, but it still deals with human standards, not logical laws. Only a very naive student would believe that if a student is given a gem, it must logically imply that that student has worked nice.
+**ki'u** appeals to more general considerations than **mu'i**, but it still deals with human standards, not logical laws. Only a very naive student would believe that if a student is given a gem, it must logically imply that the student has worked nicely.
 
-In the case **ni'i ma nicte**, however, the fact that the Sun isn't shining it is night logically entails that the Sun isn't shining. Here we can confidently use **ni'i**.
+In the case of **ni'i ma nicte**, however, the fact that the Sun isn't shining at night logically entails that the Sun isn't shining. Here, we can confidently use **ni'i**.
 
 ### ‘_So … that_’
 
@@ -8559,7 +8559,7 @@ fau
 
 **fau** is much like **ca** (_when_) or **bu'u** (_at (some place)_).
 
-In many cases we can replace **fau** with **ca** getting almost the same meaning (sometimes more precise):
+In many cases, we can replace **fau** with **ca** to get almost the same meaning (sometimes more precise):
 
 > **mi ba prami do ca le nu do cizra**
 > _I'll love you when you are strange._
@@ -8582,9 +8582,9 @@ We can replace **le** with **ro lo** in such terms getting a new meaning:
 - The interjection **da'i** marks the relation in which it is put as describing an imaginary event.
 - The opposite interjection **da'i nai** marks the relation as describing an actual, real event.
 
-Constructs with **da'i** are usually translated to English with so called auxiliary verbs such as _can/could, will/would, may/might, should_ and _must_. Relations marked with **da'i** in English are said to be in _subjunctive mood_.
+Constructs with **da'i** are usually translated to English with auxiliary verbs such as _can/could, will/would, may/might, should_, and _must_. Relations marked with **da'i** in English are said to be in the _subjunctive mood_.
 
-Omitting **da'i** or **da'i nai** makes the sentence clear only from context which is usually quite transparent. That's why **da'i** or **da'i nai** is not obligatory. We use it for clarity when needed.
+Omitting **da'i** or **da'i nai** makes the sentence clear only from context, which is usually quite transparent. That's why **da'i** or **da'i nai** is not obligatory. We use it for clarity when needed.
 
 Relations with **da'i** may include the term with **fau**:
 
@@ -8603,12 +8603,12 @@ pa ki'o ki'o
 > **mo da'i fau le nu mi cusku lu ie nai li'u**
 > _What if I say "no"?_
 
-Here the event inside **fau** is equally imagined together with **mi gleki**. And here is the reverse example:
+Here, the event inside **fau** is equally imagined together with **mi gleki**. And here is the reverse example:
 
 > **da'i nai mi gleki fau le nu mi ponse le rupnusudu be li pa ki'o ki'o**
-> _Having one million dollars I am happy._
+> _Having one million dollars, I am happy._
 
-In many circumstances the word **fau** can be safely replaced with just **ca** (_at the same time as …_):
+In many circumstances, the word **fau** can be safely replaced with just **ca** (_at the same time as …_):
 
 > **da'i nai mi gleki ca le nu do klama**
 > _I'm happy when you come._
@@ -8634,19 +8634,19 @@ Suppose you come home and hear someone scratching. You can say one of the follow
 > **fau su'o da tu mlatu**
 > **fau da tu mlatu**
 > _This might be/possibly is a cat. It is possible that this is a cat._
-> (You keep several animals at home. So it might be your cat scratching but you are not sure.)
+> (You keep several animals at home. So it might be your cat scratching, but you are not sure.)
 
 <!-- -->
 
 > **fau ro da tu mlatu**
-> _this must be/certainly is the cat._
-> (You have a cat and such noise can be produced by only one object, that cat.)
+> _This must be/certainly is the cat._
+> (You have a cat, and such noise can be produced by only one object, that cat.)
 
 <!-- -->
 
 > **fau so'e da tu mlatu**
 > _This should be/probably is the cat._
-> (If you have a dog then it can also produce such sounds but your dog usually doesn't do that so the cat is more likely.)
+> (If you have a dog, then it can also produce such sounds, but your dog usually doesn't do that, so the cat is more likely.)
 
 <!-- -->
 
@@ -8658,7 +8658,7 @@ Suppose you come home and hear someone scratching. You can say one of the follow
 > **fau no da tu mlatu**
 > _This can't be the cat. This mustn't be the cat. It is impossible that this is the cat._
 
-Notice that we omitted **da'i** for brevity. But if we want to be explicitly clear about the events being imaginary **da'i** in these examples is to be put inside the **fau** relation:
+Notice that we omitted **da'i** for brevity. But if we want to be explicitly clear about the events being imaginary, **da'i** in these examples is to be put inside the **fau** relation:
 
 1. **fau da'i da** denotes that the event in this relation _is possible, may/can possibly happen._
 2. **fau da'i ro da** — the event _would necessarily happen._
@@ -8667,7 +8667,7 @@ Notice that we omitted **da'i** for brevity. But if we want to be explicitly cle
 5. **fau da'i so'u da** — the event _is not likely, probably doesn't happen._
 6. **fau da'i no da** — the event _is not possible._
 
-The difference between these is in the number of imaginary situations we take into account. We don't describe those situations, we just mark them as **da** (_something_) letting the context (or our listeners) decide what those situations are.
+The difference between these is in the number of imaginary situations we take into account. We don't describe those situations; we just mark them as **da** (_something_), letting the context (or our listeners) decide what those situations are.
 
 ### Possibility implied in places of relations
 
@@ -8696,7 +8696,7 @@ pacna
 kanpe
 : $x_1$ expects $x_2$ (possible event) with expected likelihood $x_3$ (a number from 0 till 1, the default value is **li so'a**, i.e. near 1)
 
-Unlike **pacna** the verb **kanpe** doesn't necessarily imply hope or wish. It can describe impartial expectation, subjective evaluation of the probability of a situation.
+Unlike **pacna**, the verb **kanpe** doesn't necessarily imply hope or wish. It can describe impartial expectation, subjective evaluation of the probability of a situation.
 
 > **cumki fa le nu do jinga**
 > _It is possible that you win._
@@ -8731,7 +8731,7 @@ djica
 : $x_1$ wants $x_2$ (possible event)
 
 > **mi te mukti le ka klama la .paris.**
-> _I will visit Paris. I motivated to visit Paris._
+> _I will visit Paris. I am motivated to visit Paris._
 
 <!-- -->
 
@@ -8751,22 +8751,6 @@ te mukti
 
 kakne
 : $x_1$ can, is able to do $x_2$ (property of $x_1$)
-
-$x_2$ describes a possible event.
-
-> **mi te javni le ka gunka**
-> _I should work._
-
-te javni
-: $x_1$ should/ought to do $x_2$ (property of $x_1$) under rule $x_3$ (proposition)
-
-$x_2$ describes a possible event.
-
-> **do na ku te javni le ka tcidu**
-> _You don't have to read._
-
-na ku te javni
-: $x_1$ doesn't have to, needn't to do $x_2$ (property of $x_1$) under rule $x_3$ (proposition)
 
 $x_2$ describes a possible event.
 
@@ -8829,7 +8813,7 @@ senpi
 
 ## Lesson 9. Logical conjunctions
 
-Basic logical conjunctions in Lojban are based on 4 primitive ones: **.a**, **.e**, **.o**, **.u**. Here we'll cover them in detail.
+Logical conjunctions in Lojban are based on 4 primitive ones: **.a**, **.e**, **.o**, **.u**. In this lesson, we'll cover them in detail.
 
 ### Logical conjunctions for nouns
 
@@ -8840,18 +8824,18 @@ Here are the conjunctions combining two words: _this_ and _that_.
   > **mi ba vitke le mamta .a le tamne**
   >_I'll visit the mother or the cousin._
 
-  Note that **.a** can also be translated as _at least one of the two values_ and thus leaves open the possibility that I will get round to visiting both of them at some point.
+  Note that **.a** can also be translated as _at least one of the two values_, and thus leaves open the possibility that I will get around to visiting both of them at some point.
 
 - **ti .e ta** = _this and that_
 
   > **mi ralte le pa gerku .e le re mlatu**
   >_I've got a dog and two cats._
-  >`I keep one dog and two cat.`
+  >`I keep one dog and two cats.`
 
 - **ti .o ta** = _either this and that, or none_
 
   > **mi ba vitke le mamta .o le tamne**
-  >_I will visit either both the mother and the cousin, or none of them_
+  >_I will visit either both the mother and the cousin, or none of them._
 
 - **ti .u ta** = _this, and perhaps that_, _this whether or not that_
 
@@ -8884,20 +8868,19 @@ Placing **nai** after a conjunction negates what is to the right of it. Placing 
   >_I don't like neither Alice nor Bob_
 
 Negating with other primitive conjunctions might not look intuitively usable, you can just learn them from examples:
-
 - **ti .a nai ta** = _this if that_, _for this the exclusive condition to happen is that_
 
   > **mi ba vitke le mamta .a nai le tamne**
-  >_I will visit the mother but for that to happen I need to visit the cousin._
+  > _I will visit the mother but for that to happen I need to visit the cousin._
 
-  Thus **ti .a nai ta** means that **ta** is necessary (but may not be the only condition) for **ti** to be applied.
+  Thus, **ti .a nai ta** means that **ta** is necessary (but may not be the only condition) for **ti** to be applied.
 
 - **ti .o nai ta** = _either this or that_
 
   > **mi ba vitke le mamta .o nai le tamne**
   > _I'll visit either the mother or the cousin._
 
-  If I want to say that that I will visit either the mother or the cousin but not both, I need **.o nai** (_either/or_). It's unlike **.a** (_and/or_) where I can visit both of them.
+  If I want to say that I will visit either the mother or the cousin but not both, I need **.o nai** (_either/or_). It's unlike **.a** (_and/or_) where I can visit both of them.
 
 - **ti na .u ta** = doesn't influence _(not this, but perhaps that)_
 - **ti na .u nai ta** = doesn't influence _(not this, but perhaps that)_
@@ -8905,7 +8888,7 @@ Negating with other primitive conjunctions might not look intuitively usable, yo
 - **ti se .u ta** = _perhaps this, and that_
 - **ti se .u nai ta** = _perhaps this but not that_
 
-**se** is used only for **.u** because in other cases it leads to no effect in meaning.
+<!-- **se** is used only for **.u** because in other cases it leads to no effect in meaning. -->
 
 These are used for connecting nouns. For connecting parts of compound verbs we use similar conjunctions: **ja**, **je**, **jo**, **ju**. So instead of the dot (pause) we use **j** here.
 
