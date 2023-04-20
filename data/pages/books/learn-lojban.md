@@ -7949,7 +7949,7 @@ It means the same as:
 >_Alice kisses Kevin, and Kevin kisses Alice._
 
 **zu'ai** is put into the second place of the verb. It shows the mutual action between the first place and the second place. Members of this mutual action are put to the first and connected with the conjunction **jo'u**. -->
-<!-- style fixes -->
+
 ### «**go'i**» for the previous relation
 
 > **la .alis. cu klama le barja .i la .alis. cu viska le nanmu**
@@ -8427,7 +8427,7 @@ Some more variations:
 
 > **la .alis. gau ko klama**
 > _Make Alice come!_
-<!-- style fixes -->
+
 ### ‘_Why_?’ — «**ri'a**», «**ni'i**», «**mu'i**», «**ki'u**»
 
 > **- ri'a ma carvi**
@@ -8896,52 +8896,48 @@ These are used for connecting nouns. For connecting parts of compound verbs we u
 
 ### Logical conjunctions for sentences
 
-> **mi ralte le pa gerku .e le re mlatu**
-> _I've got a dog and two cats._
-> `I keep one dog and two cat.`
-
-This is actually a contracted way of saying:
+This is a more concise way of saying:
 
 > **mi ralte le pa gerku .i je mi ralte le re mlatu**
-> _It is true that I have a dog. It is true that I have two cats._
+> _I have a dog, and I have two cats._
 
-**.i je** joins two sentences with a logical _and_, showing that two sentences are part of one thought and that both sentences are true.
+**.i je** joins two sentences with a logical _and_, showing that both sentences are part of one thought and are true.
 
-Here are examples for other conjunctions for sentences:
+Here are examples of other conjunctions for sentences:
 
 > **la .rome'os. cu prami la .djuliet. i je la .djuliet. cu prami la .rome'os.**
-> _Romeo loves Juliet <u>and</u> Juliet loves Romeo_
+> _Romeo loves Juliet, <u>and</u> Juliet loves Romeo._
 
-means that both statements are true, i.e. Romeo and Juliet love each other.
+This means both statements are true, i.e., Romeo and Juliet love each other.
 
-The same is applicable to other conjunctions:
+The same applies to other conjunctions:
 
 > **la .rome'os. cu prami la .djuliet. i ja la .djuliet. cu prami la .rome'os.**
-> _Romeo loves Juliet and/or Juliet loves Romeo_
+> _Romeo loves Juliet, and/or Juliet loves Romeo._
 
-means that one of them loves the other, and perhaps both of them do.
+This means one of them loves the other, and perhaps both of them do.
 
 > **la .rome'os. cu prami la .djuliet. i jo nai la .djuliet. cu prami la .rome'os.**
 > _Either Romeo loves Juliet or Juliet loves Romeo._
 
-Here either Romeo loves Juliet (but Juliet doesn't love him), or Juliet loves Romeo (but he doesn't love her).
+Here, either Romeo loves Juliet (but Juliet doesn't love him), or Juliet loves Romeo (but he doesn't love her).
 
 > **la .rome'os. cu prami la .djuliet. i ja nai la .djuliet. cu prami la .rome'os.**
-> _For Romeo to love Juliet it's necessary that Juliet loves Romeo._
+> _For Romeo to love Juliet, it's necessary that Juliet loves Romeo._
 
-means that if Juliet loves Romeo, he definitely loves her, but he may love her anyway (the only outcome which is impossible is that Juliet loves Romeo but he doesn't love her).
+This means that if Juliet loves Romeo, he definitely loves her, but he may love her anyway (the only impossible outcome is that Juliet loves Romeo but he doesn't love her).
 
 > **la .rome'os. cu prami la .djuliet. i jo la .djuliet. cu prami la .rome'os.**
-> _Either Romeo loves Juliet and Juliet loves Romeo, or none of the two events happens._
+> _Either Romeo loves Juliet and Juliet loves Romeo, or neither of the two events happens._
 
-means that if Juliet loves Romeo, he loves her, and if she doesn't love him, he doesn't love her.
+This means that if Juliet loves Romeo, he loves her, and if she doesn't love him, he doesn't love her.
 
 > **la .rome'os. cu prami la .djuliet. i ju la .djuliet. cu prami la .rome'os.**
 > _Romeo loves Juliet whether or not Juliet loves Romeo._
 
-Notice how we Lojbanize the name "Romeo": combination "eo" is impossible in Lojban so we used "e'o" and added a consonant in the end for his name.
+Notice how we Lojbanize the name "Romeo": the combination "eo" is impossible in Lojban, so we used "e'o" and added a consonant at the end of his name.
 
-Note that **da** refers to the same entity when several sentences are connected to each other using conjunctions or with tense particles with **bo** (like **ba bo**). So if I say **da klama le barja .i je da cizra** you can assume I'm referring to the same person in both sentences.
+Note that **da** refers to the same entity when several sentences are connected.
 
 ### Logical conjunctions for compound verbs
 
@@ -8956,19 +8952,19 @@ Note that **da** refers to the same entity when several sentences are connected 
 Other conjunctions also make sense:
 
 > **mi nelci ro tu voi xajmi ja melbi prenu**
-> _I likes all of funny or handsome (or both) persons._
+> _I like all persons who are funny or handsome (or both)._
 
 <!-- -->
 
 > **mi nelci ro tu voi xajmi jo nai melbi prenu**
-> _I likes all of either funny or beautiful persons._
+> _I like all persons who are either funny or beautiful._
 
-this might be explained if, for example, I find the qualities of humor and good looks incompatible, i.e. a mixture of the two would be just too much.
+This might be explained if, for example, I find the qualities of humor and good looks incompatible, i.e., a mixture of the two would be just too much.
 
 > **mi nelci ro tu voi xajmi ju melbi nanmu**
-> _I likes all of funny (whether or not beautiful) persons._
+> _I like all persons who are funny (whether or not beautiful)._
 
-And once again we shouldn't forget the difference between connecting nouns and connecting parts of compound verbs:
+And once again, we shouldn't forget the difference between connecting nouns and connecting parts of compound verbs:
 
 > **mi ba vitke le pa pendo .e le pa speni**
 > _I will visit a friend and a spouse._
@@ -8976,7 +8972,7 @@ And once again we shouldn't forget the difference between connecting nouns and c
 <!-- -->
 
 > **mi ba vitke le pa pendo je speni**
-> _I will visit a friend-and-spouse_
+> _I will visit a friend-and-spouse._
 
 The last Lojban sentence means that the friend is also a spouse.
 
@@ -8990,9 +8986,9 @@ uantida
 
 **gi'e** connects several relations into one with some nouns shared. Look at this: It expands into **pu ku mi kelci la .soker. i je pu ku mi klama le zdani** … which would be lengthier.
 
-With **gi'e** we keep the head of the relation constant, and specify nouns after each of the verb (**kelci la .soker.**, **klama le zdani** …)
+With **gi'e**, we keep the head of the relation constant and specify nouns after each of the verbs (**kelci la .soker.**, **klama le zdani** …).
 
-Thus when using **gi'e** we have several relations in the tail joined together but having a common head.
+Thus, when using **gi'e**, we have several relations in the tail joined together but having a common head.
 
 **gi'e** has the same final vowel as in **je** and thus means _and_.
 
@@ -9002,44 +8998,44 @@ Other conjunctions for joining relation tails:
 - **gi'o nai** for _either … or_
 - **gi'u** for _whether or not_ etc.
 
-So they have the same ending as conjunctions of **.a** series.
+These conjunctions have the same ending as those in the **.a**, **.o**, **.u** series.
 
 ### Terms in sentences with several tails
 
-Note that tenses as terms and tenses attached to the main relation of the relation make a difference when applied to sentences that contains several attached relations:
+Note that tenses as terms and tenses attached to the main relation of the relation make a difference when applied to sentences that contain several attached relations:
 
-- term in the head of the sentence is applied to all its tails:
+- A term in the head of the sentence is applied to all its tails:
 
   > **mi ba'o cu citka le badna gi'e pinxe**
   > _I no longer eat the banana and no longer drink._
 
   Here, **ba'o** is applied to **citka le badna gi'e pinxe**.
 
-- tense word that is a part of the verb is applied to that relation only:
+- A tense word that is a part of the verb is applied to that relation only:
 
   > **mi ba'o citka le badna gi'e pinxe**
-  > _I no longer eat the banana, I do drink._
+  > _I no longer eat the banana, but I do drink._
 
-  Here, **ba'o** is applied to **citka le badna** only.
+  Here, **ba'o** is applied to the implied **mi citka le badna** relation only but not to the implied **mi pinxe** relation. 
 
 ### Choice questions
 
-Another type of English _or_ can be found in questions:
+Another type of English "or" can be found in questions:
 
 > **— xu do pinxe le tcati .o nai le ckafi?**
 > **— pinxe**
 > _— Will you drink tea or coffee?_
 > _— Yes._
 
-That's a weird but a perfectly reasonable answer: _Yes, I will drink tea or coffee._
+That's a peculiar, but perfectly reasonable answer: _Yes, I will drink tea or coffee._
 
-Why this happens is because _or_ has several meanings in English:
+This happens because "or" has several meanings in English:
 
 1. _A or B_ can mean _either A, or B but not both_. We use **.onai** here.
 2. _A or B_ can mean _A or B or both_. We use **.a** here.
 3. _A or B?_ can be a question meaning _select from A and B, which of them do you choose?_ We use **ji** here.
 
-Thus in the last case we use a separate question conjunction **ji**:
+Thus, in the last case, we use a separate question conjunction **ji**:
 
 > **— do pinxe le tcati ji le ckafi?**
 > _— Will you drink tea or coffee?_
@@ -9109,16 +9105,16 @@ Once the visitor answers, the waiter knows whether the visitor wants to eat lamb
 > **go nai do gi mi**
 > _Either you or I_
 
-Forethought conjunction **ge** means _and_ but it's placed before the first noun. **gi** separates the two nouns. The series is parallel to other conjunctions. It is **ga**, **ge**, **go**, **gu** and also **ga nai**, **ge nai**, **go nai** etc. The separator **gi** is the same for all of them.
+The forethought conjunction **ge** means _and_, but it's placed before the first noun, with **gi** separating the two nouns. This series is parallel to other conjunctions: **ga**, **ge**, **go**, **gu**, as well as **ga nai**, **ge nai**, **go nai**, etc. The separator **gi** is the same for all of them.
 
-Using such conjunctions is a matter of convenience:
+Using these conjunctions is a matter of convenience:
 
 > **mi citka ge nai le badna gi le plise**
 > _I eat not the banana but the apple._
 
-Here, like in English _not_ is stated before the first noun.
+Here, like in English, _not_ is stated before the first noun.
 
-**ge** and words in this series can still be used for connecting relations too:
+**ge** and words in this series can also be used for connecting relations:
 
 > **ge mi dansu gi mi zgipli le pipno**
 > _I both dance and play the piano._
@@ -9131,7 +9127,7 @@ le pipno
 
 > **.i ga nai pu zi carvi gi ca cilmo**
 > _If it has been raining recently, it's wet now._
-
+<!-- style fixes -->
 ## Lesson 10. Structuring text
 
 ### «**ju'a**» and assertions
