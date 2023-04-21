@@ -6481,13 +6481,13 @@ However, **se mau** always compares the noun after it with the first place of th
 > **I am as big as my sister, but I'm not her.**
 > _I equal my sister in meters, but I am not identical to her._
 
-**dunli**
+dunli
 : $x_1$ (any type) is equal to $x_2$ (any type) in $x_3$ (property of $x_1$ and $x_2$ with **kau**)
 
-**mitre**
+mitre
 : $x_1$ is $x_2$ meters long
 
-**du**
+du
 : $x_1$ (any type) is identical to $x_2$ (any type)
 
 **dunli** compares two places for a single property, while **du** compares for identity. My sister and I are the same height, but we are not the same person. Clark Kent and Superman have different admirers, but they are the same person.
@@ -6501,10 +6501,10 @@ The same goes for another two verbs:
 
 > **Someone other than me is able to help.**
 
-**frica**
+frica
 : $x_1$ (any type) differs from $x_2$ (any type) in $x_3$ (property of $x_1$ and $x_2$ with **kau**)
 
-**drata**
+drata
 : $x_1$ (any type) is not the same as $x_2$ (any type)
 
 ### The concept of ‘_only_’
@@ -7020,7 +7020,7 @@ Lojban tenses treat time and space the same. Saying that _I worked a long time a
 
 ### Points in time and place
 
-A modal particle without a noun following it describes the event as relative to *here* and *now*:
+A modal particle without a noun following it describes the event as relative to _here_ and _now_:
 
 > **mi pinxe ba**
 > **mi ba pinxe**
@@ -7053,13 +7053,13 @@ the two events (_told_ and _was with Doris_) happen at the same time.
 
 Thus, in English:
 
-- The tense of the main relation is understood relative to whoever utters this relation.
-- The tense of the relation inside the main relation is also understood relative to whoever utters this relation.
+- the tense of the main relation is understood relative to whoever utters this relation.
+- the tense of the relation inside the main relation is also understood relative to whoever utters this relation.
 
 In Lojban:
 
-- Only the tense of the main relation is relative to whoever utters the relation.
-- The other tenses are relative to each other. This is why, in **la .alis. pu cusku le se du'u ri pu penmi la .doris. la'u le djedi be li ci** the second **pu** is relative to the first **pu**. In **la .alis. pu cusku le se du'u ri ca kansa la .doris.**, we use **ca** (_at the same time_) which is relative to the outer relation (**pu cusku** — _said_).
+- only the tense of the main relation is relative to whoever utters the relation.
+- the other tenses are relative to each other. This is why, in **la .alis. pu cusku le se du'u ri pu penmi la .doris. la'u le djedi be li ci** the second **pu** is relative to the first **pu**. In **la .alis. pu cusku le se du'u ri ca kansa la .doris.**, we use **ca** (_at the same time_) which is relative to the outer relation (**pu cusku** — _said_).
 
 However, we can use the modal term **nau** (_at the time or place of the speaker_), which will give the same effect as how English works:
 
@@ -7749,7 +7749,7 @@ The sentence **mi klama py. my.** would mean _I go to PM_, which would mean some
 
 If you put an interjection after such letters, separate them with **boi**. Without **boi**, interjections will refer to the last letter.
 
-### Different ways of saying ‘_we_’ in lojban
+### Different ways of saying ‘_we_’ in Lojban
 
 In Lojban, there are several pronouns close in meaning to _we_:
 
@@ -7853,8 +7853,8 @@ lumci
 
 However:
 
-- The pronouns **ti**, **ta**, **tu** are picked up by **ri** because you might have changed what you are pointing at, so repeating **tu** may not be effective.
-- Similarly, **ri** itself (or rather, its antecedent) can be repeated by a later **ri**. In fact, a string of **ri** words with no other intervening nouns will always repeat the same noun:
+- the pronouns **ti**, **ta**, **tu** are picked up by **ri** because you might have changed what you are pointing at, so repeating **tu** may not be effective.
+- similarly, **ri** itself (or rather, its antecedent) can be repeated by a later **ri**. In fact, a string of **ri** words with no other intervening nouns will always repeat the same noun:
 
   > **la .alis. cu catlu le nanmu .i ri melbi .i ri co'a zgana .a bu**
   > _Alice notices a man. He is handsome. He notices Alice._
@@ -9127,7 +9127,7 @@ le pipno
 
 > **.i ga nai pu zi carvi gi ca cilmo**
 > _If it has been raining recently, it's wet now._
-<!-- style fixes -->
+
 ## Lesson 10. Structuring text
 
 ### «**ju'a**» and assertions
@@ -9360,7 +9360,7 @@ Compare:
 > _- You do._
 
 A simple **go'i** still makes **mi** refer to the person who used it, and **do** refer to the listener of the person who said it.
-<!-- style fixes -->
+
 ## Lesson 11. Trickier topics
 
 ### Four meanings of ‘_you_’ in English
@@ -9436,8 +9436,8 @@ Thus, "**le** + noun + verb" is equivalent to "**le** + verb + **pe** + noun".
 
 A few rules:
 
-- If you want to use a noun converted from a verb (for example, with **le**) or a name, it is advisable to use **pe** and place it after the noun: **le gerku pe la .alis.** (_Alice's dog_).
-- Omitting **pe** is acceptable only when using pronouns without numbers in front of them: **le do gerku** (_your dog_) but not **le pa do gerku** (= **le pa do cu gerku** = _one of you is a dog_).
+- if you want to use a noun converted from a verb (for example, with **le**) or a name, it is advisable to use **pe** and place it after the noun: **le gerku pe la .alis.** (_Alice's dog_).
+- omitting **pe** is acceptable only when using pronouns without numbers in front of them: **le do gerku** (_your dog_) but not **le pa do gerku** (= **le pa do cu gerku** = _one of you is a dog_).
 
 It is much safer to use **pe** explicitly and place it after the noun to which it is attached: **le gerku pe la .alis.** and **le gerku pe mi** are the most intuitive constructs.
 
@@ -9507,7 +9507,7 @@ le ve'u xamsi
 
 le ba'o tricu
 : stump of a tree (literally "the no longer tree")
-<!-- style fixes -->
+
 ### Internal terms
 
 Using **be**, you can attach not only the default places of verbs but also terms:
