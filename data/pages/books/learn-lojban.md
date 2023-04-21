@@ -9140,16 +9140,16 @@ le pipno
 > **la .alis. cu jinvi le du'u le prenu cu cizra**
 > _Alice has an opinion that the person is strange._
 
-By default the main relation of sentence asserts some information. Relations inside places or relations that are relative relations may not be asserted. In the last example that the man is strange is not asserted by the speaker. It's only Alice's opinion.
+By default, the main relation of a sentence asserts some information. Relations inside places or relations that are relative relations may not be asserted. In the last example, the man being strange is not asserted by the speaker; it's only Alice's opinion.
 
-The interjection **ju'a** makes the relation asserted by the speaker. The first sentence can be thus rephrased as:
+The interjection **ju'a** makes the relation asserted by the speaker. The first sentence can be rephrased as:
 
 > **la .alis. cu jinvi le du'u ju'a le prenu cu cizra**
 > _Alice has an opinion that the person is strange, and it is so._
 
-English often fails to translate this powerful **ju'a** concisely, thus the English translation doesn't follow the word order of the Lojban original.
+English often fails to translate this powerful **ju'a** concisely, so the English translation doesn't follow the word order of the Lojban original.
 
-One more example:
+Here's another example:
 
 > **mi nelci le nu do dansu**
 > _I like when you dance._
@@ -9159,12 +9159,10 @@ One more example:
 > **mi nelci le nu ju'a do dansu**
 > _I like that you dance._
 
-In the second case the speaker asserts _You dance_.
+In the second case, the speaker asserts _You dance_.
 
 ### «**pe'a**» for metaphors, «**za'e**» for nonce words, «**ba'e**» for emphasis
-
-> **le ninmu cu tarci pe'a .i va'i ri misno**
-> _The woman is a "star". I other words, she is famous._
+> **The woman is a star, metaphorically speaking. In other words, she is famous.**
 
 pe'a
 : interjection: marks a construct as metaphorically used.
@@ -9174,36 +9172,31 @@ tarci
 
 **tarci** denotes real stars, objects in the sky. The interjection **pe'a** transforms it into a metaphorical meaning.
 
-> **.i ba ku mi pu viska le cizra stuzi poi le fagri cu nenri .i mi pu klama za'e le fagrystu**
-> _And then I saw a strange place with a fire inside. I came to that (how to say) "fire-place"._
+> **Then, I saw a strange place with a fire inside. I approached the, let's say, "fire-place."**
 
 za'e
 : left interjection: marks the following construct as used not in its usual meaning
 
-Left interjections like their name suggests are put before a construct modified (whereas other interjections are put after it).
+Left interjections, as their name suggests, are placed before a modified construct (whereas other interjections are placed after it).
 
-The left interjection **za'e** shows that the following construct, **le fagrystu** in this case, is made up or used not in its standard meaning, i.e. there wouldn't be need to look up in the dictionary or ask the speaker specifically about the meaning of this word since the word is used to further describe the story.
+The left interjection **za'e** shows that the following construct, **le fagrystu** in this case, is made up or used not in its standard meaning. Thus, there is no need to look it up in the dictionary or ask the speaker specifically about the meaning of this word since the word is used to further describe the story.
 
-> **ba'e la .alis. e nai la .kevin. pu darxi mi**
-> _Alice, not Kevin hit me!_
+> **Alice, not Kevin, hit me!**
 
 <!-- -->
 
-> **mi djuno le du'u ma kau pu darxi ba'e mi .i ku'i mi na ku djuno le du'u ma kau pu darxi do**
-> _I know who hit me. But I don't know who hit you._
+> **I know who hit me. However, I don't know who hit you.**
 
 ba'e
 : left interjection: puts an emphasis on the following construct
 
-To emphasize a word we would use stress in spoken English, and underlining, italics or capital letters in written English.
-
-In Lojban we use the left interjection **ba'e**.
+To emphasize a word, we would use stress in spoken English, and underlining, italics, or capital letters in written English. In Lojban, we use the left interjection **ba'e**.
 
 ### Paragraphs and separating sentences
 
 **ni'o** works exactly like **.i** but starts a new paragraph. Paragraphs are usually associated with new topics.
 
-It is normal to use in speech only **.i** to separate sentence but you might want to use **ni'o** especially in a written text to structure it.
+It is normal to use **.i** in speech to separate sentences, but you might want to use **ni'o** especially in written text to structure it.
 
 <table>
  <tr>
@@ -9256,12 +9249,13 @@ It is normal to use in speech only **.i** to separate sentence but you might wan
  </tr>
 </table>
 
+
 dirgo
 : $x_1$ is a drop of material $x_2$ …
 
 ### «**to**» … «**toi**» for parenthetical remarks
 
-Comments that we place inside parentheses in English text are formed using the word **to** instead of the left parenthesis and **toi** instead of the right parenthesis:
+Comments placed inside parentheses in English text are formed using the word **to** instead of the left parenthesis and **toi** instead of the right parenthesis:
 
 > **ti poi to vi'o nai do mi na ku djica tu'a su'o lo drata toi plise cu fusra**
 > _This (no, I don't want another one!) apple is rotten._
@@ -9278,29 +9272,29 @@ plise
 fusra
 : $x_1$ rots or decays with agent $x_2$
 
-Such parenthetical remarks can go anywhere interjections can — meaning pretty much anywhere in a Lojban sentence. With parentheses, just like with quotes, you need to know where the parenthesis starts, and where it ends.
+Parenthetical remarks can go anywhere interjections can, meaning they can be placed pretty much anywhere in a Lojban sentence. With parentheses, just like with quotes, you need to know where the parenthesis starts and where it ends.
 
 ### Fixing errors in speech
 
-When screwing a sentence up, knowing how to correct yourself is a good idea. You can use two words to delete your previous words:
+When correcting yourself, it's important to know how to fix your mistakes. You can use two words to delete your previous words:
 
 si
-: deletion: deletes last word only
+: deletion: deletes the last word only
 
 sa
-: deletion: deletes back until next cmavo spoken
+: deletion: deletes back until the next cmavo spoken
 
-The function of them is obvious: they delete words as if they have never been spoken. They do not work inside certain quotes (all quotes except **lu…li'u**), though, as that would leave it impossible to quote these words. Several **si** in a row deletes several words.
+They delete words as if those words have never been spoken. However, they do not work inside certain quotes (all quotes except **lu…li'u**), as that would make it impossible to quote these words. Using multiple **si** in a row deletes multiple words.
 
-When you make a mistake while speaking (factual or grammatical) in English you don't normally bother to correct it even if you realize you made a mistake in the first place. That's because English is fairly redundant (for this very reason!). In English if we catch ourselves making an error, we stumble out a correction that will do the trick, without going into details like how many words should be cancelled: context usually helps us. So if I say
+In English, when you make a mistake while speaking (factual or grammatical), you usually don't bother to correct it, even if you realize you made a mistake. That's because English is fairly redundant (for this very reason!). If we catch ourselves making an error in English, we quickly provide a correction without going into details like how many words should be canceled: context usually helps us. For example:
 
 > _I'm learning the English word, … er, Lojban word._
 
-context and common sense dictate that _Lojban word_ is meant to replace _English word_. But what if it was meant to replace _I'm learning the English word_? We wouldn't normally care, in natural languages.
+Context and common sense dictate that _Lojban word_ is meant to replace _English word_. But what if it was meant to replace _I'm learning the English word_? We wouldn't normally care in natural languages.
 
-But Lojban allows you to be more precise about what words you are correcting.
+However, Lojban allows you to be more precise about which words you are correcting.
 
-**si** erases the immediately preceding word. If you want to erase two words in a row, you say **si si** after them. So the correction above would be in Lojban
+**si** erases the immediately preceding word. If you want to erase two words in a row, you say **si si** after them. In Lojban, the correction above would be:
 
 > **.i mi tadni le glico valsi si si lojbo valsi**
 > _I'm learning the English word, … er, Lojban word._
@@ -9308,18 +9302,20 @@ But Lojban allows you to be more precise about what words you are correcting.
 valsi
 : $x_1$ is a word with the meaning $x_2$ in language $x_3$
 
-The problem with **si** is, you have to count words. This can get tedious, and you shouldn't have to keep a transcript of your words when you want to correct yourself.
+The problem with **si** is that you have to count words. This can become tedious, and you shouldn't have to keep a transcript of your words when you want to correct yourself.
 
-The other correction word Lojban offers is somewhat more helpful: **sa** takes the word following it, which starts the relation to serve as the correction. It then goes back in the sentence, looking for the last time you used a relation starting with the same word or another word of the same class (selma'o). Once it finds the last such relation, it replaces all text from that relation up to **sa** with the relation following **sa**. For example:
+The other correction word **sa** is more helpful: **sa** takes as its argument the word following it. Then this **sa** deletes words back until it finds the same word or a word of the same class. For example:
 
 > **.i mi tadni le sa .i mi tadni le lojbo valsi**
 > _I'm learning the … er, I'm learning the Lojban word._
+> **.i mi tadni le lojbo valsi**
 
-The correction following **sa** is a sentence; you know that, because the first word after **sa** is the sentence marker, **.i**. So the sentence following **sa** replaces the current sentence up to and including **sa**. Or consider:
+The argument of **sa** is the word **.i**. So the sentence following **sa** replaces the current sentence up to and including **sa**. Or consider:
 
 > **.i mi mrilu fi do de'i li jefydei bu pa sa de'i li jefydei bu re**
 > _I mailed to you on Monday, … er, on Tuesday._
 > _On Monday I mailed it to you, … er, actually, it was Tuesday._
+> **.i mi mrilu fi do de'i li jefydei bu re**
 
 The correction is **de'i li jefydei bu re** — _on Tuesday_. So what it replaces is everything from the last relation beginning with **de'i**: **de'i li jefydei bu pa** — _on Monday_.
 
@@ -9333,9 +9329,9 @@ The correction is **de'i li jefydei bu re** — _on Tuesday_. So what it replace
 ki'a
 : interjection inquiry: confusion about something said. _Huh? Whaat?? (confusion), pardon?_
 
-When you don't understand what someone has just said — whether because you don't get what they were referring to, or you don't know the word, or the grammar confused you — you can repeat the word or relation you didn't get, and add **ki'a** as a plaintive request for clarification (so it's even better than _Huh?_, because you can point out exactly what made you say _Huh?_)
+When you don't understand what someone has just said — whether because you don't get what they were referring to, you don't know the word, or the grammar confused you — you can repeat the word or relation you didn't get and add **ki'a** as a plaintive request for clarification. This is even better than _Huh?_, because you can point out exactly what made you say _Huh?_
 
-Here is a dialogue.
+Here is a dialogue:
 
 > **— mi nelci le kalci**
 > **— ki'a ?**
@@ -9354,7 +9350,7 @@ Here is a dialogue.
 ra'o
 : interjection: updates meaning from the viewpoint of the current speaker
 
-If someone says **mi prami do** and you reply **go'i ra'o**, that reverses the pronouns **mi** and **do** so that they apply from your point of view. So every pronoun gets re-evaluated.
+If someone says **mi prami do** and you reply **go'i ra'o**, that reverses the pronouns **mi** and **do** so that they apply from your point of view. Thus, every pronoun gets re-evaluated.
 
 Compare:
 
@@ -9363,60 +9359,58 @@ Compare:
 > _- I love you._
 > _- You do._
 
-A simple **go'i** still makes **mi** refer to who used it and **do** refer to the listener of who said it.
-
+A simple **go'i** still makes **mi** refer to the person who used it, and **do** refer to the listener of the person who said it.
+<!-- style fixes -->
 ## Lesson 11. Trickier topics
 
 ### Four meanings of ‘_you_’ in English
 
-We've already seen two personal pronouns, **mi** and **do**, meaning _I_ (or _me_) and _you_. However, _you_ in English can mean four different things:
-
-In English _you_ has several meanings that are translated to Lojban in certain ways:
+We've already seen two personal pronouns, **mi** (_I_ or _me_) and **do** (_you_). However, _you_ in English can have multiple meanings, which are translated to Lojban in specific ways:
 
 - _you_ as _the one person I'm talking to_:
 
- > **le pa do**
- > _you one_
+  > **le pa do**
+  > _you one_
 
- We know that **le re prenu** means _the two people_. It's also possible to put numbers after **le** and before pronouns.
+  We know that **le re prenu** means _the two people_. It's also possible to put numbers after **le** and before pronouns.
 
 - _you_ as _all of the people I'm talking to_:
 
- > **ro do**
- > <span>_each of you_, _all of you_ (or Southern U.S. _y'all_)</span>
+  > **ro do**
+  > _each of you_, _all of you_ (or Southern U.S. _y'all_)
 
- You can also use numbers with **ko**:
+  One can also use numbers with **ko**:
 
- > **ro ko klama ti**
- > _All of you, get over here._
+  > **ro ko klama ti**
+  > _All of you, get over here._
 
-- _you_ as _a number of people I'm talking to_:
+- _you_ as _a specific number of people I'm talking to_:
 
- > **le re do**
- > _you two_
+  > **le re do**
+  > _you two_
 
- For example, once can start e-mails to their parents with **coi le re do**.
+  For example, one can start emails to their parents with **coi le re do**.
 
- Notice that **re do** means _two of you_ and **re le ci do** means _two of you three_.
+  Notice that **re do** means _two of you_ and **re le ci do** means _two of you three_.
 
 - _you_ as _the person or people I'm talking to plus some other person or people_:
 
- do'o
- : pronoun: _you and someone else_
+  > **do'o**
+  > _you and someone else_
 
-- _you_ as _anyone_ (e.g. _Money can't buy you love._):
+- _you_ as _anyone_ (e.g., _Money can't buy you love._):
 
- It's normally expressed by
+  It's typically expressed by:
 
- ro da
- : _all **da**_
+  > **ro da**
+  > _all **da**_
 
- or
+  or
 
- ro lo prenu
- : _all persons_
+  > **ro lo prenu**
+  > _all persons_
 
- But often you can just miss it out altogether (or place **zo'e** in that place).
+However, you can often omit it altogether or place **zo'e** in that position.
 <!-- The recommended method is turning pronouns into verbs first:
 
 >**lo re me do ko klama ti**
@@ -9426,13 +9420,13 @@ It's possible to omit **me** in this position and say **lo re do ko klama ti** b
 
 ### More about short relative clauses
 
-Short relative clauses with a pronoun after them can be put just after **le**:
+Short relative clauses with a pronoun following them can be placed immediately after **le**:
 
 > **le pe mi gerku**
 > **le gerku pe mi**
 > _My dog_
 
-**pe** in such cases can even be omitted:
+In such cases, **pe** can even be omitted:
 
 > **le mi gerku**
 > **le gerku pe mi**
@@ -9442,10 +9436,10 @@ Thus, "**le** + noun + verb" is equivalent to "**le** + verb + **pe** + noun".
 
 A few rules:
 
-- if you want to use a noun converted from a verb (for example, with **le**) or a name then it's advisable to use **pe** and put it after the noun: **le gerku pe la .alis.** (_the Alice's dog_).
-- it's okay to omit **pe** only if you use pronouns without numbers in front of them: **le do gerku** (_my dog_) but not **le pa do gerku** (= **le pa do cu gerku** = _you one is a dog_).
+- If you want to use a noun converted from a verb (for example, with **le**) or a name, it is advisable to use **pe** and place it after the noun: **le gerku pe la .alis.** (_Alice's dog_).
+- Omitting **pe** is acceptable only when using pronouns without numbers in front of them: **le do gerku** (_your dog_) but not **le pa do gerku** (= **le pa do cu gerku** = _one of you is a dog_).
 
-It's much safer to use **pe** explicitly and put it after the noun to which it is attached: **le gerku pe la .alis.** and **le gerku pe mi** are most intuitive constructs.
+It is much safer to use **pe** explicitly and place it after the noun to which it is attached: **le gerku pe la .alis.** and **le gerku pe mi** are the most intuitive constructs.
 
 ### Quoting text in different languages
 
@@ -9471,14 +9465,14 @@ Lojban strictly avoids any confusion between things and the names of things:
 > **lu'e la .bob. cmene la .bob.**
 > _A-symbol-for Bob is-the-name-of Bob._
 
-Last two examples mean the same. But this is different:
+The last two examples mean the same. But this is different:
 
 > **la .bob. cu cmene la .bob.**
 > _Bob is the name of Bob._
 
 and says that Bob is both the name and the thing named, an unlikely situation. People are not names.
 
-**la'o** serves to mark non-Lojban names, for example the Linnaean binomial names (such as "Homo sapiens"), which are the internationally standardized names for species of animals and plants.
+**la'o** serves to mark non-Lojban names, for example, the Linnaean binomial names (such as "Homo sapiens"), which are the internationally standardized names for species of animals and plants.
 
 Internationally known names which can more easily be recognized by spelling rather than pronunciation, such as _Goethe_, can also appear in Lojban text with **la'o**:
 
@@ -9489,7 +9483,7 @@ Using **la'o** for all names rather than adapting them to Lojban, however, can m
 
 Everything expressed in text should also be expressed in speech and vice versa. Therefore, there cannot be any punctuation which is not pronounced. This means that Lojban has a wide range of words to quote other words. All Lojban convert a text into a noun.
 
-**lu** … **li'u** quote only text that is grammatically correct. To quote any Lojban text we use **lo'u** … **le'u** quote instead.
+**lu** … **li'u** quote only text that is grammatically correct. To quote any Lojban text, we use **lo'u** … **le'u** quotes instead.
 
 > **— xu lo'u je le'u lojbo sumsmi**
 > **— na ku sumsmi**
@@ -9503,7 +9497,7 @@ Everything expressed in text should also be expressed in speech and vice versa. 
 
 ### Enriching vocabulary. New words using tenses
 
-Many English words correspond to word combinations in Lojban:
+Many single English words correspond to word combinations in Lojban:
 
 le ve'i cmana
 : the hill (literally "mountain/hill covering little space")
@@ -9513,10 +9507,10 @@ le ve'u xamsi
 
 le ba'o tricu
 : stump of a tree (literally "the no longer tree")
-
+<!-- style fixes -->
 ### Internal terms
 
-Using **be** you can attach not only the default places of verbs but even terms:
+Using **be**, you can attach not only the default places of verbs but also terms:
 
 > **le xatra be de'i li vo cu se mrilu de'i li ze**
 > _This letter, dated the 4th, is mailed on the 7th_
@@ -9527,9 +9521,9 @@ xatra
 A date tagged with **de'i** applies only to the **xatra**. Compare:
 
 > **le xatra de'i li vo cu se mrilu de'i li ze**
-> _The letter on the 4th is mailed in the 7th_ (whatever that can mean)
+> _The letter on the 4th is mailed on the 7th_ (whatever that can mean)
 
-Without **be** the term **de'i li vo** would apply to the whole relation, not to **xatra**. What we want to say is that the former date applies just to the letter, and the latter date applies to the mailing of the letter. This means that the 4th, as a date, applies only to the verb **le xatra**, and not to the entire relation.
+Without **be**, the term **de'i li vo** would apply to the whole relation, not to **xatra**. What we want to say is that the former date applies just to the letter, and the latter date applies to the mailing of the letter. This means that the 4th, as a date, applies only to the verb **le xatra**, and not to the entire relation.
 
 ### Compound verbs in detail
 
@@ -9537,17 +9531,17 @@ The grouping of terms in Lojban grammar is particularly important when it comes 
 
 > _the bad music magazine_
 
-has in English two interpretations: a bad magazine about music, or a magazine about bad music. In Lojban, its equivalent
+has two interpretations in English: a bad magazine about music or a magazine about bad music. In Lojban, its equivalent
 
 > **le xlali zgike karni**
 
-has only the interpretation _a bad-music magazine_, because the first two verbs (_xlali zgike_ — _bad music_) group together first. So it is important to be able to modify the grouping of verbs, so that we can make sure the tanru means what we actually intend it to mean. For that reason, Lojban has a couple of mechanisms in place for making tanru group together properly.
+has only the interpretation _a bad-music magazine_, because the first two verbs (_xlali zgike_ — _bad music_) group together first. It is important to modify the grouping of verbs to ensure the tanru conveys the intended meaning. For that reason, Lojban has a couple of mechanisms in place for making tanru group together properly.
 
-In English we use brackets to structure the text. Likewise for tanru we use **ke** for the left bracket and **ke'e** for the right bracket.
+In English, we use brackets to structure the text. Similarly, for tanru, we use **ke** for the left bracket and **ke'e** for the right bracket.
 
 **le xlali ke zgike karni** means _the bad music-magazine_.
 
-As you can see we separated **xlali** from the rest of the tanru and made it apply to the whole tanru. There is no need in **ke'e** in the end of the tanru since we already know that it ends here.
+As you can see, we separated **xlali** from the rest of the tanru and made it apply to the whole tanru. There is no need for **ke'e** at the end of the tanru since we already know that it ends here.
 
 > **.i mi pu zi te vecnu le xlali ke zgike karni .i to'e zanru la'o gy.Eurythmics.gy.**
 > _I just bought a bad music-magazine. It dissed the Eurythmics._
@@ -9557,20 +9551,20 @@ That's one way of grouping together verbs in tanru. The other way is to use **bo
 le xlali zgike bo karni
 : the bad music-magazine
 
-**bo** here is similar to the hyphen in English translation. This means that **zgike bo karni** should count as a unit, to which **xlali** (_bad_) applies.
+**bo** here is similar to the hyphen in the English translation. This means that **zgike bo karni** should count as a unit, to which **xlali** (_bad_) applies.
 
 So **bo** makes the connections tighter:
 
 > **la .doris. e la .alis. o nai bo la .bob.**
 > _Doris and (either Alice or Bob)_
 
-**ke** can also be used with connectives (though not with sentences; they have their own kind of bracket, **tu'e … tu'u**.) So we could also say
+**ke** can also be used with connectives (though not with sentences; they have their own kind of bracket, **tu'e … tu'u**). So we could also say
 
 > **la .doris. e ke la .alis. o nai la .bob.**
 
-Remember that the right bracket **ke'e** can be left out in most cases without changing the meaning (like in this case).
+Remember that the right bracket **ke'e** can often be left out without changing the meaning (as in this case).
 
-Forethought conjunction are also used a lot since they can eliminate the need in right brackets:
+Forethought conjunctions are also frequently used because they can eliminate the need for right brackets:
 
 > **ge la .doris. gi go nai la .alis. gi la .bob.**
 > _Doris and either Alice or Bob_
@@ -9580,7 +9574,7 @@ and
 > **go nai ge la .doris. gi la .alis. gi la .bob.**
 > _Either Doris and Alice, or Bob_
 
-We don't need **bo** or **ke** with forethought conjunctions.
+There is no need for **bo** or **ke** with forethought conjunctions.
 
 ### «**co**» for changing the order in compound verbs
 
@@ -9609,9 +9603,9 @@ The fact that it was a compound verb could quickly be lost in speech due to the 
 
 > **mi se jibri co fanva le dotco le glico**
 
-It is the same relation as the previous Lojban one, but much more easy to understand. Notice that any noun before the compound verb fills **se jibri**, while any following it only fills the modifying verb: **fanva**.
+It is the same relation as the previous Lojban one, but much easier to understand. Notice that any noun before the compound verb fills **se jibri**, while any following it only fills the modifying verb: **fanva**.
 
-The strength by which two verbs are bound together with **co** is very weak — even weaker than normal compound verb grouping without any grouping words. This makes sure that, in a co-construct, the leftmost component is always the verb being modified, and the rightmost component always modifies, even if any of those parts are compound verbs. This makes a co-construct easy to understand:
+The strength by which two verbs are bound together with **co** is very weak — even weaker than normal compound verb grouping without any grouping words. This ensures that, in a co-construct, the leftmost component is always the verb being modified, and the rightmost component always modifies, even if any of those parts are compound verbs. This makes a co-construct easy to understand:
 
 > **ti pelxu plise co kukte**
 
@@ -9625,7 +9619,7 @@ Another example:
 merko
 : $x_1$ is American (the USA sense)
 
-Here is the list of different kind of groupers in compound verbs ranked from the tighest to the most loose:
+Here is the list of different kinds of groupers in compound verbs ranked from the tightest to the most loose:
 
 1. **bo** and **ke … ke'e**
 2. logical connectives for compound verbs like **je**
@@ -9634,29 +9628,28 @@ Here is the list of different kind of groupers in compound verbs ranked from the
 
 ### Explicit termination of nouns
 
-the small word **ku** can be used at the end of a noun to explicitly show its right border. **ku** is analogous to the right bracket in math.
+The small word **ku** can be used at the end of a noun to explicitly show its right border. **ku** is analogous to the right bracket in math.
 
 > **tu du le badna ku ui**
 > **tu du le ui badna**
 > _That is the banana (yay!)_
 
-as opposed to:
+As opposed to:
 
 > **tu du le badna ui**
 > _That is the banana (yay that it's a banana and not something else in nature!)_
 
 ### Avoiding explicit termination
-
-Another style of speaking is to avoid termination. Here are some common cases:
+Another style of speaking involves avoiding termination. Here are some common cases:
 
 Elimination of **li'u**, the right quotation mark:
 
 > **lu mi prami do li'u cu se cusku la .alis.**
 > **lu mi prami do li'u se cusku la .alis.**
 > **lu mi prami do cu se cusku la .alis.**
-> _"I love you,"" said Alice._
+> _"I love you," said Alice._
 
-**li'u** can be elided here because there cannot be two main relation constructs in one sentence. Hence, we first read **lu mi prami do** part, and then when we see the **cu**, we realize that we cannot continue this quoted sentence further. We assume that the quotation ended and the outer sentence continues. Thus, no ambiguity arises. 
+**li'u** can be omitted here because there cannot be two main relation constructs in one sentence. Hence, we first read the **lu mi prami do** part, and then when we see the **cu**, we realize that we cannot continue this quoted sentence further. We assume that the quotation has ended and the outer sentence continues. Thus, no ambiguity arises.
 
 Elimination of **ku'o**, the right border of relative clauses:
 
@@ -9664,9 +9657,9 @@ Elimination of **ku'o**, the right border of relative clauses:
 > **le prenu noi mi zgana ke'a ca tavla le pendo be mi**
 > _The person whom I'm observing is now talking to my friend._
 
-**ku'o** can be elided here when the relative clause that we need (**mi zgana ke'a**) ends in a term, **ke'a** in this case. After the relative clause, something other than a term starts, so the relative clause cannot be continued, and thus we know it successfully ends without any explicit right bracket words.
+**ku'o** can be omitted here when the relative clause that we need (**mi zgana ke'a**) ends in a term, **ke'a** in this case. After the relative clause, something other than a term starts, so the relative clause cannot be continued, and thus we know it successfully ends without any explicit right bracket words.
 
-A similar trick would be to place **ke'a** always at the end of the relative clause:
+A similar trick would be to always place **ke'a** at the end of the relative clause:
 
 > **le prenu noi ke'a melbi ku'o ca tavla le pendo be mi**
 > **le prenu noi melbi fa ke'a ca tavla le pendo be mi**
@@ -9684,28 +9677,29 @@ A semi-trick here would be to use **ce'e**:
 > **le prenu noi mi ke'a zgana ce'e le pendo be mi ca tavla**
 > _The person whom I'm observing is now talking to my friend._
 
-Here, we end the relative clause with the main relation construct **zgana**. Then we have the conjunction **ce'e** and a term afterwards (**le pendo be mi**). Since **ce'e** can join only terms, we know that to the left of **ce'e**, we have a term, which can only be **le prenu noi mi ke'a**. Hence, the meaning is retained, and no ambiguity arises. Note that we still need a separate word, **ce'e**, in such cases, so although we eliminated the bright bracket word, we still had to introduce something else.
+Here, we end the relative clause with the main relation construct **zgana**. Then we have the conjunction **ce'e** and a term afterward (**le pendo be mi**). Since **ce'e** can join only terms, we know that to the left of **ce'e**, we have a term, which can only be **le prenu noi mi ke'a**. Hence, the meaning is retained, and no ambiguity arises. Note that we still need a separate word, **ce'e**, in such cases, so although we eliminated the bright bracket word, we still had to introduce something else.
 
 Elimination of **kei**, the right border of inner sentences:
 
->**mi cinmo le ka badri kei le tcini**
->**le ka badri cu se cinmo mi le tcini**
->**mi cinmo fi le tcini fe le ka badri**
->**mi cinmo le ka badri ce'e le tcini**
->_I feel sad regarding the situation._
+> **mi cinmo le ka badri kei le tcini**
+> **le ka badri cu se cinmo mi le tcini**
+> **mi cinmo fi le tcini fe le ka badri**
+> **mi cinmo le ka badri ce'e le tcini**
+> _I feel sad regarding the situation._
 
->**mi stidi lo ka citka su'o da kei do**
->**mi stidi lo ka ce'u su'o da citka ce'e do**
->_I suggest that you eat something._
+> **mi stidi lo ka citka su'o da kei do**
+> **mi stidi lo ka ce'u su'o da citka ce'e do**
+> _I suggest that you eat something._
 
 As you can see, no trick makes the result shorter than the original with **kei**, so for conciseness, you may wish to use **kei**.
+
 ### Conversion from sets to masses
 
-> **le prenu cu pa moi le'i pendo be mi ku noi lu'o ke'a ca smaji**
-> _He is the first among my friends who keep silence together._
-> _The person is the first among the set of my friends who are now as a crowd being silent._
+**le prenu cu pa moi le'i pendo be mi ku noi lu'o ke'a ca smaji**
+_He is the first among my friends who keep silence together._
+_The person is the first among the set of my friends who are now, as a crowd, being silent._
 
-The qualifier word **lu'o** placed before a noun converts it into a mass made of members of that noun. In this case **ke'a** refers to the set of my friends **le'i pendo be mi** and then **lu'o** converts the members of the set into a mass, the crowd of my friends.
+The qualifier word **lu'o** placed before a noun converts it into a mass made of members of that noun. In this case, **ke'a** refers to the set of my friends **le'i pendo be mi** and then **lu'o** converts the members of the set into a mass, the crowd of my friends.
 
 ### Sets and subsets
 
@@ -9713,25 +9707,25 @@ Some infinitives may imply more than one **ce'u**:
 
 > **le'i prenu cu simxu le ka prami**
 > **le'i prenu cu simxu le ka ce'u prami ce'u**
->_The people love each other._
+> _The people love each other._
 
 simxu
 : members of the set $x_1$ reciprocally do $x_2$
 
-The verb **simxu** takes every possible pair from the set specified in place $x_1$ at asserts the relation specified within $x_2$.
+The verb **simxu** takes every possible pair from the set specified in place $x_1$ and asserts the relation specified within $x_2$.
 
-If we have three people then it would mean all of them love each other.
+If we have three people, then it would mean all of them love each other.
 
 > **do ce la .alis. ce mi simxu le ka prami**
 > **do ce la .alis. ce mi simxu le ka ce'u prami ce'u**
-> _You, Alice and I all love each other._
+> _You, Alice, and I all love each other._
 
 ce
 : conjunction: turns several nouns/pronouns into a set
 
-The conjunction **ce** connects nouns and pronouns into a set, thus **do ce la .alis. ce mi** might be a more verbose way of **le'i prenu** from the previous example for the case when we want to name the members of the set.
+The conjunction **ce** connects nouns and pronouns into a set. Thus, **do ce la .alis. ce mi** might be a more verbose way of **le'i prenu** from the previous example when we want to name the members of the set.
 
-In total we assert 6 relations:
+In total, we assert 6 relations:
 
 1. You love Alice.
 2. You love me.
@@ -9740,7 +9734,7 @@ In total we assert 6 relations:
 5. I love Alice.
 6. I love you.
 
-Hence, **simxu** is a nice shortcut for expressing mutual relation.
+Hence, **simxu** is a nice shortcut for expressing mutual relations.
 
 Now consider the example:
 
@@ -9750,7 +9744,7 @@ Now consider the example:
 cmima
 : $x_1$ is a member of set $x_2$
 
-In this example we are showing that a subset of the people in question (a subset of **le'i prenu**) has mutual love.
+In this example, we show that a subset of the people in question (a subset of **le'i prenu**) has mutual love.
 
 This allows us to convey even trickier ideas:
 
@@ -9824,9 +9818,9 @@ In standard approach the speaker uses a separate conjunction **e** when connecti
 
 ## Lojban community
 
-Join the [live chat](https://lojban.pw/articles/live_chat/) for more info.
+Join the [live chat](https://lojban.pw/articles/live_chat/) for more information.
 
 ## [Dictionary](https://la-lojban.github.io/uncll/uncll-1.2.14/xhtml_section_chunks/go01.html)
 
-Contains phrases with examples of possible usage.
+Contains phrases with examples of their possible usage.
 </div>
