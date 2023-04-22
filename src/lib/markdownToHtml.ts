@@ -47,6 +47,9 @@ export default async function markdownToHtml({
           flowchart: {
             useMaxWidth: true,
           },
+          gitGraph: {
+            useMaxWidth: true,
+          },
           //   htmlLabels: true,
           //   securityLevel: "loose",
         })
