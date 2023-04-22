@@ -7359,7 +7359,7 @@ One could, of course, also say just **de'a** or **di'a** and hope the point gets
 %%{
     init: { 
         'logLevel': 'debug',
-        'theme': 'default',
+        'theme': 'base',
         'themeVariables': {
                 'commitLabelColor': '#000',
                 'commitLabelBackground': '#eee',
