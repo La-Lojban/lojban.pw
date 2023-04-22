@@ -7355,6 +7355,74 @@ These two expressions are common in text chats for indicating that you are away 
 
 One could, of course, also say just **de'a** or **di'a** and hope the point gets across.
 
+```mermaid
+%%{
+    init: { 
+        'logLevel': 'debug',
+        'theme': 'default',
+        'themeVariables': {
+                'commitLabelColor': '#000',
+                'commitLabelBackground': '#eee',
+                'commitLabelFontSize': '16px',
+                'tagLabelFontSize': '14px'
+        },
+        'gitGraph': {
+            'showCommitLabel':true,
+            'mainBranchName': 'event'
+        }
+    }
+}%%
+
+gitGraph
+    checkout event
+    branch "about to start"
+    commit id: "pu'o" tag: "event about to start"
+
+    %% checkout event
+    %% branch "start early"
+    %% checkout "start early"
+    %% commit id: "xa'o"
+
+    checkout event
+    branch "start"
+    commit id: "co'a" tag: "event starts"
+
+    %% checkout "start early"
+    %% merge start
+
+    checkout "about to start"
+    merge start
+    %% commit id: "#nbsp;" tag: "event continues"
+
+    checkout start
+    branch "in progress"
+    commit id: "ca'o" tag: "event is in progress"
+
+    checkout "in progress"
+    branch "pause"
+    commit id: "de'a" tag: "event is set on pause" type: REVERSE
+
+    checkout "pause"
+    branch "resume"
+    commit id: "di'a" tag: "event resumes"
+
+    checkout "in progress"
+    branch stop
+    commit id: "co'u" tag: "event aborts" type: REVERSE
+
+    checkout "in progress"
+    branch complete
+    commit id: "mo'u" tag: "event completes" type: REVERSE
+
+    checkout "in progress"
+    branch "overdue"
+    commit id: "za'o" tag: "events lasts for too long"
+
+    checkout "complete"
+    branch aftermath
+    commit id: "ba'o" tag: "in the aftermath"
+```
+
 ### Continuous and progressive events
 
 ru'i
