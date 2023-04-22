@@ -7377,11 +7377,6 @@ One could, of course, also say just **de'a** or **di'a** and hope the point gets
 }%%
 
 gitGraph
-    %% checkout event
-    %% branch "start early"
-    %% checkout "start early"
-    %% commit id: "xa'o"
-
     checkout event
     commit id: "pu'o - about to start"
 
@@ -7397,7 +7392,7 @@ gitGraph
     branch stop
     commit id: "co'u - aborts" type: REVERSE
 
-    checkout start
+    checkout progress
     branch "pause"
     commit id: "de'a - pauses" type: REVERSE
 
@@ -7405,8 +7400,6 @@ gitGraph
     branch resume
     commit id: "di'a - resumes"
 
-    %% checkout "start early"
-    %% merge start
     checkout progress
     branch completion
     commit id: "mo'u - completes" type: HIGHLIGHT
