@@ -7366,61 +7366,58 @@ One could, of course, also say just **de'a** or **di'a** and hope the point gets
                 'commitLabelFontSize': '16px',
                 'tagLabelFontSize': '14px'
         },
+        'htmlLabels': true,
         'gitGraph': {
             'showCommitLabel':true,
-            'mainBranchName': 'event'
+            'mainBranchName': 'event',
+            'rotateCommitLabel': false,
+            'showBranches': false
         }
     }
 }%%
 
 gitGraph
-    checkout event
-    branch "about to start"
-    commit id: "pu'o" tag: "event about to start"
-
     %% checkout event
     %% branch "start early"
     %% checkout "start early"
     %% commit id: "xa'o"
 
     checkout event
-    branch "start"
-    commit id: "co'a" tag: "event starts"
+    commit id: "pu'o - about to start"
+
+    checkout event
+    branch start
+    commit id: "co'a - starts" type:HIGHLIGHT
+
+    checkout start
+    branch progress
+    commit id: "ca'o - in progress"
+
+    checkout progress
+    branch stop
+    commit id: "co'u - aborts" type: REVERSE
+
+    checkout start
+    branch "pause"
+    commit id: "de'a - pauses" type: REVERSE
+
+    checkout "pause"
+    branch resume
+    commit id: "di'a - resumes"
 
     %% checkout "start early"
     %% merge start
+    checkout progress
+    branch completion
+    commit id: "mo'u - completes" type: HIGHLIGHT
 
-    checkout "about to start"
-    merge start
-    %% commit id: "#nbsp;" tag: "event continues"
-
-    checkout start
-    branch "in progress"
-    commit id: "ca'o" tag: "event is in progress"
-
-    checkout "in progress"
-    branch "pause"
-    commit id: "de'a" tag: "event is set on pause" type: REVERSE
-
-    checkout "pause"
-    branch "resume"
-    commit id: "di'a" tag: "event resumes"
-
-    checkout "in progress"
-    branch stop
-    commit id: "co'u" tag: "event aborts" type: REVERSE
-
-    checkout "in progress"
-    branch complete
-    commit id: "mo'u" tag: "event completes" type: REVERSE
-
-    checkout "in progress"
-    branch "overdue"
-    commit id: "za'o" tag: "events lasts for too long"
-
-    checkout "complete"
+    checkout completion
     branch aftermath
-    commit id: "ba'o" tag: "in the aftermath"
+    commit id: "ba'o - aftermath"
+
+    checkout progress
+    branch overdue
+    commit id: "za'o - lasts for too long"
 ```
 
 ### Continuous and progressive events

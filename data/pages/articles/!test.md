@@ -140,3 +140,69 @@ gitGraph
     branch aftermath
     commit id: "ba'o" tag: "in the aftermath"
 ```
+
+```mermaid
+%%{
+    init: { 
+        'logLevel': 'debug',
+        'theme': 'base',
+        'themeVariables': {
+                'commitLabelColor': '#000',
+                'commitLabelBackground': '#eee',
+                'commitLabelFontSize': '16px',
+                'tagLabelFontSize': '14px'
+        },
+        'htmlLabels': true,
+        'gitGraph': {
+            'showCommitLabel':true,
+            'mainBranchName': 'event',
+            'rotateCommitLabel': false,
+            'showBranches': false
+        }
+    }
+}%%
+
+gitGraph
+    %% checkout event
+    %% branch "start early"
+    %% checkout "start early"
+    %% commit id: "xa'o"
+
+    checkout event
+    commit id: "pu'o - about to start"
+
+    checkout event
+    branch start
+    commit id: "co'a - starts" type:HIGHLIGHT
+
+    checkout start
+    branch progress
+    commit id: "ca'o - in progress"
+
+    checkout progress
+    branch stop
+    commit id: "co'u - aborts" type: REVERSE
+
+    checkout start
+    branch "pause"
+    commit id: "de'a - pauses" type: REVERSE
+
+    checkout "pause"
+    branch resume
+    commit id: "di'a - resumes"
+
+    %% checkout "start early"
+    %% merge start
+    checkout progress
+    branch completion
+    commit id: "mo'u - completes" type: HIGHLIGHT
+
+    checkout completion
+    branch aftermath
+    commit id: "ba'o - aftermath"
+
+    checkout progress
+    branch overdue
+    commit id: "za'o - lasts for too long"
+
+```
