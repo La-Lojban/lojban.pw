@@ -5,7 +5,11 @@ import { promises as fsp } from "fs";
 
 const postsDirectory = process.env.md_content || "";
 
-async function getFiles(dir = postsDirectory): Promise<string[]> {
+async function getFiles(
+  dir = postsDirectory,
+  subfolder = ""
+): Promise<string[]> {
+  dir = join(dir, subfolder);
   const dirents = await fsp.readdir(dir, { withFileTypes: true });
   const files = (
     await Promise.all(
@@ -22,8 +26,8 @@ async function getFiles(dir = postsDirectory): Promise<string[]> {
   return Array.prototype.concat(...files);
 }
 
-export async function getPostSlugs() {
-  return await getFiles();
+export async function getPostSlugs(subfolder: string) {
+  return await getFiles(postsDirectory, subfolder);
 }
 
 type Items = {
@@ -64,8 +68,8 @@ export function getPostBySlug(slug: string[], fields: string[] = []): Items {
   return items;
 }
 
-export async function getAllPosts(fields: string[] = [], showHidden = false) {
-  const slugs = await getPostSlugs();
+export async function getAllPosts(fields: string[] = [], showHidden = false, folder='') {
+  const slugs = await getPostSlugs(folder);
   const posts = slugs
     .map((slug: string) =>
       getPostBySlug(slug.replace(/\.md$/, "").split("/"), fields)

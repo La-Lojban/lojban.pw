@@ -1,14 +1,16 @@
-export const home_title = "My website home title"
-export const site_title = "My website"
+export const home_title = "My website home title";
+export const site_title = "My website";
 
-export const CMS_NAME = "My website title"
+export const CMS_NAME = "My website title";
+export const TEXTS = "Corpus of texts";
+
 import {
   faDiscord,
   faFacebook,
   faReddit,
   faGithub,
   faTelegram,
-} from "@fortawesome/free-brands-svg-icons"
+} from "@fortawesome/free-brands-svg-icons";
 
 export const footer = [
   {
@@ -28,13 +30,14 @@ export const footer = [
     link: "https://github.com/myname/myrepo/issues",
   },
   { name: "reddit", icon: faReddit, link: "https://reddit.com/r/mywebsite" },
-]
+];
 
 export const header = [
   { name: "🎓 Learn", url: "/books/learn" },
   { name: "💬 Live chat", url: "/articles/chat" },
-  { name: "📚 All pages", url: "/list" },
-]
+  { name: "📚 To read", url: "/texts" },
+  { name: "🗂️ All pages", url: "/list" },
+];
 
 export const links = [
   {
@@ -61,12 +64,15 @@ export const links = [
     color: "#000000",
   },
   { rel: "shortcut icon", href: "/assets/icons/lojbo.svg" },
-]
+];
 
 export const meta = [
   { name: "msapplication-TileColor", content: "#000000" },
   { name: "msapplication-config", content: "/favicon/browserconfig.xml" },
   { name: "theme-color", content: "#000" },
   { name: "description", content: "My app" },
-  { property: "og:image", content: "https://example.come/assets/icons/lojbo.svg" },
-]
+  {
+    property: "og:image",
+    content: "https://example.come/assets/icons/lojbo.svg",
+  },
+];

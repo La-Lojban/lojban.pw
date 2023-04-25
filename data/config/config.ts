@@ -1,14 +1,15 @@
-export const site_title = "Lojban.pw"
-export const home_title = "Learn Lojban website"
+export const site_title = "Lojban.pw";
+export const home_title = "Learn Lojban website";
 
-export const CMS_NAME = "Learn Lojban website"
+export const CMS_NAME = "Learn Lojban website";
+export const TEXTS = "Corpus of texts";
 import {
   faDiscord,
   faFacebook,
   faReddit,
   faGithub,
   faTelegram,
-} from "@fortawesome/free-brands-svg-icons"
+} from "@fortawesome/free-brands-svg-icons";
 
 export const footer = [
   {
@@ -28,14 +29,15 @@ export const footer = [
     link: "https://github.com/lagleki/lojban/issues",
   },
   { name: "reddit", icon: faReddit, link: "https://reddit.com/r/lojban" },
-]
+];
 
 export const header = [
   { name: "🎓 Learn Lojban", url: "/books/learn-lojban" },
   { name: "💬 Live chat", url: "/articles/live_chat" },
+  { name: "📚 Library", url: "/texts" },
   { name: "📕 Full grammar", url: "/articles/complete-lojban-language" },
-  { name: "📚 All pages", url: "/list" },
-]
+  { name: "🗂️ Website map", url: "/list" },
+];
 
 export const links = [
   {
@@ -63,12 +65,15 @@ export const links = [
   },
   { rel: "shortcut icon", href: "/assets/icons/lojbo.svg" },
   // {rel:"alternate", type:"application/rss+xml", href:"/feed.xml"}
-]
+];
 
 export const meta = [
   { name: "msapplication-TileColor", content: "#000000" },
-  { name: "msapplication-config", content: "/assets/favicons/browserconfig.xml" },
+  {
+    name: "msapplication-config",
+    content: "/assets/favicons/browserconfig.xml",
+  },
   { name: "theme-color", content: "#000" },
   { name: "description", content: "Lojban logical language app" },
   { property: "og:image", content: "https://lojban.pw/assets/icons/lojbo.svg" },
-]
+];

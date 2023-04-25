@@ -29,3 +29,5 @@ yarn-error.log*
 .env.production.local
 tmp/
 data/.cache
+
+data/pages/text
