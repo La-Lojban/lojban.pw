@@ -133,7 +133,7 @@ Non-Lojban vowels like the short _i_ and _u_ in Standard British English _hit_ a
 
 Now, let's construct our first sentences in Lojban.
 
-The basic unit in Lojban is called **bridi**, meaning "sentence". Here are three simple examples:
+The basic unit in Lojban is "sentence". Here are three simple examples:
 
 > **le prenu cu tavla mi**
 > _The person speaks to me._

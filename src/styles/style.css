@@ -1,0 +1,379 @@
+.hide-column-checkbox-lojbo {
+  display: none;
+}
+
+.hide-column-checkbox-lojbo:checked
+  + .hide-column-button-lojbo
+  ~ div
+  table
+  th.column-class-lojbo,
+.hide-column-checkbox-lojbo:checked
+  + .hide-column-button-lojbo
+  ~ div
+  table
+  td.column-class-lojbo {
+  display: none;
+}
+
+.hide-column-checkbox-lojbo:checked + .hide-column-button-lojbo {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-glico {
+  display: none;
+}
+
+.hide-column-checkbox-glico:checked
+  + .hide-column-button-glico
+  ~ div
+  table
+  th.column-class-glico,
+.hide-column-checkbox-glico:checked
+  + .hide-column-button-glico
+  ~ div
+  table
+  td.column-class-glico {
+  display: none;
+}
+
+.hide-column-checkbox-glico:checked + .hide-column-button-glico {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-sampu_lojbo {
+  display: none;
+}
+
+.hide-column-checkbox-sampu_lojbo:checked
+  + .hide-column-button-sampu_lojbo
+  ~ div
+  table
+  th.column-class-sampu_lojbo,
+.hide-column-checkbox-sampu_lojbo:checked
+  + .hide-column-button-sampu_lojbo
+  ~ div
+  table
+  td.column-class-sampu_lojbo {
+  display: none;
+}
+
+.hide-column-checkbox-sampu_lojbo:checked + .hide-column-button-sampu_lojbo {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-fraso {
+  display: none;
+}
+
+.hide-column-checkbox-fraso:checked
+  + .hide-column-button-fraso
+  ~ div
+  table
+  th.column-class-fraso,
+.hide-column-checkbox-fraso:checked
+  + .hide-column-button-fraso
+  ~ div
+  table
+  td.column-class-fraso {
+  display: none;
+}
+
+.hide-column-checkbox-fraso:checked + .hide-column-button-fraso {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-rusko {
+  display: none;
+}
+
+.hide-column-checkbox-rusko:checked
+  + .hide-column-button-rusko
+  ~ div
+  table
+  th.column-class-rusko,
+.hide-column-checkbox-rusko:checked
+  + .hide-column-button-rusko
+  ~ div
+  table
+  td.column-class-rusko {
+  display: none;
+}
+
+.hide-column-checkbox-rusko:checked + .hide-column-button-rusko {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-spano {
+  display: none;
+}
+
+.hide-column-checkbox-spano:checked
+  + .hide-column-button-spano
+  ~ div
+  table
+  th.column-class-spano,
+.hide-column-checkbox-spano:checked
+  + .hide-column-button-spano
+  ~ div
+  table
+  td.column-class-spano {
+  display: none;
+}
+
+.hide-column-checkbox-spano:checked + .hide-column-button-spano {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-porto {
+  display: none;
+}
+
+.hide-column-checkbox-porto:checked
+  + .hide-column-button-porto
+  ~ div
+  table
+  th.column-class-porto,
+.hide-column-checkbox-porto:checked
+  + .hide-column-button-porto
+  ~ div
+  table
+  td.column-class-porto {
+  display: none;
+}
+
+.hide-column-checkbox-porto:checked + .hide-column-button-porto {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-baurgulugu {
+  display: none;
+}
+
+.hide-column-checkbox-baurgulugu:checked
+  + .hide-column-button-baurgulugu
+  ~ div
+  table
+  th.column-class-baurgulugu,
+.hide-column-checkbox-baurgulugu:checked
+  + .hide-column-button-baurgulugu
+  ~ div
+  table
+  td.column-class-baurgulugu {
+  display: none;
+}
+
+.hide-column-checkbox-baurgulugu:checked + .hide-column-button-baurgulugu {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-po_olska {
+  display: none;
+}
+
+.hide-column-checkbox-po_olska:checked
+  + .hide-column-button-po_olska
+  ~ div
+  table
+  th.column-class-po_olska,
+.hide-column-checkbox-po_olska:checked
+  + .hide-column-button-po_olska
+  ~ div
+  table
+  td.column-class-po_olska {
+  display: none;
+}
+
+.hide-column-checkbox-po_olska:checked + .hide-column-button-po_olska {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-ponjo {
+  display: none;
+}
+
+.hide-column-checkbox-ponjo:checked
+  + .hide-column-button-ponjo
+  ~ div
+  table
+  th.column-class-ponjo,
+.hide-column-checkbox-ponjo:checked
+  + .hide-column-button-ponjo
+  ~ div
+  table
+  td.column-class-ponjo {
+  display: none;
+}
+
+.hide-column-checkbox-ponjo:checked + .hide-column-button-ponjo {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-glico_gi_e_te_fanva_fo_le_lojbo {
+  display: none;
+}
+
+.hide-column-checkbox-glico_gi_e_te_fanva_fo_le_lojbo:checked
+  + .hide-column-button-glico_gi_e_te_fanva_fo_le_lojbo
+  ~ div
+  table
+  th.column-class-glico_gi_e_te_fanva_fo_le_lojbo,
+.hide-column-checkbox-glico_gi_e_te_fanva_fo_le_lojbo:checked
+  + .hide-column-button-glico_gi_e_te_fanva_fo_le_lojbo
+  ~ div
+  table
+  td.column-class-glico_gi_e_te_fanva_fo_le_lojbo {
+  display: none;
+}
+
+.hide-column-checkbox-glico_gi_e_te_fanva_fo_le_lojbo:checked
+  + .hide-column-button-glico_gi_e_te_fanva_fo_le_lojbo {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-lojbo_gi_e_se_fanva_la_gleki {
+  display: none;
+}
+
+.hide-column-checkbox-lojbo_gi_e_se_fanva_la_gleki:checked
+  + .hide-column-button-lojbo_gi_e_se_fanva_la_gleki
+  ~ div
+  table
+  th.column-class-lojbo_gi_e_se_fanva_la_gleki,
+.hide-column-checkbox-lojbo_gi_e_se_fanva_la_gleki:checked
+  + .hide-column-button-lojbo_gi_e_se_fanva_la_gleki
+  ~ div
+  table
+  td.column-class-lojbo_gi_e_se_fanva_la_gleki {
+  display: none;
+}
+
+.hide-column-checkbox-lojbo_gi_e_se_fanva_la_gleki:checked
+  + .hide-column-button-lojbo_gi_e_se_fanva_la_gleki {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-lojbo_fi_e_se_fanva_la_pimlu {
+  display: none;
+}
+
+.hide-column-checkbox-lojbo_fi_e_se_fanva_la_pimlu:checked
+  + .hide-column-button-lojbo_fi_e_se_fanva_la_pimlu
+  ~ div
+  table
+  th.column-class-lojbo_fi_e_se_fanva_la_pimlu,
+.hide-column-checkbox-lojbo_fi_e_se_fanva_la_pimlu:checked
+  + .hide-column-button-lojbo_fi_e_se_fanva_la_pimlu
+  ~ div
+  table
+  td.column-class-lojbo_fi_e_se_fanva_la_pimlu {
+  display: none;
+}
+
+.hide-column-checkbox-lojbo_fi_e_se_fanva_la_pimlu:checked
+  + .hide-column-button-lojbo_fi_e_se_fanva_la_pimlu {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-spero {
+  display: none;
+}
+
+.hide-column-checkbox-spero:checked
+  + .hide-column-button-spero
+  ~ div
+  table
+  th.column-class-spero,
+.hide-column-checkbox-spero:checked
+  + .hide-column-button-spero
+  ~ div
+  table
+  td.column-class-spero {
+  display: none;
+}
+
+.hide-column-checkbox-spero:checked + .hide-column-button-spero {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-la_gleki__to_xorlo_jbobau_toi_ {
+  display: none;
+}
+
+.hide-column-checkbox-la_gleki__to_xorlo_jbobau_toi_:checked
+  + .hide-column-button-la_gleki__to_xorlo_jbobau_toi_
+  ~ div
+  table
+  th.column-class-la_gleki__to_xorlo_jbobau_toi_,
+.hide-column-checkbox-la_gleki__to_xorlo_jbobau_toi_:checked
+  + .hide-column-button-la_gleki__to_xorlo_jbobau_toi_
+  ~ div
+  table
+  td.column-class-la_gleki__to_xorlo_jbobau_toi_ {
+  display: none;
+}
+
+.hide-column-checkbox-la_gleki__to_xorlo_jbobau_toi_:checked
+  + .hide-column-button-la_gleki__to_xorlo_jbobau_toi_ {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-original__English_ {
+  display: none;
+}
+
+.hide-column-checkbox-original__English_:checked
+  + .hide-column-button-original__English_
+  ~ div
+  table
+  th.column-class-original__English_,
+.hide-column-checkbox-original__English_:checked
+  + .hide-column-button-original__English_
+  ~ div
+  table
+  td.column-class-original__English_ {
+  display: none;
+}
+
+.hide-column-checkbox-original__English_:checked
+  + .hide-column-button-original__English_ {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-La_Gleki_to_i_cizra_bankle_toi {
+  display: none;
+}
+
+.hide-column-checkbox-La_Gleki_to_i_cizra_bankle_toi:checked
+  + .hide-column-button-La_Gleki_to_i_cizra_bankle_toi
+  ~ div
+  table
+  th.column-class-La_Gleki_to_i_cizra_bankle_toi,
+.hide-column-checkbox-La_Gleki_to_i_cizra_bankle_toi:checked
+  + .hide-column-button-La_Gleki_to_i_cizra_bankle_toi
+  ~ div
+  table
+  td.column-class-La_Gleki_to_i_cizra_bankle_toi {
+  display: none;
+}
+
+.hide-column-checkbox-La_Gleki_to_i_cizra_bankle_toi:checked
+  + .hide-column-button-La_Gleki_to_i_cizra_bankle_toi {
+  background-color: #fff;
+  color: #007bff;
+}

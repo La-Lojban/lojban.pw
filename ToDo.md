@@ -10,11 +10,11 @@
 
 * read the excel file, only + tabs
 * get columns
-* get language from the columns
+* get language from the columns (first row cell)
 * generate html table with classes with language names
 * save that to a corpus folder
-* add headers to files
-* add html buttons
+* add headers to file content
+* add html buttons to file content
 * css necessary
 
 # Learn Lojban

@@ -5,6 +5,7 @@ dev:
 	docker kill lojban_made_easy 2> /dev/null ; \
 	docker rm -f lojban_made_easy 2> /dev/null ; \
 	docker run -d -it --name lojban_made_easy \
+		--env-file ${CURDIR}/.env \
 		-v ${CURDIR}/data/config:/app/src/config/:Z \
 		-v ${CURDIR}/data/pages:/app/src/md_pages/:Z \
 		-v ${CURDIR}/data/assets:/app/src/public/assets/:Z \

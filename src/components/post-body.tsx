@@ -6,7 +6,7 @@ const PostBody = ({ post, state, setState }: PostProps<any>) => {
 	const content = buildDOMFromJSONBasic(post.content, { state, setState });
 	return (
 		<>
-			<div className="mb-6 mx-auto w-full md:w-3/5 bg-gray-100">
+			<div className="mb-6 mx-auto w-full bg-gray-100">
 				<PostHeader
 					title={post.title}
 					coverImage={post.coverImage}

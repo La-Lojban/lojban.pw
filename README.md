@@ -6,7 +6,11 @@ https://lojban.pw website source code
 * CI/CD will deploy changes and publish them in gh-pages branch
 
 ## Local development
-
+* populate `.env` file with:
+```
+GOOGLE_READONLY_API_KEY=your google api key to read google spreadsheet documents shared to the internet 
+GOOGLE_LOJBAN_CORPUS_DOC_ID=1_vkiwqOIOIJPqZTiomzd4ApUSEQXhEY6CeyZD_6c-PA is an example of Lojban corpus Google spreadsheet
+```
 * `make build` - you can use it only once
 * `make dev` - run the docker container
 	* run `yarn` in the docker console

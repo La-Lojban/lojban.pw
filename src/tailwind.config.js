@@ -1,5 +1,7 @@
 module.exports = {
+  mode: 'jit',
   content: [
+    "./md_pages/**/*.md", 
     "./pages/**/*.tsx", 
     "./components/**/*.tsx", 
     "./lib/**/*.tsx", 
