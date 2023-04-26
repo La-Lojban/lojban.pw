@@ -7,6 +7,7 @@ export type TPost = {
   slug: string[]
   hidden?: boolean
   "meta.title"?: string
+  "meta.type"?: string
   title: string
   date: string
   coverImage: string

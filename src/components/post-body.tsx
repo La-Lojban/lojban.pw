@@ -8,10 +8,7 @@ const PostBody = ({ post, state, setState }: PostProps<any>) => {
 		<>
 			<div className="mb-6 mx-auto w-full bg-gray-100">
 				<PostHeader
-					title={post.title}
-					coverImage={post.coverImage}
-					date={post.date}
-					author={post.author}
+					post={post}
 				/>
 				{content}
 				{/* <div dangerouslySetInnerHTML={{ __html: post?.content }} /> */}

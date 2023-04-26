@@ -39,6 +39,7 @@ function cssifyName(text) {
     title = title.replace(/^\+/g, "").trim();
     const meta = await sheet.getRows();
     const langs = meta[0]._sheet.headerValues;
+    // let extractedTitle = title;
     table[title] = [];
     buttons[title] = [];
     let columns = {};
@@ -52,13 +53,13 @@ function cssifyName(text) {
       const txt = meta.map((row) => row[lang]);
       columns[lang] = txt;
       table[title].push(
-        `<th scope="col" class="px-6 py-4 column-class-${l}">${lang}</th>`
+        `<th scope="col" class="p-2 column-class-${l}">${lang}</th>`
       );
       buttons[title].push(
         `<input type="checkbox" id="hide-column-${l}" class="hide-column-checkbox-${l}" />
         <label for="hide-column-${l}" class="
         hide-column-button-${l}
-        inline-block
+        float-left
         ${i == 0 ? "rounded-l " : i == langs.length - 1 ? "rounded-r " : ""}
         drop-shadow
         bg-blue-500 hover:bg-blue-600 focus:bg-blue-600
@@ -100,7 +101,7 @@ function cssifyName(text) {
         table[title].push(
           `<td class="${
             index == 0 ? "font-bold " : ""
-          }text-left align-text-top px-6 py-4 column-class-${l}">${
+          }text-left align-text-top p-2 column-class-${l}">${
             columns[lang][index] ?? ""
           }</td>`
         );
@@ -114,6 +115,7 @@ function cssifyName(text) {
       `   
     <div class="w-full">
     ${buttons[title].join("")}
+    <div class="clear-both" />
 ${table[title].join("")}
 </div>`,
       { filepath: filepath }
@@ -133,6 +135,7 @@ ${table[title].join("")}
     //     `;
     contentMd = `---
 title: "${title}"
+meta.type: korpora
 ---
 
 ${contentMd}`;

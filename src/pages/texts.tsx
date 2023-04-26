@@ -6,7 +6,7 @@ import { getAllPosts } from "../lib/api";
 import Head from "next/head";
 import { TPost } from "../types/post";
 import Header from "../components/header";
-import { TEXTS } from "../config/config";
+import { TEXTS, TEXTS_preface } from "../config/config";
 
 type Props = {
   allPosts: TPost[];
@@ -23,6 +23,7 @@ const Index = ({ allPosts }: Props) => {
           <Header />
           <div className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6">
             <Intro title={TEXTS} />
+            <div className="mb-2" dangerouslySetInnerHTML={{ __html: TEXTS_preface }} />
             {allPosts.length > 0 && <AllStories posts={allPosts} />}
           </div>
         </Container>

@@ -3,6 +3,9 @@ export const home_title = "Learn Lojban website";
 
 export const CMS_NAME = "Learn Lojban website";
 export const TEXTS = "Corpus of texts";
+const discordChatUrl = "https://discord.gg/wasp5fj";
+export const TEXTS_preface = `Press on buttons to hide the column in the language chosen.<br />Wish to translate some text to your language?<br/>Join <a href="${discordChatUrl}">the live chat</a> and send your translation for inclusion.`;
+export const TEXT_preface = `Wish to translate some text to your language?<br/>Join <a href="${discordChatUrl}">the live chat</a> and send your translation for inclusion.`;
 import {
   faDiscord,
   faFacebook,
@@ -17,7 +20,7 @@ export const footer = [
     icon: faTelegram,
     link: "https://t.me/lojban",
   },
-  { name: "discord", icon: faDiscord, link: "https://discord.gg/wasp5fj" },
+  { name: "discord", icon: faDiscord, link: discordChatUrl },
   {
     icon: faFacebook,
     name: "facebook",
