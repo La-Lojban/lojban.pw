@@ -49,16 +49,18 @@ function cssifyName(text) {
     for (const i in langs) {
       const lang = langs[i];
       const l = cssifyName(lang);
-      const txt = meta.slice(1).map((row) => row[lang]);
+      const txt = meta.map((row) => row[lang]);
       columns[lang] = txt;
       table[title].push(
         `<th scope="col" class="px-6 py-4 column-class-${l}">${lang}</th>`
       );
       buttons[title].push(
-        `<input type="checkbox" id="hide-column-${l}" class="hide-column-checkbox-${l}" /><label for="hide-column-${l}" class="
+        `<input type="checkbox" id="hide-column-${l}" class="hide-column-checkbox-${l}" />
+        <label for="hide-column-${l}" class="
         hide-column-button-${l}
         inline-block
         ${i == 0 ? "rounded-l " : i == langs.length - 1 ? "rounded-r " : ""}
+        drop-shadow
         bg-blue-500 hover:bg-blue-600 focus:bg-blue-600
         text-white font-bold
         uppercase leading-normal
