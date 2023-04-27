@@ -3808,79 +3808,13 @@ Dictionaries specify places of verbs that have to be filled with sets.
 > _The people surrounded the table._
 > `The mass of people did surround the table.`
 
-<pixra url="/assets/pixra/cilre/sruri.svg" caption="The people surrounded the table." definition="The people surrounded the table."></pixra>
-
-We use **lei** instead of **le** to show that the mass of objects is relevant to the action, but not those objects individually. Compare:
-
-We use **lei** instead of **le** to show that the mass of objects is relevant to the action, but not those objects individually. Compare:
-
-**The people were silent.**
-<!-- -->
-**The crowd was silent.**
-
-le prenu
-: the person, the people
-
-lei prenu
-: the crowd, the mass of people
-
-smaji
-: $x_1$ is silent
-
-**The snakes surrounded the rod.**
-_Each of the snakes surrounded the rod._
-
-— here, each snake surrounded the rod probably by curling around it.
-
-**The snakes surrounded the rod.**
-_The snakes together as a mass surrounded the rod._
-
-— here, we don't care about individual snakes, but we state that snakes as a mass surrounded the rod.
-
-<pixra url="/assets/pixra/cilre/sruri_since.svg" caption="The snake surrounded the person." definition="The snake surrounded the person."></pixra>
-
-**The two rings is a symbol of Lojban.**
-<!-- -->
-**It's not true that each of the two rings is a symbol of Lojban.**
-
-djine
-: $x_1$ is a ring
-
-Indeed, only the two rings together form a symbol.
-
-Consider a sentence:
-
-_Apples are heavy._
-
-Does it mean that each apple is heavy, or does it mean that they are heavy if taken together?
-
-In Lojban, we can easily distinguish between these two cases:
-
-**Each of the three apples is heavy.**
-**Each of the apples is heavy.**
-<!-- -->
-**The three apples are heavy in total.**
-(so that every apple might be light, but together they are heavy)
-
-tilju
-: $x_1$ is heavy
-
-As you can see, there is an important difference between describing one object of a mass or describing the mass.
-
-
-### Masses
-
-> **lei prenu pu sruri le jubme**
-> _The people surrounded the table._
-> `The mass of people did surround the table.`
-
 <pixra url="/assets/pixra/cilre/sruri.svg" caption="lei prenu cu sruri le jubme" definition="The people surrounded the table."></pixra>
 
-We use **lei** instead of **le** to show that the mass of objects is relevant to the action, but not those objects individually. Compare:
+We use **lei** instead of **le** to show that the mass of objects is relevant to the action, but not necessarily each of those objects individually. Compare:
 
 > **le prenu pu smaji**
 > _The people were silent._
-<!-- -->
+
 > **lei prenu pu smaji**
 > _The crowd was silent._
 
@@ -3903,14 +3837,12 @@ smaji
 > _The snakes surrounded the rod._
 > _The snakes together as a mass surrounded the rod._
 
-— here, we don't care about individual snakes, but we state that snakes as a mass surrounded the rod.
+— here, we don't care about individual snakes, but we state that the snakes as a mass collectively surrounded the rod.
 
 <pixra url="/assets/pixra/cilre/sruri_since.svg" caption="le pa since cu sruri le prenu" definition="The snake surrounded the person."></pixra>
 
 > **lei re djine cu sinxa la .lojban.**
-> _The two rings is a symbol of Lojban._
-
-<!-- -->
+> _The two rings are a symbol of Lojban._
 
 > **na ku re le djine cu sinxa la lojban**
 > _It's not true that each of the two rings is a symbol of Lojban._
@@ -3933,8 +3865,6 @@ In Lojban, we can easily distinguish between these two cases:
 
 > **le plise cu tilju**
 > _Each of the apples is heavy._
-
-<!-- -->
 
 > **lei ci plise cu tilju**
 > _The three apples are heavy in total._
