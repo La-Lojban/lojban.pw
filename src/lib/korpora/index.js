@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { GoogleSpreadsheet } = require("google-spreadsheet");
 const prettier = require("prettier");
-
+const {sluggify} = require('../html-prettifier/slugger');
 if (!process.env.GOOGLE_LOJBAN_CORPUS_DOC_ID) {
   console.log(
     "generation cancelled, no GOOGLE_LOJBAN_CORPUS_DOC_ID in .env file specified"
@@ -147,8 +147,9 @@ meta.author: "${author}"
 ---
 
 ${contentMd}`;
+    const slug = sluggify(header);
     // fs.writeFileSync(filepath, prettier.format(content, { filepath }));
-    const filepath_md = path.join("/app/src/md_pages/text", title + ".md");
+    const filepath_md = path.join("/app/src/md_pages/text", slug + ".md");
     fs.writeFileSync(filepath_md, contentMd);
     console.log(`generated "${title}" corpus entry`);
   }
