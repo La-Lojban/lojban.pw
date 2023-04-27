@@ -72,7 +72,7 @@ export const meta = [
   { name: "msapplication-TileColor", content: "#000000" },
   { name: "msapplication-config", content: "/favicon/browserconfig.xml" },
   { name: "theme-color", content: "#000" },
-  { name: "description", content: "My app" },
+  // { name: "description", content: "My app" },
   {
     property: "og:image",
     content: "https://example.come/assets/icons/lojbo.svg",

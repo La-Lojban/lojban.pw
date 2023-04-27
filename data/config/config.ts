@@ -39,7 +39,7 @@ export const header = [
   { name: "💬 Live chat", url: "/articles/live_chat" },
   { name: "📚 Library", url: "/texts" },
   { name: "📕 Full grammar", url: "/articles/complete-lojban-language" },
-  { name: "🗂️ Website map", url: "/list" },
+  { name: "📑 Website map", url: "/list" },
 ];
 
 export const links = [
@@ -77,6 +77,6 @@ export const meta = [
     content: "/assets/favicons/browserconfig.xml",
   },
   { name: "theme-color", content: "#000" },
-  { name: "description", content: "Lojban logical language app" },
+  // { name: "description", content: "Lojban logical language app" },
   { property: "og:image", content: "https://lojban.pw/assets/icons/lojbo.svg" },
 ];

@@ -64,24 +64,25 @@
   color: #007bff;
 }
 
-.hide-column-checkbox-fraso {
+.hide-column-checkbox-lojbo_to_nu_o_bredi_toi {
   display: none;
 }
 
-.hide-column-checkbox-fraso:checked
-  + .hide-column-button-fraso
+.hide-column-checkbox-lojbo_to_nu_o_bredi_toi:checked
+  + .hide-column-button-lojbo_to_nu_o_bredi_toi
   ~ div
   table
-  th.column-class-fraso,
-.hide-column-checkbox-fraso:checked
-  + .hide-column-button-fraso
+  th.column-class-lojbo_to_nu_o_bredi_toi,
+.hide-column-checkbox-lojbo_to_nu_o_bredi_toi:checked
+  + .hide-column-button-lojbo_to_nu_o_bredi_toi
   ~ div
   table
-  td.column-class-fraso {
+  td.column-class-lojbo_to_nu_o_bredi_toi {
   display: none;
 }
 
-.hide-column-checkbox-fraso:checked + .hide-column-button-fraso {
+.hide-column-checkbox-lojbo_to_nu_o_bredi_toi:checked
+  + .hide-column-button-lojbo_to_nu_o_bredi_toi {
   background-color: #fff;
   color: #007bff;
 }
@@ -104,6 +105,28 @@
 }
 
 .hide-column-checkbox-rusko:checked + .hide-column-button-rusko {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-fraso {
+  display: none;
+}
+
+.hide-column-checkbox-fraso:checked
+  + .hide-column-button-fraso
+  ~ div
+  table
+  th.column-class-fraso,
+.hide-column-checkbox-fraso:checked
+  + .hide-column-button-fraso
+  ~ div
+  table
+  td.column-class-fraso {
+  display: none;
+}
+
+.hide-column-checkbox-fraso:checked + .hide-column-button-fraso {
   background-color: #fff;
   color: #007bff;
 }
@@ -309,71 +332,46 @@
   color: #007bff;
 }
 
-.hide-column-checkbox-la_gleki__to_xorlo_jbobau_toi_ {
+.hide-column-checkbox-xorlo_lojbo {
   display: none;
 }
 
-.hide-column-checkbox-la_gleki__to_xorlo_jbobau_toi_:checked
-  + .hide-column-button-la_gleki__to_xorlo_jbobau_toi_
+.hide-column-checkbox-xorlo_lojbo:checked
+  + .hide-column-button-xorlo_lojbo
   ~ div
   table
-  th.column-class-la_gleki__to_xorlo_jbobau_toi_,
-.hide-column-checkbox-la_gleki__to_xorlo_jbobau_toi_:checked
-  + .hide-column-button-la_gleki__to_xorlo_jbobau_toi_
+  th.column-class-xorlo_lojbo,
+.hide-column-checkbox-xorlo_lojbo:checked
+  + .hide-column-button-xorlo_lojbo
   ~ div
   table
-  td.column-class-la_gleki__to_xorlo_jbobau_toi_ {
+  td.column-class-xorlo_lojbo {
   display: none;
 }
 
-.hide-column-checkbox-la_gleki__to_xorlo_jbobau_toi_:checked
-  + .hide-column-button-la_gleki__to_xorlo_jbobau_toi_ {
+.hide-column-checkbox-xorlo_lojbo:checked + .hide-column-button-xorlo_lojbo {
   background-color: #fff;
   color: #007bff;
 }
 
-.hide-column-checkbox-original__English_ {
+.hide-column-checkbox-cizra_lojbo {
   display: none;
 }
 
-.hide-column-checkbox-original__English_:checked
-  + .hide-column-button-original__English_
+.hide-column-checkbox-cizra_lojbo:checked
+  + .hide-column-button-cizra_lojbo
   ~ div
   table
-  th.column-class-original__English_,
-.hide-column-checkbox-original__English_:checked
-  + .hide-column-button-original__English_
+  th.column-class-cizra_lojbo,
+.hide-column-checkbox-cizra_lojbo:checked
+  + .hide-column-button-cizra_lojbo
   ~ div
   table
-  td.column-class-original__English_ {
+  td.column-class-cizra_lojbo {
   display: none;
 }
 
-.hide-column-checkbox-original__English_:checked
-  + .hide-column-button-original__English_ {
-  background-color: #fff;
-  color: #007bff;
-}
-
-.hide-column-checkbox-La_Gleki_to_i_cizra_bankle_toi {
-  display: none;
-}
-
-.hide-column-checkbox-La_Gleki_to_i_cizra_bankle_toi:checked
-  + .hide-column-button-La_Gleki_to_i_cizra_bankle_toi
-  ~ div
-  table
-  th.column-class-La_Gleki_to_i_cizra_bankle_toi,
-.hide-column-checkbox-La_Gleki_to_i_cizra_bankle_toi:checked
-  + .hide-column-button-La_Gleki_to_i_cizra_bankle_toi
-  ~ div
-  table
-  td.column-class-La_Gleki_to_i_cizra_bankle_toi {
-  display: none;
-}
-
-.hide-column-checkbox-La_Gleki_to_i_cizra_bankle_toi:checked
-  + .hide-column-button-La_Gleki_to_i_cizra_bankle_toi {
+.hide-column-checkbox-cizra_lojbo:checked + .hide-column-button-cizra_lojbo {
   background-color: #fff;
   color: #007bff;
 }

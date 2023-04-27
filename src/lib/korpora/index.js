@@ -92,6 +92,11 @@ function cssifyName(text) {
     table[title].push(`</tr>`);
     table[title].push(`</thead>`);
     table[title].push(`<tbody>`);
+
+    const header = columns["glico"][1] ?? title;
+    const author = columns["glico"][2] ?? '';
+    const description = `${header} - ${author}`.trim().replace(/ -$/,'').trim();
+    const keywords = Object.keys(columns).map(lang=>columns[lang][1]).join(", ");
     for (const index in columns[langs[0]]) {
       table[title].push(
         `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">`
@@ -134,15 +139,18 @@ ${table[title].join("")}
     // </html>
     //     `;
     contentMd = `---
-title: "${title}"
+title: "${header}"
 meta.type: korpora
+meta.description: "${description}"
+meta.keywords: "${keywords}"
+meta.author: "${author}"
 ---
 
 ${contentMd}`;
     // fs.writeFileSync(filepath, prettier.format(content, { filepath }));
     const filepath_md = path.join("/app/src/md_pages/text", title + ".md");
     fs.writeFileSync(filepath_md, contentMd);
-    console.log(`generated ${title} corpus entry`);
+    console.log(`generated "${title}" corpus entry`);
   }
   const csspath = path.join("/app/src/styles", "style.css");
   fs.writeFileSync(

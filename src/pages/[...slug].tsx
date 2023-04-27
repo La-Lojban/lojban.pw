@@ -71,6 +71,18 @@ const Post = ({ post, preview }: Props) => {
                 <Head>
                   <title>{title}</title>
                   <meta property="og:image" content={post?.ogImage?.url} />
+                  {post?.["meta.description"] && (
+                    <meta
+                      name="description"
+                      content={post?.["meta.description"]}
+                    />
+                  )}
+                  {post?.["meta.keywords"] && (
+                    <meta name="keywords" content={post?.["meta.keywords"]} />
+                  )}
+                  {post?.["meta.author"] && (
+                    <meta name="author" content={post?.["meta.author"]} />
+                  )}
                 </Head>
                 {/* <div className="w-1/5 md:flex flex-col md:flex-row md:min-h-screen hidden">
                 <div className="flex flex-col w-full md:w-64 text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800 flex-shrink-0" x-data="{ open: false }">
@@ -175,6 +187,9 @@ export async function getStaticProps({ params }: Params) {
     "title",
     "hidden",
     "meta.title",
+    "meta.description",
+    "meta.keywords",
+    "meta.author",
     "meta.type",
     "date",
     "slug",
