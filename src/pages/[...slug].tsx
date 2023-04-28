@@ -134,7 +134,7 @@ const Post = ({ post, preview }: Props) => {
                   />
                 )}
 
-                <PostBody post={post} state={state} setState={setState} />
+                <PostBody post={post} state={state} setState={setState} hasToc={hasToc}/>
                 {hasToc && (
                   <nav className="hidden md:block toc w-full md:w-1/5 sticky px-2 bottom-0 md:top-20 h-16 md:h-screen font-medium text-sm overflow-ellipsis">
                     <div

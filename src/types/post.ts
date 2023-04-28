@@ -28,4 +28,5 @@ export type PostProps<S> = {
 	post: TPost;
   state?: S;
   setState?: React.Dispatch<React.SetStateAction<S>>;
+  hasToc?: boolean;
 };
