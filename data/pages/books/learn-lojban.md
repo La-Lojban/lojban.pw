@@ -16,7 +16,7 @@ How to use this course:
 
 1. read it
 2. collect your feedback and suggestions
-3. send them to [the live chat](https://lojban.pw/articles/live_chat/)
+3. send them to [💬 the live chat](https://lojban.pw/articles/live_chat/)
 
 ## Lesson 1. The language at a glance
 
@@ -9808,7 +9808,7 @@ In standard approach the speaker uses a separate conjunction **e** when connecti
 
 ## Lojban community
 
-Join the [live chat](https://lojban.pw/articles/live_chat/) for more information.
+Join the [💬 live chat](https://lojban.pw/articles/live_chat/) for more information.
 
 ## [Dictionary](https://la-lojban.github.io/uncll/uncll-1.2.14/xhtml_section_chunks/go01.html)
 

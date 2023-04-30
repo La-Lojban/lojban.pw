@@ -58,18 +58,17 @@ function cssifyName(text) {
       const txt = meta.map((row) => row[lang]);
       columns[lang] = txt;
       table[title].push(
-        `<th scope="col" class="p-2 column-class-${l}">${lang}</th>`
+        `<th scope="col" class="w-40 p-2 column-class-${l}">${lang}</th>`
       );
       buttons[title].push(
         `<input type="checkbox" id="hide-column-${l}" class="hide-column-checkbox-${l}" />
         <label for="hide-column-${l}" class="
         hide-column-button-${l}
         float-left
-        ${i == 0 ? "rounded-l " : i == langs.length - 1 ? "rounded-r " : ""}
         drop-shadow
         bg-blue-500 hover:bg-blue-600 focus:bg-blue-600
         text-white font-bold
-        uppercase leading-normal
+        leading-normal
         select-none
         py-2 px-4
         ">${lang}</label>`
@@ -131,8 +130,11 @@ function cssifyName(text) {
     <div class="w-full">
     ${buttons[title].join("")}
     <div class="clear-both" />
+    <div class="w-full overflow-x-auto">
 ${table[title].join("")}
-</div>`,
+</div>
+</div>
+`,
       { filepath: filepath }
     );
     //     const content = `
