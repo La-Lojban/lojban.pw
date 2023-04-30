@@ -24,10 +24,13 @@ async function translateText({ text, from, to }) {
   await page.goto(url, { timeout: 60000 });
 
   let translatedText = "\r\n";
+  let secsPassed = 0;
   while (translatedText === "\r\n") {
+    if (secsPassed> 120) throw new Error('failed to connect to deepl');
     translatedText = await page.textContent(targetDummyDiv);
     await new Promise((resolve) =>
       setTimeout(() => {
+        secsPassed += 0.1;
         resolve();
       }, 100)
     );
