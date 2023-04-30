@@ -11,6 +11,7 @@ dev:
 		-v ${CURDIR}/data/assets:/app/src/public/assets/:Z \
 		-v ${CURDIR}/data/DNS:/app/service/DNS/:Z \
 		-v ${CURDIR}/data/.cache:/vreji/:Z \
+		-v ${CURDIR}/tmp:/tmp/:Z \
 		-v ${CURDIR}/src:/app/src/:Z \
 		-w /app/src \
 		-p 3298:3000 \

@@ -2,7 +2,10 @@ const fs = require("fs");
 const path = require("path");
 const { GoogleSpreadsheet } = require("google-spreadsheet");
 const prettier = require("prettier");
-const {sluggify} = require('../html-prettifier/slugger');
+const { sluggify } = require("../html-prettifier/slugger");
+const args = process.argv.slice(2);
+const { autoSplitNTranslate } = require("./autotranslate");
+
 if (!process.env.GOOGLE_LOJBAN_CORPUS_DOC_ID) {
   console.log(
     "generation cancelled, no GOOGLE_LOJBAN_CORPUS_DOC_ID in .env file specified"
@@ -38,7 +41,9 @@ function cssifyName(text) {
     const sheet = doc.sheetsByTitle[title];
     title = title.replace(/^\+/g, "").trim();
     const meta = await sheet.getRows();
-    const langs = meta[0]._sheet.headerValues;
+    const langs = meta[0]._sheet.headerValues.filter(
+      (lang) => lang.indexOf("!") !== 0
+    );
     // let extractedTitle = title;
     table[title] = [];
     buttons[title] = [];
@@ -94,9 +99,14 @@ function cssifyName(text) {
     table[title].push(`<tbody>`);
 
     const header = columns["glico"][1] ?? title;
-    const author = columns["glico"][2] ?? '';
-    const description = `${header} - ${author}`.trim().replace(/ -$/,'').trim();
-    const keywords = Object.keys(columns).map(lang=>columns[lang][1]).join(", ");
+    const author = columns["glico"][2] ?? "";
+    const description = `${header} - ${author}`
+      .trim()
+      .replace(/ -$/, "")
+      .trim();
+    const keywords = Object.keys(columns)
+      .map((lang) => columns[lang][1])
+      .join(", ");
     for (const index in columns[langs[0]]) {
       table[title].push(
         `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">`
@@ -152,6 +162,19 @@ ${contentMd}`;
     const filepath_md = path.join("/app/src/md_pages/text", slug + ".md");
     fs.writeFileSync(filepath_md, contentMd);
     console.log(`generated "${title}" corpus entry`);
+
+    if (args[0] === "fanva") {
+      const translation = await autoSplitNTranslate({
+        title,
+        text: columns["glico"],
+        from: "en",
+        to: "ru",
+        limit: 3000,
+      });
+      const translation_file = path.join("/tmp/korpora", slug + ".txt");
+      fs.writeFileSync(translation_file, translation);
+      console.log(`translated "${title}"`);
+    }
   }
   const csspath = path.join("/app/src/styles", "style.css");
   fs.writeFileSync(

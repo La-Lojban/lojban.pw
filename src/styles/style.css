@@ -20,28 +20,6 @@
   color: #007bff;
 }
 
-.hide-column-checkbox-glico {
-  display: none;
-}
-
-.hide-column-checkbox-glico:checked
-  + .hide-column-button-glico
-  ~ div
-  table
-  th.column-class-glico,
-.hide-column-checkbox-glico:checked
-  + .hide-column-button-glico
-  ~ div
-  table
-  td.column-class-glico {
-  display: none;
-}
-
-.hide-column-checkbox-glico:checked + .hide-column-button-glico {
-  background-color: #fff;
-  color: #007bff;
-}
-
 .hide-column-checkbox-sampu_lojbo {
   display: none;
 }
@@ -64,25 +42,24 @@
   color: #007bff;
 }
 
-.hide-column-checkbox-lojbo_to_nu_o_bredi_toi {
+.hide-column-checkbox-glico {
   display: none;
 }
 
-.hide-column-checkbox-lojbo_to_nu_o_bredi_toi:checked
-  + .hide-column-button-lojbo_to_nu_o_bredi_toi
+.hide-column-checkbox-glico:checked
+  + .hide-column-button-glico
   ~ div
   table
-  th.column-class-lojbo_to_nu_o_bredi_toi,
-.hide-column-checkbox-lojbo_to_nu_o_bredi_toi:checked
-  + .hide-column-button-lojbo_to_nu_o_bredi_toi
+  th.column-class-glico,
+.hide-column-checkbox-glico:checked
+  + .hide-column-button-glico
   ~ div
   table
-  td.column-class-lojbo_to_nu_o_bredi_toi {
+  td.column-class-glico {
   display: none;
 }
 
-.hide-column-checkbox-lojbo_to_nu_o_bredi_toi:checked
-  + .hide-column-button-lojbo_to_nu_o_bredi_toi {
+.hide-column-checkbox-glico:checked + .hide-column-button-glico {
   background-color: #fff;
   color: #007bff;
 }
@@ -105,6 +82,52 @@
 }
 
 .hide-column-checkbox-rusko:checked + .hide-column-button-rusko {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-lojbo_gi_e_nu_o_bredi {
+  display: none;
+}
+
+.hide-column-checkbox-lojbo_gi_e_nu_o_bredi:checked
+  + .hide-column-button-lojbo_gi_e_nu_o_bredi
+  ~ div
+  table
+  th.column-class-lojbo_gi_e_nu_o_bredi,
+.hide-column-checkbox-lojbo_gi_e_nu_o_bredi:checked
+  + .hide-column-button-lojbo_gi_e_nu_o_bredi
+  ~ div
+  table
+  td.column-class-lojbo_gi_e_nu_o_bredi {
+  display: none;
+}
+
+.hide-column-checkbox-lojbo_gi_e_nu_o_bredi:checked
+  + .hide-column-button-lojbo_gi_e_nu_o_bredi {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-rusko_co_cnino {
+  display: none;
+}
+
+.hide-column-checkbox-rusko_co_cnino:checked
+  + .hide-column-button-rusko_co_cnino
+  ~ div
+  table
+  th.column-class-rusko_co_cnino,
+.hide-column-checkbox-rusko_co_cnino:checked
+  + .hide-column-button-rusko_co_cnino
+  ~ div
+  table
+  td.column-class-rusko_co_cnino {
+  display: none;
+}
+
+.hide-column-checkbox-rusko_co_cnino:checked
+  + .hide-column-button-rusko_co_cnino {
   background-color: #fff;
   color: #007bff;
 }
@@ -328,6 +351,29 @@
 }
 
 .hide-column-checkbox-spero:checked + .hide-column-button-spero {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_ {
+  display: none;
+}
+
+.hide-column-checkbox-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_:checked
+  + .hide-column-button-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_
+  ~ div
+  table
+  th.column-class-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_,
+.hide-column-checkbox-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_:checked
+  + .hide-column-button-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_
+  ~ div
+  table
+  td.column-class-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_ {
+  display: none;
+}
+
+.hide-column-checkbox-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_:checked
+  + .hide-column-button-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_ {
   background-color: #fff;
   color: #007bff;
 }
