@@ -149,11 +149,11 @@ ${table[title].join("")}
     // </html>
     //     `;
     contentMd = `---
-title: "${header}"
+title: ${header}
 meta.type: korpora
-meta.description: "${description}"
-meta.keywords: "${keywords}"
-meta.author: "${author}"
+meta.description: ${description}
+meta.keywords: ${keywords}
+meta.author: ${author}
 ---
 
 ${contentMd}`;
