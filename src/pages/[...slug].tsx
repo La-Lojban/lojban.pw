@@ -37,7 +37,7 @@ const Post = ({ post, preview }: Props) => {
     name: i.value,
     url: `${router.asPath.replace(/#.*/, "")}#${i.id}`,
   }));
-  const hasToc = toc_list.length > 0;
+  const hasToc = toc_list.length > 5;
   const isBook = post?.slug?.[0] === "books";
   const pdfUrl = `/vreji/uencu/${post?.slug?.[1]}.pdf`;
 

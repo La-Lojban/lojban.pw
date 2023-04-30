@@ -2,13 +2,15 @@
 title: 🎓 ‘Learn Lojban’ course
 ---
 
-<div class="print:hidden lojbo">
+<div class="lojbo"></div>
+<div class="print:hidden">
 
 [📁 PDF version of this page](/vreji/uencu/learn-lojban.pdf)
 
 <hr/>
 </div>
-<div class="lojbo">
+
+<div class="lojbo"></div>
 
 How to use this course:
 
@@ -9811,4 +9813,3 @@ Join the [live chat](https://lojban.pw/articles/live_chat/) for more information
 ## [Dictionary](https://la-lojban.github.io/uncll/uncll-1.2.14/xhtml_section_chunks/go01.html)
 
 Contains phrases with examples of their possible usage.
-</div>
