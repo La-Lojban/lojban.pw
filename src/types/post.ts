@@ -5,6 +5,7 @@ import { TocElem } from './toc'
 
 export type TPost = {
   slug: string[]
+  directory?: string
   hidden?: boolean
   "meta.title"?: string
   "meta.description"?: string

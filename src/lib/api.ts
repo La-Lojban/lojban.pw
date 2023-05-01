@@ -45,6 +45,9 @@ export function getPostBySlug(slug: string[], fields: string[] = []): Items {
 
   // Ensure only the minimal needed data is exposed
   fields.forEach((field) => {
+    if (field === "directory") {
+      items[field] = slug[0];
+    }
     if (field === "slug") {
       items[field] = slug;
     }

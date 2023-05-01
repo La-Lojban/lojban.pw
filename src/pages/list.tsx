@@ -40,6 +40,7 @@ export const getStaticProps = async () => {
     "hidden",
     'date',
     'slug',
+    'directory',
     'author',
     'coverImage',
     'excerpt',

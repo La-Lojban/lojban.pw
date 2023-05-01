@@ -4,8 +4,7 @@ title: Lojban language and speed of thought
 
 <div class="lojbo"></div>
 
-Speed of thought
-A language with only two words_
+A language with only two words
 
 > **be'uro'o**
 > _I'm hungry!_

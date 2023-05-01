@@ -1,36 +1,33 @@
 module.exports = {
-  mode: 'jit',
+  mode: "jit",
   content: [
-    "./md_pages/**/*.md", 
-    "./pages/**/*.tsx", 
-    "./components/**/*.tsx", 
-    "./lib/**/*.tsx", 
+    "./md_pages/**/*.md",
+    "./pages/**/*.tsx",
+    "./components/**/*.tsx",
+    "./lib/**/*.tsx",
   ],
-  safelist: [
-    'bg-deep-orange-300',
-    'bg-deep-orange-400',
-  ],
+  safelist: ["bg-deep-orange-300", "bg-deep-orange-400"],
   variants: {
     extend: {
-      borderWidth: ['last'],
-    }
+      borderWidth: ["last"],
+    },
   },
   theme: {
     extend: {
       screens: {
-        'print': {'raw': 'print'},
+        print: { raw: "print" },
         // => @media print { ... }
       },
       colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        success: '#0070f3',
-        cyan: '#79FFE1',
-        "transparent": "transparent",
-        "black": "#000000",
-        "white": "#ffffff",
-        "red": "#f44336",
+        "accent-1": "#FAFAFA",
+        "accent-2": "#EAEAEA",
+        "accent-7": "#333",
+        success: "#0070f3",
+        cyan: "#79FFE1",
+        transparent: "transparent",
+        black: "#000000",
+        white: "#ffffff",
+        red: "#f44336",
         "red-50": "#ffebee",
         "red-100": "#ffcdd2",
         "red-200": "#ef9a9a",
@@ -45,7 +42,7 @@ module.exports = {
         "red-200-accent": "#ff5252",
         "red-400-accent": "#ff1744",
         "red-700-accent": "#d50000",
-        "pink": "#e91e63",
+        pink: "#e91e63",
         "pink-50": "#fce4ec",
         "pink-100": "#f8bbd0",
         "pink-200": "#f48fb1",
@@ -60,7 +57,7 @@ module.exports = {
         "pink-200-accent": "#ff4081",
         "pink-400-accent": "#f50057",
         "pink-700-accent": "#c51162",
-        "purple": "#9c27b0",
+        purple: "#9c27b0",
         "purple-50": "#f3e5f5",
         "purple-100": "#e1bee7",
         "purple-200": "#ce93d8",
@@ -90,7 +87,7 @@ module.exports = {
         "deep-purple-200-accent": "#7c4dff",
         "deep-purple-400-accent": "#651fff",
         "deep-purple-700-accent": "#6200ea",
-        "indigo": "#3f51b5",
+        indigo: "#3f51b5",
         "indigo-50": "#e8eaf6",
         "indigo-100": "#c5cae9",
         "indigo-200": "#9fa8da",
@@ -105,7 +102,7 @@ module.exports = {
         "indigo-200-accent": "#536dfe",
         "indigo-400-accent": "#3d5afe",
         "indigo-700-accent": "#304ffe",
-        "blue": "#2196f3",
+        blue: "#2196f3",
         "blue-50": "#e3f2fd",
         "blue-100": "#bbdefb",
         "blue-200": "#90caf9",
@@ -135,7 +132,7 @@ module.exports = {
         "light-blue-200-accent": "#40c4ff",
         "light-blue-400-accent": "#00b0ff",
         "light-blue-700-accent": "#0091ea",
-        "cyan": "#00bcd4",
+        cyan: "#00bcd4",
         "cyan-50": "#e0f7fa",
         "cyan-100": "#b2ebf2",
         "cyan-200": "#80deea",
@@ -150,7 +147,7 @@ module.exports = {
         "cyan-200-accent": "#18ffff",
         "cyan-400-accent": "#00e5ff",
         "cyan-700-accent": "#00b8d4",
-        "teal": "#009688",
+        teal: "#009688",
         "teal-50": "#e0f2f1",
         "teal-100": "#b2dfdb",
         "teal-200": "#80cbc4",
@@ -165,7 +162,7 @@ module.exports = {
         "teal-200-accent": "#64ffda",
         "teal-400-accent": "#1de9b6",
         "teal-700-accent": "#00bfa5",
-        "green": "#4caf50",
+        green: "#4caf50",
         "green-50": "#e8f5e9",
         "green-100": "#c8e6c9",
         "green-200": "#a5d6a7",
@@ -195,7 +192,7 @@ module.exports = {
         "light-green-200-accent": "#b2ff59",
         "light-green-400-accent": "#76ff03",
         "light-green-700-accent": "#64dd17",
-        "lime": "#cddc39",
+        lime: "#cddc39",
         "lime-50": "#f9fbe7",
         "lime-100": "#f0f4c3",
         "lime-200": "#e6ee9c",
@@ -210,7 +207,7 @@ module.exports = {
         "lime-200-accent": "#eeff41",
         "lime-400-accent": "#c6ff00",
         "lime-700-accent": "#aeea00",
-        "yellow": "#ffeb3b",
+        yellow: "#ffeb3b",
         "yellow-50": "#fffde7",
         "yellow-100": "#fff9c4",
         "yellow-200": "#fff59d",
@@ -225,7 +222,7 @@ module.exports = {
         "yellow-200-accent": "#ffff00",
         "yellow-400-accent": "#ffea00",
         "yellow-700-accent": "#ffd600",
-        "amber": "#ffc107",
+        amber: "#ffc107",
         "amber-50": "#fff8e1",
         "amber-100": "#ffecb3",
         "amber-200": "#ffe082",
@@ -240,7 +237,7 @@ module.exports = {
         "amber-200-accent": "#ffd740",
         "amber-400-accent": "#ffc400",
         "amber-700-accent": "#ffab00",
-        "orange": "#ff9800",
+        orange: "#ff9800",
         "orange-50": "#fff3e0",
         "orange-100": "#ffe0b2",
         "orange-200": "#ffcc80",
@@ -270,7 +267,7 @@ module.exports = {
         "deep-orange-200-accent": "#ff6e40",
         "deep-orange-400-accent": "#ff3d00",
         "deep-orange-700-accent": "#dd2c00",
-        "brown": "#795548",
+        brown: "#795548",
         "brown-50": "#efebe9",
         "brown-100": "#d7ccc8",
         "brown-200": "#bcaaa4",
@@ -281,7 +278,7 @@ module.exports = {
         "brown-700": "#5d4037",
         "brown-800": "#4e342e",
         "brown-900": "#3e2723",
-        "grey": "#9e9e9e",
+        grey: "#9e9e9e",
         "grey-50": "#fafafa",
         "grey-100": "#f5f5f5",
         "grey-200": "#eeeeee",
@@ -575,37 +572,38 @@ module.exports = {
         "blue-grey-600-contrast": "white",
         "blue-grey-700-contrast": "white",
         "blue-grey-800-contrast": "white",
-        "blue-grey-900-contrast": "white"
+        "blue-grey-900-contrast": "white",
       },
       spacing: {
-        28: '7rem',
+        28: "7rem",
       },
       letterSpacing: {
-        tighter: '-.04em',
+        tighter: "-.04em",
       },
       lineHeight: {
         tight: 1.2,
       },
       fontSize: {
-        '5xl': '2.5rem',
-        '6xl': '2.75rem',
-        '7xl': '4.5rem',
-        '8xl': '6.25rem',
+        "5xl": "2.5rem",
+        "6xl": "2.75rem",
+        "7xl": "4.5rem",
+        "8xl": "6.25rem",
       },
       boxShadow: {
-        small: '0 5px 10px rgba(0, 0, 0, 0.12)',
-        medium: '0 8px 30px rgba(0, 0, 0, 0.12)',
+        small: "0 5px 10px rgba(0, 0, 0, 0.12)",
+        medium: "0 8px 30px rgba(0, 0, 0, 0.12)",
       },
     },
   },
   plugins: [
-    require('tailwind-scrollbar'),
-    require('tailwindcss-typography')({
+    require("tailwind-scrollbar"),
+    require("tailwindcss-typography")({
       // all these options default to the values specified here
-      ellipsis: true,         // whether to generate ellipsis utilities
-      hyphens: true,          // whether to generate hyphenation utilities
-      kerning: true,          // whether to generate kerning utilities
-      textUnset: true,        // whether to generate utilities to unset text properties
-      componentPrefix: 'c-',  // the prefix to use for text style classes
-    })],
-}
+      ellipsis: true, // whether to generate ellipsis utilities
+      hyphens: true, // whether to generate hyphenation utilities
+      kerning: true, // whether to generate kerning utilities
+      textUnset: true, // whether to generate utilities to unset text properties
+      componentPrefix: "c-", // the prefix to use for text style classes
+    }),
+  ],
+};

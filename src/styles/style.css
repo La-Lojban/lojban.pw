@@ -86,6 +86,28 @@
   color: #007bff;
 }
 
+.hide-column-checkbox-fraso {
+  display: none;
+}
+
+.hide-column-checkbox-fraso:checked
+  + .hide-column-button-fraso
+  ~ div
+  table
+  th.column-class-fraso,
+.hide-column-checkbox-fraso:checked
+  + .hide-column-button-fraso
+  ~ div
+  table
+  td.column-class-fraso {
+  display: none;
+}
+
+.hide-column-checkbox-fraso:checked + .hide-column-button-fraso {
+  background-color: #fff;
+  color: #007bff;
+}
+
 .hide-column-checkbox-lojbo_gi_e_nu_o_bredi {
   display: none;
 }
@@ -128,28 +150,6 @@
 
 .hide-column-checkbox-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_:checked
   + .hide-column-button-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_ {
-  background-color: #fff;
-  color: #007bff;
-}
-
-.hide-column-checkbox-fraso {
-  display: none;
-}
-
-.hide-column-checkbox-fraso:checked
-  + .hide-column-button-fraso
-  ~ div
-  table
-  th.column-class-fraso,
-.hide-column-checkbox-fraso:checked
-  + .hide-column-button-fraso
-  ~ div
-  table
-  td.column-class-fraso {
-  display: none;
-}
-
-.hide-column-checkbox-fraso:checked + .hide-column-button-fraso {
   background-color: #fff;
   color: #007bff;
 }

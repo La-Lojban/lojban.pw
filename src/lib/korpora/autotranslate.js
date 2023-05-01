@@ -97,10 +97,9 @@ const sliceArrayIntoChunks = (arr, chunkSize) => {
   return chunks;
 };
 
-async function autoSplitNTranslate({ title, text: arrText, limit, from, to }) {
+async function autoSplitNTranslate({ title, text: arrText, limit, from, to, chunkSize }) {
   const chunks = splitString(arrText.join("\n"), limit);
   let out = [];
-  const chunkSize = 4;
   const superchunks = sliceArrayIntoChunks(chunks, chunkSize);
 
   for (const i in superchunks) {

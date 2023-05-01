@@ -165,12 +165,13 @@ ${contentMd}`;
     fs.writeFileSync(filepath_md, contentMd);
     console.log(`generated "${title}" corpus entry`);
 
-    if (args[0] === "fanva") {
+    if ((args[0] ?? "").indexOf("fanva") === 0) {
       const translation = await autoSplitNTranslate({
         title,
+        chunkSize: 8,
         text: columns["glico"],
         from: "en",
-        to: "ru",
+        to: args[0].replace(/^fanva-/, ""),
         limit: 3000,
       });
       const translation_file = path.join("/tmp/korpora", slug + ".txt");
