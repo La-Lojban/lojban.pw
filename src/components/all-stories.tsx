@@ -35,10 +35,10 @@ const AllStories = ({ posts }: Props) => {
       {Object.keys(groupedPosts).map((key, index) => (
         <div
           key={`section_${index}`}
-          className="mb-3 w-full border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          className="mb-3 w-full border border-gray-200 rounded-lg shadow"
         >
           <div
-            className="bg-white flex flex-wrap text-lg font-medium text-center text-gray-500 border-b border-gray-200 rounded-t-lg bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:bg-gray-800"
+            className="bg-white flex flex-wrap text-lg font-medium text-center text-gray-500 border-b border-gray-200 rounded-t-lg bg-gray-50"
             role="tablist"
           >
             <div
@@ -53,7 +53,7 @@ const AllStories = ({ posts }: Props) => {
           </div>
           <div>
             <div
-              className="p-4 rounded-lg md:p-8 dark:bg-gray-800"
+              className="px-4 pt-2 pb-4 rounded-lg md:px-4 md:pt-4 md:pb-8 dark:bg-gray-800"
               role="tabpanel"
               aria-labelledby="about-tab"
             >

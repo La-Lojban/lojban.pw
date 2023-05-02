@@ -83,6 +83,9 @@ a {
   z-index: 1;
 }
 
+article svg {
+  @apply dark:invert
+}
 article h2 {
   @apply text-3xl my-4 leading-snug;
 }
@@ -158,13 +161,6 @@ article ol {
 
 article table {
   @apply shadow table-auto	divide-y divide-gray-200 w-full border border-collapse border-gray-200 rounded-sm;
-}
-
-@media (prefers-color-scheme: dark) {
-  svg {
-    background-color: white;
-    color-scheme: light;
-  }
 }
 
 @media print {
