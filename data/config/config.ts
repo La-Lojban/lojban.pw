@@ -37,9 +37,9 @@ export const footer = [
 export const header = [
   { name: "🎓 Learn Lojban", url: "/books/learn-lojban" },
   { name: "💬 Live chat", url: "/articles/live_chat" },
-  { name: "📚 Texts", url: "/texts" },
+  { name: "📑 Texts", url: "/texts" },
   { name: "📕 Full grammar", url: "/articles/complete-lojban-language" },
-  { name: "📑 Website map", url: "/list" },
+  { name: "🌐 Website map", url: "/list" },
 ];
 
 export const links = [
