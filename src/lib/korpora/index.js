@@ -5,6 +5,7 @@ const prettier = require("prettier");
 const { sluggify } = require("../html-prettifier/slugger");
 const args = process.argv.slice(2);
 const { autoSplitNTranslate } = require("./autotranslate");
+const { bangu } = require("./data.json");
 
 if (!process.env.GOOGLE_LOJBAN_CORPUS_DOC_ID) {
   console.log(
@@ -71,7 +72,7 @@ function cssifyName(text) {
         leading-normal
         select-none
         py-2 px-4
-        ">${lang}</label>`
+        ">${bangu[lang] ?? lang}</label>`
       );
       css.push(
         ...`
