@@ -17,15 +17,7 @@ const AllStories = ({ posts }: Props) => {
     return Object.keys(groupedPosts).map((key, index) => (
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-16 lg:gap-x-20 gap-y-8">
         {groupedPosts[key].map((post) => (
-          <PostPreview
-            key={post.slug.join("~")}
-            title={post.title}
-            coverImage={post.coverImage}
-            date={post.date}
-            author={post.author}
-            slug={post.slug}
-            excerpt={post.excerpt}
-          />
+          <PostPreview key={post.slug.join("~")} post={post} />
         ))}
       </div>
     ))[0];
@@ -53,21 +45,13 @@ const AllStories = ({ posts }: Props) => {
           </div>
           <div>
             <div
-              className="px-4 pt-2 pb-4 rounded-lg md:px-4 md:pt-4 md:pb-8 dark:bg-gray-800"
+              className="px-4 pt-2 pb-4 md:pt-4 md:pb-8 dark:bg-gray-800"
               role="tabpanel"
               aria-labelledby="about-tab"
             >
               <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-8 gap-y-4">
                 {groupedPosts[key].map((post) => (
-                  <PostPreview
-                    key={post.slug.join("~")}
-                    title={post.title}
-                    coverImage={post.coverImage}
-                    date={post.date}
-                    author={post.author}
-                    slug={post.slug}
-                    excerpt={post.excerpt}
-                  />
+                  <PostPreview key={post.slug.join("~")} post={post} />
                 ))}
               </div>
             </div>
