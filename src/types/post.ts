@@ -12,6 +12,7 @@ export type TPost = {
   "meta.keywords"?: string
   "meta.author"?: string
   "meta.type"?: string
+  "meta.priority"?: number
   title: string
   date: string
   coverImage: string

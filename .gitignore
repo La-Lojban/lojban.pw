@@ -30,4 +30,4 @@ yarn-error.log*
 tmp/
 data/.cache
 
-data/pages/text
+data/pages/texts

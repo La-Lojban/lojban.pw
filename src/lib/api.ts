@@ -71,7 +71,11 @@ export function getPostBySlug(slug: string[], fields: string[] = []): Items {
   return items;
 }
 
-export async function getAllPosts(fields: string[] = [], showHidden = false, folder='') {
+export async function getAllPosts(
+  fields: string[] = [],
+  showHidden = false,
+  folder = ""
+) {
   const slugs = await getPostSlugs(folder);
   const posts = slugs
     .map((slug: string) =>
@@ -83,6 +87,10 @@ export async function getAllPosts(fields: string[] = [], showHidden = false, fol
         (!fields.includes("title") || typeof post.title !== "undefined")
     )
     // sort posts by date in descending order
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
+    .sort((post1, post2) => ((post1.date ?? 0) > (post2.date ?? 0) ? -1 : 1))
+    //sort by priority in descending order
+    .sort((post1, post2) =>
+      (post1["meta.priority"] ?? 0) > (post2["meta.priority"] ?? 0) ? -1 : 1
+    );
   return posts;
 }

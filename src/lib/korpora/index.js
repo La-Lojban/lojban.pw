@@ -98,6 +98,7 @@ function cssifyName(text) {
     table[title].push(`<tbody>`);
 
     const header = columns["glico"][1] ?? title;
+    const priority = (columns["lojbo"] ?? []).slice(4).join("\n").length;
     const author = columns["glico"][2] ?? "";
     const description = `${header} - ${author}`
       .trim()
@@ -124,7 +125,7 @@ function cssifyName(text) {
     }
     table[title].push(`</tbody>`);
     table[title].push(`</table>`);
-    const filepath = path.join("/app/src/md_pages/text", title + ".html");
+    const filepath = path.join("/app/src/md_pages/texts", title + ".html");
     let contentMd = prettier.format(
       `   
     <div class="w-full">
@@ -156,12 +157,13 @@ meta.type: korpora
 meta.description: ${description}
 meta.keywords: ${keywords}
 meta.author: ${author}
+meta.priority: ${priority}
 ---
 
 ${contentMd}`;
     const slug = sluggify(header);
     // fs.writeFileSync(filepath, prettier.format(content, { filepath }));
-    const filepath_md = path.join("/app/src/md_pages/text", slug + ".md");
+    const filepath_md = path.join("/app/src/md_pages/texts", slug + ".md");
     fs.writeFileSync(filepath_md, contentMd);
     console.log(`generated "${title}" corpus entry`);
 

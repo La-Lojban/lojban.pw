@@ -47,7 +47,8 @@ export const getStaticProps = async () => {
       "author",
       "coverImage",
       "excerpt",
-      "meta.author"
+      "meta.author",
+      "meta.priority"
     ],
     false
   );

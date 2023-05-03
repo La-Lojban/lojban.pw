@@ -19,14 +19,19 @@ const Index = ({ allPosts }: Props) => {
         <Head>
           <title>{"Corpus of texts"}</title>
         </Head>
-        <Container>
-          <Header />
-          <div className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6">
-            <Intro title={TEXTS} />
-            <div className="mb-2" dangerouslySetInnerHTML={{ __html: TEXTS_preface }} />
-            {allPosts.length > 0 && <AllStories posts={allPosts} />}
-          </div>
-        </Container>
+        <div className="pb-8">
+          <Container>
+            <Header />
+            <div className="mb-8 mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6">
+              <Intro title={TEXTS} />
+              <div
+                className="mb-2"
+                dangerouslySetInnerHTML={{ __html: TEXTS_preface }}
+              />
+              {allPosts.length > 0 && <AllStories posts={allPosts} />}
+            </div>
+          </Container>
+        </div>
       </Layout>
     </>
   );
@@ -36,9 +41,19 @@ export default Index;
 
 export const getStaticProps = async () => {
   const allPosts = await getAllPosts(
-    ["title", "hidden", "date", "slug", "author", "coverImage", "excerpt","meta.author"],
+    [
+      "title",
+      "hidden",
+      "date",
+      "slug",
+      "author",
+      "coverImage",
+      "excerpt",
+      "meta.author",
+      "meta.priority",
+    ],
     false,
-    "text"
+    "texts"
   );
 
   return {
