@@ -131,25 +131,48 @@
   color: #007bff;
 }
 
-.hide-column-checkbox-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_ {
+.hide-column-checkbox-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_ {
   display: none;
 }
 
-.hide-column-checkbox-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_:checked
-  + .hide-column-button-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_
+.hide-column-checkbox-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_:checked
+  + .hide-column-button-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_
   ~ div
   table
-  th.column-class-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_,
-.hide-column-checkbox-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_:checked
-  + .hide-column-button-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_
+  th.column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_,
+.hide-column-checkbox-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_:checked
+  + .hide-column-button-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_
   ~ div
   table
-  td.column-class-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_ {
+  td.column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_ {
   display: none;
 }
 
-.hide-column-checkbox-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_:checked
-  + .hide-column-button-lojbo_gi_e_se_fanva_fa_la_o_gy_Michael_Helsem_gy_ {
+.hide-column-checkbox-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_:checked
+  + .hide-column-button-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_ {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_ {
+  display: none;
+}
+
+.hide-column-checkbox-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_:checked
+  + .hide-column-button-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_
+  ~ div
+  table
+  th.column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_,
+.hide-column-checkbox-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_:checked
+  + .hide-column-button-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_
+  ~ div
+  table
+  td.column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_ {
+  display: none;
+}
+
+.hide-column-checkbox-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_:checked
+  + .hide-column-button-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_ {
   background-color: #fff;
   color: #007bff;
 }

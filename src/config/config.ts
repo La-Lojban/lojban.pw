@@ -37,7 +37,7 @@ export const footer = [
 export const header = [
   { name: "🎓 Learn", url: "/books/learn" },
   { name: "💬 Live chat", url: "/articles/chat" },
-  { name: "📚 To read", url: "/texts" },
+  { name: "📚 To read", url: "/texts", ogImage: '' },
   { name: "🗂️ All pages", url: "/list" },
 ];
 

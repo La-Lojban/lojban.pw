@@ -70,7 +70,16 @@ const Post = ({ post, preview }: Props) => {
               <article className="mt-10 mx-auto max-w-7xl px-4 sm:mt-8 sm:px-6 flex md:flex-row flex-wrap">
                 <Head>
                   <title>{title}</title>
-                  <meta property="og:image" content={post?.ogImage?.url} />
+                  {post?.ogImage?.url && (
+                    <meta property="og:image" content={post?.ogImage?.url} />
+                  )}
+                  <meta property="og:title" content={title} />
+                  {post?.["meta.description"] && (
+                    <meta
+                      property="og:description"
+                      content={post?.["meta.description"]}
+                    />
+                  )}
                   {post?.["meta.description"] && (
                     <meta
                       name="description"
@@ -134,7 +143,12 @@ const Post = ({ post, preview }: Props) => {
                   />
                 )}
 
-                <PostBody post={post} state={state} setState={setState} hasToc={hasToc}/>
+                <PostBody
+                  post={post}
+                  state={state}
+                  setState={setState}
+                  hasToc={hasToc}
+                />
                 {hasToc && (
                   <nav className="hidden md:block toc w-full md:w-1/5 sticky px-2 bottom-0 md:top-20 h-16 md:h-screen font-medium text-sm overflow-ellipsis">
                     <div

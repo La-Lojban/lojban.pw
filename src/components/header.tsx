@@ -25,12 +25,12 @@ export default function Header({
   toc?: TocElem[];
   path?: string;
 }) {
-  const toc_list: TocItem[] = toc.map((tocElem) => ({
+  const listToC: TocItem[] = toc.map((tocElem) => ({
     depth: parseInt(tocElem.depth),
     name: tocElem.value,
     url: `${path}#${tocElem.id}`,
   }));
-  const has_toc = toc_list.length > 0;
+  const hasToC = listToC.length > 0;
   return (
     <Popover
       as="nav"
@@ -54,11 +54,12 @@ export default function Header({
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-3">
                     {header.map((item) => (
-                      <Link href={item.url} key={item.url}>
+                      <Link href={item.url} key={item.url} className="mt-auto">
                         <button
-                          className={`flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base py-1 px-4 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none`}
+                          className={`flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base px-4 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center`}
                         >
-                          {item.name}
+                          {/* {item.ogImage && <img src={item.ogImage} className="h-7 mr-2"/>} */}
+                          <span className="py-1">{item.name}</span>
                         </button>
                       </Link>
                     ))}
@@ -166,7 +167,7 @@ export default function Header({
             </div>
 
             {/* title */}
-            {has_toc && (
+            {hasToC && (
               <>
                 <h1 className={`bg-gray-200 ${buttonClass}`}>
                   Table of contents
@@ -175,7 +176,7 @@ export default function Header({
                 {/* toc */}
                 <nav className="toc w-full md:w-1/5 p-2 bottom-0 md:top-20 h-48 md:h-screen font-medium text-sm overflow-ellipsis">
                   <div id="toc-topbar" className="h-full px-2 pb-3 space-y-1 sm:px-3 overflow-y-auto">
-                    {toc_list.map((item) => (
+                    {listToC.map((item) => (
                       <Link
                         href={item.url}
                         key={item.url}

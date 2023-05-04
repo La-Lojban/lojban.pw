@@ -37,7 +37,7 @@ export const footer = [
 export const header = [
   { name: "🎓 Learn Lojban", url: "/books/learn-lojban" },
   { name: "💬 Live chat", url: "/articles/live_chat" },
-  { name: "📑 Texts", url: "/texts" },
+  { name: "📑 Texts", url: "/texts", ogImage: '/assets/pixra/ralju/texts.svg' },
   { name: "📕 Full grammar", url: "/articles/complete-lojban-language" },
   { name: "🌐 Website map", url: "/list" },
 ];
@@ -78,5 +78,5 @@ export const meta = [
   },
   { name: "theme-color", content: "#000" },
   // { name: "description", content: "Lojban logical language app" },
-  { property: "og:image", content: "https://lojban.pw/assets/icons/lojbo.svg" },
+  // { property: "og:image", content: "https://lojban.pw/assets/icons/lojbo.svg" },
 ];

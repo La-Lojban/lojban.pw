@@ -23,7 +23,7 @@ const Index = ({ allPosts }: Props) => {
         <div className="pb-8">
           <Container>
             <Header />
-            <div className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6">
+            <div className="mb-8 mt-4 mx-auto max-w-7xl px-4 sm:px-6">
               <Intro />
               {allPosts.length > 0 && <AllStories posts={allPosts} />}
             </div>
