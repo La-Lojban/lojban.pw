@@ -83,9 +83,13 @@ a {
   z-index: 1;
 }
 
-article svg {
-  @apply dark:invert
+@media (prefers-color-scheme: dark) {
+  img, svg {
+    filter: invert(0);
+    mix-blend-mode: difference;
+  }
 }
+
 article h2 {
   @apply text-3xl my-4 leading-snug;
 }
