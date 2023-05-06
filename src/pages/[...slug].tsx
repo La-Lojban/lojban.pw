@@ -70,8 +70,8 @@ const Post = ({ post, preview }: Props) => {
               <article className="mt-10 mx-auto max-w-7xl px-4 sm:mt-8 sm:px-6 flex md:flex-row flex-wrap">
                 <Head>
                   <title>{title}</title>
-                  {post?.ogImage?.url && (
-                    <meta property="og:image" content={post?.ogImage?.url} />
+                  {post?.ogImage && (
+                    <meta property="og:image" content={post?.ogImage} />
                   )}
                   <meta property="og:title" content={title} />
                   {post?.["meta.description"] && (

@@ -45,7 +45,6 @@ function cssifyName(text) {
     const langs = meta[0]._sheet.headerValues.filter(
       (lang) => lang.indexOf("!") !== 0
     );
-    // let extractedTitle = title;
     table[title] = [];
     buttons[title] = [];
     let columns = {};
@@ -99,6 +98,8 @@ function cssifyName(text) {
     table[title].push(`<tbody>`);
 
     const header = columns["glico"][1] ?? title;
+    const slug = sluggify(header);
+
     const priority = (columns["lojbo"] ?? []).slice(4).join("\n").length;
     const author = columns["glico"][2] ?? "";
     const description = `${header} - ${author}`
@@ -108,7 +109,26 @@ function cssifyName(text) {
     const keywords = Object.keys(columns)
       .map((lang) => columns[lang][1])
       .join(", ");
+    let ogImage;
     for (const index in columns[langs[0]]) {
+      const lineNo = parseInt(index) + 1;
+      if (
+        fs.existsSync(
+          `/app/src/public/assets/pixra/texts/${slug}/${lineNo}.svg`
+        )
+      ) {
+        ogImage = ogImage ?? `/assets/pixra/texts/${slug}/${lineNo}.svg`;
+        table[title].push(
+          `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+            <td colspan="${langs.length}">
+            <div class="h-full w-full flex justify-center items-center">
+            <img class="h-56" src="/assets/pixra/texts/${slug}/${lineNo}.svg"/>
+            </div>
+            </td>
+          </tr>
+          `
+        );
+      }
       table[title].push(
         `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">`
       );
@@ -139,31 +159,21 @@ ${table[title].join("")}
 `,
       { filepath: filepath }
     );
-    //     const content = `
-    //     <!DOCTYPE html>
-    // <html>
-    // <title>${title}</title>
-    // <head>
-    // <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    // <link rel="stylesheet" href="style.css"/>
-    // </head>
-    // <body>
-    // ${contentMd}
-    // </body>
-    // </html>
-    //     `;
+    const graymatter = [
+      { key: "title", value: header },
+      { key: "meta.type", value: "korpora" },
+      { key: "meta.description", value: description },
+      { key: "meta.keywords", value: keywords },
+      { key: "meta.author", value: author },
+      { key: "ogImage", value: ogImage },
+      { key: "meta.priority", value: priority },
+    ].filter((el) => el.value !== undefined);
+
     contentMd = `---
-title: ${header}
-meta.type: korpora
-meta.description: ${description}
-meta.keywords: ${keywords}
-meta.author: ${author}
-meta.priority: ${priority}
+${graymatter.map(({ key, value }) => `${key}: ${value}`).join("\n")}
 ---
 
 ${contentMd}`;
-    const slug = sluggify(header);
-    // fs.writeFileSync(filepath, prettier.format(content, { filepath }));
     const filepath_md = path.join("/app/src/md_pages/texts", slug + ".md");
     fs.writeFileSync(filepath_md, contentMd);
     console.log(`generated "${title}" corpus entry`);

@@ -1,5 +1,7 @@
 ---
 title: 🎓 ‘Learn Lojban’ course
+ogImage: /assets/pixra/cilre/tcidu_la_lojban.svg
+coverImage: /assets/pixra/cilre/tcidu_la_lojban.svg
 ---
 
 <div class="lojbo"></div>

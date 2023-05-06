@@ -1,6 +1,5 @@
 import Avatar from "./avatar";
 import DateFormatter from "./date-formatter";
-import CoverImage from "./cover-image";
 import PostTitle from "./post-title";
 import Author from "../types/author";
 import { TPost } from "../types/post";
@@ -11,18 +10,13 @@ type Props = {
 };
 
 const PostHeader = ({ post }: Props) => {
-  const { author, title, coverImage, date } = post;
+  const { author, title, date } = post;
   return (
     <>
       {title && <PostTitle>{title}</PostTitle>}
       {author?.name && (
         <div className="hidden md:block md:mb-12">
           <Avatar name={author?.name} picture={author?.picture} />
-        </div>
-      )}
-      {title && coverImage && (
-        <div className="mb-8 md:mb-16 sm:mx-0">
-          <CoverImage title={title} src={coverImage} />
         </div>
       )}
       {(author || date) && (

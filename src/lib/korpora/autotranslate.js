@@ -1,5 +1,4 @@
 const puppeteer = require("playwright-core");
-// const fs = require("fs");
 
 let browser;
 
@@ -125,11 +124,6 @@ async function autoSplitNTranslate({ title, text: arrText, limit, from, to, chun
     );
   }
 
-  // for (let i in chunks) {
-  //   const chunk = chunks[i];
-  //   out.push(...(await translateText({ text: chunk, from, to })).split(/\n/));
-  //   console.log(`${title}, chunk ${i} out of ${chunks.length} translated`);
-  // }
   return out.join("\n");
 }
 

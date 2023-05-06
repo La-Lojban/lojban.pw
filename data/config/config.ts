@@ -35,7 +35,7 @@ export const footer = [
 ];
 
 export const header = [
-  { name: "🎓 Learn Lojban", url: "/books/learn-lojban", ogImage: '/assets/pixra/cilre/tcidu_la_lojban.svg' },
+  { name: "🎓 Learn Lojban", url: "/books/learn-lojban" },
   { name: "💬 Live chat", url: "/articles/live_chat" },
   { name: "📑 Texts", url: "/texts", ogImage: '/assets/pixra/ralju/texts.svg' },
   { name: "📕 Full grammar", url: "/articles/complete-lojban-language" },
