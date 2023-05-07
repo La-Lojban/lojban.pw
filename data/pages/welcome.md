@@ -17,7 +17,7 @@ This course teaches Lojban from its formal foundations, but in simple terms and 
 
 ## [Live Lojban chat](https://discord.gg/wasp5fj) in the Discord messenger
 
-## Unofficial ‘Complete Lojban Language’ Book, July 2021 Edition
+## Unofficial ‘Complete Lojban Language’ Book, October 2022 Edition
 
 This book adheres to the original book published in 1997 and:
 

@@ -8188,7 +8188,7 @@ The scale itself can be specified using the modal tag **ci'u**.
 
 **na'e** is more vague than **no'e** and **to'e**; it can mean any of them when you don't care about the exact meaning.
 
-### Complex modal terms: ‘_because_’ — «**ki'u**», ‘_despite_’ — «**to'e ki'u nai
+### Complex modal terms: ‘_because_’ — «**ki'u**», ‘_despite_’ — «**to'e ki'u nai**»
 
 Modal terms can be negated in two ways to obtain related meanings.
 
@@ -8257,7 +8257,7 @@ se to'e ki'u
 se to'e ki'u nai
 : …, the absence of which does not explain the fact that …
 
-> **ra bilma se to'e ki'u le nu ra penmi le mikce**
+> **ra bilma se to'e ki'u nai le nu ra penmi le mikce**
 > _He is not ill, and that doesn't explain why he is meeting the doctor._
 
 mikce
