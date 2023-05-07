@@ -4469,7 +4469,7 @@ In this case, you probably thought that was something dangerous, but it's only a
 : interjection: _Ha-ha!_ (amusement)
 
 zmitci
-: ... is an automatic tool
+: … is an automatic tool
 
 You can add or remove interjections to or from a sentence without the risk of breaking it.
 
@@ -4575,10 +4575,10 @@ ji'a
 : _additionally, also_, means that there exist others who also are the same (_you_ in this case) or who do the same
 
 salta
-: ... is some salad
+: … is some salad
 
 grute
-: ... is a fruit
+: … is a fruit
 
 > **mi si'a nelci do**
 > `I too like you`
@@ -7119,7 +7119,7 @@ mi'a
 : we without you
 
 gugde
-: ... is a country
+: … is a country
 
 > **mi ba zi ze'a xabju la .djakartas.**
 > _Pretty soon, I'm going to live in Jakarta for a while._
@@ -7170,6 +7170,9 @@ Examples:
 
 > **mi ba tavla le mikce**
 > _I will speak to the doctor (and I might be speaking now too)._
+
+mikce
+: x1 is a doctor
 
 <!-- -->
 
@@ -8149,35 +8152,116 @@ masti
 djedi
 : $x_1$ (event) is $x_2$ (number) full days long
 
-<!-- ### New verbs from one scale
+### New verbs from one scale: ‘_other than_’ — «**na'e**», ‘_anti-_’ — «**to'e**»
 
->**mi na'e nelci do**
->_I other than like you._
+> **mi na'e nelci do**
+> _I other than like you._
 
-"Left scalar" particles (to which **na'e** belongs) are put to the left of constructs they affect and form a scale:
+"Left scalar" particles (to which **na'e** belongs) are placed to the left of constructs they affect, forming a scale:
 
-- **je'a** = _indeed (the affirmative position on the scale)_. The word **je'a** confirms the meaning of a part of sentence. Usually it's just omitted.
+The scale itself can be specified using the modal tag **ci'u**.
 
-		>**mi je'a nelci do**
-		>_I indeed like you._
+- **je'a** = _indeed (the affirmative position on the scale)_. The word **je'a** confirms the meaning of a part of a sentence. Usually, it's just omitted.
+
+        > **mi je'a nelci do**
+        > _I indeed like you._
 
 - **na'e** = _non- (other than the affirmative position on the scale)_
 
-		>**mi na'e nelci do**
-		>_I other than like you._
+        > **mi na'e nelci do**
+        > _I other than like you._
 
-- **no'e** = _not really (midpoint on the scale)_. The word **no'e** makes a part of sentence middle in its meaning.
+    > **le stizu cu na'e xunre be ci'u le ka skari**
+    > _The chair is of a non-red color._
+    > `The chair is other-than red on the scale of having a color`
 
-			>**mi no'e nelci do**
-			>_As for whether I love or hate you, I'm indifferent to you. I neither like nor hate you._
+- **no'e** = _not really (midpoint on the scale)_. The word **no'e** gives a part of a sentence a middle meaning.
 
-- **to'e** = _anti-, dis-, mis- etc. (opposite on the scale)_. The word **to'e** makes a part of sentence opposite in its meaning. It's similar to English _anti-_.
+        > **mi no'e nelci do**
+        > _As for whether I love or hate you, I'm indifferent to you. I neither like nor hate you._
 
-			>**mi to'e nelci do**
-			>_I hate you._
-			>`I anti-like you`
+- **to'e** = _anti-, dis-, mis- etc. (opposite on the scale)_. The word **to'e** gives a part of a sentence an opposite meaning. It's similar to the English prefix _anti-_.
 
-**na'e** is more vague than **no'e** and **to'e**, it can mean any of them when you don't care about the exact meaning. -->
+        > **mi to'e nelci do**
+        > _I hate you._
+        > `I anti-like you`
+
+**na'e** is more vague than **no'e** and **to'e**; it can mean any of them when you don't care about the exact meaning.
+
+### Complex modal terms: ‘_because_’ — «**ki'u**», ‘_despite_’ — «**to'e ki'u nai
+
+Modal terms can be negated in two ways to obtain related meanings.
+
+ki'u
+: modal term: because, due to explanation …, which can be explained by the fact that …
+
+> **ki'u ma do cusku zo co'o**
+> _Why do you say goodbye?_
+
+Adding the suffix **nai** changes the meaning:
+
+ki'u nai
+: modal term: not because, which cannot be explained by the fact that …
+
+> **mi se nabmi ki'u nai le nu mi laldo ce'e ki'u le nu mi na certu**
+> _I'm in trouble not because I'm old but because I'm not an expert._
+
+nabmi
+: x1 is a problem to x2
+
+se nabmi
+: x1 has a problem x2
+
+laldo
+: x1 is old …
+
+certu
+: x1 is an expert, professional in property x2
+
+Adding **to'e** sets the negation of the meaning:
+
+to'e ki'u
+: because not, which can be explained by the fact that it does not happen that …
+
+> **mi jinga to'e ki'u le nu mi pu surla**
+> _I won because I hadn't rested._
+
+Combining both **to'e** and **nai** we get:
+
+to'e ki'u nai
+: despite the reason …, not because not, which cannot be explained by the fact that it does not happen…, 
+
+> **.i to'e ki'u nai le nu le mamta cu sanga su'o melbi kei le verba na snada lo ka sipna**
+> _Despite the mother singing beautifully, the child doesn't succeed in falling asleep._
+
+Using **se** changes the order of arguments. Otherwise, the meaning is preserved.
+
+se ki'u
+: therefore, which explains the fact that …
+
+> **ra bilma se ki'u le nu ra na pu cusku zo coi do**
+> _He is ill, which explains why he didn't say hello to you._
+
+se ki'u nai
+: but it does not follow that …, which does not explain the fact that …
+
+> **ra bilma se ki'u nai le nu ra klama le drata tcadu**
+> _He is ill, which doesn't explain why he is going to another city._
+
+se to'e ki'u
+: …, the absence of which explains the fact that …
+
+> **ra bilma se to'e ki'u le nu ra klama le drata tcadu**
+> _He is not ill, and that explains why he is going to another city._
+
+se to'e ki'u nai
+: …, the absence of which does not explain the fact that …
+
+> **ra bilma se to'e ki'u le nu ra penmi le mikce**
+> _He is not ill, and that doesn't explain why he is meeting the doctor._
+
+mikce
+: x1 is a doctor
 
 ## Lesson 8. Terms and math
 
@@ -8448,7 +8532,7 @@ _Therefore_ is the reverse word compared to _because_:
 > _The skies are crying. Therefore, the road is wet._
 
 **cilmo**
-: ... is wet
+: … is wet
 
 Another type of _why_ is **ni'i**:
 
