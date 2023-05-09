@@ -8163,28 +8163,28 @@ The scale itself can be specified using the modal tag **ci'u**.
 
 - **je'a** = _indeed (the affirmative position on the scale)_. The word **je'a** confirms the meaning of a part of a sentence. Usually, it's just omitted.
 
-        > **mi je'a nelci do**
-        > _I indeed like you._
+  > **mi je'a nelci do**
+  > _I indeed like you._
 
 - **na'e** = _non- (other than the affirmative position on the scale)_
 
-        > **mi na'e nelci do**
-        > _I other than like you._
+  > **mi na'e nelci do**
+  > _I other than like you._
 
-    > **le stizu cu na'e xunre be ci'u le ka skari**
-    > _The chair is of a non-red color._
-    > `The chair is other-than red on the scale of having a color`
+  > **le stizu cu na'e xunre be ci'u le ka skari**
+  > _The chair is of a non-red color._
+  > `The chair is other-than red on the scale of having a color`
 
 - **no'e** = _not really (midpoint on the scale)_. The word **no'e** gives a part of a sentence a middle meaning.
 
-        > **mi no'e nelci do**
-        > _As for whether I love or hate you, I'm indifferent to you. I neither like nor hate you._
+  > **mi no'e nelci do**
+  > _As for whether I love or hate you, I'm indifferent to you. I neither like nor hate you._
 
 - **to'e** = _anti-, dis-, mis- etc. (opposite on the scale)_. The word **to'e** gives a part of a sentence an opposite meaning. It's similar to the English prefix _anti-_.
 
-        > **mi to'e nelci do**
-        > _I hate you._
-        > `I anti-like you`
+  > **mi to'e nelci do**
+  > _I hate you._
+  > `I anti-like you`
 
 **na'e** is more vague than **no'e** and **to'e**; it can mean any of them when you don't care about the exact meaning.
 
