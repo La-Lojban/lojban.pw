@@ -299,6 +299,8 @@ Unlike in English we don't have to add the verb "am/is/are/to be" to the sentenc
 > **do jimpe**
 > _You understand._
 
+jimpe
+: … understands … (something)
 <!-- -->
 
 <pixra url="/assets/pixra/cilre/pilno_le_fonxa.svg" caption="le prenu cu pilno le fonxa" definition="The person uses the phone."></pixra>
