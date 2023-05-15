@@ -85,8 +85,7 @@ a {
 
 @media (prefers-color-scheme: dark) {
   img, svg {
-    filter: invert(0);
-    mix-blend-mode: difference;
+    filter: invert(1) hue-rotate(180deg);
   }
 }
 
