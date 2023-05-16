@@ -636,7 +636,6 @@ Close the right part of the table. Translate the sentences on the left to Lojban
 
 Compound verb (**le tanru** in Lojban) are several verb words placed one after another.
 
-
 > **tu melbi zdani**
 > _That one is a nice home._
 
@@ -661,7 +660,7 @@ dansu
 
 Here, the verb **melbi** adds an additional meaning as it is to the left of another verb: **zdani**. The left part is usually translated using adjectives and adverbs.
 
-Compound verbs are a powerful tool that can give us richer verbs. You just string two verbs together, and the left part of such compound verb adds a flavor to the right one.
+Compound verbs are a powerful feature that produces richer meanings. You just string two verbs together, and the left part of such compound verb adds a flavor to the right one.
 
 We can put **le** (e.g. with a number) to the left of such compound verb getting a compound noun:
 
