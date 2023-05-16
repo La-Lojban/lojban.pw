@@ -632,9 +632,9 @@ Close the right part of the table. Translate the sentences on the left to Lojban
  </tbody>
 </table>
 
-### Compound verbs
+### Compound verb
 
-Compound verbs (**le tanru** in Lojban) are several verb words placed one after another.
+Compound verb (**le tanru** in Lojban) are several verb words placed one after another.
 
 
 > **tu melbi zdani**
