@@ -658,7 +658,7 @@ zdani
 dansu
 : … dances
 
-Here, the verb **melbi** adds an additional meaning as it is to the left of another verb: **zdani**. The left part is usually translated using adjectives and adverbs.
+Here, the verb **melbi** adds an additional meaning as it is placed to the left of another verb: **zdani**. The left part is usually translated using adjectives and adverbs.
 
 Compound verbs are a powerful feature that produces richer meanings. You just string two verbs together, and the left part of such compound verb adds a flavor to the right one.
 
