@@ -83,11 +83,11 @@ a {
   z-index: 1;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   img, svg {
     filter: invert(1) hue-rotate(180deg);
   }
-}
+} */
 
 article h2 {
   @apply text-3xl my-4 leading-snug;
