@@ -4049,10 +4049,48 @@ Another approach is to use **me**:
 > **mi me la .robin.djonsyn.**
 > _I'm Robin Johnson._
 
-Note that the first place of **cmene** is a quote, a text. Therefore, we use **lu … li'u** or **zo** to create a quote and fill the first place of **cmene** with it, instead of **la** (prefix for names). Thus, we write **mi me la .robin.** but
+Notice the difference: _"Robin"_ with quotation marks is a quoted name, whereas Robin is a person.
 
-> **zo .robin. cmene mi**
-> `"Robin" (quotation) is a name of me`
+To show this better, here is a silly variation:
+> **zo .robin. cmene la .robin.**
+> _"Robin" is Robin's name._
+> _"Robin" is a name of Robin._
+
+The first place of **cmene** is a quote, a text. Therefore, we use **lu … li'u** or **zo** to create a quote and fill the first place of **cmene** with it, instead of **la** (prefix for names).
+
+### Verbs of speech
+
+Here are some relations related to speech:
+
+> **mi pu skicu le purdi le pendo be mi lo ka bredi**
+> _I told my friend about my garden being ready._
+
+skicu
+: $x_1$ tells about $x_1$ (object/event/state) to $x_3$ with description $x_4$ (property)
+
+bredi
+: … is ready to …
+
+> **mi pu cusku lu le purdi cu bredi li'u le pendo be mi lo ka cladu bacru**
+> _I said to my friend, "The garden is ready," by uttering it loudly._
+
+cusku
+: $x_1$ says $x_2$ (text) for audience $x_3$ via medium $x_4$
+
+cladu
+: … is loud
+
+> **mi pu tavla le pendo be mi le nu le purdi cu bredi kei le lojbo**
+> _I talked to my friend in Lojban about the garden being ready._
+
+tavla
+: $x_1$ talks to $x_2$ about subject $x_3$ in language $x_4$
+
+In short:
+
+* **skicu** means _to tell_, _to describe with some description_,
+* **cusku** means _to say some text_,
+* **tavla** means _to talk in a language_.
 
 ### Content questions
 
