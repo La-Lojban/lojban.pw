@@ -2,7 +2,24 @@ const puppeteer = require("playwright-core");
 const fs = require("fs");
 const { sluggify } = require("../html-prettifier/slugger");
 
+function findFoldersWithName(startPath, folderName, folders = []) {
+	const files = fs.readdirSync(startPath);
+	for (const file of files) {
+	  const filePath = path.join(startPath, file);
+	  const stat = fs.statSync(filePath);
+	  if (stat.isDirectory()) {
+		if (file === folderName) {
+		  folders.push(filePath);
+		} else {
+		  findFoldersWithName(filePath, folderName, folders);
+		}
+	  }
+	}
+	return folders;
+  }
+
 (async function printPDF() {
+	// const folders = findFoldersWithName('/app/src/md_pages/', 'books');
 	const urls = fs
 		.readdirSync("/app/src/md_pages/books/")
 		.filter((i) => i.endsWith(".md"))
