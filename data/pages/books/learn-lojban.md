@@ -30,7 +30,7 @@ Lojban uses the Latin alphabet (vowels are colored):
 
 <dl><dd><b><font color="#FF1493">a</font> b c d <font color="#FF1493">e</font> f g <font color="#FF1493">i</font> j k l m n <font color="#FF1493">o</font> p r s t <font color="#FF1493">u</font> v x <font color="#FF1493">y</font> z ' .</b></dd></dl>
 
-Letters are pronounced as they are written.
+Words are pronounced as they are written.
 
 There are 10 vowels in Lojban:
 
@@ -290,7 +290,7 @@ Some more examples:
 > _I am a new student._
 
 nintadni
-: … is a new student, a newbie
+: … (someone) is a new student, a newbie
 
 <pixra url="/assets/pixra/cilre/nintadni.svg" caption="mi nintadni" definition="I am a new student, a fresher."></pixra>
 
@@ -300,7 +300,7 @@ Unlike in English we don't have to add the verb "am/is/are/to be" to the sentenc
 > _You understand._
 
 jimpe
-: … understands … (something)
+: … (someone) understands … (something)
 <!-- -->
 
 <pixra url="/assets/pixra/cilre/pilno_le_fonxa.svg" caption="le prenu cu pilno le fonxa" definition="The person uses the phone."></pixra>
@@ -310,7 +310,7 @@ jimpe
 
 
 pilno
-: … uses … (something)
+: … (someone) uses … (something)
 
 fonxa
 : … is a phone, … are phones
@@ -323,7 +323,7 @@ le fonxa
 > _I eat._
 
 citka
-: … eats … (something)
+: … (someone) eats … (something)
 
 <pixra url="/assets/pixra/cilre/citka.svg" caption="mi citka" definition="I eat."></pixra>
 <!-- -->
