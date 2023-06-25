@@ -259,8 +259,6 @@ le tavla
 <tbody>
 <tr>
 <td><b>prenu</b> — <i>быть человеком</i> </td>
-
-html
 <td><b>le prenu</b> — <i>человек</i>
 </td></tr>
 <tr>
@@ -360,7 +358,6 @@ citka
 ti
 : местоимение: это вещь рядом со мной
 
-html
 <pixra url="/assets/pixra/cilre/ti.svg" caption="ti" definition="этот (рядом со мной, говорящим)"></pixra>
 
 Аналогично, вы можете сказать
@@ -4864,9 +4861,6 @@ ju'a
 <tr>
 <td><b>.u'a</b><br/><small>"уха" как в "пол<u>у ха</u>лва"</small><br/><i>выгода</i>
 </td>
-</tbody></table>
-
-html
 <td><b>.u'e</b><br/><small>"ooheh" как "два головы"</small><br/><i>какое чудо!</i>
 </td>
 <td><b>.u'i</b><br/><small>"ooheeh" как "два каблука"</small><br/><i>ха-ха-ха!</i>
