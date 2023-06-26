@@ -294,7 +294,7 @@ nintadni
 
 <pixra url="/assets/pixra/cilre/nintadni.svg" caption="mi nintadni" definition="I am a new student, a fresher."></pixra>
 
-Unlike in English we don't have to add the verb "am/is/are/to be" to the sentence. It is already there. The relation word **nintadni** (_… is a new student_) already has this English "am/is/are/to be" built into its English translation.
+Unlike in English we don't have to add the verb "am/is/are/to be" to the sentence. It is already implied. The relation word **nintadni** (_… is a new student_) already has this English "am/is/are/to be" built into its English translation.
 
 > **do jimpe**
 > _You understand._
@@ -341,9 +341,13 @@ citka
 > **le plise cu kukte**
 > _The apples are tasty._
 
-<pixra url="/assets/pixra/cilre/le_plise_cu_kukte.svg" caption="le plise cu kukte" definition="The apples are tasty."></pixra>
+le plise
+: the apples
 
-Here, **le plise** means _the apples_, **kukte** means _is tasty / are tasty_.
+kukte
+:  … (something) is tasty
+
+<pixra url="/assets/pixra/cilre/le_plise_cu_kukte.svg" caption="le plise cu kukte" definition="The apples are tasty."></pixra>
 
 A simpler sentence in Lojban would contain only one main relation word:
 
@@ -438,7 +442,7 @@ Close the right part of the table. Translate the sentences on the left from Lojb
 
 ### «**.i**» separates sentences
 
-The most precise way of uttering or writing sentences in Lojban would be placing a short word **.i** in the beginning of each of them:
+We place a short word **.i** to separate any two consecutive sentences:
 
 > **mi tavla le prenu .i le prenu cu tavla mi**
 > _I'm talking to the people. The people are talking to me._
@@ -516,7 +520,7 @@ Let's add a number after **le**.
 
 We add a number after **le** and thus specify individual people.
 
-For numbers consisting of several digits, we just string those digits together.
+For numbers consisting of several digits, we just string those digits together:
 
 > **le re mu prenu cu tavla mi**
 > _The 25 people talk to me._
@@ -552,7 +556,7 @@ To say just _people_ (plural number) as opposed to _one person_, we use **za'u p
 **za'u** by default means **za'u pa**, hence such contraction is possible.
 
 le prenu
-: the person / the people (in general)
+: the person / the people
 
 le pa prenu
 : the person (one in number)
@@ -563,7 +567,7 @@ le za'u prenu
 #### Task
 
 stati
-: … is smart, … has a talent
+: … (someone) is smart, … has a talent
 
 <pixra url="/assets/pixra/cilre/stati.svg" caption="stati" definition="… has a talent"></pixra>
 
