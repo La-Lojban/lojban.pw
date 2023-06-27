@@ -1,5 +1,5 @@
 ---
-title: 🎓 Cours "Apprendre le Lojban"
+title: 🎓 Cours de lojban
 ogImage: /assets/pixra/cilre/tcidu_la_lojban.svg
 coverImage: /assets/pixra/cilre/tcidu_la_lojban.svg
 ---
@@ -14,71 +14,71 @@ coverImage: /assets/pixra/cilre/tcidu_la_lojban.svg
 
 <div class="lojbo"></div>
 
-Comment utiliser ce cours :
+À propos de ce cours :
 
-1. Lisez-le
-2. Recueillez vos commentaires et suggestions
-3. Envoyez-les à [💬 le chat en direct](https://lojban.pw/articles/live_chat/)
-## Leçon 1. La langue en un coup d'œil
+1. Lisez-le !
+2. Notez vos commentaires et suggestions.
+3. Envoyez-les sur [💬 le chat](https://lojban.pw/articles/live_chat/)
+## Leçon 1. Tour d'horizon de la langue
 
 ### Alphabet
 
-La chose de base que vous devez savoir sur Lojban est l'alphabet.
-
-Lojban utilise l'alphabet latin (les voyelles sont colorées) :
+Pour commencer, il faut savoir que l'alphabet du lojban s'appuie sur un alphabet latin, comme en français (voyelles en couleur) :
 
 <dl><dd><b><font color="#FF1493">a</font> b c d <font color="#FF1493">e</font> f g <font color="#FF1493">i</font> j k l m n <font color="#FF1493">o</font> p r s t <font color="#FF1493">u</font> v x <font color="#FF1493">y</font> z ' .</b></dd></dl>
 
-Les lettres sont prononcées comme elles sont écrites.
+En revanche, tout se prononce comme cela s'écrit ; chaque lettre se prononce indépendamment.
 
-Il y a 10 voyelles en Lojban :
+Il y a 6 voyelles simples en lojban, qui sont relativement proches des voyelles françaises :
 
 <table>
 <tbody><tr>
 <td><b class="audio-inline"><font color="#FF1493" class="guibutton">a</font></b></td>
-<td> comme dans <i>p<u>è</u>re</i> (pas comme dans <i>face</i>)</td>
+<td> comme dans <i>t<u>a</u>ble</i></td>
 </tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton"color="#FF1493">e</font></b></td>
-<td> comme dans <i>g<u>è</u>te</i></td>
+<td> comme dans <i>m<u>e</u>rci</i> ou dans <i>fen<u>ê</u>tre</i> ("è", et non "e" ou "eu" comme dans <i>jeu</i>)</td>
 </tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton" color="#FF1493">i</font></b></td>
-<td> comme dans <i>mach<u>i</u>ne</i> (pas comme dans <i>hit</i>)</td>
+<td> comme dans <i>mach<u>i</u>ne</i></td>
 </tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton" color="#FF1493">o</font></b></td>
-<td> comme dans <i>ch<u>oi</u>x</i>, <i>n<u>o</u>t</i> ou <i>ough</i> dans <i>th<u>ough</u>t</i> (pas comme dans <i>so</i>, <b>o</b> doit être un son "pur").</td>
+<td> comme dans <i>p<u>o</u>rte</i> (un "o" ouvert, et non fermé comme dans <i>beau</i> ou <i>bateau</i>).</td>
 </tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton" color="#FF1493">u</font></b></td>
-<td> comme dans <i>c<u>ou</u>l</i> (pas comme dans <i>but</i>)</td>
+<td> comme dans <i>p<u>ou</u>le</i> ("ou", et non "u" comme dans <i>but</i>)</td>
 </tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton" color="#FF1493">y</font></b></td>
-<td> comme dans <i>comm<u>a</u></i> (pas comme dans <i>misty</i> ou <i>cycle</i>)</td>
+<td> comme dans <i>je</i> ("e" ouvert), parfois comme <i>cr<u>eu</u>x</i> ou <i>entr<u>e</u>prise</i> (selon les accents)</td>
 </tr>
 <tr>
 </tbody></table>
 
-4 voyelles sont écrites en utilisant des combinaisons de lettres :
+Comme les lettres successives sont lues séparément, il n'y a pas de digramme comme "ai" (prononcé "è"), "ez" (prononcé "é"), "ou", "ain", etc. L'on peut malgré tout considérer les "voyelles composites" suivantes :
 
 <table>
 <tbody><tr>
 <td><b class="audio-inline"><font color="#FF1493" class="guibutton">au</font></b></td>
-<td> comme dans <i>v<u>ache</u></i></td></tr>
+<td> comme dans "<i>mi<u>aou</u> !</i>"</tr>
 <tr>
 <td><b class="audio-inline"><font color="#FF1493" class="guibutton">ai</font></b></td>
-<td> comme dans <i>h<u>aute</u></i></td></tr>
+<td> comme dans <i>m<u>aï</u>s</i>, et très proche de <i>p<u>aille</u></i></td></tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton"color="#FF1493">ei</font></b></td>
-<td> comme dans <i>h<u>ey</u></i></td></tr>
+<td> comme dans <i>p<u>ay</u>s</i>, et très proche de <i>bout<u>eille</u></i></td></tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton" color="#FF1493">oi</font></b></td>
-<td> comme dans <i>garç<u>on</u></i></td></tr>
+<td> comme dans <i>M<u>oï</u>se</i></td></tr>
 </tbody></table>
 
-Quant aux consonnes, elles sont prononcées comme en anglais ou en latin, mais il y a plusieurs différences :
+Quant aux consonnes, elles sont elles aussi très proches du français, de l'anglais, ou du latin. Il y a tout de même quelques différences :
+
+<!-- CONTINUER LA TRADUCTION CI-DESSOUS -->
 
 <table>
 <tbody><tr>
