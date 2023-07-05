@@ -1,8 +1,13 @@
 ---
-title: 🎓 Cours "Apprendre le Lojban"
+title: 🎓 Cours de lojban
 ogImage: /assets/pixra/cilre/tcidu_la_lojban.svg
 coverImage: /assets/pixra/cilre/tcidu_la_lojban.svg
 ---
+
+<!-- Author of trans-creation (translation, localisation, adaptation to culture): Sukender (Benoit NEIL) -->
+<!-- Source language: English -->
+<!-- Target language: FR_fr - Français, France (orthographe moderne, dite "1990") -->
+<!-- Special additions or changes (compared to the source) are tagged with "L10N" in this source code: "L10N: <somme additional info>" -->
 
 <div class="lojbo"></div>
 <div class="print:hidden">
@@ -14,129 +19,138 @@ coverImage: /assets/pixra/cilre/tcidu_la_lojban.svg
 
 <div class="lojbo"></div>
 
-Comment utiliser ce cours :
+À propos de ce cours :
 
-1. Lisez-le
-2. Recueillez vos commentaires et suggestions
-3. Envoyez-les à [💬 le chat en direct](https://lojban.pw/articles/live_chat/)
-## Leçon 1. La langue en un coup d'œil
+1. Lisez-le !
+2. Notez vos commentaires et suggestions.
+3. Envoyez-les sur [💬 le chat](https://lojban.pw/articles/live_chat/)
+## Leçon 1. Tour d'horizon de la langue
 
 ### Alphabet
 
-La chose de base que vous devez savoir sur Lojban est l'alphabet.
-
-Lojban utilise l'alphabet latin (les voyelles sont colorées) :
+Pour commencer, il faut savoir que l'alphabet du lojban s'appuie sur un alphabet latin, comme en français (voyelles en couleur) :
 
 <dl><dd><b><font color="#FF1493">a</font> b c d <font color="#FF1493">e</font> f g <font color="#FF1493">i</font> j k l m n <font color="#FF1493">o</font> p r s t <font color="#FF1493">u</font> v x <font color="#FF1493">y</font> z ' .</b></dd></dl>
 
-Les lettres sont prononcées comme elles sont écrites.
+<!-- L10N: Added examples of phonetic languages -->
+En revanche, tout se prononce comme cela s'écrit, et tout s'écrit comme cela se prononce ! Le lojban possède une écriture parfaitement phonétique, comme le turc ou le finnois. D'autres langues sont "presque" dans ce cas, comme l'espagnol, l'italien, ou le russe.
 
-Il y a 10 voyelles en Lojban :
+Il y a 6 voyelles simples en lojban, qui sont relativement proches des voyelles françaises :
 
 <table>
 <tbody><tr>
 <td><b class="audio-inline"><font color="#FF1493" class="guibutton">a</font></b></td>
-<td> comme dans <i>p<u>è</u>re</i> (pas comme dans <i>face</i>)</td>
+<td> comme dans <i>t<u>a</u>ble</i></td>
 </tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton"color="#FF1493">e</font></b></td>
-<td> comme dans <i>g<u>è</u>te</i></td>
+<td> comme dans <i>m<u>e</u>rci</i> ou dans <i>fen<u>ê</u>tre</i> ("è", et non "e" ou "eu" comme dans <i>jeu</i>)</td>
 </tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton" color="#FF1493">i</font></b></td>
-<td> comme dans <i>mach<u>i</u>ne</i> (pas comme dans <i>hit</i>)</td>
+<td> comme dans <i>mach<u>i</u>ne</i></td>
 </tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton" color="#FF1493">o</font></b></td>
-<td> comme dans <i>ch<u>oi</u>x</i>, <i>n<u>o</u>t</i> ou <i>ough</i> dans <i>th<u>ough</u>t</i> (pas comme dans <i>so</i>, <b>o</b> doit être un son "pur").</td>
+<td> comme dans <i>p<u>o</u>rte</i> (un "o" ouvert, et non fermé comme dans <i>beau</i> ou <i>bateau</i>).</td>
 </tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton" color="#FF1493">u</font></b></td>
-<td> comme dans <i>c<u>ou</u>l</i> (pas comme dans <i>but</i>)</td>
+<td> comme dans <i>p<u>ou</u>le</i> ("ou", et non "u" comme dans <i>but</i>)</td>
 </tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton" color="#FF1493">y</font></b></td>
-<td> comme dans <i>comm<u>a</u></i> (pas comme dans <i>misty</i> ou <i>cycle</i>)</td>
+<td> comme dans <i>d<u>e</u></i> ("e ouvert") ou <i>entreprise</i></td>
 </tr>
 <tr>
 </tbody></table>
 
-4 voyelles sont écrites en utilisant des combinaisons de lettres :
+<!-- L10N: Added detail about "graphèmes" -->
+Il n'y a en lojban que des "graphèmes simples". Cela signifie que les lettres successives sont lues séparément et qu'il n'y a pas de "groupe" de lettres (digramme, trigramme, etc.) comme "ai" (prononcé "è"), "ez" (prononcé "é"), "ou", "ain", etc.
+Malgré tout, on peut considérer les "voyelles composites" suivantes :
 
 <table>
 <tbody><tr>
 <td><b class="audio-inline"><font color="#FF1493" class="guibutton">au</font></b></td>
-<td> comme dans <i>v<u>ache</u></i></td></tr>
+<td> comme dans "<i>mi<u>aou</u> !</i>"</tr>
 <tr>
 <td><b class="audio-inline"><font color="#FF1493" class="guibutton">ai</font></b></td>
-<td> comme dans <i>h<u>aute</u></i></td></tr>
+<td> comme dans <i>m<u>aï</u>s</i></td></tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton"color="#FF1493">ei</font></b></td>
-<td> comme dans <i>h<u>ey</u></i></td></tr>
+<td> comme dans <i>p<u>ay</u>s</i></td></tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton" color="#FF1493">oi</font></b></td>
-<td> comme dans <i>garç<u>on</u></i></td></tr>
+<td> comme dans <i>M<u>oï</u>se</i></td></tr>
 </tbody></table>
 
-Quant aux consonnes, elles sont prononcées comme en anglais ou en latin, mais il y a plusieurs différences :
+Quant aux consonnes, elles sont elles aussi très proches du français, de l'anglais, ou du latin. Il y a tout de même quelques différences :
 
 <table>
 <tbody><tr>
 <td><span class="audio-inline"><b class="guibutton">c</b></span>
 </td>
-<td>est prononcé comme <i>c</i> dans <i>océan</i>, comme <i>sh</i> dans <i>shop</i>.
+<td>est prononcé <i>ch</i> comme dans <i>chou</i> ("c" prononcé "à l'italienne").
 </td></tr>
 <tr>
 <td><span class="audio-inline"><b class="guibutton">g</b></span>
 </td>
-<td>toujours <i>g</i> comme dans <i>gum</i> (jamais <i>g</i> comme dans <i>gem</i>).
+<td>toujours prononcé <i>gu</i> comme dans <i>gâteau</i> (jamais <i>j</i> comme dans <i>gérer</i>, même suivi d'un "e" ou d'un "i").
 </td></tr>
 <tr>
 <td><span class="audio-inline"><b class="guibutton">j</b></span>
 </td>
-<td>comme <i>s</i> dans <i>plaisir</i> ou <i>trésor</i>, comme <i>j</i> en français <i>bonjour</i>.
+<td>comme dans <i>bonjour</i>.
 </td></tr>
 <tr>
 <td><span class="audio-inline"><b class="guibutton">x</b></span>
 </td>
-<td>comme le son <i>ch</i> dans le mot écossais <i>loch</i> ou comme dans le mot allemand <i>Bach</i>, comme le son <i>J</i> dans le mot espagnol <i>Jose</i> ou <i>Kh</i> dans le mot arabe moderne <i>Khaled</i>. Essayez de prononcer <i>ksss</i> tout en gardant votre langue en bas et vous obtenez ce son.
+<td>son inexistant en français, se prononçant comme la "jota" espagnole (<i>j</i> dans le prénom <i>Jose</i>), ou comme <i>ch</i> dans le mot écossais <i>loch</i>, ou <i>Kh</i> dans le prénom arabe moderne <i>Khaled</i>, ou comme dans le nom allemand <i>Bach</i>.
 </td></tr>
 <tr>
 <td><span class="audio-inline"><b class="guibutton"> ' </b></span>
 </td>
-<td>comme le son <i>h</i> en anglais. Ainsi, l'apostrophe est considérée comme une lettre à part entière en lojban et prononcée comme un <i>h</i>. Elle ne peut être trouvée qu'entre des voyelles. Par exemple, <b>u'i</b> est prononcé comme <i>oo-hee</i> (alors que <b>ui</b> est prononcé comme <i>wee</i>).
+<td><i>h</i> aspiré. L'apostrophe est considérée comme une lettre à part entière en lojban. Elle ne peut être trouvée qu'entre des voyelles. Par exemple, <b>u'i</b> est prononcé comme <i>ou-h-i</i> (alors que <b>ui</b> est prononcé comme <i>ou-i</i>).
 </td></tr>
 <tr>
 <td><span class="audio-inline"><b>.</b></span>
 </td>
-<td>un point (arrêt, fin de mot) est également considéré comme une lettre en lojban. C'est une courte pause dans la parole pour éviter que les mots ne se chevauchent. En fait, tout mot commençant par une voyelle a un point placé devant lui. Cela aide à éviter la fusion indésirable de deux mots consécutifs en un seul.
+<td>le point ("arrêt") est également considéré comme une lettre en lojban. Ce n'est pas un signe de ponctuation. C'est une courte pause dans la parole pour éviter que les mots ne se chevauchent. En fait, tout mot commençant par une voyelle a un point placé devant lui. Cela aide à éviter la fusion indésirable de deux mots consécutifs.
+</td></tr>
+<tr>
+<!-- L10N: Added a table entry for "r", removed the sentence about it below the table. -->
+<td><span class="audio-inline"><b class="guibutton">r</b></span>
+</td>
+<td>prononcé comme un "r roulé", comme le <i>r</i> en anglais, écossais, russe, ou autre. Il y a une large gamme de prononciations acceptables. Notez qu'il n'est pas recommandé de prononcer le <i>r</i> "à la française" car trop proche du <i>x</i> lojban.
+</td></tr>
+<tr>
+<!-- L10N: Added a specific entry for "s" as it is pronounced "z" in many cases in French. -->
+<td><span class="audio-inline"><b class="guibutton">s</b></span>
+</td>
+<td>toujours prononcé <i>s</i> comme dans <i>passer</i> (jamais <i>z</i> comme dans <i>poser</i>).
 </td></tr>
 <tr>
 <td><span class="audio-inline"><b>i</b></span>
 </td>
-<td><span class="audio-inline"><b>i</b></span> avant les voyelles est considéré comme une consonne et prononcé plus court, par exemple :
-<ul><li><b>ia</b> est prononcé comme <i>ya</i> dans <i>yard</i></li>
-<li><b>ie</b> est prononcé comme <i>ye</i> dans <i>yes</i></li></ul>
+<td><span class="audio-inline"><b>i</b></span> avant les voyelles est considéré comme une <a href="https://fr.wikipedia.org/wiki/Semi-voyelle">semi-voyelle</a> et prononcé plus court, par exemple :
+<ul><li><b>ia</b> est prononcé comme dans <i>pa<u>illa</u>sson</i></li>
+<li><b>ie</b> est prononcé comme dans <i>ma<u>illet</u></i></li></ul>
 </td></tr>
 <tr>
 <td><span class="audio-inline"><b>u</b></span>
 </td>
-<td><span class="audio-inline"><b>u</b></span> avant les voyelles est considéré comme une consonne et prononcé plus court, par exemple :
-<ul><li><b>ua</b> est prononcé comme <i>wo</i> dans <i>wow</i></li>
-<li><b>ue</b> est prononcé comme <i>whe</i> dans <i>when</i></li></ul>
+<td><span class="audio-inline">De même, <b>u</b></span> avant les voyelles est considéré comme une <a href="https://fr.wikipedia.org/wiki/Semi-voyelle">semi-voyelle</a> et prononcé plus court, par exemple :
+<ul><li><b>ui</b> est prononcé comme <i>oui</i></li>
+<li><b>ue</b> est prononcé comme <i>ouais</i></ul>
 </td></tr></tbody></table>
 
-L'accent est mis sur l'avant-dernière voyelle. Si un mot n'a qu'une seule voyelle, vous ne la prononcez pas.
+L'accent tonique d'un mot est mis sur l'avant-dernière voyelle du mot (si tant est qu'il ait plus d'une seule voyelle !). Ainsi <i>tavla</i> (qui signifie _parler à_) sera articulé <i>t<b>a</b>vla</i>.
 
-La lettre **r** peut être prononcée comme le _r_ en anglais, écossais, russe, donc il y a une gamme de prononciations acceptables pour elle.
+Notez que certains locuteurs utilisent des voyelles non-lojban (comme le _i_ court et le _u_ dans l'anglais britannique _hit_ et _but_) pour séparer les sons quand ils ont du mal à prononcer deux consonnes à la suite. Vous pourrez par exemple entendre **tavla** prononcé _tavɪla_ — où le _ɪ_ est très court. C'est cependant une exception : les voyelles (comme **a** et **u**) doivent être "longues".
 
-Des voyelles non-lojban comme le _i_ court et le _u_ dans l'anglais britannique standard _hit_ et _but_, sont utilisées par certaines personnes pour séparer les consonnes. Ainsi, si vous avez du mal à prononcer deux consonnes à la suite (par exemple, le **vl** dans **tavla**, qui signifie _parler à_), vous pouvez dire _tavɪla_ - où le _ɪ_ est très court. Cependant, d'autres voyelles comme **a** et **u** doivent être longues. 
+### Phrases simples
 
-### La phrase la plus simple
-
-Maintenant, construisons nos premières phrases en Lojban.
-
-L'unité de base en Lojban est la "phrase". Voici trois exemples simples :
+Construisons maintenant nos premières phrases en lojban. Voici trois exemples simples :
 
 > **le prenu cu tavla mi**
 > _La personne me parle._
@@ -145,7 +159,7 @@ le prenu
 : la personne
 
 tavla
-: ... parle à ..., ... parle avec ...
+: … parler à …, … parler avec …
 
 mi
 : moi
@@ -154,7 +168,7 @@ mi
 > _Je t'aime._
 
 prami
-: ... aime ... (quelqu'un)
+: … aimer … (quelqu'un)
 
 do
 : toi
@@ -165,41 +179,41 @@ do
 ca
 : maintenant
 
-Chaque phrase en Lojban se compose des parties suivantes de gauche à droite :
+Les phrases lojban contiennent les parties suivantes, de gauche à droite :
 
 - la tête :
-  - composée de "termes" appelés ainsi,
+  - composée de "termes",
   - **le prenu** est le seul terme de tête dans l'exemple **le prenu cu tavla mi** ci-dessus,
   - **mi**, **ca** sont des termes de tête dans l'exemple **mi ca cu tavla do** ci-dessus.
-- le séparateur de tête **cu** :
-  - prononcé comme _shoe_ car **c** est pour _sh_,
-  - montre que la tête est terminée,
-  - peut être omis lorsqu'il est clair que la tête est terminée.
+- le séparateur de tête (**cu**) :
+  - prononcé comme _chou_ (rappel: **c** se prononce _ch_),
+  - indique que la tête est terminée,
+  - peut être omis (lorsqu'il est évident).
 - la queue :
-  - la construction de relation principale (**tavla**, **prami**) avec éventuellement un ou plusieurs termes après elle,
-  - **mi** est le seul terme de queue dans l'exemple **le prenu cu tavla mi** ci-dessus.
-  - **do** est le seul terme de queue dans l'exemple **mi ca cu tavla do** ci-dessus.
+  - la relation principale (**tavla**, **prami**) avec éventuellement un ou plusieurs termes après,
+  - **mi** est le seul terme de queue dans l'exemple **le prenu cu tavla mi**.
+  - **do** est le seul terme de queue dans l'exemple **mi ca cu tavla do**.
 
 ```mermaid
 flowchart LR
     %% common structure:
-    subgraph sentence["<i>sentence</i>#nbsp;"]
+    subgraph sentence["<i>phrase</i>#nbsp;"]
         direction LR
         head-terms
         cu{{"cu"}}
         tail
     end
     head-terms ~~~ cu ~~~ tail
-    subgraph tail["<i>tail</i>#nbsp;"]
+    subgraph tail["<i>queue</i>#nbsp;"]
         direction LR
         selbri ~~~ tail-terms
     end
     %%  semi-automated
-    subgraph head-terms["<i>head terms</i>#nbsp;"]
+    subgraph head-terms["<i>termes de tête</i>#nbsp;"]
         t1
         t2
     end
-    subgraph tail-terms["<i>tail terms</i>#nbsp;"]
+    subgraph tail-terms["<i>termes de queue</i>#nbsp;"]
         tt3
         %% tt4
     end
@@ -229,17 +243,17 @@ flowchart LR
 
 <pixra url="/assets/pixra/cilre/do.svg" caption="do" definition="toi"></pixra>
 
-En Lojban, nous parlons surtout de relations plutôt que de noms et de verbes.
+En lojban, on parle plutôt de "relation" que de "noms" ou de "verbes".
 
-Voici les deux mots de relation, qui correspondent approximativement aux verbes :
+Dans notre cas présent, les mots de relation lojban correspondent plus ou moins à des verbes en français :
 
 prenu
-: ... est une personne / sont des gens
+: … être une personne / des gens
 
 tavla
-: ... parle à ...
+: … parler à …
 
-Pour transformer un tel "verbe" en nom, nous mettons un mot court **le** devant :
+Pour transformer un de ces mots ("verbes") en nom, on le préfixe par **le** :
 
 le prenu
 : la personne
@@ -247,14 +261,14 @@ le prenu
 De même,
 
 tavla
-: ... parle à ...
+: … parler à …
 
-et donc
+devient
 
 le tavla
 : le locuteur
 
-Cela peut sembler étrange que _personne_ puisse être un "verbe", mais en fait, cela rend Lojban très simple :
+Cela peut sembler surprenant que _personne_ puisse être un "verbe" ; pourtant cela rend le lojban très simple dans la construction de mots :
 
 <table>
 <thead>
@@ -273,33 +287,34 @@ Cela peut sembler étrange que _personne_ puisse être un "verbe", mais en fait,
 </td></tr>
 </tbody></table>
 
-On peut également dire que **le** crée un nom à partir d'une construction de relation avec une signification approximative de _celui qui est..._ (_est une personne_ - _la personne_), ou même _ceux qui font..._ (_parler à_ - _les locuteurs_), _ceux qui sont..._ (_sont des gens_ - _les gens_).
+On peut ainsi dire que **le** crée un nom à partir d'un mot de relation. On peut le lire comme _celui qui est…_ (_est une personne_ / _la personne_), ou _ceux qui font…_ (_parler à_ / _les locuteurs_), _ceux qui sont…_ (_sont des gens_ / _les gens_), etc.
 
-Remarquez que le lojban, par défaut, ne différencie pas entre _le locuteur_ ou _les locuteurs_. Autrement dit, **le tavla** est vague à cet égard, et nous découvrirons bientôt des moyens de définir le nombre.
+Par défaut, le lojban ne précise ni genre ni nombre. On ne différencie donc pas _le locuteur_ / _les locuteurs_ / _la locutrice_ / _les locutrices_. On pourra bien évidemment préciser genre et nombre dans la phrase (plus loin dans ce cours) ou déduire des informations du contexte.
+<!-- L10N: Added info about translations in French, as language has neither neutral gender nor neutral number --> Vous verrez ainsi que les traductions en français seront variables : parfois un terme sera traduit au singulier, parfois au pluriel. Il en va de même avec le genre : si la phrase en lojban ne précise rien sur une personne, la traduction pourra être construite avec "il" ou "elle", par exemple. Plus loin dans ce cours, vous apprendrez que le lojban peut aussi être neutre sur le temps (de conjugaison).
 
-Les termes en lojban, quel que soit l'endroit où ils sont utilisés dans une phrase donnée, sont principalement représentés par :
+Les termes en lojban, quel que soit l'endroit où ils sont utilisés dans la phrase, sont principalement représentés par :
 
 - des noms comme **le prenu** (_la personne_)
-- des pronoms comme **mi** (_je_, _moi_), **do** (_tu_). Les pronoms fonctionnent exactement comme des noms, mais **le** n'est pas utilisé pour eux. Ils fonctionnent comme des noms à part entière.
-- des termes modaux comme **ca** (_maintenant, au présent_). Les termes modaux spécifient des informations supplémentaires et éclairantes.
+- des pronoms comme **mi** (_je_, _moi_), **do** (_tu_). Les pronoms fonctionnent exactement comme des noms, mais n'ont pas besoin de **le** (un peu comme si c'était déjà intégré dans le pronom).
+- des termes modaux comme **ca** (_maintenant, au présent_). Les modaux ajoutent des précisions, des informations complémentaires.
 
-Voici quelques exemples supplémentaires :
+Quelques exemples supplémentaires :
 
 > **mi nintadni**
 > _Je suis un nouvel étudiant._
 
 nintadni
-: ... est un nouvel étudiant, un débutant
+: … être un nouvel étudiant, un débutant
 
 <pixra url="/assets/pixra/cilre/nintadni.svg" caption="mi nintadni" definition="Je suis un nouvel étudiant, un débutant."></pixra>
 
-Contrairement à l'anglais, nous n'avons pas besoin d'ajouter le verbe "être" à la phrase. Il est déjà là. Le mot de relation **nintadni** (_... est un nouvel étudiant_) a déjà ce "être" anglais intégré dans sa traduction anglaise.
+Notez qu'il n'y a pas à introduire de verbe "être" : la relation **nintadni** (_… être un nouvel étudiant_) se suffit à elle-même, un peu comme si "être" était déjà intégré dans le mot de relation.
 
 > **do jimpe**
 > _Tu comprends._
 
 jimpe
-: ... comprend ... (quelque chose)
+: … comprendre … (quelque chose)
 <!-- -->
 
 <pixra url="/assets/pixra/cilre/pilno_le_fonxa.svg" caption="le prenu cu pilno le fonxa" definition="La personne utilise le téléphone."></pixra>
@@ -308,10 +323,10 @@ jimpe
 > _J'utilise le téléphone._
 
 pilno
-: ... utilise ... (quelque chose)
+: … utiliser … (quelque chose)
 
 fonxa
-: ... est un téléphone, ... sont des téléphones
+: … être un téléphone, des téléphones
 
 le fonxa
 : le téléphone, les téléphones
@@ -321,7 +336,7 @@ le fonxa
 > _Je mange._
 
 citka
-: ... mange ... (quelque chose)
+: … manger … (quelque chose)
 
 <pixra url="/assets/pixra/cilre/citka.svg" caption="mi citka" definition="Je mange."></pixra>
 <!-- -->
@@ -343,7 +358,7 @@ citka
 
 Ici, **le plise** signifie _les pommes_, **kukte** signifie _est délicieux / sont délicieuses_.
 
-Une phrase plus simple en lojban ne contiendrait qu'un seul mot de relation principal :
+Notez que l'on peut construire une phrase en lojban avec un unique mot de relation :
 
 <pixra url="/assets/pixra/cilre/karce.svg" caption="karce" definition="C'est une voiture."></pixra>
 
@@ -351,11 +366,11 @@ Une phrase plus simple en lojban ne contiendrait qu'un seul mot de relation prin
 > _Voiture !_
 > _C'est une voiture._
 
-Vous pourriez dire cela lorsque vous voyez une voiture arriver. Ici, le contexte serait suffisamment clair pour indiquer qu'il y a une voiture quelque part et qu'elle est probablement dangereuse.
+On peut utiliser **karce** seul, en voyant une voiture arriver : avec le contexte, on comprend que nous sommes dans une situation de danger avec une voiture qui approche (par exemple).
 
-**karce** lui-même est un verbe qui signifie _est une voiture, être une voiture_.
+**karce** est une relation qui signifie _est une voiture, être une voiture_.
 
-Nous pouvons bien sûr être plus précis et dire, par exemple :
+On peut évidemment être plus précis et dire, par exemple :
 
 > **ti karce**
 > _Ceci est une voiture._
@@ -365,7 +380,7 @@ ti
 
 <pixra url="/assets/pixra/cilre/ti.svg" caption="ti" definition="celui-ci (près de moi, l'orateur)"></pixra>
 
-De même, vous pouvez dire
+De même:
 
 > **carvi**
 > _Il pleut._
@@ -373,9 +388,9 @@ De même, vous pouvez dire
 où
 
 carvi
-: … est une pluie, … pleut
+: … pleuvoir, … être de la pluie
 
-<pixra url="/assets/pixra/cilre/carvi.svg" caption="carvi" definition="… est une pluie"></pixra>
+<pixra url="/assets/pixra/cilre/carvi.svg" caption="carvi" definition="… être une pluie"></pixra>
 
 ou
 
@@ -385,9 +400,9 @@ ou
 où
 
 pluka
-: … est agréable
+: … être agréable
 
-Remarquez qu'en lojban, il n'y a pas besoin du mot _it_ dans ce sens. Vous utilisez simplement le mot de relation dont vous avez besoin.
+Remarquez qu'en lojban, il n'y a pas besoin d'ajouter _c'est_. Utilisez simplement le mot de relation dont vous avez besoin.
 
 > **prami**
 > _Quelqu'un aime._
@@ -398,23 +413,23 @@ Remarquez qu'en lojban, il n'y a pas besoin du mot _it_ dans ce sens. Vous utili
 > _Quelqu'un court._
 
 bajra
-: … court en utilisant des membres
+: … courir
 
-Encore une fois, le contexte indiquerait probablement qui aime qui et qui court.
+Encore une fois, le contexte indique probablement "qui" aime "qui", et "qui" court.
 
 <pixra url="/assets/pixra/cilre/bajra.svg" caption="le prenu cu bajra" definition="La personne court."></pixra>
 
-#### Tâche
+#### Exercice
 
 <pixra url="/assets/pixra/cilre/pinxe_le_djacu.svg" caption="le prenu cu pinxe le djacu" definition="La personne boit de l'eau."></pixra>
 
 pinxe
-: ... boit ... (quelque chose)
+: … boire … (quelque chose)
 
 le djacu
 : l'eau
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche du Lojban.
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en français.
 
 <table style="table-layout: fixed;">
 <tbody><tr>
@@ -430,32 +445,39 @@ Fermez la partie droite du tableau. Traduisez les phrases de gauche du Lojban.
 <tr>
 <td><b>mi citka le plise</b>
 </td>
-<td><i>Je mange des pommes.</i>
+<td><i>Je mange des pommes (ou "une pomme").</i>
 </td></tr></tbody></table>
-### «**.i**» sépare les phrases
 
-La façon la plus précise d'énoncer ou d'écrire des phrases en Lojban serait de placer un petit mot **.i** au début de chacune d'elles :
+### Le séparateur de phrases «**.i**»
+
+Il n'existe pas de ponctuation en lojban, à proprement parler. C'est le petit mot **.i** qui sépare les phrases consécutives.
 
 > **mi tavla le prenu .i le prenu cu tavla mi**
 > _Je parle aux gens. Les gens me parlent._
 
-**.i** sépare les phrases comme le point à la fin des phrases dans les textes anglais.
 
-Lorsque nous disons une phrase après l'autre en anglais, nous faisons une pause (elle peut être courte) entre elles. Mais la pause a de nombreuses significations différentes en anglais. En Lojban, nous avons une meilleure façon de comprendre où une phrase se termine et où une autre commence.
+**.i** sépare les phrases, à la manière du point en fin de phrase en français.
 
-Notez également que parfois, lorsque nous prononçons des mots rapidement, nous ne pouvons pas savoir où une phrase se termine et où le mot de la phrase suivante commence. Il est donc conseillé d'utiliser le mot **.i** avant de commencer une nouvelle phrase.
+<!-- L10N: Reorganized sentences contents. -->
+<!-- L10N: Added precision about voice tone. -->
+<!-- L10N: Added precision about French punctuation. -->
+Lorsqu'on enchaine des phrases en français, on fait une pause relativement courte entre deux et la tonalité de la voix change en fin de phrase. Mais une pause peut aussi avoir d'autres significations (virgule, point-virgule, points de suspension…).
+Notez qu'en parlant rapidement il est parfois difficile (ou ambigu) de savoir où une phrase se termine et où le mot de la phrase suivante commence.
 
-### Nombres: ‘_1 2 3 4 5 6 7 8 9 0_’ = «**pa re ci vo mu xa ze bi so no**»
+En lojban, cette séparation est explicite. Il est même conseillé d'utiliser le mot **.i** _avant_ de commencer une nouvelle phrase, afin de bien marquer son intention.
 
-**le** transforme simplement un verbe en un nom, mais un tel nom n'a pas de nombre associé. La phrase
+### Chiffres et nombres: ‘_1 2 3 4 5 6 7 8 9 0_’ = «**pa re ci vo mu xa ze bi so no**»
+
+
+Comme vu précédemment, **le** transforme simplement un "verbe" en un "nom", mais sans nombre associé. La phrase
 
 > **le prenu cu tavla mi**
-> _Les gens me parlent._
 > _La personne me parle._
+> _Les gens (les personnes) me parlent._
 
-ne spécifie pas le nombre de personnes qui me parlent. En anglais, il est impossible d'omettre le nombre car _people_ en anglais implique _plus d'une personne_. Cependant, en lojban, vous pouvez omettre le nombre même s'il est pluriel.
+ne précise pas le nombre de personnes qui me parlent. En français, comme en anglais, il n'est pas possible d'omettre le nombre ; par exemple les mots _gens_ et _personnes_ indiquent un pluriel, et donc qu'il y a _plus d'une personne_. En lojban, la précision est optionnelle.
 
-Maintenant, spécifions combien de personnes sont pertinentes pour notre discussion.
+Voyons comment spécifier le nombre de personnes dans notre cas.
 
 Ajoutons un nombre après **le**.
 
@@ -509,21 +531,22 @@ Ajoutons un nombre après **le**.
 > **le pa prenu cu tavla mi**
 > _La personne me parle._
 
-Nous ajoutons un nombre après **le** et spécifions ainsi des personnes individuelles.
+En ajoutant un nombre après **le**, cela précise une quantité.
 
 Pour les nombres composés de plusieurs chiffres, nous les mettons simplement bout à bout.
 
 > **le re mu prenu cu tavla mi**
 > _Les 25 personnes me parlent._
 
-Oui, c'est aussi simple que ça.
+Oui, c'est aussi simple que ça !
 
-Si nous voulons compter, nous pouvons séparer les nombres avec **.i**:
+Du coup, pour compter ou énumérer, il suffit de séparer les nombres avec **.i** :
 
 > **mu .i vo .i ci .i re .i pa .i no**
 > _5 … 4 … 3 … 2 … 1 … 0_
 
-Le nombre **za'u** signifie _plus de …_ (_\>_ en mathématiques), le nombre **me'i** signifie _moins de_ (_<_ en mathématiques):
+<!-- L10N: Added -->Il y a même la possibilité d'avoir des "nombres" qui ne sont pas des valeurs numériques, mais des ensembles ou des notions vagues.
+Le nombre **za'u** signifie _plus de …_ (_\>_ en mathématiques), le nombre **me'i** signifie _moins de_ (_<_) :
 
 > **le za'u re prenu cu tavla mi**
 > _Plus de deux personnes me parlent._
@@ -544,58 +567,58 @@ Pour dire simplement _les gens_ (nombre pluriel) par opposition à _une personne
 > **le za'u prenu cu tavla mi**
 > _Les gens me parlent._
 
-**za'u** signifie par défaut **za'u pa**, d'où une telle contraction est possible.
+**za'u** signifie par défaut **za'u pa**. C'est pour cela que l'on peut omettre de préciser la quantité.
 
 le prenu
 : la personne / les gens (en général)
 
 le pa prenu
-: la personne (un en nombre)
+: la personne (singulier, une seule)
 
 le za'u prenu
-: les gens (deux ou plus en nombre)
+: les gens (pluriel, deux ou plus)
 
-#### Tâche
+#### Exercice
 
 stati
-: … est intelligent, … a un talent
+: … être doué, … a un talent
 
 <pixra url="/assets/pixra/cilre/stati.svg" caption="stati" definition="… a un talent"></pixra>
 
 klama
-: … vient à … (un lieu ou un objet)
+: … aller à / venir à … (un lieu ou un objet)
 
 <pixra url="/assets/pixra/cilre/klama_ti.svg" caption="le prenu cu klama ti" definition="La personne est venue ici."></pixra>
 
 nelci
-: … aime (quelque chose)
+: … aimer, apprécier (quelque chose)
 
 le zarci
-: le marché
+: le marché, le magasin
 
 <pixra url="/assets/pixra/cilre/zarci.svg" caption="le prenu cu zvati le zarci" definition="La personne est au magasin."></pixra>
 
 le najnimre
 : l'orange (fruit), les oranges
 
-<pixra url="/assets/pixra/cilre/najnimre.svg" caption="najnimre" definition="… est une orange"></pixra>
+<pixra url="/assets/pixra/cilre/najnimre.svg" caption="najnimre" definition="… être une orange"></pixra>
 
 le badna
 : la banane, les bananes
 
-<pixra url="/assets/pixra/cilre/badna.svg" caption="badna" definition="… est une banane"></pixra>
+<pixra url="/assets/pixra/cilre/badna.svg" caption="badna" definition="… être une banane"></pixra>
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche du Lojban.
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en français.
 
 <table style="table-layout: fixed;">
  <tbody>
   <tr>
    <td>le mu prenu cu klama le zarci</td>
-   <td>Les cinq personnes viennent au marché.</td>
+   <td>Les cinq personnes vont au marché.</td>
   </tr>
   <tr>
    <td>le pa re prenu cu stati .i do stati</td>
-   <td>Les 12 personnes sont intelligentes. Tu es intelligent.</td>
+   <td>Les 12 personnes sont douées. Tu es doué(e).</td>
   </tr>
   <tr>
    <td>le prenu cu nelci le plise</td>
@@ -607,17 +630,17 @@ Fermez la partie droite du tableau. Traduisez les phrases de gauche du Lojban.
   </tr>
   <tr>
    <td>le za'u re prenu cu stati</td>
-   <td>Plus de deux personnes sont intelligentes.</td>
+   <td>Plus de deux personnes sont douées.</td>
   </tr>
  </tbody>
 </table>
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche en Lojban.
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en lojban.
 
 <table style="table-layout: fixed;">
  <tbody>
   <tr>
-   <td>Les 256 personnes sont intelligentes.</td>
+   <td>Les 256 personnes sont douées.</td>
    <td>le re mu xa prenu cu stati</td>
   </tr>
   <tr>
@@ -629,44 +652,44 @@ Fermez la partie droite du tableau. Traduisez les phrases de gauche en Lojban.
 
 ### Verbe composé
 
-Le verbe composé (**le tanru** en Lojban) est constitué de plusieurs verbes placés les uns après les autres.
+Un verbe composé (**le tanru**, en lojban) est un verbe constitué de plusieurs verbes, simplement juxtaposés.
 
 > **tu melbi zdani**
-> _Celui-là est une belle maison._
+> _C'est une belle maison._
 
-<pixra url="/assets/pixra/cilre/melbi_zdani.svg" caption="melbi zdani" definition="… est une belle maison"></pixra>
+<pixra url="/assets/pixra/cilre/melbi_zdani.svg" caption="melbi zdani" definition="… être une belle maison"></pixra>
 
 tu
 : celui-là (loin de toi et moi)
 
 melbi
-: … est beau, joli
+: … être beau, joli
 
 zdani
-: … est une maison ou un nid pour … (quelqu'un)
+: … être une maison ou un nid pour … (quelqu'un)
 
-<pixra url="/assets/pixra/cilre/dansu.svg" caption="le prenu cu melbi dansu" definition="La personne danse joliment."></pixra>
+<pixra url="/assets/pixra/cilre/dansu.svg" caption="le prenu cu melbi dansu" definition="La personne danse bien (joliment)."></pixra>
 
 > **do melbi dansu**
-> _Tu danses joliment._
+> _Tu danses bien (joliment)._
 
-Ici, le verbe **melbi** ajoute une signification supplémentaire car il est placé à gauche d'un autre verbe : **zdani**. La partie gauche est généralement traduite à l'aide d'adjectifs et d'adverbes.
+Ici, le verbe **melbi** ajoute une signification supplémentaire car il est placé à gauche d'un autre verbe : **zdani**. La partie gauche est généralement traduite comme adjectifs ou adverbes.
 
-Les verbes composés sont une fonctionnalité puissante qui produit des significations plus riches. Il suffit de mettre deux verbes ensemble, et la partie gauche de ce verbe composé ajoute une saveur à celui de droite.
+Le verbe composé est une règle de grammaire simple mais puissante, qui ajoute du sens et des précisions. Il suffit d'accoler un deuxième verbe à gauche du premier, et la partie de gauche "qualifie" (modifie) celle de droite.
 
-Nous pouvons mettre **le** (par exemple avec un nombre) à gauche d'un tel verbe composé pour obtenir un nom composé :
+Comme un **tanru** est un verbe, le faire précéder de **le** (possiblement avec un nombre) permet d'obtenir un _nom_ composé :
 
 le pa melbi zdani
 : la belle maison
 
-Maintenant, vous savez pourquoi il y avait **cu** après les noms dans notre exemple :
+Maintenant, vous savez pourquoi il y avait **cu** après les noms ! En effet, l'exemple
 
 > **le pa prenu cu tavla mi**
 > _La personne me parle._
 
-Sans **cu**, cela deviendrait **le pa prenu tavla**, ce qui aurait pour signification _la personne-parlante_ - quoi que cela puisse signifier.
+sans **cu** deviendrait **le pa prenu tavla**. Cela signifierait _la personne-parlante_ — quoi que cela puisse vouloir dire !
 
-Considérez :
+Autre exemple :
 
 > **le pa tavla pendo**
 > _L'ami qui parle_
@@ -674,38 +697,38 @@ Considérez :
 > **le pa tavla cu pendo**
 > _Celui qui parle est un ami._
 
-N'oubliez pas de placer **cu** avant la construction de relation principale dans une phrase pour éviter la création involontaire de verbes composés.
+N'oubliez pas de placer **cu** avant le mot de relation dans une phrase, afin d'éviter la création involontaire de verbes composés.
 
 Les verbes composés peuvent contenir plus de deux verbes. Dans ce cas, le premier verbe modifie le deuxième, le deuxième modifie le troisième, et ainsi de suite :
 
 <pixra url="/assets/pixra/cilre/cmalu_karce.svg" caption="ti cmalu karce" definition="Ceci est une petite voiture."></pixra>
 
 > **le pa melbi cmalu karce**
-> _la jolie petite voiture, la voiture petite d'une jolie manière_
+> _la jolie petite voiture ("la voiture, petite, d'une jolie manière")_
 
 <!-- -->
 
 > **le mutce melbi zdani**
-> _la maison très belle_
+> _la très belle maison_
 
 mutce
-: … est très, … est beaucoup
+: … être très, … être beaucoup
 
-#### Tâche
+#### Exercice
 
 sutra
-: ... est rapide
+: … être rapide
 
 barda
-: ... est grand
+: … être grand
 
 cmalu
-: ... est petit
+: … être petit
 
 mlatu
-: ... est un chat
+: … être un chat
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche du Lojban.
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en français.
 
 <table style="table-layout: fixed;">
 <tbody><tr>
@@ -716,7 +739,7 @@ Fermez la partie droite du tableau. Traduisez les phrases de gauche du Lojban.
 <tr>
 <td><b>do sutra klama</b>
 </td>
-<td><i>Vous venez rapidement. Vous venez vite.</i>
+<td><i>Vous allez vite / Vous venez rapidement.</i>
 </td></tr>
 <tr>
 <td><b>tu barda zdani</b>
@@ -739,7 +762,7 @@ Fermez la partie droite du tableau. Traduisez les phrases de gauche du Lojban.
 <td><i>le chat qui court</i>
 </td></tr></tbody></table>
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche en Lojban.
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en lojban.
 
 <table style="table-layout: fixed;">
 
@@ -764,27 +787,27 @@ Fermez la partie droite du tableau. Traduisez les phrases de gauche en Lojban.
 <td><b>do sutra cadzu prenu</b>
 </td></tr></tbody></table>
 
-### Questions « oui/non »
+### Questions totales (« oui/non »)
 
-En anglais, nous formons une question « oui/non » en changeant l'ordre des mots, par exemple :
+Une question totale est une question fermée à laquelle on ne peut répondre que par "oui" ou "non". En français, une question totale peut être structurée de différentes manières. On peut par exemple faire une inversion sujet-verbe :
 
-> _You are … ⇒ Are you …?_
+> _Tu es … ⇒ Es-tu … ?_
 
-ou en utilisant une forme du verbe _to do_ au début, par exemple :
+ou conserver la phrase affirmative et la préfixer :
 
-> _You know … ⇒ Do you know?_
+> _Est-ce que … ?_
 
-En lojban, l'ordre des mots peut être conservé. Pour transformer toute assertion en une question « oui/non », nous insérons simplement le mot **xu** quelque part dans la phrase, par exemple, au début :
+Mais il existe bien d'autres manières. En lojban, c'est plus simple. Pour transformer une affirmation en une question totale, il suffit d'ajouter **xu** quelque part dans la phrase (le plus souvent au début) en conservant l'ordre des mots :
 
 > **xu do nelci le gerku**
-> _Aimes-tu les chiens ?_
+> _Est-ce que tu aimes les chiens ? Aimes-tu les chiens ?_
 
 le gerku
 : le chien, les chiens
 
 <pixra url="/assets/pixra/cilre/le_prenu_e_le_gerku.svg" caption="ti prenu .i ti gerku" definition="Ceci est une personne. Ceci est un chien."></pixra>
 
-Rappelez-vous qu'en lojban, la ponctuation comme "?" (point d'interrogation) est surtout facultative et utilisée surtout à des fins stylistiques. C'est parce que le mot interrogatif **xu** montre déjà qu'il s'agit d'une question.
+Rappelez-vous qu'en lojban, la ponctuation n'existe pas à proprement parler. On peut en ajouter de manière facultative, comme le point d'interrogation, mais c'est surtout à des fins stylistiques. C'est parce que le mot interrogatif **xu** marque déjà qu'il s'agit d'une question.
 
 D'autres exemples :
 
@@ -792,18 +815,18 @@ D'autres exemples :
 > _Est-ce que je viens ?_
 
 klama
-: … vient à … (quelque part)
+: … aller à / venir à … (quelque part)
 
 > **xu pelxu**
-> _Est-ce jaune ?_
+> _Est-ce jaune ? Est-ce que c'est jaune ?_
 
 pelxu
-: … est jaune
+: … être jaune
 
-Nous pouvons changer le sens en plaçant **xu** après différentes parties de la relation. Les explications de ce qui a changé dans le sens sont données entre parenthèses :
+Il est possible de déplacer **xu** pour préciser la question. Le mot précédent est alors mis en _emphase_ (on "insiste" dessus), afin de faire porter la réponse sur ce mot. En français, on aurait tendance à le prononcer plus fort à l'oral, ou parfois à faire un geste en le prononçant. Dans les exemples ci-dessous, des exemples d'interprétation sont données entre parenthèses :
 
 > **xu do nelci le gerku**
-> _Aimes-tu les chiens ?_
+> _Est-ce que tu aimes les chiens ?_
 
 <!-- -->
 
@@ -813,18 +836,18 @@ Nous pouvons changer le sens en plaçant **xu** après différentes parties de l
 <!-- -->
 
 > **do nelci xu le gerku**
-> _Aimes-tu LES chiens ? (Je pensais que tu étais simplement neutre à leur égard)._
+> _Est-ce que tu AIMES les chiens ? (Je pensais que tu étais simplement neutre à leur égard)._
 
 <!-- -->
 
 > **do nelci le gerku xu**
-> _Aimes-tu les chiens ? (Je pensais que tu aimais les chats)._
+> _Est-ce que tu aimes les CHIENS ? (Je pensais que tu aimais les chats)._
 
-Ce qui est exprimé par l'intonation en anglais est exprimé en déplaçant **xu** après la partie que nous voulons mettre en évidence en lojban. Notez que la première phrase avec **xu** au début pose la question la plus générique sans mettre l'accent sur un aspect particulier.
+Ce qui est exprimé par l'intonation en français est explicité par le placement du mot **xu** en lojban. Celui-ci est placé après la partie à mettre en évidence. Notez que la phrase avec **xu** au début pose la question sans mettre d'accent sur un mot particulier.
 
-**xu** est un mot d'interjection. Voici les caractéristiques des interjections en lojban :
+Grammaticalement parlant, **xu** est une interjection :
 
-- l'interjection modifie la construction qui la précède. Ainsi, lorsqu'elle est placée après certaines parties de la relation, comme les pronoms ou les verbes, elle modifie ce verbe :
+- une interjection modifie la construction qui la précède. Ainsi, lorsqu'elle est placée après certaines parties de la relation, comme le pronom ou le verbe, elle le modifie :
 
  > **do xu nelci le gerku**
  > _Est-ce que TU aimes les chiens ?_
@@ -832,23 +855,23 @@ Ce qui est exprimé par l'intonation en anglais est exprimé en déplaçant **xu
 - lorsqu'elle est placée au début d'une relation, l'interjection modifie toute la relation :
 
  > **xu do nelci le gerku**
- > _Aimes-tu les chiens ?_
+ > _Est-ce que tu aimes les chiens ? Aimes-tu les chiens ?_
 
 - les interjections peuvent être placées après différentes parties de la même relation pour changer le sens.
 
-Les interjections ne rompent pas les verbes composés, elles peuvent être utilisées à l'intérieur d'eux :
+Les interjections ne rompent pas les verbes composés. Elles peuvent être utilisées entre deux :
 
 > **do nelci le barda xu gerku**
-> _Aimes-tu les gros chiens ?_
+> _Est-ce que tu aimes les GROS chiens ?_
 
-Maintenant, comment répondre à de telles questions « oui/non » ? Vous répétez la relation principale :
+Maintenant que vous savez poser une question totale (« oui/non »), voyons comment y répondre. En lojban, il est possible de répéter le mot de la relation principale :
 
 > **— xu le mlatu cu melbi**
 > **— melbi**
 > _— Les chats sont-ils jolis ?_
 > _— Jolis._
 
-Pour répondre « non », nous utilisons le terme modal **na ku** :
+Et pour répondre « non », on ajoute le terme modal **na ku** :
 
 > **— xu le mlatu cu melbi**
 > **— na ku melbi**
@@ -858,7 +881,7 @@ Pour répondre « non », nous utilisons le terme modal **na ku** :
 na ku
 : terme : il est faux que …
 
-Ou, nous pouvons utiliser un verbe spécial **go'i** :
+Cela dit, nous pouvons aussi utiliser le verbe spécial **go'i** :
 
 > **— xu le mlatu cu melbi**
 > **— go'i**
@@ -873,11 +896,11 @@ Ici, **go'i** signifie la même chose que **melbi** puisque **melbi** est la rel
 > **— xu le mlatu cu melbi**
 > **— na ku go'i**
 > _— Les chats sont-ils beaux ?_
-> _— Pas beaux._
+> _— Pas jolis._
 
-<!-- Ce cours ne recommande pas de nier **go'i** pour les réponses négatives. Utilisez simplement **je'u nai**. -->
+<!-- Ce cours ne recommande pas **go'i** à la forme négative. Préférez **je'u nai**. -->
 
-Le terme modal **na ku** peut être utilisé non seulement dans les réponses :
+Le terme modal **na ku** peut être utilisé ailleurs que dans les réponses :
 
 > **na ku mi nelci le gerku**
 > _Il est faux que j'aime les chiens._
@@ -886,17 +909,20 @@ Le terme modal **na ku** peut être utilisé non seulement dans les réponses :
 > **mi na ku nelci do**
 > _Je ne t'aime pas._
 
-Son opposé, le terme **ja'a ku** affirme le sens :
+Son opposé, **ja'a ku** affirme (ou confirme) le sens :
 
 > **mi ja'a ku nelci do**
-> _Je t'aime bien._
+> _Je t'apprécie / Je t'apprécie vraiment._
 
 ja'a ku
-: terme : il est vrai que ... 
+: terme : il est vrai que … 
 
-#### Tâche
+<!-- L10N: Added explanation since affirming with ja'a (jbo) or do (eng) doesn't have a direct equivalent in French. -->
+Cette formulation permet d'insister sur le verbe. Elle existe en anglais (<i>do + verbe</i>), mais elle n'a pas d'équivalent direct en français. On peut la traduire par des adverbes ou compléments ("je veux" / "je veux vraiment" / "je veux à tout prix"), une intonation plus prononcée ("je VEUX"), des synonymes plus forts ("j'exige"), et/ou une ponctuation spécifique (souvent des points d'exclamation).
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche du Lojban.
+#### Exercice
+
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en français.
 
 <table style="table-layout: fixed;">
 
@@ -908,12 +934,12 @@ Fermez la partie droite du tableau. Traduisez les phrases de gauche du Lojban.
 <tr>
 <td><b>— le prenu cu stati xu<br/>— na ku stati</b>
 </td>
-<td><i>— Les gens sont-ils intelligents ?<br/>— Non.</i>
+<td><i>— Les gens sont-ils doués ?<br/>— Non.</i>
 </td></tr>
 <tr>
 <td><b>do klama le zarci xu</b>
 </td>
-<td><i>Allez-vous au marché ?</i>
+<td><i>Allez-vous au MARCHÉ ?</i>
 </td></tr>
 <tr>
 <td><b>xu le verba cu prami le mlatu</b>
@@ -921,7 +947,7 @@ Fermez la partie droite du tableau. Traduisez les phrases de gauche du Lojban.
 <td><i>L'enfant aime-t-il les chats ?</i>
 </td></tr></tbody></table>
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche en Lojban.
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en lojban.
 
 <table style="table-layout: fixed;">
 
@@ -931,7 +957,7 @@ Fermez la partie droite du tableau. Traduisez les phrases de gauche en Lojban.
 <td><b>xu le karce cu sutra</b>
 </td></tr>
 <tr>
-<td><i>— L'orange est-elle savoureuse ?<br/>— Oui, elle l'est.</i>
+<td><i>— L'orange est-elle bonne ?<br/>— Oui, elle l'est.</i>
 </td>
 <td><b>— xu le najnimre cu kukte<br/>— kukte</b>
 </td></tr>
@@ -940,43 +966,47 @@ Fermez la partie droite du tableau. Traduisez les phrases de gauche en Lojban.
 </td>
 <td><b>xu le gerku cu prami do</b>
 </td></tr></tbody></table>
-### Bonheur et demandes polies : « **ui** » = « **youi** », « **.e'o** » = « **.é'o** »
 
-L'interjection **ui** montre le bonheur de celui qui parle. Elle est utilisée comme le smiley « _:) _» dans les messages, pour indiquer que vous êtes content de quelque chose. Bien que les smileys puissent être ambigus, **ui** n'a qu'une seule signification, ce qui est pratique.
+### Joie et demandes polies : « _Youpi !_ » = « **ui** », « _S'il vous plait_ » = « **.e'o** »
+
+<!-- L10N: Added introductory sentence. -->
+Les interjections lojban permettent de modifier radicalement une phrase, en précisant un sentiment ou une intention globale.
+
+L'interjection **ui** indique que celui qui parle est heureux, joyeux. Elle est utilisée comme le smiley « _:)_» sur messagerie, pour indiquer que vous êtes content de quelque chose. Les smileys peuvent être ambigus, mais **ui** n'a qu'une seule signification, ce qui est bien pratique.
 
 > **ui do klama**
-> _Youpi, tu viens !_
+> _Super, tu viens !_
 
 ui
-: interjection : _Youpi !_, interjection de bonheur
+: interjection de joie, comme _Youpi !_, _Super !_, etc.
 
 L'interjection **.e'o** au début d'une phrase la transforme en une demande polie :
 
 > **.e'o do lebna le fonxa**
-> _Pourrais-tu prendre le téléphone, s'il te plaît ?_
-> `S'il te plaît, prends le téléphone.`
+> _Pourrais-tu prendre le téléphone, s'il te plait ?_
+> `S'il te plait, prends le téléphone.`
 
 .e'o
-: interjection : s'il te plaît (prononcé comme _é-o_ avec une courte pause ou une pause avant le mot)
+: interjection : s'il te plait (prononcé comme _é-h-o_ avec un _h_ aspiré, et une courte pause avant le mot)
 
 lebna
 : prendre (quelque chose)
 
-En anglais, pour être poli, il faut utiliser _pourrais-tu_ + _s'il te plaît_ + une question). En Lojban, **.e'o** suffit pour faire une demande polie. 
+En français, pour être poli, on utilise des constructions complexes, comme _Pourrais-tu (une requête), s'il te plait ?_. En lojban, **.e'o** devant une affirmation suffit pour en faire une demande polie.
 
-#### Tâche
+#### Exercice
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche du Lojban.
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en français.
 
 le tcati
 : le thé
 
-<pixra url="/assets/pixra/cilre/tcati.svg" caption="tcati" definition="… est du thé"></pixra>
+<pixra url="/assets/pixra/cilre/tcati.svg" caption="tcati" definition="… être du thé"></pixra>
 
 le ckafi
 : le café
 
-<pixra url="/assets/pixra/cilre/ckafi.svg" caption="ckafi" definition="… est du café"></pixra>
+<pixra url="/assets/pixra/cilre/ckafi.svg" caption="ckafi" definition="… être du café"></pixra>
 
 zgana
 : observer, regarder (en utilisant tous les sens)
@@ -990,7 +1020,6 @@ kurji
 : prendre soin de (quelqu'un, quelque chose)
 
 <table style="table-layout: fixed;">
-
 <tbody>
 <tr>
 <td><b>ui carvi</b>
@@ -1000,49 +1029,50 @@ kurji
 <tr>
 <td><b>.e'o do sutra bajra</b>
 </td>
-<td><i>Cours vite !</i>
+<td><i>Cours vite, s'il te plait !</i>
 </td></tr>
 <tr>
 <td><b>.e'o do pinxe le tcati</b>
 </td>
-<td><i>S'il te plaît, bois du thé !</i>
+<td><i>Je t'en prie, bois du thé !</i>
 </td></tr>
 <tr>
 <td><b>.e'o zgana le skina</b>
 </td>
-<td><i>S'il te plaît, regarde le film !</i>
+<td><i>S'il te plait, regarde le film !</i>
 </td></tr></tbody></table>
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche en Lojban.
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en lojban.
 
 <table style="table-layout: fixed;">
-
 <tbody><tr>
-<td><i>S'il te plaît, sois intelligent !</i>
+<!-- L10N: Changed initial example (".e'o stati"), as it was a non-trivial translation. Indeed, it may require to be translated "S'il te plait, fais attention !" in some contexts. -->
+<td><i>Parle, s'il te plait.</i>
 </td>
-<td><b>.e'o stati</b>
+<td><b>.e'o tavla</b>
 </td></tr>
 <tr>
-<td><i>S'il te plaît, rentre chez toi !</i>
+<td><i>S'il te plait, rentre chez toi.</i>
 </td>
 <td><b>.e'o do klama le zdani</b>
 </td></tr>
 <tr>
-<td><i>S'il te plaît, bois le café !</i>
+<td><i>Je t'en prie, bois le café !</i>
 </td>
 <td><b>.e'o do pinxe le ckafi</b>
 </td></tr>
 <tr>
-<tr>
-<td><i>Hourra, je te parle !</i>
+<td><i>Je suis super content de te parler !</i>
 </td>
 <td><b>ui mi tavla do</b>
 </td></tr>
 <tr>
-<td><i>S'il te plaît, prends soin de l'enfant.</i>
+<td><i>S'il te plait, prends soin de l'enfant.</i>
 </td>
 <td><b>.e'o do kurji le verba</b>
 </td></tr></tbody></table>
+
+<!-- CONTINUER LA TRADUCTION CI-DESSOUS -->
 
 ### 'Et' et 'ou'
 
@@ -1097,7 +1127,7 @@ Ces deux phrases signifient la même chose.
 > _Je bois de l'eau, et je bois du jus._
 
 le jisra
-: jus
+: le jus, du jus
 
 <pixra url="/assets/pixra/cilre/pinxe_le_jisra.svg" caption="le prenu cu pinxe le jisra" definition="La personne boit du jus."></pixra>
 
@@ -1114,15 +1144,15 @@ Nous avons également des outils pour ajouter _et_ pour les composants des verbe
 > **le melbi je cmalu zdani cu jibni ti**
 > _La belle et petite maison est proche._
 
-<pixra url="/assets/pixra/cilre/melbi_je_cmalu_zdani.svg" caption="melbi je cmalu zdani" definition="... est une maison jolie-et-petite"></pixra>
+<pixra url="/assets/pixra/cilre/melbi_je_cmalu_zdani.svg" caption="melbi je cmalu zdani" definition="… être une maison jolie-et-petite"></pixra>
 
 jibni
-: ... est proche de ...
+: … être presque comme, être proche de, ressembler à …
 
 ti
 : cette chose, cet endroit près de moi
 
-**je** est une conjonction en Lojban qui signifie _et_ dans les verbes composés.
+**je** est une conjonction en lojban qui signifie _et_ dans les verbes composés.
 
 Sans **je**, la phrase change de sens :
 
@@ -1150,12 +1180,12 @@ ja
 
 
 fengu
-: ... est en colère
+: … être en colère
 
-<pixra url="/assets/pixra/cilre/fengu.svg" caption="fengu" definition="... est en colère"></pixra>
+<pixra url="/assets/pixra/cilre/fengu.svg" caption="fengu" definition="… être en colère"></pixra>
 
 bilma
-: ... est malade
+: … être malade
 
 <pixra url="/assets/pixra/cilre/bilma.svg" caption="le prenu cu bilma" definition="La personne est malade"></pixra>
 
@@ -1163,9 +1193,9 @@ vitke
 : visiter
 
 dzena
-: … est un ancêtre de …
+: … être un ancêtre de …
 
-<pixra url="/assets/pixra/cilre/dzena.svg" caption="dzena" definition="… est un ancêtre de …"></pixra>
+<pixra url="/assets/pixra/cilre/dzena.svg" caption="dzena" definition="… être un ancêtre de …"></pixra>
 
 > **le karce cu blabi jo nai grusi**
 > _La voiture est soit blanche soit grise._
@@ -1182,7 +1212,7 @@ jo nai
 : soit … soit … mais pas les deux (lors de la connexion de noms et de pronoms)
 
 laldo
-: … est vieux
+: … être vieux
 
 Note: il est préférable de se souvenir de **jo nai** comme d'une seule construction, et de même pour **.o nai**.
 
@@ -1206,7 +1236,7 @@ ju
 > _Toi et moi discutons de la langue._
 
 casnu
-: … discute …
+: … discuter …
 
 le bangu
 : la langue
@@ -1231,9 +1261,10 @@ Afin de souligner que toi et moi participons à la même action, nous utilisons 
 Le pronom **mi'o** (_toi et moi ensemble_) peut en fait être exprimé comme **mi joi do**, ce qui signifie exactement la même chose (c'est juste plus long). En lojban, vous pouvez utiliser non pas un seul mot pour _nous_, mais des constructions plus précises comme **mi joi le pendo** (littéralement _moi et les amis_).
 
 <pixra url="/assets/pixra/cilre/casnu.svg" caption="do joi le pendo joi mi casnu" definition="Toi, l'ami et moi sommes en train de discuter."></pixra>
-#### Tâche
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche du lojban.
+#### Exercice
+
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en français.
 
 <table style="table-layout: fixed;">
 
@@ -1258,7 +1289,7 @@ Fermez la partie droite du tableau. Traduisez les phrases de gauche du lojban.
 <td><i>Je mange soit les oranges, soit les bananes.</i>
 </td></tr></tbody></table>
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche en lojban.
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en lojban.
 
 <table style="table-layout: fixed;">
 
@@ -1288,7 +1319,7 @@ Fermez la partie droite du tableau. Traduisez les phrases de gauche en lojban.
 <td><b>le verba joi le pa cmalu cu casnu le karce</b> (notez l'utilisation de <b>joi</b>. <i>le petit</i> est juste <b>le pa cmalu</b>).
 </td></tr></tbody></table>
 
-### Mais ...
+### Mais …
 
 > **le najnimre cu barda .i je ku'i le badna cu cmalu**
 > _Les oranges sont grandes. Mais les bananes sont petites._
@@ -1335,7 +1366,7 @@ dansu ⇒ le nu dansu
 : danser ⇒ la danse
 
 kansa ⇒ le nu kansa
-: … est ensemble avec … ⇒ être ensemble
+: … être ensemble avec … ⇒ être ensemble
 
 klama ⇒ le nu klama
 : venir à … ⇒ la venue
@@ -1357,9 +1388,9 @@ djica
 > _Je suis heureux parce que tu viens._
 
 gleki
-: … est heureux (de quelque événement)
+: … être heureux (de quelque événement)
 
-<pixra url="/assets/pixra/cilre/gleki.svg" caption="gleki" definition="… est heureux à propos de l'événement …"></pixra>
+<pixra url="/assets/pixra/cilre/gleki.svg" caption="gleki" definition="… être heureux à propos de l'événement …"></pixra>
 
 Certains noms décrivent des événements par eux-mêmes, donc aucun **le nu** n'est utilisé :
 
@@ -1377,15 +1408,15 @@ Les noms faits avec **le nu** peuvent être utilisés pour les verbes qui décri
 nabmi
 : (événement) est un problème (pour quelqu'un), (événement) est problématique (pour quelqu'un)
 
-Tous les mots Lojban sont divisés en deux groupes :
+Tous les mots lojban sont divisés en deux groupes :
 
-- particules (appelées **le cmavo** en Lojban). Exemples : **le**, **nu**, **mi**
-- verbes (appelés **le selbrivla** en Lojban). Exemples : **gleki**, **klama**.
-  Il est assez courant d'écrire plusieurs particules l'une après l'autre sans espaces entre elles. Cela est autorisé par la grammaire Lojban. Ne soyez donc pas surpris de voir **lenu** au lieu de **le nu**, **naku** au lieu de **na ku**, **jonai** au lieu de **jo nai**, etc. Cela ne change pas le sens. Cependant, cela ne s'applique pas aux verbes : ils doivent être séparés par des espaces.
+- particules (appelées **le cmavo** en lojban). Exemples : **le**, **nu**, **mi**
+- verbes (appelés **le selbrivla** en lojban). Exemples : **gleki**, **klama**.
+  Il est assez courant d'écrire plusieurs particules l'une après l'autre sans espaces entre elles. Cela est autorisé par la grammaire lojban. Ne soyez donc pas surpris de voir **lenu** au lieu de **le nu**, **naku** au lieu de **na ku**, **jonai** au lieu de **jo nai**, etc. Cela ne change pas le sens. Cependant, cela ne s'applique pas aux verbes : ils doivent être séparés par des espaces.
 
-#### Tâche
+#### Exercice
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche du Lojban.
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en français.
 
 pilno
 : utiliser (quelque chose)
@@ -1411,7 +1442,7 @@ le skami
 <td><i>Veux-tu que je mange la <u>pomme</u> ?</i>
 </td></tr></tbody></table>
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche en Lojban.
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en lojban.
 
 <table style="table-layout: fixed;">
 
@@ -1459,9 +1490,9 @@ Les particules liées au temps sont regroupées en séries selon leur significat
 
 Mots pour les temps simples :
 
-- **pu** signifie _avant ... (un événement)_, **pu** seul indique le passé.
-- **ca** signifie _en même temps que ... (un événement)_, **ca** seul indique le présent.
-- **ba** signifie _après ... (un événement)_, **ba** seul indique le futur.
+- **pu** signifie _avant … (un événement)_, **pu** seul indique le passé.
+- **ca** signifie _en même temps que … (un événement)_, **ca** seul indique le présent.
+- **ba** signifie _après … (un événement)_, **ba** seul indique le futur.
 
 Les temps ajoutent des informations sur le moment où quelque chose se produit. L'anglais nous force à utiliser certains temps. On doit choisir entre
 
@@ -1480,7 +1511,7 @@ La phrase
 
 ne dit en fait rien sur le moment où cela se produit. Le contexte est suffisamment clair dans la plupart des cas et peut nous aider. Mais si nous avons besoin de plus de précision, nous ajoutons simplement plus de mots.
 
-De même, **ba** signifie _après ... (un événement)_ donc lorsque nous disons **mi ba cu citka** nous voulons dire que nous mangeons après le moment où nous parlons, c'est pourquoi cela signifie _Je vais manger_.
+De même, **ba** signifie _après … (un événement)_ donc lorsque nous disons **mi ba cu citka** nous voulons dire que nous mangeons après le moment où nous parlons, c'est pourquoi cela signifie _Je vais manger_.
 
 Nous pouvons combiner des particules de temps avec et sans arguments nominaux après eux :
 
@@ -1497,7 +1528,7 @@ Plus d'exemples de termes liés au temps :
 > _La nuit est agréable._
 
 pluka
-: ... est agréable
+: … être agréable
 
 > **ba le nicte cu pluka**
 > _Après la nuit, c'est agréable._
@@ -1522,7 +1553,7 @@ Il est également possible d'intégrer des particules modales dans la constructi
 > **le nicte ba pluka**
 > _La nuit sera agréable._
 
-Les deux phrases signifient la même chose, **ba pluka** est une construction de relation signifiant _... sera agréable_.
+Les deux phrases signifient la même chose, **ba pluka** est une construction de relation signifiant _… sera agréable_.
 
 La structure de **le nicte ba pluka** est la suivante :
 
@@ -1543,17 +1574,17 @@ Si vous souhaitez mettre un terme modal avant un nom, vous pouvez le séparer du
 > **le nicte ba pluka**
 > _La nuit sera agréable._
 
-**ku** empêche **ba le nicte** d'apparaître, conservant ainsi **ba ku** et **le nicte** en tant que termes distincts.
+**ku** empêche **ba le nicte** d'apparaitre, conservant ainsi **ba ku** et **le nicte** en tant que termes distincts.
 
-Une dernière note : les définitions anglaises des mots Lojban peuvent utiliser des temps même lorsque les mots Lojban originaux ne les impliquent pas, par exemple :
+Une dernière note : les définitions anglaises des mots lojban peuvent utiliser des temps même lorsque les mots lojban originaux ne les impliquent pas, par exemple :
 
 tavla
-: ... parle à ..., ... s'adresse à ...
+: … parler à …, … s'adresser à …
 
 pluka
-: ... est agréable
+: … être agréable
 
-Bien que _parle_, _est_, etc. soient au présent (nous ne pouvons pas toujours nous débarrasser du temps dans les mots anglais car c'est ainsi que l'anglais fonctionne), nous devons toujours supposer que le temps n'est pas implicite dans la signification des mots Lojban définis à moins que la définition anglaise de ces mots ne mentionne explicitement de telles restrictions de temps. 
+Bien que _parle_, _est_, etc. soient au présent (nous ne pouvons pas toujours nous débarrasser du temps dans les mots anglais car c'est ainsi que l'anglais fonctionne), nous devons toujours supposer que le temps n'est pas implicite dans la signification des mots lojban définis à moins que la définition anglaise de ces mots ne mentionne explicitement de telles restrictions de temps. 
 
 ### Termes modaux. Contours d'événements : « **co'a** », « **ca'o** », « **co'i** »
 
@@ -1578,13 +1609,13 @@ La plupart des verbes décrivent des événements sans préciser l'étape de ces
 > _Je me suis réveillé._
 
 cikna
-: ... est éveillé
+: … être éveillé
 
 co'a cikna
-: ... se réveille, devient éveillé
+: … se réveiller, devenir éveillé
 
 pu co'a cikna
-: ... s'est réveillé, est devenu éveillé
+: … s'être réveillé, être devenu éveillé
 
 <pixra url="/assets/pixra/cilre/coha_cikna.svg" caption="le prenu co'a cikna" definition="La personne se réveille."></pixra>
 
@@ -1595,7 +1626,7 @@ Pour exprimer précisément le temps progressif anglais, nous utilisons **ca'o**
 > _Je dormais._
 
 sipna
-: ... dort
+: … dormir
 
 <pixra url="/assets/pixra/cilre/sipna.svg" caption="le prenu ca'o sipna" definition="La personne dort."></pixra>
 
@@ -1654,7 +1685,7 @@ ze'i
 : pendant une courte période
 
 ze'a
-: pendant un certain temps, pendant un moment, pendant ...
+: pendant un certain temps, pendant un moment, pendant …
 
 ze'u
 : pendant une longue période
@@ -1670,7 +1701,7 @@ ze'u
 > **mi pu ze'a le nicte cu sipna**
 > _J'ai dormi toute la nuit._
 
-Remarque : nous ne pouvons pas éluder **cu** ici car **nicte sipna** (_... est un dormeur nocturne_) est un tanru et conduirait donc à une autre signification (si étrange soit-elle).
+Remarque : nous ne pouvons pas éluder **cu** ici car **nicte sipna** (_… être un dormeur nocturne_) est un tanru et conduirait donc à une autre signification (si étrange soit-elle).
 
 > **mi pu ze'i le nicte cu sipna**
 > _J'ai dormi pendant la courte nuit._
@@ -1700,14 +1731,14 @@ Particule modale pour « parce que » :
 > _Je mange parce que j'ai faim._
 
 ri'a
-: parce que ... (d'un événement)
+: parce que … (d'un événement)
 
-<pixra url="/assets/pixra/cilre/taske.svg" caption="taske" definition="... a soif"></pixra>
+<pixra url="/assets/pixra/cilre/taske.svg" caption="taske" definition="… a soif"></pixra>
 
 taske
-: ... a soif
+: … avoir soif
 
-<pixra url="/assets/pixra/cilre/xagji.svg" caption="xagji" definition="... a faim"></pixra>
+<pixra url="/assets/pixra/cilre/xagji.svg" caption="xagji" definition="… a faim"></pixra>
 
 Les particules modales indiquant un lieu fonctionnent de la même manière :
 
@@ -1727,13 +1758,13 @@ signifie simplement que la personne se déplace vers ta direction, mais pas néc
 > _Je marche dans la ville._
 
 fa'a
-: vers ..., dans la direction de ...
+: vers …, dans la direction de …
 
 to'o
-: de ..., dans la direction de ...
+: de …, dans la direction de …
 
 bu'u
-: à ... (un endroit)
+: à … (un endroit)
 
 Note : **nu** indique qu'une nouvelle phrase interne imbriquée commence dans la phrase principale. Nous mettons **kei** après cette relation pour montrer sa bordure droite, de manière similaire à la façon dont nous utilisons ")" ou "]" en mathématiques. Par exemple :
 
@@ -1790,14 +1821,14 @@ Particule modale pour « parce que » :
 > _Je mange parce que j'ai faim._
 
 ri'a
-: parce que ... (d'un événement)
+: parce que … (d'un événement)
 
-<pixra url="/assets/pixra/cilre/taske.svg" caption="taske" definition="... a soif"></pixra>
+<pixra url="/assets/pixra/cilre/taske.svg" caption="taske" definition="… a soif"></pixra>
 
 taske
-: ... a soif
+: … avoir soif
 
-<pixra url="/assets/pixra/cilre/xagji.svg" caption="xagji" definition="... a faim"></pixra>
+<pixra url="/assets/pixra/cilre/xagji.svg" caption="xagji" definition="… a faim"></pixra>
 
 Les particules modales indiquant un lieu fonctionnent de la même manière :
 
@@ -1817,13 +1848,13 @@ signifie simplement que la personne se déplace vers ta direction, mais pas néc
 > _Je marche dans la ville._
 
 fa'a
-: vers ..., dans la direction de ...
+: vers …, dans la direction de …
 
 to'o
-: de ..., dans la direction de ...
+: de …, dans la direction de …
 
 bu'u
-: à ... (un endroit)
+: à … (un endroit)
 
 Note : **nu** indique qu'une nouvelle phrase interne imbriquée commence dans la phrase principale. Nous mettons **kei** après cette relation pour montrer sa bordure droite, de manière similaire à la façon dont nous utilisons ")" ou "]" en mathématiques. Par exemple :
 
@@ -1867,15 +1898,15 @@ Considérez l'exemple suivant avec une particule liée au temps :
 
 Nous pouvons réorganiser la phrase en déplaçant **ba le nu mi dansu** autour, tant qu'elle reste après **pu**.
 
-#### Tâche
+#### Exercice
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche du Lojban.
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en français.
 
 le tsani
 : le ciel
 
 zvati
-: …est présent à … (un lieu ou un événement), …reste à … (un lieu)
+: … être présent à … (un lieu ou un évènement), … rester à … (un lieu)
 
 le canko
 : la fenêtre
@@ -1925,7 +1956,7 @@ le tcati
 <td><i>Quand je rentre à la maison, tu bois du thé parce que tu as soif.</i>
 </td></tr></tbody></table>
 
-Fermez la partie droite du tableau. Traduisez les phrases de gauche en Lojban.
+Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en lojban.
 
 <table style="table-layout: fixed;">
 
@@ -1952,7 +1983,7 @@ Fermez la partie droite du tableau. Traduisez les phrases de gauche en Lojban.
 
 ### Noms. Choix d'un nom
 
-Le **cmevla**, ou _mot-nom_, est un type spécial de mot utilisé pour construire des noms personnels. Il est facile de reconnaître le cmevla dans un flux de texte, car ce sont les seuls mots qui se terminent par une consonne et qui sont enveloppés d'un point de chaque côté.
+Le **cmevla**, ou _mot-nom_, est un type spécial de mot utilisé pour construire des noms personnels. Il est facile de reconnaitre le cmevla dans un flux de texte, car ce sont les seuls mots qui se terminent par une consonne et qui sont enveloppés d'un point de chaque côté.
 
 Des exemples de cmevla sont : **.paris.**, **.robin.**
 
@@ -1964,7 +1995,7 @@ Le plus simple exemple d'utilisation d'un nom serait
 > _Bob lit/est en train de lire._
 
 tcidu
-: ... lit
+: … lire
 
 <pixra url="/assets/pixra/cilre/tcidu_la_lojban.svg" caption="le prenu ca'o tcidu" definition="La personne lit."></pixra>
 
@@ -1991,11 +2022,11 @@ Le prénom de Bob, le nom de la langue _Lojban_, peut être utilisé en lojban s
 
 > **la .lojban. cu bangu mi**
 > _Je parle lojban._
-> Lojban est une langue que j'utilise.
-> `Lojban est une langue que j'utilise.`
+> Le lojban est une langue que j'utilise.
+> `Le lojban est une langue que j'utilise.`
 
 bangu
-: ... est une langue utilisée par ... (quelqu'un)
+: … être une langue utilisée par … (quelqu'un)
 
 <!-- -->
 > **mi nintadni la .lojban.**
@@ -2006,7 +2037,7 @@ bangu
 
 <pixra url="/assets/pixra/cilre/tadni.svg" caption="le prenu ca ca'o tadni la .lojban." definition="La personne étudie maintenant lojban."></pixra>
 
-Les lettres lojban correspondent directement aux sons, il y a donc des règles pour adapter les noms à la façon dont ils sont écrits en lojban. Cela peut sembler étrange - après tout, un nom est un nom - mais toutes les langues le font dans une certaine mesure. Par exemple, les anglophones ont tendance à prononcer _Jose_ comme _Hozay_, et _Margaret_ en chinois est _Magelita_. Certains sons n'existent tout simplement pas dans certaines langues, il faut donc réécrire le nom de manière à ce qu'il ne contienne que des sons lojban et soit orthographié selon la correspondance lettre-son.
+Les lettres lojban correspondent directement aux sons, il y a donc des règles pour adapter les noms à la façon dont ils sont écrits en lojban. Cela peut sembler étrange — après tout, un nom est un nom — mais toutes les langues le font dans une certaine mesure. Par exemple, les anglophones ont tendance à prononcer _Jose_ comme _Hozay_, et _Margaret_ en chinois est _Magelita_. Certains sons n'existent tout simplement pas dans certaines langues, il faut donc réécrire le nom de manière à ce qu'il ne contienne que des sons lojban et soit orthographié selon la correspondance lettre-son.
 
 Par exemple :
 
@@ -2018,7 +2049,7 @@ la .suzyn.
 
 Faites attention à la façon dont le nom est prononcé nativement. En conséquence, les noms anglais et français _Robert_ sortent différemment en lojban : le nom anglais est **.robyt.** en anglais britannique, ou **.rabyrt.** dans certains dialectes américains, mais le français est **.rober.**
 
-Voici des "Lojbanisations" de certains noms :
+Voici des "lojbanisations" de certains noms :
 
 - _Alice_ ⇒ **la .alis.**
 - _Mei Li_ ⇒ **la .meilis.**
@@ -2036,12 +2067,12 @@ Voici des "Lojbanisations" de certains noms :
 Notes :
 
 * Deux points supplémentaires sont nécessaires car si vous ne mettez pas ces pauses dans la parole, il pourrait devenir difficile de savoir où commence et se termine le nom, ou en d'autres termes, où le mot précédent se termine et où le mot suivant commence.
-* La dernière lettre d'un cmevla doit être une consonne. Si un nom ne se termine pas par une consonne, nous ajoutons généralement un **s** à la fin ; ainsi en Lojban, _Mary_ devient **.meris.**, _Joe_ devient **.djos.**, et ainsi de suite. Alternativement, nous pouvons omettre la dernière voyelle, donc _Mary_ deviendrait **.mer.** ou **.meir**.
+* La dernière lettre d'un cmevla doit être une consonne. Si un nom ne se termine pas par une consonne, nous ajoutons généralement un **s** à la fin ; ainsi en lojban, _Mary_ devient **.meris.**, _Joe_ devient **.djos.**, et ainsi de suite. Alternativement, nous pouvons omettre la dernière voyelle, donc _Mary_ deviendrait **.mer.** ou **.meir**.
 * Vous pouvez également mettre un point entre le prénom et le nom de famille d'une personne (bien que ce ne soit pas obligatoire), donc _Jim Jones_ devient **.djim.djonz.**
 
 ### Règles pour créer le cmevla
 
-Voici une représentation compacte des sons en Lojban :
+Voici une représentation compacte des sons en lojban :
 
 - voyelles :
   - **a e i o u y au ai ei oi**
@@ -2053,7 +2084,7 @@ Voici une représentation compacte des sons en Lojban :
   - **'** (apostrophe). Il est placé uniquement entre deux voyelles : **.e'e**, **.u'i**
   - **.** (point, séparation de mots)
 
-Pour créer un nom en Lojban, suivez ces règles :
+Pour créer un nom en lojban, suivez ces règles :
 
 1. le nom doit se terminer par une consonne sauf **'**. Si ce n'est pas le cas, ajoutez une consonne à la fin vous-même. De plus, entourez-le d'un point de chaque côté : **.lojban.**.
 2. les voyelles ne peuvent être placées qu'entre deux consonnes : **.sam.**, **.no'am.**
@@ -2061,14 +2092,14 @@ Pour créer un nom en Lojban, suivez ces règles :
 4. si une consonne voisé et une non-voisé sont l'une à côté de l'autre, insérez un **y** entre elles : **kv** devient **kyv**. Alternativement, vous pouvez supprimer l'une des lettres : **pb** peut être transformé en un seul **p** ou un seul **b**.
 5. si l'un des **c**, **j**, **s**, **z** sont l'un à côté de l'autre, insérez un **y** entre eux : **jz** devient **jyz**. Alternativement, vous pouvez supprimer l'une des lettres : **cs** peut être transformé en un seul **c** ou un seul **s**.
 6. si **x** est à côté de **c** ou à côté de **k**, insérez un **y** entre eux : **cx** devient **cyx**, **xk** devient **xyk**. Alternativement, vous pouvez supprimer l'une des lettres : **kx** peut être transformé en un seul **x**.
-7. les sous-chaînes **mz**, **nts**, **ntc**, **ndz**, **ndj** sont corrigées en ajoutant un **y** à l'intérieur ou en supprimant l'une des lettres : **nytc** ou **nc**, **.djeimyz.**
+7. les sous-chaines **mz**, **nts**, **ntc**, **ndz**, **ndj** sont corrigées en ajoutant un **y** à l'intérieur ou en supprimant l'une des lettres : **nytc** ou **nc**, **.djeimyz.**
 8. les doubles **ii** entre voyelles sont fusionnés en un seul **i** : **.eian.** (mais pas **.eiian.**)
 9. les doubles **uu** entre voyelles sont fusionnés en un seul **u** : **.auan.** (mais pas **.auuan.**)
 10. le son pour le "h" anglais comme dans Harry peut être supprimé ou remplacé par **x**. _Harry_ peut devenir **.aris.** ou **.xaris.**
 
 ### Mots de relation comme noms
 
-Vous pouvez choisir un surnom agréable en Lojban en utilisant non seulement des cmevla mais aussi des mots de relation. Vous pouvez également traduire votre nom actuel en Lojban si vous savez ce qu'il signifie, ou choisir un tout nouveau nom en Lojban.
+Vous pouvez choisir un surnom agréable en lojban en utilisant non seulement des cmevla mais aussi des mots de relation. Vous pouvez également traduire votre nom actuel en lojban si vous savez ce qu'il signifie, ou choisir un tout nouveau nom en lojban.
 
 Voici quelques exemples :
 
@@ -2077,8 +2108,8 @@ Voici quelques exemples :
 <tr>
 <th> Nom original </th>
 <th> Signification originale </th>
-<th> Mot en Lojban </th>
-<th> Signification en Lojban </th>
+<th> Mot en lojban </th>
+<th> Signification en lojban </th>
 <th> Votre nom
 </th></tr>
 </thead>
@@ -2106,7 +2137,7 @@ Voici quelques exemples :
 </td></tr></tbody></table>
 ### ‘_il_’ ‘_elle_’
 
-Lojban n'a pas de mots distincts pour _il_ ou _elle_. Solutions possibles :
+lojban n'a pas de mots distincts pour _il_ ou _elle_. Solutions possibles :
 
 le ninmu
 : la femme (au sens de genre)
@@ -2122,9 +2153,9 @@ le nanmu
 > _La femme parle à l'homme. Elle est une leader._
 
 jatna
-: … est un leader, un commandant
+: … être un leader / un commandant
 
-Les Lojbanistes ont proposé divers mots pour d'autres genres comme
+Les lojbanistes ont proposé divers mots pour d'autres genres comme
 
 le nonmu
 : la personne sans genre
@@ -2144,13 +2175,13 @@ le nurma
 
 Ici, **ri** se réfère à la campagne.
 
-<pixra url="/assets/pixra/cilre/nurma.svg" caption="nurma" definition="… est une zone rurale"></pixra>
+<pixra url="/assets/pixra/cilre/nurma.svg" caption="nurma" definition="… être une zone rurale"></pixra>
 
 > **mi tavla le pendo .i ri jundi**
 > _Je parle à l'ami. Il/elle est attentif/ve._
 
 jundi
-: … est attentif/ve
+: … être attentif/ve
 
 Ici, **ri** se réfère à l'ami.
 
@@ -2165,7 +2196,7 @@ Ici, **ri** saute le pronom précédent **mi** et se réfère donc à **le prenu
 
 ### Se présenter. Les vocatifs
 
-En Lojban, les _vocatifs_ sont des mots qui se comportent comme des interjections (comme **xu** que nous avons discuté plus tôt), mais ils nécessitent que le nom suivant leur soit attaché :
+En lojban, les _vocatifs_ sont des mots qui se comportent comme des interjections (comme **xu** que nous avons discuté plus tôt), mais ils nécessitent que le nom suivant leur soit attaché :
 
 > **coi do**
 > _Bonjour, toi !_
@@ -2193,10 +2224,10 @@ co'o
 
 Puisque les vocatifs fonctionnent comme des interjections, nous avons de belles formules de salutations :
 
-<pixra url="/assets/pixra/cilre/cerni.svg" caption="cerni" definition="… est le matin"></pixra>
-<pixra url="/assets/pixra/cilre/donri.svg" caption="donri" definition="… est le temps du jour"></pixra>
-<pixra url="/assets/pixra/cilre/vanci.svg" caption="vanci" definition="… est le soir"></pixra>
-<pixra url="/assets/pixra/cilre/nicte.svg" caption="nicte" definition="… est la nuit"></pixra>
+<pixra url="/assets/pixra/cilre/cerni.svg" caption="cerni" definition="… être le matin"></pixra>
+<pixra url="/assets/pixra/cilre/donri.svg" caption="donri" definition="… être le temps du jour"></pixra>
+<pixra url="/assets/pixra/cilre/vanci.svg" caption="vanci" definition="… être le soir"></pixra>
+<pixra url="/assets/pixra/cilre/nicte.svg" caption="nicte" definition="… être la nuit"></pixra>
 
 <div class="common"></div>
 
@@ -2237,7 +2268,7 @@ ou
 : interjection : J'espère
 
 pluka
-: … est agréable pour … (quelqu'un)
+: … être agréable pour … (quelqu'un)
 
 Bien sûr, nous pouvons être vagues en disant simplement **pluka nicte** (signifiant simplement _nuit agréable_ sans aucun souhait explicitement exprimé).
 
@@ -2272,16 +2303,16 @@ Deux autres vocatifs sont **ki'e** pour dire merci et **je'e** pour les accepter
 > _— De rien._
 
 sidju
-: … aide … (quelqu'un)
+: … aider … (quelqu'un)
 
 Nous pouvons omettre le nom après le vocatif seulement si celui-ci est à la fin de la phrase. Par exemple, nous pouvons simplement dire :
 
 > **— coi .i xu do kanro**
-> _— Bonjour. Comment allez-vous?_
-> `— Bonjour. Êtes-vous en bonne santé?`
+> _— Bonjour. Comment allez-vous ?_
+> `— Bonjour. Êtes-vous en bonne santé ?`
 
 kanro
-: ... est en bonne santé
+: … être en bonne santé
 
 Ici, une nouvelle phrase commence immédiatement après le vocatif **coi**, donc nous avons omis le nom. Ou nous pouvons dire:
 
@@ -2294,29 +2325,29 @@ Ainsi, si vous ne connaissez pas le nom de l'interlocuteur et que vous voulez co
 Si vous utilisez le vocatif seul (sans nom après lui) et que la phrase n'est pas encore terminée, vous devez le séparer du reste. Cela est dû au fait que les choses les plus susceptibles de suivre le vocatif dans une phrase pourraient facilement être mal interprétées comme décrivant votre interlocuteur. Pour le séparer du nom/pronom suivant, utilisez le mot **do**. Par exemple,
 
 > **coi do la .alis. la .doris. pu cliva**
-> _Bonjour! Alice est partie de chez Doris._
-> `Bonjour vous! Alice est partie de chez Doris`
+> _Bonjour ! Alice est partie de chez Doris._
+> `Bonjour vous ! Alice est partie de chez Doris`
 
 <!-- -->
 
 > **coi la .alis. la .doris. pu cliva**
-> _Bonjour, Alice! Doris est partie._
+> _Bonjour, Alice ! Doris est partie._
 
 Et si vous voulez mettre à la fois des vocatifs et des interjections, modifiant toute la phrase, veuillez mettre les interjections en premier:
 
 > **.ui coi do la .alis. la .doris. pu cliva**
-> _Hourra, Bonjour! Alice est partie de chez Doris._
+> _Hourra, Bonjour ! Alice est partie de chez Doris._
 
 Note: au début d'une phrase, les interjections sont généralement placées avant les vocatifs car:
 
 > **coi .ui do la .alis. la .doris. pu cliva** signifie
 
-> _Bonjour (Je suis content de ce salut) vous! Alice est partie de chez Doris._
+> _Bonjour (Je suis content de ce salut) vous ! Alice est partie de chez Doris._
 
 Ainsi, une interjection immédiatement après un vocatif modifie ce vocatif. De même, une interjection modifie le nom du vocatif lorsqu'elle est placée après celui-ci:
 
 > **coi do .ui la .alis. la .doris. pu cliva**
-> _Bonjour vous (Je suis content de vous)! Alice est partie de chez Doris._
+> _Bonjour vous (Je suis content de vous) ! Alice est partie de chez Doris._
 
 ## Leçon 2. Plus de choses de base
 
@@ -2325,16 +2356,16 @@ Ainsi, une interjection immédiatement après un vocatif modifie ce vocatif. De 
 Plus tôt, nous avons fourni des définitions de verbes tels que :
 
 mlatu
-: … est un chat, être un chat
+: … être un chat
 
 citka
-: … mange …
+: … manger …
 
 prami
-: … aime …
+: … aimer …
 
 klama
-: … venir à …
+: … venir à, aller à …
 
 Les dictionnaires peuvent présenter des verbes avec des symboles tels que $x_1$, $x_2$, etc. :
 
@@ -2433,7 +2464,7 @@ la deuxième place de **klama** est toujours omise. Par exemple :
 le cmana
 : la montagne
 
-<pixra url="/assets/pixra/cilre/cmana.svg" caption="cmana" definition="… est une montagne"></pixra>
+<pixra url="/assets/pixra/cilre/cmana.svg" caption="cmana" definition="… être une montagne"></pixra>
 
 Et ici, la deuxième place de **klama** est **do**. La phrase signifie que la montagne est juste une direction, tandis que le point final est toi.
 
@@ -2455,7 +2486,7 @@ L'ordre des arguments des verbes composés est le même que celui du dernier mot
 > `C'est un ami qui court rapidement de moi.`
 
 pendo
-: ... est un ami de ... (quelqu'un)
+: … être un ami de … (quelqu'un)
 
 Ainsi, l'ordre des arguments est le même que celui de **pendo** seul. 
 
@@ -2526,7 +2557,7 @@ nous avons
 
 Un tel mécanisme "récursif" d'emballage de relations dans des relations permet d'exprimer des idées complexes avec précision.
 
-### Pourquoi les verbes sont-ils définis de cette manière?
+### Pourquoi les verbes sont-ils définis de cette manière ?
 
 L'anglais utilise un ensemble limité de prépositions qui sont réutilisées dans divers verbes et, par conséquent, n'ont pas de signification fixe. Par exemple, considérez la préposition anglaise _to_ :
 
@@ -2542,7 +2573,7 @@ Dans chacun de ces exemples, _to_ a un nouveau rôle qui est, au mieux, vaguemen
 
 Il est important de noter que d'autres langues utilisent différentes façons de marquer les rôles des verbes qui, dans de nombreux cas, sont très différents de ceux utilisés en anglais.
 
-Lojban, par exemple, marque les rôles principaux des relations en définissant entièrement de telles relations avec les rôles placés en séquence (ou marqués avec **fa**, **fe**, etc.) :
+Le lojban, par exemple, marque les rôles principaux des relations en définissant entièrement de telles relations avec les rôles placés en séquence (ou marqués avec **fa**, **fe**, etc.) :
 
 klama
 : $x_1$ vient vers $x_2$ …
@@ -2562,7 +2593,7 @@ Cependant, il peut y avoir des rôles facultatifs qui rendent les relations plus
 
 > _C'est difficile pour moi parce que cette chose est lourde._
 
-En Lojban, une notion similaire de tels rôles facultatifs est exprimée via des relations séparées ou, pour la plupart des cas courants, avec des termes modaux :
+En lojban, une notion similaire de tels rôles facultatifs est exprimée via des relations séparées ou, pour la plupart des cas courants, avec des termes modaux :
 
 > **mi tavla do ze'a le nu mi citka**
 > _Je te parle pendant que je mange._
@@ -2576,11 +2607,11 @@ nandu
 tilju
 : $x_1$ est lourd
 
-Les prépositions en anglais sont similaires aux particules modales en Lojban, bien qu'une préposition anglaise habituelle puisse avoir de nombreuses significations tandis qu'en Lojban, chaque particule modale n'a qu'une seule signification (même si vague).
+Les prépositions en anglais sont similaires aux particules modales en lojban, bien qu'une préposition anglaise habituelle puisse avoir de nombreuses significations tandis qu'en lojban, chaque particule modale n'a qu'une seule signification (même si vague).
 
 ### Règles générales dans l'ordre des arguments
 
-L'ordre des places dans les verbes peut parfois être difficile à retenir, mais ne vous inquiétez pas - vous n'avez pas besoin de vous souvenir de toutes les places de tous les verbes. (Vous souvenez-vous de la signification de centaines de milliers de mots en anglais?)
+L'ordre des places dans les verbes peut parfois être difficile à retenir, mais ne vous inquiétez pas — vous n'avez pas besoin de vous souvenir de toutes les places de tous les verbes. (Vous souvenez-vous de la signification de centaines de milliers de mots en anglais ?)
 
 Vous pouvez étudier les places lorsque vous les trouvez utiles ou lorsque les gens les utilisent dans un dialogue avec vous.
 
@@ -2590,7 +2621,7 @@ En général, vous pouvez deviner l'ordre en utilisant le contexte et quelques r
 
 1. La première place est souvent la personne ou la chose qui fait quelque chose ou qui est quelque chose :
 
-    **klama** = _$x_1$ va..._
+    **klama** = _$x_1$ va…_
 
 2. L'objet d'une action est généralement juste après la première place :
 
@@ -2686,7 +2717,7 @@ Nous obtenons donc:
 > **do djica le nu mi dansu**
 > _Tu veux que je danse._
 
-En Lojban, il n'est pas autorisé de dire, par exemple:
+En lojban, il n'est pas autorisé de dire, par exemple:
 
 > **mi djica le plise**
 > _Je veux la pomme._ <div class="naldra"></div> 
@@ -2723,7 +2754,7 @@ tu'a le titla
 : quelque chose à propos du bonbon
 
 titla
-: ... est sucré, ... est un bonbon
+: … être sucré, … être un bonbon
 
 <pixra url="/assets/pixra/cilre/djica_tuha_le_titla.svg" caption="le prenu cu djica tu'a le titla" definition="La personne veut le bonbon."></pixra>
 
@@ -2755,7 +2786,7 @@ Comment dit-on _Tu es mon ami._ ?
 
 <pixra url="/assets/pixra/cilre/pendo.svg" caption="le pendo" definition="l'ami / les amis"></pixra>
 
-Et maintenant, comment dit-on _My friend is smart._?
+Et maintenant, comment dit-on _My friend is smart._ ?
 
 > **le pendo be mi cu stati**
 > _Mon ami est intelligent._
@@ -2828,7 +2859,7 @@ Utiliser **be** pour les verbes non convertis en noms n'a aucun effet : **mi nel
 > _La personne, qui est accessoirement mon ami, me parle._
 
 blabi
-: ... est blanc
+: … être blanc
 
 Dans la première phrase, le mot _that_ est essentiel pour identifier la personne en question. Il clarifie qui parmi les personnes dans le contexte dont nous parlons. Nous choisissons seulement ceux qui sont mes amis parmi probablement beaucoup de gens autour. Peut-être qu'il n'y a qu'une seule personne autour qui est mon ami.
 
@@ -2845,7 +2876,7 @@ En lojban, nous utilisons **poi** pour les propositions relatives qui identifien
 > _Bob va épouser une fille qui vivait à la campagne._
 
 xabju
-: ... vit dans ..., habite ... (lieu, objet)
+: … vivre dans …, habiter … (lieu, objet)
 
 le nurma
 : la zone rurale
@@ -2948,9 +2979,9 @@ Le sens a beaucoup changé.
 Enfin, **voi** est utilisé pour former des noms similaires à **le** mais avec des propositions relatives :
 
 > **ti voi le nu ke'a cisma cu pluka mi cu zutse tu**
-> _Ceux dont le sourire me plaît sont assis._
+> _Ceux dont le sourire me plait sont assis._
 
-<pixra url="/assets/pixra/cilre/voi.svg" caption="mi nelci ti voi le nu ke'a cisma cu pluka mi" definition="J'aime ceux dont le sourire me plaît."></pixra>
+<pixra url="/assets/pixra/cilre/voi.svg" caption="mi nelci ti voi le nu ke'a cisma cu pluka mi" definition="J'aime ceux dont le sourire me plait."></pixra>
 
 ti
 : celui-ci près de moi, ceux-ci près de moi
@@ -2969,7 +3000,7 @@ Ici, **voi** définit l'objet près de moi.
 Comparez-le à :
 
 > **ti poi le nu ke'a cisma cu pluka mi cu zutse**
-> _De ceux-ci, ceux dont le sourire me plaît sont assis._
+> _De ceux-ci, ceux dont le sourire me plait sont assis._
 
 **poi** restreint la sélection à ceux décrits dans la proposition relative.
 Cet exemple pourrait impliquer qu'il y a beaucoup d'objets (personnes, etc.) autour de moi, mais avec **poi**, je ne sélectionne que ceux nécessaires.
@@ -2977,7 +3008,7 @@ Cet exemple pourrait impliquer qu'il y a beaucoup d'objets (personnes, etc.) aut
 Comparez-le à :
 
 > **ti noi le nu ke'a cisma cu pluka mi cu zutse**
-> _Ceux-ci (qui sont accessoirement tels que leur sourire me plaît) sont assis._
+> _Ceux-ci (qui sont accessoirement tels que leur sourire me plait) sont assis._
 
 **noi** ajoute simplement des informations incidentes qui ne sont pas nécessaires pour déterminer à quoi **ti** (_ceux-ci_) se réfère. Peut-être qu'il n'y a personne d'autre autour à décrire.
 
@@ -3019,10 +3050,10 @@ le vajni
 > _Le stylo, qui est à moi, est rouge._ <span>(information supplémentaire)</span>
 
 ne
-: qui est à propos de, a une relation avec ... (un nom/pronom suit)
+: qui est à propos de, a une relation avec … (un nom/pronom suit)
 
 pe
-: qui est à propos de, a une relation avec ... (un nom/pronom suit)
+: qui est à propos de, a une relation avec … (un nom/pronom suit)
 
 > **le pa penbi ne mi ge'u .e le pa fonxa ne do cu xunre**
 > _Le stylo, qui est à moi, et le téléphone, qui est à toi, sont rouges._
@@ -3045,7 +3076,7 @@ Montrons une fois de plus qu'une construction avec **be** fait partie du verbe, 
 > **le pa melbi be mi fonxa pe le pa pendo be mi cu barda**
 > `Le téléphone beau pour moi de mon ami est grand.`
 
-Ici, **be mi** est attaché au verbe **melbi** = _être beau pour ... (quelqu'un)_ et crée ainsi un nouveau verbe **melbi be mi** = _être beau pour moi_. Mais **pe le pa pendo be mi** (_de mon ami_) est appliqué à tout le nom **le pa melbi be mi fonxa** (_le téléphone beau pour moi_).
+Ici, **be mi** est attaché au verbe **melbi** = _être beau pour … (quelqu'un)_ et crée ainsi un nouveau verbe **melbi be mi** = _être beau pour moi_. Mais **pe le pa pendo be mi** (_de mon ami_) est appliqué à tout le nom **le pa melbi be mi fonxa** (_le téléphone beau pour moi_).
 
 Il peut également arriver que nous devions attacher **be** à un verbe, transformer ce verbe en nom, puis attacher **pe** à ce nom :
 
@@ -3058,7 +3089,7 @@ Il peut également arriver que nous devions attacher **be** à un verbe, transfo
 > _Celui qui t'a donné la pomme (et qui est lié à Paris) est intelligent._
 
 be'o
-: marqueur de bordure droite pour la chaîne de noms attachés avec **be** et **bei**
+: marqueur de bordure droite pour la chaine de noms attachés avec **be** et **bei**
 
 Dans ces exemples, **pe la .paris.** est attaché à tout le nom **le pa pendo be do be'o** et à tout le nom **le pu plicru be do bei le pa plise be'o**.
 
@@ -3091,7 +3122,7 @@ Cependant, voici trois cas :
 > _Alice est l'un des enseignants._
 
 me
-: ... est parmi ..., ... est l'un des ..., ... sont membres de ... (le nom suit)
+: … être parmi …, … être l'un des …, … être membre de … (le nom suit)
 
 > **la .alis. ta'e ctuca**
 > _Alice enseigne habituellement._
@@ -3103,7 +3134,7 @@ ta'e
 > _Alice est l'enseignante._
 
 du
-: ... est identique à ...
+: … être identique / égal à …
 
 La particule **me** prend un nom après elle et indique qu'il y a probablement d'autres enseignants, et Alice en est un parmi eux.
 
@@ -3229,13 +3260,13 @@ Vous pouvez vouloir changer les choses pour différentes emphases, par exemple, 
 <!-- -->
 
 > **le nu mi tadni la .lojban. cu xamgu mi**
-> _Mon étude du Lojban est bonne pour moi._
+> _Mon étude du lojban est bonne pour moi._
 
 xamgu
-: … est bon pour (quelqu'un)
+: … être bon pour (quelqu'un)
 
 > **mi se xamgu le nu mi tadni la .lojban.**
-> _Pour moi, c'est bien d'étudier le Lojban._
+> _Pour moi, c'est bien d'étudier le lojban._
 
 La même chose peut être faite avec des noms:
 
@@ -3256,7 +3287,7 @@ Comme nous le savons, lorsque nous ajoutons **le** devant un verbe, il devient u
 - **le se plicru** signifie _ceux qui pourraient s'adapter à la deuxième place de **plicru**_
 - **le te plicru** signifie _ceux qui pourraient s'adapter à la troisième place de **plicru**_
 
-Ainsi, en Lojban, nous n'avons pas besoin de mots séparés pour _donneur_, _bénéficiaire_ et _cadeau_. Nous réutilisons le même verbe et économisons beaucoup d'efforts grâce à une conception aussi intelligente. En effet, nous ne pouvons pas imaginer un cadeau sans impliquer que quelqu'un l'a donné ou le donnera. Lorsque des phénomènes utiles sont interconnectés, le Lojban reflète cela.
+Ainsi, en lojban, nous n'avons pas besoin de mots séparés pour _donneur_, _bénéficiaire_ et _cadeau_. Nous réutilisons le même verbe et économisons beaucoup d'efforts grâce à une conception aussi intelligente. En effet, nous ne pouvons pas imaginer un cadeau sans impliquer que quelqu'un l'a donné ou le donnera. Lorsque des phénomènes utiles sont interconnectés, le lojban reflète cela.
 
 Pour faciliter la compréhension et la mémorisation des mots prédicatifs préfixés par **se**, **te** sont mis dans le dictionnaire dans des entrées pour de nombreux verbes avec leurs définitions, bien que vous puissiez en déduire leur signification vous-même.
 
@@ -3424,7 +3455,7 @@ zo'u
 da
 : pronom : variable.
 
-Le pronom **da** est traduit par _il y a quelque chose/quelqu'un..._ Si nous utilisons **da** une deuxième fois dans la même relation, il fait toujours référence à la même chose que le premier **da** :
+Le pronom **da** est traduit par _il y a quelque chose/quelqu'un…_ Si nous utilisons **da** une deuxième fois dans la même relation, il fait toujours référence à la même chose que le premier **da** :
 
 > **mi djica le nu su'o da poi kukte zo'u mi citka da**
 > _Je souhaite qu'il y ait au moins quelque chose de savoureux pour que je le mange._
@@ -3460,7 +3491,7 @@ Plus d'exemples :
 > **mi tavla da**
 > _Il y a quelqu'un à qui je parle._
 
-Par défaut, **da** en tant que pronom seul signifie la même chose que **su'o da** (_il y a au moins un(e) ..._) sauf si un nombre explicite est utilisé.
+Par défaut, **da** en tant que pronom seul signifie la même chose que **su'o da** (_il y a au moins un(e) …_) sauf si un nombre explicite est utilisé.
 
 > **da tavla da**
 > _Quelqu'un parle à lui-même._
@@ -3491,7 +3522,7 @@ tavla
 > **pa da poi me le pendo be mi zo'u mi prami da**
 > _Il y a quelqu'un qui est mon ami, que j'aime._
 
-Puisque **da** est utilisé une seule fois, nous pourrions être tentés de nous débarrasser du préfixe. Mais comment devrions-nous gérer la proposition relative **poi pendo mi** (_qui est mon ami_)?
+Puisque **da** est utilisé une seule fois, nous pourrions être tentés de nous débarrasser du préfixe. Mais comment devrions-nous gérer la proposition relative **poi pendo mi** (_qui est mon ami_) ?
 
 Heureusement, en lojban, il y a un raccourci:
 
@@ -3537,10 +3568,10 @@ Un autre exemple:
 > _Utiliser seulement une des langues n'est pas suffisant._
 
 pilno
-: … utilise …
+: … utiliser …
 
 banzu
-: … est suffisant pour le but …
+: … être suffisant pour le but …
 
 Comparez-le à:
 
@@ -3912,10 +3943,10 @@ smaji
 <pixra url="/assets/pixra/cilre/sruri_since.svg" caption="le pa since cu sruri le prenu" definition="Le serpent a entouré la personne."></pixra>
 
 > **lei re djine cu sinxa la .lojban.**
-> _Les deux anneaux sont un symbole de Lojban._
+> _Les deux anneaux sont un symbole du lojban._
 
 > **na ku re le djine cu sinxa la lojban**
-> _Il n'est pas vrai que chacun des deux anneaux est un symbole de Lojban._
+> _Il n'est pas vrai que chacun des deux anneaux est un symbole du lojban._
 
 djine
 : $x_1$ est un anneau
@@ -3928,7 +3959,7 @@ Considérez une phrase :
 
 Est-ce que cela signifie que chaque pomme est lourde, ou est-ce que cela signifie qu'elles sont lourdes si elles sont prises ensemble ?
 
-En Lojban, nous pouvons facilement distinguer ces deux cas :
+En lojban, nous pouvons facilement distinguer ces deux cas :
 
 > **le ci plise cu tilju**
 > _Chacune des trois pommes est lourde._
@@ -4013,7 +4044,7 @@ Pour citer du texte, nous plaçons la particule de citation **lu** avant la cita
 cusku
 : $x_1$ exprime/dit $x_2$ (citation) à l'audience $x_3$
 
-Une caractéristique intéressante du Lojban est que les marques de citation **lu** - « citation » et **li'u** - « non-citation » sont prononçables. C'est assez pratique car, en Lojban parlé, vous n'avez pas besoin de changer l'intonation pour montrer où commence et se termine un texte cité.
+Une caractéristique intéressante du lojban est que les marques de citation **lu** - « citation » et **li'u** - « non-citation » sont prononçables. C'est assez pratique car, en lojban parlé, vous n'avez pas besoin de changer l'intonation pour montrer où commence et se termine un texte cité.
 
 Cependant, dans un texte écrit qui cite une conversation, l'auteur attire souvent l'attention du lecteur sur le contenu des citations. Dans de tels cas, **sei** est préféré.
 
@@ -4032,7 +4063,7 @@ rinsa
 
 <pixra url="/assets/pixra/cilre/rinsa2.svg" caption="le prenu cu rinsa le pendo" definition="La personne salue l'ami."></pixra>
 
-Notez qu'en Lojban, nous distinguons les choses et leurs noms :
+Notez qu'en lojban, nous distinguons les choses et leurs noms :
 
 > **lu le munje li'u cu cmalu**
 > _"L'univers" est petit._
@@ -4104,7 +4135,7 @@ spusku
 cmene
 : $x_1$ (citation) est un nom de $x_2$ …
 
-Pour vous présenter en Lojban en utilisant votre nom Lojbanisé, suivez l'exemple ci-dessus. Si votre nom se compose de plus d'un mot verbe, utilisez **lu … li'u**:
+Pour vous présenter en lojban en utilisant votre nom lojbanisé, suivez l'exemple ci-dessus. Si votre nom se compose de plus d'un mot verbe, utilisez **lu … li'u**:
 
 > **lu .robin.djonsyn. li'u cmene mi**
 > _Robin Johnson est mon nom._
@@ -4133,7 +4164,7 @@ skicu
 : $x_1$ raconte à $x_3$ à propos de $x_2$ (objet/événement/état) avec la description $x_4$ (propriété)
 
 bredi
-: … est prêt à …
+: … être prêt à …
 
 > **mi pu cusku lu le purdi cu bredi li'u le pendo be mi lo ka cladu bacru**
 > _J'ai dit à mon ami, "Le jardin est prêt", en le prononçant fort._
@@ -4142,10 +4173,10 @@ cusku
 : $x_1$ dit $x_2$ (texte) à l'audience $x_3$ via le médium $x_4$
 
 cladu
-: … est fort
+: … être fort
 
 > **mi pu tavla le pendo be mi le nu le purdi cu bredi kei le lojbo**
-> _J'ai parlé à mon ami en Lojban du fait que le jardin était prêt._
+> _J'ai parlé à mon ami en lojban du fait que le jardin était prêt._
 
 tavla
 : $x_1$ parle à $x_2$ de sujet $x_3$ dans la langue $x_4$
@@ -4189,10 +4220,10 @@ Pour traduire _which/what_, nous utilisons également **ma** :
 > `— USA`
 
 xabju
-: … (quelqu'un) habite … (un endroit)
+: … (quelqu'un) habiter … (un endroit)
 
 se xabju
-: … (un endroit) est habité par … (quelqu'un)
+: … (un endroit) être habité par … (quelqu'un)
 
 **mo** est similaire à **ma**, mais il interroge la relation principale au lieu d'un nom. C'est comme demander _Que fait X ?_ ou _Qu'est-ce que X ?_ en anglais (rappelez-vous, le lojban ne vous oblige pas à faire la distinction entre être et faire !).
 
@@ -4353,14 +4384,14 @@ L'utilisation de termes modaux avec **ma** peut nous donner d'autres questions u
 ### Questions de nombre
 
 > **le xo prenu cu klama ti**
-> _Combien de personnes viennent ici?_
+> _Combien de personnes viennent ici ?_
 
 <!-- -->
 
 > **mu**
 > _Cinq._
 
-Le mot **xo** signifie _Combien?_ et demande donc un nombre. La réponse complète sera:
+Le mot **xo** signifie _Combien ?_ et demande donc un nombre. La réponse complète sera:
 
 > **le mu prenu cu klama ti**
 > _Les 5 personnes viennent à cet endroit._
@@ -4370,12 +4401,12 @@ La personne interrogée est censée mettre une valeur appropriée à la place de
 Voici quelques exemples supplémentaires:
 
 > **le xo botpi cu kunti**
-> _Combien de bouteilles sont vides?_
+> _Combien de bouteilles sont vides ?_
 
 <!-- -->
 
 > **do ralte le xo gerku**
-> _Combien de chiens possédez-vous?_
+> _Combien de chiens possédez-vous ?_
 
 ### Verbes de faits
 
@@ -4407,44 +4438,44 @@ Notez que la relation commencée avec **du'u** n'a pas besoin d'être vraie:
 jitfa
 : $x_1$ (proposition) est faux
 
-Quand devez-vous utiliser **du'u** et quand devez-vous utiliser **nu**? Vous pouvez consulter le dictionnaire:
+Quand devez-vous utiliser **du'u** et quand devez-vous utiliser **nu** ? Vous pouvez consulter le dictionnaire:
 
 - L'étiquette _(du'u)_ ou _(proposition)_ marque les endroits où **du'u** est recommandé.
 - L'étiquette _(nu)_ ou _(événement)_ marque les endroits où **nu** est recommandé.
 
-Si vous utilisez par erreur **nu** au lieu de **du'u**, vous serez quand même compris. Cependant, les locuteurs courants de Lojban distinguent généralement ces particules.
+Si vous utilisez par erreur **nu** au lieu de **du'u**, vous serez quand même compris. Cependant, les locuteurs courants de lojban distinguent généralement ces particules.
 
 ### Questions indirectes
 
 > **mi djuno le du'u ma kau tadni la .lojban.**
-> _Je sais qui étudie Lojban._
+> _Je sais qui étudie le lojban._
 
-Ceci est appelé une question indirecte. Le mot _qui_ ici n'est pas une demande d'information, et il n'y a pas de point d'interrogation. La réponse est présumée, et en fait, vous connaissez vous-même la réponse à la question _Qui apprend Lojban?_
+Ceci est appelé une question indirecte. Le mot _qui_ ici n'est pas une demande d'information, et il n'y a pas de point d'interrogation. La réponse est présumée, et en fait, vous connaissez vous-même la réponse à la question _Qui apprend le lojban ?_
 
 **kau** est une interjection que nous mettons après un mot interrogatif pour indiquer qu'il s'agit d'une question indirecte.
 
 Si je vous pose la question **ma tadni la .lojban.**, vous savez quelle valeur remplir dans l'emplacement **ma**: **la .kevin.** Donc vous pourriez simplement dire
 
 > **ma tadni la .lojban.**
-> _Qui étudie Lojban?_
+> _Qui étudie le lojban ?_
 
 <!-- -->
 
 > **mi djuno le du'u ma kau tadni la .lojban.**
-> _Je sais qui étudie Lojban. Je connais l'identité de la personne qui étudie Lojban._
+> _Je sais qui étudie le lojban. Je connais l'identité de la personne qui étudie le lojban._
 
 <!-- -->
 
 > **mi djica le nu ma tadni la .lojban.**
-> _Qui est-ce que je veux étudier Lojban?_
-> `Je veux qui étudier Lojban?`
+> _Qui est-ce que je veux étudier le lojban ?_
+> `Je veux qui étudier le lojban ?`
 
 Cela ne peut jamais être une question indirecte: on demande une réponse (même si vous le faites de manière rhétorique).
 
 Vous pouvez le mettre après d'autres mots interrogatifs:
 
 > **mi djuno le du'u le xo kau prenu cu tadni la .lojban.**
-> _Je sais combien de personnes étudient Lojban._
+> _Je sais combien de personnes étudient le lojban._
 
 ### Citations indirectes (discours rapporté) : « J'ai dit que je viendrais. »
 
@@ -4479,15 +4510,15 @@ Voici quelques exemples de verbes liés à la parole lors de l'utilisation du di
 Questions dans le discours rapporté :
 
 > **mi pu cusku le se du'u ma tadni la .lojban.**
-> _Qui ai-je dit étudier le Lojban ?_
-> `J'ai dit qui étudie le Lojban ?`
+> _Qui ai-je dit étudier le lojban ?_
+> `J'ai dit qui étudie le lojban ?`
 
-Ainsi, le Lojban a plusieurs mots pour _que..._, selon ce qui est voulu.
+Ainsi, le lojban a plusieurs mots pour _que…_, selon ce qui est voulu.
 
 - Si _que_ décrit ce qui peut être vu, entendu ou ce qui se passe, utilisez **nu**.
 - Si _que_ décrit ce que vous pensez, un fait ou une information, utilisez **du'u**.
 - Si _que_ décrit ce que vous dites, utilisez **se du'u**.
-  - Mais si vous avez besoin d'une citation littérale, utilisez **lu...li'u**.
+  - Mais si vous avez besoin d'une citation littérale, utilisez **lu…li'u**.
 
 ### Interjections émotionnelles : ‘_Yay!_’ = «**ui**», ‘_Aye!_’ = «**ie**», ‘_Phew!_’ = «**.o'u**»
 
@@ -4499,11 +4530,11 @@ Nous connaissons de telles interjections comme **ui** (_Yay!_), **.a'o** (_J'esp
 ui
 : interjection : _Yay!_, interjection de bonheur
 
-<pixra url="/assets/pixra/cilre/ui_jinga.svg" caption="ui mi jinga" definition="Yay! J'ai gagné!"></pixra>
+<pixra url="/assets/pixra/cilre/ui_jinga.svg" caption="ui mi jinga" definition="Yay! J'ai gagné !"></pixra>
 
 Les interjections fonctionnent comme **sei** avec leurs relations. **ui** signifie la même chose que **sei mi gleki** donc nous pourrions tout aussi bien dire **do jinga sei mi gleki** signifiant la même chose (bien que ce soit un peu plus long).
 
-Il y a des interjections exprimant d'autres états émotionnels. Ils sont similaires aux smileys comme ;-) ou :-( mais en Lojban, nous pouvons être plus précis sur nos émotions tout en restant concis dans notre discours.
+Il y a des interjections exprimant d'autres états émotionnels. Ils sont similaires aux smileys comme ;-) ou :-( mais en lojban, nous pouvons être plus précis sur nos émotions tout en restant concis dans notre discours.
 
 > **ie tu mlatu**
 > _Oui, c'est un chat._
@@ -4514,7 +4545,7 @@ Il y a des interjections exprimant d'autres états émotionnels. Ils sont simila
 > _Non, je ne suis pas d'accord. Ce n'est pas un chat._
 
 ie
-: interjection : _Ouais ! Aye!_ (accord)
+: interjection : _Ouais ! Aye !_ (accord)
 
 ie nai
 : interjection : désaccord
@@ -4571,14 +4602,14 @@ Dans ce cas, vous avez probablement pensé que c'était quelque chose de dangere
 > _Ha-ha, c'est un robot._
 
 .u'i
-: interjection : _Ha-ha!_ (amusement)
+: interjection : _Ha-ha !_ (amusement)
 
 zmitci
-: … est un outil automatique
+: … être un outil automatique
 
 Vous pouvez ajouter ou supprimer des interjections à ou d'une phrase sans risque de la casser.
 
-Tout mot qui commence par une voyelle pure (à l'exclusion de **u** et **i** avant les voyelles) est préfixé d'un point en Lojban à l'écrit et avec une pause à l'oral. Ainsi, l'orthographe correcte est **.a'o** et ainsi de suite. Il est courant d'omettre les points à l'écriture. Cependant, en parlant, vous devriez toujours montrer ce point en faisant une courte pause avant de dire un tel mot pour éviter de fusionner deux mots voisins en un seul.
+Tout mot qui commence par une voyelle pure (à l'exclusion de **u** et **i** avant les voyelles) est préfixé d'un point en lojban à l'écrit et avec une pause à l'oral. Ainsi, l'orthographe correcte est **.a'o** et ainsi de suite. Il est courant d'omettre les points à l'écriture. Cependant, en parlant, vous devriez toujours montrer ce point en faisant une courte pause avant de dire un tel mot pour éviter de fusionner deux mots voisins en un seul.
 
 Comme avec les relations **xu** ou **sei**, nous pouvons ajouter des interjections après n'importe quel nom, pronom ou verbe, exprimant ainsi notre attitude envers cette partie de la phrase.
 
@@ -4587,18 +4618,18 @@ Comme avec les relations **xu** ou **sei**, nous pouvons ajouter des interjectio
 Un groupe spécial d'interjections "impératives/hortatives" est utilisé pour les incitations, les commandes et les demandes. Nous avons déjà rencontré **.e'o** :
 
 > **.e'o mi ciksi da poi mi cusku djica**
-> _S'il vous plaît, laissez-moi expliquer ce que je veux dire._
+> _S'il vous plait, laissez-moi expliquer ce que je veux dire._
 
 .e'o
-: interjection : _S'il vous plaît ..._ (demande)
+: interjection : _S'il vous plait …_ (demande)
 
 > **— au mi klama le nenri**
 > **— .e'a**
 > _— Je voudrais entrer._
-> _— S'il vous plaît._
+> _— S'il vous plait._
 
 .e'a
-: interjection : _Je permets, vous pouvez ..._ (permission)
+: interjection : _Je permets, vous pouvez …_ (permission)
 
 le nenri
 : l'intérieur, ce qui est à l'intérieur
@@ -4619,7 +4650,7 @@ le nenri
 > _Je suggère que vous buviez le jus. Vous feriez mieux de boire le jus._
 
 .e'u
-: interjection : _Allons ..._ (suggestion)
+: interjection : _Allons …_ (suggestion)
 
 ### «**ko**» pour des incitations plus rapides
 
@@ -4647,7 +4678,7 @@ Le pronom **ko** est utilisé à la place de **do** pour faire des demandes, des
 Il est tout à fait possible de dire quelque chose de plus précis, comme :
 
 > **do .e'o bajra**
-> _Toi, s'il te plaît, cours !_
+> _Toi, s'il te plait, cours !_
 
 en mettant l'accent sur notre politesse sur **do** (_toi_).
 
@@ -4657,7 +4688,7 @@ En déplaçant **ko** dans une relation, la commande/demande est déplacée vers
 > _Fais en sorte que tu sois aimé par quelqu'un !_
 
 nelci
-: ... aime ... (quelque chose ou quelqu'un)
+: … aimer, apprécier … (quelque chose ou quelqu'un)
 
 Comme vous pouvez le voir, nous devons restructurer cette relation en anglais, ce qui sonne toujours étrange. Cependant, vous pourriez l'utiliser en lojban dans le sens de _Essayer de faire bonne impression._
 
@@ -4669,7 +4700,7 @@ Nous pouvons même avoir plusieurs **ko** dans une phrase :
 > _Prends soin de toi._
 
 kurji
-: ... prend soin de ... (quelqu'un ou quelque chose)
+: … prendre soin de … (quelqu'un ou quelque chose)
 
 ### Interjections discursives
 
@@ -4680,10 +4711,10 @@ ji'a
 : _en outre, aussi_, signifie qu'il existe d'autres personnes qui sont également les mêmes (_vous_ dans ce cas) ou qui font la même chose
 
 salta
-: ... est une salade
+: … être une salade
 
 grute
-: ... est un fruit
+: … être un fruit
 
 > **mi si'a nelci do**
 > `Moi aussi, je t'aime`
@@ -5027,7 +5058,7 @@ Voici une vue plus complète : interjections émotionnelles, incitatives et dive
 </td>
 <td><b>.a'o</b><br/><small></small><br/><i>j'espère</i>
 </td>
-<td><b>.a'u</b><br/><small></small><br/><i>hm, je me demande...</i>
+<td><b>.a'u</b><br/><small></small><br/><i>hm, je me demande…</i>
 </td></tr>
 <tr>
 <td><b>.a'a cu'i</b><br/>inattentivement
@@ -5065,7 +5096,7 @@ Voici une vue plus complète : interjections émotionnelles, incitatives et dive
 </td>
 <td><b>.e'i</b><br/><small>"eheeh"</small><br/><i>fais-le !</i>
 </td>
-<td><b>.e'o</b><br/><small>"ehoh"</small><br/><i>s'il te plaît, fais-le</i>
+<td><b>.e'o</b><br/><small>"ehoh"</small><br/><i>s'il te plait, fais-le</i>
 </td>
 <td><b>.e'u</b><br/><small>"ehooh"</small><br/><i>je suggère</i>
 </td></tr>
@@ -5145,10 +5176,10 @@ De plus, bon nombre de ces interjections sont rarement utilisées.
 <!-- -->
 
 > **ue ui do jinga**
-> _Oh, tu as gagné! Je suis tellement heureux!_
+> _Oh, tu as gagné ! Je suis tellement heureux !_
 
 jinga
-: … gagne
+: … gagner
 
 Dans ce cas, la victoire était improbable, donc je suis surpris et heureux en même temps.
 
@@ -5156,31 +5187,31 @@ Les interjections (contrairement aux particules scalaires et aux suffixes d'inte
 
 > **ue ui do jinga**
 > **ui ue do jinga**
-> _Oh, tu as gagné! Je suis tellement heureux!_
+> _Oh, tu as gagné ! Je suis tellement heureux !_
 
 Ici, deux interjections modifient la même construction (toute la phrase) mais elles ne se modifient pas mutuellement, donc leur ordre n'est pas important.
 
 > **pei .u'i le gerku cu sutra plipe**
-> _(Que ressens-tu?) Hé, le chien saute rapidement._
+> _(Que ressens-tu ?) Hé, le chien saute rapidement._
 
 Ici, **pei** est utilisé seul et ne modifie pas **.u'i**, qui est placé après lui.
 
-### Oublié de mettre une interjection au début?
+### Oublié de mettre une interjection au début ?
 
 > **do pu sidju mi ui**
-> _Tu m'aides (youpi!)_
+> _Tu m'aides (youpi !)_
 
 **ui** ne modifie que le pronom **mi**, mettant l'attitude seulement sur _moi_.
 
 > **ui do pu sidju mi**
 > _Youpi, tu m'as aidé._
 
-Et si nous avons oublié d'ajouter **ui** au début de cette phrase?
+Et si nous avons oublié d'ajouter **ui** au début de cette phrase ?
 
 Nous pouvons explicitement étiqueter la relation comme complète avec **vau** et ensuite mettre l'interjection:
 
 > **do pu sidju mi vau ui**
-> _Tu m'as aidé, youpi!_
+> _Tu m'as aidé, youpi !_
 
 ## Leçon 4. Pratique
 
@@ -5188,9 +5219,9 @@ Maintenant que nous connaissons les parties les plus importantes de la grammaire
 
 ### Expressions courantes
 
-Voici quelques structures courantes utilisées par les locuteurs courants de Lojban, ainsi que des exemples illustrant leur utilisation.
+Voici quelques structures courantes utilisées par les locuteurs courants de lojban, ainsi que des exemples illustrant leur utilisation.
 
-Ils peuvent vous aider à vous habituer plus rapidement au Lojban courant.
+Ils peuvent vous aider à vous habituer plus rapidement au lojban courant.
 
 - <dl><dt>.i ku'i</dt><dd>Mais…</dd></dl>
  > **mi djuno .i ku'i mi na ku djica**
@@ -5215,27 +5246,27 @@ Ils peuvent vous aider à vous habituer plus rapidement au Lojban courant.
 - <dl><dt>jinvi le du'u</dt><dd>… a une opinion que …</dd></dl>
 
  > **mi jinvi le du'u la .lojban. cu zabna**
- > _Je pense que Lojban est cool._
+ > _Je pense que le lojban est cool._
 
  <!-- -->
 
  > **coi ro do**
- > _Bonjour tout le monde!_
+ > _Bonjour tout le monde !_
 
  <!-- -->
 
  > **co'o ro do**
- > _Au revoir tout le monde!_
+ > _Au revoir tout le monde !_
  >
 - <dl><dt>jinvi le du'u</dt><dd>… a une opinion que …</dd></dl>
 
  > **ai mi cliva .i co'o**
- > _Je vais partir. Au revoir!_
+ > _Je vais partir. Au revoir !_
  >
 - <dl><dt>.ei mi</dt><dd>Je devrais …</dd></dl>
 
  > **.ei mi citka .i co'o**
- > _Je devrais manger. Au revoir!_
+ > _Je devrais manger. Au revoir !_
  >
 - <dl><dt>ca le nu</dt><dd>quand …</dd></dl>
 
@@ -5272,12 +5303,12 @@ Ils peuvent vous aider à vous habituer plus rapidement au Lojban courant.
 - <dl><dt>kakne le ka</dt><dd>capable de …</dd></dl>
 
  > **xu do kakne le ka sutra tavla**
- > _Pouvez-vous parler rapidement?_
+ > _Pouvez-vous parler rapidement ?_
  >
 - <dl><dt>tavla fi</dt><dd>parler de …</dd></dl>
 
  > **.e'ei tavla fi le skami**
- > _Parlons d'ordinateurs!_
+ > _Parlons d'ordinateurs !_
  >
 - <dl><dt>mutce le ka</dt><dd>très …</dd></dl>
 
@@ -5287,12 +5318,12 @@ Ils peuvent vous aider à vous habituer plus rapidement au Lojban courant.
 - <dl><dt>troci le ka</dt><dd>… essaie de …</dd></dl>
 
  > **mi troci le ka tavla fo la .lojban.**
- > _J'essaie de parler en Lojban._
+ > _J'essaie de parler en lojban._
  >
 - <dl><dt>rinka le nu</dt><dd>(événement) conduit à …</dd></dl>
 
  > **le nu mi tadni la .lojban. cu rinka le nu mi jimpe fi do**
- > _Le fait que j'étudie Lojban me fait vous comprendre._
+ > _Le fait que j'étudie le lojban me fait vous comprendre._
  >
 - <dl><dt>gasnu le nu</dt><dd>(agent) cause …</dd></dl>
 
@@ -5304,7 +5335,7 @@ Ils peuvent vous aider à vous habituer plus rapidement au Lojban courant.
 - <dl><dt>xusra le du'u</dt><dd>affirmer que …</dd></dl>
 
  > **xu do xusra le du'u mi na ku drani**
- > _Affirmez-vous que je n'ai pas raison?_
+ > _Affirmez-vous que je n'ai pas raison ?_
  >
 
 - <dl><dt>kanpe le du'u</dt><dd>s'attendre (dans le sens d'évaluation, de prédiction) que …</dd></dl>
@@ -5326,7 +5357,7 @@ Ils peuvent vous aider à vous habituer plus rapidement au Lojban courant.
 > _Comment vas-tu ?_
 <!-- -->
 > **mi kanro .i mi ca tadni la .lojban. .i mi troci le ka tavla do**
-> _Je suis en bonne santé. J'étudie maintenant le Lojban. J'essaie de te parler._
+> _Je suis en bonne santé. J'étudie maintenant le lojban. J'essaie de te parler._
 
 kanro
 : être en bonne santé
@@ -5344,10 +5375,10 @@ tavla
 > _Bien. Quel temps fera-t-il demain ?_
 
 zabna
-: … est agréable, frais
+: … être agréable, frais
 
 tcima
-: … est le temps
+: … être le temps, être du temps
 
 ca
 : à (un moment)
@@ -5364,7 +5395,7 @@ djuno
 le solri
 : le soleil
 
-Notez que **le solri cu tcima** (littéralement _le soleil est le temps_) est la façon d'utiliser **tcima** en Lojban.
+Notez que **le solri cu tcima** (littéralement _le soleil est le temps_) est la façon d'utiliser **tcima** en lojban.
 
 sei
 : commentaire commence
@@ -5381,7 +5412,7 @@ pacna
 ### Sens humains
 
 > **ju'i la .alis.**
-> _Hé, Alice!_
+> _Hé, Alice !_
 
 ju'i
 : vocatif qui attire l'attention : _Hé ! Psst ! Ahem ! Attention !_
@@ -5417,10 +5448,10 @@ Les verbes liés à la perception seront expliqués après le dialogue.
 <!-- -->
 
 > **xu do jinvi le du'u le plise ca makcu**
-> _Penses-tu que la pomme est mûre ?_
+> _Penses-tu que la pomme est mure ?_
 
 makcu
-: … est mûr
+: … être mûr
 
 > **.au mi zgana le sefta be le plise**
 > _J'aimerais la palper._
@@ -5429,7 +5460,7 @@ makcu
 > _Oh, elle est lisse._
 
 > **.i mi pacna le nu makcu ie**
-> _J'espère qu'elle est mûre, ouais._
+> _J'espère qu'elle est mure, ouais._
 
 <!-- -->
 
@@ -5437,7 +5468,7 @@ makcu
 > _Et l'odeur ?_
 
 > **.i .e'o do sumne le plise**
-> _S'il te plaît, sens-la._
+> _S'il te plait, sens-la._
 
 <!-- -->
 
@@ -5445,10 +5476,10 @@ makcu
 > _Ça sent les fleurs._
 
 > **.i .au mi zgana le vrusi be le plise**
-> _J'aimerais goûter la pomme._
+> _J'aimerais gouter la pomme._
 
 > **.i .oi nai le kukte cu vrusi**
-> _Miam, elle a un goût sucré._
+> _Miam, elle a un gout sucré._
 
 > **.i .oi**
 > _Oh-non._
@@ -5485,7 +5516,7 @@ le xrula
 <!-- -->
 
 > **doi la .alis. do cliva .e'o sai**
-> _Alice, s'il te plaît, reviens immédiatement !_
+> _Alice, s'il te plait, reviens immédiatement !_
 
 <!-- -->
 
@@ -5668,20 +5699,20 @@ panci
 > **.i le plise cu se panci le xrula**
 > _La pomme sent la fleur._
 
-Notez que l'anglais peut être déroutant lorsqu'il s'agit de distinguer entre sentir une odeur et sentir un objet qui produit cette odeur. Nous disons _sentir la pomme_, _la pomme sent les fleurs (a l'odeur des fleurs)_. Cette distinction est importante car une pomme produit des particules aromatiques qui sont distinctes de la pomme elle-même. Il en va de même pour une assiette qui tombe et son bruit - nous ne voulons peut-être pas les mélanger.
+Notez que l'anglais peut être déroutant lorsqu'il s'agit de distinguer entre sentir une odeur et sentir un objet qui produit cette odeur. Nous disons _sentir la pomme_, _la pomme sent les fleurs (a l'odeur des fleurs)_. Cette distinction est importante car une pomme produit des particules aromatiques qui sont distinctes de la pomme elle-même. Il en va de même pour une assiette qui tombe et son bruit — nous ne voulons peut-être pas les mélanger.
 
 En lojban, nous pouvons facilement séparer ces cas, comme le montrent les exemples ci-dessus.
 
-#### Sens du goût
+#### Sens du gout
 
 vrusi
-: $x_1$ est un goût de $x_2$
+: $x_1$ est un gout de $x_2$
 
-<pixra url="/assets/pixra/cilre/zgana_le_vrusi.svg" caption="le prenu cu zgana le vrusi be le grute" definition="La personne goûte, observe le goût du fruit."></pixra>
+<pixra url="/assets/pixra/cilre/zgana_le_vrusi.svg" caption="le prenu cu zgana le vrusi be le grute" definition="La personne goute, observe le gout du fruit."></pixra>
 
 > **mi zgana le vrusi be le grute**
-> _Je goûte la pomme._
-> `J'observe le goût du fruit`
+> _Je goute la pomme._
+> `J'observe le gout du fruit`
 
 le grute
 : le fruit, les fruits
@@ -5690,10 +5721,10 @@ le grute
 <pixra url="/assets/pixra/cilre/se_vrusi_lo_ka_kukte.svg" caption="le grute cu se vrusi le titla" definition="Les fruits sont sucrés."></pixra>
 
 > **.i le plise cu se vrusi le titla**
-> _La pomme a un goût sucré._
+> _La pomme a un gout sucré._
 
 titla
-: ... est sucré, ... est une sucrerie
+: … être sucré, … être un bonbon
 #### Sens du toucher
 
 sefta
@@ -5787,7 +5818,7 @@ le tricu
 > _Je suis à la frontière d'une mer bleue._
 
 zvati
-: … est présent à …
+: … être présent à …
 
 korbi
 : $x_1$ est la frontière de $x_2$
@@ -6115,7 +6146,7 @@ cidni
 > **pluka fa le ka penmi do**
 > **.i .e'o do klama le nenri be le dinju**
 > _Ravi de vous rencontrer._
-> _S'il vous plaît, entrez dans la maison._
+> _S'il vous plait, entrez dans la maison._
 
 <!-- -->
 
@@ -6154,13 +6185,13 @@ cidni
 
 > **ue**
 > **.i le lanzu be do cu barda**
-> _Wow!_
+> _Wow !_
 > _Votre famille est grande._
 
 <!-- -->
 
 > **je'u pei**
-> _Vraiment?_
+> _Vraiment ?_
 
 je'u
 : interjection: vraiment
@@ -6257,7 +6288,7 @@ rirni
 
 > **ue**
 > **do pu te vecnu le laldo karce**
-> _Waouh!_
+> _Waouh !_
 > _Tu as acheté une vieille voiture._
 
 <!-- -->
@@ -6270,7 +6301,7 @@ rirni
 <!-- -->
 
 > **ma pu jdima le karce**
-> _Quel était le prix de la voiture?_
+> _Quel était le prix de la voiture ?_
 
 <!-- -->
 
@@ -6303,14 +6334,14 @@ jdini
 : $x_1$ est de l'argent
 
 rupnusudu
-: $x_1$ coûte $x_2$ (nombre) dollars américains
+: $x_1$ coute $x_2$ (nombre) dollars américains
 
 rupne'uru
-: $x_1$ coûte $x_2$ (nombre) euros
+: $x_1$ coute $x_2$ (nombre) euros
 ### Magasin, bâtiments
 
 > **ma stuzi le zdani be do**
-> _Où se trouve ta maison?_
+> _Où se trouve ta maison ?_
 
 <!-- -->
 
@@ -6364,7 +6395,7 @@ zarci
 : $x_1$ est un magasin
 ## Leçon 5. Termes modaux, «**da**», leur position relative
 
-### Comment les termes modaux se réfèrent-ils à la relation?
+### Comment les termes modaux se réfèrent-ils à la relation ?
 
 Certains termes modaux, comme ceux qui décrivent le temps (tense), relient la relation actuelle à celle dans le nom qui suit:
 
@@ -6372,13 +6403,13 @@ Certains termes modaux, comme ceux qui décrivent le temps (tense), relient la r
 > _Je marche quand les oiseaux volent._
 
 cadzu
-: … marche
+: … marcher
 
 le cipni
 : l'oiseau/les oiseaux
 
 vofli
-: … vole vers …
+: … voler vers …
 
 > **mi pu cadzu fa'a le rirxe**
 > _J'ai marché vers la rivière._
@@ -6473,7 +6504,7 @@ Plus d'exemples :
 > _J'aime la confiture plus que le jus._
 
 pesxu
-: … est de la confiture
+: … être de la confiture
 
 > **le'e pesxu cu zmadu le'e jisra le ka mi nelci**
 > _J'aime la confiture plus que le jus._
@@ -6594,7 +6625,7 @@ Et une autre solution :
 ro
 : nombre : chaque, tout
 
-Comme vous pouvez le voir, Lojban offre différentes méthodes pour dire la même chose, certaines pouvant différer considérablement des formes anglaises. -->
+Comme vous pouvez le voir, le lojban offre différentes méthodes pour dire la même chose, certaines pouvant différer considérablement des formes anglaises. -->
 ### « La plupart », « beaucoup » et « trop »
 
 Des mots comme _la plupart_ et _beaucoup_ sont également des nombres en lojban :
@@ -6835,7 +6866,7 @@ Une règle spéciale est pour l'utilisation de **.i ba bo** et **.i pu bo**. Com
 
 **pu** est changé en **ba**, et vice versa. Cette règle spéciale pour le lojban a été faite par analogie avec les langues naturelles. Vous devez donc simplement vous souvenir de ce comportement spécial de ces deux mots.
 
-### Choses existantes, '_il y a ..._'
+### Choses existantes, '_il y a …_'
 
 Il y a en fait trois mots dans la série **da** : **da**, **de** et **di**. Nous les utilisons lorsque nous nous référons à différents objets dans un discours :
 
@@ -6847,7 +6878,7 @@ Si vous avez besoin de plus de mots de ce type dans un discours, ajoutez un suff
 - **da xi pa** est identique à **da** simple,
 - **da xi re** est identique à **de**,
 - **da xi ci** est identique à **di**
-- **da xi vo** est le quatrième "quelque chose" et ainsi de suite...
+- **da xi vo** est le quatrième "quelque chose" et ainsi de suite…
 
 ### Sujet et commentaire. « zo'u »
 
@@ -6857,7 +6888,7 @@ Parfois, il est utile de montrer le sujet d'une relation et de faire un commenta
 > _En ce qui concerne le poisson, j'aime le saumon._
 
 salmone
-: ... est un saumon
+: … être un saumon
 
 zo'u
 : termine le sujet et commence le commentaire de la relation
@@ -7037,11 +7068,11 @@ Traductions possibles :
 > _Je mange toujours du fromage._
 > _Dans un instant, je viens de finir de manger du fromage._
 
-Les temps en Lojban sont facultatifs ; nous n'avons pas besoin de réfléchir tout le temps à quel temps utiliser.
+Les temps en lojban sont facultatifs ; nous n'avons pas besoin de réfléchir tout le temps à quel temps utiliser.
 
 Le contexte résout souvent ce qui est correct. Nous ajoutons des temps quand nous sentons que nous en avons besoin.
 
-Les temps en Lojban traitent le temps et l'espace de la même manière. Dire que _j'ai travaillé il y a longtemps_ n'est pas grammaticalement différent de dire _je travaille loin au nord_. L'anglais traite les mots comme _plus tôt_, la terminaison du passé en _-ed_, et les mots d'espace comme _dans_ ou _près_ dans trois schémas différents, tandis qu'en Lojban, ils suivent le même principe.
+Les temps en lojban traitent le temps et l'espace de la même manière. Dire que _j'ai travaillé il y a longtemps_ n'est pas grammaticalement différent de dire _je travaille loin au nord_. L'anglais traite les mots comme _plus tôt_, la terminaison du passé en _-ed_, et les mots d'espace comme _dans_ ou _près_ dans trois schémas différents, tandis qu'en lojban, ils suivent le même principe.
 
 ### Points dans le temps et l'espace
 
@@ -7146,7 +7177,7 @@ Voici comment nous pouvons utiliser des combinaisons de temps pour spécifier à
 - **ba za** signifie _dans un moment_
 - **ba zu** signifie _dans longtemps_
 
-Remarquez l'ordre des voyelles **i**, **a** et **u**. Cet ordre apparaît souvent en lojban et il vaut peut-être la peine de le mémoriser. _Court_ et _long_ sont toujours dépendants du contexte, relatifs et subjectifs. Par exemple, deux cents ans est un court laps de temps pour une espèce à évoluer mais un long moment à attendre le bus.
+Remarquez l'ordre des voyelles **i**, **a** et **u**. Cet ordre apparait souvent en lojban et il vaut peut-être la peine de le mémoriser. _Court_ et _long_ sont toujours dépendants du contexte, relatifs et subjectifs. Par exemple, deux cents ans est un court laps de temps pour une espèce à évoluer mais un long moment à attendre le bus.
 
 **zi**, **za** et **zu** modifient la particule de temps comme **pu** et **ba** qui est dite avant :
 
@@ -7210,7 +7241,7 @@ mi'a
 : nous sans toi
 
 gugde
-: ... est un pays
+: … être un pays
 
 > **mi ba zi ze'a xabju la .djakartas.**
 > _Bientôt, je vais vivre à Jakarta pendant un certain temps._
@@ -7558,7 +7589,7 @@ le penbi
 <tr>
 <td style="text-align:right;"><b>la .alis. ca na ku zvati le bu'u tcadu<br/>.i mi pu mrilu le srana be le fonxa fi la .alis.<br/>.i ri ca ca'o vofli la .paris.<br/>.i ku'i mi pu zi te benji le se mrilu be la .alis.<br/>.i ri curmi le nu mi'a pilno le fonxa<br/>.i .e'o do bevri ri mi</b>
 </td>
-<td> Alice n'est actuellement pas dans la ville.<br/>Je lui ai envoyé un courrier concernant le téléphone.<br/>Alice est maintenant en train de voler vers Paris.<br/>Mais je viens juste de recevoir un courrier d'elle.<br/>Elle nous permet d'utiliser le téléphone.<br/>S'il vous plaît, apportez-le moi.
+<td> Alice n'est actuellement pas dans la ville.<br/>Je lui ai envoyé un courrier concernant le téléphone.<br/>Alice est maintenant en train de voler vers Paris.<br/>Mais je viens juste de recevoir un courrier d'elle.<br/>Elle nous permet d'utiliser le téléphone.<br/>S'il vous plait, apportez-le moi.
 </td></tr>
 <tr>
 <td style="text-align:right;"><b>.i bu'u ma mi ka'e cpacu le fonxa</b>
@@ -7568,7 +7599,7 @@ le penbi
 <tr>
 <td style="text-align:right;"><b>le purdi .i .e'o do klama le bartu</b>
 </td>
-<td>Dans le jardin. S'il vous plaît, sortez.
+<td>Dans le jardin. S'il vous plait, sortez.
 </td></tr>
 <tr>
 <td style="text-align:right;"><b>mi ca zvati ne'a le vorme .i ei mi ca klama ma</b>
@@ -7643,11 +7674,11 @@ trene
 : $x_1$ est un train de voitures $x_2$
 ## Leçon 7. Lettres, faisant référence à des relations, des dates
 
-### Noms des lettres en Lojban
+### Noms des lettres en lojban
 
-Chaque lettre a un nom en Lojban.
+Chaque lettre a un nom en lojban.
 
-Le tableau suivant représente l'alphabet de base en Lojban et comment prononcer les lettres (sous chaque lettre) :
+Le tableau suivant représente l'alphabet de base en lojban et comment prononcer les lettres (sous chaque lettre) :
 
 <table>
 <tbody><tr>
@@ -7774,11 +7805,11 @@ Nous pouvons épeler des mots en utilisant ces noms. Par exemple, CNN sera **cy.
 
 <!-- Une lettre majuscule seule a une signification spéciale. Elle désigne le nom de cette lettre :
 
-**A** est identique à **.abu**, **B** est identique à **by.** et ainsi de suite. Ils signifient la même chose et sont même lus de la même manière que **.abu**, **by.** etc. Ainsi, _CNN_ peut également être écrit comme **CNN** en Lojban et sera toujours prononcé et signifiera la même chose que **cy. ny. ny.** -->
+**A** est identique à **.abu**, **B** est identique à **by.** et ainsi de suite. Ils signifient la même chose et sont même lus de la même manière que **.abu**, **by.** etc. Ainsi, _CNN_ peut également être écrit comme **CNN** en lojban et sera toujours prononcé et signifiera la même chose que **cy. ny. ny.** -->
 
 ### Des lettres à la place de « _he_ » et « _she_ »
 
-Une chaîne d'un ou plusieurs noms de lettres peut fonctionner comme un pronom, offrant une méthode alternative pour se référer à des noms et des noms précédemment mentionnés dans la parole.
+Une chaine d'un ou plusieurs noms de lettres peut fonctionner comme un pronom, offrant une méthode alternative pour se référer à des noms et des noms précédemment mentionnés dans la parole.
 
 > **la .alis. pu klama le nurma .i le nurma cu melbi la .alis.**
 > **la .alis. pu klama le nurma .i ri melbi la .alis.**
@@ -7787,25 +7818,25 @@ Une chaîne d'un ou plusieurs noms de lettres peut fonctionner comme un pronom, 
 > _Alice est allée à la campagne. La zone rurale est belle pour Alice._
 > _Alice est allée à la campagne. C'est beau pour elle._
 
-Toutes les variantes Lojban ci-dessus ont la même signification.
+Toutes les variantes lojban ci-dessus ont la même signification.
 
 Puisque la première lettre dans **.alis.** est **a** (en ignorant le point) et la première lettre dans **nurma** est **n**, nous pouvons utiliser des mots de lettres pour se référer à ces noms correspondamment:
 
 - **.a bu** se réfère à **la .alis.**
 - **ny.** se réfère à **le nurma**
 
-Cette méthode peut être plus pratique que l'anglais _he_ ou _she_, ou même Lojban **ri** ou **ra**. Cela nous permet de rendre la parole plus concise mais précise, sans avoir à répéter des noms ou des noms potentiellement longs à plusieurs reprises.
+Cette méthode peut être plus pratique que l'anglais _he_ ou _she_, ou même lojban **ri** ou **ra**. Cela nous permet de rendre la parole plus concise mais précise, sans avoir à répéter des noms ou des noms potentiellement longs à plusieurs reprises.
 
-Cependant, il est important de noter qu'il peut y avoir des situations où nous voulons nous référer à, par exemple, **le nurma**, mais un autre nom ou nom commençant par **n** apparaît entre-temps, rendant **ny.** incapable de se référer à la zone rurale. Dans de tels cas, la solution la plus rapide est de répéter l'ensemble du nom ou du nom, c'est-à-dire dire **le nurma**:
+Cependant, il est important de noter qu'il peut y avoir des situations où nous voulons nous référer à, par exemple, **le nurma**, mais un autre nom ou nom commençant par **n** apparait entre-temps, rendant **ny.** incapable de se référer à la zone rurale. Dans de tels cas, la solution la plus rapide est de répéter l'ensemble du nom ou du nom, c'est-à-dire dire **le nurma**:
 
 > **bu'u le nurma la .alis. pu penmi la .nik. i ri se zdani bu'u le nurma**
 > _Dans la campagne, Alice a rencontré Nick. Il a sa maison dans la campagne._
 
 zdani
-: … est une maison pour …
+: … être une maison pour …
 
 se zdani
-: … a une maison …, … habite à …
+: … avoir une maison …, … habiter à …
 
 Si un nom est composé de plusieurs cmevla, vous pouvez utiliser les premières lettres pour vous référer à ce nom. Il en va de même pour les verbes composés:
 
@@ -7813,7 +7844,7 @@ Si un nom est composé de plusieurs cmevla, vous pouvez utiliser les premières 
 > _John Smith mange la soupe chaude. Il l'aime._
 
 glare
-: … est chaud
+: … être chaud
 
 **dy.sy.** est un seul pronom. Il en va de même pour **fy.sy.**.
 
@@ -7830,13 +7861,13 @@ Si vous devez mettre plusieurs pronoms l'un après l'autre, séparez-les avec le
 La phrase **mi klama py. my.** signifierait _Je vais à PM_, ce qui signifierait quelque chose de différent.
 
 > **la .tom.silver. pu zvati .i je'u ty. sy. boi .ui pu sidju mi**
-> _Tom Silver était présent. Et en fait, TS (yay!) m'a aidé._
+> _Tom Silver était présent. Et en fait, TS (yay !) m'a aidé._
 
 Si vous mettez une interjection après de telles lettres, séparez-les avec **boi**. Sans **boi**, les interjections se référeront à la dernière lettre.
 
-### Différentes façons de dire « nous » en Lojban
+### Différentes façons de dire « nous » en lojban
 
-En Lojban, il existe plusieurs pronoms proches en signification de « nous » :
+En lojban, il existe plusieurs pronoms proches en signification de « nous » :
 
 mi'o
 : toi et moi
@@ -7854,7 +7885,7 @@ Et enfin :
 mi
 : moi ou les locuteurs
 
-**mi** peut également signifier « nous » ! Lojban ne fait pas de distinction entre le singulier et le pluriel par défaut. Ainsi, si plusieurs personnes parlent ensemble, **mi** (qui se réfère à un ou plusieurs locuteurs) est parfaitement correct pour « nous ». En pratique, on trouve généralement **mi** utilisé de cette manière lorsqu'une personne présume de parler (ou plus souvent, d'écrire) au nom des autres.
+**mi** peut également signifier « nous » ! Le lojban ne fait pas de distinction entre le singulier et le pluriel par défaut. Ainsi, si plusieurs personnes parlent ensemble, **mi** (qui se réfère à un ou plusieurs locuteurs) est parfaitement correct pour « nous ». En pratique, on trouve généralement **mi** utilisé de cette manière lorsqu'une personne présume de parler (ou plus souvent, d'écrire) au nom des autres.
 
 Quelques exemples :
 
@@ -7907,7 +7938,7 @@ sledi'u
 
 Le **ri** est équivalent à répéter le dernier nom ou prénom, qui est **la .alis.** ici.
 
-Un aspect à remarquer est que **ri** ne répète pas **le sledi'u pe ri** (qui est également un nom), car **ri** fait partie de ce nom et donc ce nom n'est pas "précédent", pas encore fini quand **ri** apparaît. Cela empêche **ri** de se référer récursivement à lui-même.
+Un aspect à remarquer est que **ri** ne répète pas **le sledi'u pe ri** (qui est également un nom), car **ri** fait partie de ce nom et donc ce nom n'est pas "précédent", pas encore fini quand **ri** apparait. Cela empêche **ri** de se référer récursivement à lui-même.
 
 Un autre exemple :
 
@@ -7939,7 +7970,7 @@ lumci
 Cependant :
 
 - les pronoms **ti**, **ta**, **tu** sont pris en compte par **ri** car vous pourriez avoir changé ce à quoi vous pointez, donc répéter **tu** peut ne pas être efficace.
-- de même, **ri** lui-même (ou plutôt, son antécédent) peut être répété par un **ri** ultérieur. En fait, une chaîne de mots **ri** sans autres noms intermédiaires répétera toujours le même nom :
+- de même, **ri** lui-même (ou plutôt, son antécédent) peut être répété par un **ri** ultérieur. En fait, une chaine de mots **ri** sans autres noms intermédiaires répétera toujours le même nom :
 
   > **la .alis. cu catlu le nanmu .i ri melbi .i ri co'a zgana .a bu**
   > _Alice remarque un homme. Il est beau. Elle remarque Alice._
@@ -7984,7 +8015,7 @@ sledi'u
 
 Le **ri** est équivalent à répéter le dernier nom ou prénom, qui est **la .alis.** ici.
 
-Un aspect à remarquer est que **ri** ne répète pas **le sledi'u pe ri** (qui est également un nom), car **ri** fait partie de ce nom et donc ce nom n'est pas "précédent", pas encore fini quand **ri** apparaît. Cela empêche **ri** de se référer récursivement à lui-même.
+Un aspect à remarquer est que **ri** ne répète pas **le sledi'u pe ri** (qui est également un nom), car **ri** fait partie de ce nom et donc ce nom n'est pas "précédent", pas encore fini quand **ri** apparait. Cela empêche **ri** de se référer récursivement à lui-même.
 
 Un autre exemple :
 
@@ -8016,7 +8047,7 @@ lumci
 Cependant :
 
 - les pronoms **ti**, **ta**, **tu** sont pris en compte par **ri** car vous pourriez avoir changé ce à quoi vous pointez, donc répéter **tu** peut ne pas être efficace.
-- de même, **ri** lui-même (ou plutôt, son antécédent) peut être répété par un **ri** ultérieur. En fait, une chaîne de mots **ri** sans autres noms intermédiaires répétera toujours le même nom :
+- de même, **ri** lui-même (ou plutôt, son antécédent) peut être répété par un **ri** ultérieur. En fait, une chaine de mots **ri** sans autres noms intermédiaires répétera toujours le même nom :
 
   > **la .alis. cu catlu le nanmu .i ri melbi .i ri co'a zgana .a bu**
   > _Alice remarque un homme. Il est beau. Elle remarque Alice._
@@ -8229,7 +8260,7 @@ En utilisant le terme **de'i**, nous pouvons obtenir une phrase plus naturelle :
 > _Je viens à 10 heures._
 
 de'i
-: à ... (heure), le ... (date)
+: à … (heure), le … (date)
 
 Et un exemple utile :
 
@@ -8360,7 +8391,7 @@ L'échelle elle-même peut être spécifiée à l'aide de l'étiquette modale **
 Les termes modaux peuvent être négatifs de deux manières pour obtenir des significations connexes.
 
 ki'u
-: terme modal : parce que, en raison d'une explication ..., qui peut être expliquée par le fait que ...
+: terme modal : parce que, en raison d'une explication …, qui peut être expliquée par le fait que …
 
 > **ki'u ma do cusku zo co'o**
 > _Pourquoi dis-tu au revoir ?_
@@ -8368,7 +8399,7 @@ ki'u
 Ajouter le suffixe **nai** change la signification :
 
 ki'u nai
-: terme modal : pas parce que, qui ne peut pas être expliqué par le fait que ...
+: terme modal : pas parce que, qui ne peut pas être expliqué par le fait que …
 
 > **mi se nabmi ki'u nai le nu mi laldo ce'e ki'u le nu mi na certu**
 > _Je suis en difficulté non pas parce que je suis vieux mais parce que je ne suis pas un expert._
@@ -8380,7 +8411,7 @@ se nabmi
 : x1 a un problème x2
 
 laldo
-: x1 est vieux ...
+: x1 est vieux …
 
 certu
 : x1 est un expert, professionnel en propriété x2
@@ -8388,7 +8419,7 @@ certu
 Ajouter **to'e** définit la négation de la signification :
 
 to'e ki'u
-: parce que non, qui peut être expliqué par le fait que cela ne se produit pas que ...
+: parce que non, qui peut être expliqué par le fait que cela ne se produit pas que …
 
 > **mi jinga to'e ki'u le nu mi pu surla**
 > _J'ai gagné parce que je ne m'étais pas reposé._
@@ -8396,7 +8427,7 @@ to'e ki'u
 En combinant **to'e** et **nai**, nous obtenons :
 
 to'e ki'u nai
-: malgré la raison ..., pas parce que non, qui ne peut pas être expliqué par le fait que cela ne se produit pas ..., 
+: malgré la raison …, pas parce que non, qui ne peut pas être expliqué par le fait que cela ne se produit pas …, 
 
 > **.i to'e ki'u nai le nu le mamta cu sanga su'o melbi kei le verba na snada lo ka sipna**
 > _Malgré la belle chanson de la mère, l'enfant ne parvient pas à s'endormir._
@@ -8404,25 +8435,25 @@ to'e ki'u nai
 En utilisant **se**, l'ordre des arguments est inversé. Sinon, la signification est préservée.
 
 se ki'u
-: donc, ce qui explique le fait que ...
+: donc, ce qui explique le fait que …
 
 > **ra bilma se ki'u le nu ra na pu cusku zo coi do**
 > _Il est malade, ce qui explique pourquoi il ne t'a pas salué._
 
 se ki'u nai
-: mais cela ne signifie pas que ..., ce qui n'explique pas le fait que ...
+: mais cela ne signifie pas que …, ce qui n'explique pas le fait que …
 
 > **ra bilma se ki'u nai le nu ra klama le drata tcadu**
 > _Il est malade, ce qui n'explique pas pourquoi il va dans une autre ville._
 
 se to'e ki'u
-: ..., dont l'absence explique le fait que ...
+: …, dont l'absence explique le fait que …
 
 > **ra bilma se to'e ki'u le nu ra klama le drata tcadu**
 > _Il n'est pas malade, et cela explique pourquoi il va dans une autre ville._
 
 se to'e ki'u nai
-: ..., dont l'absence n'explique pas le fait que ...
+: …, dont l'absence n'explique pas le fait que …
 
 > **ra bilma se to'e ki'u nai le nu ra penmi le mikce**
 > _Il n'est pas malade, et cela n'explique pas pourquoi il rencontre le médecin._
@@ -8504,7 +8535,7 @@ Notez que **li re su'i ci** (_2+3_) est considéré comme une seule expression e
 
 **pi** est un séparateur décimal, donc **no pi mu** signifie _0,5_, et **ci ze pi pa so** signifie _37,19_.
 
-Dans certaines notations, 0,35 peut être écrit comme .35, et en Lojban, nous pouvons également supprimer le zéro en disant **pi mu**.
+Dans certaines notations, 0,35 peut être écrit comme .35, et en lojban, nous pouvons également supprimer le zéro en disant **pi mu**.
 
 Voici quelques autres exemples :
 
@@ -8593,7 +8624,7 @@ Dans ce cas, nous avons dû convertir les pronoms en verbes en utilisant **me**.
 > **.i ti voi stizu cu me mi moi le'i pa ci stizu poi jibni le jubme**
 > _Cet endroit est à moi parmi les 13 endroits près de la table._
 
-Les nombres cardinaux sont placés avant les nombres ordinaux dans une chaîne et séparés par **boi** :
+Les nombres cardinaux sont placés avant les nombres ordinaux dans une chaine et séparés par **boi** :
 
 > **le ci boi pa moi be le'i kabri pe le ckafi**
 > _les trois premières tasses de café_
@@ -8672,7 +8703,7 @@ Quelques variations supplémentaires :
 > **la .alis. gau ko klama**
 > _Fais venir Alice !_
 
-### '_Pourquoi_?' — «**ri'a**», «**ni'i**», «**mu'i**», «**ki'u**»
+### '_Pourquoi_ ?' — «**ri'a**», «**ni'i**», «**mu'i**», «**ki'u**»
 
 > **- ri'a ma carvi**
 > _- Pourquoi pleut-il ?_
@@ -8700,7 +8731,7 @@ _Par conséquent_ est le mot inverse par rapport à _parce que_ :
 > _Le ciel pleure. Par conséquent, la route est mouillée._
 
 **cilmo**
-: … est mouillé
+: … être mouillé
 
 Un autre type de _pourquoi_ est **ni'i** :
 
@@ -8769,7 +8800,7 @@ Dans le cas de **ni'i ma nicte**, cependant, le fait que le soleil ne brille pas
 
 ### ‘_Donc … que_’
 
-L'expression _so … that_ est exprimée en Lojban en divisant la phrase en deux :
+L'expression _so … that_ est exprimée en lojban en divisant la phrase en deux :
 
 > **mi tai galtu plipe .i ja'e bo mi farlu**
 > _J'ai sauté si haut que je suis tombé._
@@ -8839,13 +8870,13 @@ fau
 : avec l'événement de …
 
 rupnusudu
-: $x_1$ coûte $x_2$ (nombre) de dollars américains
+: $x_1$ coute $x_2$ (nombre) de dollars américains
 
 pa ki'o ki'o
 : 1 million
 
 > **mo da'i fau le nu mi cusku lu ie nai li'u**
-> _Et si je disais "non"?_
+> _Et si je disais "non" ?_
 
 Ici, l'événement à l'intérieur de **fau** est également imaginé avec **mi gleki**. Et voici l'exemple inverse :
 
@@ -9057,7 +9088,7 @@ senpi
 
 ## Leçon 9. Conjonctions logiques
 
-Les conjonctions logiques en Lojban sont basées sur 4 primitives : **.a**, **.e**, **.o**, **.u**. Dans cette leçon, nous les couvrirons en détail.
+Les conjonctions logiques en lojban sont basées sur 4 primitives : **.a**, **.e**, **.o**, **.u**. Dans cette leçon, nous les couvrirons en détail.
 
 ### Conjonctions logiques pour les noms
 
@@ -9181,7 +9212,7 @@ Cela signifie que si Juliette aime Roméo, il l'aime, et si elle ne l'aime pas, 
 > **la .rome'os. cu prami la .djuliet. i ju la .djuliet. cu prami la .rome'os.**
 > _Roméo aime Juliette que Juliette l'aime ou non._
 
-Remarquez comment nous avons Lojbanisé le nom "Roméo" : la combinaison "eo" est impossible en Lojban, nous avons donc utilisé "e'o" et ajouté une consonne à la fin de son nom.
+Remarquez comment nous avons lojbanisé le nom "Roméo" : la combinaison "eo" est impossible en lojban, nous avons donc utilisé "e'o" et ajouté une consonne à la fin de son nom.
 
 Notez que **da** fait référence à la même entité lorsque plusieurs phrases sont connectées.
 
@@ -9226,7 +9257,7 @@ Cela signifie que si Juliette aime Roméo, il l'aime, et si elle ne l'aime pas, 
 > **la .rome'os. cu prami la .djuliet. i ju la .djuliet. cu prami la .rome'os.**
 > _Roméo aime Juliette que Juliette l'aime ou non._
 
-Remarquez comment nous avons Lojbanisé le nom "Roméo" : la combinaison "eo" est impossible en Lojban, nous avons donc utilisé "e'o" et ajouté une consonne à la fin de son nom.
+Remarquez comment nous avons lojbanisé le nom "Roméo" : la combinaison "eo" est impossible en lojban, nous avons donc utilisé "e'o" et ajouté une consonne à la fin de son nom.
 
 Notez que **da** fait référence à la même entité lorsque plusieurs phrases sont connectées.
 
@@ -9265,7 +9296,7 @@ Et encore une fois, nous ne devons pas oublier la différence entre la connexion
 > **mi ba vitke le pa pendo je speni**
 > _Je vais rendre visite à un ami-et-conjoint._
 
-La dernière phrase en Lojban signifie que l'ami est également un conjoint.
+La dernière phrase en lojban signifie que l'ami est également un conjoint.
 
 ### Conjonctions logiques pour les queues de relation
 
@@ -9275,9 +9306,9 @@ La dernière phrase en Lojban signifie que l'ami est également un conjoint.
 uantida
 : un verbe non officiel : $x_1$ joue au jeu, participe au jeu $x_2$
 
-**gi'e** connecte plusieurs relations en une avec certains noms partagés. Regardez ceci : cela se développe en **pu ku mi kelci la .soker. i je pu ku mi klama le zdani** ... ce qui serait plus long.
+**gi'e** connecte plusieurs relations en une avec certains noms partagés. Regardez ceci : cela se développe en **pu ku mi kelci la .soker. i je pu ku mi klama le zdani** … ce qui serait plus long.
 
-Avec **gi'e**, nous gardons la tête de la relation constante et spécifions les noms après chacun des verbes (**kelci la .soker.**, **klama le zdani** ...).
+Avec **gi'e**, nous gardons la tête de la relation constante et spécifions les noms après chacun des verbes (**kelci la .soker.**, **klama le zdani** …).
 
 Ainsi, lors de l'utilisation de **gi'e**, nous avons plusieurs relations dans la queue jointes ensemble mais ayant une tête commune.
 
@@ -9286,7 +9317,7 @@ Ainsi, lors de l'utilisation de **gi'e**, nous avons plusieurs relations dans la
 D'autres conjonctions pour joindre les queues de relation :
 
 - **gi'a** pour _et/ou_
-- **gi'o nai** pour _soit ... soit_
+- **gi'o nai** pour _soit … soit_
 - **gi'u** pour _que ce soit ou non_, etc.
 
 Ces conjonctions ont la même terminaison que celles de la série **.a**, **.o**, **.u**.
@@ -9313,7 +9344,7 @@ Notez que les temps en tant que termes et les temps attachés à la relation pri
 
 Un autre type de "ou" en anglais peut être trouvé dans les questions :
 
-> **— xu do pinxe le tcati .o nai le ckafi?**
+> **— xu do pinxe le tcati .o nai le ckafi ?**
 > **— pinxe**
 > _— Vas-tu boire du thé ou du café ?_
 > _— Oui._
@@ -9328,7 +9359,7 @@ Cela se produit parce que "ou" a plusieurs significations en anglais :
 
 Ainsi, dans le dernier cas, nous utilisons une conjonction de question séparée **ji** :
 
-> **— do pinxe le tcati ji le ckafi?**
+> **— do pinxe le tcati ji le ckafi ?**
 > _— Vas-tu boire du thé ou du café ?_
 
 Réponses possibles :
@@ -9494,15 +9525,15 @@ Il est normal d'utiliser **.i** dans la parole pour séparer les phrases, mais v
  </tr>
  <tr>
   <td>.i le pa nintadni cu klama le ctuca bu'u le galtu bu'u le darno cmana</td>
-  <td>Un débutant a rendu visite au maître haut dans les montagnes.</td>
+  <td>Un débutant a rendu visite au maitre haut dans les montagnes.</td>
  </tr>
  <tr>
   <td>.i sei le nintadni cu cusku doi le ctuca noi certu tavla fo la .lojban. ku'o do skicu .e'o fi mi fe le nu fi ma kau fa la .lojban. cu frica le'e drata bangu</td>
-  <td>Le débutant a dit: "Maître, vous parlez couramment le lojban. S'il vous plaît, dites-moi quelle est la différence entre le lojban et les autres langues."</td>
+  <td>Le débutant a dit: "Maitre, vous parlez couramment le lojban. S'il vous plait, dites-moi quelle est la différence entre le lojban et les autres langues."</td>
  </tr>
  <tr>
   <td>.i le ctuca cu friti tu'a le kabri be lei jinto djacu le nintadni gi'e ba bo cusku</td>
-  <td>Le maître lui a offert une tasse d'eau de source et a ensuite dit:</td>
+  <td>Le maitre lui a offert une tasse d'eau de source et a ensuite dit:</td>
  </tr>
  <tr>
   <td>lu .i ca ti ko catlu le djacu gi'e skicu ri li'u</td>
@@ -9514,7 +9545,7 @@ Il est normal d'utiliser **.i** dans la parole pour séparer les phrases, mais v
  </tr>
  <tr>
   <td>.i ki'u ma do na ku kakne sei le ctuca cu cusku</td>
-  <td>Pourquoi ne pouvez-vous pas?, a dit le maître.</td>
+  <td>Pourquoi ne pouvez-vous pas ?, a dit le maitre.</td>
  </tr>
  <tr>
   <td>.i sei le nintadni cu cusku le djacu ca pagbu le xadni be mi</td>
@@ -9540,20 +9571,20 @@ Il est normal d'utiliser **.i** dans la parole pour séparer les phrases, mais v
 
 
 dirgo
-: $x_1$ est une goutte de matériau $x_2$ ...
+: $x_1$ est une goutte de matériau $x_2$ …
 
 ### «**to**» … «**toi**» pour les remarques parenthétiques
 
 Les commentaires placés entre parenthèses dans le texte anglais sont formés en utilisant le mot **to** au lieu de la parenthèse gauche et **toi** au lieu de la parenthèse droite:
 
 > **ti poi to vi'o nai do mi na ku djica tu'a su'o lo drata toi plise cu fusra**
-> _Cette (non, je ne veux pas d'autre!) pomme est pourrie._
+> _Cette (non, je ne veux pas d'autre !) pomme est pourrie._
 
 djica
 : désirer
 
 drata
-: ... est différent de ...
+: … être différent de …
 
 plise
 : $x_1$ est une pomme
@@ -9577,16 +9608,16 @@ Ils suppriment des mots comme si ces mots n'avaient jamais été prononcés. Cep
 
 En anglais, lorsque vous faites une erreur en parlant (factuelle ou grammaticale), vous ne vous embêtez généralement pas à la corriger, même si vous réalisez que vous avez fait une erreur. C'est parce que l'anglais est assez redondant (pour cette raison même !). Si nous nous rendons compte que nous avons commis une erreur en anglais, nous fournissons rapidement une correction sans entrer dans les détails comme le nombre de mots qui doivent être annulés : le contexte nous aide généralement. Par exemple :
 
-> _J'apprends le mot anglais, … euh, le mot Lojban._
+> _J'apprends le mot anglais, … euh, le mot lojban._
 
-Le contexte et le bon sens dictent que _mot Lojban_ est destiné à remplacer _mot anglais_. Mais que se passerait-il s'il était destiné à remplacer _J'apprends le mot anglais_ ? Nous ne nous en soucierions normalement pas dans les langues naturelles.
+Le contexte et le bon sens dictent que _mot lojban_ est destiné à remplacer _mot anglais_. Mais que se passerait-il s'il était destiné à remplacer _J'apprends le mot anglais_ ? Nous ne nous en soucierions normalement pas dans les langues naturelles.
 
-Cependant, Lojban vous permet d'être plus précis sur les mots que vous corrigez.
+Cependant, le lojban vous permet d'être plus précis sur les mots que vous corrigez.
 
 **si** efface le mot immédiatement précédent. Si vous voulez effacer deux mots d'affilée, vous dites **si si** après eux. En lojban, la correction ci-dessus serait :
 
 > **.i mi tadni le valsi be la glico si si le valsi be la lojbo**
-> _J'apprends le mot anglais, … euh, le mot Lojban._
+> _J'apprends le mot anglais, … euh, le mot lojban._
 
 valsi
 : $x_1$ est un mot ayant la signification $x_2$ dans la langue $x_3$
@@ -9596,7 +9627,7 @@ Le problème avec **si** est que vous devez compter les mots. Cela peut devenir 
 L'autre mot de correction **sa** est plus utile : **sa** prend comme argument le mot qui le suit. Ensuite, ce **sa** supprime les mots en arrière jusqu'à ce qu'il trouve le même mot ou un mot de la même classe. Par exemple :
 
 > **.i mi tadni le sa .i mi tadni le valsi be la lojbo**
-> _J'apprends le … euh, j'apprends le mot Lojban._
+> _J'apprends le … euh, j'apprends le mot lojban._
 > **.i mi tadni le valsi be la lojbo**
 
 L'argument de **sa** est le mot **.i**. Ainsi, la phrase suivant **sa** remplace la phrase actuelle jusqu'à et y compris **sa**. Ou considérez :
@@ -9738,7 +9769,7 @@ Il est beaucoup plus sûr d'utiliser **pe** explicitement et de le placer après
 
 où **gy.** signifie **glico**. D'autres choix populaires de mots délimitants sont le mot _zoi_ lui-même et un mot lojban suggérant le sujet de la citation.
 
-Lojban évite strictement toute confusion entre les choses et les noms des choses :
+Le lojban évite strictement toute confusion entre les choses et les noms des choses :
 
 > **zo .bob. cmene la .bob.**
 > `Le mot "Bob" est le nom de celui nommé Bob.`
@@ -9762,7 +9793,7 @@ et dit que Bob est à la fois le nom et la chose nommée, une situation peu prob
 
 **la'o** sert à marquer les noms non-lojban, par exemple, les noms binomiaux linéens (comme "Homo sapiens"), qui sont les noms normalisés internationalement pour les espèces animales et végétales.
 
-Les noms connus internationalement qui peuvent être plus facilement reconnus par l'orthographe que par la prononciation, tels que _Goethe_, peuvent également apparaître dans le texte lojban avec **la'o** :
+Les noms connus internationalement qui peuvent être plus facilement reconnus par l'orthographe que par la prononciation, tels que _Goethe_, peuvent également apparaitre dans le texte lojban avec **la'o** :
 
 > **la'o dy. Goethe .dy. cu me la'o ly. Homo sapiens .ly.**
 > _Goethe est un Homo sapiens._
@@ -9814,15 +9845,15 @@ Sans **be**, le terme **de'i li vo** s'appliquerait à toute la relation, et non
 
 ### Verbes composés en détail
 
-Le regroupement de termes en grammaire Lojban est particulièrement important en ce qui concerne les tanru (verbes composés). La façon dont les verbes se regroupent dans un tanru détermine ce que ce tanru signifie. Par exemple,
+Le regroupement de termes en grammaire lojban est particulièrement important en ce qui concerne les tanru (verbes composés). La façon dont les verbes se regroupent dans un tanru détermine ce que ce tanru signifie. Par exemple,
 
 > _the bad music magazine_
 
-a deux interprétations en anglais : un mauvais magazine sur la musique ou un magazine sur la mauvaise musique. En Lojban, son équivalent
+a deux interprétations en anglais : un mauvais magazine sur la musique ou un magazine sur la mauvaise musique. En lojban, son équivalent
 
 > **le xlali zgike karni**
 
-n'a que l'interprétation _un mauvais magazine de musique_, car les deux premiers verbes (_xlali zgike_ — _mauvaise musique_) se regroupent d'abord. Il est important de modifier le regroupement des verbes pour que le tanru transmette le sens voulu. Pour cette raison, Lojban dispose de quelques mécanismes pour faire en sorte que les tanru se regroupent correctement.
+n'a que l'interprétation _un mauvais magazine de musique_, car les deux premiers verbes (_xlali zgike_ — _mauvaise musique_) se regroupent d'abord. Il est important de modifier le regroupement des verbes pour que le tanru transmette le sens voulu. Pour cette raison, le lojban dispose de quelques mécanismes pour faire en sorte que les tanru se regroupent correctement.
 
 En anglais, nous utilisons des parenthèses pour structurer le texte. De même, pour les tanru, nous utilisons **ke** pour la parenthèse gauche et **ke'e** pour la parenthèse droite.
 
@@ -9833,7 +9864,7 @@ Comme vous pouvez le voir, nous avons séparé **xlali** du reste du tanru et l'
 > **.i mi pu zi te vecnu le xlali ke zgike karni .i to'e zanru la'o gy.Eurythmics.gy.**
 > _Je viens d'acheter un mauvais magazine de musique. Il a critiqué les Eurythmics._
 
-C'est une façon de regrouper les verbes dans un tanru. L'autre façon est d'utiliser **bo** dans un nouveau rôle. Lorsque **bo** apparaît entre deux verbes, cela signifie que ces verbes se regroupent plus étroitement que tout autre chose. Ainsi, une autre façon de dire _mauvais {magazine de musique}_ est
+C'est une façon de regrouper les verbes dans un tanru. L'autre façon est d'utiliser **bo** dans un nouveau rôle. Lorsque **bo** apparait entre deux verbes, cela signifie que ces verbes se regroupent plus étroitement que tout autre chose. Ainsi, une autre façon de dire _mauvais {magazine de musique}_ est
 
 le xlali zgike bo karni
 : le mauvais magazine de musique
@@ -9890,7 +9921,7 @@ Le fait que ce soit un verbe composé pourrait rapidement se perdre à l'oral en
 
 > **mi se jibri co fanva le dotco le glico**
 
-C'est la même relation que la précédente en Lojban, mais beaucoup plus facile à comprendre. Remarquez que tout nom avant le verbe composé remplit **se jibri**, tandis que tout nom le suivant ne remplit que le verbe modificateur : **fanva**.
+C'est la même relation que la précédente en lojban, mais beaucoup plus facile à comprendre. Remarquez que tout nom avant le verbe composé remplit **se jibri**, tandis que tout nom le suivant ne remplit que le verbe modificateur : **fanva**.
 
 La force par laquelle deux verbes sont liés ensemble avec **co** est très faible — encore plus faible que le regroupement normal des verbes composés sans aucun mot de regroupement. Cela garantit que, dans une construction co, le composant le plus à gauche est toujours le verbe modifié, et le composant le plus à droite modifie toujours, même si l'une de ces parties est un verbe composé. Cela rend une construction co facile à comprendre :
 
@@ -9953,7 +9984,7 @@ Le fait que ce soit un verbe composé pourrait rapidement se perdre à l'oral en
 
 > **mi se jibri co fanva le dotco le glico**
 
-C'est la même relation que la précédente en Lojban, mais beaucoup plus facile à comprendre. Remarquez que tout nom avant le verbe composé remplit **se jibri**, tandis que tout nom le suivant ne remplit que le verbe modificateur : **fanva**.
+C'est la même relation que la précédente en lojban, mais beaucoup plus facile à comprendre. Remarquez que tout nom avant le verbe composé remplit **se jibri**, tandis que tout nom le suivant ne remplit que le verbe modificateur : **fanva**.
 
 La force par laquelle deux verbes sont liés ensemble avec **co** est très faible — encore plus faible que le regroupement normal des verbes composés sans aucun mot de regroupement. Cela garantit que, dans une construction co, le composant le plus à gauche est toujours le verbe modifié, et le composant le plus à droite modifie toujours, même si l'une de ces parties est un verbe composé. Cela rend une construction co facile à comprendre :
 
@@ -9999,7 +10030,7 @@ Un autre style de discours consiste à éviter la terminaison. Voici quelques ca
 > **lu mi prami do cu se cusku la .alis.**
 > _"Je t'aime", dit Alice._
 
-**li'u** peut être omis ici car il ne peut y avoir deux constructions de relation principales dans une phrase. Ainsi, nous lisons d'abord la partie **lu mi prami do**, et lorsque nous voyons le **cu**, nous réalisons que nous ne pouvons pas continuer cette phrase citée plus loin. Nous supposons que la citation est terminée et que la phrase extérieure continue. Ainsi, aucune ambiguïté ne se produit.
+**li'u** peut être omis ici car il ne peut y avoir deux constructions de relation principales dans une phrase. Ainsi, nous lisons d'abord la partie **lu mi prami do**, et lorsque nous voyons le **cu**, nous réalisons que nous ne pouvons pas continuer cette phrase citée plus loin. Nous supposons que la citation est terminée et que la phrase extérieure continue. Ainsi, aucune ambigüité ne se produit.
 
 Élimination de **ku'o**, la bordure droite des propositions relatives :
 
@@ -10027,7 +10058,7 @@ Un semi-tour ici serait d'utiliser **ce'e** :
 > **le prenu noi mi ke'a zgana ce'e le pendo be mi ca tavla**
 > _La personne que j'observe parle maintenant à mon ami._
 
-Ici, nous terminons la proposition relative avec la construction de relation principale **zgana**. Ensuite, nous avons la conjonction **ce'e** et un terme après (**le pendo be mi**). Comme **ce'e** ne peut joindre que des termes, nous savons qu'à gauche de **ce'e**, nous avons un terme, qui ne peut être que **le prenu noi mi ke'a**. Ainsi, le sens est conservé et aucune ambiguïté ne se produit. Notez que nous avons toujours besoin d'un mot séparé, **ce'e**, dans de tels cas, donc bien que nous ayons éliminé le mot de crochet droit, nous avons quand même dû introduire quelque chose d'autre.
+Ici, nous terminons la proposition relative avec la construction de relation principale **zgana**. Ensuite, nous avons la conjonction **ce'e** et un terme après (**le pendo be mi**). Comme **ce'e** ne peut joindre que des termes, nous savons qu'à gauche de **ce'e**, nous avons un terme, qui ne peut être que **le prenu noi mi ke'a**. Ainsi, le sens est conservé et aucune ambigüité ne se produit. Notez que nous avons toujours besoin d'un mot séparé, **ce'e**, dans de tels cas, donc bien que nous ayons éliminé le mot de crochet droit, nous avons quand même dû introduire quelque chose d'autre.
 
 Élimination de **kei**, la bordure droite des phrases intérieures :
 
@@ -10105,7 +10136,7 @@ Cela nous permet de transmettre des idées encore plus complexes :
 <!-- ## Logique du second ordre
 
 Nous avons vu que **da** (et **de**, **di**) est une "variable" sous forme de nom avec des significations déclarées en fonction des propositions données.
-Il est généralement traduit par _il y a X, il y a X tels que..._
+Il est généralement traduit par _il y a X, il y a X tels que…_
 
 Cependant, par curiosité, je dois mentionner la série de verbes qui servent également de "variables" mais sous forme de verbe, c'est-à-dire sous forme de relation :
 
@@ -10121,9 +10152,9 @@ Le raisonnement derrière ces verbes variables est caché dans la logique formel
 su'o bu'a zo'u ge ge da na bu'a gi su'o da su'o de zo'u ge da .e de bu'a gi da manci de gi ro da ro de zo'u da bu'a .ije da manci de .inaja de bu'a
 - corriger la phrase -->
 
-<!-- ## Choses pas encore formalisées en Lojban
+<!-- ## Choses pas encore formalisées en lojban
 
-Bien que le Lojban puisse être la langue parlée n°1 dans le monde en raison de la précision de sa grammaire, il y a encore des choses qui ne sont pas formalisées.
+Bien que le lojban puisse être la langue parlée n°1 dans le monde en raison de la précision de sa grammaire, il y a encore des choses qui ne sont pas formalisées.
 
 On ne sait pas ce que signifie **ta'e na** par opposition à **na ta'e**.
 
@@ -10169,7 +10200,7 @@ Dans l'approche standard, le locuteur utilise une conjonction séparée **e** lo
 >**mi nelci le plise .e le jisra**
 >_J'aime les pommes et le jus._ -->
 
-## Communauté Lojban
+## Communauté lojban
 
 Rejoignez le [💬 chat en direct](https://lojban.pw/articles/live_chat/) pour plus d'informations.
 ## [Dictionnaire](https://la-lojban.github.io/uncll/romoi/xhtml_section_chunks/go01.html)
