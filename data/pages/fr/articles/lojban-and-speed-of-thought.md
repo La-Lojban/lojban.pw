@@ -14,4 +14,4 @@ et
 > **be'unairo'o**
 > _Je n'ai pas faim !_
 
-fournirait probablement la plus grande vitesse de la pensée.
+offrirait probablement la plus grande vitesse de la pensée.
