@@ -14,4 +14,4 @@ e
 > **be'unairo'o**
 > _Não estou com fome!_
 
-provavelmente forneceria a maior velocidade de pensamento.
+provavelmente proporcionaria a maior velocidade do pensamento.
