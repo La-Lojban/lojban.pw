@@ -570,9 +570,70 @@ stati
 <pixra url="/assets/pixra/cilre/stati.svg" caption="stati" definition="... tem um talento"></pixra>
 
 klama
+: ... vem para ... (algum lugar ou objeto)
+
+<pixra url="/assets/pixra/cilre/klama_ti.svg" caption="le prenu cu klama ti" definition="A pessoa veio aqui."></pixra>
+
+nelci
+: ... gosta (de algo)
+
+le zarci
+: o mercado
+
+<pixra url="/assets/pixra/cilre/zarci.svg" caption="le prenu cu zvati le zarci" definition="A pessoa está na loja."></pixra>
 : ... vai para ... (algum lugar ou objeto)
 
-<pixra url="/assets/pixra/cilre/
+le najnimre
+: a laranja (fruta), as laranjas
+
+<pixra url="/assets/pixra/cilre/najnimre.svg" caption="najnimre" definition="... é uma laranja"></pixra>
+
+le badna
+: a banana, as bananas
+
+<pixra url="/assets/pixra/cilre/badna.svg" caption="badna" definition="... é uma banana"></pixra>
+
+Feche a parte direita da tabela. Traduza as frases à esquerda do Lojban.
+
+<table style="table-layout: fixed;">
+ <tbody>
+  <tr>
+   <td>le mu prenu cu klama le zarci</td>
+   <td>As cinco pessoas vêm ao mercado.</td>
+  </tr>
+  <tr>
+   <td>le pa re prenu cu stati .i do stati</td>
+   <td>As 12 pessoas são inteligentes. Você é inteligente.</td>
+  </tr>
+  <tr>
+   <td>le prenu cu nelci le plise</td>
+   <td>As pessoas gostam das maçãs.</td>
+  </tr>
+  <tr>
+   <td>le za'u re prenu cu citka .i le me'i mu prenu cu pinxe le djacu</td>
+   <td>Mais de duas pessoas comem. Menos de 5 pessoas bebem a água.</td>
+  </tr>
+  <tr>
+   <td>le za'u re prenu cu stati</td>
+   <td>Mais de duas pessoas são inteligentes.</td>
+  </tr>
+ </tbody>
+</table>
+
+Feche a parte direita da tabela. Traduza as frases à esquerda para Lojban.
+
+<table style="table-layout: fixed;">
+ <tbody>
+  <tr>
+   <td>The 256 people are smart.</td>
+   <td>le re mu xa prenu cu stati</td>
+  </tr>
+  <tr>
+   <td>Fewer than 12 apples are tasty.</td>
+   <td>le me'i pa re plise cu kukte</td>
+  </tr>
+ </tbody>
+</table>
 
 ### Verbo composto
 
@@ -729,9 +790,98 @@ Em Lojban, a ordem das palavras pode ser mantida. Para transformar qualquer afir
 le gerku
 : o cachorro, os cachorros
 
-<pixra url="/assets/pixra/cilre/le_prenu_e_le_gerku.svg" caption="ti prenu .i ti gerku" definition="Este é uma pessoa. Este é um cachorro."></pixra>
+<pixra url="/assets/pixra/cilre/le_prenu_e_le_gerku.svg" caption="ti prenu .i ti gerku" definition="Esta é uma pessoa. Este é um cachorro."></pixra>
 
-Lembre-se de que, em Lojban, pontuações como "?" (ponto de interrogação) são em sua mai
+Lembre-se de que, em Lojban, a pontuação como "?" (ponto de interrogação) é principalmente opcional e usada principalmente para fins estilísticos. Isso ocorre porque a palavra de pergunta **xu** já mostra que é uma pergunta.
+
+Outros exemplos:
+
+> **xu mi klama**
+> _Eu estou vindo?_
+
+klama
+: ... vem para ... (em algum lugar)
+
+> **xu pelxu**
+> _É amarelo?_
+
+pelxu
+: ... é amarelo
+
+Podemos mudar o significado colocando **xu** após diferentes partes da relação. As explicações do que mudou no significado são dadas entre parênteses:
+
+> **xu do nelci le gerku**
+> _Você gosta dos cachorros?_
+
+<!-- -->
+
+> **do xu nelci le gerku**
+> _Você gosta dos cachorros?_ (Eu pensei que era outra pessoa que gostava deles).
+
+<!-- -->
+
+> **do nelci xu le gerku**
+> _Você GOSTA dos cachorros? (Eu pensei que você fosse apenas neutro em relação a eles)._
+
+<!-- -->
+
+> **do nelci le gerku xu**
+> _Você gosta dos CACHORROS? (Eu pensei que você gostasse de gatos)._
+
+O que é expresso usando entonação em inglês é expresso movendo **xu** após a parte que queremos enfatizar em Lojban. Observe que a primeira frase com **xu** no início faz a pergunta mais genérica sem enfatizar nenhum aspecto em particular.
+
+**xu** é uma palavra de interjeição. Aqui estão as características das interjeições em Lojban:
+
+- a interjeição modifica a construção anterior a ela. Portanto, quando colocada após certas partes da relação, como pronomes ou verbos, ela modifica esse verbo:
+
+ > **do xu nelci le gerku**
+ > _Você gosta dos cachorros?_
+
+- quando colocadas no início de uma relação, as interjeições modificam toda a relação:
+
+ > **xu do nelci le gerku**
+ > _Você gosta dos cachorros?_
+
+- as interjeições podem ser colocadas após diferentes partes da mesma relação para mudar o significado.
+
+As interjeições não quebram verbos compostos, elas podem ser usadas dentro deles:
+
+> **do nelci le barda xu gerku**
+> _Você gosta dos cachorros GRANDES?_
+
+Agora, como responder a essas perguntas 'sim/não'? Você repete a relação principal:
+
+> **— xu le mlatu cu melbi**
+> **— melbi**
+> _— Os gatos são bonitos?_
+> _— Bonitos._
+
+Para responder 'não', usamos o termo modal **na ku**:
+
+> **— xu le mlatu cu melbi**
+> **— na ku melbi**
+> _— Os gatos são bonitos?_
+> _— Não bonitos._
+
+na ku
+: termo: é falso que ...
+
+Ou, podemos usar um verbo especial **go'i**:
+
+> **— xu le mlatu cu melbi**
+> **— go'i**
+> _— Os gatos são bonitos?_
+> _— Bonitos._
+
+go'i
+: verbo que repete a relação principal da frase anterior
+
+Aqui, **go'i** significa o mesmo que **melbi** já que **melbi** é a relação da relação anterior.
+
+> **— xu le mlatu cu melbi**
+> **— na ku go'i**
+> _— Os gatos são bonitos?_
+> _— Não são bonitos._
 
 <!-- Este curso não recomenda negar **go'i** para respostas negativas. Apenas use **je'u nai**. -->
 
@@ -1063,7 +1213,69 @@ ju
 ### «**joi**» é ‘_e_’ para ações em massa
 
 > **do joi mi casnu le bangu**
-> _Você e eu estamos discutindo a linguagem._
+> _Você e eu estamos discutindo a língua._
+> _Você e eu sendo uma única entidade para este evento estamos discutindo a língua._
+
+O pronome **mi'o** (_você e eu juntos_) pode realmente ser expresso como **mi joi do**, que significa exatamente o mesmo (é apenas mais longo). Em Lojban, você pode não usar uma única palavra para _nós_, mas construções mais precisas como **mi joi le pendo** (literalmente _eu e os amigos_).
+
+<pixra url="/assets/pixra/cilre/casnu.svg" caption="do joi le pendo joi mi casnu" definition="Você, o amigo e eu estamos em uma discussão."></pixra>
+
+#### Tarefa
+
+Feche a parte direita da tabela. Traduza as frases à esquerda do Lojban.
+
+<table style="table-layout: fixed;">
+
+<tbody><tr>
+<td><b>mi nelci le badna .e le plise</b>
+</td>
+<td><i>Eu gosto das bananas e das maçãs. Eu gosto das bananas e das maçãs.</i>
+</td></tr>
+<tr>
+<td><b>do sutra ja stati</b>
+</td>
+<td><i>Você é rápido ou inteligente ou ambos.</i>
+</td></tr>
+<tr>
+<td><b>le za'u prenu cu casnu le karce .u le gerku</b>
+</td>
+<td><i>As pessoas discutem os carros, quer discutam ou não os cães.</i>
+</td></tr>
+<tr>
+<td><b>mi citka le najnimre .o nai le badna</b>
+</td>
+<td><i>Eu como ou as laranjas ou as bananas.</i>
+</td></tr></tbody></table>
+
+Feche a parte direita da tabela. Traduza as frases à esquerda para Lojban.
+
+<table style="table-layout: fixed;">
+
+<tbody><tr>
+<td><i>Os amigos e eu gostamos da chuva.</i>
+</td>
+<td><b>le pendo .e mi cu nelci le carvi</b>
+</td></tr>
+<tr>
+<td><i>Ou eu ou você vai ao mercado.</i>
+</td>
+<td><b>mi .o nai do klama le zarci</b>
+</td></tr>
+<tr>
+<td><i>Eu olho para o carro grande e bonito.</i>
+</td>
+<td><b>mi catlu le barda je melbi karce</b>
+</td></tr>
+<tr>
+<td><i>A criança bebe a água e/ou o suco.</i>
+</td>
+<td><b>le verba cu pinxe le djacu .a le jisra</b>
+</td></tr>
+<tr>
+<td><i>A criança e o pequeno discutem o carro.</i>
+</td>
+<td><b>le verba joi le pa cmalu cu casnu le karce</b> (observe o uso de <b>joi</b>. <i>o pequeno</i> é apenas <b>le pa cmalu</b>).
+</td></tr></tbody></table>
 
 casnu
 : … discute …
@@ -1098,7 +1310,7 @@ Na verdade, em inglês, _but_ é o mesmo que _and_, e acrescenta um sabor de con
 
 No Lojban, nós simplesmente usamos a conjunção **.i je** (ou **.e**, **gi'e**, **je**, dependendo do que estamos conectando) e adicionamos o sabor do contraste com a interjeição **ku'i**. Isso nos dará o contraste necessário. Como de costume, a interjeição modifica a construção anterior a ela.
 
-### Eventos: "_dançar e estar juntos_" — «**le nu dansu .e le nu kansa**»
+### Eventos: '_dançar e estar juntos_' — «**le nu dansu .e le nu kansa**»
 
 Qualquer relação pode ser transformada em um verbo ao colocar **nu** na frente:
 
@@ -1634,7 +1846,35 @@ le tcati
 <td><i>Você está feliz quando está caminhando no jardim?</i>
 </td></tr>
 <tr>
-<td><b>ca le nu mi klama le zdani kei do pinxe le
+<td><b>ca le nu mi klama le zdani kei do pinxe le tcati ri'a le nu do taske</b>
+</td>
+<td><i>Quando eu chegar em casa, você bebe chá porque está com sede.</i>
+</td></tr></tbody></table>
+
+Feche a parte direita da tabela. Traduza as frases à esquerda para Lojban.
+
+<table style="table-layout: fixed;">
+
+<tbody><tr>
+<td><i>Você vai olhar para o carro.</i>
+</td>
+<td><b>do ba catlu le karce</b>
+</td></tr>
+<tr>
+<td><i>Você quer que chova no futuro.</i>
+</td>
+<td><b>do ca djica le nu ba carvi</b>
+</td></tr>
+<tr>
+<td><i>Corra rapidamente para longe do fogo!</i>
+</td>
+<td><b>ko sutra bajra to'o le fagri</b>
+</td></tr>
+<tr>
+<td><i>Você e eu estávamos juntos em casa quando estava chovendo.</i>
+</td>
+<td><b>mi'o pu ca'o zvati le zdani ca le nu carvi</b>
+</td></tr></tbody></table>
 
 ### Nomes. Escolhendo um nome
 
@@ -2445,7 +2685,64 @@ Como dizemos _Você é meu amigo_?
 E agora, como dizemos _Meu amigo é inteligente_?
 
 > **le pendo be mi cu stati**
->
+> _Meu amigo é inteligente._
+
+Então, quando convertemos um verbo em um substantivo (**pendo** - _ser um amigo_ em **le pendo** - _um amigo_), ainda podemos manter outros lugares desse verbo colocando **be** depois dele.
+
+Por padrão, ele anexa o segundo lugar ($x_2$). Podemos anexar mais lugares separando-os com **bei**:
+
+> **mi plicru do le plise**
+> _Eu te dou a maçã._
+
+<pixra url="/assets/pixra/cilre/plicru.svg" caption="le prenu cu plicru le pendo le plise" definition="A pessoa dá ao amigo a maçã."></pixra>
+<!-- -->
+
+> **le plicru be mi bei le plise**
+> _O doador da maçã para mim_
+
+<!-- -->
+
+> **le plicru be mi bei le plise cu pendo mi**
+> _Quem me dá a maçã é meu amigo._
+> `Quem me dá a maçã é um amigo meu.`
+
+Outro exemplo:
+
+<!-- > **le pendo be mi cu tavla**
+> _Os amigos meus estão conversando._
+> **le pendo mi cu tavla**
+> **le pendo cu tavla mi**
+> _Os amigos estão conversando comigo._ -->
+
+> **mi klama le pendo be do**
+> _Eu vou a um amigo seu._
+
+klama
+: $x_1$ vem para $x_2$ de $x_3$ ...
+
+Não podemos omitir **be** porque **le pendo do** são dois lugares independentes:
+
+> **mi klama le pendo do**
+> _Eu vou a um amigo seu._
+
+Aqui, **do** assumiu o terceiro lugar de **klama** porque não está ligado a _pendo_ via **be**.
+
+Também não poderíamos usar **nu** porque **le nu pendo do** é o evento de alguém ser seu amigo.
+
+Então **le pendo be do** é a solução correta.
+
+Outro exemplo:
+
+> **la .lojban. cu bangu mi**
+> _Lojban é minha língua._
+> `Lojban é uma língua minha.`
+
+No entanto,
+
+> **mi nelci le bangu be mi**
+> _Eu gosto da minha língua._
+
+Usar **be** para verbos não convertidos em substantivos não tem efeito: **mi nelci be do** é o mesmo que **mi nelci do**.
 
 ### Cláusulas relativas
 
@@ -2670,11 +2967,38 @@ birka
 Vamos mostrar novamente que uma construção com **be** é parte do verbo, enquanto **pe**, **ne**, **poi** e **noi** se conectam a substantivos:
 
 > **le pa melbi be mi fonxa pe le pa pendo be mi cu barda**
-> _O seu telefone bonito do meu amigo é grande._
+> `O telefone bonito para mim do meu amigo é grande.`
 
-Aqui, **be mi** está conectado ao verbo **melbi** = _ser bonito para ... (alguém)_ e assim cria um novo verbo **melbi be mi** = _ser bonito para mim_. Mas **pe le pa pendo be mi** (_do meu amigo_) é aplicado ao substantivo inteiro **le pa melbi be mi fonxa** (_o telefone bonito para mim_).
+Aqui, **be mi** está anexado ao verbo **melbi** = _ser bonito para ... (alguém)_ e, assim, cria um novo verbo **melbi be mi** = _ser bonito para mim_. Mas **pe le pa pendo be mi** (_do meu amigo_) é aplicado a todo o substantivo **le pa melbi be mi fonxa** (_o telefone bonito para mim_).
 
-Também pode acontecer de precisarmos conectar **be** a um verbo, transformar esse verbo em um substantivo e depois conectar **pe** a esse substant
+Também pode acontecer de precisarmos anexar **be** a um verbo, transformar esse verbo em um substantivo e, em seguida, anexar **pe** a esse substantivo:
+
+> **le pa pendo be do be'o pe la .paris. cu stati**
+> _Seu amigo que está relacionado a Paris é inteligente._
+
+<!-- -->
+
+> **le pu plicru be do bei le pa plise be'o pe la .paris. cu stati**
+> _Quem lhe deu a maçã (e que está relacionado a Paris) é inteligente._
+
+be'o
+: marcador de borda direita para a sequência de substantivos anexados com **be** e **bei**
+
+Nesses exemplos, **pe la .paris.** está anexado a todo o substantivo **le pa pendo be do be'o** e a todo o substantivo **le pu plicru be do bei le pa plise be'o**.
+
+Nesses dois exemplos, seu amigo tem alguma relação com Paris (talvez ele/ela seja de Paris).
+
+Compare com:
+
+> **le pa pendo be do pe la .paris. cu stati**
+> _Seu amigo (você que está relacionado a Paris) é inteligente._
+
+<!-- -->
+
+> **le pu plicru be do bei le pa plise pe la .paris. cu stati**
+> _Quem lhe deu a maçã (a maçã que está relacionada a Paris) é inteligente._
+
+Nesses dois últimos exemplos, no entanto, ou você está relacionado a Paris ou a maçã.
 
 ### ‘_Alice é uma professora_’ e ‘_Alice é a professora_’
 
@@ -3024,7 +3348,67 @@ zo'u
 da
 : pronome: variável.
 
-O pronome **da** é traduzido c
+O pronome **da** é traduzido como _existe algo/alguém …_ Se usarmos **da** pela segunda vez na mesma relação, ele sempre se refere à mesma coisa que o primeiro **da**:
+
+> **mi djica le nu su'o da poi kukte zo'u mi citka da**
+> _Eu gostaria que houvesse pelo menos algo saboroso para que eu pudesse comê-lo._
+
+su'o
+: número: pelo menos 1
+
+Se a variável é usada na mesma relação e não em nenhuma relação incorporada, então você pode omitir a prenex completamente:
+
+> **mi djica le nu su'o da poi kukte zo'u mi citka da**
+> **mi djica le nu mi citka su'o da poi kukte**
+> _Eu gostaria que houvesse pelo menos algo saboroso para que eu pudesse comê-lo._
+> _Eu gostaria que algo fosse assim que eu pudesse comê-lo._
+
+Ambos os exemplos significam a mesma coisa, em ambos os casos **su'o da** denota _existe (estava/estará) algo ou alguém_.
+
+No entanto, prenex é útil e necessário quando você precisa usar **da** profundamente dentro de sua relação, ou seja, dentro de relações incorporadas:
+
+> **su'o da poi kukte zo'u mi djica le nu mi citka da**
+> _Existe pelo menos algo saboroso: eu gostaria de tê-lo comido, eu quero comê-lo._
+> _Existe algo saboroso que eu gostaria de comer._
+
+Observe como o significado muda. Aqui, não podemos omitir a prenex porque isso mudará o significado do exemplo anterior.
+
+Mais exemplos:
+
+> **mi tavla**
+> _Eu falo._
+
+<!-- -->
+
+> **mi tavla su'o da**
+> **mi tavla da**
+> _Existe alguém com quem eu falo._
+
+Por padrão, **da** como pronome sozinho significa o mesmo que **su'o da** (_existe pelo menos um …_) a menos que um número explícito seja usado.
+
+> **da tavla da**
+> _Alguém fala consigo mesmo._
+
+<!-- -->
+
+> **da tavla da da**
+> _Alguém fala consigo mesmo sobre si mesmo._
+
+tavla
+: $x_1$ fala com alguém $x_2$ sobre o tópico $x_3$
+
+> **pa da poi ckape zo'u mi djica le nu da na ku fasnu**
+> _Existe uma coisa perigosa: eu gostaria que isso nunca acontecesse._
+
+**da** não implica nenhum objeto ou evento em particular, o que é frequentemente útil:
+
+> **xu do tavla su'o da poi na ku slabu do**
+> _Você fala com alguém que não conhece? (nenhuma pessoa em particular é descrita)._
+
+<!-- -->
+
+> **.e'u mi joi do casnu bu'u su'o da poi drata**
+> _Vamos discutir em outro lugar (nenhum lugar em particular em mente)_
 
 ### Substantivos de existência
 
@@ -3258,35 +3642,34 @@ Em tais casos, dizemos que **co'a speni** está dentro do "escopo" de **mo'u**.
 ```mermaid
 flowchart LR
     %% common structure:
-    subgraph sentence["<i>fórmula</i>#nbsp;"]
+    subgraph sentence["<i>sentence</i>#nbsp;"]
         direction LR
         head-terms
         tail
     end
     head-terms ~~~ tail
-    subgraph head-terms["<i>cabeça</i>#nbsp;"]
+    subgraph head-terms["<i>head</i>#nbsp;"]
         t1
+    end
+    subgraph tail["<i>tail</i>#nbsp;"]
+        subgraph m1["mo'u"]
+            subgraph m2["co'a"]
+                brivla
+            end
+        end
+    end
 
-fim
-subgraph tail["<i>cauda</i>#nbsp;"]
-    subgraph m1["mo'u"]
-        subgraph m2["co'a"]
-            brivla
-        fim
-    fim
-fim
+    t1(mi)
+    brivla[(speni)]
 
-t1(mi)
-brivla[(speni)]
+    classDef blabi fill:#fff,stroke:#333;
+    class m1 blabi;
+    class m2 blabi;
+    class sentence blabi;
 
-classDef blabi fill:#fff,stroke:#333;
-class m1 blabi;
-class m2 blabi;
-class sentence blabi;
-
-classDef x fill:#FFF863,stroke:#333,stroke-width:1px,stroke-dasharray: 5 2;
-class t1 x;
-class brivla blabi;
+    classDef x fill:#FFF863,stroke:#333,stroke-width:1px,stroke-dasharray: 5 2;
+    class t1 x;
+    class brivla blabi;
 ```
 
 Em **mi co'a mo'u speni**, a ordem dos eventos é diferente.
@@ -4233,13 +4616,13 @@ si'a
 
 ### Estrutura das interjeições: «**nai**», «**sai**», «**pei**», «**dai**»
 
-As interjeições podem consistir em:
+As interjeições podem consistir em
 
 1. a raiz, como **ui** (_Uau!_)
 2. após ela, sufixos como **pei**, **dai**, **zo'o**:
 
     > **ui zo'o**
-    > _Uau! (brincadeira, na verdade não estou feliz)_
+    > _Uau! (brincadeira, eu não estou realmente feliz)_
 
 3. tanto a raiz quanto cada um dos sufixos podem ser modificados com partículas escalares como **nai**:
 
@@ -4248,7 +4631,7 @@ As interjeições podem consistir em:
 
     <!-- -->
     > **ui nai zo'o**
-    > _Ai de mim! (brincadeira, não estou falando sério sobre esse sentimento)_
+    > _Ai de mim! (brincadeira, eu não estou falando sério)_
 
     <!-- -->
     > **ui nai zo'o nai**
@@ -4262,26 +4645,26 @@ Alguns exemplos de como as partículas escalares funcionam.
 
 Exemplos comuns de interjeições:
 
-- uma interjeição formada apenas pela raiz:
+- uma interjeição feita de uma raiz simples:
 
  > **ju'o le bruna co'i klama**
  > _Tenho certeza, o irmão chegou._
 
-- a partícula escalar **cu'i** transforma uma interjeição formada apenas pela raiz em uma atitude intermediária:
+- a partícula escalar **cu'i** transforma uma interjeição de raiz simples em sua atitude intermediária:
 
  > **ju'o cu'i le bruna co'i klama**
  > _Talvez o irmão tenha chegado, não tenho certeza._
 
-- a partícula escalar **nai** transforma a interjeição em uma atitude oposta:
+- a partícula escalar **nai** transforma a interjeição em atitude oposta:
 
  > **ju'o nai le bruna co'i klama**
  > _Talvez o irmão tenha chegado, talvez não, não faço ideia._
 
-Da mesma forma, **ui** é _Uhu! Uau!_, enquanto **ui nai** significa _Ai de mim!_
+Da mesma forma, **ui** é _Uau!_, enquanto **ui nai** significa _Ai de mim!_
 
-Os significados precisos das interjeições que fazem sentido com suas partículas escalares **cu'i** e **nai** estão no dicionário.
+Os significados precisos das interjeições que são significativas com suas partículas escalares **cu'i** e **nai** são dados no dicionário.
 
-- a partícula escalar **sai** denota uma intensidade forte da interjeição:
+- a partícula escalar **sai** denota forte intensidade de interjeição:
 
  > **.u'i sai**
  > _Ha-ha-ha!_
@@ -4291,13 +4674,13 @@ Vocativos também podem ser modificados com partículas escalares:
 > **ki'e sai do**
 > _Muito obrigado!_
 
-Sufixos são adicionados após a raiz da interjeição (juntamente com suas partículas escalares, se as usarmos):
+Sufixos são adicionados após a raiz da interjeição (junto com suas partículas escalares, se as usarmos):
 
 - o sufixo de interjeição **pei** transforma a interjeição em uma pergunta.
 
  > **— .au pei do .e mi klama le zarci**
  > **— .au cu'i**
- > _— Você quer que você e eu vamos à loja?_
+ > _— Você quer que eu e você vamos à loja?_
  > _— Meh, não tenho preferências._
 
  <!-- -->
@@ -4322,35 +4705,46 @@ Sufixos são adicionados após a raiz da interjeição (juntamente com suas part
  > **.a'u dai**
  > _Isso deve ter sido interessante para você!_
 
-- Interjeições nuas expressam a atitude do falante. **ei do cliva** não significa _Você deve sair_, mas sim _Sinto a obrigação de você sair_. **dai** mostra que o falante está se solidarizando com os sentimentos de outra pessoa.
+- Interjeições simples expressam a atitude do falante. **ei do cliva** não significa _Você deve sair_, mas _Sinto a obrigação de você sair_. **dai** mostra que o falante está se identificando com os sentimentos de outra pessoa.
 
  > **.ei dai do cliva**
- > _Você sente a obrigação de você sair._
+ > _Você sente a obrigação de sair._
 
-Note que as interjeições não necessariamente mostram atitude em relação aos próprios falantes. Em vez disso, elas expressam a atitude dos falantes em relação a outras coisas.
+Observe que as interjeições não necessariamente mostram atitude em relação aos próprios falantes. Em vez disso, elas expressam a atitude dos falantes em relação a outras coisas.
 
-- o sufixo de interjeição **zo'o** marca a atitude como não se
+- o sufixo de interjeição **zo'o** marca a atitude como expressa não seriamente:
+
+ > **.e'u zo'o do pinxe ti**
+
+> _Sugiro que você beba isso (brincadeira)._
+
+- Sufixos também podem ser modificados com partículas escalares:
+
+> **ie zo'o nai**
+> _Eu concordo (sem brincadeira)._
+
+- **zo'o nai** é usado para mostrar que a informação não é uma piada:
 
 > **zo'o nai ra pu klama la .paris.**
-> _— Estou falando sério, ele foi para Paris._
+> _- Estou falando sério, ele foi para Paris._
 
-- Sufixos podem ser usados por si só:
+- Sufixos podem ser usados sozinhos:
 
-  - **pei** quando usado sozinho pede por qualquer interjeição que o ouvinte ache apropriada:
+  - **pei** quando usado sozinho pede qualquer interjeição que o ouvinte sinta apropriada:
 
-  > **— pei le lunra cu crino**
-  > **— .ie nai**
-  > _— A lua está verde (qual é a sua opinião sobre isso?)_
-  > _— Discordo._
+> **- pei le lunra cu crino**
+> **- .ie nai**
+> _- A lua é verde (qual é o seu sentimento sobre isso?)_
+> _- Eu discordo._
 
 - Para outros sufixos, significa que a interjeição raiz **ju'a** (_Eu afirmo_) foi omitida:
 
- > **zo'o do kusru**
- > **ju'a zo'o do kusru**
- > _Você é cruel (brincadeira)._
+> **zo'o do kusru**
+> **ju'a zo'o do kusru**
+> _Você é cruel (brincadeira)._
 
- ju'a
- : interjeição: Eu afirmo (não confunda com **ju'o** (Tenho certeza))
+ju'a
+: interjeição: Eu afirmo (não confunda com **ju'o** (Eu tenho certeza))
 
 ### Apenas para referência: interjeições em tabelas
 
@@ -4725,7 +5119,82 @@ Elas podem ajudá-lo a se acostumar com o Lojban coloquial mais rapidamente.
  > **.ei mi citka .i co'o**
  > _Eu deveria comer. Tchau!_
  >
-- <dl><dt>ca le nu</dt><dd>qu
+- <dl><dt>ca le nu</dt><dd>quando …</dd></dl>
+
+ > **mi pu bebna ca le nu mi citno**
+ > _Eu era estúpido quando era jovem._
+ >
+- <dl><dt>va'o le nu</dt><dd>desde que …</dd></dl>
+
+ > **va'o le nu do djica kei mi ka'e ciksi**
+ > _Se você quiser, eu posso explicar._
+ >
+- <dl><dt>simlu le ka</dt><dd>… parece ser …</dd></dl>
+
+ > **simlu le ka zabna**
+ > _Parece ser legal._
+ >
+- <dl><dt>ca le cabdei</dt><dd>hoje</dd></dl>
+ ca le cabdei
+ : hoje
+
+ > **pu ce'e ca le cabdei mi surla**
+ > _Hoje eu descansei._
+ >
+- <dl><dt>mi nelci</dt><dd>Eu gosto</dd></dl>
+
+ > **mi nelci le mlatu**
+ > _Eu gosto do gato._
+ >
+- <dl><dt>le nu pilno</dt><dd>usando …</dd></dl>
+
+ > **na ku le nu pilno le vlaste cu nandu**
+ > _Usar dicionários não é difícil._
+ >
+- <dl><dt>kakne le ka</dt><dd>capaz de …</dd></dl>
+
+ > **xu do kakne le ka sutra tavla**
+ > _Você é capaz de falar rapidamente?_
+ >
+- <dl><dt>tavla fi</dt><dd>falar sobre …</dd></dl>
+
+ > **.e'ei tavla fi le skami**
+ > _Vamos falar sobre computadores!_
+ >
+- <dl><dt>mutce le ka</dt><dd>muito …</dd></dl>
+
+ > **mi mutce le ka se cinri**
+ > _Eu estou muito interessado._
+ >
+- <dl><dt>troci le ka</dt><dd>… tenta …</dd></dl>
+
+ > **mi troci le ka tavla fo la .lojban.**
+ > _Eu estou tentando falar em Lojban._
+ >
+- <dl><dt>rinka le nu</dt><dd>(evento) leva a …</dd></dl>
+
+ > **le nu mi tadni la .lojban. cu rinka le nu mi jimpe fi do**
+ > _O fato de eu estudar Lojban me faz entender você._
+ >
+- <dl><dt>gasnu le nu</dt><dd>(agente) causa …</dd></dl>
+
+<pixra url="/assets/pixra/cilre/tadni.svg" caption="mi tadni" definition="Eu estudo."></pixra>
+
+ > **mi pu gasnu le nu le skami pe mi co'a spofu**
+ > _Eu fiz com que meu computador quebrasse._
+ >
+- <dl><dt>xusra le du'u</dt><dd>afirmar que …</dd></dl>
+
+ > **xu do xusra le du'u mi na ku drani**
+ > _Você afirma que eu não estou certo?_
+ >
+
+- <dl><dt>kanpe le du'u</dt><dd>esperar (no sentido de avaliação, previsão) que...</dd></dl>
+
+<!-- -->
+
+> **mi na ku kanpe le du'u mi jinga**
+> _Eu não espero ganhar._
 
 ### Um diálogo simples
 
@@ -4938,7 +5407,25 @@ tarmi
 cukla
 : $x_1$ é redondo (em forma)
 
-<pixra url="/assets/pixra/cilre/coha_viska.svg" caption="le prenu co
+<pixra url="/assets/pixra/cilre/coha_viska.svg" caption="le prenu co'a viska le cipni" definition="A pessoa percebe, começa a ver o pássaro."></pixra>
+
+> **mi viska le plise**
+> _Eu vejo a maçã._
+
+> **mi viska le tarmi be le plise**
+> _Eu vejo a forma da maçã._
+
+> **.i le plise cu se tarmi le cukla**
+> _A maçã é redonda._
+
+<!-- -->
+<!-- > **mi viska le se skari be le plise**
+> _Eu vejo a cor da maçã._ -->
+
+> **.i le plise cu skari le ka xunre**
+> _A maçã é vermelha._
+
+Nota: podemos dizer tanto "ver a forma da maçã" quanto "ver a maçã".
 
 #### Audição
 
@@ -6331,7 +6818,63 @@ Traduzindo como **da**:
   > **ba le nu do zgana da kei ko klama**
   > _Depois que você notar algo, venha!_
 
-- Escopo: 'qualquer' é usado em inglês quando negado, enquanto Lojban usa **
+- Escopo: _qualquer_ é usado em inglês quando negando, enquanto Lojban usa **na ku** mas ainda **da**:
+  > _Depois que você notar algo, venha!_
+
+  > **mi na ku viska su'o da poi prenu**
+  > _Eu não vejo ninguém._
+
+- _qualquer_ é usado quando não fazemos distinção entre os membros que estamos falando:
+
+  > **.au nai mi tavla su'o da poi na ku slabu mi**
+  > _Eu não quero falar com qualquer pessoa._
+
+- Escopo: A negação deve ser usada em uma relação apropriada, como mostrado abaixo:
+
+  > **mi jinvi le du'u na ku da jimpe**
+  > _Eu não acho que alguém entenda._
+
+  Isso pode ser reformulado como:
+
+  > **mi jinvi le du'u no da jimpe**
+  > _Eu acho que ninguém entende._
+
+- Em comparações, _cada_ é transformado em _qualquer_ e traduzido como **ro da**:
+
+  > **do zmadu ro da le ka se canlu**
+  > _Você é mais alto do que qualquer um._
+  > `Você excede todo mundo em tamanho.`
+
+- Ao fornecer escolha, _qualquer_ é usado e traduzido como **ro da**:
+
+  > **ro da poi do nelci zo'u .e'a do citka da**
+  > _Você pode comer o que quiser._
+  > `Para tudo o que você gosta, eu permito que você coma.`
+
+- Para termos como _qualquer um_ e _em algum lugar_:
+
+  > **.e'u mi'o troci bu'u su'o da poi drata**
+  > _Vamos tentar em outro lugar._
+
+  Aqui, **su'o da poi drata** significa _qualquer outra coisa ou coisas, lugar ou lugares_. O número desses lugares não é especificado, embora qualquer lugar desse tipo possa servir.
+
+  Para dizer _qualquer lugar, mas apenas um lugar_, use:
+
+  > **.e'u mi'o troci bu'u pa da poi drata**
+  > _Vamos tentar em outro lugar._
+
+- Traduzindo _qualquer_ como **le'e** em declarações genéricas:
+
+  > **le'e gerku cu se tuple le vo da**
+  > _Qualquer cachorro tem quatro patas. Espera-se que os cachorros tenham quatro patas._
+
+- Usando **le** ao descrever objetos, lugares ou eventos específicos:
+
+  > **le drata zo'u .e'u mi'o pilno ri**
+  > _A outra coisa, vamos usá-la._
+
+  > **le drata stuzi zo'u .e'u mi'o troci bu'u ri**
+  > _O outro lugar, vamos tentar lá._
 
 ### Resumo: quais construções afetam o escopo?
 
@@ -6964,25 +7507,25 @@ le penbi
 </td></tr></tbody></table>
 
 marce
-: $ x_1 $ é um veículo que carrega $ x_2 $
+: $x_1$ é um veículo que carrega $x_2$
 
 se marce
-: $ x_1 $ é um passageiro de $ x_2 $
+: $x_1$ é um passageiro de $x_2$
 
 <!-- jai zu'e se marce
 : $x_1$ leva um veículo $x_2$ como passageiro -->
 
 karce
-: $ x_1 $ é um carro que transporta $ x_2 $
+: $x_1$ é um carro que transporta $x_2$
 
 bloti
-: $ x_1 $ é um barco que carrega $ x_2 $
+: $x_1$ é um barco que carrega $x_2$
 
 vinji
-: $ x_1 $ é uma aeronave que transporta $ x_2 $
+: $x_1$ é uma aeronave que transporta $x_2$
 
 trene
-: $ x_1 $ é um trem de carros $ x_2 $
+: $x_1$ é um trem de carros $x_2$
 
 ## Lição 7. Letras, referindo-se a relacionamentos, datas
 
@@ -8228,7 +8771,91 @@ lakne
 
 <!-- -->
 
-_$x_1$_ (evento possível) é imaginado por $x_2$_
+> **mi djica le nu mi klama la .paris.**
+> _Eu prefiro visitar Paris. Eu quero visitar Paris._
+
+djica
+: $x_1$ quer $x_2$ (evento possível)
+
+> **mi te mukti le ka klama la .paris.**
+> _Eu vou visitar Paris. Eu estou motivado para visitar Paris._
+
+<!-- -->
+
+> **mi te mukti klama la .paris.**
+> _Eu estou visitando Paris intencionalmente._
+
+te mukti
+: $x_1$ está motivado para alcançar o objetivo $x_2$ (evento possível) pelo motivo $x_3$ (evento)
+
+> **mi kakne le ka limna**
+> _Eu sou capaz de nadar._
+
+<!-- -->
+
+> **mi pu kakne le ka gunka**
+> _Eu poderia trabalhar. Eu era capaz de trabalhar._
+
+kakne
+: $x_1$ pode, é capaz de fazer $x_2$ (propriedade de $x_1$)
+
+$x_2$ descreve um evento possível.
+
+> **mi nitcu le nu mi sipna**
+> _Eu preciso dormir._
+
+nitcu
+: $x_1$ precisa $x_2$ (evento possível)
+
+> **mi bilga le ka gunka**
+> _Eu devo trabalhar. Eu sou obrigado a trabalhar._
+
+bilga
+: $x_1$ deve, é obrigado a fazer $x_2$ (propriedade de $x_1$)
+
+> **mi curmi le nu do citka ti**
+> _Eu permito que você coma isso._
+
+curmi
+: $x_1$ permite/permite $x_2$ (evento possível)
+
+> **mi tolcru le nu do nerkla**
+> _Eu proíbo você de entrar._
+
+tolcru
+: $x_1$ proíbe/proíbe $x_2$ (evento possível)
+
+> **xu do stidi le ka sipna kei mi**
+> _Você sugere que eu durma?_
+
+stidi
+: $x_1$ inspira $x_2$ (ação possível) no ator $x_3$
+
+<!-- >**mi na ku birti le du'u ra klama**
+>_Eu não tenho certeza se ele vem._
+birti
+: $x_1$ tem certeza de que $x_2$ (proposição) é verdadeira -->
+
+> **mi senpi le du'u ra kakne le ka limna**
+> _Eu duvido que ele possa nadar._
+
+senpi
+: $x_1$ duvida que $x_2$ (proposição) seja verdadeira
+
+<!-- **senpi** é o mesmo que **na'e birti** -->
+
+> **mi se xanri le nu mi pavyseljirna**
+> _Eu imagino a mim mesmo sendo um unicórnio. Eu poderia ser um unicórnio._
+
+<!-- -->
+
+> **se xanri**
+> _$x_1$ imagina $x_2$ (evento possível)_
+
+<!-- -->
+
+> **xanri**
+> _$x_1$ (evento possível) é imaginado por $x_2$_
 
 ## Lição 9. Conjunções Lógicas
 
@@ -9110,61 +9737,6 @@ Eliminação de **kei**, a borda direita das frases internas:
 > _Eu sugiro que você coma algo._
 
 Como você pode ver, nenhum truque torna o resultado mais curto do que o original com **kei**, então, para concisão, você pode querer usar **kei**. 
-
-```
-### Evitando terminações explícitas
-Outro estilo de fala envolve evitar a terminação. Aqui estão alguns casos comuns:
-
-Eliminação de **li'u**, a aspa direita:
-
-> **lu mi prami do li'u cu se cusku la .alis.**
-> **lu mi prami do li'u se cusku la .alis.**
-> **lu mi prami do cu se cusku la .alis.**
-> _"Eu te amo", disse Alice._
-
-**li'u** pode ser omitido aqui porque não pode haver dois construtos de relação principais em uma única frase. Portanto, primeiro lemos a parte **lu mi prami do** e, então, quando vemos o **cu**, percebemos que não podemos continuar essa frase citada. Supomos que a citação terminou e a frase externa continua. Assim, nenhuma ambiguidade surge.
-
-Eliminação de **ku'o**, a borda direita das cláusulas relativas:
-
-> **le prenu noi mi zgana ke'a ku'o ca tavla le pendo be mi**
-> **le prenu noi mi zgana ke'a ca tavla le pendo be mi**
-> _A pessoa que estou observando está falando com meu amigo agora._
-
-**ku'o** pode ser omitido aqui quando a cláusula relativa que precisamos (**mi zgana ke'a**) termina em um termo, neste caso, **ke'a**. Depois da cláusula relativa, algo que não seja um termo começa, então a cláusula relativa não pode ser continuada e, assim, sabemos que ela termina com sucesso sem nenhum parêntese direito explícito.
-
-Um truque semelhante seria sempre colocar **ke'a** no final da cláusula relativa:
-
-> **le prenu noi ke'a melbi ku'o ca tavla le pendo be mi**
-> **le prenu noi melbi fa ke'a ca tavla le pendo be mi**
-> _A pessoa que é bonita está conversando com meu amigo agora._
-
-No entanto, no seguinte caso, a terminação é necessária:
-
-> **le prenu noi mi zgana ke'a ku'o le pendo be mi ca tavla**
-> _A pessoa que estou observando está falando com meu amigo agora._
-
-porque, após a cláusula relativa **mi zgana ke'a**, optamos por colocar outro termo (**le pendo be mi**) que não pertence à cláusula relativa atual.
-
-Um semi-truque aqui seria usar **ce'e**:
-
-> **le prenu noi mi ke'a zgana ce'e le pendo be mi ca tavla**
-> _A pessoa que estou observando está falando com meu amigo agora._
-
-Aqui, terminamos a cláusula relativa com o construto de relação principal **zgana**. Então temos a conjunção **ce'e** e um termo posteriormente (**le pendo be mi**). Como **ce'e** só pode unir termos, sabemos que à esquerda de **ce'e** temos um termo, que só pode ser **le prenu noi mi ke'a**. Portanto, o significado é mantido e não há ambiguidade. Note que ainda precisamos de uma palavra separada, **ce'e**, nesses casos, então, embora tenhamos eliminado a palavra do colchete brilhante, tivemos que introduzir algo mais.
-
-Eliminação de **kei**, a borda direita das frases internas:
-
-> **mi cinmo le ka badri kei le tcini**
-> **le ka badri cu se cinmo mi le tcini**
-> **mi cinmo fi le tcini fe le ka badri**
-> **mi cinmo le ka badri ce'e le tcini**
-> _Eu me sinto triste em relação à situação._
-
-> **mi stidi lo ka citka su'o da kei do**
-> **mi stidi lo ka ce'u su'o da citka ce'e do**
-> _Eu sugiro que você coma algo._
-
-Como você pode ver, nenhum truque torna o resultado mais curto do que o original com **kei**, então, para concisão, você pode querer usar **kei**.
 
 ### Conversão de conjuntos em massas
 
