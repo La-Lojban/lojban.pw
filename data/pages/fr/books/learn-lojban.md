@@ -287,10 +287,11 @@ Cela peut sembler surprenant que _personne_ puisse être un "verbe" ; pourtant c
 </td></tr>
 </tbody></table>
 
-On peut ainsi dire que **le** crée un nom à partir d'un mot de relation. On peut le lire comme _celui qui est…_ (_est une personne_ / _la personne_), ou _ceux qui font…_ (_parler à_ / _les locuteurs_), _ceux qui sont…_ (_sont des gens_ / _les gens_), etc.
+On peut ainsi dire que **le** crée un nom à partir d'un mot de relation. On peut le lire comme _celui qui est…_ (_est une personne_ / _la personne_), _ceux qui font…_ (_parler à_ / _les locuteurs_), _ceux qui sont…_ (_sont des gens_ / _les gens_), etc.
 
 Par défaut, le lojban ne précise ni genre ni nombre. On ne différencie donc pas _le locuteur_ / _les locuteurs_ / _la locutrice_ / _les locutrices_. On pourra bien évidemment préciser genre et nombre dans la phrase (plus loin dans ce cours) ou déduire des informations du contexte.
-<!-- L10N: Added info about translations in French, as language has neither neutral gender nor neutral number --> Vous verrez ainsi que les traductions en français seront variables : parfois un terme sera traduit au singulier, parfois au pluriel. Il en va de même avec le genre : si la phrase en lojban ne précise rien sur une personne, la traduction pourra être construite avec "il" ou "elle", par exemple. Plus loin dans ce cours, vous apprendrez que le lojban peut aussi être neutre sur le temps (de conjugaison).
+<!-- L10N: Added info about translations in French, as language has neither neutral gender nor neutral number -->
+Vous verrez ainsi que les traductions en français seront variables : parfois un terme sera traduit au singulier, parfois au pluriel. Il en va de même avec le genre : si la phrase en lojban ne précise rien sur une personne, la traduction pourra être construite avec "il" ou "elle", par exemple. Plus loin dans ce cours, vous apprendrez que le lojban peut aussi être neutre sur le temps (de conjugaison).
 
 Les termes en lojban, quel que soit l'endroit où ils sont utilisés dans la phrase, sont principalement représentés par :
 
@@ -448,7 +449,7 @@ Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de 
 <td><i>Je mange des pommes (ou "une pomme").</i>
 </td></tr></tbody></table>
 
-### Le séparateur de phrases «**.i**»
+### Le séparateur de phrases « **.i** »
 
 Il n'existe pas de ponctuation en lojban, à proprement parler. C'est le petit mot **.i** qui sépare les phrases consécutives.
 
@@ -466,7 +467,7 @@ Notez qu'en parlant rapidement il est parfois difficile (ou ambigu) de savoir o�
 
 En lojban, cette séparation est explicite. Il est même conseillé d'utiliser le mot **.i** _avant_ de commencer une nouvelle phrase, afin de bien marquer son intention.
 
-### Chiffres et nombres: ‘_1 2 3 4 5 6 7 8 9 0_’ = «**pa re ci vo mu xa ze bi so no**»
+### Chiffres et nombres: ‘_1 2 3 4 5 6 7 8 9 0_’ = « **pa re ci vo mu xa ze bi so no** »
 
 
 Comme vu précédemment, **le** transforme simplement un "verbe" en un "nom", mais sans nombre associé. La phrase
@@ -545,7 +546,8 @@ Du coup, pour compter ou énumérer, il suffit de séparer les nombres avec **.i
 > **mu .i vo .i ci .i re .i pa .i no**
 > _5 … 4 … 3 … 2 … 1 … 0_
 
-<!-- L10N: Added -->Il y a même la possibilité d'avoir des "nombres" qui ne sont pas des valeurs numériques, mais des ensembles ou des notions vagues.
+<!-- L10N: Added -->
+Il y a même la possibilité d'avoir des "nombres" qui ne sont pas des valeurs numériques, mais des ensembles ou des notions vagues.
 Le nombre **za'u** signifie _plus de …_ (_\>_ en mathématiques), le nombre **me'i** signifie _moins de_ (_<_) :
 
 > **le za'u re prenu cu tavla mi**
@@ -823,7 +825,7 @@ klama
 pelxu
 : … être jaune
 
-Il est possible de déplacer **xu** pour préciser la question. Le mot précédent est alors mis en _emphase_ (on "insiste" dessus), afin de faire porter la réponse sur ce mot. En français, on aurait tendance à le prononcer plus fort à l'oral, ou parfois à faire un geste en le prononçant. Dans les exemples ci-dessous, des exemples d'interprétation sont données entre parenthèses :
+Il est possible de déplacer **xu** pour préciser la question. Le mot précédent est alors mis en _emphase_ (on "insiste" dessus), afin de faire porter la réponse sur ce mot. En français, on aurait tendance à le prononcer plus fort à l'oral, ou parfois à faire un geste en le prononçant. Dans les exemples ci-dessous, des exemples d'interprétation sont donnés entre parenthèses :
 
 > **xu do nelci le gerku**
 > _Est-ce que tu aimes les chiens ?_
@@ -843,7 +845,7 @@ Il est possible de déplacer **xu** pour préciser la question. Le mot précéde
 > **do nelci le gerku xu**
 > _Est-ce que tu aimes les CHIENS ? (Je pensais que tu aimais les chats)._
 
-Ce qui est exprimé par l'intonation en français est explicité par le placement du mot **xu** en lojban. Celui-ci est placé après la partie à mettre en évidence. Notez que la phrase avec **xu** au début pose la question sans mettre d'accent sur un mot particulier.
+Ce qui est exprimé par l'intonation en français est explicité par le placement du mot **xu** en lojban, celui-ci étant placé après la partie à mettre en évidence. Notez que la phrase avec **xu** au début pose la question sans mettre d'accent sur un mot particulier.
 
 Grammaticalement parlant, **xu** est une interjection :
 
@@ -972,7 +974,7 @@ Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de 
 <!-- L10N: Added introductory sentence. -->
 Les interjections lojban permettent de modifier radicalement une phrase, en précisant un sentiment ou une intention globale.
 
-L'interjection **ui** indique que celui qui parle est heureux, joyeux. Elle est utilisée comme le smiley « _:)_» sur messagerie, pour indiquer que vous êtes content de quelque chose. Les smileys peuvent être ambigus, mais **ui** n'a qu'une seule signification, ce qui est bien pratique.
+L'interjection **ui** indique que celui qui parle est heureux, joyeux. Elle est utilisée comme le smiley « _:)_ » sur messagerie, pour indiquer que vous êtes content de quelque chose. Les smileys peuvent être ambigus, mais **ui** n'a qu'une seule signification, ce qui est bien pratique.
 
 > **ui do klama**
 > _Super, tu viens !_
@@ -1072,8 +1074,6 @@ Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de 
 <td><b>.e'o do kurji le verba</b>
 </td></tr></tbody></table>
 
-<!-- CONTINUER LA TRADUCTION CI-DESSOUS -->
-
 ### 'Et' et 'ou'
 
 > **do nintadni .i je mi nintadni**
@@ -1084,7 +1084,7 @@ Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de 
 > **do .e mi nintadni**
 > _Toi et moi sommes des débutants._
 
-<pixra url="/assets/pixra/cilre/do_e_mi_nintadni.svg" caption="do .e mi nintadni" definition="Toi et moi sommes de nouveaux étudiants."></pixra>
+<pixra url="/assets/pixra/cilre/do_e_mi_nintadni.svg" caption="do .e mi nintadni" definition="Toi et moi sommes des débutants / apprentis."></pixra>
 
 <!-- -->
 
@@ -1105,21 +1105,19 @@ Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de 
 gi'e
 : conjonction "et" reliant des fins de phrases.
 
-Nous pouvons combiner deux phrases en une seule déclaration en utilisant la conjonction **.i je**, qui signifie _et_ :
+On peut combiner deux phrases en une seule en utilisant la conjonction **.i je** (qui signifie _et_) :
 
 > **do nintadni .i je mi nintadni**
 > _Tu es un débutant. Et je suis un débutant._
 
-Comme les deux phrases ont la même fin, nous pouvons utiliser une contraction : la conjonction **.e** signifie _et_ pour les noms et les pronoms :
+Comme les deux phrases ont la même fin, on peut utiliser une contraction. La conjonction **.e** signifie _et_ pour les noms et les pronoms :
 
 > **do .e mi nintadni**
 > _Toi et moi sommes des débutants._
 
 **do nintadni .i je mi nintadni** signifie exactement la même chose que **do .e mi nintadni**
 
-Nous pouvons également utiliser **.e** pour relier des noms et des pronoms à d'autres positions.
-
-Ces deux phrases signifient la même chose.
+On peut également utiliser **.e** pour relier des noms et des pronoms à d'autres endroits de la phrase. Ainsi les deux phrases suivantes ont le même sens :
 
 > **mi pinxe le djacu .e le jisra**
 > _Je bois de l'eau et du jus._
@@ -1131,18 +1129,20 @@ le jisra
 
 <pixra url="/assets/pixra/cilre/pinxe_le_jisra.svg" caption="le prenu cu pinxe le jisra" definition="La personne boit du jus."></pixra>
 
-Si la tête de la phrase est la même mais que les fins diffèrent, nous utilisons la conjonction **gi'e**, qui signifie _et_ pour les fins de phrases :
+Si la tête de la phrase est la même mais que les fins diffèrent, c'est la conjonction **gi'e** (_et_) qui est utilisée pour les fins de phrases :
 
 > **mi tadni .i je mi tavla do**
 > **mi tadni gi'e tavla do**
 > _J'étudie et je te parle._
 
-Les deux variations signifient la même chose ; **gi'e** conduit simplement à une réalisation plus concise.
+Les deux variantes signifient la même chose ; **gi'e** permet simplement une écriture plus concise.
 
-Nous avons également des outils pour ajouter _et_ pour les composants des verbes composés :
+Il y a aussi la possibilité d'ajouter _et_ au sein des verbes composés :
 
+<!-- L10N: Added second translation, specific to FRA -->
 > **le melbi je cmalu zdani cu jibni ti**
 > _La belle et petite maison est proche._
+> _La jolie petite maison est proche._
 
 <pixra url="/assets/pixra/cilre/melbi_je_cmalu_zdani.svg" caption="melbi je cmalu zdani" definition="… être une maison jolie-et-petite"></pixra>
 
@@ -1154,16 +1154,21 @@ ti
 
 **je** est une conjonction en lojban qui signifie _et_ dans les verbes composés.
 
-Sans **je**, la phrase change de sens :
+Attention ! Sans **je**, la phrase change de sens :
 
+<!-- L10N: Added second translation, specific to FRA -->
 > **le melbi cmalu zdani cu jibni**
-> _La maison jolie petite est proche._
+> _La maison joliment petite est proche._
+> _La mignonette maison est proche._
 
-Ici, **melbi** modifie **cmalu**, et **melbi cmalu** modifie **zdani**, selon le fonctionnement des verbes composés.
+Ici, **melbi** modifie **cmalu**, et **melbi cmalu** modifie **zdani**. C'est le fonctionnement des verbes composés.
 
 Dans **le melbi je cmalu zdani** (_la belle et petite maison_), **melbi** et **cmalu** modifient directement **zdani**.
 
-D'autres conjonctions courantes incluent :
+<!-- L10N: Added precision about translations being close -->
+Les deux traductions françaises sont assez proches. Mais dans la dernière sans **je**, _joliement petite_ se traduirait plutôt par un mot proche, comme _mignonette_, en français courant.
+
+Voici quelques autres conjonctions courantes :
 
 > **le verba cu fengu ja bilma**
 > _L'enfant est en colère ou malade (ou peut-être les deux)_
@@ -1171,12 +1176,14 @@ D'autres conjonctions courantes incluent :
 <!-- -->
 
 > **do .a mi ba vitke le dzena**
-> _Toi ou moi (ou nous deux) visiterons l'ancêtre._
+> _Toi ou moi (ou nous deux) rendrons visite à l'ancêtre._
 
 ja
-: et/ou
+: ou inclusif (et/ou)
 
-**.a** = _et/ou_ lors de la connexion de noms et de pronoms.
+<!-- L10N: Changed format of definition below, to be similar to others around. -->
+.a
+: ou inclusif (et/ou) lors de la connexion de noms et de pronoms.
 
 
 fengu
@@ -1190,7 +1197,7 @@ bilma
 <pixra url="/assets/pixra/cilre/bilma.svg" caption="le prenu cu bilma" definition="La personne est malade"></pixra>
 
 vitke
-: visiter
+: visiter, rendre visite à
 
 dzena
 : … être un ancêtre de …
@@ -1203,66 +1210,69 @@ dzena
 <!-- -->
 
 > **do .o nai mi vitke le laldo**
-> _Soit tu, soit moi visitons le vieux._
+> _Soit toi soit moi rendons visite au vieux._
+> _Toi ou moi rendons visite au vieux (mais pas les deux)._
 
 jo nai
-: soit … soit … mais pas les deux
+: soit … soit … mais pas les deux (_ou_ exclusif)
 
 .o nai
-: soit … soit … mais pas les deux (lors de la connexion de noms et de pronoms)
+: soit … soit … mais pas les deux (_ou_ exclusif, lors de la connexion de noms et de pronoms)
 
 laldo
 : … être vieux
 
-Note: il est préférable de se souvenir de **jo nai** comme d'une seule construction, et de même pour **.o nai**.
+Note: il est plus simple de se souvenir de **jo nai** comme d'une seule expression plutôt que comme deux mots séparés. Idem pour **.o nai**.
 
 > **mi prami do .i ju do stati**
-> _Je t'aime. Que tu sois intelligent ou non._
+> _Je t'aime. Que tu sois doué(e) ou non._
 
 <!-- -->
 
 > **le verba cu nelci le plise .u le badna**
-> _L'enfant aime les pommes que (il/elle aime) ou non les bananes._
+> _L'enfant aime les pommes, qu'il aime les bananes ou non._
 
 ju
-: que ce soit ou non …
+: que ce soit ou non / quel que soit …
 
 .u
-: que ce soit ou non … (lors de la connexion de noms et de pronoms)
+: que ce soit ou non / quel que soit … (lors de la connexion de noms et de pronoms)
 
-### «**joi**» est « _et_ » pour les actions de masse
+### « **joi**» : le « _et_ de masse »
 
 > **do joi mi casnu le bangu**
 > _Toi et moi discutons de la langue._
 
 casnu
-: … discuter …
+: … discuter de …
 
 le bangu
-: la langue
+: la langue, le langage
 
 joi
-: conjonction _et_ pour les masses
+: _et_ (conjonction) pour les masses
 
-Si je dis **do .e mi casnu le bangu**, cela peut signifier que tu discutes de la langue et que je discute de la langue. Mais cela ne signifie pas nécessairement que nous sommes dans la même conversation !
+En disant **do .e mi casnu le bangu**, cela peut signifier que _tu_ discutes de la langue et que _je_ discute de la langue... mais pas nécessairement que nous sommes dans la même conversation !
 
-Cela peut être rendu plus visible si nous l'étendons en utilisant **.i je** :
+Il est plus facile de comprendre pourquoi lorsque l'on utilise l'équivalent avec **.i je** :
 
 > **do .e mi casnu le bangu**
 > **do casnu le bangu .i je mi casnu le bangu**
 > _Tu discutes de la langue. Et moi, je discute de la langue._
 
-Afin de souligner que toi et moi participons à la même action, nous utilisons une conjonction spéciale **joi** signifiant _et_ qui forme une "masse" :
+Si l'on souhaite exprimer que les deux participent à la même action, on utilise la conjonction **joi**. Elle signifie _et_, et forme ce qu'on appelle une "masse", c'est-à-dire un groupe interprété comme une entité unique :
 
 > **do joi mi casnu le bangu**
 > _Toi et moi discutons de la langue._
-> _Toi et moi étant une seule entité pour cet événement, nous discutons de la langue._
+> _Toi et moi, conjointement pour cet évènement, nous discutons de la langue._
 
-Le pronom **mi'o** (_toi et moi ensemble_) peut en fait être exprimé comme **mi joi do**, ce qui signifie exactement la même chose (c'est juste plus long). En lojban, vous pouvez utiliser non pas un seul mot pour _nous_, mais des constructions plus précises comme **mi joi le pendo** (littéralement _moi et les amis_).
+On peut ainsi créer des "masses" avec **joi** et n'importe quels éléments adéquats. Par exemple **mi joi le pendo** signifie littéralement _moi et l'ami_ ou _moi et les amis_. D'ailleurs, le pronom **mi'o** (_toi et moi, ensemble_) est l'équivalent de **mi joi do** (c'est juste plus long).
 
-<pixra url="/assets/pixra/cilre/casnu.svg" caption="do joi le pendo joi mi casnu" definition="Toi, l'ami et moi sommes en train de discuter."></pixra>
+<pixra url="/assets/pixra/cilre/casnu.svg" caption="do joi le pendo joi mi casnu" definition="Toi, l'ami, et moi sommes en train de discuter."></pixra>
 
 #### Exercice
+
+<!-- CONTINUER LA TRADUCTION CI-DESSOUS -->
 
 Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en français.
 
@@ -1677,7 +1687,7 @@ Nous pouvons utiliser les mêmes règles pour décrire le passé en utilisant **
 
 L'ordre relatif des particules liées au temps est important. Dans **ca co'i**, nous disons d'abord que quelque chose se produit dans le présent (**ca**), puis nous déclarons que, à ce moment présent, l'événement décrit a été achevé (**co'i**). Ce n'est qu'en utilisant cet ordre que nous obtenons le temps présent parfait.
 
-### Termes modaux. Intervalle : '_during_' — «**ze'a**»
+### Termes modaux. Intervalle : '_during_' — « **ze'a** »
 
 Une autre série de particules modales met l'accent sur le fait que les événements se produisent pendant un intervalle :
 
@@ -3060,7 +3070,7 @@ pe
 
 ge'u
 : marqueur de bordure droite pour **pe**, **ne**.
-### «**be**» et «**pe**»
+### « **be** » et « **pe** »
 
 Notez que les propositions relatives sont attachées aux noms, tandis que **be** fait partie du verbe.
 
@@ -3814,7 +3824,7 @@ La règle de lecture des termes de gauche à droite peut être remplacée en con
 > **mi cadzu ba le nu mi citka ce'e pu le nu mi sipna**
 > _Je marche après avoir mangé et avant de dormir._
 
-### Particules modales + «**da**» + noms commençant par des nombres
+### Particules modales + « **da** » + noms commençant par des nombres
 
 Comme avec les termes modaux, la position de **da** est importante :
 
@@ -4001,7 +4011,7 @@ Un simple **mu no** non préfixé par **li** serait utilisé pour désigner 50 o
 
 ## Leçon 3. Citations. Questions. Interjections
 
-### «**sei**» : commentaires sur le texte
+### « **sei** » : commentaires sur le texte
 
 La particule **sei** permet d'insérer un commentaire sur notre attitude à l'égard de ce qui est dit dans une relation :
 
@@ -4124,7 +4134,7 @@ retsku
 spusku
 : $x_1$ répond/dit la réponse $x_2$ (citation) à l'audience $x_3$
 
-### «**zo**» — citer un mot
+### « **zo** » — citer un mot
 
 **zo** est un marqueur de citation, similaire à **lu**. Cependant, **zo** ne cite qu'un seul mot immédiatement après lui. Cela signifie qu'il ne nécessite pas de mot de fin de citation comme **li'u**; nous savons déjà où se termine la citation. En faisant cela, nous économisons deux syllabes et rendons notre discours plus concis.
 
@@ -4520,7 +4530,7 @@ Ainsi, le lojban a plusieurs mots pour _que…_, selon ce qui est voulu.
 - Si _que_ décrit ce que vous dites, utilisez **se du'u**.
   - Mais si vous avez besoin d'une citation littérale, utilisez **lu…li'u**.
 
-### Interjections émotionnelles : ‘_Yay!_’ = «**ui**», ‘_Aye!_’ = «**ie**», ‘_Phew!_’ = «**.o'u**»
+### Interjections émotionnelles : ‘_Yay!_’ = « **ui** », ‘_Aye!_’ = « **ie** », ‘_Phew!_’ = « **.o'u** »
 
 Nous connaissons de telles interjections comme **ui** (_Yay!_), **.a'o** (_J'espère_).
 
@@ -4652,7 +4662,7 @@ le nenri
 .e'u
 : interjection : _Allons …_ (suggestion)
 
-### «**ko**» pour des incitations plus rapides
+### « **ko** » pour des incitations plus rapides
 
 > **do bajra**
 > _Tu cours._
@@ -5869,7 +5879,7 @@ carmi
 manku
 : $x_1$ est sombre
 
-### «**sipna**» — ‘_dormir_’, «**sanji**» — ‘_être conscient_’
+### « **sipna** » — ‘_dormir_’, « **sanji** » — ‘_être conscient_’
 
 Les exemples suivants illustrent certains aspects fondamentaux de l'esprit :
 
@@ -6393,7 +6403,7 @@ nurma
 
 zarci
 : $x_1$ est un magasin
-## Leçon 5. Termes modaux, «**da**», leur position relative
+## Leçon 5. Termes modaux, « **da** », leur position relative
 
 ### Comment les termes modaux se réfèrent-ils à la relation ?
 
@@ -6473,7 +6483,7 @@ $x_1$ de la relation décrit le plus grand dans cette comparaison, la relation e
 
 Le dictionnaire explique de tels cas délicats où la relation définie par le terme peut poser des difficultés. En pratique, la relation est souvent claire à partir des exemples fournis. -->
 
-### Utilisation de «**ne**» + terme. «**se mau**» — ‘_plus que …_’
+### Utilisation de « **ne**» + terme. « **se mau** » — ‘_plus que …_’
 
 **mi ne se mau do cu melbi**
 _Je suis plus joli que toi._
@@ -6697,7 +6707,7 @@ Quelques exemples :
 > **su'o pa le prenu cu prami do**
 > _Au moins une personne t'aime._
 
-### ‘_never_’ — «**no roi**», ‘_always_’ — «**ro roi**»
+### ‘_never_’ — « **no roi** », ‘_always_’ — « **ro roi** »
 
 Termes spécifiant le nombre de fois :
 
@@ -6726,7 +6736,7 @@ Sans **pu**, la construction **re roi** peut signifier que je suis allé au marc
 
 > **mi klama ti pa roi le jeftu**
 > _Je viens ici une fois par semaine._
-### ‘_for the first time_’ — «**pa re'u**», ‘_for the last time_’ — «**ro re'u**»
+### ‘_for the first time_’ — « **pa re'u** », ‘_for the last time_’ — « **ro re'u** »
 
 - **pa re'u** = _for the first time_
 - **re re'u** = _for the second time_
@@ -7276,7 +7286,7 @@ Cela ne signifie pas que les Romains n'attaquent pas Carthage ces jours-ci. En l
 > **ti ve'u gerku**
 > _C'est un gros chien. C'est un chien qui couvre une grande surface._
 
-### «**pu'o**» — ‘_être sur le point de_’, «**ba'o**» — ‘_ne plus_’, «**za'o**» — ‘_encore_’, «**xa'o**» — ‘_déjà_’
+### « **pu'o** » — ‘_être sur le point de_’, « **ba'o** » — ‘_ne plus_’, « **za'o** » — ‘_encore_’, « **xa'o** » — ‘_déjà_’
 
 Voici plusieurs ensembles de termes modaux qui peuvent nous aider à ajouter des nuances de sens lorsque cela est nécessaire.
 
@@ -7910,7 +7920,7 @@ Quelques exemples :
 cliva
 : $x_1$ part
 
-### «**ri**» au lieu de «_il_» et «_elle_»
+### « **ri** » au lieu de « _il_ » et « _elle_ »
 
 Plus tôt, nous avons appris le pronom **ri** :
 
@@ -7987,7 +7997,7 @@ En fin de compte, vous décidez quoi, où et quand utiliser dans la parole : la 
 
 <!-- ### "_Myself, themselves_" --> 
 
-### «**ri**» au lieu de «_il_» et «_elle_»
+### « **ri** » au lieu de « _il_ » et « _elle_ »
 
 Plus tôt, nous avons appris le pronom **ri** :
 
@@ -8143,7 +8153,7 @@ Cela signifie la même chose que :
 
 **zu'ai** est mis à la deuxième place du verbe. Il montre l'action mutuelle entre la première place et la deuxième place. Les membres de cette action mutuelle sont mis en premier et connectés avec la conjonction **jo'u**.
 
-### «**go'i**» pour la relation précédente
+### « **go'i** » pour la relation précédente
 
 > **la .alis. cu klama le barja .i la .alis. cu viska le nanmu**
 > **la .alis. cu klama le barja .i le go'i cu viska le nanmu**
@@ -8350,7 +8360,7 @@ masti
 djedi
 : $x_1$ (événement) a une durée de $x_2$ jours complets
 
-### Nouveaux verbes à partir d'une échelle : ‘_autre que_’ — «**na'e**», ‘_anti-_’ — «**to'e**»
+### Nouveaux verbes à partir d'une échelle : ‘_autre que_’ — « **na'e** », ‘_anti-_’ — « **to'e** »
 
 > **mi na'e nelci do**
 > _Je ne t'aime pas._
@@ -8631,7 +8641,7 @@ Les nombres cardinaux sont placés avant les nombres ordinaux dans une chaine et
 
 Sans **boi**, cela deviendrait **ci pa moi** — _trente et unième_. 
 
-### «**gau**» — les faire faire
+### « **gau** » — les faire faire
 
 Le terme **gau** marque l'agent d'un événement :
 
@@ -8703,7 +8713,7 @@ Quelques variations supplémentaires :
 > **la .alis. gau ko klama**
 > _Fais venir Alice !_
 
-### '_Pourquoi_ ?' — «**ri'a**», «**ni'i**», «**mu'i**», «**ki'u**»
+### '_Pourquoi_ ?' — « **ri'a** », « **ni'i** », « **mu'i** », « **ki'u** »
 
 > **- ri'a ma carvi**
 > _- Pourquoi pleut-il ?_
@@ -8844,7 +8854,7 @@ Nous pouvons remplacer **le** par **ro lo** dans de tels termes pour obtenir un 
 > **mi ba prami do ca ro lo nu do cizra**
 > _Je t'aimerai chaque fois que tu seras étrange._
 
-### «**fau**» et «**da'i**». ‘_Et si …_’
+### « **fau** » et « **da'i** ». ‘_Et si …_’
 
 > **da'i mi turni**
 > _Je pourrais être gouverneur._
@@ -9450,7 +9460,7 @@ le pipno
 > **.i ga nai pu zi carvi gi ca cilmo**
 > _S'il a plu récemment, il est mouillé maintenant._
 ## Leçon 10. Structuration du texte
-### «**ju'a**» et assertions
+### « **ju'a** » et assertions
 
 > **le prenu cu cizra .i ji'a je la .alis. cu jinvi le du'u go'i**
 > _La personne est étrange. Et Alice pense la même chose._
@@ -9481,7 +9491,7 @@ Voici un autre exemple :
 
 Dans le deuxième cas, le locuteur affirme _Tu danses_.
 
-### «**pe'a**» pour les métaphores, «**za'e**» pour les mots de circonstance, «**ba'e**» pour l'accentuation
+### « **pe'a** » pour les métaphores, « **za'e** » pour les mots de circonstance, « **ba'e** » pour l'accentuation
 > **La femme est une étoile, pour ainsi dire. En d'autres termes, elle est célèbre.**
 
 pe'a
@@ -9573,7 +9583,7 @@ Il est normal d'utiliser **.i** dans la parole pour séparer les phrases, mais v
 dirgo
 : $x_1$ est une goutte de matériau $x_2$ …
 
-### «**to**» … «**toi**» pour les remarques parenthétiques
+### « **to** » … « **toi** » pour les remarques parenthétiques
 
 Les commentaires placés entre parenthèses dans le texte anglais sont formés en utilisant le mot **to** au lieu de la parenthèse gauche et **toi** au lieu de la parenthèse droite:
 
@@ -9894,7 +9904,7 @@ et
 
 Il n'est pas nécessaire d'utiliser **bo** ou **ke** avec les conjonctions de prévoyance.
 
-### «**co**» pour changer l'ordre dans les verbes composés
+### « **co** » pour changer l'ordre dans les verbes composés
 
 Il existe une autre façon de restructurer les verbes composés.
 
@@ -9957,7 +9967,7 @@ Contrairement à :
 > **tu du le badna ui**
 > _C'est la banane (youpi c'est une banane et pas autre chose dans la nature !)_
 
-### «**co**» pour changer l'ordre dans les verbes composés
+### « **co** » pour changer l'ordre dans les verbes composés
 
 Il existe une autre façon de restructurer les verbes composés.
 
