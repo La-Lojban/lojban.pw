@@ -931,8 +931,8 @@ Podemos cambiar el significado colocando **xu** después de diferentes partes de
 
 <!-- -->
 
-> **do nelci le gerku xu**
-> _¿Te gustan los PERROS? (Pensé que te gustaban los gatos)._
+> **do nelci le xu gerku**
+> _¿Te gustan LOS PERROS? (Pensé que te gustaban los gatos)._
 
 Lo que se expresa mediante la entonación en inglés se expresa moviendo **xu** después de la parte que queremos enfatizar en Lojban. Ten en cuenta que la primera oración con **xu** al principio hace la pregunta más genérica sin enfatizar ningún aspecto en particular.
 
