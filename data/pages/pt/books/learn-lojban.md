@@ -825,7 +825,7 @@ Podemos mudar o significado colocando **xu** após diferentes partes da relaçã
 
 <!-- -->
 
-> **do nelci le gerku xu**
+> **do nelci le xu gerku**
 > _Você gosta dos CACHORROS? (Eu pensei que você gostasse de gatos)._
 
 O que é expresso usando entonação em inglês é expresso movendo **xu** após a parte que queremos enfatizar em Lojban. Observe que a primeira frase com **xu** no início faz a pergunta mais genérica sem enfatizar nenhum aspecto em particular.

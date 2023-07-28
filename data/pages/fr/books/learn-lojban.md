@@ -842,8 +842,8 @@ Il est possible de déplacer **xu** pour préciser la question. Le mot précéde
 
 <!-- -->
 
-> **do nelci le gerku xu**
-> _Est-ce que tu aimes les CHIENS ? (Je pensais que tu aimais les chats)._
+> **do nelci le xu gerku**
+> _Est-ce que tu aimes LES CHIENS ? (Je pensais que tu aimais les chats)._
 
 Ce qui est exprimé par l'intonation en français est explicité par le placement du mot **xu** en lojban, celui-ci étant placé après la partie à mettre en évidence. Notez que la phrase avec **xu** au début pose la question sans mettre d'accent sur un mot particulier.
 

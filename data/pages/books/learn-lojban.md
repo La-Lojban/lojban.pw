@@ -830,8 +830,8 @@ We can shift the meaning by placing **xu** after different parts of the relation
 
 <!-- -->
 
-> **do nelci le gerku xu**
-> _Do you like the DOGS? (I thought you liked cats)._
+> **do nelci le xu gerku**
+> _Do you like THE DOGS? (I thought you liked the cats)._
 
 What is expressed using intonation in English is expressed by moving **xu** after the part we want to emphasize in Lojban. Note that the first sentence with **xu** in the beginning asks the most generic question without stressing any particular aspect.
 
