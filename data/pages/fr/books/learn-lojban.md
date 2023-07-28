@@ -5,7 +5,7 @@ coverImage: /assets/pixra/cilre/tcidu_la_lojban.svg
 ---
 
 <!-- Author of trans-creation (translation, localisation, adaptation to culture): Sukender (Benoit NEIL) -->
-<!-- Source language: English -->
+<!-- Source language: English, + machine-based translation -->
 <!-- Target language: FR_fr - Français, France (orthographe moderne, dite "1990") -->
 <!-- Special additions or changes (compared to the source) are tagged with "L10N" in this source code: "L10N: <somme additional info>" -->
 
@@ -1272,8 +1272,6 @@ On peut ainsi créer des "masses" avec **joi** et n'importe quels éléments ad�
 
 #### Exercice
 
-<!-- CONTINUER LA TRADUCTION CI-DESSOUS -->
-
 Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en français.
 
 <table style="table-layout: fixed;">
@@ -1296,7 +1294,7 @@ Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de 
 <tr>
 <td><b>mi citka le najnimre .o nai le badna</b>
 </td>
-<td><i>Je mange soit les oranges, soit les bananes.</i>
+<td><i>Je mange soit l'orange, soit la banane.</i>
 </td></tr></tbody></table>
 
 Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de gauche en lojban.
@@ -1309,7 +1307,7 @@ Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de 
 <td><b>le pendo .e mi cu nelci le carvi</b>
 </td></tr>
 <tr>
-<td><i>Soit moi, soit toi va au marché.</i>
+<td><i>Soit moi, soit toi allons au marché.</i>
 </td>
 <td><b>mi .o nai do klama le zarci</b>
 </td></tr>
@@ -1324,9 +1322,9 @@ Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de 
 <td><b>le verba cu pinxe le djacu .a le jisra</b>
 </td></tr>
 <tr>
-<td><i>L'enfant et le petit discutent de la voiture.</i>
+<td><i>L'enfant et le petit discutent de la voiture (ensemble).</i>
 </td>
-<td><b>le verba joi le pa cmalu cu casnu le karce</b> (notez l'utilisation de <b>joi</b>. <i>le petit</i> est juste <b>le pa cmalu</b>).
+<td><b>le verba joi le pa cmalu cu casnu le karce</b> (notez l'utilisation de <b>joi</b>. <i>le petit</i> est traduit <b>le pa cmalu</b>).
 </td></tr></tbody></table>
 
 ### Mais …
@@ -1337,20 +1335,20 @@ Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de 
 ku'i
 : interjection : mais, cependant
 
-En fait, en anglais, _but_ est la même chose que _and_, et cela ajoute une saveur de contraste.
+En français, _mais_ est équivalent à un _et_ avec l'ajout d'une nuance.
 
-En lojban, nous utilisons simplement la conjonction **.i je** (ou **.e**, **gi'e**, **je**, selon ce que nous connectons) et ajoutons la saveur de contraste avec l'interjection **ku'i**. Cela nous donnera le contraste nécessaire. Comme d'habitude, l'interjection modifie la construction avant elle.
+En lojban, on utilise la conjonction **.i je** (ou **.e**, **gi'e**, **je**, selon ce que l'on relie), et on ajoute la nuance avec l'interjection **ku'i**. Comme d'habitude, l'interjection modifie la construction placée avant.
 
-### Événements : « **le nu dansu .e le nu kansa** » — « _danser nu et être ensemble nu_ »
+### Évènements : « **le nu dansu .e le nu kansa** » — « _la danse et l'union_ »
 
-Toute relation peut être transformée en verbe en ajoutant **nu** devant :
+Toute relation ("phrase") peut être transformée en verbe en ajoutant **nu** devant :
 
 > **le nicte cu nu mi viska le lunra**
 > _La nuit est quand je vois la Lune._
-> `La nuit est un événement où je vois la Lune.`
+> `La nuit est un évènement où je vois la Lune.`
 
 nicte
-: (quelque événement) est la nuit
+: être la nuit, être une nuit
 
 <pixra url="/assets/pixra/cilre/nicte_fi_mi.svg" caption="le nicte" definition="la nuit"></pixra>
 
@@ -1363,11 +1361,11 @@ viska
 le lunra
 : la Lune
 
-Ici, **le nicte** est un nom dans la phrase et **nu mi viska le lunra** est la relation principale de la phrase. Cependant, dans cette relation principale, nous pouvons voir une autre relation : **mi viska le lunra** intégrée !
+Ici, **le nicte** est un nom dans la phrase, et **nu mi viska le lunra** est la relation principale de la phrase. Et dans cette relation principale, on voit autre relation imbriquée : **mi viska le lunra**.
 
-Le mot **nu** transforme une phrase en verbe qui désigne un événement ou un processus.
+Le mot **nu** transforme une phrase en verbe qui désigne un évènement ou un processus.
 
-En ajoutant **le** devant **nu**, nous créons un nom qui désigne un événement :
+En ajoutant **le** devant **nu**, cela créée un nom qui désigne l'évènement :
 
 pinxe ⇒ le nu pinxe
 : boire ⇒ la boisson
@@ -1376,53 +1374,55 @@ dansu ⇒ le nu dansu
 : danser ⇒ la danse
 
 kansa ⇒ le nu kansa
-: … être ensemble avec … ⇒ être ensemble
+: … être avec (ensemble) … ⇒ l'union, le rassemblement (le fait d'être ensemble)
 
 klama ⇒ le nu klama
-: venir à … ⇒ la venue
+: aller ⇒ la venue
 
 le nu do klama
-: la venue de toi, ta venue
+: ta venue ("la venue de toi", l'évènement "tu vas")
 
-**le nu** correspond souvent à _\-ing_, _\-tion_, _\-sion_ en anglais.
+<!-- L10N: Added detail for French language -->
+**le nu** est souvent équivalent au substantif (nom) correspondant au verbe, en français. Ceux-ci sont souvent avec des terminaisons (-age, -ance / -ence, -ment, -tion, etc.). Sauf que contrairement au lojban, il faut les connaitre par cœur (nettoyer ⇒ nettoyage, exister ⇒ existence, refuser ⇒ refus, entrer ⇒ entrée...) !
 
-Certains verbes nécessitent l'utilisation d'événements au lieu de noms ordinaires. Par exemple :
+Certains cas nécessitent l'utilisation de subordonnées relatives au lieu de noms communs. Par exemple :
 
 > **mi djica le nu do klama ti**
 > _Je veux que tu viennes ici (à cet endroit)_
 
 djica
-: vouloir (quelque événement)
+: vouloir (un évènement)
 
 > **mi gleki le nu do klama**
-> _Je suis heureux parce que tu viens._
+> _Je suis heureux que tu viennes._
 
 gleki
-: … être heureux (de quelque événement)
+: … être heureux (d'un évènement)
 
-<pixra url="/assets/pixra/cilre/gleki.svg" caption="gleki" definition="… être heureux à propos de l'événement …"></pixra>
+<pixra url="/assets/pixra/cilre/gleki.svg" caption="gleki" definition="… être heureux de l'évènement …"></pixra>
 
-Certains noms décrivent des événements par eux-mêmes, donc aucun **le nu** n'est utilisé :
+Certains noms décrivent des évènements par eux-mêmes. Dans ce cas, **le nu** est bien sûr inutile :
 
 > **le cabna cu nicte**
 > _Maintenant, c'est la nuit. À présent, c'est la nuit._
 
 le cabna
-: le temps présent, l'événement présent.
+: le temps présent, l'évènement présent.
 
-Les noms faits avec **le nu** peuvent être utilisés pour les verbes qui décrivent des événements par eux-mêmes :
+Les noms construits avec **le nu** peuvent être utilisés pour les emplacements de verbes (x1, x2...) qui nécessitent un évènement :
 
 > **le nu pinxe le jisra cu nabmi mi**
 > _Boire le jus est un problème pour moi._
 
 nabmi
-: (événement) est un problème (pour quelqu'un), (événement) est problématique (pour quelqu'un)
+: (évènement) est un problème (pour quelqu'un), (évènement) est problématique (pour quelqu'un)
 
-Tous les mots lojban sont divisés en deux groupes :
+Les mots lojban sont divisés en deux groupes :
 
-- particules (appelées **le cmavo** en lojban). Exemples : **le**, **nu**, **mi**
+- particules (appelées **le cmavo** en lojban). Exemples : **le**, **nu**, **mi**.
 - verbes (appelés **le selbrivla** en lojban). Exemples : **gleki**, **klama**.
-  Il est assez courant d'écrire plusieurs particules l'une après l'autre sans espaces entre elles. Cela est autorisé par la grammaire lojban. Ne soyez donc pas surpris de voir **lenu** au lieu de **le nu**, **naku** au lieu de **na ku**, **jonai** au lieu de **jo nai**, etc. Cela ne change pas le sens. Cependant, cela ne s'applique pas aux verbes : ils doivent être séparés par des espaces.
+
+Note : Il est courant de fusionner les particules consécutives, sans espaces entre elles. C'est autorisé par la grammaire lojban. Ne soyez donc pas surpris de voir **lenu** au lieu de **le nu**, **naku** au lieu de **na ku**, **jonai** au lieu de **jo nai**, et ainsi de suite. Cela ne change absolument rien à la phrase. Attention : cela ne s'applique pas aux verbes ; ils doivent être séparés par des espaces.
 
 #### Exercice
 
@@ -1439,12 +1439,12 @@ le skami
 <tbody><tr>
 <td><b>mi nelci le nu do dansu</b>
 </td>
-<td><i>J'aime te voir danser.</i>
+<td><i>J'aime quand tu danses. J'aime te voir danser.</i>
 </td></tr>
 <tr>
 <td><b>xu do gleki le nu do pilno le skami</b>
 </td>
-<td><i>Es-tu heureux d'utiliser des ordinateurs ?</i>
+<td><i>Es-tu content d'utiliser l'ordinateur ?</i>
 </td></tr>
 <tr>
 <td><b>do djica le nu mi citka le plise xu</b>
@@ -1467,9 +1467,11 @@ Cachez la partie droite du tableau et entrainez-vous à traduire les phrases de 
 <td><b>mi djica le nu do gleki</b>
 </td></tr></tbody></table>
 
+<!-- CONTINUER LA TRADUCTION CI-DESSOUS -->
+
 ### Termes modaux. Temps simples : « _était_ », « _est_ », « _sera_ » — « **pu** », « **ca** », « **ba** »
 
-En lojban, nous exprimons le temps où quelque chose se produit (grammaticalement, en anglais, on l'appelle généralement _tense_) avec des termes modaux. Nous avons déjà vu le terme modal **ca** qui signifie _actuellement_.
+En lojban, nous exprimons le temps où quelque chose se produit avec des termes modaux, alors qu'en français nous faisons de la conjugaison. Rappel : le terme modal **ca** signifie _actuellement_ (_maintenant_).
 
 Voici une série de termes liés au temps qui indiquent quand quelque chose se produit :
 
@@ -1500,9 +1502,9 @@ Les particules liées au temps sont regroupées en séries selon leur significat
 
 Mots pour les temps simples :
 
-- **pu** signifie _avant … (un événement)_, **pu** seul indique le passé.
-- **ca** signifie _en même temps que … (un événement)_, **ca** seul indique le présent.
-- **ba** signifie _après … (un événement)_, **ba** seul indique le futur.
+- **pu** signifie _avant … (un évènement)_, **pu** seul indique le passé.
+- **ca** signifie _en même temps que … (un évènement)_, **ca** seul indique le présent.
+- **ba** signifie _après … (un évènement)_, **ba** seul indique le futur.
 
 Les temps ajoutent des informations sur le moment où quelque chose se produit. L'anglais nous force à utiliser certains temps. On doit choisir entre
 
@@ -1521,14 +1523,14 @@ La phrase
 
 ne dit en fait rien sur le moment où cela se produit. Le contexte est suffisamment clair dans la plupart des cas et peut nous aider. Mais si nous avons besoin de plus de précision, nous ajoutons simplement plus de mots.
 
-De même, **ba** signifie _après … (un événement)_ donc lorsque nous disons **mi ba cu citka** nous voulons dire que nous mangeons après le moment où nous parlons, c'est pourquoi cela signifie _Je vais manger_.
+De même, **ba** signifie _après … (un évènement)_ donc lorsque nous disons **mi ba cu citka** nous voulons dire que nous mangeons après le moment où nous parlons, c'est pourquoi cela signifie _Je vais manger_.
 
 Nous pouvons combiner des particules de temps avec et sans arguments nominaux après eux :
 
 > **mi pu cu citka le plise ba le nu mi dansu**
 > _J'ai mangé les pommes après avoir dansé._
 
-Notez que le terme **pu** (temps passé) est placé uniquement dans la relation principale (**mi pu cu citka**). En lojban, on suppose que l'événement _j'ai dansé_ se produit par rapport à l'événement de manger.
+Notez que le terme **pu** (temps passé) est placé uniquement dans la relation principale (**mi pu cu citka**). En lojban, on suppose que l'évènement _j'ai dansé_ se produit par rapport à l'évènement de manger.
 
 Nous ne devrions pas mettre **pu** avec **dansu** (contrairement à l'anglais) car **mi dansu** est vu par rapport à **mi pu cu citka** donc nous savons déjà que tout était dans le passé.
 
@@ -1596,23 +1598,23 @@ pluka
 
 Bien que _parle_, _est_, etc. soient au présent (nous ne pouvons pas toujours nous débarrasser du temps dans les mots anglais car c'est ainsi que l'anglais fonctionne), nous devons toujours supposer que le temps n'est pas implicite dans la signification des mots lojban définis à moins que la définition anglaise de ces mots ne mentionne explicitement de telles restrictions de temps. 
 
-### Termes modaux. Contours d'événements : « **co'a** », « **ca'o** », « **co'i** »
+### Termes modaux. Contours d'évènements : « **co'a** », « **ca'o** », « **co'i** »
 
-Une autre série de particules liées au temps, les _contours d'événements_ :
+Une autre série de particules liées au temps, les _contours d'évènements_ :
 
 co'a
-: particule de temps : l'événement commence
+: particule de temps : l'évènement commence
 
 ca'o
-: particule de temps : l'événement est en cours
+: particule de temps : l'évènement est en cours
 
 mo'u
-: particule de temps : l'événement est terminé
+: particule de temps : l'évènement est terminé
 
 co'i
-: particule de temps : l'événement est considéré dans son ensemble (a commencé et s'est terminé)
+: particule de temps : l'évènement est considéré dans son ensemble (a commencé et s'est terminé)
 
-La plupart des verbes décrivent des événements sans préciser l'étape de ces événements. Les contours d'événements nous permettent d'être plus précis :
+La plupart des verbes décrivent des évènements sans préciser l'étape de ces évènements. Les contours d'évènements nous permettent d'être plus précis :
 
 > **mi pu co'a сu cikna**
 > **mi pu co'a cikna**
@@ -1650,7 +1652,7 @@ sipna
 > **mi ba ca'o pinxe**
 > _Je boirai._
 
-**mo'u** est utilisé pour décrire l'achèvement des événements :
+**mo'u** est utilisé pour décrire l'achèvement des évènements :
 
 > **mi mo'u klama le tcana**
 > _Je suis arrivé à la gare._
@@ -1667,13 +1669,13 @@ le tcana
 
 Nous pourrions omettre **ca** dans ces phrases car le contexte serait suffisamment clair dans la plupart des cas.
 
-Le temps présent simple anglais décrit des événements qui se produisent parfois :
+Le temps présent simple anglais décrit des évènements qui se produisent parfois :
 
 > **le prenu ca ta'e tavla**
 > _Les gens (habituellement, parfois) parlent._
 
 ta'e
-: temps simple : l'événement se produit habituellement
+: temps simple : l'évènement se produit habituellement
 
 Nous pouvons utiliser les mêmes règles pour décrire le passé en utilisant **pu** au lieu de **ca** ou le futur en utilisant **ba** :
 
@@ -1685,11 +1687,11 @@ Nous pouvons utiliser les mêmes règles pour décrire le passé en utilisant **
 > **le prenu ba co'i tavla mi**
 > _Les gens me parleront._
 
-L'ordre relatif des particules liées au temps est important. Dans **ca co'i**, nous disons d'abord que quelque chose se produit dans le présent (**ca**), puis nous déclarons que, à ce moment présent, l'événement décrit a été achevé (**co'i**). Ce n'est qu'en utilisant cet ordre que nous obtenons le temps présent parfait.
+L'ordre relatif des particules liées au temps est important. Dans **ca co'i**, nous disons d'abord que quelque chose se produit dans le présent (**ca**), puis nous déclarons que, à ce moment présent, l'évènement décrit a été achevé (**co'i**). Ce n'est qu'en utilisant cet ordre que nous obtenons le temps présent parfait.
 
-### Termes modaux. Intervalle : '_during_' — « **ze'a** »
+### Termes modaux. Intervalle : '_pendant_' — « **ze'a** »
 
-Une autre série de particules modales met l'accent sur le fait que les événements se produisent pendant un intervalle :
+Une autre série de particules modales met l'accent sur le fait que les évènements se produisent pendant un intervalle :
 
 ze'i
 : pendant une courte période
@@ -1726,7 +1728,7 @@ le nicte
 
 Lorsque nous utilisons **ze'a**, nous parlons de l'ensemble de l'intervalle que nous décrivons.
 
-Notez que **nicte** est en soi un événement, nous n'avons donc pas besoin de **nu** ici.
+Notez que **nicte** est en soi un évènement, nous n'avons donc pas besoin de **nu** ici.
 
 ### Termes modaux. « _parce que_ » - « **ri'a** », « _vers_ » - « **fa'a** », « _à (endroit)_ » - « **bu'u** »
 
@@ -1741,7 +1743,7 @@ Particule modale pour « parce que » :
 > _Je mange parce que j'ai faim._
 
 ri'a
-: parce que … (d'un événement)
+: parce que … (d'un évènement)
 
 <pixra url="/assets/pixra/cilre/taske.svg" caption="taske" definition="… a soif"></pixra>
 
@@ -1831,7 +1833,7 @@ Particule modale pour « parce que » :
 > _Je mange parce que j'ai faim._
 
 ri'a
-: parce que … (d'un événement)
+: parce que … (d'un évènement)
 
 <pixra url="/assets/pixra/cilre/taske.svg" caption="taske" definition="… a soif"></pixra>
 
@@ -2707,9 +2709,9 @@ Un autre exemple:
 Le dictionnaire mentionne souvent d'autres types d'emplacements, par exemple:
 
 djica
-: $x_1$ veut $x_2$ (événement)
+: $x_1$ veut $x_2$ (évènement)
 
-Cet _événement_ signifie que vous devez remplir l'endroit avec un nom qui représente un événement. Par exemple:
+Cet _évènement_ signifie que vous devez remplir l'endroit avec un nom qui représente un évènement. Par exemple:
 
 le nicte
 : la nuit
@@ -2720,7 +2722,7 @@ le nu mi dansu
 Nous obtenons donc:
 
 > **mi djica le nicte**
-> _Je veux l'événement de la nuit._
+> _Je veux l'évènement de la nuit._
 
 <!-- -->
 
@@ -2732,7 +2734,7 @@ En lojban, il n'est pas autorisé de dire, par exemple:
 > **mi djica le plise**
 > _Je veux la pomme._ <div class="naldra"></div> 
 
-parce que vous voulez faire quelque chose avec la pomme ou vous voulez qu'un événement se produise avec la pomme, comme:
+parce que vous voulez faire quelque chose avec la pomme ou vous voulez qu'un évènement se produise avec la pomme, comme:
 
 > **mi djica le nu mi citka le plise**
 > _Je veux manger la pomme._
@@ -2768,13 +2770,13 @@ titla
 
 <pixra url="/assets/pixra/cilre/djica_tuha_le_titla.svg" caption="le prenu cu djica tu'a le titla" definition="La personne veut le bonbon."></pixra>
 
-La structure de lieu peut mettre trop de charge sur la spécification des actions ou des événements. Parfois, nous voulons spécifier seulement un objet dans ces événements ou lieux et sauter la description de l'action ou de l'événement entièrement.
+La structure de lieu peut mettre trop de charge sur la spécification des actions ou des évènements. Parfois, nous voulons spécifier seulement un objet dans ces évènements ou lieux et sauter la description de l'action ou de l'évènement entièrement.
 
 Dans les exemples ci-dessus, _Je suggère le pub._ implique très probablement d'aller au pub et _Je veux la pomme._ implique de la manger.
 
-Cependant, le verbe lojban **stidi** nécessite une propriété dans son lieu $x_2$. De même, **djica** nécessite un événement dans son lieu $x_2$.
+Cependant, le verbe lojban **stidi** nécessite une propriété dans son lieu $x_2$. De même, **djica** nécessite un évènement dans son lieu $x_2$.
 
-Le court mot qualificatif appelé **tu'a** avant un terme implique une abstraction (propriété, événement ou proposition) mais ne sélectionne que ce terme de cette abstraction en sautant le reste. Il peut être vaguement traduit par _quelque chose à propos de_ :
+Le court mot qualificatif appelé **tu'a** avant un terme implique une abstraction (propriété, évènement ou proposition) mais ne sélectionne que ce terme de cette abstraction en sautant le reste. Il peut être vaguement traduit par _quelque chose à propos de_ :
 
 > **mi stidi tu'a le barja**
 > _Je suggère quelque chose à propos du pub (peut-être le visiter, se rencontrer près de lui, etc.)._
@@ -2841,7 +2843,7 @@ Nous ne pouvons pas omettre **be** car **le pendo do** sont deux endroits indép
 
 Ici, **do** a pris la troisième place de **klama** car il n'est pas lié à _pendo_ via **be**.
 
-Nous ne pouvons pas non plus utiliser **nu** car **le nu pendo do** est l'événement de quelqu'un qui est ton ami.
+Nous ne pouvons pas non plus utiliser **nu** car **le nu pendo do** est l'évènement de quelqu'un qui est ton ami.
 
 Ainsi, **le pendo be do** est la solution correcte.
 
@@ -2880,7 +2882,7 @@ Quant à _qui est accessoirement mon ami_ de la deuxième phrase, cela fournit s
 > **le prenu (poi pendo mi) cu tavla mi**
 > _La personne qui est mon ami me parle._
 
-En lojban, nous utilisons **poi** pour les propositions relatives qui identifient des entités (objets, personnes ou événements) et **noi** pour les informations accessoires.
+En lojban, nous utilisons **poi** pour les propositions relatives qui identifient des entités (objets, personnes ou évènements) et **noi** pour les informations accessoires.
 
 > **la .bob. ba co'a speni le ninmu poi pu xabju le nurma**
 > _Bob va épouser une fille qui vivait à la campagne._
@@ -3138,7 +3140,7 @@ me
 > _Alice enseigne habituellement._
 
 ta'e
-: particule modale : l'événement se produit habituellement
+: particule modale : l'évènement se produit habituellement
 
 > **la .alis. cu du le ctuca**
 > _Alice est l'enseignante._
@@ -3193,7 +3195,7 @@ Nous pouvons placer une particule modale non seulement avant la construction de 
 tcidu
 : lire (du texte)
 
-Lorsque nous utilisons **nu**, nous créons une relation décrivant un événement. Remarquez la différence entre ces deux exemples :
+Lorsque nous utilisons **nu**, nous créons une relation décrivant un évènement. Remarquez la différence entre ces deux exemples :
 
 > **le nu tcidu ca cu nandu**
 > _La lecture actuelle est compliquée, difficile._
@@ -3214,7 +3216,7 @@ Autres exemples :
 > **le nu mi klama le pa cmana pu cu pluka**
 > _Le fait que je suis allé à la montagne est agréable._
 
-Lorsque nous n'utilisons pas **nu**, nous n'avons pas de relations d'événements. Les noms commencent par **le** et se terminent par leur verbe (qu'il s'agisse d'un verbe simple ou composé, avec une construction **be** ou non). Ainsi, nous pouvons placer des particules de terme avant un verbe dans un nom uniquement avant ce verbe :
+Lorsque nous n'utilisons pas **nu**, nous n'avons pas de relations d'évènements. Les noms commencent par **le** et se terminent par leur verbe (qu'il s'agisse d'un verbe simple ou composé, avec une construction **be** ou non). Ainsi, nous pouvons placer des particules de terme avant un verbe dans un nom uniquement avant ce verbe :
 
 <pixra url="/assets/pixra/cilre/coha_purdi.svg" caption="le pu kunti tumla ca purdi" definition="Ce qui était un désert est maintenant un jardin."></pixra>
 
@@ -3517,7 +3519,7 @@ tavla
 > **pa da poi ckape zo'u mi djica le nu da na ku fasnu**
 > _Il y a une chose dangereuse : je souhaite qu'elle ne se produise jamais._
 
-**da** n'implique aucun objet ou événement particulier, ce qui est souvent utile :
+**da** n'implique aucun objet ou évènement particulier, ce qui est souvent utile :
 
 > **xu do tavla su'o da poi na ku slabu do**
 > _Parlez-vous à quelqu'un qui ne vous est pas familier ? (aucune personne particulière n'est décrite en tête)._
@@ -3736,7 +3738,7 @@ L'ordre est également important avec les particules modales modifiant les const
 > _Je suis veuf._
 
 mo'u
-: terme : l'événement est terminé
+: terme : l'évènement est terminé
 
 Maintenant, comparons :
 
@@ -3752,7 +3754,7 @@ S'il y a plusieurs particules modales dans une phrase, la règle est que nous le
 
 Prenons **mi mo'u co'a speni**.
 
-**mo'u** signifie qu'un événement est terminé. Quel événement ? L'événement **co'a speni** — devenir marié. Ainsi, **mi mo'u co'a speni** signifie _J'ai fini le processus de devenir marié_, c'est-à-dire _Je suis nouvellement marié._
+**mo'u** signifie qu'un évènement est terminé. Quel évènement ? L'évènement **co'a speni** — devenir marié. Ainsi, **mi mo'u co'a speni** signifie _J'ai fini le processus de devenir marié_, c'est-à-dire _Je suis nouvellement marié._
 
 Dans de tels cas, nous disons que **co'a speni** est dans la « portée » de **mo'u**.
 
@@ -3789,9 +3791,9 @@ flowchart LR
     class brivla blabi;
 ```
 
-Dans **mi co'a mo'u speni**, l'ordre des événements est différent.
+Dans **mi co'a mo'u speni**, l'ordre des évènements est différent.
 
-D'abord, il est dit qu'un événement a commencé (**co'a**), puis il est déclaré qu'il s'agit d'un événement de fin de mariage. Ainsi, **mi co'a mo'u speni** signifie _Je deviens veuf/veuve_.
+D'abord, il est dit qu'un évènement a commencé (**co'a**), puis il est déclaré qu'il s'agit d'un évènement de fin de mariage. Ainsi, **mi co'a mo'u speni** signifie _Je deviens veuf/veuve_.
 
 On peut dire qu'ici **mo'u speni** est dans la "portée" de **co'a**.
 
@@ -3840,7 +3842,7 @@ ponse
 : $x_1$ possède $x_2$
 
 co'u
-: terme modal : l'événement s'arrête
+: terme modal : l'évènement s'arrête
 
 Cela peut sembler être un exemple difficile à comprendre. Ici, une personne a pu dire _Je possède quelque chose._ Mais ensuite, pour tout ce que la personne possédait, cette situation s'est terminée.
 
@@ -3863,7 +3865,7 @@ cizra
 Avez-vous remarqué la différence ?
 
 1. _Tout est étrange ici_ signifie que si quelque chose n'est pas étrange quelque part, il devient étrange à cet endroit.
-2. _Ici, tout est étrange_ décrit simplement les objets ou événements qui sont ici (et ils sont étranges). Nous ne savons rien des autres dans d'autres endroits.
+2. _Ici, tout est étrange_ décrit simplement les objets ou évènements qui sont ici (et ils sont étranges). Nous ne savons rien des autres dans d'autres endroits.
 
 <pixra url="/assets/pixra/cilre/viku_cizra.svg" caption="vi ku ro da cizra" definition="Ici, tout est étrange."></pixra>
 
@@ -3884,14 +3886,14 @@ Un autre exemple avec un nom commençant par un nombre :
 > **mi nelci le'e mlatu**
 > _J'aime les chats._
 
-Nous avons vu que **le** est principalement traduit en anglais par _the_. Cependant, dans certains cas, nous voulons peut-être décrire un objet ou un événement typique qui illustre le mieux un type d'objet ou d'événement dans notre contexte. Dans ce cas, nous remplaçons **le** par **le'e** :
+Nous avons vu que **le** est principalement traduit en anglais par _the_. Cependant, dans certains cas, nous voulons peut-être décrire un objet ou un évènement typique qui illustre le mieux un type d'objet ou d'évènement dans notre contexte. Dans ce cas, nous remplaçons **le** par **le'e** :
 
 > **mi nelci le'e badna .i mi na ku nelci le'e plise**
 > _J'aime les bananes. Je n'aime pas les pommes._
 
 Je n'ai peut-être pas de bananes ou de pommes sous la main. Je parle simplement de bananes et de pommes telles que je les comprends, les rappelle ou les définis.
 
-Pour faire un nom décrivant l'ensemble d'objets ou d'événements (à partir duquel nous dérivons un élément typique), nous utilisons le mot **le'i** :
+Pour faire un nom décrivant l'ensemble d'objets ou d'évènements (à partir duquel nous dérivons un élément typique), nous utilisons le mot **le'i** :
 
 > **le danlu pendo pe mi cu mupli le ka ca da co'a morsi kei le'i mabru**
 > _Mon animal de compagnie est un exemple que les mammifères meurent à un moment donné._
@@ -4007,7 +4009,7 @@ Lorsqu'une place d'une relation nécessite un nombre tel que mentionné dans le 
 > **li mu no**
 > _Nombre 50._
 
-Un simple **mu no** non préfixé par **li** serait utilisé pour désigner 50 objets ou événements.
+Un simple **mu no** non préfixé par **li** serait utilisé pour désigner 50 objets ou évènements.
 
 ## Leçon 3. Citations. Questions. Interjections
 
@@ -4171,7 +4173,7 @@ Voici quelques relations liées à la parole:
 > _J'ai dit à mon ami que mon jardin était prêt._
 
 skicu
-: $x_1$ raconte à $x_3$ à propos de $x_2$ (objet/événement/état) avec la description $x_4$ (propriété)
+: $x_1$ raconte à $x_3$ à propos de $x_2$ (objet/évènement/état) avec la description $x_4$ (propriété)
 
 bredi
 : … être prêt à …
@@ -4451,7 +4453,7 @@ jitfa
 Quand devez-vous utiliser **du'u** et quand devez-vous utiliser **nu** ? Vous pouvez consulter le dictionnaire:
 
 - L'étiquette _(du'u)_ ou _(proposition)_ marque les endroits où **du'u** est recommandé.
-- L'étiquette _(nu)_ ou _(événement)_ marque les endroits où **nu** est recommandé.
+- L'étiquette _(nu)_ ou _(évènement)_ marque les endroits où **nu** est recommandé.
 
 Si vous utilisez par erreur **nu** au lieu de **du'u**, vous serez quand même compris. Cependant, les locuteurs courants de lojban distinguent généralement ces particules.
 
@@ -4493,7 +4495,7 @@ Une relation comme _Alice a dit, "Michelle m'a dit 'Bonjour'"_ peut également �
 
 > **la .alis. pu cusku zo'e pe le nu la .micel. pu rinsa le ninmu**
 > _Alice a dit quelque chose à propos de Michelle qui la saluait avant._
-> `Alice a dit quelque chose à propos de l'événement où Michelle la saluait.`
+> `Alice a dit quelque chose à propos de l'évènement où Michelle la saluait.`
 
 Alternativement, vous pouvez le raccourcir :
 
@@ -5330,7 +5332,7 @@ Ils peuvent vous aider à vous habituer plus rapidement au lojban courant.
  > **mi troci le ka tavla fo la .lojban.**
  > _J'essaie de parler en lojban._
  >
-- <dl><dt>rinka le nu</dt><dd>(événement) conduit à …</dd></dl>
+- <dl><dt>rinka le nu</dt><dd>(évènement) conduit à …</dd></dl>
 
  > **le nu mi tadni la .lojban. cu rinka le nu mi jimpe fi do**
  > _Le fait que j'étudie le lojban me fait vous comprendre._
@@ -5411,7 +5413,7 @@ sei
 : commentaire commence
 
 pacna
-: espérer (pour un événement)
+: espérer (pour un évènement)
 
 > **mi jimpe**
 > _Je comprends._
@@ -5651,7 +5653,7 @@ De même que pour la vision, nous pouvons dire "entendre un son" et "entendre qu
 Nous pouvons également utiliser le vague **ganse** — _percevoir un stimulus_.
 
 ganse
-: $x_1$ perçoit le stimulus $x_2$ (objet, événement) par le moyen $x_3$
+: $x_1$ perçoit le stimulus $x_2$ (objet, évènement) par le moyen $x_3$
 
 ganse le glare
 : ressentir la chaleur
@@ -5912,10 +5914,10 @@ cikna
 : $x_1$ est éveillé
 
 ganse
-: l'observateur $x_1$ perçoit, remarque un stimulus (événement) par l'intermédiaire de $x_3$
+: l'observateur $x_1$ perçoit, remarque un stimulus (évènement) par l'intermédiaire de $x_3$
 
 sanji
-: $x_1$ est conscient, conscient de $x_2$ (événement)
+: $x_1$ est conscient, conscient de $x_2$ (évènement)
 
 **ganse** n'implique aucun traitement mental ; il décrit simplement la perception, la reconnaissance, la détection d'un stimulus via des canaux sensoriels (spécifiés dans $x_3$).
 
@@ -5976,7 +5978,7 @@ la'a
 : interjection : probablement, c'est probable
 
 kanpe
-: $x_1$ s'attend à $x_2$ (un événement)
+: $x_1$ s'attend à $x_2$ (un évènement)
 
 > **mi terpa le nu le ninmu ba tarti lo xlali**
 > **.i ku'i le bruna cu cisma ca ro nu ri tavla le ninmu**
@@ -6004,7 +6006,7 @@ kucli
 > _Je ne m'attends pas à ça._
 
 kanpe
-: $x_1$ s'attend à ce que $x_2$ (un événement) se produise
+: $x_1$ s'attend à ce que $x_2$ (un évènement) se produise
 
 > **ko surla**
 > _Détends-toi !_
@@ -6240,7 +6242,7 @@ mensi
 Notez que **panzi** peut s'appliquer aux enfants adultes :
 
 verba
-: $x_1$ est un enfant, une personne immature de l'âge $x_2$ (événement)
+: $x_1$ est un enfant, une personne immature de l'âge $x_2$ (évènement)
 
 panzi
 : $x_1$ est un enfant, un descendant de $x_2$
@@ -6746,7 +6748,7 @@ Sans **pu**, la construction **re roi** peut signifier que je suis allé au marc
 - **za'u re'u** = _again_
 - **ro re'u** = _for the last time_
 
-La particule liée au temps **re'u** fonctionne comme **roi**, mais indique le nombre d'itérations pour lesquelles l'événement se produit.
+La particule liée au temps **re'u** fonctionne comme **roi**, mais indique le nombre d'itérations pour lesquelles l'évènement se produit.
 
 Comparer :
 
@@ -7021,7 +7023,7 @@ Traduction en **da** :
   > **le'e gerku cu se tuple le vo da**
   > _Tout chien a quatre pattes. Les chiens sont censés avoir quatre pattes._
 
-- Utilisation de **le** lors de la description d'objets, de lieux ou d'événements spécifiques :
+- Utilisation de **le** lors de la description d'objets, de lieux ou d'évènements spécifiques :
 
   > **le drata zo'u .e'u mi'o pilno ri**
   > _L'autre chose, utilisons-la._
@@ -7086,7 +7088,7 @@ Les temps en lojban traitent le temps et l'espace de la même manière. Dire que
 
 ### Points dans le temps et l'espace
 
-Une particule modale sans nom qui la suit décrit l'événement par rapport à _ici_ et _maintenant_ :
+Une particule modale sans nom qui la suit décrit l'évènement par rapport à _ici_ et _maintenant_ :
 
 > **mi pinxe ba**
 > **mi ba pinxe**
@@ -7098,24 +7100,24 @@ Une particule modale sans nom qui la suit décrit l'événement par rapport à _
 > **mi bu'u pinxe**
 > _Je bois à cet endroit._
 
-Un terme modal avec un nom qui le suit décrit l'événement par rapport à l'événement dans ce nom :
+Un terme modal avec un nom qui le suit décrit l'évènement par rapport à l'évènement dans ce nom :
 
 > **mi pinxe ba le nu mi cadzu**
 > _Je bois après avoir marché._
 
-### Événements relatifs à d'autres événements dans le temps
+### Évènements relatifs à d'autres évènements dans le temps
 
 En anglais, nous utilisons la soi-disant "séquence des temps":
 
 > **la .alis. pu cusku le se du'u ri pu penmi la .doris. la'u le djedi be li ci**
 > _Alice a dit qu'elle avait vu Doris trois jours auparavant._
 
-Ici, l'événement _avait vu Doris_ se produit avant l'événement _Alice a dit_. Cependant, dans
+Ici, l'évènement _avait vu Doris_ se produit avant l'évènement _Alice a dit_. Cependant, dans
 
 > **la .alis. pu cusku le se du'u ri ca kansa la .doris.**
 > _Alice a dit qu'elle était avec Doris._
 
-les deux événements (_a dit_ et _était avec Doris_) se produisent en même temps.
+les deux évènements (_a dit_ et _était avec Doris_) se produisent en même temps.
 
 Ainsi, en anglais:
 
@@ -7192,7 +7194,7 @@ Remarquez l'ordre des voyelles **i**, **a** et **u**. Cet ordre apparait souvent
 **zi**, **za** et **zu** modifient la particule de temps comme **pu** et **ba** qui est dite avant :
 
 - **pu zu** est _il y a longtemps_. **pu** montre que nous commençons dans le passé, et **zu** indique que c'est il y a longtemps.
-- **zu pu** est _loin dans le temps ; il y a un point après un événement_. **zu** montre que nous commençons à un certain point loin dans le temps à partir de maintenant, et **pu** indique que nous nous déplaçons en arrière à partir de ce point.
+- **zu pu** est _loin dans le temps ; il y a un point après un évènement_. **zu** montre que nous commençons à un certain point loin dans le temps à partir de maintenant, et **pu** indique que nous nous déplaçons en arrière à partir de ce point.
 
 Ainsi, **pu zu** est toujours dans le passé, tandis que **zu pu** pourrait être dans le futur.
 
@@ -7290,13 +7292,13 @@ Cela ne signifie pas que les Romains n'attaquent pas Carthage ces jours-ci. En l
 
 Voici plusieurs ensembles de termes modaux qui peuvent nous aider à ajouter des nuances de sens lorsque cela est nécessaire.
 
-Avec les _contours d'événements_, contrairement à **pu**, **ca**, et **ba**, nous considérons chaque événement comme ayant une forme avec certaines étapes :
+Avec les _contours d'évènements_, contrairement à **pu**, **ca**, et **ba**, nous considérons chaque évènement comme ayant une forme avec certaines étapes :
 
 pu'o
-: terme modal : être sur le point de faire quelque chose (l'événement n'a pas encore eu lieu)
+: terme modal : être sur le point de faire quelque chose (l'évènement n'a pas encore eu lieu)
 
 ba'o
-: terme modal : ne plus faire quelque chose, avoir fait quelque chose (l'événement est terminé)
+: terme modal : ne plus faire quelque chose, avoir fait quelque chose (l'évènement est terminé)
 
 Exemples :
 
@@ -7309,7 +7311,7 @@ mikce
 <!-- -->
 
 > **mi pu pu'o tavla le mikce**
-> _J'étais sur le point de parler au médecin (je ne parlais pas à ce moment-là, l'événement n'avait pas encore commencé à ce moment-là)._
+> _J'étais sur le point de parler au médecin (je ne parlais pas à ce moment-là, l'évènement n'avait pas encore commencé à ce moment-là)._
 
 <pixra url="/assets/pixra/cilre/puho_nenri.svg" caption="le prenu pu'o zvati le nenri" definition="La personne est sur le point d'être à l'intérieur."></pixra>
 
@@ -7336,10 +7338,10 @@ mikce
 > _J'espère bientôt avoir fait le travail._
 
 za'o
-: terme modal : encore. L'événement est en cours au-delà de sa fin naturelle
+: terme modal : encore. L'évènement est en cours au-delà de sa fin naturelle
 
 xa'o
-: terme modal non officiel : déjà, trop tôt. L'événement a déjà commencé et il est trop tôt
+: terme modal non officiel : déjà, trop tôt. L'évènement a déjà commencé et il est trop tôt
 
 Exemples :
 
@@ -7351,7 +7353,7 @@ Exemples :
 > **la .kevin. xa'o zvati vi**
 > _Kevin est déjà ici._
 
-### Étapes de l'événement
+### Étapes de l'évènement
 
 > **mi co'a tavla**
 > _J'ai commencé à parler._
@@ -7392,22 +7394,22 @@ vasxu
 <pixra url="/assets/pixra/cilre/diha_vasxu.svg" caption="mi di'a vasxu" definition="Je reprends ma respiration."></pixra>
 
 co'a
-: terme modal : l'événement commence (la frontière de l'événement)
+: terme modal : l'évènement commence (la frontière de l'évènement)
 
 ca'o
-: terme modal : être en train de faire quelque chose (l'événement est en cours)
+: terme modal : être en train de faire quelque chose (l'évènement est en cours)
 
 co'u
-: terme modal : l'événement s'arrête
+: terme modal : l'évènement s'arrête
 
 mo'u
-: terme modal : l'événement se termine (la frontière de l'événement)
+: terme modal : l'évènement se termine (la frontière de l'évènement)
 
 de'a
-: l'événement fait une pause (l'événement peut être attendu pour continuer)
+: l'évènement fait une pause (l'évènement peut être attendu pour continuer)
 
 di'a
-: l'événement reprend
+: l'évènement reprend
 
 > **mi de'a ze'i jundi**
 > _BRB (Je reviens tout de suite)._
@@ -7482,22 +7484,22 @@ gitGraph
     commit id: "za'o - lasts for too long"
 ```
 
-### Événements continus et progressifs
+### Évènements continus et progressifs
 
 ru'i
-: terme modal : l'événement est continu
+: terme modal : l'évènement est continu
 
 > **.i mi pu ru'i citka le plise**
 > _Je mangeais continuellement des pommes._
 
 Notez la différence :
 
-- **ru'i** indique que l'événement est continu et ne s'arrête jamais.
-- **ca'o** implique que l'événement progresse. Il peut parfois faire une pause puis reprendre sa progression.
+- **ru'i** indique que l'évènement est continu et ne s'arrête jamais.
+- **ca'o** implique que l'évènement progresse. Il peut parfois faire une pause puis reprendre sa progression.
 
 ### Contours de lieu
 
-Les contours d'événements peuvent être utilisés pour se référer à l'espace si nous les préfixons avec **fe'e** :
+Les contours d'évènements peuvent être utilisés pour se référer à l'espace si nous les préfixons avec **fe'e** :
 
 > **le rokci cu fe'e ro roi zvati**
 > _Les pierres sont partout._
@@ -8236,9 +8238,9 @@ Ici, **ja'a ku** remplace **na ku** dans la relation originale. -->
 > _Onze heures_
 
 tcika
-: $x_1$ (heures, minutes, secondes) est l'heure de l'événement $x_2$
+: $x_1$ (heures, minutes, secondes) est l'heure de l'évènement $x_2$
 
-En lojban, les heures sont toujours les heures de quelque chose. Nous demandons donc quelle heure il est de **ti**, ce qui signifie _cet événement/cette chose_, ou, en d'autres termes, _maintenant_.
+En lojban, les heures sont toujours les heures de quelque chose. Nous demandons donc quelle heure il est de **ti**, ce qui signifie _cet évènement/cette chose_, ou, en d'autres termes, _maintenant_.
 
 **li**, un préfixe pour les nombres, est également utilisé pour les horodatages.
 
@@ -8259,7 +8261,7 @@ En lojban, les heures sont toujours les heures de quelque chose. Nous demandons 
 > **li cacra bu pa no mentu bu mu no**
 > _10h50, dix heures cinquante_
 
-Si nous voulons donner l'heure d'un événement, plutôt que simplement dire l'heure, la deuxième place est remplie :
+Si nous voulons donner l'heure d'un évènement, plutôt que simplement dire l'heure, la deuxième place est remplie :
 
 > **li cacra bu pa no tcika le nu mi klama**
 > _Dix heures est l'heure à laquelle je viens._
@@ -8286,7 +8288,7 @@ Et un exemple utile :
 > _Nous sommes le 1er juillet._
 
 detri
-: $x_1$ (année, mois, jour) est la date/heure de l'événement $x_2$
+: $x_1$ (année, mois, jour) est la date/heure de l'évènement $x_2$
 
 Une autre option :
 
@@ -8358,7 +8360,7 @@ masti
 > _Il pleut depuis trois jours._
 
 djedi
-: $x_1$ (événement) a une durée de $x_2$ jours complets
+: $x_1$ (évènement) a une durée de $x_2$ jours complets
 
 ### Nouveaux verbes à partir d'une échelle : ‘_autre que_’ — « **na'e** », ‘_anti-_’ — « **to'e** »
 
@@ -8518,7 +8520,7 @@ nu'o
 
 Cette série de termes de potentiel décrit des situations possibles.
 
-Notez que **ka'e** signifie qu'un événement peut se produire, tandis que, par exemple,
+Notez que **ka'e** signifie qu'un évènement peut se produire, tandis que, par exemple,
 
 > **le'e cipni cu kakne le ka vofli**
 > _Les oiseaux sont capables de voler._
@@ -8643,7 +8645,7 @@ Sans **boi**, cela deviendrait **ci pa moi** — _trente et unième_.
 
 ### « **gau** » — les faire faire
 
-Le terme **gau** marque l'agent d'un événement :
+Le terme **gau** marque l'agent d'un évènement :
 
 > **le canko cu kalri**
 > _La fenêtre est ouverte._
@@ -8722,7 +8724,7 @@ Quelques variations supplémentaires :
 > _- Parce que les nuages pleurent._
 
 ri'a
-: terme modal : à cause de … (un événement)
+: terme modal : à cause de … (un évènement)
 
 ri'a ma
 : pourquoi ?
@@ -8730,7 +8732,7 @@ ri'a ma
 klaku
 : $x_1$ pleure
 
-Contrairement à **gau**, le terme **ri'a** n'attend pas un agent, mais un événement, comme _les nuages pleurent_ :
+Contrairement à **gau**, le terme **ri'a** n'attend pas un agent, mais un évènement, comme _les nuages pleurent_ :
 
 > **le dilnu cu klaku ri'a le nu le dargu cu cilmo**
 > _Le ciel pleure, ce qui rend la route mouillée._
@@ -8769,13 +8771,13 @@ Ici, nous ne pouvons pas utiliser **ri'a** car nous ne parlons pas d'un résulta
 **mu'i**
 : terme : parce que (de motif …)
 
-Dans cet exemple, ce que nous avons n'est pas deux événements qui sont physiquement connectés, comme les nuages et la pluie, mais trois événements :
+Dans cet exemple, ce que nous avons n'est pas deux évènements qui sont physiquement connectés, comme les nuages et la pluie, mais trois évènements :
 
 1. Kevin tire mes cheveux.
 2. Je décide, en conséquence, de frapper Kevin.
 3. Je frappe Kevin.
 
-L'anglais omet le deuxième événement et dit _Sally a frappé Joey parce qu'il lui a tiré les cheveux._ Cependant, cela est non seulement vague mais, certains diraient, psychologiquement dangereux. Les gens ne réagissent pas généralement aux stimuli automatiquement, mais en conséquence de la motivation, et confondre des réponses complexes avec une simple causalité physique peut nous faire croire que nous n'avons aucun contrôle sur nos émotions ou même nos actions. Ainsi, il est souvent utile de dire non seulement des réactions physiques (**ri'a**) mais d'insister sur des réponses qui ont un élément cognitif/émotionnel (**mu'i**).
+L'anglais omet le deuxième évènement et dit _Sally a frappé Joey parce qu'il lui a tiré les cheveux._ Cependant, cela est non seulement vague mais, certains diraient, psychologiquement dangereux. Les gens ne réagissent pas généralement aux stimuli automatiquement, mais en conséquence de la motivation, et confondre des réponses complexes avec une simple causalité physique peut nous faire croire que nous n'avons aucun contrôle sur nos émotions ou même nos actions. Ainsi, il est souvent utile de dire non seulement des réactions physiques (**ri'a**) mais d'insister sur des réponses qui ont un élément cognitif/émotionnel (**mu'i**).
 
 > **le ctuca pu plicru la .ben. le jemna ki'u le nu by. pu zabna gunka**
 > _Le professeur a donné la pierre précieuse à Ben en cadeau parce qu'il a bien travaillé._
@@ -8840,7 +8842,7 @@ fengu
 > _Si tu es étrange, alors je t'aimerai._
 
 fau
-: terme modal : avec l'événement de …, dans des circonstances …, simultanément avec …
+: terme modal : avec l'évènement de …, dans des circonstances …, simultanément avec …
 
 **fau** est très similaire à **ca** (_quand_) ou **bu'u** (_à (un endroit)_).
 
@@ -8864,8 +8866,8 @@ Nous pouvons remplacer **le** par **ro lo** dans de tels termes pour obtenir un 
 > **da'i nai mi turni**
 > _Je suis gouverneur._
 
-- L'interjection **da'i** marque la relation dans laquelle elle est mise comme décrivant un événement imaginaire.
-- L'interjection opposée **da'i nai** marque la relation comme décrivant un événement réel, réel.
+- L'interjection **da'i** marque la relation dans laquelle elle est mise comme décrivant un évènement imaginaire.
+- L'interjection opposée **da'i nai** marque la relation comme décrivant un évènement réel, réel.
 
 Les constructions avec **da'i** sont généralement traduites en anglais avec des verbes auxiliaires tels que _can/could, will/would, may/might, should_, et _must_. Les relations marquées avec **da'i** en anglais sont dites être à l'_imparfait du subjonctif_.
 
@@ -8877,7 +8879,7 @@ Les relations avec **da'i** peuvent inclure le terme avec **fau** :
 > _Je serais heureux si j'avais un million de dollars._
 
 fau
-: avec l'événement de …
+: avec l'évènement de …
 
 rupnusudu
 : $x_1$ coute $x_2$ (nombre) de dollars américains
@@ -8888,7 +8890,7 @@ pa ki'o ki'o
 > **mo da'i fau le nu mi cusku lu ie nai li'u**
 > _Et si je disais "non" ?_
 
-Ici, l'événement à l'intérieur de **fau** est également imaginé avec **mi gleki**. Et voici l'exemple inverse :
+Ici, l'évènement à l'intérieur de **fau** est également imaginé avec **mi gleki**. Et voici l'exemple inverse :
 
 > **da'i nai mi gleki fau le nu mi ponse le rupnusudu be li pa ki'o ki'o**
 > _Ayant un million de dollars, je suis heureux._
@@ -8904,7 +8906,7 @@ D'autres prépositions peuvent être utilisées si nécessaire :
 > _J'attendrais pendant que tu nages._
 
 denpa
-: $x_1$ attend $x_2$ (événement)…
+: $x_1$ attend $x_2$ (évènement)…
 
 ze'a
 : pendant un certain temps, pendant un moment, pendant …
@@ -8943,14 +8945,14 @@ Supposons que vous rentrez chez vous et entendez quelqu'un gratter. Vous pouvez 
 > **fau no da tu mlatu**
 > _Ce ne peut pas être le chat. Cela ne doit pas être le chat. Il est impossible que ce soit le chat._
 
-Remarquez que nous avons omis **da'i** pour des raisons de brièveté. Mais si nous voulons être explicitement clairs sur le fait que les événements sont imaginaires, **da'i** dans ces exemples doit être mis à l'intérieur de la relation **fau** :
+Remarquez que nous avons omis **da'i** pour des raisons de brièveté. Mais si nous voulons être explicitement clairs sur le fait que les évènements sont imaginaires, **da'i** dans ces exemples doit être mis à l'intérieur de la relation **fau** :
 
-1. **fau da'i da** indique que l'événement dans cette relation _est possible, peut/can arriver._
-2. **fau da'i ro da** - l'événement _arriverait nécessairement._
-3. **fau da'i so'e da** - l'événement _est probable, arrivera probablement, est susceptible de se produire._
-4. **fau da'i so'o da** - l'événement _est peu probable, pourrait/se pourrait._
-5. **fau da'i so'u da** - l'événement _n'est pas probable, n'arrive probablement pas._
-6. **fau da'i no da** - l'événement _n'est pas possible._
+1. **fau da'i da** indique que l'évènement dans cette relation _est possible, peut/can arriver._
+2. **fau da'i ro da** - l'évènement _arriverait nécessairement._
+3. **fau da'i so'e da** - l'évènement _est probable, arrivera probablement, est susceptible de se produire._
+4. **fau da'i so'o da** - l'évènement _est peu probable, pourrait/se pourrait._
+5. **fau da'i so'u da** - l'évènement _n'est pas probable, n'arrive probablement pas._
+6. **fau da'i no da** - l'évènement _n'est pas possible._
 
 La différence entre ces phrases réside dans le nombre de situations imaginaires que nous prenons en compte. Nous ne décrivons pas ces situations ; nous les marquons simplement comme **da** (_quelque chose_), laissant le contexte (ou nos auditeurs) décider de ce que sont ces situations.
 
@@ -8962,7 +8964,7 @@ Certains verbes ont **da'i** implicite dans certains de leurs arguments lorsque 
 > _J'espère que tu auras un sommeil agréable._
 
 pacna
-: $x_1$ espère $x_2$ (événement possible) avec une probabilité de $x_3$ (nombre, par défaut **li so'a** c'est-à-dire proche de 1)
+: $x_1$ espère $x_2$ (évènement possible) avec une probabilité de $x_3$ (nombre, par défaut **li so'a** c'est-à-dire proche de 1)
 
 > **mi kanpe le nu do klama**
 > _Je m'attends à ce que tu viennes._
@@ -8979,7 +8981,7 @@ pacna
 > _Je sais que si un rocher tombe sur mon pied, ça fera mal._
 
 kanpe
-: $x_1$ s'attend à $x_2$ (événement possible) avec une probabilité attendue de $x_3$ (un nombre de 0 à 1, la valeur par défaut est **li so'a**, c'est-à-dire proche de 1)
+: $x_1$ s'attend à $x_2$ (évènement possible) avec une probabilité attendue de $x_3$ (un nombre de 0 à 1, la valeur par défaut est **li so'a**, c'est-à-dire proche de 1)
 
 Contrairement à **pacna**, le verbe **kanpe** n'implique pas nécessairement l'espoir ou le souhait. Il peut décrire une attente impartiale, une évaluation subjective de la probabilité d'une situation.
 
@@ -8994,7 +8996,7 @@ Contrairement à **pacna**, le verbe **kanpe** n'implique pas nécessairement l'
 > _- Peut-être._
 
 cumki
-: $x_1$ (événement possible) est possible, $x_1$ peut, pourrait se produire, $x_1$ est un peut-être.
+: $x_1$ (évènement possible) est possible, $x_1$ peut, pourrait se produire, $x_1$ est un peut-être.
 
 > **- xu ba carvi**
 > **- lakne**
@@ -9002,7 +9004,7 @@ cumki
 > _- Probablement._
 
 lakne
-: $x_1$ (événement possible) est probable, probablement
+: $x_1$ (évènement possible) est probable, probablement
 
 > **mi djica le nu do jinga**
 > _Je veux que tu gagnes._
@@ -9013,7 +9015,7 @@ lakne
 > _Je préférerais visiter Paris. Je veux visiter Paris._
 
 djica
-: $x_1$ veut $x_2$ (événement possible)
+: $x_1$ veut $x_2$ (évènement possible)
 
 > **mi te mukti le ka klama la .paris.**
 > _Je vais visiter Paris. Je suis motivé pour visiter Paris._
@@ -9024,7 +9026,7 @@ djica
 > _Je visite Paris intentionnellement._
 
 te mukti
-: $x_1$ est motivé pour réaliser l'objectif $x_2$ (événement possible) par le motif $x_3$ (événement)
+: $x_1$ est motivé pour réaliser l'objectif $x_2$ (évènement possible) par le motif $x_3$ (évènement)
 
 > **mi kakne le ka limna**
 > _Je suis capable de nager._
@@ -9037,13 +9039,13 @@ te mukti
 kakne
 : $x_1$ peut, est capable de faire $x_2$ (propriété de $x_1$)
 
-$x_2$ décrit un événement possible.
+$x_2$ décrit un évènement possible.
 
 > **mi nitcu le nu mi sipna**
 > _J'ai besoin de dormir._
 
 nitcu
-: $x_1$ a besoin de $x_2$ (événement possible)
+: $x_1$ a besoin de $x_2$ (évènement possible)
 
 > **mi bilga le ka gunka**
 > _Je dois travailler. Je suis obligé de travailler._
@@ -9055,13 +9057,13 @@ bilga
 > _Je te permets de manger ça._
 
 curmi
-: $x_1$ permet/autorise $x_2$ (événement possible)
+: $x_1$ permet/autorise $x_2$ (évènement possible)
 
 > **mi tolcru le nu do nerkla**
 > _Je t'interdis d'entrer._
 
 tolcru
-: $x_1$ interdit/prohibe $x_2$ (événement possible)
+: $x_1$ interdit/prohibe $x_2$ (évènement possible)
 
 > **xu do stidi le ka sipna kei mi**
 > _Suggères-tu que je dorme ?_
@@ -9089,12 +9091,12 @@ senpi
 <!-- -->
 
 > **se xanri**
-> _$x_1$ imagine $x_2$ (événement possible)_
+> _$x_1$ imagine $x_2$ (évènement possible)_
 
 <!-- -->
 
 > **xanri**
-> _$x_1$ (événement possible) est imaginé par $x_2$_
+> _$x_1$ (évènement possible) est imaginé par $x_2$_
 
 ## Leçon 9. Conjonctions logiques
 
@@ -9215,7 +9217,7 @@ Ici, soit Roméo aime Juliette (mais Juliette ne l'aime pas), soit Juliette aime
 Cela signifie que si Juliette aime Roméo, il l'aime certainement, mais il peut l'aimer de toute façon (le seul résultat impossible est que Juliette aime Roméo mais qu'il ne l'aime pas).
 
 > **la .rome'os. cu prami la .djuliet. i jo la .djuliet. cu prami la .rome'os.**
-> _Soit Roméo aime Juliette et Juliette aime Roméo, soit aucun des deux événements ne se produit._
+> _Soit Roméo aime Juliette et Juliette aime Roméo, soit aucun des deux évènements ne se produit._
 
 Cela signifie que si Juliette aime Roméo, il l'aime, et si elle ne l'aime pas, il ne l'aime pas.
 
@@ -9260,7 +9262,7 @@ Ici, soit Roméo aime Juliette (mais Juliette ne l'aime pas), soit Juliette aime
 Cela signifie que si Juliette aime Roméo, il l'aime certainement, mais il peut l'aimer de toute façon (le seul résultat impossible est que Juliette aime Roméo mais qu'il ne l'aime pas).
 
 > **la .rome'os. cu prami la .djuliet. i jo la .djuliet. cu prami la .rome'os.**
-> _Soit Roméo aime Juliette et Juliette aime Roméo, soit aucun des deux événements ne se produit._
+> _Soit Roméo aime Juliette et Juliette aime Roméo, soit aucun des deux évènements ne se produit._
 
 Cela signifie que si Juliette aime Roméo, il l'aime, et si elle ne l'aime pas, il ne l'aime pas.
 
