@@ -135,8 +135,6 @@ Algunas personas usan vocales no lojban como la _i_ corta y la _u_ en inglés br
 
 ### La oración más simple
 
-Ahora, construyamos nuestras primeras oraciones en Lojban.
-
 La unidad básica en Lojban es la "oración". Aquí hay tres ejemplos simples:
 
 > **le prenu cu tavla mi**

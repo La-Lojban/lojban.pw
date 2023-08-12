@@ -136,8 +136,6 @@ Vogais não-Lojban, como o _i_ e o _u_ curtos em inglês britânico padrão _hit
 
 ### A frase mais simples
 
-Agora, vamos construir nossas primeiras frases em Lojban.
-
 A unidade básica em Lojban é a "frase". Aqui estão três exemplos simples:
 
 > **le prenu cu tavla mi**
