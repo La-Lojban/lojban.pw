@@ -2666,9 +2666,30 @@ A pequena palavra qualificadora chamada **tu'a** antes de um termo implica uma a
 <!-- -->
 
 > **mi djica tu'a le plise**
-> _Eu quero algo sobre a maçã (provavelmente, comê-la, talvez mastigá-la, lambê-la, jogá-la no seu amigo, etc.)_
+> _Eu desejo algo relacionado à maçã (talvez comer, mastigar, lamber, jogá-la em um amigo, etc.)_
 
-Ao pular abstrações, apenas o contexto nos diz o que foi pulado.
+> **tu'a le cakla cu pluka mi**
+> _O chocolate é agradável para mim (provavelmente devido ao seu sabor)._
+> `Algo sobre o chocolate me agrada`
+
+cakla:
+: x1 é algum chocolate
+
+Ao pular abstrações, somente o contexto nos diz o que foi omitido.
+
+Também é possível modificar a estrutura relacional principal:
+
+> **le cakla cu jai pluka mi**
+> **tu'a le cakla cu pluka mi**
+> _O chocolate é agradável para mim._
+
+Isso permite a criação de substantivos vagos com **jai**:
+
+> **le jai pluka cu zvati ti**
+> _A coisa prazerosa está aqui._
+
+Como **le pluka** (_o evento agradável_) é abstrato, é impossível especificar sua localização. No entanto, um participante na abstração pode ser colocado fisicamente em algum lugar.
+
 
 ### Lugares para substantivos
 

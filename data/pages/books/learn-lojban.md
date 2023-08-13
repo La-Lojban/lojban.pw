@@ -852,7 +852,7 @@ Interjections don't break compound verbs, they can be used within them:
 > **do nelci le barda xu gerku**
 > _Do you like the BIG dogs?_
 
-Now, how to reply to such 'yes/no' questions? You repeat the main relation:
+Now, how to reply to such 'yes/no' questions? You repeat the main relation construct:
 
 > **— xu le mlatu cu melbi**
 > **— melbi**
@@ -2675,9 +2675,29 @@ The short so called qualifier word **tu'a** before a term implies an abstraction
 <!-- -->
 
 > **mi djica tu'a le plise**
-> _I want something about the apple (probably, eating it, maybe chewing it, licking it, throwing it at your friend etc.)_
+> _I desire something related to the apple (perhaps eating, chewing, licking, throwing it at a friend, etc.)_
 
-When skipping abstractions only context tell us what was skipped.
+> **tu'a le cakla cu pluka mi**
+> _The chocolate is pleasing to me (likely due to its taste)._
+> `Something about the chocolate is pleasant to me`
+
+cakla:
+: x1 is some chocolate
+
+When skipping abstractions, only context tells us what was omitted.
+
+It is also possible to modify the main relational construct:
+
+> **le cakla cu jai pluka mi**
+> **tu'a le cakla cu pluka mi**
+> _The chocolate is pleasing to me._
+
+This allows for the creation of vague nouns with **jai**:
+
+> **le jai pluka cu zvati ti**
+> _The pleasurable thing is here._
+
+Since **le pluka** (_the pleasant event_) is abstract, it's impossible to specify its location. However, a participant in the abstraction can be physically placed somewhere.
 
 ### Places for nouns
 
@@ -6056,7 +6076,7 @@ cidni
 
 <!-- -->
 
-> **pluka fa le ka penmi do**
+> **pluka fa le nu penmi do**
 > **.i .e'o do klama le nenri be le dinju**
 > _Pleasure to meet you._
 > _Please, come into the house._

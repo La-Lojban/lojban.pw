@@ -2903,9 +2903,29 @@ La corta palabra calificadora llamada **tu'a** antes de un término implica una 
 <!-- -->
 
 > **mi djica tu'a le plise**
-> _Quiero algo sobre la manzana (probablemente comerla, tal vez masticarla, lamerla, lanzarla a tu amigo, etc.)_
+> _Deseo algo relacionado con la manzana (tal vez comer, masticar, lamer, lanzarla a un amigo, etc.)_
+
+> **tu'a le cakla cu pluka mi**
+> _El chocolate me agrada (probablemente debido a su sabor)._
+> `Algo en el chocolate me resulta agradable`
+
+cakla:
+: x1 es algún chocolate
 
 Cuando se omiten abstracciones, solo el contexto nos dice qué se omitió.
+
+También es posible modificar la estructura relacional principal:
+
+> **le cakla cu jai pluka mi**
+> **tu'a le cakla cu pluka mi**
+> _El chocolate me agrada._
+
+Esto permite la creación de sustantivos vagos con **jai**:
+
+> **le jai pluka cu zvati ti**
+> _La cosa placentera está aquí._
+
+Dado que **le pluka** (_el evento placentero_) es abstracto, es imposible especificar su ubicación. Sin embargo, un participante en la abstracción puede ubicarse físicamente en algún lugar.
 
 ### Lugares para sustantivos
 

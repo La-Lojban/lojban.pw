@@ -2784,9 +2784,29 @@ Le court mot qualificatif appelé **tu'a** avant un terme implique une abstracti
 <!-- -->
 
 > **mi djica tu'a le plise**
-> _Je veux quelque chose à propos de la pomme (probablement la manger, peut-être la mâcher, la lécher, la jeter à votre ami, etc.)_
+> _Je désire quelque chose en rapport avec la pomme (peut-être la manger, la mâcher, la lécher, la jeter à un ami, etc.)_
 
-Lorsque nous sautons des abstractions, seul le contexte nous indique ce qui a été sauté.
+> **tu'a le cakla cu pluka mi**
+> _Le chocolat me plaît (probablement en raison de son goût)._
+> `Quelque chose à propos du chocolat me plaît`
+
+cakla :
+: x1 est du chocolat
+
+Lors de l'omission d'abstractions, seul le contexte nous indique ce qui a été omis.
+
+Il est également possible de modifier la construction relationnelle principale :
+
+> **le cakla cu jai pluka mi**
+> **tu'a le cakla cu pluka mi**
+> _Le chocolat me plaît._
+
+Cela permet de créer des noms vagues avec **jai** :
+
+> **le jai pluka cu zvati ti**
+> _La chose agréable est ici._
+
+Étant donné que **le pluka** (_l'événement plaisant_) est abstrait, il est impossible de spécifier son emplacement. Cependant, un participant à l'abstraction peut être physiquement placé quelque part.
 
 ### Endroits pour les noms
 
