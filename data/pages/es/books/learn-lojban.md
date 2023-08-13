@@ -2909,7 +2909,7 @@ La corta palabra calificadora llamada **tu'a** antes de un término implica una 
 > _El chocolate me agrada (probablemente debido a su sabor)._
 > `Algo en el chocolate me resulta agradable`
 
-cakla:
+cakla
 : x1 es algún chocolate
 
 Cuando se omiten abstracciones, solo el contexto nos dice qué se omitió.

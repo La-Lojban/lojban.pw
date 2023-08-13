@@ -2681,7 +2681,7 @@ The short so called qualifier word **tu'a** before a term implies an abstraction
 > _The chocolate is pleasing to me (likely due to its taste)._
 > `Something about the chocolate is pleasant to me`
 
-cakla:
+cakla
 : x1 is some chocolate
 
 When skipping abstractions, only context tells us what was omitted.

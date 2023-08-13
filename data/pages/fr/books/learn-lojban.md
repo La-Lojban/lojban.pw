@@ -2790,7 +2790,7 @@ Le court mot qualificatif appelé **tu'a** avant un terme implique une abstracti
 > _Le chocolat me plaît (probablement en raison de son goût)._
 > `Quelque chose à propos du chocolat me plaît`
 
-cakla :
+cakla
 : x1 est du chocolat
 
 Lors de l'omission d'abstractions, seul le contexte nous indique ce qui a été omis.

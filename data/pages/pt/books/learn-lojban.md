@@ -2672,7 +2672,7 @@ A pequena palavra qualificadora chamada **tu'a** antes de um termo implica uma a
 > _O chocolate é agradável para mim (provavelmente devido ao seu sabor)._
 > `Algo sobre o chocolate me agrada`
 
-cakla:
+cakla
 : x1 é algum chocolate
 
 Ao pular abstrações, somente o contexto nos diz o que foi omitido.
