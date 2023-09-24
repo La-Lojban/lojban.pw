@@ -595,3 +595,7 @@ div.mermaid > svg foreignObject {
   height: 120%;
 }
 
+div.mermaid > svg foreignObject > div {
+  text-align: center;
+}
+

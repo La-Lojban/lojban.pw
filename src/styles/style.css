@@ -177,6 +177,51 @@
   color: #007bff;
 }
 
+.hide-column-checkbox-glico_co_drata {
+  display: none;
+}
+
+.hide-column-checkbox-glico_co_drata:checked
+  + .hide-column-button-glico_co_drata
+  ~ div
+  table
+  th.column-class-glico_co_drata,
+.hide-column-checkbox-glico_co_drata:checked
+  + .hide-column-button-glico_co_drata
+  ~ div
+  table
+  td.column-class-glico_co_drata {
+  display: none;
+}
+
+.hide-column-checkbox-glico_co_drata:checked
+  + .hide-column-button-glico_co_drata {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-sfe_ero {
+  display: none;
+}
+
+.hide-column-checkbox-sfe_ero:checked
+  + .hide-column-button-sfe_ero
+  ~ div
+  table
+  th.column-class-sfe_ero,
+.hide-column-checkbox-sfe_ero:checked
+  + .hide-column-button-sfe_ero
+  ~ div
+  table
+  td.column-class-sfe_ero {
+  display: none;
+}
+
+.hide-column-checkbox-sfe_ero:checked + .hide-column-button-sfe_ero {
+  background-color: #fff;
+  color: #007bff;
+}
+
 .hide-column-checkbox-spano {
   display: none;
 }
@@ -418,6 +463,28 @@
 }
 
 .hide-column-checkbox-cizra_lojbo:checked + .hide-column-button-cizra_lojbo {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-ἑλληνική {
+  display: none;
+}
+
+.hide-column-checkbox-ἑλληνική:checked
+  + .hide-column-button-ἑλληνική
+  ~ div
+  table
+  th.column-class-ἑλληνική,
+.hide-column-checkbox-ἑλληνική:checked
+  + .hide-column-button-ἑλληνική
+  ~ div
+  table
+  td.column-class-ἑλληνική {
+  display: none;
+}
+
+.hide-column-checkbox-ἑλληνική:checked + .hide-column-button-ἑλληνική {
   background-color: #fff;
   color: #007bff;
 }

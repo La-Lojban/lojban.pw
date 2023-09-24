@@ -164,20 +164,30 @@ do
 ca
 : now
 
+<pixra url="/assets/pixra/cilre/tavla.svg" caption="le prenu cu tavla mi" definition="The person talks to me."></pixra>
+
+<pixra url="/assets/pixra/cilre/mi.svg" caption="mi" definition="I / me"></pixra>
+
+<pixra url="/assets/pixra/cilre/mi_prami_do2.svg" caption="mi prami do" definition="I love you."></pixra>
+
+<pixra url="/assets/pixra/cilre/do.svg" caption="do" definition="you"></pixra>
+
 Each sentence in Lojban consists of the following parts from the left to the right:
 
 - the head:
   - consists of so-called "terms",
-  - **le prenu** is the only head term in the example **le prenu cu tavla mi** above,
-  - **mi**, **ca** are head terms in the example **mi ca cu tavla do** above.
+    - **le prenu** is the only head term in the example **le prenu cu tavla mi** above,
+    - **mi**, **ca** are head terms in the example **mi ca cu tavla do** above.
 - the head separator **cu**:
   - pronounced as _shoe_ since **c** is for _sh_,
   - shows that the head has ended,
   - can be omitted when it's clear that the head is completed.
 - the tail:
-  - the main relation construct (**tavla**, **prami**) with possibly one or more terms after it,
-  - **mi** is the only tail term in the example **le prenu cu tavla mi** above.
-  - **do** is the only tail term in the example **mi ca cu tavla do** above.
+  - the main relation construct (called "**selbrisni**" in Lojban) 
+  - \+ possibly one or more terms after it,
+    - **tavla**, **prami** are selbrisni, main relation constructs in the examples above.
+    - **mi** is the only tail term in the example **le prenu cu tavla mi** above.
+    - **do** is the only tail term in the example **mi prami do** above.
 
 ```mermaid
 flowchart LR
@@ -220,15 +230,7 @@ flowchart LR
 
 ```
 
-<pixra url="/assets/pixra/cilre/tavla.svg" caption="le prenu cu tavla mi" definition="The person talks to me."></pixra>
-
-<pixra url="/assets/pixra/cilre/mi.svg" caption="mi" definition="I / me"></pixra>
-
-<pixra url="/assets/pixra/cilre/mi_prami_do2.svg" caption="mi prami do" definition="I love you."></pixra>
-
-<pixra url="/assets/pixra/cilre/do.svg" caption="do" definition="you"></pixra>
-
-In Lojban, we mostly speak of relations rather than nouns and verbs.
+In Lojban, we mostly speak of relations rather than nouns or verbs.
 
 Here are the two relation words, which roughly correspond to verbs:
 
@@ -238,10 +240,47 @@ prenu
 tavla
 : … speaks to …
 
-To turn such "verb" into a noun we put a short word **le** in front of it:
+Each relation has one or more roles that can also be called "slots" or "places". Above, they are labelled with "…" Those slots are to be filled with arguments (called "**sumti**" in Lojban). Argument terms are constructs like **le prenu**, **mi**, **do** no matter whether those terms end up being in a head or in a tail of a sentence. We put argument terms in order, thus filling these slots and giving a concrete meaning to the relation.
+
+```mermaid
+flowchart TB
+    %%common settings
+    subgraph bridi["<i>relation</i>#nbsp;"]
+        x1("…")
+        selbri
+        x2("…")
+    end
+    subgraph sumti["<i>list of argument terms</i>#nbsp;"]
+        s1-.->x1
+        s2-.->x2
+    end
+    classDef s fill:#6807F7,stroke:#333,stroke-width:1px,color:#fff;
+    class s1 s;
+    class s2 s;
+    classDef x fill:#FFF863,stroke:#333,stroke-width:1px,stroke-dasharray: 5 2;
+    class x1 x;
+    class x2 x;
+    classDef blabi fill:#fff,stroke:#333;
+    class selbri blabi;
+    class bridi blabi;
+
+    %% input your sumti:
+    s1(mi)
+    s2(do)
+    %% input your selbri
+    selbri[(prami)]
+
+```
+
+We can also turn such relation into an argument term.
+
+For that we put a short word **le** in front of it:
+
+prenu
+: … is a person
 
 le prenu
-: the person
+: the person, the people
 
 Similarly,
 
@@ -251,38 +290,56 @@ tavla
 and thus
 
 le tavla
-: the speaker
+: the speaker, the speakers
 
 It might sound strange how _person_ can be a "verb", but in fact, this makes Lojban very simple:
 
 <table>
 <thead>
 <tr>
-<th>relation word</th>
-<th>noun</th></tr>
+<th>relation word with slots unfilled</th>
+<th>argument form (<b>sumti</b>)</th></tr>
 </thead>
 <tbody>
 <tr>
-<td><b>prenu</b> — <i>to be a person</i> </td>
-<td><b>le prenu</b> — <i>the person</i>
+<td><b>prenu</b> — <i>… (someone) is a person</i> </td>
+<td><b>le prenu</b> — <i>the person / the people</i>
+    <br/><b>le prenu</b> — <i>the one who is a person / those who are people</i>
 </td></tr>
 <tr>
-<td><b>tavla</b> — <i>to speak to</i> </td>
-<td><b>le tavla</b> — <i>the speaker</i>
+<td><b>tavla</b> — <i>… (someone) speaks to … (someone)</i> </td>
+<td><b>le tavla</b> — <i>the speaker / the speakers</i>
+    <br/><b>le tavla</b> — <i>the one who is a speaker / those who are speakers</i>
 </td></tr>
 </tbody></table>
 
-We can also say that **le** creates a noun from a relation construct with roughly the meaning of _the one which is …_ (_is a person_ — _the person_), or even _those who do…_ (_to speak to_ — _the speakers_), _those who are…_ (_are people_ — _the people_).
+The first slot of the relations disappears when using **le**, hence such alternative translations as _the one who …_ is possible.
 
-Notice, that Lojban, by default, doesn't differentiate between _the speaker_ or _the speakers_. That is, **le tavla** is vague in that regard, and we will soon discover ways to define the number.
+<!-- We can also say that **le** creates a noun from a relation construct with roughly the meaning of _the one which is …_ (_is a person_ — _the person_), or even _those who do…_ (_to speak to_ — _the speakers_), _those who are…_ (_are people_ — _the people_). -->
 
-Terms in Lojban, no matter where they are used in a given sentence, are mostly represented with:
+Notice, that Lojban, by default, doesn't specify number between _the speaker_ or _the speakers_. That is, **le tavla** is vague in that regard, and we will soon discover ways to define the number.
 
-- nouns like **le prenu** (_the person_)
-- pronouns like **mi** (_I_, _me_), **do** (_you_). Pronouns work exactly as nouns, but **le** is not used for them. They work as nouns on their own.
-- modal terms like **ca** (_now, in present_). Modal terms specify additional, сlarifying information.
+Apart from argument terms there are modal terms like **ca**:
+
+> **mi ca cu tavla do**
+> _I now talk to you._
+
+ca
+: now
+
+Modal terms do not fill slots of the main relation construct ("**selbrisni**"). Instead, they are applied to the whole sentence enriching or narrowing its meaning.
+
+Thus, terms in Lojban are represented with:
+
+- argument terms that fill in slots of relations. Examples are:
+  - nouns like **le prenu** (_the person_)
+  - pronouns like **mi** (_I_, _me_), **do** (_you_). Pronouns work exactly as nouns, but **le** is not used for them. They work as arguments on their own.
+- modal terms that do not fill slots of relations but specify additional, сlarifying information.
+  - for example, **ca** (_now, in present_).
 
 Some more examples:
+
+<pixra url="/assets/pixra/cilre/nintadni.svg" caption="mi nintadni" definition="I am a new student, a fresher."></pixra>
 
 > **mi nintadni**
 > _I am a new student._
@@ -290,7 +347,6 @@ Some more examples:
 nintadni
 : … (someone) is a new student, a newbie
 
-<pixra url="/assets/pixra/cilre/nintadni.svg" caption="mi nintadni" definition="I am a new student, a fresher."></pixra>
 
 Unlike in English we don't have to add the verb "am/is/are/to be" to the sentence. It is already implied. The relation word **nintadni** (_… is a new student_) already has this English "am/is/are/to be" built into its English translation.
 
@@ -299,13 +355,11 @@ Unlike in English we don't have to add the verb "am/is/are/to be" to the sentenc
 
 jimpe
 : … (someone) understands … (something)
-<!-- -->
 
 <pixra url="/assets/pixra/cilre/pilno_le_fonxa.svg" caption="le prenu cu pilno le fonxa" definition="The person uses the phone."></pixra>
 
 > **mi pilno le fonxa**
 > _I use the phone._
-
 
 pilno
 : … (someone) uses … (something)
@@ -316,15 +370,13 @@ fonxa
 le fonxa
 : the phone, the phones
 
+<pixra url="/assets/pixra/cilre/citka.svg" caption="mi citka" definition="I eat."></pixra>
 
 > **mi citka**
 > _I eat._
 
 citka
 : … (someone) eats … (something)
-
-<pixra url="/assets/pixra/cilre/citka.svg" caption="mi citka" definition="I eat."></pixra>
-<!-- -->
 
 > **do citka**
 > _You eat._
@@ -334,7 +386,7 @@ citka
 > **mi citka le plise**
 > _I eat the apples._
 
-<!-- -->
+<pixra url="/assets/pixra/cilre/le_plise_cu_kukte.svg" caption="le plise cu kukte" definition="The apples are tasty."></pixra>
 
 > **le plise cu kukte**
 > _The apples are tasty._
@@ -344,8 +396,6 @@ le plise
 
 kukte
 :  … (something) is tasty
-
-<pixra url="/assets/pixra/cilre/le_plise_cu_kukte.svg" caption="le plise cu kukte" definition="The apples are tasty."></pixra>
 
 A simpler sentence in Lojban would contain only one main relation word:
 
@@ -357,10 +407,9 @@ A simpler sentence in Lojban would contain only one main relation word:
 
 You could say this when you see a car coming. Here the context would be clear enough that there is a car somewhere around and probably it's dangerous.
 
-**karce** itself is a verb meaning _is a car, to be a car_.
+**karce** itself is a relation meaning _is a car, to be a car_.
 
 We can of course be more precise and say, for example:
-
 
 > **ti karce**
 > _This is a car._
@@ -372,6 +421,8 @@ ti
 
 Similarly, you can say
 
+<pixra url="/assets/pixra/cilre/carvi.svg" caption="carvi" definition="… is a rain"></pixra>
+
 > **carvi**
 > _It is raining._
 
@@ -379,8 +430,6 @@ where
 
 carvi
 : … is a rain, … is raining
-
-<pixra url="/assets/pixra/cilre/carvi.svg" caption="carvi" definition="… is a rain"></pixra>
 
 or
 
@@ -397,7 +446,7 @@ Notice that in Lojban there is no need in the word _it_ in such sense. You just 
 > **prami**
 > _Someone loves._
 
-<!-- -->
+<pixra url="/assets/pixra/cilre/bajra.svg" caption="le prenu cu bajra" definition="The person runs."></pixra>
 
 > **bajra**
 > _Someone runs._
@@ -407,9 +456,7 @@ bajra
 
 Again context would probably tell who loves whom and who runs.
 
-<pixra url="/assets/pixra/cilre/bajra.svg" caption="le prenu cu bajra" definition="The person runs."></pixra>
-
-#### Task
+### Task
 
 <pixra url="/assets/pixra/cilre/pinxe_le_djacu.svg" caption="le prenu cu pinxe le djacu" definition="The person drinks the water."></pixra>
 
@@ -453,7 +500,7 @@ Also note that sometimes when pronouncing words quickly you can't figure out whe
 
 ### Numbers: ‘_1 2 3 4 5 6 7 8 9 0_’ = «**pa re ci vo mu xa ze bi so no**»
 
-**le** simply turns a verb into a noun, but such noun has no number associated with it. The sentence
+**le** simply turns a relation construct into an argument, but such argument has no number associated with it. The sentence
 
 > **le prenu cu tavla mi**
 > _The people talk to me._
@@ -562,7 +609,7 @@ le pa prenu
 le za'u prenu
 : the people (two or more in number)
 
-#### Task
+### Task
 
 stati
 : … (someone) is smart, … has a talent
@@ -634,9 +681,9 @@ Close the right part of the table. Translate the sentences on the left to Lojban
  </tbody>
 </table>
 
-### Compound verb
+### Compound relation
 
-Compound verb (**le tanru** in Lojban) are several verb words placed one after another.
+Compound relation construct (**tanru** in Lojban) are several relation words placed one after another.
 
 > **tu melbi zdani**
 > _That one is a nice home._
@@ -652,6 +699,9 @@ melbi
 zdani
 : … is a home or nest to … (someone)
 
+melbi zdani
+: compound relation construct: … is a beautiful home to … (someone)
+
 <pixra url="/assets/pixra/cilre/dansu.svg" caption="le prenu cu melbi dansu" definition="The person nicely dances."></pixra>
 
 > **do melbi dansu**
@@ -660,16 +710,16 @@ zdani
 dansu
 : … dances
 
-Here, the verb **melbi** adds an additional meaning as it is placed to the left of another verb: **zdani**. The left part is usually translated using adjectives and adverbs.
+Here, the relation **melbi** adds an additional meaning as it is placed to the left of another relation: **zdani**. The left component is usually translated using adjectives and adverbs.
 
-Compound verbs are a powerful feature that produces richer meanings. You just string two verbs together, and the left part of such compound verb adds a flavor to the right one.
+Compound relations are a powerful feature that produces richer meanings. You just string two relation words together, and the left component of such compound relation adds a flavor to the right one.
 
-We can put **le** (e.g. with a number) to the left of such compound verb getting a compound noun:
+We can put **le** (e.g. with a number) to the left of such compound relation getting a richer argument term:
 
 le pa melbi zdani
 : the beautiful home
 
-Now you know why there was **cu** after nouns in our example:
+Now you know why there was **cu** after head terms in our example:
 
 > **le pa prenu cu tavla mi**
 > _The person talks to me._
@@ -684,9 +734,9 @@ Consider:
 > **le pa tavla cu pendo**
 > _The talking one is a friend._
 
-Remember about placing **cu** before the main relation construct in a sentence to prevent unintentional creation of compound verbs.
+Remember about placing **cu** before the main relation construct in a sentence to prevent unintentional creation of compound relations.
 
-Compound verbs can contain more than two verbs. In this case, the first verb modifies the second one, the second one modifies the third, and so on:
+Compound relation can contain more than two components. In this case, the first relation modifies the second one, the second one modifies the third, and so on:
 
 <pixra url="/assets/pixra/cilre/cmalu_karce.svg" caption="ti cmalu karce" definition="This is a small car."></pixra>
 
@@ -701,7 +751,7 @@ Compound verbs can contain more than two verbs. In this case, the first verb mod
 mutce
 : … is very, … is much
 
-#### Task
+### Task
 
 sutra
 : … is quick
@@ -831,11 +881,16 @@ We can shift the meaning by placing **xu** after different parts of the relation
 > **do nelci le xu gerku**
 > _Do you like THE DOGS? (I thought you liked the cats)._
 
+<!-- -->
+
+> **do nelci le gerku xu**
+> _You like those things, are they dogs? (You only question the validity of the relation **gerku**)._
+
 What is expressed using intonation in English is expressed by moving **xu** after the part we want to emphasize in Lojban. Note that the first sentence with **xu** in the beginning asks the most generic question without stressing any particular aspect.
 
 **xu** is an interjection word. Here are the features of Lojban interjections:
 
-- interjection modifies the construct before it. So, when placed after certain parts of the relation, like pronouns or verbs, it modifies that verb:
+- interjection modifies the construct before it:
 
  > **do xu nelci le gerku**
  > _Do YOU like the dogs?_
@@ -847,7 +902,12 @@ What is expressed using intonation in English is expressed by moving **xu** afte
 
 - interjections can be placed after different parts of the same relation to shift the meaning.
 
-Interjections don't break compound verbs, they can be used within them:
+  > **do nelci le gerku xu**
+  > _You like those entities, are they dogs?_
+
+  Here, only the relation **gerku** (not the argument **le gerku**) is modified by the question word **xu**. So here we wonder only of that relation. We assert that you like these objects or live beings and we ask you if those are dogs.
+
+Interjections don't break compound relations, they can be used within them:
 
 > **do nelci le barda xu gerku**
 > _Do you like the BIG dogs?_
@@ -869,7 +929,7 @@ To answer 'no', we use the modal term **na ku**:
 na ku
 : term: it is false that …
 
-Or, we can use a special verb **go'i**:
+Or, we can use a special relation word **go'i**:
 
 > **— xu le mlatu cu melbi**
 > **— go'i**
@@ -877,7 +937,7 @@ Or, we can use a special verb **go'i**:
 > _— Pretty._
 
 go'i
-: verb that repeats the main relation of the previous sentence
+: relation word that repeats the main relation of the previous sentence
 
 Here, **go'i** means the same as **melbi** since **melbi** is the relation of the previous relation.
 
@@ -905,7 +965,7 @@ Its opposite, the term **ja'a ku** affirms the meaning:
 ja'a ku
 : term: it is true that …
 
-#### Task
+### Task
 
 Close the right part of the table. Translate the sentences on the left from Lojban.
 
@@ -977,7 +1037,7 @@ lebna
 
 In English, to be polite, one has to use _could you_ + _please_ + a question). In Lojban, **.e'o** is enough to make a polite request.
 
-#### Task
+### Task
 
 Close the right part of the table. Translate the sentences on the left from Lojban.
 
@@ -1083,7 +1143,7 @@ Close the right part of the table. Translate the sentences on the left to Lojban
 : conjunction "and" combining sentences into one.
 
 .e
-: conjunction "and" connecting nouns.
+: conjunction "and" connecting arguments.
 
 gi'e
 : conjunction "and" connecting sentence tails.
@@ -1093,14 +1153,14 @@ We can combine two sentences into one statement using the conjunction **.i je**,
 > **do nintadni .i je mi nintadni**
 > _You are a newbie. And I am a newbie._
 
-Since both sentences have the same tail, we can use a contraction: the conjunction **.e** means _and_ for nouns and pronouns:
+Since both sentences have the same tail, we can use a contraction: the conjunction **.e** means _and_ for arguments:
 
 > **do .e mi nintadni**
 > _You and I are newbies._
 
 **do nintadni .i je mi nintadni** means exactly the same as **do .e mi nintadni**
 
-We can also use **.e** for connecting nouns and pronouns in other positions.
+We can also use **.e** for connecting arguments in other positions.
 
 Both of these sentences mean the same thing.
 
@@ -1123,7 +1183,7 @@ If the sentence head is the same but the tails differ, we use the conjunction **
 
 Both variations mean the same; **gi'e** simply leads to a more consise realization.
 
-We also have tools to add _and_ for components of compound verbs:
+We also have tools to add _and_ for components of compound relations:
 
 > **le melbi je cmalu zdani cu jibni ti**
 > _The pretty and small home is near._
@@ -1136,14 +1196,14 @@ jibni
 ti
 : this thing, this place near me
 
-**je** is a conjunction in Lojban that means _and_ in compound verbs.
+**je** is a conjunction in Lojban that means _and_ in compound relations.
 
 Without **je**, the sentence changes the meaning:
 
 > **le melbi cmalu zdani cu jibni**
 > _The prettily small home is near._
 
-Here **melbi** modifies **cmalu**, and **melbi cmalu** modifies **zdani**, according to how compound verbs work.
+Here **melbi** modifies **cmalu**, and **melbi cmalu** modifies **zdani**, according to how compound relations work.
 
 In **le melbi je cmalu zdani** (_the pretty and small house_) both **melbi** and **cmalu** modify **zdani** directly.
 
@@ -1160,7 +1220,7 @@ Other common conjunctions include:
 ja
 : and/or
 
-**.a** = _and/or_ when connecting nouns and pronouns.
+**.a** = _and/or_ when connecting arguments.
 
 
 fengu
@@ -1193,7 +1253,7 @@ jo nai
 : either … or … but not both
 
 .o nai
-: either … or … but not both (when connecting nouns and pronouns)
+: either … or … but not both (when connecting arguments)
 
 laldo
 : … is old
@@ -1212,7 +1272,7 @@ ju
 : whether or not …
 
 .u
-: whether or not … (when connecting nouns and pronouns)
+: whether or not … (when connecting arguments)
 
 ### «**joi**» is ‘_and_’ for mass actions
 
@@ -1246,7 +1306,7 @@ The pronoun **mi'o** (_you and I together_) can actually be expressed as **mi jo
 
 <pixra url="/assets/pixra/cilre/casnu.svg" caption="do joi le pendo joi mi casnu" definition="You, the friend and I are in a discussion."></pixra>
 
-#### Task
+### Task
 
 Close the right part of the table. Translate the sentences on the left from Lojban.
 
@@ -1317,15 +1377,27 @@ In Lojban, we just use the conjunction **.i je** (or **.e**, **gi'e**, **je**, d
 
 ### Events: ‘_dancing and being together_’ — «**le nu dansu .e le nu kansa**»
 
-Any relation can be turned into a verb by putting **nu** in front of it:
+Some slots of relations expect an event:
+
+> **le cabna cu nicte**
+> _Now it's nighttime. At present it's night._
+
+cabna
+: … (event) is at present with …; … (event) happens now
+
+le cabna
+: the present time, the present event
+
+nicte
+: … (event) happens at night
+
+But what if we want to describe an event using a whole sentence?
+
+Any sentence can be turned into a relation construct by putting **nu** in front of it:
 
 > **le nicte cu nu mi viska le lunra**
 > _The night is when I see the Moon._
-> `Night is an event when I see the Moon.`
-
-
-nicte
-: (some event) is nighttime
+> `Nighttime is an event when I see the Moon.`
 
 <pixra url="/assets/pixra/cilre/nicte_fi_mi.svg" caption="le nicte" definition="the nighttime"></pixra>
 
@@ -1338,11 +1410,19 @@ viska
 le lunra
 : the Moon
 
-Here, **le nicte** is a noun in the sentence and **nu mi viska le lunra** is the main relation of the sentence.  However, within this main relation, we can see another relation: **mi viska le lunra** embedded!
+Here, **le nicte** is the first argument of the sentence and **nu mi viska le lunra** is the main relation construct of the sentence. However, inside this main relation, we can see another relation: **mi viska le lunra** embedded!
 
-The word **nu** transforms a sentence into a verb that denotes an event or a process.
+The word **nu** transforms a complete sentence into a relation that denotes an event (in its generic sense, its can be a process, a state etc.)
 
-By adding **le** in front of **nu**, we create a noun that denotes an event:
+Here are some more examples:
+
+nu mi tavla
+: … is an event of me talking
+
+nu do tavla
+: … is an event of you talking
+
+By adding **le** in front of **nu**, we create an argument that denotes an event:
 
 pinxe ⇒ le nu pinxe
 : to drink ⇒ the drinking
@@ -1361,7 +1441,7 @@ le nu do klama
 
 **le nu** often corresponds to English _\-ing_, _\-tion_, _\-sion_.
 
-Some verbs require using events instead of ordinary nouns. For example:
+Some more examples with slots that expect events instead of ordinary entities:
 
 > **mi djica le nu do klama ti**
 > _I want you to come here (to this place)_
@@ -1373,33 +1453,17 @@ djica
 > _I'm happy because you are coming._
 
 gleki
-: … is happy (of some event)
+: … is happy of … (some event)
 
 <pixra url="/assets/pixra/cilre/gleki.svg" caption="gleki" definition="… is happy about event …"></pixra>
-
-Some nouns describe events by themselves so no **le nu** is used:
-
-> **le cabna cu nicte**
-> _Now it's night. At present it's night._
-
-le cabna
-: the present time, the present event.
-
-Nouns made with **le nu** can be used for verbs that describe events by themselves:
 
 > **le nu pinxe le jisra cu nabmi mi**
 > _Drinking the juice is a problem to me._
 
 nabmi
-: (event) is a problem (to someone), (event) is problematic (to someone)
+: … (event) is a problem to … (someone), … (event) is problematic to … (someone)
 
-All Lojban words are divided into two groups:
-
-- particles (called **le cmavo** in Lojban). Examples: **le**, **nu**, **mi**
-- verbs (called **le selbrivla** in Lojban). Examples: **gleki**, **klama**.
-  It is quite common to write several particles one after another without spaces between them. This is allowed by Lojban grammar. So don't be surprised to see **lenu** instead of **le nu**, **naku** instead of **na ku**, **jonai** instead of **jo nai** and so on. This doesn't change the meaning. However, this is not applied to verbs: they are to be separated with spaces.
-
-#### Task
+### Task
 
 Close the right part of the table. Translate the sentences on the left from Lojban.
 
@@ -1461,12 +1525,12 @@ Here is a series of time-related terms that tell when something happens:
 > **le prenu ba cu tavla mi**
 > _The people will talk to me._
 
-When after the time-related particle we place a bare noun then we form a term with a slightly different meaning:
+When after the time-related particle we place a bare argument then we form a term with a slightly different meaning:
 
 > **mi pinxe le djacu ca le nu do klama**
 > _I drink the water while you are coming._
 
-The **ca le nu do klama** part is a long term meaning _while you come / while you are coming_. The **le nu do klama** is a noun meaning **coming of you, you coming**.
+The **ca le nu do klama** part is a long term meaning _while you come / while you are coming_. The **le nu do klama** is an argument meaning **coming of you, you coming**.
 
 > **mi citka ba le nu mi dansu**
 > _I eat after I dance._
@@ -1498,7 +1562,7 @@ actually says nothing about when this happens. Context is clear enough in most c
 
 Similarly, **ba** means _after … (some event)_ so when we say **mi ba cu citka** we mean that we eat after the moment of speaking, that's why it means _I will eat_.
 
-We can combine tense particles with and without noun arguments after them:
+We can combine tense particles with and without arguments after them:
 
 > **mi pu cu citka le plise ba le nu mi dansu**
 > _I ate the apples after I danced._
@@ -1518,14 +1582,14 @@ pluka
 > **ba le nicte cu pluka**
 > _After the night it is pleasant._
 
-Here, the head of the sentence contains one term **ba le nicte**, a term with its noun. Then after the separator **cu**, the main relation of the sentence **pluka** is followed (**pluka** alone means _It is pleasant._)
+Here, the head of the sentence contains one term **ba le nicte**, a modal term with its inner argument. Then after the separator **cu**, the main relation of the sentence **pluka** is followed (**pluka** alone means _It is pleasant._)
 
 To say _will be pleasant_ we should use the past tense term:
 
 > **le nicte ba cu pluka**
 > _The night will be pleasant._
 
-Also note that adding a noun after a time-related particle can lead to a drastically different meaning:
+Also note that adding an argument after a time-related particle can lead to a drastically different meaning:
 
 > **le nicte ba le nu citka cu pluka**
 > _The night is pleasant after eating._
@@ -1543,16 +1607,16 @@ Both sentences mean the same, **ba pluka** is a relation construct meaning _… 
 The structure of **le nicte ba pluka** is the following:
 
 - **le nicte** — the head of the sentence with just one term **le nicte**
-- **ba pluka** — the tail of the sentence with just one verb **ba pluka**
+- **ba pluka** — the tail of the sentence that only consists of the relation **ba pluka**
 
 Contrast this with the previous sentence **le nicte ba cu pluka**:
 
 - **le nicte ba** — the head of the sentence with two terms **le nicte** and **ba**
-- **pluka** — the tail of the sentence with just one verb **pluka**
+- **pluka** — the tail of the sentence that only consists of the relation **pluka**
 
 The advantage of **le nicte ba pluka** over **le nicte ba cu pluka** is only in conciseness; you can usually skip saying **cu** in such cases since the sentence can't be understood otherwise anyway.
 
-If you wish to put a modal term before a noun you can separate it from the following text by explicitly "ending" the term with the helper word **ku**:
+If you wish to put a modal term before an argument term you can separate it from the following text by explicitly "ending" the term with the helper word **ku**:
 
 > **ba ku le nicte cu pluka**
 > **le nicte ba cu pluka**
@@ -1588,7 +1652,7 @@ mo'u
 co'i
 : tense particle: the event is viewed as a whole (has started and then finished)
 
-Most verbs describe events without specifying the stage of those events. Event contours allow us to be more precise:
+Most relation words describe events without specifying the stage of those events. Event contours allow us to be more precise:
 
 > **mi pu co'a сu cikna**
 > **mi pu co'a cikna**
@@ -1773,7 +1837,7 @@ but
 
 Brackets _(_ and_)_ are used here only to show the structure; they are not necessary in a normal Lojban text.
 
-We use **kei** after the inner sentence **do ca'o klama** to show that it ended, and the main relation continues with its **cu**, terms, nouns, pronouns.
+We use **kei** after the inner sentence **do ca'o klama** to show that it ended, and the tail of the sentence continues with its terms.
 
 Compare this sentence with the following:
 
@@ -1883,7 +1947,7 @@ Close the right part of the table. Translate the sentences on the left to Lojban
 
 ### Names. Choosing a name
 
-**le cmevla**, or _name word_, is a special kind of word used to build personal names. It's easy to recognize le cmevla in a text flow, as they are the only words that end in a consonant and are wrapped by one dot on each side.
+**cmevla**, or _name word_, is a special kind of word used to build personal names. It's easy to recognize le cmevla in a text flow, as they are the only words that end in a consonant and are wrapped by one dot on each side.
 
 Examples of le cmevla are: **.paris.**, **.robin.**
 
@@ -1899,7 +1963,7 @@ tcidu
 
 <pixra url="/assets/pixra/cilre/tcidu_la_lojban.svg" caption="le prenu ca'o tcidu" definition="The person is reading."></pixra>
 
-**la** is similar to **le**, but it converts a word into a name instead of a simple noun.
+**la** is similar to **le**, but it converts a word into a name instead of a simple argument.
 
 In English, we start a word with a capital letter to show that it is a name. In Lojban, we use the prefix word **la**.
 
@@ -2066,7 +2130,7 @@ le nunmu
 
 However, in most situations, using **le prenu** (_the person_) or personal names is sufficient.
 
-Another choice is to use the short pronoun **ri**, which refers to the previous noun:
+Another choice is to use the short pronoun **ri**, which refers to the previous argument term:
 
 > **mi pu klama le nurma .i ri melbi**
 > _I went to the country. It was beautiful._
@@ -2093,11 +2157,11 @@ Note: **ri** skips pronouns **mi** (_I_) and **do** (_you_):
 > **le prenu cu tavla mi .i ri pendo mi**
 > _The person talks to me. He/she is a friend of mine._
 
-Here, **ri** skips the previous pronoun **mi** and thus refers to **le prenu** which is the preceding noun/pronoun available.
+Here, **ri** skips the previous pronoun **mi** and thus refers to **le prenu** which is the preceding argument term available.
 
 ### Introducing yourself. Vocatives
 
-In Lojban, _vocatives_ are words that behave like interjections (such as **xu** which we earlier discussed), but they require the following noun to be attached to them:
+In Lojban, _vocatives_ are words that behave like interjections (such as **xu** which we earlier discussed), but they require an argument to be attached to the right of them:
 
 > **coi do**
 > _Hello, you!_
@@ -2105,7 +2169,7 @@ In Lojban, _vocatives_ are words that behave like interjections (such as **xu** 
 coi
 : vocative: Hello! Hi!
 
-We use **coi** followed by a noun or pronoun to greet someone.
+We use **coi** followed by an argument term to greet someone.
 
 > **co'o do**
 > _Goodbye to you._
@@ -2173,7 +2237,7 @@ pluka
 
 Of course, we can be vague by just saying **pluka nicte** (just meaning _pleasant night_ without any wishes explicitly said).
 
-The vocative **mi'e** + a noun/pronoun is used to introduce yourself:
+The vocative **mi'e** + an argument is used to introduce yourself:
 
 > **mi'e la .doris.**
 > _I'm Doris. This is Doris speaking._
@@ -2189,7 +2253,7 @@ The vocative **doi** is used to address someone directly:
 cliva
 : to leave (something or someone)
 
-Without **doi**, the name might become the first noun of the relation:
+Without **doi**, the name might fill the first argument of the relation:
 
 > **mi cliva la .robert.**
 > _I'm leaving Robert._
@@ -2206,7 +2270,7 @@ Two more vocatives are **ki'e** for saying thanks and **je'e** for accepting the
 sidju
 : … helps … (someone)
 
-We can omit the noun after the vocative only if this is at the end of the sentence. For example, we can just say:
+We can omit the argument after the vocative only at the end of the sentence. For example, we can just say:
 
 > **— coi .i xu do kanro**
 > _— Hello. How do you do?_
@@ -2223,7 +2287,7 @@ Here, a new sentence starts immediately after the vocative **coi**, so we omitte
 
 Thus, if you don't know the name of the listener and you want to continue the same sentence after the vocative, you just place **do** after it.
 
-If you use the vocative on its own (without a noun after it) and the sentence is not finished yet, then you need to separate it from the rest. This is because the things that are most likely to follow the vocative in a sentence could easily be misconstrued as describing your addressee. To separate it from the following noun/pronoun, use the word **do**. For example,
+If you use the vocative on its own (without an argument after it) and the sentence is not finished yet, then you need to separate it from the rest. This is because the things that are most likely to follow the vocative in a sentence could easily be misconstrued as describing your addressee. To separate it from the following argument, use the word **do**. For example,
 
 > **coi do la .alis. la .doris. pu cliva**
 > _Hello! Alice left Doris._
@@ -2245,16 +2309,26 @@ Note: in the beginning of a sentence, interjections are usually put before vocat
 
 > _Hello (I'm happy about this greeting) you! Alice left Doris._
 
-So an interjection immediately after a vocative modifies that vocative. Similarly, an interjection modifies the vocative noun when being put after it:
+So an interjection immediately after a vocative modifies that vocative. Similarly, an interjection modifies the argument of a vocative when being put after it:
 
 > **coi do .ui la .alis. la .doris. pu cliva**
 > _Hello you (I'm happy about you)! Alice left Doris._
 
 ## Lesson 2. More basic stuff
 
+### Note on types of words
+
+All Lojban words are divided into three groups:
+
+- particles (called **cmavo** in Lojban). Examples: **le**, **nu**, **mi**, **fa'a**
+  - 
+- relation words (called **selbrivla** in Lojban). Examples: **gleki**, **klama**.
+  It is quite common to write several particles one after another without spaces between them. This is allowed by Lojban grammar. So don't be surprised to see **lenu** instead of **le nu**, **naku** instead of **na ku**, **jonai** instead of **jo nai** and so on. This doesn't change the meaning. However, this is not applied to relation words: they are to be separated with spaces.
+
+
 ### Order of arguments
 
-Earlier we provided definitions of verbs such as:
+Earlier we provided definitions of relation words such as:
 
 mlatu
 : … is a cat, to be a cat
@@ -2268,7 +2342,7 @@ prami
 klama
 : … come to …
 
-Dictionaries can present verbs with symbols such as $x_1$, $x_2$ etc.:
+Dictionaries can present definitions of relation words with symbols such as $x_1$, $x_2$ etc.:
 
 prami
 : $x_1$ loves $x_2$
@@ -2282,7 +2356,11 @@ citka
 klama
 : $x_1$ comes to $x_2$ …
 
-These $x_1$, $x_2$, and so on are called _places_, _roles of relation_ or _arguments_, and they represent the order in which we place nouns or pronouns in the sentence. For example:
+These $x_1$, $x_2$, and so on is the explicit notation for the _slots_ (other names are: _places_, _roles of relation_, **terbricmi** in Lojban), which are filled by argument terms (**sumti**) in the sentence. 
+
+Numbers represent the order in which those slots are to be filled by arguments.
+
+For example:
 
 > **mi prami do**
 > _I love you._
@@ -2292,17 +2370,17 @@ This sentence also implies that
 - $x_1$ denotes _the one who loves_, and
 - $x_2$ denotes _the one who is loved by_.
 
-In other words, each relation has one or more roles, and those roles are specified and labeled as $x_1$, $x_2$, and so on. We put nouns and pronouns in order, thus filling these roles and giving a concrete meaning to the relation, thus forming a sentence.
+In other words, each relation has one or more slots, and those slots are specified and labeled as $x_1$, $x_2$, and so on. We put arguments like **mi**, **do**, **le tavla** etc. in order, thus filling these slots and giving a concrete meaning to the relation, thus forming a sentence.
 
 ```mermaid
 flowchart TB
     %%common settings
     subgraph bridi["<i>relation</i>#nbsp;"]
-        x1("x#8321;")
+        x1("<i>slot</i> x#8321;")
         selbri
-        x2("x#8322;")
+        x2("<i>slot</i> x#8322;")
     end
-    subgraph sumti["<i>list of sumti</i>#nbsp;"]
+    subgraph sumti["<i>list of argument terms (sumti)</i>#nbsp;"]
         s1-.->x1
         s2-.->x2
     end
@@ -2317,8 +2395,8 @@ flowchart TB
     class bridi blabi;
 
     %% input your sumti:
-    s1(mi)
-    s2(do)
+    s1("<i>argument term</i> <b>mi</b>")
+    s2("<i>argument term</i> <b>do</b>")
     %% input your selbri
     selbri[(prami)]
 
@@ -2326,7 +2404,7 @@ flowchart TB
 
 The advantage of such style of definitions is that all participants of a relation are in one definition.
 
-We can also omit nouns making the sentence more vague:
+We can also omit arguments making the sentence more vague:
 
 > **carvi**
 > _It is raining._
@@ -2352,7 +2430,7 @@ is the same as
 > **zo'e prami zo'e**
 > _Someone loves someone._
 
-Modal terms like **ca**, **fa'a** etc. add new places to relations, but they don't remove existing places of verbs. In
+Modal terms like **ca**, **fa'a** etc. add new places to relations, but they don't fill slots of relations. In
 
 > **mi klama fa'a do**
 > _I come towards you._
@@ -2368,9 +2446,9 @@ le cmana
 
 <pixra url="/assets/pixra/cilre/cmana.svg" caption="cmana" definition="… is a mountain"></pixra>
 
-And here, the second place of **klama** is **do**. The sentence means that the mountain is just a direction, whereas the final point is you.
+Here, the second place of **klama** is **do**. The sentence means that the mountain is just a direction, whereas the final point is you.
 
-Here, the term **fa'a la cmana** (_in the direction of the mountain_) doesn't replace the second place of the verb **klama**. The second place of **klama** is **le zdani** here.
+Here, the term **fa'a la cmana** (_in the direction of the mountain_) doesn't replace the second place of the relation **klama**. The second place of **klama** is **le zdani** here.
 
 The sentence means that my home is simply located in the direction of the mountain, but it doesn't necessarily mean I want to reach that mountain. The final destination of me coming is not necessarily the mountain but the home.
 
@@ -2381,11 +2459,15 @@ Similarly, in
 
 the second place of **citka** is still omitted. A new word **ba** with its argument **le nu mi cadzu** adds meaning to the sentence.
 
-The order of arguments of compound verbs is the same as the one of the last verb word in it:
+The order of arguments of compound relation is the same as the one of the last component in it:
 
 > **tu sutra bajra pendo mi**
 > _That is my quickly running friend._
 > `That is a quickly running friend of me.`
+
+> **tu pendo mi**
+> _That is my riend._
+> `That is a friend of me.`
 
 pendo
 : … is a friend of … (someone)
@@ -2459,7 +2541,7 @@ Inside this term, we have:
 
 Such "recursive" mechanism of wrapping relations into relations allows expressing complex ideas precisely.
 
-### Why are verbs defined the way they are?
+### Why are relation words defined the way they are?
 
 English uses a limited set of prepositions that are reused across various verbs and, thus, have no fixed meaning. For example, consider the English preposition _to_:
 
@@ -2475,7 +2557,7 @@ In each of those examples, _to_ has a new role that is, at best, remotely simila
 
 It's important to note that other languages use different ways of marking roles of verbs that, in many cases, are very different from those used in English.
 
-Lojban, for instance, marks core roles of relations by fully defining such relations with the roles placed in sequence (or marked with **fa**, **fe**, and so on):
+Lojban, for instance, marks core roles (slots) of relations by fully defining such relations with the roles placed in sequence (or marked with **fa**, **fe**, and so on):
 
 klama
 : $x_1$ comes to $x_2$ …
@@ -2513,11 +2595,11 @@ Prepositions in English are similar to modal particles in Lojban, although a usu
 
 ### General rules in the order of arguments
 
-The order of places in verbs might be sometimes hard to remember, but let's not worry — you don't need to remember all the places of all verbs. (Do you remember the meaning of hundreds of thousands of words in English?)
+The order of places in relations might be sometimes hard to remember, but let's not worry — you don't need to remember all the places of all relation words. (Do you remember the meaning of hundreds of thousands of words in English?)
 
 You may study places when you find them useful or when people use them in a dialogue with you.
 
-Most verbs have two-three places.
+Most relation words have two-three places.
 
 Usually, you can guess the order using context and a few rules of thumb:
 
@@ -2563,14 +2645,20 @@ cadzu
 
 <pixra url="/assets/pixra/cilre/troci_cadzu.svg" caption="le verba cu troci le ka cadzu" definition="The child tries to walk."></pixra>
 
-The particle **ka** works much like nu, but it indicates that the noun on the left does or would do the action following **ka**. It makes the first noun of the outer verb (**troci** in this case) also the first omitted noun of the embedded verb started by **ka** (**cadzu** in this case), so you don't have to repeat this noun the second time.
+The particle **ka** works much like **nu**. It wraps a sentence.
 
-Some verbs require only infinitives in some of their places. Definitions of such words mark such places with the term _property_ or **ka**. For example:
+The main difference is that some slot in the wrapped sentence is to be linked by some argument outside this sentence.
+
+In this case the first argument **le verba** of the relation **troci** makes a link to the first unfilled slot of the inner sentence **cadzu** (which is inside **ka**).
+
+In other words, the child tries to achieve a state where **le verba cu cadzu** (the argument **le verba** would fill the first unfilled slot of the relation **cadzu**).
+
+Some relations require only infinitives in some of their slots. Definitions of such words mark such slots as _property_ or **ka**. For example:
 
 cinmo
 : $x_1$ feels $x_2$ (ka)
 
-This means that the infinitive in the second place ($x_2$) is applied to some place (most likely, the first place, $x_1$). Cases where the infinitive is applied to places other than $x_2$ are rare and are explained for corresponding verbs or in the case of verbs invented unofficially, can be deduced from common sense.
+This means that the infinitive in the second place ($x_2$) is applied to some place (most likely, the first place, $x_1$). Cases where the infinitive is applied to places other than $x_2$ are rare and are explained for corresponding relations or in the case of relation words invented unofficially, can be deduced from common sense.
 
 Note that only the first unfilled place of the embedded relation takes the meaning of the outer place:
 
@@ -2582,7 +2670,7 @@ tcidu
 
 Here, the first unfilled place is the second place of **prami**, thus it takes the value **mi** (_I_).
 
-It is also possible by using the pronoun **ce'u** to explicitly mark a place that has to be applied to some outer noun:
+It is also possible by using the pronoun **ce'u** to explicitly mark a place that has to be applied to some outer argument:
 
 > **mi troci le ka do prami ce'u**
 > _I try to be loved by you._
@@ -2601,7 +2689,7 @@ The dictionary often mentions other types of places, for example:
 djica
 : $x_1$ wants $x_2$ (event)
 
-This _event_ means that you have to fill the place with a noun that represents an event. For instance:
+This _event_ means that you have to fill the place with an argument that represents an event. For instance:
 
 le nicte
 : nighttime
@@ -2665,7 +2753,7 @@ Place structure may put too much burden on specifying actions or events. Sometim
 
 In the examples above _I suggest the pub._ most likely implies going to the pub and _I want the apple._ implies eating it.
 
-However, the Lojban verb **stidi** requires a property in its $x_2$ place. Similarly, **djica** requires an event in its $x_2$ place.
+However, the Lojban relation word **stidi** requires a property in its $x_2$ slot. Similarly, **djica** requires an event in its $x_2$ slot.
 
 The short so called qualifier word **tu'a** before a term implies an abstraction (property, event, or proposition) but selects only this term from this abstraction skipping the rest. It can be vaguely translated as _something about_:
 
@@ -2692,14 +2780,14 @@ It is also possible to modify the main relational construct:
 > **tu'a le cakla cu pluka mi**
 > _The chocolate is pleasing to me._
 
-This allows for the creation of vague nouns with **jai**:
+This allows for the creation of vague argument terms with **jai**:
 
 > **le jai pluka cu zvati ti**
 > _The pleasurable thing is here._
 
 Since **le pluka** (_the pleasant event_) is abstract, it's impossible to specify its location. However, a participant in the abstraction can be physically placed somewhere.
 
-### Places for nouns
+### Places inside arguments
 
 How do we say _You are my friend_ ?
 
@@ -2714,7 +2802,7 @@ And now, how do we say _My friend is smart._?
 > **le pendo be mi cu stati**
 > _My friend is smart._
 
-So when we convert a verb into a noun (**pendo** — _to be a friend_ into **le pendo** — _a friend_), we can still retain other places of that verb by placing **be** after it.
+So when we convert a relation into an argument (**pendo** — _to be a friend_ into **le pendo** — _the friend_), we can still retain other places of that relation by placing **be** after it.
 
 By default it attaches the second place ($x_2$). We can attach more places by separating them with **bei**:
 
@@ -2769,7 +2857,10 @@ However,
 > **mi nelci le bangu be mi**
 > _I like my language._
 
-Using **be** for verbs not converted to nouns has no effect: **mi nelci be do** is the same as **mi nelci do**.
+Using **be** for relations not converted to arguments has no effect: 
+
+> **mi nelci be do** is the same as 
+> **mi nelci do**
 
 ### Relative clauses
 
@@ -2788,7 +2879,7 @@ In the first sentence, the word _that_ is essential to identifying the person in
 
 As for _who is incidentally a friend of mine_ from the second sentence, it just provides additional information about the person. It doesn't help us identify the person. For example, this might happen when all the people around are my friends.
 
-**poi pendo mi** is a relative clause, a relation attached to the right of the noun **le prenu**. It ends just before the next word **cu**:
+**poi pendo mi** is a relative clause, a relation attached to the right of the argument **le prenu**. It ends just before the next word **cu**:
 
 > **le prenu (poi pendo mi) cu tavla mi**
 > _The person that is friend of mine talks to me._
@@ -2825,8 +2916,7 @@ Removing the relative clause with **poi** changes the meaning:
 > **le prenu ze'u renvi**
 > _The people live long._
 
-On the other hand, relative clauses with **noi** contain just additional information about the noun to which they are attached. That noun is sufficiently defined by itself so that removing a relative clause with **noi** doesn't change its meaning:
-
+On the other hand, relative clauses with **noi** contain just additional information about the argument, to which they are attached. That argument is sufficiently defined by itself so that removing a relative clause with **noi** doesn't change its meaning:
 
 > **mi nelci la .doris. noi mi ta'e zgana bu'u le panka**
 > _I like Doris whom I habitually see in the park._
@@ -2862,7 +2952,7 @@ And now let's join those two sentences:
 > **le tricu noi mi klama ke'a cu barda**
 > _The tree, to which I come, is big._
 
-Note the word **ke'a**. We move the second sentence about the same tree into a relative clause and replace the noun **le tricu** with **ke'a** in the relative clause. So the pronoun **ke'a** is like _who_ and _which_ in English. It points back to the noun to which the relative clause is attached.
+Note the word **ke'a**. We move the second sentence about the same tree into a relative clause and replace the argument **le tricu** with **ke'a** in the relative clause. So the pronoun **ke'a** is like _who_ and _which_ in English. It points back to the argument to which the relative clause is attached.
 
 So literally our Lojbanic sentence sounds like
 
@@ -2880,7 +2970,7 @@ So literally our Lojbanic sentence sounds like
 > **mi nelci la .doris. noi mi ta'e zgana ke'a bu'u le panka**
 > _I like Doris whom I habitually see in the park._
 
-Here, **mi** fills the first place of the verb **ta'e zgana** (_… habitually sees …_), thus, **ke'a** is assumed for the next, second place.
+Here, **mi** fills the first slot of the relation **ta'e zgana** (_… habitually sees …_), thus, **ke'a** is assumed for the next, second place.
 
 Relative clauses like usual relations can contain constructs with modal terms:
 
@@ -2899,7 +2989,7 @@ Note that **ca le cabdei** belongs to the relative clause. Compare:
 
 The meaning has changed a lot.
 
-Finally, **voi** is used to form **le**-like nouns but with relative clauses:
+Finally, **voi** is used to form **le**-like arguments but with relative clauses:
 
 > **ti voi le nu ke'a cisma cu pluka mi cu zutse tu**
 > _These ones whose smile pleases me are sitting down._
@@ -2954,7 +3044,7 @@ For all of **poi**, **noi** and **voi** the right border marker is still the sam
 
 ### Short relative clauses. ‘_About_’
 
-Sometimes, you might need to attach an additional noun or pronoun to another noun:
+Sometimes, you might need to attach an additional argument to another argument:
 
 > **mi djuno le vajni pe do**
 > _I know something important about you._
@@ -2962,7 +3052,7 @@ Sometimes, you might need to attach an additional noun or pronoun to another nou
 le vajni
 : something important
 
-**pe** and **ne** are similar to **poi** and **noi**, but they connect nouns (and pronouns) to nouns:
+**pe** and **ne** are similar to **poi** and **noi**, but they attach arguments to arguments:
 
 > **le pa penbi pe mi cu xunre**
 > _The pen that is mine is red._ <span>(_mine_ is essential to identifying the pen in question)</span>
@@ -2973,10 +3063,10 @@ le vajni
 > _The pen, which is mine, is red._ <span>(additional information)</span>
 
 ne
-: which is about, has relation to … (a noun/pronoun follows)
+: which is about, has relation to … (an argument follows)
 
 pe
-: that is about, has relation to … (a noun/pronoun follows)
+: that is about, has relation to … (an argument follows)
 
 > **le pa penbi ne mi ge'u .e le pa fonxa ne do cu xunre**
 > _The pen, which is mine, and the phone, which is yours, are red._
@@ -2986,36 +3076,36 @@ ge'u
 
 ### «**be**» and «**pe**»
 
-Note that relative clauses are attached to nouns, while **be** is a part of the verb.
+Note that relative clauses are attached to arguments, while **be** is a part of the relation.
 
-Actually, **le bangu pe mi** is a better translation of _my language_, since, like in English, the two nouns are related to each other in a vague way.
+Actually, **le bangu pe mi** is a better translation of _my language_, since, like in English, the two arguments are related to each other in a vague way.
 
 However, you can say **le birka be mi** as _my arm_. Even if you saw off your arm, it will still be yours. That's why **birka** has a place of the owner:
 
 birka
 : $x_1$ is an arm of $x_2$
 
-Let's show once again that a construct with **be** is a part of the verb, whereas **pe**, **ne**, **poi** and **noi** attach to nouns:
+Let's show once again that a construct with **be** is a part of the relation, whereas **pe**, **ne**, **poi** and **noi** attach to arguments:
 
 > **le pa melbi be mi fonxa pe le pa pendo be mi cu barda**
 > `The beautiful to me phone of the friend of mine is big.`
 
-Here, **be mi** is attached to the verb **melbi** = _to be beautiful to … (someone)_ and thus creates a new verb **melbi be mi** = _to be beautiful to me_. But **pe le pa pendo be mi** (_of my friend_) is applied to the whole noun **le pa melbi be mi fonxa** (_the beautiful to me phone_).
+Here, **be mi** is attached to the relation **melbi** = _to be beautiful to … (someone)_ and thus creates a new relation **melbi be mi** = _to be beautiful to me_. But **pe le pa pendo be mi** (_of my friend_) is applied to the whole argument **le pa melbi be mi fonxa** (_the beautiful to me phone_).
 
-It can also happen that we need to attach **be** to a verb, transform that verb into a noun and then attach **pe** to that noun:
+It can also happen that we need to attach **be** to a relation, transform that relation into an argument and then attach **pe** to that argument:
 
 > **le pa pendo be do be'o pe la .paris. cu stati**
 > _The friend of yours who is related to Paris is smart._
+> (**pe la .paris.** is attached to the whole argument **le pa pendo be do be'o**)
 
 <!-- -->
 
 > **le pu plicru be do bei le pa plise be'o pe la .paris. cu stati**
 > _Who gave you the apple (and who is related to Paris) is smart._
+> (**pe la .paris.** is attached to the whole argument **le pu plicru be do bei le pa plise be'o**)
 
 be'o
-: right border marker for the string of nouns attached with **be** and **bei**
-
-In these examples, **pe la .paris.** is attached to the whole noun **le pa pendo be do be'o** and to the whole noun **le pu plicru be do bei le pa plise be'o**.
+: right border marker for the string of terms attached with **be** and **bei**
 
 In these two examples, your friend has some relation to Paris (maybe, he/she is from Paris).
 
@@ -3033,7 +3123,7 @@ In these last two examples, however, either you are related to Paris or the appl
 
 ### ‘_Alice is a teacher_’ and ‘_Alice is the teacher_’
 
-In English, the verb _is, are, to be_ makes a noun work like a verb. In Lojban, even such concepts as _cat_ (**mlatu**), _person_ (**prenu**), _house_ (**dinju**), _home_ (**zdani**) function like verbs by default. Only pronouns work as nouns.
+In English, the verb _is, are, to be_ makes a noun work like a verb. In Lojban, even such concepts as _cat_ (**mlatu**), _person_ (**prenu**), _house_ (**dinju**), _home_ (**zdani**) function like verbs (relations) by default. Only pronouns work as arguments.
 
 However, here are three cases:
 
@@ -3046,7 +3136,7 @@ However, here are three cases:
 > _Alice is one of the teachers._
 
 me
-: … is among …, … is one of …, … are members of … (noun follows)
+: … is among …, … is one of …, … are members of … (argument follows)
 
 > **la .alis. ta'e ctuca**
 > _Alice habitually teaches._
@@ -3060,7 +3150,7 @@ ta'e
 du
 : … is identical to …
 
-The particle **me** takes a noun after it and indicates that there are likely other teachers, and Alice is one among them.
+The particle **me** takes an argument after it and indicates that there are likely other teachers, and Alice is one among them.
 
 The particle **du** is used when Alice is, for example, the teacher that we have been searching for or talking about. It indicates identity.
 
@@ -3088,7 +3178,7 @@ Other examples:
 > **la .alis. cu penmi le prenu noi du la .abdul.**
 > _Alice met the person, namely Abdul._
 
-When using **me**, you can connect several nouns with _and_:
+When using **me**, you can connect several arguments with _and_:
 
 > **tu me le pendo be mi be'o .e le tunba be mi**
 > _Those are some (or all) of my friends and my siblings._
@@ -3096,7 +3186,7 @@ When using **me**, you can connect several nouns with _and_:
 tunba
 : $x_1$ is a sibling of $x_2$
 
-### Modal particles inside nouns
+### Relations with modal particles
 
 We can place a modal particle not only before the main relation construct of the sentence but also at the end of it, producing the same result:
 
@@ -3128,16 +3218,16 @@ Other examples:
 > **le nu mi klama le pa cmana pu cu pluka**
 > _That I went to a mountain is pleasant._
 
-When not using **nu**, we don't have event relations. Nouns start with **le** and end with their verb (whether it's a single or a compound verb, with **be** construct in them or not). Thus, we can put term particles before a verb in a noun only before that verb:
+We can also put one or more modal particles as the first element of a relation construct and e.g. use such enriched relation in an argument form:
 
 <pixra url="/assets/pixra/cilre/coha_purdi.svg" caption="le pu kunti tumla ca purdi" definition="What was a desert is now a garden."></pixra>
 
 > **le pu kunti tumla ca purdi**
 > _What was a desert is now a garden._
 
-So **pu** belongs to **le kunti tumla** and **ca** belongs to **purdi** (as **le pu kunti tumla** can't add **ca** at the end).
+**pu** belongs to **le kunti tumla** and **ca** belongs to **purdi** (as **le pu kunti tumla** can't add **ca** at the end).
 
-This doesn't contradict using **be** after the verb since, with **be**, you change the verb: **bangu be mi** is considered one verb.
+<!-- This doesn't contradict using **be** after the verb since, with **be**, you change the verb: **bangu be mi** is considered one verb. -->
 
 Having several modal particles in order is not a problem:
 > **le pu ze'u kunti tumla ca purdi**
@@ -3146,7 +3236,7 @@ Having several modal particles in order is not a problem:
 ze'u
 : modal term: for a long time
 
-Placing term particles after nouns binds them to outer verbs:
+Placing term particles after nouns binds them to outer relations:
 
 <pixra url="/assets/pixra/cilre/cohu_purdi.svg" caption="le kunti tumla pu purdi" definition="The desert was a garden."></pixra>
 
@@ -3154,7 +3244,7 @@ Placing term particles after nouns binds them to outer verbs:
 > **(le kunti tumla) pu purdi**
 > _The desert was a garden._
 
-### New nouns from places of the same verb
+### New arguments from slots of the same relation
 
 > **do plicru mi ti**
 > _You grant me this._
@@ -3167,7 +3257,7 @@ Placing term particles after nouns binds them to outer verbs:
 plicru
 : $x_1$ gives $x_2$ something $x_3$ for use
 
-We can swap the first two places in the verb using **se** and thus change the place structure.
+We can swap the first two places in the relation using **se** and thus change the place structure.
 
 **do plicru mi ti** means exactly the same as **mi se plicru do ti**. The difference is solely in style.
 
@@ -3192,7 +3282,7 @@ xamgu
 > **mi se xamgu le nu mi tadni la .lojban.**
 > _For me, it's good to study Lojban._
 
-The same can be done with nouns:
+The same can be done when relation are used when creating arguments:
 
 le plicru
 : those who give, the givers, the donors, the donators
@@ -3203,17 +3293,17 @@ le se plicru
 le te plicru
 : those objects that are given for use, gifts
 
-**te** swaps the first and third places of verbs.
+**te** swaps the first and third places of relations.
 
-As we know, when we add **le** in front of a verb, it becomes a noun. So
+As we know, when we add **le** in front of a relation construct, it becomes an argument. So
 
 - **le plicru** means _those which could fit in the first place of **plicru**_
 - **le se plicru** means _those which could fit in the second place of **plicru**_
 - **le te plicru** means _those which could fit in the third place of **plicru**_
 
-Thus, in Lojban, we don't need separate words for _donor_, _recipient_, and _gift_. We reuse the same verb and save a lot of effort because of such clever design. Indeed, we can't imagine a gift without implying that someone gave it or will give it. When useful phenomena are interconnected, Lojban reflects this.
+Thus, in Lojban, we don't need separate words for _donor_, _recipient_, and _gift_. We reuse the same relation and save a lot of effort because of such clever design. Indeed, we can't imagine a gift without implying that someone gave it or will give it. When useful phenomena are interconnected, Lojban reflects this.
 
-For the ease of understanding and memorizing predicate words prefixed with **se**, **te** are put into the dictionary in entries for many verbs together with their definitions, although you can figure out their meaning yourself.
+<!-- TODO: DwE: For the ease of understanding and memorizing: predicate words prefixed with **se**, **te** are put into the dictionary in entries for many verbs together with their definitions, although you can figure out their meaning yourself. -->
 
 ### Changing other places in main relations
 
@@ -3244,7 +3334,7 @@ The **mi** has now moved to the third place of the relation and can be dropped i
 > **le mudri cu te zbasu le stizu**  
 > _The piece of wood is the material of the chair._
 
-Similarly to our example with **le se plicru** (_the recipient_) and **le te plicru** (_the gift_), we can use **te**, **ve**, **xe** to derive more words from other places of verbs:
+Similarly to our example with **le se plicru** (_the recipient_) and **le te plicru** (_the gift_), we can use **te**, **ve**, **xe** to derive more words from other places of relation words:
 
 klama
 : $x_1$ goes to $x_2$ from $x_3$ via $x_4$ by means $x_5$
@@ -3270,19 +3360,19 @@ le xe klama
 
 **se** is used more frequently than the other particles for swapping places.
 
-### Free word order: tags for places
+### Free word order: tags for roles in relations
 
-Usually, we don't need all the places of a verb, so we can omit the unnecessary ones by replacing them with **zo'e**. However, we can use _place tags_ to explicitly refer to a needed place. Place tags work like modal particles but deal with the place structure of relations:
+Usually, we don't need all the slots, places of a relation, so we can omit the unnecessary ones by replacing them with **zo'e**. However, we can use _place tags_ to explicitly refer to a needed slot. Place tags work like modal particles but deal with the place structure of relations:
 
 > **mi prami do** is the same as
 > **fa mi prami fe do**
 > _I love you._
 
-- **fa** marks the first place of a verb ($x_1$)
-- **fe** marks the second place ($x_2$)
-- **fi** marks the third place ($x_3$)
-- **fo** marks the fourth place ($x_4$)
-- **fu** marks the fifth place ($x_5$)
+- **fa** marks the argument that fills the first slot of a relation ($x_1$)
+- **fe** marks the argument that fills the second slot ($x_2$)
+- **fi** marks the argument that fills the third slot ($x_3$)
+- **fo** marks the argument that fills the fourth slot ($x_4$)
+- **fu** marks the argument that fills the fifth slot ($x_5$)
 
 More examples:
 
@@ -3331,14 +3421,14 @@ Unlike **se** series, using place tags like **fa** doesn't change the place stru
 
 ---
 
-We can use place tags inside nouns by placing them after **be**:
+We can use place tags inside arguments by placing them after **be**:
 
 > **le pa klama be fi le tcadu cu pendo mi**
 > _The one who comes to the city is my friend._
 
 ---
 
-We may also put all the nouns of one main relation in front of the sentence tail (preserving their relative order). Because of this freedom, we can say:
+We may also put all the arguments of one main relation in front of the sentence tail (preserving their relative order). Because of this freedom, we can say:
 
 > **mi do prami** which is the same as
 > **mi do cu prami** which is the same as
@@ -3442,7 +3532,7 @@ tavla
 > **.e'u mi joi do casnu bu'u su'o da poi drata**
 > _Let's discuss in another place (no particular place in mind)_
 
-### Nouns of existence
+### Arguments of existence
 
 > **pa da poi me le pendo be mi zo'u mi prami da**
 > _There is someone who is a friend of mine, such that I love them._
@@ -3457,7 +3547,7 @@ Thankfully, in Lojban there is a shortcut:
 
 Both sentences mean the same.
 
-Nouns starting with numbers like **pa le pendo** (_there is someone who is a friend of mine_), **ci le prenu** (_there are three people_) may refer to new entities every time they are used. That's why
+Arguments starting with numbers like **pa le pendo** (_there is someone who is a friend of mine_), **ci le prenu** (_there are three people_) may refer to new entities every time they are used. That's why
 
 > **pa le pendo be mi ca tavla pa le pendo be mi**
 > _There is one friend of mine who talks to one friend of mine._
@@ -3470,14 +3560,14 @@ It's more reasonable to say:
 > _The friend of mine is talking to himself/herself._
 
 ri
-: pronoun: refers to the previous noun excluding **mi**, **do**.
+: pronoun: refers to the previous argument excluding **mi**, **do**.
 
-Here, **ri** refers to the previous noun: **le pa pendo** altogether.
+Here, **ri** refers to the previous argument: **le pa pendo** altogether.
 
 Note the difference:
 
 - **da** means _there is something/someone_, **da** always refers to the same entity when used more than once in the same relation.
-- noun like **pa le mlatu** (with a bare number) is similar to using **pa da poi me le mlatu** but it can refer to new entities every time it is used.
+- argument like **pa le mlatu** (with a bare number) is similar to using **pa da poi me le mlatu** but it can refer to new entities every time it is used.
 
 > **mi nitcu le nu pa da poi mikce zo'u da kurju mi**
 > _I need a doctor to take care of me (implying "any doctor will do")._
@@ -3503,7 +3593,7 @@ Compare it to:
 > **le nu pilno le pa bangu kei na ku banzu**
 > _Using the language (the one in question) is not enough._
 
-Nouns of existence are naturally used inside inner relations and with **tu'a**:
+Arguments of existence are naturally used inside inner relations and with **tu'a**:
 
 > **mi djica le nu mi citka pa le plise**
 > _I want to eat an apple, some apple._
@@ -3628,7 +3718,7 @@ How then can we express the other interpretation, in which just two children are
 
 Although we have now limited the number of children to exactly two, we end up with an indeterminate number of friends, ranging from three to six. This distinction is called a “scope distinction”: in the first example, **ci da poi me le pendo** is said to have a wider scope than **re de poi me le verba**, and therefore precedes it in the prenex. In the second example, the reverse is true.
 
-To make the scope equal, we use a special conjunction **ce'e** connecting two nouns:
+To make the scope equal, we use a special conjunction **ce'e** connecting two terms:
 
 > **ci da poi me le pendo ce'e re de poi me le verba cu tavla**
 > **ci le pendo ce'e re le verba cu tavla**
@@ -3664,7 +3754,7 @@ Now compare:
 > _I get widowed._
 > `I become finishing being married.`
 
-If there are several modal particles in one sentence, the rule is that we read them from left to right together, thinking of it as a so-called _imaginary journey_. We begin at an implied point in time and space (the speaker's "now and here" if no noun follows), and then follow the modals one after another from left to right.
+If there are several modal particles in one sentence, the rule is that we read them from left to right together, thinking of it as a so-called _imaginary journey_. We begin at an implied point in time and space (the speaker's "now and here" if no argument is attached to the right), and then follow the modals one after another from left to right.
 
 Let's take **mi mo'u co'a speni**.
 
@@ -3740,7 +3830,7 @@ The rule of reading terms from left to right can be overridden by connecting mod
 > **mi cadzu ba le nu mi citka ce'e pu le nu mi sipna**
 > _I walk after I eat and before I sleep._
 
-### Modal particles + «**da**» + nouns that start with numbers
+### Modal particles + «**da**» + arguments that start with numbers
 
 Like with modal terms, the position of **da** matters:
 
@@ -3783,7 +3873,7 @@ Did you catch the difference?
 
 <pixra url="/assets/pixra/cilre/viku_cizra.svg" caption="vi ku ro da cizra" definition="Here, everything is strange."></pixra>
 
-Another example with a noun starting with a number:
+Another example with an argument term starting with a number:
 
 > **pa le prenu ta'e jundi**
 > _There is one person who is habitually attentive._
@@ -3795,7 +3885,7 @@ Another example with a noun starting with a number:
 
 — it is always that one person is attentive. People may change, but there is always one attentive person.
 
-### Generic nouns. ‘I like cats (in general)’. Sets
+### Generic arguments. ‘I like cats (in general)’. Sets
 
 > **mi nelci le'e mlatu**
 > _I like cats._
@@ -3807,7 +3897,7 @@ We've seen **le** being mostly translated as the English _the_. However, in some
 
 I might not have any bananas or apples at hand. I'm simply talking about bananas and apples as I understand, remember, or define them.
 
-To make a noun describing the set of objects or events (from which we derive such a typical element), we use the word **le'i**:
+To make an argument term describing the set of objects or events (from which we derive such a typical element), we use the word **le'i**:
 
 > **le danlu pendo pe mi cu mupli le ka ca da co'a morsi kei le'i mabru**
 > _My pet is an example that at one point mammals die._
@@ -3827,7 +3917,7 @@ ca da
 mupli
 : $x_1$ is an example of $x_2$ (property) among $x_3$ (set)
 
-Dictionaries specify places of verbs that have to be filled with sets.
+Dictionaries specify slots of relations that have to be filled with sets.
 
 ### Masses
 
@@ -3939,7 +4029,7 @@ However:
 > **do jinga sei la .ian. cu gleki**
 > _You won! (And Yan is happy about that!)_
 
-Like with nouns formed using **le**, the relation formed with **sei** must end in a verb.
+Like with arguments formed using **le**, the relation formed with **sei** must end in a relation construct.
 
 > **la .alis. cu prami sei la .bob. cu gleki la .kevin.**
 
@@ -3949,7 +4039,7 @@ Let's add brackets to make it more easily readable.
 > _Alice loves (Bob is happy) Kevin._
 > _Alice loves Kevin (Bob is happy)._
 
-We can add more nouns to the verb with **be** and **bei** as we do for nouns:
+We can of course add more arguments to the relation with **be** and **bei** as we do inside argument terms:
 
 > **do jinga sei mi zausku be fo la fircku**
 > _You won! (I'll post congrats on Facebook)_
@@ -3962,7 +4052,7 @@ zausku
 
 ### Quotation marks
 
-For quoting text, we place the quotation particle **lu** before the quote and place **li'u** after it. The result is a noun representing the quoted text:
+For quoting text, we place the quotation particle **lu** before the quote and place **li'u** after it. The result is an argument representing the quoted text:
 
 > **mi cusku lu mi prami do li'u**
 > _I say "I love you."_
@@ -4021,7 +4111,7 @@ As you can see, **je'u** is not part of his words. It represents your attitude t
 
 Notice the difference between the two examples?
 
-Here are several common verbs related to talking:
+Here are several common relation words related to talking:
 
 > **ra pu retsku lu do klama ma li'u**
 > _She asked, "Where do you go?"_
@@ -4039,7 +4129,7 @@ Here are several common verbs related to talking:
 spuda
 : $x_1$ replies to $x_2$ by doing $x_3$ (property of $x_1$)
 
-The remaining three verbs have identical place structure:
+The remaining three relation words have identical place structure:
 
 cusku
 : $x_1$ expresses/says $x_2$ (quote) to audience $x_3$
@@ -4061,7 +4151,7 @@ spusku
 cmene
 : $x_1$ (quote) is a name of $x_2$ …
 
-To present yourself in Lojban using your Lojbanized name, follow the example above. If your name consists of more than one verb word, use **lu … li'u**:
+To present yourself in Lojban using your Lojbanized name, follow the example above. If your name consists of more than one word, use **lu … li'u**:
 
 > **lu .robin.djonsyn. li'u cmene mi**
 > _Robin Johnson is my name._
@@ -4082,7 +4172,7 @@ The first place of **cmene** is a quote, a text. Therefore, we use **lu … li'u
 
 ### Verbs of speech
 
-Here are some relations related to speech:
+Here are some relations describing speech:
 
 > **mi pu skicu le purdi le pendo be mi lo ka bredi**
 > _I told my friend about my garden being ready._
@@ -4116,7 +4206,7 @@ In short:
 
 ### Content questions
 
-English has seeveral _wh-_ question words — _who_, _what_ etc. In Lojban, we use one word for all of these: **ma**. This is like an instruction to fill in the missing place. For example:
+English has several _wh-_ question words — _who_, _what_ etc. In Lojban, for both of them we use one word: **ma**. This word is an argument (like **mi**, **le prenu** etc.) and it'ss like a suggestion to to fill in the missing place. For example:
 
 > **— do klama ma**
 > **— la .london.**
@@ -4152,9 +4242,11 @@ xabju
 se xabju
 : … (some place) is inhabited by … (someone)
 
-**mo** is similar to **ma**, but it questions the main relation instead of a noun. It's like asking _What does X do?_ or _What is X?_ in English (remember, Lojban doesn't force you to distinguish between being and doing!).
+**mo** is similar to **ma**, but it is a relation word.
 
-We can see **mo** as asking someone to describe the relationship between the nouns in the question.
+**mo** suggests to fill in a relation instead of an argument. It's like asking _What does X do?_ or _What is X?_ in English (Lojban doesn't force you to distinguish between being and doing).
+
+We can see **mo** as asking someone to describe the relationship between the arguments in the question.
 
 > **— do mo**
 > _— How do you do? What's up?_
@@ -4221,10 +4313,16 @@ The answer depends on the context. Possible answers to this question are:
 
 Note once again that the time is not important here: just as **cinba** can mean _kiss_, _kissed_, _will kiss_ and so on, **mo** does not ask a question about any particular time.
 
-To differentiate between _to do_ and _to be someone or something_ we use additional verbs with **ma**:
+If we do want to differentiate between _to do_ and _to be someone or something_ we use additional relations:
 
 > **la meilis cu zukte ma**
 > `Mei Li does what?`
+> _What does Mei Li do?_
+
+> **le ka lumci**
+> _cleaning._
+
+<!-- -->
 
 > **la meilis cu zukte le ka lumci**
 > _Mei Li is does cleaning._
@@ -4301,7 +4399,7 @@ Using modal terms with **ma** can give us other useful questions:
 <td>
 </td></tr></tbody></table>
 
-**pe ma** is attached only to nouns:
+**pe ma** is attached only to arguments:
 
 > **le penbi pe ma cu zvati le jubme**
 > _Whose pen is on the table?_
@@ -4417,7 +4515,7 @@ Alternatively, you can make it shorter:
 
 The combination **se du'u** allows the expression of indirect speech.
 
-Here are some examples of verbs related to talking when using reported speech:
+Here are some examples of relations useful for reported speech:
 
 > **le ninmu pu retsku le se du'u mi klama ma kau**
 > _She asked where I was going._
@@ -4536,7 +4634,7 @@ You can add or remove interjections to or from a sentence without the risk of br
 
 Any word that starts with a pure vowel (excluding **u** and **i** before vowels) is prefixed with a dot in Lojban in writing and with a pause in speech. So, the correct spelling is **.a'o** and so on. It's common to omit dots in writing. However, while speaking, you should always show this dot by making a short pause before saying such a word to prevent merging two neighboring words together into one.
 
-Like with **xu** or **sei**-relations, we can add interjections after any noun, pronoun, or verb, thus expressing our attitude towards that part of the sentence.
+Like with **xu** or **sei**-relations, we can add interjections after any argument or relation construct, thus expressing our attitude towards that part of the sentence.
 
 ### Urging interjections
 
@@ -5353,7 +5451,7 @@ In English we say _Сan you see_, in Lojban we say just **xu do viska** — _You
 
 ----
 
-Verbs related to perception will be explained after the dialogue.
+Relations describing perception will be explained after the dialogue.
 
 > **viska .i plise**
 > **.i le plise cu xunre .i skari le ka xunre**
@@ -5464,7 +5562,7 @@ le xrula
 > **ju'i la .alis.**
 > _Hey, Alice!.._
 
-In this dialogue, the most important verbs for human senses were used. In the following sections we shall explain their place structures, along with additional verbs and examples.
+In this dialogue, the most important concepts for human senses were touched. In the following sections we shall explain their place structures, along with additional relations and examples.
 
 #### Vision
 
@@ -5592,7 +5690,7 @@ For observing our perceptions we can use **zgana**:
 zgana
 : $x_1$ notices, observes, watches $x_2$. Not limited to vision
 
-Some words can be used with different sensory verbs. For example, we can
+Some arguments can be used with different sensory relations. For example, we can
 
 viska le sefta
 : to see the surface
@@ -5708,7 +5806,7 @@ xunre
 le ciblu
 : the blood
 
-Here are some color examples that align with the English language. You can also use other color verbs, reflecting the way how speakers of different languages typically categorize things.
+Here are some color examples that align with the English language. You can also use other color words, reflecting the way how speakers of different languages typically categorize things.
 
 > **le tsani cu xunre ca le cerni**
 > _The sky is red in the morning._
@@ -5781,7 +5879,7 @@ blanu
 zirpu
 : $x_1$ is violet
 
-Other useful verbs:
+Other useful relations:
 
 > **le gusni be le manku pagbu pu na ku carmi**
 > _The light illuminating dark areas was not intense._
@@ -6129,7 +6227,7 @@ cidni
 je'u
 : interjection: truly
 
-The verbs for names of family members have a similar place structure:
+The words for names of family members have a similar place structure:
 
 speni
 : $x_1$ is a husband/wife of $x_2$
@@ -6332,7 +6430,7 @@ zarci
 
 ### How do modal terms refer to the relation?
 
-Some modal terms, like those that describe time (tense), connect the current relation with the one in the noun after them:
+Some modal terms, like those that describe time (tense), connect the current relation with the one in the argument after them:
 
 > **mi cadzu ca le nu le cipni cu vofli**
 > _I walk when the birds fly._
@@ -6368,7 +6466,7 @@ Modal terms don't remove ordered places (**fa**, **fe**, **fi**, **fo**, **fu**)
 
 In the first example, **se ka'a** connects **le rirxe** and then the second place of **klama** follows, being filled with **le dinju**. It's the same as just filling the second place of **klama** two times, connecting them with **.e** — _and_.
 
-However, **se ka'a** is useful when applied to other verbs like **cadzu** in a previous example.
+However, **se ka'a** is useful when applied to other relations like **cadzu** in a previous example.
 
 > **le prenu pu cadzu tai le nu ri bevri su'o da poi tilju**
 > _The person walked as if he was carrying something heavy._
@@ -6460,16 +6558,17 @@ Or instead we compare Bob with Mary in how they like Betty?
 
 English is ambiguous in this regard.
 
-However, **se mau** always compares the noun after it with the first place of the relation we know what we get:
+In Lojban, we can differentiate the two meanings by attaching **se mau** to suitable arguments:
 
 > **la .bob. ne se mau la .maris. cu nelci la .betis.**
-> **la .bob. cu nelci la .betis. se mau la .maris.**
 > _Bob (compared to Mary) likes Betty more. Mary likes Betty less._
+> _Bob likes Betty more than Mary._
 
 <!-- -->
 
-> **la .betis. cu se nelci la .bob. se mau la .maris.**
-> _Betty is loved by Bob more than Mary. Bob likes Mary less._
+> **la .bob. cu nelci la .betis. ne se mau la .maris.**
+> _Bob likes Betty, and he like Mary less._
+> _Bob likes Betty more than Mary._
 
 ### Comparisons: ‘_equal_’, ‘_the same_’
 
@@ -6487,7 +6586,7 @@ du
 
 **dunli** compares two places for a single property, while **du** compares for identity. My sister and I are the same height, but we are not the same person. Clark Kent and Superman have different admirers, but they are the same person.
 
-The same goes for another two verbs:
+The same goes for these two verbs:
 
 > **We differ from each other in what we like.**
 > _I differ from you in liking what._
@@ -6659,7 +6758,7 @@ zarci
 > **mi pu re roi klama le zarci**
 > _I went to the market twice._
 
-Without **pu**, the construct **re roi** may mean that I went to the market once but the second time I will be there will only happen in the future. These time-related particles can be used with a noun after them:
+Without **pu**, the construct **re roi** may mean that I went to the market once but the second time I will be there will only happen in the future. These time-related particles can be used with an argument after them:
 
 > **mi klama ti pa roi le jeftu**
 > _I come here once a week._
@@ -6730,7 +6829,7 @@ re re'u
 
 Bare terms without arguments after them can be moved around the sentence by adding **ku** after them.
 
-**ku** prevents the following nouns from attaching to such terms. Compare:
+**ku** prevents the following argument terms from attaching to such terms. Compare:
 
 > **ca le nu tcidu cu nandu**
 > _When reading, it's difficult._
@@ -6747,12 +6846,12 @@ Here are several places where modal particles can go.
   > **ca le cabdei mi citka**
   > _Today I eat._
 
-  — here the term has a noun after it as its argument.
+  — here the term has an argument after it.
 
   > **mi ca citka**
   > _I now eat._
 
-  — here the modal particle is a part of the main relation construct and without a noun.
+  — here the modal particle is a part of the main relation construct and without an argument.
 
 - Modal term is applied to the whole relation:
 
@@ -6855,7 +6954,7 @@ It is perfectly okay for these pronouns to appear more than once in the same sen
 > **da zo'u da prami da**
 > _There is **da** such that **da** loves **da**. There is someone who loves himself/herself._
 
-It is not necessary for a pronoun to be the direct noun of the relation:
+It is not necessary for a pronoun to be the direct argument of the relation:
 
 > **da zo'u le gerku pe da cu viska mi**
 > _There is **da** such that the dog of them sees me. Somebody's dog sees me._
@@ -6964,7 +7063,7 @@ Scope is created only by:
 
 - borders of relations,
 - modal terms and modal particles of the main relation construct,
-- nouns starting with numbers (like **pa le prenu** — _one of the persons_).
+- argument terms starting with numbers (like **pa le prenu** — _one of the persons_).
 <!-- - discursive interjections **po'o**, **ji'a**. -->
 
 **da**, **de**, **di** if used without a prenex and without an explicit number in front are meant to mean **su'o da**, **su'o de**, **su'o di** and thus also create scope.
@@ -6977,7 +7076,7 @@ Thus, the relative order of such constructs changes the meaning:
 > **ca ku pa le prenu ca zvati**
 > _Now there is one person._
 
-Scope isn't relevant for verbs and nouns starting with **le** (like **le prenu** or **le re prenu**). Both these sentences mean the same:
+Scope isn't relevant for relation constructs and for arguments starting with **le** (like **le prenu** or **le re prenu**). Both these sentences mean the same:
 
 > **le prenu ca ku zvati le zdani**
 > **ca ku le prenu cu zvati le zdani**
@@ -7015,7 +7114,7 @@ Lojban tenses treat time and space the same. Saying that _I worked a long time a
 
 ### Points in time and place
 
-A modal particle without a noun following it describes the event as relative to _here_ and _now_:
+A tense modal particle without an argument following it describes the event as relative to _here_ and _now_:
 
 > **mi pinxe ba**
 > **mi ba pinxe**
@@ -7027,7 +7126,7 @@ A modal particle without a noun following it describes the event as relative to 
 > **mi bu'u pinxe**
 > _I drink at this place._
 
-A modal term with a noun following it describes the event as relative to the event in that noun:
+A tense modal term with an argument following it describes the event as relative to the event in that argument:
 
 > **mi pinxe ba le nu mi cadzu**
 > _I drink after I walk._
@@ -7749,7 +7848,7 @@ We can spell words using these names. For example, CNN will be **cy. ny. ny.**
 
 ### Letters instead of ‘_he_’ and ‘_she_’
 
-A string of one or more letter names can function as a pronoun, providing an alternative method for referring to previously mentioned nouns and names in speech.
+A string of one or more letter names can function as a pronoun, providing an alternative method for referring to previously mentioned arguments in speech.
 
 > **la .alis. pu klama le nurma .i le nurma cu melbi la .alis.**
 > **la .alis. pu klama le nurma .i ri melbi la .alis.**
@@ -7760,14 +7859,14 @@ A string of one or more letter names can function as a pronoun, providing an alt
 
 All the Lojban variants above have the same meaning.
 
-Since the first letter in **.alis.** is **a** (ignoring the dot) and the first letter in **nurma** is **n**, we can use letter words to refer to those nouns correspondingly:
+Since the first letter in **.alis.** is **a** (ignoring the dot) and the first letter in **nurma** is **n**, we can use letter words to refer to those arguments correspondingly:
 
 - **.a bu** refers to **la .alis.**
 - **ny.** refers to **le nurma**
 
-This method might be more convenient than English _he_ or _she_, or even Lojban **ri** or **ra**. It allows us to make speech more concise yet precise, without having to repeat potentially long names or nouns repeatedly.
+This method might be more convenient than English _he_ or _she_, or even Lojban **ri** or **ra**. It allows us to make speech more concise yet precise, without having to repeat potentially long names or other argument terms repeatedly.
 
-However, it's important to note that there may be situations where we want to refer back to, for example, **le nurma**, but another noun or name starting with **n** appears in the meantime, making **ny.** unable to refer to the rural area. In such cases, the quickest solution is to repeat the entire noun or name, i.e., say **le nurma**:
+However, it's important to note that there may be situations where we want to refer back to, for example, **le nurma**, but another argument starting with **n** appears in the meantime, making **ny.** unable to refer to the rural area. In such cases, the quickest solution is to repeat the entire argument, i.e., say **le nurma**:
 
 > **bu'u le nurma la .alis. pu penmi la .nik. i ri se zdani bu'u le nurma**
 > _In the country, Alice met Nick. He has his home in the country._
@@ -7778,7 +7877,7 @@ zdani
 se zdani
 : … has a home …, … lives in …
 
-If a name consists of several cmevla, you can use the first letters of them to refer to that name. The same applies to compound verbs:
+If a name consists of several cmevla, you can use the first letters of them to refer to that name. The same applies to compound relations:
 
 > **la .djan.smit. cu citka le glare stasu .i dy.sy. nelci fy.sy.**
 > _John Smith is eating the hot soup. He likes it._
@@ -7855,7 +7954,7 @@ cliva
 Earlier, we learned about the pronoun **ri**:
 
 ri
-: pronoun: refers to the previous noun or pronoun that just finished (skipping stable pronouns like **mi**, **do**, words for _we_)
+: pronoun: refers to the previous argument that just finished (skipping stable pronouns like **mi**, **do**, words for _we_)
 
 > **mi catlu le nanmu .i ri melbi**
 > _I look at the man. He is handsome._
@@ -7863,7 +7962,7 @@ ri
 melbi
 : $x_1$ is beautiful / pretty / handsome to someone $x_2$
 
-**ri** refers to the previous completed noun used in text or someone's speech:
+**ri** refers to the previous completed argument used in text or someone's speech:
 
 > **la .alis. cu sipna bu'u le sledi'u pe la .alis.**
 > _Alice sleeps in Alice's room._
@@ -7871,23 +7970,23 @@ melbi
 
 > **la .alis. cu sipna bu'u le sledi'u pe ri**
 > _Alice sleeps in her room._
-> `Alice sleeps in the room of [previous noun].`
+> `Alice sleeps in the room of [previous argument term].`
 
 sledi'u
 : $x_1$ is a room for purpose $x_2$ (proposition)
 
-The **ri** is equivalent to repeating the last noun or name, which is **la .alis.** here.
+The **ri** is equivalent to repeating the last argument, which is **la .alis.** here.
 
-One aspect to notice is that **ri** does not repeat **le sledi'u pe ri** (which is also a noun), because **ri** is a part of that noun and therefore that noun is not "previous", not finished yet when **ri** appears. This prevents **ri** from making it recursively refer to itself.
+One aspect to notice is that **ri** does not repeat **le sledi'u pe ri** (which is also an argument), because **ri** is a part of that argument and therefore that argument is not "previous", not finished yet when **ri** appears. This prevents **ri** from making it recursively refer to itself.
 
 Another example:
 
 > **le du'u le prenu cu melbi cu se djuno ri**
 > _That the person is pretty is known to herself._
 
-The **ri** refers to **le prenu** (and not **le du'u le prenu cu melbi** although both nouns are complete: **le prenu** starts last, after the start of **le du'u le prenu cu melbi**).
+The **ri** refers to **le prenu** (and not **le du'u le prenu cu melbi** although both arguments are complete: **le prenu** starts last, after the start of **le du'u le prenu cu melbi**).
 
-Relation inside **sei** forms a parallel text. **ri** skips nouns inside **sei**-relations:
+Relation inside **sei** forms a parallel text. **ri** skips arguments inside **sei**-relations:
 
 > **mi viska la .lukas. sei la .doris. pu cusku .i ri jibni la .micel.**
 > _I see Lucas, — Doris said. He is near Michelle._
@@ -7910,7 +8009,7 @@ lumci
 However:
 
 - the pronouns **ti**, **ta**, **tu** are picked up by **ri** because you might have changed what you are pointing at, so repeating **tu** may not be effective.
-- similarly, **ri** itself (or rather, its antecedent) can be repeated by a later **ri**. In fact, a string of **ri** words with no other intervening nouns will always repeat the same noun:
+- similarly, **ri** itself (or rather, its antecedent) can be repeated by a later **ri**. In fact, a string of **ri** words with no other intervening arguments will always repeat the same argument:
 
   > **la .alis. cu catlu le nanmu .i ri melbi .i ri co'a zgana .a bu**
   > _Alice notices a man. He is handsome. He notices Alice._
@@ -7923,7 +8022,7 @@ co'a zgana
 
 In this example, the second **ri** has the first **ri** as its antecedent, which in turn has **le nanmu** as its antecedent. All three refer to the same thing: the man.
 
-Ultimately, you decide what, where, and when to use in speech: the method with **le**+verb words, the method with letter names, or with **ri**.
+Ultimately, you decide what, where, and when to use in speech: the method with **le** + relation, the method with letter names, or with **ri**.
 
 <!-- ### "_Myself, themselves_"
 
@@ -8013,7 +8112,7 @@ It means the same as:
 > _Alice comes to the bar. She sees a man._
 
 - **le go'i** refers to the first place of the previous relation.
-  - **go'i** presents yet another way of referring back to a noun that we need.
+  - **go'i** presents yet another way of referring back to an argument that we need.
 - **le se go'i** refers to the second place of the previous relation.
 - **le te go'i** refers to the third place, and so on.
 
@@ -8040,7 +8139,7 @@ However, in most cases, **ri** or letter words can be used:
 > **la .bil. cu viska la .nik. i ny. darxi by.**
 > _Bill saw Nick. Nick hit Bill._
 
-**go'i** itself is a verb, and it thus has a place structure:
+**go'i** itself is a relation word, and it thus has a place structure:
 
 > **mi tatpi .i do ji'a go'i**
 > _I'm tired. And you too._
@@ -8388,9 +8487,9 @@ describes abilities dependent on actions of participants.
 
 **li** that we saw earlier is similar to **le** but it starts a mathematical expression (or just a number or a timestamp).
 
-Note that **li re su'i ci** (_2+3_) is considered a single expression and treated as one noun.
+Note that **li re su'i ci** (_2+3_) is considered a single expression and treated as one argument.
 
-**du** is a verb and means _to be equal to_.
+**du** is a relation word and means _… is equal to …_.
 
 - **su'i** means _plus_.
 - **vu'u** means _minus_.
@@ -8446,7 +8545,7 @@ ci moi
 ro moi
 : $x_1$ is last among $x_2$ (set)
 
-Verbs can also be used instead of numbers:
+Relations can also be used instead of numbers:
 
 me mi moi
 : $x_1$ is mine
@@ -8454,7 +8553,7 @@ me mi moi
 me do moi
 : $x_1$ is yours
 
-In this case, we had to convert pronouns to verbs using **me**.
+In this case, we had to convert pronouns to relations using **me**.
 
 > **le prenu cu pa moi le'i se prami be mi**
 > _He is my first love._
@@ -8477,7 +8576,7 @@ In this case, we had to convert pronouns to verbs using **me**.
 <!-- -->
 
 > **tu me mi moi le'i stizu**
-> **tu me mi moi stizu** (using a compound verb, tanru for conciseness)
+> **tu me mi moi stizu** (using a compound relation for conciseness)
 
 > _That's my place._
 
@@ -8520,10 +8619,10 @@ There is also another method that retains the same order of words as in English:
 > **ko jai gau kalri fai le canko**
 > _Open the window!_
 
-Here, we transform the verb **kalri** — _to be open_ into a verb:
+Here, we transform the relation **kalri** — _to be open_ into a new relation:
 
-**jai gau kalri**:
-- to open something
+**jai gau kalri**
+: to open something
 
 The first place of **kalri** can be shown by using a place tag **fai**.
 
@@ -8549,7 +8648,7 @@ Some more variations:
 > **ko jai gau muvdu fai le karce fe ti**
 > _Move the car here!_
 
-**muvdu** — _moves to some place_ is transformed into a new verb **jai gau muvdu** — _to move something or someone to some place_.
+**muvdu** — _moves to some place_ is transformed into a new relation **jai gau muvdu** — _to move something or someone to some place_.
 
 **muvdu**:
 - $x_1$ moves to $x_2$ from $x_3$ via $x_4$
@@ -8808,7 +8907,7 @@ The difference between these is in the number of imaginary situations we take in
 
 ### Possibility implied in places of relations
 
-Some verbs have **da'i** implied in some of their places when you don't use **da'i** explicitly:
+Some relations have **da'i** implied in some of their slots when you don't use **da'i** explicitly:
 
 > **mi pacna le nu do ba pluka sipna**
 > _I hope you will have a pleasant sleep._
@@ -8833,7 +8932,7 @@ pacna
 kanpe
 : $x_1$ expects $x_2$ (possible event) with expected likelihood $x_3$ (a number from 0 till 1, the default value is **li so'a**, i.e. near 1)
 
-Unlike **pacna**, the verb **kanpe** doesn't necessarily imply hope or wish. It can describe impartial expectation, subjective evaluation of the probability of a situation.
+Unlike **pacna**, the relation **kanpe** doesn't necessarily imply hope or wish. It can describe impartial expectation, subjective evaluation of the probability of a situation.
 
 > **cumki fa le nu do jinga**
 > _It is possible that you win._
@@ -8952,7 +9051,7 @@ senpi
 
 Logical conjunctions in Lojban are based on 4 primitive ones: **.a**, **.e**, **.o**, **.u**. In this lesson, we'll cover them in detail.
 
-### Logical conjunctions for nouns
+### Logical conjunctions for arguments
 
 Here are the conjunctions combining two words: _this_ and _that_.
 
@@ -8989,7 +9088,7 @@ Placing **nai** after a conjunction negates what is to the right of it. Placing 
   >_I like Bob but not Alice._
   >`I like Bob and not Alice`
 
-  We can also say **ti .e nai ku'i ta** (_this but not that_) adding a flavor of contrast for the second noun.
+  We can also say **ti .e nai ku'i ta** (_this but not that_) adding a flavor of contrast for the second argument.
 
 - **ti na .e ta** = _not this but that_
 
@@ -8997,7 +9096,7 @@ Placing **nai** after a conjunction negates what is to the right of it. Placing 
   >_I don't like Alice but I do like Bob._
   >`I like Alice not and Bob`
 
-  This may sound a bit weird for English speakers (`I like Alice not…`) so you might prefer to swap the nouns and use **.e nai** instead: **mi nelci la .bob. e nai la .alis.** or even **mi nelci la .bob. i mi na ku nelci la .alis.** will mean the same.
+  This may sound a bit weird for English speakers (`I like Alice not…`) so you might prefer to swap the arguments and use **.e nai** instead: **mi nelci la .bob. e nai la .alis.** or even **mi nelci la .bob. i mi na ku nelci la .alis.** will mean the same.
 
 - **ti na .e nai ta** = _neither this nor that (none)_
 
@@ -9027,9 +9126,9 @@ Negating with other primitive conjunctions might not look intuitively usable, yo
 
 <!-- **se** is used only for **.u** because in other cases it leads to no effect in meaning. -->
 
-These are used for connecting nouns. For connecting parts of compound verbs we use similar conjunctions: **ja**, **je**, **jo**, **ju**. So instead of the dot (pause) we use **j** here.
+These are used for connecting arguments. For connecting parts of compound relations we use similar conjunctions: **ja**, **je**, **jo**, **ju**. So instead of the dot (pause) we use **j** here.
 
-<!-- It's common to use **ja**, **je**, **jo**, **ju** for connecting nouns too. -->
+<!-- It's common to use **ja**, **je**, **jo**, **ju** for connecting arguments too. -->
 
 ### Logical conjunctions for sentences
 
@@ -9076,7 +9175,7 @@ Notice how we Lojbanize the name "Romeo": the combination "eo" is impossible in 
 
 Note that **da** refers to the same entity when several sentences are connected.
 
-### Logical conjunctions for compound verbs
+### Logical conjunctions inside compound relations
 
 > **le melbi xunre fonxa**
 > _beautifully red phones_
@@ -9101,7 +9200,7 @@ This might be explained if, for example, I find the qualities of humor and good 
 > **mi nelci ro tu voi xajmi ju melbi nanmu**
 > _I like all persons who are funny (whether or not beautiful)._
 
-And once again, we shouldn't forget the difference between connecting nouns and connecting parts of compound verbs:
+And once again, we shouldn't forget the difference between connecting arguments and connecting parts of compound relation constructs:
 
 > **mi ba vitke le pa pendo .e le pa speni**
 > _I will visit a friend and a spouse._
@@ -9119,11 +9218,11 @@ The last Lojban sentence means that the friend is also a spouse.
 > _I played soccer, went home, ate the banana._
 
 uantida
-: a non-official verb: $x_1$ plays the game, participates in the game $x_2$
+: non-official relation: $x_1$ plays the game $x_2$, participates in the game $x_2$
 
-**gi'e** connects several relations into one with some nouns shared. Look at this: It expands into **pu ku mi kelci la .soker. i je pu ku mi klama le zdani** … which would be lengthier.
+**gi'e** connects several relations into one with some terms shared. Look at this: It expands into **pu ku mi kelci la .soker. i je pu ku mi klama le zdani** … which would be lengthier.
 
-With **gi'e**, we keep the head of the relation constant and specify nouns after each of the verbs (**kelci la .soker.**, **klama le zdani** …).
+With **gi'e**, we keep the head of the relation constant and specify terms after each of the relation construct (**kelci la .soker.**, **klama le zdani** …).
 
 Thus, when using **gi'e**, we have several relations in the tail joined together but having a common head.
 
@@ -9148,7 +9247,7 @@ Note that tenses as terms and tenses attached to the main relation of the relati
 
   Here, **ba'o** is applied to **citka le badna gi'e pinxe**.
 
-- A tense word that is a part of the verb is applied to that relation only:
+- A tense word that is a part of the relation is applied to that relation only:
 
   > **mi ba'o citka le badna gi'e pinxe**
   > _I no longer eat the banana, but I do drink._
@@ -9208,7 +9307,7 @@ It is also possible to use conjunctions when replying:
 
 > **na .e nai** — _Neither_ (not the first and not the second one is chosen)
 
-You can ask questions in the same way about the other kinds of conjunctions we have looked at. The interrogative conjunction for relation tails is **gi'i**, for compound verbs — **je'i**, for sentences — **.i je'i**.
+You can ask questions in the same way about the other kinds of conjunctions we have looked at. The interrogative conjunction for relation tails is **gi'i**, for compound relations — **je'i**, for sentences — **.i je'i**.
 
 Indirect questions are achieved by using **ji kau**:
 
@@ -9242,14 +9341,14 @@ Once the visitor answers, the waiter knows whether the visitor wants to eat lamb
 > **go nai do gi mi**
 > _Either you or I_
 
-The forethought conjunction **ge** means _and_, but it's placed before the first noun, with **gi** separating the two nouns. This series is parallel to other conjunctions: **ga**, **ge**, **go**, **gu**, as well as **ga nai**, **ge nai**, **go nai**, etc. The separator **gi** is the same for all of them.
+The forethought conjunction **ge** means _and_, but it's placed before the first argument term, with **gi** separating the two arguments. This series is parallel to other conjunctions: **ga**, **ge**, **go**, **gu**, as well as **ga nai**, **ge nai**, **go nai**, etc. The separator **gi** is the same for all of them.
 
 Using these conjunctions is a matter of convenience:
 
 > **mi citka ge nai le badna gi le plise**
 > _I eat not the banana but the apple._
 
-Here, like in English, _not_ is stated before the first noun.
+Here, like in English, _not_ is stated before the first argument.
 
 **ge** and words in this series can also be used for connecting relations:
 
@@ -9569,14 +9668,14 @@ In such cases, **pe** can even be omitted:
 > **le gerku pe mi**
 > _My dog_
 
-Thus, "**le** + noun + verb" is equivalent to "**le** + verb + **pe** + noun".
+Thus, "**le** + argument + relation construct" is equivalent to "**le** + relation construct + **pe** + argument".
 
 A few rules:
 
-- if you want to use a noun converted from a verb (for example, with **le**) or a name, it is advisable to use **pe** and place it after the noun: **le gerku pe la .alis.** (_Alice's dog_).
+- if you want to use an argument converted from a relation (for example, with **le**) or if it's a name, it is advisable to use **pe** and place it after the argument: **le gerku pe la .alis.** (_Alice's dog_).
 - omitting **pe** is acceptable only when using pronouns without numbers in front of them: **le do gerku** (_your dog_) but not **le pa do gerku** (= **le pa do cu gerku** = _one of you is a dog_).
 
-It is much safer to use **pe** explicitly and place it after the noun to which it is attached: **le gerku pe la .alis.** and **le gerku pe mi** are the most intuitive constructs.
+It is much safer to use **pe** explicitly and place it after the argument to which it is attached: **le gerku pe la .alis.** and **le gerku pe mi** are the most intuitive constructs.
 
 ### Quoting text in different languages
 
@@ -9618,7 +9717,7 @@ Internationally known names which can more easily be recognized by spelling rath
 
 Using **la'o** for all names rather than adapting them to Lojban, however, can make for a cumbersome text.
 
-Everything expressed in text should also be expressed in speech and vice versa. Therefore, there cannot be any punctuation which is not pronounced. This means that Lojban has a wide range of words to quote other words. All Lojban convert a text into a noun.
+Everything expressed in text should also be expressed in speech and vice versa. Therefore, there cannot be any punctuation which is not pronounced. This means that Lojban has a wide range of words to quote other words. All Lojban convert a text into an argument term.
 
 **lu** … **li'u** quote only text that is grammatically correct. To quote any Lojban text, we use **lo'u** … **le'u** quotes instead.
 
@@ -9647,7 +9746,7 @@ le ba'o tricu
 
 ### Internal terms
 
-Using **be**, you can attach not only the default places of verbs but also terms:
+Using **be**, you can fill in not only slots of relations but also add modal terms:
 
 > **le xatra be de'i li vo cu se mrilu de'i li ze**
 > _This letter, dated the 4th, is mailed on the 7th_
@@ -9660,11 +9759,11 @@ A date tagged with **de'i** applies only to the **xatra**. Compare:
 > **le xatra de'i li vo cu se mrilu de'i li ze**
 > _The letter on the 4th is mailed on the 7th_ (whatever that can mean)
 
-Without **be**, the term **de'i li vo** would apply to the whole relation, not to **xatra**. What we want to say is that the former date applies just to the letter, and the latter date applies to the mailing of the letter. This means that the 4th, as a date, applies only to the verb **le xatra**, and not to the entire relation.
+Without **be**, the term **de'i li vo** would apply to the whole relation, not to **xatra**. What we want to say is that the former date applies just to the letter, and the latter date applies to the mailing of the letter. This means that in **le xatra be de'i li vo** the part **de'i li vo** (_the 4th, as a date_), applies only to the argument **le xatra**, and not to the entire sentence.
 
-### Compound verbs in detail
+### Compound relations in detail
 
-The grouping of terms in Lojban grammar is particularly important when it comes to tanru (compound verbs). The way verbs group together in a tanru determines what that tanru means. For example,
+The grouping of terms in Lojban grammar is particularly important when it comes to tanru (compound relations). The way relations group together in a tanru determines what that tanru means. For example,
 
 > _the bad music magazine_
 
@@ -9672,7 +9771,7 @@ has two interpretations in English: a bad magazine about music or a magazine abo
 
 > **le xlali zgike karni**
 
-has only the interpretation _a bad-music magazine_, because the first two verbs (_xlali zgike_ — _bad music_) group together first. It is important to modify the grouping of verbs to ensure the tanru conveys the intended meaning. For that reason, Lojban has a couple of mechanisms in place for making tanru group together properly.
+has only the interpretation _a bad-music magazine_, because the first two relations (_xlali zgike_ — _bad music_) group together first. It is important to modify the grouping of relations to ensure the tanru conveys the intended meaning. For that reason, Lojban has a couple of mechanisms in place for making tanru group together properly.
 
 In English, we use brackets to structure the text. Similarly, for tanru, we use **ke** for the left bracket and **ke'e** for the right bracket.
 
@@ -9683,7 +9782,7 @@ As you can see, we separated **xlali** from the rest of the tanru and made it ap
 > **.i mi pu zi te vecnu le xlali ke zgike karni .i to'e zanru la'o gy.Eurythmics.gy.**
 > _I just bought a bad music-magazine. It dissed the Eurythmics._
 
-That's one way of grouping together verbs in tanru. The other way is to use **bo** in a new role. When **bo** appears between two verbs, it means that those verbs group together more tightly than anything else. So an alternative way of saying _bad {music magazine}_ is
+That's one way of grouping together components in tanru. The other way is to use **bo** in a new role. When **bo** appears between two components, it means that those components group together more tightly than anything else. So an alternative way of saying _bad {music magazine}_ is
 
 le xlali zgike bo karni
 : the bad music-magazine
@@ -9713,9 +9812,9 @@ and
 
 There is no need for **bo** or **ke** with forethought conjunctions.
 
-### «**co**» for changing the order in compound verbs
+### «**co**» for changing the order in compound relations
 
-There is another way of restructuring compound verbs.
+There is another way of restructuring compound relations.
 
 > **mi fanva se jibri**
 > _I'm a professional translator_
@@ -9734,15 +9833,15 @@ dotco
 glico
 : $x_1$ is English
 
-The fact that it was a compound verb could quickly be lost in speech due to the complicated structure of the sentence. Here, we can use the word **co**:
+The fact that it was a compound relation could quickly be lost in speech due to the complicated structure of the sentence. Here, we can use the word **co**:
 
-**co** — inverts the compound verb, making the rightmost verb word modify the leftmost instead of the other way around. Any previous noun fills the modified, any following noun fills the modifier.
+**co** — inverts the compound relation, making the rightmost component modify the leftmost instead of the other way around. Any previous argument term fills the modified, any following argument term fills the modifier.
 
 > **mi se jibri co fanva le dotco le glico**
 
-It is the same relation as the previous Lojban one, but much easier to understand. Notice that any noun before the compound verb fills **se jibri**, while any following it only fills the modifying verb: **fanva**.
+It is the same relation as the previous Lojban one, but much easier to understand. Notice that any argument before the compound relation fills **se jibri**, while any following it only fills the modifying component: **fanva**.
 
-The strength by which two verbs are bound together with **co** is very weak — even weaker than normal compound verb grouping without any grouping words. This ensures that, in a co-construct, the leftmost component is always the verb being modified, and the rightmost component always modifies, even if any of those parts are compound verbs. This makes a co-construct easy to understand:
+The strength by which two components are bound together with **co** is very weak — even weaker than normal compound relation grouping without any grouping words. This ensures that, in a co-construct, the leftmost component is always the component being modified, and the rightmost component always modifies, even if any of those parts are compound relations. This makes a **co**-construct easy to understand:
 
 > **ti pelxu plise co kukte**
 
@@ -9756,16 +9855,16 @@ Another example:
 merko
 : $x_1$ is American (the USA sense)
 
-Here is the list of different kinds of groupers in compound verbs ranked from the tightest to the most loose:
+Here is the list of different kinds of groupers in compound relations ranked from the tightest to the most loose:
 
 1. **bo** and **ke … ke'e**
-2. logical connectives for compound verbs like **je**
+2. logical connectives inside compound relations like **je**
 3. not using grouping words
 4. **co**
 
-### Explicit termination of nouns
+### Explicit termination of arguments
 
-The small word **ku** can be used at the end of a noun to explicitly show its right border. **ku** is analogous to the right bracket in math.
+The small word **ku** can be used at the end of an argument to explicitly show its right border. **ku** is analogous to the right bracket in math.
 
 > **tu du le badna ku ui**
 > **tu du le ui badna**
@@ -9836,7 +9935,7 @@ As you can see, no trick makes the result shorter than the original with **kei**
 _He is the first among my friends who keep silence together._
 _The person is the first among the set of my friends who are now, as a crowd, being silent._
 
-The qualifier word **lu'o** placed before a noun converts it into a mass made of members of that noun. In this case, **ke'a** refers to the set of my friends **le'i pendo be mi** and then **lu'o** converts the members of the set into a mass, the crowd of my friends.
+The qualifier word **lu'o** placed before an argument converts it into a mass made of members of that argument. In this case, **ke'a** refers to the set of my friends **le'i pendo be mi** and then **lu'o** converts the members of the set into a mass, the crowd of my friends.
 
 ### Sets and subsets
 
@@ -9849,7 +9948,7 @@ Some infinitives may imply more than one **ce'u**:
 simxu
 : members of the set $x_1$ reciprocally do $x_2$
 
-The verb **simxu** takes every possible pair from the set specified in place $x_1$ and asserts the relation specified within $x_2$.
+The relation **simxu** takes every possible pair from the set specified in place $x_1$ and asserts the relation specified within $x_2$.
 
 If we have three people, then it would mean all of them love each other.
 
@@ -9858,9 +9957,9 @@ If we have three people, then it would mean all of them love each other.
 > _You, Alice, and I all love each other._
 
 ce
-: conjunction: turns several nouns/pronouns into a set
+: conjunction: joins several arguments into a set
 
-The conjunction **ce** connects nouns and pronouns into a set. Thus, **do ce la .alis. ce mi** might be a more verbose way of **le'i prenu** from the previous example when we want to name the members of the set.
+The conjunction **ce** merges arguments into a set. Thus, **do ce la .alis. ce mi** might be a more verbose way of **le'i prenu** from the previous example when we want to name the members of the set.
 
 In total, we assert 6 relations:
 

@@ -9,9 +9,10 @@ const withPWA = require("next-pwa")({
 });
 
 module.exports = withPWA({
-  async redirects() {
-    return redirect;
-  },
+  output: 'export',
+  // async redirects() {
+  //   return redirect;
+  // },
   trailingSlash: true,
   // assetPrefix: 'lojban-',
   // webpack: (config, { dev }) => {

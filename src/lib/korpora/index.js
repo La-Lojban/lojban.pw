@@ -147,7 +147,7 @@ function cssifyName(text) {
     table[title].push(`</tbody>`);
     table[title].push(`</table>`);
     const filepath = path.join("/app/src/md_pages/texts", title + ".html");
-    let contentMd = prettier.format(
+    let contentMd = await prettier.format(
       `   
     <div class="w-full">
     ${buttons[title].join("")}
@@ -195,7 +195,7 @@ ${contentMd}`;
   const csspath = path.join("/app/src/styles", "style.css");
   fs.writeFileSync(
     csspath,
-    prettier.format(Array.from(new Set(css)).join("\n\n"), {
+    await prettier.format(Array.from(new Set(css)).join("\n\n"), {
       filepath: csspath,
     })
   );

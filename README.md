@@ -13,6 +13,6 @@ GOOGLE_LOJBAN_CORPUS_DOC_ID=1_vkiwqOIOIJPqZTiomzd4ApUSEQXhEY6CeyZD_6c-PA is an e
 ```
 * `make build` - you can use it only once
 * `make dev` - run the docker container
-	* run `yarn` in the docker console
-	* `yarn dev` - run the website in dev mode locally, access it at http://localhost:3298/
-	* `yarn compile` - compile to a static folder
+	* run `npm i` in the docker console
+	* `npm run dev` - run the website in dev mode locally, access it at http://localhost:3298/
+	* `npm run build && npm run start` - compile to a static folder and run it locally at http://localhost:3298/

@@ -23,14 +23,14 @@ jobs:
     - name: Run Docker container
       uses: kohlerdominik/docker-run-action@v1
       with:
-        run: yarn && npx playwright install chromium && npx playwright install-deps && yarn build && yarn clean
+        run: npm install && npx playwright install chromium && npx playwright install-deps && npm run cicd
         image: lojban:latest
         environment: |
           GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }}
           GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }}
         # image: lojban:${{ env.TAG_NAME }}
         volumes: |
-          /output:/app/src/out
+          /output:/app/src/out1
           ${{ github.workspace }}/data/config:/app/src/config \
           ${{ github.workspace }}/data/pages:/app/src/md_pages \
           ${{ github.workspace }}/data/assets:/app/src/public/assets \
