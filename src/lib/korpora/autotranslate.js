@@ -13,7 +13,6 @@ async function translateText({ text, from, to }) {
       ],
     });
   }
-  const targetDummyDiv = "#target-dummydiv";
 
   const url = `https://deepl.com/es/translator#${from}/${to}/${encodeURIComponent(
     text
@@ -24,9 +23,15 @@ async function translateText({ text, from, to }) {
 
   let translatedText = "\r\n";
   let secsPassed = 0;
-  while (translatedText === "\r\n") {
+  while (["\r\n", ""].includes(translatedText)) {
     if (secsPassed > 120) throw new Error("failed to connect to deepl");
-    translatedText = await page.textContent(targetDummyDiv);
+
+    const targetDummyDiv =
+      "#headlessui-tabs-panel-7 div.relative.flex.flex-1.flex-col > d-textarea > div > p";
+    const locator = page.locator(targetDummyDiv);
+    const firstElement = locator.first();
+    translatedText = await firstElement.textContent();
+
     await new Promise((resolve) =>
       setTimeout(() => {
         secsPassed += 0.1;
@@ -131,6 +136,7 @@ async function autoSplitNTranslate({
     );
   }
 
+  console.log(out);
   return out.join("\n");
 }
 
@@ -139,8 +145,8 @@ module.exports = {
 };
 
 // autoSplitNTranslate({
-//   title: "",
-//   text: ["hello world"],
+//   title: "Hello, world!",
+//   text: ["hello, world!"],
 //   from: "en",
 //   to: "ru",
 //   chunkSize: 8,

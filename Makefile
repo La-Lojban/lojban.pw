@@ -1,6 +1,9 @@
 build:
 	docker build -t lojban_made_easy .
 
+rebuild:
+	docker build --no-cache -t lojban_made_easy .
+
 dev:
 	docker kill lojban_made_easy 2> /dev/null ; \
 	docker rm -f lojban_made_easy 2> /dev/null ; \
