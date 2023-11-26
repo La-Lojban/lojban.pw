@@ -25,7 +25,7 @@ async function translateText({ text, from, to }) {
   let translatedText = "\r\n";
   let secsPassed = 0;
   while (translatedText === "\r\n") {
-    if (secsPassed> 120) throw new Error('failed to connect to deepl');
+    if (secsPassed > 120) throw new Error("failed to connect to deepl");
     translatedText = await page.textContent(targetDummyDiv);
     await new Promise((resolve) =>
       setTimeout(() => {
@@ -96,7 +96,14 @@ const sliceArrayIntoChunks = (arr, chunkSize) => {
   return chunks;
 };
 
-async function autoSplitNTranslate({ title, text: arrText, limit, from, to, chunkSize }) {
+async function autoSplitNTranslate({
+  title,
+  text: arrText,
+  limit,
+  from,
+  to,
+  chunkSize,
+}) {
   const chunks = splitString(arrText.join("\n"), limit);
   let out = [];
   const superchunks = sliceArrayIntoChunks(chunks, chunkSize);
@@ -130,3 +137,12 @@ async function autoSplitNTranslate({ title, text: arrText, limit, from, to, chun
 module.exports = {
   autoSplitNTranslate,
 };
+
+// autoSplitNTranslate({
+//   title: "",
+//   text: ["hello world"],
+//   from: "en",
+//   to: "ru",
+//   chunkSize: 8,
+//   limit: 3000,
+// });

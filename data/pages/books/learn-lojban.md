@@ -2320,11 +2320,17 @@ So an interjection immediately after a vocative modifies that vocative. Similarl
 
 All Lojban words are divided into three groups:
 
-- particles (called **cmavo** in Lojban). Examples: **le**, **nu**, **mi**, **fa'a**
-  - 
-- relation words (called **selbrivla** in Lojban). Examples: **gleki**, **klama**.
-  It is quite common to write several particles one after another without spaces between them. This is allowed by Lojban grammar. So don't be surprised to see **lenu** instead of **le nu**, **naku** instead of **na ku**, **jonai** instead of **jo nai** and so on. This doesn't change the meaning. However, this is not applied to relation words: they are to be separated with spaces.
-
+- Relation words (called **selbrivla** in Lojban)
+  - Examples: **gleki**, **klama**.
+  - Such words contain at least a cluster of consonants (two or more consonants one after another) within the first 5 sounds + they end in a vowel.
+- Particles (called **cmavo** in Lojban)
+  - Examples: **le**, **nu**, **mi**, **fa'a**.
+  - They start with a consonant (one of **b d g v z j p t k f s c x l m n r i u**), followed by a vowel (one of **a e i o u y au ai ei oi**). Optionally, after that, there can be one or more sequences of an apostrophe (**'**) and a following vowel. For example, **xa'a'a'a'a'a'a** and **ba'au'oi'a'e'o** are possible particles (even if no meaning is assigned to them).
+  - It is quite common to write several particles consecutively without spaces between them. This is allowed by Lojban grammar. So, don't be surprised to see **lenu** instead of **le nu**, **naku** instead of **na ku**, **jonai** instead of **jo nai**, and so on. This doesn't change the meaning. However, this rule does not apply to relation words; relation words should be separated by spaces.
+- Name words (called **cmevla** in Lojban)
+  - Examples: **.alis.**, **.doris**, **.lojban.**
+  - Usually used for names.
+  - They can be easily distinguished from the other types of words since they end in a consonant. Additionally, they are wrapped with two dots at the beginning and at the end. Colloquially, dots can be omitted when writing, but when speaking, pauses that correspond to those dots are still a must.
 
 ### Order of arguments
 
