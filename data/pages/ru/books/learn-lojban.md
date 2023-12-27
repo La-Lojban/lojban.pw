@@ -1,7 +1,7 @@
 ---
 title: 🎓 Курс "Изучаем ложбан"
-ogImage: /assets/pixra/cilre/tcidu_la_lojban.svg
-coverImage: /assets/pixra/cilre/tcidu_la_lojban.svg
+ogImage: /assets/pixra/cilre/tcidu_la_lojban.webp
+coverImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 ---
 
 <div class="lojbo"></div>
@@ -213,13 +213,13 @@ flowchart LR
 
 ```
 
-<pixra url="/assets/pixra/cilre/tavla.svg" caption="le prenu cu tavla mi" definition="Человек говорит со мной."></pixra>
+<pixra url="/assets/pixra/cilre/tavla.webp" caption="le prenu cu tavla mi" definition="Человек говорит со мной."></pixra>
 
-<pixra url="/assets/pixra/cilre/mi.svg" caption="mi" definition="я / мне / меня / … "></pixra>
+<pixra url="/assets/pixra/cilre/mi.webp" caption="mi" definition="я / мне / меня / … "></pixra>
 
-<pixra url="/assets/pixra/cilre/mi_prami_do2.svg" caption="mi prami do" definition="Я люблю тебя."></pixra>
+<pixra url="/assets/pixra/cilre/mi_prami_do2.webp" caption="mi prami do" definition="Я люблю тебя."></pixra>
 
-<pixra url="/assets/pixra/cilre/do.svg" caption="do" definition="ты / тебе / тебя / … "></pixra>
+<pixra url="/assets/pixra/cilre/do.webp" caption="do" definition="ты / тебе / тебя / … "></pixra>
 
 На ложбане мы в основном говорим об отношениях, а не о существительных и глаголах.
 
@@ -283,7 +283,7 @@ le tavla
 nintadni
 : … - это новый студент, новичок
 
-<pixra url="/assets/pixra/cilre/nintadni.svg" caption="mi nintadni" definition="Я новый студент, новичок."></pixra>
+<pixra url="/assets/pixra/cilre/nintadni.webp" caption="mi nintadni" definition="Я новый студент, новичок."></pixra>
 
 В отличие от русского языка, нам не нужно добавлять связку "- это" в предложение. Она уже подразумевается. Слово-отношение **nintadni** (_… - это новый студент_) уже имеет связку "- это" встроенной.
 
@@ -294,7 +294,7 @@ jimpe
 : … (кто-то) понимает … (что-то)
 <!-- -->
 
-<pixra url="/assets/pixra/cilre/pilno_le_fonxa.svg" caption="le prenu cu pilno le fonxa" definition="Человек использует телефон."></pixra>
+<pixra url="/assets/pixra/cilre/pilno_le_fonxa.webp" caption="le prenu cu pilno le fonxa" definition="Человек использует телефон."></pixra>
 
 > **mi pilno le fonxa**
 > _Я использую телефон._
@@ -315,7 +315,7 @@ le fonxa
 citka
 : … (кто-то) ест … (что-то)
 
-<pixra url="/assets/pixra/cilre/citka.svg" caption="mi citka" definition="Я ем."></pixra>
+<pixra url="/assets/pixra/cilre/citka.webp" caption="mi citka" definition="Я ем."></pixra>
 <!-- -->
 
 > **do citka**
@@ -337,13 +337,13 @@ le plise
 kukte
 :  … (что-то) - вкусно, вкусное
 
-<pixra url="/assets/pixra/cilre/le_plise_cu_kukte.svg" caption="le plise cu kukte" definition="Яблоки вкусные."></pixra>
+<pixra url="/assets/pixra/cilre/le_plise_cu_kukte.webp" caption="le plise cu kukte" definition="Яблоки вкусные."></pixra>
 
 Здесь **le plise** означает _яблоки_, **kukte** означает _вкусный / вкусные_.
 
 А вот более простое предложение на ложбане, оно содержит конструцию-отношение только из одного слова-отношения:
 
-<pixra url="/assets/pixra/cilre/karce.svg" caption="karce" definition="Это машина."></pixra>
+<pixra url="/assets/pixra/cilre/karce.webp" caption="karce" definition="Это машина."></pixra>
 
 > **karce**
 > _Машина!_
@@ -360,7 +360,7 @@ kukte
 ti
 : местоимение: эта вещь рядом со мной
 
-<pixra url="/assets/pixra/cilre/ti.svg" caption="ti" definition="это, эта, этот, эти (рядом со мной, говорящим)"></pixra>
+<pixra url="/assets/pixra/cilre/ti.webp" caption="ti" definition="это, эта, этот, эти (рядом со мной, говорящим)"></pixra>
 
 Аналогично, Вы можете сказать
 
@@ -372,7 +372,7 @@ ti
 carvi
 : … это дождь, … идет дождь, … дождит
 
-<pixra url="/assets/pixra/cilre/carvi.svg" caption="carvi" definition="… - это дождь"></pixra>
+<pixra url="/assets/pixra/cilre/carvi.webp" caption="carvi" definition="… - это дождь"></pixra>
 
 или
 
@@ -397,11 +397,11 @@ bajra
 
 Опять же, контекст, вероятно, подскажет, кто любит кого и кто бежит.
 
-<pixra url="/assets/pixra/cilre/bajra.svg" caption="le prenu cu bajra" definition="Человек бежит."></pixra>
+<pixra url="/assets/pixra/cilre/bajra.webp" caption="le prenu cu bajra" definition="Человек бежит."></pixra>
 
 #### Задание
 
-<pixra url="/assets/pixra/cilre/pinxe_le_djacu.svg" caption="le prenu cu pinxe le djacu" definition="Человек пьет воду."></pixra>
+<pixra url="/assets/pixra/cilre/pinxe_le_djacu.webp" caption="le prenu cu pinxe le djacu" definition="Человек пьет воду."></pixra>
 
 pinxe
 : … пьёт … (что-то)
@@ -500,7 +500,7 @@ le djacu
 </td>
 </tr></tbody></table>
 
-<pixra url="/assets/pixra/cilre/ci_prenu.svg" caption="le ci prenu" definition="Три человека"></pixra>
+<pixra url="/assets/pixra/cilre/ci_prenu.webp" caption="le ci prenu" definition="Три человека"></pixra>
 
 > **le pa prenu cu tavla mi**
 > _Один человек говорит со мной._
@@ -556,12 +556,12 @@ le za'u prenu
 stati
 : … (кто-то) умён, умный, талантлив
 
-<pixra url="/assets/pixra/cilre/stati.svg" caption="stati" definition="… имеет талант"></pixra>
+<pixra url="/assets/pixra/cilre/stati.webp" caption="stati" definition="… имеет талант"></pixra>
 
 klama
 : … идёт к … (какому-то месту или объекту)
 
-<pixra url="/assets/pixra/cilre/klama_ti.svg" caption="le prenu cu klama ti" definition="Человек пришел сюда."></pixra>
+<pixra url="/assets/pixra/cilre/klama_ti.webp" caption="le prenu cu klama ti" definition="Человек пришел сюда."></pixra>
 
 nelci
 : … нравится (что-то)
@@ -569,17 +569,17 @@ nelci
 le zarci
 : рынок
 
-<pixra url="/assets/pixra/cilre/zarci.svg" caption="le prenu cu zvati le zarci" definition="Человек находится в магазине."></pixra>
+<pixra url="/assets/pixra/cilre/zarci.webp" caption="le prenu cu zvati le zarci" definition="Человек находится в магазине."></pixra>
 
 le najnimre
 : апельсин (фрукт), апельсины
 
-<pixra url="/assets/pixra/cilre/najnimre.svg" caption="najnimre" definition="… это апельсин"></pixra>
+<pixra url="/assets/pixra/cilre/najnimre.webp" caption="najnimre" definition="… это апельсин"></pixra>
 
 le badna
 : банан, бананы
 
-<pixra url="/assets/pixra/cilre/badna.svg" caption="badna" definition="… это банан"></pixra>
+<pixra url="/assets/pixra/cilre/badna.webp" caption="badna" definition="… это банан"></pixra>
 
 Закройте правую часть таблицы. Переведите предложения слева с ложбана.
 
@@ -630,7 +630,7 @@ le badna
 > **tu melbi zdani**
 > _Вон то - красивый дом._
 
-<pixra url="/assets/pixra/cilre/melbi_zdani.svg" caption="melbi zdani" definition="… красивый дом"></pixra>
+<pixra url="/assets/pixra/cilre/melbi_zdani.webp" caption="melbi zdani" definition="… красивый дом"></pixra>
 
 tu
 : то, та, тот, те (далеко от нас)
@@ -641,7 +641,7 @@ melbi
 zdani
 : … - дом или гнездо для … (кого-то)
 
-<pixra url="/assets/pixra/cilre/dansu.svg" caption="le prenu cu melbi dansu" definition="Человек красиво танцует."></pixra>
+<pixra url="/assets/pixra/cilre/dansu.webp" caption="le prenu cu melbi dansu" definition="Человек красиво танцует."></pixra>
 
 > **do melbi dansu**
 > _Ты красиво танцуешь._
@@ -674,7 +674,7 @@ le pa melbi zdani
 
 Сложные глаголы могут содержать более двух глаголов. В этом случае первый глагол модифицирует второй, второй модифицирует третий и так далее:
 
-<pixra url="/assets/pixra/cilre/cmalu_karce.svg" caption="ti cmalu karce" definition="Это - маленькая машина."></pixra>
+<pixra url="/assets/pixra/cilre/cmalu_karce.webp" caption="ti cmalu karce" definition="Это - маленькая машина."></pixra>
 
 > **le pa melbi cmalu karce**
 > _красиво-маленькая машина, машина маленькая в красивом стиле_
@@ -775,7 +775,7 @@ mlatu
 le gerku
 : собака, собаки
 
-<pixra url="/assets/pixra/cilre/le_prenu_e_le_gerku.svg" caption="ti prenu .i ti gerku" definition="Это человек. Это собака."></pixra>
+<pixra url="/assets/pixra/cilre/le_prenu_e_le_gerku.webp" caption="ti prenu .i ti gerku" definition="Это человек. Это собака."></pixra>
 
 Помните, что в ложбане знаки препинания, такие как "?" (вопросительный знак), в целом необязательны и используются в основном для стилистических целей. Дело в том, что слово-вопрос **xu** уже показывает, что это вопрос.
 
@@ -965,12 +965,12 @@ lebna
 le tcati
 : чай
 
-<pixra url="/assets/pixra/cilre/tcati.svg" caption="tcati" definition="… это чай"></pixra>
+<pixra url="/assets/pixra/cilre/tcati.webp" caption="tcati" definition="… это чай"></pixra>
 
 le ckafi
 : кофе
 
-<pixra url="/assets/pixra/cilre/ckafi.svg" caption="ckafi" definition="… это кофе"></pixra>
+<pixra url="/assets/pixra/cilre/ckafi.webp" caption="ckafi" definition="… это кофе"></pixra>
 
 zgana
 : наблюдать, наблюдение (используя любые чувства)
@@ -978,7 +978,7 @@ zgana
 le skina
 : фильм, кино
 
-<pixra url="/assets/pixra/cilre/zgana_le_skina.svg" caption="le prenu cu zgana le skina" definition="Человек смотрит фильм."></pixra>
+<pixra url="/assets/pixra/cilre/zgana_le_skina.webp" caption="le prenu cu zgana le skina" definition="Человек смотрит фильм."></pixra>
 
 kurji
 : заботиться о (кому-то, чем-то)
@@ -1048,7 +1048,7 @@ kurji
 > **do .e mi nintadni**
 > _Вы и я новички._
 
-<pixra url="/assets/pixra/cilre/do_e_mi_nintadni.svg" caption="do .e mi nintadni" definition="Вы и я новые студенты."></pixra>
+<pixra url="/assets/pixra/cilre/do_e_mi_nintadni.webp" caption="do .e mi nintadni" definition="Вы и я новые студенты."></pixra>
 
 <!-- -->
 
@@ -1094,7 +1094,7 @@ gi'e
 le jisra
 : сок
 
-<pixra url="/assets/pixra/cilre/pinxe_le_jisra.svg" caption="le prenu cu pinxe le jisra" definition="Человек пьет сок."></pixra>
+<pixra url="/assets/pixra/cilre/pinxe_le_jisra.webp" caption="le prenu cu pinxe le jisra" definition="Человек пьет сок."></pixra>
 
 Если голова предложения одинакова, но хвосты отличаются, мы используем союз **gi'e**, который означает _и_ для хвостов предложений:
 
@@ -1109,7 +1109,7 @@ le jisra
 > **le melbi je cmalu zdani cu jibni ti**
 > _Красивый и маленький дом находится рядом._
 
-<pixra url="/assets/pixra/cilre/melbi_je_cmalu_zdani.svg" caption="melbi je cmalu zdani" definition="… это красивый и маленький дом"></pixra>
+<pixra url="/assets/pixra/cilre/melbi_je_cmalu_zdani.webp" caption="melbi je cmalu zdani" definition="… это красивый и маленький дом"></pixra>
 
 jibni
 : … находится рядом с … 
@@ -1147,12 +1147,12 @@ ja
 fengu
 : … зол
 
-<pixra url="/assets/pixra/cilre/fengu.svg" caption="fengu" definition="… зол"></pixra>
+<pixra url="/assets/pixra/cilre/fengu.webp" caption="fengu" definition="… зол"></pixra>
 
 bilma
 : … болен, больной
 
-<pixra url="/assets/pixra/cilre/bilma.svg" caption="le prenu cu bilma" definition="Человек болен"></pixra>
+<pixra url="/assets/pixra/cilre/bilma.webp" caption="le prenu cu bilma" definition="Человек болен"></pixra>
 
 vitke
 : посещать
@@ -1160,7 +1160,7 @@ vitke
 dzena
 : … является предком … 
 
-<pixra url="/assets/pixra/cilre/dzena.svg" caption="dzena" definition="… является предком … "></pixra>
+<pixra url="/assets/pixra/cilre/dzena.webp" caption="dzena" definition="… является предком … "></pixra>
 
 > **le karce cu blabi jo nai grusi**
 > _Машина белая или серая._
@@ -1225,7 +1225,7 @@ joi
 
 Местоимение **mi'o** (_ты и я вместе_) на самом деле может быть выражено как **mi joi do**, что означает точно то же самое (это просто длиннее). В ложбан вы можете использовать не одно слово для _мы_, а более точные конструкции, такие как **mi joi le pendo** (буквально _я и друзья_).
 
-<pixra url="/assets/pixra/cilre/casnu.svg" caption="do joi le pendo joi mi casnu" definition="Ты, друг и я обсуждаем."></pixra>
+<pixra url="/assets/pixra/cilre/casnu.webp" caption="do joi le pendo joi mi casnu" definition="Ты, друг и я обсуждаем."></pixra>
 #### Задание
 
 Закройте правую часть таблицы. Переведите предложения слева с ложбан.
@@ -1306,7 +1306,7 @@ ku'i
 nicte
 : (некоторое событие) — ночь
 
-<pixra url="/assets/pixra/cilre/nicte_fi_mi.svg" caption="le nicte" definition="ночь"></pixra>
+<pixra url="/assets/pixra/cilre/nicte_fi_mi.webp" caption="le nicte" definition="ночь"></pixra>
 
 le nicte
 : ночь, ночные события
@@ -1354,7 +1354,7 @@ djica
 gleki
 : … радуется (некоторому событию)
 
-<pixra url="/assets/pixra/cilre/gleki.svg" caption="gleki" definition="… радуется событию … "></pixra>
+<pixra url="/assets/pixra/cilre/gleki.webp" caption="gleki" definition="… радуется событию … "></pixra>
 
 Некоторые существительные описывают события сами по себе, поэтому **le nu** не используется:
 
@@ -1581,7 +1581,7 @@ co'a cikna
 pu co'a cikna
 : … проснулся, стал проснувшимся
 
-<pixra url="/assets/pixra/cilre/coha_cikna.svg" caption="человек просыпается" definition="The person wakes up."></pixra>
+<pixra url="/assets/pixra/cilre/coha_cikna.webp" caption="человек просыпается" definition="The person wakes up."></pixra>
 
 Чтобы выразить прогресс во времени мы используем **ca'o**:
 
@@ -1592,7 +1592,7 @@ pu co'a cikna
 sipna
 : … спит
 
-<pixra url="/assets/pixra/cilre/sipna.svg" caption="человек спит" definition="The person is sleeping."></pixra>
+<pixra url="/assets/pixra/cilre/sipna.webp" caption="человек спит" definition="The person is sleeping."></pixra>
 
 <!-- -->
 
@@ -1612,7 +1612,7 @@ sipna
 le tcana
 : станция
 
-<pixra url="/assets/pixra/cilre/mohu_klama_le_tcana.svg" caption="человек прибыл на станцию" definition="Человек прибыл на станцию."></pixra>
+<pixra url="/assets/pixra/cilre/mohu_klama_le_tcana.webp" caption="человек прибыл на станцию" definition="Человек прибыл на станцию."></pixra>
 
 **co'i** обычно соответствует английскому совершенному времени:
 
@@ -1660,7 +1660,7 @@ ze'u
 
 <!-- -->
 
-<pixra url="/assets/pixra/cilre/sipna_zeha.svg" caption="человек спит, пока идет дождь" definition="The person is sleeping while it's raining."></pixra>
+<pixra url="/assets/pixra/cilre/sipna_zeha.webp" caption="человек спит, пока идет дождь" definition="The person is sleeping while it's raining."></pixra>
 
 > **mi pu ze'a le nicte cu sipna**
 > _Я спал всю ночь._
@@ -1700,12 +1700,12 @@ ri'a
 taske
 : … хочет пить
 
-<pixra url="/assets/pixra/cilre/taske.svg" caption="taske" definition="… хочет пить"></pixra>
+<pixra url="/assets/pixra/cilre/taske.webp" caption="taske" definition="… хочет пить"></pixra>
 
 xagji
 : … голоден
 
-<pixra url="/assets/pixra/cilre/xagji.svg" caption="xagji" definition="… голоден"></pixra>
+<pixra url="/assets/pixra/cilre/xagji.webp" caption="xagji" definition="… голоден"></pixra>
 
 Модальные частицы, обозначающие место, работают так же:
 
@@ -1738,7 +1738,7 @@ bu'u
 > **le gerku cu plipe fa'a mi ca le nu do ca'o klama**
 > _Собака прыгает в моем направлении, когда ты приходишь._
 
-<pixra url="/assets/pixra/cilre/le_gerku_faha_plipe.svg" caption="le gerku cu plipe fa'a mi" definition="Собака прыгает в моем направлении."></pixra>
+<pixra url="/assets/pixra/cilre/le_gerku_faha_plipe.webp" caption="le gerku cu plipe fa'a mi" definition="Собака прыгает в моем направлении."></pixra>
 
 plipe
 : прыгать
@@ -1874,7 +1874,7 @@ le tcati
 tcidu
 : … читает
 
-<pixra url="/assets/pixra/cilre/tcidu_la_lojban.svg" caption="человек читает" definition="Человек читает."></pixra>
+<pixra url="/assets/pixra/cilre/tcidu_la_lojban.webp" caption="человек читает" definition="Человек читает."></pixra>
 
 **la** похож на **le**, но он превращает слово в имя, а не простое существительное.
 
@@ -1912,7 +1912,7 @@ bangu
 > **mi tadni la .lojban.**
 > _Я изучаю ложбан._
 
-<pixra url="/assets/pixra/cilre/tadni.svg" caption="человек учится на ложбан" definition="Человек сейчас учится на ложбан."></pixra>
+<pixra url="/assets/pixra/cilre/tadni.webp" caption="человек учится на ложбан" definition="Человек сейчас учится на ложбан."></pixra>
 
 Буквы ложбан напрямую соответствуют звукам, поэтому есть некоторые правила для адаптации имен к тому, как они пишутся на ложбан. Это может звучать странно - в конце концов, имя - это имя - но все языки делают это в какой-то степени. Например, англоязычные говорящие обычно произносят _Jose_ как _Hozay_, а _Margaret_ на китайском - _Magelita_. Некоторые звуки просто не существуют на некоторых языках, поэтому вам нужно переписать имя так, чтобы оно содержало только звуки ложбан и было написано в соответствии с соответствием буквам и звукам.
 
@@ -2019,12 +2019,12 @@ la .suzyn.
 le ninmu
 : женщина (в смысле пола)
 
-<pixra url="/assets/pixra/cilre/ninmu.svg" caption="le ninmu" definition="женщина (женский человек)"></pixra>
+<pixra url="/assets/pixra/cilre/ninmu.webp" caption="le ninmu" definition="женщина (женский человек)"></pixra>
 
 le nanmu
 : мужчина (в смысле пола)
 
-<pixra url="/assets/pixra/cilre/nanmu.svg" caption="le nanmu" definition="мужчина (мужской человек)"></pixra>
+<pixra url="/assets/pixra/cilre/nanmu.webp" caption="le nanmu" definition="мужчина (мужской человек)"></pixra>
 
 > **le ninmu cu tavla le nanmu .i le ninmu cu jatna**
 > _Женщина говорит с мужчиной. Она лидер._
@@ -2052,7 +2052,7 @@ le nurma
 
 Здесь **ri** относится к сельской местности.
 
-<pixra url="/assets/pixra/cilre/nurma.svg" caption="nurma" definition="… это сельская местность"></pixra>
+<pixra url="/assets/pixra/cilre/nurma.webp" caption="nurma" definition="… это сельская местность"></pixra>
 
 > **mi tavla le pendo .i ri jundi**
 > _Я говорю с другом. Он/она внимательный._
@@ -2062,7 +2062,7 @@ jundi
 
 Здесь **ri** относится к другу.
 
-<pixra url="/assets/pixra/cilre/jundi.svg" caption="le prenu cu jundi" definition="Человек внимателен."></pixra>
+<pixra url="/assets/pixra/cilre/jundi.webp" caption="le prenu cu jundi" definition="Человек внимателен."></pixra>
 
 Примечание: **ri** пропускает местоимения **mi** (_я_) и **do** (_ты_):
 
@@ -2089,7 +2089,7 @@ coi
 co'o
 : обращение: прощай!
 
-<pixra url="/assets/pixra/cilre/coho.svg" caption="co'o do" definition="Прощай!"></pixra>
+<pixra url="/assets/pixra/cilre/coho.webp" caption="co'o do" definition="Прощай!"></pixra>
 
 <div class="common"></div>
 
@@ -2101,10 +2101,10 @@ co'o
 
 Поскольку обращения работают как междометия, у нас есть хорошие типы приветствий:
 
-<pixra url="/assets/pixra/cilre/cerni.svg" caption="cerni" definition="… это утро"></pixra>
-<pixra url="/assets/pixra/cilre/donri.svg" caption="donri" definition="… это дневное время"></pixra>
-<pixra url="/assets/pixra/cilre/vanci.svg" caption="vanci" definition="… это вечер"></pixra>
-<pixra url="/assets/pixra/cilre/nicte.svg" caption="nicte" definition="… это ночное время"></pixra>
+<pixra url="/assets/pixra/cilre/cerni.webp" caption="cerni" definition="… это утро"></pixra>
+<pixra url="/assets/pixra/cilre/donri.webp" caption="donri" definition="… это дневное время"></pixra>
+<pixra url="/assets/pixra/cilre/vanci.webp" caption="vanci" definition="… это вечер"></pixra>
+<pixra url="/assets/pixra/cilre/nicte.webp" caption="nicte" definition="… это ночное время"></pixra>
 
 <div class="common"></div>
 
@@ -2342,7 +2342,7 @@ flowchart TB
 le cmana
 : гора
 
-<pixra url="/assets/pixra/cilre/cmana.svg" caption="cmana" definition="… это гора"></pixra>
+<pixra url="/assets/pixra/cilre/cmana.webp" caption="cmana" definition="… это гора"></pixra>
 
 И здесь второе место **klama** - это **do**. Предложение означает, что гора - это просто направление, а конечной точкой являешься ты.
 
@@ -2510,7 +2510,7 @@ tilju
 
     **klama** = _$x_1$ идет в $x_2$ из $x_3$_
 
-    <pixra url="/assets/pixra/cilre/klama_fi.svg" caption="le prenu cu klama fi le zarci" definition="Человек выходит из магазина."></pixra>
+    <pixra url="/assets/pixra/cilre/klama_fi.webp" caption="le prenu cu klama fi le zarci" definition="Человек выходит из магазина."></pixra>
 
 5. Менее используемые места идут ближе к концу. Это обычно вещи вроде _по стандарту_, _по средствам_ или _сделано из_.
 
@@ -2534,7 +2534,7 @@ troci
 cadzu
 : $x_1$ ходит
 
-<pixra url="/assets/pixra/cilre/troci_cadzu.svg" caption="le verba cu troci le ka cadzu" definition="Ребенок пытается ходить."></pixra>
+<pixra url="/assets/pixra/cilre/troci_cadzu.webp" caption="le verba cu troci le ka cadzu" definition="Ребенок пытается ходить."></pixra>
 
 Частица **ka** работает подобно nu, но она указывает, что существительное слева делает или будет делать действие, следующее за **ka**. Она делает первое существительное во внешнем глаголе (**troci** в данном случае) также первым опущенным существительным во встроенном глаголе, начатом с **ka** (**cadzu** в данном случае), так что вам не нужно повторять это существительное второй раз.
 
@@ -2631,7 +2631,7 @@ tu'a le titla
 titla
 : … сладкий, … сладкое
 
-<pixra url="/assets/pixra/cilre/djica_tuha_le_titla.svg" caption="le prenu cu djica tu'a le titla" definition="Человек хочет сладкое."></pixra>
+<pixra url="/assets/pixra/cilre/djica_tuha_le_titla.webp" caption="le prenu cu djica tu'a le titla" definition="Человек хочет сладкое."></pixra>
 
 Структура места может создавать слишком большую нагрузку на описание действий или событий. Иногда мы хотим указать только какой-то объект в этих событиях или местах и пропустить описание действия или события в целом.
 
@@ -2679,7 +2679,7 @@ cakla
 > _You are my friend._
 > `You are a friend of me.`
 
-<pixra url="/assets/pixra/cilre/pendo.svg" caption="le pendo" definition="друг / друзья"></pixra>
+<pixra url="/assets/pixra/cilre/pendo.webp" caption="le pendo" definition="друг / друзья"></pixra>
 
 А теперь, как сказать _My friend is smart._?
 
@@ -2693,7 +2693,7 @@ cakla
 > **mi plicru do le plise**
 > _I give you the apple._
 
-<pixra url="/assets/pixra/cilre/plicru.svg" caption="le prenu cu plicru le pendo le plise" definition="Человек дает другу яблоко."></pixra>
+<pixra url="/assets/pixra/cilre/plicru.webp" caption="le prenu cu plicru le pendo le plise" definition="Человек дает другу яблоко."></pixra>
 <!-- -->
 
 > **le plicru be mi bei le plise**
@@ -2806,7 +2806,7 @@ renvi
 zgana
 : наблюдать (используя любые чувства)
 
-<pixra url="/assets/pixra/cilre/panka_ninmu.svg" caption="le prenu noi mi ta'e zgana bu'u le panka" definition="Человек, которого я обычно вижу в парке."></pixra>
+<pixra url="/assets/pixra/cilre/panka_ninmu.webp" caption="le prenu noi mi ta'e zgana bu'u le panka" definition="Человек, которого я обычно вижу в парке."></pixra>
 
 Удаление относительного предложения с **noi** сохраняет значение: _Мне нравится Дорис._
 
@@ -2859,7 +2859,7 @@ barda
 > **le tricu noi mi pu klama ke'a ca le cabdei cu barda**
 > _Дерево, к которому я сегодня пришел, большое._
 
-<pixra url="/assets/pixra/cilre/le_tricu_cu_barda.svg" caption="le tricu cu barda" definition="Дерево большое."></pixra>
+<pixra url="/assets/pixra/cilre/le_tricu_cu_barda.webp" caption="le tricu cu barda" definition="Дерево большое."></pixra>
 
 le cabdei
 : сегодня
@@ -2876,7 +2876,7 @@ le cabdei
 > **ti voi le nu ke'a cisma cu pluka mi cu zutse tu**
 > _Те, чья улыбка мне нравится, сидят._
 
-<pixra url="/assets/pixra/cilre/voi.svg" caption="mi nelci ti voi le nu ke'a cisma cu pluka mi" definition="Мне нравятся те, чьи улыбки мне нравятся."></pixra>
+<pixra url="/assets/pixra/cilre/voi.webp" caption="mi nelci ti voi le nu ke'a cisma cu pluka mi" definition="Мне нравятся те, чьи улыбки мне нравятся."></pixra>
 
 ti
 : это рядом со мной, эти рядом со мной
@@ -3103,7 +3103,7 @@ tcidu
 
 Если не используем **nu**, у нас нет отношений событий. Существительные начинаются с **le** и заканчиваются своим глаголом (будь то одиночный или составной глагол, с конструкцией **be** в них или нет). Таким образом, мы можем поместить модальные частицы перед глаголом в существительном только перед этим глаголом:
 
-<pixra url="/assets/pixra/cilre/coha_purdi.svg" caption="le pu kunti tumla ca purdi" definition="Что было пустыней, теперь является садом."></pixra>
+<pixra url="/assets/pixra/cilre/coha_purdi.webp" caption="le pu kunti tumla ca purdi" definition="Что было пустыней, теперь является садом."></pixra>
 
 > **le pu kunti tumla ca purdi**
 > _Что было пустыней, теперь является садом._
@@ -3121,7 +3121,7 @@ ze'u
 
 Размещение модальных частиц после существительных связывает их с внешними глаголами:
 
-<pixra url="/assets/pixra/cilre/cohu_purdi.svg" caption="le kunti tumla pu purdi" definition="Пустыня была садом."></pixra>
+<pixra url="/assets/pixra/cilre/cohu_purdi.webp" caption="le kunti tumla pu purdi" definition="Пустыня была садом."></pixra>
 
 > **le kunti tumla pu purdi**
 > **(le kunti tumla) pu purdi**
@@ -3274,7 +3274,7 @@ pinxe
 le kabri
 : чашка, стакан
 
-<pixra url="/assets/pixra/cilre/pinxe_fi_le_kabri.svg" caption="le prenu cu pinxe fi le kabri" definition="Человек пьет из стакана."></pixra>
+<pixra url="/assets/pixra/cilre/pinxe_fi_le_kabri.webp" caption="le prenu cu pinxe fi le kabri" definition="Человек пьет из стакана."></pixra>
 
 > **mi tugni zo'e le nu vitke le rirni**
 > **mi tugni fi le nu vitke le rirni**
@@ -3759,7 +3759,7 @@ cizra
 1. _Здесь все странное_ означает, что если что-то не странное где-то, то оно становится странным в этом месте.
 2. _Здесь все странное_ просто описывает те объекты или события, которые здесь (и они странные). Мы ничего не знаем о других в других местах.
 
-<pixra url="/assets/pixra/cilre/viku_cizra.svg" caption="vi ku ro da cizra" definition="Здесь все странное."></pixra>
+<pixra url="/assets/pixra/cilre/viku_cizra.webp" caption="vi ku ro da cizra" definition="Здесь все странное."></pixra>
 
 Еще один пример с существительным, начинающимся с числа:
 
@@ -3813,7 +3813,7 @@ mupli
 > _Люди окружили стол._
 > `Масса людей окружила стол.`
 
-<pixra url="/assets/pixra/cilre/sruri.svg" caption="lei prenu cu sruri le jubme" definition="Люди окружили стол."></pixra>
+<pixra url="/assets/pixra/cilre/sruri.webp" caption="lei prenu cu sruri le jubme" definition="Люди окружили стол."></pixra>
 
 Мы используем **lei** вместо **le**, чтобы показать, что масса объектов имеет отношение к действию, но не обязательно каждый из этих объектов индивидуально. Сравните:
 
@@ -3844,7 +3844,7 @@ smaji
 
 — здесь мы не заботимся об отдельных змеях, но утверждаем, что змеи как масса коллективно окружили жезл.
 
-<pixra url="/assets/pixra/cilre/sruri_since.svg" caption="le pa since cu sruri le prenu" definition="Змея окружила человека."></pixra>
+<pixra url="/assets/pixra/cilre/sruri_since.webp" caption="le pa since cu sruri le prenu" definition="Змея окружила человека."></pixra>
 
 > **lei re djine cu sinxa la .lojban.**
 > _Два кольца являются символом ложбана._
@@ -3965,7 +3965,7 @@ cusku
 rinsa
 : $x_1$ приветствует кого-то $x_2$
 
-<pixra url="/assets/pixra/cilre/rinsa2.svg" caption="le prenu cu rinsa le pendo" definition="Человек приветствует друга."></pixra>
+<pixra url="/assets/pixra/cilre/rinsa2.webp" caption="le prenu cu rinsa le pendo" definition="Человек приветствует друга."></pixra>
 
 Обратите внимание, что в ложбане мы различаем вещи и их имена:
 
@@ -4326,7 +4326,7 @@ djuno
 jimpe
 : $x_1$ понимает $x_2$ (предложение) о $x_3$
 
-<pixra url="/assets/pixra/cilre/na_jimpe.svg" caption="mi na jimpe" definition="Я не понимаю."></pixra>
+<pixra url="/assets/pixra/cilre/na_jimpe.webp" caption="mi na jimpe" definition="Я не понимаю."></pixra>
 
 В местах, описывающих факты, используется частица **du'u** (вместо **nu**).
 
@@ -4432,7 +4432,7 @@ jitfa
 ui
 : междометие: _Yay!_, междометие радости
 
-<pixra url="/assets/pixra/cilre/ui_jinga.svg" caption="ui mi jinga" definition="Yay! Я выиграл!"></pixra>
+<pixra url="/assets/pixra/cilre/ui_jinga.webp" caption="ui mi jinga" definition="Yay! Я выиграл!"></pixra>
 
 Междометия работают как **sei** с их отношениями. **ui** означает то же самое, что и **sei mi gleki**, так что мы могли бы также сказать **do jinga sei mi gleki**, что означает то же самое (хотя это немного длиннее).
 
@@ -4464,7 +4464,7 @@ ie nai
 .au
 : междометие желания
 
-<pixra url="/assets/pixra/cilre/clira.svg" caption="mi clira klama" definition="Я пришел рано."></pixra>
+<pixra url="/assets/pixra/cilre/clira.webp" caption="mi clira klama" definition="Я пришел рано."></pixra>
 
 > **.a'o do clira klama**
 > _Я надеюсь, ты придешь рано._
@@ -4475,7 +4475,7 @@ ie nai
 clira
 : $x_1$ происходит рано
 
-<pixra url="/assets/pixra/cilre/ciska.svg" caption=".ei mi ciska le xatra ti voi pelji ku'o le penbi" definition="Я должен написать письмо на этой бумаге, используя ручку."></pixra>
+<pixra url="/assets/pixra/cilre/ciska.webp" caption=".ei mi ciska le xatra ti voi pelji ku'o le penbi" definition="Я должен написать письмо на этой бумаге, используя ручку."></pixra>
 
 > **.ei mi ciska le xatra le pelji le penbi**
 > _Я должен написать письмо на бумаге, используя ручку._
@@ -5223,7 +5223,7 @@ jinga
  >
 - <dl><dt>gasnu le nu</dt><dd>(агент) вызывает … </dd></dl>
 
-<pixra url="/assets/pixra/cilre/tadni.svg" caption="mi tadni" definition="Я учусь."></pixra>
+<pixra url="/assets/pixra/cilre/tadni.webp" caption="mi tadni" definition="Я учусь."></pixra>
 
  > **mi pu gasnu le nu le skami pe mi co'a spofu**
  > _Я сделал так, чтобы мой компьютер сломался._
@@ -5383,7 +5383,7 @@ makcu
 le xrula
 : цветок(и)
 
-<pixra url="/assets/pixra/cilre/xrula.svg" caption="xrula" definition="цветок"></pixra>
+<pixra url="/assets/pixra/cilre/xrula.webp" caption="xrula" definition="цветок"></pixra>
 
 > **ma pu fasnu**
 > _Что случилось?_
@@ -5453,7 +5453,7 @@ tarmi
 cukla
 : $x_1$ - круглый (по форме)
 
-<pixra url="/assets/pixra/cilre/coha_viska.svg" caption="le prenu co'a viska le cipni" definition="Человек замечает, начинает видеть птицу."></pixra>
+<pixra url="/assets/pixra/cilre/coha_viska.webp" caption="le prenu co'a viska le cipni" definition="Человек замечает, начинает видеть птицу."></pixra>
 
 > **mi viska le plise**
 > _Я вижу яблоко._
@@ -5478,7 +5478,7 @@ cukla
 tirna
 : $x_1$ слышит $x_2$ (объект или звук)
 
-<pixra url="/assets/pixra/cilre/le_prenu_cu_tirna_lei_djacu.svg" caption="le prenu cu tirna lei djacu" definition="Человек слышит воду."></pixra>
+<pixra url="/assets/pixra/cilre/le_prenu_cu_tirna_lei_djacu.webp" caption="le prenu cu tirna lei djacu" definition="Человек слышит воду."></pixra>
 
 > **mi tirna le palta**
 > _Я слышу тарелку._
@@ -5578,7 +5578,7 @@ sumne
 panci
 : $x_1$ - это запах $x_2$ (объект)
 
-<pixra url="/assets/pixra/cilre/sumne.svg" caption="le mlatu cu sumne le xrula" definition="Кот нюхает цветок."></pixra>
+<pixra url="/assets/pixra/cilre/sumne.webp" caption="le mlatu cu sumne le xrula" definition="Кот нюхает цветок."></pixra>
 
 > **mi sumne le xrula**
 > _Я нюхаю цветок._
@@ -5605,7 +5605,7 @@ panci
 vrusi
 : $x_1$ - это вкус $x_2$
 
-<pixra url="/assets/pixra/cilre/zgana_le_vrusi.svg" caption="le prenu cu zgana le vrusi be le grute" definition="Человек пробует, ощущает вкус фрукта."></pixra>
+<pixra url="/assets/pixra/cilre/zgana_le_vrusi.webp" caption="le prenu cu zgana le vrusi be le grute" definition="Человек пробует, ощущает вкус фрукта."></pixra>
 
 > **mi zgana le vrusi be le grute**
 > _Я пробую яблоко._
@@ -5615,7 +5615,7 @@ le grute
 : фрукт, фрукты
 <!-- -->
 
-<pixra url="/assets/pixra/cilre/se_vrusi_lo_ka_kukte.svg" caption="le grute cu se vrusi le titla" definition="Фрукты сладкие."></pixra>
+<pixra url="/assets/pixra/cilre/se_vrusi_lo_ka_kukte.webp" caption="le grute cu se vrusi le titla" definition="Фрукты сладкие."></pixra>
 
 > **.i le plise cu se vrusi le titla**
 > _Яблоко сладкое на вкус._
@@ -5644,7 +5644,7 @@ sefta
 
 <!-- -->
 
-<pixra url="/assets/pixra/cilre/cortu.svg" caption="mi cortu le cidni be mi" definition="Мое колено болит."></pixra>
+<pixra url="/assets/pixra/cilre/cortu.webp" caption="mi cortu le cidni be mi" definition="Мое колено болит."></pixra>
 
 > **mi cortu le cidni**
 > _Я чувствую боль в колене, мое колено болит._
@@ -5690,7 +5690,7 @@ le tsani
 le solri
 : Солнце
 
-<pixra url="/assets/pixra/cilre/tsani.svg" caption="tsani .i solri" definition="Небо. Солнце."></pixra>
+<pixra url="/assets/pixra/cilre/tsani.webp" caption="tsani .i solri" definition="Небо. Солнце."></pixra>
 
 simlu
 : $x_1$ выглядит как $x_2$ (свойство $x_1$)
@@ -5782,7 +5782,7 @@ manku
 
 <!-- -->
 
-<pixra url="/assets/pixra/cilre/le_prenu_cu_senva_tuha_le_nei.svg" caption="mi ca'o sipna gi'e sanji le nu mi sipna" definition="Я сплю и осознаю, что я сплю."></pixra>
+<pixra url="/assets/pixra/cilre/le_prenu_cu_senva_tuha_le_nei.webp" caption="mi ca'o sipna gi'e sanji le nu mi sipna" definition="Я сплю и осознаю, что я сплю."></pixra>
 
 > **pu ku mi ca'o sipna gi'e sanji le nu mi sipna**
 > _Я спал и осознавал, что я спал._
@@ -5822,7 +5822,7 @@ sanji
 badri
 : $x_1$ грустит из-за $x_2$
 
-<pixra url="/assets/pixra/cilre/badri.svg" caption="le prenu cu simlu lo ka badri" definition="Человек кажется грустным."></pixra>
+<pixra url="/assets/pixra/cilre/badri.webp" caption="le prenu cu simlu lo ka badri" definition="Человек кажется грустным."></pixra>
 
 > **mi steba le nu le bruna be mi co'a speni le ninmu**
 > _Меня расстраивает, что мой брат женится на женщине._
@@ -7159,7 +7159,7 @@ gugde
 > **le ve'u xamsi**
 > _океан_
 
-<pixra url="/assets/pixra/cilre/le_vehi_ja_vehu_cmana.svg" caption="le ve'i cmana cu jibni le ve'u cmana" definition="Холм близок к горе."></pixra>
+<pixra url="/assets/pixra/cilre/le_vehi_ja_vehu_cmana.webp" caption="le ve'i cmana cu jibni le ve'u cmana" definition="Холм близок к горе."></pixra>
 
 > **le cmana**
 > _гора/холм_
@@ -7201,7 +7201,7 @@ mikce
 > **mi pu pu'o tavla le mikce**
 > _Я собирался говорить с доктором (я не говорил в то время, событие еще не началось)._
 
-<pixra url="/assets/pixra/cilre/puho_nenri.svg" caption="le prenu pu'o zvati le nenri" definition="Человек собирается оказаться внутри."></pixra>
+<pixra url="/assets/pixra/cilre/puho_nenri.webp" caption="le prenu pu'o zvati le nenri" definition="Человек собирается оказаться внутри."></pixra>
 
 <!-- -->
 
@@ -7213,7 +7213,7 @@ mikce
 > **mi pu ba'o tavla le mikce**
 > _Я был поговорившим с доктором._
 
-<pixra url="/assets/pixra/cilre/baho_carvi.svg" caption="ba'o carvi" definition="Последствия дождя. Дождь прекратился."></pixra>
+<pixra url="/assets/pixra/cilre/baho_carvi.webp" caption="ba'o carvi" definition="Последствия дождя. Дождь прекратился."></pixra>
 
 <!-- -->
 
@@ -7272,14 +7272,14 @@ vasxu
 > **ra pu de'a vasxu**
 > _Она перестала дышать (но может снова начать дышать позже)._
 
-<pixra url="/assets/pixra/cilre/deha_vasxu.svg" caption="mi de'a vasxu" definition="Я приостановил дыхание. Я задержал дыхание."></pixra>
+<pixra url="/assets/pixra/cilre/deha_vasxu.webp" caption="mi de'a vasxu" definition="Я приостановил дыхание. Я задержал дыхание."></pixra>
 
 <!-- -->
 
 > **mi pu di'a citka le plise**
 > _Я возобновил поедание яблок._
 
-<pixra url="/assets/pixra/cilre/diha_vasxu.svg" caption="mi di'a vasxu" definition="Я возобновил дыхание."></pixra>
+<pixra url="/assets/pixra/cilre/diha_vasxu.webp" caption="mi di'a vasxu" definition="Я возобновил дыхание."></pixra>
 
 co'a
 : модальный термин: событие начинается (граница события)

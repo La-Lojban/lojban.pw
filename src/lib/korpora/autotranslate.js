@@ -144,11 +144,15 @@ module.exports = {
   autoSplitNTranslate,
 };
 
-// autoSplitNTranslate({
-//   title: "Hello, world!",
-//   text: ["hello, world!"],
-//   from: "en",
-//   to: "ru",
-//   chunkSize: 8,
-//   limit: 3000,
-// });
+autoSplitNTranslate({
+  title: "Hello, world!",
+  text: [text],
+  from: "en",
+  to: "ru",
+  chunkSize: 8,
+  limit: 3000,
+})
+// .then((res) => {
+//   const fs = require("fs");
+//   fs.writeFileSync("1.md", res);
+});
