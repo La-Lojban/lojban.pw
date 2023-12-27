@@ -23,7 +23,7 @@ jobs:
     - name: Run Docker container
       uses: kohlerdominik/docker-run-action@v1
       with:
-        run: npm install && npx playwright install && npx playwright install-deps && npm run cicd
+        run: npm install && npx playwright install chromium && npx playwright install-deps && npm run cicd
         image: lojban:latest
         environment: |
           GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }}
