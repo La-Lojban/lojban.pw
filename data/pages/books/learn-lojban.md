@@ -9937,9 +9937,9 @@ As you can see, no trick makes the result shorter than the original with **kei**
 
 ### Conversion from sets to masses
 
-**le prenu cu pa moi le'i pendo be mi ku noi lu'o ke'a ca smaji**
-_He is the first among my friends who keep silence together._
-_The person is the first among the set of my friends who are now, as a crowd, being silent._
+> **le prenu cu pa moi le'i pendo be mi ku noi lu'o ke'a ca smaji**
+> _He is the first among my friends who keep silence together._
+> _The person is the first among the set of my friends who are now, as a crowd, being silent._
 
 The qualifier word **lu'o** placed before an argument converts it into a mass made of members of that argument. In this case, **ke'a** refers to the set of my friends **le'i pendo be mi** and then **lu'o** converts the members of the set into a mass, the crowd of my friends.
 
