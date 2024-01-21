@@ -8533,7 +8533,7 @@ For asking for a number, we use **ma**:
 > **li ze**
 > _7_
 
-### ‘_First_’, ‘_second_’, ‘_last_’
+### ‘_first_ — «**pa moi**», ‘_second_’ — «**re moi**», ‘_last_’ — «**ro moi**»
 
 Ordinal numbers such as _first_, _second_, and _third_ are used to arrange items in order. In Lojban, they are formed by adding a number followed by **moi**:
 
