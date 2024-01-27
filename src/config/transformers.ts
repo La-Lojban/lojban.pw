@@ -7,10 +7,11 @@ import { createElementFromSelector } from "../lib/html-prettifier/elements";
 
 import { sluggify } from "../lib/html-prettifier/slugger";
 
-export const tocSelector = "h1, h2, h3";
+export const tocSelector = ["h1", "h2", "h3"];
+export const allSelector = ["h1", "h2", "h3", "h4", "h5", "h6"];
 export const transformers = [
 	{
-		selector: "h1, h2, h3, h4, h5, h6",
+		selector: allSelector.join(","),
 		fn: (element: HTMLElement) => {
 			element.setAttribute("id", sluggify(element.innerText));
 			// 	).replace(/[^\w\s-]/g, "")

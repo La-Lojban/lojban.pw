@@ -14,7 +14,7 @@ import raw from "rehype-raw";
 import stringify from "rehype-stringify";
 
 import htmlParser, { HTMLElement } from "node-html-parser";
-import { tocSelector, transformers } from "../config/transformers";
+import { allSelector, tocSelector, transformers } from "../config/transformers";
 import { sluggify } from "./html-prettifier/slugger";
 import { createElementFromSelector } from "./html-prettifier/elements";
 import { TocElem } from "../types/toc";
@@ -69,32 +69,33 @@ export default async function markdownToHtml({
     ).toString()
   );
 
-  // Prepare ToC
-  let toc: TocElem[] = Array.from(root.querySelectorAll(tocSelector)).map(
-    (element: HTMLElement) => {
-      const { rawTagName } = element;
-      return {
-        depth: rawTagName.replace(/^h/g, ""),
-        value: element.textContent,
-        id: sluggify(element.innerText),
-      };
-    }
-  );
-  //fix duplicate ids
-  const idCounts = toc.reduce((acc, item) => {
-    // Increment the count for this item's id, or set it to 1 if it doesn't exist
-    acc[item.id] = (acc[item.id] || 0) + 1;
-    return acc;
-  }, {} as { [key: string]: number });
-
-  toc = toc.map((item) => {
-    if (idCounts[item.id] > 1) {
-      // Increment the item's id if it is duplicated in the array
-      item.id += "-" + (idCounts[item.id] - 1).toString();
-      idCounts[item.id]--; // Decrement the count for this id
-    }
-    return item;
+  let allHeaders: TocElem[] = Array.from(
+    root.querySelectorAll(allSelector.join(","))
+  ).map((element: HTMLElement) => {
+    const { rawTagName } = element;
+    return {
+      depth: rawTagName.replace(/^h/g, ""),
+      value: element.textContent,
+      id: sluggify(element.innerText),
+      tagName: element.tagName.toLowerCase(),
+    };
   });
+
+  //fix duplicate ids
+  const idCounts: { [key: string]: number } = {};
+
+  const toc = allHeaders
+    .map((item) => {
+      if (idCounts[item.id] === undefined) {
+        idCounts[item.id] = 1;
+      } else {
+        idCounts[item.id]++;
+        item.id += "-" + (idCounts[item.id]).toString();
+        idCounts[item.id] = 1;
+      }
+      return item;
+    })
+    .filter((item) => tocSelector.includes(item.tagName));
 
   //Prepare image gallery
   let imgs: Partial<GalleryImg>[] = Array.from(
@@ -111,7 +112,7 @@ export default async function markdownToHtml({
   transformers.forEach(({ selector, fn, wrapper }) =>
     Array.from(root.querySelectorAll(selector)).forEach(
       fn
-        ? fn
+        ? fn.bind({ idCounts: {} as { [key: string]: number } })
         : wrapper
         ? (element) =>
             ((wrapper: string, element: HTMLElement) => {
