@@ -1,8 +1,9 @@
 ---
 title: Зачем нужна логика?
 author: С. Н. Виноградов, А. Ф. Кузьмин
-----
+---
 
+<div class="print:hidden">
 <div class="lojbo"></div>
 
 ## Введение
