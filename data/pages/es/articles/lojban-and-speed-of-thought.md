@@ -2,7 +2,7 @@
 title: Lenguaje Lojban y velocidad del pensamiento
 ---
 
-<div class="lojbo"></div>
+<div class="lojbo simple_blockquotes"></div>
 
 Un lenguaje con solo dos palabras
 

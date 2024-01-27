@@ -2,7 +2,7 @@
 title: História do Lojban
 ---
 
-<div class="lojbo"></div>
+<div class="lojbo simple_blockquotes"></div>
 
 Lojban é uma língua, proposta como um meio de representação do conhecimento e como uma ponte entre idiomas falados, idiomas de programação e idiomas da ciência e da matemática.
 Lojban foi criado por um grupo de pesquisadores em 1987.

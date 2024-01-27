@@ -4,7 +4,7 @@ ogImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 coverImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 ---
 
-<div class="lojbo"></div>
+<div class="lojbo simple_blockquotes"></div>
 <div class="print:hidden">
 
 [📁 PDF version of this page](/vreji/uencu/learn-lojban.pdf)
@@ -12,7 +12,7 @@ coverImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 <hr/>
 </div>
 
-<div class="lojbo"></div>
+<div class="lojbo simple_blockquotes"></div>
 
 How to use this course:
 

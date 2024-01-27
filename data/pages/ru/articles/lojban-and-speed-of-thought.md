@@ -2,7 +2,7 @@
 title: Язык Ложбан и скорость мышления
 ---
 
-<div class="lojbo"></div>
+<div class="lojbo simple_blockquotes"></div>
 
 Язык с только двумя словами
 

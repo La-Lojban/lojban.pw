@@ -2,7 +2,7 @@
 title: A noção de torcer a boca na língua Lojban
 ---
 
-<div class="lojbo"></div>
+<div class="lojbo simple_blockquotes"></div>
 
 Bob (Robert) Le'Chevalier (conhecido como la lojbab) é um dos desenvolvedores que em 1987 construíram a famosa língua Lojban.
 

@@ -2,7 +2,7 @@
 title: La notion de grimace dans la langue Lojban
 ---
 
-<div class="lojbo"></div>
+<div class="lojbo simple_blockquotes"></div>
 
 Bob (Robert) Le'Chevalier (alias la lojbab) est l'un des développeurs qui, en 1987, ont construit la célèbre langue Lojban.
 

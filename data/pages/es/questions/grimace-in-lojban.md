@@ -2,7 +2,7 @@
 title: La noción de mueca en el idioma Lojban
 ---
 
-<div class="lojbo"></div>
+<div class="lojbo simple_blockquotes"></div>
 
 Bob (Robert) Le'Chevalier (también conocido como la lojbab) es uno de los desarrolladores que en 1987 construyó el famoso idioma Lojban.
 

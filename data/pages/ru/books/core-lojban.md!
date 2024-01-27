@@ -2,7 +2,7 @@
 title: 📝 ‘Core Lojban’ essay
 ---
 
-<div class="lojbo">
+<div class="lojbo simple_blockquotes">
 
 Large parts of English can be described as expressing relations. In that regard English (despite being often ambiguous and having complex grammar) can still be used to relay the basics of Lojban. At first let's try to describe a portion of the English language using Lojban terms:
 

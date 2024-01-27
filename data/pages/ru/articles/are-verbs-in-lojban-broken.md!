@@ -2,7 +2,7 @@
 title: Are Verbs in Lojban Broken?
 ---
 
-<div class="lojbo"></div>
+<div class="lojbo simple_blockquotes"></div>
 
 ## Question
 

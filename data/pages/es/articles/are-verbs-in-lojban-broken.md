@@ -3,7 +3,7 @@
 title: ¿Están rotos los verbos en Lojban?
 ---
 
-<div class="lojbo"></div>
+<div class="lojbo simple_blockquotes"></div>
 ## Pregunta
 
 Parece que aprender las definiciones de los verbos en Lojban, como

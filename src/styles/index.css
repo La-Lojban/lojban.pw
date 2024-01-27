@@ -350,7 +350,7 @@ article blockquote:has(.naldra) {
 }
 
 article blockquote  {
-  @apply flex relative py-4 px-3 m-0 bg-gray-100 hover:bg-gray-200 border-0 shadow rounded-sm rounded-l-none;
+  @apply flex relative py-4 px-3 mb-1 m-0 bg-gray-100 hover:bg-gray-200 border-0 shadow rounded-sm rounded-l-none;
   border-left: 3px solid #1e90ff;
 }
 
@@ -371,7 +371,7 @@ article blockquote p {
   @apply font-normal;
 }
 
-article blockquote p > *:not(span):not(b):not(em):not(sub):not(sup):not(i) {
+article .simple_blockquotes ~ blockquote p > *:not(span) {
   @apply block;
 }
 

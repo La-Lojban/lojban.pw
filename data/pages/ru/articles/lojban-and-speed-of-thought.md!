@@ -2,7 +2,7 @@
 title: Lojban language and speed of thought
 ---
 
-<div class="lojbo"></div>
+<div class="lojbo simple_blockquotes"></div>
 
 A language with only two words
 

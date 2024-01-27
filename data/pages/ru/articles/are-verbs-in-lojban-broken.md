@@ -2,7 +2,7 @@
 title: Сломаны ли глаголы в Lojban?
 ---
 
-<div class="lojbo"></div>
+<div class="lojbo simple_blockquotes"></div>
 ## Вопрос
 
 Кажется, что изучение определений глаголов в Lojban, таких как

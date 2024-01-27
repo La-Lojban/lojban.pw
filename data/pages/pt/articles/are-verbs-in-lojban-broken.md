@@ -2,7 +2,7 @@
 title: Os Verbos em Lojban estão Quebrados?
 ---
 
-<div class="lojbo"></div>
+<div class="lojbo simple_blockquotes"></div>
 ## Pergunta
 
 Parece que aprender as definições dos verbos em Lojban, como
