@@ -371,7 +371,7 @@ article blockquote p {
   @apply font-normal;
 }
 
-article blockquote p > *:not(span) {
+article blockquote p > *:not(span):not(b):not(em) {
   @apply block;
 }
 
