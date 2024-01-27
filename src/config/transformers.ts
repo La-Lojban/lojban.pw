@@ -9,7 +9,7 @@ import { sluggify } from "../lib/html-prettifier/slugger";
 
 export const tocSelector = ["h1", "h2", "h3"];
 export const allSelector = ["h1", "h2", "h3", "h4", "h5", "h6"];
-export const transformers: {selector: string; fn?: any; wrapper?:string; idCount?: any;}[] = [
+export const transformers: {selector: string; fn?: any; wrapper?:string; idCounts?: any;}[] = [
 	{
 		selector: allSelector.join(","),
 		fn: (element: HTMLElement) => {
