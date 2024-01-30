@@ -41,7 +41,7 @@ export function getClosestHeaderId() {
     const hashedId = "#" + closestHeader?.id;
     history.replaceState(null, "", hashedId);
     tocHeaders.forEach((a) => {
-      if (a.href.endsWith(hashedId)) {
+      if (decodeURI(a.href).endsWith(hashedId)) {
         a.classList.add("hover");
 
         const tocCore = document.getElementById(toScan.core);
