@@ -239,7 +239,7 @@ img {
   @apply w-12 h-12 mt-4 hover:opacity-70;
 }
 
-.lojbo ~ * {
+.lojbo ~ *, .math .katex {
   font-family: "Linux Libertine", Libertine, Constantia, "Lucida Bright",
     Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif",
     "Liberation Serif", Georgia, serif;
