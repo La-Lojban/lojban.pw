@@ -246,9 +246,10 @@ img {
 }
 
 .math .katex {
-  font: normal 1.1em "Linux Libertine", Libertine, KaTeX_Main, Constantia, "Lucida Bright",
+  /* font: normal 1.1em "Linux Libertine", Libertine, KaTeX_Main, Constantia, "Lucida Bright",
     Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif",
-    "Liberation Serif", Georgia, serif;
+    "Liberation Serif", Georgia, serif; */
+  font-size: 100%;
 }
 
 [data-md-color-primary="youtube"] {
