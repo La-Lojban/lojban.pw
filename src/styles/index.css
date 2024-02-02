@@ -101,6 +101,10 @@ article h4 {
   @apply text-xl my-4 leading-snug;
 }
 
+article h5 {
+  @apply text-lg my-4 leading-tight;
+}
+
 article h1:before,
 article h2:before,
 article h3:before,
@@ -130,6 +134,10 @@ article h6 {
 
 .listing h4 {
   @apply text-xl leading-snug;
+}
+
+.listing h5 {
+  @apply text-lg leading-tight;
 }
 
 a.in-heading,
