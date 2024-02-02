@@ -103,8 +103,8 @@ export default async function markdownToHtml({
   ).map((element: HTMLElement) => {
     return {
       url: element.getAttribute("url"),
-      caption: element.getAttribute("caption"),
-      definition: element.getAttribute("definition"),
+      caption: element.getAttribute("caption") ?? element.getAttribute("definition") ?? '',
+      definition: element.getAttribute("definition") ?? element.getAttribute("caption") ?? '',
     };
   });
 
