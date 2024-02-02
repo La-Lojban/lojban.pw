@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0,0,600,400"
+   width="600"
+   height="400"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="chart.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.2033333"
+     inkscape:cx="300"
+     inkscape:cy="200.27701"
+     inkscape:window-width="1920"
+     inkscape:window-height="1003"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1" />
+  <svg
+     width="600"
+     height="350"
+     version="1.1"
+     id="svg3">
+    <g
+       class="venn-area venn-circle"
+       data-venn-sets="0"
+       id="g1">
+      <path
+         d="&#10;M 235.3643594720771 175 &#10;m -160 0 &#10;a 160 160 0 1 0 320 0 &#10;a 160 160 0 1 0 -320 0"
+         style="fill-opacity: 0.25; fill: rgb(31, 119, 180);"
+         id="path1" />
+      <text
+         class="label"
+         text-anchor="middle"
+         dy="4.1999998"
+         x="202"
+         y="175"
+         style="font-size:37.3333px;fill:#1f77b4"
+         id="text1"><tspan
+           x="202"
+           y="176"
+           dy="4.1999998"
+           id="tspan1"
+           style="font-size:37.3333px">врачи</tspan></text>
+    </g>
+    <g
+       class="venn-area venn-circle"
+       data-venn-sets="1"
+       id="g2">
+      <path
+         d="&#10;M 364.6356405279229 175.00000000000003 &#10;m -160 0 &#10;a 160 160 0 1 0 320 0 &#10;a 160 160 0 1 0 -320 0"
+         style="fill-opacity: 0.25; fill: rgb(255, 0, 0);"
+         id="path2" />
+      <text
+         class="label"
+         text-anchor="middle"
+         dy="4.1999998"
+         x="393"
+         y="175"
+         style="font-size:37.3333px;fill:#ff0000"
+         id="text2"><tspan
+           x="393"
+           y="175"
+           dy="4.1999998"
+           id="tspan2"
+           style="font-size:37.3333px">художники</tspan></text>
+    </g>
+    <g
+       class="venn-area venn-intersection"
+       data-venn-sets="0_1"
+       id="g3">
+      <path
+         d="&#10;M 299.99999999999994 321.36336281168565 &#10;A 160 160 0 0 1 300.00000000000006 28.636637188314324 &#10;A 160 160 0 0 1 299.99999999999994 321.36336281168565"
+         style="fill-opacity: 0;"
+         id="path3" />
+      <text
+         class="label"
+         text-anchor="middle"
+         dy=".35em"
+         x="300"
+         y="174"
+         style="fill: rgb(68, 68, 68);"
+         id="text3"><tspan
+           x="300"
+           y="174"
+           dy="0.35em"
+           id="tspan3" /></text>
+    </g>
+  </svg>
+</svg>
