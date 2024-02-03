@@ -119,7 +119,7 @@ function cssifyName(text) {
       ) {
         ogImage = ogImage ?? `/assets/pixra/texts/${slug}/${lineNo}.svg`;
         table[title].push(
-          `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+          `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100">
             <td colspan="${langs.length}">
             <div class="h-full w-full flex justify-center items-center">
             <img class="h-56" src="/assets/pixra/texts/${slug}/${lineNo}.svg"/>
@@ -130,7 +130,7 @@ function cssifyName(text) {
         );
       }
       table[title].push(
-        `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">`
+        `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100">`
       );
       for (const lang of langs) {
         const l = cssifyName(lang);
