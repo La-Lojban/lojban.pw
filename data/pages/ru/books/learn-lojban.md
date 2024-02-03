@@ -2360,12 +2360,12 @@ klama
 ```mermaid
 flowchart TB
     %%common settings
-    subgraph bridi["<i>relation</i>#nbsp;"]
-        x1("<i>slot</i> x#8321;")
+    subgraph bridi["<i>отношение</i>#nbsp;"]
+        x1("<i>слот</i> x#8321;")
         selbri
-        x2("<i>slot</i> x#8322;")
+        x2("<i>слот</i> x#8322;")
     end
-    subgraph sumti["<i>list of argument terms (sumti)</i>#nbsp;"]
+    subgraph sumti["<i>список термов-аргументов (sumti)</i>#nbsp;"]
         s1-.->x1
         s2-.->x2
     end
@@ -2380,8 +2380,8 @@ flowchart TB
     class bridi blabi;
 
     %% input your sumti:
-    s1("<i>argument term</i> <b>mi</b>")
-    s2("<i>argument term</i> <b>do</b>")
+    s1("<i>терм-аргумент</i> <b>mi</b>")
+    s2("<i>терм-аргумент</i> <b>do</b>")
     %% input your selbri
     selbri[(prami)]
 
