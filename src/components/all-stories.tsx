@@ -35,7 +35,7 @@ const AllStories = ({ posts }: Props) => {
           >
             <div
               id={`${key}`}
-              className="select-none mx-3 my-1 capitalize inline-block dark:border-transparent text-gray-500 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700"
+              className="select-none mx-3 my-1 capitalize inline-block text-gray-500 border-gray-100 hover:border-gray-300"
             >
               <span>{key}</span>
               <a className="print:hidden" aria-hidden="true" href={`#${key}`}>
@@ -45,7 +45,7 @@ const AllStories = ({ posts }: Props) => {
           </div>
           <div>
             <div
-              className="px-4 pt-2 pb-4 md:pt-4 md:pb-8 dark:bg-gray-800"
+              className="px-4 pt-2 pb-4 md:pt-4 md:pb-8"
               role="tabpanel"
               aria-labelledby="about-tab"
             >
