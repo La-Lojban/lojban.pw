@@ -14,8 +14,15 @@ const PostPreview = ({ post }: Props) => {
     post.author ?? post["meta.author"];
   return (
     <div
-      className="max-w-md p-4 align-middle shadow-lg rounded-lg grid place-items-left bg-blend-lighten bg-white bg-right"
-      style={{ backgroundImage: `url('${coverImage}')`, backgroundPosition: 'right', backgroundRepeat: 'no-repeat' }}
+      className={
+        "max-w-md p-4 align-middle shadow-lg rounded-lg grid place-items-left bg-blend-lighten bg-right" +
+        (coverImage ? " bg-white/50" : " bg-white")
+      }
+      style={{
+        backgroundImage: `url('${coverImage}')`,
+        backgroundPosition: "right",
+        backgroundRepeat: "no-repeat",
+      }}
     >
       <div className="inner">
         <h3 className="text-gray-800 text-2xl text-center">
