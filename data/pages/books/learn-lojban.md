@@ -1530,7 +1530,7 @@ When after the time-related particle we place a bare argument then we form a ter
 > **mi pinxe le djacu ca le nu do klama**
 > _I drink the water while you are coming._
 
-The **ca le nu do klama** part is a long term meaning _while you come / while you are coming_. The **le nu do klama** is an argument meaning **coming of you, you coming**.
+The **ca le nu do klama** part is a long term meaning _while you come / while you are coming_. The **le nu do klama** is an argument meaning *coming of you, you coming*.
 
 > **mi citka ba le nu mi dansu**
 > _I eat after I dance._
