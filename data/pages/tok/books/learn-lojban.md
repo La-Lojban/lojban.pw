@@ -20,7 +20,7 @@ o kepeken lipu ni lon nasin ni:
 2. o kama sona e ni: pilin sina la lipu li pona seme li ike seme
 3. o toki e pilin ale lon [💬 ilo toki kulupu](https://lojban.pw/articles/live_chat/)
 
-## lipu sona #1) tenpo lili la ijo suli pi toki ni
+## lipu sona #1) tenpo lili la ijo suli pi nasin toki
 
 ### sitelen nimi
 
@@ -57,7 +57,7 @@ toki Losupan la kalama pi uta open li luka luka.
 </tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton" color="#FF1493">y</font></b></td>
-<td> toki pona la kalama ni li lon ala. kalama ante ale la kalama ni li insa. toki Inli la sama nimi <i>comm<u>a</u></i></td>
+<td> toki pona la kalama ni li lon ala. kalama ale pi uta open la, uta li kama lape la, kalama ni li kama. kalama ante ale pi uta open la kalama ni li lon insa. toki Inli la sama nimi <i>comm<u>a</u></i>.</td>
 </tr>
 <tr>
 </tbody></table>
@@ -90,7 +90,7 @@ kalama pi uta pini la, suli la kalama li sama toki Lasina sama toki Epelanto, ta
 <tr>
 <td><span class="audio-inline"><b class="guibutton">j</b></span>
 </td>
-<td>like <i>s</i> in <i>pleasure</i> or <i>treasure</i>, like <i>j</i> in French <i>bonjour</i>.
+<td>sama mu <i>ĵ</i> pi toki Epelanto. sama ni: mu <i>c</i> la anpa uta li mu. sama mu <i>j</i> lon nimi <i>bonjour</i> pi toki Kanse.
 </td></tr>
 <tr>
 <td><span class="audio-inline"><b class="guibutton">x</b></span>
@@ -128,10 +128,9 @@ sitelen **r** li ken mu sama toki Inli sama toki Sukosi sama toki Lusi kin. ken 
 
 Non-Lojban vowels like the short _i_ and _u_ in Standard British English _hit_ and _but_, are used by some people to separate consonants. So, if you have trouble pronouncing two consonants in a row (e.g. the **vl** in **tavla**, which means _to talk to_), then you can say _tavɪla_ — where the _ɪ_ is very short. However, other vowels like **a** and **u** must be long.
 
-<!--
-### toki pi lili nasin nanpa wan
+### nasin lili la toki lili
 
-toki Losupan la toki The basic unit in Lojban is "sentence". Here are three simple examples:
+toki Losupan la toki suli li lon la toki wan mute li lon ona. o lukin e toki tu wan:
 
 > **le prenu cu tavla mi**
 > _jan li toki tawa mi._
@@ -149,13 +148,13 @@ mi
 > _mi olin e sina._
 
 prami
-: … li olin e … (ijo)
+: … li olin e ijo …
 
 do
 : sina
 
 > **mi ca cu tavla do**
-> _tenpo ni la mi toki tawa sina._
+> _toki tawa sina lon tenpo ni._
 
 ca
 : lon tenpo ni
@@ -168,43 +167,43 @@ ca
 
 <pixra url="/assets/pixra/cilre/do.webp" caption="do" definition="sina"></pixra>
 
-Each sentence in Lojban consists of the following parts from the left to the right:
+toki wan la kipisi ni li lon. mi toki tan open toki tawa pini toki.
 
-- the head:
-  - consists of so-called "terms",
-    - **le prenu** is the only head term in the example **le prenu cu tavla mi** above,
-    - **mi**, **ca** are head terms in the example **mi ca cu tavla do** above.
-- the head separator **cu**:
-  - pronounced as _shoe_ since **c** is for _sh_,
-  - shows that the head has ended,
-  - can be omitted when it's clear that the head is completed.
-- the tail:
-  - the main relation construct (called "**selbrisni**" in Lojban) 
-  - \+ possibly one or more terms after it,
-    - **tavla**, **prami** are selbrisni, main relation constructs in the examples above.
-    - **mi** is the only tail term in the example **le prenu cu tavla mi** above.
-    - **do** is the only tail term in the example **mi prami do** above.
+- open:
+  - li jo e ijo toki wan mute
+    - toki **le prenu cu tavla mi** la ijo wan taso li lon kipisi open li ni: **le prenu**.
+    - toki **mi ca cu tavla do** la ijo **mi** en ijo **ca** li ijo lon kipisi open.
+- nimi **cu** li tu e open e pini:
+  - kalama la sitelen pi toki Epelanto la _ŝu_.
+  - ona li kama la kipisi open li pini.
+  - jan kute li ken sona e pini pi kipisi open tan ijo ante la nimi ni li ken weka.
+- pini:
+  - nanpa wan la nimi lawa sona li lon, li suli nanpa wan lon ni: sona seme li lon toki ni. (toki Losupan la ni li "**selbrisni**")
+  - \+ kama la ijo toki li ken lon li ken wan li ken mute li ken lon ala
+    - toki lili pi pini poka la nimi **tavla** en nimi **prami** li nimi lawa sona **selbrisni**.
+    - toki **le prenu cu tavla mi** la ijo **mi** taso li ijo lon kipisi pini.
+    - toki **mi prami do** la ijo **do** taso li ijo lon kipisi pini.
 
 ```mermaid
 flowchart LR
     %% common structure:
-    subgraph sentence["<i>sentence</i>#nbsp;"]
+    subgraph sentence["<i>toki</i>#nbsp;"]
         direction LR
         head-terms
         cu{{"cu"}}
         tail
     end
     head-terms ~~~ cu ~~~ tail
-    subgraph tail["<i>tail</i>#nbsp;"]
+    subgraph tail["<i>pini</i>#nbsp;"]
         direction LR
         selbri ~~~ tail-terms
     end
     %%  semi-automated
-    subgraph head-terms["<i>head terms</i>#nbsp;"]
+    subgraph head-terms["<i>ijo open</i>#nbsp;"]
         t1
         t2
     end
-    subgraph tail-terms["<i>tail terms</i>#nbsp;"]
+    subgraph tail-terms["<i>ijo pini</i>#nbsp;"]
         tt3
         %% tt4
     end
@@ -226,27 +225,27 @@ flowchart LR
 
 ```
 
-In Lojban, we mostly speak of relations rather than nouns or verbs.
+nasin toki mute la, nimi li ken nimi ijo li ken nimi pali. toki Losupan la, tenpo mute la mi toki e ni ale sama ni: nimi sona.
 
-Here are the two relation words, which roughly correspond to verbs:
+toki pini poka la nimi sona tu li lon. lili la nimi sona ni li sama nimi pali.
 
 prenu
-: … is a person / are people
+: … li jan
 
 tavla
-: … speaks to …
+: … li toki tawa …
 
-Each relation has one or more roles that can also be called "slots" or "places". Above, they are labelled with "…" Those slots are to be filled with arguments (called "**sumti**" in Lojban). Argument terms are constructs like **le prenu**, **mi**, **do** no matter whether those terms end up being in a head or in a tail of a sentence. We put argument terms in order, thus filling these slots and giving a concrete meaning to the relation.
+nimi sona ale la ijo li ken lon. ken lon ijo li sama lupa li sama poki. lipu ni la toki poka li sitelen e poki kepeken sitelen "…" ijo li lon poki la sona pi nimi sona li toki e ijo ni. (toki Losupan la nimi *sumti* li ijo ni: ona li ken lon poki.) nimi **le prenu** en nimi **mi** en nimi **do** li ijo li wile tawa poki pi nimi sona. toki la ijo poki ken nanpa wan li tawa poki nanpa wan, la ijo kama ale li tawa poki kama lon nasin nanpa. (ijo ale ni li ken lon kipisi open lon kipisi pini, kipisi li tu ala e kulupu ijo.) ijo li lon poki la sona toki li kama toki e ijo ni a.
 
 ```mermaid
 flowchart TB
     %%common settings
-    subgraph bridi["<i>relation</i>#nbsp;"]
+    subgraph bridi["<i>nimi sona</i>#nbsp;"]
         x1("…")
         selbri
         x2("…")
     end
-    subgraph sumti["<i>list of argument terms</i>#nbsp;"]
+    subgraph sumti["<i>ijo ni li ken lon poki</i>#nbsp;"]
         s1-.->x1
         s2-.->x2
     end
@@ -268,245 +267,244 @@ flowchart TB
 
 ```
 
-We can also turn such relation into an argument term.
+nimi sona li ken kama ijo pi poki sona.
 
-For that we put a short word **le** in front of it:
+nasin li ni: o pana e nimi lili **le** lon open.
 
 prenu
-: … is a person
+: … li jan
 
 le prenu
-: the person, the people
+: jan
 
-Similarly,
+sama la,
 
 tavla
-: … speaks to …
+: … li toki tawa …
 
-and thus
+la
 
 le tavla
-: the speaker, the speakers
+: jan toki
 
-It might sound strange how _person_ can be a "verb", but in fact, this makes Lojban very simple:
+sama toki pona la, nimi ijo _jan_ en nimi pali _toki_ li nasin sama lon toki. ni la nasin pi toki Losupan li ken lili mute.
 
 <table>
 <thead>
 <tr>
-<th>relation word with slots unfilled</th>
-<th>argument form (<b>sumti</b>)</th></tr>
+<th>nimi sona (ijo ala li kama lon poki)</th>
+<th>ijo (<b>sumti</b>)</th></tr>
 </thead>
 <tbody>
 <tr>
-<td><b>prenu</b> — <i>… (someone) is a person</i> </td>
-<td><b>le prenu</b> — <i>the person / the people</i>
-    <br/><b>le prenu</b> — <i>the one who is a person / those who are people</i>
+<td><b>prenu</b> — <i>ijo … li jan</i> </td>
+<td><b>le prenu</b> — <i>jan</i>
+    <br/><b>le prenu</b> — <i>ijo ni: ona li jan</i>
 </td></tr>
 <tr>
-<td><b>tavla</b> — <i>… (someone) speaks to … (someone)</i> </td>
-<td><b>le tavla</b> — <i>the speaker / the speakers</i>
-    <br/><b>le tavla</b> — <i>the one who is a speaker / those who are speakers</i>
+<td><b>tavla</b> — <i>ijo … li toki tawa ijo …</i> </td>
+<td><b>le tavla</b> — <i>jan toki</i>
+    <br/><b>le tavla</b> — <i>ijo ni: ona li toki tawa ijo</i>
 </td></tr>
 </tbody></table>
 
-The first slot of the relations disappears when using **le**, hence such alternative translations as _the one who …_ is possible.
+nimi *le* li moku e poki nanpa wan pi nimi sona. ni la sona pi nimi **le** li ken kama toki pona lon nasin ante ni: _ijo ni: ona li (sona) …_
 
-<!-- We can also say that **le** creates a noun from a relation construct with roughly the meaning of _the one which is …_ (_is a person_ — _the person_), or even _those who do…_ (_to speak to_ — _the speakers_), _those who are…_ (_are people_ — _the people_). ~~>
+<!-- We can also say that **le** creates a noun from a relation construct with roughly the meaning of _the one which is …_ (_is a person_ — _the person_), or even _those who do…_ (_to speak to_ — _the speakers_), _those who are…_ (_are people_ — _the people_). -->
 
-Notice, that Lojban, by default, doesn't specify number between _the speaker_ or _the speakers_. That is, **le tavla** is vague in that regard, and we will soon discover ways to define the number.
+sama toki pona la, toki Losupan la, nimi ijo li toki ala e mute ijo. **le tavla** li ken _jan wan_ li ken _jan mute_. tenpo kama poka la sina kama sona e nasin ni: sina ken toki a e nanpa.
 
-Apart from argument terms there are modal terms like **ca**:
+ijo wan toki li ken ijo poki ala li ken ijo poka. nimi **ca** li sama ni:
 
 > **mi ca cu tavla do**
-> _I now talk to you._
+> _mi toki tawa sina lon tenpo ni._
 
 ca
-: now
+: lon tenpo ni
 
-Modal terms do not fill slots of the main relation construct ("**selbrisni**"). Instead, they are applied to the whole sentence enriching or narrowing its meaning.
+ijo poka li tawa ala poki pi nimi sona lawa ("**selbrisni**"). ona li tawa ale toki li ken pana e sona namako li ken lili e sona ken.
 
-Thus, terms in Lojban are represented with:
+ale la, ijo toki wan li ken ni tu:
 
-- argument terms that fill in slots of relations. Examples are:
-  - nouns like **le prenu** (_the person_)
-  - pronouns like **mi** (_I_, _me_), **do** (_you_). Pronouns work exactly as nouns, but **le** is not used for them. They work as arguments on their own.
-- modal terms that do not fill slots of relations but specify additional, сlarifying information.
-  - for example, **ca** (_now, in present_).
+- ijo li tawa poki pi nimi sona, sama ni:
+  - ijo li tan nimi sona sama ni: **le prenu** (_jan_)
+  - nimi ijo lili sama **mi** (_mi_) sama **do** (_sina_). ona li wile ala e nimi **le**, ona taso li ijo li ken lon poki.
+- ijo li tawa ala poki pi nimi sona, li pana e sona namako pona.
+  - sama ni: **ca** (_lon tenpo ni_).
 
-Some more examples:
+o lukin e toki ni:
 
-<pixra url="/assets/pixra/cilre/nintadni.webp" caption="mi nintadni" definition="I am a new student, a fresher."></pixra>
+<pixra url="/assets/pixra/cilre/nintadni.webp" caption="mi nintadni" definition="mi jan sin pi kama sona."></pixra>
 
 > **mi nintadni**
-> _I am a new student._
+> _mi jan sin pi kama sona._
 
 nintadni
-: … (someone) is a new student, a newbie
+: jan … li jan sin pi kama sona, li sin tawa kama sona
 
 
-Unlike in English we don't have to add the verb "am/is/are/to be" to the sentence. It is already implied. The relation word **nintadni** (_… is a new student_) already has this English "am/is/are/to be" built into its English translation.
+<!-- Unlike in English we don't have to add the verb "am/is/are/to be" to the sentence. It is already implied. The relation word **nintadni** (_… li jan sin pi kama sona_) already has this English "am/is/are/to be" built into its English translation. -->
 
 > **do jimpe**
-> _You understand._
+> _sina sona e kon._
 
 jimpe
-: … (someone) understands … (something)
+: jan … li sona e kon pi ijo …
 
-<pixra url="/assets/pixra/cilre/pilno_le_fonxa.webp" caption="le prenu cu pilno le fonxa" definition="The person uses the phone."></pixra>
+<pixra url="/assets/pixra/cilre/pilno_le_fonxa.webp" caption="le prenu cu pilno le fonxa" definition="jan li kepeken ilo toki."></pixra>
 
 > **mi pilno le fonxa**
-> _I use the phone._
+> _mi kepeken ilo toki._
 
 pilno
-: … (someone) uses … (something)
+: jan … li kepeken ijo …
 
 fonxa
-: … is a phone, … are phones
+: … li ilo toki
 
 le fonxa
-: the phone, the phones
+: ilo toki
 
-<pixra url="/assets/pixra/cilre/citka.webp" caption="mi citka" definition="I eat."></pixra>
+<pixra url="/assets/pixra/cilre/citka.webp" caption="mi citka" definition="mi moku."></pixra>
 
 > **mi citka**
-> _I eat._
+> _mi moku._
 
 citka
-: … (someone) eats … (something)
+: jan … li moku e ijo …
 
 > **do citka**
-> _You eat._
+> _sina moku._
 
-<!-- ~~>
+<!-- -->
 
 > **mi citka le plise**
-> _I eat the apples._
+> _mi moku e kili loje._
 
-<pixra url="/assets/pixra/cilre/le_plise_cu_kukte.webp" caption="le plise cu kukte" definition="The apples are tasty."></pixra>
+<pixra url="/assets/pixra/cilre/le_plise_cu_kukte.webp" caption="le plise cu kukte" definition="kili loje li pona uta."></pixra>
 
 > **le plise cu kukte**
-> _The apples are tasty._
+> _kili loje li pona uta.._
 
 le plise
-: the apples
+: kili loje
 
 kukte
-:  … (something) is tasty
+:  ijo … li pona tawa uta
 
-A simpler sentence in Lojban would contain only one main relation word:
+toki Losupan la toki li ken lili mute li ken nimi sona wan taso:
 
-<pixra url="/assets/pixra/cilre/karce.webp" caption="karce" definition="It is a car."></pixra>
+<pixra url="/assets/pixra/cilre/karce.webp" caption="karce" definition="ni li tomo tawa."></pixra>
 
 > **karce**
-> _Car!_
-> _It is a car._
+> _tomo tawa!_
+> _tomo tawa li lon._
 
-You could say this when you see a car coming. Here the context would be clear enough that there is a car somewhere around and probably it's dangerous.
+ilo tawa li kama la sina ken toki sama ni. ken suli la tan ijo poka la jan kute li ken sona e kon ni: ilo tawa li lon, li ken pakala e jan.
 
-**karce** itself is a relation meaning _is a car, to be a car_.
+nimi **karce** li nimi sona li toki e ni: _ijo li tomo tawa_.
 
-We can of course be more precise and say, for example:
+nimi sona wan taso la sona li lili ike la, mi ken suli e sona, sama toki ni:
 
 > **ti karce**
-> _This is a car._
+> _ni li tomo tawa._
 
 ti
-: pronoun: this thing near me
+: nimi ijo lili: ijo ni poka
 
-<pixra url="/assets/pixra/cilre/ti.webp" caption="ti" definition="this one (near me, the speaker)"></pixra>
+<pixra url="/assets/pixra/cilre/ti.webp" caption="ti" definition="ijo ni (lon poka mi, lon poka pi jan toki)"></pixra>
 
-Similarly, you can say
+nasin sama la, jan li ken toki ni:
 
-<pixra url="/assets/pixra/cilre/carvi.webp" caption="carvi" definition="… is a rain"></pixra>
+<pixra url="/assets/pixra/cilre/carvi.webp" caption="carvi" definition="ijo … li telo tan sewi"></pixra>
 
 > **carvi**
-> _It is raining._
+> _telo li kama tan sewi._
 
-where
+nimi sona ni:
 
 carvi
 : … is a rain, … is raining
 
-or
+sama la toki ni:
 
 > **pluka**
-> _It's pleasant_
+> _ijo li pona pilin_
 
-where
+nimi sona ni:
 
 pluka
-: … is pleasant
+: ijo … li pona tawa pilin
 
-Notice that in Lojban there is no need in the word _it_ in such sense. You just use the relation word you need.
+o lukin e ni: toki Losupan la ijo li lon la nimi lili _ijo_ _lon_ li wile ala. o kepeken nimi sona taso.
 
 > **prami**
-> _Someone loves._
+> _ijo li olin e ijo._
 
-<pixra url="/assets/pixra/cilre/bajra.webp" caption="le prenu cu bajra" definition="The person runs."></pixra>
+<pixra url="/assets/pixra/cilre/bajra.webp" caption="le prenu cu bajra" definition="jan li tawa noka wawa."></pixra>
 
 > **bajra**
-> _Someone runs._
+> _ijo li tawa noka wawa._
 
 bajra
-: … runs using limbs
+: ijo … li tawa wawa kepeken noka
 
-Again context would probably tell who loves whom and who runs.
+ni kin la ken suli la ijo poka li pana e sona ni: seme li olin e seme, seme li tawa noka wawa.
 
-### Task
+### pali
 
-<pixra url="/assets/pixra/cilre/pinxe_le_djacu.webp" caption="le prenu cu pinxe le djacu" definition="The person drinks the water."></pixra>
+<pixra url="/assets/pixra/cilre/pinxe_le_djacu.webp" caption="le prenu cu pinxe le djacu" definition="jan li moku e telo."></pixra>
 
 pinxe
-: … drinks … (something)
+: jan … li moku e telo …
 
 le djacu
-: the water
+: telo
 
-Close the right part of the table. Translate the sentences on the left from Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Losupan.
 
 <table style="table-layout: fixed;">
 <tbody><tr>
 <td><b>do citka</b>
 </td>
-<td><i>You eat.</i>
+<td><i>sina moku.</i>
 </td></tr>
 <tr>
 <td><b>mi pinxe le djacu</b>
 </td>
-<td><i>I drink water.</i>
+<td><i>mi moku e telo.</i>
 </td></tr>
 <tr>
 <td><b>mi citka le plise</b>
 </td>
-<td><i>I eat apples.</i>
+<td><i>mi moku e kili loje.</i>
 </td></tr></tbody></table>
 
-### «**.i**» separates sentences
+### nimi «**.i**» li tu e toki tu
 
-We place a short word **.i** to separate any two consecutive sentences:
+toki tu li lon poka la nimi lili **.i** li lon insa li tu e ona:
 
 > **mi tavla le prenu .i le prenu cu tavla mi**
-> _I'm talking to the people. The people are talking to me._
+> _mi toki tawa jan. jan li toki tawa mi._
 
-**.i** separates sentences like the full stop (period) at the end of sentences in English texts.
+nimi **.i** li pini e toki li open e toki sin. sitelen `.` li sama lon toki pona.
 
-When saying one sentence after another in English we make a pause (it may be short) between them. But pause has many different meanings in English. In Lojban we have a better way of understanding where one sentence ends and another begins.
+toki pona la jan li toki uta e toki tu lon poka la jan o lape lili lon insa pi toki tu. taso lape ni li ken pini ala e toki li ken lape uta taso. toki Losupan la nasin ante pona li lon li pana pona e sona ni: seme la toki wan li pini la toki ante li open.
 
-Also note that sometimes when pronouncing words quickly you can't figure out where one sentence ends and the word of the next sentence begins. Therefore it's advised to use the word **.i** before starting a new sentence.
+sina toki uta e nimi mute lon tenpo lili la jan kute li ken sona ala e ni: tenpo seme la toki wan li pini la toki kama li open. ni la sina open e toki sin la o open kepeken nimi **.i**.
 
-### Numbers: ‘_1 2 3 4 5 6 7 8 9 0_’ = «**pa re ci vo mu xa ze bi so no**»
+### nanpa: ‘_1 2 3 4 5 6 7 8 9 0_’ = «**pa re ci vo mu xa ze bi so no**»
 
-**le** simply turns a relation construct into an argument, but such argument has no number associated with it. The sentence
+nimi **le** li ijo e nimi sona, taso ni li toki ala e nanpa pi mute ijo. toki ni la
 
 > **le prenu cu tavla mi**
-> _The people talk to me._
-> _The person talks to me._
+> _jan li toki tawa mi._
 
-doesn't specify the number of people talking to me. In English, it is impossible to omit the number because _people_ in English implies _more than one person_. However, in Lojban, you can omit the number even if it is plural.
+sama toki pona la toki ni li pana ala e sona ni: jan pi mute seme li toki tawa mi. ken la jan mute li toki. ken la jan wan li toki.
 
-Now let's specify how many of the people are relevant to our discussion.
+mi o toki e mute jan toki.
 
-Let's add a number after **le**.
+o pana e nanpa lon pini pi nimi **le**.
 
 <table>
 <tbody><tr>
@@ -553,130 +551,130 @@ Let's add a number after **le**.
 </td>
 </tr></tbody></table>
 
-<pixra url="/assets/pixra/cilre/ci_prenu.webp" caption="le ci prenu" definition="The three people"></pixra>
+<pixra url="/assets/pixra/cilre/ci_prenu.webp" caption="le ci prenu" definition="jan tu wan"></pixra>
 
 > **le pa prenu cu tavla mi**
-> _The person talks to me._
-> _The one person talks to me._
+> _jan wan li toki tawa mi._
 
-We add a number after **le** and thus specify individual people.
+nanpa li lon pini pi nimi **le** la ni li toki e mute jan.
 
-For numbers consisting of several digits, we just string those digits together:
+nasin li sama sitelen nanpa Alapi. nanpa li wile e sitelen mute la, o pana taso e nimi nanpa mute lon poka.
 
 > **le re mu prenu cu tavla mi**
-> _The 25 people talk to me._
+> _jan 25 li toki tawa mi._
 
-Yes, it's that simple.
+ni li ale! nasin li lili a.
 
-If we want to count, we can separate numbers with **.i**:
+nanpa li kama lili lon tenpo la mi wile toki e nanpa ale lon tenpo la, mi tu e nimi nanpa kepeken nimi **.i**
 
 > **mu .i vo .i ci .i re .i pa .i no**
 > _5 … 4 … 3 … 2 … 1 … 0_
 
-The number **za'u** means _more than …_ (_\>_ in math), the number **me'i** means _less than_ (_<_ in math):
+nanpa **za'u** li ni: _nanpa li suli tawa nanpa …_ (toki nanpa la _\>_.) nanpa **me'i** li ni: _nanpa li lili tawa nanpa …_ (toki nanpa la _<_.)
 
 > **le za'u re prenu cu tavla mi**
-> _More than two people talk to me._
+> _jan mute li toki tawa mi. mute ni li suli tawa tu._
 
-<!-- ~~>
+<!-- -->
 
 > **le me'i pa no prenu cu tavla mi**
-> _Fewer than 10 people talk to me._
+> _jan mute li toki tawa mi. mute ni li lili tawa 10._
 
-<!-- ~~>
+<!-- -->
 
 > **le za'u ci prenu cu tavla mi**
-> _More than three people talk to me._
+> _jan mute li toki tawa mi. mute ni li suli tawa tu wan._
 
-To say just _people_ (plural number) as opposed to _one person_, we use **za'u pa**, _more than one_ or simply **za'u**.
+mi wile toki e _jan mute_, e _jan wan_ taso ala, la mi kepeken nimi **za'u pa**. _mute li suli tawa wan._ ni li ken lili li ken nimi **za'u** taso.
 
 > **le za'u pa prenu cu tavla mi**
 > **le za'u prenu cu tavla mi**
-> _The people talk to me._
+> _jan mute li toki tawa mi._
 
-**za'u** by default means **za'u pa**, hence such contraction is possible.
+nimi **za'u** la nimi nanpa ante ala li kama la ona li sama **za'u pa**, la lili ni li ken.
 
 le prenu
-: the person / the people
+: jan
 
 le pa prenu
-: the person (one in number)
+: jan wan
 
 le za'u prenu
-: the people (two or more in number)
+: jan mute
 
-### Task
+### pali
 
 stati
-: … (someone) is smart, … has a talent
+: jan … li kama ala sona e pali li awen ken pali wawa
 
-<pixra url="/assets/pixra/cilre/stati.webp" caption="stati" definition="… has a talent"></pixra>
+<pixra url="/assets/pixra/cilre/stati.webp" caption="stati" definition="jan … li ken wawa"></pixra>
 
 klama
-: … comes to … (some place or object)
+: ijo … li tawa ma/ijo …
 
-<pixra url="/assets/pixra/cilre/klama_ti.webp" caption="le prenu cu klama ti" definition="The person came here."></pixra>
+<pixra url="/assets/pixra/cilre/klama_ti.webp" caption="le prenu cu klama ti" definition="jan li tawa ma ni."></pixra>
 
 nelci
-: … likes (something)
+: jan … la ijo … li pona
 
 le zarci
-: the market
+: tomo esun
 
-<pixra url="/assets/pixra/cilre/zarci.webp" caption="le prenu cu zvati le zarci" definition="The person is at the store."></pixra>
+<pixra url="/assets/pixra/cilre/zarci.webp" caption="le prenu cu zvati le zarci" definition="jan li lon tomo esun."></pixra>
 
 le najnimre
-: the orange (fruit), the oranges
+: kili suwi pi loje jelo
 
-<pixra url="/assets/pixra/cilre/najnimre.webp" caption="najnimre" definition="… is an orange"></pixra>
+<pixra url="/assets/pixra/cilre/najnimre.webp" caption="najnimre" definition="ijo … li kili loje jelo"></pixra>
 
 le badna
-: the banana, bananas
+: kili palisa jelo
 
-<pixra url="/assets/pixra/cilre/badna.webp" caption="badna" definition="… is a banana"></pixra>
+<pixra url="/assets/pixra/cilre/badna.webp" caption="badna" definition="ijo … li kili palisa jelo"></pixra>
 
-Close the right part of the table. Translate the sentences on the left from Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tan toki Losupan.
 
 <table style="table-layout: fixed;">
  <tbody>
   <tr>
    <td>le mu prenu cu klama le zarci</td>
-   <td>The five people come to the market.</td>
+   <td>jan luka li tawa esun.</td>
   </tr>
   <tr>
    <td>le pa re prenu cu stati .i do stati</td>
-   <td>The 12 people are smart. You are smart.</td>
+   <td>jan luka luka tu li ken wawa. sina ken wawa./td>
   </tr>
   <tr>
    <td>le prenu cu nelci le plise</td>
-   <td>The people like the apples.</td>
+   <td>jan la kili loje li pona.</td>
   </tr>
   <tr>
    <td>le za'u re prenu cu citka .i le me'i mu prenu cu pinxe le djacu</td>
-   <td>More than two people eat. Fewer than 5 people drink the water.</td>
+   <td>jan tu en jan ante li moku. jan pi mute lili li moku e telo; mute li lili tawa luka.</td>
   </tr>
   <tr>
    <td>le za'u re prenu cu stati</td>
-   <td>More than two people are smart.</td>
+   <td>jan tu en jan ante li wawa.</td>
   </tr>
  </tbody>
 </table>
 
-Close the right part of the table. Translate the sentences on the left to Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Losupan.
 
 <table style="table-layout: fixed;">
  <tbody>
   <tr>
-   <td>The 256 people are smart.</td>
+   <td>jan 256 li ken wawa.</td>
    <td>le re mu xa prenu cu stati</td>
   </tr>
   <tr>
-   <td>Fewer than 12 apples are tasty.</td>
+   <td>kili pi mute lili li pona uta. mute li lili tawa 12.</td>
    <td>le me'i pa re plise cu kukte</td>
   </tr>
  </tbody>
 </table>
 
+<!--
 ### Compound relation
 
 Compound relation construct (**tanru** in Lojban) are several relation words placed one after another.
