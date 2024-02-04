@@ -70,16 +70,16 @@ kalama tu tu ante li sama ni: kalama tu li kama wan. sitelen li sama li sitelen 
 <table>
 <tbody><tr>
 <td><b class="audio-inline"><font color="#FF1493" class="guibutton">au</font></b></td>
-<td> sama ni: mu <i>awu</i> li tenpo lili</td></tr>
+<td> lili la sama ni: <i>aw</i></td></tr>
 <tr>
 <td><b class="audio-inline"><font color="#FF1493" class="guibutton">ai</font></b></td>
-<td> sama ni: mu <i>aji</i> li tenpo lili</td></tr>
+<td> lili la sama ni: <i>aj</i></td></tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton"color="#FF1493">ei</font></b></td>
-<td> sama ni: mu <i>eji</i> li tenpo lili</td></tr>
+<td> lili la sama ni: <i>ej</i></td></tr>
 <tr>
 <td><b class="audio-inline"><font class="guibutton" color="#FF1493">oi</font></b></td>
-<td> sama ni: mu <i>owi</i> li tenpo lili</td></tr>
+<td> lili la sama ni: <i>oj</i></td></tr>
 </tbody></table>
 
 kalama pi uta pini la, suli la kalama li sama toki Lasina sama toki Epelanto, taso sitelen pi mute lili li ante:
@@ -129,7 +129,7 @@ nimi la tenpo kalama wan li wawa li lon ni: kalama pi uta open la, ni pini nanpa
 
 sitelen **r** li ken mu sama toki Inli sama toki Sukosi sama toki Lusi kin. ken mute li lon li pona.
 
-Non-Lojban vowels like the short _i_ and _u_ in Standard British English _hit_ and _but_, are used by some people to separate consonants. So, if you have trouble pronouncing two consonants in a row (e.g. the **vl** in **tavla**, which means _to talk to_), then you can say _tavɪla_ — where the _ɪ_ is very short. However, other vowels like **a** and **u** must be long.
+jan pi mute lili li kepeken mu pi uta open pi toki Losupan ala lon ni: mu tu pi uta pini o lon poka, la ni li pilin ike lon uta, la mu lili sin li ken lon insa. mu tu ni li ken: toki Inli pi ma Inli la mu _i_ li lon nimi _hit_, mu _u_ li lon nimi _but_. nimi **tavla** la, mu **vl** li nasa lon uta sina la, sina ken mu sama ni: _tavɪla_ — ni la mu _ɪ_ o lili mute. taso, mu lon pi toki Losupan o lili ala o sama ala ni.
 
 ### nasin lili la toki lili
 
@@ -157,7 +157,7 @@ do
 : sina
 
 > **mi ca cu tavla do**
-> _toki tawa sina lon tenpo ni._
+> _mi toki tawa sina lon tenpo ni._
 
 ca
 : lon tenpo ni
@@ -173,7 +173,7 @@ ca
 toki wan la kipisi ni li lon. mi toki tan open toki tawa pini toki.
 
 - open:
-  - li jo e ijo toki wan mute
+  - ijo toki wan mute li ken lon. ijo li sama ni: <!-- XXX nimi nasa. sona li lon ala pini li lon kama. -->
     - toki **le prenu cu tavla mi** la ijo wan taso li lon kipisi open li ni: **le prenu**.
     - toki **mi ca cu tavla do** la ijo **mi** en ijo **ca** li ijo lon kipisi open.
 - nimi **cu** li tu e open e pini:
@@ -608,9 +608,9 @@ le za'u prenu
 ### pali
 
 stati
-: jan … li kama ala sona e pali li awen ken pali wawa
+: jan … li sona pali wawa, li wile ala kama sona, wawa li tan insa a
 
-<pixra url="/assets/pixra/cilre/stati.webp" caption="stati" definition="jan … li ken wawa"></pixra>
+<pixra url="/assets/pixra/cilre/stati.webp" caption="stati" definition="jan … li sona wawa"></pixra>
 
 klama
 : ijo … li tawa ma/ijo …
@@ -645,7 +645,7 @@ o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tan toki Los
   </tr>
   <tr>
    <td>le pa re prenu cu stati .i do stati</td>
-   <td>jan luka luka tu li ken wawa. sina ken wawa./td>
+   <td>jan luka luka tu li sona wawa. sina sona wawa.</td>
   </tr>
   <tr>
    <td>le prenu cu nelci le plise</td>
@@ -667,7 +667,7 @@ o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Lo
 <table style="table-layout: fixed;">
  <tbody>
   <tr>
-   <td>jan 256 li ken wawa.</td>
+   <td>jan 256 li sona wawa.</td>
    <td>le re mu xa prenu cu stati</td>
   </tr>
   <tr>
