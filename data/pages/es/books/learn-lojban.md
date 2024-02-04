@@ -434,7 +434,7 @@ También debes tener en cuenta que a veces, al pronunciar palabras rápidamente,
 > _Las personas me hablan._
 > _La persona me habla._
 
-no especifica la cantidad de personas que me hablan. En inglés, es imposible omitir el número porque _people_ en inglés implica _más de una persona_. Sin embargo, en Lojban, puedes omitir el número incluso si es plural.
+no especifica la cantidad de personas que me hablan. En inglés, es imposible omitir el número porque _people_ en inglés implica _más de una persona_. Sin embargo, en Lojban, puedes omitir el número.
 
 Ahora vamos a especificar cuántas de las personas son relevantes para nuestra discusión.
 

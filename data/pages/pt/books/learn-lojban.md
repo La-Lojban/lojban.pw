@@ -504,7 +504,7 @@ Também observe que, às vezes, ao pronunciar palavras rapidamente, você não c
 > **le prenu cu tavla mi**
 > _As pessoas falam comigo._
 
-não especifica o número de pessoas falando comigo. Em inglês, é impossível omitir o número porque _people_ em inglês implica _mais de uma pessoa_. No entanto, em Lojban, você pode omitir o número mesmo que seja plural.
+não especifica o número de pessoas falando comigo. Em inglês, é impossível omitir o número porque _people_ em inglês implica _mais de uma pessoa_. No entanto, em Lojban, você pode omitir o número.
 
 Agora vamos especificar quantas das pessoas são relevantes para nossa discussão.
 

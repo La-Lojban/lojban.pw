@@ -506,7 +506,7 @@ Also note that sometimes when pronouncing words quickly you can't figure out whe
 > _The people talk to me._
 > _The person talks to me._
 
-doesn't specify the number of people talking to me. In English, it is impossible to omit the number because _people_ in English implies _more than one person_. However, in Lojban, you can omit the number even if it is plural.
+doesn't specify the number of people talking to me. In English, it is impossible to omit the number because _people_ in English implies _more than one person_. However, in Lojban, you can omit the number.
 
 Now let's specify how many of the people are relevant to our discussion.
 
@@ -1035,7 +1035,7 @@ The interjection **.e'o** at the beginning of a sentence turns it into a polite 
 lebna
 : to take (something)
 
-In English, to be polite, one has to use _could you_ + _please_ + a question). In Lojban, **.e'o** is enough to make a polite request.
+In English, to be polite, one has to use _could you_ + _please_ + a question. In Lojban, **.e'o** is enough to make a polite request.
 
 ### Task
 
