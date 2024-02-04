@@ -112,17 +112,21 @@ function cssifyName(text) {
     let ogImage;
     for (const index in columns[langs[0]]) {
       const lineNo = parseInt(index) + 1;
-      if (
-        fs.existsSync(
-          `/app/src/public/assets/pixra/texts/${slug}/${lineNo}.svg`
-        )
-      ) {
-        ogImage = ogImage ?? `/assets/pixra/texts/${slug}/${lineNo}.svg`;
+      const candidate1 = `/app/src/public/assets/pixra/texts/${slug}/${lineNo}.svg`;
+      const candidate1Exists = fs.existsSync(candidate1);
+      const candidate2 = `/app/src/public/assets/pixra/texts/${slug}/${lineNo}.png`;
+      const candidate2Exists = fs.existsSync(candidate2);
+      const candidateExists = candidate1Exists || candidate2Exists;
+      const candidatePath = (
+        candidate1Exists ? candidate1 : candidate2Exists ? candidate2 : ""
+      ).replace(/^\/app\/src\/public/, "");
+      if (candidateExists) {
+        ogImage = ogImage ?? candidatePath;
         table[title].push(
           `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100">
             <td colspan="${langs.length}">
             <div class="h-full w-full flex justify-center items-center">
-            <img class="h-56" src="/assets/pixra/texts/${slug}/${lineNo}.svg"/>
+            <img class="h-56" src="${candidatePath}"/>
             </div>
             </td>
           </tr>
