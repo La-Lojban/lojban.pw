@@ -1,16 +1,19 @@
 ---
-title: 🎓 ‘Learn Lojban’ course
+title: 🎓 o kama sona toki Losupan
 ogImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 coverImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 ---
 
 <div class="lojbo simple_blockquotes"></div>
+
+<!--
 <div class="print:hidden">
 
 [📁 PDF version of this page](/vreji/uencu/learn-lojban.pdf)
 
 <hr/>
 </div>
+-->
 
 <div class="lojbo simple_blockquotes"></div>
 
@@ -95,17 +98,17 @@ kalama pi uta pini la, suli la kalama li sama toki Lasina sama toki Epelanto, ta
 <tr>
 <td><span class="audio-inline"><b class="guibutton">x</b></span>
 </td>
-<td>sama mu <i>ĥ</i> pi toki Epelanto lon nimi <i>eĥo</i>. sama mu <i>ch</i> lon nimi lon nimi <i>loch</i> pi toki Sukosi lon nimi <i>Bach</i> pi toki Tosi. sama mu <i>J</i> lon nimi <i>Jose</i> pi toki Epanja. sama mu <i>Kh</i> lon nimi <i>Khaled</i> pi toki Alapi. Try pronouncing <i>ksss</i> while keeping your tongue down and you get this sound.
+<td>sama mu <i>ĥ</i> pi toki Epelanto lon nimi <i>eĥo</i>. sama mu <i>ch</i> lon nimi <i>loch</i> pi toki Sukosi lon nimi <i>Bach</i> pi toki Tosi. sama mu <i>J</i> lon nimi <i>Jose</i> pi toki Epanja. sama mu <i>Kh</i> lon nimi <i>Khaled</i> pi toki Alapi. Try pronouncing <i>ksss</i> while keeping your tongue down and you get this sound.
 </td></tr>
 <tr>
 <td><span class="audio-inline"><b class="guibutton"> ' </b></span>
 </td>
-<td>mu ni la kon li tawa lon uta la ala li pini e ona. toki Inli la mu ni lis itelen <i>h</i>. toki ante la linja lili ni li namako taso li sitelen ala e kalama, taso toki Losupan la ni li sitelen kalama a, li mu <i>h</i>. ona li ken lon ni taso: kalama tu pi uta open la insa. sama ni: sitelen <b>u'i</b> la kalama li sama <i>uhi</i> (taso sitelen <b>ui</b> li sama mu <i>wi</i> pi toki pona).
+<td>mu ni la kon li tawa lon uta la ala li pini e ona. toki Inli la mu ni li sitelen <i>h</i>. toki ante la sitelen linja lili ni li namako taso li sitelen ala e kalama, taso toki Losupan la ni li sitelen kalama a, li mu <i>h</i>. ona li ken lon ni taso: kalama tu pi uta open la insa. sama ni: sitelen <b>u'i</b> la kalama li sama <i>uhi</i> (taso sitelen <b>ui</b> li sama mu <i>wi</i> pi toki pona).
 </td></tr>
 <tr>
 <td><span class="audio-inline"><b>.</b></span>
 </td>
-<td>sike lili kin pi pini toki li sitelen kalama a lon toki Losupan. ona li sitelen e tenpo lili pi weka kalama li pona e ni: nimi tu poka li kama ala sama nimi wan tawa kute. kalama pi uta open li nanpa wan lon nimi la lon la kalama ni pi sike lili ni li lon open. ni la nimi tu poka li awen nimi tu tawa kute.
+<td>sitelen sike lili li pini e toki lon toki ante, taso ona li sitelen kalama a lon toki Losupan. ona li sitelen e tenpo lili pi weka kalama li pona e ni: nimi tu poka li kama ala sama nimi wan tawa kute. nimi la mu nanpa wan li kalama pi uta open la lon la kalama ni pi sike lili ni li lon open. ni la nimi tu poka li awen nimi tu tawa kute.
 </td></tr>
 <tr>
 <td><span class="audio-inline"><b>i</b></span>
@@ -122,7 +125,7 @@ kalama pi uta pini la, suli la kalama li sama toki Lasina sama toki Epelanto, ta
 <li>sitelen <b>ue</b> la mu li sama <i>we</i></li></ul>
 </td></tr></tbody></table>
 
-nimi la tenpo kalama wawa li lon ni: kalama pi uta open la, ni pini nanpa tu. kalama wan taso pi uta open li lon la, tenpo wawa li lon ala.
+nimi la tenpo kalama wan li wawa li lon ni: kalama pi uta open la, ni pini nanpa tu. kalama wan taso pi uta open li lon la, tenpo wawa li lon ala.
 
 sitelen **r** li ken mu sama toki Inli sama toki Sukosi sama toki Lusi kin. ken mute li lon li pona.
 
