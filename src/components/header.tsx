@@ -6,7 +6,7 @@ import { BellIcon, Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { closeXicon } from "../lib/buttons";
 import { header } from "../config/config";
 import { TocElem } from "../types/toc";
-import { debouncedGetClosestHeaderId, getClosestHeaderId } from "../lib/toc";
+import { getClosestHeaderId } from "../lib/toc";
 
 // const profile = ['Your Profile', 'Settings', 'Sign out']
 
