@@ -10,7 +10,12 @@ import { sanitizeUrl } from "../lib/html-prettifier/sanitizer";
 
 export const tocSelector = ["h1", "h2", "h3"];
 export const allSelector = ["h1", "h2", "h3", "h4", "h5", "h6"];
-export const transformers: {selector: string; fn?: any; wrapper?:string; idCounts?: any;}[] = [
+export const transformers: {
+  selector: string;
+  fn?: any;
+  wrapper?: string;
+  idCounts?: any;
+}[] = [
   {
     selector: allSelector.join(","),
     fn: function (element: HTMLElement, index: number) {
@@ -48,7 +53,18 @@ export const transformers: {selector: string; fn?: any; wrapper?:string; idCount
     fn: (element: HTMLElement) => {
       const wrapperElement = createElementFromSelector("div.wrapper");
       const url = sanitizeUrl(element.attributes.url);
-      wrapperElement.innerHTML = `<figure><div class="figure_img" data-url="${url}" style="background-image:url('${url}')"></div><figcaption><b>${element.attributes.caption}</b><br/><i>${element.attributes.definition}</i></figcaption></figure>`;
+      wrapperElement.innerHTML = `
+      <figure><div class="figure_img" data-url="${url}" style="background-image:url('${url}')"></div><figcaption>
+      ${
+        element.attributes.caption
+          ? `<b>${element.attributes.caption}</b><br/>`
+          : ""
+      }
+      ${
+        element.attributes.definition
+          ? `<i>${element.attributes.definition}</i>`
+          : ""
+      }</figcaption></figure>`;
       element.insertAdjacentHTML("afterend", wrapperElement.outerHTML);
       element.remove();
     },
