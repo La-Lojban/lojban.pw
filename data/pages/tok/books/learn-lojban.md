@@ -98,7 +98,7 @@ kalama pi uta pini la, suli la kalama li sama toki Lasina sama toki Epelanto, ta
 <tr>
 <td><span class="audio-inline"><b class="guibutton">x</b></span>
 </td>
-<td>sama mu <i>ĥ</i> pi toki Epelanto lon nimi <i>eĥo</i>. sama mu <i>ch</i> lon nimi <i>loch</i> pi toki Sukosi lon nimi <i>Bach</i> pi toki Tosi. sama mu <i>J</i> lon nimi <i>Jose</i> pi toki Epanja. sama mu <i>Kh</i> lon nimi <i>Khaled</i> pi toki Alapi. Try pronouncing <i>ksss</i> while keeping your tongue down and you get this sound.
+<td>sama mu <i>ĥ</i> pi toki Epelanto lon nimi <i>eĥo</i>. sama mu <i>ch</i> lon nimi <i>loch</i> pi toki Sukosi lon nimi <i>Bach</i> pi toki Tosi. sama mu <i>J</i> lon nimi <i>Jose</i> pi toki Epanja. sama mu <i>Kh</i> lon nimi <i>Khaled</i> pi toki Alapi. <!-- XXX Try pronouncing <i>ksss</i> while keeping your tongue down and you get this sound. -->
 </td></tr>
 <tr>
 <td><span class="audio-inline"><b class="guibutton"> ' </b></span>
@@ -181,6 +181,7 @@ toki wan la kipisi ni li lon. mi toki tan open toki tawa pini toki.
   - ona li kama la kipisi open li pini.
   - jan kute li ken sona e pini pi kipisi open tan ijo ante la nimi ni li ken weka.
 - pini:
+  <!-- XXX -->
   - nanpa wan la nimi lawa sona li lon, li suli nanpa wan lon ni: sona seme li lon toki ni. (toki Losupan la ni li "**selbrisni**")
   - \+ kama la ijo toki li ken lon li ken wan li ken mute li ken lon ala
     - toki lili pi pini poka la nimi **tavla** en nimi **prami** li nimi lawa sona **selbrisni**.
@@ -228,7 +229,7 @@ flowchart LR
 
 ```
 
-nasin toki mute la, nimi li ken nimi ijo li ken nimi pali. toki Losupan la, tenpo mute la mi toki e ni ale sama ni: nimi sona.
+nasin toki mute la, nimi li ken nimi ijo li ken nimi pali. toki Losupan la, tenpo mute la mi toki e ni ale sama ni: nimi sona. nimi sona li toki ni e sona: seme la ijo ante mute?
 
 toki pini poka la nimi sona tu li lon. lili la nimi sona ni li sama nimi pali.
 
@@ -677,338 +678,338 @@ o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Lo
  </tbody>
 </table>
 
-<!--
-### Compound relation
+### kulupu pi nimi sona
 
-Compound relation construct (**tanru** in Lojban) are several relation words placed one after another.
+nimi sona mute li lon poka la ona li kama kulupu. (toki Losupan la ni li **tanru**.)
 
 > **tu melbi zdani**
-> _That one is a nice home._
+> _ni weka li tomo pona._
 
-<pixra url="/assets/pixra/cilre/melbi_zdani.webp" caption="melbi zdani" definition="… is a nice home"></pixra>
+<pixra url="/assets/pixra/cilre/melbi_zdani.webp" caption="melbi zdani" definition="… li tomo pona"></pixra>
 
 tu
-: that one (away from you and me)
+: ijo ni weka (lon weka mi lon weka sina)
 
 melbi
-: … is beautiful, nice
+: … li pona lukin, li pona pilin
 
 zdani
-: … is a home or nest to … (someone)
+: … li tomo pi jan …
 
 melbi zdani
-: compound relation construct: … is a beautiful home to … (someone)
+: kulupu pi nimi sona: … li tomo pi pona pilin pi jan …
 
-<pixra url="/assets/pixra/cilre/dansu.webp" caption="le prenu cu melbi dansu" definition="The person nicely dances."></pixra>
+<pixra url="/assets/pixra/cilre/dansu.webp" caption="le prenu cu melbi dansu" definition="jan li tawa musi pi pona lukin."></pixra>
 
 > **do melbi dansu**
-> _You nicely dance._
+> _sina tawa musi pi pona lukin._
 
 dansu
-: … dances
+: … li tawa musi
 
-Here, the relation **melbi** adds an additional meaning as it is placed to the left of another relation: **zdani**. The left component is usually translated using adjectives and adverbs.
+nimi sona **melbi** en nimi sona ante **zdani** li lon poka la nimi nanpa wan li namako e sona. nasin pi toki ante la ni li sama ni: nimi nanpa wan li nimi kule li kule e nimi nanpa tu.
 
-Compound relations are a powerful feature that produces richer meanings. You just string two relation words together, and the left component of such compound relation adds a flavor to the right one.
+nasin ni pi kulupu nimi li wawa li ken kule mute e kon toki. o poka taso e nimi sona tu. nimi nanpa wan li kule namako e nimi nanpa tu.
 
-We can put **le** (e.g. with a number) to the left of such compound relation getting a richer argument term:
+nimi **le** en nanpa li ken lon open pi kulupu nimi, la nimi ijo namako li kama:
 
 le pa melbi zdani
-: the beautiful home
+: tomo wan pi pona pilin
 
-Now you know why there was **cu** after head terms in our example:
+tenpo ni la sina ken sona e ni: tenpo pini pi lipu ni la, ijo pi kipisi open toki la nimi **cu** o lon pini:
 
 > **le pa prenu cu tavla mi**
-> _The person talks to me._
+> _jan li toki tawa mi._
 
-Without **cu** it'd turn into **le pa prenu tavla**, which would have the meaning of _the person-talker_ - whatever that could mean.
+nimi **cu** li lon ala la toki li kama ni: **le pa prenu tavla**. ni li _ijo ni wan: ona li toki jan_ - taso _toki jan_ li seme? mi sona ala.
 
-Consider:
+o lukin e ni:
 
 > **le pa tavla pendo**
-> _The talking friend_
-<!-- ~~>
+> _jan poka toki wan_
+<!-- -->
 > **le pa tavla cu pendo**
-> _The talking one is a friend._
+> _jan toki wan li jan poka._
 
-Remember about placing **cu** before the main relation construct in a sentence to prevent unintentional creation of compound relations.
+o awen sona e ni: toki la, nimi sona lawa la nimi sona ante li lon poka la, nimi **cu** o lon open pi nimi lawa. ni la ona en nimi poka li kama ala kulupu.
 
-Compound relation can contain more than two components. In this case, the first relation modifies the second one, the second one modifies the third, and so on:
+kulupu nimi li ken nimi tu taso ala. ni li lon la, nimi #wan li kule e nimi #tu, la nimi #tu li kule e nimi #tu wan, la ni li awen. ale la nimi li kule e nimi kama nanpa wan.
 
-<pixra url="/assets/pixra/cilre/cmalu_karce.webp" caption="ti cmalu karce" definition="This is a small car."></pixra>
+<pixra url="/assets/pixra/cilre/cmalu_karce.webp" caption="ti cmalu karce" definition="ni li tomo tawa lili."></pixra>
 
 > **le pa melbi cmalu karce**
-> _the pretty-small car, the car small in a pretty way_
+> _tomo tawa wan ni: ona li lili pi pona lukin_ (lili pi pona lukin li seme??)
 
-<!-- ~~>
+<!-- -->
 
 > **le mutce melbi zdani**
-> _the very beautiful home_
+> _tomo pi pona lukin mute_
 
 mutce
-: … is very, … is much
+: … li … mute
 
-### Task
+### pali
 
 sutra
-: … is quick
+: … li kepeken tenpo lili, … li tawa wawa
 
 barda
-: … is big
+: … li suli
 
 cmalu
-: … is small
+: … li lili
 
 mlatu
-: … is a cat
+: … li soweli suwi pi linja uta
 
-Close the right part of the table. Translate the sentences on the left from Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tan toki Losupan.
 
 <table style="table-layout: fixed;">
 <tbody><tr>
 <td><b>le melbi karce</b>
 </td>
-<td><i>the beautiful car / the beautiful cars</i>
+<td><i>tomo tawa pi pona lukin</i>
 </td></tr>
 <tr>
 <td><b>do sutra klama</b>
 </td>
-<td><i>You quickly come. You come fast.</i>
+<td><i>sina tawa kepeken tenpo lili.</i>
 </td></tr>
 <tr>
 <td><b>tu barda zdani</b>
 </td>
-<td><i>That is a big home.</i>
+<td><i>ni li tomo suli.</i>
 </td></tr>
 <tr>
 <td><b>le pa sutra bajra mlatu</b>
 </td>
-<td><i>the quickly running cat</i>
+<td><i>soweli ni: ona li tawa noka wawa pi tenpo lili</i>
 </td></tr>
 <tr>
 <td><b>le pa sutra mlatu</b>
 </td>
-<td><i>the quick cat</i>
+<td><i>soweli wan pi tenpo lili</i>
 </td></tr>
 <tr>
 <td><b>le pa bajra mlatu</b>
 </td>
-<td><i>the running cat</i>
+<td><i>soweli wan pi tawa noka wawa</i>
 </td></tr></tbody></table>
 
-Close the right part of the table. Translate the sentences on the left to Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale taw toki Losupan.
 
 <table style="table-layout: fixed;">
 
 <tbody><tr>
-<td><i>This is a small car.</i>
+<td><i>ni li tomo tawa lili.</i>
 </td>
 <td><b>ti cmalu karce</b>
 </td></tr>
 <tr>
-<td><i>tasty apples</i>
+<td><i>kili loje pi pona uta</i>
 </td>
 <td><b>le kukte plise</b>
 </td></tr>
 <tr>
-<td><i>the quick eaters</i>
+<td><i>jan moku pi tenpo lili</i>
 </td>
 <td><b>le sutra citka</b>
 </td></tr>
 <tr>
-<td><i>You are a quickly walking person.</i>
+<td><i>sina jan pi (tawa noka pi tenpo lili).</i>
 </td>
 <td><b>do sutra cadzu prenu</b>
 </td></tr></tbody></table>
 
-### ‘_Yes/No_’ questions
+### wile sona: '_lon ala lon_'
 
-In English, we form a _yes/no_ question by changing the order of the words, for example
+toki pona la, mi wile sona e lon ijo la, mi ken pana e nimi _anu seme_ lon pini toki, li ken ante e nimi _ijo_ tawa _ijo ala ijo_.
 
-> _You are … ⇒ Are you …?_
+> _sina ni … anu seme?_
 
-or by using some form of the verb _to do_ at the beginning, for example:
+> _sina ni ala ni … ?_
 
-> _You know … ⇒ Do you know?_
-
-In Lojban, the word order can be retained. To turn any assertion into a _yes/no_ question, we simply insert the word **xu** somewhere in the sentence, for example, at the beginning:
+toki Losupan la, o pana e nimi **xu** lon toki. ona li lon open la, toki li sama ni:
 
 > **xu do nelci le gerku**
-> _Do you like the dogs?_
+> _soweli li pona ala pona tawa sina?_
 
 
 le gerku
-: the dog, the dogs
+: soweli pi kule ni: ona li wile pona tawa jan
 
-<pixra url="/assets/pixra/cilre/le_prenu_e_le_gerku.webp" caption="ti prenu .i ti gerku" definition="This is a person. This is a dog."></pixra>
+<pixra url="/assets/pixra/cilre/le_prenu_e_le_gerku.webp" caption="ti prenu .i ti gerku" definition="ni li jan. ni li soweli."></pixra>
 
-Remember that in Lojban, punctuation like "?" (question mark) is mostly optional and used mostly for stylistic purposes. This is because the question word **xu** already shows that it is a question.
+sama toki pona la, toki Losupan la sitelen "?" pi wile sona li suli ala tawa sona li namako taso. nimi **xu** li pana a e sona ni: toki ni li wile sona.
 
-Other examples:
+toki mute:
 
 > **xu mi klama**
-> _Am I coming?_
+> _mi tawa ala tawa?_
 
 klama
-: … comes to … (somewhere)
+: … li tawa ma …
 
 > **xu pelxu**
-> _Is it yellow?_
+> _ijo li jelo ala jelo?_
 
 pelxu
-: … is yellow
+: … li jelo
 
-We can shift the meaning by placing **xu** after different parts of the relation. Explanations what changed in the meaning are given in brackets:
+nimi **xu** li lon poka ante toki la sona li ante lili. o lukin e ni lon toki ni. poka la toki sona li lon poki li toki e ni: nimi **xu** li tawa la sona li ante seme.
 
 > **xu do nelci le gerku**
-> _Do you like the dogs?_
+> _soweli li pona ala pona tawa sina?_
+> _ni li lon ala lon: soweli li pona tawa sina?_
 
-<!-- ~~>
+<!-- -->
 
 > **do xu nelci le gerku**
-> _Do YOU like the dogs?_ (I thought it was someone else who likes them).
+> _sina anu seme la soweli li pona? (pilin mi la soweli li pona tawa jan ante a)._
 
-<!-- ~~>
+<!-- -->
 
 > **do nelci xu le gerku**
-> _Do you LIKE the dogs? (I thought you were just neutral towards them)._
+> _soweli li pona anu seme tawa sina? (pilin mi la soweli li ike tawa sina)._
 
-<!-- ~~>
+<!-- -->
 
 > **do nelci le xu gerku**
-> _Do you like THE DOGS? (I thought you liked the cats)._
+> _soweli anu seme li pona tawa sina? (pilin mi la waso li pona tawa sina)._
 
-<!-- ~~>
+<!-- -->
 
 > **do nelci le gerku xu**
-> _You like those things, are they dogs? (You only question the validity of the relation **gerku**)._
+> _ijo li pona tawa sina. ijo ni li soweli ala soweli? (nimi sona **gerku** taso la sina pilin e ni: sona ona li ken lon ala)._
 
-What is expressed using intonation in English is expressed by moving **xu** after the part we want to emphasize in Lojban. Note that the first sentence with **xu** in the beginning asks the most generic question without stressing any particular aspect.
+toki pona la wile sona ni la mi pana e nimi _anu seme_ lon poka nasa. toki Losupan la nimi **xu** li ken lon ale. o pana lon poka pi ijo ni: pilin sina la, ni li ken lon ala. taso nimi **xu** li lon open a, sama toki ni nanpa wan, la ni li toki ala e pilin ni: ijo wan a li lon ala. ale toki li ken lon li ken lon ala. ni li sama nasin pi toki pona pi nasa ala.
 
-**xu** is an interjection word. Here are the features of Lojban interjections:
+nasin la nimi **xu** li nimi pilin. nasin pi nimi pilin li sama ni:
 
-- interjection modifies the construct before it:
+- nimi pilin li kule e ijo pini poka nanpa wan:
 
  > **do xu nelci le gerku**
- > _Do YOU like the dogs?_
+ > _sina anu seme la soweli li pona?_
 
-- when placed at the beginning of a relation, interjection modifies the whole relation:
+- nimi pili li lon open toki la, ona li kule e ale toki:
 
  > **xu do nelci le gerku**
- > _Do you like the dogs?_
+ > _soweli li pona tawa sina, anu seme?_
 
-- interjections can be placed after different parts of the same relation to shift the meaning.
+- toki sona la nimi pilin li ken lon poka mute, poka ante la ona li kule e ijo ante.
+  interjections can be placed after different parts of the same relation to shift the meaning.
 
   > **do nelci le gerku xu**
-  > _You like those entities, are they dogs?_
+  > _ijo ni li pona tawa sina. ijo ni li soweli ala soweli?_
 
-  Here, only the relation **gerku** (not the argument **le gerku**) is modified by the question word **xu**. So here we wonder only of that relation. We assert that you like these objects or live beings and we ask you if those are dogs.
+  toki ni la, nimi **xu** li kule e sona **gerku** taso e ijo **le gerku** ala. sona ni taso la mi pilin e ni: ona li ken lon ala. mi toki a e ni: ijo li pona tawa sina. ni la mi wile sona e ni: ijo li soweli ala soweli?
 
-Interjections don't break compound relations, they can be used within them:
+nimi pilin li tu ala e kulupu nimi, li ken lon insa a:
 
 > **do nelci le barda xu gerku**
-> _Do you like the BIG dogs?_
+> _soweli pi suli anu seme li pona tawa sina?_
 
-Now, how to reply to such 'yes/no' questions? You repeat the main relation construct:
+jan li toki e wile sona sama ni tawa sina la, sina ken toki seme? sama toki pona la, sina ken toki sin e nimi sona lawa:
 
 > **— xu le mlatu cu melbi**
 > **— melbi**
-> _— Are the cats pretty?_
-> _— Pretty._
+> _— soweli li suwi ala suwi?_
+> _— suwi._
 
-To answer 'no', we use the modal term **na ku**:
+sina wile toki e 'lon ala', la o kepeken nimi namako sona **na ku** lon poka pi nimi sona.
 
 > **— xu le mlatu cu melbi**
 > **— na ku melbi**
-> _— Are the cats pretty?_
-> _— Not pretty._
+> _— soweli li suwi ala suwi?_
+> _— suwi ala._
 
 na ku
-: term: it is false that …
+: namako sona: toki ni li lon ala
 
-Or, we can use a special relation word **go'i**:
+nasin ante la sina ken kepeken nimi sona nasa **go'i**:
 
 > **— xu le mlatu cu melbi**
 > **— go'i**
-> _— Are the cats pretty?_
-> _— Pretty._
+> _— soweli li suwi ala suwi?_
+> _— ni. (suwi)._
 
 go'i
-: relation word that repeats the main relation of the previous sentence
+: nimi sona: ona li toki sin e sona suli pi toki pini
 
-Here, **go'i** means the same as **melbi** since **melbi** is the relation of the previous relation.
+toki ni la, nimi **go'i** li toki sama nimi **melbi** tan ni: toki pini nanpa wan la nimi sona lawa li nimi **melbi**.
 
 > **— xu le mlatu cu melbi**
 > **— na ku go'i**
-> _— Are the cats pretty?_
-> _— Not pretty._
+> _— soweli li suwi ala suwi?_
+> _— ni ala. (suwi ala)._
 
-<!-- This course doesn't recommend negating **go'i** for negative answers. Just use **je'u nai**. ~~>
+<!-- This course doesn't recommend negating **go'i** for negative answers. Just use **je'u nai**. -->
 
-The modal term **na ku** can be used not only in answers:
+nimi **na ku** li ken lon toki pi wile sona taso ala:
 
 > **na ku mi nelci le gerku**
-> _It is false that I like the dogs._
-> _I don't like the dogs._
-<!-- ~~>
+> _ni li lon ala: soweli li pona tawa mi._
+> _soweli li pona ala tawa mi._
+<!-- -->
 > **mi na ku nelci do**
-> _I don't like you._
+> _sina pona ala tawa mi._
 
-Its opposite, the term **ja'a ku** affirms the meaning:
+nimi **ja'a ku** li weka pi nimi **na ku** li toki e ni: toki li lon a.
 
 > **mi ja'a ku nelci do**
-> _I do like you._
+> _sina pona a tawa mi._
 
 ja'a ku
-: term: it is true that …
+: namako sona: toki ni li lon a
 
-### Task
+### pali
 
-Close the right part of the table. Translate the sentences on the left from Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tan toki Losupan.
 
 <table style="table-layout: fixed;">
 
 <tbody><tr>
 <td><b>xu le barda zdani cu melbi</b>
 </td>
-<td><i>Is the big home beautiful?</i>
+<td><i>tomo suli li pona ala pona lukin?</i>
 </td></tr>
 <tr>
 <td><b>— le prenu cu stati xu<br/>— na ku stati</b>
 </td>
-<td><i>— Are the people smart?<br/>— No.</i>
+<td><i>— jan li wawa ala wawa sona?<br/>— ala.</i>
 </td></tr>
 <tr>
 <td><b>do klama le zarci xu</b>
 </td>
-<td><i>Do you go to the market?</i>
+<td><i>sina tawa ala tawa esun?</i>
 </td></tr>
 <tr>
 <td><b>xu le verba cu prami le mlatu</b>
 </td>
-<td><i>Does the child love the cats?</i>
+<td><i>jan lili li olin ala olin e soweli?</i>
 </td></tr></tbody></table>
 
-Close the right part of the table. Translate the sentences on the left to Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Losupan.
 
 <table style="table-layout: fixed;">
 
 <tbody><tr>
-<td><i>Is the car fast?</i>
+<td><i>ilo tawa li kepeken ala kepeken tenpo lili?</i>
 </td>
 <td><b>xu le karce cu sutra</b>
 </td></tr>
 <tr>
-<td><i>— Is the orange tasty?<br/>— Yes, it is.</i>
+<td><i>— kili loje jelo li pona ala pona uta?<br/>— pona uta.</i>
 </td>
 <td><b>— xu le najnimre cu kukte<br/>— kukte</b>
 </td></tr>
 <tr>
-<td><i>Does the dog love you?</i>
+<td><i>soweli li olin ala olin e sina?</i>
 </td>
 <td><b>xu le gerku cu prami do</b>
 </td></tr></tbody></table>
 
+<!--
 ### Happiness and polite requests: ‘_Yay!_’ = «**ui**», ‘_Please!_’ = «**.e'o**»
 
 The interjection **ui** show happiness of the one who is speaking. It is used just like the smiley face ‘_:)_’ the smiley-face in messaging, to indicate that you're glad of something. Although, smileys can be ambiguous, and **ui** has only one meaning, which is handy.
