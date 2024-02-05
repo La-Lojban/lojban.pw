@@ -5411,7 +5411,7 @@ ca
 : at (some time)
 
 le bavlamdei
-: tomorrow day
+: tomorrow day (as an event)
 
 > **mi na ku djuno .i le solri sei mi pacna**
 > _I don't know. It'll be sunny, I hope._
