@@ -30,7 +30,7 @@ export async function getPostSlugs(subfolder: string) {
   return await getFiles(postsDirectory, subfolder);
 }
 
-type Items = {
+export type Items = {
   slug: string[];
   [key: string]: string | string[] | boolean;
 };

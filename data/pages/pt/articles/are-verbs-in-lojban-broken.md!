@@ -44,23 +44,23 @@ Some Lojban place structures are less straightforward than others, just like in 
 
 Lojban verbs, like English verbs, can be grouped into frames with identical place structures, e.g.
 
-> **[mlatu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno)** - x1 is a cat of species x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - x1 is a cat of species x2
 
-> **[gerku](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno)** - x1 is a dog of species x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - x1 is a dog of species x2
 
 ## Place Structure is Easy to Learn, But...
 
 Often, the place structure is easy to learn. However, the concept of movement presents a random set of place structures. Consider the following:
 
-> **[muvdu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno)** - x1 (object) moves to destination/receiver x2 [away] from origin x3 over path/route x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - x1 (object) moves to destination/receiver x2 [away] from origin x3 over path/route x4.
 
-> **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno)** - x1 runs on surface x2 using limbs x3 with gait x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - x1 runs on surface x2 using limbs x3 with gait x4.
 
 Why not have one place structure for all of them?
 
 ## Answer
 
-**[muvdu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno)**, **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno)**, and **[cadzu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=cadzu&bangu=en&versio=masno)** depict a similar process from very different perspectives. In **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno)**, the origin and destination are not important; the emphasis is on the form. It's not "running to from" as in English. Please, don't confuse English glosses with the actual process that Lojban verbs describe. To be in a **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno)** state means having a certain gait while touching a surface with your limbs and doing so quickly.
+<a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a>, <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a>, and <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=cadzu&bangu=en&versio=masno">cadzu</a> depict a similar process from very different perspectives. In <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a>, the origin and destination are not important; the emphasis is on the form. It's not "running to from" as in English. Please, don't confuse English glosses with the actual process that Lojban verbs describe. To be in a <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> state means having a certain gait while touching a surface with your limbs and doing so quickly.
 
 A person using a treadmill doesn't have any "to" or "from" points but is simply running while remaining in the same place. This is a good example of a bajra state without being in a klama state.
 

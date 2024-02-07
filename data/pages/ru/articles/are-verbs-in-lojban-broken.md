@@ -3,6 +3,7 @@ title: Сломаны ли глаголы в Lojban?
 ---
 
 <div class="lojbo simple_blockquotes"></div>
+
 ## Вопрос
 
 Кажется, что изучение определений глаголов в Lojban, таких как
@@ -42,25 +43,25 @@ title: Сломаны ли глаголы в Lojban?
 
 Глаголы Lojban, как и глаголы английского языка, могут быть сгруппированы в рамки с идентичной структурой мест, например:
 
-> **[mlatu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno)** - x1 является кошкой вида x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - x1 является кошкой вида x2
 
-> **[gerku](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno)** - x1 является собакой вида x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - x1 является собакой вида x2
 
 ## Структура места легко изучается, но...
 
 Часто структуру места легко изучить. Однако концепция движения представляет собой случайный набор структур мест. Рассмотрим следующее:
 
-> **[muvdu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno)** - x1 (объект) перемещается к месту назначения/получателю x2 [вдали] от начала x3 по пути/маршруту x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - x1 (объект) перемещается к месту назначения/получателю x2 [вдали] от начала x3 по пути/маршруту x4.
 
-> **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno)** - x1 бегает на поверхности x2, используя конечности x3 с походкой x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - x1 бегает на поверхности x2, используя конечности x3 с походкой x4.
 
 Почему бы не иметь одну структуру места для всех?
 
 ## Ответ
 
-**[muvdu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno)**, **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno)** и **[cadzu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=cadzu&bangu=en&versio=masno)** изображают похожий процесс с очень разных точек зрения. В **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno)** начало и конец не важны; акцент делается на форме. Это не "бегать куда-то откуда-то", как в английском языке. Пожалуйста, не путайте английские глоссы с фактическим процессом, который описывают глаголы Ложбана. Быть в состоянии **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno)** означает иметь определенную походку, касаясь поверхности конечностями и делать это быстро.
+<a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a>, <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> и <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=cadzu&bangu=en&versio=masno">cadzu</a> изображают похожий процесс с очень разных точек зрения. В <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> начало и конец не важны; акцент делается на форме. Это не "бегать куда-то откуда-то", как в английском языке. Пожалуйста, не путайте английские глоссы с фактическим процессом, который описывают глаголы Ложбана. Быть в состоянии <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> означает иметь определенную походку, касаясь поверхности конечностями и делать это быстро.
 
-Человек, использующий беговую дорожку, не имеет никаких точек "куда" или "откуда", но просто бегает, оставаясь на одном месте. Это хороший пример состояния **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno)**, не находясь в состоянии **[klama](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=klama&bangu=en&versio=masno)**.
+Человек, использующий беговую дорожку, не имеет никаких точек "куда" или "откуда", но просто бегает, оставаясь на одном месте. Это хороший пример состояния <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a>, не находясь в состоянии <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=klama&bangu=en&versio=masno">klama</a>.
 
 В заключение, Ложбан не является английским языком, хотя общее использование и словарь Ложбан-английский могут так подсказывать.
 

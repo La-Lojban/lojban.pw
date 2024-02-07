@@ -57,23 +57,23 @@ Alors certes, il y a des "emplacements" en lojban qui sont moins évidents que d
 
 Pour faciliter l'apprentissage, les verbes en lojban peuvent être regroupés par type de structure. Par exemple :
 
-> **[mlatu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno)** - x1 est un chat de l'espèce x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - x1 est un chat de l'espèce x2
 
-> **[gerku](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno)** - x1 est un chien de l'espèce x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - x1 est un chien de l'espèce x2
 
 ## La structure est facile à apprendre mais...
 
 Souvent, les emplacements sont intuitifs à apprendre. Mais pas toujours. Ce qui tourne autour du concept de mouvement, notamment, présente des emplacements disparates :
 
-> **[muvdu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno)** - x1 (objet) bouge vers x2 depuis l'origine x3 sur le chemin/le trajet x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - x1 (objet) bouge vers x2 depuis l'origine x3 sur le chemin/le trajet x4.
 
-> **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno)** - x1 court sur la surface x2 en utilisant les membres x3 avec une démarche x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - x1 court sur la surface x2 en utilisant les membres x3 avec une démarche x4.
 
 Pourquoi ne pas avoir une seule structure d'emplacements pour tous ?
 
 ## Réponse
 
-**[muvdu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=fr&versio=masno)**, **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=fr&versio=masno)** et **[cadzu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=cadzu&bangu=fr&versio=masno)** décrivent un processus similaire mais avec des perspectives très différentes. Dans **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=fr&versio=masno)**, l'origine et la destination ne sont pas importantes ; l'accent est mis sur l'action. Ce n'est pas "courir depuis, vers" comme en français. Il ne faut d'ailleurs pas confondre les traductions en français avec le sens du verbe lojban : les traductions ne sont que des approximations. Ici, **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=fr&versio=masno)** signifie avoir une certaine démarche, tout en touchant une surface (avec des membres), et le faire rapidement.
+<a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=fr&versio=masno">muvdu</a>, <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=fr&versio=masno">bajra</a> et <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=cadzu&bangu=fr&versio=masno">cadzu</a> décrivent un processus similaire mais avec des perspectives très différentes. Dans <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=fr&versio=masno">bajra</a>, l'origine et la destination ne sont pas importantes ; l'accent est mis sur l'action. Ce n'est pas "courir depuis, vers" comme en français. Il ne faut d'ailleurs pas confondre les traductions en français avec le sens du verbe lojban : les traductions ne sont que des approximations. Ici, <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=fr&versio=masno">bajra</a> signifie avoir une certaine démarche, tout en touchant une surface (avec des membres), et le faire rapidement.
 
 Une personne qui utilise un tapis de course n'a pas de destination ("vers") ou d'origine ("de") mais court simplement sur place. C'est un bon exemple dans lequel utiliser **bajra** plutôt que **klama**.
 

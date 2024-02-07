@@ -7,17 +7,20 @@ import Container from "../components/container";
 import PostBody from "../components/post-body";
 import Header from "../components/header";
 import Layout from "../components/layout";
-import { getPostBySlug, getAllPosts } from "../lib/api";
+import { getPostBySlug, getAllPosts, Items } from "../lib/api";
 import PostTitle from "../components/post-title";
 import Head from "next/head";
 import markdownToHtml from "../lib/markdownToHtml";
 import { TPost } from "../types/post";
 import { site_title } from "../config/config";
 import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 
 type Props = {
   post: TPost;
   preview?: boolean;
+  posts: Items[];
 };
 
 type TocItem = {
@@ -26,7 +29,7 @@ type TocItem = {
   depth: number;
 };
 
-const Post = ({ post, preview }: Props) => {
+const Post = ({ post, posts, preview }: Props) => {
   const router = useRouter();
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
@@ -44,8 +47,9 @@ const Post = ({ post, preview }: Props) => {
   type GalleryState = { galleryShown: boolean; currentImgUrl: string | null };
   const [state, setState]: [
     GalleryState,
-    React.Dispatch<React.SetStateAction<GalleryState>>
+    React.Dispatch<React.SetStateAction<GalleryState>>,
   ] = useState({ galleryShown: false, currentImgUrl: null } as GalleryState);
+
   const images: ReactImageGalleryItem[] = (post?.imgs ?? []).map((img) => ({
     original: img.url,
     thumbnail: img.url,
@@ -67,7 +71,25 @@ const Post = ({ post, preview }: Props) => {
             <PostTitle>Loading…</PostTitle>
           ) : (
             <>
-              <article className="mt-10 mx-auto max-w-7xl px-4 sm:mt-8 sm:px-6 flex md:flex-row flex-wrap">
+              {posts.length > 0 && (
+                <div className="relative block w-96 h-10 mx-auto flex justify-around">
+                  <div className="h-10 w-16 inline-block py-2 px-4">
+                    <FontAwesomeIcon icon={faLanguage} />
+                  </div>
+                  {posts.map((post) => {
+                    return (
+                      <a
+                        key={`bangu-${post.language}`}
+                        href={`/${post.fullPath}` as any}
+                        className="h-10 inline-block py-2 px-4 bg-white border border-t-0 border-gray-300 hover:border-gray-400 ml-2"
+                      >
+                        {post.language}
+                      </a>
+                    );
+                  })}
+                </div>
+              )}
+              <article className="mt-2 mx-auto max-w-7xl px-4 sm:mt-2 sm:px-6 flex md:flex-row flex-wrap">
                 <Head>
                   <title>{title}</title>
                   {post?.ogImage && (
@@ -213,7 +235,29 @@ export async function getStaticProps({ params }: Params) {
     "coverImage",
     "fullPath",
   ]);
+  const fullSlug = params.slug.join("/");
+  const shortSlug = params.slug.slice(1).join("/");
+  const currentLanguage = params.slug[0];
 
+  const posts = (await getAllPosts(["slug", "hidden"], true)).reduce(
+    (acc, elem) => {
+      const fullPath = elem.slug.join("/");
+      const shortPath = elem.slug.slice(1).join("/");
+      const language = elem.slug[0];
+      if (fullSlug === shortPath) {
+        //the current path is the english version so list the found slug
+        acc.push({ fullPath, language });
+      } else if (shortSlug === fullPath) {
+        //the current path is the X-lang version so list the found english version
+        acc.push({ fullPath, language: "en" });
+      } else if (shortSlug === shortPath && currentLanguage !== language) {
+        //the current path is the X-lang version so list the found Y-lang version
+        acc.push({ fullPath, language });
+      }
+      return acc;
+    },
+    [] as { fullPath: string; language: string }[]
+  );
   const { text, toc, imgs } = await markdownToHtml({
     content: (post.content as string) || "",
     fullPath: post.fullPath as string,
@@ -221,6 +265,7 @@ export async function getStaticProps({ params }: Params) {
 
   return {
     props: {
+      posts,
       post: {
         ...post,
         content: text,
