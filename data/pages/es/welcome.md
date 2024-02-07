@@ -7,7 +7,7 @@ meta.title: Aprende Lojban
 Aquí hay tutoriales y documentación libres de derechos de autor y no oficiales sobre el lenguaje Lojban.
 
 Puede enviar cualquier sugerencia a [gleki.is.my.name@gmail.com](mailto:gleki.is.my.name@gmail.com) o agregar problemas en el [repositorio de origen de Lojban](https://github.com/la-lojban/lojban-made-easy/issues).
-## [Curso 'Aprende Lojban'](/books/learn-lojban)
+## [Curso 'Aprende Lojban'](/es/books/learn-lojban)
 
 Este curso enseña Lojban desde sus fundamentos formales, pero en términos simples y con muchos ejemplos de uso.
 
@@ -28,7 +28,7 @@ Está disponible en los siguientes formatos:
 * [HTML en secciones](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/) - en archivos HTML
 <!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.epub) - como un libro EPUB -->
 
-[Más información...](/articles/complete-lojban-language)
+[Más información...](/es/articles/complete-lojban-language)
 ## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - un diccionario no oficial elegante
 
 Explore [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), un diccionario para Lojban que incluye:

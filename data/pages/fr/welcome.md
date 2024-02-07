@@ -8,7 +8,7 @@ Voici des tutoriels et de la documentation libres de droits et non officiels sur
 
 Vous pouvez envoyer des suggestions à [gleki.is.my.name@gmail.com](mailto:gleki.is.my.name@gmail.com) ou ajouter des problèmes sur le [référentiel source Lojban](https://github.com/la-lojban/lojban-made-easy/issues).
 
-## [« Apprenez Lojban »](/books/learn-lojban)
+## [« Apprenez Lojban »](/fr/books/learn-lojban)
 
 Ce cours enseigne Lojban à partir de ses fondations formelles, mais avec des termes simples et de nombreux exemples d'utilisation.
 
@@ -32,7 +32,7 @@ Il est disponible dans les formats suivants :
 * [HTML par sections](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/) - dans des fichiers HTML
 <!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.epub) - sous forme de livre EPUB -->
 
-[Plus d'informations...](/articles/complete-lojban-language)
+[Plus d'informations...](/fr/articles/complete-lojban-language)
 
 ## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) La Sutysisku - un dictionnaire non officiel élégant
 

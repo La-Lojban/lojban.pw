@@ -28,7 +28,7 @@ meta.title: Изучите Ложбан
 * [HTML в разделах](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/) - в HTML-файлах
 <!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.epub) - как книга EPUB -->
 
-[Больше информации...](/articles/complete-lojban-language)
+[Больше информации...](/ru/articles/complete-lojban-language)
 ## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - элегантный неофициальный словарь
 
 Исследуйте [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), словарь для Ложбана, который включает:
