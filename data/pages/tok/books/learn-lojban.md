@@ -173,20 +173,30 @@ ca
 toki wan la kipisi ni li lon. mi toki tan open toki tawa pini toki.
 
 - open:
-  - ijo toki wan mute li ken lon. ijo li sama ni: <!-- XXX nimi nasa. sona li lon ala pini li lon kama. -->
-    - toki **le prenu cu tavla mi** la ijo wan taso li lon kipisi open li ni: **le prenu**.
-    - toki **mi ca cu tavla do** la ijo **mi** en ijo **ca** li ijo lon kipisi open.
+  - "ijo lili toki" mute li ken lon. sona ona li lili; kama la nimi sona li lon li wan e ijo lili ale tawa sona. <!-- ijo ni li ken nimi ijo, li ken sona namako lili. --><!-- XXX nimi nasa. sona li lon ala pini li lon kama. -->
+    - toki **le prenu cu tavla mi** la kipisi open la nimi **le prenu** taso li ijo.
+    - toki **mi ca cu tavla do** la kipisi open la nimi **mi** en nimi **ca** li ijo.
 - nimi **cu** li tu e open e pini:
   - kalama la sitelen pi toki Epelanto la _ŝu_.
   - ona li kama la kipisi open li pini.
   - jan kute li ken sona e pini pi kipisi open tan ijo ante la nimi ni li ken weka.
 - pini:
   <!-- XXX -->
-  - nanpa wan la nimi lawa sona li lon, li suli nanpa wan lon ni: sona seme li lon toki ni. (toki Losupan la ni li "**selbrisni**")
-  - \+ kama la ijo toki li ken lon li ken wan li ken mute li ken lon ala
-    - toki lili pi pini poka la nimi **tavla** en nimi **prami** li nimi lawa sona **selbrisni**.
+  - nanpa wan la nimi sona lawa li lon. ona li lawa e sona pi toki ni li wan e sona tan ijo lili toki ale. (toki Losupan la ni li "**selbrisni**")
+  - \+ kama la ijo lili ante mute li ken lon
+    - toki lili pini poka la nimi **tavla** en nimi **prami** li nimi lawa sona _selbrisni_.
     - toki **le prenu cu tavla mi** la ijo **mi** taso li ijo lon kipisi pini.
     - toki **mi prami do** la ijo **do** taso li ijo lon kipisi pini.
+
+<!--
+
+bridi: toki wan pi sona wan
+selbri: lawa sona
+sumti: ijo, nimi ijo. ona li lon anpa pi nimi lawa sona la nimi sona lawa li pana e sona ni: ijo anpa ona la seme li lon
+sumtcita: namako sona. ona li anpa ala ?
+sumsmi: namako sona 
+
+-->
 
 ```mermaid
 flowchart LR
@@ -229,9 +239,11 @@ flowchart LR
 
 ```
 
-nasin toki mute la, nimi li ken nimi ijo li ken nimi pali. toki Losupan la, tenpo mute la mi toki e ni ale sama ni: nimi sona. nimi sona li toki ni e sona: seme la ijo ante mute?
+toki mute la, nimi ijo en nimi pali li lon. toki Losupan la, ni ale li nasin wan ni: nimi sona.
 
-toki pini poka la nimi sona tu li lon. lili la nimi sona ni li sama nimi pali.
+nimi sona li toki ni e sona: ijo lili ale toki li wan seme? ona la seme li lon?
+
+nimi sona tu li lon toki pini poka. lili la nimi sona ni li sama nimi pali.
 
 prenu
 : … li jan
@@ -239,7 +251,9 @@ prenu
 tavla
 : … li toki tawa …
 
-nimi sona ale la ijo li ken lon. ken lon ijo li sama lupa li sama poki. lipu ni la toki poka li sitelen e poki kepeken sitelen "…" ijo li lon poki la sona pi nimi sona li toki e ijo ni. (toki Losupan la nimi *sumti* li ijo ni: ona li ken lon poki.) nimi **le prenu** en nimi **mi** en nimi **do** li ijo li wile tawa poki pi nimi sona. toki la ijo poki ken nanpa wan li tawa poki nanpa wan, la ijo kama ale li tawa poki kama lon nasin nanpa. (ijo ale ni li ken lon kipisi open lon kipisi pini, kipisi li tu ala e kulupu ijo.) ijo li lon poki la sona toki li kama toki e ijo ni a.
+nimi sona li toki e sona tan ijo, la ona li wile e ijo. wile ijo li sama poki, sama lupa. lipu ni la sitelen "…" li sitelen e poki. ijo lili toki la ijo mute li nimi ijo li ken lon poki. (toki Losupan la nimi ijo ni li "**sumti**".) nimi **le prenu** en nimi **mi** en nimi **do** li ijo sama ni. kipisi toki la nimi ijo li ken lon open li ken lon pini. nimi ijo ale toki li tawa poki pi nimi sona, la nimi sona li kama toki e sona wan kepeken ijo.
+
+Each relation has one or more roles that can also be called "slots" or "places". Above, they are labelled with "…" Those slots are to be filled with arguments (called "**sumti**" in Lojban). Argument terms are constructs like **le prenu**, **mi**, **do** no matter whether those terms end up being in a head or in a tail of a sentence. We put argument terms in order, thus filling these slots and giving a concrete meaning to the relation.
 
 ```mermaid
 flowchart TB
@@ -271,7 +285,7 @@ flowchart TB
 
 ```
 
-nimi sona li ken kama ijo pi poki sona.
+nimi sona li ken kama nimi ijo li ken tawa poki pi nimi sona.
 
 nasin li ni: o pana e nimi lili **le** lon open.
 
@@ -318,7 +332,8 @@ nimi *le* li moku e poki nanpa wan pi nimi sona. ni la sona pi nimi **le** li ke
 
 sama toki pona la, toki Losupan la, nimi ijo li toki ala e mute ijo. **le tavla** li ken _jan wan_ li ken _jan mute_. tenpo kama poka la sina kama sona e nasin ni: sina ken toki a e nanpa.
 
-ijo wan toki li ken ijo poki ala li ken ijo poka. nimi **ca** li sama ni:
+<!-- XXX -->
+ijo lili toki li ken nimi ijo ala. nasin ante li lon: namako sona. nimi **ca** li sama ni:
 
 > **mi ca cu tavla do**
 > _mi toki tawa sina lon tenpo ni._
@@ -326,7 +341,7 @@ ijo wan toki li ken ijo poki ala li ken ijo poka. nimi **ca** li sama ni:
 ca
 : lon tenpo ni
 
-ijo poka li tawa ala poki pi nimi sona lawa ("**selbrisni**"). ona li tawa ale toki li ken pana e sona namako li ken lili e sona ken.
+nimi pi namako sona li tawa ala poki pi nimi sona lawa ("**selbrisni**"). ona li tawa ale toki li ken namako e sona li ken lili e ken.
 
 ale la, ijo toki wan li ken ni tu:
 
@@ -463,7 +478,7 @@ pinxe
 : jan … li moku e telo …
 
 le djacu
-: telo
+: telo pi namako ala
 
 o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Losupan.
 
@@ -1009,56 +1024,54 @@ o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Lo
 <td><b>xu le gerku cu prami do</b>
 </td></tr></tbody></table>
 
-<!--
-### Happiness and polite requests: ‘_Yay!_’ = «**ui**», ‘_Please!_’ = «**.e'o**»
+### pilin la pona en wile: ‘_pona!_’ = «**ui**», ‘_o ni!_’ = «**.e'o**»
 
-The interjection **ui** show happiness of the one who is speaking. It is used just like the smiley face ‘_:)_’ the smiley-face in messaging, to indicate that you're glad of something. Although, smileys can be ambiguous, and **ui** has only one meaning, which is handy.
+nimi pilin **ui** li toki e ni: jan toki li pilin pona. ilo toki la sitelen sinpin '_:)_' pi pilin pona li lon, nimi **ui** li sama a. taso, sitelen sinpin li ken toki e ijo mute anu seme, taso nimi **ui** li ken toki e sona wan taso, la pona.
 
 > **ui do klama**
-> _Yay, you are coming!_
+> _pona! sina tawa!_
 
 ui
-: interjection: _Yay!_, interjection of happiness
+: nimi pilin: _pona!_, mu pi pilin pona
 
 
-The interjection **.e'o** at the beginning of a sentence turns it into a polite request:
+nimi **.e'o** li lon open toki la toki li toki suwi e ni: jan kute o ijo.
 
 > **.e'o do lebna le fonxa**
-> _Could you take the phone, please?_
-> `Please take the phone.`
+> _sina o kama jo e ilo toki._
 
 .e'o
-: interjection: please (pronounced as _eh-haw_ with a short pause or break before the word)
+: nimi pilin: (pilin suwi la) sina o ni <!-- XXX (kalama la pronounced as _eh-haw_ with a short pause or break before the word) -->
 
 lebna
-: to take (something)
+: … li kama jo e ijo …
 
-In English, to be polite, one has to use _could you_ + _please_ + a question). In Lojban, **.e'o** is enough to make a polite request.
+toki pona la, jan li ken toki e wile kepeken nimi _o_ taso li wile ala pana e suwi. <!-- XXX seme la ni la seme? --> toki Losupan la, nimi **e'o** li toki e wile li suwi kin e pilin.
 
-### Task
+### pali
 
-Close the right part of the table. Translate the sentences on the left from Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tan toki Losupan.
 
 le tcati
-: the tea
+: telo seli kasi
 
-<pixra url="/assets/pixra/cilre/tcati.webp" caption="tcati" definition="… is some tea"></pixra>
+<pixra url="/assets/pixra/cilre/tcati.webp" caption="tcati" definition="… li telo seli kasi"></pixra>
 
 le ckafi
-: coffee
+: telo seli pimeja
 
-<pixra url="/assets/pixra/cilre/ckafi.webp" caption="ckafi" definition="… is some coffee"></pixra>
+<pixra url="/assets/pixra/cilre/ckafi.webp" caption="ckafi" definition="… li telo seli pimeja"></pixra>
 
 zgana
-: to watch, observe (using any senses)
+: li lukin e ijo, li pilin e ijo (kepeken ilo pilin ante)
 
 le skina
-: the film, the movie
+: sitelen tawa
 
-<pixra url="/assets/pixra/cilre/zgana_le_skina.webp" caption="le prenu cu zgana le skina" definition="The person watches the movie."></pixra>
+<pixra url="/assets/pixra/cilre/zgana_le_skina.webp" caption="le prenu cu zgana le skina" definition="jan li lukin e sitelen tawa."></pixra>
 
 kurji
-: to care of (someone, something)
+: li sama mama tawa ijo, li awen e ijo
 
 <table style="table-layout: fixed;">
 
@@ -1066,301 +1079,310 @@ kurji
 <tr>
 <td><b>ui carvi</b>
 </td>
-<td><i>Yay, it rains! Yay, it is raining!</i>
+<td><i>pona! telo li kama tan sewi!</i>
 </td></tr>
 <tr>
 <td><b>.e'o do sutra bajra</b>
 </td>
-<td><i>Run quickly!</i>
+<td><i>sina o tawa noka wawa!</i>
 </td></tr>
 <tr>
 <td><b>.e'o do pinxe le tcati</b>
 </td>
-<td><i>Please, drink tea!</i>
+<td><i>sina o moku e telo kasi!</i>
 </td></tr>
 <tr>
 <td><b>.e'o zgana le skina</b>
 </td>
-<td><i>Please, watch the film!</i>
+<td><i>sina o lukin e sitelen tawa!</i>
 </td></tr></tbody></table>
 
-Close the right part of the table. Translate the sentences on the left to Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Losupan.
 
 <table style="table-layout: fixed;">
 
 <tbody><tr>
-<td><i>Please, be smart!</i>
+<td><i>sina o wawa sona!</i>
 </td>
 <td><b>.e'o stati</b>
 </td></tr>
 <tr>
-<td><i>Please, go home!</i>
+<td><i>sina o tawa tomo!</i>
 </td>
 <td><b>.e'o do klama le zdani</b>
 </td></tr>
 <tr>
-<td><i>Please, drink the coffee!</i>
+<td><i>sina o moku e telo seli pimeja!</i>
 </td>
 <td><b>.e'o do pinxe le ckafi</b>
 </td></tr>
 <tr>
 <tr>
-<td><i>Yay, I talk to you!</i>
+<td><i>pona! mi toki tawa sina!</i>
 </td>
 <td><b>ui mi tavla do</b>
 </td></tr>
 <tr>
-<td><i>Please, take care of the child.</i>
+<td><i>sina o awen e jan lili!</i>
 </td>
 <td><b>.e'o do kurji le verba</b>
 </td></tr></tbody></table>
 
-### ‘_And_’ and ‘_or_’
+### ‘_en_’, ‘_anu_’
 
 > **do nintadni .i je mi nintadni**
-> _You are a newbie. And I am a newbie._
+> _ni tu: sina jan sin pi kama sona. mi jan sin pi kama sona._
 
-<!-- ~~>
+<!-- -->
 
 > **do .e mi nintadni**
 > _You and I are newbies._
 
-<pixra url="/assets/pixra/cilre/do_e_mi_nintadni.webp" caption="do .e mi nintadni" definition="You and I are new students."></pixra>
+<pixra url="/assets/pixra/cilre/do_e_mi_nintadni.webp" caption="do .e mi nintadni" definition="sina en mi li jan sin pi kama sona."></pixra>
 
-<!-- ~~>
+<!-- -->
 
 > **mi tadni .i je mi tavla do**
-> _I study. And I talk to you._
+> _ni tu: mi kama sona. mi toki tawa sina._
 
-<!-- ~~>
+<!-- -->
 
 > **mi tadni gi'e tavla do**
-> _I study and talk to you._
+> _mi kama sona, li toki tawa sina._
 
 .i je
-: conjunction "and" combining sentences into one.
+: toki tu la wan ni: ona tu li lon.
 
 .e
-: conjunction "and" connecting arguments.
+: nimi ijo tu la wan ni: ona tu li lon.
 
 gi'e
-: conjunction "and" connecting sentence tails.
+: kipisi pini toki tu la wan ni: ona tu li lon.
 
-We can combine two sentences into one statement using the conjunction **.i je**, which means _and_:
+toki suli tu la mi ken wan e ona kepeken nimi ni pi kama wan: **.i je**. ona li toki e ni: toki tu li lon.
 
 > **do nintadni .i je mi nintadni**
-> _You are a newbie. And I am a newbie._
+> _ni tu: sina jan sin pi kama sona. mi jan sin pi kama sona._
 
-Since both sentences have the same tail, we can use a contraction: the conjunction **.e** means _and_ for arguments:
+toki tu ni la kipisi pini li sama. ni la nasin pi nimi lili li lon. nimi **.e** li wan e nimi ijo li toki e ni: ijo tu li lon.
 
 > **do .e mi nintadni**
-> _You and I are newbies._
+> _sina en mi li jan sin pi kama sona._
 
-**do nintadni .i je mi nintadni** means exactly the same as **do .e mi nintadni**
+toki **do nintadni .i je mi nintadni** en toki **do .e mi nintadni** la sona li sama ale.
 
-We can also use **.e** for connecting arguments in other positions.
+nimi **.e** li ken wan e nimi ijo lon poka ale toki lon open taso ala.
 
-Both of these sentences mean the same thing.
+toki ni tu la sona li sama ale:
 
 
 > **mi pinxe le djacu .e le jisra**
-> _I drink the water and the juice._
+> _mi moku e telo pi namako ala e telo kili._
 > **mi pinxe le djacu .i je mi pinxe le jisra**
-> _I drink the water, and I drink the juice._
+> _ni tu: mi moku e telo pi namako ala. mi moku e telo kili._
 
 le jisra
-: juice
+: telo kili
 
-<pixra url="/assets/pixra/cilre/pinxe_le_jisra.webp" caption="le prenu cu pinxe le jisra" definition="The person drinks the juice."></pixra>
+<pixra url="/assets/pixra/cilre/pinxe_le_jisra.webp" caption="le prenu cu pinxe le jisra" definition="jan li moku e telo kili."></pixra>
 
-If the sentence head is the same but the tails differ, we use the conjunction **gi'e**, which means _and_ for sentence tails:
+kipisi open toki li sama la kipisi pini taso li ante la, nimi **gi'e** li pona. ona li wan e kipisi pini toki tu li toki e ni: ona tu li lon.
 
 > **mi tadni .i je mi tavla do**
 > **mi tadni gi'e tavla do**
-> _I study and talk to you._
+> _mi kama sona li toki tawa sina._
 
-Both variations mean the same; **gi'e** simply leads to a more consise realization.
+toki tu ni li ante lili, taso sona li sama ale. nimi **gi'e** li lili taso e mute nimi.
 
-We also have tools to add _and_ for components of compound relations:
+nasin ante ni li lon: mi ken wan e nimi sona tu, lon insa kulupu pi nimi sona.
 
 > **le melbi je cmalu zdani cu jibni ti**
-> _The pretty and small home is near._
+> _tomo li lon poka ni. tomo li pona lukin li lili._
+> _tomo lili pi pona lukin li lon poka ni._
 
-<pixra url="/assets/pixra/cilre/melbi_je_cmalu_zdani.webp" caption="melbi je cmalu zdani" definition="… is a pretty-and-small home"></pixra>
+<pixra url="/assets/pixra/cilre/melbi_je_cmalu_zdani.webp" caption="melbi je cmalu zdani" definition="… li tomo lili pi pona lukin"></pixra>
 
 jibni
-: … is near to …
+: ijo … li lon poka pi ijo …, ijo tu la mute weka li lili
 
 ti
-: this thing, this place near me
+: ni poka, ma ni poka
 
-**je** is a conjunction in Lojban that means _and_ in compound relations.
+toki Losupan la nimi **je** li wan e nimi sona tu lon kulupu pi nimi sona, li toki e ni: ona tu li lon.
 
-Without **je**, the sentence changes the meaning:
+nimi **je** li lon ala la, sona li ante:
 
 > **le melbi cmalu zdani cu jibni**
-> _The prettily small home is near._
+> _tomo li lon poka. tomo li lili pi pona lukin.
+> _tomo pi (lili pi pona lukin) li lon poka._
 
-Here **melbi** modifies **cmalu**, and **melbi cmalu** modifies **zdani**, according to how compound relations work.
+ni la nimi **melbi** li kule e nimi **cmalu**, la kulupu nimi **melbi cmalu** li kule e nimi **zdani**. tan ni: ni li nasin lon kulupu pi nimi sona.
 
-In **le melbi je cmalu zdani** (_the pretty and small house_) both **melbi** and **cmalu** modify **zdani** directly.
+toki **le melbi je cmalu zdani** la _tomo li pona lukin li lili_. nimi **melbi** en nimi **cmalu** kin li kule e nimi **zdani**.
 
-Other common conjunctions include:
+
+nimi ante pi kama wan la ni li lon tenpo mute:
 
 > **le verba cu fengu ja bilma**
-> _The child is angry or ill (or maybe both angry and ill)_
+> _ken la jan lili li pilin utala. ken la ona li ike sijelo. (ken la ni tu.)_
 
-<!-- ~~>
+<!-- -->
 
 > **do .a mi ba vitke le dzena**
-> _You or I (or both of us) will visit the ancestor._
+> _ken la mi tawa mama mama lon tenpo lili. ken la sina ni. (ken la mi en sina.)
 
 ja
-: and/or
+: ni wan li lon, ken la ni tu li lon.
 
-**.a** = _and/or_ when connecting arguments.
+.a
+: nimi ijo tu la: ona wan li lon, ken la tu.
 
+<!-- -->
 
 fengu
-: … is angry
+: … li pilin utala
 
-<pixra url="/assets/pixra/cilre/fengu.webp" caption="fengu" definition="… is angry"></pixra>
+<pixra url="/assets/pixra/cilre/fengu.webp" caption="fengu" definition="… li pilin utala"></pixra>
 
 bilma
-: … is ill
+: … li ike sijelo
 
-<pixra url="/assets/pixra/cilre/bilma.webp" caption="le prenu cu bilma" definition="The person is ill"></pixra>
+<pixra url="/assets/pixra/cilre/bilma.webp" caption="le prenu cu bilma" definition="jan li ike sijelo"></pixra>
 
 vitke
-: to visit
+: … li awen lon poka pi jan … lon tenpo lili
 
 dzena
-: … is an ancestor of …
+: … li mama weka pi jan …
 
-<pixra url="/assets/pixra/cilre/dzena.webp" caption="dzena" definition="… is an ancestor of …"></pixra>
+<pixra url="/assets/pixra/cilre/dzena.webp" caption="dzena" definition="… li mama weka pi jan …"></pixra>
 
 > **le karce cu blabi jo nai grusi**
-> _The car is either white or gray._
+> _ilo tawa li ken walo li ken pimeja walo (li ni wan taso.)_
 
-<!-- ~~>
+<!-- -->
 
 > **do .o nai mi vitke le laldo**
-> _Either you or I visit the old one._
+> _mi en sina la ni wan li lon jan majuna lon tenpo lili._
 
 jo nai
-: either … or … but not both
+: ni wan taso li lon, ni ante li lon ala.
 
 .o nai
-: either … or … but not both (when connecting arguments)
+: nimi ijo tu la: ona wan taso li lon.
 
 laldo
-: … is old
+: ijo … li majuna
 
-Note: it's better to remember **jo nai** as a single construct, and the same for **.o nai**.
+o sona lili ni: nimi **jo nai** e nimi **.o nai** la nasin pona la o pilin sama ni: ona li nimi wan li ijo wan li tu ala.
 
 > **mi prami do .i ju do stati**
-> _I love you. Whether or not you are smart._
+> _mi olin e sina. sina ken wawa sona li ken ni ala; ni li suli ala tawa olin._
+> _sina ken wawa sona li ken wawa sona ala, taso mi olin e sina._
 
-<!-- ~~>
+<!-- -->
 
 > **le verba cu nelci le plise .u le badna**
-> _The child likes the apples whether or not (he/she likes) the bananas._
+> _jan lili la, kili loje li pona. kili jelo palisa li ken pona li ken pona ala, ni li suli ala.
+> _jan lili la, kili jelo palisa li ken pona li ken pona ala, taso kili loje li pona.
 
 ju
-: whether or not …
+: ni nanpa wan li lon. ni nanpa tu li ken lon li ken lon ala.
 
 .u
-: whether or not … (when connecting arguments)
+: nimi ijo la: ni nanpa wan li lon, ni nanpa tu li ken lon li ken lon ala.
 
-### «**joi**» is ‘_and_’ for mass actions
+### nimi «**joi**» li poka e jan lon pali
 
 > **do joi mi casnu le bangu**
-> _You and I are discussing the language._
+> _sina en mi li toki lon nasin toki._
 
 casnu
-: … discusses …
+: jan … li toki lon ijo …
 
 le bangu
-: the language
+: nasin toki
 
 joi
-: conjunction _and_ for masses
+: ijo tu la wan ni: ona li pali lon poka
 
-If I say **do .e mi casnu le bangu** it may mean that you discuss the language, and I discuss the language. But it doesn't necessarily mean that we are in the same conversation!
+mi toki **do .e mi casnu le bangu** la mi toki e ni: mi toki lon nasin toki. sina toki lon nasin toki. taso ken la mi tu li lon ala toki sama li toki lon poka ala!
 
-This can be made more visible if we expand this using **.i je**:
+nasin ni la mi ken lukin pona e nasa ni: kepeken nimi **.i je** la mi suli e toki li awen e sona sama.
 
 > **do .e mi casnu le bangu**
 > **do casnu le bangu .i je mi casnu le bangu**
-> _You discuss the language. And I discuss the language._
+> _ni tu: sina toki lon nasin toki. mi toki lon nasin toki._
 
-In order to emphasize that you and I participate in the same action, we use a special conjunction **joi** meaning _and_ that forms a "mass":
+mi en sina li lon pali sama la mi wile toki wawa e ni la mi kepeken nimi ni pi kama wan: **joi**. ona li wan ni e ijo tu: ijo tu ni li pali lon poka.
 
 > **do joi mi casnu le bangu**
-> _You and I are discussing the language._
-> _You and I being a single entity for this event are discussing the language._
+> _sina en mi li toki lon nasin toki._
+> _sina en mi li lon pali wan ni: sina en mi li toki lon nasin toki.
 
+nimi **mi'o** li ni: sina en mi. lon la nimi **mi joi do** kin li ken toki e ni, li sama ale lon sona (li ike ni taso: ona li nimi mute). toki Losupan la, nimi wan taso ala li sama nimi _mi mute_, nasin mute la sina ken pana e sona suli sama ni: **mi joi le pendo** (_mi en jan pona_).
 The pronoun **mi'o** (_you and I together_) can actually be expressed as **mi joi do**, which means exactly the same (it's just longer). In Lojban, you may use not a single word for _we_ but more precise constructs like **mi joi le pendo** (literally _I and the friends_).
 
-<pixra url="/assets/pixra/cilre/casnu.webp" caption="do joi le pendo joi mi casnu" definition="You, the friend and I are in a discussion."></pixra>
+<pixra url="/assets/pixra/cilre/casnu.webp" caption="do joi le pendo joi mi casnu" definition="sina en jan pona e mi li toki."></pixra>
 
-### Task
+### pali
 
-Close the right part of the table. Translate the sentences on the left from Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tan toki Losupan.
 
 <table style="table-layout: fixed;">
 
 <tbody><tr>
 <td><b>mi nelci le badna .e le plise</b>
 </td>
-<td><i>I like the bananas, and I like the apples. I like the bananas and the apples.</i>
+<td><i>kili palisa jelo li pona tawa mi, kili loje li pona tawa mi. kili palisa jelo en kili loje li pona tawa mi.</i>
 </td></tr>
 <tr>
 <td><b>do sutra ja stati</b>
 </td>
-<td><i>You are quick or smart or both.</i>
+<td><i>ken la sina kepeken tenpo lili. ken la sina wawa sona. ken la ni tu.</i>
 </td></tr>
 <tr>
 <td><b>le za'u prenu cu casnu le karce .u le gerku</b>
 </td>
-<td><i>The people discuss the cars whether or not (they discuss) the dogs.</i>
+<td><i>jan mute li toki lon ilo tawa. ken la ona li toki lon soweli, ken la ala - ni li suli ala.</i>
 </td></tr>
 <tr>
 <td><b>mi citka le najnimre .o nai le badna</b>
 </td>
-<td><i>I eat either the oranges or the bananas.</i>
+<td><i>kili jelo loje en kili jelo palisa la, mi moku e ni wan taso.</i>
 </td></tr></tbody></table>
 
-Close the right part of the table. Translate the sentences on the left to Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Losupan.
 
 <table style="table-layout: fixed;">
 
 <tbody><tr>
-<td><i>The friends and I like the rain.</i>
+<td><i>jan pona en mi la telo sewi li pona.</i>
 </td>
 <td><b>le pendo .e mi cu nelci le carvi</b>
 </td></tr>
 <tr>
-<td><i>Either I or you go to the market.</i>
+<td><i>mi en sina la ni wan taso li tawa esun.</i>
 </td>
 <td><b>mi .o nai do klama le zarci</b>
 </td></tr>
 <tr>
-<td><i>I look at the big and beautiful car.</i>
+<td><i>mi lukin e ilo tawa suli pi pona lukin.</i>
 </td>
 <td><b>mi catlu le barda je melbi karce</b>
 </td></tr>
 <tr>
-<td><i>The child drinks the water and/or the juice.</i>
+<td><i>jan lili li moku e telo pi namako ala e telo kili. ken la telo ni wan, ken la ni tu.</i>
 </td>
 <td><b>le verba cu pinxe le djacu .a le jisra</b>
 </td></tr>
 <tr>
-<td><i>The child and the small one discuss the car.</i>
+<td><i>jan lili en ijo lili wan li toki lon ilo tawa.</i>
 </td>
-<td><b>le verba joi le pa cmalu cu casnu le karce</b> (note the use of <b>joi</b>. <i>the small one</i> is just <b>le pa cmalu</b>).
+<td><b>le verba joi le pa cmalu cu casnu le karce</b> (o lukin a e ni: ni li wile e nimi <b>joi</b>. <i>ijo lili wan</i> li ni taso: <b>le pa cmalu</b>).
 </td></tr></tbody></table>
 
+<!--
 ### But …
 
 > **le najnimre cu barda .i je ku'i le badna cu cmalu**
