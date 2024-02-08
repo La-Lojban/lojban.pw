@@ -27,8 +27,8 @@ export default function Header({
 }: {
   toc?: TocElem[];
   path?: string;
-  allPosts: Items[];
-  currentLanguage: string;
+  allPosts?: Items[];
+  currentLanguage?: string;
 }) {
   const listToC: TocItem[] = toc.map((tocElem) => ({
     depth: parseInt(tocElem.depth),
