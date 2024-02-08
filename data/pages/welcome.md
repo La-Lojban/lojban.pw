@@ -1,5 +1,6 @@
 ---
-meta.title: Learn Lojban
+title: What is Lojban?
+meta.title: What is Lojban?
 ---
 
 **Lojban** is a spoken logical language that was created in 1987 and is now supported by its speakers.

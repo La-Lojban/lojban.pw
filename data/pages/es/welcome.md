@@ -1,5 +1,6 @@
 ---
-meta.title: Aprende Lojban
+title: ¿Qué es Lojban?
+meta.title: ¿Qué es Lojban?
 ---
 
 **Lojban** es un lenguaje lógico hablado que fue creado en 1987 y ahora es apoyado por sus hablantes.
