@@ -7,6 +7,7 @@ import { closeXicon } from "../lib/buttons";
 import { header } from "../config/config";
 import { TocElem } from "../types/toc";
 import { debouncedGetClosestHeaderId, getClosestHeaderId } from "../lib/toc";
+import { Items } from "../lib/api";
 
 // const profile = ['Your Profile', 'Settings', 'Sign out']
 
@@ -21,9 +22,13 @@ const buttonClass = `text-black in-topbar-toc hover:no-underline px-3 py-2 text-
 export default function Header({
   toc = [],
   path = "",
+  allPosts = [],
+  currentLanguage = "en",
 }: {
   toc?: TocElem[];
   path?: string;
+  allPosts: Items[];
+  currentLanguage: string;
 }) {
   const listToC: TocItem[] = toc.map((tocElem) => ({
     depth: parseInt(tocElem.depth),
@@ -42,7 +47,11 @@ export default function Header({
             <div className="flex items-center justify-between h-12">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <Link href="/welcome">
+                  <Link
+                    href={`${
+                      currentLanguage === "en" ? "" : "/" + currentLanguage
+                    }/welcome`}
+                  >
                     <img
                       className="logo"
                       src="/assets/icons/lojbo.svg"
@@ -53,16 +62,46 @@ export default function Header({
 
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-3">
-                    {header.map((item) => (
-                      <Link href={item.url} key={item.url} className="mt-auto">
-                        <button
-                          className={`flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base px-4 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center`}
+                    {header.map((item) => {
+                      const foundTitle = allPosts
+                        .reduce((acc, post) => {
+                          const slug = "/" + post.slug.join("/");
+                          const localizedUrl = `/${currentLanguage}` + item.url;
+                          if ([item.url, localizedUrl].includes(slug)) {
+                            acc.push({
+                              slug: post.slug,
+                              url: localizedUrl,
+                              name: post.title,
+                              directory: post.slug[0],
+                            });
+                          }
+                          return acc;
+                        }, [] as Items[])
+                        .sort((a, b) => {
+                          if (a.directory === currentLanguage) return -1;
+                          return 0;
+                        })[0];
+                      return (
+                        <Link
+                          href={
+                            !!foundTitle ? (foundTitle.url as string) : item.url
+                          }
+                          key={item.url}
+                          className="mt-auto"
                         >
-                          {/* {item.ogImage && <img src={item.ogImage} className="h-7 mr-2"/>} */}
-                          <span className="py-1">{item.name}</span>
-                        </button>
-                      </Link>
-                    ))}
+                          <button
+                            className={`flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base px-4 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center`}
+                          >
+                            {/* {item.ogImage && <img src={item.ogImage} className="h-7 mr-2"/>} */}
+                            <span className="py-1">
+                              {!!foundTitle
+                                ? (foundTitle.name as string)
+                                : item.name}
+                            </span>
+                          </button>
+                        </Link>
+                      );
+                    })}
                     {/* <div className="stork-wrapper">
                       <input data-stork="federalist" className="stork-input" />
                       <div data-stork="federalist-output" className="stork-output"></div>
@@ -175,7 +214,10 @@ export default function Header({
 
                 {/* toc */}
                 <nav className="toc w-full md:w-1/5 p-2 bottom-0 md:top-20 h-48 md:h-screen font-medium text-sm overflow-ellipsis">
-                  <div id="toc-topbar" className="h-full px-2 pb-3 space-y-1 sm:px-3 overflow-y-auto">
+                  <div
+                    id="toc-topbar"
+                    className="h-full px-2 pb-3 space-y-1 sm:px-3 overflow-y-auto"
+                  >
                     {listToC.map((item) => (
                       <Link
                         href={item.url}

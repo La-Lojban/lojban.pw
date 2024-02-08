@@ -1,5 +1,5 @@
 ---
-title: 💬 Chat ao vivo em Lojban
+title: 💬 Chat
 ---
 
 Lojban é uma língua viva, e você pode entrar em contato com especialistas em Lojban em um chat.

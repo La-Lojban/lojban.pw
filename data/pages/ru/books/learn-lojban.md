@@ -1,5 +1,5 @@
 ---
-title: 🎓 Курс "Изучаем ложбан"
+title: 🎓 Изучаем ложбан
 ogImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 coverImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 ---

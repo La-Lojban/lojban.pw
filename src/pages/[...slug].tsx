@@ -21,6 +21,8 @@ type Props = {
   post: TPost;
   preview?: boolean;
   posts: Items[];
+  allPosts: Items[];
+  currentLanguage: string;
 };
 
 type TocItem = {
@@ -29,7 +31,7 @@ type TocItem = {
   depth: number;
 };
 
-const Post = ({ post, posts, preview }: Props) => {
+const Post = ({ post, posts, allPosts, currentLanguage, preview }: Props) => {
   const router = useRouter();
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
@@ -66,7 +68,12 @@ const Post = ({ post, posts, preview }: Props) => {
     <Layout preview={preview}>
       <div className="pb-8">
         <Container>
-          <Header toc={post?.toc} path={router.asPath.replace(/#.*/, "")} />
+          <Header
+            toc={post?.toc}
+            path={router.asPath.replace(/#.*/, "")}
+            allPosts={allPosts}
+            currentLanguage={currentLanguage}
+          />
           {router.isFallback ? (
             <PostTitle>Loading…</PostTitle>
           ) : (
@@ -239,11 +246,12 @@ export async function getStaticProps({ params }: Params) {
   const shortSlug = params.slug.slice(1).join("/");
   const currentLanguage = params.slug[0];
 
-  const posts = (await getAllPosts(["slug", "hidden"], true)).reduce(
-    (acc, elem) => {
-      const fullPath = elem.slug.join("/");
-      const shortPath = elem.slug.slice(1).join("/");
-      const language = elem.slug[0];
+  const allPosts = await getAllPosts(["slug", "hidden", "title", "directory"], true);
+  const posts = allPosts.reduce(
+    (acc, { slug }) => {
+      const fullPath = slug.join("/");
+      const shortPath = slug.slice(1).join("/");
+      const language = slug[0];
       if (fullSlug === shortPath) {
         //the current path is the english version so list the found slug
         acc.push({ fullPath, language });
@@ -266,6 +274,8 @@ export async function getStaticProps({ params }: Params) {
   return {
     props: {
       posts,
+      allPosts,
+      currentLanguage: currentLanguage ?? "en",
       post: {
         ...post,
         content: text,

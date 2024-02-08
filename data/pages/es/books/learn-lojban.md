@@ -1,5 +1,5 @@
 ---
-title: 🎓 Curso 'Aprende Lojban'
+title: 🎓 Aprende Lojban
 ogImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 coverImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 ---
