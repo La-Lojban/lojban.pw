@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 
 import { useRouter } from "next/router";
@@ -17,6 +17,10 @@ import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 
+import settings from "../lib/korpora/data.json";
+
+const allShortLangs = Object.keys(settings.bangu).map((i) => (settings.bangu as any)[i].short);
+
 type Props = {
   post: TPost;
   preview?: boolean;
@@ -33,9 +37,12 @@ type TocItem = {
 
 const Post = ({ post, posts, allPosts, currentLanguage, preview }: Props) => {
   const router = useRouter();
-  if (!router.isFallback && !post?.slug) {
-    return <ErrorPage statusCode={404} />;
-  }
+  if (!router.isFallback && !post?.slug) return <ErrorPage statusCode={404} />;
+  useEffect(() => {
+    if (!allShortLangs.includes(router.asPath.split("/")[1])) {
+      router.replace("/en" + router.asPath);
+    }
+  }, []);
 
   const toc_list: TocItem[] = (post?.toc ?? []).map((i: any) => ({
     depth: i.depth,
@@ -219,9 +226,10 @@ const Post = ({ post, posts, allPosts, currentLanguage, preview }: Props) => {
 
 export default Post;
 
-type Params = {
+export type Params = {
   params: {
     slug: string[];
+    lang: string;
   };
 };
 
@@ -246,7 +254,10 @@ export async function getStaticProps({ params }: Params) {
   const shortSlug = params.slug.slice(1).join("/");
   const currentLanguage = params.slug[0];
 
-  const allPosts = await getAllPosts(["slug", "hidden", "title", "directory"], true);
+  const allPosts = await getAllPosts(
+    ["slug", "hidden", "title", "directory"],
+    true
+  );
   const posts = allPosts.reduce(
     (acc, { slug }) => {
       const fullPath = slug.join("/");
@@ -289,13 +300,29 @@ export async function getStaticProps({ params }: Params) {
 export async function getStaticPaths() {
   const posts = await getAllPosts(["slug", "hidden"], true);
   return {
-    paths: posts.map((posts) => {
-      return {
-        params: {
-          slug: posts.slug,
-        },
-      };
-    }),
+    paths: posts
+      .map((posts) => {
+        if (posts.slug[0] === "en") {
+          return [
+            {
+              params: {
+                slug: posts.slug,
+              },
+            },
+            {
+              params: {
+                slug: posts.slug.slice(1),
+              },
+            },
+          ];
+        }
+        return {
+          params: {
+            slug: posts.slug,
+          },
+        };
+      })
+      .flat(),
     fallback: false,
   };
 }

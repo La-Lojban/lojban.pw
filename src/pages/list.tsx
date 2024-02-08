@@ -24,7 +24,7 @@ const Index = ({ allPosts }: Props) => {
           <Container>
             <Header />
             <div className="mb-8 mt-4 mx-auto max-w-7xl px-4 sm:px-6">
-              <Intro />
+              {/* <Intro /> */}
               {allPosts.length > 0 && <AllStories posts={allPosts} />}
             </div>
           </Container>

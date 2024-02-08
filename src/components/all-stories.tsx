@@ -6,17 +6,23 @@ type Props = {
 };
 
 const AllStories = ({ posts }: Props) => {
-  const groupedPosts = posts.reduce(function (acc, post) {
-    const directory = post.directory ?? "";
-    acc[directory] = acc[directory] ?? [];
-    acc[directory].push(post);
-    return acc;
-  }, {} as { [key: string]: TPost[] });
+  const groupedPosts = posts
+    .reduce(
+      function (acc, post) {
+        const directory =
+          post.slug.slice(0, post.slug.length - 1).join("/") ?? "";
+        acc[directory] = acc[directory] ?? [];
+        acc[directory].push(post);
+        return acc;
+      },
+      {} as { [key: string]: TPost[] }
+    )
+    ;
 
   if (Object.keys(groupedPosts).length === 1) {
     return Object.keys(groupedPosts).map((key, index) => (
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-16 lg:gap-x-20 gap-y-8">
-        {groupedPosts[key].map((post) => (
+        {groupedPosts[key].sort().map((post) => (
           <PostPreview key={post.slug.join("~")} post={post} />
         ))}
       </div>
@@ -24,7 +30,7 @@ const AllStories = ({ posts }: Props) => {
   }
   return (
     <div className="listing">
-      {Object.keys(groupedPosts).map((key, index) => (
+      {Object.keys(groupedPosts).sort().map((key, index) => (
         <div
           key={`section_${index}`}
           className="mb-3 w-full border border-gray-200 rounded-lg shadow"
@@ -50,7 +56,7 @@ const AllStories = ({ posts }: Props) => {
               aria-labelledby="about-tab"
             >
               <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-8 gap-y-4">
-                {groupedPosts[key].map((post) => (
+                {groupedPosts[key].sort().map((post) => (
                   <PostPreview key={post.slug.join("~")} post={post} />
                 ))}
               </div>

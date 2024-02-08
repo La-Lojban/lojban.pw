@@ -7,6 +7,8 @@ const args = process.argv.slice(2);
 const { autoSplitNTranslate } = require("./autotranslate");
 const { bangu } = require("./data.json");
 
+const allLanguages = Object.keys(bangu);
+
 if (!process.env.GOOGLE_LOJBAN_CORPUS_DOC_ID) {
   console.log(
     "generation cancelled, no GOOGLE_LOJBAN_CORPUS_DOC_ID in .env file specified"
@@ -37,6 +39,7 @@ function cssifyName(text) {
     .filter((name) => name.indexOf("+") === 0);
   const table = {};
   const buttons = {};
+  const headers = {};
   const css = [];
   for (let title of titles) {
     const sheet = doc.sheetsByTitle[title];
@@ -71,7 +74,7 @@ function cssifyName(text) {
         leading-normal
         select-none
         py-2 px-4
-        ">${bangu[lang] ?? lang}</label>`
+        ">${bangu[lang]?.native ?? lang}</label>`
       );
       css.push(
         ...`
@@ -97,15 +100,20 @@ function cssifyName(text) {
     table[title].push(`</thead>`);
     table[title].push(`<tbody>`);
 
-    const header = columns["glico"][1] ?? title;
-    const slug = sluggify(header);
+    const slug = sluggify(columns["glico"][1] ?? title);
 
     const priority = (columns["lojbo"] ?? []).slice(4).join("\n").length;
-    const author = columns["glico"][2] ?? "";
-    const description = `${header} - ${author}`
-      .trim()
-      .replace(/ -$/, "")
-      .trim();
+    allLanguages.forEach((lang) => {
+      const header = columns[lang]?.[1] ?? title;
+      const author = columns[lang]?.[2] ?? "";
+      headers[lang] = {
+        header,
+        priority,
+        author,
+        description: `${header} - ${author}`.trim().replace(/ -$/, "").trim(),
+      };
+    });
+
     const keywords = Object.keys(columns)
       .map((lang) => columns[lang][1])
       .join(", ");
@@ -150,9 +158,13 @@ function cssifyName(text) {
     }
     table[title].push(`</tbody>`);
     table[title].push(`</table>`);
-    const filepath = path.join("/app/src/md_pages/texts", title + ".html");
-    let contentMd = await prettier.format(
-      `   
+    for (const lang of allLanguages) {
+      const langedDirectoryRoot = `/app/src/md_pages/${bangu[lang].short}`;
+      const langedDirectory = `${langedDirectoryRoot}/texts`;
+      const filepath = path.join(langedDirectory, title + ".html");
+
+      const contentMd = await prettier.format(
+        `   
     <div class="w-full">
     ${buttons[title].join("")}
     <div class="clear-both" />
@@ -161,27 +173,30 @@ ${table[title].join("")}
 </div>
 </div>
 `,
-      { filepath: filepath }
-    );
-    const graymatter = [
-      { key: "title", value: header },
-      { key: "meta.type", value: "korpora" },
-      { key: "meta.description", value: description },
-      { key: "meta.keywords", value: keywords },
-      { key: "meta.author", value: author },
-      { key: "ogImage", value: ogImage },
-      { key: "meta.priority", value: priority },
-    ].filter((el) => el.value !== undefined);
+        { filepath: filepath }
+      );
+      const graymatter = [
+        { key: "title", value: headers[lang].header },
+        { key: "meta.type", value: "korpora" },
+        { key: "meta.description", value: headers[lang].description },
+        { key: "meta.keywords", value: keywords },
+        { key: "meta.author", value: headers[lang].author },
+        { key: "ogImage", value: ogImage },
+        { key: "meta.priority", value: headers[lang].priority },
+      ].filter((el) => el.value !== undefined);
 
-    contentMd = `---
+      const contentFull = `---
 ${graymatter.map(({ key, value }) => `${key}: ${value}`).join("\n")}
 ---
 
 ${contentMd}`;
-    const filepath_md = path.join("/app/src/md_pages/texts", slug + ".md");
-    fs.writeFileSync(filepath_md, contentMd);
+      if (!fs.existsSync(langedDirectoryRoot)) continue;
+      // fs.rmSync(langedDirectory, { force: true, recursive: true });
+      fs.mkdirSync(langedDirectory, { recursive: true });
+      const filepath_md = path.join(langedDirectory, slug + ".md");
+      fs.writeFileSync(filepath_md, contentFull);
+    }
     console.log(`generated "${title}" corpus entry`);
-
     if ((args[0] ?? "").indexOf("fanva") === 0) {
       const translation = await autoSplitNTranslate({
         title,

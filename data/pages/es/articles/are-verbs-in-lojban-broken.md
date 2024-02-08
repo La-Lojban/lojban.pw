@@ -1,4 +1,3 @@
-
 ---
 title: ¿Están rotos los verbos en Lojban?
 ---

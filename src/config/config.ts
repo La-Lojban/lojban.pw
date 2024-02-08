@@ -3,8 +3,6 @@ export const site_title = "My website";
 
 export const CMS_NAME = "My website title";
 export const TEXTS = "Corpus of texts";
-export const TEXTS_preface = "A corpus of texts";
-export const TEXT_preface = "A text";
 
 import {
   faDiscord,

@@ -38,7 +38,10 @@ export type Items = {
 export function getPostBySlug(slug: string[], fields: string[] = []): Items {
   const realSlug = slug.join("/");
   const fullPath = join(postsDirectory, `${realSlug}.md`);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
+  let fileContents = "";
+  if (fs.existsSync(fullPath)) {
+    fileContents = fs.readFileSync(fullPath, "utf8");
+  }
   const { data, content } = matter(fileContents);
 
   const items: Items = { slug: [] };
@@ -77,21 +80,21 @@ export async function getAllPosts(
   folder = ""
 ) {
   const slugs = await getPostSlugs(folder);
-  
+
   const posts = slugs
-  .map((slug: string) =>
-  getPostBySlug(slug.replace(/\.md$/, "").split("/"), fields)
-  )
-  .filter(
-    (post) =>
-    (showHidden || !post?.hidden) &&
-    (!fields.includes("title") || typeof post.title !== "undefined")
+    .map((slug: string) =>
+      getPostBySlug(slug.replace(/\.md$/, "").split("/"), fields)
+    )
+    .filter(
+      (post) =>
+        (showHidden || !post?.hidden) &&
+        (!fields.includes("title") || typeof post.title !== "undefined")
     )
     // sort posts by date in descending order
     .sort((post1, post2) => ((post1.date ?? 0) > (post2.date ?? 0) ? -1 : 1))
     //sort by priority in descending order
     .sort((post1, post2) =>
-    (post1["meta.priority"] ?? 0) > (post2["meta.priority"] ?? 0) ? -1 : 1
+      (post1["meta.priority"] ?? 0) > (post2["meta.priority"] ?? 0) ? -1 : 1
     );
   return posts;
 }

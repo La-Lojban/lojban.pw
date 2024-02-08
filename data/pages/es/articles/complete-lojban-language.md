@@ -1,4 +1,3 @@
-
 ---
 title: 📕 Idioma completo
 ---

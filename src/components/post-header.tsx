@@ -3,7 +3,6 @@ import DateFormatter from "./date-formatter";
 import PostTitle from "./post-title";
 import Author from "../types/author";
 import { TPost } from "../types/post";
-import { TEXT_preface } from "../config/config";
 
 type Props = {
   post: TPost;
@@ -33,12 +32,12 @@ const PostHeader = ({ post }: Props) => {
           )}
         </div>
       )}
-      {post["meta.type"] == "korpora" && (
+      {/* {post["meta.type"] == "korpora" && (
         <div
           className="mb-2"
           dangerouslySetInnerHTML={{ __html: TEXT_preface }}
         />
-      )}
+      )} */}
     </>
   );
 };

@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 const Index = () => {
   const router = useRouter()
   useEffect(() => {
-    router.push('/welcome')
+    router.push('/en/welcome')
   }, [])
 
   return <div />

@@ -1,14 +1,44 @@
 {
     "bangu": {
-        "jungo": "普通话",
-        "spano": "español",
-        "glico": "English",
-        "xrabo": "العربية",
-        "porto": "português",
-        "rusko": "русский",
-        "dotco": "Deutsch",
-        "fraso": "français",
-        "baurgulugu": "galego",
-        "sfe'ero": "svenska"
+        "jungo": {
+            "native": "普通话",
+            "short": "zh"
+        },
+        "spano": {
+            "native": "español",
+            "short": "es"
+        },
+        "glico": {
+            "native": "English",
+            "short": "en"
+        },
+        "xrabo": {
+            "native": "العربية",
+            "short": "ar"
+        },
+        "porto": {
+            "native": "português",
+            "short": "pt"
+        },
+        "rusko": {
+            "native": "русский",
+            "short": "ru"
+        },
+        "dotco": {
+            "native": "Deutsch",
+            "short": "de"
+        },
+        "fraso": {
+            "native": "français",
+            "short": "fr"
+        },
+        "baurgulugu": {
+            "native": "galego",
+            "short": "gl"
+        },
+        "sfe'ero": {
+            "native": "svenska",
+            "short": "sv"
+        }
     }
 }
