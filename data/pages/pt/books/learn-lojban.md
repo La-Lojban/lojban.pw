@@ -7,7 +7,7 @@ coverImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 <div class="lojbo simple_blockquotes"></div>
 <div class="print:hidden">
 
-[📁 Versão em PDF desta página](/vreji/uencu/aprenda-lojban.pdf)
+[📁 Versão em PDF desta página](/vreji/uencu/pt/aprenda-lojban.pdf)
 
 <hr/>
 </div>

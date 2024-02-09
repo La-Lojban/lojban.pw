@@ -47,11 +47,7 @@ export default function Header({
             <div className="flex items-center justify-between h-12">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <Link
-                    href={`${
-                      currentLanguage === "en" ? "" : "/" + currentLanguage
-                    }/welcome`}
-                  >
+                  <Link href={`/${currentLanguage}/welcome`}>
                     <img
                       className="logo"
                       src="/assets/icons/lojbo.svg"

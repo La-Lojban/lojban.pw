@@ -11,17 +11,18 @@ import { TEXTS, header } from "../../config/config";
 import markdownToHtml from "../../lib/markdownToHtml";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLanguage } from "@fortawesome/free-solid-svg-icons";
-import { Params } from "../[...slug]";
+import { Params } from "./[...slug]";
 
 type Props = {
-  allPosts: TPost[];
+  fullPosts: Items[];
+  allPosts: Items[];
   indexPost?: TPost;
   posts: Items[];
   params: any;
 };
 
 const ogImage = header.filter((item) => item.url === "/texts")?.[0]?.ogImage;
-const Index = ({ allPosts, indexPost, posts, params }: Props) => {
+const Index = ({ fullPosts, allPosts, indexPost, posts, params }: Props) => {
   return (
     <>
       <Layout>
@@ -31,7 +32,10 @@ const Index = ({ allPosts, indexPost, posts, params }: Props) => {
         </Head>
         <div className="pb-8">
           <Container>
-            <Header />
+          <Header
+            allPosts={fullPosts}
+            currentLanguage={params.lang}
+          />
               {posts.length > 0 && (
                 <div className="relative block w-96 h-10 mx-auto flex justify-around">
                   <div className="h-10 w-16 inline-block py-2 px-4">
@@ -56,7 +60,7 @@ const Index = ({ allPosts, indexPost, posts, params }: Props) => {
                 className="mb-2"
                 dangerouslySetInnerHTML={{ __html: indexPost?.content ?? "" }}
               />
-              {allPosts.length > 0 && <AllStories posts={allPosts} />}
+              {allPosts.length > 0 && <AllStories posts={allPosts as unknown as TPost[]} />}
             </div>
           </Container>
         </div>
@@ -111,6 +115,7 @@ export const getStaticProps = async ({ params }: Params) => {
 
   return {
     props: {
+      fullPosts: allPosts,
       allPosts: thisLangPosts.filter((i) => i.slug.length > 2),
       indexPost: { ...indexPost, content: text },
       posts,
@@ -143,7 +148,7 @@ export async function getStaticPaths(pa: any) {
         // }
         return {
           params: {
-            slug: posts.slug,
+            slug: posts.slug.slice(1),
             lang: posts.slug[0],
           },
         };

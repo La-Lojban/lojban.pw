@@ -2,6 +2,9 @@ const puppeteer = require("playwright-core");
 const fs = require("fs");
 const path = require("path");
 const { sluggify } = require("../html-prettifier/slugger");
+const { bangu } = require("../korpora/data.json");
+
+const allLanguages = Object.keys(bangu);
 
 function findFoldersWithName(startPath, folderName, folders = []) {
   const files = fs.readdirSync(startPath);
@@ -20,14 +23,18 @@ function findFoldersWithName(startPath, folderName, folders = []) {
 }
 
 (async function printPDF() {
+  let browser;
   // const folders = findFoldersWithName('/app/src/md_pages/', 'books');
+  // for (const lang of allLanguages) {
+  const shortLang = "en"; //bangu[lang].short;
+  // try {
   const urls = fs
-    .readdirSync("/app/src/md_pages/books/")
+    .readdirSync(`/app/src/md_pages/${shortLang}/books/`)
     .filter((i) => i.endsWith(".md"))
     .map((i) => sluggify(i.replace(/.md$/, "")));
 
   console.log("generating PDF files for", urls);
-  const browser = await puppeteer.chromium.launch({
+  browser = await puppeteer.chromium.launch({
     headless: true,
     args: [
       "--disable-dev-shm-usage",
@@ -37,7 +44,7 @@ function findFoldersWithName(startPath, folderName, folders = []) {
   });
   const page = await browser.newPage();
   for (let url of urls) {
-    url = "http://127.0.0.1:3000/books/" + url;
+    url = `http://127.0.0.1:3000/${shortLang}/books/` + url;
     console.log(`opening page: ${url}`);
     await page.goto(url, {
       waitUntil: "networkidle0",
@@ -61,10 +68,15 @@ function findFoldersWithName(startPath, folderName, folders = []) {
       timeout: 0,
     });
     const pdfFile =
-      "/vreji/uencu/" + url.split("/").slice("-1")[0] + "-pre.pdf";
-    fs.mkdirSync(path.dirname(url), { recursive: true });
+      `/vreji/uencu/${shortLang}/` + url.split("/").slice("-1")[0] + "-pre.pdf";
+    fs.mkdirSync(`/vreji/uencu/${shortLang}`, { recursive: true });
     fs.writeFileSync(pdfFile, pdf);
     console.log(`pdf file saved: ${pdfFile}`);
   }
-  await browser.close();
+  // } catch (err) {
+  //   continue;
+  // }
+  try {
+    await browser.close();
+  } catch (error) {}
 })();

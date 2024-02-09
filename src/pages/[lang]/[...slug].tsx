@@ -1,25 +1,21 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 
 import { useRouter } from "next/router";
 import ErrorPage from "next/error";
-import Container from "../components/container";
-import PostBody from "../components/post-body";
-import Header from "../components/header";
-import Layout from "../components/layout";
-import { getPostBySlug, getAllPosts, Items } from "../lib/api";
-import PostTitle from "../components/post-title";
+import Container from "../../components/container";
+import PostBody from "../../components/post-body";
+import Header from "../../components/header";
+import Layout from "../../components/layout";
+import { getPostBySlug, getAllPosts, Items } from "../../lib/api";
+import PostTitle from "../../components/post-title";
 import Head from "next/head";
-import markdownToHtml from "../lib/markdownToHtml";
-import { TPost } from "../types/post";
-import { site_title } from "../config/config";
+import markdownToHtml from "../../lib/markdownToHtml";
+import { TPost } from "../../types/post";
+import { site_title } from "../../config/config";
 import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLanguage } from "@fortawesome/free-solid-svg-icons";
-
-import settings from "../lib/korpora/data.json";
-
-const allShortLangs = Object.keys(settings.bangu).map((i) => (settings.bangu as any)[i].short);
 
 type Props = {
   post: TPost;
@@ -38,11 +34,6 @@ type TocItem = {
 const Post = ({ post, posts, allPosts, currentLanguage, preview }: Props) => {
   const router = useRouter();
   if (!router.isFallback && !post?.slug) return <ErrorPage statusCode={404} />;
-  useEffect(() => {
-    if (!allShortLangs.includes(router.asPath.split("/")[1])) {
-      router.replace("/en" + router.asPath);
-    }
-  }, []);
 
   const toc_list: TocItem[] = (post?.toc ?? []).map((i: any) => ({
     depth: i.depth,
@@ -234,7 +225,7 @@ export type Params = {
 };
 
 export async function getStaticProps({ params }: Params) {
-  const post = getPostBySlug(params.slug, [
+  const post = getPostBySlug([params.lang].concat(params.slug), [
     "title",
     "hidden",
     "meta.title",
@@ -250,9 +241,10 @@ export async function getStaticProps({ params }: Params) {
     "coverImage",
     "fullPath",
   ]);
-  const fullSlug = params.slug.join("/");
-  const shortSlug = params.slug.slice(1).join("/");
-  const currentLanguage = params.slug[0];
+
+  const fullSlug = params.lang + "/" + params.slug.join("/");
+  const shortSlug = params.slug.join("/");
+  const currentLanguage = params.lang;
 
   const allPosts = await getAllPosts(
     ["slug", "hidden", "title", "directory"],
@@ -299,26 +291,31 @@ export async function getStaticProps({ params }: Params) {
 
 export async function getStaticPaths() {
   const posts = await getAllPosts(["slug", "hidden"], true);
+
   return {
     paths: posts
+      .filter((post) => post.slug.slice(1).join("/") !== "texts")
       .map((posts) => {
-        if (posts.slug[0] === "en") {
-          return [
-            {
-              params: {
-                slug: posts.slug,
-              },
-            },
-            {
-              params: {
-                slug: posts.slug.slice(1),
-              },
-            },
-          ];
-        }
+        // if (posts.slug[0] === "en") {
+        //   return [
+        //     {
+        //       params: {
+        //         slug: posts.slug,
+        //         lang: posts.slug[0],
+        //       },
+        //     },
+        //     {
+        //       params: {
+        //         slug: posts.slug.slice(1),
+        //         lang: posts.slug[0],
+        //       },
+        //     },
+        //   ];
+        // }
         return {
           params: {
-            slug: posts.slug,
+            slug: posts.slug.slice(1),
+            lang: posts.slug[0],
           },
         };
       })
