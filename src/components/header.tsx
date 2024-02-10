@@ -8,6 +8,8 @@ import { header } from "../config/config";
 import { TocElem } from "../types/toc";
 import { debouncedGetClosestHeaderId, getClosestHeaderId } from "../lib/toc";
 import { Items } from "../lib/api";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faList, faScroll } from "@fortawesome/free-solid-svg-icons";
 
 // const profile = ['Your Profile', 'Settings', 'Sign out']
 
@@ -83,7 +85,9 @@ export default function Header({
                       return (
                         <Link
                           href={
-                            !!item.foundTitle ? (item.foundTitle.url as string) : item.url
+                            !!item.foundTitle
+                              ? (item.foundTitle.url as string)
+                              : item.url
                           }
                           key={item.url}
                           className="mt-auto"
@@ -193,14 +197,20 @@ export default function Header({
               {header_.map((item) => {
                 return (
                   <Link
-                    href={!!item.foundTitle ? (item.foundTitle.url as string) : item.url}
+                    href={
+                      !!item.foundTitle
+                        ? (item.foundTitle.url as string)
+                        : item.url
+                    }
                     key={item.url}
                     onClick={() => {
                       closeXicon();
                     }}
                     className={`block border-b last:border-b-0 hover:text-deep-orange-600 ${buttonClass}`}
                   >
-                    {!!item.foundTitle ? (item.foundTitle.name as string) : item.name}
+                    {!!item.foundTitle
+                      ? (item.foundTitle.name as string)
+                      : item.name}
                   </Link>
                 );
               })}
@@ -209,8 +219,9 @@ export default function Header({
             {/* title */}
             {hasToC && (
               <>
-                <h1 className={`bg-gray-200 ${buttonClass}`}>
-                  Table of contents
+                <h1 className={`flex bg-gray-200 ${buttonClass}`}>
+                    <FontAwesomeIcon icon={faScroll} className="h-6" />
+                    <FontAwesomeIcon icon={faList} className="ml-2 h-6" />
                 </h1>
 
                 {/* toc */}

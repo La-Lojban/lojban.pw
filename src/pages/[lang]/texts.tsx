@@ -37,7 +37,7 @@ const Index = ({ fullPosts, allPosts, indexPost, posts, params }: Props) => {
             currentLanguage={params.lang}
           />
               {posts.length > 0 && (
-                <div className="relative block max-w-96 h-10 mx-auto flex justify-around print:hidden">
+                <div className="relative block max-w-sm h-10 mx-auto flex justify-around print:hidden">
                   <div className="h-10 w-16 inline-block py-2 px-4">
                     <FontAwesomeIcon icon={faLanguage} />
                   </div>

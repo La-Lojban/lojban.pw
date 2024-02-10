@@ -2,9 +2,13 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
 
 export default class MyDocument extends Document {
+  static async getInitialProps(context: any) {
+    const initialProps = await Document.getInitialProps(context);
+    return { ...initialProps };
+  }
   render() {
     return (
-      <Html lang="en">
+      <Html lang={this.props.dangerousAsPath.split("/")[1] ?? "en"}>
         <Head>
           <link
             rel="stylesheet"
