@@ -77,7 +77,7 @@ const Post = ({ post, posts, allPosts, currentLanguage, preview }: Props) => {
           ) : (
             <>
               {posts.length > 0 && (
-                <div className="relative block w-96 h-10 mx-auto flex justify-around">
+                <div className="relative block max-w-96 h-10 mx-auto flex justify-around">
                   <div className="h-10 w-16 inline-block py-2 px-4">
                     <FontAwesomeIcon icon={faLanguage} />
                   </div>
