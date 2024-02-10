@@ -16,7 +16,9 @@ This course teaches Lojban from its formal foundations, but in simple terms and 
 * [PDF](/vreji/uencu/learn-lojban.pdf) - in a PDF file for download.
 
 
-## [Live Lojban chat](https://discord.gg/wasp5fj) in the Discord messenger
+## [Live Lojban chat](https://discord.gg/wasp5fj)
+
+in the Discord messenger
 
 ## Unofficial ‘Complete Lojban Language’ Book, October 2022 Edition
 

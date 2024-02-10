@@ -14,7 +14,10 @@ Este curso ensina Lojban a partir de suas fundações formais, mas em termos sim
 
 * [PDF](/vreji/uencu/learn-lojban.pdf) - em um arquivo PDF para download.
 
-## Bate-papo ao vivo em Lojban no mensageiro Discord
+## Bate-papo ao vivo em Lojban
+
+no mensageiros Discord/Telegram.
+
 ## Livro não oficial 'Complete Lojban Language', edição de outubro de 2022
 
 Este livro adere ao livro original publicado em 1997 e:
