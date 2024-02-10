@@ -36,6 +36,27 @@ export default function Header({
     url: `${path}#${tocElem.id}`,
   }));
   const hasToC = listToC.length > 0;
+  const header_ = header.map((item) => {
+    const foundTitle = allPosts
+      .reduce((acc, post) => {
+        const slug = "/" + post.slug.join("/");
+        const localizedUrl = `/${currentLanguage}` + item.url;
+        if ([item.url, localizedUrl].includes(slug)) {
+          acc.push({
+            slug: post.slug,
+            url: localizedUrl,
+            name: post.title,
+            directory: post.slug[0],
+          });
+        }
+        return acc;
+      }, [] as Items[])
+      .sort((a, b) => {
+        if (a.directory === currentLanguage) return -1;
+        return 0;
+      })[0];
+    return { ...item, foundTitle };
+  });
   return (
     <Popover
       as="nav"
@@ -58,29 +79,11 @@ export default function Header({
 
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-3">
-                    {header.map((item) => {
-                      const foundTitle = allPosts
-                        .reduce((acc, post) => {
-                          const slug = "/" + post.slug.join("/");
-                          const localizedUrl = `/${currentLanguage}` + item.url;
-                          if ([item.url, localizedUrl].includes(slug)) {
-                            acc.push({
-                              slug: post.slug,
-                              url: localizedUrl,
-                              name: post.title,
-                              directory: post.slug[0],
-                            });
-                          }
-                          return acc;
-                        }, [] as Items[])
-                        .sort((a, b) => {
-                          if (a.directory === currentLanguage) return -1;
-                          return 0;
-                        })[0];
+                    {header_.map((item) => {
                       return (
                         <Link
                           href={
-                            !!foundTitle ? (foundTitle.url as string) : item.url
+                            !!item.foundTitle ? (item.foundTitle.url as string) : item.url
                           }
                           key={item.url}
                           className="mt-auto"
@@ -90,8 +93,8 @@ export default function Header({
                           >
                             {/* {item.ogImage && <img src={item.ogImage} className="h-7 mr-2"/>} */}
                             <span className="py-1">
-                              {!!foundTitle
-                                ? (foundTitle.name as string)
+                              {!!item.foundTitle
+                                ? (item.foundTitle.name as string)
                                 : item.name}
                             </span>
                           </button>
@@ -187,18 +190,20 @@ export default function Header({
           <Popover.Panel className="md:hidden bg-gray-100 shadow-lg">
             {/* favs */}
             <div className="px-2 pt-2 space-y-1 sm:px-3">
-              {header.map((item) => (
-                <Link
-                  href={item.url}
-                  key={item.url}
-                  onClick={() => {
-                    closeXicon();
-                  }}
-                  className={`block border-b last:border-b-0 hover:text-deep-orange-600 ${buttonClass}`}
-                >
-                  {item.name}
-                </Link>
-              ))}
+              {header_.map((item) => {
+                return (
+                  <Link
+                    href={!!item.foundTitle ? (item.foundTitle.url as string) : item.url}
+                    key={item.url}
+                    onClick={() => {
+                      closeXicon();
+                    }}
+                    className={`block border-b last:border-b-0 hover:text-deep-orange-600 ${buttonClass}`}
+                  >
+                    {!!item.foundTitle ? (item.foundTitle.name as string) : item.name}
+                  </Link>
+                );
+              })}
             </div>
 
             {/* title */}
