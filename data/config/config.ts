@@ -37,7 +37,7 @@ export const header = [
   { name: "💬 Live chat", url: "/articles/live_chat" },
   { name: "📚 Texts", url: "/texts", ogImage: '/assets/pixra/ralju/texts.svg' },
   { name: "📕 Full grammar", url: "/articles/complete-lojban-language" },
-  { name: "📑📄📄🗃️", url: "/list" },
+  { name: "📑📂📄📄", url: "/list" },
 ];
 
 export const links = [

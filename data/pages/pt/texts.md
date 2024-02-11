@@ -1,5 +1,5 @@
 ---
-title: 📑 Corpus de textos
+title: 📚 Corpus de textos
 ---
 
 Deseja traduzir algum texto para o seu idioma?
