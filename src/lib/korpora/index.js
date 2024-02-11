@@ -74,7 +74,7 @@ function cssifyName(text) {
         leading-normal
         select-none
         py-2 px-4
-        ">${bangu[lang]?.native ?? lang}</label>`
+        ">${languages[lang]?.native ?? lang}</label>`
       );
       css.push(
         ...`
@@ -159,7 +159,7 @@ function cssifyName(text) {
     table[title].push(`</tbody>`);
     table[title].push(`</table>`);
     for (const lang of allLanguages) {
-      const langedDirectoryRoot = `/app/src/md_pages/${bangu[lang].short}`;
+      const langedDirectoryRoot = `/app/src/md_pages/${languages[lang].short}`;
       const langedDirectory = `${langedDirectoryRoot}/texts`;
       const filepath = path.join(langedDirectory, title + ".html");
 

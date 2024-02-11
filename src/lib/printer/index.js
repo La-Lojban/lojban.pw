@@ -8,7 +8,7 @@ const allLanguages = Object.keys(languages);
 (async function printPDF() {
   let browser;
   for (const lang of allLanguages) {
-    const shortLang = bangu[lang].short;
+    const shortLang = languages[lang].short;
     try {
       const urls = fs
         .readdirSync(`/app/src/md_pages/${shortLang}/books/`)
