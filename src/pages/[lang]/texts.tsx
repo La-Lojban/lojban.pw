@@ -6,7 +6,7 @@ import { Items, getAllPosts } from "../../lib/api";
 import Head from "next/head";
 import { TPost } from "../../types/post";
 import Header from "../../components/header";
-import { TEXTS, header } from "../../config/config";
+import { header } from "../../config/config";
 
 import markdownToHtml from "../../lib/markdownToHtml";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
