@@ -1,30 +1,12 @@
 const puppeteer = require("playwright-core");
 const fs = require("fs");
-const path = require("path");
 const { sluggify } = require("../html-prettifier/slugger");
-const { bangu } = require("../korpora/data.json");
+const { languages } = require("../../config/locales.json");
 
-const allLanguages = Object.keys(bangu);
-
-function findFoldersWithName(startPath, folderName, folders = []) {
-  const files = fs.readdirSync(startPath);
-  for (const file of files) {
-    const filePath = path.join(startPath, file);
-    const stat = fs.statSync(filePath);
-    if (stat.isDirectory()) {
-      if (file === folderName) {
-        folders.push(filePath);
-      } else {
-        findFoldersWithName(filePath, folderName, folders);
-      }
-    }
-  }
-  return folders;
-}
+const allLanguages = Object.keys(languages);
 
 (async function printPDF() {
   let browser;
-  // const folders = findFoldersWithName('/app/src/md_pages/', 'books');
   for (const lang of allLanguages) {
     const shortLang = bangu[lang].short;
     try {
