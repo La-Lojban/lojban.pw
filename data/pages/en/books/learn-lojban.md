@@ -5411,7 +5411,7 @@ ca
 : at (some time)
 
 le bavlamdei
-: tomorrow day (as an event)
+: tomorrow day (day as an event)
 
 > **mi na ku djuno .i le solri sei mi pacna**
 > _I don't know. It'll be sunny, I hope._
@@ -8627,7 +8627,7 @@ There is also another method that retains the same order of words as in English:
 
 Here, we transform the relation **kalri** — _to be open_ into a new relation:
 
-**jai gau kalri**
+jai gau kalri
 : to open something
 
 The first place of **kalri** can be shown by using a place tag **fai**.
