@@ -1560,7 +1560,7 @@ The sentence
 
 actually says nothing about when this happens. Context is clear enough in most cases and can help us. But if we need more precision we just add more words.
 
-Similarly, **ba** means _after … (some event)_ so when we say **mi ba cu citka** we mean that we eat after the moment of speaking, that's why it means _I will eat_.
+**ba** means _after … (some event)_ so when we say **mi ba cu citka** we mean that we eat after the moment of speaking, that's why it means _I will eat_.
 
 We can combine tense particles with and without arguments after them:
 

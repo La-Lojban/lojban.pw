@@ -1619,7 +1619,7 @@ La phrase
 
 ne dit en fait rien sur le moment où cela se produit. Le contexte est suffisamment clair dans la plupart des cas et peut nous aider. Mais si nous avons besoin de plus de précision, nous ajoutons simplement plus de mots.
 
-De même, **ba** signifie _après … (un évènement)_ donc lorsque nous disons **mi ba cu citka** nous voulons dire que nous mangeons après le moment où nous parlons, c'est pourquoi cela signifie _Je vais manger_.
+**ba** signifie _après … (un évènement)_ donc lorsque nous disons **mi ba cu citka** nous voulons dire que nous mangeons après le moment où nous parlons, c'est pourquoi cela signifie _Je vais manger_.
 
 Nous pouvons combiner des particules de temps avec et sans arguments après eux :
 

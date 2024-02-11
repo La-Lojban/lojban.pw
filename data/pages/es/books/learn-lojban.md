@@ -1463,7 +1463,7 @@ La frase
 
 en realidad no dice nada sobre cuándo ocurre esto. El contexto es lo suficientemente claro en la mayoría de los casos y nos puede ayudar. Pero si necesitamos más precisión, simplemente agregamos más palabras.
 
-De manera similar, **ba** significa _después de... (algún evento)_, por lo que cuando decimos **mi ba cu citka** significa que comemos después del momento de hablar, por eso significa _voy a comer_.
+**ba** significa _después de... (algún evento)_, por lo que cuando decimos **mi ba cu citka** significa que comemos después del momento de hablar, por eso significa _voy a comer_.
 
 Podemos combinar partículas de tiempo con y sin argumentos después de ellas:
 
