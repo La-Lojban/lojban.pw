@@ -7,6 +7,7 @@ const args = process.argv.slice(2);
 const { autoSplitNTranslate } = require("./autotranslate");
 const { languages } = require("../../config/locales.json");
 
+
 const allLanguages = Object.keys(languages);
 
 if (!process.env.GOOGLE_LOJBAN_CORPUS_DOC_ID) {
