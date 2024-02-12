@@ -11,12 +11,13 @@ import { Params } from "next/dist/shared/lib/router/utils/route-matcher";
 import markdownToHtml from "../../lib/markdownToHtml";
 
 type Props = {
-  allPosts: TPost[];
+  siblingPosts: TPost[];
+  contentPosts: TPost[];
   indexPost?: TPost;
   params: any;
 };
 
-const Index = ({ allPosts, indexPost, params }: Props) => {
+const Index = ({ siblingPosts, contentPosts, indexPost, params }: Props) => {
   return (
     <>
       <Layout>
@@ -25,14 +26,17 @@ const Index = ({ allPosts, indexPost, params }: Props) => {
         </Head>
         <div className="pb-8">
           <Container>
-          <Header allPosts={allPosts as unknown as Items[]} currentLanguage={params.lang} />
+            <Header
+              allPosts={siblingPosts as unknown as Items[]}
+              currentLanguage={params.lang}
+            />
             <div className="mb-8 mt-4 mx-auto max-w-7xl px-4 sm:px-6">
               {/* <Intro title={indexPost?.title} image={ogImage} /> */}
               <div
                 className="mb-2"
                 dangerouslySetInnerHTML={{ __html: indexPost?.content ?? "" }}
               />
-              {allPosts.length > 0 && <AllStories posts={allPosts} />}
+              {contentPosts.length > 0 && <AllStories posts={contentPosts} />}
             </div>
           </Container>
         </div>
@@ -76,11 +80,21 @@ export const getStaticProps = async ({ params }: Params) => {
     fullPath: indexPost.fullPath as string,
   });
 
+  const contentPosts = allPosts.filter(
+    (i) => !(i.slug[1] === "list" && i.slug.length === 2)
+  );
+  const siblingPosts = allPosts.filter(
+    (i) => i.slug[1] === "list" && i.slug.length === 2
+  );
   return {
-    props: { allPosts, indexPost: { ...indexPost, content: text }, params },
+    props: {
+      contentPosts,
+      siblingPosts,
+      indexPost: { ...indexPost, content: text },
+      params,
+    },
   };
 };
-
 
 export async function getStaticPaths(pa: any) {
   const posts = await getAllPosts(["slug", "hidden"], true);
