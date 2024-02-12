@@ -14,7 +14,7 @@ import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 import { Params } from "./[...slug]";
 
 type Props = {
-  fullPosts: Items[];
+  siblingPosts: Items[];
   allPosts: Items[];
   indexPost?: TPost;
   posts: Items[];
@@ -22,7 +22,7 @@ type Props = {
 };
 
 const ogImage = header.filter((item) => item.url === "/texts")?.[0]?.ogImage;
-const Index = ({ fullPosts, allPosts, indexPost, posts, params }: Props) => {
+const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
   return (
     <>
       <Layout>
@@ -32,7 +32,7 @@ const Index = ({ fullPosts, allPosts, indexPost, posts, params }: Props) => {
         </Head>
         <div className="pb-8">
           <Container>
-            <Header allPosts={fullPosts} currentLanguage={params.lang} />
+            <Header allPosts={siblingPosts} currentLanguage={params.lang} />
             {posts.length > 0 && (
               <div className="relative block max-w-sm h-10 mx-auto flex justify-around print:hidden">
                 <div className="h-10 w-16 inline-block py-2 px-4">
@@ -113,9 +113,12 @@ export const getStaticProps = async ({ params }: Params) => {
       return { fullPath: slug.join("/"), language: slug[0] };
     });
 
+  const siblingPosts = allPosts.filter(
+    (i) => i.slug[1] === "texts" && i.slug.length === 2
+  );
   return {
     props: {
-      fullPosts: allPosts,
+      siblingPosts,
       allPosts: thisLangPosts.filter((i) => i.slug.length > 2),
       indexPost: { ...indexPost, content: text },
       posts,

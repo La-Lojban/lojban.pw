@@ -21,7 +21,7 @@ type Props = {
   post: TPost;
   preview?: boolean;
   posts: Items[];
-  allPosts: Items[];
+  siblingPosts: Items[];
   currentLanguage: string;
 };
 
@@ -31,7 +31,13 @@ type TocItem = {
   depth: number;
 };
 
-const Post = ({ post, posts, allPosts, currentLanguage, preview }: Props) => {
+const Post = ({
+  post,
+  posts,
+  siblingPosts,
+  currentLanguage,
+  preview,
+}: Props) => {
   const router = useRouter();
   if (!router.isFallback && !post?.slug) return <ErrorPage statusCode={404} />;
 
@@ -69,7 +75,7 @@ const Post = ({ post, posts, allPosts, currentLanguage, preview }: Props) => {
           <Header
             toc={post?.toc}
             path={router.asPath.replace(/#.*/, "")}
-            allPosts={allPosts}
+            allPosts={siblingPosts}
             currentLanguage={currentLanguage}
           />
           {router.isFallback ? (
@@ -274,10 +280,13 @@ export async function getStaticProps({ params }: Params) {
     fullPath: post.fullPath as string,
   });
 
+  const siblingPosts = allPosts.filter(
+    (i) => i.slug.slice(1).join("/") === params.slug.slice(1).join("/")
+  );
   return {
     props: {
       posts,
-      allPosts,
+      siblingPosts,
       currentLanguage: currentLanguage ?? "en",
       post: {
         ...post,
@@ -298,22 +307,6 @@ export async function getStaticPaths() {
         (post) => !["texts", "list"].includes(post.slug.slice(1).join("/"))
       )
       .map((posts) => {
-        // if (posts.slug[0] === "en") {
-        //   return [
-        //     {
-        //       params: {
-        //         slug: posts.slug,
-        //         lang: posts.slug[0],
-        //       },
-        //     },
-        //     {
-        //       params: {
-        //         slug: posts.slug.slice(1),
-        //         lang: posts.slug[0],
-        //       },
-        //     },
-        //   ];
-        // }
         return {
           params: {
             slug: posts.slug.slice(1),
