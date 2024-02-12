@@ -14,25 +14,27 @@ could be challenging because almost every verb has its own distinct place struct
 
 ## Answer
 
-English functions similarly in a pragmatic sense. It has verbs with their implied place structure. The main difference is that Lojban dictionaries explicitly state the place structure, while most English dictionaries do not. The reason for this system is that having a separate preposition for each place would be even more burdensome and sometimes even unworkable. For example:
+English functions similarly in a pragmatic sense. It has verbs with their implied place structure. The main difference is that Lojban dictionaries explicitly state the place structure, while most English dictionaries do not. The reason for this system is that having a separate preposition for each place would be even more burdensome and sometimes even unworkable. 
 
-> *I depend to you (?!)*
+Having a limited set of prepositions would make the language highly subjective and not universal. For instance, in English we say
 
-Additionally, having a limited set of prepositions would make the language highly subjective and not universal. For instance, in English we say
+> I depend on you.
 
-> *I depend on you*
+but in Russian it literally translates to
 
-but in Russian it translates to
+> I depend from you.
 
-> I depend from you
+while in Portuguese and Spanish it literally translates to
 
-Certain prepositions combined with specific verbs could create unusual meanings, leading to even more randomness than the current system with x1, x2, etc.
+> I depend of you.
+
+Certain prepositions combined with specific verbs could create unusual meanings, leading to even more randomness than the current system with $x_1$, $x_2$, etc.
 
 It's important to note that most Lojban verbs have up to three places only. Only about 30 core verbs (lo gismu) have five places. Moreover, you don't need to know the place structure of every core verb to speak fluent Lojban. For example, is it crucial to know the place structure of 'trigonometric sine function' when discussing food preparation?
 
-It's true that "I give you a present" doesn't require prepositions, while the place structures of other verbs do. However, there isn't more memorization involved. English requires learning metaphors. Why is it "I give TO you" and "I talk TO you" when the processes are completely different?
+It's true that _I give you a present_ doesn't require prepositions, while the place structures of other verbs do. However, there isn't more memorization involved. English requires learning metaphors. Why is it _I give TO you_ and _I talk TO you_ when the processes are completely different?
 
-Also, consider the following translations:
+Consider the following translations as well:
 
 > [English] *I think of you*
 
