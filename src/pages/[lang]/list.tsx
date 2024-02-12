@@ -1,7 +1,7 @@
 import Container from "../../components/container";
 import AllStories from "../../components/all-stories";
 import Layout from "../../components/layout";
-import { getAllPosts } from "../../lib/api";
+import { Items, getAllPosts } from "../../lib/api";
 import Head from "next/head";
 import { TPost } from "../../types/post";
 import Header from "../../components/header";
@@ -13,9 +13,10 @@ import markdownToHtml from "../../lib/markdownToHtml";
 type Props = {
   allPosts: TPost[];
   indexPost?: TPost;
+  params: any;
 };
 
-const Index = ({ allPosts, indexPost }: Props) => {
+const Index = ({ allPosts, indexPost, params }: Props) => {
   return (
     <>
       <Layout>
@@ -24,7 +25,7 @@ const Index = ({ allPosts, indexPost }: Props) => {
         </Head>
         <div className="pb-8">
           <Container>
-            <Header />
+          <Header allPosts={allPosts as unknown as Items[]} currentLanguage={params.lang} />
             <div className="mb-8 mt-4 mx-auto max-w-7xl px-4 sm:px-6">
               {/* <Intro title={indexPost?.title} image={ogImage} /> */}
               <div
@@ -76,7 +77,7 @@ export const getStaticProps = async ({ params }: Params) => {
   });
 
   return {
-    props: { allPosts, indexPost: { ...indexPost, content: text } },
+    props: { allPosts, indexPost: { ...indexPost, content: text }, params },
   };
 };
 
