@@ -32,35 +32,34 @@ const Index = ({ fullPosts, allPosts, indexPost, posts, params }: Props) => {
         </Head>
         <div className="pb-8">
           <Container>
-          <Header
-            allPosts={fullPosts}
-            currentLanguage={params.lang}
-          />
-              {posts.length > 0 && (
-                <div className="relative block max-w-sm h-10 mx-auto flex justify-around print:hidden">
-                  <div className="h-10 w-16 inline-block py-2 px-4">
-                    <FontAwesomeIcon icon={faLanguage} />
-                  </div>
-                  {posts.map((post) => {
-                    return (
-                      <a
-                        key={`bangu-${post.language}`}
-                        href={`/${post.fullPath}` as any}
-                        className="h-10 inline-block py-2 px-4 bg-white border border-t-0 border-gray-300 hover:border-gray-400 ml-2"
-                      >
-                        {post.language}
-                      </a>
-                    );
-                  })}
+            <Header allPosts={fullPosts} currentLanguage={params.lang} />
+            {posts.length > 0 && (
+              <div className="relative block max-w-sm h-10 mx-auto flex justify-around print:hidden">
+                <div className="h-10 w-16 inline-block py-2 px-4">
+                  <FontAwesomeIcon icon={faLanguage} />
                 </div>
-              )}
+                {posts.map((post) => {
+                  return (
+                    <a
+                      key={`bangu-${post.language}`}
+                      href={`/${post.fullPath}` as any}
+                      className="h-10 inline-block py-2 px-4 bg-white border border-t-0 border-gray-300 hover:border-gray-400 ml-2"
+                    >
+                      {post.language}
+                    </a>
+                  );
+                })}
+              </div>
+            )}
             <div className="mb-8 mx-auto max-w-7xl px-4 sm:px-6">
               <Intro title={indexPost?.title} image={ogImage} />
               <div
                 className="mb-2"
                 dangerouslySetInnerHTML={{ __html: indexPost?.content ?? "" }}
               />
-              {allPosts.length > 0 && <AllStories posts={allPosts as unknown as TPost[]} />}
+              {allPosts.length > 0 && (
+                <AllStories posts={allPosts as unknown as TPost[]} />
+              )}
             </div>
           </Container>
         </div>
@@ -84,7 +83,7 @@ export const getStaticProps = async ({ params }: Params) => {
       "meta.author",
       "meta.priority",
       "fullPath",
-      // "content"
+      "content",
     ],
     false,
     ""
@@ -92,10 +91,11 @@ export const getStaticProps = async ({ params }: Params) => {
   const thisLangPosts = allPosts.filter(
     (i) => i.slug[0] === params.lang && i.slug[1] === "texts"
   );
-  const indexPost = thisLangPosts.filter(
-    (i) =>
-      i.slug[0] === params.lang && i.slug[1] === "texts" && i.slug.length === 2
-  )[0];
+  const indexPost =
+    thisLangPosts.filter((i) => i.slug.length === 2)[0] ??
+    allPosts.filter(
+      (i) => i.slug[0] === "en" && i.slug[1] === "texts" && i.slug.length === 2
+    );
 
   const { text } = await markdownToHtml({
     content: (indexPost.content as string) || "",

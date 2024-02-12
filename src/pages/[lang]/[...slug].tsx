@@ -294,7 +294,9 @@ export async function getStaticPaths() {
 
   return {
     paths: posts
-      .filter((post) => post.slug.slice(1).join("/") !== "texts")
+      .filter(
+        (post) => !["texts", "list"].includes(post.slug.slice(1).join("/"))
+      )
       .map((posts) => {
         // if (posts.slug[0] === "en") {
         //   return [
