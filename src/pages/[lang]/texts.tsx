@@ -113,9 +113,7 @@ export const getStaticProps = async ({ params }: Params) => {
       return { fullPath: slug.join("/"), language: slug[0] };
     });
 
-  const siblingPosts = allPosts.filter(
-    (i) => i.slug[1] === "texts" && i.slug.length === 2
-  );
+  const siblingPosts = allPosts.filter((i) => i.slug[0] === params.lang);
   return {
     props: {
       siblingPosts,

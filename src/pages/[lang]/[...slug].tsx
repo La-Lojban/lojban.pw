@@ -281,7 +281,7 @@ export async function getStaticProps({ params }: Params) {
   });
 
   const siblingPosts = allPosts.filter(
-    (i) => i.slug.slice(1).join("/") === params.slug.slice(1).join("/")
+    (i) => i.slug[0] === params.lang
   );
   return {
     props: {

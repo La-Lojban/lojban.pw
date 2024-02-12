@@ -36,7 +36,7 @@ const Index = ({ siblingPosts, contentPosts, indexPost, params }: Props) => {
                 className="mb-2"
                 dangerouslySetInnerHTML={{ __html: indexPost?.content ?? "" }}
               />
-              {contentPosts.length > 0 && <AllStories posts={contentPosts} />}
+              {contentPosts.length > 0 && <AllStories posts={contentPosts} lang={params.lang} />}
             </div>
           </Container>
         </div>
@@ -84,7 +84,7 @@ export const getStaticProps = async ({ params }: Params) => {
     (i) => !(i.slug[1] === "list" && i.slug.length === 2)
   );
   const siblingPosts = allPosts.filter(
-    (i) => i.slug[1] === "list" && i.slug.length === 2
+    (i) => i.slug[0] === params.lang
   );
   return {
     props: {
