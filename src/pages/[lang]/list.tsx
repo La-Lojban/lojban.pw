@@ -36,7 +36,9 @@ const Index = ({ siblingPosts, contentPosts, indexPost, params }: Props) => {
                 className="mb-2"
                 dangerouslySetInnerHTML={{ __html: indexPost?.content ?? "" }}
               />
-              {contentPosts.length > 0 && <AllStories posts={contentPosts} lang={params.lang} />}
+              {contentPosts.length > 0 && (
+                <AllStories posts={contentPosts} lang={params.lang} />
+              )}
             </div>
           </Container>
         </div>
@@ -48,7 +50,7 @@ const Index = ({ siblingPosts, contentPosts, indexPost, params }: Props) => {
 export default Index;
 
 export const getStaticProps = async ({ params }: Params) => {
-  const allPosts = await getAllPosts(
+  let allPosts = await getAllPosts(
     [
       "title",
       "hidden",
@@ -57,9 +59,9 @@ export const getStaticProps = async ({ params }: Params) => {
       "directory",
       "author",
       "coverImage",
-      "excerpt",
-      "meta.author",
-      "meta.priority",
+      // "excerpt",
+      // "meta.author",
+      // "meta.priority",
       "fullPath",
       "content",
     ],
@@ -80,12 +82,14 @@ export const getStaticProps = async ({ params }: Params) => {
     fullPath: indexPost.fullPath as string,
   });
 
-  const contentPosts = allPosts.filter(
-    (i) => !(i.slug[1] === "list" && i.slug.length === 2)
-  );
-  const siblingPosts = allPosts.filter(
-    (i) => i.slug[0] === params.lang
-  );
+  allPosts = allPosts.map((post) => {
+    delete post.content;
+    return post;
+  });
+
+  const contentPosts = allPosts
+    .filter((i) => !(i.slug[1] === "list" && i.slug.length === 2))
+  const siblingPosts = allPosts.filter((i) => i.slug[0] === params.lang);
   return {
     props: {
       contentPosts,

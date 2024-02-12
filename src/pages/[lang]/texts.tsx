@@ -71,7 +71,7 @@ const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
 export default Index;
 
 export const getStaticProps = async ({ params }: Params) => {
-  const allPosts = await getAllPosts(
+  let allPosts = await getAllPosts(
     [
       "title",
       "hidden",
@@ -100,6 +100,11 @@ export const getStaticProps = async ({ params }: Params) => {
   const { text } = await markdownToHtml({
     content: (indexPost.content as string) || "",
     fullPath: indexPost.fullPath as string,
+  });
+
+  allPosts = allPosts.map((post) => {
+    delete post.content;
+    return post;
   });
 
   const posts = allPosts
@@ -131,22 +136,6 @@ export async function getStaticPaths(pa: any) {
     paths: posts
       .filter((posts) => posts.slug[1] === "texts")
       .map((posts) => {
-        // if (posts.slug[0] === "en") {
-        //   return [
-        //     {
-        //       params: {
-        //         slug: posts.slug,
-        //         lang: posts.slug[0],
-        //       },
-        //     },
-        //     {
-        //       params: {
-        //         slug: posts.slug.slice(1),
-        //         lang: "en",
-        //       },
-        //     },
-        //   ];
-        // }
         return {
           params: {
             slug: posts.slug.slice(1),
