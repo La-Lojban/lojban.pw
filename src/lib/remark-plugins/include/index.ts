@@ -62,8 +62,8 @@ export default function includeMarkdownPlugin({ resolveFrom }: any): any {
 					// use the includeMarkdown plugin to allow recursive includes
 					processor.use(includeMarkdownPlugin, { resolveFrom });
 					// Process the file contents, then return them
-					const ast = processor.parse(includeContents);
-					const res = processor.runSync(ast, includeContents);
+					const ast = processor.parse(includeContents as any);
+					const res = processor.runSync(ast, includeContents as any);
 					return res.children;
 				} else {
 					// trim trailing newline
