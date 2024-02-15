@@ -133,7 +133,8 @@ jan pi mute lili li kepeken mu pi uta open pi toki Losupan ala lon ni: mu tu pi 
 
 ### nasin lili la toki lili
 
-toki Losupan la toki suli li lon la toki wan mute li lon ona. o lukin e toki tu wan:
+<!-- XXX -->
+toki Losupan la jan li toki suli la toki wan mute li lon ona. toki wan li toki e sona wan, la ona li ken toki sona. o lukin e toki sona tu wan:
 
 > **le prenu cu tavla mi**
 > _jan li toki tawa mi._
@@ -170,7 +171,7 @@ ca
 
 <pixra url="/assets/pixra/cilre/do.webp" caption="do" definition="sina"></pixra>
 
-toki wan la kipisi ni li lon. mi toki tan open toki tawa pini toki.
+toki sona wan la kipisi ni li lon. mi toki tan open toki tawa pini toki.
 
 - open:
   - "ijo lili toki" mute li ken lon. sona ona li lili; kama la nimi sona li lon li wan e ijo lili ale tawa sona. <!-- ijo ni li ken nimi ijo, li ken sona namako lili. --><!-- XXX nimi nasa. sona li lon ala pini li lon kama. -->
@@ -182,7 +183,7 @@ toki wan la kipisi ni li lon. mi toki tan open toki tawa pini toki.
   - jan kute li ken sona e pini pi kipisi open tan ijo ante la nimi ni li ken weka.
 - pini:
   <!-- XXX -->
-  - nanpa wan la nimi sona lawa li lon. ona li lawa e sona pi toki ni li wan e sona tan ijo lili toki ale. (toki Losupan la ni li "**selbrisni**")
+  - nanpa wan la nimi sona lawa li lon. ona li lawa e sona pi toki sona li wan e sona tan ijo lili toki ale. (toki Losupan la ni li "**selbrisni**")
   - \+ kama la ijo lili ante mute li ken lon
     - toki lili pini poka la nimi **tavla** en nimi **prami** li nimi lawa sona _selbrisni_.
     - toki **le prenu cu tavla mi** la ijo **mi** taso li ijo lon kipisi pini.
@@ -501,7 +502,7 @@ o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Lo
 
 ### nimi «**.i**» li tu e toki tu
 
-toki tu li lon poka la nimi lili **.i** li lon insa li tu e ona:
+toki sona tu li lon poka la nimi lili **.i** li lon insa li tu e ona:
 
 > **mi tavla le prenu .i le prenu cu tavla mi**
 > _mi toki tawa jan. jan li toki tawa mi._
@@ -514,12 +515,12 @@ sina toki uta e nimi mute lon tenpo lili la jan kute li ken sona ala e ni: tenpo
 
 ### nanpa: ‘_1 2 3 4 5 6 7 8 9 0_’ = «**pa re ci vo mu xa ze bi so no**»
 
-nimi **le** li ijo e nimi sona, taso ni li toki ala e nanpa pi mute ijo. toki ni la
+nimi **le** li ijo e nimi sona, taso ni li toki ala e nanpa pi mute ijo. toki ni:
 
 > **le prenu cu tavla mi**
 > _jan li toki tawa mi._
 
-sama toki pona la toki ni li pana ala e sona ni: jan pi mute seme li toki tawa mi. ken la jan mute li toki. ken la jan wan li toki.
+la sama toki pona la toki ni li pana ala e sona ni: jan pi mute seme li toki tawa mi. ken la jan mute li toki. ken la jan wan li toki.
 
 mi o toki e mute jan toki.
 
@@ -629,7 +630,7 @@ stati
 <pixra url="/assets/pixra/cilre/stati.webp" caption="stati" definition="jan … li sona wawa"></pixra>
 
 klama
-: ijo … li tawa ma/ijo …
+: ijo … li tawa ma/ijo …, ijo … li kama tawa ma …
 
 <pixra url="/assets/pixra/cilre/klama_ti.webp" caption="le prenu cu klama ti" definition="jan li tawa ma ni."></pixra>
 
@@ -811,7 +812,7 @@ o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tan toki Los
 <td><i>soweli wan pi tawa noka wawa</i>
 </td></tr></tbody></table>
 
-o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale taw toki Losupan.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Losupan.
 
 <table style="table-layout: fixed;">
 
@@ -871,7 +872,7 @@ klama
 pelxu
 : … li jelo
 
-nimi **xu** li lon poka ante toki la sona li ante lili. o lukin e ni lon toki ni. poka la toki sona li lon poki li toki e ni: nimi **xu** li tawa la sona li ante seme.
+nimi **xu** li lon poka ante toki la sona li ante lili. o lukin e ni lon toki ni. poka pi toki pona la toki sona li lon poki li toki e ni: nimi **xu** li tawa la sona li ante seme.
 
 > **xu do nelci le gerku**
 > _soweli li pona ala pona tawa sina?_
@@ -906,7 +907,7 @@ nasin la nimi **xu** li nimi pilin. nasin pi nimi pilin li sama ni:
  > **do xu nelci le gerku**
  > _sina anu seme la soweli li pona?_
 
-- nimi pili li lon open toki la, ona li kule e ale toki:
+- nimi pilin li lon open toki la, ona li kule e ale toki:
 
  > **xu do nelci le gerku**
  > _soweli li pona tawa sina, anu seme?_
@@ -1151,7 +1152,7 @@ o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Lo
 > _mi kama sona, li toki tawa sina._
 
 .i je
-: toki tu la wan ni: ona tu li lon.
+: toki sona tu la wan ni: ona tu li lon.
 
 .e
 : nimi ijo tu la wan ni: ona tu li lon.
@@ -1382,345 +1383,330 @@ o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Lo
 <td><b>le verba joi le pa cmalu cu casnu le karce</b> (o lukin a e ni: ni li wile e nimi <b>joi</b>. <i>ijo lili wan</i> li ni taso: <b>le pa cmalu</b>).
 </td></tr></tbody></table>
 
-<!--
-### But …
+### taso …
 
 > **le najnimre cu barda .i je ku'i le badna cu cmalu**
-> _The oranges are big. But the bananas are small._
+> _kili jelo loje li suli. taso kili jelo palisa li lili. But the bananas are small._
 
 ku'i
-: interjection: but, however
+: nimi pilin: taso (lon nasin ni: ona li lon open toki)
 
-Actually, in English, _but_ is the same as _and_, and it adds a flavor of contrast.
+lon la, toki pona la, nimi _taso_ li sona sama nimi _kin_, li pana e pilin namako lili ni: toki kama li nasa tawa toki pini.
 
-In Lojban, we just use the conjunction **.i je** (or **.e**, **gi'e**, **je**, depending on what we connect) and add the flavor of contrast to it with the interjection **ku'i**. That will give us the necessary contrast. As usual, the interjection modifies the construct before it.
+toki Losupan la, o kepeken nimi pi kama wan sama nimi **.i je** (sina wan e ijo ante la nimi ante: **.e**, **gi'e**, **je**) o pana e pilin namako kepeken nimi pilin **ku'i**. ni li toki e nasa lili sama wile. sama nimi pilin ale la nimi pilin ni li kule e ijo ni: ona li lon pini.
 
-### Events: ‘_dancing and being together_’ — «**le nu dansu .e le nu kansa**»
+### tenpo: ‘_tenpo ni: mi tawa musi, mi lon poka kulupu_’ — «**le nu dansu .e le nu kansa**»
 
-Some slots of relations expect an event:
+poki pi nimi sona li ken wile e tenpo:
 
 > **le cabna cu nicte**
-> _Now it's nighttime. At present it's night._
+> _tenpo ni li tenpo pimeja._
 
 cabna
-: … (event) is at present with …; … (event) happens now
+: tenpo … li lon tenpo …; tenpo … li lon tenpo ni
 
 le cabna
-: the present time, the present event
+: tenpo ni, tenpo lon
 
 nicte
-: … (event) happens at night
+: tenpo … li lon tenpo pimeja
 
-But what if we want to describe an event using a whole sentence?
+taso mi wile toki e tenpo kepeken nimi lili ala, kepeken toki sona suli, la nasin li seme?
+<!-- But what if we want to describe an event using a whole sentence? -->
 
-Any sentence can be turned into a relation construct by putting **nu** in front of it:
+nimi **nu** li kama lon open pi toki sona la ona li kama tenpo pi toki sona.
 
 > **le nicte cu nu mi viska le lunra**
-> _The night is when I see the Moon._
-> `Nighttime is an event when I see the Moon.`
+> _tenpo pimeja la mi lukin e mun._
+> `tenpo pimeja li tenpo ni: mi lukin e mun.`
 
-<pixra url="/assets/pixra/cilre/nicte_fi_mi.webp" caption="le nicte" definition="the nighttime"></pixra>
+<pixra url="/assets/pixra/cilre/nicte_fi_mi.webp" caption="le nicte" definition="tenpo pimeja"></pixra>
 
 le nicte
-: the nighttime, nighttimes
+: tenpo pimeja
 
 viska
-: to see (something)
+: … li lukin e ijo …
 
 le lunra
-: the Moon
+: mun ni: ona li suli nanpa wan lon sewi pimeja
 
-Here, **le nicte** is the first argument of the sentence and **nu mi viska le lunra** is the main relation construct of the sentence. However, inside this main relation, we can see another relation: **mi viska le lunra** embedded!
+toki ni la, nimi **le nicte** li nimi ijo nanpa wan lon toki. nimi **nu mi viska le lunra** li nimi sona lawa a. taso, nimi sona la, toki sona ante ni li lon insa: **mi viska le lunra**!
 
-The word **nu** transforms a complete sentence into a relation that denotes an event (in its generic sense, its can be a process, a state etc.)
+nimi **nu** li ante e toki sona tawa nimi sona ni: ona li toki e tenpo pi toki sona ni. ("tenpo pi toki sona" li ken ijo mute pi ante lili: ijo toki li ken lon, li ken kama, li ken awen, li ken pali. ni la nimi "tenpo" li pona lon ale ala. tenpo ni, kama ni, lon ni... taso tenpo mute la ante ni li suli ala.)
+<!-- XXX o pali sin e toki ni. o pona e nasin toki sona o kama pana e sona sama lon toki lili. -->
 
-Here are some more examples:
+o lukin e nasin lon toki mute ni:
 
 nu mi tavla
-: … is an event of me talking
+: tenpo … li tenpo ni: mi toki
 
 nu do tavla
-: … is an event of you talking
+: … li tenpo ni: sina toki
 
-By adding **le** in front of **nu**, we create an argument that denotes an event:
+nimi **le** li kama lon open pi nimi **nu** la, nimi sona tenpo li kama nimi ijo tenpo:
 
 pinxe ⇒ le nu pinxe
-: to drink ⇒ the drinking
+: li moku e telo ⇒ tenpo ni: ijo li moku e telo
 
 dansu ⇒ le nu dansu
-: to dance ⇒ the dancing
+: li tawa musi ⇒ tenpo ni: ijo li tawa musi
 
 kansa ⇒ le nu kansa
-: … is together with … ⇒ being together
+: jan … li lon poka pi jan … ⇒ tenpo ni: jan li lon poka
 
 klama ⇒ le nu klama
-: to come to … ⇒ the coming
+: ijo li tawa ma … ⇒ tenpo ni: ijo li tawa
 
 le nu do klama
-: the coming of you, you coming
+: tenpo ni: sina tawa
 
-**le nu** often corresponds to English _\-ing_, _\-tion_, _\-sion_.
+tenpo mute la nimi **le nu** li sama ni pi toki pona: "ni:"
 
-Some more examples with slots that expect events instead of ordinary entities:
+o lukin e toki ni. ona li kepeken nimi sona ni: ona li wile e tenpo.
 
 > **mi djica le nu do klama ti**
-> _I want you to come here (to this place)_
+> _mi wile e ni: sina tawa ni (tawa ma ni)_
 
 djica
-: to want (some event)
+: … li wile e kama ni: …
 
 > **mi gleki le nu do klama**
-> _I'm happy because you are coming._
+> _mi pilin pona tan ni: sina tawa._
 
 gleki
-: … is happy of … (some event)
+: … li pilin pona tan kama ni: …
 
-<pixra url="/assets/pixra/cilre/gleki.webp" caption="gleki" definition="… is happy about event …"></pixra>
+<pixra url="/assets/pixra/cilre/gleki.webp" caption="gleki" definition="… li pilin pona tan kama ni: …"></pixra>
 
 > **le nu pinxe le jisra cu nabmi mi**
-> _Drinking the juice is a problem to me._
+> _ni li pakala tawa mi: ijo li moku e telo kili._
 
 nabmi
-: … (event) is a problem to … (someone), … (event) is problematic to … (someone)
+: kama ni … li pakala li ike e pali pi jan …
 
-### Task
+### pali
 
-Close the right part of the table. Translate the sentences on the left from Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tan toki Losupan.
 
 pilno
-: to use (something)
+: … li kepeken ijo …
 
 le skami
-: the computer
+: ilo nanpa
 
 <table style="table-layout: fixed;">
 
 <tbody><tr>
 <td><b>mi nelci le nu do dansu</b>
 </td>
-<td><i>I like you dancing.</i>
+<td><i>ni li pona tawa mi: sina tawa musi.</i>
 </td></tr>
 <tr>
 <td><b>xu do gleki le nu do pilno le skami</b>
 </td>
-<td><i>Are you happy of using computers?</i>
+<td><i>sina pilin ala pilin pona tan ni: sina kepeken ilo nanpa?</i>
 </td></tr>
 <tr>
 <td><b>do djica le nu mi citka le plise xu</b>
 </td>
-<td><i>Do you want me to eat the <u>apple</u>?</i>
+<td><i>sina wile ala wile e ni: mi moku e <u>kili loje</u>?</i>
 </td></tr></tbody></table>
 
-Close the right part of the table. Translate the sentences on the left to Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Losupan.
 
 <table style="table-layout: fixed;">
 
 <tbody><tr>
-<td><i>Coming here is a problem.</i>
+<td><i>ni li pakala e pali mi: ijo li tawa ma ni.</i>
 </td>
 <td><b>le nu klama ti cu nabmi</b>
 </td></tr>
 <tr>
-<td><i>I want you to be happy.</i>
+<td><i>mi wile e ni: sina pilin pona.</i>
 </td>
 <td><b>mi djica le nu do gleki</b>
 </td></tr></tbody></table>
 
-### Modal terms. Simple tenses: ‘_was_’, ‘_is_’, ‘_will be_’ — «**pu**», «**ca**», «**ba**»
+### namako sona la, nimi tenpo lili: ‘_lon tenpo pini_’, ‘_lon tenpo ni_’, ‘_lon tenpo kama_’ — «**pu**», «**ca**», «**ba**»
 
-In Lojban, we express the time when something happens (grammatically, in English it's usually called _tense_) with modal terms. We've already seen the modal term **ca** meaning _at present_.
+toki Losupan la, mi wile toki e tenpo la, nimi pi namako sona li lon. tenpo pini la sina lukin e nimi namako **ca**. ona li toki e ni: _lon tenpo ni_.
 
-Here is a series of time-related terms that tell when something happens:
+o lukin e toki ni. nimi tenpo mute li lon li ken toki e ni: ijo li kama lon tenpo seme.
 
 > **le prenu pu cu tavla mi**
-> _The people talked to me._
+> _jan li toki tawa mi lon tenpo pini._
 
-<!-- ~~>
+<!-- -->
 
 > **le prenu ca cu tavla mi**
-> _The people talk to me (at present)._
+> _jan li toki tawa mi lon tenpo ni._
 
-<!-- ~~>
+<!-- -->
 
 > **le prenu ba cu tavla mi**
-> _The people will talk to me._
+> _jan li toki tawa mi lon tenpo kama._
 
-When after the time-related particle we place a bare argument then we form a term with a slightly different meaning:
+pini pi nimi tenpo la nimi ijo li lon la, ni tu li kama namako sona lon nasin pi ante lili:
 
 > **mi pinxe le djacu ca le nu do klama**
-> _I drink the water while you are coming._
+> _mi moku e telo lon tenpo ni: sina tawa._
 
-The **ca le nu do klama** part is a long term meaning _while you come / while you are coming_. The **le nu do klama** is an argument meaning *coming of you, you coming*.
+nimi **ca le nu do klama** li namako sona suli wan li toki sama ni: _lon tenpo ni: sina tawa_. nimi **le nu do klama** li nimi ijo li sama ni: _tenpo ni: sina tawa_.
 
 > **mi citka ba le nu mi dansu**
-> _I eat after I dance._
+> _mi moku lon tenpo kama pi tenpo ni: mi tawa musi._
 
-Time-related particles are grouped into series by their meaning to make them easier to remember and use.
+nimi tenpo la kulupu mute ni li lon: nimi pi kon sama li kulupu. ni li pona e kama sona.
 
-Words for simple tense:
+kulupu pi nimi tenpo lili li ni:
 
-- **pu** means _before … (some event)_, **pu** alone denotes past tense.
-- **ca** means _at the same time as … (some event)_, **ca** alone denotes present tense.
-- **ba** means _after … (some event)_, **ba** alone denotes future tense.
+- nimi **pu** la: _lon tenpo pini pi tenpo ni: …_, nimi **pu** li taso la: _lon tenpo pini_.
+- nimi **ca** la: _lon tenpo sama pi tenpo ni:_, nimi **ca** li taso la: _lon tenpo ni_.
+- nimi **ba** la: _lon tenpo kama pi tenpo ni: …_, nimi **ba** li taso la: _lon tenpo kama_.
 
-Tenses add information about time when something happens. English forces us to use certain tenses. One has to choose between
-
-- _The people talk to me_.
-- _The people talked to me_.
-- _The people will talk to me_.
-
-and other similar choices.
-
-But in Lojban tense particles are optional, we can be as vague or as precise as we want.
-
-The sentence
+nimi tenpo li pana e sona ni: ijo li kama lon tenpo seme. taso, sama toki pona la, toki Losupan la sona ni li ken lon ala. wile la, mi ken toki ale e tenpo, li ken toki ala e tenpo.
 
 > **le prenu cu tavla mi**
-> _The people talk to me._
+> _jan li toki tawa mi._
 
-actually says nothing about when this happens. Context is clear enough in most cases and can help us. But if we need more precision we just add more words.
+toki ni li toki ala a e ni: tenpo seme la ni li kama. tenpo mute la jan kute li sona pona tan ijo ante. taso mi wile suli e sona la mi ken pana e nimi mute.
 
-Similarly, **ba** means _after … (some event)_ so when we say **mi ba cu citka** we mean that we eat after the moment of speaking, that's why it means _I will eat_.
+nimi **ba** li toki e ni: _lon tenpo kama pi tenpo ni: …_. mi toki **mi ba cu citka** la ni: tenpo pi toki mi la, tenpo kama la, mi moku. ni li sama ni: _mi moku lon tenpo kama_.
 
+toki wan la nimi tenpo mute li ken lon sama ni: nimi wan li jo ala e ijo, nimi wan li jo a.
 We can combine tense particles with and without arguments after them:
 
 > **mi pu cu citka le plise ba le nu mi dansu**
-> _I ate the apples after I danced._
+> _tenpo pini la mi moku e kili lon tenpo kama pi tenpo ni: mi tawa musi._
 
-Note that the term **pu** (past tense) is put only in the main relation (**mi pu cu citka**). In Lojban, it is assumed that the event _I danced_ occurs relative to the event of eating.
+nimi **pu** pi tenpo pini li wile lon toki sona suli taso (**mi pu cu citka**), li wile ala lon toki sona insa **mi dansu**, tan ni: toki sona tenpo li lon insa pi toki ante suli la, tenpo pi toki insa li tan tenpo pi toki suli. tenpo pi tawa musi li sama tenpo pi moku kili.
 
-We shouldn't put **pu** with **dansu** (unlike English) as **mi dansu** is viewed relative to **mi pu cu citka** so we already know that everything was in past.
+o pana ala e nimi **pu** lon nimi **dansu** tan ni: tenpo pi toki **mi dansu** li tan tenpo pi toki **mi pu cu citka**. sona ni li lon a: toki ale li lon tenpo pini.
 
-More examples of time-related terms:
+o lukin e nasin mute pi nimi tenpo lon toki ni:
 
 > **le nicte cu pluka**
-> _The night is pleasant._
+> _tenpo pimeja li pona pilin._
 
 pluka
-: … is pleasant
+: ijo … li pona pilin
 
 > **ba le nicte cu pluka**
-> _After the night it is pleasant._
+> _tenpo pimeja li pini la pona pilin li lon._
 
-Here, the head of the sentence contains one term **ba le nicte**, a modal term with its inner argument. Then after the separator **cu**, the main relation of the sentence **pluka** is followed (**pluka** alone means _It is pleasant._)
+toki ni la kipisi open la ijo wan taso **ba le nicte** li lon. ni li namako sona li poki kin e nimi ijo lon insa. kama la nimi **cu** li tu e toki li toki e ni: nimi sona lawa li kama. nimi ni li **pluka**. (nimi **pluka** taso li lon la sona li sama ni: _ijo li pona pilin. pona pilin li lon._)
 
-To say _will be pleasant_ we should use the past tense term:
+_ijo li pona lon tenpo kama_ la o kepeken nimi pi tenpo kama sama ni:
 
 > **le nicte ba cu pluka**
-> _The night will be pleasant._
+> _tenpo pimeja li pona pilin lon tenpo kama._
 
-Also note that adding an argument after a time-related particle can lead to a drastically different meaning:
+o sona e ni kin: nimi tenpo la sina pana e nimi ijo lon pini la sona toki li ken ante wawa sama ni:
 
 > **le nicte ba le nu citka cu pluka**
-> _The night is pleasant after eating._
+> _tenpo pimeja li pona pilin lon ni: tenpo ni li pini: mi moku._
 
-Note that **ca** can extend slightly into the past and the future, meaning _just about now_. Thus, **ca** reflects a widely used around the world notion of "present time".
+tenpo pi nimi **ca** li ken tenpo lon wan taso ala, li ken weka lili li ken _poka pi tenpo lon_. nimi **ca** li wile sama ni: ma mute la jan mute la "tenpo lon" li sama ni.
 
-It's also possible to integrate modal particles into the main relation construct:
+kin la nimi namako sona en nimi sona li ken kama wan sama ni:
 
 > **le nicte ba cu pluka**
 > **le nicte ba pluka**
-> _The night will be pleasant._
+> _tenpo kama la tenpo pimeja li pona pilin._
 
-Both sentences mean the same, **ba pluka** is a relation construct meaning _… will be pleasant_.
+toki tu ni li sona sama. nimi **ba pluka** li wan li nimi sona li toki e ni: _ijo … li pona pilin lon tenpo kama_.
 
-The structure of **le nicte ba pluka** is the following:
+toki **le nicte ba pluka** la kipisi li sama ni:
 
-- **le nicte** — the head of the sentence with just one term **le nicte**
-- **ba pluka** — the tail of the sentence that only consists of the relation **ba pluka**
+- **le nicte** — ni li kipisi open. ona li ijo ni wan taso: **le nicte**
+- **ba pluka** — ni li kipisi pini. ona li nimi sona ni wan taso: **ba pluka**
 
-Contrast this with the previous sentence **le nicte ba cu pluka**:
+toki ante **le nicte ba cu pluka** li ante ni:
 
-- **le nicte ba** — the head of the sentence with two terms **le nicte** and **ba**
-- **pluka** — the tail of the sentence that only consists of the relation **pluka**
+- **le nicte ba** — ni li kipisi open. ijo tu ni li lon: **le nicte**, **ba**
+- **pluka** — ni li kipisi pini. ona li nimi sona ni wan taso: **pluka**
 
-The advantage of **le nicte ba pluka** over **le nicte ba cu pluka** is only in conciseness; you can usually skip saying **cu** in such cases since the sentence can't be understood otherwise anyway.
+toki ni tu la toki lili **le nicte ba pluka** li pona ni taso: nimi li mute lili. toki li sama ni la tenpo mute la sina ken weka e nimi **cu**, tan ni: ona li weka la sona li sama.
 
-If you wish to put a modal term before an argument term you can separate it from the following text by explicitly "ending" the term with the helper word **ku**:
+nimi pi namako sona li lon la, sina wile pana e nimi ijo tawa poka, tawa insa ala pi nimi namako la, sina ken pini a e poki pi nimi namako kepeken nimi lili **ku** sama ni:
 
 > **ba ku le nicte cu pluka**
 > **le nicte ba cu pluka**
 > **le nicte ba pluka**
-> _The night will be pleasant._
+> _tenpo kama la tenpo pimeja li pona pilin._
 
-**ku** prevents **ba le nicte** from appearing thus retaining **ba ku** and **le nicte** as separate terms.
+nimi **ku** li ken ala e ni: namako sona **ba le nicte** li wan. ijo **ba ku** en ijo **le nicte** li awen ijo ante tu.
 
+### namako sona la, kama tenpo: «**co'a**», «**ca'o**», «**co'i**»
 
-One last note: English definitions of Lojban words may use tenses even when the original Lojban words do not imply them, e.g.:
-
-tavla
-: … talks to …, … speaks to …
-
-pluka
-: … is pleasant
-
-Although _talks_, _is_ etc. are in the present tense (we can't always get rid of tense in English words because that's how English works), we must always assume that tense is not implied in the meaning of the defined Lojban words unless the English definition of such words explicitly mentions such tense restrictions.
-
-### Modal terms. Event contours: «**co'a**», «**ca'o**», «**co'i**»
-
-Another series of time-related particles, _event contours_:
+kulupu ante pi nimi tenpo la, o lukin e nimi pi _kama tenpo_:
 
 co'a
-: tense particle: the event is at its beginning
+: nimi tenpo: tenpo li kama open; lon open tenpo
 
 ca'o
-: tense particle: the event is in progress
+: nimi tenpo: tenpo li open li pini ala li awen; lon insa tenpo
 
 mo'u
-: tense particle: the event is complete
+: nimi tenpo: tenpo li kama pini
 
 co'i
-: tense particle: the event is viewed as a whole (has started and then finished)
+: nimi tenpo: tenpo suli ni li sama tenpo wan li pini <!-- XXX mi sona ala e nimi ni ! -->
 
-Most relation words describe events without specifying the stage of those events. Event contours allow us to be more precise:
+nimi sona mute li toki e ni taso: ijo li kama. ona li toki ala e ni: kama ni la, mi lon open anu pini anu seme? nimi pi kama tenpo li ken pana e sona:
 
 > **mi pu co'a сu cikna**
 > **mi pu co'a cikna**
-> _I woke up._
+> _tenpo pini la mi kama lape ala._
 
 cikna
-: … is awake
+: jan … li lape ala
 
 co'a cikna
-: … wakes up, becomes awake
+: jan … li kama lape ala
 
 pu co'a cikna
-: … woke up, became awake
+: tenpo pini la jan … li kama lape ala
 
-<pixra url="/assets/pixra/cilre/coha_cikna.webp" caption="le prenu co'a cikna" definition="The person wakes up."></pixra>
+<pixra url="/assets/pixra/cilre/coha_cikna.webp" caption="le prenu co'a cikna" definition="jan li kama lape ala."></pixra>
 
-To precisely express the English Progressive tense, we use **ca'o**:
+nimi **ca'o** li toki e ni: tenpo pi kama ni li open li pini ala. insa pi tenpo ni li lon. toki pona la nasin ala li toki e sona tenpo pi sama a. taso tenpo pi mute lili la ni li ken sama _awen_.
 
 > **mi pu ca'o сu sipna**
 > **mi pu ca'o sipna**
-> _I was sleeping._
+> _mi lon lape._
+> _mi lon insa pi tenpo ni: mi lape._
 
 sipna
-: … sleeps
+: jan … li lape
 
-<pixra url="/assets/pixra/cilre/sipna.webp" caption="le prenu ca'o sipna" definition="The person is sleeping."></pixra>
+<pixra url="/assets/pixra/cilre/sipna.webp" caption="le prenu ca'o sipna" definition="jan li lon lape."></pixra>
 
-<!-- ~~>
+<!-- -->
 
 > **mi ca ca'o pinxe**
-> _I am drinking._
+> _tenpo ni la mi lon insa pi tenpo ni: mi moku e telo._
 
-<!-- ~~>
+<!-- -->
 
 > **mi ba ca'o pinxe**
-> _I will be drinking._
+> _tenpo kama la mi lon insa pi tenpo ni: mi moku e telo._
 
-**mo'u** is used for describing the completion of events:
+nimi **mo'u** li toki e ni: tenpo pi kama ni li kama pini.
 
 > **mi mo'u klama le tcana**
-> _I arrived at the station._
+> _ni li kama pini: mi tawa ma awen pi ilo tawa._
+> _mi kama lon ma awen pi ilo tawa._
 
 le tcana
-: the station
+: ma awen pi ilo tawa.
 
-<pixra url="/assets/pixra/cilre/mohu_klama_le_tcana.webp" caption="le prenu mo'u klama le tcana" definition="The person has arrived at the station."></pixra>
+<pixra url="/assets/pixra/cilre/mohu_klama_le_tcana.webp" caption="le prenu mo'u klama le tcana" definition="jan li kama lon ma awen pi ilo tawa."></pixra>
 
-**co'i** usually corresponds to the English Perfect tense:
+nimi **co'i** li FUCKING SEME
+
+<!-- XXX
 
 > **le verba ca co'i pinxe le jisra**
 > _The children have drunk the juice._
@@ -1747,224 +1733,227 @@ We can use the same rules for describing the past using **pu** instead of **ca**
 
 The relative order of time-related particles is important. In **ca co'i** we first say something happens in present (**ca**), then we state that in this present time, the described event has been completed (**co'i**). Only when using this order do we get the Present Perfect tense.
 
-### Modal terms. Intervals: ‘_during_’ — «**ze'a**»
+-->
 
-Another series of modal particles emphasizes that events happen during an interval:
+### namako sona la, suli tenpo: ‘_lon suli tenpo ni_’ — «**ze'a**»
+
+kulupu ante pi nimi tenpo li toki e ni: tenpo li suli seme?
 
 ze'i
-: for a short time
+: lon tenpo lili
 
 ze'a
-: through some time, for a while, during …
+: lon tenpo pi suli lili, lon ale pi tenpo ni: …
 
 ze'u
-: for a long time
+: lon tenpo suli
 
 > **mi pu ze'a cu sipna**
 > **mi pu ze'a sipna**
-> _I slept for a while._
+> _mi lape lon tenpo pi suli lili._
 
-<!-- ~~>
+<!-- -->
 
-<pixra url="/assets/pixra/cilre/sipna_zeha.webp" caption="le prenu cu sipna ze'a le nu carvi" definition="The person is sleeping while it's raining."></pixra>
+<pixra url="/assets/pixra/cilre/sipna_zeha.webp" caption="le prenu cu sipna ze'a le nu carvi" definition="jan li lape lon ale pi tenpo ni: sewi li pana e telo."></pixra>
 
 > **mi pu ze'a le nicte cu sipna**
-> _I slept through the night. I slept all night._
+> _(tenpo pini la) mi lape lon ale pi tenpo pimeja._
 
-Note: we cannot elide **cu** here since **nicte sipna** (_… is a night sleeper_) is a tanru and thus would lead to some other (if weird) meaning.
+o sona: toki ni la nimi **cu** li ken ala weka tan ni: nimi **nicte sipna** li kulupu pi nimi sona li sama ni: _jan … li lape pi tenpo pimeja._ ni la nimi **cu** li weka la sona li ante li nasa.
 
 > **mi pu ze'i le nicte cu sipna**
-> _I slept through the short night._
+> _(tenpo pini la) mi lape lon ale pi tenpo lili ni: tenpo pimeja._
 
-Compare **ze'a** with **ca**:
+nimi **ze'a** la nimi **ca** li ante. o lukin:
 
 > **mi pu ca le nicte cu sipna**
-> _I slept at night._
+> _(tenpo pini la) mi lape lon tenpo pimeja._
 
 le nicte
-: the nighttime
+: tenpo pimeja
 
-When using **ze'a**, we are talking about the whole interval of what we describe.
+nimi **ze'a** la mi toki e suli pi tenpo toki, e ni: ona li sama ale pi tenpo ni.
 
-Note that **nicte** is itself an event, so we don't need **nu** here.
+nimi **nicte** li toki a e tenpo; ona li wile ala e nimi **nu** tawa ni.
 
-### Modal terms. ‘_because_’ — «**ri'a**», ‘_towards_’ — «**fa'a**», ‘_at (place)_’ — «**bu'u**»
+### namako sona la, ‘_tan (tenpo)_’ — «**ri'a**», ‘_tawa (ma)_’ — «**fa'a**», ‘_lon (ma)_’ — «**bu'u**»
 
-Modal particle for _because_:
+namako sona ni li sama nimi _tan_:
 
 > **mi pinxe ri'a le nu mi taske**
-> _I drink because I am thirsty._
+> _mi moku e telo tan ni: mi wile moku e telo._
 
-<!-- ~~>
+<!-- -->
 
 > **mi citka ri'a le nu mi xagji**
-> _I eat because I am hungry._
+> _mi moku tan ni: mi wile moku._
 
 ri'a
-: because … (of some event)
+: tan ni: …
 
 
 taske
-: … is thirsty
+: jan … li wile moku e telo
 
-<pixra url="/assets/pixra/cilre/taske.webp" caption="taske" definition="… is thirsty"></pixra>
+<pixra url="/assets/pixra/cilre/taske.webp" caption="taske" definition="… li wile moku e telo"></pixra>
 
 xagji
-: … is hungry
+: jan … li wile moku
 
-<pixra url="/assets/pixra/cilre/xagji.webp" caption="xagji" definition="… is hungry"></pixra>
+<pixra url="/assets/pixra/cilre/xagji.webp" caption="xagji" definition="… li wile moku"></pixra>
 
-Modal particles denoting place work in the same way:
+namako sona ni li toki e ma li sama mute:
 
 > **mi cadzu fa'a do to'o le zdani**
-> _I walk in the direction of you away from the home._
+> _mi tawa noka, tawa sina, tan tomo._
 
-Note that, unlike **klama**, the modal particles **fa'a** and **to'o** denote directions, not necessarily start or end points of the route. For example:
+o sona e ni: nimi **fa'a** en nimi **to'o** li ante tawa ijo pi nimi **klama**, li toki e ni: nasin li tawa ni li tan ni. ona li toki ala e ni: nasin li open lon ni li pini lon ni. o lukin:
 
 > **le prenu cu klama fa'a do**
-> _The person comes towards you._
+> _jan li tawa, tawa sina._
 
-means that the person is simply moving towards your direction, but not necessarily to you (maybe to some place or person near you).
+toki ni la nasin pi tawa jan li tawa sina. taso pini tawa li ken lon sina ala; ken la jan li ken kama ala lon sina li kama lon ijo ante pi poka sina.
  
-<!-- ~~>
+<!-- -->
 
 > **mi cadzu bu'u le tcadu**
-> _I walk in the city._
+> _mi tawa noka lon ma tomo._
 
 fa'a
-: towards …, in the direction of …
+: tawa ma …, nasin tawa li tawa ma …
 
 to'o
-: from …, from the direction of …
+: tan ma …, nasin tawa li tan ma …
 
 bu'u
-: at … (some place)
+: lon ma …
 
-Note: **nu** shows that a new inner embedded sentence starts within the main sentence. We put **kei** after such relation to show its right border, similar to how we use ")" or "]" in math. For example:
+nimi **nu** li open e poki ni: toki sona li ken lon insa pi toki suli. nimi **kei** li ken pini e poki e toki insa, sama ni: sitelen pi pali nanpa la sitelen ")" li ken pini e poki. o lukin e toki:
 
 > **le gerku cu plipe fa'a mi ca le nu do ca'o klama**
-> _The dog jumps towards me when you are coming._
+> _soweli li tawa noka sewi tawa mi lon tenpo ni: sina lon tenpo tawa._
 
-<pixra url="/assets/pixra/cilre/le_gerku_faha_plipe.webp" caption="le gerku cu plipe fa'a mi" definition="The dog jumps towards me."></pixra>
+<pixra url="/assets/pixra/cilre/le_gerku_faha_plipe.webp" caption="le gerku cu plipe fa'a mi" definition="soweli li tawa noka sewi tawa mi."></pixra>
 
 plipe
-: to jump
+: ijo … li tawa sewi kepeken noka tawa ijo …
 
-but
+toki ni li sama:
 
 > **le gerku cu plipe ca le (nu do ca'o klama kei) fa'a mi**
-> _The dog jumps (when you are coming) towards me._
+> _soweli li tawa sewi noka, lon tenpo pi tawa sina, tawa mi._
 
-Brackets _(_ and_)_ are used here only to show the structure; they are not necessary in a normal Lojban text.
+sitelen poki _(_ _)_ li lon toki ni tan ni taso: tawa pana sona la ona li sitelen e nasin poki. toki Losupan lon li wile ala e ona.
 
-We use **kei** after the inner sentence **do ca'o klama** to show that it ended, and the tail of the sentence continues with its terms.
+nimi **kei** li lon pini pi toki insa **do ca'o klama** li toki e ni: toki insa li pini, ijo pi toki suli li awen.
 
-Compare this sentence with the following:
+toki pini en toki ni la o lukin e ante:
 
 > **le gerku cu plipe ca le (nu do ca'o klama fa'a mi)**
-> _The dog jumps (when you are coming towards me)._
+> _soweli li tawa sewi noka, lon tenpo ni: sina tawa, tawa mi._
 
-As you can see, **do klama fa'a mi** is a relation inside the bigger one, so **fa'a mi** is now inside it.
+o lukin e ni: toki **do klama fa'a mi** li toki sona lili lon insa pi toki sona suli, la namako sona **fa'a mi** li lon insa ona a.
 
-Now, it's not the dog that comes towards me, but you.
+toki ni la, soweli ala, en sina a, li tawa mi.
 
-At the end of the statement, **kei** is never needed as it already signifies the right border.
+pini pi toki suli la, nimi **kei** li wile ala, tan ni: toki suli li pini la poki insa ale li pini.
 
-Consider the following example with a time-related particle:
+o lukin e ni lon toki ni pi nimi tenpo:
 
 > **mi pu citka le plise ba le nu mi dansu**
-> _I ate the apples after I danced._
+> _tenpo pini la mi moku e kili loje lon tenpo kama pi tenpo ni: mi tawa musi._
 
-<!-- ~~>
+<!-- -->
 
 > **mi pu citka ba le nu mi dansu kei le plise**
-> _I ate (after I danced) the apples._
+> _tenpo pini la mi moku, lon tenpo kama pi tenpo pi tawa musi, e kili loje._
 
-We can rearrange the sentence by moving **ba le nu mi dansu** around, as long as it remains after **pu**.
+ni tu la ijo **ba le nu mi dansu** li tawa poka ante lon toki, taso toki li sona sama. sona sama la ijo ni li ken tawa poka mute, taso ona o awen lon pini pi nimi **pu**.
 
-#### Task
+### pali
 
-Close the right part of the table. Translate the sentences on the left from Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tan toki Losupan.
 
 le tsani
-: the sky
+: sewi ma (mi lon ma li lukin e sewi la sewi ni)
 
 zvati
-: …is present at … (some place or event), … stays at … (some place)
+: ijo … li lon ma …, ijo … li lon ijo pi tenpo …
 
 le canko
-: the window
+: lupa lukin tomo
 
 le fagri
-: the fire
+: seli
 
 mi'o
-: You and I
+: sina en mi
 
 le purdi
-: the garden
+: ma lili pi pali kasi
 
 le tcati
-: the tea
+: telo seli kasi
 
 <table style="table-layout: fixed;">
 
 <tbody><tr>
 <td><b>mi ca gleki le nu do catlu le tsani</b>
 </td>
-<td><i>I am happy that you look at the sky.</i>
+<td><i>tenpo ni la mi pilin pona tan ni: sina lukin e sewi.</i>
 </td></tr>
 <tr>
 <td><b>xu le gerku pu ca'o zvati le zdani</b>
 </td>
-<td><i>Were the dogs staying at home?</i>
+<td><i>tenpo pini la soweli li lape ala lape lon tomo?</i>
 </td></tr>
 <tr>
 <td><b>do pu citka le plise ba le nu mi pinxe le jisra</b>
 </td>
-<td><i>You ate the apples after I drank the juice.</i>
+<td><i>tenpo pini la sina moku e kili loje lon tenpo kama pi tenpo ni: mi moku e telo kili.</i>
 </td></tr>
 <tr>
 <td><b>ko catlu fa'a le canko</b>
 </td>
-<td><i>Look towards the window.</i>
+<td><i>o lukin tawa lupa lukin tomo.</i>
 </td></tr>
 <tr>
 <td><b>xu do gleki ca le nu do ca'o cadzu bu'u le purdi</b>
 </td>
-<td><i>Are you happy when you are walking in the garden?</i>
+<td><i>tenpo ni la sina pilin ala pilin pona tan ni: sina tawa noka lon ma kasi?</i>
 </td></tr>
 <tr>
 <td><b>ca le nu mi klama le zdani kei do pinxe le tcati ri'a le nu do taske</b>
 </td>
-<td><i>When I go home you drink tea because you are thirsty.</i>
+<td><i>mi tawa tomo la sina moku e telo kasi suwi tan ni: sina wile moku e telo.</i>
 </td></tr></tbody></table>
 
-Close the right part of the table. Translate the sentences on the left to Lojban.
+o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Losupan.
 
 <table style="table-layout: fixed;">
 
 <tbody><tr>
-<td><i>You will look at the car.</i>
+<td><i>tenpo kama la sina lukin e ilo tawa.</i>
 </td>
 <td><b>do ba catlu le karce</b>
 </td></tr>
 <tr>
-<td><i>You want it to rain in future.</i>
+<td><i>tenpo ni la sina wile e ni: tenpo kama la telo li kama tan sewi.</i>
 </td>
 <td><b>do ca djica le nu ba carvi</b>
 </td></tr>
 <tr>
-<td><i>Quickly run away from the fire!</i>
+<td><i>o tawa noka wawa tan seli kepeken tenpo lili!</i>
 </td>
 <td><b>ko sutra bajra to'o le fagri</b>
 </td></tr>
 <tr>
-<td><i>You and I were staying together at home when it was raining.</i>
+<td><i>tenpo pini la sina en mi li lon tomo lon tenpo ni: telo li kama tan sewi.</i>
 </td>
 <td><b>mi'o pu ca'o zvati le zdani ca le nu carvi</b>
 </td></tr></tbody></table>
 
+<!--
 ### Names. Choosing a name
 
 **cmevla**, or _name word_, is a special kind of word used to build personal names. It's easy to recognize le cmevla in a text flow, as they are the only words that end in a consonant and are wrapped by one dot on each side.
