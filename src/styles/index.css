@@ -360,12 +360,12 @@ article div.wrapper.with_blockquote {
 }
 
 article blockquote:has(.naldra) {
-  @apply flex relative py-4 px-3 m-0 bg-gray-100 hover:bg-gray-200 border-0 shadow rounded-sm rounded-l-none;
+  @apply flex relative py-4 px-3 m-0 bg-gray-100 print:bg-white hover:bg-gray-200 border-0 shadow rounded-sm rounded-l-none;
   border-left: 3px solid #ff1e1e;
 }
 
 article blockquote  {
-  @apply flex relative py-4 px-3 mb-1 m-0 bg-gray-100 hover:bg-gray-200 border-0 shadow rounded-sm rounded-l-none;
+  @apply flex relative py-4 px-3 mb-1 m-0 bg-gray-100 print:bg-white hover:bg-gray-200 border-0 shadow rounded-sm rounded-l-none;
   border-left: 3px solid #1e90ff;
 }
 
@@ -413,7 +413,7 @@ dd::after {
 
 
 article figure {
-  @apply print:ml-3 md:ml-3 mt-1 mb-3 print:float-right md:float-right border border-gray-200 bg-gray-100 shadow rounded-sm clear-right w-full print:w-48 md:w-48;
+  @apply print:ml-3 md:ml-3 mt-1 mb-3 print:float-right md:float-right border border-gray-200 bg-gray-100 print:bg-white shadow rounded-sm clear-right w-full print:w-48 md:w-48;
 }
 
 article figure .figure_img {

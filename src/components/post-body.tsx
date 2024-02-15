@@ -7,7 +7,7 @@ const PostBody = ({ post, state, setState, hasToc }: PostProps<any>) => {
   return (
     <>
       <div
-        className={`mb-6 mx-auto w-full ${
+        className={`mb-6 mx-auto w-full print:bg-white ${
           hasToc ? "md:w-3/5 " : ""
         }bg-gray-100`}
       >
