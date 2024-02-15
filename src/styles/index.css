@@ -614,3 +614,4 @@ div.mermaid > svg foreignObject > div {
   text-align: center;
 }
 
+@media print { thead img { page-break-inside: auto !important; } }

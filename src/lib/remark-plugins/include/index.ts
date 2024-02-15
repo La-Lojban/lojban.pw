@@ -4,7 +4,7 @@ import path from "path";
 export default function replaceIncludes(
   content: string,
   { resolveFrom }: { resolveFrom: string }
-) {
+): string {
   const includeRegex = /@include\s+"([^"]+)"/g;
 
   let match;
