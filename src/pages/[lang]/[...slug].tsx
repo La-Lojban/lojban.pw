@@ -15,7 +15,7 @@ import { TPost } from "../../types/post";
 import { site_title } from "../../config/config";
 import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLanguage } from "@fortawesome/free-solid-svg-icons";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 type Props = {
   post: TPost;
@@ -47,8 +47,6 @@ const Post = ({
     url: `${router.asPath.replace(/#.*/, "")}#${i.id}`,
   }));
   const hasToc = toc_list.length > 5;
-  const isBook = post?.slug?.[0] === "books";
-  const pdfUrl = `/vreji/uencu/${post?.slug?.[1]}.pdf`;
 
   type GalleryState = { galleryShown: boolean; currentImgUrl: string | null };
   const [state, setState]: [
@@ -82,24 +80,32 @@ const Post = ({
             <PostTitle>Loading…</PostTitle>
           ) : (
             <>
-              {posts.length > 0 && (
-                <div className="relative block max-w-sm h-10 mx-auto flex justify-around">
-                  <div className="h-10 w-16 inline-block py-2 px-4">
-                    <FontAwesomeIcon icon={faLanguage} />
-                  </div>
-                  {posts.map((post) => {
-                    return (
-                      <a
-                        key={`bangu-${post.language}`}
-                        href={`/${post.fullPath}` as any}
-                        className="h-10 inline-block py-2 px-4 bg-white border border-t-0 border-gray-300 hover:border-gray-400 ml-2"
-                      >
-                        {post.language}
-                      </a>
-                    );
-                  })}
-                </div>
-              )}
+              <div className="relative block max-w-sm h-10 mx-auto flex justify-around">
+                {posts.length > 0 && (
+                  <>
+                    {post.pdf && (
+                        <a
+                          key={`bangu-pdf`}
+                          href={`/vreji/uencu/${post.slug[0]}/${post.slug.slice(-1)[0]}.pdf`}
+                          className="hover:from-lime-200 hover:to-lime-200 ease bg-gradient-to-br from-lime-50 to-white-900 h-10 inline-block py-2 px-4 border border-t-0 border-lime-500 hover:border-lime-600 ml-2 rounded-b-md shadow-md"
+                        >
+                          <FontAwesomeIcon className="w-6" icon={faFilePdf} />
+                        </a>
+                    )}
+                    {posts.map((post) => {
+                      return (
+                        <a
+                          key={`bangu-${post.language}`}
+                          href={`/${post.fullPath}` as any}
+                          className="h-10 inline-block py-2 px-4 bg-white border border-t-0 border-gray-300 hover:border-gray-400 ml-2 rounded-b-md shadow-md"
+                        >
+                          {post.language}
+                        </a>
+                      );
+                    })}
+                  </>
+                )}
+              </div>
               <article className="mt-2 mx-auto max-w-7xl px-4 sm:mt-2 sm:px-6 flex md:flex-row flex-wrap">
                 <Head>
                   <title>{title}</title>
@@ -188,15 +194,6 @@ const Post = ({
                       id="toc-core"
                       className="toc-core h-4/5 overflow-y-auto"
                     >
-                      {isBook && (
-                        <Link
-                          href={pdfUrl}
-                          key={pdfUrl}
-                          className={`block font-semibold text-black in-toc hover:no-underline px-3 py-2 lme-ml-0`}
-                        >
-                          📁 PDF version
-                        </Link>
-                      )}
                       {toc_list.map((item) => (
                         <Link
                           href={item.url}
@@ -246,6 +243,7 @@ export async function getStaticProps({ params }: Params) {
     "ogImage",
     "coverImage",
     "fullPath",
+    "pdf",
   ]);
 
   const fullSlug = params.lang + "/" + params.slug.join("/");
@@ -280,9 +278,7 @@ export async function getStaticProps({ params }: Params) {
     fullPath: post.fullPath as string,
   });
 
-  const siblingPosts = allPosts.filter(
-    (i) => i.slug[0] === params.lang
-  );
+  const siblingPosts = allPosts.filter((i) => i.slug[0] === params.lang);
   return {
     props: {
       posts,
