@@ -116,6 +116,11 @@ article h6:before {
 }
 
 article h1,
+article h2 {
+  break-before: page;
+}
+
+article h1,
 article h2,
 article h3,
 article h4,
@@ -614,4 +619,8 @@ div.mermaid > svg foreignObject > div {
   text-align: center;
 }
 
-@media print { thead img { page-break-inside: auto !important; } }
+@media print {
+  div, blockquote {
+    break-inside: avoid;
+  }
+}
