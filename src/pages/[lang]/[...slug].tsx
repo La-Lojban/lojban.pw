@@ -80,7 +80,7 @@ const Post = ({
             <PostTitle>Loading…</PostTitle>
           ) : (
             <>
-              <div className="relative block max-w-sm h-10 mx-auto flex justify-around">
+              <div className="relative block max-w-sm h-10 mx-auto flex justify-around print:hidden">
                 {posts.length > 0 && (
                   <>
                     {post.slug[1]==='books' && (
