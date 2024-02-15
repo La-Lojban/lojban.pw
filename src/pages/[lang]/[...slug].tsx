@@ -83,7 +83,7 @@ const Post = ({
               <div className="relative block max-w-sm h-10 mx-auto flex justify-around">
                 {posts.length > 0 && (
                   <>
-                    {post.pdf && (
+                    {post.slug[1]==='books' && (
                         <a
                           key={`bangu-pdf`}
                           href={`/vreji/uencu/${post.slug[0]}/${post.slug.slice(-1)[0]}.pdf`}
@@ -243,7 +243,7 @@ export async function getStaticProps({ params }: Params) {
     "ogImage",
     "coverImage",
     "fullPath",
-    "pdf",
+    // "pdf",
   ]);
 
   const fullSlug = params.lang + "/" + params.slug.join("/");
