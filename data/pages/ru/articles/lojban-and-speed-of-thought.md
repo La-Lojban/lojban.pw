@@ -1,5 +1,5 @@
 ---
-title: Язык Ложбан и скорость мышления
+title: Язык ложбан и скорость мышления
 ---
 
 <div class="lojbo simple_blockquotes"></div>
