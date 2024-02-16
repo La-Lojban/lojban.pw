@@ -108,6 +108,72 @@
   color: #007bff;
 }
 
+.hide-column-checkbox-spano {
+  display: none;
+}
+
+.hide-column-checkbox-spano:checked
+  + .hide-column-button-spano
+  ~ div
+  table
+  th.column-class-spano,
+.hide-column-checkbox-spano:checked
+  + .hide-column-button-spano
+  ~ div
+  table
+  td.column-class-spano {
+  display: none;
+}
+
+.hide-column-checkbox-spano:checked + .hide-column-button-spano {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-porto {
+  display: none;
+}
+
+.hide-column-checkbox-porto:checked
+  + .hide-column-button-porto
+  ~ div
+  table
+  th.column-class-porto,
+.hide-column-checkbox-porto:checked
+  + .hide-column-button-porto
+  ~ div
+  table
+  td.column-class-porto {
+  display: none;
+}
+
+.hide-column-checkbox-porto:checked + .hide-column-button-porto {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.hide-column-checkbox-spero {
+  display: none;
+}
+
+.hide-column-checkbox-spero:checked
+  + .hide-column-button-spero
+  ~ div
+  table
+  th.column-class-spero,
+.hide-column-checkbox-spero:checked
+  + .hide-column-button-spero
+  ~ div
+  table
+  td.column-class-spero {
+  display: none;
+}
+
+.hide-column-checkbox-spero:checked + .hide-column-button-spero {
+  background-color: #fff;
+  color: #007bff;
+}
+
 .hide-column-checkbox-lojbo_gi_e_nu_o_bredi {
   display: none;
 }
@@ -218,50 +284,6 @@
 }
 
 .hide-column-checkbox-sfe_ero:checked + .hide-column-button-sfe_ero {
-  background-color: #fff;
-  color: #007bff;
-}
-
-.hide-column-checkbox-spano {
-  display: none;
-}
-
-.hide-column-checkbox-spano:checked
-  + .hide-column-button-spano
-  ~ div
-  table
-  th.column-class-spano,
-.hide-column-checkbox-spano:checked
-  + .hide-column-button-spano
-  ~ div
-  table
-  td.column-class-spano {
-  display: none;
-}
-
-.hide-column-checkbox-spano:checked + .hide-column-button-spano {
-  background-color: #fff;
-  color: #007bff;
-}
-
-.hide-column-checkbox-porto {
-  display: none;
-}
-
-.hide-column-checkbox-porto:checked
-  + .hide-column-button-porto
-  ~ div
-  table
-  th.column-class-porto,
-.hide-column-checkbox-porto:checked
-  + .hide-column-button-porto
-  ~ div
-  table
-  td.column-class-porto {
-  display: none;
-}
-
-.hide-column-checkbox-porto:checked + .hide-column-button-porto {
   background-color: #fff;
   color: #007bff;
 }
@@ -397,28 +419,6 @@
 
 .hide-column-checkbox-lojbo_fi_e_se_fanva_la_pimlu:checked
   + .hide-column-button-lojbo_fi_e_se_fanva_la_pimlu {
-  background-color: #fff;
-  color: #007bff;
-}
-
-.hide-column-checkbox-spero {
-  display: none;
-}
-
-.hide-column-checkbox-spero:checked
-  + .hide-column-button-spero
-  ~ div
-  table
-  th.column-class-spero,
-.hide-column-checkbox-spero:checked
-  + .hide-column-button-spero
-  ~ div
-  table
-  td.column-class-spero {
-  display: none;
-}
-
-.hide-column-checkbox-spero:checked + .hide-column-button-spero {
   background-color: #fff;
   color: #007bff;
 }

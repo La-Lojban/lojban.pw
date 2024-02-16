@@ -1,9 +1,9 @@
 ---
 title: В горький час
 meta.type: korpora
-meta.description: В горький час - Калман Калочсай
+meta.description: В горький час - Калман Калочаи
 meta.keywords: En Amara Horo, In A Bitter Hour, ca lo kurki cacra, В горький час
-meta.author: Калман Калочсай
+meta.author: Калман Калочаи
 meta.priority: 3554
 ---
 
@@ -101,10 +101,10 @@ meta.priority: 3554
             by Kalman Kalocsay
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i se finti la'o my. .Kalman. Kalocsay. my.
+            .i se finti la'o my.Kalman. Kalocsay.my.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            Калман Калочсай
+            Калман Калочаи
           </td>
         </tr>
         <tr

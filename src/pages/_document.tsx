@@ -1,6 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import Script from "next/script";
 
+import { CMS_NAME } from "../config/config";
 export default class MyDocument extends Document {
   static async getInitialProps(context: any) {
     const initialProps = await Document.getInitialProps(context);
@@ -15,6 +15,10 @@ export default class MyDocument extends Document {
             href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"
             integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC"
             crossOrigin="anonymous"
+          />
+          <meta
+            name="viewport"
+            content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
           />
           {/* <Script src="/assets/js/redirector.js" strategy="beforeInteractive" /> */}
         </Head>

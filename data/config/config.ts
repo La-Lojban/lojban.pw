@@ -1,5 +1,8 @@
-export const site_title = "Lojban.pw";
 export const home_title = "Learn Lojban website";
+export const site_title = "My website";
+export const site_description = "My website";
+export const site_url = "https://lojban.pw";
+export const site_creator_twitter = "John Smith";
 
 export const CMS_NAME = "Learn Lojban website";
 export const TEXTS = "Corpus of texts";
@@ -69,12 +72,36 @@ export const links = [
 ];
 
 export const meta = [
+  { name: "application-name", content: site_title },
   { name: "msapplication-TileColor", content: "#000000" },
-  {
-    name: "msapplication-config",
-    content: "/assets/favicons/browserconfig.xml",
-  },
+  { name: "msapplication-config", content: "/assets/favicons/browserconfig.xml" },
   { name: "theme-color", content: "#000" },
-  // { name: "description", content: "Lojban logical language app" },
-  // { property: "og:image", content: "https://lojban.pw/assets/icons/lojbo.svg" },
+  {
+    property: "og:image",
+    content: "/assets/icons/lojbo.svg",
+  },
+  { name: "apple-mobile-web-app-capable", content: "yes" },
+  { name: "apple-mobile-web-app-status-bar-style", content: "default" },
+
+  { name: "apple-mobile-web-app-title", content: site_title },
+  { name: "description", content: site_description },
+  { name: "format-detection", content: "telephone=no" },
+  { name: "mobile-web-app-capable", content: "yes" },
+  { name: "msapplication-tap-highlight", content: "no" },
+
+  { name: "twitter:card", content: "summary" },
+  { name: "twitter:url", content: site_url },
+  { name: "twitter:title", content: site_title },
+  { name: "twitter:description", content: site_description },
+  {
+    name: "twitter:image",
+    content: "/assets/icons/lojbo.svg",
+  },
+  { name: "twitter:creator", content: site_creator_twitter },
+  { property: "og:type", content: "website" },
+  { property: "og:title", content: site_title },
+  { property: "og:description", content: site_description },
+  { property: "og:site_name", content: site_title },
+  { property: "og:url", content: site_url },
+  { property: "og:image", content: "/assets/icons/lojbo-512.png" },
 ];

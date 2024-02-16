@@ -2,7 +2,7 @@
 title: The Mask
 meta.type: korpora
 meta.description: The Mask - Summary of the Stanisław Lem's novel
-meta.keywords: ni'o le firgai, The Mask, Маска, Le Masque
+meta.keywords: ni'o le firgai, The Mask, Маска, Le Masque, La máscara, A mascára
 meta.author: Summary of the Stanisław Lem's novel
 meta.priority: 10543
 ---
@@ -44,6 +44,24 @@ meta.priority: 10543
     for="hide-column-fraso"
     class="hide-column-button-fraso float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
     >français</label
+  ><input
+    type="checkbox"
+    id="hide-column-spano"
+    class="hide-column-checkbox-spano"
+  />
+  <label
+    for="hide-column-spano"
+    class="hide-column-button-spano float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    >español</label
+  ><input
+    type="checkbox"
+    id="hide-column-porto"
+    class="hide-column-checkbox-porto"
+  />
+  <label
+    for="hide-column-porto"
+    class="hide-column-button-porto float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    >português</label
   >
   <div class="clear-both" />
   <div class="w-full overflow-x-auto">
@@ -56,6 +74,8 @@ meta.priority: 10543
           <th scope="col" class="w-40 p-2 column-class-glico">glico</th>
           <th scope="col" class="w-40 p-2 column-class-rusko">rusko</th>
           <th scope="col" class="w-40 p-2 column-class-fraso">fraso</th>
+          <th scope="col" class="w-40 p-2 column-class-spano">spano</th>
+          <th scope="col" class="w-40 p-2 column-class-porto">porto</th>
         </tr>
       </thead>
       <tbody>
@@ -74,6 +94,12 @@ meta.priority: 10543
           <td class="font-bold text-left align-text-top p-2 column-class-fraso">
             Version française
           </td>
+          <td class="font-bold text-left align-text-top p-2 column-class-spano">
+            versión española
+          </td>
+          <td class="font-bold text-left align-text-top p-2 column-class-porto">
+            Versão portuguesa
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -87,6 +113,12 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-rusko">Маска</td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Le Masque
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            La máscara
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            A mascára
           </td>
         </tr>
         <tr
@@ -105,6 +137,12 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             Résumé du roman de Stanisław Lem
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Resumen de la novela de Stanisław Lem
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Resumo do romance de Stanisław Lem
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -119,7 +157,13 @@ meta.priority: 10543
             Русская адаптация
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Adaptation anglaise
+            Adaptation française
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            adaptación española
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Adaptação portuguesa
           </td>
         </tr>
         <tr
@@ -138,6 +182,12 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             Au début, il y avait l'obscurité, des flammes froides et un tonnerre
             persistant.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Al principio había oscuridad y frío, llamas y truenos persistentes.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            No início, havia escuridão e chamas frias e trovões persistentes.
           </td>
         </tr>
         <tr
@@ -159,6 +209,14 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             - J'ai ouvert les yeux, j'ai souri, j'ai avancé et ses robes ont
             bougé avec moi. - C'était le bal de la cour.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Abrí los ojos y sonreí, y avancé, y sus vestidos se movieron
+            conmigo. - Este era el baile de la corte.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Abri os olhos, sorri e avancei, e seus vestidos se moviam comigo.
+            - Este era o baile da corte.
           </td>
         </tr>
         <tr
@@ -187,6 +245,17 @@ meta.priority: 10543
             voulais lui faire une révérence. - Il ne daigna pas me regarder. -
             C'était le roi.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Al pie de una estatua de mármol se encontraba un hombre más bajo
+            que los demás. - Al pasar junto a él, me detuve como si quisiera
+            hacerle una reverencia. - Él no se dignó a mirarme. - Él era el Rey.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Aos pés de uma estátua de mármore estava um homem mais baixo que
+            os demais. - Ao passar por ele, parei como se quisesse fazer uma
+            reverência baixa. - Ele não se dignou a olhar para mim. - Ele era o
+            Rei.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -203,6 +272,12 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             Mais qu'est-ce qu'il pouvait bien me vouloir, quoi ?
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Pero ¿qué podría querer de mí, qué?
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Mas o que ele poderia querer de mim, o quê?
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -218,6 +293,12 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Et qui étais-je ?
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            ¿Y quién era yo?
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            E quem eu era?
           </td>
         </tr>
         <tr
@@ -242,6 +323,15 @@ meta.priority: 10543
             sur le chemin tracé à travers l'humanité. - Mais vers où marchais-je
             ?
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Se abrió un pasillo, por el cual podía caminar como una reina
+            entre la multitud. - Pero ¿hacia dónde caminaba así?
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Abriu-se um corredor, para que eu pudesse caminhar como uma rainha
+            pelo caminho aberto entre a humanidade. - Mas para onde eu estava
+            caminhando assim?
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -257,6 +347,12 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Vers qui.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Hacia quién.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Para quem.
           </td>
         </tr>
         <tr
@@ -274,6 +370,12 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Cet étranger m'a regardée - aussi complètement seule que moi.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Este desconocido me miró, tan completamente solo como yo.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Esse estranho olhou para mim - tão solitário quanto eu.
           </td>
         </tr>
         <tr
@@ -298,6 +400,15 @@ meta.priority: 10543
             s'est arrêté. - J'ai laissé glisser de mon poignet la petite boucle
             de mon éventail. - Pour qu'il tombe.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Se levantó y se acercó a mí. - Dio dos pasos y se detuvo. - Dejé
+            caer de mi muñeca el pequeño lazo de mi abanico. - Para que cayera.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Ele se levantou e veio em minha direção. - Dois passos e ele
+            parou. - Deixei escapar do meu pulso o pequeno laço do meu leque. -
+            Para que ele caísse.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -313,6 +424,12 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Madame", dit-il, "Votre éventail...
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            ‘Señora’, dijo, ‘su abanico…’
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Senhora, ele disse, "seu leque..."
           </td>
         </tr>
         <tr
@@ -331,6 +448,12 @@ meta.priority: 10543
             - Monsieur", ai-je dit, "dois-je encore le laisser tomber ? - Et
             j'ai souri.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - ‘Señor’, dije, ‘¿debo dejarlo caer de nuevo?’ - Y sonreí.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - "Senhor", eu disse, "devo deixá-lo cair novamente?" - E sorri.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -346,6 +469,12 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Il ne savait plus quoi dire.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Estaba perdido sin saber qué decir.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Ele não sabia o que dizer.
           </td>
         </tr>
         <tr
@@ -366,6 +495,14 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             La nuit fut longue et bruyante, la foule immense nous séparait sans
             cesse, mais nous nous retrouvions toujours.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            La noche era larga y ruidosa, la multitud inmensa nos separaba
+            constantemente, pero siempre nos encontrábamos.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            A noite era longa e barulhenta, a multidão imensa nos separava
+            constantemente, mas continuávamos nos encontrando.
           </td>
         </tr>
         <tr
@@ -392,6 +529,17 @@ meta.priority: 10543
             notre direction. - Il ne s'est pas assuré, comme s'il savait qu'il
             pouvait me faire entièrement confiance.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Cuando en las últimas horas pasamos junto a Su Majestad, el
+            gobernante ni siquiera se molestó en mirar en nuestra dirección. -
+            No se aseguró, como si supiera que podía confiar plenamente en mí.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Quando, nas últimas horas, passamos por Sua Majestade, o
+            governante nem sequer se deu ao trabalho de olhar na nossa direção.
+            - Ele não se preocupou, como se soubesse que podia confiar
+            plenamente em mim.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -407,6 +555,12 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Peu de temps après, nous nous sommes séparés.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Poco después nos separamos.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Pouco depois nos separamos.
           </td>
         </tr>
         <tr
@@ -432,6 +586,16 @@ meta.priority: 10543
             d'où j'étais arrivé, où je tournerais mes yeux, je savais seulement
             que ces choses ne dépendaient pas de moi.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Salí, sin tener la menor idea de dónde vivía, de dónde había
+            llegado, hacia dónde dirigiría mi mirada, solo sabía que estas cosas
+            no dependían de mí.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Saí, sem ter a menor ideia de onde morava, de onde tinha vindo, para
+            onde viraria meus olhos, só sabia que essas coisas não dependiam de
+            mim.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -453,6 +617,16 @@ meta.priority: 10543
             - Quelqu'un appela ma voiture. - Le corps de la voiture était vide.
             - L'obscurité de l'intérieur n'était pas une absence de lumière,
             c'était un vide.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Alguien llamó a mi carruaje. - El interior del carruaje estaba
+            vacío. - La oscuridad en su interior no era falta de luz, era un
+            vacío.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Alguém chamou minha carruagem. - O interior da carruagem estava
+            vazio. - A escuridão do interior não era ausência de luz, era um
+            vazio.
           </td>
         </tr>
         <tr
@@ -476,6 +650,14 @@ meta.priority: 10543
             réveillé à la porte de la salle du palais, et j'ai pu revenir en
             arrière.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Me volví hacia mí misma. - Recordé despertar en la puerta del
+            salón del palacio, y aún podía retroceder.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Voltei-me para mim mesma. - Lembrei-me de acordar na porta do
+            salão do palácio, e ainda podia me lembrar.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -496,6 +678,14 @@ meta.priority: 10543
             - Avant cela - oui, exactement. - Où étais-je - était-ce ! - avant
             cela ? - D'où venais-je ?
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Antes de eso, sí, exactamente. - ¿Dónde estaba yo, estaba ahí!? -
+            antes de eso? - ¿De dónde venía?
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Antes disso - sim, exatamente. - Onde eu estava - era isso!? -
+            antes disso? - De onde eu vim?
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -515,6 +705,14 @@ meta.priority: 10543
             Un chœur de réponses, prêtes, en attente ; si seulement il y avait
             eu une seule chaîne de réponses !
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Un coro de respuestas, listas, esperando; ¡si tan solo hubiera
+            habido una sola cadena de ellas!
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Um coro de respostas, prontas, esperando; se ao menos houvesse uma
+            única cadeia delas!
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -531,6 +729,12 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             La Duenna : une tour, un pont-levis, des cris dans la nuit, du sang.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            La Dueña: una torre, un puente levadizo, gritos en la noche, sangre.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            A Ama: uma torre, uma ponte levadiça, gritos na noite, sangue.
           </td>
         </tr>
         <tr
@@ -549,6 +753,14 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             Mais en tant qu'Angelita : des murs blancs, des palmiers flétris,
             des chiens sauvages.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Pero como Angelita: paredes blancas, palmas marchitas, perros
+            salvajes.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Mas como Angelita: paredes brancas, palmeiras murchas, cães
+            selvagens.
           </td>
         </tr>
         <tr
@@ -573,6 +785,16 @@ meta.priority: 10543
             - Et puis ma troisième existence : des jardins taillés, des
             jardiniers avec des tondeuses. - Et ces mots ; je ne savais pas
             maintenant ce qu'ils signifiaient, mais je l'ai sûrement su un jour.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Pero luego mi tercera existencia: jardines cuidados, jardineros
+            con tijeras. - Y estas palabras; ahora no sabía qué significaban,
+            pero seguramente lo supe alguna vez.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Mas então minha terceira existência: jardins bem cuidados,
+            jardineiros com tesouras. - E essas palavras; agora eu não sabia o
+            que elas significavam, mas certamente eu sabia uma vez.
           </td>
         </tr>
         <tr
@@ -605,6 +827,20 @@ meta.priority: 10543
             chacune pouvait prendre corps, mais je restais irrésolu entre ces
             possibilités. - Qui suis-je ?
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Pero tal cosa era imposible, me decía a mí mismo. - La verdad no
+            puede contradecirse a sí misma. - O bien había estado loco, me decía
+            a mí mismo, o seguía estando loco. - Estas genealogías giraban
+            dentro de mí, cada una podía tomar forma, pero sigo indeciso entre
+            estas posibilidades. - ¿Quién era yo?
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Mas tal coisa era impossível, eu me disse. - A verdade não pode se
+            contradizer. - Ou eu tinha enlouquecido, eu me disse, ou ainda
+            estava louco. - Essas genealogias giravam dentro de mim, cada uma
+            podia tomar forma, mas eu permanecia indeciso entre essas
+            possibilidades. - Quem eu era?
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -634,6 +870,18 @@ meta.priority: 10543
             un. - Le roi, le bal, la cour et cet homme. - La présence de fer du
             destin. - On ne pouvait plus refuser, se dérober, se retirer,
             s'échapper.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Así que me alejé del abismo que era yo y no era yo. - Y ahora
+            volvamos a lo que era uno, solo uno. - El Rey, el baile de la tarde,
+            la corte y ese hombre. - La presencia de hierro del destino. - Ya no
+            se podría rechazar, evadir, retirarse, escapar.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Então eu recuei do abismo que era eu mesmo e não era eu mesmo. - E
+            agora de volta ao que era um, apenas um. - O Rei, o baile da noite,
+            a corte e aquele homem. - A presença de ferro do destino. - Agora
+            não seria mais capaz de recusar, evadir, retirar-me, escapar.
           </td>
         </tr>
         <tr
@@ -667,6 +915,20 @@ meta.priority: 10543
             ne l'avais-je pas fait au début ? - Se pourrait-il qu'il y ait un
             défaut dans la conception et l'exécution ?
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - ¿Todo había sucedido realmente de la manera en que se suponía? -
+            Si yo era propiedad del Rey, ¿cómo podía saber esto? - Si él estaba
+            detrás de todo, ¿por qué había deseado rendirle homenaje pero no lo
+            había hecho al principio? - ¿Podría ser que hubiera alguna falla en
+            el diseño y la ejecución?
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Tudo realmente aconteceu da maneira que deveria? - Se eu era
+            propriedade do Rei, como eu poderia saber disso? - Se ele estava por
+            trás de tudo, por que eu desejei fazer reverência a ele, mas não o
+            fiz no início? - Poderia ser que alguma falha estivesse no projeto e
+            na execução?
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -696,6 +958,18 @@ meta.priority: 10543
             savais pas si c'était contre moi ou contre quelqu'un d'autre, mais
             non, non, non, non, non, non.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Me levanté de un salto, rasgué el acolchado, un material seco y
+            áspero crujía entre mis dientes. - Escupí hilos, mis uñas se
+            rompían, bien, eso era, así era el camino, no sabía si contra mí
+            mismo o contra alguien más, pero no, no, no, no, no, no.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Eu pulei, rasguei o estofamento, o material seco e áspero estalava
+            nos meus dentes. - Eu cuspi fios, minhas unhas estavam quebrando,
+            bom, era isso, era assim, eu não sabia se contra mim mesmo ou contra
+            outra pessoa, mas não, não, não, não, não, não.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -715,6 +989,14 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             - J'ai vu une lumière. - J'ai été piqué. - Une douleur minuscule, à
             peine perceptible, une piqûre et puis plus rien. - Rien.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Vi una luz. - Me pinché. - Un dolor diminuto, apenas perceptible,
+            un pinchazo y luego nada. - Nada.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Eu vi uma luz. - Fui espetado. - Uma dor minúscula, quase
+            imperceptível, uma picada e depois nada. - Nada.
           </td>
         </tr>
         <tr
@@ -748,6 +1030,20 @@ meta.priority: 10543
             il m'a fait trembler, il a accéléré mon pouls. - Et très petit,
             étant limité en moi, soumis au style.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - El jardín estaba nublado. - El parque real y los dos de nosotros.
+            - Barato, común, romántico, lleno de desesperación. - Oh, era un
+            amor apasionado, tierno y completamente ordinario. - Muy grande, me
+            hacía temblar, aceleraba mi pulso. - Y muy pequeño, limitado en mí,
+            sujeto al estilo.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - O jardim estava nublado. - O parque real e nós dois. - Barato,
+            comum, romântico, cheio de desespero. - Ah, era um amor apaixonado,
+            terno e completamente comum. - Muito grande, me fazia tremer,
+            acelerava meu pulso. - E muito pequeno, limitado em mim, sujeito ao
+            estilo.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -774,6 +1070,18 @@ meta.priority: 10543
             forme. - Je voulais me donner à lui corps et âme, à la manière de la
             mode, selon la coutume, l'étiquette de la cour. - J'étais en liberté
             dans les limites de la volonté royale.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - En dos días el romance había progresado de acuerdo a la forma
+            debida. - Quería entregarme a él en cuerpo y alma, al estilo de la
+            moda, según la costumbre, la etiqueta de la corte. - Estaba en
+            libertad dentro de los confines de la voluntad real.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Em dois dias, o caso de amor progrediu devidamente. - Eu queria me
+            entregar a ele de corpo e alma, à moda, de acordo com o costume, a
+            etiqueta da corte. - Eu estava livre dentro dos limites da vontade
+            real.
           </td>
         </tr>
         <tr
@@ -802,6 +1110,18 @@ meta.priority: 10543
             j'étais. - Je me suis déshabillée devant la vitre de la jetée et je
             suis restée nue comme une statue. - Sous la couche extérieure chaude
             et douce du ventre, j'ai rencontré une résistance, dure, inflexible.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - En la noche del tercer día finalmente comencé a descubrir quién
+            era yo. - Me desvestí frente al espejo y me quedé desnudo como una
+            estatua. - Bajo la capa cálida y suave del vientre encontré
+            resistencia, dura, inflexible.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Na noite do terceiro dia, finalmente comecei a descobrir quem eu
+            era. - Despi-me diante do espelho e fiquei nu como uma estátua. -
+            Sob a camada externa quente e macia do ventre, encontrei
+            resistência, dura, inflexível.
           </td>
         </tr>
         <tr
@@ -841,6 +1161,22 @@ meta.priority: 10543
             elle, une chose étrangère, une autre différente, c'était encore moi.
             Quelle horreur, quelle terreur de se regarder ainsi !
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Tomé el Lancet más pequeño. - Corté el cuerpo por la mitad
+            prácticamente hasta la ingle, violentamente, apretando los dientes y
+            cerrando los ojos lo más fuerte que pude. - Las capas se separaron,
+            como cuero blanco, y en el espejo vi una forma plateada, acurrucada,
+            como un feto enorme. - No era eso, algo extraño, diferente, era
+            nuevamente yo mismo. ¡Qué horror, qué terror, mirarse así!
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Eu peguei a Lanceta menor. - Cortei o corpo ao meio praticamente
+            até a virilha, violentamente, apertando os dentes e fechando os
+            olhos o mais firmemente possível. - Camadas se separaram, como couro
+            branco, e no espelho vi uma forma prateada, aninhada, como um feto
+            enorme. - Não era isso, algo estranho, diferente de outro, era
+            novamente eu mesmo. Que horror, terror, olhar para si mesmo assim!
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -867,6 +1203,16 @@ meta.priority: 10543
             pour se justifier et se défendre - un immense bouclier de roses
             rouges.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Se coló, entró así, sosteniendo delante de él, como si fuera su
+            justificación y defensa, un enorme escudo de rosas rojas. - Vio,
+            pero no se dio cuenta, aún no entendía, no podía.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Ele se infiltrou, entrou assim, segurando diante dele - como se em
+            sua justificação e defesa - um enorme escudo de rosas vermelhas. -
+            Ele viu, mas não percebeu, ainda não entendia, não podia.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -883,6 +1229,12 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             - Il a vu, mais n'a pas remarqué, n'a pas encore compris, ne pouvait
             pas. - Son visage, son cri silencieux en fuite.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Su rostro, su grito silencioso en pleno vuelo. - El amor murió.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Seu rosto, seu grito silencioso em fuga. - O amor morreu.
           </td>
         </tr>
         <tr
@@ -919,6 +1271,22 @@ meta.priority: 10543
             telle éventualité, afin que ma rébellion se révèle, à la fin, être
             ma soumission totale.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Me miré en el espejo. - Este era yo, me dije sin palabras, yo. Aún
+            yo. - Y al mismo tiempo, el pasado múltiple se embotó y murió dentro
+            de mí. - Empecé a darme cuenta. - El acto de autoeviceración
+            representaba una parte prevista del plan, diseñada para tal
+            eventualidad, para que mi rebelión resultara, al final, mi sumisión
+            total.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Olhei para mim mesma no espelho. - Isso era eu, disse a mim mesma
+            em silêncio, eu. Ainda eu. - E ao mesmo tempo o passado múltiplo se
+            tornou opaco e morreu dentro de mim. - Comecei a perceber. - O ato
+            de auto-evisceração representava uma parte prevista do plano,
+            projetada para tal eventualidade, para que minha rebelião se
+            transformasse, no final, em minha total submissão.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -941,6 +1309,16 @@ meta.priority: 10543
             - J'ai couru dans un jardin sombre et vide. - J'aurais pu le
             poursuivre et l'écraser dans sa confusion et son désespoir, mais je
             ne l'ai pas fait.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Salí corriendo a un jardín oscuro y húmedo. - Podría haberlo
+            perseguido y derribado en su total desamparo de confusión y
+            desesperación, pero no lo hice.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Corri para um jardim escuro e úmido. - Eu poderia tê-lo seguido e
+            derrubado em sua completa impotência de confusão e desespero, mas
+            não fiz isso.
           </td>
         </tr>
         <tr
@@ -970,6 +1348,20 @@ meta.priority: 10543
             avec mon habileté et ma facilité d'antan, je cédais en même temps à
             ce nouveau corps, dont le métal brillant avait inscrit des
             mouvements que je commençais à exécuter.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Lo que me ocupaba ahora era la extraordinaria sutileza de
+            distinción que poseía. - Aún capaz de pensar con mi habilidad y
+            facilidad anteriores, me entregué al mismo tiempo a este nuevo
+            cuerpo, su metal brillante había escrito en él movimientos que
+            comencé a ejecutar.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - O que me ocupava agora era a extraordinária sutileza de distinção
+            que eu possuía. - Ainda capaz de pensar com minha habilidade e
+            facilidade anteriores, ao mesmo tempo me entregava a esse novo
+            corpo, seu metal brilhante havia escrito nele movimentos que comecei
+            a executar.
           </td>
         </tr>
         <tr
@@ -1002,6 +1394,20 @@ meta.priority: 10543
             puis j'ai filé droit devant, ayant capté l'odeur et ainsi trouvé le
             bon cap, qui serait le mien désormais jusqu'à la fin.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Mi pulmón izquierdo frío; pulmón derecho, caliente. - Mi ojo
+            interno facetado. - Inhalé el olor de mi pretendiente, mi no amante,
+            para poder seguir su rastro. - Di vueltas una y otra vez, luego
+            aceleré directamente, habiendo captado el olor y así encontré el
+            rumbo correcto, que sería mío ahora hasta el final.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Meu pulmão esquerdo frio; pulmão direito, quente. - Meu olho
+            interno facetado. - Inspirei o cheiro do meu pretendente,
+            não-amante, para poder segui-lo. - Circulei uma vez e duas vezes,
+            depois acelerei em linha reta, tendo captado o cheiro e, assim,
+            encontrado o caminho certo, que seria meu agora até o fim.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -1020,6 +1426,13 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             J'ai couru à travers les pluies et les soleils brûlants, les champs,
             les ravins et les fourrés.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Corro a través de lluvias y soles abrasadores, campos, barrancos y
+            matorrales.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Corro sob chuvas e sóis escaldantes, campos, ravinas e matagais.
           </td>
         </tr>
         <tr
@@ -1040,6 +1453,14 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             Je n'avais pas besoin de dormir, alors la nuit aussi, je courais à
             travers les villages, les bourgs, les petites villes.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            No necesitaba dormir, así que también corría por las noches, a
+            través de pueblos, asentamientos, pequeñas ciudades.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Não preciso de sono, assim também corro pelas vilas, assentamentos,
+            pequenas cidades durante a noite.
           </td>
         </tr>
         <tr
@@ -1070,6 +1491,20 @@ meta.priority: 10543
             seulement que ma volonté était de me précipiter, afin que ce pauvre
             de mottes aériennes me désigne.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Su olor me llenó por completo, como una promesa. - Mi mente,
+            especialmente durante las carreras nocturnas, se concentraba en sí
+            misma hasta que ya no sabía a quién estaba siguiendo, solo sabía que
+            mi voluntad era seguir adelante, para que esta pobre nube de
+            partículas en el aire fuera seleccionada para mí.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Seu odor me preenchia completamente, como uma promessa. - Minha
+            mente, especialmente durante as corridas noturnas, se recolhia até
+            eu não saber quem estava rastreando, eu só sabia que minha vontade
+            era avançar, para que essa pobre coleção de partículas no ar fosse
+            selecionada para mim.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -1093,6 +1528,18 @@ meta.priority: 10543
             Mais le jour vint où mon odorat inférieur tomba en panne, où je
             cherchai en vain l'odeur avec mon odorat supérieur, et où j'éprouvai
             un sentiment de malheur, d'inutilité de toute ma perfection.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Pero llegó el día en que mi sentido del olfato inferior quedó
+            inactivo, en vano busqué también el olor con mi sentido del olfato
+            superior, y experimenté una sensación de desgracia, de la inutilidad
+            de toda mi perfección.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Mas chegou o dia em que meu sentido inferior de olfato ficou
+            inativo, em vão procurei o cheiro com meu olfato superior, e
+            experimentei uma sensação de infortúnio, de inutilidade de toda a
+            minha perfeição.
           </td>
         </tr>
         <tr
@@ -1123,6 +1570,20 @@ meta.priority: 10543
             l'autre paire me tirait dans la direction opposée, où les murs d'un
             petit monastère brillaient d'un éclat blanc.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Encontré el cruce donde la arena había desaparecido gradualmente y
+            me quedé temblando. - Un par de piernas me arrastraba ciegamente por
+            el camino cubierto de polvo de cal, mientras que el otro par me
+            llevaba en la dirección opuesta, donde los muros de un pequeño
+            monasterio brillaban blancos.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Encontrei a encruzilhada onde a areia havia desaparecido
+            gradualmente e fiquei tremendo. - Um par de pernas puxava cegamente
+            pela estrada coberta de pó de cal, enquanto o outro par me arrastava
+            na direção oposta, onde as paredes de um pequeno mosteiro brilhavam
+            brancas.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -1149,6 +1610,18 @@ meta.priority: 10543
             sous laquelle se tenait un moine. - Je lui ai demandé s'il me
             permettait de lui confesser une certaine affaire que j'avais du mal
             à régler seul.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Estudiándome a mí misma, me arrastré pesadamente hacia la puerta
+            del monasterio, debajo de la cual se encontraba un monje. - Le
+            pregunté si me permitiría confesarle un asunto en particular, con el
+            que tenía dificultades para lidiar por mi cuenta.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Estudando a mim mesma, rastejei pesadamente em direção ao portão
+            do mosteiro, sob o qual estava um monge. - Perguntei se ele me
+            permitiria confessar a ele um assunto específico, com o qual eu
+            estava tendo dificuldades para lidar sozinha.
           </td>
         </tr>
         <tr
@@ -1188,6 +1661,21 @@ meta.priority: 10543
             mais qu'au lieu de la mort, une métamorphose s'était produite, et
             que j'étais devenue pour lui une Furie persécutrice.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Le dije que primero fui una joven destinada por voluntad del Rey a
+            casarme con un hombre a quien conocí en la corte, y que lo amé hasta
+            que, a través de la herida en la noche, me di cuenta de lo que
+            podría ser para él, y al no ver otra salvación, me apuñalé con un
+            cuchillo, pero en lugar de la muerte y la metamorfosis, me convertí
+            en una Furia persecutoria para él.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Eu lhe disse que, primeiro, eu havia sido uma jovem mulher destinada
+            pela vontade do Rei a ficar com um homem que conheci na corte, e que
+            o amei até perceber, no meio da noite, o que eu poderia ser para
+            ele, e não vendo outra salvação, me esfaqueei, mas em vez de morte e
+            metamorfose, me tornei para ele uma Fúria perseguidora.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -1222,6 +1710,22 @@ meta.priority: 10543
             cesser de susciter autour de moi une peur mortelle, oui, je
             souhaitais remédier au mal, mais je ne savais pas comment.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Sin embargo, la persecución había durado tanto tiempo, que comencé
+            a sentir simpatía por este hombre, porque vi que deseaba
+            desesperadamente matarlo, porque ya no podía amarlo. - Por lo tanto,
+            ahora deseaba detener la persecución y dejar de infundir miedo
+            mortal a mi alrededor, sí, deseaba remediar el mal, pero no sabía
+            cómo.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - No entanto, a perseguição durou, e durou tanto tempo, que um afeto
+            por esse homem surgiu em mim, pois percebi que eu queria
+            desesperadamente matá-lo, pelo motivo de não poder mais amá-lo. -
+            Portanto, agora eu desejava interromper a perseguição e cessar de
+            causar medo mortal ao meu redor, sim, eu desejava remediar o mal,
+            mas não sabia como.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -1241,6 +1745,14 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             - Il me dit : "Et si tu trouvais celle que tu aimes ? Et si tu
             trouvais celui que tu cherches ? - Sais-tu ce que tu feras alors ?
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Él dijo: ¿Y qué harías si encontraras a aquel a quien buscas? -
+            ¿Sabes qué harías entonces?
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Ele disse: E se você encontrar aquele que procura? - Você sabe o
+            que fará então?
           </td>
         </tr>
         <tr
@@ -1263,6 +1775,14 @@ meta.priority: 10543
             J'ai répondu : "Père, je ne sais que ce que je fais : Père, je sais
             seulement ce que je ne veux pas faire, mais je ne peux pas dire
             qu'on ne me ferait pas assassiner.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Respondí: Padre, solo sé lo que no deseo hacer, pero no puedo decir
+            que no me vería obligada a cometer un asesinato.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Eu respondi: Pai, só sei o que não desejo fazer, mas não posso dizer
+            que não seria levada a cometer um assassinato.
           </td>
         </tr>
         <tr
@@ -1294,6 +1814,18 @@ meta.priority: 10543
             sentirais délivré si on t'enlevait la volonté de tuer, dis-moi alors
             comment se sent cette volonté ? - Comment cela se passe-t-il avec
             vous ?
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Él se puso pensativo y dijo: Si, como me dices, luchas contra esta
+            compulsión, oh máquina, y además afirmas que te sentirías liberada
+            si se te quitara la voluntad de matar, entonces dime, ¿cómo se
+            siente esta voluntad? - ¿Cómo estás tú al respecto?
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Ele ficou pensativo e disse: Se, como você de fato me conta, você
+            luta contra essa compulsão, ó máquina, e ainda afirma que se
+            sentiria libertada se a vontade de matar fosse tirada de você, me
+            diga então, como essa vontade se manifesta? - Como está com você?
           </td>
         </tr>
         <tr
@@ -1329,6 +1861,21 @@ meta.priority: 10543
             cela et le fait d'effectuer de telles opérations avec une habileté
             sans faille me donne de la satisfaction.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Respondí: Padre, tal vez no estoy bien, pero en cuanto a cazar,
+            rastrear, detectar, husmear, acechar, espiar y esconderme, cubrir
+            rastros, retroceder, dar marcha atrás y rodear, en todo esto tengo
+            un conocimiento extremadamente profundo y realizar estas operaciones
+            con habilidad infalible me brinda satisfacción.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Eu respondi: Pai, talvez eu não esteja bem, mas no que diz respeito
+            a caçar, rastrear, detectar, farejar, espreitar, perseguir, se
+            esconder e se emboscar, cobrir rastros, voltar atrás, dar meia-volta
+            e circular, no que diz respeito a tudo isso, sou extremamente
+            conhecedora e executar tais operações com habilidade infalível me
+            traz satisfação.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -1348,6 +1895,14 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             Je te le redemande, dit-il, dis-moi ce que tu feras quand tu le
             verras.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            ‘Te lo pregunto una vez más’, dijo, ‘dime, ¿qué harás cuando lo
+            veas?’
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            ‘Pergunto-te mais uma vez’, disse ele, ‘diz-me, o que farás quando o
+            vires?’
           </td>
         </tr>
         <tr
@@ -1372,6 +1927,16 @@ meta.priority: 10543
             Père, je te répète que je ne sais pas, car même si je ne lui
             souhaite aucun mal, ce qui est écrit en moi peut s'avérer plus
             puissant que ce que je souhaite.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            ‘Padre, te digo una vez más que no lo sé, porque aunque no le deseo
+            mal, lo que está escrito dentro de mí puede resultar más poderoso
+            que lo que deseo’.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            ‘Pai, digo-te mais uma vez que não sei, pois embora não lhe deseje
+            mal, o que está escrito dentro de mim pode ser mais poderoso do que
+            o que eu desejo’.
           </td>
         </tr>
         <tr
@@ -1404,6 +1969,18 @@ meta.priority: 10543
             égaux devant la Providence. - Cela étant, viens avec moi et je vais
             te montrer quelque chose".
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Él dijo: ‘Eres mi hermana. - Y eso significa que no me elevo por
+            encima de ti ni me humillo ante ti. - Tu ignorancia, que me has
+            confesado y en la que creo, nos hace iguales ante la Providencia. -
+            Siendo así, ven conmigo y te mostraré algo’.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Ele disse: ‘Tu és minha irmã. - E isso significa que nem me elevo
+            acima de ti, nem me humilho diante de ti. - Tua ignorância, que
+            confessaste a mim e que eu acredito, nos torna iguais diante da
+            Providência. - Sendo assim, vem comigo e eu te mostrarei algo’.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -1431,6 +2008,18 @@ meta.priority: 10543
             sans cesse, et si forte ici, que je sentis mon dard s'agiter de
             lui-même et sortir de sa gaine ventrale.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Fuimos a un viejo cobertizo de madera. - Un olor entró en mis
+            pulmones a través de mis fosas nasales, un olor que había perseguido
+            incansablemente, y tan fuerte aquí, que sentí mi aguijón moverse por
+            sí solo y salir de su vaina ventral.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Fomos a um antigo galpão de madeira. - Um cheiro entrou em meus
+            pulmões através das minhas narinas, um cheiro que eu perseguia
+            incessantemente, e tão forte aqui, que senti meu ferrão se mexer por
+            conta própria e emergir de sua bainha ventral.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -1451,6 +2040,14 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             - Le moine dit : Oui, il était ici. - Il s'est caché dans notre
             monastère, mais deux traîtres l'ont emporté il y a cinq jours.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - El monje dijo: Sí, estuvo aquí. - Se escondió en nuestro
+            monasterio, pero dos traidores se lo llevaron hace cinco días.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - O monge disse: Sim, ele esteve aqui. - Ele se escondeu em nosso
+            mosteiro, mas dois traidores o levaram há cinco dias.
           </td>
         </tr>
         <tr
@@ -1474,6 +2071,16 @@ meta.priority: 10543
             Je suis sorti en courant par la porte entrouverte et, selon les
             indications du moine, je me suis dirigé à toute vitesse vers les
             montagnes visibles à l'horizon.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Salí corriendo por la puerta medio abierta y, siguiendo las
+            indicaciones del monje, me dirigí a toda velocidad hacia las
+            montañas visibles en el horizonte.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Corri para fora pelo portão meio aberto e, seguindo as instruções do
+            monge, dirigi-me em alta velocidade em direção às montanhas visíveis
+            no horizonte.
           </td>
         </tr>
         <tr
@@ -1502,6 +2109,18 @@ meta.priority: 10543
             la roche et j'ai senti mon pouls se renforcer à l'intérieur, je l'ai
             senti jouer et chanter dans une poursuite magnifique.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Subí, siguiendo el rastro claro, el olor en la cálida superficie
+            de la piedra. - Corrí apenas tocando la roca y sentí mi pulso
+            fortalecerse dentro de mí, sentí que jugaba y cantaba en una
+            magnífica persecución.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Subi, seguindo as pegadas claras, o odor na superfície quente da
+            pedra. - Corri quase sem tocar na rocha e senti meu pulso se
+            fortalecer dentro de mim, senti-o brincar e cantar em uma
+            perseguição magnífica.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -1524,6 +2143,16 @@ meta.priority: 10543
             Au fond de la gorge, blanche de neige, se dressait un bâtiment, pas
             une maison, pas un château, et j'ai compris qu'il devait s'agir de
             la retraite.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            En el fondo del barranco, que estaba blanco de nieve, se encontraba
+            un edificio, no una casa, no un castillo, y me di cuenta de que
+            debía ser el retiro.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            No fundo do desfiladeiro, que estava branco de neve, havia um
+            edifício, não uma casa, não um castelo, e percebi que tinha que ser
+            o retiro.
           </td>
         </tr>
         <tr
@@ -1548,6 +2177,16 @@ meta.priority: 10543
             ma vision nocturne et, en mettant la tête dans la chambre de pierre,
             j'ai ouvert les yeux lumineux de mes antennes.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - En su interior reinaba el silencio. - Para ver mejor, activé mi
+            visión nocturna y, metiendo mi cabeza dentro de la cámara de piedra,
+            abrí los ojos luminosos de mis antenas.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Lá dentro reinava o silêncio. - Para ver melhor, ativei minha
+            visão noturna e, colocando minha cabeça dentro da câmara de pedra,
+            abri os olhos luminosos de minhas antenas.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -1570,6 +2209,16 @@ meta.priority: 10543
             Un bruit bref et soudain, suivi d'un bredouillement, me parvint d'en
             bas - un autre son, un bruit sourd et creux, comme celui d'un objet
             lourd qui tombe, puis le silence.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Un ruido repentino y corto, seguido de una voz balbuceante, me llegó
+            desde abajo, otro sonido más, un golpe hueco, como de un objeto
+            pesado cayendo, luego silencio.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Um ruído repentino e curto, seguido por uma voz balbuciante, chegou
+            até mim de baixo - mais um som, um baque oco, como de um objeto
+            pesado caindo, e então silêncio.
           </td>
         </tr>
         <tr
@@ -1598,6 +2247,18 @@ meta.priority: 10543
             vivant, dans cette maison vide, que nous ne soyons plus que tous les
             deux, m'a frappé comme un coup de tonnerre.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Vi debajo de la mesa un cuerpo. - Este hombre me era desconocido,
+            por lo tanto, había ocurrido una lucha. - El hecho de que estuviera
+            solo con él, y él estuviera vivo, en esta casa vacía, que ahora solo
+            éramos los dos, me golpeó como un rayo.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Vi debaixo da mesa um corpo. - Esse homem era um estranho para
+            mim, portanto, houve uma luta. - O fato de eu estar sozinho com ele,
+            e ele estar vivo, nesta casa vazia, de que agora só havia nós dois,
+            atingiu-me como um raio.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -1615,6 +2276,14 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             De l'autre côté du seuil, il y avait des escaliers en colimaçon et
             sur ces escaliers, sur le dos, lui.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            A través del umbral había una escalera sinuosa y en ella, boca
+            arriba, él.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Atravessando o limiar, havia escadas sinuosas e neles, deitado de
+            costas, ele.
           </td>
         </tr>
         <tr
@@ -1643,6 +2312,18 @@ meta.priority: 10543
             paupières, et moi, ragaillardie, l'abdomen plié, j'ai contemplé son
             visage retourné, n'osant ni le toucher ni reculer, car tant qu'il
             vivrait, je ne pourrais pas être sûre de moi.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Hizo un ruido, observé cómo intentaba levantar los párpados y yo,
+            ansiosa, con el abdomen doblado, miré hacia abajo a su rostro vuelto
+            hacia arriba, sin atreverme a tocarlo ni retroceder, porque mientras
+            él viviera no podía estar seguro de mí misma.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Ele deu um estertor, observei enquanto ele tentava levantar as
+            pálpebras, e eu, ansiosa, com o abdômen curvado, olhei para baixo em
+            seu rosto virado para cima, sem ousar tocá-lo nem recuar, pois
+            enquanto ele vivesse, eu não poderia ter certeza de mim mesma.
           </td>
         </tr>
         <tr
@@ -1677,6 +2358,22 @@ meta.priority: 10543
             lumière et dans l'obscurité pendant deux jours de tempête de neige,
             qui recouvrit notre lit d'un drap qui ne fondait pas.
           </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            - Pero él no abrió los ojos conscientemente. - Cuando el amanecer se
+            interpuso entre nosotros, él gimió una vez más y dejó de respirar, y
+            solo entonces, con mi mente en paz, me acosté a su lado y lo envolví
+            firmemente en mis brazos, y así permanecí en la luz y en la
+            oscuridad durante dos días de tormenta de nieve, que cubrieron
+            nuestra cama con una sábana que no se derretía.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            - Mas ele não abriu os olhos conscientemente. - Quando o amanhecer
+            entrou entre nós, ele gemeu mais uma vez e parou de respirar, e
+            somente então, com a minha mente tranquila, deitei-me ao lado dele e
+            o envolvi firmemente em meus braços, e assim permaneci na luz e na
+            escuridão por dois dias de tempestade de neve, que cobriu nossa cama
+            com um lençol que não derreteu.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -1692,6 +2389,12 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Le troisième jour, le soleil se leva.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Y en el tercer día salió el sol.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            E no terceiro dia o sol nasceu.
           </td>
         </tr>
       </tbody>

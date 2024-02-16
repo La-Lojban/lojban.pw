@@ -1,9 +1,9 @@
 ---
-title: Terry the Tiger
+title: Terry el Tigre Visita la Gran Ciudad
 meta.type: korpora
-meta.description: Terry the Tiger
-meta.keywords: ni'o ni'o le tirxu be me'e zo .teris. cu klama le barda tcadu, .i la .teris. noi tirxu cu klama le barda tcadu, Terry the Tiger Visits the Big City, Тигренок Терри посещает большой город.
-meta.author: 
+meta.description: Terry el Tigre Visita la Gran Ciudad - por Michael Turniansky
+meta.keywords: ni'o ni'o le tirxu be me'e zo .teris. cu klama le barda tcadu, .i la .teris. noi tirxu cu klama le barda tcadu, Terry the Tiger Visits the Big City, Тигренок Терри посещает большой город., Terry le tigre visite la grande ville, Terry el Tigre Visita la Gran Ciudad, Terry, o Tigre Visita a Grande Cidade, # Terry la Tigro Vizitas la Grandan Urbon
+meta.author: por Michael Turniansky
 meta.priority: 2555
 ---
 
@@ -44,6 +44,42 @@ meta.priority: 2555
     for="hide-column-rusko"
     class="hide-column-button-rusko float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
     >русский</label
+  ><input
+    type="checkbox"
+    id="hide-column-fraso"
+    class="hide-column-checkbox-fraso"
+  />
+  <label
+    for="hide-column-fraso"
+    class="hide-column-button-fraso float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    >français</label
+  ><input
+    type="checkbox"
+    id="hide-column-spano"
+    class="hide-column-checkbox-spano"
+  />
+  <label
+    for="hide-column-spano"
+    class="hide-column-button-spano float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    >español</label
+  ><input
+    type="checkbox"
+    id="hide-column-porto"
+    class="hide-column-checkbox-porto"
+  />
+  <label
+    for="hide-column-porto"
+    class="hide-column-button-porto float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    >português</label
+  ><input
+    type="checkbox"
+    id="hide-column-spero"
+    class="hide-column-checkbox-spero"
+  />
+  <label
+    for="hide-column-spero"
+    class="hide-column-button-spero float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    >spero</label
   >
   <div class="clear-both" />
   <div class="w-full overflow-x-auto">
@@ -58,6 +94,10 @@ meta.priority: 2555
           </th>
           <th scope="col" class="w-40 p-2 column-class-glico">glico</th>
           <th scope="col" class="w-40 p-2 column-class-rusko">rusko</th>
+          <th scope="col" class="w-40 p-2 column-class-fraso">fraso</th>
+          <th scope="col" class="w-40 p-2 column-class-spano">spano</th>
+          <th scope="col" class="w-40 p-2 column-class-porto">porto</th>
+          <th scope="col" class="w-40 p-2 column-class-spero">spero</th>
         </tr>
       </thead>
       <tbody>
@@ -78,6 +118,18 @@ meta.priority: 2555
           <td class="font-bold text-left align-text-top p-2 column-class-rusko">
             Русская версия
           </td>
+          <td class="font-bold text-left align-text-top p-2 column-class-fraso">
+            Version française
+          </td>
+          <td class="font-bold text-left align-text-top p-2 column-class-spano">
+            versión en español
+          </td>
+          <td class="font-bold text-left align-text-top p-2 column-class-porto">
+            Versão portuguesa
+          </td>
+          <td
+            class="font-bold text-left align-text-top p-2 column-class-spero"
+          ></td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -93,6 +145,18 @@ meta.priority: 2555
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Тигренок Терри посещает большой город.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-fraso">
+            Terry le tigre visite la grande ville
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Terry el Tigre Visita la Gran Ciudad
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Terry, o Tigre Visita a Grande Cidade
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spero">
+            # Terry la Tigro Vizitas la Grandan Urbon
           </td>
         </tr>
         <tr
@@ -110,6 +174,18 @@ meta.priority: 2555
           <td class="text-left align-text-top p-2 column-class-rusko">
             создано Михаилом Турнянским
           </td>
+          <td class="text-left align-text-top p-2 column-class-fraso">
+            créé par Michael Turniansky
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            por Michael Turniansky
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            por Michael Turniansky
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spero">
+            de Michael Turniansky
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -126,6 +202,12 @@ meta.priority: 2555
           <td class="text-left align-text-top p-2 column-class-rusko">
             Перевел на русский язык la gleki
           </td>
+          <td class="text-left align-text-top p-2 column-class-fraso">
+            Traduit en anglais par Michael Turniansky
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano"></td>
+          <td class="text-left align-text-top p-2 column-class-porto"></td>
+          <td class="text-left align-text-top p-2 column-class-spero"></td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -156,6 +238,30 @@ meta.priority: 2555
             слониха Элли и зебра Зои. Терри всегда хотел побывать в большом
             городе, над которым пролетали самолеты. И вот в один день Терри
             отправился в большой город.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-fraso">
+            Terry le tigre vivait avec ses amis dans la jungle. Ses amis étaient
+            Elly l'éléphant et Zoé le zèbre. Terry a toujours voulu visiter la
+            grande ville, là où les avions volent au-dessus de sa tête. Un jour,
+            Terry commença à marcher vers la grande ville.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Terry el Tigre vivía con sus amigos en la selva. Sus amigos eran
+            Elly la Elefanta y Zoe la Cebra. Terry siempre había querido visitar
+            la gran ciudad, donde los aviones volaban por encima. Así que un
+            día, Terry comenzó a caminar hacia la gran ciudad.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Terry, o Tigre, vivia com seus amigos na selva. Seus amigos eram
+            Elly, a Elefanta, e Zoe, a Zebra. Terry sempre quis visitar a grande
+            cidade, onde os aviões voavam por cima. Então, um dia, Terry começou
+            a caminhar em direção à grande cidade.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spero">
+            Terry la Tigro loĝis kun siaj amikoj en la ĝangalo. Liaj amikoj
+            estis Elly la Elefanto kaj Zoe la Zebro. Terry ĉiam volis viziti la
+            grandan urbon, kie la aviadiloj flugis super li. Do unu tagon, Terry
+            ekis piediri al la granda urbo.
           </td>
         </tr>
         <tr
@@ -192,6 +298,35 @@ meta.priority: 2555
             увидишь его". Терри последовал этому совету. В конце третьего дня
             Терри увидел несколько огней города (ура!). Поэтому Терри решил
             продолжать идти всю ночь напролет.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-fraso">
+            Bientôt, Terry arriva à une rivière et demanda à un poisson qui s'y
+            trouvait le chemin de la ville. Le poisson dit à Terry : "Marche le
+            long de la rivière pendant trois jours, et tu la verras". Terry
+            suivit ce conseil. À la fin du troisième jour, Terry a vu plusieurs
+            lumières de la ville (Hourra !). Terry a donc décidé de continuer à
+            marcher toute la nuit.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Pronto, Terry llegó a un río y le preguntó a un pez en él cómo
+            llegar a la ciudad. El pez le dijo a Terry: "Camina a lo largo del
+            río durante tres días y luego la verás". Terry siguió ese consejo.
+            Al final del tercer día, Terry vio varias luces de la ciudad
+            (¡Hurra!). Así que Terry decidió seguir caminando toda la noche.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Logo, Terry chegou a um rio e perguntou a um peixe nele o caminho
+            para a cidade. O peixe disse a Terry: "Siga ao longo do rio por três
+            dias e então você a verá". Terry seguiu esse conselho. No final do
+            terceiro dia, Terry viu várias luzes da cidade (Urra!). Então, Terry
+            decidiu continuar caminhando a noite toda.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spero">
+            Baldaŭ, Terry venis al rivero kaj demandis fiŝon en ĝi pri la vojo
+            al la urbo. La fiŝo diris al Terry "Piediru laŭ la rivero dum tri
+            tagoj, kaj poste vi ĝin vidos". Terry sekvis tiun konsilon. Je la
+            fino de la tria tago, Terry vidis plurajn lumojn de la urbo
+            (Hurra!). Do Terry decidis daŭrigi piediri la tutan nokton.
           </td>
         </tr>
         <tr
@@ -232,6 +367,39 @@ meta.priority: 2555
             Мули, онял, что Терри дружелюбен, поэтому он спросил Терри, не хочет
             ли он, чтобы ему показали город.
           </td>
+          <td class="text-left align-text-top p-2 column-class-fraso">
+            Au matin, Terry arriva sur une place de marché, qui se trouvait à la
+            périphérie de la ville. Un garçon s'y trouvait. "Aiee ! Un tigre !"
+            dit le garçon. "Aiee ! Un garçon !" dit Terry (car le garçon n'avait
+            jamais vu de tigre auparavant, et Terry n'avait jamais vu de garçon
+            auparavant). Le garçon, qui s'appelait Mooli, pouvait voir que Terry
+            était amical, alors il demanda à Terry s'il voulait qu'on lui montre
+            la ville.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Por la mañana, Terry llegó a un mercado que estaba en el borde de la
+            ciudad. Había un niño allí. "¡Aaaah! ¡Un tigre!" dijo el niño.
+            "¡Aaaah! ¡Un niño!" dijo Terry (porque el niño nunca había visto un
+            tigre antes y Terry nunca había visto un niño antes). El niño, que
+            se llamaba Mooli, pudo darse cuenta de que Terry era amigable, así
+            que le preguntó a Terry si le gustaría que le mostrara la ciudad.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Pela manhã, Terry chegou a um mercado, que ficava na beira da
+            cidade. Havia um menino lá. "Aaaah! Um tigre!" disse o menino.
+            "Aaaah! Um menino!" disse Terry (pois o menino nunca tinha visto um
+            tigre antes, e Terry nunca tinha visto um menino antes). O menino,
+            que se chamava Mooli, percebeu que Terry era amigável, então ele
+            perguntou a Terry se ele gostaria de conhecer a cidade.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spero">
+            Matene, Terry alvenis al merkato, kiu estis ĉe la rando de la urbo.
+            Tie estis knabo. "Aiee! Tigro!" diris la knabo. "Aiee! Knabo!" diris
+            Terry (ĉar la knabo neniam vidis tigron antaŭe, kaj Terry neniam
+            vidis knabon antaŭe). La knabo, kiu estis Mooli, povis kompreni, ke
+            Terry estas amika, do li demandis Terry ĉu li volus esti montrata la
+            urbo.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -251,6 +419,22 @@ meta.priority: 2555
           <td class="text-left align-text-top p-2 column-class-rusko">
             О, да! Но сейчас я очень хочу поспать. Я очень устал, сказал Терри.
           </td>
+          <td class="text-left align-text-top p-2 column-class-fraso">
+            Oh, oui ! Mais ce que je veux vraiment, c'est dormir un peu. Je suis
+            très fatigué, dit Terry.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            ¡Oh, sí! Pero lo que realmente quiero ahora mismo es dormir. Estoy
+            muy cansado, dijo Terry.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Oh, sim! Mas o que eu realmente quero agora é dormir. Estou muito
+            cansado, disse Terry.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spero">
+            Ho, jes! Sed kion mi vere volas nun estas dormi. Mi estas tre laca,
+            diris Terry.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -268,6 +452,18 @@ meta.priority: 2555
           <td class="text-left align-text-top p-2 column-class-rusko">
             Хорошо, мы можем пойти ко мне домой, сказал Мули.
           </td>
+          <td class="text-left align-text-top p-2 column-class-fraso">
+            D'accord, nous pouvons aller chez moi, dit Mooli.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            De acuerdo, podemos ir a mi casa, dijo Mooli.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Ok, podemos ir para minha casa, disse Mooli.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spero">
+            Bone, ni povas iri al mia domo, diris Mooli.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -283,6 +479,18 @@ meta.priority: 2555
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             И они вдвоем пошли к дому Мули.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-fraso">
+            Ils marchèrent donc tous les deux jusqu'à la maison de Mooli.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Así que los dos caminaron hacia la casa de Mooli.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Então, os dois caminharam até a casa de Mooli.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spero">
+            Do ili ambaŭ piediris al la domo de Mooli.
           </td>
         </tr>
         <tr
@@ -306,6 +514,22 @@ meta.priority: 2555
             Когда они пришли к нему домой, Мули спросил свою маму: "Ничего, если
             я приведу домой тигра?".
           </td>
+          <td class="text-left align-text-top p-2 column-class-fraso">
+            Arrivés chez lui, Mooli demanda à sa mère : "Est-ce que je peux
+            ramener un tigre à la maison ?
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Cuando llegaron a su casa, Mooli le preguntó a su madre: "¿Está bien
+            si traigo a casa a un tigre?".
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Quando chegaram à casa dele, Mooli perguntou à mãe dele: "Posso
+            trazer um tigre para casa?".
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spero">
+            Kiam ili alvenis al lia domo, Mooli demandis sian patrinon, "Ĉu
+            estas en ordo, se mi alportas tigron hejmen?".
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -325,6 +549,21 @@ meta.priority: 2555
           <td class="text-left align-text-top p-2 column-class-rusko">
             Конечно, сказала Мули его мама, потому что она подумала, что он
             просто притворяется.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-fraso">
+            Bien sûr, dit Mooli à sa mère, car elle pensait qu'il faisait
+            semblant.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Claro, dijo su madre, porque pensó que él solo estaba fingiendo.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Claro, Mooli, disse a mãe dele, pois ela achava que ele estava
+            apenas brincando.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spero">
+            Kompreneble, Mooli, diris lia patrino, ĉar ŝi pensis, ke li nur
+            faras ŝercon.
           </td>
         </tr>
         <tr
@@ -347,6 +586,22 @@ meta.priority: 2555
           <td class="text-left align-text-top p-2 column-class-rusko">
             Поэтому он привёл Терри в свою комнату, и Терри лег спать на полу, а
             Мули пошел играть снаружи.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-fraso">
+            Il amena donc Terry dans sa chambre, et Terry alla dormir sur le
+            sol, tandis que Mooli sortit jouer dehors.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Así que llevó a Terry a su habitación y Terry se durmió en el suelo,
+            mientras Mooli salió a jugar.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Então, ele levou Terry para o quarto dele, e Terry foi dormir no
+            chão, enquanto Mooli saiu para brincar.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spero">
+            Do li alportis Terryn en sian ĉambron, kaj Terry endormiĝis sur la
+            planko, dum Mooli eliris por ludi.
           </td>
         </tr>
         <tr
@@ -380,6 +635,32 @@ meta.priority: 2555
             закричала: "Аааа! Тигр съел моего сына! Полиция, помогите! Помогите!
             Полиция! Тигр! Тигр! Помогите!" и выбежал на улицу.
           </td>
+          <td class="text-left align-text-top p-2 column-class-fraso">
+            Un peu plus tard, sa mère appela : "Mooli, c'est l'heure du dîner...
+            Mooli ?" Elle se rendit dans la chambre de Mooli et vit Terry qui
+            dormait. Elle s'écria : "Aaaah ! Un tigre a mangé mon fils ! Police,
+            à l'aide ! A l'aide ! Police ! Tigre ! Tigre ! A l'aide !" et sortit
+            en courant.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Un rato después, su madre llamó: "Mooli, es hora de cenar...
+            ¿Mooli?" Fue a la habitación de Mooli y vio a Terry, que estaba
+            durmiendo. Ella gritó: "¡Aaaah! ¡Un tigre se ha comido a mi hijo!
+            ¡Policía, ayuda! ¡Ayuda! ¡Policía! ¡Tigre! ¡Tigre! ¡Ayuda!" y salió
+            corriendo.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Um tempo depois, a mãe dele chamou: "Mooli, hora do jantar...
+            Mooli?" Ela foi até o quarto de Mooli e viu Terry, que estava
+            dormindo. Ela gritou: "Aaaah! Um tigre comeu meu filho! Polícia,
+            ajuda! Ajuda! Polícia! Tigre! Tigre! Ajuda!" e saiu correndo.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spero">
+            Post iom da tempo, lia patrino vokis, "Mooli, tempo por
+            vespermanĝo... Mooli?" Ŝi iris al la ĉambro de Mooli kaj vidis
+            Terryn, kiu dormis. Ŝi kriis, "Aaaah! Tigro manĝis mian filon!
+            Polico, helpu! Helpu! Polico! Tigro! Tigro! Helpu!" kaj kuris for.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -401,6 +682,23 @@ meta.priority: 2555
           <td class="text-left align-text-top p-2 column-class-rusko">
             Шум разбудил Терри, и он выпрыгнул в окно и побежал обратно в свой
             дом в джунглях, пообещав больше никогда его не покидать.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-fraso">
+            Le bruit a réveillé Terry, qui a sauté par la fenêtre et a couru
+            jusqu'à sa maison dans la jungle, en promettant de ne plus jamais la
+            quitter.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            El ruido despertó a Terry, quien saltó por la ventana y corrió de
+            regreso a su hogar en la selva, prometiendo nunca más abandonarlo.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            O barulho acordou Terry, que pulou pela janela e correu de volta
+            para sua casa na selva, prometendo nunca mais sair dela.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spero">
+            La bruo vekis Terryn, kiu saltis tra la fenestro kaj kuris reen al
+            sia hejmo en la ĝangalo, promesante neniam plu forlasi ĝin.
           </td>
         </tr>
       </tbody>
