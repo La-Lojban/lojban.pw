@@ -69,8 +69,9 @@ function cssifyName(text) {
         hide-column-button-${l}
         float-left
         drop-shadow
-        bg-blue-500 hover:bg-blue-600 focus:bg-blue-600
-        text-white font-bold
+        bg-white hover:bg-blue-600 focus:bg-blue-600
+        text-gray-900 hover:text-white
+        font-bold
         leading-normal
         select-none
         py-2 px-4
