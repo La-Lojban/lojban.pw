@@ -15,7 +15,7 @@ meta.priority: 10543
   />
   <label
     for="hide-column-lojbo"
-    class="hide-column-button-lojbo float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-lojbo float-left drop-shadow bg-blue-300 hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >lojbo</label
   ><input
     type="checkbox"
@@ -24,7 +24,7 @@ meta.priority: 10543
   />
   <label
     for="hide-column-glico"
-    class="hide-column-button-glico float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-glico float-left drop-shadow bg-blue-300 hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >English</label
   ><input
     type="checkbox"
@@ -33,7 +33,7 @@ meta.priority: 10543
   />
   <label
     for="hide-column-rusko"
-    class="hide-column-button-rusko float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-rusko float-left drop-shadow bg-blue-300 hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >русский</label
   ><input
     type="checkbox"
@@ -42,7 +42,7 @@ meta.priority: 10543
   />
   <label
     for="hide-column-fraso"
-    class="hide-column-button-fraso float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-fraso float-left drop-shadow bg-blue-300 hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >français</label
   ><input
     type="checkbox"
@@ -51,7 +51,7 @@ meta.priority: 10543
   />
   <label
     for="hide-column-spano"
-    class="hide-column-button-spano float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-spano float-left drop-shadow bg-blue-300 hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >español</label
   ><input
     type="checkbox"
@@ -60,7 +60,7 @@ meta.priority: 10543
   />
   <label
     for="hide-column-porto"
-    class="hide-column-button-porto float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-porto float-left drop-shadow bg-blue-300 hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >português</label
   >
   <div class="clear-both" />
@@ -203,7 +203,7 @@ meta.priority: 10543
             moved with me. - This was the court ball.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            - Я открыло глаза, улыбнулось и двинулось вперед, и его платья
+            - Я открыло глаза, улыбнулось и двинулось вперёд, и её платья
             двигались вместе со мной. - Это был придворный бал.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
@@ -236,7 +236,7 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-rusko">
             - У подножия мраморной статуи стоял человек ниже ростом, чем все
             остальные. - Проходя мимо него, я остановилась, словно желая сделать
-            ему низкий реверанс. - Он не удостоил меня взглядом. - Это блы
+            ему низкий реверанс. - Он не удостоил меня взглядом. - Это был
             Король.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
@@ -391,9 +391,9 @@ meta.priority: 10543
             slip from my wrist the little loop of my fan. - For it to fall.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            - Он встал и подошел ко мне. - Два шага, и он остановился. - Я дала
+            - Он встал и подошёл ко мне. - Два шага, и он остановился. - Я дала
             соскользнуть с моего запястья маленькой петельке моего веера. -
-            Чтобы она упала.
+            Чтобы он упал.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             - Il s'est levé et s'est approché de moi. - Il a fait deux pas et
@@ -465,7 +465,7 @@ meta.priority: 10543
             He was at a loss for what to say.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            Он был в растерянности, что сказать.
+            Он не знал, что сказать.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Il ne savait plus quoi dire.
@@ -643,7 +643,7 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             - Я обратилась к самой себе. - Я вспомнила, как проснулось у дверей
-            дворцового зала, и все же смогла дотянуться до прошлого.
+            дворцового зала, и всё же смогла дотянуться до прошлого.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             - Je me suis tourné vers moi-même. - Je me suis souvenu m'être
@@ -946,7 +946,7 @@ meta.priority: 10543
             or someone else, but no, no, no, no, no, no.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            - Я вскочила, разорвал подкладку, сухой, грубый материал хрустел на
+            - Я вскочила, разорвала подкладку, сухой, грубый материал хрустел на
             зубах. - Я выплюнула нитки, ногти заскрипели, хорошо, вот так, вот
             так, я не знала, против себя или против кого-то другого, но нет,
             нет, нет, нет, нет, нет.
@@ -1017,7 +1017,7 @@ meta.priority: 10543
             limited in me, subject to the style.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            - В саду было пасмурно. - Королевский парк и мы вдвоем. - Дешевые,
+            - В саду было пасмурно. - Королевский парк и мы вдвоем. - Дешёвые,
             обычные, романтичные, полные отчаяния. - О, это была страстная
             любовь, нежная и совершенно обычная. - Очень большая, она заставляла
             меня трепетать, учащала мой пульс. - И очень маленькая, ограниченная
@@ -1192,9 +1192,9 @@ meta.priority: 10543
             but did not notice, did not yet understand, could not.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            - Он прокрался, вошел, держа перед собой - как бы в свое оправдание
+            - Он прокрался, вошёл, держа перед собой - как бы в свое оправдание
             и защиту - огромный щит из красных роз. - Он видел, но не замечал,
-            еще не понимал, не мог понять.
+            ещё не понимал, не мог понять.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             - Ce n'était pas elle, une chose étrangère, une autre différente,

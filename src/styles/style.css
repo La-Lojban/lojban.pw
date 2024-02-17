@@ -17,7 +17,8 @@
 
 .hide-column-checkbox-lojbo:checked + .hide-column-button-lojbo {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-sampu_lojbo {
@@ -39,7 +40,8 @@
 
 .hide-column-checkbox-sampu_lojbo:checked + .hide-column-button-sampu_lojbo {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-glico {
@@ -61,7 +63,8 @@
 
 .hide-column-checkbox-glico:checked + .hide-column-button-glico {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-rusko {
@@ -83,7 +86,8 @@
 
 .hide-column-checkbox-rusko:checked + .hide-column-button-rusko {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-fraso {
@@ -105,7 +109,8 @@
 
 .hide-column-checkbox-fraso:checked + .hide-column-button-fraso {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-spano {
@@ -127,7 +132,8 @@
 
 .hide-column-checkbox-spano:checked + .hide-column-button-spano {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-porto {
@@ -149,7 +155,8 @@
 
 .hide-column-checkbox-porto:checked + .hide-column-button-porto {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-spero {
@@ -171,7 +178,8 @@
 
 .hide-column-checkbox-spero:checked + .hide-column-button-spero {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-lojbo_gi_e_nu_o_bredi {
@@ -194,7 +202,8 @@
 .hide-column-checkbox-lojbo_gi_e_nu_o_bredi:checked
   + .hide-column-button-lojbo_gi_e_nu_o_bredi {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_ {
@@ -217,7 +226,8 @@
 .hide-column-checkbox-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_:checked
   + .hide-column-button-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_ {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_ {
@@ -240,7 +250,8 @@
 .hide-column-checkbox-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_:checked
   + .hide-column-button-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_ {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-glico_co_drata {
@@ -263,7 +274,8 @@
 .hide-column-checkbox-glico_co_drata:checked
   + .hide-column-button-glico_co_drata {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-sfe_ero {
@@ -285,7 +297,8 @@
 
 .hide-column-checkbox-sfe_ero:checked + .hide-column-button-sfe_ero {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-baurgulugu {
@@ -307,7 +320,8 @@
 
 .hide-column-checkbox-baurgulugu:checked + .hide-column-button-baurgulugu {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-po_olska {
@@ -329,7 +343,8 @@
 
 .hide-column-checkbox-po_olska:checked + .hide-column-button-po_olska {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-ponjo {
@@ -351,7 +366,8 @@
 
 .hide-column-checkbox-ponjo:checked + .hide-column-button-ponjo {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-glico_gi_e_te_fanva_fo_le_lojbo {
@@ -374,7 +390,8 @@
 .hide-column-checkbox-glico_gi_e_te_fanva_fo_le_lojbo:checked
   + .hide-column-button-glico_gi_e_te_fanva_fo_le_lojbo {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-lojbo_gi_e_se_fanva_la_gleki {
@@ -397,7 +414,8 @@
 .hide-column-checkbox-lojbo_gi_e_se_fanva_la_gleki:checked
   + .hide-column-button-lojbo_gi_e_se_fanva_la_gleki {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-lojbo_fi_e_se_fanva_la_pimlu {
@@ -420,7 +438,8 @@
 .hide-column-checkbox-lojbo_fi_e_se_fanva_la_pimlu:checked
   + .hide-column-button-lojbo_fi_e_se_fanva_la_pimlu {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-xorlo_lojbo {
@@ -442,7 +461,8 @@
 
 .hide-column-checkbox-xorlo_lojbo:checked + .hide-column-button-xorlo_lojbo {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-cizra_lojbo {
@@ -464,7 +484,8 @@
 
 .hide-column-checkbox-cizra_lojbo:checked + .hide-column-button-cizra_lojbo {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }
 
 .hide-column-checkbox-ἑλληνική {
@@ -486,5 +507,6 @@
 
 .hide-column-checkbox-ἑλληνική:checked + .hide-column-button-ἑλληνική {
   background-color: #fff;
-  color: #007bff;
+  color: #666;
+  border: 0;
 }

@@ -69,7 +69,7 @@ function cssifyName(text) {
         hide-column-button-${l}
         float-left
         drop-shadow
-        bg-white hover:bg-blue-600 focus:bg-blue-600
+        bg-teal-100 hover:bg-teal-600 focus:bg-teal-600
         text-gray-900 hover:text-white
         font-bold
         leading-normal
@@ -90,7 +90,7 @@ function cssifyName(text) {
 
       .hide-column-checkbox-${l}:checked + .hide-column-button-${l} {
         background-color: #fff;
-        color: #007bff;
+        color: #999;
       }
       `
           .replace(/^ +/gim, "")
