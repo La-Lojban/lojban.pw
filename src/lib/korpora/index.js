@@ -105,8 +105,8 @@ function cssifyName(text) {
 
     const priority = (columns["lojbo"] ?? []).slice(4).join("\n").length;
     allLanguages.forEach((lang) => {
-      const header = columns[lang]?.[1] ?? title;
-      const author = columns[lang]?.[2] ?? "";
+      const header = columns[lang]?.[1] ?? columns['glico']?.[1] ?? title;
+      const author = columns[lang]?.[2] ?? columns['glico']?.[2] ?? "";
       headers[lang] = {
         header,
         priority,
@@ -177,13 +177,13 @@ ${table[title].join("")}
         { filepath: filepath }
       );
       const graymatter = [
-        { key: "title", value: headers[lang].header },
+        { key: "title", value: headers[lang].header ?? headers['glico'].header },
         { key: "meta.type", value: "korpora" },
-        { key: "meta.description", value: headers[lang].description },
+        { key: "meta.description", value: headers[lang].description ?? headers['glico'].description },
         { key: "meta.keywords", value: keywords },
-        { key: "meta.author", value: headers[lang].author },
+        { key: "meta.author", value: headers[lang].author ?? headers['glico'].author },
         { key: "ogImage", value: ogImage },
-        { key: "meta.priority", value: headers[lang].priority },
+        { key: "meta.priority", value: headers[lang].priority ?? headers['glico'].priority },
       ].filter((el) => el.value !== undefined);
 
       const contentFull = `---
