@@ -16,10 +16,6 @@ export default class MyDocument extends Document {
             integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC"
             crossOrigin="anonymous"
           />
-          <meta
-            name="viewport"
-            content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
-          />
           {/* <Script src="/assets/js/redirector.js" strategy="beforeInteractive" /> */}
         </Head>
         <body className="bg-gray-100 print:bg-white">

@@ -38,7 +38,7 @@ export const footer = [
 export const header = [
   { name: "🎓 Learn Lojban", url: "/books/learn-lojban" },
   { name: "💬 Live chat", url: "/articles/live_chat" },
-  { name: "📚 Texts", url: "/texts", ogImage: '/assets/pixra/ralju/texts.svg' },
+  { name: "📚 Texts", url: "/texts", ogImage: "/assets/pixra/ralju/texts.svg" },
   { name: "📕 Full grammar", url: "/articles/complete-lojban-language" },
   { name: "📂📑📑📑", url: "/list" },
 ];
@@ -72,9 +72,17 @@ export const links = [
 ];
 
 export const meta = [
+  {
+    name: "viewport",
+    content:
+      "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover",
+  },
   { name: "application-name", content: site_title },
   { name: "msapplication-TileColor", content: "#000000" },
-  { name: "msapplication-config", content: "/assets/favicons/browserconfig.xml" },
+  {
+    name: "msapplication-config",
+    content: "/assets/favicons/browserconfig.xml",
+  },
   { name: "theme-color", content: "#000" },
   {
     property: "og:image",
