@@ -210,7 +210,7 @@
        inkscape:collect="always"
        preserveAspectRatio="xMidYMid">
       <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         style="fill:#ff0000;fill-rule:evenodd;stroke:none"
          d="m 1,0 -3,3 h -2 l 3,-3 -3,-3 h 2 z"
          id="path4-0-2-2" />
     </marker>
