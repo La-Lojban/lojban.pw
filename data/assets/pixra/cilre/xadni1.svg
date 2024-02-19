@@ -376,6 +376,42 @@
          d="m 1,0 -3,3 h -2 l 3,-3 -3,-3 h 2 z"
          id="path4-09" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideHeavy-5-46-75"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, heavy arrow"
+       markerWidth="0.75"
+       markerHeight="0.75"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="m 1,0 -3,3 h -2 l 3,-3 -3,-3 h 2 z"
+         id="path4-0-2-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideHeavy-5-46-7-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, heavy arrow"
+       markerWidth="0.75"
+       markerHeight="0.75"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:#ff0000;fill-rule:evenodd;stroke:none"
+         d="m 1,0 -3,3 h -2 l 3,-3 -3,-3 h 2 z"
+         id="path4-0-2-2-9" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="namedview1"
@@ -386,9 +422,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.7910156"
-     inkscape:cx="250.31112"
-     inkscape:cy="364.0889"
+     inkscape:zoom="1.5820312"
+     inkscape:cx="237.66914"
+     inkscape:cy="256.00001"
      inkscape:window-width="1920"
      inkscape:window-height="1007"
      inkscape:window-x="0"
@@ -426,19 +462,19 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ArrowWideHeavy-27)"
-       d="M 245.42763,136.61633 361.28011,96.038561"
+       d="M 241.72381,136.58956 361.29855,96.070328"
        id="path3-0"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ArrowWideHeavy-5)"
-       d="m 264.03416,158.07858 86.30449,-27.91896"
+       d="m 262.03416,158.07858 86.30449,-27.91896"
        id="path3-7"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ArrowWideHeavy-5-6)"
-       d="m 247.35438,168.17707 106.65554,-2.45365"
+       d="m 239.64706,164.31561 46.39792,28.76368"
        id="path3-7-4"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -469,14 +505,20 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ArrowWideHeavy-5-0)"
-       d="m 199.74244,133.56245 -60.0234,71.19551"
+       d="m 195.74244,125.56245 -60.0234,71.19551"
        id="path3-7-85"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ArrowWideHeavy-5-46)"
-       d="M 157.60408,126.9423 65.261654,114.92206"
+       d="M 165.20278,123.94155 89.672696,102.94539"
        id="path3-7-62"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ArrowWideHeavy-5-46-75)"
+       d="M 212.14004,156.39575 83.978999,144.88935"
+       id="path3-7-62-2"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
     <path
@@ -487,6 +529,14 @@
        inkscape:connector-curvature="0"
        inkscape:transform-center-x="34.264812"
        inkscape:transform-center-y="26.361591" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ArrowWideHeavy-5-46-7-5)"
+       d="M 236.99969,91.208274 355.09096,68.421339"
+       id="path3-7-62-6-8"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="-37.986255"
+       inkscape:transform-center-y="-46.805662" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ArrowWideHeavy-5-5-3)"
        d="M 38.250813,530.51693 43.80929,426.7358"
@@ -541,7 +591,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ArrowWideHeavy-0)"
-       d="M 309.338,286.67496 378.56457,224.391"
+       d="M 301.338,318.67496 370.56457,256.391"
        id="path3-96"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
@@ -558,23 +608,33 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O';text-align:center;direction:rtl;text-anchor:middle;fill:#000000;stroke-width:4.6;stroke-dasharray:none"
-       x="99.088432"
-       y="217.93741"
+       x="111.08843"
+       y="215.93741"
        id="text5"><tspan
          sodipodi:role="line"
          id="tspan5"
-         x="99.088432"
-         y="217.93741">kanla</tspan></text>
+         x="111.08843"
+         y="215.93741">kanla</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O';text-align:center;direction:rtl;text-anchor:middle;fill:#000000;stroke-width:4.6;stroke-dasharray:none"
        x="52.484741"
-       y="105.89827"
+       y="107.89827"
        id="text6"><tspan
          sodipodi:role="line"
          id="tspan6"
          x="52.484741"
-         y="105.89827">kerlo</tspan></text>
+         y="107.89827">kerlo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O';text-align:center;direction:rtl;text-anchor:middle;fill:#000000;stroke-width:4.6;stroke-dasharray:none"
+       x="49.460754"
+       y="152.68376"
+       id="text6-0"><tspan
+         sodipodi:role="line"
+         id="tspan6-9"
+         x="49.460754"
+         y="152.68376">ctebi</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O';text-align:center;direction:rtl;text-anchor:middle;fill:#000000;stroke-width:4.6;stroke-dasharray:none"
@@ -598,23 +658,33 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O';text-align:center;direction:rtl;text-anchor:middle;fill:#000000;stroke-width:4.6;stroke-dasharray:none"
-       x="401.52386"
-       y="169.46207"
+       x="398.65985"
+       y="73.335999"
+       id="text7-8-0"><tspan
+         sodipodi:role="line"
+         id="tspan7-79-2"
+         x="398.65985"
+         y="73.335999">mebri</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O';text-align:center;direction:rtl;text-anchor:middle;fill:#000000;stroke-width:4.6;stroke-dasharray:none"
+       x="324.15982"
+       y="200.80109"
        id="text7-7"><tspan
          sodipodi:role="line"
          id="tspan7-7"
-         x="401.52386"
-         y="169.46207">denci</tspan></text>
+         x="324.15982"
+         y="200.80109">denci</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O';text-align:center;direction:rtl;text-anchor:middle;fill:#000000;stroke-width:4.6;stroke-dasharray:none"
        x="404.69186"
-       y="217.9837"
+       y="261.9837"
        id="text8"><tspan
          sodipodi:role="line"
          id="tspan8"
          x="404.69186"
-         y="217.9837">tatru</tspan></text>
+         y="261.9837">tatru</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Linux Libertine O';-inkscape-font-specification:'Linux Libertine O';text-align:center;direction:rtl;text-anchor:middle;fill:#000000;stroke-width:4.6;stroke-dasharray:none"
