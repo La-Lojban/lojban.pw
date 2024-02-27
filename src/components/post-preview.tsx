@@ -16,12 +16,14 @@ const PostPreview = ({ post }: Props) => {
     <div
       className={
         "max-w-md p-4 align-middle shadow-lg rounded-lg grid place-items-left bg-blend-lighten bg-right" +
-        (coverImage ? " bg-white/50" : " bg-white")
+        (coverImage ? " bg-white/25" : " bg-white")
       }
       style={{
         backgroundImage: `url('${coverImage}')`,
-        backgroundPosition: "right",
+        backgroundPosition: "left",
         backgroundRepeat: "no-repeat",
+        backgroundSize: 'auto 100%'
+
       }}
     >
       <div className="inner">

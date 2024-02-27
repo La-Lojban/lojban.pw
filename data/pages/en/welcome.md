@@ -5,20 +5,22 @@ meta.title: What is Lojban?
 
 **Lojban** is a spoken logical language that was created in 1987 and is now supported by its speakers.
 
-Here are copyright-free, unofficial, libre tutorials and documentation on the Lojban language.
+This website lists unofficial free libre tutorials and documentation on the Lojban language.
 
-You can send any suggestions to [gleki.is.my.name@gmail.com](mailto:gleki.is.my.name@gmail.com) or add issues at the [Lojban source repository](https://github.com/la-lojban/lojban-made-easy/issues).
+## [‘Learn Lojban’ course](/en/books/learn-lojban)
 
-## [‘Learn Lojban’ course](/books/learn-lojban)
+<pixra redirect="/en/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="‘Learn Lojban’ course"></pixra>
 
 This course teaches Lojban from its formal foundations, but in simple terms and with plenty of usage examples.
 
 * [PDF](/vreji/uencu/en/learn-lojban.pdf) - in a PDF file for download.
 
 
-## [Live Lojban chat](https://discord.gg/wasp5fj)
+## [Live Lojban chat](/en/articles/live_chat)
 
-in the Discord messenger
+in the Discord, Telegram messengers.
+
+You can send any suggestions regarding courses on this website to that [live chat](/en/articles/live_chat) or to [gleki.is.my.name@gmail.com](mailto:gleki.is.my.name@gmail.com) or add issues at the [Lojban source repository](https://github.com/la-lojban/lojban.pw/issues).
 
 ## Unofficial ‘Complete Lojban Language’ Book, October 2022 Edition
 
@@ -42,6 +44,10 @@ Explore [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&s
 
 * De facto standard definitions of words
 * Experimental definitions and usage examples
+
+## Suggestions
+
+You can send any suggestions to [gleki.is.my.name@gmail.com](mailto:gleki.is.my.name@gmail.com) or add issues at the [Lojban source repository](https://github.com/la-lojban/lojban-made-easy/issues).
 
 ## License
 

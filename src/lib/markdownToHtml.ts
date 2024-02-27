@@ -104,6 +104,7 @@ export default async function markdownToHtml({
   ).map((element: HTMLElement) => {
     return {
       url: element.getAttribute("url"),
+      redirect: element.getAttribute("redirect") ?? null,
       caption:
         element.getAttribute("caption") ??
         element.getAttribute("definition") ??
