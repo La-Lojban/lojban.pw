@@ -15,8 +15,9 @@ This course teaches Lojban from its formal foundations, but in simple terms and 
 
 * [PDF](/vreji/uencu/en/learn-lojban.pdf) - in a PDF file for download.
 
-
 ## [Live Lojban chat](/en/articles/live_chat)
+
+<pixra redirect="/en/articles/live_chat" url="/assets/pixra/ralju/jduli.svg" caption="Live Lojban chat"></pixra>
 
 in the Discord, Telegram messengers.
 
