@@ -16,7 +16,7 @@ const PostPreview = ({ post }: Props) => {
     <div
       className={
         "max-w-md p-4 align-middle shadow-lg rounded-lg grid place-items-left bg-blend-lighten bg-right" +
-        (coverImage ? " bg-white/25" : " bg-white")
+        (coverImage ? " bg-white" : " bg-white")
       }
       style={{
         backgroundImage: `url('${coverImage}')`,
