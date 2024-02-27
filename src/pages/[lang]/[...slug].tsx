@@ -83,14 +83,14 @@ const Post = ({
               <div className="relative block max-w-sm h-10 mx-auto mb-2 flex justify-around print:hidden">
                 {posts.length > 0 && (
                   <>
-                    {post.slug[1]==='books' && (
-                        <a
-                          key={`bangu-pdf`}
-                          href={`/vreji/uencu/${post.slug[0]}/${post.slug.slice(-1)[0]}.pdf`}
-                          className="hover:from-lime-200 hover:to-lime-200 ease bg-gradient-to-br from-lime-50 to-white-900 h-10 inline-block py-2 px-4 border border-t-0 border-lime-500 hover:border-lime-600 ml-2 rounded-b-md shadow-md"
-                        >
-                          <FontAwesomeIcon className="w-6" icon={faFilePdf} />
-                        </a>
+                    {post.slug[1] === "books" && (
+                      <a
+                        key={`bangu-pdf`}
+                        href={`/vreji/uencu/${post.slug[0]}/${post.slug.slice(-1)[0]}.pdf`}
+                        className="hover:from-lime-200 hover:to-lime-200 ease bg-gradient-to-br from-lime-50 to-white-900 h-10 inline-block py-2 px-4 border border-t-0 border-lime-500 hover:border-lime-600 ml-2 rounded-b-md shadow-md"
+                      >
+                        <FontAwesomeIcon className="w-6" icon={faFilePdf} />
+                      </a>
                     )}
                     {posts.map((post) => {
                       return (
@@ -251,7 +251,7 @@ export async function getStaticProps({ params }: Params) {
   const currentLanguage = params.lang;
 
   const allPosts = await getAllPosts(
-    ["slug", "hidden", "title", "directory"],
+    ["slug", "hidden", "title", "directory", "coverImage"],
     true
   );
   const posts = allPosts.reduce(

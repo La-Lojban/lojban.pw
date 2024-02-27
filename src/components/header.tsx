@@ -49,6 +49,7 @@ export default function Header({
             url: localizedUrl,
             name: post.title,
             directory: post.slug[0],
+            coverImage: post.coverImage,
           });
         }
         return acc;
@@ -59,6 +60,7 @@ export default function Header({
       })[0];
     return { ...item, foundTitle };
   });
+  console.log(header_);
   return (
     <Popover
       as="nav"
@@ -82,6 +84,7 @@ export default function Header({
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-3">
                     {header_.map((item) => {
+                      const { coverImage } = item.foundTitle;
                       return (
                         <Link
                           href={
@@ -93,7 +96,13 @@ export default function Header({
                           className="mt-auto"
                         >
                           <button
-                            className={`flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base px-4 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center`}
+                            className={`h-8 flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base px-4 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center`}
+                            // style={{
+                            //   backgroundImage: `url('${coverImage}')`,
+                            //   backgroundPosition: "right",
+                            //   backgroundRepeat: "no-repeat",
+                            //   backgroundSize: "auto 100%",
+                            // }}
                           >
                             {/* {item.ogImage && <img src={item.ogImage} className="h-7 mr-2"/>} */}
                             <span className="py-1">
@@ -220,8 +229,8 @@ export default function Header({
             {hasToC && (
               <>
                 <h1 className={`flex bg-gray-200 ${buttonClass}`}>
-                    <FontAwesomeIcon icon={faScroll} className="h-6" />
-                    <FontAwesomeIcon icon={faList} className="ml-2 h-6" />
+                  <FontAwesomeIcon icon={faScroll} className="h-6" />
+                  <FontAwesomeIcon icon={faList} className="ml-2 h-6" />
                 </h1>
 
                 {/* toc */}

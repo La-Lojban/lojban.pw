@@ -23,7 +23,6 @@ const PostPreview = ({ post }: Props) => {
         backgroundPosition: "left",
         backgroundRepeat: "no-repeat",
         backgroundSize: 'auto 100%'
-
       }}
     >
       <div className="inner">
