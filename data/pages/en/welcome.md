@@ -21,8 +21,6 @@ This course teaches Lojban from its formal foundations, but in simple terms and 
 
 in the Discord, Telegram messengers.
 
-You can send any suggestions regarding courses on this website to that [live chat](/en/articles/live_chat) or to [gleki.is.my.name@gmail.com](mailto:gleki.is.my.name@gmail.com) or add issues at the [Lojban source repository](https://github.com/la-lojban/lojban.pw/issues).
-
 ## Unofficial ‘Complete Lojban Language’ Book, October 2022 Edition
 
 This book adheres to the original book published in 1997 and:
