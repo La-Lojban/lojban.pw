@@ -6,7 +6,6 @@ import markdownToHtml from "../../lib/markdownToHtml";
 import { Params } from "../[lang]/[...slug]";
 
 const Post = (pam: any) => {
-  console.log({pam});
   const router = useRouter();
   useEffect(() => {
     router.replace("/en" + router.asPath);

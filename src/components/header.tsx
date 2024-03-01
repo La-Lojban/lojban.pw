@@ -60,7 +60,7 @@ export default function Header({
       })[0];
     return { ...item, foundTitle };
   });
-  console.log(header_);
+
   return (
     <Popover
       as="nav"
