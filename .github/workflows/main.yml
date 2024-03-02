@@ -1,0 +1,80 @@
+name: CI/CD with Docker
+
+on:
+  push:
+    branches: [ react ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+env:
+  TAG_NAME: ${{ github.sha }}
+
+jobs:
+  build:
+    name: Build for GitHub Pages
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+    - name: Build the Docker image
+      run: |
+        docker pull lojban:latest || true
+        docker build --cache-from lojban:latest --file Dockerfile --tag lojban:latest .
+        # docker build --cache-from lojban:latest --file Dockerfile --tag lojban:${{ env.TAG_NAME }} .
+
+    # - name: Build the Docker image
+    #   run: docker build . --file Dockerfile --tag lojban:latest
+    #   # run: docker build . --file Dockerfile --tag lojban:${{ env.TAG_NAME }}
+    
+    - name: Run Docker container
+      run: |
+        docker run -v /output:/app/src/out1 \
+                    -v ${{ github.workspace }}/data/config:/app/src/config \
+                    -v ${{ github.workspace }}/data/pages:/app/src/md_pages \
+                    -v ${{ github.workspace }}/data/assets:/app/src/public/assets \
+                    -v ${{ github.workspace }}/data/DNS:/app/service/DNS \
+                    -v ${{ github.workspace }}/src:/app/src \
+                    -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
+                    -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
+                    lojban:latest \
+                    sh -c "npm install && npx playwright install chromium && npx playwright install-deps && npm run cicd"
+
+    # - name: Run Docker container
+    #   uses: kohlerdominik/docker-run-action@v1
+    #   with:
+    #     run: npm install && npx playwright install chromium && npx playwright install-deps && npm run cicd
+    #     image: lojban:latest
+    #     environment: |
+    #       GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }}
+    #       GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }}
+    #     # image: lojban:${{ env.TAG_NAME }}
+    #     volumes: |
+    #       /output:/app/src/out1
+    #       ${{ github.workspace }}/data/config:/app/src/config \
+    #       ${{ github.workspace }}/data/pages:/app/src/md_pages \
+    #       ${{ github.workspace }}/data/assets:/app/src/public/assets \
+    #       ${{ github.workspace }}/data/DNS:/app/service/DNS \
+    #       ${{ github.workspace }}/src:/app/src
+    
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: /output/
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
