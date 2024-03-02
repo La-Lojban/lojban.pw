@@ -1321,8 +1321,7 @@ mi en sina li lon pali sama la mi wile toki wawa e ni la mi kepeken nimi ni pi k
 > _sina en mi li toki lon nasin toki._
 > _sina en mi li lon pali wan ni: sina en mi li toki lon nasin toki.
 
-nimi **mi'o** li ni: sina en mi. lon la nimi **mi joi do** kin li ken toki e ni, li sama ale lon sona (li ike ni taso: ona li nimi mute). toki Losupan la, nimi wan taso ala li sama nimi _mi mute_, nasin mute la sina ken pana e sona suli sama ni: **mi joi le pendo** (_mi en jan pona_).
-The pronoun **mi'o** (_you and I together_) can actually be expressed as **mi joi do**, which means exactly the same (it's just longer). In Lojban, you may use not a single word for _we_ but more precise constructs like **mi joi le pendo** (literally _I and the friends_).
+nimi **mi'o** li ni: sina en mi. lon la nimi **mi joi do** kin li ken toki e ni, li sama ale lon sona (li ike ni taso: ona li nimi mute). toki Losupan la, nimi wan taso ala li sama nimi _mi mute_. nasin mute la sina ken pana e sona suli sama ni: **mi joi le pendo** (_mi en jan pona_).
 
 <pixra url="/assets/pixra/cilre/casnu.webp" caption="do joi le pendo joi mi casnu" definition="sina en jan pona e mi li toki."></pixra>
 
@@ -1953,76 +1952,76 @@ o len e poka pini pi lipu ni. o lukin e poka open o ante e toki ale tawa toki Lo
 <td><b>mi'o pu ca'o zvati le zdani ca le nu carvi</b>
 </td></tr></tbody></table>
 
-<!--
-### Names. Choosing a name
+### nimi jan. nimi sina li seme?
 
-**cmevla**, or _name word_, is a special kind of word used to build personal names. It's easy to recognize le cmevla in a text flow, as they are the only words that end in a consonant and are wrapped by one dot on each side.
+<!-- XXX "nimi nimi" nimi ike -->
 
-Examples of le cmevla are: **.paris.**, **.robin.**
+nasin nasin **cmevla** li tawa ni: nimi jan en nimi ma en nimi ante pi ijo wan taso li ken kepeken nimi cmevla. (nimi **cmevla** li sama _nimi nimi_.) sina lukin e sitelen toki mute la sina ken lukin e nasin nimi cmevla lon tenpo lili tan ni: nimi ni taso la kalama pini nanpa wan li kalama pi uta pini. kin la nimi ni taso la sitelen `.` li lon open lon pini.
 
-If one's name is _Bob_ then we can create a cmevla ourselves that would sound as close as possible to this name, for example: **.bab.**
+nimi cmevla li ken sama ni: **.paris.**, **.robin.**
 
-The simplest example of using a name would be
+nimi jan li _Bob_ la mi ken pali e nimi ni pi nasin cmevla: kalama la ona li sama mute sama nimi jan ni. nimi ni la: **.bab.**
+
+toki lili ni li kepeken nimi jan:
 
 > **la .bab. cu tcidu**
-> _Bob reads/is reading._
+> _jan Pa li lukin e lipu._
 
 tcidu
-: … reads
+: jan … li lukin e lipu
 
-<pixra url="/assets/pixra/cilre/tcidu_la_lojban.webp" caption="le prenu ca'o tcidu" definition="The person is reading."></pixra>
+<pixra url="/assets/pixra/cilre/tcidu_la_lojban.webp" caption="le prenu ca'o tcidu" definition="jan li lukin e lipu."></pixra>
 
-**la** is similar to **le**, but it converts a word into a name instead of a simple argument.
+nimi **la** li sama nimi **le**, taso ijo insa ona li nimi taso li jo ala e sona, li nimi sona ala.
 
-In English, we start a word with a capital letter to show that it is a name. In Lojban, we use the prefix word **la**.
+toki pona la sitelen nimi nanpa wan li suli la nimi li nimi pi toki ante. toki Losupan la nimi open poki **la** li sama.
 
-Always use **la** when producing names!
+o kepeken nimi **la** lon nimi nimi lon tenpo ale!
 
-A name can consist of several cmevla one after another:
+nimi nimi li ken nimi mute poka pi nasin cmevla:
 
 > **la .bab.djansyn. cu tcidu**
-> _Bob Johnson reads/is reading._
+> _jan Pa Sansan li lukin e lipu._
 
-Here, we separated the two cmevla with just one dot, which is enough.
+toki ni la nimi cmevla tu la sike lili wan taso li lon insa. ni taso li wile.
 
-It's common to omit dots in front of and at the end of le cmevla to write texts faster, for example, when text chatting. After all, le cmevla are still separated from neighboring words by spaces around them:
+tenpo mute la jan li sitelen e nimi cmevla la ona li sitelen ala e sike lili open pini. ni la jan li ken sitelen kepeken tenpo lili. sitelen la nimi cmevla en nimi poka li awen tu tan ni: weka sitelen li lon sama ni:
 
 > **la bab djansyn cu tcidu**
 
-However, in spoken language, it is still necessary to put a short pause before and after le cmevla.
+taso, jan li kalama e nimi cmevla la, lape lili open pini li ken ala weka.
 
-Bob's first name, the name of the language _Lojban_, can be used in Lojban without many changes:
+nimi pi toki _Lojban_ li ken nimi cmevla li wile ala kama ante.
 
 > **la .lojban. cu bangu mi**
-> _I speak Lojban._
-> Lojban is a language of me.
-> `Lojban is a language I use.`
+> _mi toki kepeken toki Losupan._
+> toki Losupan li toki mi.
 
 bangu
-: … is a language used by … (someone)
+: toki … li nasin toki. jan … li kepeken ona.
 
-<!-- ~~>
+<!-- -->
 > **mi nintadni la .lojban.**
-> _I am a new student of Lojban._
-<!-- ~~>
+> _mi jan sin pi kama sona li kama sona e toki Losupan._
+<!-- -->
 > **mi tadni la .lojban.**
-> _I study Lojban._
+> _mi kama sona e toki Losupan._
 
-<pixra url="/assets/pixra/cilre/tadni.webp" caption="le prenu ca ca'o tadni la .lojban." definition="The person is now studying Lojban."></pixra>
+<pixra url="/assets/pixra/cilre/tadni.webp" caption="le prenu ca ca'o tadni la .lojban." definition="tenpo ni la jan li kama sona e toki Losupan."></pixra>
 
-Lojban letters directly correspond to sounds, so there are some rules for adapting names to how they are written in Lojban. This may sound strange — after all, a name is a name — but all languages do this to some extent. For example, English speakers tend to pronounce _Jose_ as _Hozay_, and _Margaret_ in Chinese is _Magelita_. Some sounds simply don't exist in some languages, so you need to rewrite the name so that it only contains Lojban sounds and is spelt according to letter-sound correspondence.
+sitelen pi toki Losupan li sitelen a e kalama, la nasin li lon ni: nimi pi toki ante li kama ante li kama pona lon nasin sitelen pi toki Losupan. ni li nasa anu seme? ijo li jo e nimi la nimi ona li nimi ni li nimi ante ala anu seme? taso lon la toki ale li wile ante lili e nimi. nimi _Jose_ la jan pi toki pona li kalama sama _Ose_. nimi _Margaret_ la toki Sonko li kalama e ni sama _Magelita_. toki mute la kalama mute li lon ala. toki Losupan la sina o ante e nimi tawa ni: kalama ale nimi li ken lon toki Losupan, sitelen nimi li sama kalama nimi.
 
-For example:
+o lukin:
 
 la .djansyn.
-: Johnson (probably, closer to American pronunciation)
+: jan Sonson (ken suli la nimi li Johnson lon toki Inli pi ma Mewika)
 
 la .suzyn.
-: Susan (the two letters _s_ are pronounced differently: the second one is actually a _z_, and the _a_ is not really an _a_ sound)
+: jan Susan (toki Inli la sitelen _s_ tu li kalama ante. lon la sitelen tu li mu _z_. kin la sitelen _a_ pi toki Inli li kalama _a_ lon ala.)
 
-Pay attention to how the name is pronounced natively. As a result, the English and French names _Robert_ come out differently in Lojban: the English name is **.robyt.** in UK English, or **.rabyrt.** in some American dialects, but the French is **.rober.**
+o kute e ni: jan pi nimi ni li kalama seme e nimi? nimi _Robert_ la toki Inli en toki Kanse la nimi ante li kama lon toki Losupan tan toki ni. nimi ni pi toki Inli li nimi **.robyt.** lon toki Inli pi ma Juke, li ken nimi **.rabyrt.** lon nasin pi ma Mewika, taso nimi pi toki Kanse li kama nimi **.rober.**
 
-Here are "Lojbanizations" of some names:
+ni la nimi mute li kama nimi pi toki Losupan lon kalama sama:
 
 - _Alice_ ⇒ **la .alis.**
 - _Mei Li_ ⇒ **la .meilis.**
@@ -2037,292 +2036,288 @@ Here are "Lojbanizations" of some names:
 - _Adam_ ⇒ **la .adam.**
 - _Lucas_ ⇒ **la .lukas.**
 
-Notes:
+sona namako:
 
-* Two additional full stops (periods) are necessary because if you don't put those pauses in speech, it might become difficult to know where the name starts and ends, or in other words, where the previous word ends and the next word begins.
-* The last letter of a cmevla must be a consonant. If a name doesn't end in a consonant, we usually add an **s** to the end; so in Lojban, _Mary_ becomes **.meris.**, _Joe_ becomes **.djos.**, and so on. Alternatively, we can leave out the last vowel, so _Mary_ would become **.mer.** or **.meir**.
+* sike lili tu pi weka lili kalama o lon tan ni: sina toki kalama la sina weka lili ala e kalama la jan li ken ala kute pona e ni: seme la nimi ni li open li pini? seme la nimi pini li pini la nimi ni li open? seme la nimi ni li pini la nimi kama li open?
+* nasin nimi cmevla la sitelen pini nanpa wan o kalama pi uta pini. nimi la pini li kalama pi uta open la tenpo mute la jan li pana e mu **s** tawa pini. ni la toki Losupan la nimi _Mary_ li kama nimi **.meris.**. nimi _Joe_ li kama nimi **.djos.**. ken ante la jan li ken weka e mu pini pi uta open sama ni: nimi _Mary_ li ken kama nimi **.mer.** li ken kama nimi **.meir.**.
 * You can also put a full stop between a person's first and last names (though it's not compulsory), so _Jim Jones_ becomes **.djim.djonz.**
+* nimi jan li nimi tu la sike lili pi weka kalama li ken lon insa. (taso ni li ken lon ala.) nasin ni la nimi _Jim Jones_ li kama nimi **.djim.djonz.**
 
-### Rules for making le cmevla
+### nimi cmevla la nasin pali
 
-Here is a compact representation of Lojban sounds:
+lipu lili ni la ni li mu ale pi toki Losupan:
 
-- vowels:
+- mu pi uta open:
   - **a e i o u y au ai ei oi**
-- consonants:
-  - **b d g v z j** (voiced)
-  - **p t k f s c x** (unvoiced)
+- mu pi uta pini:
+  - **b d g v z j** (insa uta li mu)
+  - **p t k f s c x** (insa uta li mu ala)
   - **l m n r**
-  - **i u**. They are considered consonants when placed between two vowels or at the beginning of a word. **.iaua** — **i** and **u** are consonants here. **.iai** — here is the consonant **i** with the vowel **ai** after it.
-  - **'** (apostrophe). It is placed only between two vowels: **.e'e**, **.u'i**
-  - **.** (dot, word break)
+  - **i u**. mu ni li sama mu pi uta pini lon ni: ona li lon insa pi mu tu ante pi uta open, anu li lon open nimi. nimi **.iaua** la — mu **i** en mu **u** la uta pini. nimi**.iai** la — mu **i** la uta pini mu **ai** pi uta open li kamaj
+  - **'** (apostrophe). ni li ken lon ni taso: mu tu pi uta open la insa. sama ni: **.e'e**, **.u'i**
+  - **.** (sike lili, pini nimi)
 
-To create a Lojban name, follow these rules:
+sina ante e nimi ijo tawa toki Losupan la, o kepeken nasin ni:
 
-1. the name must end in a consonant except **'**. If not, add a consonant at the end yourself. Additionally, wrap it with a dot from each side: **.lojban.**.
-2. vowels can only be placed between two consonants:  **.sam.**, **.no'am.**
-3. double consonants are merged into one: _dd_ becomes **d**, _nn_ becomes **n** etc. Or a **y** is placed between them: **.nyn.**
-4. if a voiced and an unvoiced consonants are next to each other, insert a **y** between them: **kv** becomes **kyv**. Alternatively, you can remove one of the letters instead: **pb** can be turned into a single **p** or a single **b**.
-5. if one of **c**, **j**, **s**, **z** are next to each other, insert a **y** between them: **jz** becomes **jyz**. Alternatively, you can remove one of the letters instead: **cs** can be turned into a single **c** or a single **s**.
-6. if **x** is next to **c** or next to **k**, insert a **y** between them: **cx** becomes **cyx**, **xk** becomes **xyk**. Alternatively, you can remove one of the letters instead: **kx** can be turned into a single **x**.
-7. the substrings **mz**, **nts**, **ntc**, **ndz**, **ndj** are fixed by adding a **y** inside or deleting one of the letters: **nytc** or **nc**, **.djeimyz.**
-8. double **ii** between vowels is merged into a single **i**: **.eian.** (but not **.eiian.**)
-9. double **uu** between vowels is merged into a single **u**: **.auan.** (but not **.auuan.**)
-10. the sound for the English "h" as in Harry can be either dropped or replaced with **x**. _Harry_ can become **.aris.** or **.xaris.**
+1. pini nimi la mu pi uta open o lon o mu **'** ala. mu pona li lon ala la o pana e mu sin tawa pini nimi. kin la o pana e sike lili lon open lon pini sama ni: **.lojban.**.
+2. mu pi uta open li ken lon ni taso: mu tu pi uta pini la insa. **.sam**, **.no'am.**
+3. mu sama tu pi uta pini li lon poka la ona li kama wan. _dd_ la **d**, _nn_ la **n**, sama ni. ken ante la mu **y** li ken kama lon insa sama ni: **.nyn.**
+4. mu tu poka pi uta pini la, mu wan li kepeken mu insa uta la mu ante li kepeken ala la, o pana e mu **y** lon insa sama ni: **kv** la **kyv**. ken ante la sina ken weka taso e mu ni wan sama ni: mu **pb** li ken kama mu **p** taso li ken kama mu **b** taso.
+5. mu **c** en mu **j** en mu **s** en mu **z** la, mu ni tu li poka la, o pana e mu **y** lon insa sama ni: **jz** la **jyz**. ken ante la sina ken weka taso e mu ni wan sama ni: mu **cs** li ken kama mu **c** taso li ken kama mu **s** taso.
+6. mu **c** en mu **k** la, mu **x** li lon poka pi ni wan la, o pana e mu **y** lon insa sama ni: **cz** la **cyz**, **xk** la **xyk**. ken ante la sina ken weka taso e mu ni wan sama ni: mu **kx** li ken kama mu **x** taso.
+7. mu **mz** en mu **nts** en mu **ntc** en mu **ndz** en mu **ndj** li pakala. o pona ni e ona: ken la o pana e mu **y** lon insa. ken la o weka e sitelen wan. sama ni: **nytc**, **nc**, **.djeimyz**
+8. insa pi mu tu pi uta open la mu mu tu **ii** li kama mu **i** wan sama ni: **.eian.** (**.eiian.** ala)
+9. insa pi mu tu pi uta open la mu mu tu **uu** li kama mu **u** wan sama ni: **.auan.** (**.auuan.** ala)
+10. nimi Harry pi toki Inli la mu "h" li lon open. toki Losupan la mu ni li ken weka li ken kama mu **x**. nimi _Harry_ li ken kama nimi **.aris.** li ken kama nimi **.xaris.**.
 
-### Relation words as names
+### nimi sona li ken nimi sina
 
-You can select an enjoyable nickname in Lojban by using not only cmevla but also relation words. You can also translate your present name into Lojban if you know what it means, or choose a completely new Lojban name.
+sina pana e nimi tawa sina lon toki Losupan la sina ken kepeken nimi cmevla taso ala li ken kepeken nimi sona a. sina sona e kon pi nimi sina la sina ken kepeken nimi sona sama. sina ken pali e nimi sin a kin.
 
-Here are a few examples:
+o lukin e ken mute:
 
 <table>
 <thead>
 <tr>
-<th> Original name </th>
-<th> Original meaning </th>
-<th> Word in Lojban </th>
-<th> Meaning in Lojban </th>
-<th> Your name
+<th> nimi mama </th>
+<th> kon mama </th>
+<th> nimi sona pi toki Losupan </th>
+<th> kon nimi pi toki Losupan </th>
+<th> nimi sina
 </th></tr>
 </thead>
 <tbody>
 <tr>
 <td> Alexis </td>
-<td> <i>helper</i> in Greek </td>
+<td> toki Elena la <i>jan ni: ona li pana e pona</i> </td>
 <td><b>le sidju</b></td>
-<td><i>the helper</i> </td>
+<td><i>jan ni: ona li pana e pona</i> </td>
 <td><b>la sidju</b>
 </td></tr>
 <tr>
 <td> Ethan </td>
-<td> <i>solid, during</i> in Hebrew </td>
+<td> toki Iwisi la <i>kiwen, awen</i> </td>
 <td><b>le sligu</b></td>
-<td><i>the solid</i> </td>
+<td><i>ijo kiwen awen</i> </td>
 <td><b>la sligu</b>
 </td></tr>
 <tr>
 <td> Mei Li </td>
-<td><i>beautiful</i> in Mandarin Chinese </td>
+<td>toki Sonko la <i>pona lukin</i> </td>
 <td><b>le melbi</b></td>
-<td><i>the beautiful ones</i> </td>
+<td><i>ijo ni: ona li pona lukin</i> </td>
 <td><b>la melbi</b>
 </td></tr></tbody></table>
 
-### ‘_he_’ ‘_she_’
+### ‘_ona_’
 
-Lojban doesn't have distinct words for _he_ or _she_. Possible solutions:
+toki Inli la nimi _ona_ li ken mije li ken meli. toki Losupan la ni li lon ala, sama toki pona. sina wile a toki e mije e meli la:
 
 le ninmu
-: the woman (in gender sense)
+: jan meli
 
-<pixra url="/assets/pixra/cilre/ninmu.webp" caption="le ninmu" definition="the woman (female human)"></pixra>
+<pixra url="/assets/pixra/cilre/ninmu.webp" caption="le ninmu" definition="jan meli"></pixra>
 
 le nanmu
-: the male man (in gender sense)
+: jan mije
 
-<pixra url="/assets/pixra/cilre/nanmu.webp" caption="le nanmu" definition="the man (male human)"></pixra>
+<pixra url="/assets/pixra/cilre/nanmu.webp" caption="le nanmu" definition="jan mije"></pixra>
 
 > **le ninmu cu tavla le nanmu .i le ninmu cu jatna**
-> _The woman talk to the man. She is a leader._
+> _meli li toki tawa mije. meli li jan lawa. She is a leader._
 
 jatna
-: … is a leader, commander
+: jan … li lawa
 
-Lojbanists have proposed various words for other genders like
+kulupu pi toki Losupan li pali e nimi ante tawa nasin tonsi mute, sama ni:
 
 le nonmu
-: the agender person
+: jan pi nasin mije meli tonsi ala
 
 le nunmu
-: the non-binary-gendered person
+: jan tonsi
 
-However, in most situations, using **le prenu** (_the person_) or personal names is sufficient.
+taso, tenpo mute la, nimi **le prenu** (_jan_) en nimi jan li pona ale wile.
 
-Another choice is to use the short pronoun **ri**, which refers to the previous argument term:
+ken ante la nimi lili **ri** li lon li toki sin e ijo ni: toki la, nimi ijo pini nanpa wan la, ijo pi nimi ni.
 
 > **mi pu klama le nurma .i ri melbi**
-> _I went to the country. It was beautiful._
+> _tenpo pini la mi tawa ma pi tomo ala. ona (ma) li pona lukin._
 
 le nurma
-: the rural area
+: ma pi tomo mute ala
 
-Here, **ri** refers to the country side.
+toki ni la, nimi **ri** li toki e ma.
 
-<pixra url="/assets/pixra/cilre/nurma.webp" caption="nurma" definition="… is a rural area"></pixra>
+<pixra url="/assets/pixra/cilre/nurma.webp" caption="nurma" definition="ma … li ma pi tomo mute ala"></pixra>
 
 > **mi tavla le pendo .i ri jundi**
 > _I talk to the friend. He/she is attentive._
+> _mi toki tawa jan pona. ona li kute pona._
 
 jundi
-: … is attentive
+: jan … li pana e wawa tawa ni: ona li ken kama pilin e ijo suli tan ijo …; jan … li kute pona e ijo …
 
-Here, **ri** refers to the friend.
+toki ni la nimi **ri** li toki e jan pona.
 
-<pixra url="/assets/pixra/cilre/jundi.webp" caption="le prenu cu jundi" definition="The person is attentive."></pixra>
+<pixra url="/assets/pixra/cilre/jundi.webp" caption="le prenu cu jundi" definition="jan li kute pona."></pixra>
 
+o sona e ni: nimi **ri** li alasa e ijo ona la ona li lukin ala e nimi **mi** (_mi_) e nimi **do** (_sina_).
 Note: **ri** skips pronouns **mi** (_I_) and **do** (_you_):
 
 > **le prenu cu tavla mi .i ri pendo mi**
-> _The person talks to me. He/she is a friend of mine._
+> _jan li toki tawa mi. ona (jan) li jan pona mi._
 
-Here, **ri** skips the previous pronoun **mi** and thus refers to **le prenu** which is the preceding argument term available.
+toki ni la, nimi **ri** li alasa e ijo la, ona li lukin ala e nimi **mi**, li kama lukin e nimi **le prenu**, li kama toki e ijo ni.
 
-### Introducing yourself. Vocatives
+### o toki e nimi sina. nimi pilin ijo
 
-In Lojban, _vocatives_ are words that behave like interjections (such as **xu** which we earlier discussed), but they require an argument to be attached to the right of them:
+toki Losupan la _nimi pilin ijo_ li nasin nimi. nimi ni li sama nimi pilin (sama nimi **xu**, lipu ni li toki e ona lon tenpo pini.) taso ona li wile e ijo a li toki kepeken ijo ni.
 
 > **coi do**
-> _Hello, you!_
+> _sina o, toki!_
 
 coi
-: vocative: Hello! Hi!
+: nimi pilin ijo: toki! mi kama lukin e sina! toki li open!
 
-We use **coi** followed by an argument term to greet someone.
+mi kama lukin e jan li wile toki tawa ona la mi kepeken nimi **coi** kepeken nimi ijo pi jan ni.
 
 > **co'o do**
-> _Goodbye to you._
+> _sina o, tawa pona._
 
 co'o
-: vocative: goodbye!
+: nimi pilin ijo: toki li pini! tawa pona!
 
-<pixra url="/assets/pixra/cilre/coho.webp" caption="co'o do" definition="Good-bye to you!"></pixra>
+<pixra url="/assets/pixra/cilre/coho.webp" caption="co'o do" definition="sina o, tawa pona!"></pixra>
 
 <div class="common"></div>
 
 > **coi ro do**
-> _Hello everyone!_
-> `Hello each of you`
+> _sina ale o, toki!_
 
-— is how people usually start a conversation with several people. Other numbers are possible of course: **coi re do** means *Hello you two* etc.
+tenpo mute la jan li open e toki tawa jan mute la jan li toki ni. nanpa ante li ken a; **coi ro do** la *sina tu o, toki!*
 
-Since vocatives work like interjections we have nice types of greetings:
+nimi pilin ijo ni li sama nimi pilin la, mi ken toki e tenpo e suno lon mu pi open toki sama ni:
 
-<pixra url="/assets/pixra/cilre/cerni.webp" caption="cerni" definition="… is morning"></pixra>
-<pixra url="/assets/pixra/cilre/donri.webp" caption="donri" definition="… is daylight time"></pixra>
-<pixra url="/assets/pixra/cilre/vanci.webp" caption="vanci" definition="… is evening"></pixra>
-<pixra url="/assets/pixra/cilre/nicte.webp" caption="nicte" definition="… is nighttime"></pixra>
+<pixra url="/assets/pixra/cilre/cerni.webp" caption="cerni" definition="tenpo … li open suno"></pixra>
+<pixra url="/assets/pixra/cilre/donri.webp" caption="donri" definition="tenpo … li tenpo suno"></pixra>
+<pixra url="/assets/pixra/cilre/vanci.webp" caption="vanci" definition="tenpo … li pini suno"></pixra>
+<pixra url="/assets/pixra/cilre/nicte.webp" caption="nicte" definition="tenpo … li tenpo pimeja"></pixra>
 
 <div class="common"></div>
 
 > **cerni coi**
-> _Good morning!_
-> `It's morning — Hello!`
+> _open suno la toki!_
+> `open suno li lon — toki a!`
 
 <div class="common"></div>
 
 > **vanci coi**
-> _Good evening!_
+> _pini suno la toki!_
 
 <div class="common"></div>
 
 > **donri coi**
-> _Good day!_
+> _tenpo suno la toki!_
 
-<!-- ~~>
+<!-- -->
 
 > **nicte coi**
-> _Nightly greetings!_
+> _tenpo pimeja la toki!_
 
-Note: in English _Goodnight!_ means _Goodbye!_ or denotes wishing someone a good night. By its meaning, _Goodnight!_ doesn't belong to the series of greetings above. Thus, we use different wording in Lojban:
+tenpo pimeja la toki li pini la toki ni li ken:
 
 <div class="common"></div>
 
 > **nicte co'o**
-> _Good night!_
-
-or
+> _tenpo pimeja la tawa pona!_
 
 <div class="common"></div>
 
 > **.a'o pluka nicte**
-> _Pleasant night!_
+> _tenpo pimeja o pona pilin!_
 
 .a'o
-: interjection: I hope
+: nimi pilin: ni o lon; mi wile e ni (mi ken ala lon e ni, taso ni o kama)
 
 pluka
-: … is pleasant to … (someone)
+: ijo … li pona pilin tawa jan …
 
-Of course, we can be vague by just saying **pluka nicte** (just meaning _pleasant night_ without any wishes explicitly said).
+toki lili la mi ken weka e nimi **a'o** li ken toki **pluka nicte** taso (_tenpo pimeja pona_ taso; ni li toki ala e wile.)
 
-The vocative **mi'e** + an argument is used to introduce yourself:
+nimi pilin **mi'e** en nimi ijo la sina toki e nimi sina, sama ni:
 
 > **mi'e la .doris.**
-> _I'm Doris. This is Doris speaking._
+> _mi jan Towi. jan toki li jan Towi._
 
 mi'e
-: vocative: identifies speaker
+: nimi pilin ijo: li toki e nimi pi jan toki
 
-The vocative **doi** is used to address someone directly:
+nimi pilin ijo **doi** li toki e nimi jan li wile kama e kute ona, sama nimi **o** pi toki pona pi nasin ni: ona li lon pini pi nimi jan.
 
 > **mi cliva doi la .robert.**
-> _I'm leaving, Robert._
+> _mi tawa weka, jan Lope o._
 
 cliva
-: to leave (something or someone)
+: ijo … li tawa weka tan ijo …
 
-Without **doi**, the name might fill the first argument of the relation:
+toki ni la nimi **doi** li lon ala la nimi jan li kama lon poki pi nimi sona **cliva** sama ni:
 
 > **mi cliva la .robert.**
-> _I'm leaving Robert._
+> _mi tawa weka tan jan Lope._
 
-**doi** is a like Old English _O_ (as in _O ye of little faith_) or the Latin vocative (as in _Et tu, Brute_). Some languages don't distinguish between these contexts, although as you can see, Old English and Latin did.
-
-Two more vocatives are **ki'e** for saying thanks and **je'e** for accepting them:
+o kama sona e nimi pilin sin tu. nimi **ki'e** li toki e ni: jan li pali pona. sina kute e ni la o toki e nimi **je'e** la sina toki e ni: sina kute e toki pi pona sina.
 
 > **— ki'e do do pu sidju mi**
 > **— je'e do**
-> _— Thank you, you helped me._
-> _— Not at all._
+> _— sina pona tan ni: tenpo pini la sina pana e pona tawa mi._
+> _— pona._
 
 sidju
-: … helps … (someone)
+: jan … li pana e pona tawa jan …
 
-We can omit the argument after the vocative only at the end of the sentence. For example, we can just say:
+nimi pilin ijo la nimi ijo ona li ken weka, taso ni li ken lon pini taso pi toki wan. toki li ken sama ni:
 
 > **— coi .i xu do kanro**
-> _— Hello. How do you do?_
-> `— Hello. Are you healthy?`
+> _— toki. sina pona ala pona sijelo?_
 
 kanro
-: … is healthy
+: jan … la sijelo li pona
 
-Here, a new sentence starts immediately after the vocative **coi**, so we omitted the name. Or we can say:
+toki ni la, pini pi nimi pilin **coi** la, toki sin li open. ni la nimi ijo li ken weka. ken ante la toki li ken sama ni kin:
 
 > **coi do mi djica le nu do sidju mi**
-> _Hello. I want you to help me._
-> `Hello you. I want that you help me.`
+> _sina o, toki. mi wile e ni: sina pana e pona tawa mi._
 
-Thus, if you don't know the name of the listener and you want to continue the same sentence after the vocative, you just place **do** after it.
+ni la, sina toki e nimi pilin ijo li wile awen toki li wile ala open e toki sin, li sona ala e nimi pi jan kute, la o pana e nimi ijo **do** tawa nimi pilin.
 
-If you use the vocative on its own (without an argument after it) and the sentence is not finished yet, then you need to separate it from the rest. This is because the things that are most likely to follow the vocative in a sentence could easily be misconstrued as describing your addressee. To separate it from the following argument, use the word **do**. For example,
+sina wile kepeken nimi pilin ijo kepeken ijo ala la, sina lon pini toki ala la, sina o tu a e nimi pilin e nimi kama. ni li tan ni: jan li kute e toki la jan li ken pilin a e ni: nimi pilin sina li moku e nimi kama. o tu e nimi pilin e nimi kama kepeken nimi **do**, sama ni:
 
 > **coi do la .alis. la .doris. pu cliva**
-> _Hello! Alice left Doris._
-> `Hello you! Alice left Doris`
+> _toki! jan Ali li tawa weka tan jan Towi._
+> _sina o, toki! jan Ali li tawa weka tan jan Towi._
 
-<!-- ~~>
+<!-- -->
 
 > **coi la .alis. la .doris. pu cliva**
-> _Hello, Alice! Doris left._
+> _jan Ali o, toki! jan Towi li tawa weka._
 
-And if you want to put both vocatives and interjections, modifying the whole sentence please put the interjections first:
+sina wile kule e ale toki kepeken nimi pilin ijo kepeken nimi pilin pi ijo ala kin la, o pana nanpa wan e nimi pi ijo ala:
 
 > **.ui coi do la .alis. la .doris. pu cliva**
-> _Yay, Hello! Alice left Doris._
+> _pona! toki a! jan Ali li tawa weka tan jan Towi._
 
-Note: in the beginning of a sentence, interjections are usually put before vocatives because:
+open toki la nimi pi ijo li nanpa wan lon tenpo mute tan ni:
 
 > **coi .ui do la .alis. la .doris. pu cliva** means
+> _sina o, toki! (open toki ni la mi pilin pona.) jan Ali li tawa weka tan jan Towi._
 
-> _Hello (I'm happy about this greeting) you! Alice left Doris._
-
-So an interjection immediately after a vocative modifies that vocative. Similarly, an interjection modifies the argument of a vocative when being put after it:
+nimi pilin ijo la, nimi pilin pi ijo ala li kama la, nimi nanpa tu li kule e nimi nanpa wan. sama la, nimi pilin pi ijo ala li lon ijo pi nimi pilin ijo la, ona li kule e ijo, sama ni:
 
 > **coi do .ui la .alis. la .doris. pu cliva**
-> _Hello you (I'm happy about you)! Alice left Doris._
+> _sina o, toki! (sina la mi pilin pona.) jan Ali li tawa weka tan jan Towi._
 
+<!--
 ## Lesson 2. More basic stuff
 
 ### Types of words
