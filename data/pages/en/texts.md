@@ -1,5 +1,6 @@
 ---
 title: 📚 Corpus of texts
+og:image: /assets/pixra/ralju/texts.webp
 ---
 
 Wish to translate some text to your language?
