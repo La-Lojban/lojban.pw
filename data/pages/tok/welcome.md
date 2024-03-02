@@ -20,7 +20,7 @@ lipu ni li pana e sona pi toki Losupan li open lon nasin sona ona. nasin sona li
 
 lon ilo toki Siko
 
-## lipu ‘ale pi toki Losupan’ pi kulupu pali open ala, li sin lon sike #2022 lon mun #10
+## lipu ‘sona ale pi toki Losupan’ pi kulupu pali open ala, li sin lon sike #2022 lon mun #10
 
 tenpo sike #1997 la kulupu pali pi toki Losupan li pana e lipu. lipu ni li wile awen sama lipu open, li ante lili ni:
 
