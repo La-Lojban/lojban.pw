@@ -1,3 +1,14 @@
+function debounce(func: any, delay: number) {
+  let timeoutId: ReturnType<typeof setTimeout>;
+  return function () {
+    const args = arguments;
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(function () {
+      func.apply(null, args);
+    }, delay);
+  };
+}
+
 export function getClosestHeaderId() {
   const headers = (
     Array.from(document.querySelectorAll("h1, h2, h3")) as HTMLElement[]
@@ -55,3 +66,5 @@ export function getClosestHeaderId() {
     });
   }
 }
+
+export const debouncedGetClosestHeaderId = debounce(getClosestHeaderId, 1000);

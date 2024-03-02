@@ -1,5 +1,5 @@
 ---
-title: 📕 Livre non officiel sur le langage 'Complete Lojban'
+title: 📕 Langue complète
 ---
 
 **CLL non officiel** (communément appelé *UnCLL*, *InCLL*) est un projet organisé par Gleki qui propose régulièrement des versions expérimentales non officielles (n'étant pas nécessairement approuvées par le Logical Language Group) du livre de la langue 'Complete Lojban Language'.

@@ -1,5 +1,6 @@
 ---
-meta.title: Aprenda Lojban
+title: O que é Lojban?
+meta.title: O que é Lojban?
 ---
 
 **Lojban** é uma língua lógica falada que foi criada em 1987 e agora é suportada por seus falantes.
@@ -7,13 +8,16 @@ meta.title: Aprenda Lojban
 Aqui estão tutoriais e documentação gratuitos, não oficiais e livres sobre a língua Lojban.
 
 Você pode enviar sugestões para [gleki.is.my.name@gmail.com](mailto: gleki.is.my.name@gmail.com) ou adicionar problemas ao [repositório Lojban](https://github.com/la-lojban/lojban-made-easy/issues).
-## [Curso 'Aprenda Lojban'](/books/learn-lojban)
+## [Curso 'Aprenda Lojban'](/pt/books/learn-lojban)
 
 Este curso ensina Lojban a partir de suas fundações formais, mas em termos simples e com muitos exemplos de uso.
 
 * [PDF](/vreji/uencu/learn-lojban.pdf) - em um arquivo PDF para download.
 
-## Bate-papo ao vivo em Lojban no mensageiro Discord
+## Bate-papo ao vivo em Lojban
+
+no mensageiros Discord/Telegram.
+
 ## Livro não oficial 'Complete Lojban Language', edição de outubro de 2022
 
 Este livro adere ao livro original publicado em 1997 e:
@@ -28,7 +32,7 @@ Está disponível nos seguintes formatos:
 * [HTML em seções](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/) - em arquivos HTML
 <!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.epub) - como um livro EPUB -->
 
-[Mais informações ...](/articles/complete-lojban-language)
+[Mais informações ...](/pt/articles/complete-lojban-language)
 ## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - um dicionário não oficial elegante
 
 Explore [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), um dicionário de Lojban que inclui:

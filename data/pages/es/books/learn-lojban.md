@@ -1,5 +1,5 @@
 ---
-title: 🎓 Curso 'Aprende Lojban'
+title: 🎓 Aprende Lojban
 ogImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 coverImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 ---
@@ -7,7 +7,7 @@ coverImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 <div class="lojbo simple_blockquotes"></div>
 <div class="print:hidden">
 
-[📁 Versión en PDF de esta página](/vreji/uencu/aprende-lojban.pdf)
+[📁 Versión en PDF de esta página](/vreji/uencu/es/aprende-lojban.pdf)
 
 <hr/>
 </div>
@@ -434,7 +434,7 @@ También debes tener en cuenta que a veces, al pronunciar palabras rápidamente,
 > _Las personas me hablan._
 > _La persona me habla._
 
-no especifica la cantidad de personas que me hablan. En inglés, es imposible omitir el número porque _people_ en inglés implica _más de una persona_. Sin embargo, en Lojban, puedes omitir el número incluso si es plural.
+no especifica la cantidad de personas que me hablan. En inglés, es imposible omitir el número porque _people_ en inglés implica _más de una persona_. Sin embargo, en Lojban, puedes omitir el número.
 
 Ahora vamos a especificar cuántas de las personas son relevantes para nuestra discusión.
 
@@ -1463,7 +1463,7 @@ La frase
 
 en realidad no dice nada sobre cuándo ocurre esto. El contexto es lo suficientemente claro en la mayoría de los casos y nos puede ayudar. Pero si necesitamos más precisión, simplemente agregamos más palabras.
 
-De manera similar, **ba** significa _después de... (algún evento)_, por lo que cuando decimos **mi ba cu citka** significa que comemos después del momento de hablar, por eso significa _voy a comer_.
+**ba** significa _después de... (algún evento)_, por lo que cuando decimos **mi ba cu citka** significa que comemos después del momento de hablar, por eso significa _voy a comer_.
 
 Podemos combinar partículas de tiempo con y sin argumentos después de ellas:
 

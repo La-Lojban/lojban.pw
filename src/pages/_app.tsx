@@ -8,7 +8,7 @@ import { io } from "socket.io-client";
 
 import { closeXicon } from "../lib/buttons";
 import { useEffect } from "react";
-import { getClosestHeaderId } from "../lib/toc";
+import { debouncedGetClosestHeaderId } from "../lib/toc";
 NProgress.configure({
   minimum: 0.3,
   easing: "ease",
@@ -31,22 +31,13 @@ const trimSocketChunk = (text: string) =>
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    const observer = new IntersectionObserver(getClosestHeaderId);
-    for (const element of document.querySelectorAll("h1, h2, h3")) {
-      observer.observe(element);
-    }
+    document.addEventListener("scroll", debouncedGetClosestHeaderId);
+    window.addEventListener("resize", () => debouncedGetClosestHeaderId);
     return () => {
-      observer.disconnect();
+      document.removeEventListener("scroll", debouncedGetClosestHeaderId);
+      window.addEventListener("resize", () => debouncedGetClosestHeaderId);
     };
   }, []);
-  // useEffect(() => {
-  //   document.addEventListener("scroll", debouncedGetClosestHeaderId);
-  //   window.addEventListener("resize", () => debouncedGetClosestHeaderId);
-  //   return () => {
-  //     document.removeEventListener("scroll", debouncedGetClosestHeaderId);
-  //     window.addEventListener("resize", () => debouncedGetClosestHeaderId);
-  //   };
-  // }, []);
 
   useEffect(() => {
     let socket1Chat_connected: boolean;

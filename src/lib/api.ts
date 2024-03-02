@@ -30,7 +30,7 @@ export async function getPostSlugs(subfolder: string) {
   return await getFiles(postsDirectory, subfolder);
 }
 
-type Items = {
+export type Items = {
   slug: string[];
   [key: string]: string | string[] | boolean;
 };
@@ -38,7 +38,10 @@ type Items = {
 export function getPostBySlug(slug: string[], fields: string[] = []): Items {
   const realSlug = slug.join("/");
   const fullPath = join(postsDirectory, `${realSlug}.md`);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
+  let fileContents = "";
+  if (fs.existsSync(fullPath)) {
+    fileContents = fs.readFileSync(fullPath, "utf8");
+  }
   const { data, content } = matter(fileContents);
 
   const items: Items = { slug: [] };
@@ -77,6 +80,7 @@ export async function getAllPosts(
   folder = ""
 ) {
   const slugs = await getPostSlugs(folder);
+
   const posts = slugs
     .map((slug: string) =>
       getPostBySlug(slug.replace(/\.md$/, "").split("/"), fields)

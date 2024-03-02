@@ -1,5 +1,6 @@
 ---
-meta.title: o kama sona toki Losupan
+title: toki Losupan li seme?
+meta.title: toki Losupan li seme?
 ---
 
 **toki Losupan** li toki sin. nasin sona ona li sama nasin sona nanpa. kulupu li pali open e ona lon tenpo sike #1987. tenpo lon la kulupu pi jan toki li mama tawa ona.
@@ -15,7 +16,9 @@ lipu ni li pana e sona pi toki Losupan li open lon nasin sona ona. nasin sona li
 * [PDF](/vreji/uencu/learn-lojban.pdf) - in a PDF file for download.
 
 
-## [ilo toki la tomo pi toki Losupan](https://discord.gg/wasp5fj) lon ilo toki Siko
+## [ilo toki la tomo pi toki Losupan](https://discord.gg/wasp5fj)
+
+lon ilo toki Siko
 
 ## lipu ‘ale pi toki Losupan’ pi kulupu pali open ala, li sin lon sike #2022 lon mun #10
 

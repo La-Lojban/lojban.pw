@@ -1,5 +1,5 @@
 ---
-title: 🎓 Curso 'Aprenda Lojban'
+title: 🎓 Aprenda Lojban
 ogImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 coverImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 ---
@@ -7,7 +7,7 @@ coverImage: /assets/pixra/cilre/tcidu_la_lojban.webp
 <div class="lojbo simple_blockquotes"></div>
 <div class="print:hidden">
 
-[📁 Versão em PDF desta página](/vreji/uencu/aprenda-lojban.pdf)
+[📁 Versão em PDF desta página](/vreji/uencu/pt/aprenda-lojban.pdf)
 
 <hr/>
 </div>
@@ -504,7 +504,7 @@ Também observe que, às vezes, ao pronunciar palavras rapidamente, você não c
 > **le prenu cu tavla mi**
 > _As pessoas falam comigo._
 
-não especifica o número de pessoas falando comigo. Em inglês, é impossível omitir o número porque _people_ em inglês implica _mais de uma pessoa_. No entanto, em Lojban, você pode omitir o número mesmo que seja plural.
+não especifica o número de pessoas falando comigo. Em inglês, é impossível omitir o número porque _people_ em inglês implica _mais de uma pessoa_. No entanto, em Lojban, você pode omitir o número.
 
 Agora vamos especificar quantas das pessoas são relevantes para nossa discussão.
 
@@ -1504,25 +1504,27 @@ Em Lojban, expressamos o tempo em que algo acontece (gramaticalmente, em inglês
 
 Aqui está uma série de termos relacionados ao tempo que indicam quando algo acontece:
 
-> **as pessoas falaram comigo**
-> _le prenu pu cu tavla mi_
+> **le prenu pu cu tavla mi**
+> *As pessoas falaram comigo*
 
 <!-- -->
 
-> **as pessoas estão falando comigo (no presente)**
-> _le prenu ca cu tavla mi_
+> **le prenu ca cu tavla mi**
+> *As pessoas estão falando comigo (no presente).*
+
+<!-- -->
 
 > **le prenu ba cu tavla mi**
 > _As pessoas vão falar comigo._
 
 Quando colocamos um argumento simples após a partícula relacionada ao tempo, formamos um termo com um significado um pouco diferente:
 
-> **eu bebo a água enquanto você está vindo.**
+> **mi pinxe le djacu ca le nu do klama**
 > _Eu bebo a água enquanto você está vindo._
 
 A parte **ca le nu do klama** é um termo longo que significa _enquanto você vem / enquanto você está vindo_. O **le nu do klama** é um argumento que significa *vinda de você, você vindo*.
 
-> **eu como depois de dançar.**
+> **mi citka ba le nu mi dansu**
 > _Eu como depois de dançar._
 
 As partículas relacionadas ao tempo são agrupadas em séries de acordo com seu significado para facilitar a memorização e o uso delas.
@@ -1550,11 +1552,11 @@ A frase
 
 na verdade não diz nada sobre quando isso acontece. O contexto geralmente é suficientemente claro e pode nos ajudar. Mas se precisarmos de mais precisão, basta adicionar mais palavras.
 
-Da mesma forma, **ba** significa _depois de... (algum evento)_, então quando dizemos **mi ba cu citka**, queremos dizer que comemos depois do momento da fala, por isso significa _eu vou comer_.
+**ba** significa _depois de... (algum evento)_, então quando dizemos **mi ba cu citka**, queremos dizer que comemos depois do momento da fala, por isso significa _eu vou comer_.
 
 Podemos combinar partículas de tempo com e sem argumentos após elas:
 
-> **eu comi as maçãs depois de dançar.**
+> **mi pu cu citka le plise ba le nu mi dansu**
 > _Eu comi as maçãs depois de dançar._
 
 Observe que o termo **pu** (tempo passado) é colocado apenas na relação principal (**mi pu cu citka**). Em Lojban, assume-se que o evento _eu dancei_ ocorre em relação ao evento de comer.

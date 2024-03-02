@@ -1,9 +1,9 @@
-
 ---
 title: ¿Están rotos los verbos en Lojban?
 ---
 
 <div class="lojbo simple_blockquotes"></div>
+
 ## Pregunta
 
 Parece que aprender las definiciones de los verbos en Lojban, como
@@ -43,16 +43,16 @@ Algunas estructuras de lugar de Lojban son menos directas que otras, al igual qu
 
 Los verbos de Lojban, al igual que los verbos en inglés, se pueden agrupar en marcos con estructuras de lugar idénticas, por ejemplo:
 
-> **[mlatu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno)** - x1 es un gato de especie x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - x1 es un gato de especie x2
 
-> **[gerku](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno)** - x1 es un perro de especie x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - x1 es un perro de especie x2
 ## La estructura de lugar es fácil de aprender, pero...
 
 A menudo, la estructura de lugar es fácil de aprender. Sin embargo, el concepto de movimiento presenta un conjunto aleatorio de estructuras de lugar. Considere lo siguiente:
 
-> **[muvdu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno)** - x1 (objeto) se mueve hacia el destino/receptor x2 [lejos] del origen x3 sobre la ruta x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - x1 (objeto) se mueve hacia el destino/receptor x2 [lejos] del origen x3 sobre la ruta x4.
 
-> **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno)** - x1 corre sobre la superficie x2 usando las extremidades x3 con el paso x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - x1 corre sobre la superficie x2 usando las extremidades x3 con el paso x4.
 
 ¿Por qué no tener una estructura de lugar para todos ellos?
 
@@ -60,7 +60,7 @@ Aquí está la traducción:
 
 ## Respuesta
 
-**[muvdu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno)**, **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno)** y **[cadzu](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=cadzu&bangu=en&versio=masno)** describen un proceso similar desde perspectivas muy diferentes. En **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno)**, el origen y el destino no son importantes; el énfasis está en la forma. No es "correr hacia desde" como en inglés. Por favor, no confundas las glosas en inglés con el proceso real que describen los verbos en Lojban. Estar en un estado de **[bajra](https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno)** significa tener una cierta forma de caminar mientras se toca una superficie con las extremidades y se hace rápidamente.
+<a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a>, <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> y <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=cadzu&bangu=en&versio=masno">cadzu</a> describen un proceso similar desde perspectivas muy diferentes. En <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a>, el origen y el destino no son importantes; el énfasis está en la forma. No es "correr hacia desde" como en inglés. Por favor, no confundas las glosas en inglés con el proceso real que describen los verbos en Lojban. Estar en un estado de <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> significa tener una cierta forma de caminar mientras se toca una superficie con las extremidades y se hace rápidamente.
 
 Una persona que usa una cinta de correr no tiene puntos "hacia" o "desde", sino que simplemente corre mientras permanece en el mismo lugar. Este es un buen ejemplo de un estado de bajra sin estar en un estado de klama.
 

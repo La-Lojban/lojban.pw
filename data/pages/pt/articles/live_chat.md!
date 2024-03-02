@@ -20,23 +20,23 @@ A chat where you ask questions about Lojban and get answers from fluent knowledg
 
 Fun fact: this is the symbol of jelly called **lo jduli** in Lojban (pronounced as *loh zhdooh-leeh*), which rhymes with **lo ckule**, school (*loh shkooh-leh*)
 
-Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/joinchat/BLVsYz4hC9ulWahupDLovA), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### #jbosnu - Lojban-only discussions
 
 A chat for talking in Lojban only
 
-Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/joinchat/BLVsYz20Boixl0xN-0TrPw), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### #jboselbau - offtopic discussions
 
 A chat for talking in Lojban only.
 
-Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/joinchat/CJYorT2ma6UVfhb9YThEqw), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### #voknoi - voice messeages exchange
 
-Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/joinchat/IA5__x1TXTaLH2sKyOvMQg), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 <!-- ## Matrix network (Riot messenger and others)
 

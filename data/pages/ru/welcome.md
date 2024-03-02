@@ -1,5 +1,6 @@
 ---
-meta.title: Изучите Ложбан
+title: Что такое ложбан?
+meta.title: Что такое ложбан?
 ---
 
 **Ложбан** - это говоримый логический язык, созданный в 1987 году и теперь поддерживаемый его носителями.
@@ -13,7 +14,10 @@ meta.title: Изучите Ложбан
 
 * [PDF](/vreji/uencu/learn-lojban.pdf) - в файле PDF для загрузки.
 
-## [Чат ложбана в реальном времени](https://discord.gg/wasp5fj) в мессенджере Discord
+## [Чат ложбана в реальном времени](https://discord.gg/wasp5fj)
+
+в мессенджерах Telegram и Discord
+
 ## Неофициальная книга "Полный язык Ложбан", издание октябрь 2022 года
 
 Эта книга придерживается оригинальной книги, опубликованной в 1997 году, и:
@@ -28,7 +32,7 @@ meta.title: Изучите Ложбан
 * [HTML в разделах](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/) - в HTML-файлах
 <!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.epub) - как книга EPUB -->
 
-[Больше информации...](/articles/complete-lojban-language)
+[Больше информации...](/ru/articles/complete-lojban-language)
 ## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - элегантный неофициальный словарь
 
 Исследуйте [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), словарь для Ложбана, который включает:
