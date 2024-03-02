@@ -39,6 +39,14 @@
         "sfe'ero": {
             "native": "svenska",
             "short": "sv"
+        },
+        "lojbo": {
+            "native": "la .lojban.",
+            "short": "jbo"
+        },
+        "tokpona": {
+            "native": "toki pona",
+            "short": "tok"
         }
     }
 }

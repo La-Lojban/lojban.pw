@@ -41,7 +41,6 @@ export const header = [
   {
     name: "📚 Texts",
     url: "/texts",
-    "og:image": "/assets/pixra/ralju/texts.webp",
   },
   { name: "📕 Full grammar", url: "/articles/complete-lojban-language" },
   { name: "📂📑📑📑", url: "/list" },
@@ -75,9 +74,9 @@ export const links = [
   // {rel:"alternate", type:"application/rss+xml", href:"/feed.xml"}
 ];
 
-export const meta = 
-{
-  "viewport": "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover",
+export const meta = {
+  viewport:
+    "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover",
   "application-name": site_title,
   "msapplication-TileColor": "#000000",
   "msapplication-config": "/assets/favicons/browserconfig.xml",
@@ -86,7 +85,7 @@ export const meta =
   "apple-mobile-web-app-capable": "yes",
   "apple-mobile-web-app-status-bar-style": "default",
   "apple-mobile-web-app-title": site_title,
-  "description": site_description,
+  description: site_description,
   "format-detection": "telephone=no",
   "mobile-web-app-capable": "yes",
   "msapplication-tap-highlight": "no",
@@ -101,4 +100,4 @@ export const meta =
   "og:description": site_description,
   "og:site_name": site_title,
   "og:url": site_url,
-}
+};
