@@ -1,5 +1,7 @@
 ---
 title: 💬 Live chat
+meta.type: article
+meta.description: Lojban is a living language, and you can contact experts in Lojban in a chat.
 ---
 
 Lojban is a living language, and you can contact experts in Lojban in a chat.

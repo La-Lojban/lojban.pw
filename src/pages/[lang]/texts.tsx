@@ -21,7 +21,7 @@ type Props = {
   params: any;
 };
 
-const ogImage = header.filter((item) => item.url === "/texts")?.[0]?.ogImage;
+const ogImage = (header.filter((item) => item.url === "/texts")?.[0] as any)?.["og:image"];
 const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
   return (
     <>

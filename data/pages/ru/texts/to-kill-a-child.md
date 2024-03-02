@@ -4,7 +4,7 @@ meta.type: korpora
 meta.description: Убить ребёнка - Stig Dagerman
 meta.keywords: ka jai gau morsi fai lo verba, To Kill a Child, To Kill a Child, Убить ребёнка, Att döda ett barn
 meta.author: Stig Dagerman
-ogImage: /assets/pixra/texts/to-kill-a-child/8.svg
+og:image: /assets/pixra/texts/to-kill-a-child/8.svg
 meta.priority: 8452
 ---
 

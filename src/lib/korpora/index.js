@@ -182,7 +182,7 @@ ${table[title].join("")}
         { key: "meta.description", value: headers[lang].description ?? headers['glico'].description },
         { key: "meta.keywords", value: keywords },
         { key: "meta.author", value: headers[lang].author ?? headers['glico'].author },
-        { key: "ogImage", value: ogImage },
+        { key: "og:image", value: ogImage },
         { key: "meta.priority", value: headers[lang].priority ?? headers['glico'].priority },
       ].filter((el) => el.value !== undefined);
 

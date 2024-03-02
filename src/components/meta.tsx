@@ -1,7 +1,26 @@
-import Head from "next/head"
-import { links, meta } from "../config/config"
+import Head from "next/head";
+import { links, meta as metaDefault } from "../config/config";
 
-const Meta = () => {
+function removeUndefinedOrNull(obj: any) {
+  for (const key in obj) {
+    if (obj[key] === undefined || obj[key] === null) {
+      delete obj[key];
+    }
+  }
+  return obj;
+}
+
+const Meta = ({ meta }: { meta?: { [key: string]: string } }) => {
+  const merged: any = { ...metaDefault, ...meta };
+  merged["og:description"] =
+    merged["og:description"] ??
+    merged["meta.description"] ??
+    merged["description"];
+    merged["og:title"] = merged["og:title"] ?? merged["title"];
+    merged["twitter:description"] =
+    merged["twitter:description"] ??
+    merged["meta.description"] ??
+    merged["description"];    
   return (
     <Head>
       {links.map((el: any, index: number) => (
@@ -14,13 +33,16 @@ const Meta = () => {
           color={el.color}
         />
       ))}
-      {meta.map((el: any, index: number) => (
+      {Object.keys(removeUndefinedOrNull(merged)).map((key: any, index: number) => (
         <meta
           key={`meta_${index}`}
-          {...el} />
+          property={key.indexOf("og:") === 0 ? key : undefined}
+          name={key.indexOf("og:") === -1 ? key : undefined}
+          content={merged[key]}
+        />
       ))}
     </Head>
-  )
-}
+  );
+};
 
-export default Meta
+export default Meta;

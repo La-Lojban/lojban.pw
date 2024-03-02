@@ -4,6 +4,7 @@ https://lojban.pw website source code
 * edit contents of `data/` folder
 * commit&push changes
 * CI/CD will deploy changes and publish them in gh-pages branch
+* if you fork the repo enable deploying to gh-pages via CI/CD actions
 
 ## Local development
 * populate `.env` file with:
