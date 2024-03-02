@@ -35,6 +35,12 @@ function getTag(fallbacks: string[], meta: TMeta, metaDefault: TMeta) {
 const Meta = ({ meta }: { meta?: TMeta }) => {
   meta = meta ?? {};
   let merged: TMeta = { ...metaDefault, ...meta };
+  
+  merged["og:title"] = getTag(
+    ["og:title", "twitter:title", "title"],
+    meta,
+    metaDefault
+  );
   merged["og:description"] = getTag(
     [
       "og:description",
@@ -45,7 +51,13 @@ const Meta = ({ meta }: { meta?: TMeta }) => {
     meta,
     metaDefault
   );
+  merged["og:url"] = getTag(["og:url", "twitter:url"], meta, metaDefault);
 
+  merged["twitter:title"] = getTag(
+    ["twitter:title", "og:title", "title"],
+    meta,
+    metaDefault
+  );
   merged["twitter:description"] = getTag(
     [
       "twitter:description",
@@ -56,6 +68,7 @@ const Meta = ({ meta }: { meta?: TMeta }) => {
     meta,
     metaDefault
   );
+  merged["twitter:url"] = getTag(["twitter:url", "og:url"], meta, metaDefault);
 
   merged["description"] = getTag(
     [
@@ -67,16 +80,6 @@ const Meta = ({ meta }: { meta?: TMeta }) => {
     meta,
     metaDefault
   );
-
-  merged["og:title"] = getTag(
-    ["og:title", "twitter:title", "title"],
-    meta,
-    metaDefault
-  );
-
-  merged["twitter:url"] = getTag(["twitter:url", "og:url"], meta, metaDefault);
-
-  merged["og:url"] = getTag(["og:url", "twitter:url"], meta, metaDefault);
 
   delete merged.title;
 
