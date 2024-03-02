@@ -10,31 +10,78 @@ function removeUndefinedOrNull(obj: any) {
   return obj;
 }
 
-const Meta = ({ meta }: { meta?: { [key: string]: string | undefined } }) => {
-  const merged: any = { ...metaDefault, ...meta };
-  merged["og:description"] =
-    merged["og:description"] ??
-    merged["meta.description"] ??
-    merged["twitter:description"] ??
-    merged["description"];
+function separateMetaKeys(jsonObj: any) {
+  const metaObj: any = {};
+  Object.keys(jsonObj).forEach((key) => {
+    if (key.startsWith("meta.")) {
+      metaObj[key.replace(/^meta\./, "")] = jsonObj[key];
+      delete jsonObj[key];
+    }
+  });
+  return { original: jsonObj, metaJson: metaObj };
+}
 
-    merged["og:title"] = merged["og:title"] ?? merged["title"];
+type TMeta = { [key: string]: string | undefined };
 
-    merged["twitter:description"] =
-    merged["twitter:description"] ??
-    merged["meta.description"] ??
-    merged["description"];  
+function getTag(fallbacks: string[], meta: TMeta, metaDefault: TMeta) {
+  for (const el of fallbacks) {
+    if (meta[el]) return meta[el];
+  }
+  for (const el of fallbacks) {
+    if (metaDefault[el]) return metaDefault[el];
+  }
+}
 
-    merged["twitter:url"] =
-    merged["twitter:url"] ??
-    merged["og:url"];  
-    
-    merged["description"] =
-    merged["description"] ??
-    merged["meta.description"];
+const Meta = ({ meta }: { meta?: TMeta }) => {
+  meta = meta ?? {};
+  let merged: TMeta = { ...metaDefault, ...meta };
+  merged["og:description"] = getTag(
+    [
+      "og:description",
+      "meta.description",
+      "twitter:description",
+      "description",
+    ],
+    meta,
+    metaDefault
+  );
 
-    delete merged.title;
+  merged["twitter:description"] = getTag(
+    [
+      "twitter:description",
+      "meta.description",
+      "og:description",
+      "description",
+    ],
+    meta,
+    metaDefault
+  );
 
+  merged["description"] = getTag(
+    [
+      "description",
+      "twitter:description",
+      "meta.description",
+      "og:description",
+    ],
+    meta,
+    metaDefault
+  );
+
+  merged["og:title"] = getTag(
+    ["og:title", "twitter:title", "title"],
+    meta,
+    metaDefault
+  );
+
+  merged["twitter:url"] = getTag(["twitter:url", "og:url"], meta, metaDefault);
+
+  merged["og:url"] = getTag(["og:url", "twitter:url"], meta, metaDefault);
+
+  delete merged.title;
+
+  const { original, metaJson } = separateMetaKeys(merged);
+  merged = { ...metaJson, original };
   return (
     <Head>
       {links.map((el: any, index: number) => (
@@ -47,14 +94,16 @@ const Meta = ({ meta }: { meta?: { [key: string]: string | undefined } }) => {
           color={el.color}
         />
       ))}
-      {Object.keys(removeUndefinedOrNull(merged)).map((key: any, index: number) => (
-        <meta
-          key={`meta_${index}`}
-          property={key.indexOf("og:") === 0 ? key : undefined}
-          name={key.indexOf("og:") === -1 ? key : undefined}
-          content={merged[key]}
-        />
-      ))}
+      {Object.keys(removeUndefinedOrNull(merged)).map(
+        (key: any, index: number) => (
+          <meta
+            key={`meta_${index}`}
+            property={key.indexOf("og:") === 0 ? key : undefined}
+            name={key.indexOf("og:") === -1 ? key : undefined}
+            content={merged[key]}
+          />
+        )
+      )}
     </Head>
   );
 };
