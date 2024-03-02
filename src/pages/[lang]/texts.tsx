@@ -34,7 +34,7 @@ const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
           <Container>
             <Header allPosts={siblingPosts} currentLanguage={params.lang} />
             {posts.length > 0 && (
-              <div className="relative block max-w-sm h-10 mx-auto flex justify-around print:hidden">
+              <div className="relative block max-w-sm h-10 mx-auto mb-2 flex justify-around print:hidden">
                 <div className="h-10 w-16 select-none	inline-block py-2 px-4">
                   <FontAwesomeIcon icon={faLanguage} />
                 </div>
@@ -43,7 +43,7 @@ const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
                     <a
                       key={`bangu-${post.language}`}
                       href={`/${post.fullPath}` as any}
-                      className="h-10 inline-block py-2 px-4 bg-white border border-t-0 border-gray-300 hover:border-gray-400 ml-2"
+                      className="h-10 inline-block py-2 px-4 bg-white border border-t-0 border-gray-300 hover:border-gray-400 ml-2 rounded-b-md shadow-md"
                     >
                       {post.language}
                     </a>

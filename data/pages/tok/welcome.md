@@ -7,20 +7,22 @@ meta.title: toki Losupan li seme?
 
 lipu ni la lipu lili mute li lon li jo e sona pi toki Losupan. ona li tan ala kulupu pali pi toki Losupan. lipu ale la ale li ken kepeken.
 
-ijo o ante lon lipu ni la sina ken toki tawa nimi [gleki.is.my.name@gmail.com](mailto:gleki.is.my.name@gmail.com) li ken toki lon [ilo poki pi toki ilo](https://github.com/la-lojban/lojban-made-easy/issues).
-
 ## [lipu ‘o kama sona toki Losupan’](/tok/books/learn-lojban)
+<pixra redirect="/en/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="‘Learn Lojban’ course"></pixra>
 
 lipu ni li pana e sona pi toki Losupan li open lon nasin sona ona. nasin sona li lawa mute e toki li ken wawa ike tawa kama sona, la lipu li toki pona e nasin lon nimi lili li pana e ni mute: toki lili li kepeken nasin.
 
 * [PDF](/vreji/uencu/tok/learn-lojban.pdf) - in a PDF file for download.
 
+## [ilo toki la tomo pi toki Losupan](/tok/articles/live_chat)
 
-## [ilo toki la tomo pi toki Losupan](https://discord.gg/wasp5fj)
+<pixra redirect="/en/articles/live_chat" url="/assets/pixra/ralju/jduli.svg" caption="Live Lojban chat"></pixra>
 
-lon ilo toki Siko
+lon ilo toki Siko lon ilo toki Telekan.
 
 ## lipu ‘sona ale pi toki Losupan’ pi kulupu pali open ala, li sin lon sike #2022 lon mun #10
+
+<pixra redirect="/en/articles/complete-lojban-language" url="/assets/pixra/ralju/xuncku.webp" caption="The Complete Lojban Language"></pixra>
 
 tenpo sike #1997 la kulupu pali pi toki Losupan li pana e lipu. lipu ni li wile awen sama lipu open, li ante lili ni:
 
@@ -42,6 +44,10 @@ o lukin a e lipu [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskar
 
 * De facto standard definitions of words
 * Experimental definitions and usage examples
+
+## lipu ni o kama seme?
+
+ijo o ante lon lipu ni la sina ken toki tawa nimi [gleki.is.my.name@gmail.com](mailto:gleki.is.my.name@gmail.com) li ken toki lon [ilo poki pi toki ilo](https://github.com/la-lojban/lojban-made-easy/issues).
 
 ## License
 

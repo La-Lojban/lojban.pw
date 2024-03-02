@@ -20,6 +20,7 @@ import { createElementFromSelector } from "./html-prettifier/elements";
 import { TocElem } from "../types/toc";
 import { GalleryImg } from "../types/gallery-img";
 import path from "path";
+import replaceIncludes from "./remark-plugins/include/";
 // import { serializeHTMLNodeTree } from "./json2react";
 
 export default async function markdownToHtml({
@@ -29,12 +30,12 @@ export default async function markdownToHtml({
   content: string;
   fullPath: string;
 }) {
+  content = replaceIncludes(content, {
+    resolveFrom: path.resolve(fullPath, ".."),
+  });
   const root = htmlParser.parse(
     (
       await unified()
-        .use(includeMarkdownPlugin, {
-          resolveFrom: path.resolve(fullPath, ".."),
-        })
         .use(remarkParse)
         // .use(gfm)
         .use(remarkMermaid, {
@@ -90,7 +91,7 @@ export default async function markdownToHtml({
         idCounts[item.id] = 1;
       } else {
         idCounts[item.id]++;
-        item.id += "-" + (idCounts[item.id]).toString();
+        item.id += "-" + idCounts[item.id].toString();
         idCounts[item.id] = 1;
       }
       return item;
@@ -103,8 +104,15 @@ export default async function markdownToHtml({
   ).map((element: HTMLElement) => {
     return {
       url: element.getAttribute("url"),
-      caption: element.getAttribute("caption") ?? element.getAttribute("definition") ?? '',
-      definition: element.getAttribute("definition") ?? element.getAttribute("caption") ?? '',
+      redirect: element.getAttribute("redirect") ?? null,
+      caption:
+        element.getAttribute("caption") ??
+        element.getAttribute("definition") ??
+        "",
+      definition:
+        element.getAttribute("definition") ??
+        element.getAttribute("caption") ??
+        "",
     };
   });
 
@@ -114,15 +122,18 @@ export default async function markdownToHtml({
       fn
         ? fn.bind({ idCounts: {} as { [key: string]: number } })
         : wrapper
-        ? (element) =>
-            ((wrapper: string, element: HTMLElement) => {
-              const wrapperElement = createElementFromSelector(wrapper);
-              wrapperElement.innerHTML =
-                wrapperElement.innerHTML + element.outerHTML;
-              element.insertAdjacentHTML("afterend", wrapperElement.outerHTML);
-              element.remove();
-            })(wrapper, element)
-        : () => {}
+          ? (element) =>
+              ((wrapper: string, element: HTMLElement) => {
+                const wrapperElement = createElementFromSelector(wrapper);
+                wrapperElement.innerHTML =
+                  wrapperElement.innerHTML + element.outerHTML;
+                element.insertAdjacentHTML(
+                  "afterend",
+                  wrapperElement.outerHTML
+                );
+                element.remove();
+              })(wrapper, element)
+          : () => {}
     )
   );
 

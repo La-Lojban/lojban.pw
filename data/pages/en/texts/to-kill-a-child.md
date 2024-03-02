@@ -16,7 +16,7 @@ meta.priority: 8452
   />
   <label
     for="hide-column-lojbo"
-    class="hide-column-button-lojbo float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-lojbo float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
     >lojbo</label
   ><input
     type="checkbox"
@@ -25,7 +25,7 @@ meta.priority: 8452
   />
   <label
     for="hide-column-glico"
-    class="hide-column-button-glico float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-glico float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
     >English</label
   ><input
     type="checkbox"
@@ -34,7 +34,7 @@ meta.priority: 8452
   />
   <label
     for="hide-column-glico_co_drata"
-    class="hide-column-button-glico_co_drata float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-glico_co_drata float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
     >glico co drata</label
   ><input
     type="checkbox"
@@ -43,7 +43,7 @@ meta.priority: 8452
   />
   <label
     for="hide-column-rusko"
-    class="hide-column-button-rusko float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-rusko float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
     >русский</label
   ><input
     type="checkbox"
@@ -52,7 +52,7 @@ meta.priority: 8452
   />
   <label
     for="hide-column-sfe_ero"
-    class="hide-column-button-sfe_ero float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-sfe_ero float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
     >svenska</label
   >
   <div class="clear-both" />

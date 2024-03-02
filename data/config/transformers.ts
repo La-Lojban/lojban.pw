@@ -65,6 +65,9 @@ export const transformers: {
           ? `<i>${element.attributes.definition}</i>`
           : ""
       }</figcaption></figure>`;
+      if (element.attributes.redirect) {
+        wrapperElement.innerHTML = `<a href="${element.attributes.redirect}">${wrapperElement.innerHTML}</a>`;
+      }
       element.insertAdjacentHTML("afterend", wrapperElement.outerHTML);
       element.remove();
     },

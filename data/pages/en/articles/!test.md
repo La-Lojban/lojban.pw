@@ -1,7 +1,7 @@
 Lift($L$) can be determined by Lift Coefficient ($C_L$) like the following
 equation.
 
-@include "learn-lojban/!test2.md"
+    <img src="/assets/pixra/cilre/xadni0.webp" />
 
 $$
 L = \frac{1}{2} \rho v^2 S C_L
@@ -42,7 +42,6 @@ flowchart LR
 
 ```
 
-
 ```mermaid
 flowchart LR
     %% common structure:
@@ -77,7 +76,7 @@ flowchart LR
 
 ```mermaid
 %%{
-    init: { 
+    init: {
         'logLevel': 'debug',
         'theme': 'default',
         'themeVariables': {
@@ -145,7 +144,7 @@ gitGraph
 
 ```mermaid
 %%{
-    init: { 
+    init: {
         'logLevel': 'debug',
         'theme': 'base',
         'themeVariables': {

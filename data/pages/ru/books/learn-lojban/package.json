@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "marked": "^12.0.0",
+    "transliteration": "^2.3.5"
+  }
+}

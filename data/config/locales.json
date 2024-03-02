@@ -4,6 +4,22 @@
             "native": "普通话",
             "short": "zh"
         },
+        "lojbo": {
+            "native": "lojbo",
+            "short": "jbo"
+        },
+        "sampu lojbo": {
+            "native": "sampu lojbo",
+            "short": "jbo-sampu"
+        },
+        "dzena xelso": {
+            "native": "αρχαία ελληνικά",
+            "short": "grc"
+        },
+        "spero": {
+            "native": "Esperanto",
+            "short": "eo"
+        },
         "spano": {
             "native": "español",
             "short": "es"

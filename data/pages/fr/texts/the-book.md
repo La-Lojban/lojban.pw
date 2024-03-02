@@ -16,7 +16,7 @@ meta.priority: 7017
   />
   <label
     for="hide-column-lojbo"
-    class="hide-column-button-lojbo float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-lojbo float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
     >lojbo</label
   ><input
     type="checkbox"
@@ -25,7 +25,7 @@ meta.priority: 7017
   />
   <label
     for="hide-column-glico"
-    class="hide-column-button-glico float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-glico float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
     >English</label
   ><input
     type="checkbox"
@@ -34,7 +34,7 @@ meta.priority: 7017
   />
   <label
     for="hide-column-fraso"
-    class="hide-column-button-fraso float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-fraso float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
     >français</label
   ><input
     type="checkbox"
@@ -43,7 +43,7 @@ meta.priority: 7017
   />
   <label
     for="hide-column-rusko"
-    class="hide-column-button-rusko float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-rusko float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
     >русский</label
   ><input
     type="checkbox"
@@ -52,7 +52,7 @@ meta.priority: 7017
   />
   <label
     for="hide-column-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
-    class="hide-column-button-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_ float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_ float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
     >lojbo se fanva la'o gy.Jordan DeLong.gy.</label
   ><input
     type="checkbox"
@@ -61,7 +61,7 @@ meta.priority: 7017
   />
   <label
     for="hide-column-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
-    class="hide-column-button-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_ float-left drop-shadow bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_ float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
     >lojbo se fanva la'o gy.Michael Helsem.gy.</label
   >
   <div class="clear-both" />

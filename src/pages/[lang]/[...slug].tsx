@@ -13,7 +13,7 @@ import Head from "next/head";
 import markdownToHtml from "../../lib/markdownToHtml";
 import { TPost } from "../../types/post";
 import { site_title } from "../../config/config";
-import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
+// import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
@@ -48,21 +48,21 @@ const Post = ({
   }));
   const hasToc = toc_list.length > 5;
 
-  type GalleryState = { galleryShown: boolean; currentImgUrl: string | null };
-  const [state, setState]: [
-    GalleryState,
-    React.Dispatch<React.SetStateAction<GalleryState>>,
-  ] = useState({ galleryShown: false, currentImgUrl: null } as GalleryState);
+  // type GalleryState = { galleryShown: boolean; currentImgUrl: string | null };
+  // const [state, setState]: [
+  //   GalleryState,
+  //   React.Dispatch<React.SetStateAction<GalleryState>>,
+  // ] = useState({ galleryShown: false, currentImgUrl: null } as GalleryState);
 
-  const images: ReactImageGalleryItem[] = (post?.imgs ?? []).map((img) => ({
-    original: img.url,
-    thumbnail: img.url,
-    originalTitle: img.caption,
-    description: `${img.caption} | ${img.definition}`,
-  }));
-  const currentImgIndex = images.findIndex(
-    (element) => element.original === state.currentImgUrl
-  );
+  // const images: ReactImageGalleryItem[] = (post?.imgs ?? []).map((img) => ({
+  //   original: img.url,
+  //   thumbnail: img.url,
+  //   originalTitle: img.caption,
+  //   description: `${img.caption} | ${img.definition}`,
+  // }));
+  // const currentImgIndex = images.findIndex(
+  //   (element) => element.original === state.currentImgUrl
+  // );
 
   const title_core = post["meta.title"] ?? post.title;
   const title = title_core ? `${title_core} | ${site_title}` : site_title;
@@ -80,17 +80,17 @@ const Post = ({
             <PostTitle>Loading…</PostTitle>
           ) : (
             <>
-              <div className="relative block max-w-sm h-10 mx-auto flex justify-around">
+              <div className="relative block max-w-sm h-10 mx-auto mb-2 flex justify-around print:hidden">
                 {posts.length > 0 && (
                   <>
-                    {post.pdf && (
-                        <a
-                          key={`bangu-pdf`}
-                          href={`/vreji/uencu/${post.slug[0]}/${post.slug.slice(-1)[0]}.pdf`}
-                          className="hover:from-lime-200 hover:to-lime-200 ease bg-gradient-to-br from-lime-50 to-white-900 h-10 inline-block py-2 px-4 border border-t-0 border-lime-500 hover:border-lime-600 ml-2 rounded-b-md shadow-md"
-                        >
-                          <FontAwesomeIcon className="w-6" icon={faFilePdf} />
-                        </a>
+                    {post.slug[1] === "books" && (
+                      <a
+                        key={`bangu-pdf`}
+                        href={`/vreji/uencu/${post.slug[0]}/${post.slug.slice(-1)[0]}.pdf`}
+                        className="hover:from-lime-200 hover:to-lime-200 ease bg-gradient-to-br from-lime-50 to-white-900 h-10 inline-block py-2 px-4 border border-t-0 border-lime-500 hover:border-lime-600 ml-2 rounded-b-md shadow-md"
+                      >
+                        <FontAwesomeIcon className="w-6" icon={faFilePdf} />
+                      </a>
                     )}
                     {posts.map((post) => {
                       return (
@@ -164,7 +164,7 @@ const Post = ({
 						  </nav>
 						  </div>
 						</div> */}
-                {state.galleryShown && (
+                {/* {state.galleryShown && (
                   <ImageGallery
                     additionalClass="fullpage"
                     items={images}
@@ -180,12 +180,12 @@ const Post = ({
                       setState((p) => ({ ...p, galleryShown: false }))
                     }
                   />
-                )}
+                )} */}
 
                 <PostBody
                   post={post}
-                  state={state}
-                  setState={setState}
+                  // state={state}
+                  // setState={setState}
                   hasToc={hasToc}
                 />
                 {hasToc && (
@@ -243,7 +243,7 @@ export async function getStaticProps({ params }: Params) {
     "ogImage",
     "coverImage",
     "fullPath",
-    "pdf",
+    // "pdf",
   ]);
 
   const fullSlug = params.lang + "/" + params.slug.join("/");
@@ -251,7 +251,7 @@ export async function getStaticProps({ params }: Params) {
   const currentLanguage = params.lang;
 
   const allPosts = await getAllPosts(
-    ["slug", "hidden", "title", "directory"],
+    ["slug", "hidden", "title", "directory", "coverImage"],
     true
   );
   const posts = allPosts.reduce(
