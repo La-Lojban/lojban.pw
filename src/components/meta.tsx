@@ -81,7 +81,7 @@ const Meta = ({ meta }: { meta?: TMeta }) => {
   delete merged.title;
 
   const { original, metaJson } = separateMetaKeys(merged);
-  merged = { ...metaJson, original };
+  merged = { ...metaJson, ...original };
   return (
     <Head>
       {links.map((el: any, index: number) => (
