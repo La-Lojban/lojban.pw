@@ -35,7 +35,7 @@ function getTag(fallbacks: string[], meta: TMeta, metaDefault: TMeta) {
 const Meta = ({ meta }: { meta?: TMeta }) => {
   meta = meta ?? {};
   let merged: TMeta = { ...metaDefault, ...meta };
-  
+
   merged["og:title"] = getTag(
     ["og:title", "twitter:title", "title"],
     meta,
@@ -69,6 +69,7 @@ const Meta = ({ meta }: { meta?: TMeta }) => {
     metaDefault
   );
   merged["twitter:url"] = getTag(["twitter:url", "og:url"], meta, metaDefault);
+  merged["twitter:image"] = getTag(["twitter:image", "og:image"], meta, metaDefault);
 
   merged["description"] = getTag(
     [
