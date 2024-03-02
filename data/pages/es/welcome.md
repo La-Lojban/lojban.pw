@@ -12,7 +12,7 @@ Puede enviar cualquier sugerencia a [gleki.is.my.name@gmail.com](mailto:gleki.is
 
 Este curso enseña Lojban desde sus fundamentos formales, pero en términos simples y con muchos ejemplos de uso.
 
-* [PDF](/vreji/uencu/learn-lojban.pdf) - en un archivo PDF para descargar.
+* [PDF](/vreji/uencu/es/learn-lojban.pdf) - en un archivo PDF para descargar.
 
 ## Chat en vivo de Lojban
 

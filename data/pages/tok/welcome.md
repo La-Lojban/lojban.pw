@@ -13,7 +13,7 @@ ijo o ante lon lipu ni la sina ken toki tawa nimi [gleki.is.my.name@gmail.com](m
 
 lipu ni li pana e sona pi toki Losupan li open lon nasin sona ona. nasin sona li lawa mute e toki li ken wawa ike tawa kama sona, la lipu li toki pona e nasin lon nimi lili li pana e ni mute: toki lili li kepeken nasin.
 
-* [PDF](/vreji/uencu/learn-lojban.pdf) - in a PDF file for download.
+* [PDF](/vreji/uencu/tok/learn-lojban.pdf) - in a PDF file for download.
 
 
 ## [ilo toki la tomo pi toki Losupan](https://discord.gg/wasp5fj)

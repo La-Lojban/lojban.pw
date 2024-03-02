@@ -18,8 +18,8 @@ async function getFiles(
         return dirent.isDirectory() && dirent.name.indexOf("!") !== 0
           ? getFiles(res)
           : extname(res) === ".md"
-          ? relative(postsDirectory, res)
-          : null;
+            ? relative(postsDirectory, res)
+            : null;
       })
     )
   ).filter(Boolean);
@@ -48,6 +48,13 @@ export function getPostBySlug(slug: string[], fields: string[] = []): Items {
 
   // Ensure only the minimal needed data is exposed
   fields.forEach((field) => {
+    if (field === "pdf") {
+      const pdfFilePath = `/vreji/uencu/${slug[0]}/${slug.slice(-1)[0]}.pdf`;
+      if (fs.existsSync(pdfFilePath)) {
+        items[field] = true;
+      }
+    }
+
     if (field === "directory") {
       items[field] = slug[0];
     }

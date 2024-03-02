@@ -22,6 +22,7 @@ export type TPost = {
   content: string
   toc?: TocElem[]
   imgs?: GalleryImg[]
+  pdf?: boolean;
 }
 
 export type PostProps<S> = {

@@ -35,7 +35,7 @@ const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
             <Header allPosts={siblingPosts} currentLanguage={params.lang} />
             {posts.length > 0 && (
               <div className="relative block max-w-sm h-10 mx-auto flex justify-around print:hidden">
-                <div className="h-10 w-16 inline-block py-2 px-4">
+                <div className="h-10 w-16 select-none	inline-block py-2 px-4">
                   <FontAwesomeIcon icon={faLanguage} />
                 </div>
                 {posts.map((post) => {
