@@ -55,6 +55,10 @@
         "sfe'ero": {
             "native": "svenska",
             "short": "sv"
+        },
+        "tokpona": {
+            "native": "toki pona",
+            "short": "tok"
         }
     }
 }
