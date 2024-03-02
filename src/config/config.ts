@@ -38,7 +38,7 @@ export const footer = [
 export const header = [
   { name: "🎓 Learn", url: "/books/learn", coverImage: "" },
   { name: "💬 Live chat", url: "/articles/chat" },
-  { name: "📚 To read", url: "/texts", ogImage: "" },
+  { name: "📚 To read", url: "/texts", "og:image": "" },
   { name: "🗂️ All pages", url: "/list" },
 ];
 
@@ -69,37 +69,28 @@ export const links = [
   { rel: "shortcut icon", href: "/assets/icons/lojbo.svg" },
 ];
 
-export const meta = [
-  { name: "application-name", content: site_title },
-  { name: "msapplication-TileColor", content: "#000000" },
-  { name: "msapplication-config", content: "/assets/favicons/browserconfig.xml" },
-  { name: "theme-color", content: "#000" },
-  {
-    property: "og:image",
-    content: "/assets/icons/lojbo.svg",
-  },
-  { name: "apple-mobile-web-app-capable", content: "yes" },
-  { name: "apple-mobile-web-app-status-bar-style", content: "default" },
-
-  { name: "apple-mobile-web-app-title", content: site_title },
-  { name: "description", content: site_description },
-  { name: "format-detection", content: "telephone=no" },
-  { name: "mobile-web-app-capable", content: "yes" },
-  { name: "msapplication-tap-highlight", content: "no" },
-
-  { name: "twitter:card", content: "summary" },
-  { name: "twitter:url", content: site_url },
-  { name: "twitter:title", content: site_title },
-  { name: "twitter:description", content: site_description },
-  {
-    name: "twitter:image",
-    content: "/assets/icons/lojbo.svg",
-  },
-  { name: "twitter:creator", content: site_creator_twitter },
-  { property: "og:type", content: "website" },
-  { property: "og:title", content: site_title },
-  { property: "og:description", content: site_description },
-  { property: "og:site_name", content: site_title },
-  { property: "og:url", content: site_url },
-  { property: "og:image", content: "/assets/icons/lojbo-512.png" },
-];
+export const meta = {
+  "application-name": "site_title",
+  "msapplication-TileColor": "#000000",
+  "msapplication-config": "/assets/favicons/browserconfig.xml",
+  "theme-color": "#000",
+  "apple-mobile-web-app-capable": "yes",
+  "apple-mobile-web-app-status-bar-style": "default",
+  "apple-mobile-web-app-title": "site_title",
+  description: "site_description",
+  "format-detection": "telephone=no",
+  "mobile-web-app-capable": "yes",
+  "msapplication-tap-highlight": "no",
+  "twitter:card": "summary",
+  "twitter:url": "site_url",
+  "twitter:title": "site_title",
+  "twitter:description": "site_description",
+  "twitter:image": "/assets/icons/lojbo.svg",
+  "twitter:creator": "site_creator_twitter",
+  "og:image": "/assets/icons/lojbo-512.png",
+  "og:type": "website",
+  "og:title": "site_title",
+  "og:description": "site_description",
+  "og:site_name": "site_title",
+  "og:url": "site_url",
+};

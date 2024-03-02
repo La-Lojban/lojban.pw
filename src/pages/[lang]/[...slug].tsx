@@ -16,6 +16,7 @@ import { site_title } from "../../config/config";
 // import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { retainStringValues } from "../../lib/utils";
 
 type Props = {
   post: TPost;
@@ -67,7 +68,14 @@ const Post = ({
   const title_core = post["meta.title"] ?? post.title;
   const title = title_core ? `${title_core} | ${site_title}` : site_title;
   const pageToRender = (
-    <Layout preview={preview}>
+    <Layout
+      preview={preview}
+      meta={{
+        ...retainStringValues(post, ["content", "fullPath"]),
+        title,
+        "og:url": "/" + post.slug.join("/"),
+      }}
+    >
       <div className="pb-8">
         <Container>
           <Header
@@ -109,28 +117,7 @@ const Post = ({
               <article className="mt-2 mx-auto max-w-7xl px-4 sm:mt-2 sm:px-6 flex md:flex-row flex-wrap">
                 <Head>
                   <title>{title}</title>
-                  {post?.ogImage && (
-                    <meta property="og:image" content={post?.ogImage} />
-                  )}
                   <meta property="og:title" content={title} />
-                  {post?.["meta.description"] && (
-                    <meta
-                      property="og:description"
-                      content={post?.["meta.description"]}
-                    />
-                  )}
-                  {post?.["meta.description"] && (
-                    <meta
-                      name="description"
-                      content={post?.["meta.description"]}
-                    />
-                  )}
-                  {post?.["meta.keywords"] && (
-                    <meta name="keywords" content={post?.["meta.keywords"]} />
-                  )}
-                  {post?.["meta.author"] && (
-                    <meta name="author" content={post?.["meta.author"]} />
-                  )}
                 </Head>
                 {/* <div className="w-1/5 md:flex flex-col md:flex-row md:min-h-screen hidden">
                 <div className="flex flex-col w-full md:w-64 text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800 flex-shrink-0" x-data="{ open: false }">
@@ -236,11 +223,11 @@ export async function getStaticProps({ params }: Params) {
     "meta.keywords",
     "meta.author",
     "meta.type",
+    "og:image",
     "date",
     "slug",
     "author",
     "content",
-    "ogImage",
     "coverImage",
     "fullPath",
     // "pdf",

@@ -4,7 +4,7 @@ meta.type: korpora
 meta.description: Книга - автор Г. П. Лавкрафт
 meta.keywords: le pa cukta, The Book, Le Livre, Книга, tu'a le cukta, le cukta
 meta.author: автор Г. П. Лавкрафт
-ogImage: /assets/pixra/texts/the-book/16.svg
+og:image: /assets/pixra/texts/the-book/16.svg
 meta.priority: 7017
 ---
 

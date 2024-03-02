@@ -4,7 +4,7 @@ meta.type: korpora
 meta.description: The Book - by H.P. Lovecraft
 meta.keywords: le pa cukta, The Book, Le Livre, Книга, tu'a le cukta, le cukta
 meta.author: by H.P. Lovecraft
-ogImage: /assets/pixra/texts/the-book/16.svg
+og:image: /assets/pixra/texts/the-book/16.svg
 meta.priority: 7017
 ---
 

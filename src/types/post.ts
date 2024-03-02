@@ -18,7 +18,11 @@ export type TPost = {
   coverImage: string
   author: Author
   excerpt: string
-  ogImage: string;
+  "og:image"?: string;
+  "og:title"?: string;
+  "og:type"?: string;
+  "og:url"?: string;
+  "og:description"?: string;
   content: string
   toc?: TocElem[]
   imgs?: GalleryImg[]
