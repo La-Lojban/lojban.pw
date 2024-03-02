@@ -2317,8 +2317,10 @@ nimi pilin ijo la, nimi pilin pi ijo ala li kama la, nimi nanpa tu li kule e nim
 > **coi do .ui la .alis. la .doris. pu cliva**
 > _sina o, toki! (sina la mi pilin pona.) jan Ali li tawa weka tan jan Towi._
 
+## lipu sona #2) sona open ante mute
+
+jan Tepo o ante toki e kipisi ni, e kipisi kama! tenpo ni la nimi taso li lon.
 <!--
-## Lesson 2. More basic stuff
 
 ### Types of words
 
@@ -4025,7 +4027,9 @@ When a place of a relation requires a number as mentioned by the dictionary, the
 
 A simple **mu no** not being prefixed by **li** would be used to denote 50 objects or events.
 
-## Lesson 3. Quoting. Questions. Interjections
+-->
+## lipu sona #3) toki pi jan ante o poki. wile sona. nimi pilin.
+<!--
 
 ### «**sei**»: comments to the text
 
@@ -5245,7 +5249,9 @@ We can explicitly label the relation as complete with **vau** and then put the i
 > **do pu sidju mi vau ui**
 > _You helped me, yay!_
 
-## Lesson 4. Practice
+-->
+## lipu sona #4) o toki a
+<!--
 
 Now we know the most crucial parts of the grammar and can start accumulating new words through situations.
 
@@ -6436,7 +6442,9 @@ nurma
 zarci
 : $x_1$ is a shop
 
-## Lesson 5. Modal terms, «**da**», their relative position
+-->
+## lipu sona #5) namako sona en nimi «**da**» li lon poka seme?
+<!--
 
 ### How do modal terms refer to the relation?
 
@@ -7105,7 +7113,9 @@ But here, **ki'u le ne kargu** is not under the scope of **na ku**. **ki'u** is 
 > **mi na ku te vecnu .i ki'u bo kargu**
 > _I don't buy. It's because it's expensive._
 
-## Lesson 6: modal terms: time and space
+-->
+## lipu sona #6) namako sona la tenpo en ma
+<!--
 
 > **mi citka le cirla**
 
@@ -7721,7 +7731,9 @@ vinji
 trene
 : $x_1$ is a train of cars $x_2$
 
-## Lesson 7. Letters, referring to relations, dates
+-->
+## lipu sona #7) nimi pi sitelen nimi; nimi li toki e toki sona pini; nanpa tenpo
+<!--
 
 ### Names of letters in Lojban
 
@@ -8433,7 +8445,9 @@ se to'e ki'u nai
 mikce
 : x1 is a doctor
 
-## Lesson 8. Terms and math
+-->
+## lipu sona #8) namako sona ante en pali nanpa
+<!--
 
 ### ‘_Possibly can_’, ‘_have been_’ and ‘_haven't yet been_’
 
@@ -9057,7 +9071,9 @@ senpi
 > **xanri**
 > _$x_1$ (possible event) is imagined by $x_2$_
 
-## Lesson 9. Logical conjunctions
+-->
+## lipu sona #9) ijo sona tu li wan
+<!--
 
 Logical conjunctions in Lojban are based on 4 primitive ones: **.a**, **.e**, **.o**, **.u**. In this lesson, we'll cover them in detail.
 
@@ -9374,7 +9390,9 @@ le pipno
 > **.i ga nai pu zi carvi gi ca cilmo**
 > _If it has been raining recently, it's wet now._
 
-## Lesson 10. Structuring text
+-->
+## lipu sona #10) toki suli
+<!--
 
 ### «**ju'a**» and assertions
 
@@ -9607,7 +9625,9 @@ Compare:
 
 A simple **go'i** still makes **mi** refer to the person who used it, and **do** refer to the listener of the person who said it.
 
-## Lesson 11. Trickier topics
+-->
+## lipu sona #11) sona nasa wawa
+<!--
 
 ### Four meanings of ‘_you_’ in English
 
