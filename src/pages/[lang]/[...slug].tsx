@@ -117,7 +117,6 @@ const Post = ({
               <article className="mt-2 mx-auto max-w-7xl px-4 sm:mt-2 sm:px-6 flex md:flex-row flex-wrap">
                 <Head>
                   <title>{title}</title>
-                  <meta property="og:title" content={title} />
                 </Head>
                 {/* <div className="w-1/5 md:flex flex-col md:flex-row md:min-h-screen hidden">
                 <div className="flex flex-col w-full md:w-64 text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800 flex-shrink-0" x-data="{ open: false }">

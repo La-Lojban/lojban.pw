@@ -21,14 +21,15 @@ type Props = {
   params: any;
 };
 
-const ogImage = (header.filter((item) => item.url === "/texts")?.[0] as any)?.["og:image"];
+const ogImage = (header.filter((item) => item.url === "/texts")?.[0] as any)?.[
+  "og:image"
+];
 const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
   return (
     <>
-      <Layout>
+      <Layout meta={{ "og:image": indexPost?.["og:image"] }}>
         <Head>
           <title>{"Corpus of texts"}</title>
-          {ogImage && <meta property="og:image" content={ogImage} />}
         </Head>
         <div className="pb-8">
           <Container>
@@ -79,6 +80,7 @@ export const getStaticProps = async ({ params }: Params) => {
       "slug",
       "author",
       "coverImage",
+      "og:image",
       "excerpt",
       "meta.author",
       "meta.priority",

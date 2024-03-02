@@ -10,17 +10,31 @@ function removeUndefinedOrNull(obj: any) {
   return obj;
 }
 
-const Meta = ({ meta }: { meta?: { [key: string]: string } }) => {
+const Meta = ({ meta }: { meta?: { [key: string]: string | undefined } }) => {
   const merged: any = { ...metaDefault, ...meta };
   merged["og:description"] =
     merged["og:description"] ??
     merged["meta.description"] ??
+    merged["twitter:description"] ??
     merged["description"];
+
     merged["og:title"] = merged["og:title"] ?? merged["title"];
+
     merged["twitter:description"] =
     merged["twitter:description"] ??
     merged["meta.description"] ??
-    merged["description"];    
+    merged["description"];  
+
+    merged["twitter:url"] =
+    merged["twitter:url"] ??
+    merged["og:url"];  
+    
+    merged["description"] =
+    merged["description"] ??
+    merged["meta.description"];
+
+    delete merged.title;
+
   return (
     <Head>
       {links.map((el: any, index: number) => (

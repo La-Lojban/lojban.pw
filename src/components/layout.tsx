@@ -5,7 +5,7 @@ import Meta from "./meta";
 type Props = {
   preview?: boolean;
   children: React.ReactNode;
-  meta?: { [key: string]: string };
+  meta?: { [key: string]: string | undefined };
 };
 
 const Layout = ({ preview, children, meta }: Props) => {
