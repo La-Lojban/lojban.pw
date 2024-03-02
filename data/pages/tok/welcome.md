@@ -8,7 +8,7 @@ meta.title: toki Losupan li seme?
 lipu ni la lipu lili mute li lon li jo e sona pi toki Losupan. ona li tan ala kulupu pali pi toki Losupan. lipu ale la ale li ken kepeken.
 
 ## [lipu ‘o kama sona toki Losupan’](/tok/books/learn-lojban)
-<pixra redirect="/en/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="‘Learn Lojban’ course"></pixra>
+<pixra redirect="/tok/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="lipu ‘o kama sona toki Losupan’"></pixra>
 
 lipu ni li pana e sona pi toki Losupan li open lon nasin sona ona. nasin sona li lawa mute e toki li ken wawa ike tawa kama sona, la lipu li toki pona e nasin lon nimi lili li pana e ni mute: toki lili li kepeken nasin.
 
@@ -16,13 +16,13 @@ lipu ni li pana e sona pi toki Losupan li open lon nasin sona ona. nasin sona li
 
 ## [ilo toki la tomo pi toki Losupan](/tok/articles/live_chat)
 
-<pixra redirect="/en/articles/live_chat" url="/assets/pixra/ralju/jduli.svg" caption="Live Lojban chat"></pixra>
+<pixra redirect="/tok/articles/live_chat" url="/assets/pixra/ralju/jduli.svg" caption="ilo toki la tomo pi toki Losupan"></pixra>
 
 lon ilo toki Siko lon ilo toki Telekan.
 
 ## lipu ‘sona ale pi toki Losupan’ pi kulupu pali open ala, li sin lon sike #2022 lon mun #10
 
-<pixra redirect="/en/articles/complete-lojban-language" url="/assets/pixra/ralju/xuncku.webp" caption="The Complete Lojban Language"></pixra>
+<pixra redirect="/tok/articles/complete-lojban-language" url="/assets/pixra/ralju/xuncku.webp" caption="lipu ‘sona ale pi toki Losupan’"></pixra>
 
 tenpo sike #1997 la kulupu pali pi toki Losupan li pana e lipu. lipu ni li wile awen sama lipu open, li ante lili ni:
 
@@ -36,7 +36,7 @@ nasin lipu ilo ni la lipu li lon:
 * [nasin HTML la kipisi mute](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/) - lipu lili mute pi nasin HTML
 <!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.epub) - as an EPUB book -->
 
-[sona mute...](/articles/complete-lojban-language)
+[sona mute...](/tok/articles/complete-lojban-language)
 
 ## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - lipu nimi, li tan kulupu open ala, lon ilo pona
 
