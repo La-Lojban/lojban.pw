@@ -15,7 +15,7 @@ const PostPreview = ({ post }: Props) => {
   return (
     <div
       className={
-        "max-w-md p-4 align-middle shadow-lg rounded-lg grid place-items-left bg-blend-lighten bg-right" +
+        "max-w-md p-4 align-middle shadow-lg rounded-lg place-items-left bg-blend-lighten bg-right" +
         (coverImage ? "" : " bg-white")
       }
       style={{
@@ -26,7 +26,7 @@ const PostPreview = ({ post }: Props) => {
       }}
     >
       <div className="inner">
-        <h3 className="text-gray-800 text-2xl text-center">
+        <h3 className="break-normal text-gray-800 text-2xl text-center">
           <Link
             as={`/${slug.join("/")}`}
             href="/[...slug]"
