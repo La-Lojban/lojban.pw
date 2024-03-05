@@ -1,6 +1,7 @@
 ---
 title: 📚 Corpus of texts
 og:image: /assets/pixra/ralju/texts.webp
+description: stories, books in Lojban and English with parallel translation 
 ---
 
 Wish to translate some text to your language?
