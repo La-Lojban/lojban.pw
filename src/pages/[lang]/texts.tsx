@@ -98,12 +98,12 @@ export const getStaticProps = async ({ params }: Params) => {
   const thisLangPosts = allPosts.filter(
     (i) => i.slug[0] === params.lang && i.slug[1] === "texts"
   );
-  const indexPost =
-    thisLangPosts.filter((i) => i.slug.length === 2)[0] ??
-    allPosts.filter(
+  const indexPost: Items = {
+    ...allPosts.filter(
       (i) => i.slug[0] === "en" && i.slug[1] === "texts" && i.slug.length === 2
-    );
-
+    )[0],
+    ...thisLangPosts.filter((i) => i.slug.length === 2)[0],
+  };
   const { text } = await markdownToHtml({
     content: (indexPost.content as string) || "",
     fullPath: indexPost.fullPath as string,
