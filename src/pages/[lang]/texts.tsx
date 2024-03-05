@@ -9,14 +9,13 @@ import Header from "../../components/header";
 import { header } from "../../config/config";
 
 import markdownToHtml from "../../lib/markdownToHtml";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 import { Params } from "./[...slug]";
+import { retainStringValues } from "../../lib/utils";
 
 type Props = {
   siblingPosts: Items[];
   allPosts: Items[];
-  indexPost?: TPost;
+  indexPost: TPost;
   posts: Items[];
   params: any;
 };
@@ -27,18 +26,21 @@ const ogImage = (header.filter((item) => item.url === "/texts")?.[0] as any)?.[
 const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
   return (
     <>
-      <Layout meta={{ "og:image": indexPost?.["og:image"] }}>
+      <Layout
+        meta={{
+          ...retainStringValues(indexPost, ["content", "fullPath"]),
+          title: indexPost.title,
+          "og:url": "/" + indexPost.slug.join("/"),
+        }}
+      >
         <Head>
-          <title>{"Corpus of texts"}</title>
+          <title>{indexPost.title}</title>
         </Head>
         <div className="pb-8">
           <Container>
             <Header allPosts={siblingPosts} currentLanguage={params.lang} />
             {posts.length > 0 && (
               <div className="relative block max-w-sm h-10 mx-auto mb-2 flex justify-around print:hidden">
-                <div className="h-10 w-16 select-none	inline-block py-2 px-4">
-                  <FontAwesomeIcon icon={faLanguage} />
-                </div>
                 {posts.map((post) => {
                   return (
                     <a
@@ -75,6 +77,7 @@ export const getStaticProps = async ({ params }: Params) => {
   let allPosts = await getAllPosts(
     [
       "title",
+      "meta.title",
       "hidden",
       "date",
       "slug",
@@ -82,10 +85,12 @@ export const getStaticProps = async ({ params }: Params) => {
       "coverImage",
       "og:image",
       "excerpt",
-      "meta.author",
-      "meta.priority",
+      "author",
       "fullPath",
       "content",
+      "description",
+      "keywords",
+      "type",
     ],
     false,
     ""

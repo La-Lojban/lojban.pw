@@ -1,6 +1,7 @@
 ---
 title: 📚 Corpus de textes
 og:image: /assets/pixra/ralju/texts.webp
+description: histoires, livres en lojban et en français avec traduction parallèle
 ---
 
 Vous souhaitez traduire un texte dans votre langue ?
