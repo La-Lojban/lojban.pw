@@ -13,14 +13,17 @@ import markdownToHtml from "../../lib/markdownToHtml";
 type Props = {
   siblingPosts: TPost[];
   contentPosts: TPost[];
-  indexPost?: TPost;
+  indexPost: TPost;
   params: any;
 };
 
 const Index = ({ siblingPosts, contentPosts, indexPost, params }: Props) => {
   return (
     <>
-      <Layout>
+      <Layout meta={{
+          title: indexPost.title,
+          "og:url": "/" + indexPost.slug.join("/"),
+        }}>
         <Head>
           <title>{home_title}</title>
         </Head>
