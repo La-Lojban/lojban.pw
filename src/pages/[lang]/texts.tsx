@@ -77,7 +77,6 @@ export const getStaticProps = async ({ params }: Params) => {
   let allPosts = await getAllPosts(
     [
       "title",
-      "meta.title",
       "hidden",
       "date",
       "slug",
@@ -89,8 +88,12 @@ export const getStaticProps = async ({ params }: Params) => {
       "fullPath",
       "content",
       "description",
-      "keywords",
-      "type",
+      
+      "meta.title",
+      "meta.description",
+      "meta.keywords",
+      "meta.author",
+      "meta.type",
     ],
     false,
     ""

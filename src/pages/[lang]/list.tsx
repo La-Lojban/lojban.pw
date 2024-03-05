@@ -69,6 +69,12 @@ export const getStaticProps = async ({ params }: Params) => {
       // "meta.priority",
       "fullPath",
       "content",
+
+      "meta.title",
+      "meta.description",
+      "meta.keywords",
+      "meta.author",
+      "meta.type",
     ],
     false
   );
