@@ -20,10 +20,12 @@ type Props = {
 const Index = ({ siblingPosts, contentPosts, indexPost, params }: Props) => {
   return (
     <>
-      <Layout meta={{
+      <Layout
+        meta={{
           title: indexPost.title,
           "og:url": "/" + indexPost.slug.join("/"),
-        }}>
+        }}
+      >
         <Head>
           <title>{home_title}</title>
         </Head>
@@ -71,14 +73,15 @@ export const getStaticProps = async ({ params }: Params) => {
     false
   );
 
-  const indexPost =
-    allPosts.filter(
+  const indexPost = {
+    ...allPosts.filter(
+      (i) => i.slug[0] === "en" && i.slug[1] === "list" && i.slug.length === 2
+    )[0],
+    ...allPosts.filter(
       (i) =>
         i.slug[0] === params.lang && i.slug[1] === "list" && i.slug.length === 2
-    )[0] ??
-    allPosts.filter(
-      (i) => i.slug[0] === "en" && i.slug[1] === "list" && i.slug.length === 2
-    )[0];
+    )[0],
+  };
 
   const { text } = await markdownToHtml({
     content: (indexPost.content as string) || "",
@@ -90,8 +93,9 @@ export const getStaticProps = async ({ params }: Params) => {
     return post;
   });
 
-  const contentPosts = allPosts
-    .filter((i) => !(i.slug[1] === "list" && i.slug.length === 2))
+  const contentPosts = allPosts.filter(
+    (i) => !(i.slug[1] === "list" && i.slug.length === 2)
+  );
   const siblingPosts = allPosts.filter((i) => i.slug[0] === params.lang);
   return {
     props: {
