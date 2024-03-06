@@ -1,9 +1,9 @@
 ---
-title: Garota da Ipanema
+title: Девушка из Ипанемы
 meta.type: korpora
-meta.description: Garota da Ipanema
-meta.keywords: .i la'e lu le nixli be la .ipaneman. lu'u, Garota de Ipanema., The Girl from Ipanema
-meta.author: 
+meta.description: Девушка из Ипанемы - Винисиус де Мораес
+meta.keywords: .i la'e lu le nixli be la .ipaneman. lu'u, Garota de Ipanema, The Girl from Ipanema, Девушка из Ипанемы
+meta.author: Винисиус де Мораес
 meta.priority: 657
 ---
 
@@ -15,7 +15,7 @@ meta.priority: 657
   />
   <label
     for="hide-column-lojbo"
-    class="hide-column-button-lojbo float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-lojbo float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >lojbo</label
   ><input
     type="checkbox"
@@ -24,7 +24,7 @@ meta.priority: 657
   />
   <label
     for="hide-column-porto"
-    class="hide-column-button-porto float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-porto float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >português</label
   ><input
     type="checkbox"
@@ -33,8 +33,17 @@ meta.priority: 657
   />
   <label
     for="hide-column-glico"
-    class="hide-column-button-glico float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-glico float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >English</label
+  ><input
+    type="checkbox"
+    id="hide-column-rusko"
+    class="hide-column-checkbox-rusko"
+  />
+  <label
+    for="hide-column-rusko"
+    class="hide-column-button-rusko float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
+    >русский</label
   >
   <div class="clear-both" />
   <div class="w-full overflow-x-auto">
@@ -46,6 +55,7 @@ meta.priority: 657
           <th scope="col" class="w-40 p-2 column-class-lojbo">lojbo</th>
           <th scope="col" class="w-40 p-2 column-class-porto">porto</th>
           <th scope="col" class="w-40 p-2 column-class-glico">glico</th>
+          <th scope="col" class="w-40 p-2 column-class-rusko">rusko</th>
         </tr>
       </thead>
       <tbody>
@@ -61,6 +71,9 @@ meta.priority: 657
           <td class="font-bold text-left align-text-top p-2 column-class-glico">
             English translation
           </td>
+          <td class="font-bold text-left align-text-top p-2 column-class-rusko">
+            русский подстрочный перевод
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -69,10 +82,13 @@ meta.priority: 657
             .i la'e lu le nixli be la .ipaneman. lu'u
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
-            Garota de Ipanema.
+            Garota de Ipanema
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The Girl from Ipanema
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Девушка из Ипанемы
           </td>
         </tr>
         <tr
@@ -87,6 +103,9 @@ meta.priority: 657
           <td class="text-left align-text-top p-2 column-class-glico">
             by Vinicius de Moraes
           </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Винисиус де Мораес
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -99,6 +118,9 @@ meta.priority: 657
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Translated by la gleki
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Перевод: la gleki
           </td>
         </tr>
         <tr
@@ -113,6 +135,9 @@ meta.priority: 657
           <td class="text-left align-text-top p-2 column-class-glico">
             Look, what a beautiful thing
           </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Посмотри, какая красивая вещь
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -125,6 +150,9 @@ meta.priority: 657
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             So filled with grace.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Полная грации
           </td>
         </tr>
         <tr
@@ -139,6 +167,9 @@ meta.priority: 657
           <td class="text-left align-text-top p-2 column-class-glico">
             It's her, the girl
           </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Это она, девушка
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -151,6 +182,9 @@ meta.priority: 657
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             who comes and who passes by.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Которая приходит и уходит
           </td>
         </tr>
         <tr
@@ -165,6 +199,9 @@ meta.priority: 657
           <td class="text-left align-text-top p-2 column-class-glico">
             In her sweet swing
           </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            В сладостном балансе
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -177,6 +214,9 @@ meta.priority: 657
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             on the way to the sea
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            По пути к морю
           </td>
         </tr>
         <tr
@@ -191,6 +231,9 @@ meta.priority: 657
           <td class="text-left align-text-top p-2 column-class-glico">
             Girl with body of gold
           </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Девушка с золотым телом
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -203,6 +246,9 @@ meta.priority: 657
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             From the sun of Ipanema
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            От солнца Ипанемы
           </td>
         </tr>
         <tr
@@ -217,6 +263,9 @@ meta.priority: 657
           <td class="text-left align-text-top p-2 column-class-glico">
             Her swing
           </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Её балансирование
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -229,6 +278,9 @@ meta.priority: 657
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             is more than a poem
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Это больше, чем поэма
           </td>
         </tr>
         <tr
@@ -243,6 +295,9 @@ meta.priority: 657
           <td class="text-left align-text-top p-2 column-class-glico">
             She is the most beautiful thing
           </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Это самая прекрасная вещь,
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -255,6 +310,9 @@ meta.priority: 657
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             that I've ever seen pass by
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Что я когда-либо видел проходящей.
           </td>
         </tr>
         <tr
@@ -269,6 +327,9 @@ meta.priority: 657
           <td class="text-left align-text-top p-2 column-class-glico">
             Ah, why am I so lonely?
           </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Ах, почему я так одинок
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -281,6 +342,9 @@ meta.priority: 657
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Ah, why is everything so sad?
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Ах, почему все так печально
           </td>
         </tr>
         <tr
@@ -295,6 +359,9 @@ meta.priority: 657
           <td class="text-left align-text-top p-2 column-class-glico">
             Ah, the beauty that exists
           </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Ах, красота, которая существует
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -307,6 +374,9 @@ meta.priority: 657
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The beauty that is not solely mine
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Красота, которая не только моя
           </td>
         </tr>
         <tr
@@ -321,6 +391,9 @@ meta.priority: 657
           <td class="text-left align-text-top p-2 column-class-glico">
             That also passes by alone
           </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Которая также проходит мимо в одиночестве.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -333,6 +406,9 @@ meta.priority: 657
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Ah, if she knew
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Ах, если бы она знала
           </td>
         </tr>
         <tr
@@ -347,6 +423,9 @@ meta.priority: 657
           <td class="text-left align-text-top p-2 column-class-glico">
             That when she passes by
           </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Что когда она проходит мимо
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -359,6 +438,9 @@ meta.priority: 657
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The whole smiling world
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Мир улыбается
           </td>
         </tr>
         <tr
@@ -373,6 +455,9 @@ meta.priority: 657
           <td class="text-left align-text-top p-2 column-class-glico">
             gets filled with grace.
           </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Наполняется грацией
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -386,6 +471,9 @@ meta.priority: 657
           <td class="text-left align-text-top p-2 column-class-glico">
             And becomes more beautiful
           </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            И становится красивее
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
@@ -398,6 +486,9 @@ meta.priority: 657
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Because of love.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Из-за любви
           </td>
         </tr>
       </tbody>

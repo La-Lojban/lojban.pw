@@ -1,57 +1,56 @@
 import React from "react";
 import parse, {
-	attributesToProps,
-	Element,
-	domToReact,
+  attributesToProps,
+  Element,
+  domToReact,
 } from "html-react-parser";
 import { PostProps } from "../types/post";
 // import { TreeItem } from "../types/tree";
 
 export function buildDOMFromJSONBasic(
-	html: string,
-	{ state, setState }: Partial<PostProps<any>>
+  html: string,
+  { state, setState }: Partial<PostProps<any>>
 ): JSX.Element {
-	return parse(html, {
-		replace: (domNode) => {
-			// if (
-			// 	domNode instanceof Element &&
-			// 	domNode.attribs?.class?.split(" ")?.includes("figure_img")
-			// ) {
-			// 	const props = attributesToProps(domNode.attribs);
-			// 	const el = React.createElement(
-			// 		domNode.tagName,
-			// 		{
-			// 			...props,
-			// 			onClick: () => {
-			// 				setState &&
-			// 					setState((p: { galleryShown: boolean }) => ({
-			// 						...p,
-			// 						galleryShown: !p.galleryShown,
-			// 						currentImgUrl: domNode.attribs["data-url"],
-			// 					}));
-			// 			},
-			// 		},
-			// 		domToReact(domNode.children)
-			// 	);
-			// 	return el;
-			// } else 
-			if (domNode instanceof Element && domNode.attribs?.onclick) {
-				const {onclick, ...props} = attributesToProps(domNode.attribs);
-				const el = React.createElement(
-					domNode.tagName,
-					{
-						...props,
-						onClick: () => {
-							eval(domNode.attribs.onclick);
-						},
-					},
-					domToReact(domNode.children)
-				);
-				return el;
-			}
-			return domNode;
-		},
-	}) as JSX.Element;
+  return parse(html, {
+    replace: (domNode) => {
+      if (
+        domNode instanceof Element &&
+        domNode.attribs?.class?.split(" ")?.includes("figure_img")
+      ) {
+        const props = attributesToProps(domNode.attribs);
+        const el = React.createElement(
+          domNode.tagName,
+          {
+            ...props,
+            onClick: () => {
+              setState &&
+                setState((p: { galleryShown: boolean }) => ({
+                  ...p,
+                  galleryShown: !p.galleryShown,
+                  currentImgUrl: domNode.attribs["data-url"],
+                }));
+            },
+          },
+          domToReact(domNode.children)
+        );
+        return el;
+      } else if (domNode instanceof Element && domNode.attribs?.onclick) {
+        const { onclick, ...props } = attributesToProps(domNode.attribs);
+        const el = React.createElement(
+          domNode.tagName,
+          {
+            ...props,
+            onClick: () => {
+              eval(domNode.attribs.onclick);
+            },
+          },
+          domToReact(domNode.children)
+        );
+        return el;
+      }
+      return domNode;
+    },
+  }) as JSX.Element;
 }
 
 //TODO: the following conversion from HTML to JSX is not fully functional

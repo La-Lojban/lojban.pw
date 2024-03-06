@@ -13,7 +13,7 @@ import Head from "next/head";
 import markdownToHtml from "../../lib/markdownToHtml";
 import { TPost } from "../../types/post";
 import { site_title } from "../../config/config";
-// import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
+import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { retainStringValues } from "../../lib/utils";
@@ -49,21 +49,21 @@ const Post = ({
   }));
   const hasToc = toc_list.length > 5;
 
-  // type GalleryState = { galleryShown: boolean; currentImgUrl: string | null };
-  // const [state, setState]: [
-  //   GalleryState,
-  //   React.Dispatch<React.SetStateAction<GalleryState>>,
-  // ] = useState({ galleryShown: false, currentImgUrl: null } as GalleryState);
+  type GalleryState = { galleryShown: boolean; currentImgUrl: string | null };
+  const [state, setState]: [
+    GalleryState,
+    React.Dispatch<React.SetStateAction<GalleryState>>,
+  ] = useState({ galleryShown: false, currentImgUrl: null } as GalleryState);
 
-  // const images: ReactImageGalleryItem[] = (post?.imgs ?? []).map((img) => ({
-  //   original: img.url,
-  //   thumbnail: img.url,
-  //   originalTitle: img.caption,
-  //   description: `${img.caption} | ${img.definition}`,
-  // }));
-  // const currentImgIndex = images.findIndex(
-  //   (element) => element.original === state.currentImgUrl
-  // );
+  const images: ReactImageGalleryItem[] = (post?.imgs ?? []).map((img) => ({
+    original: img.url,
+    thumbnail: img.url,
+    originalTitle: img.caption,
+    description: `${img.caption} | ${img.definition}`,
+  }));
+  const currentImgIndex = images.findIndex(
+    (element) => element.original === state.currentImgUrl
+  );
 
   const title_core = post["meta.title"] ?? post.title;
   const title = title_core ? `${title_core} | ${site_title}` : site_title;
@@ -150,7 +150,7 @@ const Post = ({
 						  </nav>
 						  </div>
 						</div> */}
-                {/* {state.galleryShown && (
+                {state.galleryShown && (
                   <ImageGallery
                     additionalClass="fullpage"
                     items={images}
@@ -166,12 +166,12 @@ const Post = ({
                       setState((p) => ({ ...p, galleryShown: false }))
                     }
                   />
-                )} */}
+                )}
 
                 <PostBody
                   post={post}
-                  // state={state}
-                  // setState={setState}
+                  state={state}
+                  setState={setState}
                   hasToc={hasToc}
                 />
                 {hasToc && (

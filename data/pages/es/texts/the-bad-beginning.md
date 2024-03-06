@@ -1,9 +1,9 @@
 ---
 title: The Bad Beginning
 meta.type: korpora
-meta.description: The Bad Beginning
+meta.description: The Bad Beginning - by Lemony Snicket
 meta.keywords: lu Le Xlali Cfari li'u, The Bad Beginning, Le Xlali Cfari, Скверное начало
-meta.author: 
+meta.author: by Lemony Snicket
 meta.priority: 0
 ---
 
@@ -15,7 +15,7 @@ meta.priority: 0
   />
   <label
     for="hide-column-xorlo_lojbo"
-    class="hide-column-button-xorlo_lojbo float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-xorlo_lojbo float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >xorlo lojbo</label
   ><input
     type="checkbox"
@@ -24,7 +24,7 @@ meta.priority: 0
   />
   <label
     for="hide-column-glico"
-    class="hide-column-button-glico float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-glico float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >English</label
   ><input
     type="checkbox"
@@ -33,7 +33,7 @@ meta.priority: 0
   />
   <label
     for="hide-column-cizra_lojbo"
-    class="hide-column-button-cizra_lojbo float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-cizra_lojbo float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >cizra lojbo</label
   ><input
     type="checkbox"
@@ -42,7 +42,7 @@ meta.priority: 0
   />
   <label
     for="hide-column-rusko"
-    class="hide-column-button-rusko float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-rusko float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >русский</label
   >
   <div class="clear-both" />

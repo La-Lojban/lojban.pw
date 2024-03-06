@@ -1,7 +1,7 @@
 ---
-title: Lord's prayer
+title: mama sewi mi
 meta.type: korpora
-meta.description: Lord's prayer - The Bible
+meta.description: mama sewi mi - The Bible
 meta.keywords: Πάτερ Ημών, le jdaselsku, Lord's prayer, Отче наш, mama sewi mi
 meta.author: The Bible
 meta.priority: 552
