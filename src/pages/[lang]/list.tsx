@@ -14,10 +14,11 @@ type Props = {
   siblingPosts: TPost[];
   contentPosts: TPost[];
   indexPost: TPost;
+  posts: Items[];
   params: any;
 };
 
-const Index = ({ siblingPosts, contentPosts, indexPost, params }: Props) => {
+const Index = ({ posts, siblingPosts, contentPosts, indexPost, params }: Props) => {
   return (
     <>
       <Layout
@@ -35,6 +36,21 @@ const Index = ({ siblingPosts, contentPosts, indexPost, params }: Props) => {
               allPosts={siblingPosts as unknown as Items[]}
               currentLanguage={params.lang}
             />
+            {posts.length > 0 && (
+              <div className="relative block max-w-sm h-10 mx-auto mb-2 flex justify-around print:hidden">
+                {posts.map((post) => {
+                  return (
+                    <a
+                      key={`bangu-${post.language}`}
+                      href={`/${post.fullPath}` as any}
+                      className="h-10 inline-block py-2 px-4 bg-white border border-t-0 border-gray-300 hover:border-gray-400 ml-2 rounded-b-md shadow-md"
+                    >
+                      {post.language}
+                    </a>
+                  );
+                })}
+              </div>
+            )}
             <div className="mb-8 mt-4 mx-auto max-w-7xl px-4 sm:px-6">
               {/* <Intro title={indexPost?.title} image={ogImage} /> */}
               <div
@@ -99,12 +115,24 @@ export const getStaticProps = async ({ params }: Params) => {
     return post;
   });
 
+  const posts = allPosts
+    .filter(
+      (i) =>
+        i.slug[0] !== params.lang &&
+        i.slug[1] === "texts" &&
+        i.slug.length === 2
+    )
+    .map(({ slug }) => {
+      return { fullPath: slug[0]+"/list", language: slug[0] };
+    });
+    
   const contentPosts = allPosts.filter(
     (i) => !(i.slug[1] === "list" && i.slug.length === 2)
   );
   const siblingPosts = allPosts.filter((i) => i.slug[0] === params.lang);
   return {
     props: {
+      posts,
       contentPosts,
       siblingPosts,
       indexPost: { ...indexPost, content: text },

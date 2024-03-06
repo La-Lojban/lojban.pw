@@ -32,6 +32,10 @@ function cssifyName(text) {
   );
 }
 
+function moveElementForward(array, i) {
+  return [array[i], ...array.slice(0, i), ...array.slice(i + 1)];
+}
+
 (async () => {
   await doc.loadInfo();
   const titles = doc.sheetsByIndex
@@ -57,16 +61,16 @@ function cssifyName(text) {
     table[title].push(`<tr>`);
     for (const i in langs) {
       const lang = langs[i];
-      const l = cssifyName(lang);
+      const cssfiedLangName = cssifyName(lang);
       const txt = meta.map((row) => row[lang]);
       columns[lang] = txt;
       table[title].push(
-        `<th scope="col" class="w-40 p-2 column-class-${l}">${lang}</th>`
+        `<th scope="col" class="w-40 p-2 column-class-${cssfiedLangName}">${lang}</th>`
       );
       buttons[title].push(
-        `<input type="checkbox" id="hide-column-${l}" class="hide-column-checkbox-${l}" />
-        <label for="hide-column-${l}" class="
-        hide-column-button-${l}
+        `<input type="checkbox" id="hide-column-${cssfiedLangName}" class="hide-column-checkbox-${cssfiedLangName}" />
+        <label for="hide-column-${cssfiedLangName}" class="
+        hide-column-button-${cssfiedLangName}
         float-left
         drop-shadow
         bg-teal-100 hover:bg-teal-600 focus:bg-teal-600
@@ -79,16 +83,16 @@ function cssifyName(text) {
       );
       css.push(
         ...`
-      .hide-column-checkbox-${l} {
+      .hide-column-checkbox-${cssfiedLangName} {
         display: none;
       }
     
-      .hide-column-checkbox-${l}:checked + .hide-column-button-${l} ~ div table th.column-class-${l},
-      .hide-column-checkbox-${l}:checked + .hide-column-button-${l} ~ div table td.column-class-${l} {
+      .hide-column-checkbox-${cssfiedLangName}:checked + .hide-column-button-${cssfiedLangName} ~ div table th.column-class-${cssfiedLangName},
+      .hide-column-checkbox-${cssfiedLangName}:checked + .hide-column-button-${cssfiedLangName} ~ div table td.column-class-${cssfiedLangName} {
         display: none;
       }
 
-      .hide-column-checkbox-${l}:checked + .hide-column-button-${l} {
+      .hide-column-checkbox-${cssfiedLangName}:checked + .hide-column-button-${cssfiedLangName} {
         background-color: #fff;
         color: #999;
       }
@@ -105,8 +109,8 @@ function cssifyName(text) {
 
     const priority = (columns["lojbo"] ?? []).slice(4).join("\n").length;
     allLanguages.forEach((lang) => {
-      const header = columns[lang]?.[1] ?? columns['glico']?.[1] ?? title;
-      const author = columns[lang]?.[2] ?? columns['glico']?.[2] ?? "";
+      const header = columns[lang]?.[1] ?? columns["glico"]?.[1] ?? title;
+      const author = columns[lang]?.[2] ?? columns["glico"]?.[2] ?? "";
       headers[lang] = {
         header,
         priority,
@@ -159,7 +163,8 @@ function cssifyName(text) {
     }
     table[title].push(`</tbody>`);
     table[title].push(`</table>`);
-    for (const lang of allLanguages) {
+    for (const i in allLanguages) {
+      const lang = allLanguages[i];
       const langedDirectoryRoot = `/app/src/md_pages/${languages[lang].short}`;
       const langedDirectory = `${langedDirectoryRoot}/texts`;
       const filepath = path.join(langedDirectory, title + ".html");
@@ -177,13 +182,25 @@ ${table[title].join("")}
         { filepath: filepath }
       );
       const graymatter = [
-        { key: "title", value: headers[lang].header ?? headers['glico'].header },
+        {
+          key: "title",
+          value: headers[lang].header ?? headers["glico"].header,
+        },
         { key: "meta.type", value: "korpora" },
-        { key: "meta.description", value: headers[lang].description ?? headers['glico'].description },
+        {
+          key: "meta.description",
+          value: headers[lang].description ?? headers["glico"].description,
+        },
         { key: "meta.keywords", value: keywords },
-        { key: "meta.author", value: headers[lang].author ?? headers['glico'].author },
+        {
+          key: "meta.author",
+          value: headers[lang].author ?? headers["glico"].author,
+        },
         { key: "og:image", value: ogImage },
-        { key: "meta.priority", value: headers[lang].priority ?? headers['glico'].priority },
+        {
+          key: "meta.priority",
+          value: headers[lang].priority ?? headers["glico"].priority,
+        },
       ].filter((el) => el.value !== undefined);
 
       const contentFull = `---
