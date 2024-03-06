@@ -1,22 +1,22 @@
 ---
-title: The Lord's prayer
+title: Lord's prayer
 meta.type: korpora
-meta.description: The Lord's prayer
-meta.keywords: Πάτερ Ημών, le jdaselsku, Lord's prayer, Отче наш
-meta.author: 
+meta.description: Lord's prayer - The Bible
+meta.keywords: Πάτερ Ημών, le jdaselsku, Lord's prayer, Отче наш, mama sewi mi
+meta.author: The Bible
 meta.priority: 552
 ---
 
 <div class="w-full">
   <input
     type="checkbox"
-    id="hide-column-ἑλληνική"
-    class="hide-column-checkbox-ἑλληνική"
+    id="hide-column-dzena_xelso"
+    class="hide-column-checkbox-dzena_xelso"
   />
   <label
-    for="hide-column-ἑλληνική"
-    class="hide-column-button-ἑλληνική float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
-    >ἑλληνική</label
+    for="hide-column-dzena_xelso"
+    class="hide-column-button-dzena_xelso float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
+    >αρχαία ελληνικά</label
   ><input
     type="checkbox"
     id="hide-column-lojbo"
@@ -24,7 +24,7 @@ meta.priority: 552
   />
   <label
     for="hide-column-lojbo"
-    class="hide-column-button-lojbo float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-lojbo float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >lojbo</label
   ><input
     type="checkbox"
@@ -33,7 +33,7 @@ meta.priority: 552
   />
   <label
     for="hide-column-glico"
-    class="hide-column-button-glico float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-glico float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >English</label
   ><input
     type="checkbox"
@@ -42,8 +42,17 @@ meta.priority: 552
   />
   <label
     for="hide-column-rusko"
-    class="hide-column-button-rusko float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-rusko float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >русский</label
+  ><input
+    type="checkbox"
+    id="hide-column-tokpona"
+    class="hide-column-checkbox-tokpona"
+  />
+  <label
+    for="hide-column-tokpona"
+    class="hide-column-button-tokpona float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
+    >toki pona</label
   >
   <div class="clear-both" />
   <div class="w-full overflow-x-auto">
@@ -52,10 +61,13 @@ meta.priority: 552
     >
       <thead class="border-b italic dark:border-neutral-500">
         <tr>
-          <th scope="col" class="w-40 p-2 column-class-ἑλληνική">ἑλληνική</th>
+          <th scope="col" class="w-40 p-2 column-class-dzena_xelso">
+            dzena xelso
+          </th>
           <th scope="col" class="w-40 p-2 column-class-lojbo">lojbo</th>
           <th scope="col" class="w-40 p-2 column-class-glico">glico</th>
           <th scope="col" class="w-40 p-2 column-class-rusko">rusko</th>
+          <th scope="col" class="w-40 p-2 column-class-tokpona">tokpona</th>
         </tr>
       </thead>
       <tbody>
@@ -63,7 +75,7 @@ meta.priority: 552
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td
-            class="font-bold text-left align-text-top p-2 column-class-ἑλληνική"
+            class="font-bold text-left align-text-top p-2 column-class-dzena_xelso"
           >
             ἑλληνική
           </td>
@@ -76,11 +88,16 @@ meta.priority: 552
           <td class="font-bold text-left align-text-top p-2 column-class-rusko">
             Русский подстрочный перевод
           </td>
+          <td
+            class="font-bold text-left align-text-top p-2 column-class-tokpona"
+          >
+            toki e toki pona
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-ἑλληνική">
+          <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             Πάτερ Ημών
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -92,11 +109,14 @@ meta.priority: 552
           <td class="text-left align-text-top p-2 column-class-rusko">
             Отче наш
           </td>
+          <td class="text-left align-text-top p-2 column-class-tokpona">
+            mama sewi mi
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-ἑλληνική">
+          <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             Βίβλος
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -108,11 +128,14 @@ meta.priority: 552
           <td class="text-left align-text-top p-2 column-class-rusko">
             Библия
           </td>
+          <td class="text-left align-text-top p-2 column-class-tokpona"></td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-ἑλληνική"></td>
+          <td
+            class="text-left align-text-top p-2 column-class-dzena_xelso"
+          ></td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i fanva fa la gleki
           </td>
@@ -122,11 +145,14 @@ meta.priority: 552
           <td class="text-left align-text-top p-2 column-class-rusko">
             Перевод la gleki
           </td>
+          <td class="text-left align-text-top p-2 column-class-tokpona">
+            jan Kasape
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-ἑλληνική">
+          <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς ἁγιασθήτω τὸ ὄνομά σου
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -139,11 +165,14 @@ meta.priority: 552
           <td class="text-left align-text-top p-2 column-class-rusko">
             Отче наш, кто в небесах, пусть святится имя Твоё
           </td>
+          <td class="text-left align-text-top p-2 column-class-tokpona">
+            mama mi sewi o · nimi sina o sewi ·
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-ἑλληνική">
+          <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             ἐλθέτω ἡ βασιλεία σου,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -155,11 +184,14 @@ meta.priority: 552
           <td class="text-left align-text-top p-2 column-class-rusko">
             пусть придёт царство Твоё,
           </td>
+          <td class="text-left align-text-top p-2 column-class-tokpona">
+            ma sin sina o kama ·
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-ἑλληνική">
+          <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             γενηθήτω τὸ θέλημά σου ὡς ἐν οὐρανῷ καὶ ἐπὶ γῆς
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -172,11 +204,14 @@ meta.priority: 552
           <td class="text-left align-text-top p-2 column-class-rusko">
             пусть реализуется воля Твоя, как в небе, так и на земле.
           </td>
+          <td class="text-left align-text-top p-2 column-class-tokpona">
+            wile sina o kama lon ma lon sewi ·
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-ἑλληνική">
+          <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -189,11 +224,14 @@ meta.priority: 552
           <td class="text-left align-text-top p-2 column-class-rusko">
             Хлеб наш насущный дай нам сегодня.
           </td>
+          <td class="text-left align-text-top p-2 column-class-tokpona">
+            suno ni la o pana e moku wile tawa mi ·
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-ἑλληνική">
+          <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ἀφίεμεν τοῖς
             ὀφειλέταις ἡμῶν.
           </td>
@@ -207,11 +245,15 @@ meta.priority: 552
           <td class="text-left align-text-top p-2 column-class-rusko">
             И оставь нам долги наши, как и мы оставили должникам нашим.
           </td>
+          <td class="text-left align-text-top p-2 column-class-tokpona">
+            mi pali ike la sina o pali ike ala tawa mi tan ni · sama la jan ante
+            li pali ike tawa mi la
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-ἑλληνική">
+          <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -223,11 +265,14 @@ meta.priority: 552
           <td class="text-left align-text-top p-2 column-class-rusko">
             И не введи нас в искушение,
           </td>
+          <td class="text-left align-text-top p-2 column-class-tokpona">
+            mi pali ike ala tawa ona tan ni · o nasin ike ala e mi ·
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-ἑλληνική">
+          <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -237,13 +282,16 @@ meta.priority: 552
             but rescue us from the malicious.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            но спаси нас от хлого.
+            но спаси нас от злого.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-tokpona">
+            taso o weka e mi tan ike ·
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-ἑλληνική">
+          <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             Ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα εἰς τοὺς αἰῶνας.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -257,11 +305,14 @@ meta.priority: 552
           <td class="text-left align-text-top p-2 column-class-rusko">
             Ибо Твоё есть царство и сила и слава в века.
           </td>
+          <td class="text-left align-text-top p-2 column-class-tokpona">
+            o ni ali tan ni : sina jo e lawa e wawa e suli lon tenpo ali ·
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-ἑλληνική">
+          <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             ἀμήν.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -269,6 +320,9 @@ meta.priority: 552
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">Amen.</td>
           <td class="text-left align-text-top p-2 column-class-rusko">Аминь</td>
+          <td class="text-left align-text-top p-2 column-class-tokpona">
+            ni li nasin ·
+          </td>
         </tr>
       </tbody>
     </table>

@@ -1,9 +1,9 @@
 ---
 title: Alice in Wonderland
 meta.type: korpora
-meta.description: Alice in Wonderland
+meta.description: Alice in Wonderland - by Lewis Carroll
 meta.keywords: ni'o ni'o lo selfri be la .alis. bei bu'u la selmacygu'e, ni'o ni'o la .alis. cu zvati la se manci tumla, Alice in Wonderland, Алиса в Стране Чудес
-meta.author: 
+meta.author: by Lewis Carroll
 meta.priority: 154180
 ---
 
@@ -15,7 +15,7 @@ meta.priority: 154180
   />
   <label
     for="hide-column-lojbo"
-    class="hide-column-button-lojbo float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-lojbo float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >lojbo</label
   ><input
     type="checkbox"
@@ -24,7 +24,7 @@ meta.priority: 154180
   />
   <label
     for="hide-column-lojbo_gi_e_nu_o_bredi"
-    class="hide-column-button-lojbo_gi_e_nu_o_bredi float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-lojbo_gi_e_nu_o_bredi float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >lojbo gi'e nu'o bredi</label
   ><input
     type="checkbox"
@@ -33,7 +33,7 @@ meta.priority: 154180
   />
   <label
     for="hide-column-glico"
-    class="hide-column-button-glico float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-glico float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >English</label
   ><input
     type="checkbox"
@@ -42,7 +42,7 @@ meta.priority: 154180
   />
   <label
     for="hide-column-rusko"
-    class="hide-column-button-rusko float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-rusko float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >русский</label
   >
   <div class="clear-both" />

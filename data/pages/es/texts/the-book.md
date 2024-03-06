@@ -1,9 +1,9 @@
 ---
-title: The Book
+title: El Libro
 meta.type: korpora
-meta.description: The Book
-meta.keywords: le pa cukta, The Book, Le Livre, Книга, tu'a le cukta, le cukta
-meta.author: 
+meta.description: El Libro - por H.P. Lovecraft
+meta.keywords: le pa cukta, The Book, Le Livre, O Livro, El Libro, Книга, tu'a le cukta, le cukta
+meta.author: por H.P. Lovecraft
 og:image: /assets/pixra/texts/the-book/16.svg
 meta.priority: 7017
 ---
@@ -16,7 +16,7 @@ meta.priority: 7017
   />
   <label
     for="hide-column-lojbo"
-    class="hide-column-button-lojbo float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-lojbo float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >lojbo</label
   ><input
     type="checkbox"
@@ -25,7 +25,7 @@ meta.priority: 7017
   />
   <label
     for="hide-column-glico"
-    class="hide-column-button-glico float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-glico float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >English</label
   ><input
     type="checkbox"
@@ -34,8 +34,26 @@ meta.priority: 7017
   />
   <label
     for="hide-column-fraso"
-    class="hide-column-button-fraso float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-fraso float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >français</label
+  ><input
+    type="checkbox"
+    id="hide-column-porto"
+    class="hide-column-checkbox-porto"
+  />
+  <label
+    for="hide-column-porto"
+    class="hide-column-button-porto float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
+    >português</label
+  ><input
+    type="checkbox"
+    id="hide-column-spano"
+    class="hide-column-checkbox-spano"
+  />
+  <label
+    for="hide-column-spano"
+    class="hide-column-button-spano float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
+    >español</label
   ><input
     type="checkbox"
     id="hide-column-rusko"
@@ -43,7 +61,7 @@ meta.priority: 7017
   />
   <label
     for="hide-column-rusko"
-    class="hide-column-button-rusko float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-rusko float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >русский</label
   ><input
     type="checkbox"
@@ -52,7 +70,7 @@ meta.priority: 7017
   />
   <label
     for="hide-column-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
-    class="hide-column-button-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_ float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_ float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >lojbo se fanva la'o gy.Jordan DeLong.gy.</label
   ><input
     type="checkbox"
@@ -61,7 +79,7 @@ meta.priority: 7017
   />
   <label
     for="hide-column-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
-    class="hide-column-button-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_ float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_ float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >lojbo se fanva la'o gy.Michael Helsem.gy.</label
   >
   <div class="clear-both" />
@@ -74,6 +92,8 @@ meta.priority: 7017
           <th scope="col" class="w-40 p-2 column-class-lojbo">lojbo</th>
           <th scope="col" class="w-40 p-2 column-class-glico">glico</th>
           <th scope="col" class="w-40 p-2 column-class-fraso">fraso</th>
+          <th scope="col" class="w-40 p-2 column-class-porto">porto</th>
+          <th scope="col" class="w-40 p-2 column-class-spano">spano</th>
           <th scope="col" class="w-40 p-2 column-class-rusko">rusko</th>
           <th
             scope="col"
@@ -102,6 +122,12 @@ meta.priority: 7017
           <td class="font-bold text-left align-text-top p-2 column-class-fraso">
             Version française
           </td>
+          <td class="font-bold text-left align-text-top p-2 column-class-porto">
+            Versão portuguesa
+          </td>
+          <td class="font-bold text-left align-text-top p-2 column-class-spano">
+            versión en español
+          </td>
           <td class="font-bold text-left align-text-top p-2 column-class-rusko">
             русская версия
           </td>
@@ -128,6 +154,12 @@ meta.priority: 7017
           <td class="text-left align-text-top p-2 column-class-fraso">
             Le Livre
           </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            O Livro
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            El Libro
+          </td>
           <td class="text-left align-text-top p-2 column-class-rusko">Книга</td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
@@ -150,7 +182,13 @@ meta.priority: 7017
             by H.P. Lovecraft
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            de H.P. Lovecraft
+            par H.P. Lovecraft
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            por H.P. Lovecraft
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            por H.P. Lovecraft
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             автор Г. П. Лавкрафт
@@ -171,9 +209,9 @@ meta.priority: 7017
           <td class="text-left align-text-top p-2 column-class-glico">
             Original English text
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
-            Traduit par Deepl
-          </td>
+          <td class="text-left align-text-top p-2 column-class-fraso"></td>
+          <td class="text-left align-text-top p-2 column-class-porto"></td>
+          <td class="text-left align-text-top p-2 column-class-spano"></td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Перевод la gleki
           </td>
@@ -199,10 +237,22 @@ meta.priority: 7017
             Lovecraft's death.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Le Livre est une nouvelle inachevée de l'auteur américain de romans
-            d'horreur H. P. Lovecraft, qui aurait été écrite à la fin de l'année
-            1933. Elle a été publiée pour la première fois dans la revue Leaves
-            en 1938, après la mort de Lovecraft.
+            Le Livre est une nouvelle inachevée de l'écrivain américain de
+            fiction d'horreur H. P. Lovecraft, supposée avoir été écrite à la
+            fin de 1933. Elle a été publiée pour la première fois dans la revue
+            Leaves en 1938, après la mort de Lovecraft.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            O Livro é um conto inacabado do escritor americano de ficção de
+            terror H. P. Lovecraft, acredita-se ter sido escrito no final de
+            1933. Foi publicado pela primeira vez na revista Leaves em 1938,
+            após a morte de Lovecraft.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            El Libro es un cuento corto inconcluso del escritor estadounidense
+            de ficción de terror H. P. Lovecraft, se cree que fue escrito a
+            finales de 1933. Fue publicado por primera vez en la revista Leaves
+            en 1938, después de la muerte de Lovecraft.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             "Книга" - неоконченный рассказ американского писателя-фантаста
@@ -231,6 +281,12 @@ meta.priority: 7017
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Mes souvenirs sont très confus.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Minhas memórias são muito confusas.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Mis recuerdos son muy confusos.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Мои воспоминания очень путаны.
@@ -262,10 +318,23 @@ meta.priority: 7017
             formless infinity.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je ne sais même pas où ils commencent, car je sens parfois
-            d'effroyables étendues d'années derrière moi, tandis qu'à d'autres
-            moments, il me semble que le moment présent est un point isolé dans
-            une infinité grise et sans forme.
+            Il y a même beaucoup de doutes quant à leur commencement ; car par
+            moments, je ressens des vues effroyables d'années s'étendant
+            derrière moi, tandis qu'à d'autres moments, il semble que le moment
+            présent soit un point isolé dans une infinie grisaille et sans
+            forme.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Há até muitas dúvidas sobre onde elas começam; pois às vezes sinto
+            vistas apavorantes de anos se estendendo atrás de mim, enquanto em
+            outros momentos parece como se o momento presente fosse um ponto
+            isolado em uma infinitude cinzenta e informe.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Incluso hay muchas dudas sobre dónde comienzan; porque a veces
+            siento horribles vistas de años que se extienden detrás de mí,
+            mientras que otras veces parece como si el momento presente fuera un
+            punto aislado en una infinitud gris y amorfa.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Я даже сомневаюсь, с чего они начинаются, потому что иногда мне
@@ -300,7 +369,14 @@ meta.priority: 7017
             I am not even certain how I am communicating this message.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je ne sais même pas comment je communique ce message.
+            Je ne suis même pas certain de la manière dont je communique ce
+            message.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Eu nem mesmo tenho certeza de como estou comunicando esta mensagem.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Ni siquiera estoy seguro de cómo estoy comunicando este mensaje.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Я даже не уверен, как я передаю это послание.
@@ -330,9 +406,19 @@ meta.priority: 7017
             say to the points where I wish to be heard.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Tout en sachant que je parle, j'ai la vague impression qu'une
-            médiation étrange et peut-être terrible sera nécessaire pour porter
-            ce que je dis aux points où je souhaite être entendu.
+            Bien que je sache que je parle, j'ai une vague impression qu'une
+            médiation étrange et peut-être terrible sera nécessaire pour
+            transmettre ce que je dis aux endroits où je souhaite être entendu.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Embora eu saiba que estou falando, tenho uma vaga impressão de que
+            alguma mediação estranha e talvez terrível será necessária para
+            levar o que digo aos pontos onde desejo ser ouvido.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Aunque sé que estoy hablando, tengo la vaga impresión de que se
+            necesitará alguna extraña y quizás terrible mediación para llevar lo
+            que digo a los puntos donde deseo ser escuchado.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Хотя я знаю, что говорю, у меня есть смутное ощущение, что
@@ -364,7 +450,13 @@ meta.priority: 7017
             My identity, too, is bewilderingly cloudy.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Mon identité, elle aussi, est d'une opacité déconcertante.
+            Mon identité, elle aussi, est déconcertante.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Minha identidade, também, está confusamente nebulosa.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Mi identidad, también, es confusamente nublada.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Моя личность также обескураживающе туманна.
@@ -393,9 +485,19 @@ meta.priority: 7017
             monstrous outgrowth of my cycles of unique, incredible experience.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Il semble que j'aie subi un grand choc, peut-être à cause d'une
-            excroissance tout à fait monstrueuse de mes cycles d'expériences
-            uniques et incroyables.
+            Il semble que j'ai subi un grand choc, peut-être causé par une
+            croissance monstrueuse et absolument terrible de mes cycles
+            d'expériences uniques et incroyables.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Parece que sofri um grande choque — talvez de algum crescimento
+            monstruoso e totalmente fora do comum de meus ciclos de experiência
+            únicas e incríveis.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Parece que he sufrido un gran shock, quizás por algún crecimiento
+            monstruoso y completamente fuera de lo común de mis ciclos de
+            experiencias únicas e increíbles.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Кажется, я пережил сильный шок - возможно, от какого-то совершенно
@@ -421,6 +523,8 @@ meta.priority: 7017
           <td class="text-left align-text-top p-2 column-class-lojbo"></td>
           <td class="text-left align-text-top p-2 column-class-glico"></td>
           <td class="text-left align-text-top p-2 column-class-fraso"></td>
+          <td class="text-left align-text-top p-2 column-class-porto"></td>
+          <td class="text-left align-text-top p-2 column-class-spano"></td>
           <td class="text-left align-text-top p-2 column-class-rusko"></td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
@@ -442,6 +546,14 @@ meta.priority: 7017
           <td class="text-left align-text-top p-2 column-class-fraso">
             Ces cycles d'expérience, bien sûr, découlent tous de ce livre rongé
             par les vers.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Esses ciclos de experiência, é claro, todos derivam desse livro
+            cheio de vermes.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Estos ciclos de experiencias, por supuesto, todas derivan de ese
+            libro lleno de gusanos.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Эти циклы опыта, конечно, все проистекают из той изъеденной червями
@@ -470,9 +582,17 @@ meta.priority: 7017
             oily river where the mists always swirl.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je me souviens du moment où je l'ai trouvé, dans un endroit
-            faiblement éclairé, près de la rivière noire et huileuse où les
-            brumes tourbillonnent toujours.
+            Je me souviens quand je l'ai trouvé, dans un endroit faiblement
+            éclairé près de la rivière noire et huileuse où les brumes
+            tourbillonnent toujours.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Lembro-me quando o encontrei — em um lugar fracamente iluminado
+            perto do rio negro e oleoso onde as névoas sempre se agitam.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Recuerdo cuando lo encontré, en un lugar débilmente iluminado cerca
+            del río negro y aceitoso donde siempre se arremolinan las nieblas.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Я помню, как я нашел ее - в тускло освещенном месте возле черной,
@@ -505,9 +625,19 @@ meta.priority: 7017
             rooms and alcoves.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Cet endroit était très vieux, et les étagères à hauteur de plafond,
-            pleines de volumes pourris, s'étendaient à l'infini à travers des
-            salles intérieures sans fenêtres et des alcôves.
+            Cet endroit était très ancien, et les étagères hautes jusqu'au
+            plafond remplies de volumes pourrissants s'étendaient à l'infini à
+            travers des pièces intérieures et des alcôves sans fenêtres.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Aquele lugar era muito antigo, e as prateleiras altas cheias de
+            volumes apodrecidos se estendiam infinitamente por salas internas e
+            alcovas sem janelas.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Ese lugar era muy antiguo, y las estanterías altas hasta el techo
+            llenas de volúmenes podridos se extendían interminablemente a través
+            de habitaciones interiores y rincones sin ventanas.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Это место было очень старым, и полки высотой до потолка, полные
@@ -528,7 +658,7 @@ meta.priority: 7017
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td colspan="6">
+          <td colspan="8">
             <div class="h-full w-full flex justify-center items-center">
               <img class="h-56" src="/assets/pixra/texts/the-book/16.svg" />
             </div>
@@ -547,9 +677,19 @@ meta.priority: 7017
             thing.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            En outre, il y avait de grands tas de livres informes sur le sol et
-            dans des bacs rudimentaires, et c'est dans l'un de ces tas que j'ai
-            trouvé l'objet en question.
+            Il y avait, en plus, de grandes tas informes de livres sur le sol et
+            dans des bacs rudimentaires ; et c'est dans l'un de ces tas que j'ai
+            trouvé la chose.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Havia, além disso, grandes montes informes de livros no chão e em
+            caixotes rudimentares; e foi em um desses montes que encontrei a
+            coisa.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Además, había grandes montones informes de libros en el suelo y en
+            cajones rudimentarios; y fue en uno de estos montones donde encontré
+            la cosa.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Кроме того, там были огромные бесформенные кучи книг на полу и в
@@ -581,9 +721,19 @@ meta.priority: 7017
             sent my senses reeling.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je n'ai jamais appris son titre, car les premières pages manquaient,
-            mais il s'ouvrit vers la fin et me donna un aperçu de quelque chose
-            qui fit vaciller mes sens.
+            Je n'ai jamais appris son titre, car les premières pages manquaient
+            ; mais il s'est ouvert vers la fin et m'a donné un aperçu de quelque
+            chose qui a fait chavirer mes sens.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Nunca soube seu título, pois as primeiras páginas estavam faltando;
+            mas ele se abriu em direção ao final e me deu um vislumbre de algo
+            que fez meus sentidos cambalearem.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Nunca supe su título, porque las primeras páginas estaban
+            desaparecidas; pero se abrió hacia el final y me dio un vistazo de
+            algo que hizo que mis sentidos se tambalearan.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Я так и не узнал ее названия, потому что первые страницы
@@ -612,6 +762,8 @@ meta.priority: 7017
           <td class="text-left align-text-top p-2 column-class-lojbo"></td>
           <td class="text-left align-text-top p-2 column-class-glico"></td>
           <td class="text-left align-text-top p-2 column-class-fraso"></td>
+          <td class="text-left align-text-top p-2 column-class-porto"></td>
+          <td class="text-left align-text-top p-2 column-class-spano"></td>
           <td class="text-left align-text-top p-2 column-class-rusko"></td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
@@ -639,12 +791,28 @@ meta.priority: 7017
             universe’s guarded secrets whose decaying texts I loved to absorb.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Il y avait une formule - une sorte de liste de choses à dire et à
-            faire - que j'ai reconnue comme quelque chose de noir et d'interdit
-            ; quelque chose que j'avais lu auparavant dans des paragraphes
-            furtifs d'horreur et de fascination mélangées, écrits par ces
-            étranges anciens explorateurs des secrets gardés de l'univers dont
-            j'aimais absorber les textes en décomposition.
+            Il y avait une formule, une sorte de liste de choses à dire et à
+            faire, que j'ai reconnue comme quelque chose de sombre et interdit ;
+            quelque chose dont j'avais lu auparavant dans des paragraphes
+            furtifs de mélange d'horreur et de fascination rédigés par ces
+            étranges anciens chercheurs dans les secrets gardés de l'univers,
+            dont les textes en décomposition j'aimais absorber.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Havia uma fórmula — uma espécie de lista de coisas a dizer e fazer —
+            que reconheci como algo negro e proibido; algo que eu havia lido
+            antes em parágrafos furtivos de misto de abominação e fascínio
+            escritos por aqueles estranhos e antigos pesquisadores dos segredos
+            guardados do universo cujos textos em decomposição eu adorava
+            absorver.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Había una fórmula, una especie de lista de cosas que decir y hacer,
+            que reconocí como algo oscuro y prohibido; algo que había leído
+            antes en párrafos furtivos de mezcla de aborrecimiento y fascinación
+            escritos por esos extraños antiguos excavadores en los secretos
+            guardados del universo cuyos textos en descomposición me encantaba
+            absorber.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Там была формула - своего рода список того, что нужно говорить и
@@ -691,11 +859,23 @@ meta.priority: 7017
             and realms of life and matter that we know.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            C'était une clé, un guide vers certaines passerelles et transitions
-            dont les mystiques ont rêvé et chuchoté depuis que la race est
-            jeune, et qui mènent à des libertés et à des découvertes au-delà des
-            trois dimensions et des domaines de la vie et de la matière que nous
+            C'était une clé, un guide, vers certains passages et transitions
+            dont les mystiques ont rêvé et murmuré depuis que la race était
+            jeune, et qui mènent à des libertés et des découvertes au-delà des
+            trois dimensions et des royaumes de la vie et de la matière que nous
             connaissons.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Era uma chave — um guia — para certos portais e transições dos quais
+            os místicos sonharam e sussurraram desde que a raça era jovem, e que
+            levam a liberdades e descobertas além das três dimensões e reinos da
+            vida e da matéria que conhecemos.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Era una llave, una guía, hacia ciertas puertas y transiciones de las
+            que los místicos han soñado y susurrado desde que la raza era joven,
+            y que conducen a libertades y descubrimientos más allá de las tres
+            dimensiones y reinos de la vida y la materia que conocemos.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Это был ключ-путеводитель к определенным вратам и переходам, о
@@ -734,9 +914,17 @@ meta.priority: 7017
             where to find it, but this book was very old indeed.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Pendant des siècles, aucun homme ne s'était souvenu de sa substance
-            vitale ou n'avait su où la trouver, mais ce livre était vraiment
-            très ancien.
+            Pendant des siècles, aucun homme n'avait rappelé sa substance vitale
+            ou su où la trouver, mais ce livre était très ancien en effet.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Não por séculos algum homem havia lembrado de sua substância vital
+            ou sabido onde encontrá-la, mas este livro era realmente muito
+            antigo.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            No por siglos había recordado algún hombre su sustancia vital o
+            sabido dónde encontrarla, pero este libro era muy antiguo en verdad.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             На протяжении веков никто не вспоминал о ее жизненной сути и не
@@ -768,9 +956,19 @@ meta.priority: 7017
             these ominous Latin phrases in uncials of awesome antiquity.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Ce n'est pas une presse d'imprimerie, mais la main d'un moine à
-            moitié fou qui a tracé ces phrases latines inquiétantes dans des
-            onciales d'une ancienneté impressionnante.
+            Pas d'imprimerie, mais la main d'un moine à moitié fou avait tracé
+            ces phrases latines menaçantes en onciale d'une antiquité
+            impressionnante.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Nenhuma prensa de impressão, mas a mão de algum monge meio
+            enlouquecido, havia traçado essas frases latinas ameaçadoras em
+            unciais de uma antiguidade impressionante.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Ninguna imprenta, sino la mano de algún monje medio enloquecido,
+            había trazado estas ominosas frases latinas en unciales de
+            impresionante antigüedad.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Не печатный станок, а рука какого-то полубезумного монаха вывела эти
@@ -796,6 +994,8 @@ meta.priority: 7017
           <td class="text-left align-text-top p-2 column-class-lojbo"></td>
           <td class="text-left align-text-top p-2 column-class-glico"></td>
           <td class="text-left align-text-top p-2 column-class-fraso"></td>
+          <td class="text-left align-text-top p-2 column-class-porto"></td>
+          <td class="text-left align-text-top p-2 column-class-spano"></td>
           <td class="text-left align-text-top p-2 column-class-rusko"></td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
@@ -817,8 +1017,16 @@ meta.priority: 7017
             sign with his hand when I bore it away.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je me souviens que le vieil homme se moquait de moi et faisait un
-            signe curieux de la main lorsque je l'emportais.
+            Je me souviens comment le vieil homme a souri en coin et gloussé, et
+            a fait un signe curieux de la main quand je l'ai emporté.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Lembro-me de como o velho sorriu maliciosamente e riu, e fez um
+            sinal curioso com a mão quando eu o levei embora.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Recuerdo cómo el anciano se burlaba y reía, y hacía un signo curioso
+            con la mano cuando me lo llevé.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Я помню, как старик оскалился, захихикал и сделал любопытный знак
@@ -850,8 +1058,16 @@ meta.priority: 7017
             guess why.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Il avait refusé de le payer, et ce n'est que longtemps après que
-            j'ai compris pourquoi.
+            Il avait refusé de le payer, et ce n'est que bien plus tard que j'ai
+            deviné pourquoi.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Ele se recusou a aceitar pagamento por ele, e somente muito tempo
+            depois eu entendi o porquê.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Se había negado a aceptar pago por él, y solo mucho después adiviné
+            por qué.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Он отказался взять за нее деньги, и только много позже я догадался,
@@ -883,10 +1099,20 @@ meta.priority: 7017
             followed by softly padding feet.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Tandis que je me dépêchais de rentrer chez moi par ces rues
-            étroites, sinueuses et embrumées du front de mer, j'avais
-            l'impression effrayante d'être suivi furtivement par des pieds qui
-            patinaient doucement.
+            Alors que je rentrais chez moi à toute vitesse à travers ces rues
+            étroites, sinueuses et enveloppées de brume du front de mer, j'ai eu
+            une impression effroyable d'être discrètement suivi par des pas
+            feutrés.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Enquanto eu voltava para casa por aquelas estreitas, sinuosas ruas à
+            beira-mar envoltas em névoa, tive uma impressão terrível de estar
+            sendo seguido furtivamente por pés que se moviam silenciosamente.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Al apresurarme a casa por esas estrechas y sinuosas calles del
+            malecón envueltas en niebla, tuve una impresión espantosa de ser
+            sigilosamente seguido por pies que se deslizaban suavemente.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Когда я спешил домой по этим узким, извилистым, окутанным туманом
@@ -910,7 +1136,7 @@ meta.priority: 7017
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td colspan="6">
+          <td colspan="8">
             <div class="h-full w-full flex justify-center items-center">
               <img class="h-56" src="/assets/pixra/texts/the-book/27.svg" />
             </div>
@@ -930,10 +1156,22 @@ meta.priority: 7017
             evil understanding had abruptly been opened.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Les maisons centenaires et chancelantes des deux côtés semblaient
-            animées d'une malignité fraîche et morbide, comme si un canal
-            jusqu'alors fermé de mauvaise compréhension s'était brusquement
+            Les maisons centenaires et chancelantes de chaque côté semblaient
+            vivantes d'une malignité fraîche et morbide - comme si un canal
+            jusqu'alors fermé de compréhension maléfique avait été brusquement
             ouvert.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            As casas centenárias e cambaleantes de ambos os lados pareciam estar
+            vivas com uma malignidade fresca e mórbida - como se algum canal até
+            então fechado de entendimento maligno tivesse sido abruptamente
+            aberto.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Las casas centenarias y tambaleantes a ambos lados parecían estar
+            vivas con una malignidad fresca y mórbida, como si algún canal hasta
+            entonces cerrado de comprensión maligna se hubiera abierto de
+            repente.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Столетние, покосившиеся дома по обеим сторонам казались живыми и
@@ -974,12 +1212,27 @@ meta.priority: 7017
             closing the book and bringing it away.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            J'avais l'impression que ces murs et ces pignons en surplomb, faits
-            de briques moisies, de plâtre fongoïde et de bois de charpente, avec
-            leurs fenêtres en forme d'œil et de diamant, pouvaient difficilement
-            s'empêcher d'avancer et de m'écraser... Pourtant, je n'avais lu que
-            le moindre fragment de cette rune blasphématoire avant de refermer
-            le livre et de l'emporter avec moi.
+            J'ai senti que ces murs et ces pignons surplombants en brique moisi
+            et en plâtre et bois fongiques - avec des fenêtres en losange
+            semblables à des yeux qui souriaient - pouvaient à peine s'empêcher
+            de s'avancer et de m'écraser... pourtant, je n'avais lu que le
+            moindre fragment de ce rune blasphématoire avant de refermer le
+            livre et de l'emporter.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Senti que aquelas paredes e beirais suspensos de tijolo mofado e
+            gesso e madeira fungosos - com janelas em forma de olhos, com vidros
+            em forma de diamante, que sorriam maliciosamente - mal podiam se
+            conter de avançar e me esmagar... mas eu havia lido apenas o menor
+            fragmento daquela runa blasfema antes de fechar o livro e levá-lo
+            embora.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Sentí que esas paredes y aleros colgantes de ladrillo mohoso y yeso
+            fúngico y madera, con ventanas en forma de ojo que se burlaban,
+            apenas podían contenerse de avanzar y aplastarme... sin embargo,
+            apenas había leído el fragmento menos blasfemo de esa runa antes de
+            cerrar el libro y llevármelo.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Мне казалось, что эти стены и нависающие фронтоны из заплесневелого
@@ -1014,6 +1267,8 @@ meta.priority: 7017
           <td class="text-left align-text-top p-2 column-class-lojbo"></td>
           <td class="text-left align-text-top p-2 column-class-glico"></td>
           <td class="text-left align-text-top p-2 column-class-fraso"></td>
+          <td class="text-left align-text-top p-2 column-class-porto"></td>
+          <td class="text-left align-text-top p-2 column-class-spano"></td>
           <td class="text-left align-text-top p-2 column-class-rusko"></td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
@@ -1035,9 +1290,18 @@ meta.priority: 7017
             the attic room that I had long devoted to strange searchings.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je me souviens de la façon dont j'ai finalement lu le livre, le
-            visage blanc, enfermé dans la chambre mansardée que j'avais
-            longtemps consacrée à d'étranges recherches.
+            Je me souviens comment j'ai enfin lu le livre - le visage blanc,
+            enfermé dans la pièce du grenier que j'avais depuis longtemps
+            consacrée à d'étranges recherches.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Lembro-me de como li o livro por fim - pálido, trancado no sótão que
+            eu havia dedicado há muito tempo a buscas estranhas.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Recuerdo cómo leí el libro al final, pálido y encerrado en la
+            habitación del ático que había dedicado durante mucho tiempo a
+            extrañas búsquedas.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Я помню, как я читал книгу, наконец, с белым лицом, запершись в
@@ -1061,7 +1325,7 @@ meta.priority: 7017
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td colspan="6">
+          <td colspan="8">
             <div class="h-full w-full flex justify-center items-center">
               <img class="h-56" src="/assets/pixra/texts/the-book/31.svg" />
             </div>
@@ -1079,8 +1343,16 @@ meta.priority: 7017
             midnight.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            La grande maison était très calme, car je n'étais monté qu'après
+            La grande maison était très calme, car je n'étais pas monté avant
             minuit.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            A grande casa estava muito quieta, pois eu não havia subido até
+            depois da meia-noite.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            La gran casa estaba muy quieta, porque no subí hasta después de la
+            medianoche.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             В большом доме было очень тихо, потому что я поднялся только после
@@ -1111,8 +1383,17 @@ meta.priority: 7017
             uncertain—and I know there were many servants.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je pense que j'avais alors une famille - bien que les détails soient
-            très incertains - et je sais qu'il y avait de nombreux serviteurs.
+            Je pense que j'avais une famille à l'époque - bien que les détails
+            soient très incertains - et je sais qu'il y avait beaucoup de
+            serviteurs.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Acho que tinha uma família naquela época - embora os detalhes sejam
+            muito incertos - e sei que havia muitos servos.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Creo que tenía una familia en ese entonces, aunque los detalles son
+            muy inciertos, y sé que había muchos sirvientes.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Думаю, тогда у меня была семья - хотя подробности весьма
@@ -1145,9 +1426,19 @@ meta.priority: 7017
             dissolved and refashioned.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je ne saurais dire quelle était l'année, car depuis, j'ai connu bien
-            des âges et des dimensions, et toutes mes notions du temps ont été
-            dissoutes et refondues.
+            Je ne peux pas dire quelle année c'était ; car depuis lors, j'ai
+            connu de nombreux âges et dimensions, et toutes mes notions de temps
+            ont été dissoutes et remodelées.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Não consigo dizer ao certo qual era o ano; pois desde então tenho
+            conhecido muitas eras e dimensões, e tive todas as minhas noções de
+            tempo dissolvidas e reformuladas.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            No puedo decir exactamente en qué año estaba, porque desde entonces
+            he conocido muchas edades y dimensiones, y todas mis nociones del
+            tiempo se han disuelto y reformado.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Какой был год, я не могу сказать, потому что с тех пор я познал
@@ -1182,9 +1473,18 @@ meta.priority: 7017
             then from distant belfries.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            C'est à la lumière des bougies que je lisais - je me souviens de
-            l'écoulement incessant de la cire - et il y avait des carillons qui
-            venaient de temps en temps de clochers éloignés.
+            C'était à la lumière des bougies que je lisais - je me souviens de
+            la gouttelette implacable de la cire - et il y avait des carillons
+            qui venaient de temps en temps des clochers lointains.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Foi à luz de velas que li - lembro-me do gotejar implacável da cera
+            - e havia badaladas que vinham de tempos em tempos de campanários
+            distantes.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Leí a la luz de las velas, recuerdo el goteo implacable de la cera,
+            y de vez en cuando se escuchaban campanadas de lejanos campanarios.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Я читал при свете свечей - помню, как беспрестанно капал воск, - а с
@@ -1216,9 +1516,17 @@ meta.priority: 7017
             as if I feared to hear some very remote, intruding note among them.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Il me semblait que je suivais ces carillons avec une attention
-            particulière, comme si je craignais d'entendre une note lointaine et
-            intrusive parmi eux.
+            Il me semblait suivre ces carillons avec une attention particulière,
+            comme si je craignais d'entendre une note très éloignée et intrusive
+            parmi eux.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Parecia que eu acompanhava essas badaladas com uma atenção peculiar,
+            como se temesse ouvir alguma nota muito remota e intrusa entre elas.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Parecía seguir esas campanadas con una atención peculiar, como si
+            temiera escuchar alguna nota muy remota e intrusa entre ellas.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Мне казалось, что я слежу за этими звонами с особым вниманием, как
@@ -1244,6 +1552,8 @@ meta.priority: 7017
           <td class="text-left align-text-top p-2 column-class-lojbo"></td>
           <td class="text-left align-text-top p-2 column-class-glico"></td>
           <td class="text-left align-text-top p-2 column-class-fraso"></td>
+          <td class="text-left align-text-top p-2 column-class-porto"></td>
+          <td class="text-left align-text-top p-2 column-class-spano"></td>
           <td class="text-left align-text-top p-2 column-class-rusko"></td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
@@ -1264,8 +1574,16 @@ meta.priority: 7017
             that looked out high above the other roofs of the city.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Puis vinrent les premiers grattements et tâtonnements à la lucarne
-            qui donnait sur les autres toits de la ville.
+            Puis vint le premier grattage et tâtonnement à la lucarne qui
+            donnait sur les toits de la ville.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Então veio o primeiro arranhão e tropeço na janela do sótão que se
+            abria bem acima dos outros telhados da cidade.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Luego vino el primer rasguño y forcejeo en la ventana del altillo
+            que daba a lo alto sobre los otros techos de la ciudad.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Затем появились первые скрежет и стук в мансардное окно, выходившее
@@ -1287,7 +1605,7 @@ meta.priority: 7017
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td colspan="6">
+          <td colspan="8">
             <div class="h-full w-full flex justify-center items-center">
               <img class="h-56" src="/assets/pixra/texts/the-book/38.svg" />
             </div>
@@ -1306,9 +1624,18 @@ meta.priority: 7017
             knew amidst my shudders what it meant.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Il est arrivé alors que je chantais à haute voix le neuvième verset
-            de ce laïus primitif, et j'ai su, au milieu de mes frissons, ce
-            qu'il signifiait.
+            Cela est arrivé alors que je récitais à voix haute le neuvième vers
+            de ce chant primitif, et je savais au milieu de mes frissons ce que
+            cela signifiait.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Isso aconteceu enquanto eu recitava em voz alta o nono verso daquela
+            canção primordial, e eu soube, em meio aos meus arrepios, o que
+            significava.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Sucedió mientras recitaba en voz alta el noveno verso de esa canción
+            primordial, y supe en medio de mis escalofríos lo que significaba.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Это произошло, когда я пробурчал вслух девятый куплет этой
@@ -1340,8 +1667,16 @@ meta.priority: 7017
             can he be alone.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Car celui qui franchit les portes gagne toujours une ombre, et il ne
-            peut plus jamais être seul.
+            Pour celui qui franchit les portails gagne toujours une ombre, et
+            jamais plus ne peut-il être seul.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Para aquele que passa pelos portais, sempre ganha uma sombra, e
+            nunca mais pode ficar sozinho.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Porque aquel que atraviesa las puertas siempre gana una sombra, y
+            nunca más puede estar solo.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Ибо тот, кто проходит через ворота, всегда обретает тень, и никогда
@@ -1374,6 +1709,12 @@ meta.priority: 7017
             J'avais évoqué - et le livre était en effet tout ce que j'avais
             soupçonné.
           </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Eu tinha evocado — e o livro era de fato tudo o que eu suspeitava.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Había evocado, y el libro era de hecho todo lo que había sospechado.
+          </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Я вызвал - и книга действительно оказалась тем, о чем я подозревал.
           </td>
@@ -1404,10 +1745,22 @@ meta.priority: 7017
             walls and shelves and fittings that which I had never seen before.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Cette nuit-là, j'ai franchi la porte d'un vortex de temps et de
-            vision tordus, et lorsque le matin m'a trouvé dans la chambre
-            mansardée, j'ai vu dans les murs, les étagères et les accessoires ce
-            que je n'avais jamais vu auparavant.
+            Cette nuit-là, j'ai franchi le portail vers un tourbillon de temps
+            et de vision tordus, et quand le matin m'a trouvé dans la chambre du
+            grenier, j'ai vu dans les murs et les étagères et les aménagements
+            ce que je n'avais jamais vu auparavant.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Naquela noite, passei pelo portal para um redemoinho de tempo e
+            visão distorcidos, e quando a manhã me encontrou no quarto do sótão,
+            vi nas paredes, prateleiras e acessórios algo que nunca tinha visto
+            antes.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Esa noche pasé por la puerta hacia un torbellino de tiempo y visión
+            retorcidos, y cuando la mañana me encontró en la habitación del
+            ático, vi en las paredes y estantes y accesorios algo que nunca
+            antes había visto.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             В ту ночь я прошел через ворота в вихрь извращенного времени и
@@ -1432,7 +1785,7 @@ meta.priority: 7017
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td colspan="6">
+          <td colspan="8">
             <div class="h-full w-full flex justify-center items-center">
               <img class="h-56" src="/assets/pixra/texts/the-book/42.svg" />
             </div>
@@ -1444,6 +1797,8 @@ meta.priority: 7017
           <td class="text-left align-text-top p-2 column-class-lojbo"></td>
           <td class="text-left align-text-top p-2 column-class-glico"></td>
           <td class="text-left align-text-top p-2 column-class-fraso"></td>
+          <td class="text-left align-text-top p-2 column-class-porto"></td>
+          <td class="text-left align-text-top p-2 column-class-spano"></td>
           <td class="text-left align-text-top p-2 column-class-rusko"></td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
@@ -1462,8 +1817,13 @@ meta.priority: 7017
             Nor could I ever after see the world as I had known it.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            De même, je n'ai plus jamais pu voir le monde tel que je l'avais
-            connu.
+            Et je ne pouvais plus jamais voir le monde tel que je l'avais connu.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Nem nunca mais pude ver o mundo como o conhecia.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Nunca más pude ver el mundo como lo había conocido.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             И в дальнейшем я никогда не мог видеть мир таким, каким я его знал.
@@ -1493,9 +1853,19 @@ meta.priority: 7017
             the new perspective brought by my widened sight.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            À la scène présente se mêlait toujours un peu de passé et un peu
-            d'avenir, et chaque objet autrefois familier me paraissait étranger
-            dans la nouvelle perspective que m'offrait ma vue élargie.
+            Mêlé à la scène présente se trouvait toujours un peu du passé et un
+            peu du futur, et chaque objet autrefois familier se dressait
+            étranger dans la nouvelle perspective apportée par ma vue élargie.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Misturado com a cena presente, sempre havia um pouco do passado e um
+            pouco do futuro, e cada objeto outrora familiar surgia estranho na
+            nova perspectiva trazida pela minha visão ampliada.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Mezclado con la escena presente siempre había un poco del pasado y
+            un poco del futuro, y cada objeto una vez familiar se alzaba extraño
+            en la nueva perspectiva traída por mi visión ampliada.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             В настоящем всегда было немного прошлого и немного будущего, и
@@ -1532,10 +1902,22 @@ meta.priority: 7017
             been bound.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Dès lors, je marchai dans un rêve fantastique de formes inconnues et
-            à moitié connues ; et à chaque nouveau passage franchi, je
-            reconnaissais de moins en moins clairement les choses de la sphère
-            étroite à laquelle j'avais été si longtemps lié.
+            Dès lors, je marchais dans un rêve fantastique de formes inconnues
+            et à moitié connues ; et à chaque nouveau portail franchi, moins
+            clairement pouvais-je reconnaître les choses de la sphère étroite à
+            laquelle j'avais été si longtemps lié.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            A partir daquele momento, caminhei em um sonho fantástico de formas
+            desconhecidas e meio conhecidas; e a cada novo portal cruzado, menos
+            claramente eu conseguia reconhecer as coisas da esfera estreita à
+            qual estivera tão longamente ligado.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Desde entonces caminaba en un sueño fantástico de formas
+            desconocidas y medio conocidas; y con cada nueva puerta cruzada,
+            menos claramente podía reconocer las cosas de la esfera estrecha a
+            la que había estado atado durante tanto tiempo.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             С тех пор я ходил в фантастическом сне из неизвестных и
@@ -1571,9 +1953,17 @@ meta.priority: 7017
             aloof lest I be thought mad.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Ce que je voyais autour de moi, personne d'autre ne le voyait, et je
-            devenais doublement silencieux et distant, de peur d'être pris pour
-            un fou.
+            Ce que je voyais autour de moi, nul autre ne le voyait ; et je
+            devenais doublement silencieux et distant de peur d'être considéré
+            comme fou.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            O que eu via ao meu redor, mais ninguém via; e eu me tornei
+            duplamente silencioso e distante, com medo de ser considerado louco.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Lo que veía a mi alrededor, nadie más lo veía; y me volví doblemente
+            silencioso y distante por temor a ser considerado loco.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             То, что я видел вокруг себя, не видел никто другой, и я стал вдвойне
@@ -1604,8 +1994,16 @@ meta.priority: 7017
             left my side.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Les chiens avaient peur de moi, car ils sentaient l'ombre extérieure
-            qui ne me quittait jamais.
+            Les chiens avaient peur de moi, car ils ressentaient l'ombre
+            extérieure qui ne me quittait jamais.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Os cães tinham medo de mim, pois sentiam a sombra exterior que nunca
+            deixava meu lado.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Los perros me temían, pues sentían la sombra exterior que nunca me
+            abandonaba.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Собаки боялись меня, ибо чувствовали внешнюю тень, которая никогда
@@ -1640,10 +2038,22 @@ meta.priority: 7017
             cosmos.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Mais j'ai continué à lire - dans des livres et des parchemins cachés
-            et oubliés vers lesquels ma nouvelle vision me conduisait - et j'ai
-            franchi de nouvelles portes de l'espace, de l'être et des modèles de
-            vie vers le cœur du cosmos inconnu.
+            Mais je continuais à lire davantage - dans des livres et des
+            parchemins cachés et oubliés vers lesquels ma nouvelle vision me
+            conduisait - et à traverser de nouveaux portails de l'espace et de
+            l'être et des motifs de vie vers le cœur du cosmos inconnu.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Mas ainda assim eu lia mais — em livros e pergaminhos escondidos e
+            esquecidos para os quais minha nova visão me guiava — e atravessava
+            novos portais de espaço, existência e padrões de vida em direção ao
+            núcleo do cosmos desconhecido.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Pero aún leía más, en libros y pergaminos ocultos y olvidados a los
+            que mi nueva visión me guiaba, y atravesaba nuevas puertas de
+            espacio y ser y patrones de vida hacia el núcleo del cosmos
+            desconocido.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Но я продолжал читать - в скрытых, забытых книгах и свитках, к
@@ -1673,6 +2083,8 @@ meta.priority: 7017
           <td class="text-left align-text-top p-2 column-class-lojbo"></td>
           <td class="text-left align-text-top p-2 column-class-glico"></td>
           <td class="text-left align-text-top p-2 column-class-fraso"></td>
+          <td class="text-left align-text-top p-2 column-class-porto"></td>
+          <td class="text-left align-text-top p-2 column-class-spano"></td>
           <td class="text-left align-text-top p-2 column-class-rusko"></td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
@@ -1696,10 +2108,20 @@ meta.priority: 7017
             litany the messenger from Tartary had brought.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je me souviens de la nuit où j'ai fait les cinq cercles
-            concentriques de feu sur le sol, et où je me suis tenu dans le
-            cercle le plus intérieur en chantant cette monstrueuse litanie que
-            le messager de Tartarie avait apportée.
+            Je me souviens de la nuit où j'ai tracé les cinq cercles
+            concentriques de feu sur le sol, et me suis tenu dans le plus
+            intérieur en récitant cette monstrueuse litanie que le messager de
+            Tartarie avait apportée.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Lembro-me da noite em que fiz os cinco círculos concêntricos de fogo
+            no chão, e fiquei no mais interno deles entoando aquela litania
+            monstruosa que o mensageiro da Tartária havia trazido.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Recuerdo la noche en que hice los cinco círculos concéntricos de
+            fuego en el suelo, y me paré en el más interno recitando esa
+            monstruosa letanía que el mensajero de Tartaria había traído.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Я помню ночь, когда я создал на полу пять концентрических кругов
@@ -1736,10 +2158,19 @@ meta.priority: 7017
             mountains miles below me.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Les murs ont fondu et j'ai été emporté par un vent noir à travers
-            des gouffres d'un gris insondable, avec les pinacles en forme
-            d'aiguilles de montagnes inconnues à des kilomètres au-dessous de
-            moi.
+            Les murs se sont fondus, et j'ai été emporté par un vent noir à
+            travers des gouffres de gris impénétrable avec les pinnacles acérés
+            de montagnes inconnues à des kilomètres en dessous de moi.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            As paredes se derreteram, e fui varrido por um vento negro por
+            abismos de cinza insondável com os pináculos pontiagudos de
+            montanhas desconhecidas a milhas abaixo de mim.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Las paredes se desvanecieron, y fui arrastrado por un viento negro a
+            través de abismos de gris insondable con los picos en forma de aguja
+            de montañas desconocidas a millas debajo de mí.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Стены растаяли, и меня понесло черным ветром через бездонные серые
@@ -1774,8 +2205,16 @@ meta.priority: 7017
             myriad stars forming strange, alien constellations.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Au bout d'un moment, l'obscurité totale s'est installée, puis la
-            lumière de myriades d'étoiles formant d'étranges constellations.
+            Après un moment, il y eut une obscurité totale, puis la lumière de
+            myriades d'étoiles formant d'étranges constellations étrangères.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Depois de um tempo, houve uma escuridão total, e então a luz de
+            miríades de estrelas formando constelações estranhas e alienígenas.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Después de un tiempo reinó la oscuridad total, y luego la luz de
+            miríadas de estrellas formando extrañas constelaciones alienígenas.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Через некоторое время наступила абсолютная чернота, а затем свет
@@ -1808,9 +2247,19 @@ meta.priority: 7017
             read or dreamed of.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Enfin, j'aperçus une plaine verdoyante loin au-dessous de moi, et
-            j'y discernai les tours tordues d'une ville construite d'une manière
-            que je n'avais jamais connue, lue ou rêvée.
+            Enfin, j'ai vu une plaine éclairée de vert loin en dessous de moi,
+            et discerné sur elle les tours tordues d'une ville construite
+            d'aucune manière que j'aie jamais connue, lue ou rêvée.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Finalmente, vi uma planície verde-iluminada longe abaixo de mim, e
+            distingui sobre ela as torres retorcidas de uma cidade construída de
+            uma maneira que eu nunca havia conhecido, lido ou sonhado.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Finalmente vi una llanura iluminada de verde lejos debajo de mí, y
+            distinguí en ella las torres retorcidas de una ciudad construida de
+            una manera que nunca había conocido, leído o soñado.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Наконец я увидел далеко под собой покрытую зеленью равнину и
@@ -1845,9 +2294,19 @@ meta.priority: 7017
             stone in an open space, and felt a hideous fear clutching at me.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Alors que je me rapprochais de cette ville, j'ai vu un grand
-            bâtiment carré en pierre dans un espace ouvert et j'ai senti une
-            peur hideuse s'emparer de moi.
+            Alors que je flottais plus près de cette ville, j'ai vu un grand
+            bâtiment carré en pierre dans un espace ouvert, et j'ai ressenti une
+            peur hideuse m'étreignant.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Conforme flutuava mais perto daquela cidade, vi um grande edifício
+            quadrado de pedra em um espaço aberto, e senti um medo horrível me
+            agarrando.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            A medida que flotaba más cerca de esa ciudad, vi un gran edificio
+            cuadrado de piedra en un espacio abierto, y sentí un miedo espantoso
+            apoderándose de mí.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Когда я подплыл ближе к этому городу, я увидел огромное квадратное
@@ -1883,9 +2342,19 @@ meta.priority: 7017
             floor.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            J'ai crié et je me suis débattu, et après un moment de vide, je me
-            suis retrouvé dans ma chambre mansardée, étendu sur les cinq cercles
-            phosphorescents du sol.
+            J'ai crié et lutté, et après un blanc, je me suis retrouvé à nouveau
+            dans ma chambre de grenier, étalé à plat sur les cinq cercles
+            phosphorescents sur le sol.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Gritei e lutei, e depois de um vazio, estava novamente em meu quarto
+            do sótão, esparramado sobre os cinco círculos fosforescentes no
+            chão.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            Grité y luché, y después de un vacío me encontré nuevamente en mi
+            habitación del ático, tendido sobre los cinco círculos
+            fosforescentes en el suelo.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Я кричал и боролся, и после того, как наступила пустота, я снова
@@ -1921,10 +2390,22 @@ meta.priority: 7017
             had ever been before.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Cette nuit-là, je n'ai pas ressenti plus d'étrangeté que lors de
-            nombreuses autres nuits d'errance, mais j'ai ressenti plus de
-            terreur, car je savais que j'étais plus proche de ces gouffres et de
-            ces mondes extérieurs que je ne l'avais jamais été auparavant.
+            Cette nuit-là, il n'y avait pas plus d'étrangeté que lors de
+            nombreuses nuits précédentes ; mais il y avait plus de terreur car
+            je savais que j'étais plus proche de ces gouffres et mondes
+            extérieurs que je ne l'avais jamais été auparavant.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Naquela noite de vagabundagem, não havia mais estranheza do que em
+            muitas outras noites de vagabundagem anteriores; mas havia mais
+            terror porque eu sabia que estava mais perto daqueles abismos e
+            mundos exteriores do que nunca estivera antes.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            En esa noche de vagabundeo no hubo más extrañeza que en muchas otras
+            noches anteriores de vagabundeo; pero hubo más terror porque sabía
+            que estaba más cerca de esos abismos y mundos exteriores de lo que
+            nunca había estado antes.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             В том ночном блуждании было не больше странностей, чем во многих
@@ -1961,12 +2442,22 @@ meta.priority: 7017
           <td class="text-left align-text-top p-2 column-class-glico">
             Thereafter I was more cautious with my incantations, for I had no
             wish to be cut off from my body and from the earth in unknown
-            abysses whence I could never return .
+            abysses whence I could never return.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Par la suite, j'ai été plus prudent dans mes incantations, car je ne
             voulais pas être coupé de mon corps et de la terre dans des abîmes
-            inconnus d'où je ne pourrais jamais revenir...
+            inconnus d'où je ne pourrais jamais revenir.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            A partir daí, fui mais cauteloso com minhas invocações, pois não
+            desejava ser separado do meu corpo e da terra em abismos
+            desconhecidos de onde nunca poderia retornar.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-spano">
+            A partir de entonces fui más cauteloso con mis conjuros, pues no
+            deseaba ser separado de mi cuerpo y de la tierra en abismos
+            desconocidos de los que nunca podría regresar.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             После этого я был более осторожен в своих заклинаниях, ибо не хотел
@@ -1994,6 +2485,8 @@ meta.priority: 7017
           <td class="text-left align-text-top p-2 column-class-lojbo">mu'o</td>
           <td class="text-left align-text-top p-2 column-class-glico">...</td>
           <td class="text-left align-text-top p-2 column-class-fraso">...</td>
+          <td class="text-left align-text-top p-2 column-class-porto">...</td>
+          <td class="text-left align-text-top p-2 column-class-spano">...</td>
           <td class="text-left align-text-top p-2 column-class-rusko">...</td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"

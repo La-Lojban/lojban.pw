@@ -1,9 +1,9 @@
 ---
-title: Navy Seals
+title: Navy Seal Copypasta
 meta.type: korpora
-meta.description: Navy Seals
+meta.description: Navy Seal Copypasta - http://knowyourmeme.com/memes/navy-seal-copypasta
 meta.keywords: Navy Seal Copypasta, la .navisil., la .navisil.
-meta.author: 
+meta.author: http://knowyourmeme.com/memes/navy-seal-copypasta
 meta.priority: 0
 ---
 
@@ -15,7 +15,7 @@ meta.priority: 0
   />
   <label
     for="hide-column-glico"
-    class="hide-column-button-glico float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-glico float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >English</label
   ><input
     type="checkbox"
@@ -24,7 +24,7 @@ meta.priority: 0
   />
   <label
     for="hide-column-lojbo_gi_e_se_fanva_la_gleki"
-    class="hide-column-button-lojbo_gi_e_se_fanva_la_gleki float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-lojbo_gi_e_se_fanva_la_gleki float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >lojbo gi'e se fanva la gleki</label
   ><input
     type="checkbox"
@@ -33,7 +33,7 @@ meta.priority: 0
   />
   <label
     for="hide-column-lojbo_fi_e_se_fanva_la_pimlu"
-    class="hide-column-button-lojbo_fi_e_se_fanva_la_pimlu float-left drop-shadow bg-white hover:bg-blue-600 focus:bg-blue-600 text-gray-900 hover:text-white border border-gray-600 font-bold leading-normal select-none py-2 px-4"
+    class="hide-column-button-lojbo_fi_e_se_fanva_la_pimlu float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >lojbo fi'e se fanva la pimlu</label
   >
   <div class="clear-both" />
