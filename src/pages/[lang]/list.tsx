@@ -18,7 +18,13 @@ type Props = {
   params: any;
 };
 
-const Index = ({ posts, siblingPosts, contentPosts, indexPost, params }: Props) => {
+const Index = ({
+  posts,
+  siblingPosts,
+  contentPosts,
+  indexPost,
+  params,
+}: Props) => {
   return (
     <>
       <Layout
@@ -123,9 +129,9 @@ export const getStaticProps = async ({ params }: Params) => {
         i.slug.length === 2
     )
     .map(({ slug }) => {
-      return { fullPath: slug[0]+"/list", language: slug[0] };
+      return { fullPath: slug[0] + "/list", language: slug[0] };
     });
-    
+
   const contentPosts = allPosts.filter(
     (i) => !(i.slug[1] === "list" && i.slug.length === 2)
   );
