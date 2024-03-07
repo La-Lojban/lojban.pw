@@ -22,7 +22,7 @@ const PostPreview = ({ post }: Props) => {
         backgroundImage: `url('${coverImage}')`,
         backgroundPosition: "left",
         backgroundRepeat: "no-repeat",
-        backgroundSize: 'auto 100%'
+        backgroundSize: "auto 100%",
       }}
     >
       <div className="inner">
@@ -31,6 +31,9 @@ const PostPreview = ({ post }: Props) => {
             as={`/${slug.join("/")}`}
             href="/[...slug]"
             className="hover:underline"
+            style={{
+              textShadow: "1px 1px 20px #fff, 1px 1px 20px #ccc",
+            }}
           >
             {title}
           </Link>
