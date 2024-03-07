@@ -1,7 +1,9 @@
 ---
 title: 🎓 Apprenez le lojban
-og:image: /assets/pixra/cilre/tcidu_la_lojban.webp
-coverImage: /assets/pixra/cilre/tcidu_la_lojban.webp
+og:image: /assets/pixra/cilre/sruri_since.webp
+
+coverImage: /assets/pixra/cilre/sruri_since.webp
+
 ---
 
 <!-- Author of trans-creation (translation, localisation, adaptation to culture): Sukender (Benoit NEIL) -->
