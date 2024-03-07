@@ -32,7 +32,7 @@ const PostPreview = ({ post }: Props) => {
             href="/[...slug]"
             className="hover:underline"
             style={{
-              textShadow: "1px 1px 20px #fff, 1px 1px 20px #ccc",
+              textShadow: "3px 3px 10px #fff, 3px 3px 10px #ccc",
             }}
           >
             {title}
