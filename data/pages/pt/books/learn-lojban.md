@@ -1,7 +1,9 @@
 ---
 title: 🎓 Aprenda Lojban
-og:image: /assets/pixra/cilre/tcidu_la_lojban.webp
-coverImage: /assets/pixra/cilre/tcidu_la_lojban.webp
+og:image: /assets/pixra/cilre/sruri_since.webp
+
+coverImage: /assets/pixra/cilre/sruri_since.webp
+
 ---
 
 @include "learn-lojban/!0.md"
