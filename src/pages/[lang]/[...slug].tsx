@@ -154,6 +154,9 @@ const Post = ({
                   <ImageGallery
                     additionalClass="fullpage"
                     items={images}
+                    lazyLoad={true}
+                    useTranslate3D={false}
+                    showBullets={true}
                     startIndex={currentImgIndex}
                     onSlide={(currentIndex) => {
                       document

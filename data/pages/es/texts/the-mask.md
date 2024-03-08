@@ -10,15 +10,6 @@ meta.priority: 10543
 <div class="w-full">
   <input
     type="checkbox"
-    id="hide-column-porto"
-    class="hide-column-checkbox-porto"
-  />
-  <label
-    for="hide-column-porto"
-    class="hide-column-button-porto float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
-    >português</label
-  ><input
-    type="checkbox"
     id="hide-column-lojbo"
     class="hide-column-checkbox-lojbo"
   />
@@ -62,6 +53,15 @@ meta.priority: 10543
     for="hide-column-spano"
     class="hide-column-button-spano float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
     >español</label
+  ><input
+    type="checkbox"
+    id="hide-column-porto"
+    class="hide-column-checkbox-porto"
+  />
+  <label
+    for="hide-column-porto"
+    class="hide-column-button-porto float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
+    >português</label
   >
   <div class="clear-both" />
   <div class="w-full overflow-x-auto">
