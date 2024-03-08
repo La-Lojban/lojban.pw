@@ -63,7 +63,7 @@ export default async function markdownToHtml({
           },
           allowDangerousHtml: true,
         }) // 4sec
-        .use(rehypeKatex)
+        .use(rehypeKatex, { strict: false })
         .use(raw)
         .use(stringify) // makes it all faster???
         .process(content)

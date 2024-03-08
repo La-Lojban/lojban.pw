@@ -31,7 +31,7 @@ export function buildDOMFromJSONBasic(
                 }));
             },
           },
-          domToReact(domNode.children)
+          domToReact(domNode.children as any)
         );
         return el;
       } else if (domNode instanceof Element && domNode.attribs?.onclick) {
@@ -44,7 +44,7 @@ export function buildDOMFromJSONBasic(
               eval(domNode.attribs.onclick);
             },
           },
-          domToReact(domNode.children)
+          domToReact(domNode.children as any)
         );
         return el;
       }

@@ -113,7 +113,9 @@ const remarkMermaid: Plugin<[RemarkMermaidOptions?]> = function mermaidTrans(
         document.querySelector("p").remove();
       </script>
       </body>
-      </html>`
+      </html>`,{
+        timeout: 50000,
+      }
     );
     let svgResults: string[];
     try {
