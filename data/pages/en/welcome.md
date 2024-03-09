@@ -23,7 +23,7 @@ in the Discord, Telegram messengers.
 
 ## Unofficial ‘Complete Lojban Language’ Book, October 2022 Edition
 
-<pixra redirect="/en/articles/complete-lojban-language" url="/assets/pixra/ralju/xuncku.webp" caption="The Complete Lojban Language"></pixra>
+<pixra redirect="/en/articles/complete-lojban-language" url="/assets/pixra/ralju/cll2.webp" caption="The Complete Lojban Language"></pixra>
 
 This book adheres to the original book published in 1997 and:
 
