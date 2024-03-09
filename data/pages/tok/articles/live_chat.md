@@ -8,13 +8,13 @@ kulupu pi toki Losupan li kepeken ilo toki ante mute. sina ken kepeken ilo toki 
 
 ilo toki ale li pona. o kepeken ilo pi wile sina.
 
-### ![](https://github.com/La-Lojban/suho-pixra-pe-la-jbotcan/blob/master/logo-24.png?raw=true) #lojban - "toki Losupan"
+### <img src="/assets/pixra/ralju/pluka_lanci.svg" alt="lojban logo" style="height:60px;"/> #lojban - "toki Losupan"
 
 tomo toki nanpa wan. o toki e wile sona ale. o sona e ni: ale pi kulupu ala li ken kama lukin e toki ale pi tomo ni.
 
 o lon kepeken ilo toki pi mani ala: [ilo Siko](https://discord.gg/BVm4EYR), [ilo Telekan](https://t.me/lojban), [ilo Sa](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
-### ![](https://github.com/La-Lojban/suho-pixra-pe-la-jbotcan/blob/master/jduli-24.png?raw=true) #ckule - "tomo pi kama sona"
+### <img src="/assets/pixra/ralju/jduli.svg" alt="lojban school logo" style="height:60px;"/> #ckule - "tomo pi kama sona"
 
 tomo ni la sina toki e wile sona pi toki Losupan la jan sona wawa pi toki Losupan li pana e sona.
 
