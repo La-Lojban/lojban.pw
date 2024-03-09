@@ -7,12 +7,12 @@ Lojban é uma língua viva, e você pode entrar em contato com especialistas em 
 A comunidade de Lojban usa um chat unificado. Você pode usar qualquer um dos seguintes mensageiros populares e suas mensagens serão entregues do mensageiro que você usa para os respectivos canais em todos os outros mensageiros. Usamos um programa "bridge" especial para conseguir isso.
 
 Escolha o mensageiro que você gosta.
-### ![](https://github.com/La-Lojban/suho-pixra-pe-la-jbotcan/blob/master/logo-24.png?raw=true) #lojban - "Lojban"
+### <img src="/assets/pixra/ralju/pluka_lanci.svg" alt="lojban logo" style="height:60px;"/> #lojban - "Lojban"
 
 O chat principal é publicamente registrado: qualquer pergunta
 
 Entre através de um mensageiro gratuito: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
-### ![](https://github.com/La-Lojban/suho-pixra-pe-la-jbotcan/blob/master/jduli-24.png?raw=true) #ckule - "Escola"
+### <img src="/assets/pixra/ralju/jduli.svg" alt="lojban school logo" style="height:60px;"/> #ckule - "Escola"
 
 Um chat onde você faz perguntas sobre Lojban e recebe respostas de falantes fluentes e conhecedores.
 
