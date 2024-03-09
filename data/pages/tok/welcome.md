@@ -22,7 +22,7 @@ lon ilo toki Siko lon ilo toki Telekan.
 
 ## lipu ‘sona ale pi toki Losupan’ pi kulupu pali open ala, li sin lon sike #2022 lon mun #10
 
-<pixra redirect="/tok/articles/complete-lojban-language" url="/assets/pixra/ralju/xuncku.webp" caption="lipu ‘sona ale pi toki Losupan’"></pixra>
+<pixra redirect="/tok/articles/complete-lojban-language" url="/assets/pixra/ralju/cll2.webp" caption="lipu ‘sona ale pi toki Losupan’"></pixra>
 
 tenpo sike #1997 la kulupu pali pi toki Losupan li pana e lipu. lipu ni li wile awen sama lipu open, li ante lili ni:
 
