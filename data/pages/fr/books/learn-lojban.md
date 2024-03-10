@@ -1,7 +1,7 @@
 ---
 title: 🎓 Apprenez le lojban
+description: nice easy course with lots of examples
 og:image: /assets/pixra/cilre/sruri_since.webp
-
 coverImage: /assets/pixra/cilre/sruri_since.webp
 
 ---
