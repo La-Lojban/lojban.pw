@@ -8,7 +8,7 @@ title: Os Verbos em Lojban estão Quebrados?
 
 Parece que aprender as definições dos verbos em Lojban, como
 
-> *x1 corre na superfície x2 usando membros x3 com passo x4*
+> *$x_1$ corre na superfície $x_2$ usando membros $x_3$ com passo $x_4$*
 
 pode ser desafiador porque quase todo verbo tem sua própria estrutura de lugar distinta. Existe alguma maneira de tornar isso menos exigente mentalmente? Por que Lojban foi projetado dessa maneira?
 ## Resposta
@@ -25,7 +25,7 @@ mas em russo isso se traduz para
 
 > Eu dependo de você
 
-Certas preposições combinadas com verbos específicos poderiam criar significados incomuns, levando a ainda mais aleatoriedade do que o sistema atual com x1, x2, etc.
+Certas preposições combinadas com verbos específicos poderiam criar significados incomuns, levando a ainda mais aleatoriedade do que o sistema atual com $x_1$, $x_2$, etc.
 
 É importante observar que a maioria dos verbos em Lojban tem apenas até três lugares. Apenas cerca de 30 verbos principais (lo gismu) têm cinco lugares. Além disso, você não precisa conhecer a estrutura de lugar de cada verbo principal para falar fluentemente Lojban. Por exemplo, é crucial saber a estrutura de lugar da 'função seno trigonométrica' ao discutir preparação de alimentos?
 
@@ -43,16 +43,16 @@ Algumas estruturas de lugar em Lojban são menos diretas do que outras, assim co
 
 Os verbos em Lojban, assim como os verbos em inglês, podem ser agrupados em estruturas de lugar idênticas, por exemplo:
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - x1 é um gato da espécie x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - $x_1$ é um gato da espécie $x_2$
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - x1 é um cachorro da espécie x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - $x_1$ é um cachorro da espécie $x_2$
 ## A Estrutura de Lugar é Fácil de Aprender, Mas...
 
 Muitas vezes, a estrutura de lugar é fácil de aprender. No entanto, o conceito de movimento apresenta um conjunto aleatório de estruturas de lugar. Considere o seguinte:
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - x1 (objeto) se move para o destino/receptor x2 [afastando-se] da origem x3 ao longo do caminho/rota x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - $x_1$ (objeto) se move para o destino/receptor $x_2$ [afastando-se] da origem $x_3$ ao longo do caminho/rota $x_4$.
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu">bajra</a> - x1 corre na superfície x2 usando membros x3 com marcha x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu">bajra</a> - $x_1$ corre na superfície $x_2$ usando membros $x_3$ com marcha $x_4$.
 
 ## Resposta
 

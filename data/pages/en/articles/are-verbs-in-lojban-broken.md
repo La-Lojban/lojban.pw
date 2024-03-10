@@ -8,7 +8,7 @@ title: Are Verbs in Lojban Broken?
 
 It seems that learning definitions of verbs in Lojban, such as
 
-> *x1 runs on surface x2 using limbs x3 with gait x4*
+> *$x_$1$ runs on surface $x_$1$ using limbs $x_$1$ with gait $x_$1$*
 
 could be challenging because almost every verb has its own distinct place structure. Is there a way to make this require less mental effort? Why is Lojban designed this way?
 
@@ -46,17 +46,17 @@ Some Lojban place structures are less straightforward than others, just like in 
 
 Lojban verbs, like English verbs, can be grouped into frames with identical place structures, e.g.
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - x1 is a cat of species x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - $x_$1$ is a cat of species $x_$1$
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - x1 is a dog of species x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - $x_$1$ is a dog of species $x_$1$
 
 ## Place Structure is Easy to Learn, But...
 
 Often, the place structure is easy to learn. However, the concept of movement presents a random set of place structures. Consider the following:
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - x1 (object) moves to destination/receiver x2 [away] from origin x3 over path/route x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - $x_$1$ (object) moves to destination/receiver $x_$1$ [away] from origin $x_$1$ over path/route $x_$1$.
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - x1 runs on surface x2 using limbs x3 with gait x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - $x_$1$ runs on surface $x_$1$ using limbs $x_$1$ with gait $x_$1$.
 
 Why not have one place structure for all of them?
 

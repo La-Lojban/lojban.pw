@@ -181,7 +181,7 @@ title: 📕 Idioma completo
 * A versão HTML agora tem tabelas e exemplos com rolagem horizontal em telas estreitas (por exemplo, dispositivos móveis). Isso torna a versão HTML mais amigável para dispositivos móveis.
 * O EPUB é gerado novamente (estava faltando na versão 1.2.8.1)
 * Símbolos coreanos e chineses agora são exibidos usando a fonte Noto CJK
-* lugares como "x1" agora são exibidos com números em subscrito
+* lugares como "$x_1$" agora são exibidos com números em subscrito
 * Um exemplo na Seção 16.9 {naku zo'u la djan. klama} não correspondia aos outros exemplos ao redor, então foi substituído por {naku zo'u mi klama le zarci} (um bug notado por [Corbin Simpson](https://github.com/MostAwesomeDude))
 * uma definição da palavra {bu'u} é adicionada à lista de outras partículas gramaticais da classe FAhA
 #### [fonte git](https://github.com/lojban/cll/compare/geklojban-1.2.9)
