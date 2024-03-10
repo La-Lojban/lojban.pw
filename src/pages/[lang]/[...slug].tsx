@@ -221,7 +221,7 @@ export async function getStaticProps({ params }: Params) {
     "title",
     "hidden",
     "meta.title",
-    "meta.description",
+    "description",
     "meta.keywords",
     "meta.author",
     "meta.type",

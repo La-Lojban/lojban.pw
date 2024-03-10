@@ -93,7 +93,7 @@ export const getStaticProps = async ({ params }: Params) => {
       "content",
 
       "meta.title",
-      "meta.description",
+      "description",
       "meta.keywords",
       "meta.author",
       "meta.type",
