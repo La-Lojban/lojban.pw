@@ -1,6 +1,6 @@
 ---
 title: 🎓 o kama sona toki Losupan
-description: nice easy course with lots of examples
+description: ilo sona pona. sike pi sitelen pona li mute.
 ogImage: /assets/pixra/cilre/sruri_since.webp
 coverImage: /assets/pixra/cilre/sruri_since.webp
 
