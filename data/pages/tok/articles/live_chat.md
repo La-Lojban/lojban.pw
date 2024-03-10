@@ -1,5 +1,7 @@
 ---
 title: 💬 ilo toki kulupu
+meta.type: article
+meta.description: toki Losupan li toki lon. sina ken toki tawa jan pi sona wawa pi toki Losupan lon ilo toki.
 ---
 
 toki Losupan li toki lon. sina ken toki tawa jan pi sona wawa pi toki Losupan lon ilo toki.

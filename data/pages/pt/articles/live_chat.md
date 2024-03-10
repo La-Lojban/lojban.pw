@@ -1,5 +1,7 @@
 ---
 title: 💬 Chat
+meta.type: article
+meta.description: Lojban é uma língua viva, e você pode entrar em contato com especialistas em Lojban em um chat.
 ---
 
 Lojban é uma língua viva, e você pode entrar em contato com especialistas em Lojban em um chat.

@@ -597,13 +597,13 @@ module.exports = {
   },
   plugins: [
     require("tailwind-scrollbar"),
-    require("tailwindcss-typography")({
-      // all these options default to the values specified here
-      ellipsis: true, // whether to generate ellipsis utilities
-      hyphens: true, // whether to generate hyphenation utilities
-      kerning: true, // whether to generate kerning utilities
-      textUnset: true, // whether to generate utilities to unset text properties
-      componentPrefix: "c-", // the prefix to use for text style classes
-    }),
+    // require("@tailwindcss/typography")({
+    //   // all these options default to the values specified here
+    //   ellipsis: true, // whether to generate ellipsis utilities
+    //   hyphens: true, // whether to generate hyphenation utilities
+    //   kerning: true, // whether to generate kerning utilities
+    //   textUnset: true, // whether to generate utilities to unset text properties
+    //   componentPrefix: "c-", // the prefix to use for text style classes
+    // }),
   ],
 };
