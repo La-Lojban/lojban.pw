@@ -3,54 +3,62 @@ title: Qu'est-ce que le Lojban ?
 meta.title: Qu'est-ce que le Lojban ?
 ---
 
-**Lojban** est une langue logique parlée qui a été créée en 1987 et est maintenant soutenue par ses locuteurs.
+Le **Lojban** est une langue logique parlée créée en 1987 et désormais prise en charge par ses locuteurs.
 
-Voici des tutoriels et de la documentation libres de droits et non officiels sur la langue Lojban.
+Ce site Web répertorie des didacticiels et de la documentation libres et non officiels sur la langue Lojban.
 
-Vous pouvez envoyer des suggestions à [gleki.is.my.name@gmail.com](mailto:gleki.is.my.name@gmail.com) ou ajouter des problèmes sur le [référentiel source Lojban](https://github.com/la-lojban/lojban-made-easy/issues).
+## [Cours ‘Apprendre le Lojban’](/fr/books/learn-lojban)
 
-## [« Apprenez Lojban »](/fr/books/learn-lojban)
+<pixra redirect="/fr/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="Cours « Apprendre le Lojban » »></pixra>
 
-Ce cours enseigne Lojban à partir de ses fondations formelles, mais avec des termes simples et de nombreux exemples d'utilisation.
+Ce cours enseigne le Lojban à partir de ses bases formelles, mais en termes simples et avec de nombreux exemples d'utilisation.
 
 * [PDF](/vreji/uencu/fr/learn-lojban.pdf) - dans un fichier PDF à télécharger.
 
-## Chat en direct Lojban
+## [Chat Lojban en direct](/fr/articles/live_chat)
 
-Rejoignez le [chat en direct Lojban](https://discord.gg/wasp5fj) sur le messager Discord.
+<pixra redirect="/fr/articles/live_chat" url="/assets/pixra/ralju/jduli.svg" caption="Chat Lojban en direct"></pixra>
 
-## Version non officielle du livre « La langue Lojban complète », édition d'octobre 2022
+dans le Discord, le Telegram.
 
-Ce livre respecte le livre original publié en 1997 et :
+## Livre non officiel « Complete Lojban Language », édition d'octobre 2022
 
-* Corrige les erreurs de frappe
+<pixra redirect="/fr/articles/complete-lojban-lingual" url="/assets/pixra/ralju/cll2.webp" caption="La langue Lojban complète"></pixra>
+
+Ce livre adhère au livre original publié en 1997 et :
+
+* Corrige les fautes de frappe
 * Corrige les contradictions
-* Ajoute du nouveau contenu qui ne viole pas le contenu précédent
+* Ajoute un nouveau contenu qui ne viole pas le contenu précédent
 
 Il est disponible dans les formats suivants :
 
 * [PDF](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.pdf) - dans un fichier PDF à télécharger
-* [HTML par sections](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/) - dans des fichiers HTML
+* [HTML en sections](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/) - dans les fichiers HTML
 <!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.epub) - sous forme de livre EPUB -->
 
-[Plus d'informations...](/fr/articles/complete-lojban-language)
+[Plus d'infos...](/fr/articles/complete-lojban-langue)
 
-## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) La Sutysisku - un dictionnaire non officiel élégant
+## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - un dictionnaire non officiel astucieux
 
-Découvrez [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), un dictionnaire pour Lojban qui comprend :
+Explorez [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), un dictionnaire pour le Lojban qui comprend :
 
-* Les définitions de facto standard des mots
-* Les définitions expérimentales et les exemples d'utilisation
+* Définitions standard de facto des mots
+* Définitions expérimentales et exemples d'utilisation
+
+## Suggestions
+
+Vous pouvez envoyer vos suggestions à [gleki.is.my.name@gmail.com](mailto:gleki.is.my.name@gmail.com) ou ajouter des problèmes dans le [dépôt source Lojban](https://github.com/la-lojban/lojban-made-easy/issues).
 
 ## Licence
 
-La licence du livre « La langue Lojban complète » (plutôt permissive) est spécifiée dans le livre lui-même.
+La licence du livre « Complete Lojban Language » (plutôt permissive) est spécifiée dans le livre lui-même.
 
 <p xmlns:dct="https://purl.org/dc/terms/">
 <a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
 <img src="https://i.creativecommons.org/p/mark/1.0/88x31.png"
-     style="border-style: none;" alt="Public Domain Mark" />
+      style="border-style : aucun ;" alt="Marque du domaine public" />
 </a>
 <br />
-Ce travail (<span property="dct:title">Apprenez Lojban</span>, par <a href="https://lojban.pw" rel="dct:creator"><span property="dct:title">Gleki Arxokuna</span></a>), identifié par <a href="https://lojban.pw" rel="dct:publisher"><span property="dct:title">Gleki Arxokuna</span></a>, est exempt de restrictions connues liées au droit d'auteur.
+Ce travail (<span property="dct:title">Apprendre le Lojban</span>, par <a href="https://lojban.pw" rel="dct:creator"><span property="dct:title ">Gleki Arxokuna</span></a>), identifié par <a href="https://lojban.pw" rel="dct:publisher"><span property="dct:title">Gleki Arxokuna</span></a>, est exempt de restrictions connues en matière de droits d'auteur.
 </p>

@@ -13,9 +13,9 @@ title: Des verbes compliqués en lojban ?
 
 Les définitions des verbes en lojban, telles que
 
-> *x1 court sur la surface x2 en utilisant les membres x3 avec une démarche x4*
+> *$x_1$ court sur la surface $x_2$ en utilisant les membres $x_3$ avec une démarche $x_4$*
 
-semblent difficiles à apprendre car pratiquement chaque verbe a sa structure propre, avec des emplacements (x1, x2...) différents. N'y a-t-il pas plus facile à retenir ? Pourquoi lojban est-il conçu de cette manière ?
+semblent difficiles à apprendre car pratiquement chaque verbe a sa structure propre, avec des emplacements ($x_1$, $x_2$...) différents. N'y a-t-il pas plus facile à retenir ? Pourquoi lojban est-il conçu de cette manière ?
 
 ## Réponse
 
@@ -38,10 +38,10 @@ alors qu'en russe cela se traduit par quelque chose comme :
 
 De plus, certaines prépositions ou formulations pourraient être ambigües. Cela rendrait les choses bien plus hasardeuses qu'avec le système actuel des emplacements.
 
-Ce système n'est d'ailleurs pas si lourd. La plupart des verbes en lojban n'ont que trois emplacements (x1, x2, x3). Seule une trentaine de verbes de base (*lo gismu*) en ont cinq. De plus, il n'est pas nécessaire de connaitre les emplacements de chaque verbe pour parler couramment lojban. Et puis, a-t-on besoin des emplacements du verbe "être un sinus" (fonction trigonométrique) ? Surtout lorsqu'on discute de cuisine !
+Ce système n'est d'ailleurs pas si lourd. La plupart des verbes en lojban n'ont que trois emplacements ($x_1$, $x_2$, $x_3$). Seule une trentaine de verbes de base (*lo gismu*) en ont cinq. De plus, il n'est pas nécessaire de connaitre les emplacements de chaque verbe pour parler couramment lojban. Et puis, a-t-on besoin des emplacements du verbe "être un sinus" (fonction trigonométrique) ? Surtout lorsqu'on discute de cuisine !
 
 <!-- L10N: Specific to French language -->
-Il est intéressant de noter qu'en français, le complément d'objet direct (COD) se comporte assez souvent comme la première "place" lojban (x1). Par exemple, "donner quelque chose" ("Je donne un cadeau."). Ce complément ne nécessite d'ailleurs pas de préposition, contrairement à d'autres ("donner À quelqu'un").
+Il est intéressant de noter qu'en français, le complément d'objet direct (COD) se comporte assez souvent comme la première "place" lojban ($x_1$). Par exemple, "donner quelque chose" ("Je donne un cadeau."). Ce complément ne nécessite d'ailleurs pas de préposition, contrairement à d'autres ("donner À quelqu'un").
 
 De plus, en français et contrairement au lojban, certaines formulations "à priori correctes grammaticalement" ne sont pas utilisables. Elles doivent être reformulées pour obtenir la "bonne" façon de dire. On peut ainsi "donner à Sophie", mais pas "donner à toi" ; il convient de dire "te donner".
 
@@ -57,17 +57,17 @@ Alors certes, il y a des "emplacements" en lojban qui sont moins évidents que d
 
 Pour faciliter l'apprentissage, les verbes en lojban peuvent être regroupés par type de structure. Par exemple :
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - x1 est un chat de l'espèce x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - $x_1$ est un chat de l'espèce $x_2$
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - x1 est un chien de l'espèce x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - $x_1$ est un chien de l'espèce $x_2$
 
 ## La structure est facile à apprendre mais...
 
 Souvent, les emplacements sont intuitifs à apprendre. Mais pas toujours. Ce qui tourne autour du concept de mouvement, notamment, présente des emplacements disparates :
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - x1 (objet) bouge vers x2 depuis l'origine x3 sur le chemin/le trajet x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - $x_1$ (objet) bouge vers $x_2$ depuis l'origine $x_3$ sur le chemin/le trajet $x_4$.
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - x1 court sur la surface x2 en utilisant les membres x3 avec une démarche x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - $x_1$ court sur la surface $x_2$ en utilisant les membres $x_3$ avec une démarche $x_4$.
 
 Pourquoi ne pas avoir une seule structure d'emplacements pour tous ?
 

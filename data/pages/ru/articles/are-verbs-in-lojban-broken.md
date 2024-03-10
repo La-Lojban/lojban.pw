@@ -8,7 +8,7 @@ title: Сломаны ли глаголы в ложбане?
 
 Кажется, что изучение определений глаголов в Lojban (языке ложбан), таких как
 
-> *x1 бежит по поверхности x2, используя конечности x3 с походкой x4*
+> *$x_1$ бежит по поверхности $x_2$, используя конечности $x_3$ с походкой $x_4$*
 
 может быть сложным, потому что почти у каждого глагола есть своя уникальная структура мест. Нельзя ли было использовать падежи и предлоги, как в русском? Почему Lojban разработан таким образом?
 
@@ -46,17 +46,17 @@ title: Сломаны ли глаголы в ложбане?
 
 Глаголы Lojban, как и глаголы английского языка, могут быть сгруппированы в рамки с идентичной структурой мест, например:
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - x1 является кошкой вида x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - $x_1$ является кошкой вида $x_2$
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - x1 является собакой вида x2
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - $x_1$ является собакой вида $x_2$
 
 ## Структура места легко изучается, но...
 
 Часто структуру места легко изучить. Однако концепция движения представляет собой случайный набор структур мест. Рассмотрим следующее:
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - x1 (объект) перемещается к месту назначения/получателю x2 [вдали] от начала x3 по пути/маршруту x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - $x_1$ (объект) перемещается к месту назначения/получателю $x_2$ [вдали] от начала $x_3$ по пути/маршруту $x_4$.
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - x1 бегает на поверхности x2, используя конечности x3 с походкой x4.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - $x_1$ бегает на поверхности $x_2$, используя конечности $x_3$ с походкой $x_4$.
 
 Почему бы не иметь одну структуру места для всех?
 

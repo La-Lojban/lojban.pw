@@ -196,7 +196,7 @@ Aquí está la traducción:
 * La versión HTML ahora tiene tablas y ejemplos que se pueden desplazar horizontalmente en pantallas estrechas (por ejemplo, dispositivos móviles). Esto hace que la versión HTML sea más amigable para dispositivos móviles.
 * Se genera de nuevo el EPUB (faltaba en la versión 1.2.8.1)
 * Los símbolos coreanos y chinos ahora se muestran con la fuente Noto CJK
-* lugares como "x1" ahora se muestran con números subíndice
+* lugares como "$x_1$" ahora se muestran con números subíndice
 * Un ejemplo en la Sección 16.9 {naku zo'u la djan. klama} no correspondía a otros ejemplos a su alrededor, por lo que se reemplazó con {naku zo'u mi klama le zarci} (un error notado por [Corbin Simpson](https://github.com/MostAwesomeDude))
 * se agrega una definición de la palabra {bu'u} a la lista de otras partículas gramaticales de la clase FAhA
 #### [fuente git](https://github.com/lojban/cll/compare/geklojban-1.2.9)
