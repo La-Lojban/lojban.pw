@@ -67,10 +67,10 @@ export const links = [
   { rel: "manifest", href: "/assets/favicons/site.webmanifest" },
   {
     rel: "mask-icon",
-    href: "/assets/icons/lojbo.svg",
+    href: "/assets/pixra/ralju/pluka_lanci.svg",
     color: "#000000",
   },
-  { rel: "shortcut icon", href: "/assets/icons/lojbo.svg" },
+  { rel: "shortcut icon", href: "/assets/pixra/ralju/pluka_lanci.svg" },
   // {rel:"alternate", type:"application/rss+xml", href:"/feed.xml"}
 ];
 
@@ -81,7 +81,7 @@ export const meta = {
   "msapplication-TileColor": "#000000",
   "msapplication-config": "/assets/favicons/browserconfig.xml",
   "theme-color": "#000",
-  "og:image": "/assets/icons/lojbo.svg",
+  "og:image": "/assets/pixra/ralju/pluka_lanci.svg",
   "apple-mobile-web-app-capable": "yes",
   "apple-mobile-web-app-status-bar-style": "default",
   "apple-mobile-web-app-title": site_title,
@@ -93,7 +93,7 @@ export const meta = {
   "twitter:url": site_url,
   "twitter:title": site_title,
   "twitter:description": site_description,
-  "twitter:image": "/assets/icons/lojbo.svg",
+  "twitter:image": "/assets/pixra/ralju/pluka_lanci.svg",
   "twitter:creator": site_creator_twitter,
   "og:type": "website",
   "og:title": site_title,
