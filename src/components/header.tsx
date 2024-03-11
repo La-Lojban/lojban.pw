@@ -81,7 +81,7 @@ export default function Header({
                   </Link>
                 </div>
 
-                <div className="hidden md:block">
+                <div className="hidden lg:block">
                   <div className="ml-5 flex items-baseline space-x-3">
                     {header_.map((item) => {
                       const { coverImage } = item.foundTitle;
@@ -96,7 +96,7 @@ export default function Header({
                           className="mt-auto"
                         >
                           <button
-                            className={`h-8 flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base px-4 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center`}
+                            className={`h-8 flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base leading-none px-4 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center`}
                             // style={{
                             //   backgroundImage: `url('${coverImage}')`,
                             //   backgroundPosition: "right",
@@ -177,7 +177,7 @@ export default function Header({
                   </Menu>
                 </div>
               </div> */}
-              <div className="-mr-2 flex md:hidden">
+              <div className="-mr-2 flex lg:hidden">
                 {/* Mobile menu button */}
                 <Popover.Button
                   onClick={() => {
@@ -200,7 +200,7 @@ export default function Header({
             </div>
           </div>
 
-          <Popover.Panel className="md:hidden bg-gray-100 shadow-lg">
+          <Popover.Panel className="lg:hidden bg-gray-100 shadow-lg">
             {/* favs */}
             <div className="px-2 pt-2 space-y-1 sm:px-3">
               {header_.map((item) => {
