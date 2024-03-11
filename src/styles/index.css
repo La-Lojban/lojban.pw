@@ -249,7 +249,7 @@ img {
 }
 
 .logo {
-  @apply w-12 h-12 mt-4 opacity-80 hover:opacity-60;
+  @apply w-12 h-12 mt-4 opacity-60 hover:opacity-80 focus:opacity-100 active:opacity-100;
   transform: skew(-10deg, 0deg);
   width: 150%;
 }
