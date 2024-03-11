@@ -63,10 +63,10 @@ export const links = [
   { rel: "manifest", href: "/assets/favicons/manifest.json" },
   {
     rel: "mask-icon",
-    href: "/assets/icons/lojbo.svg",
+    href: "/assets/pixra/ralju/pluka_lanci.svg",
     color: "#000000",
   },
-  { rel: "shortcut icon", href: "/assets/icons/lojbo.svg" },
+  { rel: "shortcut icon", href: "/assets/pixra/ralju/pluka_lanci.svg" },
 ];
 
 export const meta = {
@@ -85,7 +85,7 @@ export const meta = {
   "twitter:url": "site_url",
   "twitter:title": "site_title",
   "twitter:description": "site_description",
-  "twitter:image": "/assets/icons/lojbo.svg",
+  "twitter:image": "/assets/pixra/ralju/pluka_lanci.svg",
   "twitter:creator": "site_creator_twitter",
   "og:image": "/assets/icons/lojbo-512.png",
   "og:type": "website",

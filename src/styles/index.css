@@ -249,7 +249,9 @@ img {
 }
 
 .logo {
-  @apply w-12 h-12 mt-4 hover:opacity-70;
+  @apply w-12 h-12 mt-4 opacity-80 hover:opacity-60;
+  transform: skew(-10deg, 0deg);
+  width: 150%;
 }
 
 .lojbo ~ * {

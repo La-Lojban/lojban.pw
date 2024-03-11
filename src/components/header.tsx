@@ -75,14 +75,14 @@ export default function Header({
                   <Link href={`/${currentLanguage}/welcome`}>
                     <img
                       className="logo"
-                      src="/assets/icons/lojbo.svg"
+                      src="/assets/pixra/ralju/pluka_lanci.svg"
                       alt="Lojban logo"
                     />
                   </Link>
                 </div>
 
                 <div className="hidden md:block">
-                  <div className="ml-10 flex items-baseline space-x-3">
+                  <div className="ml-5 flex items-baseline space-x-3">
                     {header_.map((item) => {
                       const { coverImage } = item.foundTitle;
                       return (
