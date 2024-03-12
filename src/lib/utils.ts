@@ -18,3 +18,14 @@ export function retainStringValues(jsonObject: any, extraKeysToRemove: string[] 
   // Return the new object containing only the keys with string values
   return newObject;
 }
+
+export function debounce(func: any, delay: number) {
+  let timeoutId: ReturnType<typeof setTimeout>;
+  return function () {
+    const args = arguments;
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(function () {
+      func.apply(null, args);
+    }, delay);
+  };
+}
