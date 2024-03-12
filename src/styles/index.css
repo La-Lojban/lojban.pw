@@ -390,7 +390,7 @@ article blockquote:before {
 }
 
 article blockquote p {
-  @apply font-normal;
+  @apply font-normal mt-0 mb-0;
 }
 
 article .simple_blockquotes ~ blockquote p > *:not(span) {
