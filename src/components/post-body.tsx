@@ -1,8 +1,16 @@
 import { PostProps } from "../types/post";
 import PostHeader from "../components/post-header";
 import { buildDOMFromJSONBasic } from "../lib/json2react";
+import AllStories from "./all-stories";
 
-const PostBody = ({ post, state, setState, hasToc }: PostProps<any>) => {
+const PostBody = ({
+  post,
+  state,
+  setState,
+  hasToc,
+  posts,
+  lang,
+}: PostProps<any>) => {
   const content = buildDOMFromJSONBasic(post.content, { state, setState });
   return (
     <>
@@ -13,6 +21,7 @@ const PostBody = ({ post, state, setState, hasToc }: PostProps<any>) => {
       >
         <PostHeader post={post} />
         {content}
+        {posts && posts.length > 0 && <AllStories posts={posts} lang={lang} />}
         {/* <div dangerouslySetInnerHTML={{ __html: post?.content }} /> */}
       </div>
     </>

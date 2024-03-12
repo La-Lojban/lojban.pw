@@ -1,3 +1,3 @@
 ---
-title: 📑 Reteja mapo
+title: 📑 Mapo de retejo
 ---
