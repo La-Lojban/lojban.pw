@@ -20,7 +20,6 @@ import { retainStringValues } from "../../lib/utils";
 
 type Props = {
   post: TPost;
-  preview?: boolean;
   posts: Items[];
   siblingPosts: Items[];
   currentLanguage: string;
@@ -37,7 +36,6 @@ const Post = ({
   posts,
   siblingPosts,
   currentLanguage,
-  preview,
 }: Props) => {
   const router = useRouter();
   if (!router.isFallback && !post?.slug) return <ErrorPage statusCode={404} />;
@@ -69,7 +67,6 @@ const Post = ({
   const title = title_core ? `${title_core} | ${site_title}` : site_title;
   const pageToRender = (
     <Layout
-      preview={preview}
       meta={{
         ...retainStringValues(post, ["content", "fullPath"]),
         title,

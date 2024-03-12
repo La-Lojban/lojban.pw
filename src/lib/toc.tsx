@@ -1,13 +1,4 @@
-function debounce(func: any, delay: number) {
-  let timeoutId: ReturnType<typeof setTimeout>;
-  return function () {
-    const args = arguments;
-    clearTimeout(timeoutId);
-    timeoutId = setTimeout(function () {
-      func.apply(null, args);
-    }, delay);
-  };
-}
+import { debounce } from "./utils";
 
 export function getClosestHeaderId() {
   const headers = (
