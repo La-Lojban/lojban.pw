@@ -9,7 +9,6 @@
 
 ## Learn Lojban
 
-* xlali zgike section - rewrite
 * charts for space 
 * improve sensory channels section
 
