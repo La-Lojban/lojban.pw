@@ -31,6 +31,8 @@ export type TPost = {
 
 export type PostProps<S> = {
 	post: TPost;
+  posts?: TPost[];
+  lang?: string;
   state?: S;
   setState?: React.Dispatch<React.SetStateAction<S>>;
   hasToc?: boolean;
