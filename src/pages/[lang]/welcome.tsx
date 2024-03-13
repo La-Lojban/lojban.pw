@@ -18,6 +18,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { retainStringValues } from "../../lib/utils";
 import AllStories from "../../components/all-stories";
+import LanguageBar from "../../components/language-bar";
 
 type Props = {
   post: TPost;
@@ -90,32 +91,7 @@ const Post = ({
             <PostTitle>Loading…</PostTitle>
           ) : (
             <>
-              <div className="relative block max-w-sm h-10 mx-auto mb-2 flex justify-around print:hidden">
-                {posts.length > 0 && (
-                  <>
-                    {post.slug[1] === "books" && (
-                      <a
-                        key={`bangu-pdf`}
-                        href={`/vreji/uencu/${post.slug[0]}/${post.slug.slice(-1)[0]}.pdf`}
-                        className="hover:from-lime-200 hover:to-lime-200 ease bg-gradient-to-br from-lime-50 to-white-900 h-10 inline-block py-2 px-4 border border-t-0 border-lime-500 hover:border-lime-600 ml-2 rounded-b-md shadow-md"
-                      >
-                        <FontAwesomeIcon className="w-6" icon={faFilePdf} />
-                      </a>
-                    )}
-                    {posts.map((post) => {
-                      return (
-                        <a
-                          key={`bangu-${post.language}`}
-                          href={`/${post.fullPath}` as any}
-                          className="h-10 inline-block py-2 px-4 bg-white border border-t-0 border-gray-300 hover:border-gray-400 ml-2 rounded-b-md shadow-md"
-                        >
-                          {post.language}
-                        </a>
-                      );
-                    })}
-                  </>
-                )}
-              </div>
+              <LanguageBar posts={posts} post={post} siteSection="books" />
               <article className="mt-2 mx-auto max-w-7xl px-4 sm:mt-2 sm:px-6 flex md:flex-row flex-wrap">
                 <Head>
                   <title>{title}</title>
@@ -271,15 +247,12 @@ export async function getStaticPaths() {
 
   return {
     paths: posts
-      .filter(
-        (post) => !["texts", "list"].includes(post.slug.slice(1).join("/"))
-      )
-      .map((posts) => {
+      .filter((post) => post.slug.slice(1).join("/") === "welcome")
+      .map((post) => {
         return {
           params: {
-            slug: posts.slug.slice(1),
-            lang: posts.slug[0],
-            full: posts,
+            slug: post.slug.slice(1),
+            lang: post.slug[0],
           },
         };
       })

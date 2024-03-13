@@ -11,6 +11,7 @@ import { header } from "../../config/config";
 import markdownToHtml from "../../lib/markdownToHtml";
 import { Params } from "./[...slug]";
 import { retainStringValues } from "../../lib/utils";
+import LanguageBar from "../../components/language-bar";
 
 type Props = {
   siblingPosts: Items[];
@@ -39,21 +40,7 @@ const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
         <div className="pb-8">
           <Container>
             <Header allPosts={siblingPosts} currentLanguage={params.lang} />
-            {posts.length > 0 && (
-              <div className="relative block max-w-sm h-10 mx-auto mb-2 flex justify-around print:hidden">
-                {posts.map((post) => {
-                  return (
-                    <a
-                      key={`bangu-${post.language}`}
-                      href={`/${post.fullPath}` as any}
-                      className="h-10 inline-block py-2 px-4 bg-white border border-t-0 border-gray-300 hover:border-gray-400 ml-2 rounded-b-md shadow-md"
-                    >
-                      {post.language}
-                    </a>
-                  );
-                })}
-              </div>
-            )}
+            <LanguageBar posts={posts} />
             <div className="mb-8 mx-auto max-w-7xl px-4 sm:px-6">
               <Intro title={indexPost?.title} image={ogImage} />
               <div
@@ -87,7 +74,7 @@ export const getStaticProps = async ({ params }: Params) => {
       "author",
       "fullPath",
       "content",
-      
+
       "meta.title",
       "description",
       "meta.keywords",
@@ -143,12 +130,12 @@ export async function getStaticPaths(pa: any) {
   const posts = await getAllPosts(["slug", "hidden"], true);
   return {
     paths: posts
-      .filter((posts) => posts.slug[1] === "texts")
-      .map((posts) => {
+      .filter((post) => post.slug.slice(1).join("/") === "texts")
+      .map((post) => {
         return {
           params: {
-            slug: posts.slug.slice(1),
-            lang: posts.slug[0],
+            slug: post.slug.slice(1),
+            lang: post.slug[0],
           },
         };
       })
