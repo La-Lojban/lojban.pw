@@ -9,6 +9,7 @@ import Header from "../../components/header";
 import { home_title } from "../../config/config";
 import { Params } from "next/dist/shared/lib/router/utils/route-matcher";
 import markdownToHtml from "../../lib/markdownToHtml";
+import LanguageBar from "../../components/language-bar";
 
 type Props = {
   siblingPosts: TPost[];
@@ -42,21 +43,7 @@ const Index = ({
               allPosts={siblingPosts as unknown as Items[]}
               currentLanguage={params.lang}
             />
-            {posts.length > 0 && (
-              <div className="relative block max-w-sm h-10 mx-auto mb-2 flex justify-around print:hidden">
-                {posts.map((post) => {
-                  return (
-                    <a
-                      key={`bangu-${post.language}`}
-                      href={`/${post.fullPath}` as any}
-                      className="h-10 inline-block py-2 px-4 bg-white border border-t-0 border-gray-300 hover:border-gray-400 ml-2 rounded-b-md shadow-md"
-                    >
-                      {post.language}
-                    </a>
-                  );
-                })}
-              </div>
-            )}
+            <LanguageBar posts={posts} />
             <div className="mb-8 mt-4 mx-auto max-w-7xl px-4 sm:px-6">
               {/* <Intro title={indexPost?.title} image={ogImage} /> */}
               <div
@@ -151,28 +138,12 @@ export async function getStaticPaths(pa: any) {
   const posts = await getAllPosts(["slug", "hidden"], true);
   return {
     paths: posts
-      .filter((posts) => posts.slug[1] === "list")
-      .map((posts) => {
-        // if (posts.slug[0] === "en") {
-        //   return [
-        //     {
-        //       params: {
-        //         slug: posts.slug,
-        //         lang: posts.slug[0],
-        //       },
-        //     },
-        //     {
-        //       params: {
-        //         slug: posts.slug.slice(1),
-        //         lang: "en",
-        //       },
-        //     },
-        //   ];
-        // }
+      .filter((post) => post.slug.slice(1).join("/") === "list")
+      .map((post) => {
         return {
           params: {
-            slug: posts.slug.slice(1),
-            lang: posts.slug[0],
+            slug: post.slug.slice(1),
+            lang: post.slug[0],
           },
         };
       })
