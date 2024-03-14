@@ -15,7 +15,7 @@ async function getFiles(
     await Promise.all(
       dirents.map((dirent: { name: any; isDirectory: () => any }) => {
         const res = resolve(dir, dirent.name);
-        return dirent.isDirectory() && dirent.name.indexOf("!") !== 0
+        return dirent.isDirectory()
           ? getFiles(res)
           : extname(res) === ".md"
             ? relative(postsDirectory, res)
@@ -48,13 +48,6 @@ export function getPostBySlug(slug: string[], fields: string[] = []): Items {
 
   // Ensure only the minimal needed data is exposed
   fields.forEach((field) => {
-    // if (field === "pdf") {
-    //   const pdfFilePath = `/vreji/uencu/${slug[0]}/${slug.slice(-1)[0]}.pdf`;
-    //   if (fs.existsSync(pdfFilePath)) {
-    //     items[field] = true;
-    //   }
-    // }
-
     if (field === "directory") {
       items[field] = slug[0];
     }
