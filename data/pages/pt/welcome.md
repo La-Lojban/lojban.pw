@@ -7,7 +7,7 @@ meta.title: O que é Lojban?
 
 Este site lista tutoriais gratuitos não oficiais e documentação sobre a linguagem Lojban.
 
-## [curso ‘Aprenda Lojban’](/pt/books/learn-lojban)
+## [Сurso ‘Aprenda Lojban’](/pt/books/learn-lojban)
 
 <pixra redirect="/pt/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="Curso ‘Aprenda Lojban’"></pixra>
 
