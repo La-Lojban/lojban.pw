@@ -1,4 +1,3 @@
-import Container from "./container";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { footer } from "../config/config";
@@ -6,7 +5,6 @@ import { footer } from "../config/config";
 const Footer = () => {
   return (
     <footer className="justify-center text-center p-4 print:hidden">
-      <Container>
         <div id="velsku" className="noselect">
           <ul className="flex flex-row">
             {footer.map((network) => {
@@ -35,7 +33,6 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-      </Container>
     </footer>
   );
 };
