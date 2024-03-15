@@ -61,7 +61,7 @@ const Post = ({ post, posts, siblingPosts, currentLanguage }: Props) => {
 
   const title_core = post["meta.title"] ?? post.title;
   const title = title_core ? `${title_core} | ${site_title}` : site_title;
-  const pageToRender = (
+  return (
     <Layout
       meta={{
         ...retainStringValues(post, ["content", "fullPath"]),
@@ -136,7 +136,6 @@ const Post = ({ post, posts, siblingPosts, currentLanguage }: Props) => {
       </>
     </Layout>
   );
-  return pageToRender;
 };
 
 export default Post;

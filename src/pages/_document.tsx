@@ -1,6 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
-import { CMS_NAME } from "../config/config";
 export default class MyDocument extends Document {
   static async getInitialProps(context: any) {
     const initialProps = await Document.getInitialProps(context);
@@ -18,7 +17,7 @@ export default class MyDocument extends Document {
           />
           {/* <Script src="/assets/js/redirector.js" strategy="beforeInteractive" /> */}
         </Head>
-        <body className="bg-gray-100 print:bg-white overflow-y-hidden">
+        <body className="bg-gray-100 print:bg-white">
           <Main />
           <NextScript />
         </body>
