@@ -4,7 +4,7 @@ title: 📝 Ensaio 'Core Lojban'
 
 <div class="lojbo">
 
-Grandes partes do inglês podem ser descritas como expressando relações. Nesse sentido, o inglês (apesar de ser frequentemente ambíguo e ter uma gramática complexa) ainda pode ser usado para transmitir o básico do Lojban. Primeiro, vamos tentar descrever uma parte da língua inglesa usando termos do Lojban:
+Grandes partes do português podem ser descritas como expressando relações. Nesse sentido, o português (apesar de ser frequentemente ambíguo e ter uma gramática complexa) ainda pode ser usado para transmitir o básico do Lojban. Primeiro, vamos tentar descrever uma parte da língua inglesa usando termos do Lojban:
 
 "Eu te amo" é um bridi.
 "amo" é seu selbri.
