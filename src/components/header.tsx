@@ -61,7 +61,7 @@ export default function Header({
   return (
     <Popover
       as="nav"
-      className="sticky top-0 z-50 bg-deep-orange-400 shadow-md print:hidden"
+      className="z-50 bg-deep-orange-400 shadow-md print:hidden"
     >
       {({ open }) => (
         <>

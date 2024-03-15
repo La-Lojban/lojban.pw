@@ -33,14 +33,14 @@ const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
           title: indexPost.title,
           "og:url": "/" + indexPost.slug.join("/"),
         }}
+        allPosts={siblingPosts}
+        currentLanguage={params.lang}
       >
-        <Head>
-          <title>{indexPost.title}</title>
-        </Head>
-        <div className="pb-8">
-          <Container>
-            <Header allPosts={siblingPosts} currentLanguage={params.lang} />
-            <LanguageBar posts={posts} />
+          <LanguageBar posts={posts} />
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap">
+            <Head>
+              <title>{indexPost.title}</title>
+            </Head>
             <div className="mb-8 mx-auto max-w-7xl px-4 sm:px-6">
               <Intro title={indexPost?.title} image={ogImage} />
               <div
@@ -51,8 +51,7 @@ const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
                 <AllStories posts={allPosts as unknown as TPost[]} />
               )}
             </div>
-          </Container>
-        </div>
+          </div>
       </Layout>
     </>
   );

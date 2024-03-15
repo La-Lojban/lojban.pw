@@ -16,7 +16,7 @@ export default function LanguageBar({
   return (
     <>
       {posts.length > 0 && (
-        <div className="relative block max-w-sm h-10 mx-auto mb-2 flex justify-around print:hidden">
+        <div className="flex-row relative block max-w-sm h-10 mx-auto mb-2 flex justify-around print:hidden">
           {hasPdf && (
             <a
               key={`bangu-pdf`}
