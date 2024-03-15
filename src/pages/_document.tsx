@@ -18,7 +18,7 @@ export default class MyDocument extends Document {
           />
           {/* <Script src="/assets/js/redirector.js" strategy="beforeInteractive" /> */}
         </Head>
-        <body className="bg-gray-100 print:bg-white">
+        <body className="bg-gray-100 print:bg-white overflow-y-hidden">
           <Main />
           <NextScript />
         </body>
