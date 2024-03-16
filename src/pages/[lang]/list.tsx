@@ -1,10 +1,8 @@
-import Container from "../../components/container";
 import AllStories from "../../components/all-stories";
 import Layout from "../../components/layout";
 import { Items, getAllPosts } from "../../lib/api";
 import Head from "next/head";
 import { TPost } from "../../types/post";
-import Header from "../../components/header";
 
 import { home_title } from "../../config/config";
 import { Params } from "next/dist/shared/lib/router/utils/route-matcher";
