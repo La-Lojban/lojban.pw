@@ -66,7 +66,7 @@ const Post = ({
 
   const title_core = post["meta.title"] ?? post.title;
   const title = title_core ? `${title_core} | ${site_title}` : site_title;
-  const pageToRender = (
+  return (
     <Layout
       meta={{
         ...retainStringValues(post, ["content", "fullPath"]),
@@ -77,68 +77,55 @@ const Post = ({
       path={router.asPath.replace(/#.*/, "")}
       allPosts={siblingPosts}
       currentLanguage={currentLanguage}
+      title={title}
+      posts={posts}
     >
-      {router.isFallback ? (
-        <PostTitle>Loading…</PostTitle>
-      ) : (
-        <>
-            <LanguageBar posts={posts} post={post} siteSection="books" />
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-row">
-              <Head>
-                <title>{title}</title>
-              </Head>
-              {state.galleryShown && (
-                <ImageGallery
-                  additionalClass="fullpage"
-                  items={images}
-                  lazyLoad={true}
-                  useTranslate3D={false}
-                  showBullets={true}
-                  startIndex={currentImgIndex}
-                  onSlide={(currentIndex) => {
-                    document
-                      ?.querySelector(
-                        `[data-url="${images[currentIndex].original}"]`
-                      )
-                      ?.scrollIntoView({ behavior: "smooth" });
-                  }}
-                  onClick={() =>
-                    setState((p) => ({ ...p, galleryShown: false }))
-                  }
-                />
-              )}
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-row">
+        {state.galleryShown && (
+          <ImageGallery
+            additionalClass="fullpage"
+            items={images}
+            lazyLoad={true}
+            useTranslate3D={false}
+            showBullets={true}
+            startIndex={currentImgIndex}
+            onSlide={(currentIndex) => {
+              document
+                ?.querySelector(`[data-url="${images[currentIndex].original}"]`)
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+            onClick={() => setState((p) => ({ ...p, galleryShown: false }))}
+          />
+        )}
 
-              <PostBody
-                post={post}
-                state={state}
-                setState={setState}
-                hasToc={hasToc}
-                posts={contentPosts}
-                lang={params.lang}
-              />
-              {hasToc && (
-                <nav className="hidden md:block toc w-full md:w-1/5 sticky px-2 bottom-0 md:top-20 h-16 md:h-screen font-medium text-sm overflow-ellipsis">
-                  <div id="toc-core" className="toc-core h-4/5 overflow-y-auto">
-                    {toc_list.map((item) => (
-                      <Link
-                        href={item.url}
-                        key={item.url}
-                        className={`block text-black in-toc hover:no-underline px-3 py-2 lme-ml-${
-                          (item.depth - 2) * 2
-                        }`}
-                      >
-                        {item.name}
-                      </Link>
-                    ))}
-                  </div>
-                </nav>
-              )}
+        <PostBody
+          post={post}
+          state={state}
+          setState={setState}
+          hasToc={hasToc}
+          posts={contentPosts}
+          lang={params.lang}
+        />
+        {hasToc && (
+          <nav className="hidden md:block toc w-full md:w-1/5 sticky px-2 bottom-0 md:top-20 h-16 md:h-screen font-medium text-sm overflow-ellipsis">
+            <div id="toc-core" className="toc-core h-4/5 overflow-y-auto">
+              {toc_list.map((item) => (
+                <Link
+                  href={item.url}
+                  key={item.url}
+                  className={`block text-black in-toc hover:no-underline px-3 py-2 lme-ml-${
+                    (item.depth - 2) * 2
+                  }`}
+                >
+                  {item.name}
+                </Link>
+              ))}
             </div>
-        </>
-      )}
+          </nav>
+        )}
+      </div>
     </Layout>
   );
-  return pageToRender;
 };
 
 export default Post;

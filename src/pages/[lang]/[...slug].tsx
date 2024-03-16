@@ -6,7 +6,6 @@ import ErrorPage from "next/error";
 import PostBody from "../../components/post-body";
 import Layout from "../../components/layout";
 import { getPostBySlug, getAllPosts, Items } from "../../lib/api";
-import PostTitle from "../../components/post-title";
 import Head from "next/head";
 import markdownToHtml from "../../lib/markdownToHtml";
 import { TPost } from "../../types/post";
@@ -68,68 +67,51 @@ const Post = ({ post, posts, siblingPosts, currentLanguage }: Props) => {
       path={router.asPath.replace(/#.*/, "")}
       allPosts={siblingPosts}
       currentLanguage={currentLanguage}
+      posts={posts} post={post} siteSection="books"
+      title={title}
     >
-      <>
-        {router.isFallback ? (
-          <PostTitle>Loading…</PostTitle>
-        ) : (
-          <>
-              <LanguageBar posts={posts} post={post} siteSection="books" />
-              <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap">
-                <Head>
-                  <title>{title}</title>
-                </Head>
-                {state.galleryShown && (
-                  <ImageGallery
-                    additionalClass="fullpage"
-                    items={images}
-                    lazyLoad={true}
-                    useTranslate3D={false}
-                    showBullets={true}
-                    startIndex={currentImgIndex}
-                    onSlide={(currentIndex) => {
-                      document
-                        ?.querySelector(
-                          `[data-url="${images[currentIndex].original}"]`
-                        )
-                        ?.scrollIntoView({ behavior: "smooth" });
-                    }}
-                    onClick={() =>
-                      setState((p) => ({ ...p, galleryShown: false }))
-                    }
-                  />
-                )}
-
-                <PostBody
-                  post={post}
-                  state={state}
-                  setState={setState}
-                  hasToc={hasToc}
-                />
-                {hasToc && (
-                  <nav className="hidden md:block toc w-full md:w-1/5 sticky px-2 bottom-0 md:top-20 h-16 md:h-screen font-medium text-sm overflow-ellipsis">
-                    <div
-                      id="toc-core"
-                      className="toc-core h-4/5 overflow-y-auto"
-                    >
-                      {toc_list.map((item) => (
-                        <Link
-                          href={item.url}
-                          key={item.url}
-                          className={`block text-black in-toc hover:no-underline px-3 py-2 lme-ml-${
-                            (item.depth - 2) * 2
-                          }`}
-                        >
-                          {item.name}
-                        </Link>
-                      ))}
-                    </div>
-                  </nav>
-                )}
-              </div>
-          </>
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap">
+        {state.galleryShown && (
+          <ImageGallery
+            additionalClass="fullpage"
+            items={images}
+            lazyLoad={true}
+            useTranslate3D={false}
+            showBullets={true}
+            startIndex={currentImgIndex}
+            onSlide={(currentIndex) => {
+              document
+                ?.querySelector(`[data-url="${images[currentIndex].original}"]`)
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+            onClick={() => setState((p) => ({ ...p, galleryShown: false }))}
+          />
         )}
-      </>
+
+        <PostBody
+          post={post}
+          state={state}
+          setState={setState}
+          hasToc={hasToc}
+        />
+        {hasToc && (
+          <nav className="hidden md:block toc w-full md:w-1/5 sticky px-2 bottom-0 md:top-20 h-16 md:h-screen font-medium text-sm overflow-ellipsis">
+            <div id="toc-core" className="toc-core h-4/5 overflow-y-auto">
+              {toc_list.map((item) => (
+                <Link
+                  href={item.url}
+                  key={item.url}
+                  className={`block text-black in-toc hover:no-underline px-3 py-2 lme-ml-${
+                    (item.depth - 2) * 2
+                  }`}
+                >
+                  {item.name}
+                </Link>
+              ))}
+            </div>
+          </nav>
+        )}
+      </div>
     </Layout>
   );
 };

@@ -24,7 +24,6 @@ const ogImage = (header.filter((item) => item.url === "/texts")?.[0] as any)?.[
 ];
 const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
   return (
-    <>
       <Layout
         meta={{
           ...retainStringValues(indexPost, ["content", "fullPath"]),
@@ -33,12 +32,10 @@ const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
         }}
         allPosts={siblingPosts}
         currentLanguage={params.lang}
+        title={indexPost.title}
+        posts={posts}
       >
-          <LanguageBar posts={posts} />
           <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap">
-            <Head>
-              <title>{indexPost.title}</title>
-            </Head>
             <div className="mb-8 mx-auto max-w-7xl px-4 sm:px-6">
               <Intro title={indexPost?.title} image={ogImage} />
               <div
@@ -51,7 +48,6 @@ const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
             </div>
           </div>
       </Layout>
-    </>
   );
 };
 
