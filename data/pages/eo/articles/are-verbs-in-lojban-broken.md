@@ -14,9 +14,9 @@ povus esti defia ĉar preskaŭ ĉiu verbo havas sian propran apartan lokstruktur
 
 ## Respondo
 
-La angla funkcias simile en pragmatika senco. Ĝi havas verbojn kun ilia implikita lokstrukturo. La ĉefa diferenco estas ke Loĵbano-vortaroj eksplicite indikas la lokstrukturon, dum la plej multaj angla-vortaroj ne faras tion. La kialo de tiu ĉi sistemo estas ke havi apartan antaŭpozicion por ĉiu loko estus eĉ pli gravanta kaj foje eĉ nefunkcianta.
+La esperanto funkcias simile en pragmatika senco. Ĝi havas verbojn kun ilia implikita lokstrukturo. La ĉefa diferenco estas ke Loĵbano-vortaroj eksplicite indikas la lokstrukturon, dum la plej multaj esperantaj vortaroj ne faras tion. La kialo de tiu ĉi sistemo estas ke havi apartan antaŭpozicion por ĉiu loko estus eĉ pli gravanta kaj foje eĉ nefunkcianta.
 
-Havi limigitan aro de antaŭpozicioj farus la lingvon tre subjektiva kaj ne universala. Ekzemple, en la angla ni diras
+Havi limigitan aro de antaŭpozicioj farus la lingvon tre subjektiva kaj ne universala. Ekzemple, en la esperanto ni diras
 
 > Mi dependas sur vi.
 
