@@ -382,7 +382,7 @@ article blockquote:before {
 }
 
 .common + blockquote {
-  @apply border-l-0 ml-4;
+  @apply border-l-0 ml-2;
   --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   box-shadow: -3px 0px 0px 0px #ffa500, -5px 0px 0px 0px #fff,
     -8px 0px 0px 0px #ffa500, var(--tw-ring-offset-shadow, 0 0 #0000),
