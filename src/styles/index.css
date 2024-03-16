@@ -260,11 +260,11 @@ img {
     "Liberation Serif", Georgia, serif;
 }
 
-.math .katex {
+.katex {
   /* font: normal 1.1em "Linux Libertine", Libertine, KaTeX_Main, Constantia, "Lucida Bright",
     Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif",
     "Liberation Serif", Georgia, serif; */
-  font-size: 100%;
+  font-size: 110%;
 }
 
 [data-md-color-primary="youtube"] {
@@ -602,10 +602,6 @@ description {
   background-repeat: no-repeat no-repeat;
   background-position: center center;
   background-color: black;
-}
-
-.katex-mathml {
-  @apply select-none;
 }
 
 div.mermaid > svg {
