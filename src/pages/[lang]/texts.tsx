@@ -1,11 +1,9 @@
-import Container from "../../components/container";
 import AllStories from "../../components/all-stories";
 import Intro from "../../components/intro";
 import Layout from "../../components/layout";
 import { Items, getAllPosts } from "../../lib/api";
 import Head from "next/head";
 import { TPost } from "../../types/post";
-import Header from "../../components/header";
 import { header } from "../../config/config";
 
 import markdownToHtml from "../../lib/markdownToHtml";

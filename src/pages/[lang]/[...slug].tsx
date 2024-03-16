@@ -3,9 +3,7 @@ import Link from "next/link";
 
 import { useRouter } from "next/router";
 import ErrorPage from "next/error";
-import Container from "../../components/container";
 import PostBody from "../../components/post-body";
-import Header from "../../components/header";
 import Layout from "../../components/layout";
 import { getPostBySlug, getAllPosts, Items } from "../../lib/api";
 import PostTitle from "../../components/post-title";
@@ -14,8 +12,6 @@ import markdownToHtml from "../../lib/markdownToHtml";
 import { TPost } from "../../types/post";
 import { site_title } from "../../config/config";
 import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { retainStringValues } from "../../lib/utils";
 import LanguageBar from "../../components/language-bar";
 
