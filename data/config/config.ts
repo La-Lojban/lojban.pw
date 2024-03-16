@@ -1,11 +1,9 @@
-export const home_title = "Learn Lojban website";
 export const site_title = "lojban.pw";
 export const site_description = "Lojban language courses, stories";
 export const site_url = "https://lojban.pw";
 export const site_creator_twitter = "Gleki Arxokuna";
 
 export const CMS_NAME = "Learn Lojban website";
-export const TEXTS = "Corpus of texts";
 const discordChatUrl = "https://discord.gg/wasp5fj";
 import {
   faDiscord,

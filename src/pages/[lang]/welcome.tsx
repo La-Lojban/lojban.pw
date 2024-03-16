@@ -6,14 +6,11 @@ import ErrorPage from "next/error";
 import PostBody from "../../components/post-body";
 import Layout from "../../components/layout";
 import { getPostBySlug, getAllPosts, Items } from "../../lib/api";
-import PostTitle from "../../components/post-title";
-import Head from "next/head";
 import markdownToHtml from "../../lib/markdownToHtml";
 import { TPost } from "../../types/post";
 import { site_title } from "../../config/config";
 import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import { retainStringValues } from "../../lib/utils";
-import LanguageBar from "../../components/language-bar";
 
 type Props = {
   post: TPost;

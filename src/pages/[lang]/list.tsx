@@ -1,13 +1,10 @@
 import AllStories from "../../components/all-stories";
 import Layout from "../../components/layout";
 import { Items, getAllPosts } from "../../lib/api";
-import Head from "next/head";
 import { TPost } from "../../types/post";
 
-import { home_title } from "../../config/config";
 import { Params } from "next/dist/shared/lib/router/utils/route-matcher";
 import markdownToHtml from "../../lib/markdownToHtml";
-import LanguageBar from "../../components/language-bar";
 
 type Props = {
   siblingPosts: TPost[];
@@ -32,7 +29,7 @@ const Index = ({
       }}
       allPosts={siblingPosts as unknown as Items[]}
       currentLanguage={params.lang}
-      title={home_title}
+      title={indexPost.title}
       posts={posts}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-row">

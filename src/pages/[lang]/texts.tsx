@@ -2,14 +2,12 @@ import AllStories from "../../components/all-stories";
 import Intro from "../../components/intro";
 import Layout from "../../components/layout";
 import { Items, getAllPosts } from "../../lib/api";
-import Head from "next/head";
 import { TPost } from "../../types/post";
 import { header } from "../../config/config";
 
 import markdownToHtml from "../../lib/markdownToHtml";
 import { Params } from "./[...slug]";
 import { retainStringValues } from "../../lib/utils";
-import LanguageBar from "../../components/language-bar";
 
 type Props = {
   siblingPosts: Items[];
