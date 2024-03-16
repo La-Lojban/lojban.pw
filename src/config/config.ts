@@ -1,11 +1,9 @@
-export const home_title = "My website home title";
 export const site_title = "My website";
 export const site_description = "My website";
 export const site_url = "https://lojban.pw";
 export const site_creator_twitter = "John Smith";
 
 export const CMS_NAME = "My website title";
-export const TEXTS = "Corpus of texts";
 
 import {
   faDiscord,

@@ -12,7 +12,6 @@ import { TPost } from "../../types/post";
 import { site_title } from "../../config/config";
 import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import { retainStringValues } from "../../lib/utils";
-import LanguageBar from "../../components/language-bar";
 
 type Props = {
   post: TPost;
@@ -26,6 +25,8 @@ type TocItem = {
   url: string;
   depth: number;
 };
+
+const siteSection = "books";
 
 const Post = ({ post, posts, siblingPosts, currentLanguage }: Props) => {
   const router = useRouter();
@@ -67,11 +68,13 @@ const Post = ({ post, posts, siblingPosts, currentLanguage }: Props) => {
       path={router.asPath.replace(/#.*/, "")}
       allPosts={siblingPosts}
       currentLanguage={currentLanguage}
-      posts={posts} post={post} siteSection="books"
+      posts={posts}
+      post={post}
+      siteSection={siteSection}
       title={title}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap">
-        {state.galleryShown && (
+        {state.galleryShown && post.slug[1] === siteSection && (
           <ImageGallery
             additionalClass="fullpage"
             items={images}
