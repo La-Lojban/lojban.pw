@@ -8,6 +8,9 @@ import Header from "./header";
 import { TocElem } from "../types/toc";
 import { Items } from "../lib/api";
 import { useRouter } from "next/router";
+import PostTitle from "./post-title";
+import { TPost } from "../types/post";
+import LanguageBar from "./language-bar";
 
 type Props = {
   children: React.ReactNode;
@@ -16,6 +19,10 @@ type Props = {
   path?: string;
   allPosts?: Items[];
   currentLanguage?: string;
+  title?: string;
+  posts?: Items[];
+  post?: TPost;
+  siteSection?: string;
 };
 
 const Layout = ({
@@ -25,6 +32,10 @@ const Layout = ({
   path = "",
   allPosts = [],
   currentLanguage = "en",
+  title,
+  posts,
+  post,
+  siteSection,
 }: Props) => {
   const router = useRouter();
 
@@ -53,9 +64,11 @@ const Layout = ({
     }
   }, []);
 
+  if (router.isFallback) return <PostTitle>Loading…</PostTitle>;
+
   return (
     <>
-      <Meta meta={meta} />
+      <Meta meta={meta} title={title} />
       <div className="flex flex-col h-screen">
         <Header
           toc={toc}
@@ -64,6 +77,9 @@ const Layout = ({
           currentLanguage={currentLanguage}
         />
         <article ref={articleRef} className="flex-grow overflow-y-auto">
+          {posts && (
+            <LanguageBar posts={posts} post={post} siteSection={siteSection} />
+          )}
           {children}
         </article>
         <Footer />

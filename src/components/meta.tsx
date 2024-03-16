@@ -32,7 +32,7 @@ function getTag(fallbacks: string[], meta: TMeta, metaDefault: TMeta) {
   }
 }
 
-const Meta = ({ meta }: { meta?: TMeta }) => {
+const Meta = ({ meta, title }: { meta?: TMeta; title?: string }) => {
   meta = meta ?? {};
   let merged: TMeta = { ...metaDefault, ...meta };
 
@@ -69,7 +69,11 @@ const Meta = ({ meta }: { meta?: TMeta }) => {
     metaDefault
   );
   merged["twitter:url"] = getTag(["twitter:url", "og:url"], meta, metaDefault);
-  merged["twitter:image"] = getTag(["twitter:image", "og:image"], meta, metaDefault);
+  merged["twitter:image"] = getTag(
+    ["twitter:image", "og:image"],
+    meta,
+    metaDefault
+  );
 
   merged["description"] = getTag(
     [
@@ -88,6 +92,7 @@ const Meta = ({ meta }: { meta?: TMeta }) => {
   merged = { ...metaJson, ...original };
   return (
     <Head>
+      {title && <title>{title}</title>}
       {links.map((el: any, index: number) => (
         <link
           key={`link_${index}`}

@@ -25,33 +25,29 @@ const Index = ({
   params,
 }: Props) => {
   return (
-    <>
-      <Layout
-        meta={{
-          title: indexPost.title,
-          "og:url": "/" + indexPost.slug.join("/"),
-        }}
-        allPosts={siblingPosts as unknown as Items[]}
-        currentLanguage={params.lang}
-      >
-          <LanguageBar posts={posts} />
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-row">
-            <Head>
-              <title>{home_title}</title>
-            </Head>
-            <div className="mb-8 mt-4 mx-auto max-w-7xl px-4 sm:px-6">
-              {/* <Intro title={indexPost?.title} image={ogImage} /> */}
-              <div
-                className="mb-2"
-                dangerouslySetInnerHTML={{ __html: indexPost?.content ?? "" }}
-              />
-              {contentPosts.length > 0 && (
-                <AllStories posts={contentPosts} lang={params.lang} />
-              )}
-            </div>
-          </div>
-      </Layout>
-    </>
+    <Layout
+      meta={{
+        title: indexPost.title,
+        "og:url": "/" + indexPost.slug.join("/"),
+      }}
+      allPosts={siblingPosts as unknown as Items[]}
+      currentLanguage={params.lang}
+      title={home_title}
+      posts={posts}
+    >
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-row">
+        <div className="mb-8 mt-4 mx-auto max-w-7xl px-4 sm:px-6">
+          {/* <Intro title={indexPost?.title} image={ogImage} /> */}
+          <div
+            className="mb-2"
+            dangerouslySetInnerHTML={{ __html: indexPost?.content ?? "" }}
+          />
+          {contentPosts.length > 0 && (
+            <AllStories posts={contentPosts} lang={params.lang} />
+          )}
+        </div>
+      </div>
+    </Layout>
   );
 };
 
