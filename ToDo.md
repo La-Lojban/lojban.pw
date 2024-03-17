@@ -18,6 +18,150 @@
 
 ## dialogues
 
+Alice: Hey Bob, are you okay? You look a little pale.
+
+Bob: Yeah, I'm fine. Just a bit under the weather. *coughs*
+
+Alice: Are you sure? You seem to be coughing a lot.
+
+Bob: Yeah, I think I caught a cold. *sneezes*
+
+Alice: Bless you! Maybe you should go see a doctor if it's that bad.
+
+Bob: Yeah, maybe. I also keep feeling this sharp pain in my stomach. *groans*
+
+Alice: Oh no, that doesn't sound good at all. Maybe it's something you ate?
+
+Bob: Possibly. I did have that spicy burrito earlier. *burps*
+
+Alice: Ugh, I think I can smell it. Gross!
+
+Bob: Sorry about that. *blushes* And speaking of gross, I think I might need to... you know... use the restroom.
+
+Alice: Oh, go ahead. I'll wait here. 
+
+Bob: *sighs* Thanks. I'll be quick. *exits*
+
+(A few moments later...)
+
+Bob: *returns, looking relieved* Ah, much better.
+
+Alice: Feeling better now?
+
+Bob: Yeah, but now I'm sweating like crazy. *wipes forehead*
+
+Alice: Maybe it's because you were in there for so long?
+
+Bob: Could be. And hey, at least I didn't faint this time.
+
+Alice: Yeah, that's a plus. But you still look like you're in pain.
+
+Bob: It's not too bad. Just a dull ache now. *grimaces*
+
+Alice: Well, let me know if it gets worse. I don't want you to suffer.
+
+Bob: Thanks, Alice. You're always so caring.
+
+Alice: *smiles* It's the least I can do for a friend. *kisses Bob on the cheek*
+
+Bob: *blushes* Uh, thanks. That means a lot. *sniffs*
+
+Alice: Are you crying?
+
+Bob: No, it's just my allergies acting up. *sniffles*
+
+Alice: Well, let me know if you need anything else, okay?
+
+Bob: Will do. Thanks, Alice. You're the best.
+
+Alice: *notices goosebumps on Bob's arms* Hey, are you cold?
+
+Bob: Yeah, a little. *shivers*
+
+Alice: Here, take my jacket. *wraps it around Bob*
+
+Bob: Thanks, Alice. You're too kind.
+
+Alice: Anytime, Bob. Now let's get you home and cozy. *smiles*
+
+====
+
+Alice and Bob sat on the park bench, enjoying the warm sunshine filtering through the trees.
+
+Alice: (sneezes) "Excuse me!"
+
+Bob: "Bless you! Are you feeling alright?"
+
+Alice: "Just a little cold, I think."
+
+Bob: "Well, take it easy. (laughs) Wouldn't want you to cough up a storm."
+
+Alice: (blushes) "Thanks. (smiles) So, what did you think of the movie last night?"
+
+Bob: "I loved it! That scene where they kissed under the stars was so romantic."
+
+Alice: (laughs) "Yeah, it was sweet."
+
+Bob: "But then there was that scene where the character had to urgently defecate in the woods. That was unexpected."
+
+Alice: "I know, right? It was quite the plot twist."
+
+Bob: "I couldn't help but laugh."
+
+Alice: "Me too. And remember the part where the guy burped so loudly?"
+
+Bob: "Oh, yeah. It was hilarious!"
+
+Alice: (yawns) "Sorry, I'm feeling a bit tired."
+
+Bob: "No worries. We've been here for hours. Let's head home."
+
+As they got up from the bench, Bob suddenly felt a sharp pain in his stomach.
+
+Bob: "Ouch! What was that?"
+
+Alice: "Are you okay?"
+
+Bob: "I think so, just a sudden pain. Probably something I ate."
+
+Alice: "Maybe you're allergic to something."
+
+Bob: "Maybe. (sniffs) Do you smell that?"
+
+Alice: "Yeah, it smells like something's burning."
+
+They turned to see smoke rising from a nearby trash can.
+
+Alice: "Oh no, it's on fire!"
+
+Bob: "Quick, let's get out of here before we suffocate!"
+
+They ran away from the smoke, coughing and wheezing as they tried to breathe.
+
+Alice: "I can't believe this is happening!"
+
+Bob: "I know, it's like something out of a movie."
+
+As they reached a safe distance, they watched as firefighters arrived to put out the flames.
+
+Bob: "Well, that was certainly unexpected."
+
+Alice: "Yeah, but at least we're okay."
+
+Bob: "True. (chews on his lip) Hey, are you alright? You're trembling."
+
+Alice: "I think I'm just in shock."
+
+Bob: "Me too. But hey, at least we have a story to tell now."
+
+Alice: (sniffs) "Yeah, a crazy one at that."
+
+Bob: "Come on, let's go home and relax."
+
+They walked away from the park, still shaking their heads in disbelief at the events that had just unfolded.
+
+====
+
 Bob: Hey, are you feeling okay? You look a bit flushed.
 
 Alice: Yeah, I think I caught a cold. sniff I can't stop sneezing.

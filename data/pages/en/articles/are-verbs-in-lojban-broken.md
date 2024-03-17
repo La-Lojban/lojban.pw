@@ -1,5 +1,5 @@
 ---
-title: Are Verbs in Lojban Broken?
+title: Are verbs in Lojban broken?
 ---
 
 <div class="lojbo simple_blockquotes"></div>
