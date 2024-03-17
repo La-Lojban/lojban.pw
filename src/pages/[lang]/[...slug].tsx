@@ -80,7 +80,7 @@ const Post = ({ post, posts, siblingPosts, currentLanguage }: Props) => {
             items={images}
             lazyLoad={true}
             useTranslate3D={false}
-            showBullets={true}
+            showBullets={false}
             startIndex={currentImgIndex}
             onSlide={(currentIndex) => {
               document
