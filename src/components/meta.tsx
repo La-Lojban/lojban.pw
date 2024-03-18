@@ -1,6 +1,14 @@
 import Head from "next/head";
 import { links, meta as metaDefault } from "../config/config";
 
+type MetaLink = {
+  rel: string;
+  type?: string;
+  sizes: string;
+  href: string;
+  color?: string;
+};
+
 function removeUndefinedOrNull(obj: any) {
   for (const key in obj) {
     if (obj[key] === undefined || obj[key] === null) {
@@ -90,10 +98,26 @@ const Meta = ({ meta, title }: { meta?: TMeta; title?: string }) => {
 
   const { original, metaJson } = separateMetaKeys(merged);
   merged = { ...metaJson, ...original };
+
+  const icon = getTag(
+    ["coverImage", "og:image", "twitter:image"],
+    meta,
+    metaDefault
+  );
+  const links_ = (JSON.parse(JSON.stringify(links)) as MetaLink[]).reduce(
+    (acc, link) => {
+      if (icon && ["mask-icon", "shortcut icon"].includes(link.rel)) {
+        link.href = icon;
+      }
+      return acc.concat([link]);
+    },
+    [] as MetaLink[]
+  );
+
   return (
     <Head>
       {title && <title>{title}</title>}
-      {links.map((el: any, index: number) => (
+      {links_.map((el, index: number) => (
         <link
           key={`link_${index}`}
           rel={el.rel}
