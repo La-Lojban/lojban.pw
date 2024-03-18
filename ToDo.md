@@ -1,5 +1,5 @@
 * autoredirect to your language? if not supported languages then english. use cookies to redirect only once or a popup.
-* list all pages on front page
+* autoredirect old pages to your language
 * add search functionality
 * split some pages into chapters but pdfs must be single
 
