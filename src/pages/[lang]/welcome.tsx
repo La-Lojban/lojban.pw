@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Link from "next/link";
 
 import { useRouter } from "next/router";
@@ -9,7 +8,6 @@ import { getPostBySlug, getAllPosts, Items } from "../../lib/api";
 import markdownToHtml from "../../lib/markdownToHtml";
 import { TPost } from "../../types/post";
 import { site_title } from "../../config/config";
-import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import { retainStringValues } from "../../lib/utils";
 
 type Props = {
@@ -45,22 +43,6 @@ const Post = ({
   }));
   const hasToc = toc_list.length > 5;
 
-  type GalleryState = { galleryShown: boolean; currentImgUrl: string | null };
-  const [state, setState]: [
-    GalleryState,
-    React.Dispatch<React.SetStateAction<GalleryState>>,
-  ] = useState({ galleryShown: false, currentImgUrl: null } as GalleryState);
-
-  const images: ReactImageGalleryItem[] = (post?.imgs ?? []).map((img) => ({
-    original: img.url,
-    thumbnail: img.url,
-    originalTitle: img.caption,
-    description: `${img.caption} | ${img.definition}`,
-  }));
-  const currentImgIndex = images.findIndex(
-    (element) => element.original === state.currentImgUrl
-  );
-
   const title_core = post["meta.title"] ?? post.title;
   const title = title_core ? `${title_core} | ${site_title}` : site_title;
   return (
@@ -78,27 +60,8 @@ const Post = ({
       posts={posts}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-row">
-        {state.galleryShown && (
-          <ImageGallery
-            additionalClass="fullpage"
-            items={images}
-            lazyLoad={true}
-            useTranslate3D={false}
-            showBullets={true}
-            startIndex={currentImgIndex}
-            onSlide={(currentIndex) => {
-              document
-                ?.querySelector(`[data-url="${images[currentIndex].original}"]`)
-                ?.scrollIntoView({ behavior: "smooth" });
-            }}
-            onClick={() => setState((p) => ({ ...p, galleryShown: false }))}
-          />
-        )}
-
         <PostBody
           post={post}
-          state={state}
-          setState={setState}
           hasToc={hasToc}
           posts={contentPosts}
           lang={params.lang}

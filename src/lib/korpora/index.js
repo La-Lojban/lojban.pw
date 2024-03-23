@@ -25,6 +25,18 @@ if (!process.env.GOOGLE_READONLY_API_KEY) {
 }
 doc.useApiKey(process.env.GOOGLE_READONLY_API_KEY);
 
+function escapeHtml(text) {
+  const map = {
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#039;",
+  };
+
+  return text.replace(/[&<>"']/g, (m) => map[m]);
+}
+
 function cssifyName(text) {
   return text.replace(
     /[!\"#$%&'\(\)\*\+,\.\/:;<=>\?\@\[\\\]\^`\{\|\}~\s]/g,
@@ -65,7 +77,7 @@ function moveElementForward(array, i) {
       const txt = meta.map((row) => row[lang]);
       columns[lang] = txt;
       table[title].push(
-        `<th scope="col" class="w-40 p-2 column-class-${cssfiedLangName}">${lang}</th>`
+        `<th scope="col" class="w-40 p-2 column-class-${cssfiedLangName}">${escapeHtml(lang)}</th>`
       );
       buttons[title].push(
         `<input type="checkbox" id="hide-column-${cssfiedLangName}" class="hide-column-checkbox-${cssfiedLangName}" />
@@ -153,10 +165,10 @@ function moveElementForward(array, i) {
         const l = cssifyName(lang);
         table[title].push(
           `<td class="${
-            index == 0 ? "font-bold " : ""
-          }text-left align-text-top p-2 column-class-${l}">${
+            index == 0 ? "font-bold " : index < 4 ? "italic text-gray-500 " : ""
+          }text-left align-text-top p-2 column-class-${l}">${escapeHtml(
             columns[lang][index] ?? ""
-          }</td>`
+          )}</td>`
         );
       }
       table[title].push(`</tr>`);
