@@ -72,7 +72,7 @@ export default function Header({
                   <Link href={`/${currentLanguage}/welcome`}>
                     <img
                       className="logo"
-                      src="/assets/pixra/ralju/pluka_lanci.svg"
+                      src="/assets/pixra/ralju/ralju_lanci.svg"
                       alt="Lojban logo"
                     />
                   </Link>
