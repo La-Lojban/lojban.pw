@@ -9,7 +9,7 @@ Lojban é uma língua viva, e você pode entrar em contato com especialistas em 
 A comunidade de Lojban usa um chat unificado. Você pode usar qualquer um dos seguintes mensageiros populares e suas mensagens serão entregues do mensageiro que você usa para os respectivos canais em todos os outros mensageiros. Usamos um programa "bridge" especial para conseguir isso.
 
 Escolha o mensageiro que você gosta.
-### <img src="/assets/pixra/ralju/pluka_lanci.svg" alt="lojban logo" style="height:60px;"/> #lojban - "Lojban"
+### <img src="/assets/pixra/ralju/ralju_lanci.svg" alt="lojban logo" style="height:60px;"/> #lojban - "Lojban"
 
 O chat principal é publicamente registrado: qualquer pergunta
 
