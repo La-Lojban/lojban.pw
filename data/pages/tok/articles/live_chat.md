@@ -10,7 +10,7 @@ kulupu pi toki Losupan li kepeken ilo toki ante mute. sina ken kepeken ilo toki 
 
 ilo toki ale li pona. o kepeken ilo pi wile sina.
 
-### <img src="/assets/pixra/ralju/pluka_lanci.svg" alt="lojban logo" style="height:60px;"/> #lojban - "toki Losupan"
+### <img src="/assets/pixra/ralju/ralju_lanci.svg" alt="lojban logo" style="height:60px;"/> #lojban - "toki Losupan"
 
 tomo toki nanpa wan. o toki e wile sona ale. o sona e ni: ale pi kulupu ala li ken kama lukin e toki ale pi tomo ni.
 

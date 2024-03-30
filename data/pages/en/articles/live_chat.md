@@ -10,7 +10,7 @@ Lojban community uses a united chat. You can use any of the following popular me
 
 Choose the messenger you like.
 
-### <img src="/assets/pixra/ralju/pluka_lanci.svg" alt="lojban logo" style="height:60px;"/> #lojban - "Lojban"
+### <img src="/assets/pixra/ralju/ralju_lanci.svg" alt="lojban logo" style="height:60px;"/> #lojban - "Lojban"
 
 The main chat publicly logged: any questions
 

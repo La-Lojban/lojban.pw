@@ -10,7 +10,7 @@ La komunumo de Lojban uzas unuan babiladon. Vi povas uzi iun ajn el la sekvaj po
 
 Elektu la mesaĝilon, kiun vi ŝatas.
 
-### <img src="/assets/pixra/ralju/pluka_lanci.svg" alt="lojban logo" style="height:60px;"/> #lojban - "Lojban"
+### <img src="/assets/pixra/ralju/ralju_lanci.svg" alt="lojban logo" style="height:60px;"/> #lojban - "Lojban"
 
 La ĉefa babilado estas publike registrita: ajnaj demandoj
 
