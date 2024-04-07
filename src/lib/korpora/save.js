@@ -8,12 +8,12 @@ const path = require("path");
   const page = await context.newPage();
   await page.setViewportSize({ width: 1280, height: 2000 });
 
-  const directoryPath = "/app/src/public/assets/pixra/cilre/";
-
+  const directoryPath = "/app/src/public/assets/pixra/ok/";
+  const ext = 'png'
   const files = fs.readdirSync(directoryPath);
 
   const webpFiles = files.filter(
-    (file) => path.extname(file).toLowerCase() === ".webp"
+    (file) => path.extname(file).toLowerCase() === `.${ext}`
   );
 
   for (const file of webpFiles) {
@@ -22,12 +22,12 @@ const path = require("path");
 
     await page.setInputFiles(
       "#FileInput-Field",
-      `${directoryPath}${filenameWithoutExtension}.webp`
+      `${directoryPath}${filenameWithoutExtension}.${ext}`
     );
 
-    await page.waitForSelector("#App-ImageView-RightCanvas");
+    await page.waitForSelector("#App-ImageView-RightCanvas", {timeout:60000});
 
-    await page.waitForSelector("#App-Toolbar-Zoom1To1");
+    await page.waitForSelector("#App-Toolbar-Zoom1To1", {timeout:60000});
 
     const dataURL = await page.evaluate(() => {
       const canvas = document.querySelector("#App-ImageView-RightCanvas");
