@@ -7,7 +7,7 @@ meta.title: Что такое ложбан?
 
 На этом веб-сайте предоставлены неофициальные бесплатные учебные пособия и документация по языку ложбан.
 
-## [Курс «Изучение ложбана»](/en/books/learn-lojban)
+## [Курс «Изучаем ложбан»](/en/books/learn-lojban)
 
 <pixra redirect="/ru/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="Курс «Изучаем ложбан»"></pixra>
 
