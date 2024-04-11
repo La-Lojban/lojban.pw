@@ -59,6 +59,10 @@
         "tokpona": {
             "native": "toki pona",
             "short": "tok"
+        },
+        "bantugulu": {
+            "native": "Tagalog",
+            "short": "tl"
         }
     }
 }
