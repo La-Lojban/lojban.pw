@@ -39,20 +39,20 @@ Ito ay maaaring makuha sa mga sumusunod na format:
 
 [Karagdagang impormasyon...](/en/articles/complete-lojban-language)
 
-## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - isang magandang di-opisyal na diksiyonaryo
+## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - isang magandang di-opisyal na talahuluganan
 
-Tuklasin ang [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), isang diksiyonaryo para sa Lojban na naglalaman ng:
+Tuklasin ang [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), isang talahuluganan para sa Lojban na naglalaman ng:
 
 * De facto na mga kahulugan ng mga salita
 * Mga eksperimental na kahulugan at halimbawa ng paggamit
 
 ## Mga Mungkahi
 
-Maaari kang magpadala ng anumang mungkahi sa [gleki.is.my.name@gmail.com](mailto:gleki.is.my.name@gmail.com) o magdagdag ng isyu sa [Lojban source repository](https://github.com/la-lojban/lojban-made-easy/issues).
+Maaari kang magpadala ng anumang mungkahi sa [gleki.is.my.name@gmail.com](mailto:gleki.is.my.name@gmail.com) o magdagdag ng lathalain sa [Lojban source repository](https://github.com/la-lojban/lojban-made-easy/issues).
 
 ## Lisensya
 
-Ang lisensya para sa aklat na 'Complete Lojban Language' (isang medyo maluwag na isa) ay nakasaad mismo sa aklat.
+Ang lisensya para sa aklat na 'Complete Lojban Language' (na may pagpapahintulot) ay nakasaad mismo sa aklat.
 
 <p xmlns:dct="https://purl.org/dc/terms/">
 <a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
