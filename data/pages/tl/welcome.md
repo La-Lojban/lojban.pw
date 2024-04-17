@@ -11,11 +11,11 @@ Ang website na ito ay naglalaman ng mga di-opisyal na libreng pagtuturo at dokum
 
 <pixra redirect="/en/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="Kurso sa ‘Pag-aaral ng Lojban’"></pixra>
 
-Ang kurso na ito ay nagtuturo ng Lojban mula sa kanyang pormal na mga batayan, ngunit sa simpleng paraan at may maraming halimbawa ng paggamit.
+Ang kursong ito ay nagtuturo ng Lojban mula sa mga pormal na batayan, ngunit sa simpleng paraan at marami rin itong halimbawang ginamit.
 
-* [PDF](/vreji/uencu/en/learn-lojban.pdf) - sa isang file na PDF para sa pag-download.
+* [PDF](/vreji/uencu/en/learn-lojban.pdf) - sa isang PDF file para sa pag-download.
 
-## [Live Lojban chat](/en/articles/live_chat)
+## [Aktibong pakikipag-usap ng Lojban](/en/articles/live_chat)
 
 <pixra redirect="/en/articles/live_chat" url="/assets/pixra/ralju/jduli.svg" caption="Live Lojban chat"></pixra>
 
@@ -31,13 +31,13 @@ Ang aklat na ito ay sumusunod sa orihinal na aklat na inilathala noong 1997 at:
 * Nag-aayos ng mga salungat na impormasyon
 * Nagdaragdag ng bagong nilalaman na hindi sumisira sa naunang nilalaman
 
-Ito ay available sa mga sumusunod na format:
+Ito ay maaaring makuha sa mga sumusunod na format:
 
-* [PDF](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.pdf) - sa isang file na PDF para sa pag-download
-* [HTML sa mga seksyon](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/) - sa mga file na HTML
+* [PDF](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.pdf) - sa isang PDF file para sa pag-download
+* [HTML sa mga seksyon](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/) - sa mga HTML file
 <!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.epub) - bilang isang aklat na EPUB -->
 
-[Dagdag na impormasyon...](/en/articles/complete-lojban-language)
+[Karagdagang impormasyon...](/en/articles/complete-lojban-language)
 
 ## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - isang magandang di-opisyal na diksiyonaryo
 
