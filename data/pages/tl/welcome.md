@@ -3,9 +3,9 @@ title: Ano ang Lojban?
 meta.title: Ano ang Lojban?
 ---
 
-Ang **Lojban** ay isang wikang lohikal na sinasalita na nilikha noong 1987 at sinusuportahan ng mga nagsasalita nito ngayon.
+Ang **Lojban** ay isang wikang lohikal na sinasalita na nilikha noong 1987 na ngayon ay sinusuportahan na ng mga nagsasalita nito.
 
-Ang website na ito ay naglalaman ng mga di-opisyal na libreng tutorial at dokumentasyon sa wika ng Lojban.
+Ang website na ito ay naglalaman ng mga di-opisyal na libreng pagtuturo at dokumentasyon sa wika ng Lojban.
 
 ## [Kurso sa ‘Pag-aaral ng Lojban’](/en/books/learn-lojban)
 
