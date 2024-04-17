@@ -60,7 +60,7 @@ Ang lisensya para sa aklat na 'Complete Lojban Language' (na may pagpapahintulot
      style="border-style: none;" alt="Public Domain Mark" />
 </a>
 <br />
-Ang gawang ito (<span property="dct:title">Matuto ng Lojban</span>, ni <a href="https://lojban.pw" rel="dct:creator"><span property="dct:title">Gleki Arxokuna</span></a>), na kinilala ni <a href="https://lojban.pw" rel="dct:publisher"><span property="dct:title">Gleki Arxokuna</span></a>, ay libre mula sa alam na mga paghihigpit sa karapatan ng may-ari.
+Ang gawang ito (<span property="dct:title">Pag-aaral ng Lojban</span>, ni <a href="https://lojban.pw" rel="dct:creator"><span property="dct:title">Gleki Arxokuna</span></a>), na kinilala ni <a href="https://lojban.pw" rel="dct:publisher"><span property="dct:title">Gleki Arxokuna</span></a>, ay nagpapahintulot sa karapatang-ari.
 </p>
 
 ## Mga Tanyag na Pahina
