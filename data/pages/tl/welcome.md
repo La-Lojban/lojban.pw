@@ -63,4 +63,4 @@ Ang lisensya para sa aklat na 'Complete Lojban Language' (na may pagpapahintulot
 Ang gawang ito (<span property="dct:title">Pag-aaral ng Lojban</span>, ni <a href="https://lojban.pw" rel="dct:creator"><span property="dct:title">Gleki Arxokuna</span></a>), na kinilala ni <a href="https://lojban.pw" rel="dct:publisher"><span property="dct:title">Gleki Arxokuna</span></a>, ay nagpapahintulot sa karapatang-ari.
 </p>
 
-## Mahahalagang Pahina
+## Mga Mahalagang Pahina
