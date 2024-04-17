@@ -39,7 +39,7 @@ Ito ay maaaring makuha sa mga sumusunod na format:
 
 [Karagdagang impormasyon...](/en/articles/complete-lojban-language)
 
-## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - isang magandang di-opisyal na talahuluganan
+## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - di-opisyal na talahuluganan
 
 Tuklasin ang [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), isang talahuluganan para sa Lojban na naglalaman ng:
 
