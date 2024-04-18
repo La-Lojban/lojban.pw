@@ -1,7 +1,7 @@
 ---
 title: 📚 Corpus of texts
 og:image: /assets/pixra/ralju/texts.webp
-description: stories, books in Lojban and English with parallel translation 
+description: mga kuwento, aklat sa Lojban at Ingles na may kaparehong pagsasalin
 ---
 
 Nais mo bang isalin ang ilang teksto sa iyong wika?
