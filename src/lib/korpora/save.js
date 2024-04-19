@@ -3,50 +3,52 @@ const fs = require("fs");
 const path = require("path");
 
 (async () => {
-  const browser = await chromium.launch();
-  const context = await browser.newContext();
-  const page = await context.newPage();
-  await page.setViewportSize({ width: 1280, height: 2000 });
+ const browser = await chromium.launch();
+ const context = await browser.newContext();
+ const page = await context.newPage();
+ await page.setViewportSize({ width: 1280, height: 2000 });
 
-  const directoryPath = "/app/src/public/assets/pixra/ok/";
-  const ext = 'png'
-  const files = fs.readdirSync(directoryPath);
+ const directoryPath = "/app/src/public/assets/pixra/ok/";
+ const supportedExtensions = ['png', 'webp', 'jpg']; // Define supported extensions
+ const files = fs.readdirSync(directoryPath);
 
-  const webpFiles = files.filter(
-    (file) => path.extname(file).toLowerCase() === `.${ext}`
-  );
-
-  for (const file of webpFiles) {
-    await page.goto("https://vectorizer.ai/");
-    const filenameWithoutExtension = path.basename(file, path.extname(file));
-
-    await page.setInputFiles(
-      "#FileInput-Field",
-      `${directoryPath}${filenameWithoutExtension}.${ext}`
+ for (const ext of supportedExtensions) { // Iterate over each supported extension
+    const extensionFiles = files.filter(
+      (file) => path.extname(file).toLowerCase() === `.${ext}`
     );
 
-    await page.waitForSelector("#App-ImageView-RightCanvas", {timeout:60000});
+    for (const file of extensionFiles) { // Process each file of the current extension
+      await page.goto("https://vectorizer.ai/");
+      const filenameWithoutExtension = path.basename(file, path.extname(file));
 
-    await page.waitForSelector("#App-Toolbar-Zoom1To1", {timeout:60000});
+      await page.setInputFiles(
+        "#FileInput-Field",
+        `${directoryPath}${filenameWithoutExtension}.${ext}`
+      );
 
-    const dataURL = await page.evaluate(() => {
-      const canvas = document.querySelector("#App-ImageView-RightCanvas");
-      if (canvas) return canvas.toDataURL();
+      await page.waitForSelector("#App-ImageView-RightCanvas", {timeout:60000});
 
-      return null;
-    });
+      await page.waitForSelector("#App-Toolbar-Zoom1To1", {timeout:60000});
 
-    if (dataURL) {
-      const base64Data = dataURL.replace(/^data:image\/png;base64,/, "");
+      const dataURL = await page.evaluate(() => {
+        const canvas = document.querySelector("#App-ImageView-RightCanvas");
+        if (canvas) return canvas.toDataURL();
 
-      const binaryData = Buffer.from(base64Data, "base64");
+        return null;
+      });
 
-      fs.writeFileSync(`/tmp/${filenameWithoutExtension}.png`, binaryData);
-      console.log(`saved ${filenameWithoutExtension}`);
-    } else {
-      console.error(`!!! not saved ${filenameWithoutExtension}`);
+      if (dataURL) {
+        const base64Data = dataURL.replace(/^data:image\/png;base64,/, "");
+
+        const binaryData = Buffer.from(base64Data, "base64");
+
+        fs.writeFileSync(`/tmp/${filenameWithoutExtension}.png`, binaryData);
+        console.log(`saved ${filenameWithoutExtension}`);
+      } else {
+        console.error(`!!! not saved ${filenameWithoutExtension}`);
+      }
     }
-  }
+ }
 
-  await browser.close();
+ await browser.close();
 })();
