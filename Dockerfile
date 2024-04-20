@@ -26,6 +26,7 @@ RUN set -uex; \
     apt-get update; \
     apt-get install nodejs -y;
 
+RUN apt-get update && apt-get install -y lsof
 # install fonts
 RUN apt-get update && apt-get install -y fonts-noto-color-emoji fonts-freefont-ttf
 

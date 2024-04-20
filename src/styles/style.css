@@ -510,3 +510,48 @@
   background-color: #fff;
   color: #999;
 }
+
+.hide-column-checkbox-jbovla {
+  display: none;
+}
+
+.hide-column-checkbox-jbovla:checked
+  + .hide-column-button-jbovla
+  ~ div
+  table
+  th.column-class-jbovla,
+.hide-column-checkbox-jbovla:checked
+  + .hide-column-button-jbovla
+  ~ div
+  table
+  td.column-class-jbovla {
+  display: none;
+}
+
+.hide-column-checkbox-jbovla:checked + .hide-column-button-jbovla {
+  background-color: #fff;
+  color: #999;
+}
+
+.hide-column-checkbox-English_definition {
+  display: none;
+}
+
+.hide-column-checkbox-English_definition:checked
+  + .hide-column-button-English_definition
+  ~ div
+  table
+  th.column-class-English_definition,
+.hide-column-checkbox-English_definition:checked
+  + .hide-column-button-English_definition
+  ~ div
+  table
+  td.column-class-English_definition {
+  display: none;
+}
+
+.hide-column-checkbox-English_definition:checked
+  + .hide-column-button-English_definition {
+  background-color: #fff;
+  color: #999;
+}

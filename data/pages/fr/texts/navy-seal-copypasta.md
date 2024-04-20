@@ -48,13 +48,13 @@ meta.priority: 0
             scope="col"
             class="w-40 p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            lojbo gi'e se fanva la gleki
+            lojbo gi&#039;e se fanva la gleki
           </th>
           <th
             scope="col"
             class="w-40 p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            lojbo fi'e se fanva la pimlu
+            lojbo fi&#039;e se fanva la pimlu
           </th>
         </tr>
       </thead>
@@ -68,27 +68,29 @@ meta.priority: 0
           <td
             class="font-bold text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            ni'o ni'o bau le lojbo
+            ni&#039;o ni&#039;o bau le lojbo
           </td>
           <td
             class="font-bold text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            ni'o ni'o bau le lojbo
+            ni&#039;o ni&#039;o bau le lojbo
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             Navy Seal Copypasta
           </td>
           <td
-            class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
             la .navisil.
           </td>
           <td
-            class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
             la .navisil.
           </td>
@@ -96,29 +98,33 @@ meta.priority: 0
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             http://knowyourmeme.com/memes/navy-seal-copypasta
           </td>
           <td
-            class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           ></td>
           <td
-            class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           ></td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             English original
           </td>
           <td
-            class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
             .i fanva fa la gleki
           </td>
           <td
-            class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
             .i fanva fa la pimlu
           </td>
@@ -132,13 +138,13 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i sei mabla ma mabla se smusku do gi'e srana mi doi cmalu gerku
-            pe'a
+            .i sei mabla ma mabla se smusku do gi&#039;e srana mi doi cmalu
+            gerku pe&#039;a
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i ma pe mi do ga'i mabla se cusku
+            .i ma pe mi do ga&#039;i mabla se cusku
           </td>
         </tr>
         <tr
@@ -152,16 +158,17 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i ko djuno le du'u mi traji le ka zabna vau fo le'i mo'u tadni be
-            bu'u la .nevisils. gi'e pu'i so'i roi smaji gunta la alkaida .i je
-            fatci fa le du'u mi catra za'u ci no no prenu
+            .i ko djuno le du&#039;u mi traji le ka zabna vau fo le&#039;i
+            mo&#039;u tadni be bu&#039;u la .nevisils. gi&#039;e pu&#039;i
+            so&#039;i roi smaji gunta la alkaida .i je fatci fa le du&#039;u mi
+            catra za&#039;u ci no no prenu
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i .eidai do djuno lodu'u mi kulmu'o co xagrai lo tadni la
-            .nevi.sils. gi'e so'iroi mipri gunta la .al.kaidas. gi'e za'u cinono
-            roi birti catra
+            .i .eidai do djuno lodu&#039;u mi kulmu&#039;o co xagrai lo tadni la
+            .nevi.sils. gi&#039;e so&#039;iroi mipri gunta la .al.kaidas.
+            gi&#039;e za&#039;u cinono roi birti catra
           </td>
         </tr>
         <tr
@@ -174,14 +181,15 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i mi certu le ka jamna fau le nu mi cmima lo so'u mei jenmi .i je
-            mi traji le ka zabna vau fo le'i jai gau cecla pe le merko bilni
+            .i mi certu le ka jamna fau le nu mi cmima lo so&#039;u mei jenmi .i
+            je mi traji le ka zabna vau fo le&#039;i jai gau cecla pe le merko
+            bilni
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i mi certu loka tsasmani jamna kei gi'e crerai loka satcygunta kei
-            lo merko bilni
+            .i mi certu loka tsasmani jamna kei gi&#039;e crerai loka satcygunta
+            kei lo merko bilni
           </td>
         </tr>
         <tr
@@ -193,12 +201,12 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i do mi se xarci sa'u
+            .i do mi se xarci sa&#039;u
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i do ma'i mi se xarci po'o
+            .i do ma&#039;i mi se xarci po&#039;o
           </td>
         </tr>
         <tr
@@ -211,14 +219,14 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i mi ba mabla vimcu do i je le nu go'i cu satci le no roi se zgana
-            be bu'u le terdi .i ko jundi le mi mabla zabna valsi
+            .i mi ba mabla vimcu do i je le nu go&#039;i cu satci le no roi se
+            zgana be bu&#039;u le terdi .i ko jundi le mi mabla zabna valsi
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i mi ba mabla vimcu do soi lo simsa be ke'a noroi se zgana vi lo
-            terdi
+            .i mi ba mabla vimcu do soi lo simsa be ke&#039;a noroi se zgana vi
+            lo terdi
           </td>
         </tr>
         <tr
@@ -231,13 +239,14 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i xu do krici le du'u do kakne le ka rivbi va'o le nu do cusku le
-            bi'u nai mabla fo le kibro
+            .i xu do krici le du&#039;u do kakne le ka rivbi va&#039;o le nu do
+            cusku le bi&#039;u nai mabla fo le kibro
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i xu krici lodu'u kakne lonu kibro cusku lo mabla gi'e rivbi
+            .i xu krici lodu&#039;u kakne lonu kibro cusku lo mabla gi&#039;e
+            rivbi
           </td>
         </tr>
         <tr
@@ -249,12 +258,12 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i ko za'u re'u pensi doi jai se bapli
+            .i ko za&#039;u re&#039;u pensi doi jai se bapli
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i ko za'ure'u mabla jurpei
+            .i ko za&#039;ure&#039;u mabla jurpei
           </td>
         </tr>
         <tr
@@ -267,14 +276,14 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i ca le nu mi'o casnu vau mi cusku fo le mi sivni se tcana be le
-            sivni zgana bei ve'u le merko
+            .i ca le nu mi&#039;o casnu vau mi cusku fo le mi sivni se tcana be
+            le sivni zgana bei ve&#039;u le merko
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i ca lonu mi'o casnu ku mi tavla lo mi mipri seltcana be loi
-            mipyzga bei ve'u lo merko
+            .i ca lonu mi&#039;o casnu ku mi tavla lo mi mipri seltcana be loi
+            mipyzga bei ve&#039;u lo merko
           </td>
         </tr>
         <tr
@@ -287,14 +296,15 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i ji'a le judri be do bei le kibro pu'o jai se facki i se ki'u bo
-            do cu e'u bredi tu'a lo vlile doi jerna be no da
+            .i ji&#039;a le judri be do bei le kibro pu&#039;o jai se facki i se
+            ki&#039;u bo do cu e&#039;u bredi tu&#039;a lo vlile doi jerna be no
+            da
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .iji'a lo do samjudri ca se cipcta semu'i lonu .e'u do do bregau
-            tu'a lo vilti'a
+            .iji&#039;a lo do samjudri ca se cipcta semu&#039;i lonu .e&#039;u
+            do do bregau tu&#039;a lo vilti&#039;a
           </td>
         </tr>
         <tr
@@ -307,12 +317,12 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i ri jai rinka le nu lo ruble co'u fasnu .i je ri se renvi do
+            .i ri jai rinka le nu lo ruble co&#039;u fasnu .i je ri se renvi do
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i ri jai daspo lo ruble po'u lo li'i do jmive
+            .i ri jai daspo lo ruble po&#039;u lo li&#039;i do jmive
           </td>
         </tr>
         <tr
@@ -324,12 +334,12 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i do ga'i mabla morsi
+            .i do ga&#039;i mabla morsi
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i do ga'i malmro
+            .i do ga&#039;i malmro
           </td>
         </tr>
         <tr
@@ -342,15 +352,17 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i ro da poi stuzi vau ro de poi se tcika zo'u mi ka'e zvati bu'u da
-            pe'e ja ca de .i je za'u ze no no tadji le nu da'i mi jai gau morsi
-            fai do ca le nu ta'o mi pilno lei po'o xance be mi
+            .i ro da poi stuzi vau ro de poi se tcika zo&#039;u mi ka&#039;e
+            zvati bu&#039;u da pe&#039;e ja ca de .i je za&#039;u ze no no tadji
+            le nu da&#039;i mi jai gau morsi fai do ca le nu ta&#039;o mi pilno
+            lei po&#039;o xance be mi
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i mi ka'e zvati ro stuzi ca ro mokca gi'e ka'e mrogau do ta'i za'u
-            zenono da sepi'o lo po'o mi xance
+            .i mi ka&#039;e zvati ro stuzi ca ro mokca gi&#039;e ka&#039;e
+            mrogau do ta&#039;i za&#039;u zenono da sepi&#039;o lo po&#039;o mi
+            xance
           </td>
         </tr>
         <tr
@@ -363,14 +375,15 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i ge mi certu le ka pilno no xarci le ka damba gi ji'a ro da poi
-            xarci fi le merko ke xamsi se sonci zo'u mi se krali le ka pilno da
+            .i ge mi certu le ka pilno no xarci le ka damba gi ji&#039;a ro da
+            poi xarci fi le merko ke xamsi se sonci zo&#039;u mi se krali le ka
+            pilno da
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i mi bancre loka nalxarci damba kei gi'e ji'a se gubni ro lo xarci
-            poi se ponse lo mergu'e
+            .i mi bancre loka nalxarci damba kei gi&#039;e ji&#039;a se gubni ro
+            lo xarci poi se ponse lo mergu&#039;e
           </td>
         </tr>
         <tr
@@ -383,8 +396,9 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i je mi ba pilno su'o xarci bi'u nai se la'u li ro le ka vimcu le
-            mabla ganxo be do le flira pe'a be le braplu doi cmalu kalci pe'a
+            .i je mi ba pilno su&#039;o xarci bi&#039;u nai se la&#039;u li ro
+            le ka vimcu le mabla ganxo be do le flira pe&#039;a be le braplu doi
+            cmalu kalci pe&#039;a
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
@@ -402,14 +416,14 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i da'i pu ku ga nai do djuno le du'u pu'o to'e censa cnemu do le ka
-            stati ia dai piksku vau ma kau
+            .i da&#039;i pu ku ga nai do djuno le du&#039;u pu&#039;o to&#039;e
+            censa cnemu do le ka stati ia dai piksku vau ma kau
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i da'i do pu djuno lodu'u makau tolcesna tolne'u fi loka do
-            menstati ba'e simlu be fi do se pinka
+            .i da&#039;i do pu djuno lodu&#039;u makau tolcesna tolne&#039;u fi
+            loka do menstati ba&#039;e simlu be fi do se pinka
           </td>
         </tr>
         <tr
@@ -421,12 +435,12 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            gi ju'o cu'i do mabla smaji
+            gi ju&#039;o cu&#039;i do mabla smaji
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .isemu'ibo do mabla smaji
+            .isemu&#039;ibo do mabla smaji
           </td>
         </tr>
         <tr
@@ -438,12 +452,12 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i ku'i do na kakne gi'e na ckaji
+            .i ku&#039;i do na kakne gi&#039;e na ckaji
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .iku'i do na kakne loka go'i gi'e na ckaji ri
+            .iku&#039;i do na kakne loka go&#039;i gi&#039;e na ckaji ri
           </td>
         </tr>
         <tr
@@ -472,12 +486,13 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i pe'a mi ba ku fai le kalci cu jai gau carvi do .i je do jinru ri
+            .i pe&#039;a mi ba ku fai le kalci cu jai gau carvi do .i je do
+            jinru ri
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i mi ba cavgau lo camfe'u do noi ba jaurvasmro ra
+            .i mi ba cavgau lo camfe&#039;u do noi ba jaurvasmro ra
           </td>
         </tr>
         <tr
@@ -489,12 +504,12 @@ meta.priority: 0
           <td
             class="text-left align-text-top p-2 column-class-lojbo_gi_e_se_fanva_la_gleki"
           >
-            .i ke'u ge'e ga'i do mabla morsi
+            .i ke&#039;u ge&#039;e ga&#039;i do mabla morsi
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_fi_e_se_fanva_la_pimlu"
           >
-            .i ke'u do malmro vau ga'i
+            .i ke&#039;u do malmro vau ga&#039;i
           </td>
         </tr>
       </tbody>

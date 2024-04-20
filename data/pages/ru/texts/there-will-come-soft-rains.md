@@ -67,7 +67,7 @@ meta.priority: 469
             scope="col"
             class="w-40 p-2 column-class-glico_gi_e_te_fanva_fo_le_lojbo"
           >
-            glico gi'e te fanva fo le lojbo
+            glico gi&#039;e te fanva fo le lojbo
           </th>
           <th scope="col" class="w-40 p-2 column-class-rusko">rusko</th>
           <th scope="col" class="w-40 p-2 column-class-fraso">fraso</th>
@@ -78,7 +78,7 @@ meta.priority: 469
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="font-bold text-left align-text-top p-2 column-class-lojbo">
-            ni'o ni'o bau le lojbo
+            ni&#039;o ni&#039;o bau le lojbo
           </td>
           <td class="font-bold text-left align-text-top p-2 column-class-glico">
             English original
@@ -98,63 +98,87 @@ meta.priority: 469
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             ba milxe bo carvi
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             There Will Come Soft Rains
           </td>
           <td
-            class="text-left align-text-top p-2 column-class-glico_gi_e_te_fanva_fo_le_lojbo"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico_gi_e_te_fanva_fo_le_lojbo"
           >
             There will be mild rains
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Придут тихие дожди
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Il y aura de douces pluies
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             .i finti fa la .saras.tizdeil.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             by Sara Teasdale
           </td>
           <td
-            class="text-left align-text-top p-2 column-class-glico_gi_e_te_fanva_fo_le_lojbo"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico_gi_e_te_fanva_fo_le_lojbo"
           >
             Sara Teasdale invented.
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Автор Сара Тисдейл
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Écrit par Sara Teasdale
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             .i fanva fa la gleki
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             English original
           </td>
           <td
-            class="text-left align-text-top p-2 column-class-glico_gi_e_te_fanva_fo_le_lojbo"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico_gi_e_te_fanva_fo_le_lojbo"
           >
             la gleki
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Перевод la gleki
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Original anglais
           </td>
         </tr>
@@ -176,7 +200,7 @@ meta.priority: 469
             Придут тихие дожди и запах земли,
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Il y aura de douces pluies et l'odeur du sol,
+            Il y aura de douces pluies et l&#039;odeur du sol,
           </td>
         </tr>
         <tr
@@ -239,7 +263,7 @@ meta.priority: 469
             И дикие сливовые деревья в трепетной белизне,
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Et des pruniers sauvages d'un blanc tremblant,
+            Et des pruniers sauvages d&#039;un blanc tremblant,
           </td>
         </tr>
         <tr
@@ -267,7 +291,7 @@ meta.priority: 469
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            gi'e siclu fe le jai se gleki co simlu
+            gi&#039;e siclu fe le jai se gleki co simlu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Whistling their whims on a low fence-wire;
@@ -309,7 +333,7 @@ meta.priority: 469
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i no stuzi le xarci ba su'o roi canlu
+            .i no stuzi le xarci ba su&#039;o roi canlu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Will care at last when it is done.
@@ -323,7 +347,7 @@ meta.priority: 469
             Не будет дела, когда она пройдет.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            S'inquiétera enfin de la fin de la guerre.
+            S&#039;inquiétera enfin de la fin de la guerre.
           </td>
         </tr>
         <tr
@@ -344,14 +368,14 @@ meta.priority: 469
             Никто не будет возражать, ни птица, ни дерево
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Personne ne s'en soucierait, ni les oiseaux, ni les arbres
+            Personne ne s&#039;en soucierait, ni les oiseaux, ni les arbres
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            fe le fanmo be mi'a noi no da ba skicu
+            fe le fanmo be mi&#039;a noi no da ba skicu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             If mankind perished utterly;
@@ -365,7 +389,7 @@ meta.priority: 469
             Если человечество исчезнет полностью;
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Si l'humanité disparaissait complètement ;
+            Si l&#039;humanité disparaissait complètement ;
           </td>
         </tr>
         <tr
@@ -386,7 +410,8 @@ meta.priority: 469
             И сама Весна, проснувшись на рассвете,
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Et le printemps lui-même, lorsqu'il se réveillera à l'aube,
+            Et le printemps lui-même, lorsqu&#039;il se réveillera à
+            l&#039;aube,
           </td>
         </tr>
         <tr
@@ -401,7 +426,7 @@ meta.priority: 469
           <td
             class="text-left align-text-top p-2 column-class-glico_gi_e_te_fanva_fo_le_lojbo"
           >
-            The outcome is equal. Spring doesn't observe it.
+            The outcome is equal. Spring doesn&#039;t observe it.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             едва ли узнает, что нас больше нет.

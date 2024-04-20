@@ -63,7 +63,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="font-bold text-left align-text-top p-2 column-class-lojbo">
-            ni'o ni'o bau le lojbo
+            ni&#039;o ni&#039;o bau le lojbo
           </td>
           <td class="font-bold text-left align-text-top p-2 column-class-porto">
             original
@@ -78,48 +78,72 @@ meta.priority: 657
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i la'e lu le nixli be la .ipaneman. lu'u
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
+            .i la&#039;e lu le nixli be la .ipaneman. lu&#039;u
           </td>
-          <td class="text-left align-text-top p-2 column-class-porto">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
+          >
             Garota de Ipanema
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             The Girl from Ipanema
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Девушка из Ипанемы
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             .i finti fa la.viNIsi,us.djimoRA,is.
           </td>
-          <td class="text-left align-text-top p-2 column-class-porto">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
+          >
             Vinicius de Moraes
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             by Vinicius de Moraes
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Винисиус де Мораес
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             .i la gleki cu fanva
           </td>
-          <td class="text-left align-text-top p-2 column-class-porto">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
+          >
             original
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             Translated by la gleki
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Перевод: la gleki
           </td>
         </tr>
@@ -143,7 +167,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            gi'e mulno le ka nobli
+            gi&#039;e mulno le ka nobli
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Mais cheia de graça
@@ -165,7 +189,7 @@ meta.priority: 657
             É ela, a menina
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            It's her, the girl
+            It&#039;s her, the girl
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Это она, девушка
@@ -175,7 +199,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            noi klama gi'e bancu muvdu
+            noi klama gi&#039;e bancu muvdu
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Que vem e que passa
@@ -191,7 +215,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ca le nu ke'a pluka slilu
+            ca le nu ke&#039;a pluka slilu
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Num doce balanço
@@ -271,7 +295,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            cu zmadu lo'e se pemci
+            cu zmadu lo&#039;e se pemci
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             É mais que um poema
@@ -287,7 +311,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            gi'e du le fasnu co traji melbi
+            gi&#039;e du le fasnu co traji melbi
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             É a coisa mais linda
@@ -303,13 +327,13 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            poi mi pu'i viska le nu ke'a bancu muvdu
+            poi mi pu&#039;i viska le nu ke&#039;a bancu muvdu
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Que eu já vi passar
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            that I've ever seen pass by
+            that I&#039;ve ever seen pass by
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Что я когда-либо видел проходящей.
@@ -319,7 +343,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i .oi ki'u ma mi tai kansa no da
+            .i .oi ki&#039;u ma mi tai kansa no da
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Ah, porque estou tão sozinho
@@ -335,7 +359,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i .oi ki'u ma ro da tai se badri
+            .i .oi ki&#039;u ma ro da tai se badri
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Ah, porque tudo é tão triste
@@ -367,7 +391,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            joi le melbi noi na co'e mi po'o
+            joi le melbi noi na co&#039;e mi po&#039;o
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             A beleza que não é só minha
@@ -383,7 +407,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            gi'e ji'a bancu co kansa be no da
+            gi&#039;e ji&#039;a bancu co kansa be no da
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Que também passa sozinha
@@ -399,7 +423,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i .au da'i ra djuno
+            .i .au da&#039;i ra djuno
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Ah, se ela soubesse
@@ -415,7 +439,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            le du'u ca le nu ra bancu vau
+            le du&#039;u ca le nu ra bancu vau
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Que quando ela passa
@@ -431,7 +455,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            le munje noi ca'o cisma
+            le munje noi ca&#039;o cisma
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             O mundo sorrindo
@@ -447,7 +471,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            cu culno le ka nobli vau mo'u
+            cu culno le ka nobli vau mo&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Se enche de graça
@@ -463,7 +487,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            gi'e co'a traji melbi
+            gi&#039;e co&#039;a traji melbi
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             E fica mais lindo
@@ -479,7 +503,7 @@ meta.priority: 657
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            vau ri'a le nu prami
+            vau ri&#039;a le nu prami
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Por causa do amor

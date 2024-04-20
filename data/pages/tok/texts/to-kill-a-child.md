@@ -98,7 +98,9 @@ meta.priority: 8452
             English by Stig Dagerman
           </th>
           <th scope="col" class="w-40 p-2 column-class-rusko">rusko</th>
-          <th scope="col" class="w-40 p-2 column-class-sfe_ero">sfe'ero</th>
+          <th scope="col" class="w-40 p-2 column-class-sfe_ero">
+            sfe&#039;ero
+          </th>
           <th scope="col" class="w-40 p-2 column-class-spano">spano</th>
           <th scope="col" class="w-40 p-2 column-class-porto">porto</th>
           <th scope="col" class="w-40 p-2 column-class-fraso">fraso</th>
@@ -109,7 +111,7 @@ meta.priority: 8452
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="font-bold text-left align-text-top p-2 column-class-lojbo">
-            ni'o ni'o ni'o bau le lojbo
+            ni&#039;o ni&#039;o ni&#039;o bau le lojbo
           </td>
           <td class="font-bold text-left align-text-top p-2 column-class-glico">
             English version
@@ -140,94 +142,136 @@ meta.priority: 8452
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             ka jai gau morsi fai lo verba
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
-            To Kill a Child
-          </td>
           <td
-            class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
           >
             To Kill a Child
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
+          >
+            To Kill a Child
+          </td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Убить ребёнка
           </td>
-          <td class="text-left align-text-top p-2 column-class-sfe_ero">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-sfe_ero"
+          >
             Att döda ett barn
           </td>
-          <td class="text-left align-text-top p-2 column-class-spano">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-spano"
+          >
             Matar a un niño
           </td>
-          <td class="text-left align-text-top p-2 column-class-porto">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
+          >
             Matar uma criança
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Tuer un enfant
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
-            sei fìnti be fa la .stig.dagerman. bei de'i li pa so vo bi
-          </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
-            Stig Dagerman
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
+            sei fìnti be fa la .stig.dagerman. bei de&#039;i li pa so vo bi
           </td>
           <td
-            class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
           >
             Stig Dagerman
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
+          >
             Stig Dagerman
           </td>
-          <td class="text-left align-text-top p-2 column-class-sfe_ero">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Stig Dagerman
           </td>
-          <td class="text-left align-text-top p-2 column-class-spano">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-sfe_ero"
+          >
             Stig Dagerman
           </td>
-          <td class="text-left align-text-top p-2 column-class-porto">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-spano"
+          >
             Stig Dagerman
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
+          >
+            Stig Dagerman
+          </td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Stig Dägerman
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
-            sei fanva be fa la danmo rozgu bei de'i li re no pa mu se'u sei
-            cnegau be fa la gleki se'u
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
+            sei fanva be fa la danmo rozgu bei de&#039;i li re no pa mu
+            se&#039;u sei cnegau be fa la gleki se&#039;u
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             translated by la gleki
           </td>
           <td
-            class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
             translated by Steven Hartman
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             перевод la gleki
           </td>
-          <td class="text-left align-text-top p-2 column-class-sfe_ero">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-sfe_ero"
+          >
             Svenskt original
           </td>
-          <td class="text-left align-text-top p-2 column-class-spano"></td>
-          <td class="text-left align-text-top p-2 column-class-porto"></td>
-          <td class="text-left align-text-top p-2 column-class-fraso"></td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-spano"
+          ></td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
+          ></td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          ></td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o ca donri fi lo se gusni .i je le solri ca salpo cnita le pinta
-            tumla
+            ni&#039;o ca donri fi lo se gusni .i je le solri ca salpo cnita le
+            pinta tumla
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             It is a light day, and the sun is slanting across the plain.
@@ -235,7 +279,7 @@ meta.priority: 8452
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
-            It's a peaceful day as sunlight settles onto the fields of the
+            It&#039;s a peaceful day as sunlight settles onto the fields of the
             plain.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
@@ -251,14 +295,15 @@ meta.priority: 8452
             É um dia claro, e o sol está inclinado sobre a planície.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            C'est un jour lumineux, et le soleil traverse la plaine en biais.
+            C&#039;est un jour lumineux, et le soleil traverse la plaine en
+            biais.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le za'u junla janbe ba zi se sance .i se ki'u ku zeldei
+            .i le za&#039;u junla janbe ba zi se sance .i se ki&#039;u ku zeldei
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Soon the bells will ring, for it is Sunday.
@@ -281,16 +326,17 @@ meta.priority: 8452
             Em breve os sinos vão tocar, pois é domingo.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Bientôt les cloches sonneront, car c'est dimanche.
+            Bientôt les cloches sonneront, car c&#039;est dimanche.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i bu'u lo jbini be le re mraji foldi le re citno cu facki tu'a pa
-            jarki pluta noi le no'a pu no roi klama fo ke'a .i je bu'u le ci
-            ve'i tcadu pe le pinta tumla le za'u canko cu gusminra
+            .i bu&#039;u lo jbini be le re mraji foldi le re citno cu facki
+            tu&#039;a pa jarki pluta noi le no&#039;a pu no roi klama fo
+            ke&#039;a .i je bu&#039;u le ci ve&#039;i tcadu pe le pinta tumla le
+            za&#039;u canko cu gusminra
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Between a couple of rye fields, two young people have found a path
@@ -325,8 +371,8 @@ meta.priority: 8452
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Entre deux champs de seigle, deux jeunes ont découvert un chemin
-            qu'ils n'avaient jamais emprunté auparavant, et dans les trois
-            villages de la plaine, les carreaux des fenêtres brillent.
+            qu&#039;ils n&#039;avaient jamais emprunté auparavant, et dans les
+            trois villages de la plaine, les carreaux des fenêtres brillent.
           </td>
         </tr>
         <tr
@@ -345,9 +391,10 @@ meta.priority: 8452
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i za'u nanmu cu xejykrevi'u ca'u lo minra be ga'u re'o lo jubme .i
-            je za'u ninmu ze'a lo nu sanga cu katna lo nanba pe lo ckafi .i je
-            za'u verba cu zutse lo loldi gi'e jai ganlo fai lo creka fi lo batke
+            .i za&#039;u nanmu cu xejykrevi&#039;u ca&#039;u lo minra be
+            ga&#039;u re&#039;o lo jubme .i je za&#039;u ninmu ze&#039;a lo nu
+            sanga cu katna lo nanba pe lo ckafi .i je za&#039;u verba cu zutse
+            lo loldi gi&#039;e jai ganlo fai lo creka fi lo batke
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Men are shaving in front of the mirrors on the kitchen tables, and
@@ -390,9 +437,9 @@ meta.priority: 8452
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ca saxfri cerni le palci se detri .i se ki'u ku ca le ca donri le
-            pa verba ba gau co'a morsi be bu'u le ve'i tcadu poi ci moi ku'o fe
-            le pa saxfri nanmu
+            .i ca saxfri cerni le palci se detri .i se ki&#039;u ku ca le ca
+            donri le pa verba ba gau co&#039;a morsi be bu&#039;u le ve&#039;i
+            tcadu poi ci moi ku&#039;o fe le pa saxfri nanmu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             It is the happy morning of an evil day, for on this day a child will
@@ -421,19 +468,21 @@ meta.priority: 8452
             morta na terceira aldeia por um homem alegre.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            C'est le matin joyeux d'une journée funeste, car en ce jour, un
-            enfant sera tué dans le troisième village par un homme joyeux.
+            C&#039;est le matin joyeux d&#039;une journée funeste, car en ce
+            jour, un enfant sera tué dans le troisième village par un homme
+            joyeux.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ca'o je to'e ki'u nai ku le verba cu zutse le loldi gi'e jai gau
-            ganlo fai le creka fi le batke .i je le nanmu poi xejykrevi'u cu
-            cusku le se du'u ca le cabdei cu litru fi tu'a lo cpuga'a re'o le
-            ve'a rirxe .i je le ninmu cu sanga gi'e punji le cnino se katna
-            nanba le blanu palta
+            .i ca&#039;o je to&#039;e ki&#039;u nai ku le verba cu zutse le
+            loldi gi&#039;e jai gau ganlo fai le creka fi le batke .i je le
+            nanmu poi xejykrevi&#039;u cu cusku le se du&#039;u ca le cabdei cu
+            litru fi tu&#039;a lo cpuga&#039;a re&#039;o le ve&#039;a rirxe .i
+            je le ninmu cu sanga gi&#039;e punji le cnino se katna nanba le
+            blanu palta
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The child is still sitting on the floor, buttoning his shirt, and
@@ -470,19 +519,20 @@ meta.priority: 8452
             a mulher resmunga e coloca o pão recém-cortado em um prato azul.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            L'enfant est toujours assis par terre, en train de boutonner sa
-            chemise, et l'homme qui se rase dit qu'aujourd'hui ils iront faire
-            du canotage sur la rivière, et la femme râle en mettant le pain
-            fraîchement coupé sur une assiette bleue.
+            L&#039;enfant est toujours assis par terre, en train de boutonner sa
+            chemise, et l&#039;homme qui se rase dit qu&#039;aujourd&#039;hui
+            ils iront faire du canotage sur la rivière, et la femme râle en
+            mettant le pain fraîchement coupé sur une assiette bleue.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o no ctino cu pagre le ctistu .i je ca'o je to'e ki'u nai ku le
-            nanmu poi ba jai gau morsi fai le verba cu sanli ne'a le xunre ke
-            ctile pambe be bu'u le ve'i tcadu poi pa moi
+            ni&#039;o no ctino cu pagre le ctistu .i je ca&#039;o je to&#039;e
+            ki&#039;u nai ku le nanmu poi ba jai gau morsi fai le verba cu sanli
+            ne&#039;a le xunre ke ctile pambe be bu&#039;u le ve&#039;i tcadu
+            poi pa moi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             There is no shadow over the kitchen, and yet the man who is to kill
@@ -513,18 +563,18 @@ meta.priority: 8452
             aldeia.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Il n'y a pas d'ombre dans la cuisine, et pourtant l'homme qui doit
-            tuer l'enfant se tient devant une pompe à essence rouge dans le
-            premier village.
+            Il n&#039;y a pas d&#039;ombre dans la cuisine, et pourtant
+            l&#039;homme qui doit tuer l&#039;enfant se tient devant une pompe à
+            essence rouge dans le premier village.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le nanmu cu saxfri gi'e catlu le ragve be le blaci pe le pa kacma
-            gi'e viska le cmalu ke blanu karce noi se lamji le citno ninmu poi
-            cmila
+            .i le nanmu cu saxfri gi&#039;e catlu le ragve be le blaci pe le pa
+            kacma gi&#039;e viska le cmalu ke blanu karce noi se lamji le citno
+            ninmu poi cmila
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             It is a happy man looking into a camera, and in the glass he sees a
@@ -533,9 +583,9 @@ meta.priority: 8452
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
-            He's a cheerful man, looking through the viewfinder of his camera,
-            framing a shot of a small blue car and a young woman who stands
-            beside it, laughing.
+            He&#039;s a cheerful man, looking through the viewfinder of his
+            camera, framing a shot of a small blue car and a young woman who
+            stands beside it, laughing.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Это счастливый человек, который смотрит в камеру, и в стекле он
@@ -555,24 +605,24 @@ meta.priority: 8452
             pequeno carro azul e ao lado do carro uma jovem rindo.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            C'est un homme joyeux regardant dans un appareil photo, et dans le
-            miroir, il voit une petite voiture bleue et à côté de la voiture une
-            jeune femme qui rit.
+            C&#039;est un homme joyeux regardant dans un appareil photo, et dans
+            le miroir, il voit une petite voiture bleue et à côté de la voiture
+            une jeune femme qui rit.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ze'a le nu le ninmu cu cmila .e le nu pixra fi le nanmu fa le
-            melbi kei le te vecnu be tu'a loi ctile cu carna jai gau tagji fai
-            le gacri be le ctilyvau gi'e cusku le se du'u pu'o lifri lo pluka se
-            detri
+            .i ze&#039;a le nu le ninmu cu cmila .e le nu pixra fi le nanmu fa
+            le melbi kei le te vecnu be tu&#039;a loi ctile cu carna jai gau
+            tagji fai le gacri be le ctilyvau gi&#039;e cusku le se du&#039;u
+            pu&#039;o lifri lo pluka se detri
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             While the woman laughs and the man takes the beautiful picture, the
-            gasoline salesman screws the cap on the tank and tells them it's a
-            nice day.
+            gasoline salesman screws the cap on the tank and tells them
+            it&#039;s a nice day.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
@@ -600,19 +650,20 @@ meta.priority: 8452
             rosqueia a tampa no tanque e diz que é um dia bonito.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Pendant que la femme rit et que l'homme prend la belle photo, le
-            vendeur de carburant visse le bouchon sur le réservoir et leur dit
-            qu'il fait beau.
+            Pendant que la femme rit et que l&#039;homme prend la belle photo,
+            le vendeur de carburant visse le bouchon sur le réservoir et leur
+            dit qu&#039;il fait beau.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le ninmu co'a zutse le nenri be le karce .i je le nanmu noi pu'o
-            jai gau morsi fai le pa verba cu cpacu le dakli be lo jdini le daski
-            gi'e cusku le se du'u le re mei cu klama le xamsi gi'e bu'u jbera le
-            bloti gi'e litru fi tu'a lo cpuga'a fa'a lo darno je je'a darno
+            .i le ninmu co&#039;a zutse le nenri be le karce .i je le nanmu noi
+            pu&#039;o jai gau morsi fai le pa verba cu cpacu le dakli be lo
+            jdini le daski gi&#039;e cusku le se du&#039;u le re mei cu klama le
+            xamsi gi&#039;e bu&#039;u jbera le bloti gi&#039;e litru fi
+            tu&#039;a lo cpuga&#039;a fa&#039;a lo darno je je&#039;a darno
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The woman gets into the car, and the man who is about to kill a
@@ -624,9 +675,9 @@ meta.priority: 8452
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
             The woman gets into the car, and the man who will kill the child
-            pulls out his wallet. He tells the attendant they're driving to the
-            sea. He says when they reach the sea they'll rent a boat and row
-            far, far out.
+            pulls out his wallet. He tells the attendant they&#039;re driving to
+            the sea. He says when they reach the sea they&#039;ll rent a boat
+            and row far, far out.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Женщина садится в машину, а мужчина, который вот-вот убьет ребенка,
@@ -649,20 +700,21 @@ meta.priority: 8452
             eles vão pegar emprestado um barco e remar para longe, muito longe.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            La femme monte dans la voiture, et l'homme qui s'apprête à tuer un
-            enfant sort son portefeuille de sa poche et dit qu'ils vont à la
-            mer, et là-bas, ils emprunteront un bateau et rameront loin, très
-            loin.
+            La femme monte dans la voiture, et l&#039;homme qui s&#039;apprête à
+            tuer un enfant sort son portefeuille de sa poche et dit qu&#039;ils
+            vont à la mer, et là-bas, ils emprunteront un bateau et rameront
+            loin, très loin.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le ninmu pe le crane stizu cu tirna lu'e le se cusku be le nanmu
-            be'o noi ca'a kalri fi ke'a fa le canko .i le kanla be le ninmu bei
-            gau ri co'a ganlo .i je ze'a le nu ganlo kei le ninmu cu senva viska
-            le xamsi .e le nu le nanmu cu lamji le nei bu'u le bloti
+            .i le ninmu pe le crane stizu cu tirna lu&#039;e le se cusku be le
+            nanmu be&#039;o noi ca&#039;a kalri fi ke&#039;a fa le canko .i le
+            kanla be le ninmu bei gau ri co&#039;a ganlo .i je ze&#039;a le nu
+            ganlo kei le ninmu cu senva viska le xamsi .e le nu le nanmu cu
+            lamji le nei bu&#039;u le bloti
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The woman in the front seat hears what he says through the lowered
@@ -697,19 +749,20 @@ meta.priority: 8452
             mar e o homem ao lado dela no barco.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            La femme assise à l'avant entend ce qu'il dit à travers les fenêtres
-            baissées, elle ferme les yeux, et quand elle les ferme, elle voit la
-            mer et l'homme à côté d'elle dans le bateau.
+            La femme assise à l&#039;avant entend ce qu&#039;il dit à travers
+            les fenêtres baissées, elle ferme les yeux, et quand elle les ferme,
+            elle voit la mer et l&#039;homme à côté d&#039;elle dans le bateau.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le nanmu na palci .i ri gleki gi'e saxfri .i je pu le nu zvati le
-            nenri be le karce kei ze'i sanli ca'u le gredile lekmi'i noi
-            gusminra lo solgu'i ku'o gi'e zanfri le nu minra .e le li'i le mixre
-            cu panci lo ctile joi lo tceremuxa
+            .i le nanmu na palci .i ri gleki gi&#039;e saxfri .i je pu le nu
+            zvati le nenri be le karce kei ze&#039;i sanli ca&#039;u le gredile
+            lekmi&#039;i noi gusminra lo solgu&#039;i ku&#039;o gi&#039;e zanfri
+            le nu minra .e le li&#039;i le mixre cu panci lo ctile joi lo
+            tceremuxa
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             It is not a bad man, he is happy and joyful, and before he gets into
@@ -720,10 +773,10 @@ meta.priority: 8452
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
-            He's not an evil man, he's carefree and cheerful. Before he climbs
-            into the car, he stands for a moment in front of the grille, which
-            gleams in the sun, and he enjoys the mixed aroma of gasoline and
-            lilacs.
+            He&#039;s not an evil man, he&#039;s carefree and cheerful. Before
+            he climbs into the car, he stands for a moment in front of the
+            grille, which gleams in the sun, and he enjoys the mixed aroma of
+            gasoline and lilacs.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Это неплохой человек, он счастлив и радостен, и прежде чем сесть в
@@ -746,10 +799,10 @@ meta.priority: 8452
             apreciando o brilho e o cheiro de gasolina e faia.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Ce n'est pas un mauvais homme, il est heureux et joyeux, et avant de
-            monter dans la voiture, il se tient un moment devant le radiateur
-            qui brille au soleil, appréciant l'éclat et l'odeur de l'essence et
-            du hêtre.
+            Ce n&#039;est pas un mauvais homme, il est heureux et joyeux, et
+            avant de monter dans la voiture, il se tient un moment devant le
+            radiateur qui brille au soleil, appréciant l&#039;éclat et
+            l&#039;odeur de l&#039;essence et du hêtre.
           </td>
         </tr>
         <tr
@@ -757,7 +810,7 @@ meta.priority: 8452
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i no ctino cu gacri le karce .i je no da punli le gusminra jaldiga
-            .i je na ku ri xunre ri'a tu'a lo ciblu
+            .i je na ku ri xunre ri&#039;a tu&#039;a lo ciblu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             There is no shadow over the car, and the shiny bumper is not dented,
@@ -786,19 +839,20 @@ meta.priority: 8452
             amassado, nem está vermelho de sangue.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Il n'y a pas d'ombre sur la voiture, et le pare-chocs brillant n'est
-            ni enfoncé, ni rouge de sang.
+            Il n&#039;y a pas d&#039;ombre sur la voiture, et le pare-chocs
+            brillant n&#039;est ni enfoncé, ni rouge de sang.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o ku'i le nanmu poi nenri le karce poi zvati le ve'i tcadu poi pa
-            moi cu jai gau ganlo fai le zu'a gacri vorme gi'e lacpu le cfari
-            tekla .i je ze'e le nu go'i kei le ninmu poi nenri le ctistu poi se
-            stuzi le ve'i tcadu poi cimoi cu jai gau kalri fai le kajnyta'e gi'e
-            facki le du'u ralte no sakta
+            ni&#039;o ku&#039;i le nanmu poi nenri le karce poi zvati le
+            ve&#039;i tcadu poi pa moi cu jai gau ganlo fai le zu&#039;a gacri
+            vorme gi&#039;e lacpu le cfari tekla .i je ze&#039;e le nu go&#039;i
+            kei le ninmu poi nenri le ctistu poi se stuzi le ve&#039;i tcadu poi
+            cimoi cu jai gau kalri fai le kajnyta&#039;e gi&#039;e facki le
+            du&#039;u ralte no sakta
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             But as the man in the car in the first village slams the door to his
@@ -834,21 +888,22 @@ meta.priority: 8452
             aldeia abre seu armário e não encontra açúcar.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Mais lorsque l'homme dans la voiture du premier village claque la
-            porte à sa gauche et tire sur le bouton de démarrage, la femme dans
-            la cuisine du troisième village ouvre son placard et ne trouve pas
-            de sucre.
+            Mais lorsque l&#039;homme dans la voiture du premier village claque
+            la porte à sa gauche et tire sur le bouton de démarrage, la femme
+            dans la cuisine du troisième village ouvre son placard et ne trouve
+            pas de sucre.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le verba noi jai gau mo'u ganlo fai le creka fi le batke gi'e
-            mo'u ganlo fai le cutci fi le skori cu sanli fi le cidni fe le sfofa
-            gi'e viska lo ve'a rirxe noi korcu gi'e jbini le za'u .alna ku'o .e
-            le xekri cpuga'ablo noi mo'u se carna be le jai se clani bu'u lei
-            srasu
+            .i le verba noi jai gau mo&#039;u ganlo fai le creka fi le batke
+            gi&#039;e mo&#039;u ganlo fai le cutci fi le skori cu sanli fi le
+            cidni fe le sfofa gi&#039;e viska lo ve&#039;a rirxe noi korcu
+            gi&#039;e jbini le za&#039;u .alna ku&#039;o .e le xekri
+            cpuga&#039;ablo noi mo&#039;u se carna be le jai se clani bu&#039;u
+            lei srasu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The child, who has buttoned his shirt and tied his shoes, kneels on
@@ -884,17 +939,17 @@ meta.priority: 8452
             barco preto virado de cabeça para baixo na grama.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            L'enfant, qui a boutonné sa chemise et attaché ses chaussures,
-            s'agenouille sur le canapé et voit la rivière serpentant à travers
-            les aulnes et la barque noire renversée dans l'herbe.
+            L&#039;enfant, qui a boutonné sa chemise et attaché ses chaussures,
+            s&#039;agenouille sur le canapé et voit la rivière serpentant à
+            travers les aulnes et la barque noire renversée dans l&#039;herbe.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le nanmu poi pu'o co'u se panzi cu mo'u xejykrevi'u gi'e ca gasnu
-            le polje be le minra
+            .i le nanmu poi pu&#039;o co&#039;u se panzi cu mo&#039;u
+            xejykrevi&#039;u gi&#039;e ca gasnu le polje be le minra
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The man who is about to lose his child has finished shaving and is
@@ -923,16 +978,16 @@ meta.priority: 8452
             está dobrando o espelho.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            L'homme qui est sur le point de perdre son enfant a fini de se raser
-            et plie le miroir.
+            L&#039;homme qui est sur le point de perdre son enfant a fini de se
+            raser et plie le miroir.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le jubme cu zbepi le za'u ckafi kabri .e lei nanba .e lei grasu
-            be le ladru .e le za'u sfani
+            .i le jubme cu zbepi le za&#039;u ckafi kabri .e lei nanba .e lei
+            grasu be le ladru .e le za&#039;u sfani
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             On the table are the coffee cups, the bread, the cream and the
@@ -965,19 +1020,19 @@ meta.priority: 8452
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ku'i claxu tu'a loi sakta e no drata .i je le mamta cu cusku
-            minde le verba lo ka bajra klama le me la .lacon. moi gi'e cpedu lo
-            ka jbera so'o bliku be loi sakta
+            .i ku&#039;i claxu tu&#039;a loi sakta e no drata .i je le mamta cu
+            cusku minde le verba lo ka bajra klama le me la .lacon. moi
+            gi&#039;e cpedu lo ka jbera so&#039;o bliku be loi sakta
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Only the sugar is missing, and the mother tells her child to run to
-            Larsson's and borrow some.
+            Larsson&#039;s and borrow some.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
             Only the sugar is missing. And so the mother tells her child to run
-            over to the Larssons' to borrow a little.
+            over to the Larssons&#039; to borrow a little.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Не хватает только сахара, и мать говорит ребенку, чтобы он сбегал к
@@ -989,25 +1044,26 @@ meta.priority: 8452
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             Solo falta el azúcar, y la madre le dice a su hijo que corra a
-            Larsson's y pida prestado un poco.
+            Larsson&#039;s y pida prestado un poco.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Só falta o açúcar, e a mãe diz para a criança correr até a loja do
             Larsson e pedir emprestado.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Seul le sucre manque, et la mère dit à son enfant d'aller chez
-            Larsson et d'en emprunter.
+            Seul le sucre manque, et la mère dit à son enfant d&#039;aller chez
+            Larsson et d&#039;en emprunter.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i je ze'a le nu le verba cu jai gau kalri fai le vorme kei le nanmu
-            cu cpedu lo ka sutra mu'i le nu le bloti cu denpa fi lo ka zvati lo
-            korbi be le rirxe kei kei .e le nu ca le cabdei cu litru fi tu'a lo
-            cpuga'a fa'a le zmadu be le pu traji be le ka ma kau ni darno
+            .i je ze&#039;a le nu le verba cu jai gau kalri fai le vorme kei le
+            nanmu cu cpedu lo ka sutra mu&#039;i le nu le bloti cu denpa fi lo
+            ka zvati lo korbi be le rirxe kei kei .e le nu ca le cabdei cu litru
+            fi tu&#039;a lo cpuga&#039;a fa&#039;a le zmadu be le pu traji be le
+            ka ma kau ni darno
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             And as the child opens the door, the man calls to him to hurry up,
@@ -1043,20 +1099,21 @@ meta.priority: 8452
             nunca remaram antes.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Et alors que l'enfant ouvre la porte, l'homme lui crie de se
-            dépêcher, car la barque l'attend sur la plage, et ils doivent ramer
-            aussi loin qu'ils ne l'ont jamais fait.
+            Et alors que l&#039;enfant ouvre la porte, l&#039;homme lui crie de
+            se dépêcher, car la barque l&#039;attend sur la plage, et ils
+            doivent ramer aussi loin qu&#039;ils ne l&#039;ont jamais fait.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ze'a le nu le verba cu bajra pa'o le purdi kei le nei ru'i pensi
-            le ve'a rirxe .e le finpe noi pencu le sefta be lei djacu .i je no
-            da smasku fi le verba fe le se du'u ri jmive co'u le mentu be li bi
-            vau do'a nai .a le se du'u ze'a le cabdei .e so'i drata djedi le
-            bloti cu stali lo ka zvati le ca se zvati
+            .i ze&#039;a le nu le verba cu bajra pa&#039;o le purdi kei le nei
+            ru&#039;i pensi le ve&#039;a rirxe .e le finpe noi pencu le sefta be
+            lei djacu .i je no da smasku fi le verba fe le se du&#039;u ri jmive
+            co&#039;u le mentu be li bi vau do&#039;a nai .a le se du&#039;u
+            ze&#039;a le cabdei .e so&#039;i drata djedi le bloti cu stali lo ka
+            zvati le ca se zvati
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Then, as the child runs through the garden, he thinks all the time
@@ -1098,10 +1155,11 @@ meta.priority: 8452
             dia todo e muitos outros dias.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Puis, alors que l'enfant court à travers le jardin, il pense tout le
-            temps à la rivière et aux poissons qui sautent, et personne ne lui
-            murmure qu'il ne lui reste que huit minutes à vivre, et que la
-            barque restera là où elle est, ce jour-là et bien d'autres jours.
+            Puis, alors que l&#039;enfant court à travers le jardin, il pense
+            tout le temps à la rivière et aux poissons qui sautent, et personne
+            ne lui murmure qu&#039;il ne lui reste que huit minutes à vivre, et
+            que la barque restera là où elle est, ce jour-là et bien
+            d&#039;autres jours.
           </td>
         </tr>
         <tr
@@ -1120,21 +1178,22 @@ meta.priority: 8452
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o na darno le me la .lacon. moi .i ragve le pa dargu ku po'o .i
-            je ze'a le nu le verba cu bajra le dargu kei le ve'i karce poi blanu
-            cu sutra muvdu fa'a le ve'i tcadu poi re moi
+            ni&#039;o na darno le me la .lacon. moi .i ragve le pa dargu ku
+            po&#039;o .i je ze&#039;a le nu le verba cu bajra le dargu kei le
+            ve&#039;i karce poi blanu cu sutra muvdu fa&#039;a le ve&#039;i
+            tcadu poi re moi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            It is not far to Larsson's, it is just across the road, and as the
-            child runs across the road, the little blue car drives into the
+            It is not far to Larsson&#039;s, it is just across the road, and as
+            the child runs across the road, the little blue car drives into the
             other village.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
-            It isn't far to the Larssons'. It's only across the road. And just
-            as the child is crossing that road, the small blue car is speeding
-            through the second village.
+            It isn&#039;t far to the Larssons&#039;. It&#039;s only across the
+            road. And just as the child is crossing that road, the small blue
+            car is speeding through the second village.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             До дома Ларссона недалеко, он всего лишь через дорогу, и когда
@@ -1147,9 +1206,9 @@ meta.priority: 8452
             den andra byn.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
-            No está lejos de Larsson's, está justo al otro lado de la carretera,
-            y mientras el niño cruza la carretera, el pequeño coche azul entra
-            en el otro pueblo.
+            No está lejos de Larsson&#039;s, está justo al otro lado de la
+            carretera, y mientras el niño cruza la carretera, el pequeño coche
+            azul entra en el otro pueblo.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Não é longe até a loja do Larsson, é apenas do outro lado da rua, e
@@ -1157,23 +1216,24 @@ meta.priority: 8452
             outra vila.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Ce n'est pas loin chez Larsson, c'est juste de l'autre côté de la
-            route, et alors que l'enfant traverse la route, la petite voiture
-            bleue entre dans l'autre village.
+            Ce n&#039;est pas loin chez Larsson, c&#039;est juste de
+            l&#039;autre côté de la route, et alors que l&#039;enfant traverse
+            la route, la petite voiture bleue entre dans l&#039;autre village.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i cmalu ke'u sa'e tcadu gi'e stuzi lo za'u ve'i xunre zdani ku joi
-            lo za'u prenu noi ke'a zi co'a cikna gi'e ke'a zutse bu'u lo ctistu
-            fau lo nu lafti lo kabri be loi ckafi gi'e ke'a zgana lo nu sutra
-            litru fi tu'a lo karce ze'o le spati bitmu ja'e tu'a lo barda dilnu
-            be loi pulce
+            .i cmalu ke&#039;u sa&#039;e tcadu gi&#039;e stuzi lo za&#039;u
+            ve&#039;i xunre zdani ku joi lo za&#039;u prenu noi ke&#039;a zi
+            co&#039;a cikna gi&#039;e ke&#039;a zutse bu&#039;u lo ctistu fau lo
+            nu lafti lo kabri be loi ckafi gi&#039;e ke&#039;a zgana lo nu sutra
+            litru fi tu&#039;a lo karce ze&#039;o le spati bitmu ja&#039;e
+            tu&#039;a lo barda dilnu be loi pulce
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            It's a small village with little red houses and newly awakened
+            It&#039;s a small village with little red houses and newly awakened
             people sitting in their kitchens with their coffee cups raised,
             watching the car rush past on the other side of the hedge with a
             high cloud of dust behind it.
@@ -1181,7 +1241,7 @@ meta.priority: 8452
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
-            It's a tiny village, with humble red houses and newly awakened
+            It&#039;s a tiny village, with humble red houses and newly awakened
             people who sit in their kitchens with raised coffee cups. They look
             out over their hedges and see the car rush past, a large cloud of
             dust rising behind it.
@@ -1209,19 +1269,20 @@ meta.priority: 8452
             nuvem alta de poeira atrás dele.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            C'est un petit village avec de petites maisons rouges et des
+            C&#039;est un petit village avec de petites maisons rouges et des
             habitants fraîchement réveillés assis dans leur cuisine, tasses de
-            café levées, regardant la voiture filer de l'autre côté de la haie,
-            laissant derrière elle un nuage de poussière.
+            café levées, regardant la voiture filer de l&#039;autre côté de la
+            haie, laissant derrière elle un nuage de poussière.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ca mutce lo ka sutra .i je le nanmu be ne'i le karce cu viska le
-            nu lo tricrpopulu ku joi lo dicnoibejga'a noi zi tarlypi'u fi ke'a
-            vu'o ne tai loi za'u grusi ctino cu jibni le'e se pagre
+            .i ca mutce lo ka sutra .i je le nanmu be ne&#039;i le karce cu
+            viska le nu lo tricrpopulu ku joi lo dicnoibejga&#039;a noi zi
+            tarlypi&#039;u fi ke&#039;a vu&#039;o ne tai loi za&#039;u grusi
+            ctino cu jibni le&#039;e se pagre
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             It goes very fast, and the man in the car sees the poplars and the
@@ -1251,9 +1312,9 @@ meta.priority: 8452
             telégrafo recém-asfaltados passando como sombras cinzentas.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Ça va très vite, et l'homme dans la voiture voit les peupliers et
-            les poteaux télégraphiques fraîchement goudronnés défiler comme des
-            ombres grises.
+            Ça va très vite, et l&#039;homme dans la voiture voit les peupliers
+            et les poteaux télégraphiques fraîchement goudronnés défiler comme
+            des ombres grises.
           </td>
         </tr>
         <tr
@@ -1272,9 +1333,9 @@ meta.priority: 8452
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i crisa brife pa'o le crane canko .i je le re mei cu jai gau sutra
-            to'o le ve'i tcadu gi'e cnici je snura midju le dargu gi'e ca kansa
-            no da bu'u le dargu pu ku ku'i
+            .i crisa brife pa&#039;o le crane canko .i je le re mei cu jai gau
+            sutra to&#039;o le ve&#039;i tcadu gi&#039;e cnici je snura midju le
+            dargu gi&#039;e ca kansa no da bu&#039;u le dargu pu ku ku&#039;i
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             There is a summer breeze through the windshield, they rush out of
@@ -1309,26 +1370,27 @@ meta.priority: 8452
           <td class="text-left align-text-top p-2 column-class-fraso">
             Il y a une brise estivale à travers le pare-brise, ils sortent du
             village, ils sont bien et en sécurité au milieu de la route, et ils
-            sont seuls sur la route - pour l'instant.
+            sont seuls sur la route - pour l&#039;instant.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i kufra lo ka kalam co kansa be no drata vi'i le ganra je xutla
-            dargu .i je lo'e nu litru le se pinta tumla cu zmadu fi lo ka zabna
+            .i kufra lo ka kalam co kansa be no drata vi&#039;i le ganra je
+            xutla dargu .i je lo&#039;e nu litru le se pinta tumla cu zmadu fi
+            lo ka zabna
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            It's nice to travel all alone on a soft, wide road, and out on the
-            plain it's nicer.
+            It&#039;s nice to travel all alone on a soft, wide road, and out on
+            the plain it&#039;s nicer.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
-            It's a peaceful thing, to drive completely alone on a broad road.
-            And as they move out onto the open plain, that feeling of peace
-            settles deeper.
+            It&#039;s a peaceful thing, to drive completely alone on a broad
+            road. And as they move out onto the open plain, that feeling of
+            peace settles deeper.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Приятно ехать в одиночестве по мягкой, широкой дороге, а на равнине
@@ -1347,26 +1409,26 @@ meta.priority: 8452
             planície é ainda melhor.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            C'est agréable de voyager tout seul sur une route douce et large, et
-            sur la plaine c'est encore mieux.
+            C&#039;est agréable de voyager tout seul sur une route douce et
+            large, et sur la plaine c&#039;est encore mieux.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le nanmu cu saxfri gi'e tsali gi'e pencu le ninmu pe le nei le
-            ri'u cidni be le birka le xadni
+            .i le nanmu cu saxfri gi&#039;e tsali gi&#039;e pencu le ninmu pe le
+            nei le ri&#039;u cidni be le birka le xadni
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The man is happy and strong, and with his right elbow he feels his
-            woman's body.
+            woman&#039;s body.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
             The man is strong and contented, and with his right elbow he can
-            feel the woman's body.
+            feel the woman&#039;s body.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Мужчина счастлив и силен, и правым локтем он чувствует тело своей
@@ -1385,8 +1447,8 @@ meta.priority: 8452
             corpo de sua mulher.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            L'homme est heureux et fort, et avec son coude droit, il sent le
-            corps de sa femme.
+            L&#039;homme est heureux et fort, et avec son coude droit, il sent
+            le corps de sa femme.
           </td>
         </tr>
         <tr
@@ -1401,7 +1463,7 @@ meta.priority: 8452
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
-            He's not a bad man.
+            He&#039;s not a bad man.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Это не плохой человек.
@@ -1416,14 +1478,14 @@ meta.priority: 8452
             Este não é um homem ruim.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Ce n'est pas un mauvais homme.
+            Ce n&#039;est pas un mauvais homme.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ri se .urja lo ka mo'u klama le xamsi
+            .i ri se .urja lo ka mo&#039;u klama le xamsi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             He is in a hurry to get to the sea.
@@ -1431,7 +1493,7 @@ meta.priority: 8452
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
-            He's in a hurry to get to the sea.
+            He&#039;s in a hurry to get to the sea.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Он торопится добраться до моря.
@@ -1446,15 +1508,16 @@ meta.priority: 8452
             Ele está com pressa para chegar ao mar.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Il est pressé d'arriver à la mer.
+            Il est pressé d&#039;arriver à la mer.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le nanmu na kakne lo ka jai gau cortu fai lo'e pe'a bifce ku ji'a
-            .i ku'i to'e ki'u nai pu'o jai gau morsi fai le verba
+            .i le nanmu na kakne lo ka jai gau cortu fai lo&#039;e pe&#039;a
+            bifce ku ji&#039;a .i ku&#039;i to&#039;e ki&#039;u nai pu&#039;o
+            jai gau morsi fai le verba
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             He could not hurt a wasp, yet he is about to kill a child.
@@ -1462,8 +1525,8 @@ meta.priority: 8452
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
-            He wouldn't hurt even the simplest creature, and yet, still, he will
-            soon kill a child.
+            He wouldn&#039;t hurt even the simplest creature, and yet, still, he
+            will soon kill a child.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Он не может обидеть осу, но вот-вот убьёт ребенка.
@@ -1489,25 +1552,26 @@ meta.priority: 8452
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ze'a le nu sutra klama fa'a le ve'i tcadu poi ci moi kei le ninmu
-            cu za'u re'u jai gau ganlo fai le kanla gi'e kelci se xanri le nu na
-            jai gau kalri pu le nu ka'e viska le xamsi .i je fau le rilti nu le
-            karce cu xutla desku cu senva le tarmi be le sefta be le xamsi poi
-            pinta gusminra
+            .i ze&#039;a le nu sutra klama fa&#039;a le ve&#039;i tcadu poi ci
+            moi kei le ninmu cu za&#039;u re&#039;u jai gau ganlo fai le kanla
+            gi&#039;e kelci se xanri le nu na jai gau kalri pu le nu ka&#039;e
+            viska le xamsi .i je fau le rilti nu le karce cu xutla desku cu
+            senva le tarmi be le sefta be le xamsi poi pinta gusminra
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             As they rush towards the third village, the woman closes her eyes
             again and pretends that she will not open them until they can see
-            the sea, and she dreams to the rhythm of the car's gentle sway of
-            how shiny it will be.
+            the sea, and she dreams to the rhythm of the car&#039;s gentle sway
+            of how shiny it will be.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
             As they rush on toward the third village, the woman again shuts her
             eyes, pretending those eyes will not open again until they can look
-            on the sea. In time with the car's gentle swaying, she dreams about
-            the calm, lapping tide, the peaceful, mirrored surface of the sea.
+            on the sea. In time with the car&#039;s gentle swaying, she dreams
+            about the calm, lapping tide, the peaceful, mirrored surface of the
+            sea.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Когда они мчатся к третьей деревне, женщина снова закрывает глаза и
@@ -1532,40 +1596,44 @@ meta.priority: 8452
             e ela sonha ao ritmo do suave balanço do carro como será brilhante.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Alors qu'ils se dirigent vers le troisième village, la femme ferme à
-            nouveau les yeux et fait semblant de ne pas les rouvrir avant de
-            voir la mer, et elle rêve au rythme doux du balancement de la
-            voiture de la brillance à venir.
+            Alors qu&#039;ils se dirigent vers le troisième village, la femme
+            ferme à nouveau les yeux et fait semblant de ne pas les rouvrir
+            avant de voir la mer, et elle rêve au rythme doux du balancement de
+            la voiture de la brillance à venir.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o se ki'u ku ju'o lo'e nu jmive cu tai tolke'i se finti .i pu le
-            mentu poi le nanmu cu jai gau morsi fai le verba ca ke'a ku'o le
-            nanmu cu to'e ki'u nai saxfri .i je pu le mentu poi le ninmu cu to'e
-            pacna krixa ca ke'a ku'o le ninmu cu kakne lo ka ze'a le nu le kanla
-            cu ganlo cu pacna tu'a le xamsi .i je pu le ro moi be le'i mentu poi
-            le verba cu jmive ca ke'a ku'o le rirni be le verba cu kakne lo ka
-            zutse bu'u le ctistu gi'e denpa tu'a lo sakta gi'e casnu le blabi
-            denci be le panzi be vo'a fe le nu litru fi tu'a lo bloti .i je le
-            verba cu kakne lo ka jai gau ganlo fai le pa vorme gi'e co'a klama
-            le ragve be le dargu gi'e bevri jgari loi so'o bliku be loi sakta
-            be'o ku noi se gacri lo blabi pelji ku'o le ri'u xance gi'e viska
-            ze'a le bi'u nai ro moi mentu no drata be le ve'i gusminra rirxe pe
-            lo barda finpe ge'u .e le ganra bloti pe le smaji cpuga'a
+            ni&#039;o se ki&#039;u ku ju&#039;o lo&#039;e nu jmive cu tai
+            tolke&#039;i se finti .i pu le mentu poi le nanmu cu jai gau morsi
+            fai le verba ca ke&#039;a ku&#039;o le nanmu cu to&#039;e ki&#039;u
+            nai saxfri .i je pu le mentu poi le ninmu cu to&#039;e pacna krixa
+            ca ke&#039;a ku&#039;o le ninmu cu kakne lo ka ze&#039;a le nu le
+            kanla cu ganlo cu pacna tu&#039;a le xamsi .i je pu le ro moi be
+            le&#039;i mentu poi le verba cu jmive ca ke&#039;a ku&#039;o le
+            rirni be le verba cu kakne lo ka zutse bu&#039;u le ctistu gi&#039;e
+            denpa tu&#039;a lo sakta gi&#039;e casnu le blabi denci be le panzi
+            be vo&#039;a fe le nu litru fi tu&#039;a lo bloti .i je le verba cu
+            kakne lo ka jai gau ganlo fai le pa vorme gi&#039;e co&#039;a klama
+            le ragve be le dargu gi&#039;e bevri jgari loi so&#039;o bliku be
+            loi sakta be&#039;o ku noi se gacri lo blabi pelji ku&#039;o le
+            ri&#039;u xance gi&#039;e viska ze&#039;a le bi&#039;u nai ro moi
+            mentu no drata be le ve&#039;i gusminra rirxe pe lo barda finpe
+            ge&#039;u .e le ganra bloti pe le smaji cpuga&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             For so ruthlessly is life constructed that a minute before a happy
             man kills a child, he is still happy, and a minute before a woman
             screams in horror, she can close her eyes and dream of the sea, and
-            the last minute of a child's life, that child's parents can sit in a
-            kitchen waiting for sugar and talk about their child's white teeth
-            and a rowing trip, and the child himself can close a gate and start
-            walking across a road with some sugar cubes wrapped in white paper
-            in his right hand, and all that last minute see nothing but a long
-            shiny river with big fish and a wide-bottomed boat with silent oars.
+            the last minute of a child&#039;s life, that child&#039;s parents
+            can sit in a kitchen waiting for sugar and talk about their
+            child&#039;s white teeth and a rowing trip, and the child himself
+            can close a gate and start walking across a road with some sugar
+            cubes wrapped in white paper in his right hand, and all that last
+            minute see nothing but a long shiny river with big fish and a
+            wide-bottomed boat with silent oars.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
@@ -1574,13 +1642,13 @@ meta.priority: 8452
             minute before a cheerful man kills a child he can still feel
             entirely at ease, and only one minute before a woman screams out in
             horror she can close her eyes and dream of the sea, and during the
-            last minute of that child's life his parents can sit in a kitchen
-            waiting for sugar, talking casually about the child's white teeth
-            and the rowing trip they have planned, and that child himself can
-            close a gate and begin to cross a road, holding in his right hand a
-            few cubes of sugar wrapped up in white paper, and for the whole of
-            that minute he can see nothing but a clear stream with big fish and
-            a wide-bottomed boat with silent oars.
+            last minute of that child&#039;s life his parents can sit in a
+            kitchen waiting for sugar, talking casually about the child&#039;s
+            white teeth and the rowing trip they have planned, and that child
+            himself can close a gate and begin to cross a road, holding in his
+            right hand a few cubes of sugar wrapped up in white paper, and for
+            the whole of that minute he can see nothing but a clear stream with
+            big fish and a wide-bottomed boat with silent oars.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Ибо так безжалостно устроена жизнь, что за минуту до того, как
@@ -1632,16 +1700,17 @@ meta.priority: 8452
             silenciosos.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Car la vie est si impitoyablement construite qu'une minute avant
-            qu'un homme heureux ne tue un enfant, il est encore heureux, et une
-            minute avant qu'une femme ne crie d'horreur, elle peut fermer les
-            yeux et rêver de la mer, et la dernière minute de la vie d'un
-            enfant, les parents de cet enfant peuvent être assis dans une
-            cuisine en attendant du sucre et parler des dents blanches de leur
-            enfant et d'une sortie en barque, et l'enfant lui-même peut refermer
-            une porte et commencer à traverser une route avec des morceaux de
-            sucre enveloppés dans du papier blanc dans sa main droite, et
-            pendant toute cette dernière minute ne voir rien d'autre qu'une
+            Car la vie est si impitoyablement construite qu&#039;une minute
+            avant qu&#039;un homme heureux ne tue un enfant, il est encore
+            heureux, et une minute avant qu&#039;une femme ne crie
+            d&#039;horreur, elle peut fermer les yeux et rêver de la mer, et la
+            dernière minute de la vie d&#039;un enfant, les parents de cet
+            enfant peuvent être assis dans une cuisine en attendant du sucre et
+            parler des dents blanches de leur enfant et d&#039;une sortie en
+            barque, et l&#039;enfant lui-même peut refermer une porte et
+            commencer à traverser une route avec des morceaux de sucre
+            enveloppés dans du papier blanc dans sa main droite, et pendant
+            toute cette dernière minute ne voir rien d&#039;autre qu&#039;une
             longue rivière brillante avec de gros poissons et une barque à fond
             large avec des rames silencieuses.
           </td>
@@ -1650,7 +1719,7 @@ meta.priority: 8452
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o ba ku dukse lo ka lerci
+            ni&#039;o ba ku dukse lo ka lerci
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Afterwards everything is too late.
@@ -1692,8 +1761,8 @@ meta.priority: 8452
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
             Afterward, there is a blue car stopped sideways in the road, and a
-            screaming woman takes her hand from her mouth, and it's dark with
-            blood.
+            screaming woman takes her hand from her mouth, and it&#039;s dark
+            with blood.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             После этого голубая машина пересекает дорогу под углом, и кричащая
@@ -1721,8 +1790,9 @@ meta.priority: 8452
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i ba ku le pa nanmu cu jai gau kalri fai le gacri vorme be fo le
-            karce gi'e troci lo ka sanli fi le tuple kei to'e ki'u nai le nu le
-            nei cu cinmo lo ka pe'a se kevna lo nu to'e pacna
+            karce gi&#039;e troci lo ka sanli fi le tuple kei to&#039;e
+            ki&#039;u nai le nu le nei cu cinmo lo ka pe&#039;a se kevna lo nu
+            to&#039;e pacna
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Afterwards, a man opens a car door and tries to stand on his legs,
@@ -1752,17 +1822,18 @@ meta.priority: 8452
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Ensuite, un homme ouvre une portière de voiture et essaie de se
-            tenir debout sur ses jambes, même s'il a un abîme d'horreur en lui.
+            tenir debout sur ses jambes, même s&#039;il a un abîme
+            d&#039;horreur en lui.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ba ku le so'o blabi bliku be loi sakta cu jai te prali be no da
-            je cunso cpana lo ciblu ku joi lo ve'i rokci .i je le pa verba cu
-            na'e muvdu vreta le loldi ne re'o le betfu .i je tsali prina le
-            flira le dargu
+            .i ba ku le so&#039;o blabi bliku be loi sakta cu jai te prali be no
+            da je cunso cpana lo ciblu ku joi lo ve&#039;i rokci .i je le pa
+            verba cu na&#039;e muvdu vreta le loldi ne re&#039;o le betfu .i je
+            tsali prina le flira le dargu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Afterwards, some white sugar cubes lie uselessly strewn in blood and
@@ -1806,9 +1877,9 @@ meta.priority: 8452
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ba ku le re pilda prenu noi nu'o pinxe lo ckafi cu to'o bajra
-            klama fo lu'i le vorme gi'e viska le pa jvinu be le dargu be'o poi
-            le nei ba no roi co'u morji fi ke'a
+            .i ba ku le re pilda prenu noi nu&#039;o pinxe lo ckafi cu to&#039;o
+            bajra klama fo lu&#039;i le vorme gi&#039;e viska le pa jvinu be le
+            dargu be&#039;o poi le nei ba no roi co&#039;u morji fi ke&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Afterwards, two pale people who have not yet had their coffee come
@@ -1843,17 +1914,17 @@ meta.priority: 8452
             esquecerão.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Ensuite, deux personnes pâles qui n'ont pas encore pris leur café
-            sortent en courant d'une porte et voient une scène sur la route
-            qu'ils n'oublieront jamais.
+            Ensuite, deux personnes pâles qui n&#039;ont pas encore pris leur
+            café sortent en courant d&#039;une porte et voient une scène sur la
+            route qu&#039;ils n&#039;oublieront jamais.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i se ki'u ku ju'o na jetnu fa le du'u ka'u lo ka pu zi se xrani cu
-            ka ba za co'a kanro
+            .i se ki&#039;u ku ju&#039;o na jetnu fa le du&#039;u ka&#039;u lo
+            ka pu zi se xrani cu ka ba za co&#039;a kanro
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             For it is not true that time heals all wounds.
@@ -1861,7 +1932,7 @@ meta.priority: 8452
           <td
             class="text-left align-text-top p-2 column-class-English_by_Stig_Dagerman"
           >
-            Because it's not true that time heals all wounds.
+            Because it&#039;s not true that time heals all wounds.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Ибо неправда, что время лечит все раны.
@@ -1876,19 +1947,20 @@ meta.priority: 8452
             Pois não é verdade que o tempo cura todas as feridas.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Car il n'est pas vrai que le temps guérit toutes les blessures.
+            Car il n&#039;est pas vrai que le temps guérit toutes les blessures.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i na ku za co'a kanro fa lo verba poi gau morsi .i je masno zenba
-            lo ka kanro kei fa lo'e mamta poi ke'a se snuti lo nu ke'a na te
-            vecnu tu'a loi sakta kei gi'e minde lo panzi be ke'a lo ka klama lo
-            ragve be lo dargu te zu'e lo nu jbera .i je si'a fi le'e xlali cu
-            jdika lo ka dunku kei fa lo'e nanmu poi ba'o saxfri gi'e jai gau
-            morsi fai lo verba
+            .i na ku za co&#039;a kanro fa lo verba poi gau morsi .i je masno
+            zenba lo ka kanro kei fa lo&#039;e mamta poi ke&#039;a se snuti lo
+            nu ke&#039;a na te vecnu tu&#039;a loi sakta kei gi&#039;e minde lo
+            panzi be ke&#039;a lo ka klama lo ragve be lo dargu te zu&#039;e lo
+            nu jbera .i je si&#039;a fi le&#039;e xlali cu jdika lo ka dunku kei
+            fa lo&#039;e nanmu poi ba&#039;o saxfri gi&#039;e jai gau morsi fai
+            lo verba
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Time does not heal the wounds of a killed child, and it heals very
@@ -1929,19 +2001,20 @@ meta.priority: 8452
             homem antes feliz que matou uma criança.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Le temps ne guérit pas les blessures d'un enfant tué, et il guérit
-            très mal la douleur d'une mère qui a oublié d'acheter du sucre et a
-            envoyé son enfant de l'autre côté de la route pour en emprunter, et
-            tout aussi mal il guérit l'angoisse d'un homme autrefois heureux qui
-            a tué un enfant.
+            Le temps ne guérit pas les blessures d&#039;un enfant tué, et il
+            guérit très mal la douleur d&#039;une mère qui a oublié
+            d&#039;acheter du sucre et a envoyé son enfant de l&#039;autre côté
+            de la route pour en emprunter, et tout aussi mal il guérit
+            l&#039;angoisse d&#039;un homme autrefois heureux qui a tué un
+            enfant.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i se ki'u ku le ba'o jai gau morsi be fai le verba na ku klama le
-            xamsi
+            .i se ki&#039;u ku le ba&#039;o jai gau morsi be fai le verba na ku
+            klama le xamsi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             For he who has killed a child does not go to the sea.
@@ -1971,10 +2044,11 @@ meta.priority: 8452
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le ba'o jai gau morsi be fai le verba cu masno klama le zdani
-            ze'a le nu smaji .i je le go'i cu se lamji le ninmu noi ca bacru no
-            da zi'e ne lo xance poi se gacri lo badytci boxfo .i je bu'u ro ve'i
-            tcadu poi ca pagre ke'a cu viska no gleki prenu
+            .i le ba&#039;o jai gau morsi be fai le verba cu masno klama le
+            zdani ze&#039;a le nu smaji .i je le go&#039;i cu se lamji le ninmu
+            noi ca bacru no da zi&#039;e ne lo xance poi se gacri lo badytci
+            boxfo .i je bu&#039;u ro ve&#039;i tcadu poi ca pagre ke&#039;a cu
+            viska no gleki prenu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             He who has killed a child goes slowly home in silence, and beside
@@ -2011,19 +2085,20 @@ meta.priority: 8452
           <td class="text-left align-text-top p-2 column-class-fraso">
             Celui qui a tué un enfant rentre lentement chez lui en silence, et à
             ses côtés il a une femme muette avec une main bandée, et dans tous
-            les villages qu'ils traversent, ils ne voient pas une seule personne
-            heureuse.
+            les villages qu&#039;ils traversent, ils ne voient pas une seule
+            personne heureuse.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le ro ctino ca mutce lo ka manku .i je ca le nu co'u penmi cu
-            za'o smaji .i le nanmu poi ba'o jai gau morsi fai le verba cu djuno
-            le du'u le smaji cu bradi le nei kei .e le du'u le nei cu nitcu lo
-            nu ri renvi fi lo nanca be li so'i kei lo nu le smaji co'u fapro lo
-            nu le nei cu krixa cusku lo se du'u le nei na fuzme
+            .i le ro ctino ca mutce lo ka manku .i je ca le nu co&#039;u penmi
+            cu za&#039;o smaji .i le nanmu poi ba&#039;o jai gau morsi fai le
+            verba cu djuno le du&#039;u le smaji cu bradi le nei kei .e le
+            du&#039;u le nei cu nitcu lo nu ri renvi fi lo nanca be li so&#039;i
+            kei lo nu le smaji co&#039;u fapro lo nu le nei cu krixa cusku lo se
+            du&#039;u le nei na fuzme
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             All shadows are very dark, and when they part, it is still in
@@ -2037,7 +2112,7 @@ meta.priority: 8452
             — all shadows, everywhere, are very dark. And when they part, it is
             in the deepest silence. And the man who has killed a child knows
             that this silence is his enemy, and that he will need years of his
-            life to conquer it by crying out that it wasn't his fault.
+            life to conquer it by crying out that it wasn&#039;t his fault.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Все тени очень темны, и когда они расходятся, то всё еще в тишине, и
@@ -2065,19 +2140,21 @@ meta.priority: 8452
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Toutes les ombres sont très sombres, et quand elles se séparent,
-            c'est toujours dans le silence, et l'homme qui a tué l'enfant sait
-            que ce silence est son ennemi, et qu'il lui faudra des années de sa
-            vie pour le vaincre en criant que ce n'était pas de sa faute.
+            c&#039;est toujours dans le silence, et l&#039;homme qui a tué
+            l&#039;enfant sait que ce silence est son ennemi, et qu&#039;il lui
+            faudra des années de sa vie pour le vaincre en criant que ce
+            n&#039;était pas de sa faute.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ku'i le nanmu cu djuno le du'u jitfa .i je ze'a le'e nicte nu
-            pacna kei le go'i se ba'i pacna lo nu le go'i le pa po'o mentu poi
-            le go'i cu renvi fi ke'a cu krefu lifri te zu'e lo nu le go'i cu
-            gasnu lo galfi be mentu bu bei su'o frica be ri
+            .i ku&#039;i le nanmu cu djuno le du&#039;u jitfa .i je ze&#039;a
+            le&#039;e nicte nu pacna kei le go&#039;i se ba&#039;i pacna lo nu
+            le go&#039;i le pa po&#039;o mentu poi le go&#039;i cu renvi fi
+            ke&#039;a cu krefu lifri te zu&#039;e lo nu le go&#039;i cu gasnu lo
+            galfi be mentu bu bei su&#039;o frica be ri
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             But he knows it is a lie, and in his nightly dreams he will instead
@@ -2112,9 +2189,9 @@ meta.priority: 8452
             fazer aquele minuto diferente.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Mais il sait que c'est un mensonge, et dans ses rêves nocturnes, il
-            souhaitera plutôt avoir une seule minute de sa vie en arrière pour
-            rendre cette minute différente.
+            Mais il sait que c&#039;est un mensonge, et dans ses rêves
+            nocturnes, il souhaitera plutôt avoir une seule minute de sa vie en
+            arrière pour rendre cette minute différente.
           </td>
         </tr>
         <tr
@@ -2133,8 +2210,9 @@ meta.priority: 8452
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o ku'i ka tai na'o lifri lo xlali kei fa lo ka ba'o jai gau morsi
-            fai lo verba .i se ki'u bo ro balvi cu dukse lo ka lerci
+            ni&#039;o ku&#039;i ka tai na&#039;o lifri lo xlali kei fa lo ka
+            ba&#039;o jai gau morsi fai lo verba .i se ki&#039;u bo ro balvi cu
+            dukse lo ka lerci
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             But life is so merciless to those who have killed a child that

@@ -63,7 +63,7 @@ meta.priority: 983
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="font-bold text-left align-text-top p-2 column-class-lojbo">
-            ni'o ni'o ni'o bau le lojbo
+            ni&#039;o ni&#039;o ni&#039;o bau le lojbo
           </td>
           <td class="font-bold text-left align-text-top p-2 column-class-glico">
             English version
@@ -78,46 +78,72 @@ meta.priority: 983
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o cfika lo xajmi
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
+            ni&#039;o cfika lo xajmi
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">Jokes</td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
+            Jokes
+          </td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Анекдоты
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Blagues
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i finti fa so'i da
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
+            .i finti fa so&#039;i da
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             by many authors
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Создана многими авторами
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Créées par de nombreux auteurs
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             .i la gleki cu fanva fi le lojbo
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             English adaptation
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Русский перевод
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Adaptation anglaise
           </td>
         </tr>
@@ -126,23 +152,25 @@ meta.priority: 983
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             La Cerlok Xolms e la Mic Uotson cu se ginka. I ri e ra zbasu le
-            bukydi'u ni'a lei tarci gi'e co'a sipna. I ca le nicte la Xolms cu
-            jai gau cikna fai la Uotson gi'e retsku: "lu Uotson ko catlu lei
-            tarci gi'e skicu fi mi fe le se nusna be fi ri li'u". I la Uotson cu
-            cusku: "lu mi zgana le gei so'i tarci. I ba'a ku'i le so'u ri solri
-            lo plini poi simsa la Ted. I ja'o le so'o me le go'i ka'e terdi lo
-            jmive li'u". I la Xolms cu spusku: "lu Uotson do bebna. I su'o da
-            mo'u zerle'a le bukydi'u mi'a li'u"
+            bukydi&#039;u ni&#039;a lei tarci gi&#039;e co&#039;a sipna. I ca le
+            nicte la Xolms cu jai gau cikna fai la Uotson gi&#039;e retsku:
+            &quot;lu Uotson ko catlu lei tarci gi&#039;e skicu fi mi fe le se
+            nusna be fi ri li&#039;u&quot;. I la Uotson cu cusku: &quot;lu mi
+            zgana le gei so&#039;i tarci. I ba&#039;a ku&#039;i le so&#039;u ri
+            solri lo plini poi simsa la Ted. I ja&#039;o le so&#039;o me le
+            go&#039;i ka&#039;e terdi lo jmive li&#039;u&quot;. I la Xolms cu
+            spusku: &quot;lu Uotson do bebna. I su&#039;o da mo&#039;u
+            zerle&#039;a le bukydi&#039;u mi&#039;a li&#039;u&quot;
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Sherlock Holmes and Dr Watson are going camping. They pitch their
             tent under the stars and go to sleep. In the middle of the night
-            Holmes wakes Watson up: "Watson, look up at the stars, and tell me
-            what you deduce." Watson: "I see millions of stars and even if a few
-            of those have planets, it's quite likely there are some planets like
-            Earth, and if there are a few planets like Earth out there, there
-            might also be life." Holmes: "Watson, you idiot, somebody's stolen
-            our tent!"
+            Holmes wakes Watson up: &quot;Watson, look up at the stars, and tell
+            me what you deduce.&quot; Watson: &quot;I see millions of stars and
+            even if a few of those have planets, it&#039;s quite likely there
+            are some planets like Earth, and if there are a few planets like
+            Earth out there, there might also be life.&quot; Holmes:
+            &quot;Watson, you idiot, somebody&#039;s stolen our tent!&quot;
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Шерлок Холмс и доктор Уотсон отправляются в поход. Они ставят
@@ -156,27 +184,29 @@ meta.priority: 983
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Sherlock Holmes et le Dr Watson partent camper. Ils plantent leur
-            tente à la belle étoile et s'endorment. Au milieu de la nuit, Holmes
-            réveille Watson : "Watson, regardez les étoiles et dites-moi ce que
-            vous en déduisez. Watson : Je vois des millions d'étoiles et même si
-            quelques-unes d'entre elles ont des planètes, il est fort probable
-            qu'il y ait des planètes comme la Terre, et s'il y a quelques
-            planètes comme la Terre, il pourrait aussi y avoir de la vie."""
-            Holmes : Watson, idiot, quelqu'un a volé notre tente !
+            tente à la belle étoile et s&#039;endorment. Au milieu de la nuit,
+            Holmes réveille Watson : &quot;Watson, regardez les étoiles et
+            dites-moi ce que vous en déduisez. Watson : Je vois des millions
+            d&#039;étoiles et même si quelques-unes d&#039;entre elles ont des
+            planètes, il est fort probable qu&#039;il y ait des planètes comme
+            la Terre, et s&#039;il y a quelques planètes comme la Terre, il
+            pourrait aussi y avoir de la vie.&quot;&quot;&quot; Holmes : Watson,
+            idiot, quelqu&#039;un a volé notre tente !
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            da'i le te renvi be su'o xlali bei do ba zmadu fi lo ka se ditcu
-            makau kei fe le te renvi be su'o zabna bei do .i la'e di'u fatci .i
-            do ba morsi fa ji'a ro prenu poi se slabu do .i se ki'u bo lo ka
-            zukte lo ka lifri su'o cnino vau lo nu do se pluka cu bi'ai ka cmima
-            lo te jinga .i va'o ku lo ka jinga cu ka co'u cilre fi la .lojban.
-            gi'e rivbi tu'a ri .i ko troci lo ka zukte fi lo vajni fe mu'a lo ka
-            sidji lo prenu poi se zdani no da ku'o gi'a se .esporte tu'a la
-            .olimpik.
+            da&#039;i le te renvi be su&#039;o xlali bei do ba zmadu fi lo ka se
+            ditcu makau kei fe le te renvi be su&#039;o zabna bei do .i
+            la&#039;e di&#039;u fatci .i do ba morsi fa ji&#039;a ro prenu poi
+            se slabu do .i se ki&#039;u bo lo ka zukte lo ka lifri su&#039;o
+            cnino vau lo nu do se pluka cu bi&#039;ai ka cmima lo te jinga .i
+            va&#039;o ku lo ka jinga cu ka co&#039;u cilre fi la .lojban.
+            gi&#039;e rivbi tu&#039;a ri .i ko troci lo ka zukte fi lo vajni fe
+            mu&#039;a lo ka sidji lo prenu poi se zdani no da ku&#039;o
+            gi&#039;a se .esporte tu&#039;a la .olimpik.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             You will suffer in your life more than you will ever be happy, this
@@ -197,12 +227,12 @@ meta.priority: 983
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Vous souffrirez dans votre vie plus que vous ne serez jamais
-            heureux, c'est un fait universel. Vous mourrez et tous les gens
+            heureux, c&#039;est un fait universel. Vous mourrez et tous les gens
             autour de vous aussi, alors avoir de petites nouveautés pour vous
             distraire sera toujours une perte garantie. La seule façon de gagner
-            est d'arrêter d'apprendre lojban et de l'abandonner maintenant, de
-            poursuivre un but plus élevé comme l'aide aux sans-abri ou les
-            sports olympiques.
+            est d&#039;arrêter d&#039;apprendre lojban et de l&#039;abandonner
+            maintenant, de poursuivre un but plus élevé comme l&#039;aide aux
+            sans-abri ou les sports olympiques.
           </td>
         </tr>
       </tbody>

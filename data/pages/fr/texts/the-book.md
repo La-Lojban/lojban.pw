@@ -99,13 +99,13 @@ meta.priority: 7017
             scope="col"
             class="w-40 p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            lojbo se fanva la'o gy.Jordan DeLong.gy.
+            lojbo se fanva la&#039;o gy.Jordan DeLong.gy.
           </th>
           <th
             scope="col"
             class="w-40 p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            lojbo se fanva la'o gy.Michael Helsem.gy.
+            lojbo se fanva la&#039;o gy.Michael Helsem.gy.
           </th>
         </tr>
       </thead>
@@ -114,7 +114,7 @@ meta.priority: 7017
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="font-bold text-left align-text-top p-2 column-class-lojbo">
-            ni'o ni'o bau le lojbo
+            ni&#039;o ni&#039;o bau le lojbo
           </td>
           <td class="font-bold text-left align-text-top p-2 column-class-glico">
             English original
@@ -134,40 +134,54 @@ meta.priority: 7017
           <td
             class="font-bold text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            ni'o ni'o bau le lojbo
+            ni&#039;o ni&#039;o bau le lojbo
           </td>
           <td
             class="font-bold text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            ni'o ni'o bau le lojbo
+            ni&#039;o ni&#039;o bau le lojbo
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             le pa cukta
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             The Book
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Le Livre
           </td>
-          <td class="text-left align-text-top p-2 column-class-porto">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
+          >
             O Livro
           </td>
-          <td class="text-left align-text-top p-2 column-class-spano">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-spano"
+          >
             El Libro
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">Книга</td>
           <td
-            class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
           >
-            tu'a le cukta
+            Книга
           </td>
           <td
-            class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
+          >
+            tu&#039;a le cukta
+          </td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
             le cukta
           </td>
@@ -175,55 +189,79 @@ meta.priority: 7017
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             .i finti fa xy.bu py. lafkraft. bu
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             by H.P. Lovecraft
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             par H.P. Lovecraft
           </td>
-          <td class="text-left align-text-top p-2 column-class-porto">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
+          >
             por H.P. Lovecraft
           </td>
-          <td class="text-left align-text-top p-2 column-class-spano">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-spano"
+          >
             por H.P. Lovecraft
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             автор Г. П. Лавкрафт
           </td>
           <td
-            class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           ></td>
           <td
-            class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           ></td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             .i fanva fa la gleki
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             Original English text
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso"></td>
-          <td class="text-left align-text-top p-2 column-class-porto"></td>
-          <td class="text-left align-text-top p-2 column-class-spano"></td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          ></td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
+          ></td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-spano"
+          ></td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Перевод la gleki
           </td>
           <td
-            class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            fanva fa la'o gy.Jordan DeLong.gy.
+            fanva fa la&#039;o gy.Jordan DeLong.gy.
           </td>
           <td
-            class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            fanva fa la'o gy.Michael Helsem.gy.
+            fanva fa la&#039;o gy.Michael Helsem.gy.
           </td>
         </tr>
         <tr
@@ -234,13 +272,13 @@ meta.priority: 7017
             The Book is an unfinished short story by American horror fiction
             writer H. P. Lovecraft, believed to have been written in late 1933.
             It was first published in the journal Leaves in 1938, after
-            Lovecraft's death.
+            Lovecraft&#039;s death.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Le Livre est une nouvelle inachevée de l'écrivain américain de
-            fiction d'horreur H. P. Lovecraft, supposée avoir été écrite à la
-            fin de 1933. Elle a été publiée pour la première fois dans la revue
-            Leaves en 1938, après la mort de Lovecraft.
+            Le Livre est une nouvelle inachevée de l&#039;écrivain américain de
+            fiction d&#039;horreur H. P. Lovecraft, supposée avoir été écrite à
+            la fin de 1933. Elle a été publiée pour la première fois dans la
+            revue Leaves en 1938, après la mort de Lovecraft.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             O Livro é um conto inacabado do escritor americano de ficção de
@@ -255,10 +293,10 @@ meta.priority: 7017
             en 1938, después de la muerte de Lovecraft.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            "Книга" - неоконченный рассказ американского писателя-фантаста
-            ужасов Г. П. Лавкрафта, написанный, как считается, в конце 1933
-            года. Впервые он был опубликован в журнале "Листья" в 1938 году, уже
-            после смерти Лавкрафта.
+            &quot;Книга&quot; - неоконченный рассказ американского
+            писателя-фантаста ужасов Г. П. Лавкрафта, написанный, как считается,
+            в конце 1933 года. Впервые он был опубликован в журнале
+            &quot;Листья&quot; в 1938 году, уже после смерти Лавкрафта.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
@@ -266,15 +304,16 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            lu le cukta li'u tcita ledi'e xe fanva be le lisri pefi'e la xypyp.
-            lyfkreft. zi'epede'i li ji'ipasocivo .itu'efu'eju'ocu'i
+            lu le cukta li&#039;u tcita ledi&#039;e xe fanva be le lisri
+            pefi&#039;e la xypyp. lyfkreft. zi&#039;epede&#039;i li
+            ji&#039;ipasocivo .itu&#039;efu&#039;eju&#039;ocu&#039;i
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o le se morji be mi cu mutce le ka kalsa
+            ni&#039;o le se morji be mi cu mutce le ka kalsa
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             My memories are very confused.
@@ -294,22 +333,23 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            ni'o lei se morji be mi cu kalsa mutce
+            ni&#039;o lei se morji be mi cu kalsa mutce
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            ni'oni'o mojykalsa .i'unaisai bu'ocu'i
+            ni&#039;oni&#039;o mojykalsa .i&#039;unaisai bu&#039;ocu&#039;i
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i u'e senpi le du'u ma kau cfari .i ki'u bo zu'u so'iroiku mi terpa
-            tu'a lei rigni jvinu be lei nanca poi tcena le purci .ibo zu'unai
-            so'iroiku le cabna mokca cu simlu leka na'e kansa gi'e nenri su'o
-            cimni poi se tarmi su'o kalsa
+            .i u&#039;e senpi le du&#039;u ma kau cfari .i ki&#039;u bo
+            zu&#039;u so&#039;iroiku mi terpa tu&#039;a lei rigni jvinu be lei
+            nanca poi tcena le purci .ibo zu&#039;unai so&#039;iroiku le cabna
+            mokca cu simlu leka na&#039;e kansa gi&#039;e nenri su&#039;o cimni
+            poi se tarmi su&#039;o kalsa
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             There is even much doubt as to where they begin; for at times I feel
@@ -319,10 +359,10 @@ meta.priority: 7017
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Il y a même beaucoup de doutes quant à leur commencement ; car par
-            moments, je ressens des vues effroyables d'années s'étendant
-            derrière moi, tandis qu'à d'autres moments, il semble que le moment
-            présent soit un point isolé dans une infinie grisaille et sans
-            forme.
+            moments, je ressens des vues effroyables d&#039;années
+            s&#039;étendant derrière moi, tandis qu&#039;à d&#039;autres
+            moments, il semble que le moment présent soit un point isolé dans
+            une infinie grisaille et sans forme.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Há até muitas dúvidas sobre onde elas começam; pois às vezes sinto
@@ -345,25 +385,27 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i .u'e mutce co senpi le du'u mi ka'e sanji le jai ca nu lei se
-            morji be mi cu cfari .iki'ubo zu'u so'iroiku mi terpa tu'a lei rigni
-            jvinu be lei nanca poi tcena le purci .ibo ku'i zu'unai so'iroiku le
-            cabna mokca cu simlu leka ce'u nalkansa je nenri lo stodi je mucti
+            .i .u&#039;e mutce co senpi le du&#039;u mi ka&#039;e sanji le jai
+            ca nu lei se morji be mi cu cfari .iki&#039;ubo zu&#039;u
+            so&#039;iroiku mi terpa tu&#039;a lei rigni jvinu be lei nanca poi
+            tcena le purci .ibo ku&#039;i zu&#039;unai so&#039;iroiku le cabna
+            mokca cu simlu leka ce&#039;u nalkansa je nenri lo stodi je mucti
             cimni
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i norju'o ledu'u le cfari mokca pu fasnu ca ba'e makau .iki'ubo
-            so'iroixipa se'o banli .ii purci mi .ije so'iroixireku'i se'o le
-            cabna cu mokca co selsru le grusi je tarmycau cimni
+            .i norju&#039;o ledu&#039;u le cfari mokca pu fasnu ca ba&#039;e
+            makau .iki&#039;ubo so&#039;iroixipa se&#039;o banli .ii purci mi
+            .ije so&#039;iroixireku&#039;i se&#039;o le cabna cu mokca co selsru
+            le grusi je tarmycau cimni
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ji'a mi na sanji ledu'u ta'i makau mi benji dei
+            .i ji&#039;a mi na sanji ledu&#039;u ta&#039;i makau mi benji dei
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I am not even certain how I am communicating this message.
@@ -384,21 +426,22 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .iji'a mi na sanji ledu'u ta'i makau mi benji dei
+            .iji&#039;a mi na sanji ledu&#039;u ta&#039;i makau mi benji dei
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .iji'a ca'o benji ledei notci fu le nalselju'o
+            .iji&#039;a ca&#039;o benji ledei notci fu le nalselju&#039;o
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ju'a mi ca'o cusku i ku'i mi kanpe fi li pi so'o fe ledu'u ba
-            sarcu fa lo nu su'o da cizra je palci ba'a sidju mi lo ka benji le
-            se cusku su'o stuzi poi mi djica lo nu mo'u no'a fi ke'a
+            .i ju&#039;a mi ca&#039;o cusku i ku&#039;i mi kanpe fi li pi
+            so&#039;o fe ledu&#039;u ba sarcu fa lo nu su&#039;o da cizra je
+            palci ba&#039;a sidju mi lo ka benji le se cusku su&#039;o stuzi poi
+            mi djica lo nu mo&#039;u no&#039;a fi ke&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             While I know I am speaking, I have a vague impression that some
@@ -406,9 +449,10 @@ meta.priority: 7017
             say to the points where I wish to be heard.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Bien que je sache que je parle, j'ai une vague impression qu'une
-            médiation étrange et peut-être terrible sera nécessaire pour
-            transmettre ce que je dis aux endroits où je souhaite être entendu.
+            Bien que je sache que je parle, j&#039;ai une vague impression
+            qu&#039;une médiation étrange et peut-être terrible sera nécessaire
+            pour transmettre ce que je dis aux endroits où je souhaite être
+            entendu.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Embora eu saiba que estou falando, tenho uma vaga impressão de que
@@ -428,23 +472,24 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i va'o leza'i mi djuno ledu'u mi ja'a bacru keikei mi milxe pensi
-            ledu'u da poi cizra je tu'ocu'o bo vlipa nu tsapensi ku'o se nitcu
-            fi loi nu benji le dei selsku le zvati poi mi djica tu'a ke'a
+            .i va&#039;o leza&#039;i mi djuno ledu&#039;u mi ja&#039;a bacru
+            keikei mi milxe pensi ledu&#039;u da poi cizra je tu&#039;ocu&#039;o
+            bo vlipa nu tsapensi ku&#039;o se nitcu fi loi nu benji le dei
+            selsku le zvati poi mi djica tu&#039;a ke&#039;a
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .iju'a mi cusku .iku'i ruble jijnu ledu'u le xe benji bele selsku be
-            mi be'o bei le stuzi be le tersku poi mi djica ke'a ku'o ba cizra
-            jela'aru'e baltepygau
+            .iju&#039;a mi cusku .iku&#039;i ruble jijnu ledu&#039;u le xe benji
+            bele selsku be mi be&#039;o bei le stuzi be le tersku poi mi djica
+            ke&#039;a ku&#039;o ba cizra jela&#039;aru&#039;e baltepygau
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i lo nu mi du ma kau cu si'a murse pe'a cfipu
+            .i lo nu mi du ma kau cu si&#039;a murse pe&#039;a cfipu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             My identity, too, is bewilderingly cloudy.
@@ -464,30 +509,30 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i le sevzi po'e mi cu cfipu to'e klina
+            .i le sevzi po&#039;e mi cu cfipu to&#039;e klina
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .iji'a cfipu murse fa le mibypre smuni
+            .iji&#039;a cfipu murse fa le mibypre smuni
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i mi simlu leka pu'i renvi su'o jenca .i cumki fa lo nu le nu go'i
-            cu mabla jalge lo nu mi za'u roi lifri su'o da poi steci mi gi'e
-            palci banli
+            .i mi simlu leka pu&#039;i renvi su&#039;o jenca .i cumki fa lo nu
+            le nu go&#039;i cu mabla jalge lo nu mi za&#039;u roi lifri
+            su&#039;o da poi steci mi gi&#039;e palci banli
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I seem to have suffered a great shock—perhaps from some utterly
             monstrous outgrowth of my cycles of unique, incredible experience.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Il semble que j'ai subi un grand choc, peut-être causé par une
+            Il semble que j&#039;ai subi un grand choc, peut-être causé par une
             croissance monstrueuse et absolument terrible de mes cycles
-            d'expériences uniques et incroyables.
+            d&#039;expériences uniques et incroyables.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Parece que sofri um grande choque — talvez de algum crescimento
@@ -507,14 +552,16 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i mi simlu leka renvi lo se vlipa .i cumki fa leza'i cfarygau fa lo
-            curve cizra purbanro pe ra'i le rirci se lifri po'e mi
+            .i mi simlu leka renvi lo se vlipa .i cumki fa leza&#039;i cfarygau
+            fa lo curve cizra purbanro pe ra&#039;i le rirci se lifri po&#039;e
+            mi
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .iru'a ba'o banli te jenca lifri .iju'eru'e krasi fa le mabla se
-            manci jalge be lemi nunrapli poi rircyrai je tolfadni lifyfau
+            .iru&#039;a ba&#039;o banli te jenca lifri .iju&#039;eru&#039;e
+            krasi fa le mabla se manci jalge be lemi nunrapli poi rircyrai je
+            tolfadni lifyfau
           </td>
         </tr>
         <tr
@@ -537,15 +584,16 @@ meta.priority: 7017
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o le nu mi lifri la'e do'i cu li'a se rinka tu'a le pa cukta
+            ni&#039;o le nu mi lifri la&#039;e do&#039;i cu li&#039;a se rinka
+            tu&#039;a le pa cukta
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             These cycles of experience, of course, all stem from that
             worm-riddled book.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Ces cycles d'expérience, bien sûr, découlent tous de ce livre rongé
-            par les vers.
+            Ces cycles d&#039;expérience, bien sûr, découlent tous de ce livre
+            rongé par les vers.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Esses ciclos de experiência, é claro, todos derivam desse livro
@@ -562,27 +610,29 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            ni'o le dei se lifri cu li'a se krasi tu'a le cukta
+            ni&#039;o le dei se lifri cu li&#039;a se krasi tu&#039;a le cukta
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i ri mulno je se birti se krinu lebi'u curselgre cukta goiko'a
+            .i ri mulno je se birti se krinu lebi&#039;u curselgre cukta
+            goiko&#039;a
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i a'e mi morji le du'u mi pendi le pa cukta le se gusni be lo kandi
-            pe vi le xekri je ctile rirxe noi loi jaurbumru cu na'o gapro ke'a
+            .i a&#039;e mi morji le du&#039;u mi pendi le pa cukta le se gusni
+            be lo kandi pe vi le xekri je ctile rirxe noi loi jaurbumru cu
+            na&#039;o gapro ke&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I remember when I found it—in a dimly lighted place near the black,
             oily river where the mists always swirl.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je me souviens quand je l'ai trouvé, dans un endroit faiblement
+            Je me souviens quand je l&#039;ai trouvé, dans un endroit faiblement
             éclairé près de la rivière noire et huileuse où les brumes
             tourbillonnent toujours.
           </td>
@@ -601,23 +651,24 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i mi morsi lenu mi zatfa'i ri kei pe ne'i le milxe gusni se diklo
-            pe vi le xekri je ctile rirxe noi loi jaurbumru cu na'o jibni
+            .i mi morsi lenu mi zatfa&#039;i ri kei pe ne&#039;i le milxe gusni
+            se diklo pe vi le xekri je ctile rirxe noi loi jaurbumru cu
+            na&#039;o jibni
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i .a'e morji le fakstu ko'a .i puki manku je jibni le xekri je
-            raskai rirxe poi stodi muvdu bumru cnita
+            .i .a&#039;e morji le fakstu ko&#039;a .i puki manku je jibni le
+            xekri je raskai rirxe poi stodi muvdu bumru cnita
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le stuzi cu mutce laldo .ije le so'i clani kajna poi pu'o lamji
-            le drudi zi'e poi so'i fusra cukta cu cpana ke'a cu pagre so'i kumfa
-            be fi no canko
+            .i le stuzi cu mutce laldo .ije le so&#039;i clani kajna poi
+            pu&#039;o lamji le drudi zi&#039;e poi so&#039;i fusra cukta cu
+            cpana ke&#039;a cu pagre so&#039;i kumfa be fi no canko
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             That place was very old, and the ceiling-high shelves full of
@@ -625,9 +676,10 @@ meta.priority: 7017
             rooms and alcoves.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Cet endroit était très ancien, et les étagères hautes jusqu'au
-            plafond remplies de volumes pourrissants s'étendaient à l'infini à
-            travers des pièces intérieures et des alcôves sans fenêtres.
+            Cet endroit était très ancien, et les étagères hautes jusqu&#039;au
+            plafond remplies de volumes pourrissants s&#039;étendaient à
+            l&#039;infini à travers des pièces intérieures et des alcôves sans
+            fenêtres.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Aquele lugar era muito antigo, e as prateleiras altas cheias de
@@ -647,9 +699,9 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i le se diklo cu mutce tolci'o .ije le galtu be fi lo'e drudi be'o
-            kajna poi vasru le so'a fusra tercku cu tcena pa'o le kumfa noi
-            canko claxu
+            .i le se diklo cu mutce tolci&#039;o .ije le galtu be fi lo&#039;e
+            drudi be&#039;o kajna poi vasru le so&#039;a fusra tercku cu tcena
+            pa&#039;o le kumfa noi canko claxu
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
@@ -668,8 +720,9 @@ meta.priority: 7017
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ji'a so'i kalsa derxi be loi cukta pu vreta le loldi gi'a nenri
-            le rufsu lanka .i fi pa le go'i mi penmi le sa'e dacti
+            .i ji&#039;a so&#039;i kalsa derxi be loi cukta pu vreta le loldi
+            gi&#039;a nenri le rufsu lanka .i fi pa le go&#039;i mi penmi le
+            sa&#039;e dacti
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             There were, besides, great formless heaps of books on the floor and
@@ -678,8 +731,8 @@ meta.priority: 7017
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Il y avait, en plus, de grandes tas informes de livres sur le sol et
-            dans des bacs rudimentaires ; et c'est dans l'un de ces tas que j'ai
-            trouvé la chose.
+            dans des bacs rudimentaires ; et c&#039;est dans l&#039;un de ces
+            tas que j&#039;ai trouvé la chose.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Havia, além disso, grandes montes informes de livros no chão e em
@@ -698,22 +751,24 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i le za'u barda ke cukta kasystu cu vreta le loldi gi'e se vasru le
-            rufsu lanka .i vi pa le go'i mi zatfa'i zo'e
+            .i le za&#039;u barda ke cukta kasystu cu vreta le loldi gi&#039;e
+            se vasru le rufsu lanka .i vi pa le go&#039;i mi zatfa&#039;i
+            zo&#039;e
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i mi facki fi ko'a vi pale derxi
+            .i mi facki fi ko&#039;a vi pale derxi
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i mi nu'o se slabu le cmene be le cukta i ki'u bo le so'u moi papri
-            na zvati .i ku'i le so'i moi pagbu be le se cukta co'a jai se jimpe
-            ba za i se ri'a bo mi ganse su'o da ja'e lo nu mi carmi cinmo
+            .i mi nu&#039;o se slabu le cmene be le cukta i ki&#039;u bo le
+            so&#039;u moi papri na zvati .i ku&#039;i le so&#039;i moi pagbu be
+            le se cukta co&#039;a jai se jimpe ba za i se ri&#039;a bo mi ganse
+            su&#039;o da ja&#039;e lo nu mi carmi cinmo
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I never learned its title, for the early pages were missing; but it
@@ -721,9 +776,9 @@ meta.priority: 7017
             sent my senses reeling.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je n'ai jamais appris son titre, car les premières pages manquaient
-            ; mais il s'est ouvert vers la fin et m'a donné un aperçu de quelque
-            chose qui a fait chavirer mes sens.
+            Je n&#039;ai jamais appris son titre, car les premières pages
+            manquaient ; mais il s&#039;est ouvert vers la fin et m&#039;a donné
+            un aperçu de quelque chose qui a fait chavirer mes sens.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Nunca soube seu título, pois as primeiras páginas estavam faltando;
@@ -744,16 +799,16 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i mi na cilre ledu'u makau cmene le cukta kei ri'a leza'i le
-            so'umoi papri cu se claxu .iku'i cy. kalri gi'e curmi lenu mi viska
-            le cizrytce
+            .i mi na cilre ledu&#039;u makau cmene le cukta kei ri&#039;a
+            leza&#039;i le so&#039;umoi papri cu se claxu .iku&#039;i cy. kalri
+            gi&#039;e curmi lenu mi viska le cizrytce
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i na snada lemu'e cilre le cukta tcita .i claxu le crane papri .i
-            ko'a karzukte vi le cukta fanmo .ibabo mi suksa je tortei viska da
-            poi runtygau le sarxe flexu pele gasysanji
+            .i na snada lemu&#039;e cilre le cukta tcita .i claxu le crane papri
+            .i ko&#039;a karzukte vi le cukta fanmo .ibabo mi suksa je tortei
+            viska da poi runtygau le sarxe flexu pele gasysanji
           </td>
         </tr>
         <tr
@@ -776,12 +831,14 @@ meta.priority: 7017
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o mi tcidu le liste be le'i se sau nu zukte gi'a bacru noi mi
-            co'a jijnu ledu'u ke'a to'e jai se curmi gi'e palci .i mi pu so'i
-            roi tcidu su'o jufra be lo nu su'o simsa cu zasti be'o noi mi cinmo
-            lo ka ke'a rigni gi'e cinri zi'e noi se ciska ko'a voi i'u ro'e
-            cizra lanli le se mipri srana be le munje zi'e voi le cukta be fi
-            ke'a mi pu ta'e se pluka lo ka tcidu fi ke'a
+            ni&#039;o mi tcidu le liste be le&#039;i se sau nu zukte gi&#039;a
+            bacru noi mi co&#039;a jijnu ledu&#039;u ke&#039;a to&#039;e jai se
+            curmi gi&#039;e palci .i mi pu so&#039;i roi tcidu su&#039;o jufra
+            be lo nu su&#039;o simsa cu zasti be&#039;o noi mi cinmo lo ka
+            ke&#039;a rigni gi&#039;e cinri zi&#039;e noi se ciska ko&#039;a voi
+            i&#039;u ro&#039;e cizra lanli le se mipri srana be le munje
+            zi&#039;e voi le cukta be fi ke&#039;a mi pu ta&#039;e se pluka lo
+            ka tcidu fi ke&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             There was a formula—a sort of list of things to say and do—which I
@@ -792,11 +849,12 @@ meta.priority: 7017
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Il y avait une formule, une sorte de liste de choses à dire et à
-            faire, que j'ai reconnue comme quelque chose de sombre et interdit ;
-            quelque chose dont j'avais lu auparavant dans des paragraphes
-            furtifs de mélange d'horreur et de fascination rédigés par ces
-            étranges anciens chercheurs dans les secrets gardés de l'univers,
-            dont les textes en décomposition j'aimais absorber.
+            faire, que j&#039;ai reconnue comme quelque chose de sombre et
+            interdit ; quelque chose dont j&#039;avais lu auparavant dans des
+            paragraphes furtifs de mélange d&#039;horreur et de fascination
+            rédigés par ces étranges anciens chercheurs dans les secrets gardés
+            de l&#039;univers, dont les textes en décomposition j&#039;aimais
+            absorber.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Havia uma fórmula — uma espécie de lista de coisas a dizer e fazer —
@@ -825,32 +883,36 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            ni'o mi zgana le porsi no'u le liste be le'i se gasnu kujo'u le'i se
-            casnu zi'e noi mi jijnu ledu'u ke'a to'e jai se curmi gi'e palci .i
-            mi pu tcidu fi'o te cilre ti seci'o leka rigni joi tceci'i ce'u kei
-            fi lei mipri ju'agri pe fi'e le cizra je tcetolci'o tadni be le
-            mipryrai pe le munje kuku poi loi cukta be fi ke'a cu se prami mi
+            ni&#039;o mi zgana le porsi no&#039;u le liste be le&#039;i se gasnu
+            kujo&#039;u le&#039;i se casnu zi&#039;e noi mi jijnu ledu&#039;u
+            ke&#039;a to&#039;e jai se curmi gi&#039;e palci .i mi pu tcidu
+            fi&#039;o te cilre ti seci&#039;o leka rigni joi tceci&#039;i
+            ce&#039;u kei fi lei mipri ju&#039;agri pe fi&#039;e le cizra je
+            tcetolci&#039;o tadni be le mipryrai pe le munje kuku poi loi cukta
+            be fi ke&#039;a cu se prami mi
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            ni'o steci da .i mu'a liste le se cusku je se zukte ku
-            .i'u.iire'e.a'unaisai .i da tcidu slabu mi sedi'o le noi mlimipri
-            ke'a zi'enoi rigni joi cinrycai ku'o se ciska bele mintu be
-            fu'e.u'ere'e le cizra je tolcni pevykakpa be fi le snura se mipri
-            bele munje be'obe'o poi mi pu djica je ckire tcidu le cukta befi
-            ke'a
+            ni&#039;o steci da .i mu&#039;a liste le se cusku je se zukte ku
+            .i&#039;u.iire&#039;e.a&#039;unaisai .i da tcidu slabu mi
+            sedi&#039;o le noi mlimipri ke&#039;a zi&#039;enoi rigni joi
+            cinrycai ku&#039;o se ciska bele mintu be
+            fu&#039;e.u&#039;ere&#039;e le cizra je tolcni pevykakpa be fi le
+            snura se mipri bele munje be&#039;obe&#039;o poi mi pu djica je
+            ckire tcidu le cukta befi ke&#039;a
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le cukta cu ckiku .i ri gidva fi lei nu pagre .e lei pu'u binxo
-            kei vu'o poi lo'e se fenki senva tu'a ke'a gi'e casnu ke'a co'a le
-            nu loi remna ze'i zasti zi'e noi rinka lo nu zifre e lo nu facki fi
-            lo se cimde be fi lo bancu be le ma'a ci farna e loi jmive e loi
-            marji vu'o poi ma'a se slabu
+            .i le cukta cu ckiku .i ri gidva fi lei nu pagre .e lei pu&#039;u
+            binxo kei vu&#039;o poi lo&#039;e se fenki senva tu&#039;a ke&#039;a
+            gi&#039;e casnu ke&#039;a co&#039;a le nu loi remna ze&#039;i zasti
+            zi&#039;e noi rinka lo nu zifre e lo nu facki fi lo se cimde be fi
+            lo bancu be le ma&#039;a ci farna e loi jmive e loi marji vu&#039;o
+            poi ma&#039;a se slabu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             It was a key—a guide—to certain gateways and transitions of which
@@ -859,11 +921,11 @@ meta.priority: 7017
             and realms of life and matter that we know.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            C'était une clé, un guide, vers certains passages et transitions
-            dont les mystiques ont rêvé et murmuré depuis que la race était
-            jeune, et qui mènent à des libertés et des découvertes au-delà des
-            trois dimensions et des royaumes de la vie et de la matière que nous
-            connaissons.
+            C&#039;était une clé, un guide, vers certains passages et
+            transitions dont les mystiques ont rêvé et murmuré depuis que la
+            race était jeune, et qui mènent à des libertés et des découvertes
+            au-delà des trois dimensions et des royaumes de la vie et de la
+            matière que nous connaissons.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Era uma chave — um guia — para certos portais e transições dos quais
@@ -886,36 +948,40 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i le cukta cu ckiku .i ri gidva fi lei pagre .e lei pu'u binxo kei
-            vu'o poi loi se lidjrmistiki cu pacna tu'a ke'a co'a le jai cfari pe
-            fai tu'a loi remna zi'e noi curmi so'o se zifre .e so'o nu facki kei
-            vu'o poi bancu le te cimde .e le lifri .e le marji vu'o poi slabu
-            ma'a
+            .i le cukta cu ckiku .i ri gidva fi lei pagre .e lei pu&#039;u binxo
+            kei vu&#039;o poi loi se lidjrmistiki cu pacna tu&#039;a ke&#039;a
+            co&#039;a le jai cfari pe fai tu&#039;a loi remna zi&#039;e noi
+            curmi so&#039;o se zifre .e so&#039;o nu facki kei vu&#039;o poi
+            bancu le te cimde .e le lifri .e le marji vu&#039;o poi slabu
+            ma&#039;a
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i .au.a'afu'epe'a ckiku je gidvu fu'o ko'egoi lebi'u gremokca je
-            banrytadji poi le cesfenki ru'i senva je blesku ke'a ze'upu le remna
-            nuncfa ku'o zi'epoi gasnu le te facki .e le se zifre vu'ovoi bancu
-            le marjymunje .e le plini .e le kesycanlu joike temci te cimde vu'o
-            poi slabu mi'o fu'o
+            .i .au.a&#039;afu&#039;epe&#039;a ckiku je gidvu fu&#039;o
+            ko&#039;egoi lebi&#039;u gremokca je banrytadji poi le cesfenki
+            ru&#039;i senva je blesku ke&#039;a ze&#039;upu le remna nuncfa
+            ku&#039;o zi&#039;epoi gasnu le te facki .e le se zifre vu&#039;ovoi
+            bancu le marjymunje .e le plini .e le kesycanlu joike temci te cimde
+            vu&#039;o poi slabu mi&#039;o fu&#039;o
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ze'a le nanca be li so'i no prenu cu djuno le du'u ma kau ti zvati a
-            le du'u fi ma kau sisku lo ka zvati ti i je'u ti voi cukta cu laldo
+            ze&#039;a le nanca be li so&#039;i no prenu cu djuno le du&#039;u ma
+            kau ti zvati a le du&#039;u fi ma kau sisku lo ka zvati ti i
+            je&#039;u ti voi cukta cu laldo
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Not for centuries had any man recalled its vital substance or known
             where to find it, but this book was very old indeed.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Pendant des siècles, aucun homme n'avait rappelé sa substance vitale
-            ou su où la trouver, mais ce livre était très ancien en effet.
+            Pendant des siècles, aucun homme n&#039;avait rappelé sa substance
+            vitale ou su où la trouver, mais ce livre était très ancien en
+            effet.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Não por séculos algum homem havia lembrado de sua substância vital
@@ -933,32 +999,32 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i ti no'u le cukta cu te djuno fi no remna ze'a za'u na'acto gi'e
-            ja'a mutce tolci'o
+            .i ti no&#039;u le cukta cu te djuno fi no remna ze&#039;a za&#039;u
+            na&#039;acto gi&#039;e ja&#039;a mutce tolci&#039;o
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i sorctona'arbalvi lenu zo'e morji gi'a djuno co stuzi vau da .i
-            ko'a ba'e revycla
+            .i sorctona&#039;arbalvi lenu zo&#039;e morji gi&#039;a djuno co
+            stuzi vau da .i ko&#039;a ba&#039;e revycla
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ciska fi le cukta ge nai fo su'o minji gi fa pa xadba fenki la'a
-            sondu fo lo xance fe ti voi palci jufra noi la .uncyl. cu manci
-            dzena tarmi ke'a
+            .i ciska fi le cukta ge nai fo su&#039;o minji gi fa pa xadba fenki
+            la&#039;a sondu fo lo xance fe ti voi palci jufra noi la .uncyl. cu
+            manci dzena tarmi ke&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             No printing-press, but the hand of some half-crazed monk, had traced
             these ominous Latin phrases in uncials of awesome antiquity.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Pas d'imprimerie, mais la main d'un moine à moitié fou avait tracé
-            ces phrases latines menaçantes en onciale d'une antiquité
-            impressionnante.
+            Pas d&#039;imprimerie, mais la main d&#039;un moine à moitié fou
+            avait tracé ces phrases latines menaçantes en onciale d&#039;une
+            antiquité impressionnante.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Nenhuma prensa de impressão, mas a mão de algum monge meio
@@ -978,14 +1044,15 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i le go'i cu ciska fu na'e bo lo minji .i la'a lo milxe fenki
-            jdapre cu zbasu le lerfu ne tai la .unsyl.
+            .i le go&#039;i cu ciska fu na&#039;e bo lo minji .i la&#039;a lo
+            milxe fenki jdapre cu zbasu le lerfu ne tai la .unsyl.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i genai le minjypri gi le fekmli jdasivni xance ba'o ciska leko'a
-            ckape je latmo jufra peseci'o le ruvle'u co se manci ka tolcni
+            .i genai le minjypri gi le fekmli jdasivni xance ba&#039;o ciska
+            leko&#039;a ckape je latmo jufra peseci&#039;o le ruvle&#039;u co se
+            manci ka tolcni
           </td>
         </tr>
         <tr
@@ -1008,9 +1075,9 @@ meta.priority: 7017
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o mi vedli le ka pu zgana le nu le laldo nanmu cu mabla zgana
-            gi'e tolycladu cmila gi'e zukte le ka cinri corci fi le xance be
-            ce'u kei ca lenu mi mo'u lebna le cukta
+            ni&#039;o mi vedli le ka pu zgana le nu le laldo nanmu cu mabla
+            zgana gi&#039;e tolycladu cmila gi&#039;e zukte le ka cinri corci fi
+            le xance be ce&#039;u kei ca lenu mi mo&#039;u lebna le cukta
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I remember how the old man leered and tittered, and made a curious
@@ -1018,7 +1085,7 @@ meta.priority: 7017
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Je me souviens comment le vieil homme a souri en coin et gloussé, et
-            a fait un signe curieux de la main quand je l'ai emporté.
+            a fait un signe curieux de la main quand je l&#039;ai emporté.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Lembro-me de como o velho sorriu maliciosamente e riu, e fez um
@@ -1035,31 +1102,32 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            ni'o mi morji le tai nu le tolci'o nanmu pu malzga gi'e cmami'a gi'e
-            kucli sniti'i sepi'o le xance vau ca lenu mi lebna le cukta
+            ni&#039;o mi morji le tai nu le tolci&#039;o nanmu pu malzga
+            gi&#039;e cmami&#039;a gi&#039;e kucli sniti&#039;i sepi&#039;o le
+            xance vau ca lenu mi lebna le cukta
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            ni'o ki .a'e morji lenu ko'igoi lebi'u nanmu noi tolcni puki gege
-            ckasu se jvinu gi cizra cmila gi nalsau xansni zukte calenu mi ko'a
-            batybei
+            ni&#039;o ki .a&#039;e morji lenu ko&#039;igoi lebi&#039;u nanmu noi
+            tolcni puki gege ckasu se jvinu gi cizra cmila gi nalsau xansni
+            zukte calenu mi ko&#039;a batybei
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le nanmu na lebna le jai ve vecnu .ije ba la'u le barda mi jimpe
-            tu'a le mukti
+            .i le nanmu na lebna le jai ve vecnu .ije ba la&#039;u le barda mi
+            jimpe tu&#039;a le mukti
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             He had refused to take pay for it, and only long afterwards did I
             guess why.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Il avait refusé de le payer, et ce n'est que bien plus tard que j'ai
-            deviné pourquoi.
+            Il avait refusé de le payer, et ce n&#039;est que bien plus tard que
+            j&#039;ai deviné pourquoi.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Ele se recusou a aceitar pagamento por ele, e somente muito tempo
@@ -1076,22 +1144,23 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i ny. na djica tu'a lo ve vecnu .ije bazuku po'o mi smadi ledu'u
-            makau mukti
+            .i ny. na djica tu&#039;a lo ve vecnu .ije bazuku po&#039;o mi smadi
+            ledu&#039;u makau mukti
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i puku ko'i toltugni lenu mi fi vo'a pleji ko'a kei mu'i de poi
-            clabalvi se smadi le mibypre
+            .i puku ko&#039;i toltugni lenu mi fi vo&#039;a pleji ko&#039;a kei
+            mu&#039;i de poi clabalvi se smadi le mibypre
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ze'a lenu mi klama le zdani fo le'i za'u jarki je kalsa je
-            jaurbumru dargu kei mi cinmo lo ka se jersi su'o da poi xutla stapa
+            .i ze&#039;a lenu mi klama le zdani fo le&#039;i za&#039;u jarki je
+            kalsa je jaurbumru dargu kei mi cinmo lo ka se jersi su&#039;o da
+            poi xutla stapa
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             As I hurried home through those narrow, winding, mist-cloaked
@@ -1100,9 +1169,9 @@ meta.priority: 7017
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Alors que je rentrais chez moi à toute vitesse à travers ces rues
-            étroites, sinueuses et enveloppées de brume du front de mer, j'ai eu
-            une impression effroyable d'être discrètement suivi par des pas
-            feutrés.
+            étroites, sinueuses et enveloppées de brume du front de mer,
+            j&#039;ai eu une impression effroyable d&#039;être discrètement
+            suivi par des pas feutrés.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Enquanto eu voltava para casa por aquelas estreitas, sinuosas ruas à
@@ -1122,15 +1191,15 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i ca'o lenu mi zdani klama fo le jarki je kalsa je jaurbumru dargu
-            kei te simlu leka smaji jersi ce'u kei mi
+            .i ca&#039;o lenu mi zdani klama fo le jarki je kalsa je jaurbumru
+            dargu kei te simlu leka smaji jersi ce&#039;u kei mi
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i calenu jarki je kruvi je bumclu rirxyla'i bo klaji sutrykla le
-            zdani keiku mi terpa se xanri ledu'u le smamli stapa jamfu ca'o
-            .o'unai bu'o jersi vo'a
+            .i calenu jarki je kruvi je bumclu rirxyla&#039;i bo klaji sutrykla
+            le zdani keiku mi terpa se xanri ledu&#039;u le smamli stapa jamfu
+            ca&#039;o .o&#039;unai bu&#039;o jersi vo&#039;a
           </td>
         </tr>
         <tr
@@ -1146,9 +1215,9 @@ meta.priority: 7017
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le dinju poi renvi fi le nanca be li so'i zi'e poi pu'o mo'u
-            zdani cu simlu le ka jmive gi'e bilma palci vau tai lo nu su'o se
-            pagre be lo palci co'a kalri
+            .i le dinju poi renvi fi le nanca be li so&#039;i zi&#039;e poi
+            pu&#039;o mo&#039;u zdani cu simlu le ka jmive gi&#039;e bilma palci
+            vau tai lo nu su&#039;o se pagre be lo palci co&#039;a kalri
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The centuried, tottering houses on both sides seemed alive with a
@@ -1157,9 +1226,9 @@ meta.priority: 7017
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Les maisons centenaires et chancelantes de chaque côté semblaient
-            vivantes d'une malignité fraîche et morbide - comme si un canal
-            jusqu'alors fermé de compréhension maléfique avait été brusquement
-            ouvert.
+            vivantes d&#039;une malignité fraîche et morbide - comme si un canal
+            jusqu&#039;alors fermé de compréhension maléfique avait été
+            brusquement ouvert.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             As casas centenárias e cambaleantes de ambos os lados pareciam estar
@@ -1181,28 +1250,30 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i le ru'u mutce tolci'o je ralci dinju cu simlu le vifne ka palci
-            kei taida'i lenu lo na'e pu krasi be loi palci cu suska ke kalri
-            binxo
+            .i le ru&#039;u mutce tolci&#039;o je ralci dinju cu simlu le vifne
+            ka palci kei taida&#039;i lenu lo na&#039;e pu krasi be loi palci cu
+            suska ke kalri binxo
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
             .i le xaksu tolvitno sruri zdani cu simlu le cnino je bilma jmive
-            poi zukte zi'o le palci .ibo fu'epe'a ba'o suksa kalrygau ko'ogoi le
-            purganlo co jilra nunsanji fu'o
+            poi zukte zi&#039;o le palci .ibo fu&#039;epe&#039;a ba&#039;o suksa
+            kalrygau ko&#039;ogoi le purganlo co jilra nunsanji fu&#039;o
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i mi cikna senva le nu le za'u bitmu .e le korbi be lo drudi kordru
-            vu'o noi marji lo bliku e lo kandi cinta vu'o poi se gacri loi mledi
-            ku'o e loi mudri zi'e noi lo'e canko be ke'a cu simsa lo'e kanla
-            gi'e sa'orkurfa cu pu'o co'u rinju fi lo nu klama gi'e marxa mi .i
-            ku'i mi pu ku tcidu ba'e so'u pagbu be le to'e censa se ciska gi'e
-            ba bo ga'orgau le cukta gi'e bo co'a bevri
+            .i mi cikna senva le nu le za&#039;u bitmu .e le korbi be lo drudi
+            kordru vu&#039;o noi marji lo bliku e lo kandi cinta vu&#039;o poi
+            se gacri loi mledi ku&#039;o e loi mudri zi&#039;e noi lo&#039;e
+            canko be ke&#039;a cu simsa lo&#039;e kanla gi&#039;e
+            sa&#039;orkurfa cu pu&#039;o co&#039;u rinju fi lo nu klama
+            gi&#039;e marxa mi .i ku&#039;i mi pu ku tcidu ba&#039;e so&#039;u
+            pagbu be le to&#039;e censa se ciska gi&#039;e ba bo ga&#039;orgau
+            le cukta gi&#039;e bo co&#039;a bevri
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I felt that those walls and over-hanging gables of mildewed brick
@@ -1212,12 +1283,12 @@ meta.priority: 7017
             closing the book and bringing it away.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            J'ai senti que ces murs et ces pignons surplombants en brique moisi
-            et en plâtre et bois fongiques - avec des fenêtres en losange
-            semblables à des yeux qui souriaient - pouvaient à peine s'empêcher
-            de s'avancer et de m'écraser... pourtant, je n'avais lu que le
-            moindre fragment de ce rune blasphématoire avant de refermer le
-            livre et de l'emporter.
+            J&#039;ai senti que ces murs et ces pignons surplombants en brique
+            moisi et en plâtre et bois fongiques - avec des fenêtres en losange
+            semblables à des yeux qui souriaient - pouvaient à peine
+            s&#039;empêcher de s&#039;avancer et de m&#039;écraser... pourtant,
+            je n&#039;avais lu que le moindre fragment de ce rune blasphématoire
+            avant de refermer le livre et de l&#039;emporter.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Senti que aquelas paredes e beirais suspensos de tijolo mofado e
@@ -1245,20 +1316,22 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i simlu leza'i lei bitmu .e lei kordru ne loi mledi bliku kujoi loi
-            mledi mudri zi'ene le kanlysimsa je sa'orkurfa canko noi malzga ge'u
-            ca'a gunta gi'e zalvi mi .iku'i mi pu tcidu le cmalu po'o pagbu be
-            lei pacli sinxa pu'o lenu ganlygau le cukta gi'e cliva
+            .i simlu leza&#039;i lei bitmu .e lei kordru ne loi mledi bliku
+            kujoi loi mledi mudri zi&#039;ene le kanlysimsa je sa&#039;orkurfa
+            canko noi malzga ge&#039;u ca&#039;a gunta gi&#039;e zalvi mi
+            .iku&#039;i mi pu tcidu le cmalu po&#039;o pagbu be lei pacli sinxa
+            pu&#039;o lenu ganlygau le cukta gi&#039;e cliva
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i bitmu .i batytcena rudykoi .i gu'e dertu bliku gi te mledi mudri
-            je bakri .i le peseta'i lo salpykurfa ge'u kanlysmi canko cu simlu
-            co ckasu se jvinu .i fu'eda'i .ii rora jibni lenu nalkakne co narcfa
-            co nerkla je danryspo be mi fu'o .iseni'inaibo ba'o tcidu le paucma
-            po'o po'u lebi'unai jdanatfe ve sinxa pulenu ganlygau ko'a gi'ebabo
-            batybei
+            .i bitmu .i batytcena rudykoi .i gu&#039;e dertu bliku gi te mledi
+            mudri je bakri .i le peseta&#039;i lo salpykurfa ge&#039;u kanlysmi
+            canko cu simlu co ckasu se jvinu .i fu&#039;eda&#039;i .ii rora
+            jibni lenu nalkakne co narcfa co nerkla je danryspo be mi fu&#039;o
+            .iseni&#039;inaibo ba&#039;o tcidu le paucma po&#039;o po&#039;u
+            lebi&#039;unai jdanatfe ve sinxa pulenu ganlygau ko&#039;a
+            gi&#039;ebabo batybei
           </td>
         </tr>
         <tr
@@ -1281,18 +1354,18 @@ meta.priority: 7017
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o mi vedli lo ka ro mai tcidu fi le cukta fau le nu le flira be
-            mi cu blabi kei bu'u le galtu kumfa poi se stela zi'e noi mi pu ze'a
-            le clani cu lanli za'u cizra
+            ni&#039;o mi vedli lo ka ro mai tcidu fi le cukta fau le nu le flira
+            be mi cu blabi kei bu&#039;u le galtu kumfa poi se stela zi&#039;e
+            noi mi pu ze&#039;a le clani cu lanli za&#039;u cizra
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I remember how I read the book at last—white-faced, and locked in
             the attic room that I had long devoted to strange searchings.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je me souviens comment j'ai enfin lu le livre - le visage blanc,
-            enfermé dans la pièce du grenier que j'avais depuis longtemps
-            consacrée à d'étranges recherches.
+            Je me souviens comment j&#039;ai enfin lu le livre - le visage
+            blanc, enfermé dans la pièce du grenier que j&#039;avais depuis
+            longtemps consacrée à d&#039;étranges recherches.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Lembro-me de como li o livro por fim - pálido, trancado no sótão que
@@ -1310,16 +1383,16 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            ni'o mi morji ledu'u va'o makau mi tcidu le cukta .i blabi flira
-            gi'e nenri le zdaga'u kumfa noi mi pilno fi le cizra nu facki kei
-            po'o
+            ni&#039;o mi morji ledu&#039;u va&#039;o makau mi tcidu le cukta .i
+            blabi flira gi&#039;e nenri le zdaga&#039;u kumfa noi mi pilno fi le
+            cizra nu facki kei po&#039;o
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            ni'o ki .a'e morji lenu puki mulno tcidu .uo.u'a .i za'e pilda flira
-            .i stela le nitydru kumfa poi mi ze'u pilno ke'a lo tolfadni
-            nunsisku po'o
+            ni&#039;o ki .a&#039;e morji lenu puki mulno tcidu .uo.u&#039;a .i
+            za&#039;e pilda flira .i stela le nitydru kumfa poi mi ze&#039;u
+            pilno ke&#039;a lo tolfadni nunsisku po&#039;o
           </td>
         </tr>
         <tr
@@ -1335,16 +1408,16 @@ meta.priority: 7017
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le barda zdani pu mutce smaji .i ki'u bo mi klama le galtu ba le
-            mijycte
+            .i le barda zdani pu mutce smaji .i ki&#039;u bo mi klama le galtu
+            ba le mijycte
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The great house was very still, for I had not gone up till after
             midnight.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            La grande maison était très calme, car je n'étais pas monté avant
-            minuit.
+            La grande maison était très calme, car je n&#039;étais pas monté
+            avant minuit.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             A grande casa estava muito quieta, pois eu não havia subido até
@@ -1361,31 +1434,31 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i le barda zdani pu mutce smaji .iri'abo mi jai cfari ba'o le
-            mijycte
+            .i le barda zdani pu mutce smaji .iri&#039;abo mi jai cfari
+            ba&#039;o le mijycte
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i mulsma fa le zdabra .ito'unai nicte midju
+            .i mulsma fa le zdabra .ito&#039;unai nicte midju
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i mi ju'oru'e jinvi ledu'u pu ku ca le bi'u nai cedra mi cmima lo
-            lanzu to ku'i lei tcila na jai se vedli .i ba'a nai pu ku so'i da
-            selfu prenu toi
+            .i mi ju&#039;oru&#039;e jinvi ledu&#039;u pu ku ca le bi&#039;u nai
+            cedra mi cmima lo lanzu to ku&#039;i lei tcila na jai se vedli .i
+            ba&#039;a nai pu ku so&#039;i da selfu prenu toi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I think I had a family then—though the details are very
             uncertain—and I know there were many servants.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je pense que j'avais une famille à l'époque - bien que les détails
-            soient très incertains - et je sais qu'il y avait beaucoup de
-            serviteurs.
+            Je pense que j&#039;avais une famille à l&#039;époque - bien que les
+            détails soient très incertains - et je sais qu&#039;il y avait
+            beaucoup de serviteurs.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Acho que tinha uma família naquela época - embora os detalhes sejam
@@ -1402,23 +1475,25 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i mi ju'oru'e jinvi ledu'u mi pu cmima lo lanzu toku'i lei steci cu
-            jai se zunti toi kei gi'e ju'o jinvi tu'a le so'o selfu
+            .i mi ju&#039;oru&#039;e jinvi ledu&#039;u mi pu cmima lo lanzu
+            toku&#039;i lei steci cu jai se zunti toi kei gi&#039;e ju&#039;o
+            jinvi tu&#039;a le so&#039;o selfu
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i ki su'a ju'oru'e lanzu puku .iku'i na tcila birti .iju sefpre
-            si'imei ju'osai
+            .i ki su&#039;a ju&#039;oru&#039;e lanzu puku .iku&#039;i na tcila
+            birti .iju sefpre si&#039;imei ju&#039;osai
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i mi na djuno ledu'u xokau moi pu nanca . i ki'u bo mi ba'o lifri
-            tu'a so'i munje e le nanca be li gei so'i i ja'e bo ko'a voi sidbo
-            le te renvi mi co'u vajni gi'e co'a cnino
+            .i mi na djuno ledu&#039;u xokau moi pu nanca . i ki&#039;u bo mi
+            ba&#039;o lifri tu&#039;a so&#039;i munje e le nanca be li gei
+            so&#039;i i ja&#039;e bo ko&#039;a voi sidbo le te renvi mi
+            co&#039;u vajni gi&#039;e co&#039;a cnino
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Just what the year was I cannot say; for since then I have known
@@ -1426,9 +1501,9 @@ meta.priority: 7017
             dissolved and refashioned.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je ne peux pas dire quelle année c'était ; car depuis lors, j'ai
-            connu de nombreux âges et dimensions, et toutes mes notions de temps
-            ont été dissoutes et remodelées.
+            Je ne peux pas dire quelle année c&#039;était ; car depuis lors,
+            j&#039;ai connu de nombreux âges et dimensions, et toutes mes
+            notions de temps ont été dissoutes et remodelées.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Não consigo dizer ao certo qual era o ano; pois desde então tenho
@@ -1448,24 +1523,26 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i mi na djuno ledu'u xokau moi nanca kei ri'a leza'i ba'oku mi
-            djuno tu'a so'o temci .e so'o cimde gi'e jai se daspo je se galfi
-            fai ro le se jinvi be mi kupe le si'o temci
+            .i mi na djuno ledu&#039;u xokau moi nanca kei ri&#039;a leza&#039;i
+            ba&#039;oku mi djuno tu&#039;a so&#039;o temci .e so&#039;o cimde
+            gi&#039;e jai se daspo je se galfi fai ro le se jinvi be mi kupe le
+            si&#039;o temci
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i na detri sanji .i ba ra ku fu'e.u'e.i'unai ba'o lifri so'i cedra
-            .e kestei .ije ba'o runta je cnegau lemi temci sidbo fu'o
+            .i na detri sanji .i ba ra ku fu&#039;e.u&#039;e.i&#039;unai
+            ba&#039;o lifri so&#039;i cedra .e kestei .ije ba&#039;o runta je
+            cnegau lemi temci sidbo fu&#039;o
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ne'a lei grana be loi lakse poi jelca mi tcidu to mi vedli tu'a
-            le nu di'i farlu su'o dirgo be loi lakse toi .i sance lo janbe po lo
-            darno jabdi'u
+            .i ne&#039;a lei grana be loi lakse poi jelca mi tcidu to mi vedli
+            tu&#039;a le nu di&#039;i farlu su&#039;o dirgo be loi lakse toi .i
+            sance lo janbe po lo darno jabdi&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             It was by the light of candles that I read—I recall the relentless
@@ -1473,9 +1550,9 @@ meta.priority: 7017
             then from distant belfries.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            C'était à la lumière des bougies que je lisais - je me souviens de
-            la gouttelette implacable de la cire - et il y avait des carillons
-            qui venaient de temps en temps des clochers lointains.
+            C&#039;était à la lumière des bougies que je lisais - je me souviens
+            de la gouttelette implacable de la cire - et il y avait des
+            carillons qui venaient de temps en temps des clochers lointains.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Foi à luz de velas que li - lembro-me do gotejar implacável da cera
@@ -1493,23 +1570,23 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i sepi'o le gusni be fi lei laktergu'i mi pu tcidu to mi morji le
-            ru'i pu'u dirgo be lei lakse toi .ije se janbe ra'i lei darno janbe
-            claga'udi'u
+            .i sepi&#039;o le gusni be fi lei laktergu&#039;i mi pu tcidu to mi
+            morji le ru&#039;i pu&#039;u dirgo be lei lakse toi .ije se janbe
+            ra&#039;i lei darno janbe claga&#039;udi&#039;u
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i pukiku mi lakygrana se gusni tcidu .i ru'i digyfarlu lakse .ai .i
-            di'inai se janbe le darno galdinju
+            .i pukiku mi lakygrana se gusni tcidu .i ru&#039;i digyfarlu lakse
+            .ai .i di&#039;inai se janbe le darno galdinju
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i mi pu jundi lei bi'u nai sance tai da'i lenu mi terpa lonu mi
-            tirna fi lei bu fe lo ji'a gunta tonga poi cnino
+            .i mi pu jundi lei bi&#039;u nai sance tai da&#039;i lenu mi terpa
+            lonu mi tirna fi lei bu fe lo ji&#039;a gunta tonga poi cnino
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I seemed to keep track of those chimes with a peculiar intentness,
@@ -1517,8 +1594,8 @@ meta.priority: 7017
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Il me semblait suivre ces carillons avec une attention particulière,
-            comme si je craignais d'entendre une note très éloignée et intrusive
-            parmi eux.
+            comme si je craignais d&#039;entendre une note très éloignée et
+            intrusive parmi eux.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Parecia que eu acompanhava essas badaladas com uma atenção peculiar,
@@ -1536,14 +1613,15 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i mi pu jundi lei sance taida'i lenu mi terpa lonu mi tirna lo
+            .i mi pu jundi lei sance taida&#039;i lenu mi terpa lonu mi tirna lo
             dicra tonga ra
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i cizra pe'ipei jundi le se janbe .i da'i mu'ibo lenu mi terpa
-            ledu'u tirna fi ra fe di poi darnycai je zunti tonga ge'ero'enaisai
+            .i cizra pe&#039;ipei jundi le se janbe .i da&#039;i mu&#039;ibo
+            lenu mi terpa ledu&#039;u tirna fi ra fe di poi darnycai je zunti
+            tonga ge&#039;ero&#039;enaisai
           </td>
         </tr>
         <tr
@@ -1566,8 +1644,8 @@ meta.priority: 7017
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o co'a ku nu sraku gi'e savru vi le canko pe le galtu kumfa zi'e
-            noi galtu fi le'e drata drudi pe le tcadu
+            ni&#039;o co&#039;a ku nu sraku gi&#039;e savru vi le canko pe le
+            galtu kumfa zi&#039;e noi galtu fi le&#039;e drata drudi pe le tcadu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Then came the first scratching and fumbling at the dormer window
@@ -1592,14 +1670,15 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            ni'o caku lenu sraku gi'e savru vi le cankrdormere noi le galtu be
-            fi le drata drudi pe vi le tcadu cu jvinu fi ke'a
+            ni&#039;o caku lenu sraku gi&#039;e savru vi le cankrdormere noi le
+            galtu be fi le drata drudi pe vi le tcadu cu jvinu fi ke&#039;a
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            ni'o .a'i.ue co'a sance le guska joi juxre .i bartu le canko .i
-            canko le vorme poi te jvinu le gapru co drata drudi pele tcadu
+            ni&#039;o .a&#039;i.ue co&#039;a sance le guska joi juxre .i bartu
+            le canko .i canko le vorme poi te jvinu le gapru co drata drudi pele
+            tcadu
           </td>
         </tr>
         <tr
@@ -1616,8 +1695,8 @@ meta.priority: 7017
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i pu cfari ca lenu mi bacru le somoi pemcypau be le prosa ne le
-            clira munje .ije mi pu djuno fau lenu mi desku kei ledu'u sinxa ma
-            kau
+            clira munje .ije mi pu djuno fau lenu mi desku kei ledu&#039;u sinxa
+            ma kau
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             It came as I droned aloud the ninth verse of that primal lay, and I
@@ -1645,22 +1724,23 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i cfari ca lenu mi bacru le somoi pagbu be le tolci'o prosa .ije mi
-            pu djuno fau lenu mi desku kei ledu'u makau smuni
+            .i cfari ca lenu mi bacru le somoi pagbu be le tolci&#039;o prosa
+            .ije mi pu djuno fau lenu mi desku kei ledu&#039;u makau smuni
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i ko'u cabna lenu mi sagbacru le somoi pemcypau po'u da noi
-            mujyclira .ice tepydesku jimpe fu'e.ainai le smuni be ko'u
+            .i ko&#039;u cabna lenu mi sagbacru le somoi pemcypau po&#039;u da
+            noi mujyclira .ice tepydesku jimpe fu&#039;e.ainai le smuni be
+            ko&#039;u
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i krinu fa le nu ro da ga nai pagre gi co'a se ctino gi'e co'u ka'e
-            kansa no de
+            .i krinu fa le nu ro da ga nai pagre gi co&#039;a se ctino gi&#039;e
+            co&#039;u ka&#039;e kansa no de
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             For he who passes the gateways always wins a shadow, and never again
@@ -1685,29 +1765,29 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i roda zo'u ganai da pagre lei pluta gi da jerna lo ctino gi'e ba
-            na ka'e to'e kansa
+            .i roda zo&#039;u ganai da pagre lei pluta gi da jerna lo ctino
+            gi&#039;e ba na ka&#039;e to&#039;e kansa
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i ca'e lo pagre be ko'e roroi te jmina le ctinytai .ije la'edi'u se
-            balvi leza'i mulkansa fu'o
+            .i ca&#039;e lo pagre be ko&#039;e roroi te jmina le ctinytai .ije
+            la&#039;edi&#039;u se balvi leza&#039;i mulkansa fu&#039;o
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i mi puba'o makfa benji .ije le cukta cu je'a tutci ro da poi mi
-            kanpe lo nu nei ke'a
+            .i mi puba&#039;o makfa benji .ije le cukta cu je&#039;a tutci ro da
+            poi mi kanpe lo nu nei ke&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I had evoked—and the book was indeed all I had suspected.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            J'avais évoqué - et le livre était en effet tout ce que j'avais
-            soupçonné.
+            J&#039;avais évoqué - et le livre était en effet tout ce que
+            j&#039;avais soupçonné.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Eu tinha evocado — e o livro era de fato tudo o que eu suspeitava.
@@ -1721,23 +1801,24 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i mi puba'o krixa .ije le cukta cu ca'a me ro le nalspaji be mi
+            .i mi puba&#039;o krixa .ije le cukta cu ca&#039;a me ro le nalspaji
+            be mi
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .iba'o makfa benji .iju'o ko'a dunli le se jijnu be le pu mibypre
-            .u'anaicai
+            .iba&#039;o makfa benji .iju&#039;o ko&#039;a dunli le se jijnu be
+            le pu mibypre .u&#039;anaicai
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ca le bi'u nai nicte mi pagre fi le cizra te kruca be loi temci
-            bei loi jvinu .i ca le cermurse mi zgana le nu lei bitmu .e lei
-            kajna cu se tcila su'o da poi mi pu na ku kakne lo ka zgana tu'a
-            ke'a
+            .i ca le bi&#039;u nai nicte mi pagre fi le cizra te kruca be loi
+            temci bei loi jvinu .i ca le cermurse mi zgana le nu lei bitmu .e
+            lei kajna cu se tcila su&#039;o da poi mi pu na ku kakne lo ka zgana
+            tu&#039;a ke&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             That night I passed the gateway to a vortex of twisted time and
@@ -1745,10 +1826,10 @@ meta.priority: 7017
             walls and shelves and fittings that which I had never seen before.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Cette nuit-là, j'ai franchi le portail vers un tourbillon de temps
-            et de vision tordus, et quand le matin m'a trouvé dans la chambre du
-            grenier, j'ai vu dans les murs et les étagères et les aménagements
-            ce que je n'avais jamais vu auparavant.
+            Cette nuit-là, j&#039;ai franchi le portail vers un tourbillon de
+            temps et de vision tordus, et quand le matin m&#039;a trouvé dans la
+            chambre du grenier, j&#039;ai vu dans les murs et les étagères et
+            les aménagements ce que je n&#039;avais jamais vu auparavant.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Naquela noite, passei pelo portal para um redemoinho de tempo e
@@ -1771,15 +1852,16 @@ meta.priority: 7017
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
             .i ca le nicte mi pagre lei pluta le cizra terkruca be loi temci bei
-            loi jvinu .ije ca le cermurse mi zgana lei bitmu .e lei kajna va'o
-            leka tcila kei poi mi na pu kakne
+            loi jvinu .ije ca le cermurse mi zgana lei bitmu .e lei kajna
+            va&#039;o leka tcila kei poi mi na pu kakne
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i ve'a le mintu nicte kuku fe ko'e pagre le balsarlu co temci joi
-            menli .ije le cerni nitydru bo kumfa zo'u viska fa le balmibypre
-            ne'i le bitmu .e le kajna .e le ve lasna fe le narpruselvi'a
+            .i ve&#039;a le mintu nicte kuku fe ko&#039;e pagre le balsarlu co
+            temci joi menli .ije le cerni nitydru bo kumfa zo&#039;u viska fa le
+            balmibypre ne&#039;i le bitmu .e le kajna .e le ve lasna fe le
+            narpruselvi&#039;a
           </td>
         </tr>
         <tr
@@ -1811,13 +1893,14 @@ meta.priority: 7017
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o ji'a ba le fasnu mi na ka'e ganse tai le purci
+            ni&#039;o ji&#039;a ba le fasnu mi na ka&#039;e ganse tai le purci
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Nor could I ever after see the world as I had known it.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Et je ne pouvais plus jamais voir le monde tel que je l'avais connu.
+            Et je ne pouvais plus jamais voir le monde tel que je l&#039;avais
+            connu.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Nem nunca mais pude ver o mundo como o conhecia.
@@ -1831,21 +1914,23 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            ni'o ji'a mi na ba'o ka'e zgana tai le purci
+            ni&#039;o ji&#039;a mi na ba&#039;o ka&#039;e zgana tai le purci
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            ni'o na viska le munje teki'i le purci ku ba la'ede'u
+            ni&#039;o na viska le munje teki&#039;i le purci ku ba
+            la&#039;ede&#039;u
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ro da poi mi cabna tu'a mi zo'u co'a jvinu da mi fa lo mixre be
-            loi purci e loi balvi .i je ro slabu co'a jai se ganse fai lo nu ri
-            cizra cnino kei fi le mo'u zenba be lo ka vlipa
+            .i ro da poi mi cabna tu&#039;a mi zo&#039;u co&#039;a jvinu da mi
+            fa lo mixre be loi purci e loi balvi .i je ro slabu co&#039;a jai se
+            ganse fai lo nu ri cizra cnino kei fi le mo&#039;u zenba be lo ka
+            vlipa
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Mixed with the present scene was always a little of the past and a
@@ -1876,24 +1961,25 @@ meta.priority: 7017
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
             .i le cabna cu se mixre co binxo loi purci kujoi loi balvi .ije ro
-            slabu cu cizra co binxo va'o le cnino te jvinu
+            slabu cu cizra co binxo va&#039;o le cnino te jvinu
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i roroi mixre fa le cabna bemi be'o le cabna ku joi le so'omei be
-            le purci .i ro le pu slabu dacti cu simlu le cizra xebe'i le cnino
-            je zenba pu'u viska
+            .i roroi mixre fa le cabna bemi be&#039;o le cabna ku joi le
+            so&#039;omei be le purci .i ro le pu slabu dacti cu simlu le cizra
+            xebe&#039;i le cnino je zenba pu&#039;u viska
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i mi co'a na'o litru fi lo ka se manci senva vau fe le'i le se
-            tarmi poi fange gi'e xadba slabu .i ro da poi cnino gi'e mo'u se
-            pagre mi cu jai rinka lenu mi jdika lo ka se slabu le'e dacti po le
-            jarki munje poi mi pu ze'u te bancu
+            .i mi co&#039;a na&#039;o litru fi lo ka se manci senva vau fe
+            le&#039;i le se tarmi poi fange gi&#039;e xadba slabu .i ro da poi
+            cnino gi&#039;e mo&#039;u se pagre mi cu jai rinka lenu mi jdika lo
+            ka se slabu le&#039;e dacti po le jarki munje poi mi pu ze&#039;u te
+            bancu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             From then on I walked in a fantastic dream of unknown and half-known
@@ -1905,7 +1991,7 @@ meta.priority: 7017
             Dès lors, je marchais dans un rêve fantastique de formes inconnues
             et à moitié connues ; et à chaque nouveau portail franchi, moins
             clairement pouvais-je reconnaître les choses de la sphère étroite à
-            laquelle j'avais été si longtemps lié.
+            laquelle j&#039;avais été si longtemps lié.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             A partir daquele momento, caminhei em um sonho fantástico de formas
@@ -1927,26 +2013,28 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i mi senva cadzu va'o lei to'e slabu tarmi .i ro pluta poi mi pagre
-            ke'a cu jai rinka lenu leni slabu to va'o le jarki munje poi mi pu
-            bancu ke'a toi cu se jdika
+            .i mi senva cadzu va&#039;o lei to&#039;e slabu tarmi .i ro pluta
+            poi mi pagre ke&#039;a cu jai rinka lenu leni slabu to va&#039;o le
+            jarki munje poi mi pu bancu ke&#039;a toi cu se jdika
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i ze'ubakiku senva cadzu pa'o le se manci peta'i le se tolju'o .a
-            le se junmle .i daxiny.poi fu'epe'a ckiku je gidvu fu'o zo'u li
-            ny.mei ve mlecu fi leka mi kakne co saurju'o le dacti po'u le jarki
-            munje noi clani bapli mi
+            .i ze&#039;ubakiku senva cadzu pa&#039;o le se manci peta&#039;i le
+            se tolju&#039;o .a le se junmle .i daxiny.poi fu&#039;epe&#039;a
+            ckiku je gidvu fu&#039;o zo&#039;u li ny.mei ve mlecu fi leka mi
+            kakne co saurju&#039;o le dacti po&#039;u le jarki munje noi clani
+            bapli mi
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le se ganse be mi na se ganse le'e drata .ije mi zukte lo ka
-            zenba lo ka smaji gi'e jai gau rivbi .i je go'i fi lo nu lo'e drata
-            na jinvi le du'u mi bilma tu'e le menli be mi
+            .i le se ganse be mi na se ganse le&#039;e drata .ije mi zukte lo ka
+            zenba lo ka smaji gi&#039;e jai gau rivbi .i je go&#039;i fi lo nu
+            lo&#039;e drata na jinvi le du&#039;u mi bilma tu&#039;e le menli be
+            mi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             What I saw about me, none else saw; and I grew doubly silent and
@@ -1954,8 +2042,8 @@ meta.priority: 7017
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Ce que je voyais autour de moi, nul autre ne le voyait ; et je
-            devenais doublement silencieux et distant de peur d'être considéré
-            comme fou.
+            devenais doublement silencieux et distant de peur d&#039;être
+            considéré comme fou.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             O que eu via ao meu redor, mais ninguém via; e eu me tornei
@@ -1972,29 +2060,29 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i le se jimpe be mi cu se jimpe no na'ebo mi .ije mi smaji binxo
-            mu'i lenu rivbi loinu jinvi ledu'u mi menlybilma
+            .i le se jimpe be mi cu se jimpe no na&#039;ebo mi .ije mi smaji
+            binxo mu&#039;i lenu rivbi loinu jinvi ledu&#039;u mi menlybilma
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i mi .enai lo drata cu viska le vanbi bevo'a .i smamau je naljikca
-            binxo balmibypre seki'u lenu mi na simlu le fenki
+            .i mi .enai lo drata cu viska le vanbi bevo&#039;a .i smamau je
+            naljikca binxo balmibypre seki&#039;u lenu mi na simlu le fenki
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i lo'e gerku cu terpa mi ri'a le nu se'o ri ganse le nu da na'o
-            bancu bi'u nai ctino mi
+            .i lo&#039;e gerku cu terpa mi ri&#039;a le nu se&#039;o ri ganse le
+            nu da na&#039;o bancu bi&#039;u nai ctino mi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Dogs had a fear of me, for they felt the outside shadow which never
             left my side.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Les chiens avaient peur de moi, car ils ressentaient l'ombre
+            Les chiens avaient peur de moi, car ils ressentaient l&#039;ombre
             extérieure qui ne me quittait jamais.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
@@ -2012,24 +2100,24 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i lo'e gerku cu terpa mi ri'a leza'i ri ka'e ganse le ctino poi na
-            ru'a zvati mi
+            .i lo&#039;e gerku cu terpa mi ri&#039;a leza&#039;i ri ka&#039;e
+            ganse le ctino poi na ru&#039;a zvati mi
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i le gerku mi ta'e terpa .i ra jijnu fo'agoi lebi'unai ctinytai noi
-            noroi nalylamji mi
+            .i le gerku mi ta&#039;e terpa .i ra jijnu fo&#039;agoi
+            lebi&#039;unai ctinytai noi noroi nalylamji mi
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ku'i mi ca'o tcidu fi le cukta poi se mipri gi'a co'u jai se
-            morji ku'o .e le salrypapri vu'o noi le nu mi co'a vlipa le cnino cu
-            rinka le nu nei .i mi gunta pagre lei vorme be fo lei canlu fi le
-            midju be le to'e se djuno munje
+            .i ku&#039;i mi ca&#039;o tcidu fi le cukta poi se mipri gi&#039;a
+            co&#039;u jai se morji ku&#039;o .e le salrypapri vu&#039;o noi le
+            nu mi co&#039;a vlipa le cnino cu rinka le nu nei .i mi gunta pagre
+            lei vorme be fo lei canlu fi le midju be le to&#039;e se djuno munje
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             But still I read more—in hidden, forgotten books and scrolls to
@@ -2040,8 +2128,8 @@ meta.priority: 7017
           <td class="text-left align-text-top p-2 column-class-fraso">
             Mais je continuais à lire davantage - dans des livres et des
             parchemins cachés et oubliés vers lesquels ma nouvelle vision me
-            conduisait - et à traverser de nouveaux portails de l'espace et de
-            l'être et des motifs de vie vers le cœur du cosmos inconnu.
+            conduisait - et à traverser de nouveaux portails de l&#039;espace et
+            de l&#039;être et des motifs de vie vers le cœur du cosmos inconnu.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Mas ainda assim eu lia mais — em livros e pergaminhos escondidos e
@@ -2064,17 +2152,18 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .iku'i mi tcidu ji'a .i le mipri tolmorji cutka .e le salrypapri cu
-            jai te junri'a le cnino vlipa mi .i mi pagre lei vifne pluta le
-            midju be le to'e se djuno munje
+            .iku&#039;i mi tcidu ji&#039;a .i le mipri tolmorji cutka .e le
+            salrypapri cu jai te junri&#039;a le cnino vlipa mi .i mi pagre lei
+            vifne pluta le midju be le to&#039;e se djuno munje
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i si'a ca'o tcidu .i tcidu le cukta .e le slanycku vu'opoi tolgubni
-            ja se tolmorji ke'a zi'epoi le cnino puvyviska cu gidva zo'i ke'a .i
-            mi danre pagre le darmau se ckiku pe'a pelo kensa canlu .e lo
-            nunzasti .e lo banrymorna ge'u le muctymunje midju co se tolju'o
+            .i si&#039;a ca&#039;o tcidu .i tcidu le cukta .e le slanycku
+            vu&#039;opoi tolgubni ja se tolmorji ke&#039;a zi&#039;epoi le cnino
+            puvyviska cu gidva zo&#039;i ke&#039;a .i mi danre pagre le darmau
+            se ckiku pe&#039;a pelo kensa canlu .e lo nunzasti .e lo banrymorna
+            ge&#039;u le muctymunje midju co se tolju&#039;o
           </td>
         </tr>
         <tr
@@ -2097,10 +2186,10 @@ meta.priority: 7017
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o mi morji fi le nicte voi ca ke'a mi ciska le mu midjydunli
-            cuktai be ma'e loi fagri le loldi gi'e sanli le midju cuktai gi'e
-            bacru le barda je cizra voi le klama be fi la .tartaris. cu benji
-            ke'a
+            ni&#039;o mi morji fi le nicte voi ca ke&#039;a mi ciska le mu
+            midjydunli cuktai be ma&#039;e loi fagri le loldi gi&#039;e sanli le
+            midju cuktai gi&#039;e bacru le barda je cizra voi le klama be fi la
+            .tartaris. cu benji ke&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I remember the night I made the five concentric circles of fire on
@@ -2108,7 +2197,7 @@ meta.priority: 7017
             litany the messenger from Tartary had brought.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je me souviens de la nuit où j'ai tracé les cinq cercles
+            Je me souviens de la nuit où j&#039;ai tracé les cinq cercles
             concentriques de feu sur le sol, et me suis tenu dans le plus
             intérieur en récitant cette monstrueuse litanie que le messager de
             Tartarie avait apportée.
@@ -2131,26 +2220,28 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            ni'o mi morji fi le nicte poi ca ke'a mi ciska le mu midjydunli
-            cuktai le loldi loi fagri gi'e sanli le midju gi'e bacru le bardytce
-            se cusku poi ke'a klama be fi la tartaris. co se bevri
+            ni&#039;o mi morji fi le nicte poi ca ke&#039;a mi ciska le mu
+            midjydunli cuktai le loldi loi fagri gi&#039;e sanli le midju
+            gi&#039;e bacru le bardytce se cusku poi ke&#039;a klama be fi la
+            tartaris. co se bevri
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            ni'o ki .a'e morji le nicte poi vi ke'a ku mi puki zbasu mu
-            midjymintu cukla le jelca bu'u le loldi .i sanli le midju .i
-            sagbacru .i fo'egoi le tolcnano stepemci ba'o notci se bevri fo la
-            tartar.
+            ni&#039;o ki .a&#039;e morji le nicte poi vi ke&#039;a ku mi puki
+            zbasu mu midjymintu cukla le jelca bu&#039;u le loldi .i sanli le
+            midju .i sagbacru .i fo&#039;egoi le tolcnano stepemci ba&#039;o
+            notci se bevri fo la tartar.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i lei bitmu cu runme .ije mi bai le palci brife cu klama fo le'i
-            ve'u fenra poi na se jimte gi'e grusi gi'e vasru lo fange cmana poi
-            se jipno lo jesni gi'e cnita mi la'u le minli be li so'i
+            .i lei bitmu cu runme .ije mi bai le palci brife cu klama fo
+            le&#039;i ve&#039;u fenra poi na se jimte gi&#039;e grusi gi&#039;e
+            vasru lo fange cmana poi se jipno lo jesni gi&#039;e cnita mi
+            la&#039;u le minli be li so&#039;i
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The walls melted away, and I was swept by a black wind through gulfs
@@ -2158,7 +2249,7 @@ meta.priority: 7017
             mountains miles below me.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Les murs se sont fondus, et j'ai été emporté par un vent noir à
+            Les murs se sont fondus, et j&#039;ai été emporté par un vent noir à
             travers des gouffres de gris impénétrable avec les pinnacles acérés
             de montagnes inconnues à des kilomètres en dessous de moi.
           </td>
@@ -2181,24 +2272,25 @@ meta.priority: 7017
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
             .i lei bitmu cu runme .ije mi bai le palci brife cu klama fo le
-            ma'arfe'a poi curve leka grusi kei va'o le pe tai lo'e jesni ku to'e
-            djuno galma'a poi cnita mi do'e za'u minli
+            ma&#039;arfe&#039;a poi curve leka grusi kei va&#039;o le pe tai
+            lo&#039;e jesni ku to&#039;e djuno galma&#039;a poi cnita mi
+            do&#039;e za&#039;u minli
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            i le bitmu ba'o runme .ibabo le xekri brife mi vilbei pa'o le balcoi
-            co lolcau je grusi i le bitmu ba'o runme .ibabo le xekri brife mi
-            vilbei pa'o le balcoi co lolcau je grusi .i minli se cnita le
-            jesnysmi jipno be le nalslabu cmana
+            i le bitmu ba&#039;o runme .ibabo le xekri brife mi vilbei pa&#039;o
+            le balcoi co lolcau je grusi i le bitmu ba&#039;o runme .ibabo le
+            xekri brife mi vilbei pa&#039;o le balcoi co lolcau je grusi .i
+            minli se cnita le jesnysmi jipno be le nalslabu cmana
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i bazaku mulno manku .ije baziku le gusni be fi lei gei so'i tarci
-            ku noi se tarmi lo fange
+            .i bazaku mulno manku .ije baziku le gusni be fi lei gei so&#039;i
+            tarci ku noi se tarmi lo fange
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             After a while there was utter blackness, and then the light of
@@ -2206,7 +2298,8 @@ meta.priority: 7017
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Après un moment, il y eut une obscurité totale, puis la lumière de
-            myriades d'étoiles formant d'étranges constellations étrangères.
+            myriades d&#039;étoiles formant d&#039;étranges constellations
+            étrangères.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Depois de um tempo, houve uma escuridão total, e então a luz de
@@ -2223,23 +2316,24 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .ibazaku mulno maknu .ije baziku le gusni be fi lei tarci noi ke'a
-            te zbasu le cizra je na'e terdi tartai cu co'e
+            .ibazaku mulno maknu .ije baziku le gusni be fi lei tarci noi
+            ke&#039;a te zbasu le cizra je na&#039;e terdi tartai cu co&#039;e
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .ibaze'aku mulno manku .ibabo te gusni co gigdo tarci ta'i le cizra
-            je tolslabu tarmorna
+            .ibaze&#039;aku mulno manku .ibabo te gusni co gigdo tarci ta&#039;i
+            le cizra je tolslabu tarmorna
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ro mai mi viska le crino foldi poi cnita mi ku'o gi'e zgana le
-            vi'i ve'u korcu dinju po le tcadu noi se zbasu ta'i no da poi mi
-            djuno ke'a gi'a tcidu lu'e ke'a gi'a senva ke'a
+            .i ro mai mi viska le crino foldi poi cnita mi ku&#039;o gi&#039;e
+            zgana le vi&#039;i ve&#039;u korcu dinju po le tcadu noi se zbasu
+            ta&#039;i no da poi mi djuno ke&#039;a gi&#039;a tcidu lu&#039;e
+            ke&#039;a gi&#039;a senva ke&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Finally I saw a green-litten plain far below me, and discerned on it
@@ -2247,9 +2341,10 @@ meta.priority: 7017
             read or dreamed of.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Enfin, j'ai vu une plaine éclairée de vert loin en dessous de moi,
-            et discerné sur elle les tours tordues d'une ville construite
-            d'aucune manière que j'aie jamais connue, lue ou rêvée.
+            Enfin, j&#039;ai vu une plaine éclairée de vert loin en dessous de
+            moi, et discerné sur elle les tours tordues d&#039;une ville
+            construite d&#039;aucune manière que j&#039;aie jamais connue, lue
+            ou rêvée.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Finalmente, vi uma planície verde-iluminada longe abaixo de mim, e
@@ -2269,34 +2364,35 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i mo'ubo mi viska le crino foldi poi cnita mi .ije zgana le
-            claga'udi'u pe le tcadu noi zbasu ke'a ta'i no se djuno ja se tcidu
-            ja se senva vu'o pe mi
+            .i mo&#039;ubo mi viska le crino foldi poi cnita mi .ije zgana le
+            claga&#039;udi&#039;u pe le tcadu noi zbasu ke&#039;a ta&#039;i no
+            se djuno ja se tcidu ja se senva vu&#039;o pe mi
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i ta'onai viska le plita co crino se gusni peni'ave'u mi .i vi ra
-            ku sarlykru galdinju tcadu tepa'a no tcadu poi mi djuno ja tcidu ja
-            senva sera'a ke'a
+            .i ta&#039;onai viska le plita co crino se gusni
+            peni&#039;ave&#039;u mi .i vi ra ku sarlykru galdinju tcadu
+            tepa&#039;a no tcadu poi mi djuno ja tcidu ja senva sera&#039;a
+            ke&#039;a
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ze'a le nu mi fulta klama le tcadu kei mi viska le barda je kurfa
-            je rocki dinju pe re'o le ve'u klina gi'e co'a cinmo lo ka terpa
-            su'o palci
+            .i ze&#039;a le nu mi fulta klama le tcadu kei mi viska le barda je
+            kurfa je rocki dinju pe re&#039;o le ve&#039;u klina gi&#039;e
+            co&#039;a cinmo lo ka terpa su&#039;o palci
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             As I floated closer to that city I saw a great square building of
             stone in an open space, and felt a hideous fear clutching at me.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Alors que je flottais plus près de cette ville, j'ai vu un grand
-            bâtiment carré en pierre dans un espace ouvert, et j'ai ressenti une
-            peur hideuse m'étreignant.
+            Alors que je flottais plus près de cette ville, j&#039;ai vu un
+            grand bâtiment carré en pierre dans un espace ouvert, et j&#039;ai
+            ressenti une peur hideuse m&#039;étreignant.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Conforme flutuava mais perto daquela cidade, vi um grande edifício
@@ -2316,25 +2412,25 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i ca'o lezu'o mi fulta klama le tcadu kei mi viska le barda je
-            kurfa je rocki dinju pe vi le klina gi'e ganse lenu le palci ka
-            terpa kei cu se cinmo mi
+            .i ca&#039;o lezu&#039;o mi fulta klama le tcadu kei mi viska le
+            barda je kurfa je rocki dinju pe vi le klina gi&#039;e ganse lenu le
+            palci ka terpa kei cu se cinmo mi
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i jbimau fluvoi fa'a fo'igoi lebi'unai tcadu .icabo viska le banli
-            rokci je kurfa dinju vi le kunti foldi .i cinmo le tolmelbi nunterpa
-            poi jgari pe'a
+            .i jbimau fluvoi fa&#039;a fo&#039;igoi lebi&#039;unai tcadu .icabo
+            viska le banli rokci je kurfa dinju vi le kunti foldi .i cinmo le
+            tolmelbi nunterpa poi jgari pe&#039;a
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i mi carmi krixa gi'e damba .ije ca lenu manku kei mi tu'ore'u
-            zvati le galtu kumfa gi'e kalsa vreta ru'u lei mu fagri cuktai poi
-            cpana le loldi
+            .i mi carmi krixa gi&#039;e damba .ije ca lenu manku kei mi
+            tu&#039;ore&#039;u zvati le galtu kumfa gi&#039;e kalsa vreta
+            ru&#039;u lei mu fagri cuktai poi cpana le loldi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I screamed and struggled, and after a blankness was again in my
@@ -2342,9 +2438,9 @@ meta.priority: 7017
             floor.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            J'ai crié et lutté, et après un blanc, je me suis retrouvé à nouveau
-            dans ma chambre de grenier, étalé à plat sur les cinq cercles
-            phosphorescents sur le sol.
+            J&#039;ai crié et lutté, et après un blanc, je me suis retrouvé à
+            nouveau dans ma chambre de grenier, étalé à plat sur les cinq
+            cercles phosphorescents sur le sol.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Gritei e lutei, e depois de um vazio, estava novamente em meu quarto
@@ -2364,24 +2460,25 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i mi cairki'a gi'e damba .ije ba'o lenu manku kei mi tu'ore'u zvati
-            le zdaga'u kumfa gi'e kalsa capna le mu fagri cuktai poi capna le
-            loldi
+            .i mi cairki&#039;a gi&#039;e damba .ije ba&#039;o lenu manku kei mi
+            tu&#039;ore&#039;u zvati le zdaga&#039;u kumfa gi&#039;e kalsa capna
+            le mu fagri cuktai poi capna le loldi
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i tepcmo .i damba .i za'i kunti co menli .ibabo di'a nitydru kumfa
-            .i vreta le mu murse ke loldi cukla
+            .i tepcmo .i damba .i za&#039;i kunti co menli .ibabo di&#039;a
+            nitydru kumfa .i vreta le mu murse ke loldi cukla
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i le bi'unai nicte na zmadu so'o le pu nicte leka cizra .iku'i ja'a
-            go'i fi leka sela'u li xo kau mi terpa kei mu'i leza'i mi djuno
-            ledu'u mi pa roi jibni le za'u bartu munje
+            .i le bi&#039;unai nicte na zmadu so&#039;o le pu nicte leka cizra
+            .iku&#039;i ja&#039;a go&#039;i fi leka sela&#039;u li xo kau mi
+            terpa kei mu&#039;i leza&#039;i mi djuno ledu&#039;u mi pa roi jibni
+            le za&#039;u bartu munje
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             In that night’s wandering there was no more of strangeness than in
@@ -2390,10 +2487,10 @@ meta.priority: 7017
             had ever been before.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Cette nuit-là, il n'y avait pas plus d'étrangeté que lors de
-            nombreuses nuits précédentes ; mais il y avait plus de terreur car
-            je savais que j'étais plus proche de ces gouffres et mondes
-            extérieurs que je ne l'avais jamais été auparavant.
+            Cette nuit-là, il n&#039;y avait pas plus d&#039;étrangeté que lors
+            de nombreuses nuits précédentes ; mais il y avait plus de terreur
+            car je savais que j&#039;étais plus proche de ces gouffres et mondes
+            extérieurs que je ne l&#039;avais jamais été auparavant.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             Naquela noite de vagabundagem, não havia mais estranheza do que em
@@ -2416,28 +2513,29 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .i le nicte cu na zmadu so'o le pu nicte leka cizra .iku'i go'i fi
-            leka terpa kei mu'i leza'i mi djuno ledu'u mi ca jibni le bartu
-            munje
+            .i le nicte cu na zmadu so&#039;o le pu nicte leka cizra .iku&#039;i
+            go&#039;i fi leka terpa kei mu&#039;i leza&#039;i mi djuno
+            ledu&#039;u mi ca jibni le bartu munje
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            .i le steci nicte pu'u litru kei cu se pagbu gezu'u le mlecu befi
-            leka cizra kei beife so'i purci nicte be'obe'o gizu'unai le zmadu
-            befi leka tepcai .iki'ubo jimpe ledu'u mi zmadu fi leka jibni le
-            bartu pe'a balcoi je plini keiku fe ro purci be mi .ibabo co'a to'e
-            darsi co makfa sagbacru
+            .i le steci nicte pu&#039;u litru kei cu se pagbu gezu&#039;u le
+            mlecu befi leka cizra kei beife so&#039;i purci nicte
+            be&#039;obe&#039;o gizu&#039;unai le zmadu befi leka tepcai
+            .iki&#039;ubo jimpe ledu&#039;u mi zmadu fi leka jibni le bartu
+            pe&#039;a balcoi je plini keiku fe ro purci be mi .ibabo co&#039;a
+            to&#039;e darsi co makfa sagbacru
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i co'a ku mi bacru lo'e jai makfa fau ro nu mi morji fi le ckape
-            .imu'ibo mi na djica lonu mi co'u jorne le xadni be mi ku .e le
-            terdi gi'e fau bo zvati su'o ve'u fenra poi fange gi'e mi na ka'e
-            cliva ke'a
+            .i co&#039;a ku mi bacru lo&#039;e jai makfa fau ro nu mi morji fi
+            le ckape .imu&#039;ibo mi na djica lonu mi co&#039;u jorne le xadni
+            be mi ku .e le terdi gi&#039;e fau bo zvati su&#039;o ve&#039;u
+            fenra poi fange gi&#039;e mi na ka&#039;e cliva ke&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Thereafter I was more cautious with my incantations, for I had no
@@ -2445,9 +2543,9 @@ meta.priority: 7017
             abysses whence I could never return.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Par la suite, j'ai été plus prudent dans mes incantations, car je ne
-            voulais pas être coupé de mon corps et de la terre dans des abîmes
-            inconnus d'où je ne pourrais jamais revenir.
+            Par la suite, j&#039;ai été plus prudent dans mes incantations, car
+            je ne voulais pas être coupé de mon corps et de la terre dans des
+            abîmes inconnus d&#039;où je ne pourrais jamais revenir.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
             A partir daí, fui mais cauteloso com minhas invocações, pois não
@@ -2467,22 +2565,25 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Jordan_DeLong_gy_"
           >
-            .iba'obo kajde mi lezu'o bacru .imu'ibo mi na djica lonu mi cu to'e
-            jorne binxo le xadni be mi ku .e le terdi va'o loi to'e djuno zvati
-            poi mi noroi ka'e cliva ke'a
+            .iba&#039;obo kajde mi lezu&#039;o bacru .imu&#039;ibo mi na djica
+            lonu mi cu to&#039;e jorne binxo le xadni be mi ku .e le terdi
+            va&#039;o loi to&#039;e djuno zvati poi mi noroi ka&#039;e cliva
+            ke&#039;a
           </td>
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
             .i naku djica lenu seirgau le balmibypre .e le xadni .e le terdi
-            ne'i le se tolju'o balcoi poi mi na kakne co sezyxru ke'a ta'a
-            fu'otu'u
+            ne&#039;i le se tolju&#039;o balcoi poi mi na kakne co sezyxru
+            ke&#039;a ta&#039;a fu&#039;otu&#039;u
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">mu'o</td>
+          <td class="text-left align-text-top p-2 column-class-lojbo">
+            mu&#039;o
+          </td>
           <td class="text-left align-text-top p-2 column-class-glico">...</td>
           <td class="text-left align-text-top p-2 column-class-fraso">...</td>
           <td class="text-left align-text-top p-2 column-class-porto">...</td>
@@ -2494,7 +2595,7 @@ meta.priority: 7017
           <td
             class="text-left align-text-top p-2 column-class-lojbo_se_fanva_la_o_gy_Michael_Helsem_gy_"
           >
-            pinka di'u
+            pinka di&#039;u
           </td>
         </tr>
       </tbody>
