@@ -4,7 +4,7 @@ meta.type: korpora
 meta.description: A terrorist, he is watching - by Szymborska Wisława
 meta.keywords: Terrorysta, on patrzy., sorxaizu'e sei catlu, A terrorist, he is watching, テロリスト、見てる, Террорист, он смотрит., Terroriste, il nous regarde.
 meta.author: by Szymborska Wisława
-meta.priority: 997
+meta.priority: 1094
 ---
 
 <div class="w-full">
@@ -70,7 +70,9 @@ meta.priority: 997
     >
       <thead class="border-b italic dark:border-neutral-500">
         <tr>
-          <th scope="col" class="w-40 p-2 column-class-po_olska">po'olska</th>
+          <th scope="col" class="w-40 p-2 column-class-po_olska">
+            po&#039;olska
+          </th>
           <th scope="col" class="w-40 p-2 column-class-lojbo">lojbo</th>
           <th scope="col" class="w-40 p-2 column-class-glico">glico</th>
           <th scope="col" class="w-40 p-2 column-class-ponjo">ponjo</th>
@@ -104,64 +106,100 @@ meta.priority: 997
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-po_olska">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-po_olska"
+          >
             Terrorysta, on patrzy.
           </td>
-          <td class="text-left align-text-top p-2 column-class-lojbo">
-            sorxaizu'e sei catlu
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
+            sorxaizu&#039;e sei catlu
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             A terrorist, he is watching
           </td>
-          <td class="text-left align-text-top p-2 column-class-ponjo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-ponjo"
+          >
             テロリスト、見てる
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Террорист, он смотрит.
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Terroriste, il nous regarde.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-po_olska">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-po_olska"
+          >
             Szymborska Wisława
           </td>
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             la visuuavas cimborskas
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             by Szymborska Wisława
           </td>
-          <td class="text-left align-text-top p-2 column-class-ponjo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-ponjo"
+          >
             シンボールスカ・ヴィスワーヴァ
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Вислава Шимборска
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Szymborska Wisława
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-po_olska"></td>
-          <td class="text-left align-text-top p-2 column-class-lojbo">
-            i la uakci cu fanva
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-po_olska"
+          ></td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
+            i la uakci cu fanva i la gleki cu cnegau
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             Translated by la gleki
           </td>
-          <td class="text-left align-text-top p-2 column-class-ponjo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-ponjo"
+          >
             サトちゃん(uakci)の翻訳
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
-            Перевод - Андрей Беккер + la gleki
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
+            Перевод la gleki
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Traduit par Deepl
           </td>
         </tr>
@@ -172,7 +210,8 @@ meta.priority: 997
             Bomba wybuchnie w barze trzynasta dwadzieścia.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i lo jbama ku porpi ne'i lo barja ti'u li pa ci pi'e re no
+            i le jbama cu porpi ne&#039;i le barja ti&#039;u li pa ci pi&#039;e
+            re no
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The bomb goes off in the bar thirteen twenty.
@@ -181,7 +220,7 @@ meta.priority: 997
             爆弾は十三時二十分に爆発する。
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            Бомба рванёт в баре в тринадцать двадцать.
+            Бомба возрвётся в баре в тринадцать двадцать.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Une bombe explose dans un bar à treize heures vingt.
@@ -194,10 +233,10 @@ meta.priority: 997
             Teraz mamy dopiero trzynastą szesnaście.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i nau'u se tcika li po'o pa ci pi'e pa xa
+            i nau&#039;u se tcika li po&#039;o pa ci pi&#039;e pa xa
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Now it's only thirteen-sixteen.
+            Now it&#039;s only thirteen-sixteen.
           </td>
           <td class="text-left align-text-top p-2 column-class-ponjo">
             今は十三時十六分だけ。
@@ -206,7 +245,7 @@ meta.priority: 997
             Сейчас имеем только тринадцать шестнадцать.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Il n'est plus que treize-seize.
+            Il n&#039;est plus que treize-seize.
           </td>
         </tr>
         <tr
@@ -216,7 +255,7 @@ meta.priority: 997
             Niektórzy zdążą jeszcze wejść.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i so'o da snada lo ka barkla
+            i so&#039;o da snada lo ka barkla
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Some will still manage to get in.
@@ -238,7 +277,7 @@ meta.priority: 997
             Niektórzy wyjść.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ja lo ka nerkla
+            a lo ka nerkla
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Some to leave.
@@ -250,7 +289,7 @@ meta.priority: 997
             Некоторые выйти.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            D'autres partiront.
+            D&#039;autres partiront.
           </td>
         </tr>
         <tr
@@ -270,7 +309,7 @@ meta.priority: 997
             Terrorysta już przeszedł na drugą stronę ulicy.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i lo sorxaizu'e ba'o ragvybi'o lo klaji
+            i le sorxaizu&#039;e ba&#039;o ragvybi&#039;o le klaji
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The terrorist has already crossed to the other side of the street.
@@ -282,7 +321,7 @@ meta.priority: 997
             Террорист уже перешёл на другую сторону улицы.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Le terroriste est déjà passé de l'autre côté de la rue.
+            Le terroriste est déjà passé de l&#039;autre côté de la rue.
           </td>
         </tr>
         <tr
@@ -314,7 +353,7 @@ meta.priority: 997
             no i widok jak w kinie:
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            je ja'a zgana tai lo skina
+            i je ja&#039;a zgana tai lo skina
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Well, and a view like in a movie theater:
@@ -323,7 +362,7 @@ meta.priority: 997
             映画のような見解。
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            ну и вид, как в кино:
+            ну и видок, как в кино:
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             et une vue comme au cinéma :
@@ -346,7 +385,7 @@ meta.priority: 997
             Kobieta w żółtej kurtce, ona wchodzi.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ninmu je dasni be lo pelxu sei nerkla
+            i le ninmu ku voi dasni le pelxu zo&#039;u nerkla
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             A woman in a yellow jacket, she enters.
@@ -368,7 +407,7 @@ meta.priority: 997
             Mężczyzna w ciemnych okularach, on wychodzi.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i nanmu je xekri se lenjo sei barkla
+            i le nanmu ku voi xekri se lenjo zo&#039;u barkla
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             A man in dark glasses, he leaves.
@@ -390,7 +429,7 @@ meta.priority: 997
             Chłopaki w dżinsach, oni rozmawiają.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i nanla je ke blanu palku dasni sei tavla
+            i le za&#039;u nanla ku voi blanu palku dasni zo&#039;u tavla
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Guys in jeans, they talk.
@@ -412,7 +451,7 @@ meta.priority: 997
             Trzynasta siedemnaście i cztery sekundy.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i pa ci pi'e pa ze pi'e vo
+            i pa ci pi&#039;e pa ze pi&#039;e vo
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Thirteen seventeen and four seconds.
@@ -434,7 +473,7 @@ meta.priority: 997
             Ten niższy to ma szczęście i wsiada na skuter,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i lo cmalu ku se zanfu'a lo ka cpana lo marce
+            i le jai mau cmalu cu se zanfu&#039;a lo ka cpana le marce
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The shorter one is the lucky one and gets on the scooter,
@@ -456,7 +495,7 @@ meta.priority: 997
             a ten wyższy to wchodzi.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i lo barda ku nerkla
+            i le jai mau barda cu nerkla
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             And the taller one walks in.
@@ -488,7 +527,7 @@ meta.priority: 997
             Trzynasta siedemnaście i czterdzieści sekund.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i pa ci pi'e pa ze pi'e vo no
+            i pa ci pi&#039;e pa ze pi&#039;e vo no
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Thirteen seventeen and forty seconds.
@@ -510,7 +549,7 @@ meta.priority: 997
             Dziewczyna, ona idzie z zieloną wstążką we włosach.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i nixli je se jadni be lo crino djine sei cadzu
+            i le nixli ku voi se jadni le crino djine zo&#039;u cadzu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The girl, she walks with a green ribbon in her hair.
@@ -532,7 +571,7 @@ meta.priority: 997
             Tylko że ten autobus nagle ją zasłania.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ku'i lo sorprekarce ze'i jai ri'a zilmipri
+            i ku&#039;i le sorprekarce ze&#039;i jai ri&#039;a zilmipri
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Only that the bus suddenly blinds her.
@@ -544,7 +583,7 @@ meta.priority: 997
             Да только вот автобус вдруг её заслоняет.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Mais le bus l'aveugle soudain.
+            Mais le bus l&#039;aveugle soudain.
           </td>
         </tr>
         <tr
@@ -564,7 +603,7 @@ meta.priority: 997
             Trzynasta osiemnaście.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i pa ci pi'e pa bi
+            i pa ci pi&#039;e pa bi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Thirteen hundred and eighteen.
@@ -586,7 +625,7 @@ meta.priority: 997
             Już nie ma dziewczyny.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i lo nixli xa'o canci
+            i le nixli xa&#039;o canci
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The girl is no longer there.
@@ -608,7 +647,7 @@ meta.priority: 997
             Czy była taka głupia i weszła, czy nie,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i xau'a bebna lo ka nerkla
+            i le du&#039;u xu kau bebna lo ka nerkla
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Whether she was so stupid and went in or not,
@@ -620,7 +659,7 @@ meta.priority: 997
             Была такой глупой, что вошла, или нет,
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Qu'elle ait été stupide et qu'elle soit entrée ou non,
+            Qu&#039;elle ait été stupide et qu&#039;elle soit entrée ou non,
           </td>
         </tr>
         <tr
@@ -630,16 +669,16 @@ meta.priority: 997
             to sie zobaczy, jak będą wynosić.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ku vau se facki ca lo nu bargau
+            cu ba se facki ca le nu bevri fi le bartu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            we'll see when they take her out.
+            we&#039;ll see when they take her out.
           </td>
           <td class="text-left align-text-top p-2 column-class-ponjo">
             出すときに知る。
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            он увидит, когда будут выносить.
+            это увидим, когда будут выносить.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             nous le verrons quand ils la sortiront.
@@ -662,7 +701,7 @@ meta.priority: 997
             Trzynasta dziewiętnaście.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i pa ci pi'e pa so
+            i pa ci pi&#039;e pa so
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Thirteen-nineteen.
@@ -684,7 +723,7 @@ meta.priority: 997
             Nikt jakoś nie wchodzi.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ki'u su'o da no da nerkla
+            i ki&#039;u su&#039;o da no de nerkla
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Somehow no one enters.
@@ -696,7 +735,7 @@ meta.priority: 997
             Никто как-то не входит.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Personne n'arrive à entrer.
+            Personne n&#039;arrive à entrer.
           </td>
         </tr>
         <tr
@@ -706,7 +745,7 @@ meta.priority: 997
             Za to jeszcze wychodzi jeden gruby łysy.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ku'i pa sedykrecau ku barkla
+            i ku&#039;i pa sedykrecau cu barkla
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             For this, one fat bald man still comes out.
@@ -728,7 +767,7 @@ meta.priority: 997
             Ale tak, jakby szukał czegoś po kieszeniach i
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ku'i simlu lo ka sisku tu'a lo daski
+            i ku&#039;i simlu lo ka sisku fi tu&#039;a le daski
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             But as if he was looking for something in his pockets and
@@ -740,7 +779,8 @@ meta.priority: 997
             Но чего-то шарит по карманам и
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Mais c'est comme s'il cherchait quelque chose dans ses poches.
+            Mais c&#039;est comme s&#039;il cherchait quelque chose dans ses
+            poches.
           </td>
         </tr>
         <tr
@@ -750,7 +790,8 @@ meta.priority: 997
             o trzynastej dwadzieścia bez dziesięciu sekund
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            kei ja'e lo nu ti'u li pa ci pi'e re no vu'u pi'e pi'e dau
+            kei ja&#039;e le nu ti&#039;u li pa ci pi&#039;e re no vu&#039;u
+            pi&#039;e pi&#039;e dau
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             at thirteen twenty without ten seconds
@@ -772,7 +813,8 @@ meta.priority: 997
             wraca po te swoje marne rękawiczki.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            tolcliva te zu'e tu'a lo nalvai gluta
+            cu klama le jai purci te zu&#039;e tu&#039;a le nalvai gluta pe le
+            nei
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             he comes back for his flimsy gloves.
@@ -781,7 +823,7 @@ meta.priority: 997
             その悲惨なグローブの為に帰る。
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            возвращается за своими паршивыми перчатками.
+            возвращается за своими никчёмными перчатками.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             il revient chercher ses pauvres gants.
@@ -804,10 +846,10 @@ meta.priority: 997
             Jest trzynasta dwadzieścia.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i pa ci pi'e re no je'u
+            i pa ci pi&#039;e re no je&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            It's thirteen twenty.
+            It&#039;s thirteen twenty.
           </td>
           <td class="text-left align-text-top p-2 column-class-ponjo">
             もう十三時二十分。
@@ -826,7 +868,7 @@ meta.priority: 997
             Czas, jak on się wlecze.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i lo tcika zo'u masno
+            i le se tcika zo&#039;u masno
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Time, as he drags on.
@@ -848,10 +890,10 @@ meta.priority: 997
             Już chyba teraz.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ju'o cu'i ca
+            i ju&#039;o cu&#039;i ca
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I think it's already now.
+            I think it&#039;s already now.
           </td>
           <td class="text-left align-text-top p-2 column-class-ponjo">
             今だろう。
@@ -860,7 +902,7 @@ meta.priority: 997
             Ну вроде сейчас.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je crois que c'est déjà maintenant.
+            Je crois que c&#039;est déjà maintenant.
           </td>
         </tr>
         <tr
@@ -870,7 +912,7 @@ meta.priority: 997
             Jeszcze nie teraz.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ca pu'o
+            i ca pu&#039;o
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Not even now.
@@ -892,7 +934,7 @@ meta.priority: 997
             Tak, teraz.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ca ja'a
+            i ca ja&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Yes, now.
@@ -914,7 +956,7 @@ meta.priority: 997
             Bomba, ona wybucha.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i jbama sei porpi
+            i le jbama zo&#039;u porpi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             A bomb, it explodes.

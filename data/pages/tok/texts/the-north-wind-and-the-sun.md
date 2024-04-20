@@ -63,7 +63,7 @@ meta.priority: 734
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="font-bold text-left align-text-top p-2 column-class-lojbo">
-            ni'o ni'o ni'o bau le lojbo
+            ni&#039;o ni&#039;o ni&#039;o bau le lojbo
           </td>
           <td class="font-bold text-left align-text-top p-2 column-class-glico">
             English translation
@@ -78,44 +78,72 @@ meta.priority: 734
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o la berti brife jo'u la solri
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
+            ni&#039;o la berti brife jo&#039;u la solri
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             The North Wind and the Sun
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Северный ветер и солнце
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Le vent du nord et le soleil
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             la .aisopos.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             by Aesop
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">Эзоп</td>
-          <td class="text-left align-text-top p-2 column-class-fraso">Esope</td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
+            Эзоп
+          </td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
+            Esope
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             la gleki cu fanva
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             Translated by la gleki
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Перевод: la gleki
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Traduit par la gleki
           </td>
         </tr>
@@ -123,9 +151,9 @@ meta.priority: 734
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i la berti brife jo'u la solri pu troci leka djuno ledu'u makau
-            traji leka vlipa vau fo le'i me lenei .icabo le pa litru noi dasni
-            lo glare kosta cu mo'u klama
+            .i la berti brife jo&#039;u la solri pu troci leka djuno ledu&#039;u
+            makau traji leka vlipa vau fo le&#039;i me lenei .icabo le pa litru
+            noi dasni lo glare kosta cu mo&#039;u klama
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The North Wind and the Sun were disputing which was the stronger,
@@ -137,17 +165,17 @@ meta.priority: 734
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Le vent du nord et le soleil se disputaient pour savoir lequel des
-            deux était le plus fort, lorsqu'un voyageur arriva enveloppé d'un
-            manteau chaud.
+            deux était le plus fort, lorsqu&#039;un voyageur arriva enveloppé
+            d&#039;un manteau chaud.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i lu'i le remei pu simxu leka tugni fi lenu traji leka vlipa fa le
-            traji be leka clira fa lonu ce'u snada leka gasnu lenu le pa litru
-            co'u dasni le kosta
+            .i lu&#039;i le remei pu simxu leka tugni fi lenu traji leka vlipa
+            fa le traji be leka clira fa lonu ce&#039;u snada leka gasnu lenu le
+            pa litru co&#039;u dasni le kosta
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             They agreed that the one who first succeeded in making the traveler
@@ -166,10 +194,10 @@ meta.priority: 734
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i baku la berti brife co'a traji cupra le brife .i ku'i lonu by.by.
-            zenba leka cupra le xokau brife cu rinka lonu le pa litru cu zukte
-            leka zenba leka sela'u li xokau se tagji le kosta .ibazabo la berti
-            brife co'u troci
+            .i baku la berti brife co&#039;a traji cupra le brife .i ku&#039;i
+            lonu by.by. zenba leka cupra le xokau brife cu rinka lonu le pa
+            litru cu zukte leka zenba leka sela&#039;u li xokau se tagji le
+            kosta .ibazabo la berti brife co&#039;u troci
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Then the North Wind blew as hard as he could, but the more he blew
@@ -191,8 +219,8 @@ meta.priority: 734
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i baku la solri co'a dirce lo milxe glare .ibazibo le pa litru co'u
-            dasni le kosta
+            .i baku la solri co&#039;a dirce lo milxe glare .ibazibo le pa litru
+            co&#039;u dasni le kosta
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Then the Sun shined out warmly, and immediately the traveler took
@@ -210,8 +238,8 @@ meta.priority: 734
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .iseki'ubo la berti brife co'a bilga tugni fi lonu la solri cu traji
-            leka vlipa vau fo la berti brife ce la solri
+            .iseki&#039;ubo la berti brife co&#039;a bilga tugni fi lonu la
+            solri cu traji leka vlipa vau fo la berti brife ce la solri
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             And so the North Wind was obliged to confess that the Sun was the

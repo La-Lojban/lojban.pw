@@ -69,7 +69,7 @@ meta.priority: 0
           <td
             class="font-bold text-left align-text-top p-2 column-class-xorlo_lojbo"
           >
-            ni'o ni'o bau le lojbo
+            ni&#039;o ni&#039;o bau le lojbo
           </td>
           <td class="font-bold text-left align-text-top p-2 column-class-glico">
             original (English)
@@ -77,7 +77,7 @@ meta.priority: 0
           <td
             class="font-bold text-left align-text-top p-2 column-class-cizra_lojbo"
           >
-            ni'o ni'o bau le lojbo
+            ni&#039;o ni&#039;o bau le lojbo
           </td>
           <td class="font-bold text-left align-text-top p-2 column-class-rusko">
             русский перевод
@@ -86,48 +86,72 @@ meta.priority: 0
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            lu Le Xlali Cfari li'u
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-xorlo_lojbo"
+          >
+            lu Le Xlali Cfari li&#039;u
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             The Bad Beginning
           </td>
-          <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-cizra_lojbo"
+          >
             Le Xlali Cfari
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Скверное начало
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            i se finti la'o gy.Lemony Snicket.gy.
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-xorlo_lojbo"
+          >
+            i se finti la&#039;o gy.Lemony Snicket.gy.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             by Lemony Snicket
           </td>
-          <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            i se finti la'o gy.Lemony Snicket.gy.
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-cizra_lojbo"
+          >
+            i se finti la&#039;o gy.Lemony Snicket.gy.
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Лемони Сникет
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-xorlo_lojbo"
+          >
             .i fanva fa la gleki
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             English original
           </td>
-          <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-cizra_lojbo"
+          >
             .i fanva fa La Gleki
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Перевод Н. Л. Рахмановой
           </td>
         </tr>
@@ -135,15 +159,15 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            i cukta co pamoi la'e lu loi xlali zabna fasnu li'u i lo 1999moi
-            nanca
+            i cukta co pamoi la&#039;e lu loi xlali zabna fasnu li&#039;u i lo
+            1999moi nanca
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The first book in the A Series of Unfortunate Events series, 1999
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            i cukta co pamoi la'e lu loi xlali zabna fasnu li'u i lo 1999moi
-            nanca
+            i cukta co pamoi la&#039;e lu loi xlali zabna fasnu li&#039;u i lo
+            1999moi nanca
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko"></td>
         </tr>
@@ -151,13 +175,13 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            i seva'u la Be'atris noi
+            i seva&#039;u la Be&#039;atris noi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             To Beatrice -
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            i seva'u la Be'atris noi
+            i seva&#039;u la Be&#039;atris noi
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Посвящается Беатрис – родной, любимой, умершей
@@ -167,13 +191,13 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            se prami gi'e dirba traji gi'e morsi.
+            se prami gi&#039;e dirba traji gi&#039;e morsi.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             darling, dearest, dead.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            se prami gi'e dirba traji gi'e morsi.
+            se prami gi&#039;e dirba traji gi&#039;e morsi.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko"></td>
         </tr>
@@ -197,16 +221,16 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            i fau lo nu do se cinri lo lisri poi zabna funca fanmo ke'a cu da'i
-            xagmau fa lo nu do tcidu lo drata cukta.
+            i fau lo nu do se cinri lo lisri poi zabna funca fanmo ke&#039;a cu
+            da&#039;i xagmau fa lo nu do tcidu lo drata cukta.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             If you are interested in stories with happy endings, you would be
             better off reading some other book.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            i fau lo nu do se cinri lo lisri poi zabna funca fanmo ke'a cu da'i
-            xagmau fa lo nu do tcidu lo drata cukta.
+            i fau lo nu do se cinri lo lisri poi zabna funca fanmo ke&#039;a cu
+            da&#039;i xagmau fa lo nu do tcidu lo drata cukta.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Если вы любите истории со счастливым концом, вам лучше взять другую
@@ -217,16 +241,18 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            i lo dei se cukta cu se tolfanmo no se gleki gi'e se fanmo no se
-            gleki gi'e do'anai se ke midju pagbu so'u se gleki.
+            i lo dei se cukta cu se tolfanmo no se gleki gi&#039;e se fanmo no
+            se gleki gi&#039;e do&#039;anai se ke midju pagbu so&#039;u se
+            gleki.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             In this book, not only is there no happy ending, there is no happy
             beginning and very few happy things in the middle.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            i lo dei se cukta cu se tolfanmo no se gleki gi'e se fanmo no se
-            gleki gi'e do'anai se ke midju pagbu so'u se gleki.
+            i lo dei se cukta cu se tolfanmo no se gleki gi&#039;e se fanmo no
+            se gleki gi&#039;e do&#039;anai se ke midju pagbu so&#039;u se
+            gleki.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             А у этой не только нет хорошего конца, но и начало плохое, и в
@@ -237,16 +263,16 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            i krinu fa lo nu so'u se gleki pu se lifri ze'a lo se renvi fe lai
-            Baudeler noi du lo ci citno nanla.
+            i krinu fa lo nu so&#039;u se gleki pu se lifri ze&#039;a lo se
+            renvi fe lai Baudeler noi du lo ci citno nanla.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             This is because not very many happy things happened in the lives of
             the three Baudelaire youngsters.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            i krinu fa lo nu so'u se gleki pu se lifri ze'a lo se renvi fe lai
-            Baudeler noi du lo ci citno nanla.
+            i krinu fa lo nu so&#039;u se gleki pu se lifri ze&#039;a lo se
+            renvi fe lai Baudeler noi du lo ci citno nanla.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             И все потому, что в жизни троих бодлеровских детей случалось не
@@ -257,10 +283,11 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            i la Zirpu .e la Klaus .e la Solri vu'o poidu lai Baudeler pu stati
-            verba. ije lei verba puku pluka gi'e kakne gi'e se flira lo pluka.
-            iku'i lei verba pu traji se funca lo xlali ije so'a lo se lifri be
-            lei verba pu du'esi'e xlali funca gi'a se pindi gi'a nu to'e pacna.
+            i la Zirpu .e la Klaus .e la Solri vu&#039;o poidu lai Baudeler pu
+            stati verba. ije lei verba puku pluka gi&#039;e kakne gi&#039;e se
+            flira lo pluka. iku&#039;i lei verba pu traji se funca lo xlali ije
+            so&#039;a lo se lifri be lei verba pu du&#039;esi&#039;e xlali funca
+            gi&#039;a se pindi gi&#039;a nu to&#039;e pacna.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Violet, Klaus, and Sunny Baudelaire were intelligent children, and
@@ -269,10 +296,11 @@ meta.priority: 0
             happened to them was rife with misfortune, misery, and despair.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            i la Zirpu je la Klaus je la Solri vu'o poidu lai Baudeler pu stati
-            verba. ije lei verba puku pluka gi'e kakne gi'e se flira lo pluka.
-            iku'i lei verba pu traji se funca lo xlali. ije so'a lo se lifri be
-            lei verba pu du'esi'e xlali funca gi'a se pindi gi'a nu to'e pacna.
+            i la Zirpu je la Klaus je la Solri vu&#039;o poidu lai Baudeler pu
+            stati verba. ije lei verba puku pluka gi&#039;e kakne gi&#039;e se
+            flira lo pluka. iku&#039;i lei verba pu traji se funca lo xlali. ije
+            so&#039;a lo se lifri be lei verba pu du&#039;esi&#039;e xlali funca
+            gi&#039;a se pindi gi&#039;a nu to&#039;e pacna.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Вайолет, Клаус и Солнышко Бодлер были дети смышленые, обаятельные,
@@ -284,13 +312,15 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            i mi kecti fi lo ka cusku fi do fe la'e di'u. i ku'i ri se lisri.
+            i mi kecti fi lo ka cusku fi do fe la&#039;e di&#039;u. i ku&#039;i
+            ri se lisri.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I'm sorry to tell you this, but that is how the story goes.
+            I&#039;m sorry to tell you this, but that is how the story goes.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            i mi kecti fi lo ka cusku fi do fe la'e di'u. i ku'i ri se lisri.
+            i mi kecti fi lo ka cusku fi do fe la&#039;e di&#039;u. i ku&#039;i
+            ri se lisri.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Мне неприятно вам об этом говорить, но что есть, то есть.
@@ -300,15 +330,15 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            Ni'o lo xlali fancu be lei verba pu cfari ca pa donri bu'u la silna
-            xaskoi.
+            Ni&#039;o lo xlali fancu be lei verba pu cfari ca pa donri bu&#039;u
+            la silna xaskoi.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Their misfortune began one day at Briny Beach.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            Ni'o lo xlali fancu be lei verba pu cfari ca pa donri bu'u la silna
-            xaskoi.
+            Ni&#039;o lo xlali fancu be lei verba pu cfari ca pa donri bu&#039;u
+            la silna xaskoi.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Несчастья начались в тот день, когда они играли на Брайни-Бич.
@@ -318,29 +348,31 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            i lai Baudeler noi verba cimei pu se zdani ka'ai loi rirni be ri lo
-            mutce barda dinju bu'u lo risna pe'a be lo toljinsa je tolcando
-            tcadu. ije ta'eku lei rirni pu curmi lo nu lei verba cu se marce lo
-            tcadu trene noi na'o desku vau, ka'ainai ka'a le xaskoi noi bu'u
-            ke'a lei verba cu renvi lo donri tai da'i lo nu ri cando ditcu.
-            iva'obo lei verba co'i klama le zdani ca lo nu vanci sanmi.
+            i lai Baudeler noi verba cimei pu se zdani ka&#039;ai loi rirni be
+            ri lo mutce barda dinju bu&#039;u lo risna pe&#039;a be lo toljinsa
+            je tolcando tcadu. ije ta&#039;eku lei rirni pu curmi lo nu lei
+            verba cu se marce lo tcadu trene noi na&#039;o desku vau,
+            ka&#039;ainai ka&#039;a le xaskoi noi bu&#039;u ke&#039;a lei verba
+            cu renvi lo donri tai da&#039;i lo nu ri cando ditcu. iva&#039;obo
+            lei verba co&#039;i klama le zdani ca lo nu vanci sanmi.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The three Baudelaire children lived with their parents in an
             enormous mansion at the heart of a dirty and busy city, and
             occasionally their parents gave them permission to take a rickety
-            trolley (the word ``rickety,'' you probably know, here means
-            ``unsteady'' or ``likely to collapse'') alone to the seashore, where
-            they would spend the day as a sort of vacation as long as they were
-            home for dinner.
+            trolley (the word ``rickety,&#039;&#039; you probably know, here
+            means ``unsteady&#039;&#039; or ``likely to collapse&#039;&#039;)
+            alone to the seashore, where they would spend the day as a sort of
+            vacation as long as they were home for dinner.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            i lai Baudeler noi verba cimei pu se zdani ka'ai loi rirni be ri lo
-            mutce barda dinju bu'u lo risna pe'a be lo toljinsa je tolcando
-            tcadu. ije ta'eku lei rirni pu curmi lo nu lei verba cu se marce lo
-            tcadu trene noi na'o desku vau, ka'ainai ka'a le xaskoi noi bu'u
-            ke'a lei verba cu renvi lo donri tai da'i lo nu ri cando ditcu.
-            iva'obo lei verba co'i klama le zdani ca lo nu vanci sanmi.
+            i lai Baudeler noi verba cimei pu se zdani ka&#039;ai loi rirni be
+            ri lo mutce barda dinju bu&#039;u lo risna pe&#039;a be lo toljinsa
+            je tolcando tcadu. ije ta&#039;eku lei rirni pu curmi lo nu lei
+            verba cu se marce lo tcadu trene noi na&#039;o desku vau,
+            ka&#039;ainai ka&#039;a le xaskoi noi bu&#039;u ke&#039;a lei verba
+            cu renvi lo donri tai da&#039;i lo nu ri cando ditcu. iva&#039;obo
+            lei verba co&#039;i klama le zdani ca lo nu vanci sanmi.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Дети жили со своими родителями Бодлерами в огромном доме в центре
@@ -354,16 +386,18 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            .i ca le bi'unai cerni pu grusi gi'e dilnu so'isi'e vau, noi na pu
-            fanza lai Baudeler noi verba vau, su'ova'e.
+            .i ca le bi&#039;unai cerni pu grusi gi&#039;e dilnu
+            so&#039;isi&#039;e vau, noi na pu fanza lai Baudeler noi verba vau,
+            su&#039;ova&#039;e.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            This particular morning it was gray and cloudy, which didn't bother
-            the Baudelaire youngsters one bit.
+            This particular morning it was gray and cloudy, which didn&#039;t
+            bother the Baudelaire youngsters one bit.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            .i ca le bi'unai cerni pu grusi gi'e dilnu so'isi'e vau, noi na pu
-            fanza lai Baudeler noi verba vau, su'ova'e.
+            .i ca le bi&#039;unai cerni pu grusi gi&#039;e dilnu
+            so&#039;isi&#039;e vau, noi na pu fanza lai Baudeler noi verba vau,
+            su&#039;ova&#039;e.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             То утро выдалось пасмурное, облачное, но бодлеровских детей это
@@ -374,18 +408,18 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            .i ca lo nu glare gi'e solri so'iva'e vau, la Brini noi xaskoi pu se
-            vitke lo za'u litru. ije pu na cumki fa lonu tolcri lo xamgu stuzi
-            poi ka'e punji lo blanketa ke'a
+            .i ca lo nu glare gi&#039;e solri so&#039;iva&#039;e vau, la Brini
+            noi xaskoi pu se vitke lo za&#039;u litru. ije pu na cumki fa lonu
+            tolcri lo xamgu stuzi poi ka&#039;e punji lo blanketa ke&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             When it was hot and sunny, Briny Beach was crowded with tourists and
-            it was impossible to find a good place to lay one's blanket.
+            it was impossible to find a good place to lay one&#039;s blanket.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            .i ca lo nu glare gi'e solri so'iva'e vau, la Brini noi xaskoi pu se
-            vitke lo za'u litru. i je pu na cumki fa lonu tolcri lo xamgu stuzi
-            poi ka'e punji lo blanketa ke'a
+            .i ca lo nu glare gi&#039;e solri so&#039;iva&#039;e vau, la Brini
+            noi xaskoi pu se vitke lo za&#039;u litru. i je pu na cumki fa lonu
+            tolcri lo xamgu stuzi poi ka&#039;e punji lo blanketa ke&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             В жаркие солнечные дни на берегу набиралось полным-полно туристов,
@@ -396,16 +430,16 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            i si'anai ca lo grusi ja dilnu djedi lai Baudeler pu ka'e turni le
-            xaskoi gi'e zukte lo se nelci be vo'a.
+            i si&#039;anai ca lo grusi ja dilnu djedi lai Baudeler pu ka&#039;e
+            turni le xaskoi gi&#039;e zukte lo se nelci be vo&#039;a.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             On gray and cloudy days, the Baudelaires had the beach to themselves
             to do what they liked.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            i si'anai ca lo grusi ja dilnu djedi lai Baudeler pu ka'e turni le
-            xaskoi gi'e zukte lo se nelci be vo'a.
+            i si&#039;anai ca lo grusi ja dilnu djedi lai Baudeler pu ka&#039;e
+            turni le xaskoi gi&#039;e zukte lo se nelci be vo&#039;a.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             А в пасмурные облачные дни пляж оставался в их личном распоряжении и
@@ -435,10 +469,10 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            i tai so'e lo nanca be li 14 Vy noi fetsi pu na'o pritu xance prenu.
-            i ja'ebo lo rokci pu plipe lo darno zmadu pa'o lo kandi djacu ca lo
-            nu Vy pilno lo be Vy pritu xance je ma'i lo nu Vy pilno lo be Vy
-            zunle.
+            i tai so&#039;e lo nanca be li 14 Vy noi fetsi pu na&#039;o pritu
+            xance prenu. i ja&#039;ebo lo rokci pu plipe lo darno zmadu
+            pa&#039;o lo kandi djacu ca lo nu Vy pilno lo be Vy pritu xance je
+            ma&#039;i lo nu Vy pilno lo be Vy zunle.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Like most fourteen-year-olds, she was right-handed, so the rocks
@@ -446,10 +480,10 @@ meta.priority: 0
             hand than when she used her left.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            i tai so'e lo nanca be li 14 Vy noi fetsi pu na'o pritu xance prenu.
-            i ja'ebo lo rokci pu plipe lo darno zmadu pa'o lo kandi djacu ca lo
-            nu Vy pilno lo be Vy pritu xance je ma'i lo nu Vy pilno lo be Vy
-            zunle.
+            i tai so&#039;e lo nanca be li 14 Vy noi fetsi pu na&#039;o pritu
+            xance prenu. i ja&#039;ebo lo rokci pu plipe lo darno zmadu
+            pa&#039;o lo kandi djacu ca lo nu Vy pilno lo be Vy pritu xance je
+            ma&#039;i lo nu Vy pilno lo be Vy zunle.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             В свои четырнадцать лет она уже вышла из того возраста, когда чаще
@@ -462,16 +496,18 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            .i ze'a lo nu Vy plipygau lo rokci vau, Vy pu catlu lo bartu fa'a lo
-            tankoi gi'e pensi lo se finti poi Vy djica lo ka zbasu.
+            .i ze&#039;a lo nu Vy plipygau lo rokci vau, Vy pu catlu lo bartu
+            fa&#039;a lo tankoi gi&#039;e pensi lo se finti poi Vy djica lo ka
+            zbasu.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             As she skipped rocks, she was looking out at the horizon and
             thinking about an invention she wanted to build.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            .i ze'a lo nu Vy plipygau lo rokci vau, Vy pu catlu lo bartu fa'a lo
-            tankoi gi'e pensi lo se finti poi Vy djica lo ka zbasu.
+            .i ze&#039;a lo nu Vy plipygau lo rokci vau, Vy pu catlu lo bartu
+            fa&#039;a lo tankoi gi&#039;e pensi lo se finti poi Vy djica lo ka
+            zbasu.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Одновременно она вглядывалась в горизонт и обдумывала новое
@@ -482,9 +518,10 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            .i ro da poi banzu se slabu Vy. cu da'i cusku losedu'u Vy ca'o pensi
-            fi'o carmi. iseja'ebo lo be Vy clani kerfa pu se jgarygau lo dasri
-            jgena tezu'e lo nu stogau vo'a lo ka sepli lo kanla.
+            .i ro da poi banzu se slabu Vy. cu da&#039;i cusku losedu&#039;u Vy
+            ca&#039;o pensi fi&#039;o carmi. iseja&#039;ebo lo be Vy clani kerfa
+            pu se jgarygau lo dasri jgena tezu&#039;e lo nu stogau vo&#039;a lo
+            ka sepli lo kanla.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Anyone who knew Violet well could tell she was thinking hard,
@@ -492,9 +529,10 @@ meta.priority: 0
             eyes.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            .i ro da poi banzu se slabu Vy. cu da'i cusku losedu'u Vy ca'o pensi
-            fi'o carmi. iseja'ebo lo be Vy clani kerfa pu se jgarygau lo dasri
-            jgena tezu'e lo nu stogau vo'a lo ka sepli lo kanla.
+            .i ro da poi banzu se slabu Vy. cu da&#039;i cusku losedu&#039;u Vy
+            ca&#039;o pensi fi&#039;o carmi. iseja&#039;ebo lo be Vy clani kerfa
+            pu se jgarygau lo dasri jgena tezu&#039;e lo nu stogau vo&#039;a lo
+            ka sepli lo kanla.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Всякий, кто хорошо знал Вайолет, сразу мог догадаться, что она
@@ -506,10 +544,11 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            .i Vy pu jetnu certu lo ka finti je zbasu lo cizra cabra. ija'ebo lo
-            be Vy besna pu so'iroi culno pe'a lo pixra be lo pulni jo'u lo vraga
-            jo'u lo engranaje. ije Vy pu noroi djica lo ka se raktu lo na vajni
-            poi jai te simsa lo be Vy kerfa
+            .i Vy pu jetnu certu lo ka finti je zbasu lo cizra cabra.
+            ija&#039;ebo lo be Vy besna pu so&#039;iroi culno pe&#039;a lo pixra
+            be lo pulni jo&#039;u lo vraga jo&#039;u lo engranaje. ije Vy pu
+            noroi djica lo ka se raktu lo na vajni poi jai te simsa lo be Vy
+            kerfa
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Violet had a real knack for inventing and building strange devices,
@@ -518,10 +557,11 @@ meta.priority: 0
             as her hair.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            .i Vy pu jetnu certu lo ka finti je zbasu lo cizra cabra. ija'ebo lo
-            be Vy besna pu so'iroi culno pe'a lo pixra be lo pulni jo'u lo vraga
-            jo'u lo engranaje. ije Vy pu noroi djica lo ka se raktu lo na vajni
-            poi jai te simsa lo be Vy kerfa
+            .i Vy pu jetnu certu lo ka finti je zbasu lo cizra cabra.
+            ija&#039;ebo lo be Vy besna pu so&#039;iroi culno pe&#039;a lo pixra
+            be lo pulni jo&#039;u lo vraga jo&#039;u lo engranaje. ije Vy pu
+            noroi djica lo ka se raktu lo na vajni poi jai te simsa lo be Vy
+            kerfa
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Вайолет действительно умела изобретать и мастерить всякие необычные
@@ -534,16 +574,18 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            i ca le cerni Vy pu ze'a pensi lo nu ta'i makau zbasu lo cabra poi
-            ka'e volvygau lo rokci ba lo nu da co'i plipygau ri le xamsi
+            i ca le cerni Vy pu ze&#039;a pensi lo nu ta&#039;i makau zbasu lo
+            cabra poi ka&#039;e volvygau lo rokci ba lo nu da co&#039;i plipygau
+            ri le xamsi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             This morning she was thinking about how to construct a device that
             could retrieve a rock after you had skipped it into the ocean.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            i ca le cerni Vy pu ze'a pensi lo nu ta'i makau zbasu lo cabra poi
-            ka'e volvygau lo rokci ba lo nu da co'i plipygau ri le xamsi
+            i ca le cerni Vy pu ze&#039;a pensi lo nu ta&#039;i makau zbasu lo
+            cabra poi ka&#039;e volvygau lo rokci ba lo nu da co&#039;i plipygau
+            ri le xamsi
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             В то утро она размышляла над тем, как соорудить устройство, которое
@@ -554,16 +596,16 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            Ni’o la Klaus.Baudeler noi lo midju verba gi'e se steci nanla pu
-            nelci lo ka inspekte lo jmive pe bu'u lo ctaru gumjau
+            Ni’o la Klaus.Baudeler noi lo midju verba gi&#039;e se steci nanla
+            pu nelci lo ka inspekte lo jmive pe bu&#039;u lo ctaru gumjau
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Klaus Baudelaire, the middle child, and the only boy, liked to
             examine creatures in tide-pools.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            Ni’o la Klaus.Baudeler noi lo midju verba gi'e se steci nanla pu
-            nelci lo ka inspekte lo jmive pe bu'u lo ctaru gumjau
+            Ni’o la Klaus.Baudeler noi lo midju verba gi&#039;e se steci nanla
+            pu nelci lo ka inspekte lo jmive pe bu&#039;u lo ctaru gumjau
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Клаус Бодлер, средний ребенок и единственный мальчик в семье, любил
@@ -574,16 +616,16 @@ meta.priority: 0
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-xorlo_lojbo">
-            i Ky pu milxe zmadu lo nanca be li 12 gi'e dasni lo lacni noi gasnu
-            lo nu Ky simlu lo ka stati
+            i Ky pu milxe zmadu lo nanca be li 12 gi&#039;e dasni lo lacni noi
+            gasnu lo nu Ky simlu lo ka stati
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Klaus was a little older than twelve and wore glasses, which made
             him look intelligent.
           </td>
           <td class="text-left align-text-top p-2 column-class-cizra_lojbo">
-            i Ky pu milxe zmadu lo nanca be li 12 gi'e dasni lo lacni noi gasnu
-            lo nu Ky simlu lo ka stati
+            i Ky pu milxe zmadu lo nanca be li 12 gi&#039;e dasni lo lacni noi
+            gasnu lo nu Ky simlu lo ka stati
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Клаусу не так давно исполнилось двенадцать. Очки на носу придавали
@@ -771,8 +813,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Except when she used the few actual words in her vocabulary, like
-            ``bottle,'' ``mommy,'' and ``bite,'' most people had trouble
-            understanding what it was that Sunny was saying.
+            ``bottle,&#039;&#039; ``mommy,&#039;&#039; and ``bite,&#039;&#039;
+            most people had trouble understanding what it was that Sunny was
+            saying.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -790,9 +833,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            For instance, this morning she was saying ``Gack!'' over and over,
-            which probably meant, ``Look at that mysterious figure emerging from
-            the fog!''
+            For instance, this morning she was saying ``Gack!&#039;&#039; over
+            and over, which probably meant, ``Look at that mysterious figure
+            emerging from the fog!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -847,8 +890,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            He reached over and touched Violet's arm, bringing her out of her
-            inventing thoughts.
+            He reached over and touched Violet&#039;s arm, bringing her out of
+            her inventing thoughts.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -865,7 +908,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Look at that,'' Klaus said, and pointed toward the figure.
+            ``Look at that,&#039;&#039; Klaus said, and pointed toward the
+            figure.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -915,7 +959,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What do you think it is?'' Violet asked.
+            ``What do you think it is?&#039;&#039; Violet asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -931,8 +975,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I don't know,'' Klaus said, squinting at it, ``but it seems to be
-            moving right toward us.''
+            ``I don&#039;t know,&#039;&#039; Klaus said, squinting at it, ``but
+            it seems to be moving right toward us.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -948,10 +992,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``We're alone on the beach,'' Violet said, a little nervously.
-            ``There's nobody else it could be moving toward.'' She felt the
-            slender, smooth stone in her left hand, which she had been about to
-            try to skip as far as she could.
+            ``We&#039;re alone on the beach,&#039;&#039; Violet said, a little
+            nervously. ``There&#039;s nobody else it could be moving
+            toward.&#039;&#039; She felt the slender, smooth stone in her left
+            hand, which she had been about to try to skip as far as she could.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -987,8 +1031,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``It only seems scary,'' Klaus said, as if reading his sister's
-            thoughts, ``because of all the mist.''
+            ``It only seems scary,&#039;&#039; Klaus said, as if reading his
+            sister&#039;s thoughts, ``because of all the mist.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1039,8 +1083,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Mr. Poe was a friend of Mr. and Mrs. Baudelaire's whom the children
-            had met many times at dinner parties.
+            Mr. Poe was a friend of Mr. and Mrs. Baudelaire&#039;s whom the
+            children had met many times at dinner parties.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1058,8 +1102,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             One of the things Violet, Klaus, and Sunny really liked about their
-            parents was that they didn't send their children away when they had
-            company over, but allowed them to join the adults at the dinner
+            parents was that they didn&#039;t send their children away when they
+            had company over, but allowed them to join the adults at the dinner
             table and participate in the conversation as long as they helped
             clear the table.
           </td>
@@ -1137,7 +1181,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``How do you do?'' said Violet.
+            ``How do you do?&#039;&#039; said Violet.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1153,7 +1197,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``How do you do?'' said Klaus.
+            ``How do you do?&#039;&#039; said Klaus.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1169,7 +1213,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Odo yow!'' said Sunny.
+            ``Odo yow!&#039;&#039; said Sunny.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1185,7 +1229,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Fine, thank you,'' said Mr. Poe, but he looked very sad.
+            ``Fine, thank you,&#039;&#039; said Mr. Poe, but he looked very sad.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1236,7 +1280,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``It's a nice day,'' Violet said finally, making conversation.
+            ``It&#039;s a nice day,&#039;&#039; Violet said finally, making
+            conversation.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1270,9 +1315,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Yes, it is a nice day,'' Mr. Poe said absently, staring out at the
-            empty beach. ``I'm afraid I have some very bad news for you
-            children.''
+            ``Yes, it is a nice day,&#039;&#039; Mr. Poe said absently, staring
+            out at the empty beach. ``I&#039;m afraid I have some very bad news
+            for you children.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1323,8 +1368,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Your parents,'' Mr. Poe said, ``have perished in a terrible
-            fire.''
+            ``Your parents,&#039;&#039; Mr. Poe said, ``have perished in a
+            terrible fire.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1340,7 +1385,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The children didn't say anything.
+            The children didn&#039;t say anything.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1356,8 +1401,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``They perished,'' Mr. Poe said, ``in a fire that destroyed the
-            entire house.
+            ``They perished,&#039;&#039; Mr. Poe said, ``in a fire that
+            destroyed the entire house.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1373,7 +1418,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I'm very, very sorry to tell you this, my dears.''
+            I&#039;m very, very sorry to tell you this, my dears.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1405,8 +1450,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Mr. Poe had never called the Baudelaire children ``my dears''
-            before.
+            Mr. Poe had never called the Baudelaire children ``my
+            dears&#039;&#039; before.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1440,7 +1485,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            `` ``Perished,'' '' Mr. Poe said, ``means ``killed.'' ''
+            `` ``Perished,&#039;&#039; &#039;&#039; Mr. Poe said, ``means
+            ``killed.&#039;&#039; &#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1456,7 +1502,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``We know what the word ``perished'' means,'' Klaus said, crossly.
+            ``We know what the word ``perished&#039;&#039; means,&#039;&#039;
+            Klaus said, crossly.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1472,9 +1519,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            He did know what the word ``perished'' meant, but he was still
-            having trouble understanding exactly what it was that Mr. Poe had
-            said.
+            He did know what the word ``perished&#039;&#039; meant, but he was
+            still having trouble understanding exactly what it was that Mr. Poe
+            had said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1506,8 +1553,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``The fire department arrived, of course,'' Mr. Poe said, ``but they
-            were too late.
+            ``The fire department arrived, of course,&#039;&#039; Mr. Poe said,
+            ``but they were too late.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1540,7 +1587,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            It burned to the ground.''
+            It burned to the ground.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1572,7 +1619,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Now he'd never read all of them.
+            Now he&#039;d never read all of them.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1590,7 +1637,8 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             Mr. Poe coughed several times into his handkerchief before
             continuing. ``I was sent to retrieve you here, and to take you to my
-            home, where you'll stay for some time while we figure things out.
+            home, where you&#039;ll stay for some time while we figure things
+            out.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1606,7 +1654,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I am the executor of your parents' estate.
+            I am the executor of your parents&#039; estate.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1641,7 +1689,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             When Violet comes of age, the fortune will be yours, but the bank
-            will take charge of it until you are old enough.''
+            will take charge of it until you are old enough.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1694,7 +1742,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Come with me,'' Mr. Poe said, and held out his hand.
+            ``Come with me,&#039;&#039; Mr. Poe said, and held out his hand.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1728,10 +1776,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Klaus took Violet's other hand, and Sunny took Klaus's other hand,
-            and in that manner the three Baudelaire children-the Baudelaire
-            orphans, now-were led away from the beach and from their previous
-            lives.
+            Klaus took Violet&#039;s other hand, and Sunny took Klaus&#039;s
+            other hand, and in that manner the three Baudelaire children-the
+            Baudelaire orphans, now-were led away from the beach and from their
+            previous lives.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1783,8 +1831,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             If you have ever lost someone very important to you, then you
-            already know how it feels, and if you haven't, you cannot possibly
-            imagine it.
+            already know how it feels, and if you haven&#039;t, you cannot
+            possibly imagine it.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1838,7 +1886,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The gears in Violet's inventive brain seemed to stop.
+            The gears in Violet&#039;s inventive brain seemed to stop.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1873,8 +1921,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Of course, it didn't make things any easier that they had lost their
-            home as well, and all their possessions.
+            Of course, it didn&#039;t make things any easier that they had lost
+            their home as well, and all their possessions.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1890,9 +1938,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            As I'm sure you know, to be in one's own room, in one's own bed, can
-            often make a bleak situation a little better, but the beds of the
-            Baudelaire orphans had been reduced to charred rubble.
+            As I&#039;m sure you know, to be in one&#039;s own room, in
+            one&#039;s own bed, can often make a bleak situation a little
+            better, but the beds of the Baudelaire orphans had been reduced to
+            charred rubble.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -1910,10 +1959,10 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Mr. Poe had taken them to the remains of the Baudelaire mansion to
-            see if anything had been unharmed, and it was terrible: Violet's
-            microscope had fused together in the heat of the fire, Klaus's
-            favorite pen had turned to ash, and all of Sunny's teething rings
-            had melted.
+            see if anything had been unharmed, and it was terrible:
+            Violet&#039;s microscope had fused together in the heat of the fire,
+            Klaus&#039;s favorite pen had turned to ash, and all of Sunny&#039;s
+            teething rings had melted.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2046,9 +2095,9 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             But even given the surroundings, the children had mixed feelings
             when, over a dull dinner of boiled chicken, boiled potatoes and
-            blanched-the word ``blanched'' here means ``boiled''-string beans,
-            Mr. Poe announced that they were to leave his household the next
-            morning.
+            blanched-the word ``blanched&#039;&#039; here means
+            ``boiled&#039;&#039;-string beans, Mr. Poe announced that they were
+            to leave his household the next morning.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2066,8 +2115,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Good,'' said Albert, who had a piece of potato stuck between his
-            teeth. ``Now we can get our room back.
+            ``Good,&#039;&#039; said Albert, who had a piece of potato stuck
+            between his teeth. ``Now we can get our room back.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2084,7 +2133,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I'm tired of sharing it.
+            I&#039;m tired of sharing it.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2102,7 +2151,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Violet and Klaus are always moping around, and are never any fun.''
+            Violet and Klaus are always moping around, and are never any
+            fun.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2121,8 +2171,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``And the baby bites,'' Edgar said, tossing a chicken bone to the
-            floor as if he were an animal in a zoo and not the son of a
+            ``And the baby bites,&#039;&#039; Edgar said, tossing a chicken bone
+            to the floor as if he were an animal in a zoo and not the son of a
             well-respected member of the banking community.
           </td>
           <td
@@ -2140,7 +2190,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Where will we go?'' Violet asked nervously.
+            ``Where will we go?&#039;&#039; Violet asked nervously.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2157,9 +2207,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Mr. Poe opened his mouth to say something, but erupted into a brief
-            fit of coughing. ``I have made arrangements,'' he said finally,
-            ``for you to be raised by a distant relative of yours who lives on
-            the other side of town.
+            fit of coughing. ``I have made arrangements,&#039;&#039; he said
+            finally, ``for you to be raised by a distant relative of yours who
+            lives on the other side of town.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2175,7 +2225,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            His name is Count Olaf.''
+            His name is Count Olaf.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2210,7 +2260,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            On one hand, they didn't want to live with the Poes any longer.
+            On one hand, they didn&#039;t want to live with the Poes any longer.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2226,8 +2276,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            On the other hand, they had never heard of Count Olaf and didn't
-            know what he would be like.
+            On the other hand, they had never heard of Count Olaf and
+            didn&#039;t know what he would be like.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2244,8 +2294,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Your parents' will,'' Mr. Poe said, ``instructs that you be raised
-            in the most convenient way possible.
+            ``Your parents&#039; will,&#039;&#039; Mr. Poe said, ``instructs
+            that you be raised in the most convenient way possible.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2261,8 +2311,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Here in the city, you'll be used to your surroundings, and this
-            Count Olaf is the only relative who lives within the urban limits.''
+            Here in the city, you&#039;ll be used to your surroundings, and this
+            Count Olaf is the only relative who lives within the urban
+            limits.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2296,7 +2347,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Just how is he related to us, exactly?''
+            Just how is he related to us, exactly?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2350,7 +2401,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            That's why-''
+            That&#039;s why-&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2367,8 +2418,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``If he lives in the city,'' Violet said, ``why didn't our parents
-            ever invite him over?''
+            ``If he lives in the city,&#039;&#039; Violet said, ``why
+            didn&#039;t our parents ever invite him over?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2384,9 +2435,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Possibly because he was very busy,'' Mr. Poe said. ``He's an actor
-            by trade, and often travels around the world with various theater
-            companies.''
+            ``Possibly because he was very busy,&#039;&#039; Mr. Poe said.
+            ``He&#039;s an actor by trade, and often travels around the world
+            with various theater companies.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2402,7 +2453,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I thought he was a count,'' Klaus said.
+            ``I thought he was a count,&#039;&#039; Klaus said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2418,9 +2469,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``He is both a count and an actor,'' Mr. Poe said. ``Now, I don't
-            mean to cut short our dinner, but you children have to pack up your
-            things, and I have to return to the bank to do some more work.
+            ``He is both a count and an actor,&#039;&#039; Mr. Poe said. ``Now,
+            I don&#039;t mean to cut short our dinner, but you children have to
+            pack up your things, and I have to return to the bank to do some
+            more work.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2437,7 +2489,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Like your new legal guardian, I am very busy myself.''
+            Like your new legal guardian, I am very busy myself.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2490,7 +2542,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Well,'' Mrs.
+            ``Well,&#039;&#039; Mrs.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2525,7 +2577,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Edgar, Albert, please help me clear the table.''
+            Edgar, Albert, please help me clear the table.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2612,9 +2664,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            And Sunny crawled around solemnly biting each of Edgar and Albert's
-            shoes, leaving small teeth marks in each one so she would not be
-            forgotten.
+            And Sunny crawled around solemnly biting each of Edgar and
+            Albert&#039;s shoes, leaving small teeth marks in each one so she
+            would not be forgotten.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2685,8 +2737,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Rise and shine, Baudelaires,'' he said. ``It's time for you to go
-            to Count Olaf's.''
+            ``Rise and shine, Baudelaires,&#039;&#039; he said. ``It&#039;s time
+            for you to go to Count Olaf&#039;s.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2704,9 +2756,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Violet looked around the crowded bedroom, and even though she didn't
-            like it, she felt very nervous about leaving. ``Do we have to go
-            right this minute?'' she asked.
+            Violet looked around the crowded bedroom, and even though she
+            didn&#039;t like it, she felt very nervous about leaving. ``Do we
+            have to go right this minute?&#039;&#039; she asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2740,8 +2792,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I'm dropping you off on my way to the bank, so we need to leave as
-            soon as possible.
+            I&#039;m dropping you off on my way to the bank, so we need to leave
+            as soon as possible.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2758,7 +2810,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Please get out of bed and get dressed,'' he said briskly.
+            Please get out of bed and get dressed,&#039;&#039; he said briskly.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2775,8 +2827,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The word ``briskly'' here means ``quickly, so as to get the
-            Baudelaire children to leave the house.''
+            The word ``briskly&#039;&#039; here means ``quickly, so as to get
+            the Baudelaire children to leave the house.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2808,8 +2860,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Mr. Poe's automobile rumbled along the cobble-stone streets of the
-            city toward the neighborhood where Count Olaf lived.
+            Mr. Poe&#039;s automobile rumbled along the cobble-stone streets of
+            the city toward the neighborhood where Count Olaf lived.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2894,8 +2946,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Here we are,'' Mr. Poe said, in a voice undoubtedly meant to be
-            cheerful. ``Your new home.''
+            ``Here we are,&#039;&#039; Mr. Poe said, in a voice undoubtedly
+            meant to be cheerful. ``Your new home.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -2983,8 +3035,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Hello there!'' she called out. ``You must be the children Count
-            Olaf is adopting.''
+            ``Hello there!&#039;&#039; she called out. ``You must be the
+            children Count Olaf is adopting.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3001,7 +3053,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Violet opened the door of the automobile and got out to shake the
-            woman's hand.
+            woman&#039;s hand.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3020,7 +3072,7 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             It felt firm and warm, and for the first time in a long while Violet
             felt as if her life and the lives of her siblings might turn out
-            well after all. ``Yes,'' she said. ``Yes, we are.
+            well after all. ``Yes,&#039;&#039; she said. ``Yes, we are.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3057,7 +3109,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             And this is Mr. Poe, who has been arranging things for us since the
-            death of our parents.''
+            death of our parents.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3073,8 +3125,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Yes, I heard about the accident,'' the woman said, as everyone
-            said how do you do. ``I am Justice Strauss.''
+            ``Yes, I heard about the accident,&#039;&#039; the woman said, as
+            everyone said how do you do. ``I am Justice Strauss.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3090,7 +3142,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``That's an unusual first name,'' Klaus remarked.
+            ``That&#039;s an unusual first name,&#039;&#039; Klaus remarked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3107,7 +3159,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``It is my title,'' she explained, ``not my first name.
+            ``It is my title,&#039;&#039; she explained, ``not my first name.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3124,7 +3176,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I serve as a judge on the High Court.''
+            I serve as a judge on the High Court.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3141,8 +3193,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``How fascinating,'' Violet said. ``And are you married to Count
-            Olaf?''
+            ``How fascinating,&#039;&#039; Violet said. ``And are you married to
+            Count Olaf?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3158,8 +3210,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Goodness me no,'' Justice Strauss said. ``I don't actually know
-            him that well.
+            ``Goodness me no,&#039;&#039; Justice Strauss said. ``I don&#039;t
+            actually know him that well.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3176,7 +3228,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            He is my next-door neighbor.''
+            He is my next-door neighbor.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3296,7 +3348,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Oh!'' said Sunny, and everyone knew what she meant.
+            ``Oh!&#039;&#039; said Sunny, and everyone knew what she meant.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3312,8 +3364,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            She meant, ``What a terrible place! I don't want to live there at
-            all!''
+            She meant, ``What a terrible place! I don&#039;t want to live there
+            at all!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3329,7 +3381,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Well, it was nice to meet you,'' Violet said to Justice Strauss.
+            ``Well, it was nice to meet you,&#039;&#039; Violet said to Justice
+            Strauss.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3345,8 +3398,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Yes,'' said Justice Strauss, gesturing to her flowerpot. ``Perhaps
-            one day you could come over and help me with my gardening.''
+            ``Yes,&#039;&#039; said Justice Strauss, gesturing to her flowerpot.
+            ``Perhaps one day you could come over and help me with my
+            gardening.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3362,7 +3416,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``That would be very pleasant,'' Violet said, very sadly.
+            ``That would be very pleasant,&#039;&#039; Violet said, very sadly.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3380,8 +3434,8 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             It would, of course, be very pleasant to help Justice Strauss with
             her gardening, but Violet could not help thinking that it would be
-            more pleasant to live in Justice Strauss's house, instead of Count
-            Olaf's.
+            more pleasant to live in Justice Strauss&#039;s house, instead of
+            Count Olaf&#039;s.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3431,8 +3485,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Klaus stepped forward and knocked on Count Olaf's door, his knuckles
-            rapping right in the middle of the carved eye.
+            Klaus stepped forward and knocked on Count Olaf&#039;s door, his
+            knuckles rapping right in the middle of the carved eye.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3467,7 +3521,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Hello hello hello,'' Count Olaf said in a wheezy whisper.
+            ``Hello hello hello,&#039;&#039; Count Olaf said in a wheezy
+            whisper.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3535,7 +3590,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Please step into your new home, and wipe your feet outside so no mud
-            gets indoors.''
+            gets indoors.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3570,8 +3625,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The room in which they found themselves was the dirtiest they had
-            ever seen, and a little bit of mud from outdoors wouldn't have made
-            a bit of difference.
+            ever seen, and a little bit of mud from outdoors wouldn&#039;t have
+            made a bit of difference.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3622,8 +3677,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``This room looks like it needs a little work,'' Mr. Poe said,
-            peering around in the gloom.
+            ``This room looks like it needs a little work,&#039;&#039; Mr. Poe
+            said, peering around in the gloom.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3639,9 +3694,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I realize that my humble home isn't as fancy as the Baudelaire
-            mansion,'' Count Olaf said, ``but perhaps with a bit of your money
-            we could fix it up a little nicer.''
+            ``I realize that my humble home isn&#039;t as fancy as the
+            Baudelaire mansion,&#039;&#039; Count Olaf said, ``but perhaps with
+            a bit of your money we could fix it up a little nicer.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3659,8 +3714,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Mr. Poe's eyes widened in surprise, and his coughs echoed in the
-            dark room before he spoke.
+            Mr. Poe&#039;s eyes widened in surprise, and his coughs echoed in
+            the dark room before he spoke.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3677,8 +3732,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``The Baudelaire fortune,'' he said sternly, ``will not be used for
-            such matters.
+            ``The Baudelaire fortune,&#039;&#039; he said sternly, ``will not be
+            used for such matters.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3695,7 +3750,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            In fact, it will not be used at all, until Violet is of age.''
+            In fact, it will not be used at all, until Violet is of
+            age.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3747,8 +3803,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But then he swallowed-the children could see his Adam's apple bob in
-            his skinny throat-and shrugged his patchy shoulders.
+            But then he swallowed-the children could see his Adam&#039;s apple
+            bob in his skinny throat-and shrugged his patchy shoulders.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3764,7 +3820,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``All right then,'' he said. ``It's the same to me.
+            ``All right then,&#039;&#039; he said. ``It&#039;s the same to me.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3797,7 +3853,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Children, I will now show you to your room.''
+            Children, I will now show you to your room.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3813,8 +3869,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Good-bye, Violet, Klaus, and Sunny,'' Mr. Poe said, stepping back
-            through the front door. ``I hope you will be very happy here.
+            ``Good-bye, Violet, Klaus, and Sunny,&#039;&#039; Mr. Poe said,
+            stepping back through the front door. ``I hope you will be very
+            happy here.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3832,7 +3889,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I will continue to see you occasionally, and you can always contact
-            me at the bank if you have any questions.''
+            me at the bank if you have any questions.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3849,7 +3906,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But we don't even know where the bank is,'' Klaus said.
+            ``But we don&#039;t even know where the bank is,&#039;&#039; Klaus
+            said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3866,8 +3924,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I have a map of the city,'' Count Olaf said. ``Good-bye, Mr.
-            Poe.''
+            ``I have a map of the city,&#039;&#039; Count Olaf said. ``Good-bye,
+            Mr. Poe.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3922,8 +3980,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Rather than looking at the door, then, the orphans looked down, and
-            saw that although Count Olaf was wearing shoes, he wasn't wearing
-            any socks.
+            saw that although Count Olaf was wearing shoes, he wasn&#039;t
+            wearing any socks.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3960,9 +4018,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            They wondered how many other eyes were in Count Olaf's house, and
-            whether, for the rest of their lives, they would always feel as
-            though Count Olaf were watching them even when he wasn't nearby.
+            They wondered how many other eyes were in Count Olaf&#039;s house,
+            and whether, for the rest of their lives, they would always feel as
+            though Count Olaf were watching them even when he wasn&#039;t
+            nearby.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -3995,8 +4054,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I don't know if you've ever noticed this, but first impressions are
-            often entirely wrong.
+            I don&#039;t know if you&#039;ve ever noticed this, but first
+            impressions are often entirely wrong.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4083,8 +4142,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I wish I could tell you that the Baudelaires' first impressions of
-            Count Olaf and his house were incorrect, as first impressions so
+            I wish I could tell you that the Baudelaires&#039; first impressions
+            of Count Olaf and his house were incorrect, as first impressions so
             often are.
           </td>
           <td
@@ -4118,9 +4177,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            During the first few days after the orphans arrival at Count Olaf's,
-            Violet, Klaus, and Sunny attempted to make themselves feel at home,
-            but it was really no use.
+            During the first few days after the orphans arrival at Count
+            Olaf&#039;s, Violet, Klaus, and Sunny attempted to make themselves
+            feel at home, but it was really no use.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4136,9 +4195,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Even though Count Olaf's house was quite large, the three children
-            were placed together in one filthy bedroom that had only one small
-            bed in it.
+            Even though Count Olaf&#039;s house was quite large, the three
+            children were placed together in one filthy bedroom that had only
+            one small bed in it.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4156,7 +4215,7 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             Violet and Klaus took turns sleeping in it, so that every other
             night one of them was in the bed and the other was sleeping on the
-            hard wooden floor, and the bed's mattress was so lumpy it was
+            hard wooden floor, and the bed&#039;s mattress was so lumpy it was
             difficult to say who was more uncomfortable.
           </td>
           <td
@@ -4174,8 +4233,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             To make a bed for Sunny, Violet removed the dusty curtains from the
-            curtain rod that hung over the bedroom's one window and bunched them
-            together to form a sort of cushion, just big enough for her sister.
+            curtain rod that hung over the bedroom&#039;s one window and bunched
+            them together to form a sort of cushion, just big enough for her
+            sister.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4211,8 +4271,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Instead of a closet, there was a large cardboard box that had once
-            held a refrigerator and would now hold the three children's clothes,
-            all piled in a heap.
+            held a refrigerator and would now hold the three children&#039;s
+            clothes, all piled in a heap.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4246,8 +4306,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             And the only decoration on the peeling walls was a large and ugly
-            painting of an eye, matching the one on Count Olaf's ankle and all
-            over the house.
+            painting of an eye, matching the one on Count Olaf&#039;s ankle and
+            all over the house.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4265,7 +4325,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But the children knew, as I'm sure you know, that the worst
+            But the children knew, as I&#039;m sure you know, that the worst
             surroundings in the world can be tolerated if the people in them are
             interesting and kind.
           </td>
@@ -4305,7 +4365,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The only good thing to be said for Count Olaf is that he wasn't
+            The only good thing to be said for Count Olaf is that he wasn&#039;t
             around very often.
           </td>
           <td
@@ -4382,7 +4442,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             One morning his note read, ``My theater troupe will be coming for
-            dinner before tonight's performance.
+            dinner before tonight&#039;s performance.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4399,7 +4459,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Have dinner ready for all ten of them by the time they arrive at
-            seven o'clock.
+            seven o&#039;clock.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4418,9 +4478,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Buy the food, prepare it, set the table, serve dinner, clean up
-            afterwards, and stay out of our way.'' Below that there was the
-            usual eye, and underneath the note was a small sum of money for the
-            groceries.
+            afterwards, and stay out of our way.&#039;&#039; Below that there
+            was the usual eye, and underneath the note was a small sum of money
+            for the groceries.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4474,7 +4534,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``None of us knows how to cook,'' Klaus said.
+            ``None of us knows how to cook,&#039;&#039; Klaus said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4491,9 +4551,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``That's true,'' Violet said. ``I knew how to repair those windows,
-            and how to clean the chimney, because those sorts of things interest
-            me.
+            ``That&#039;s true,&#039;&#039; Violet said. ``I knew how to repair
+            those windows, and how to clean the chimney, because those sorts of
+            things interest me.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4511,7 +4571,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But I don't know how to cook anything except toast.''
+            But I don&#039;t know how to cook anything except toast.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4528,7 +4588,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``And sometimes you burn the toast,'' Klaus said, and they smiled.
+            ``And sometimes you burn the toast,&#039;&#039; Klaus said, and they
+            smiled.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4603,7 +4664,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I wish they were here,'' Violet said.
+            ``I wish they were here,&#039;&#039; Violet said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4622,7 +4683,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             She did not have to explain she was talking about their parents.
-            ``They would never let us stay in this dreadful place.''
+            ``They would never let us stay in this dreadful place.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4639,9 +4700,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``If they were here,'' Klaus said, his voice rising as he got more
-            and more upset, ``we would not be with Count Olaf in the first
-            place.
+            ``If they were here,&#039;&#039; Klaus said, his voice rising as he
+            got more and more upset, ``we would not be with Count Olaf in the
+            first place.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4660,7 +4721,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I hate it here, Violet! I hate this house! Ihate our room! I hate
-            having to do all these chores, and I hate Count Olaf!''
+            having to do all these chores, and I hate Count Olaf!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4677,8 +4738,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I hate it too,'' Violet said, and Klaus looked at his older sister
-            with relief.
+            ``I hate it too,&#039;&#039; Violet said, and Klaus looked at his
+            older sister with relief.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4697,9 +4758,10 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             Sometimes, just saying that you hate something, and having someone
             agree with you, can make you feel better about a terrible situation.
-            ``I hate everything about our lives right now, Klaus,'' she said,
-            ``but we have to keep our chin up.'' This was an expression the
-            children's father had used, and it meant ``try to stay cheerful.''
+            ``I hate everything about our lives right now, Klaus,&#039;&#039;
+            she said, ``but we have to keep our chin up.&#039;&#039; This was an
+            expression the children&#039;s father had used, and it meant ``try
+            to stay cheerful.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4715,8 +4777,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You're right,'' Klaus said. ``But it is very difficult to keep
-            one's chin up when Count Olaf keeps shoving it down.''
+            ``You&#039;re right,&#039;&#039; Klaus said. ``But it is very
+            difficult to keep one&#039;s chin up when Count Olaf keeps shoving
+            it down.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4733,8 +4796,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Jook!'' Sunny shrieked, banging on the table with her oatmeal
-            spoon.
+            ``Jook!&#039;&#039; Sunny shrieked, banging on the table with her
+            oatmeal spoon.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4751,7 +4814,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Violet and Klaus were jerked out of their conversation and looked
-            once again at Count Olaf's note.
+            once again at Count Olaf&#039;s note.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4768,11 +4831,11 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Perhaps we could find a cookbook, and read about how to cook,''
-            Klaus said. ``It shouldn't be that difficult to make a simple
-            meal.'' Violet and Klaus spent several minutes opening and shutting
-            Count Olaf's kitchen cupboards, but there weren't any cookbooks to
-            be found.
+            ``Perhaps we could find a cookbook, and read about how to
+            cook,&#039;&#039; Klaus said. ``It shouldn&#039;t be that difficult
+            to make a simple meal.&#039;&#039; Violet and Klaus spent several
+            minutes opening and shutting Count Olaf&#039;s kitchen cupboards,
+            but there weren&#039;t any cookbooks to be found.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4789,8 +4852,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I can't say I'm surprised,'' Violet said. ``We haven't found any
-            books in this house at all.''
+            ``I can&#039;t say I&#039;m surprised,&#039;&#039; Violet said. ``We
+            haven&#039;t found any books in this house at all.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4806,7 +4869,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I know,'' Klaus said miserably. ``I miss reading very much.
+            ``I know,&#039;&#039; Klaus said miserably. ``I miss reading very
+            much.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4823,7 +4887,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            We must go out and look for a library sometime soon.''
+            We must go out and look for a library sometime soon.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4840,8 +4904,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But not today,'' Violet said. ``Today we have to cook for ten
-            people.''
+            ``But not today,&#039;&#039; Violet said. ``Today we have to cook
+            for ten people.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4892,8 +4956,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Who in the world would want to visit Count Olaf?'' Violet wondered
-            out loud.
+            ``Who in the world would want to visit Count Olaf?&#039;&#039;
+            Violet wondered out loud.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4909,7 +4973,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Maybe somebody wants to visit us,'' Klaus said, without much hope.
+            ``Maybe somebody wants to visit us,&#039;&#039; Klaus said, without
+            much hope.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4925,14 +4990,14 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            In the time since the Baudelaire parent's death, most of the
-            Baudelaire orphans' friends had fallen by the wayside, an expression
-            which here means ``they stopped calling, writing, and stopping by to
-            see any of Baudelaires, making them very lonely.'' You and I, of
-            course, would never do this to any of our grieving acquaintances,
-            but it is a sad truth in life that when someone has lost a loved
-            one, friends sometimes avoid the person, just when the presence of
-            friends is most needed.
+            In the time since the Baudelaire parent&#039;s death, most of the
+            Baudelaire orphans&#039; friends had fallen by the wayside, an
+            expression which here means ``they stopped calling, writing, and
+            stopping by to see any of Baudelaires, making them very
+            lonely.&#039;&#039; You and I, of course, would never do this to any
+            of our grieving acquaintances, but it is a sad truth in life that
+            when someone has lost a loved one, friends sometimes avoid the
+            person, just when the presence of friends is most needed.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -4983,10 +5048,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Justice Strauss!'' Violet cried. ``How lovely to see you.'' She
-            was about to add, ``Do come in,'' but then she realized that Justice
-            Strauss would probably not want to venture into the dim and dirty
-            room.
+            ``Justice Strauss!&#039;&#039; Violet cried. ``How lovely to see
+            you.&#039;&#039; She was about to add, ``Do come in,&#039;&#039; but
+            then she realized that Justice Strauss would probably not want to
+            venture into the dim and dirty room.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5003,10 +5068,11 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Please forgive me for not stopping by sooner,'' Justice Strauss
-            said, as the Baudelaires stood awkwardly in the doorway. ``I wanted
-            to see how you children were settling in, but I had a very difficult
-            case in the High Court and it was taking up much of my time.''
+            ``Please forgive me for not stopping by sooner,&#039;&#039; Justice
+            Strauss said, as the Baudelaires stood awkwardly in the doorway. ``I
+            wanted to see how you children were settling in, but I had a very
+            difficult case in the High Court and it was taking up much of my
+            time.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5023,7 +5089,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What sort of case was it?'' Klaus asked.
+            ``What sort of case was it?&#039;&#039; Klaus asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5057,8 +5123,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I can't really discuss it,'' Justice Strauss said, ``because it's
-            official business.
+            ``I can&#039;t really discuss it,&#039;&#039; Justice Strauss said,
+            ``because it&#039;s official business.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5075,7 +5141,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             But I can tell you it concerns a poisonous plant and illegal use of
-            someone's credit card.''
+            someone&#039;s credit card.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5091,9 +5157,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Yeeka!'' Sunny shrieked, which appeared to mean ``How
-            interesting!'' although of course there is no way that Sunny could
-            understand what was being said.
+            ``Yeeka!&#039;&#039; Sunny shrieked, which appeared to mean ``How
+            interesting!&#039;&#039; although of course there is no way that
+            Sunny could understand what was being said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5110,8 +5176,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Justice Strauss looked down at Sunny and laughed. ``Yeeka indeed,''
-            she said, and reached down to pat the child on the head.
+            Justice Strauss looked down at Sunny and laughed. ``Yeeka
+            indeed,&#039;&#039; she said, and reached down to pat the child on
+            the head.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5128,7 +5195,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Sunny took Justice Strauss's hand and bit it, gently.
+            Sunny took Justice Strauss&#039;s hand and bit it, gently.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5145,7 +5212,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``That means she likes you,'' Violet explained.
+            ``That means she likes you,&#039;&#039; Violet explained.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5163,8 +5230,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``She bites very, very hard if she doesn't like you, or if you want
-            to give her a bath.''
+            ``She bites very, very hard if she doesn&#039;t like you, or if you
+            want to give her a bath.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5181,8 +5248,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I see,'' Justice Strauss said. ``Now then, how are you children
-            getting on? Is there anything you desire?''
+            ``I see,&#039;&#039; Justice Strauss said. ``Now then, how are you
+            children getting on? Is there anything you desire?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5351,9 +5418,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Could we perhaps borrow a cookbook?'' he said. ``Count Olaf has
-            instructed us to make dinner for his theater troupe tonight, and we
-            can't find a cookbook in the house.''
+            ``Could we perhaps borrow a cookbook?&#039;&#039; he said. ``Count
+            Olaf has instructed us to make dinner for his theater troupe
+            tonight, and we can&#039;t find a cookbook in the house.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5369,8 +5436,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Goodness,'' Justice Strauss said. ``Cooking dinner for an entire
-            theater troupe seems like a lot to ask of children.''
+            ``Goodness,&#039;&#039; Justice Strauss said. ``Cooking dinner for
+            an entire theater troupe seems like a lot to ask of
+            children.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5386,7 +5454,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Count Olaf gives us a lot of responsibility,'' Violet said.
+            ``Count Olaf gives us a lot of responsibility,&#039;&#039; Violet
+            said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5402,8 +5471,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            What she wanted to say was, ``Count Olaf is an evil man,'' but she
-            was well mannered.
+            What she wanted to say was, ``Count Olaf is an evil man,&#039;&#039;
+            but she was well mannered.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5419,8 +5488,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Well, why don't you come next door to my house,'' Justice Strauss
-            said, ``and find a cookbook that pleases you?''
+            ``Well, why don&#039;t you come next door to my house,&#039;&#039;
+            Justice Strauss said, ``and find a cookbook that pleases
+            you?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5530,9 +5600,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The only place there weren't books was in one corner, where there
-            were some large, comfortable-looking chairs and a wooden table with
-            lamps hanging over them, perfect for reading.
+            The only place there weren&#039;t books was in one corner, where
+            there were some large, comfortable-looking chairs and a wooden table
+            with lamps hanging over them, perfect for reading.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5549,7 +5619,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Although it was not as big as their parents' library, it was as
+            Although it was not as big as their parents&#039; library, it was as
             cozy, and the Baudelaire children were thrilled.
           </td>
           <td
@@ -5567,7 +5637,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``My word!'' Violet said. ``This is a wonderful library!''
+            ``My word!&#039;&#039; Violet said. ``This is a wonderful
+            library!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5583,8 +5654,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Thank you very much,'' Justice Strauss said. ``I've been
-            collecting books for years, and I'm very proud of my collection.
+            ``Thank you very much,&#039;&#039; Justice Strauss said. ``I&#039;ve
+            been collecting books for years, and I&#039;m very proud of my
+            collection.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5636,7 +5708,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Shall we have a look at them?''
+            Shall we have a look at them?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5654,8 +5726,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Yes,'' Violet said, ``and then, if you don't mind, I should love
-            to look at any of your books concerning mechanical engineering.
+            ``Yes,&#039;&#039; Violet said, ``and then, if you don&#039;t mind,
+            I should love to look at any of your books concerning mechanical
+            engineering.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5671,7 +5744,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Inventing things is a great interest of mine.''
+            Inventing things is a great interest of mine.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5687,9 +5760,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``And I would like to look at books on wolves,'' Klaus said.
-            ``Recently I have been fascinated by the subject of wild animals of
-            North America.''
+            ``And I would like to look at books on wolves,&#039;&#039; Klaus
+            said. ``Recently I have been fascinated by the subject of wild
+            animals of North America.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5706,8 +5779,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Book!'' Sunny shrieked, which meant ``Please don't forget to pick
-            out a picture book for me.''
+            ``Book!&#039;&#039; Sunny shrieked, which meant ``Please don&#039;t
+            forget to pick out a picture book for me.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5725,8 +5798,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Justice Strauss smiled. ``It is a pleasure to see young people
-            interested in books,'' she said. ``But first I think we'd better
-            find a good recipe, don't you?''
+            interested in books,&#039;&#039; she said. ``But first I think
+            we&#039;d better find a good recipe, don&#039;t you?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5761,8 +5834,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             To tell you the truth, the three orphans were so excited to be out
-            of Count Olaf's house, and in this pleasant library, that they were
-            a little distracted and unable to concentrate on cooking.
+            of Count Olaf&#039;s house, and in this pleasant library, that they
+            were a little distracted and unable to concentrate on cooking.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5796,8 +5869,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Listen to this,'' he said. `` ``Puttanesca.'' It's an Italian
-            sauce for pasta.
+            ``Listen to this,&#039;&#039; he said. `` ``Puttanesca.&#039;&#039;
+            It&#039;s an Italian sauce for pasta.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5815,7 +5888,7 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             All we need to do is sauté olives, capers, anchovies, garlic,
             chopped parsley, and tomatoes together in a pot, and prepare
-            spaghetti to go with it.''
+            spaghetti to go with it.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -5832,8 +5905,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``That sounds easy,'' Violet agreed, and the Baudelaire orphans
-            looked at one another.
+            ``That sounds easy,&#039;&#039; Violet agreed, and the Baudelaire
+            orphans looked at one another.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6009,9 +6082,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Thank you so much for helping us out today,'' Violet said, as she
-            and her siblings walked home with Justice Strauss. ``I don't know
-            what we would have done without you.''
+            ``Thank you so much for helping us out today,&#039;&#039; Violet
+            said, as she and her siblings walked home with Justice Strauss. ``I
+            don&#039;t know what we would have done without you.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6027,8 +6100,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You seem like very intelligent people,'' Justice Strauss said. ``I
-            daresay you would have thought of something.
+            ``You seem like very intelligent people,&#039;&#039; Justice Strauss
+            said. ``I daresay you would have thought of something.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6096,7 +6169,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I hope you children will come over soon and borrow books from my
-            library.''
+            library.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6113,7 +6186,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Tomorrow?'' Klaus said quickly. ``Could we come over tomorrow?''
+            ``Tomorrow?&#039;&#039; Klaus said quickly. ``Could we come over
+            tomorrow?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6129,7 +6203,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I don't see why not,'' Justice Strauss said, smiling.
+            ``I don&#039;t see why not,&#039;&#039; Justice Strauss said,
+            smiling.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6146,8 +6221,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I can't tell you how much we appreciate this,'' Violet said,
-            carefully.
+            ``I can&#039;t tell you how much we appreciate this,&#039;&#039;
+            Violet said, carefully.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6166,9 +6241,9 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             With their kind parents dead and Count Olaf treating them so
             abominably, the three children were not used to kindness from
-            adults, and weren't sure if they were expected to do anything back.
-            ``Tomorrow, before we use your library again, Klaus and I would be
-            more than happy to do household chores for you.
+            adults, and weren&#039;t sure if they were expected to do anything
+            back. ``Tomorrow, before we use your library again, Klaus and I
+            would be more than happy to do household chores for you.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6185,8 +6260,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Sunny isn't really old enough to work, but I'm sure we could find
-            some way she could help you.''
+            Sunny isn&#039;t really old enough to work, but I&#039;m sure we
+            could find some way she could help you.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6220,11 +6295,12 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            She reached out a hand and put it on Violet's hair, and Violet felt
-            more comforted than she had in some time. ``That won't be
-            necessary,'' Justice Strauss said. ``You are always welcome in my
-            home.'' Then she turned and went into her home, and after a moment
-            of staring after her, the Baudelaire orphans went into theirs.
+            She reached out a hand and put it on Violet&#039;s hair, and Violet
+            felt more comforted than she had in some time. ``That won&#039;t be
+            necessary,&#039;&#039; Justice Strauss said. ``You are always
+            welcome in my home.&#039;&#039; Then she turned and went into her
+            home, and after a moment of staring after her, the Baudelaire
+            orphans went into theirs.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6311,7 +6387,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             And all three of the children felt less miserable than they had
-            since their arrival at Count Olaf's.
+            since their arrival at Count Olaf&#039;s.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6329,7 +6405,7 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             The smell of cooking food is often a calming one, and the kitchen
             grew cozy as the sauce simmered, a culinary term which means
-            ``cooked over low heat.''
+            ``cooked over low heat.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6381,8 +6457,8 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             Just as they were placing the pudding in the refrigerator to cool,
             Violet, Klaus, and Sunny heard a loud, booming sound as the front
-            door was flung open, and I'm sure I don't have to tell you who was
-            home.
+            door was flung open, and I&#039;m sure I don&#039;t have to tell you
+            who was home.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6398,8 +6474,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Orphans?'' Count Olaf called out in his scratchy voice. ``Where
-            are you, orphans?''
+            ``Orphans?&#039;&#039; Count Olaf called out in his scratchy voice.
+            ``Where are you, orphans?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6415,8 +6491,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``In the kitchen, Count Olaf,'' Klaus called. ``We're just finishing
-            dinner.''
+            ``In the kitchen, Count Olaf,&#039;&#039; Klaus called. ``We&#039;re
+            just finishing dinner.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6433,7 +6509,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You'd better be,'' Count Olaf said, and strode into the kitchen.
+            ``You&#039;d better be,&#039;&#039; Count Olaf said, and strode into
+            the kitchen.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6467,7 +6544,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Where is the roast beef?''
+            Where is the roast beef?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6484,8 +6561,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``We didn't make roast beef,'' Violet said. ``We made puttanesca
-            sauce.''
+            ``We didn&#039;t make roast beef,&#039;&#039; Violet said. ``We made
+            puttanesca sauce.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6501,7 +6578,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What?'' Count Olaf asked. ``No roast beef?''
+            ``What?&#039;&#039; Count Olaf asked. ``No roast beef?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6518,7 +6595,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You didn't tell us you wanted roast beef,'' Klaus said.
+            ``You didn&#039;t tell us you wanted roast beef,&#039;&#039; Klaus
+            said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6554,8 +6632,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             His eyes grew even brighter, and his one eyebrow raised in anger.
-            ``In agreeing to adopt you,'' he said, ``I have become your father,
-            and as your father I am not someone to be trifled with.
+            ``In agreeing to adopt you,&#039;&#039; he said, ``I have become
+            your father, and as your father I am not someone to be trifled with.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6573,7 +6651,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I demand that you serve roast beef to myself and my guests.''
+            I demand that you serve roast beef to myself and my
+            guests.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6590,7 +6669,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``We don't have any!'' Violet cried. ``We made puttanesca sauce!''
+            ``We don&#039;t have any!&#039;&#039; Violet cried. ``We made
+            puttanesca sauce!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6606,7 +6686,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``No! No! No!'' Sunny shouted.
+            ``No! No! No!&#039;&#039; Sunny shouted.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6675,7 +6755,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Put her down immediately, you beast!'' Klaus shouted.
+            ``Put her down immediately, you beast!&#039;&#039; Klaus shouted.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6747,7 +6827,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Olaf! Where's Olaf?'' voices called out.
+            ``Olaf! Where&#039;s Olaf?&#039;&#039; voices called out.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6894,8 +6974,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Here you are, Olaf,'' said one of the white-faced women. ``What in
-            the world are you doing?''
+            ``Here you are, Olaf,&#039;&#039; said one of the white-faced women.
+            ``What in the world are you doing?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6911,9 +6991,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'm just disciplining these orphans,'' Count Olaf said. ``I asked
-            them to make dinner, and all they have made is some disgusting
-            sauce.''
+            ``I&#039;m just disciplining these orphans,&#039;&#039; Count Olaf
+            said. ``I asked them to make dinner, and all they have made is some
+            disgusting sauce.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6930,8 +7010,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You can't go easy on children,'' the man with the hook-hands said.
-            ``They must be taught to obey their elders.''
+            ``You can&#039;t go easy on children,&#039;&#039; the man with the
+            hook-hands said. ``They must be taught to obey their
+            elders.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6947,8 +7028,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The tall, bald man peered at the youngsters. ``Are these,'' he said
-            to Count Olaf, ``those wealthy children you were telling me about?''
+            The tall, bald man peered at the youngsters. ``Are
+            these,&#039;&#039; he said to Count Olaf, ``those wealthy children
+            you were telling me about?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6964,9 +7046,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Yes,'' Count Olaf said. ``They are so awful I can scarcely stand
-            to touch them.'' With that, he lowered Sunny, who was still wailing,
-            to the floor.
+            ``Yes,&#039;&#039; Count Olaf said. ``They are so awful I can
+            scarcely stand to touch them.&#039;&#039; With that, he lowered
+            Sunny, who was still wailing, to the floor.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -6999,7 +7081,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I don't blame you,'' said someone in the doorway.
+            ``I don&#039;t blame you,&#039;&#039; said someone in the doorway.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7016,9 +7098,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Count Olaf rubbed his hands together as if he had been holding
-            something revolting instead of an infant. ``Well, enough talk,'' he
-            said. ``I suppose we will eat their dinner, even though it is all
-            wrong.
+            something revolting instead of an infant. ``Well, enough
+            talk,&#039;&#039; he said. ``I suppose we will eat their dinner,
+            even though it is all wrong.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7052,7 +7134,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Perhaps by the time these brats serve us, we will be too drunk to
-            care if it is roast beef or not.''
+            care if it is roast beef or not.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7070,8 +7152,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Hurrah!'' cried several members of the troupe, and they marched
-            through the kitchen, following Count Olaf into the dining room.
+            ``Hurrah!&#039;&#039; cried several members of the troupe, and they
+            marched through the kitchen, following Count Olaf into the dining
+            room.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7106,10 +7189,11 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You're a pretty one,'' he said, taking her face in his rough
-            hands. ``If I were you I would try not to anger Count Olaf, or he
-            might wreck that pretty little face of yours.'' Violet shuddered,
-            and the bald man gave a high-pitched giggle and left the room.
+            ``You&#039;re a pretty one,&#039;&#039; he said, taking her face in
+            his rough hands. ``If I were you I would try not to anger Count
+            Olaf, or he might wreck that pretty little face of
+            yours.&#039;&#039; Violet shuddered, and the bald man gave a
+            high-pitched giggle and left the room.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7161,9 +7245,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Only Violet didn't cry, but merely trembled with fear and revulsion,
-            a word which here means ``an unpleasant mixture of horror and
-            disgust.'' For several moments none of them could speak.
+            Only Violet didn&#039;t cry, but merely trembled with fear and
+            revulsion, a word which here means ``an unpleasant mixture of horror
+            and disgust.&#039;&#039; For several moments none of them could
+            speak.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7179,8 +7264,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``This is terrible, terrible,'' Klaus said finally. ``Violet, what
-            can we do?''
+            ``This is terrible, terrible,&#039;&#039; Klaus said finally.
+            ``Violet, what can we do?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7196,7 +7281,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I don't know,'' she said. ``I'm afraid.''
+            ``I don&#039;t know,&#039;&#039; she said. ``I&#039;m
+            afraid.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7212,7 +7298,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Me too,'' Klaus said.
+            ``Me too,&#039;&#039; Klaus said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7229,7 +7315,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Hux!'' Sunny said, as she stopped crying.
+            ``Hux!&#039;&#039; Sunny said, as she stopped crying.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7246,9 +7332,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Let's have some dinner!'' someone shouted from the dining room,
-            and the theater troupe began pounding on the table in strict rhythm,
-            which is an exceedingly rude thing to do.
+            ``Let&#039;s have some dinner!&#039;&#039; someone shouted from the
+            dining room, and the theater troupe began pounding on the table in
+            strict rhythm, which is an exceedingly rude thing to do.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7265,8 +7351,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``We'd better serve the puttanesca,'' Klaus said, ``or who knows
-            what Count Olaf will do to us.''
+            ``We&#039;d better serve the puttanesca,&#039;&#039; Klaus said,
+            ``or who knows what Count Olaf will do to us.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7362,7 +7448,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Violet's right hand ached from holding the heavy ladle.
+            Violet&#039;s right hand ached from holding the heavy ladle.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7396,7 +7482,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            She stared miserably at Olaf's plate of food and found herself
+            She stared miserably at Olaf&#039;s plate of food and found herself
             wishing she had bought poison at the market and put it in the
             puttanesca sauce.
           </td>
@@ -7449,9 +7535,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Before long, Olaf's friends were pounding on the table in strict
-            rhythm again, and the orphans went out to the dining room to clear
-            the table, and then again to serve the chocolate pudding.
+            Before long, Olaf&#039;s friends were pounding on the table in
+            strict rhythm again, and the orphans went out to the dining room to
+            clear the table, and then again to serve the chocolate pudding.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7521,8 +7607,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Because you haven't cleaned up yet,'' he said to the orphans, ``I
-            suppose you can be excused from attending tonight's performance.
+            ``Because you haven&#039;t cleaned up yet,&#039;&#039; he said to
+            the orphans, ``I suppose you can be excused from attending
+            tonight&#039;s performance.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7538,7 +7625,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But after cleaning up, you are to go straight to your beds.''
+            But after cleaning up, you are to go straight to your
+            beds.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7571,8 +7659,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But at this he could not remain silent. ``You mean our bed!'' he
-            shouted. ``You have only provided us with one bed!''
+            But at this he could not remain silent. ``You mean our
+            bed!&#039;&#039; he shouted. ``You have only provided us with one
+            bed!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7626,8 +7715,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``If you would like another bed,'' he said, ``tomorrow you may go
-            into town and purchase one.''
+            ``If you would like another bed,&#039;&#039; he said, ``tomorrow you
+            may go into town and purchase one.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7643,7 +7732,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You know perfectly well we haven't any money,'' Klaus said.
+            ``You know perfectly well we haven&#039;t any money,&#039;&#039;
+            Klaus said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7659,8 +7749,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Of course you do,'' Count Olaf said, and his voice began to get a
-            little louder. ``You are the inheritors of an enormous fortune.''
+            ``Of course you do,&#039;&#039; Count Olaf said, and his voice began
+            to get a little louder. ``You are the inheritors of an enormous
+            fortune.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7676,8 +7767,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``That money,'' Klaus said, remembering what Mr. Poe said, ``is not
-            to be used until Violet is of age.''
+            ``That money,&#039;&#039; Klaus said, remembering what Mr. Poe said,
+            ``is not to be used until Violet is of age.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7693,7 +7784,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Count Olaf's face grew very red.
+            Count Olaf&#039;s face grew very red.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7746,7 +7837,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Klaus fell to the floor, his face inches from the eye tattooed on
-            Olaf's ankle.
+            Olaf&#039;s ankle.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7815,8 +7906,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Come on, friends,'' Count Olaf said to his comrades. ``We'll be
-            late for our own performance.''
+            ``Come on, friends,&#039;&#039; Count Olaf said to his comrades.
+            ``We&#039;ll be late for our own performance.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7832,8 +7923,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``If I know you, Olaf,'' said the man with the hook-hands, ``you'll
-            figure out a way to get at that Baudelaire money.''
+            ``If I know you, Olaf,&#039;&#039; said the man with the hook-hands,
+            ``you&#039;ll figure out a way to get at that Baudelaire
+            money.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7850,8 +7942,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``We'll see,'' Count Olaf said, but his eyes were shining bright as
-            if he already had an idea.
+            ``We&#039;ll see,&#039;&#039; Count Olaf said, but his eyes were
+            shining bright as if he already had an idea.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7887,8 +7979,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Violet knelt at Klaus's side, giving him a hug to try to make him
-            feel better.
+            Violet knelt at Klaus&#039;s side, giving him a hug to try to make
+            him feel better.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -7962,8 +8054,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The moonlight shone through the window, and if anyone had looked
-            into the Baudelaire orphans' bedroom, they would have seen three
-            children crying quietly all night long.
+            into the Baudelaire orphans&#039; bedroom, they would have seen
+            three children crying quietly all night long.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8083,10 +8175,11 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The morning's note from Count Olaf ordered them to chop firewood in
-            the backyard, and as Violet and Klaus swung the axe down over each
-            log to break it into smaller pieces, they discussed possible plans
-            of action, while Sunny chewed meditatively on a small piece of wood.
+            The morning&#039;s note from Count Olaf ordered them to chop
+            firewood in the backyard, and as Violet and Klaus swung the axe down
+            over each log to break it into smaller pieces, they discussed
+            possible plans of action, while Sunny chewed meditatively on a small
+            piece of wood.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8102,8 +8195,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Clearly,'' Klaus said, fingering the ugly bruise on his face where
-            Olaf had struck him, ``we cannot stay here any longer.
+            ``Clearly,&#039;&#039; Klaus said, fingering the ugly bruise on his
+            face where Olaf had struck him, ``we cannot stay here any longer.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8121,7 +8214,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I would rather take my chances on the streets than live in this
-            terrible place.''
+            terrible place.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8139,8 +8232,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But who knows what misfortunes would befall us on the streets?''
-            Violet pointed out. ``At least here we have a roof over our heads.''
+            ``But who knows what misfortunes would befall us on the
+            streets?&#039;&#039; Violet pointed out. ``At least here we have a
+            roof over our heads.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8156,10 +8250,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I wish our parents' money could be used now, instead of when you
-            come of age,'' Klaus said. ``Then we could buy a castle and live in
-            it, with armed guards patrolling the outside to keep out Count Olaf
-            and his troupe.''
+            ``I wish our parents&#039; money could be used now, instead of when
+            you come of age,&#039;&#039; Klaus said. ``Then we could buy a
+            castle and live in it, with armed guards patrolling the outside to
+            keep out Count Olaf and his troupe.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8176,7 +8270,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``And I could have a large inventing studio,'' Violet said
+            ``And I could have a large inventing studio,&#039;&#039; Violet said
             wistfully.
           </td>
           <td
@@ -8194,7 +8288,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             She swung the axe down and split a log neatly in two. ``Filled with
-            gears and pulleys and wires and an elaborate computer system.''
+            gears and pulleys and wires and an elaborate computer
+            system.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8210,8 +8305,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``And I could have a large library,'' Klaus said, ``as comfortable
-            as Justice Strauss's, but more enormous.''
+            ``And I could have a large library,&#039;&#039; Klaus said, ``as
+            comfortable as Justice Strauss&#039;s, but more
+            enormous.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8229,8 +8325,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Gibbo!'' Sunny shrieked, which appeared to mean ``And I could have
-            lots of things to bite.''
+            ``Gibbo!&#039;&#039; Sunny shrieked, which appeared to mean ``And I
+            could have lots of things to bite.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8247,8 +8343,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But in the meantime,'' Violet said, ``we have to do something
-            about our predicament.''
+            ``But in the meantime,&#039;&#039; Violet said, ``we have to do
+            something about our predicament.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8264,8 +8360,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Perhaps Justice Strauss could adopt us,'' Klaus said. ``She said
-            we were always welcome in her home.''
+            ``Perhaps Justice Strauss could adopt us,&#039;&#039; Klaus said.
+            ``She said we were always welcome in her home.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8281,8 +8377,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But she meant for a visit, or to use her library,'' Violet pointed
-            out. ``She didn't mean to live.''
+            ``But she meant for a visit, or to use her library,&#039;&#039;
+            Violet pointed out. ``She didn&#039;t mean to live.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8299,8 +8395,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             ``Perhaps if we explained our situation to her, she would agree to
-            adopt us,'' Klaus said hopefully, but when Violet looked at him she
-            saw that he knew it was of no use.
+            adopt us,&#039;&#039; Klaus said hopefully, but when Violet looked
+            at him she saw that he knew it was of no use.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8335,9 +8431,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I'm sure you, in your life, have occasionally wished to be raised by
-            different people than the ones who are raising you, but knew in your
-            heart that the chances of this were very slim.
+            I&#039;m sure you, in your life, have occasionally wished to be
+            raised by different people than the ones who are raising you, but
+            knew in your heart that the chances of this were very slim.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8353,9 +8449,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I think we should go see Mr. Poe,'' Violet said. ``He told us when
-            he dropped us here that we could contact him at the bank if we had
-            any questions.''
+            ``I think we should go see Mr. Poe,&#039;&#039; Violet said. ``He
+            told us when he dropped us here that we could contact him at the
+            bank if we had any questions.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8372,9 +8468,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``We don't really have a question,'' Klaus said. ``We have a
-            complaint.'' He was thinking of Mr. Poe walking toward them at Briny
-            Beach, with his terrible message.
+            ``We don&#039;t really have a question,&#039;&#039; Klaus said. ``We
+            have a complaint.&#039;&#039; He was thinking of Mr. Poe walking
+            toward them at Briny Beach, with his terrible message.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8391,9 +8487,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Even though the fire was of course not Mr. Poe's fault, Klaus was
-            reluctant to see Mr. Poe because he was afraid of getting more bad
-            news.
+            Even though the fire was of course not Mr. Poe&#039;s fault, Klaus
+            was reluctant to see Mr. Poe because he was afraid of getting more
+            bad news.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8410,9 +8506,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I can't think of anyone else to contact,'' Violet said. ``Mr. Poe
-            is in charge of our affairs, and I'm sure if he knew how horrid
-            Count Olaf is, he would take us right out of here.''
+            ``I can&#039;t think of anyone else to contact,&#039;&#039; Violet
+            said. ``Mr. Poe is in charge of our affairs, and I&#039;m sure if he
+            knew how horrid Count Olaf is, he would take us right out of
+            here.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8462,8 +8559,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Okay,'' he said. ``Let's get this firewood all chopped and we'll
-            go to the bank.''
+            ``Okay,&#039;&#039; he said. ``Let&#039;s get this firewood all
+            chopped and we&#039;ll go to the bank.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8498,9 +8595,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             They remembered Count Olaf saying he had a map of the city, and they
-            looked thoroughly for it, but they couldn't find any trace of a map,
-            and decided it must be in the tower, where they were forbidden to
-            go.
+            looked thoroughly for it, but they couldn&#039;t find any trace of a
+            map, and decided it must be in the tower, where they were forbidden
+            to go.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8517,7 +8614,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             So, without directions of any sort, the Baudelaire children set off
-            for the city's banking district in hopes of finding Mr. Poe.
+            for the city&#039;s banking district in hopes of finding Mr. Poe.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8646,7 +8743,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Why, hello,'' said Mr. Poe, in a puzzled tone of voice.
+            ``Why, hello,&#039;&#039; said Mr. Poe, in a puzzled tone of voice.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8684,7 +8781,7 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             Surrounding a small framed photograph of his wife and his two
             beastly sons were three telephones with flashing lights. ``Please
-            come in.''
+            come in.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8702,7 +8799,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Thank you,'' said Klaus, shaking Mr. Poe's hand.
+            ``Thank you,&#039;&#039; said Klaus, shaking Mr. Poe&#039;s hand.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8737,8 +8834,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Mr. Poe opened his mouth to speak, but had to cough into a
-            handkerchief before he could begin. ``I'm very busy today,'' he said
-            finally. ``So I don't have too much time to chat.
+            handkerchief before he could begin. ``I&#039;m very busy
+            today,&#039;&#039; he said finally. ``So I don&#039;t have too much
+            time to chat.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8757,7 +8855,7 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             Next time you should call ahead of time when you plan on being in
             the neighborhood, and I will put some time aside to take you to
-            lunch.''
+            lunch.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8773,9 +8871,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``That would be very pleasant,'' Violet said, ``and we're sorry we
-            didn't contact you before we stopped by, but we find ourselves in an
-            urgent situation.''
+            ``That would be very pleasant,&#039;&#039; Violet said, ``and
+            we&#039;re sorry we didn&#039;t contact you before we stopped by,
+            but we find ourselves in an urgent situation.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8793,8 +8891,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Count Olaf is a madman,'' Klaus said, getting right to the point.
-            ``We cannot stay with him.''
+            ``Count Olaf is a madman,&#039;&#039; Klaus said, getting right to
+            the point. ``We cannot stay with him.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8829,10 +8927,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            See his bruise?'' Violet said, but just as she said it, one of the
-            telephones rang, in a loud, unpleasant wail. ``Excuse me,'' Mr. Poe
-            said, and picked up the phone. ``Poe here,'' he said into the
-            receiver. ``What? Yes.
+            See his bruise?&#039;&#039; Violet said, but just as she said it,
+            one of the telephones rang, in a loud, unpleasant wail. ``Excuse
+            me,&#039;&#039; Mr. Poe said, and picked up the phone. ``Poe
+            here,&#039;&#039; he said into the receiver. ``What? Yes.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8920,8 +9018,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Thank you.'' He hung up the phone and looked at the Baudelaires as
-            if he had forgotten they were there.
+            Thank you.&#039;&#039; He hung up the phone and looked at the
+            Baudelaires as if he had forgotten they were there.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8939,8 +9037,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'm sorry,'' Mr. Poe said, ``what were we talking about? Oh, yes,
-            Count Olaf.
+            ``I&#039;m sorry,&#039;&#039; Mr. Poe said, ``what were we talking
+            about? Oh, yes, Count Olaf.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8957,7 +9055,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I'm sorry you don't have a good first impression of him.''
+            I&#039;m sorry you don&#039;t have a good first impression of
+            him.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8973,7 +9072,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``He has only provided us with one bed,'' Klaus said.
+            ``He has only provided us with one bed,&#039;&#039; Klaus said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -8989,7 +9088,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``He makes us do a great many difficult chores.''
+            ``He makes us do a great many difficult chores.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9005,7 +9104,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``He drinks too much wine.''
+            ``He drinks too much wine.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9021,8 +9120,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Excuse me,'' Mr. Poe said, as another telephone rang. ``Poe
-            here,'' he said. ``Seven.
+            ``Excuse me,&#039;&#039; Mr. Poe said, as another telephone rang.
+            ``Poe here,&#039;&#039; he said. ``Seven.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9120,10 +9219,11 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            You're welcome.'' He hung up and quickly wrote something down on one
-            of his papers, then looked at the children. ``I'm sorry,'' he said,
-            ``what were you saying about Count Olaf? Making you do chores
-            doesn't sound too bad.''
+            You&#039;re welcome.&#039;&#039; He hung up and quickly wrote
+            something down on one of his papers, then looked at the children.
+            ``I&#039;m sorry,&#039;&#039; he said, ``what were you saying about
+            Count Olaf? Making you do chores doesn&#039;t sound too
+            bad.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9140,7 +9240,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``He calls us orphans.''
+            ``He calls us orphans.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9156,7 +9256,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``He has terrible friends.''
+            ``He has terrible friends.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9172,7 +9272,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``He is always asking about our money.''
+            ``He is always asking about our money.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9190,7 +9290,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Poko!'' (This was from Sunny.)
+            ``Poko!&#039;&#039; (This was from Sunny.)
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9208,8 +9308,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Mr. Poe put up his hands to indicate he had heard enough.
-            ``Children, children,'' he said. ``You must give yourselves time to
-            adjust to your new home.
+            ``Children, children,&#039;&#039; he said. ``You must give
+            yourselves time to adjust to your new home.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9226,7 +9326,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            You've only been there a few days.''
+            You&#039;ve only been there a few days.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9244,8 +9344,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``We have been there long enough to know Count Olaf is a bad man,''
-            Klaus said.
+            ``We have been there long enough to know Count Olaf is a bad
+            man,&#039;&#039; Klaus said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9279,9 +9379,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            His face was kind, but it didn't look like he really believed what
-            the Baudelaire orphans were saying. ``Are you familiar with the
-            Latin term ``in loco parentis''?'' he asked.
+            His face was kind, but it didn&#039;t look like he really believed
+            what the Baudelaire orphans were saying. ``Are you familiar with the
+            Latin term ``in loco parentis&#039;&#039;?&#039;&#039; he asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9315,8 +9415,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The biggest reader of the three, he was the most likely to know
-            vocabulary words and foreign phrases. ``Something about trains?'' he
-            asked.
+            vocabulary words and foreign phrases. ``Something about
+            trains?&#039;&#039; he asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9352,9 +9452,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Mr. Poe shook his head. `` ``In loco parentis'' means ``acting in
-            the role of parent,'' '' he said. ``It is a legal term and it
-            applies to Count Olaf.
+            Mr. Poe shook his head. `` ``In loco parentis&#039;&#039; means
+            ``acting in the role of parent,&#039;&#039; &#039;&#039; he said.
+            ``It is a legal term and it applies to Count Olaf.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9389,10 +9489,11 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I'm sorry if your parents did not make you do any household chores,
-            or if you never saw them drink any wine, or if you like their
-            friends better than Count Olaf's friends, but these are things that
-            you must get used to, as Count Olaf is acting in loco parentis.
+            I&#039;m sorry if your parents did not make you do any household
+            chores, or if you never saw them drink any wine, or if you like
+            their friends better than Count Olaf&#039;s friends, but these are
+            things that you must get used to, as Count Olaf is acting in loco
+            parentis.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9410,7 +9511,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Understand?''
+            Understand?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9426,7 +9527,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But he struck my brother!'' Violet said. ``Look at his face!''
+            ``But he struck my brother!&#039;&#039; Violet said. ``Look at his
+            face!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9479,9 +9581,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Whatever Count Olaf has done,'' Mr. Poe said, glancing down at one
-            of his papers and circling a number, ``he has acted in loco
-            parentis, and there's nothing I can do about it.
+            ``Whatever Count Olaf has done,&#039;&#039; Mr. Poe said, glancing
+            down at one of his papers and circling a number, ``he has acted in
+            loco parentis, and there&#039;s nothing I can do about it.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9499,7 +9601,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Your money will be well protected by myself and by the bank, but
-            Count Olaf's parenting techniques are his own business.
+            Count Olaf&#039;s parenting techniques are his own business.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9516,7 +9618,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Now, I hate to usher you out posthaste, but I have very much work to
-            do.''
+            do.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9549,8 +9651,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Mr. Poe looked up, and cleared his throat. `` ``Posthaste,'' '' he
-            said, ``means-''
+            Mr. Poe looked up, and cleared his throat. ``
+            ``Posthaste,&#039;&#039; &#039;&#039; he said, ``means-&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9568,7 +9670,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``-means you'll do nothing to help us,'' Violet finished for him.
+            ``-means you&#039;ll do nothing to help us,&#039;&#039; Violet
+            finished for him.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9637,7 +9740,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What shall we do next?'' Klaus asked sadly.
+            ``What shall we do next?&#039;&#039; Klaus asked sadly.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9671,8 +9774,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             She wished she could invent something that could take them out of
-            there. ``It's getting a bit late,'' she said. ``We might as well
-            just go back and think of something else tomorrow.
+            there. ``It&#039;s getting a bit late,&#039;&#039; she said. ``We
+            might as well just go back and think of something else tomorrow.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9688,7 +9791,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Perhaps we can stop and see Justice Strauss.''
+            Perhaps we can stop and see Justice Strauss.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9705,7 +9808,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But you said she wouldn't help us,'' Klaus said.
+            ``But you said she wouldn&#039;t help us,&#039;&#039; Klaus said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9722,7 +9825,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Not for help,'' Violet said, ``for books.''
+            ``Not for help,&#039;&#039; Violet said, ``for books.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9739,9 +9842,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             It is very useful, when one is young, to learn the difference
-            between ``literally'' and ``figuratively.'' If something happens
-            literally, it actually happens; if something happens figuratively,
-            it feels like it's happening.
+            between ``literally&#039;&#039; and ``figuratively.&#039;&#039; If
+            something happens literally, it actually happens; if something
+            happens figuratively, it feels like it&#039;s happening.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9795,9 +9898,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The Baudelaire orphans walked back to Count Olaf's neighborhood and
-            stopped at the home of Justice Strauss, who welcomed them inside and
-            let them choose books from the library.
+            The Baudelaire orphans walked back to Count Olaf&#039;s neighborhood
+            and stopped at the home of Justice Strauss, who welcomed them inside
+            and let them choose books from the library.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9852,7 +9955,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             They did not literally escape, because they were still in his house
-            and vulnerable to Olaf's evil in loco parentis ways.
+            and vulnerable to Olaf&#039;s evil in loco parentis ways.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9959,8 +10062,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Good morning, orphans,'' he said. ``I have your oatmeal all ready
-            in bowls for you.''
+            ``Good morning, orphans,&#039;&#039; he said. ``I have your oatmeal
+            all ready in bowls for you.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -9996,10 +10099,11 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            If you knew Count Olaf, and he suddenly served you a meal, wouldn't
-            you be afraid there was something terrible in it, like poison or
-            ground glass? But instead, Violet, Klaus, and Sunny found that fresh
-            raspberries had been sprinkled on top of each of their portions.
+            If you knew Count Olaf, and he suddenly served you a meal,
+            wouldn&#039;t you be afraid there was something terrible in it, like
+            poison or ground glass? But instead, Violet, Klaus, and Sunny found
+            that fresh raspberries had been sprinkled on top of each of their
+            portions.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10015,8 +10119,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The Baudelaire orphans hadn't had raspberries since their parents
-            died, although they were extremely fond of them.
+            The Baudelaire orphans hadn&#039;t had raspberries since their
+            parents died, although they were extremely fond of them.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10033,8 +10137,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Thank you,'' Klaus said, carefully, picking up one of the
-            raspberries and examining it.
+            ``Thank you,&#039;&#039; Klaus said, carefully, picking up one of
+            the raspberries and examining it.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10069,7 +10173,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Count Olaf, seeing how suspiciously Klaus was looking at the
-            berries, smiled and plucked a berry out of Sunny's bowl.
+            berries, smiled and plucked a berry out of Sunny&#039;s bowl.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10103,8 +10207,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Aren't raspberries delicious?'' he asked. ``They were my favorite
-            berries when I was your age.''
+            ``Aren&#039;t raspberries delicious?&#039;&#039; he asked. ``They
+            were my favorite berries when I was your age.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10121,7 +10225,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Violet tried to picture Count Olaf as a youngster, but couldn't.
+            Violet tried to picture Count Olaf as a youngster, but
+            couldn&#039;t.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10176,7 +10281,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Count Olaf had eaten some, so it probably wasn't poisonous, and
+            Count Olaf had eaten some, so it probably wasn&#039;t poisonous, and
             anyway she was very hungry.
           </td>
           <td
@@ -10214,8 +10319,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I received a phone call yesterday,'' Count Olaf said, ``from Mr.
-            Poe.
+            ``I received a phone call yesterday,&#039;&#039; Count Olaf said,
+            ``from Mr. Poe.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10233,7 +10338,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            He told me you children had been to see him.''
+            He told me you children had been to see him.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10267,7 +10372,7 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             They had hoped their visit would be taken in confidence, a phrase
             which here means ``kept a secret between Mr. Poe and themselves and
-            not blabbed to Count Olaf.''
+            not blabbed to Count Olaf.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10284,9 +10389,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Mr. Poe told me,'' Count Olaf said, ``that you appeared to be
-            having some difficulty adjusting to the life I have so graciously
-            provided for you.
+            ``Mr. Poe told me,&#039;&#039; Count Olaf said, ``that you appeared
+            to be having some difficulty adjusting to the life I have so
+            graciously provided for you.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10303,7 +10408,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I'm very sorry to hear that.''
+            I&#039;m very sorry to hear that.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10354,7 +10459,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Is that so?'' Violet said. ``I'm sorry Mr. Poe bothered you.''
+            ``Is that so?&#039;&#039; Violet said. ``I&#039;m sorry Mr. Poe
+            bothered you.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10370,8 +10476,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'm glad he did,'' Count Olaf said, ``because I want the three of
-            you to feel at home here, now that I am your father.''
+            ``I&#039;m glad he did,&#039;&#039; Count Olaf said, ``because I
+            want the three of you to feel at home here, now that I am your
+            father.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10405,9 +10512,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Lately,'' Count Olaf said, ``I have been very nervous about my
-            performances with the theater troupe, and I'm afraid I may have
-            acted a bit standoffish.''
+            ``Lately,&#039;&#039; Count Olaf said, ``I have been very nervous
+            about my performances with the theater troupe, and I&#039;m afraid I
+            may have acted a bit standoffish.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10425,8 +10532,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The word ``standoffish'' is a wonderful one, but it does not
-            describe Count Olaf's behavior toward the children.
+            The word ``standoffish&#039;&#039; is a wonderful one, but it does
+            not describe Count Olaf&#039;s behavior toward the children.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10442,9 +10549,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            It means ``reluctant to associate with others,'' and it might
-            describe somebody who, during a party, would stand in a corner and
-            not talk to anyone.
+            It means ``reluctant to associate with others,&#039;&#039; and it
+            might describe somebody who, during a party, would stand in a corner
+            and not talk to anyone.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10479,8 +10586,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            There are many words for people like that, but ``standoffish'' is
-            not one of them.
+            There are many words for people like that, but
+            ``standoffish&#039;&#039; is not one of them.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10496,8 +10603,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Klaus knew the word ``standoffish'' and almost laughed out loud at
-            Olaf's incorrect use of it.
+            Klaus knew the word ``standoffish&#039;&#039; and almost laughed out
+            loud at Olaf&#039;s incorrect use of it.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10548,7 +10655,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Perhaps if you took part in the work I do, you would be less likely
-            to run off complaining to Mr. Poe.''
+            to run off complaining to Mr. Poe.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10564,7 +10671,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``In what way would we participate?'' Violet asked.
+            ``In what way would we participate?&#039;&#039; Violet asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10595,9 +10702,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Well,'' Count Olaf said, his eyes shining brightly, ``the play is
-            called The Marvelous Marriage, and it is written by the great
-            playwright Al Funcoot.
+            ``Well,&#039;&#039; Count Olaf said, his eyes shining brightly,
+            ``the play is called The Marvelous Marriage, and it is written by
+            the great playwright Al Funcoot.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10657,7 +10764,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             You, Klaus, and you, Sunny, will play some of the cheering people in
-            the crowd.''
+            the crowd.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10674,8 +10781,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But we're shorter than most adults,'' Klaus said. ``Won't that
-            look strange to the audience?''
+            ``But we&#039;re shorter than most adults,&#039;&#039; Klaus said.
+            ``Won&#039;t that look strange to the audience?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10692,8 +10799,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You will be playing two midgets who attend the wedding,'' Olaf
-            said patiently.
+            ``You will be playing two midgets who attend the
+            wedding,&#039;&#039; Olaf said patiently.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10710,8 +10817,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``And what will I do?'' Violet asked. ``I am very handy with tools,
-            so perhaps I could help you build the set.''
+            ``And what will I do?&#039;&#039; Violet asked. ``I am very handy
+            with tools, so perhaps I could help you build the set.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10727,8 +10834,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Build the set? Heavens, no,'' Count Olaf said. ``A pretty girl
-            like you shouldn't be working backstage.''
+            ``Build the set? Heavens, no,&#039;&#039; Count Olaf said. ``A
+            pretty girl like you shouldn&#039;t be working
+            backstage.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10744,7 +10852,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But I'd like to,'' Violet said.
+            ``But I&#039;d like to,&#039;&#039; Violet said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10760,8 +10868,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Count Olaf's one eyebrow raised slightly, and the Baudelaire orphans
-            recognized this sign of his anger.
+            Count Olaf&#039;s one eyebrow raised slightly, and the Baudelaire
+            orphans recognized this sign of his anger.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10779,8 +10887,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             But then the eyebrow went down again as he forced himself to remain
-            calm. ``But I have such an important role for you onstage,'' he
-            said. ``You are going to play the young woman I marry.''
+            calm. ``But I have such an important role for you
+            onstage,&#039;&#039; he said. ``You are going to play the young
+            woman I marry.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10827,10 +10936,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``It's a very important role,'' he continued, his mouth curling up
-            into an unconvincing smile, ``although you have no lines other than
-            ``I do,'' which you will say when Justice Strauss asks you if you
-            will have me.''
+            ``It&#039;s a very important role,&#039;&#039; he continued, his
+            mouth curling up into an unconvincing smile, ``although you have no
+            lines other than ``I do,&#039;&#039; which you will say when Justice
+            Strauss asks you if you will have me.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10844,8 +10953,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Justice Strauss?'' Violet said. ``What does she have to do with
-            it?''
+            ``Justice Strauss?&#039;&#039; Violet said. ``What does she have to
+            do with it?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10859,7 +10968,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``She has agreed to play the part of the judge,'' Count Olaf said.
+            ``She has agreed to play the part of the judge,&#039;&#039; Count
+            Olaf said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10878,7 +10988,7 @@ meta.priority: 0
             Behind him, one of the eyes painted on the kitchen walls closely
             watched over each of the Baudelaire children. ``I asked Justice
             Strauss to participate because I wanted to be neighborly, as well as
-            fatherly.''
+            fatherly.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10892,7 +11002,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Count Olaf,'' Violet said, and then stopped herself.
+            ``Count Olaf,&#039;&#039; Violet said, and then stopped herself.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10908,9 +11018,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            She wanted to argue her way out of playing his bride, but she didn't
-            want to make him angry. ``Father,'' she said, ``I'm not sure I'm
-            talented enough to perform professionally.
+            She wanted to argue her way out of playing his bride, but she
+            didn&#039;t want to make him angry. ``Father,&#039;&#039; she said,
+            ``I&#039;m not sure I&#039;m talented enough to perform
+            professionally.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10943,9 +11054,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Plus I'll be very busy in the next few weeks working on my
-            inventions-and learning how to prepare roast beef,'' she added
-            quickly, remembering how he had behaved about dinner.
+            Plus I&#039;ll be very busy in the next few weeks working on my
+            inventions-and learning how to prepare roast beef,&#039;&#039; she
+            added quickly, remembering how he had behaved about dinner.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10962,8 +11073,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Count Olaf reached out one of his spidery hands and stroked Violet
-            on the chin, looking deep into her eyes. ``You will,'' he said,
-            ``participate in this theatrical performance.
+            on the chin, looking deep into her eyes. ``You will,&#039;&#039; he
+            said, ``participate in this theatrical performance.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -10981,8 +11092,8 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             I would prefer it if you would participate voluntarily, but as I
             believe Mr. Poe explained to you, I can order you to participate and
-            you must obey.'' Olaf's sharp and dirty fingernails gently scratched
-            on Violet's chin, and she shivered.
+            you must obey.&#039;&#039; Olaf&#039;s sharp and dirty fingernails
+            gently scratched on Violet&#039;s chin, and she shivered.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11032,8 +11143,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Well,'' Klaus said hesitantly, ``I guess it won't hurt to be in
-            the play.
+            ``Well,&#039;&#039; Klaus said hesitantly, ``I guess it won&#039;t
+            hurt to be in the play.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11051,7 +11162,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             It seems to be very important to him, and we want to keep on his
-            good side.''
+            good side.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11067,7 +11178,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But he must be up to something,'' Violet said.
+            ``But he must be up to something,&#039;&#039; Violet said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11084,8 +11195,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You don't think those berries were poisoned, do you?'' Klaus asked
-            worriedly.
+            ``You don&#039;t think those berries were poisoned, do
+            you?&#039;&#039; Klaus asked worriedly.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11101,7 +11212,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``No,'' Violet said. ``Olaf is after the fortune we will inherit.
+            ``No,&#039;&#039; Violet said. ``Olaf is after the fortune we will
+            inherit.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11118,7 +11230,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Killing us would do him no good.''
+            Killing us would do him no good.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11135,7 +11247,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But what good does it do him to have us be in his stupid play?''
+            ``But what good does it do him to have us be in his stupid
+            play?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11151,7 +11264,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I don't know,'' Violet admitted miserably.
+            ``I don&#039;t know,&#039;&#039; Violet admitted miserably.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11184,9 +11297,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I wish we knew something more about inheritance law,'' Klaus said.
-            ``I'll bet Count Olaf has cooked up some plan to get our money, but
-            I don't know what it could be.''
+            ``I wish we knew something more about inheritance law,&#039;&#039;
+            Klaus said. ``I&#039;ll bet Count Olaf has cooked up some plan to
+            get our money, but I don&#039;t know what it could be.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11203,9 +11316,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I guess we could ask Mr. Poe about it,'' Violet said doubtfully,
-            as Klaus stood beside her and dried the dishes. ``He knows all those
-            Latin legal phrases.''
+            ``I guess we could ask Mr. Poe about it,&#039;&#039; Violet said
+            doubtfully, as Klaus stood beside her and dried the dishes. ``He
+            knows all those Latin legal phrases.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11222,9 +11335,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But Mr. Poe would probably call Count Olaf again, and then he'd
-            know we were on to him,'' Klaus pointed out. ``Maybe we should try
-            to talk to Justice Strauss.
+            ``But Mr. Poe would probably call Count Olaf again, and then
+            he&#039;d know we were on to him,&#039;&#039; Klaus pointed out.
+            ``Maybe we should try to talk to Justice Strauss.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11241,7 +11354,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            She's a judge, so she must know all about the law.''
+            She&#039;s a judge, so she must know all about the law.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11260,8 +11373,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But she's also Olaf's neighbor,'' Violet replied, ``and she might
-            tell him that we had asked.''
+            ``But she&#039;s also Olaf&#039;s neighbor,&#039;&#039; Violet
+            replied, ``and she might tell him that we had asked.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11278,8 +11391,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Klaus took his glasses off, which he often did when he was thinking
-            hard. ``How could we find out about the law without Olaf's
-            knowledge?''
+            hard. ``How could we find out about the law without Olaf&#039;s
+            knowledge?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11295,7 +11408,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Book!'' Sunny shouted suddenly.
+            ``Book!&#039;&#039; Sunny shouted suddenly.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11312,7 +11425,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             She probably meant something like ``Would somebody please wipe my
-            face?'' but it made Violet and Klaus look at each other.
+            face?&#039;&#039; but it made Violet and Klaus look at each other.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11364,8 +11477,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Count Olaf didn't leave us any chores to do,'' Violet said, ``so I
-            suppose we are free to visit Justice Strauss and her library.''
+            ``Count Olaf didn&#039;t leave us any chores to do,&#039;&#039;
+            Violet said, ``so I suppose we are free to visit Justice Strauss and
+            her library.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11382,8 +11496,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Klaus smiled. ``Yes indeed,'' he said. ``And you know, today I don't
-            think I'll choose a book on wolves.''
+            Klaus smiled. ``Yes indeed,&#039;&#039; he said. ``And you know,
+            today I don&#039;t think I&#039;ll choose a book on
+            wolves.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11400,7 +11515,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Nor I,'' Violet said, ``on mechanical engineering.
+            ``Nor I,&#039;&#039; Violet said, ``on mechanical engineering.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11416,7 +11531,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I think I'd like to read about inheritance law''
+            I think I&#039;d like to read about inheritance law&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11432,8 +11547,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Well, let's go,'' Klaus said. ``Justice Strauss said we could come
-            over soon, and we don't want to be standoffish.''
+            ``Well, let&#039;s go,&#039;&#039; Klaus said. ``Justice Strauss
+            said we could come over soon, and we don&#039;t want to be
+            standoffish.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11503,7 +11619,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Friday, the day of the performance, was only a few days off, and the
-            children wanted to figure out Count Olaf's plan as quickly as
+            children wanted to figure out Count Olaf&#039;s plan as quickly as
             possible.
           </td>
           <td
@@ -11623,9 +11739,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The money is an incentive-the word ``incentive'' here means ``an
-            offered reward to persuade you to do something you don't want to
-            do''-to read long, dull, and difficult books.
+            The money is an incentive-the word ``incentive&#039;&#039; here
+            means ``an offered reward to persuade you to do something you
+            don&#039;t want to do&#039;&#039;-to read long, dull, and difficult
+            books.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11681,7 +11798,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             But even with this incentive, getting through the law books in
-            Justice Strauss's private library was a very, very, very hard task.
+            Justice Strauss&#039;s private library was a very, very, very hard
+            task.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11699,8 +11817,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Goodness,'' Justice Strauss said, when she came into the library
-            and saw what they were reading.
+            ``Goodness,&#039;&#039; Justice Strauss said, when she came into the
+            library and saw what they were reading.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11739,8 +11857,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Are you sure you want to read those enormous law books? Even I don't
-            like reading them, and I work in law.''
+            Are you sure you want to read those enormous law books? Even I
+            don&#039;t like reading them, and I work in law.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11758,8 +11876,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Yes,'' Violet lied, ``I find them very interesting, Justice
-            Strauss.''
+            ``Yes,&#039;&#039; Violet lied, ``I find them very interesting,
+            Justice Strauss.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11776,8 +11894,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``So do I,'' Klaus said. ``Violet and I are considering a career in
-            law, so we are fascinated by these books.''
+            ``So do I,&#039;&#039; Klaus said. ``Violet and I are considering a
+            career in law, so we are fascinated by these books.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11796,8 +11914,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Well,'' Justice Strauss said, ``Sunny can't possibly be
-            interested.
+            ``Well,&#039;&#039; Justice Strauss said, ``Sunny can&#039;t
+            possibly be interested.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11814,7 +11932,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Maybe she'd like to come help me with the gardening.''
+            Maybe she&#039;d like to come help me with the
+            gardening.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11831,8 +11950,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Wipi!'' Sunny shrieked, which meant ``I'd much prefer gardening to
-            sitting around watching my siblings struggle through law books.''
+            ``Wipi!&#039;&#039; Sunny shrieked, which meant ``I&#039;d much
+            prefer gardening to sitting around watching my siblings struggle
+            through law books.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11849,8 +11969,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Well, make sure she doesn't eat any dirt,'' Klaus said, bringing
-            Sunny over to the judge.
+            ``Well, make sure she doesn&#039;t eat any dirt,&#039;&#039; Klaus
+            said, bringing Sunny over to the judge.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11866,8 +11986,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Of course,'' said Justice Strauss. ``We wouldn't want her to be
-            sick for the big performance.''
+            ``Of course,&#039;&#039; said Justice Strauss. ``We wouldn&#039;t
+            want her to be sick for the big performance.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11885,7 +12005,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Violet and Klaus exchanged a look. ``Are you excited about the
-            play?'' Violet asked hesitantly.
+            play?&#039;&#039; Violet asked hesitantly.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11901,8 +12021,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Justice Strauss's face lit up. ``Oh yes,'' she said. ``I've always
-            wanted to perform onstage, ever since I was a little girl.
+            Justice Strauss&#039;s face lit up. ``Oh yes,&#039;&#039; she said.
+            ``I&#039;ve always wanted to perform onstage, ever since I was a
+            little girl.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11935,7 +12056,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Aren't you thrilled to be a part of the theater?''
+            Aren&#039;t you thrilled to be a part of the theater?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11953,7 +12074,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I guess so,'' Violet said.
+            ``I guess so,&#039;&#039; Violet said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -11969,8 +12090,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Of course you are,'' Judge Strauss said, stars in her eyes and
-            Sunny in her hands.
+            ``Of course you are,&#039;&#039; Judge Strauss said, stars in her
+            eyes and Sunny in her hands.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12004,8 +12125,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``She's stagestruck,'' Klaus said. ``She won't believe that Count
-            Olaf is up to something, no matter what.''
+            ``She&#039;s stagestruck,&#039;&#039; Klaus said. ``She won&#039;t
+            believe that Count Olaf is up to something, no matter
+            what.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12022,9 +12144,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``She wouldn't help us anyway,'' Violet pointed out glumly. ``She's
-            a judge, and she'd just start babbling about in loco parentis like
-            Mr. Poe.''
+            ``She wouldn&#039;t help us anyway,&#039;&#039; Violet pointed out
+            glumly. ``She&#039;s a judge, and she&#039;d just start babbling
+            about in loco parentis like Mr. Poe.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12042,9 +12164,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``That's why we've got to find a legal reason to stop the
-            performance,'' Klaus said firmly. ``Have you found anything in your
-            book yet?''
+            ``That&#039;s why we&#039;ve got to find a legal reason to stop the
+            performance,&#039;&#039; Klaus said firmly. ``Have you found
+            anything in your book yet?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12061,10 +12183,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Nothing helpful,'' Violet said, glancing down at a piece of scrap
-            paper on which she had been taking notes. ``Fifty years ago there
-            was a woman who left an enormous sum of money to her pet weasel, and
-            none to her three sons.
+            ``Nothing helpful,&#039;&#039; Violet said, glancing down at a piece
+            of scrap paper on which she had been taking notes. ``Fifty years ago
+            there was a woman who left an enormous sum of money to her pet
+            weasel, and none to her three sons.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12082,7 +12204,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The three sons tried to prove that the woman was insane so the money
-            would go to them.''
+            would go to them.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12099,7 +12221,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What happened?'' Klaus asked.
+            ``What happened?&#039;&#039; Klaus asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12116,7 +12238,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I think the weasel died,'' Violet replied, ``but I'm not sure.
+            ``I think the weasel died,&#039;&#039; Violet replied, ``but
+            I&#039;m not sure.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12133,7 +12256,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I have to look up some of the words.''
+            I have to look up some of the words.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12150,7 +12273,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I don't think it's going to help us anyway,'' Klaus said.
+            ``I don&#039;t think it&#039;s going to help us anyway,&#039;&#039;
+            Klaus said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12166,8 +12290,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Maybe Count Olaf is trying to prove that we're insane, so he'd get
-            the money,'' Violet said.
+            ``Maybe Count Olaf is trying to prove that we&#039;re insane, so
+            he&#039;d get the money,&#039;&#039; Violet said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12185,7 +12309,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             ``But why would making us be in The Marvelous Marriage prove we were
-            insane?'' Klaus asked.
+            insane?&#039;&#039; Klaus asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12201,7 +12325,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I don't know,'' Violet admitted. ``I'm stuck.
+            ``I don&#039;t know,&#039;&#039; Violet admitted. ``I&#039;m stuck.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12217,7 +12341,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Have you found anything?''
+            Have you found anything?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12233,10 +12357,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Around the time of your weasel lady,'' Klaus said, flipping
-            through the enormous book he had been reading, ``a group of actors
-            put on a production of Shakespeare's Macbeth, and none of them wore
-            any clothing.''
+            ``Around the time of your weasel lady,&#039;&#039; Klaus said,
+            flipping through the enormous book he had been reading, ``a group of
+            actors put on a production of Shakespeare&#039;s Macbeth, and none
+            of them wore any clothing.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12254,7 +12378,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Violet blushed. ``You mean they were all naked, onstage?''
+            Violet blushed. ``You mean they were all naked, onstage?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12271,8 +12395,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Only briefly,'' Klaus said, smiling. ``The police came and shut
-            down the production.
+            ``Only briefly,&#039;&#039; Klaus said, smiling. ``The police came
+            and shut down the production.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12288,7 +12412,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I don't think that's very helpful, either.
+            I don&#039;t think that&#039;s very helpful, either.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12304,7 +12428,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            It was just pretty interesting to read about.''
+            It was just pretty interesting to read about.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12322,9 +12446,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Violet sighed. ``Maybe Count Olaf isn't up to anything,'' she said.
-            ``I'm not interested in performing in his play, but perhaps we're
-            all worked up about nothing.
+            Violet sighed. ``Maybe Count Olaf isn&#039;t up to
+            anything,&#039;&#039; she said. ``I&#039;m not interested in
+            performing in his play, but perhaps we&#039;re all worked up about
+            nothing.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12341,7 +12466,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Maybe Count Olaf really is just trying to welcome us into the
-            family.''
+            family.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12357,8 +12482,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``How can you say that?'' Klaus cried. ``He struck me across the
-            face.''
+            ``How can you say that?&#039;&#039; Klaus cried. ``He struck me
+            across the face.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12375,9 +12500,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But there's no way he can get hold of our fortune just by putting
-            us in a play,'' Violet said. ``My eyes are tired from reading these
-            books, Klaus, and they aren't helping us.
+            ``But there&#039;s no way he can get hold of our fortune just by
+            putting us in a play,&#039;&#039; Violet said. ``My eyes are tired
+            from reading these books, Klaus, and they aren&#039;t helping us.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12394,7 +12519,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I'm going to go out and help Justice Strauss in the garden.''
+            I&#039;m going to go out and help Justice Strauss in the
+            garden.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12429,7 +12555,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The day of the performance was not far off, and he hadn't even
+            The day of the performance was not far off, and he hadn&#039;t even
             figured out what Count Olaf was up to, let alone how to stop him.
           </td>
           <td
@@ -12447,7 +12573,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             All his life, Klaus had believed that if you read enough books you
-            could solve any problem, but now he wasn't so sure.
+            could solve any problem, but now he wasn&#039;t so sure.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12464,8 +12590,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You there!'' A voice coming from the doorway startled Klaus out of
-            his thoughts. ``Count Olaf sent me to look for you.
+            ``You there!&#039;&#039; A voice coming from the doorway startled
+            Klaus out of his thoughts. ``Count Olaf sent me to look for you.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12482,7 +12608,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            You are to return to the house immediately.''
+            You are to return to the house immediately.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12499,10 +12625,11 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Klaus turned and saw one of the members of Count Olaf's theater
+            Klaus turned and saw one of the members of Count Olaf&#039;s theater
             troupe, the one with hooks for hands, standing in the doorway.
-            ``What are you doing in this musty old room, anyway?'' he asked in
-            his croak of a voice, walking over to where Klaus was sitting.
+            ``What are you doing in this musty old room, anyway?&#039;&#039; he
+            asked in his croak of a voice, walking over to where Klaus was
+            sitting.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12520,8 +12647,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Narrowing his beady eyes, he read the title of one of the books.
-            ``Inheritance Law and Its Implications?'' he said sharply. ``Why are
-            you reading that?''
+            ``Inheritance Law and Its Implications?&#039;&#039; he said sharply.
+            ``Why are you reading that?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12538,7 +12665,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Why do you think I'm reading it?'' Klaus said.
+            ``Why do you think I&#039;m reading it?&#039;&#039; Klaus said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12555,9 +12682,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'll tell you what I think.'' The man put one of his terrible
-            hooks on Klaus's shoulder. ``I think you should never be allowed
-            inside this library again, at least until Friday.
+            ``I&#039;ll tell you what I think.&#039;&#039; The man put one of
+            his terrible hooks on Klaus&#039;s shoulder. ``I think you should
+            never be allowed inside this library again, at least until Friday.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12573,7 +12700,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            We don't want a little boy getting big ideas.
+            We don&#039;t want a little boy getting big ideas.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12590,7 +12717,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Now, where is your sister and that hideous baby?''
+            Now, where is your sister and that hideous baby?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12608,8 +12735,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``In the garden,'' Klaus said, shrugging the hook off of his
-            shoulder. ``Why don't you go and get them?''
+            ``In the garden,&#039;&#039; Klaus said, shrugging the hook off of
+            his shoulder. ``Why don&#039;t you go and get them?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12625,11 +12752,12 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The man leaned over until his face was just inches from Klaus's, so
-            close that the man's features flickered into a blur. ``Listen to me
-            very carefully, little boy,'' he said, breathing out foul steam with
-            every word. ``The only reason Count Olaf hasn't torn you limb from
-            limb is that he hasn't gotten hold of your money.
+            The man leaned over until his face was just inches from
+            Klaus&#039;s, so close that the man&#039;s features flickered into a
+            blur. ``Listen to me very carefully, little boy,&#039;&#039; he
+            said, breathing out foul steam with every word. ``The only reason
+            Count Olaf hasn&#039;t torn you limb from limb is that he
+            hasn&#039;t gotten hold of your money.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12664,7 +12792,7 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             But ask yourself this, you little bookworm: What reason will he have
             to keep you alive after he has your money? What do you think will
-            happen to you then?''
+            happen to you then?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12730,8 +12858,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             His mouth was making strange sounds, like Sunny always did, as he
-            struggled to find something to say. ``Ah-'' Klaus heard himself
-            choke out. ``Ah-''
+            struggled to find something to say. ``Ah-&#039;&#039; Klaus heard
+            himself choke out. ``Ah-&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12748,8 +12876,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``When the time comes,'' the hook-handed man said smoothly, ignoring
-            Klaus's noises, ``I believe Count Olaf just might leave you to me.
+            ``When the time comes,&#039;&#039; the hook-handed man said
+            smoothly, ignoring Klaus&#039;s noises, ``I believe Count Olaf just
+            might leave you to me.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12766,7 +12895,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            So if I were you, I'd start acting a little nicer.''
+            So if I were you, I&#039;d start acting a little nicer.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12782,9 +12911,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The man stood up again and put both his hooks in front of Klaus's
-            face, letting the light from the reading lamps reflect off the
-            wicked-looking devices.
+            The man stood up again and put both his hooks in front of
+            Klaus&#039;s face, letting the light from the reading lamps reflect
+            off the wicked-looking devices.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12802,7 +12931,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             ``Now, if you will excuse me, I have to fetch your poor orphan
-            siblings.''
+            siblings.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12836,7 +12965,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But his mind wouldn't let him.
+            But his mind wouldn&#039;t let him.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12854,7 +12983,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             This was his last moment in the library, and perhaps his last
-            opportunity to foil Count Olaf's plan.
+            opportunity to foil Count Olaf&#039;s plan.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12888,8 +13017,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Then, just as he heard the man's footsteps heading back his way,
-            Klaus spied one book, and quickly grabbed it.
+            Then, just as he heard the man&#039;s footsteps heading back his
+            way, Klaus spied one book, and quickly grabbed it.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12908,8 +13037,8 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             He untucked his shirt and put the book inside, hastily retucking it
             just as the hook-handed man reentered the library, escorting Violet
-            and carrying Sunny, who was trying without success to bite the man's
-            hooks.
+            and carrying Sunny, who was trying without success to bite the
+            man&#039;s hooks.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -12927,8 +13056,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'm ready to go,'' Klaus said quickly, and walked out the door
-            before the man could get a good look at him.
+            ``I&#039;m ready to go,&#039;&#039; Klaus said quickly, and walked
+            out the door before the man could get a good look at him.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13016,8 +13145,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Back when his parents were alive, Klaus used to take a flashlight to
-            bed with him and hide under the covers, reading until he couldn't
-            keep his eyes open.
+            bed with him and hide under the covers, reading until he
+            couldn&#039;t keep his eyes open.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13035,9 +13164,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Some mornings, his father would come into Klaus's room to wake him
-            up and find him asleep, still clutching his flashlight in one hand
-            and his book in the other.
+            Some mornings, his father would come into Klaus&#039;s room to wake
+            him up and find him asleep, still clutching his flashlight in one
+            hand and his book in the other.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13108,9 +13237,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Violet was sleeping fitfully-a word which here means ``with much
-            tossing and turning''-on the lumpy bed, and Sunny had wormed her way
-            into the pile of curtains so that she just looked like a small heap
-            of cloth.
+            tossing and turning&#039;&#039;-on the lumpy bed, and Sunny had
+            wormed her way into the pile of curtains so that she just looked
+            like a small heap of cloth.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13126,8 +13255,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Klaus had not told his siblings about the book, because he didn't
-            want to give them false hope.
+            Klaus had not told his siblings about the book, because he
+            didn&#039;t want to give them false hope.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13144,7 +13273,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            He wasn't sure the book would help them out of their dilemma.
+            He wasn&#039;t sure the book would help them out of their dilemma.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13248,9 +13377,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But then he would remember the way the hook-hands of Count Olaf's
-            associate had glinted in the library, and would imagine them tearing
-            into his flesh, and he would wake right up and continue reading.
+            But then he would remember the way the hook-hands of Count
+            Olaf&#039;s associate had glinted in the library, and would imagine
+            them tearing into his flesh, and he would wake right up and continue
+            reading.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13352,8 +13482,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            He didn't have to wait long before he heard Olaf tromping down the
-            tower stairs.
+            He didn&#039;t have to wait long before he heard Olaf tromping down
+            the tower stairs.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13372,7 +13502,7 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             When Count Olaf walked into the kitchen, he saw Klaus sitting at the
             table and smirked, a word which here means ``smiled in an
-            unfriendly, phony way.''
+            unfriendly, phony way.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13388,7 +13518,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Hello, orphan,'' he said. ``You're up early.''
+            ``Hello, orphan,&#039;&#039; he said. ``You&#039;re up
+            early.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13405,11 +13536,12 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Klaus's heart was beating fast, but he felt calm on the outside, as
-            if he had on a layer of invisible armor. ``I've been up all night,''
-            he said, ``reading this book.'' He put the book out on the table so
-            Olaf could see it. ``It's called Nuptial Law,'' Klaus said, ``and I
-            learned many interesting things while reading it.''
+            Klaus&#039;s heart was beating fast, but he felt calm on the
+            outside, as if he had on a layer of invisible armor. ``I&#039;ve
+            been up all night,&#039;&#039; he said, ``reading this
+            book.&#039;&#039; He put the book out on the table so Olaf could see
+            it. ``It&#039;s called Nuptial Law,&#039;&#039; Klaus said, ``and I
+            learned many interesting things while reading it.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13442,8 +13574,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``The word ``nuptial,'' '' Klaus said, ``means ``relating to
-            marriage.'' ''
+            ``The word ``nuptial,&#039;&#039; &#039;&#039; Klaus said, ``means
+            ``relating to marriage.&#039;&#039; &#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13459,8 +13591,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I know what the word means,'' Count Olaf growled. ``Where did you
-            get that book?''
+            ``I know what the word means,&#039;&#039; Count Olaf growled.
+            ``Where did you get that book?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13477,8 +13609,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``From Justice Strauss's library,'' Klaus said. ``But that's not
-            important.
+            ``From Justice Strauss&#039;s library,&#039;&#039; Klaus said. ``But
+            that&#039;s not important.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13495,7 +13627,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            What's important is that I have found out your plan.''
+            What&#039;s important is that I have found out your
+            plan.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13512,8 +13645,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Is that so?'' Count Olaf said, his one eyebrow raising. ``And what
-            is my plan, you little runt?''
+            ``Is that so?&#039;&#039; Count Olaf said, his one eyebrow raising.
+            ``And what is my plan, you little runt?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13531,7 +13664,8 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             Klaus ignored the insult and opened the book to where one of the
             scraps of paper was marking his place. `` ``The laws of marriage in
-            this community are very simple,'' '' he read out loud.
+            this community are very simple,&#039;&#039; &#039;&#039; he read out
+            loud.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13548,11 +13682,12 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             `` ``The requirements are as follows: the presence of a judge, a
-            statement of ``I do'' by both the bride and the groom, and the
-            signing of an explanatory document in the bride's own hand.'' ''
-            Klaus put down the book and pointed at Count Olaf. ``If my sister
-            says ``I do'' and signs a piece of paper, while Justice Strauss is
-            in the room, then she is legally married.
+            statement of ``I do&#039;&#039; by both the bride and the groom, and
+            the signing of an explanatory document in the bride&#039;s own
+            hand.&#039;&#039; &#039;&#039; Klaus put down the book and pointed
+            at Count Olaf. ``If my sister says ``I do&#039;&#039; and signs a
+            piece of paper, while Justice Strauss is in the room, then she is
+            legally married.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13568,8 +13703,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            This play you're putting on shouldn't be called The Marvelous
-            Marriage.
+            This play you&#039;re putting on shouldn&#039;t be called The
+            Marvelous Marriage.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13603,9 +13738,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            You're not going to marry Violet figuratively-you're going to marry
-            her literally! This play won't be pretend; it will be real and
-            legally binding.''
+            You&#039;re not going to marry Violet figuratively-you&#039;re going
+            to marry her literally! This play won&#039;t be pretend; it will be
+            real and legally binding.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13622,8 +13757,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Count Olaf laughed a rough, hoarse laugh. ``Your sister isn't old
-            enough to get married.''
+            Count Olaf laughed a rough, hoarse laugh. ``Your sister isn&#039;t
+            old enough to get married.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13640,7 +13775,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             ``She can get married if she has the permission of her legal
-            guardian, acting in loco parentis,'' Klaus said. ``I read that, too.
+            guardian, acting in loco parentis,&#039;&#039; Klaus said. ``I read
+            that, too.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13656,7 +13792,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            You can't fool me.''
+            You can&#039;t fool me.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13672,9 +13808,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Why in the world would I want to actually marry your sister?''
-            Count Olaf asked. ``It is true she is very pretty, but a man like
-            myself can acquire any number of beautiful women.''
+            ``Why in the world would I want to actually marry your
+            sister?&#039;&#039; Count Olaf asked. ``It is true she is very
+            pretty, but a man like myself can acquire any number of beautiful
+            women.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13691,11 +13828,11 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Klaus turned to a different section of Nuptial Law, `` ``A legal
-            husband,'' '' he read out loud, `` ``has the right to control any
-            money in the possession of his legal wife.'' '' Klaus gazed at Count
-            Olaf in triumph. ``You're going to marry my sister to gain control
-            of the Baudelaire fortune! Or at least, that's what you planned to
-            do.
+            husband,&#039;&#039; &#039;&#039; he read out loud, `` ``has the
+            right to control any money in the possession of his legal
+            wife.&#039;&#039; &#039;&#039; Klaus gazed at Count Olaf in triumph.
+            ``You&#039;re going to marry my sister to gain control of the
+            Baudelaire fortune! Or at least, that&#039;s what you planned to do.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13712,7 +13849,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             But when I show this information to Mr. Poe, your play will not be
-            performed, and you will go to jail!''
+            performed, and you will go to jail!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13728,7 +13865,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Count Olaf's eyes grew very shiny, but he continued to smirk at
+            Count Olaf&#039;s eyes grew very shiny, but he continued to smirk at
             Klaus.
           </td>
           <td
@@ -13782,8 +13919,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            After all, he'd had a furious outburst just because he'd wanted
-            roast beef instead of puttanesca sauce.
+            After all, he&#039;d had a furious outburst just because he&#039;d
+            wanted roast beef instead of puttanesca sauce.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13799,7 +13936,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Surely he'd be even more enraged to have his plan discovered.
+            Surely he&#039;d be even more enraged to have his plan discovered.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13833,9 +13970,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I guess you've found me out,'' Olaf said simply. ``I suppose
-            you're right: I'll go to prison, and you and the other orphans will
-            go free.
+            ``I guess you&#039;ve found me out,&#039;&#039; Olaf said simply.
+            ``I suppose you&#039;re right: I&#039;ll go to prison, and you and
+            the other orphans will go free.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13853,9 +13990,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Now, why don't you run up to your room and wake your sisters? I'm
-            sure they'll want to know all about your grand victory over my evil
-            ways.''
+            Now, why don&#039;t you run up to your room and wake your sisters?
+            I&#039;m sure they&#039;ll want to know all about your grand victory
+            over my evil ways.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13891,9 +14028,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Why wasn't he threatening Klaus in anger, or tearing his hair out in
-            frustration, or running to pack his clothes and escape? This wasn't
-            happening at all the way Klaus had pictured it.
+            Why wasn&#039;t he threatening Klaus in anger, or tearing his hair
+            out in frustration, or running to pack his clothes and escape? This
+            wasn&#039;t happening at all the way Klaus had pictured it.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13910,8 +14047,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Well, I will go tell my sisters,'' he said, and walked back into
-            his bedroom.
+            ``Well, I will go tell my sisters,&#039;&#039; he said, and walked
+            back into his bedroom.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13965,8 +14102,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I stayed up all night reading,'' Klaus said breathlessly, as his
-            sister opened her eyes, ``and I discovered what Count Olaf is up to.
+            ``I stayed up all night reading,&#039;&#039; Klaus said
+            breathlessly, as his sister opened her eyes, ``and I discovered what
+            Count Olaf is up to.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -13984,8 +14122,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             He plans to marry you for real, when you and Justice Strauss and
-            everyone all think it's just a play, and once he's your husband
-            he'll have control of our parents' money and he can dispose of us.''
+            everyone all think it&#039;s just a play, and once he&#039;s your
+            husband he&#039;ll have control of our parents&#039; money and he
+            can dispose of us.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14002,8 +14141,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``How can he marry me for real?'' Violet asked. ``It's only a
-            play.''
+            ``How can he marry me for real?&#039;&#039; Violet asked.
+            ``It&#039;s only a play.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14020,11 +14159,11 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``The only legal requirements of marriage in this community,'' Klaus
-            explained, holding up Nuptial Law to show his sister where he'd
-            learned the information, ``are your saying ``I do,'' and signing a
-            document in your own hand in the presence of a judge-like Justice
-            Strauss!''
+            ``The only legal requirements of marriage in this
+            community,&#039;&#039; Klaus explained, holding up Nuptial Law to
+            show his sister where he&#039;d learned the information, ``are your
+            saying ``I do,&#039;&#039; and signing a document in your own hand
+            in the presence of a judge-like Justice Strauss!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14041,8 +14180,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But surely I'm not old enough to get married,'' Violet said. ``I'm
-            only fourteen.''
+            ``But surely I&#039;m not old enough to get married,&#039;&#039;
+            Violet said. ``I&#039;m only fourteen.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14059,9 +14198,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Girls under the age of eighteen,'' Klaus said, flipping to another
-            part of the book, ``can marry if they have the permission of their
-            legal guardian.
+            ``Girls under the age of eighteen,&#039;&#039; Klaus said, flipping
+            to another part of the book, ``can marry if they have the permission
+            of their legal guardian.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14077,7 +14216,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            That's Count Olaf.''
+            That&#039;s Count Olaf.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14093,7 +14232,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Oh no!'' Violet cried. ``What can we do?''
+            ``Oh no!&#039;&#039; Violet cried. ``What can we do?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14110,8 +14249,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``We can show this to Mr. Poe,'' Klaus said, pointing to the book,
-            ``and he will finally believe us that Count Olaf is up to no good.
+            ``We can show this to Mr. Poe,&#039;&#039; Klaus said, pointing to
+            the book, ``and he will finally believe us that Count Olaf is up to
+            no good.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14129,7 +14269,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Quick, get dressed while I wake up Sunny, and we can be at the bank
-            by the time it opens.''
+            by the time it opens.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14182,8 +14322,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Sunny,'' he called out kindly, putting his hand on where he
-            thought his sister's head was. ``Sunny.''
+            ``Sunny,&#039;&#039; he called out kindly, putting his hand on where
+            he thought his sister&#039;s head was. ``Sunny.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14215,9 +14355,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Klaus called out ``Sunny'' again, and pulled away the top fold of
-            the curtains to wake up the youngest Baudelaire child. ``Sunny,'' he
-            said, but then he stopped.
+            Klaus called out ``Sunny&#039;&#039; again, and pulled away the top
+            fold of the curtains to wake up the youngest Baudelaire child.
+            ``Sunny,&#039;&#039; he said, but then he stopped.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14250,7 +14390,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             He moved aside all the layers, but his little sister was nowhere to
-            be found. ``Sunny!'' he yelled, looking around the room.
+            be found. ``Sunny!&#039;&#039; he yelled, looking around the room.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14317,8 +14457,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Where can she be?'' Violet asked worriedly. ``She's not the type
-            to run off.''
+            ``Where can she be?&#039;&#039; Violet asked worriedly. ``She&#039;s
+            not the type to run off.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14335,8 +14475,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Where can she be indeed?'' said a voice behind them, and the two
-            children turned around.
+            ``Where can she be indeed?&#039;&#039; said a voice behind them, and
+            the two children turned around.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14370,7 +14510,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             His eyes were shining brighter than they ever had, and he was still
-            smiling like he'd just uttered a joke.
+            smiling like he&#039;d just uttered a joke.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14403,8 +14543,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Yes,'' Count Olaf continued, ``it certainly is strange to find a
-            child missing.
+            ``Yes,&#039;&#039; Count Olaf continued, ``it certainly is strange
+            to find a child missing.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14421,7 +14561,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            And one so small, and helpless.''
+            And one so small, and helpless.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14437,7 +14577,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Where's Sunny?'' Violet cried. ``What have you done with her?''
+            ``Where&#039;s Sunny?&#039;&#039; Violet cried. ``What have you done
+            with her?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14473,7 +14614,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             In fact, if you two orphans follow me out to the backyard, I think
-            we will all see something rather unusual.''
+            we will all see something rather unusual.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14489,8 +14630,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The Baudelaire children didn't say anything, but followed Count Olaf
-            through the house and out the back door.
+            The Baudelaire children didn&#039;t say anything, but followed Count
+            Olaf through the house and out the back door.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14560,8 +14701,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You're not looking in the right place,'' Count Olaf said. ``For
-            children who read so much, you two are remarkably unintelligent.''
+            ``You&#039;re not looking in the right place,&#039;&#039; Count Olaf
+            said. ``For children who read so much, you two are remarkably
+            unintelligent.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14627,8 +14769,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Then her eyes traveled up Count Olaf's lean, shabbily dressed body,
-            and she saw that he was pointing up with one scrawny hand.
+            Then her eyes traveled up Count Olaf&#039;s lean, shabbily dressed
+            body, and she saw that he was pointing up with one scrawny hand.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14680,8 +14822,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Oh no,'' Klaus said in a small, scared voice, and Violet looked
-            again.
+            ``Oh no,&#039;&#039; Klaus said in a small, scared voice, and Violet
+            looked again.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14716,7 +14858,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             When Violet looked closely, she could see there was a large piece of
-            tape across her sister's mouth, and ropes around her body.
+            tape across her sister&#039;s mouth, and ropes around her body.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14750,8 +14892,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Let her go!'' Violet said to Count Olaf. ``She has done nothing to
-            you! She is an infant!''
+            ``Let her go!&#039;&#039; Violet said to Count Olaf. ``She has done
+            nothing to you! She is an infant!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14767,8 +14909,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Well, now,'' Count Olaf said, sitting on a stump. ``If you really
-            want me to let her go, I will.
+            ``Well, now,&#039;&#039; Count Olaf said, sitting on a stump. ``If
+            you really want me to let her go, I will.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14802,8 +14944,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            That's a thirty-foot tower, which is a very long way for a very
-            little person to fall, even when she's inside a cage.
+            That&#039;s a thirty-foot tower, which is a very long way for a very
+            little person to fall, even when she&#039;s inside a cage.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14819,7 +14961,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But if you insist-''
+            But if you insist-&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14835,7 +14977,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``No!'' Klaus cried. ``Don't!''
+            ``No!&#039;&#039; Klaus cried. ``Don&#039;t!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14851,9 +14993,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Violet looked into Count Olaf's eyes, and then at the small parcel
-            that was her sister, hanging from the top of the tower and moving
-            slowly in the breeze.
+            Violet looked into Count Olaf&#039;s eyes, and then at the small
+            parcel that was her sister, hanging from the top of the tower and
+            moving slowly in the breeze.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14870,9 +15012,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             She pictured Sunny toppling from the tower and onto the ground,
-            pictured her sister's last thoughts being ones of sheer terror.
-            ``Please,'' she said to Olaf, feeling tears in her eyes. ``She's
-            just a baby.
+            pictured her sister&#039;s last thoughts being ones of sheer terror.
+            ``Please,&#039;&#039; she said to Olaf, feeling tears in her eyes.
+            ``She&#039;s just a baby.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14890,7 +15032,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            We'll do anything, anything, just don't harm her.''
+            We&#039;ll do anything, anything, just don&#039;t harm
+            her.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14906,7 +15049,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Anything?'' Count Olaf asked, his eyebrow rising.
+            ``Anything?&#039;&#039; Count Olaf asked, his eyebrow rising.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14924,7 +15067,7 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             He leaned in toward Violet and gazed into her eyes. ``Anything?
             Would you, for instance, consider marrying me during tomorrow
-            night's performance?''
+            night&#039;s performance?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -14991,8 +15134,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            He wasn't merely an unsavory drunken brute, but an unsavory, clever
-            drunken brute.
+            He wasn&#039;t merely an unsavory drunken brute, but an unsavory,
+            clever drunken brute.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15009,9 +15152,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``While you were busy reading books and making accusations,'' Count
-            Olaf said, ``I had one of my quietest, sneakiest assistants skulk
-            into your bedroom and steal little Sunny away.
+            ``While you were busy reading books and making
+            accusations,&#039;&#039; Count Olaf said, ``I had one of my
+            quietest, sneakiest assistants skulk into your bedroom and steal
+            little Sunny away.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15044,7 +15188,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But I consider her to be a stick behind a stubborn mule.''
+            But I consider her to be a stick behind a stubborn mule.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15061,7 +15205,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Our sister is not a stick,'' Klaus said.
+            ``Our sister is not a stick,&#039;&#039; Klaus said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15077,8 +15221,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``A stubborn mule,'' Count Olaf explained, ``does not move in the
-            direction its owner wants it to.
+            ``A stubborn mule,&#039;&#039; Count Olaf explained, ``does not move
+            in the direction its owner wants it to.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15169,7 +15313,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Now, Violet, let me ask you again: will you marry me?''
+            Now, Violet, let me ask you again: will you marry me?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15185,7 +15329,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Violet swallowed, and looked down at Count Olaf's tattoo.
+            Violet swallowed, and looked down at Count Olaf&#039;s tattoo.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15218,8 +15362,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Come now,'' Count Olaf said, his voice faking-a word which here
-            means ``feigning''-kindness.
+            ``Come now,&#039;&#039; Count Olaf said, his voice faking-a word
+            which here means ``feigning&#039;&#039;-kindness.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15235,10 +15379,11 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            He reached out a hand and stroked Violet's hair. ``Would it be so
-            terrible to be my bride, to live in my house for the rest of your
-            life? You're such a lovely girl, after the marriage I wouldn't
-            dispose of you like your brother and sister.''
+            He reached out a hand and stroked Violet&#039;s hair. ``Would it be
+            so terrible to be my bride, to live in my house for the rest of your
+            life? You&#039;re such a lovely girl, after the marriage I
+            wouldn&#039;t dispose of you like your brother and
+            sister.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15290,8 +15435,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             But then she looked up at her helpless sister and knew what her
-            answer must be. ``If you let Sunny go,'' she said finally, ``I will
-            marry you.''
+            answer must be. ``If you let Sunny go,&#039;&#039; she said finally,
+            ``I will marry you.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15308,8 +15453,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I will let Sunny go,'' Count Olaf answered, ``after tomorrow
-            night's performance.
+            ``I will let Sunny go,&#039;&#039; Count Olaf answered, ``after
+            tomorrow night&#039;s performance.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15343,7 +15488,7 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             And, as a warning, I will tell you that my assistants will stand
             guard at the door to the tower staircase, in case you were getting
-            any ideas.''
+            any ideas.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15360,8 +15505,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You're a terrible man,'' Klaus spat out, but Count Olaf merely
-            smiled again.
+            ``You&#039;re a terrible man,&#039;&#039; Klaus spat out, but Count
+            Olaf merely smiled again.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15377,12 +15522,13 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I may be a terrible man,'' Count Olaf said, ``but I have been able
-            to concoct a foolproof way of getting your fortune, which is more
-            than you've been able to do.'' With that, he began to stride toward
-            the house. ``Remember that, orphans,'' he said. ``You may have read
-            more books than I have, but it didn't help you gain the upper hand
-            in this situation.
+            ``I may be a terrible man,&#039;&#039; Count Olaf said, ``but I have
+            been able to concoct a foolproof way of getting your fortune, which
+            is more than you&#039;ve been able to do.&#039;&#039; With that, he
+            began to stride toward the house. ``Remember that,
+            orphans,&#039;&#039; he said. ``You may have read more books than I
+            have, but it didn&#039;t help you gain the upper hand in this
+            situation.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15401,7 +15547,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Now, give me that book which gave you such grand ideas, and do the
-            chores assigned to you.''
+            chores assigned to you.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15418,7 +15564,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Klaus sighed, and relinquished-a word which here means ``gave to
-            Count Olaf even though he didn't want to''-the book on nuptial law.
+            Count Olaf even though he didn&#039;t want to&#039;&#039;-the book
+            on nuptial law.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15451,9 +15598,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            She hadn't been listening to that last speech of Count Olaf's,
-            knowing it would be full of the usual self-congratulatory nonsense
-            and despicable insults.
+            She hadn&#039;t been listening to that last speech of Count
+            Olaf&#039;s, knowing it would be full of the usual
+            self-congratulatory nonsense and despicable insults.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15487,8 +15634,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Klaus looked back at her and saw something he hadn't seen in quite
-            some time.
+            Klaus looked back at her and saw something he hadn&#039;t seen in
+            quite some time.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15506,7 +15653,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            To those who hadn't been around Violet long, nothing would have
+            To those who hadn&#039;t been around Violet long, nothing would have
             seemed unusual, but those who knew her well knew that when she tied
             her hair up in a ribbon to keep it out of her eyes, it meant that
             the gears and levers of her inventing brain were whirring at top
@@ -15596,9 +15743,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             When night approached, Violet gathered up the curtains that had been
-            Sunny's bed and brought them to the door to the tower stairs, where
-            the enormous assistant of Count Olaf's, the one who looked like
-            neither a man nor a woman, was standing guard.
+            Sunny&#039;s bed and brought them to the door to the tower stairs,
+            where the enormous assistant of Count Olaf&#039;s, the one who
+            looked like neither a man nor a woman, was standing guard.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15672,8 +15819,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Also, she wanted to do something known in the crime industry as
-            ``casing the joint.'' ``Casing the joint'' means observing a
-            particular location in order to formulate a plan.
+            ``casing the joint.&#039;&#039; ``Casing the joint&#039;&#039; means
+            observing a particular location in order to formulate a plan.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15692,8 +15839,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             For instance, if you are a bank robber-although I hope you
-            aren't-you might go to the bank a few days before you planned to rob
-            it.
+            aren&#039;t-you might go to the bank a few days before you planned
+            to rob it.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15748,8 +15895,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But it appeared that she wasn't going to be able to case the joint
-            after all.
+            But it appeared that she wasn&#039;t going to be able to case the
+            joint after all.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15783,8 +15930,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Violet had very few materials with which to invent something, and
-            she didn't want to wander around the house looking for more for fear
-            of arousing the suspicions of Count Olaf and his troupe.
+            she didn&#039;t want to wander around the house looking for more for
+            fear of arousing the suspicions of Count Olaf and his troupe.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -15992,8 +16139,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Among Violet's many useful skills was a vast knowledge of different
-            types of knots.
+            Among Violet&#039;s many useful skills was a vast knowledge of
+            different types of knots.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16009,7 +16156,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The particular knot she was using was called the Devil's Tongue.
+            The particular knot she was using was called the Devil&#039;s
+            Tongue.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16026,8 +16174,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             A group of female Finnish pirates invented it back in the fifteenth
-            century, and named it the Devil's Tongue because it twisted this way
-            and that, in a most complicated and eerie way.
+            century, and named it the Devil&#039;s Tongue because it twisted
+            this way and that, in a most complicated and eerie way.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16045,8 +16193,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The Devil's Tongue was a very useful knot, and when Violet tied the
-            cloth strips together, end to end, it formed a sort of rope.
+            The Devil&#039;s Tongue was a very useful knot, and when Violet tied
+            the cloth strips together, end to end, it formed a sort of rope.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16065,9 +16213,9 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             As she worked, she remembered something her parents had said to her
             when Klaus was born, and again when they brought Sunny home from the
-            hospital. ``You are the eldest Baudelaire child,'' they had said,
-            kindly but firmly. ``And as the eldest, it will always be your
-            responsibility to look after your younger siblings.
+            hospital. ``You are the eldest Baudelaire child,&#039;&#039; they
+            had said, kindly but firmly. ``And as the eldest, it will always be
+            your responsibility to look after your younger siblings.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16085,10 +16233,10 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Promise us that you will always watch out for them and make sure
-            they don't get into trouble.'' Violet remembered her promise, and
-            thought of Klaus, whose bruised face still looked sore, and Sunny,
-            dangling from the top of the tower like a flag, and began working
-            faster.
+            they don&#039;t get into trouble.&#039;&#039; Violet remembered her
+            promise, and thought of Klaus, whose bruised face still looked sore,
+            and Sunny, dangling from the top of the tower like a flag, and began
+            working faster.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16181,7 +16329,7 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             Using the metal end to hook onto something at the top of the tower,
             and the rope to aid her climb, Violet hoped to reach the top of the
-            tower, untie Sunny's cage, and climb back down.
+            tower, untie Sunny&#039;s cage, and climb back down.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16233,9 +16381,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            She hadn't told Klaus about her plan, because she didn't want to
-            give him false hope, so without waking him, she gathered up her
-            grappling hook and tiptoed out of the room.
+            She hadn&#039;t told Klaus about her plan, because she didn&#039;t
+            want to give him false hope, so without waking him, she gathered up
+            her grappling hook and tiptoed out of the room.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16356,8 +16504,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Clang! The hook made a loud noise as it hit the tower, but it didn't
-            stick to anything, and came crashing back down.
+            Clang! The hook made a loud noise as it hit the tower, but it
+            didn&#039;t stick to anything, and came crashing back down.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16547,7 +16695,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Clang! The usual clang! sound stopped halfway through, and Violet
-            saw in the dim light of the moon that the hook wasn't falling.
+            saw in the dim light of the moon that the hook wasn&#039;t falling.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16671,10 +16819,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But thanks to her adroit inventing skills-the word ``adroit'' here
-            means ``skillful''-everything worked the way it was supposed to
-            work, and suddenly Violet found herself feeling a piece of metal
-            instead of a cloth rope.
+            But thanks to her adroit inventing skills-the word
+            ``adroit&#039;&#039; here means ``skillful&#039;&#039;-everything
+            worked the way it was supposed to work, and suddenly Violet found
+            herself feeling a piece of metal instead of a cloth rope.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16726,8 +16874,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The eldest Baudelaire orphan was about to grab her sister's cage and
-            begin her descent when she saw something that made her stop.
+            The eldest Baudelaire orphan was about to grab her sister&#039;s
+            cage and begin her descent when she saw something that made her
+            stop.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16782,7 +16931,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But that wasn't what the hook had stuck on.
+            But that wasn&#039;t what the hook had stuck on.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16799,7 +16948,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Violet's grappling hook had stuck on another hook.
+            Violet&#039;s grappling hook had stuck on another hook.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16866,8 +17015,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``How pleasant that you could join us,'' the hook-handed man said in
-            a sickly sweet voice.
+            ``How pleasant that you could join us,&#039;&#039; the hook-handed
+            man said in a sickly sweet voice.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16885,7 +17034,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Violet immediately tried to scurry back down the rope, but Count
-            Olaf's assistant was too quick for her.
+            Olaf&#039;s assistant was too quick for her.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16920,9 +17069,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Now Violet was as trapped as hersister. ``I'm so glad you're here,''
-            the hook-handed man said. ``I was just thinking how much I wanted to
-            see your pretty face.
+            Now Violet was as trapped as hersister. ``I&#039;m so glad
+            you&#039;re here,&#039;&#039; the hook-handed man said. ``I was just
+            thinking how much I wanted to see your pretty face.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16940,7 +17089,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Have a seat.''
+            Have a seat.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16957,7 +17106,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What are you going to do with me?'' Violet asked.
+            ``What are you going to do with me?&#039;&#039; Violet asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -16975,8 +17124,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I said have a seat!'' the hook-handed man snarled, and pushed her
-            into a chair.
+            ``I said have a seat!&#039;&#039; the hook-handed man snarled, and
+            pushed her into a chair.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17011,7 +17160,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I am certain that over the course of your own life, you have noticed
-            that people's rooms reflect their personalities.
+            that people&#039;s rooms reflect their personalities.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17225,9 +17374,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             With some difficulty, he pressed a button and waited a moment.
-            ``Boss, it's me,'' he said. ``Your blushing bride just climbed up
-            here to try and rescue the biting brat.'' He paused as Count Olaf
-            said something. ``I don't know.
+            ``Boss, it&#039;s me,&#039;&#039; he said. ``Your blushing bride
+            just climbed up here to try and rescue the biting brat.&#039;&#039;
+            He paused as Count Olaf said something. ``I don&#039;t know.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17243,7 +17392,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            With some sort of rope.''
+            With some sort of rope.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17260,9 +17409,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``It was a grappling hook,'' Violet said, and tore off a sleeve of
-            her nightgown to make a bandage for her shoulder. ``I made it
-            myself.''
+            ``It was a grappling hook,&#039;&#039; Violet said, and tore off a
+            sleeve of her nightgown to make a bandage for her shoulder. ``I made
+            it myself.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17279,8 +17428,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``She says it was a grappling hook,'' the hook-handed man said into
-            the walkie-talkie. ``I don't know, boss.
+            ``She says it was a grappling hook,&#039;&#039; the hook-handed man
+            said into the walkie-talkie. ``I don&#039;t know, boss.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17314,7 +17463,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Yes, boss, of course I understand she's yours.
+            Yes, boss, of course I understand she&#039;s yours.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17331,9 +17480,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Yes, boss.'' He pressed a button to disconnect the line, and then
-            turned to face Violet. ``Count Olaf is very displeased with his
-            bride.''
+            Yes, boss.&#039;&#039; He pressed a button to disconnect the line,
+            and then turned to face Violet. ``Count Olaf is very displeased with
+            his bride.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17349,7 +17498,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'm not his bride,'' Violet said bitterly.
+            ``I&#039;m not his bride,&#039;&#039; Violet said bitterly.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17365,9 +17514,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Very soon you will be,'' the hook-handed man said, wagging his
-            hook the way most people would wag a finger. ``In the meantime,
-            however, I have to go and fetch your brother.
+            ``Very soon you will be,&#039;&#039; the hook-handed man said,
+            wagging his hook the way most people would wag a finger. ``In the
+            meantime, however, I have to go and fetch your brother.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17401,7 +17550,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             That way, Count Olaf can be sure you will all stay out of
-            mischief.'' With that, the hook-handed man stomped out of the room.
+            mischief.&#039;&#039; With that, the hook-handed man stomped out of
+            the room.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17453,8 +17603,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Afraid to untie or untape her sister for fear of incurring-a word
-            which here means ``bringing about''-Count Olaf's wrath, Violet
-            stroked Sunny's hair and murmured that everything was all right.
+            which here means ``bringing about&#039;&#039;-Count Olaf&#039;s
+            wrath, Violet stroked Sunny&#039;s hair and murmured that everything
+            was all right.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17567,7 +17718,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            They had moved into Count Olaf's house and were treated terribly.
+            They had moved into Count Olaf&#039;s house and were treated
+            terribly.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17617,8 +17769,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Klaus had tried to confront Olaf with knowledge he'd learned in
-            Justice Strauss's library and failed.
+            Klaus had tried to confront Olaf with knowledge he&#039;d learned in
+            Justice Strauss&#039;s library and failed.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17669,10 +17821,10 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             All in all, the Baudelaire orphans had encountered catastrophe after
             catastrophe, and Violet found their situation lamentably deplorable,
-            a phrase which here means ``it was not at all enjoyable.'' The sound
-            of footsteps coming up the stairs brought Violet out of her
-            thoughts, and soon the hook-handed man opened the door and thrust a
-            very tired, confused, and scared Klaus into the room.
+            a phrase which here means ``it was not at all enjoyable.&#039;&#039;
+            The sound of footsteps coming up the stairs brought Violet out of
+            her thoughts, and soon the hook-handed man opened the door and
+            thrust a very tired, confused, and scared Klaus into the room.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17689,9 +17841,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Here's the last orphan,'' the hook-handed man said. ``And now, I
-            must go help Count Olaf with final preparations for tonight's
-            performance.
+            ``Here&#039;s the last orphan,&#039;&#039; the hook-handed man said.
+            ``And now, I must go help Count Olaf with final preparations for
+            tonight&#039;s performance.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17709,8 +17861,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             No monkey business, you two, or I will have to tie you up and let
-            you dangle out of the window as well.'' Glaring at them, he locked
-            the door again and tromped downstairs.
+            you dangle out of the window as well.&#039;&#039; Glaring at them,
+            he locked the door again and tromped downstairs.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17745,8 +17897,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            He was still in his pajamas. ``What has happened?'' he asked Violet.
-            ``Why are we up here?''
+            He was still in his pajamas. ``What has happened?&#039;&#039; he
+            asked Violet. ``Why are we up here?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17762,8 +17914,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I tried to rescue Sunny,'' Violet said, ``using an invention of
-            mine to climb up the tower.''
+            ``I tried to rescue Sunny,&#039;&#039; Violet said, ``using an
+            invention of mine to climb up the tower.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17779,8 +17931,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Klaus went over to the window and looked down at the ground. ``It's
-            so high up,'' he said. ``You must have been terrified.''
+            Klaus went over to the window and looked down at the ground.
+            ``It&#039;s so high up,&#039;&#039; he said. ``You must have been
+            terrified.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17796,8 +17949,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``It was very scary,'' she admitted, ``but not as scary as the
-            thought of marrying Count Olaf.''
+            ``It was very scary,&#039;&#039; she admitted, ``but not as scary as
+            the thought of marrying Count Olaf.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17814,7 +17967,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'm sorry your invention didn't work,'' Klaus said sadly.
+            ``I&#039;m sorry your invention didn&#039;t work,&#039;&#039; Klaus
+            said sadly.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17834,8 +17988,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``The invention worked fine,'' Violet said, rubbing her sore
-            shoulder. ``I just got caught.
+            ``The invention worked fine,&#039;&#039; Violet said, rubbing her
+            sore shoulder. ``I just got caught.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17855,7 +18009,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            And now we're doomed.
+            And now we&#039;re doomed.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17871,8 +18025,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The hook-handed man said he'd keep us here until tonight, and then
-            it's The Marvelous Marriage.''
+            The hook-handed man said he&#039;d keep us here until tonight, and
+            then it&#039;s The Marvelous Marriage.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17889,7 +18043,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             ``Do you think you could invent something that would help us
-            escape?'' Klaus asked, looking around the room.
+            escape?&#039;&#039; Klaus asked, looking around the room.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17907,8 +18061,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Maybe,'' Violet said. ``And why don't you go through those books
-            and papers? Perhaps there's some information that could be of use.''
+            ``Maybe,&#039;&#039; Violet said. ``And why don&#039;t you go
+            through those books and papers? Perhaps there&#039;s some
+            information that could be of use.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -17957,7 +18112,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Klaus read through Count Olaf's papers and books.
+            Klaus read through Count Olaf&#039;s papers and books.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18007,8 +18162,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``If we had any kerosene,'' Violet said, around noon, ``I could make
-            Molotov cocktails with these bottles.''
+            ``If we had any kerosene,&#039;&#039; Violet said, around noon, ``I
+            could make Molotov cocktails with these bottles.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18024,7 +18179,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What are Molotov cocktails?'' Klaus asked.
+            ``What are Molotov cocktails?&#039;&#039; Klaus asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18040,9 +18195,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``They're small bombs made inside bottles,'' Violet explained. ``We
-            could throw them out the window and attract the attention of
-            passersby.''
+            ``They&#039;re small bombs made inside bottles,&#039;&#039; Violet
+            explained. ``We could throw them out the window and attract the
+            attention of passersby.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18060,7 +18215,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But we don't have any kerosene,'' Klaus said mournfully.
+            ``But we don&#039;t have any kerosene,&#039;&#039; Klaus said
+            mournfully.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18093,8 +18249,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``If we were polygamists,'' Klaus said, ``Count Olaf's marriage plan
-            wouldn't work.''
+            ``If we were polygamists,&#039;&#039; Klaus said, ``Count
+            Olaf&#039;s marriage plan wouldn&#039;t work.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18110,7 +18266,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What are polygamists?'' Violet asked.
+            ``What are polygamists?&#039;&#039; Violet asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18128,10 +18284,11 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Polygamists are people who marry more than one person,'' Klaus
-            explained. ``In this community, polygamists are breaking the law,
-            even if they have married in the presence of a judge, with the
-            statement of ``I do'' and the signed document in their own hand.
+            ``Polygamists are people who marry more than one person,&#039;&#039;
+            Klaus explained. ``In this community, polygamists are breaking the
+            law, even if they have married in the presence of a judge, with the
+            statement of ``I do&#039;&#039; and the signed document in their own
+            hand.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18149,7 +18306,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I read it here in Nuptial Law.''
+            I read it here in Nuptial Law.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18165,7 +18322,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But we're not polygamists,'' Violet said mournfully.
+            ``But we&#039;re not polygamists,&#039;&#039; Violet said
+            mournfully.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18197,9 +18355,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``We could break these bottles in half,'' Violet said, ``and use
-            them as knives, but I'm afraid that Count Olaf's troupe would
-            overpower us.''
+            ``We could break these bottles in half,&#039;&#039; Violet said,
+            ``and use them as knives, but I&#039;m afraid that Count Olaf&#039;s
+            troupe would overpower us.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18215,9 +18373,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You could say ``I don't'' instead of ``I do,'' '' Klaus said,
-            ``but I'm afraid Count Olaf would order Sunny dropped off the
-            tower.''
+            ``You could say ``I don&#039;t&#039;&#039; instead of ``I
+            do,&#039;&#039; &#039;&#039; Klaus said, ``but I&#039;m afraid Count
+            Olaf would order Sunny dropped off the tower.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18233,7 +18391,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I certainly would,'' Count Olaf said, and the children jumped.
+            ``I certainly would,&#039;&#039; Count Olaf said, and the children
+            jumped.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18250,8 +18409,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            They had been so involved in their conversation that they hadn't
-            heard him come up the stairs and open the door.
+            They had been so involved in their conversation that they
+            hadn&#039;t heard him come up the stairs and open the door.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18286,8 +18445,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Behind him stood the hook-handed man, who smiled and waved a hook at
-            the youngsters. ``Come, orphans,'' Count Olaf said. ``It is time for
-            the big event.
+            the youngsters. ``Come, orphans,&#039;&#039; Count Olaf said. ``It
+            is time for the big event.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18322,8 +18481,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            If anything goes wrong during tonight's performance, your sister
-            will be dropped to her death.
+            If anything goes wrong during tonight&#039;s performance, your
+            sister will be dropped to her death.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18341,7 +18500,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Come along now.''
+            Come along now.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18481,9 +18640,10 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             As Violet and Klaus Baudelaire stood, still in their nightgown and
-            pajamas, backstage at Count Olaf's theater, they were of two minds,
-            a phrase which here means ``they felt two different ways at the same
-            time.'' On one hand, they were of course filled with dread.
+            pajamas, backstage at Count Olaf&#039;s theater, they were of two
+            minds, a phrase which here means ``they felt two different ways at
+            the same time.&#039;&#039; On one hand, they were of course filled
+            with dread.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18502,7 +18662,7 @@ meta.priority: 0
             From the murmur of voices they heard on the stage, the two
             Baudelaire orphans could tell that the performance of The Marvelous
             Marriage had begun, and it seemed too late to do anything to foil
-            Count Olaf's plan.
+            Count Olaf&#039;s plan.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18536,8 +18696,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Members of Count Olaf's theater troupe hurried this way and that,
-            too busy to even glance at the children.
+            Members of Count Olaf&#039;s theater troupe hurried this way and
+            that, too busy to even glance at the children.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18650,8 +18810,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             As the curtain fell, Count Olaf strode offstage and looked at the
-            children. ``It's the end of Act Two! Why aren't the orphans in their
-            costumes?'' he hissed to the two white-faced women.
+            children. ``It&#039;s the end of Act Two! Why aren&#039;t the
+            orphans in their costumes?&#039;&#039; he hissed to the two
+            white-faced women.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18704,8 +18865,8 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             He waved and blew kisses to the audience as the curtain came down
             again, and then his face once again filled with anger.
-            ``Intermission is only ten minutes,'' he said, ``and then the
-            children must perform.
+            ``Intermission is only ten minutes,&#039;&#039; he said, ``and then
+            the children must perform.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18723,7 +18884,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Get them into costumes, quickly!''
+            Get them into costumes, quickly!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18776,7 +18937,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            One white-faced woman yanked Violet's arms up and pulled her
+            One white-faced woman yanked Violet&#039;s arms up and pulled her
             nightgown off over her head, and thrust a dirty, lacy white dress at
             her to put on.
           </td>
@@ -18813,9 +18974,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Isn't this exciting?'' said a voice, and the children turned to
-            see Justice Strauss, all dressed up in her judge's robes and
-            powdered wig.
+            ``Isn&#039;t this exciting?&#039;&#039; said a voice, and the
+            children turned to see Justice Strauss, all dressed up in her
+            judge&#039;s robes and powdered wig.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18832,7 +18993,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            She was clutching a small book. ``You children look wonderful!''
+            She was clutching a small book. ``You children look
+            wonderful!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18848,7 +19010,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``So do you,'' Klaus said. ``What's that book?''
+            ``So do you,&#039;&#039; Klaus said. ``What&#039;s that
+            book?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18865,9 +19028,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Why, those are my lines,'' Justice Strauss said. ``Count Olaf told
-            me to bring a law book and read the real wedding ceremony, in order
-            to make the play as realistic as possible.
+            ``Why, those are my lines,&#039;&#039; Justice Strauss said. ``Count
+            Olaf told me to bring a law book and read the real wedding ceremony,
+            in order to make the play as realistic as possible.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18884,8 +19047,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            All you have to say, Violet, is ``I do,'' but I have to make quite a
-            speech.
+            All you have to say, Violet, is ``I do,&#039;&#039; but I have to
+            make quite a speech.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18902,7 +19065,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            This is going to be such fun.''
+            This is going to be such fun.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18918,8 +19081,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You know what would be fun,'' Violet said carefully, ``is if you
-            changed your lines around, just a little.''
+            ``You know what would be fun,&#039;&#039; Violet said carefully,
+            ``is if you changed your lines around, just a little.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18939,7 +19102,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Klaus's face lit up. ``Yes, Justice Strauss.
+            Klaus&#039;s face lit up. ``Yes, Justice Strauss.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18972,7 +19135,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            There's no reason to stick to the legal ceremony.
+            There&#039;s no reason to stick to the legal ceremony.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -18989,7 +19152,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            It's not as if it's a real wedding.''
+            It&#039;s not as if it&#039;s a real wedding.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19007,9 +19170,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Justice Strauss frowned. ``I don't know about that, children,'' she
-            said. ``I think it would be best to follow Count Olaf's
-            instructions.
+            Justice Strauss frowned. ``I don&#039;t know about that,
+            children,&#039;&#039; she said. ``I think it would be best to follow
+            Count Olaf&#039;s instructions.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19026,7 +19189,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            After all, he's in charge.''
+            After all, he&#039;s in charge.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19044,8 +19207,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Justice Strauss!'' a voice called. ``Justice Strauss! Please
-            report to the makeup artist!''
+            ``Justice Strauss!&#039;&#039; a voice called. ``Justice Strauss!
+            Please report to the makeup artist!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19064,9 +19227,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Oh my word! I get to wear makeup.'' Justice Strauss had on a
-            dreamy expression, as if she were about to be crowned queen, instead
-            of just having some powders and creams smeared on her face.
+            ``Oh my word! I get to wear makeup.&#039;&#039; Justice Strauss had
+            on a dreamy expression, as if she were about to be crowned queen,
+            instead of just having some powders and creams smeared on her face.
             ``Children, I must go.
           </td>
           <td
@@ -19085,7 +19248,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            See you onstage, my dears!''
+            See you onstage, my dears!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19181,8 +19344,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What can we do?'' Klaus said quietly. ``Pretend to be sick? Maybe
-            they'd call off the performance.''
+            ``What can we do?&#039;&#039; Klaus said quietly. ``Pretend to be
+            sick? Maybe they&#039;d call off the performance.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19200,7 +19363,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Count Olaf would know what we were up to,'' Violet replied glumly.
+            ``Count Olaf would know what we were up to,&#039;&#039; Violet
+            replied glumly.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19218,8 +19382,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             ``Act Three of The Marvelous Marriage by Al Funcoot is about to
-            begin!'' a man with a clipboard shouted. ``Everyone, please, get in
-            your places for Act Three!''
+            begin!&#039;&#039; a man with a clipboard shouted. ``Everyone,
+            please, get in your places for Act Three!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19255,9 +19419,9 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             The backstage area was in complete pandemonium-a word which here
             means ``actors and stagehands running around attending to
-            last-minute details.'' The bald man with the long nose hurried by
-            the children, then stopped himself, looked at Violet in her wedding
-            dress, and smirked.
+            last-minute details.&#039;&#039; The bald man with the long nose
+            hurried by the children, then stopped himself, looked at Violet in
+            her wedding dress, and smirked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19274,9 +19438,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``No funny stuff,'' he said to them, waggling a bony finger.
-            ``Remember, when you go out there, just do exactly what you're
-            supposed to do.
+            ``No funny stuff,&#039;&#039; he said to them, waggling a bony
+            finger. ``Remember, when you go out there, just do exactly what
+            you&#039;re supposed to do.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19294,8 +19458,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Count Olaf will be holding his walkie-talkie during the entire act,
-            and if you do even one thing wrong, he'll be giving Sunny a call up
-            there in the tower.''
+            and if you do even one thing wrong, he&#039;ll be giving Sunny a
+            call up there in the tower.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19312,7 +19476,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Yes, yes,'' Klaus said bitterly.
+            ``Yes, yes,&#039;&#039; Klaus said bitterly.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19344,7 +19508,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You'd better do exactly as planned,'' the man said again.
+            ``You&#039;d better do exactly as planned,&#039;&#039; the man said
+            again.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19362,9 +19527,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'm sure they will,'' said a voice suddenly, and the children
-            turned to see Mr. Poe, dressed very formally and accompanied by his
-            wife.
+            ``I&#039;m sure they will,&#039;&#039; said a voice suddenly, and
+            the children turned to see Mr. Poe, dressed very formally and
+            accompanied by his wife.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19382,7 +19547,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             He smiled at the children and came over to shake their hands.
-            ``Polly and I just wanted to tell you to break a leg.''
+            ``Polly and I just wanted to tell you to break a leg.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19399,7 +19564,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What?'' Klaus said, alarmed.
+            ``What?&#039;&#039; Klaus said, alarmed.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19415,10 +19580,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``That's a theater term,'' Mr. Poe explained, ``meaning ``good luck
-            on tonight's performance.'' I'm glad that you children have adjusted
-            to life with your new father and are participating in family
-            activities.''
+            ``That&#039;s a theater term,&#039;&#039; Mr. Poe explained,
+            ``meaning ``good luck on tonight&#039;s performance.&#039;&#039;
+            I&#039;m glad that you children have adjusted to life with your new
+            father and are participating in family activities.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19436,8 +19601,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Mr. Poe,'' Klaus said quickly, ``Violet and I have something to
-            tell you.
+            ``Mr. Poe,&#039;&#039; Klaus said quickly, ``Violet and I have
+            something to tell you.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19454,7 +19619,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            It's very important.''
+            It&#039;s very important.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19471,7 +19636,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What is it?'' Mr. Poe said.
+            ``What is it?&#039;&#039; Mr. Poe said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19487,8 +19652,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Yes,'' said Count Olaf, ``what is it you have to tell Mr. Poe,
-            children?''
+            ``Yes,&#039;&#039; said Count Olaf, ``what is it you have to tell
+            Mr. Poe, children?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19539,8 +19704,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Just that we appreciate all you've done for us, Mr. Poe,'' Klaus
-            said weakly. ``That's all we wanted to say.''
+            ``Just that we appreciate all you&#039;ve done for us, Mr.
+            Poe,&#039;&#039; Klaus said weakly. ``That&#039;s all we wanted to
+            say.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19558,8 +19724,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Of course, of course,'' Mr. Poe said, patting him on the back.
-            ``Well, Polly and I had better take our seats.
+            ``Of course, of course,&#039;&#039; Mr. Poe said, patting him on the
+            back. ``Well, Polly and I had better take our seats.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19576,7 +19742,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Break a leg, Baudelaires!''
+            Break a leg, Baudelaires!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19593,8 +19759,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I wish we could break a leg,'' Klaus whispered to Violet, and Mr.
-            Poe left.
+            ``I wish we could break a leg,&#039;&#039; Klaus whispered to
+            Violet, and Mr. Poe left.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19612,8 +19778,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You will, soon enough,'' Count Olaf said, pushing the two children
-            toward the stage.
+            ``You will, soon enough,&#039;&#039; Count Olaf said, pushing the
+            two children toward the stage.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19669,8 +19835,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The bald man with the long nose took Klaus's hand and led him to one
-            side.
+            The bald man with the long nose took Klaus&#039;s hand and led him
+            to one side.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19703,7 +19869,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            That means the whole thing.''
+            That means the whole thing.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19720,7 +19886,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I know what the word ``duration'' means,'' Klaus said.
+            ``I know what the word ``duration&#039;&#039; means,&#039;&#039;
+            Klaus said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19737,7 +19904,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``No nonsense,'' the bald man said.
+            ``No nonsense,&#039;&#039; the bald man said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19790,9 +19957,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             It will be of no interest to you if I describe the action of this
-            insipid-the word ``insipid'' here means ``dull and foolish''-play by
-            Al Funcoot, because it was a dreadful play and of no real importance
-            to our story.
+            insipid-the word ``insipid&#039;&#039; here means ``dull and
+            foolish&#039;&#039;-play by Al Funcoot, because it was a dreadful
+            play and of no real importance to our story.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19827,9 +19994,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             He soon realized that this play must have been chosen merely as an
-            excuse for Olaf's evil plan, and not for its entertainment value, as
-            he sensed the audience losing interest and moving around in their
-            seats.
+            excuse for Olaf&#039;s evil plan, and not for its entertainment
+            value, as he sensed the audience losing interest and moving around
+            in their seats.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19924,7 +20091,7 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             Her eyes were sparkling and her face flushed as she performed
             onstage for the first time, too stagestruck to realize she was a
-            part of Olaf's plan.
+            part of Olaf&#039;s plan.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19962,7 +20129,7 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             When she finished her speech, Justice Strauss turned to Count Olaf
             and asked, ``Do you take this woman to be your lawfully wedded
-            wife?''
+            wife?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -19979,7 +20146,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I do,'' Count Olaf said, smiling.
+            ``I do,&#039;&#039; Count Olaf said, smiling.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20012,8 +20179,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Do you,'' Justice Strauss said, turning to Violet, ``take this man
-            to be your lawfully wedded husband?''
+            ``Do you,&#039;&#039; Justice Strauss said, turning to Violet,
+            ``take this man to be your lawfully wedded husband?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20029,7 +20196,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I do,'' Violet said.
+            ``I do,&#039;&#039; Violet said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20065,7 +20232,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            His sister had said ``I do'' in the presence of a judge.
+            His sister had said ``I do&#039;&#039; in the presence of a judge.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20117,9 +20284,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Don't move an inch,'' the bald man muttered to Klaus, and Klaus
-            thought of poor Sunny, dangling at the top of the tower, and stood
-            still as he watched Violet take a long quill pen from Count Olaf.
+            ``Don&#039;t move an inch,&#039;&#039; the bald man muttered to
+            Klaus, and Klaus thought of poor Sunny, dangling at the top of the
+            tower, and stood still as he watched Violet take a long quill pen
+            from Count Olaf.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20137,8 +20305,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Violet's eyes were wide as she looked down at the document, and her
-            face was pale, and her left hand was trembling as she signed her
+            Violet&#039;s eyes were wide as she looked down at the document, and
+            her face was pale, and her left hand was trembling as she signed her
             name.
           </td>
           <td
@@ -20174,8 +20342,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``And now, ladies and gentlemen,'' Count Olaf said, stepping forward
-            to address the audience, ``I have an announcement.
+            ``And now, ladies and gentlemen,&#039;&#039; Count Olaf said,
+            stepping forward to address the audience, ``I have an announcement.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20193,7 +20361,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            There is no reason to continue tonight's performance, for its
+            There is no reason to continue tonight&#039;s performance, for its
             purpose has been served.
           </td>
           <td
@@ -20229,7 +20397,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             My marriage to Violet Baudelaire is perfectly legal, and now I am in
-            control of her entire fortune.''
+            control of her entire fortune.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20265,8 +20433,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Not everyone, apparently, had known about Olaf's plan. ``That can't
-            be!'' Justice Strauss cried.
+            Not everyone, apparently, had known about Olaf&#039;s plan. ``That
+            can&#039;t be!&#039;&#039; Justice Strauss cried.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20282,9 +20450,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``The marriage laws in this community are quite simple,'' Count Olaf
-            said. ``The bride must say ``I do'' in the presence of a judge like
-            yourself, and sign an explanatory document.
+            ``The marriage laws in this community are quite simple,&#039;&#039;
+            Count Olaf said. ``The bride must say ``I do&#039;&#039; in the
+            presence of a judge like yourself, and sign an explanatory document.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20300,8 +20468,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            And all of you''-here Count Olaf gestured out to the audience-``are
-            witnesses.''
+            And all of you&#039;&#039;-here Count Olaf gestured out to the
+            audience-``are witnesses.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20317,8 +20485,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But Violet is only a child!'' one of the actors said. ``She's not
-            old enough to marry.''
+            ``But Violet is only a child!&#039;&#039; one of the actors said.
+            ``She&#039;s not old enough to marry.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20335,8 +20503,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``She is if her legal guardian agrees,'' Count Olaf said, ``and in
-            addition to being her husband, I am her legal guardian.''
+            ``She is if her legal guardian agrees,&#039;&#039; Count Olaf said,
+            ``and in addition to being her husband, I am her legal
+            guardian.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20353,8 +20522,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``But that piece of paper is not an official document!'' Justice
-            Strauss said. ``That's just a stage prop!''
+            ``But that piece of paper is not an official document!&#039;&#039;
+            Justice Strauss said. ``That&#039;s just a stage prop!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20371,9 +20540,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Count Olaf took the paper from Violet's hand and gave it to Justice
-            Strauss. ``I think if you look at it closely you will see it is an
-            official document from City Hall.''
+            Count Olaf took the paper from Violet&#039;s hand and gave it to
+            Justice Strauss. ``I think if you look at it closely you will see it
+            is an official document from City Hall.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20424,8 +20593,8 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             Klaus watched her and wondered if this were the expression Justice
             Strauss had on her face whenever she was serving on the High Court.
-            ``You're right,'' she said finally, to Count Olaf, ``this marriage,
-            unfortunately, is completely legal.
+            ``You&#039;re right,&#039;&#039; she said finally, to Count Olaf,
+            ``this marriage, unfortunately, is completely legal.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20441,7 +20610,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Violet said ``I do,'' and signed her name here on this paper.
+            Violet said ``I do,&#039;&#039; and signed her name here on this
+            paper.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20457,8 +20627,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Count Olaf, you are Violet's husband, and therefore in complete
-            control of her estate.''
+            Count Olaf, you are Violet&#039;s husband, and therefore in complete
+            control of her estate.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20474,8 +20644,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``That can't be!'' said a voice from the audience, and Klaus
-            recognized it as the voice of Mr. Poe.
+            ``That can&#039;t be!&#039;&#039; said a voice from the audience,
+            and Klaus recognized it as the voice of Mr. Poe.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20492,7 +20662,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             He ran up the stairs to the stage and took the document from Justice
-            Strauss. ``This is dreadful nonsense.''
+            Strauss. ``This is dreadful nonsense.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20508,8 +20678,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'm afraid this dreadful nonsense is the law,'' Justice Strauss
-            said.
+            ``I&#039;m afraid this dreadful nonsense is the law,&#039;&#039;
+            Justice Strauss said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20526,9 +20696,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Her eyes were filling up with tears. ``I can't believe how easily I
-            was tricked,'' she said. ``I would never do anything to harm you
-            children.
+            Her eyes were filling up with tears. ``I can&#039;t believe how
+            easily I was tricked,&#039;&#039; she said. ``I would never do
+            anything to harm you children.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20545,7 +20715,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Never.''
+            Never.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20564,8 +20734,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``You were easily tricked,'' Count Olaf said, grinning, and the
-            judge began to cry. ``It was child's play, winning this fortune.
+            ``You were easily tricked,&#039;&#039; Count Olaf said, grinning,
+            and the judge began to cry. ``It was child&#039;s play, winning this
+            fortune.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20582,7 +20753,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Now, if all of you will excuse me, my bride and I need to go home
-            for our wedding night.''
+            for our wedding night.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20599,8 +20770,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``First let Sunny go!'' Klaus burst out. ``You promised to let her
-            go!''
+            ``First let Sunny go!&#039;&#039; Klaus burst out. ``You promised to
+            let her go!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20616,7 +20787,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Where is Sunny?'' Mr. Poe asked.
+            ``Where is Sunny?&#039;&#039; Mr. Poe asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20634,10 +20805,11 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``She's all tied up at the moment,'' Count Olaf said, ``if you will
-            pardon a little joke.'' His eyes shone as he pressed buttons on the
-            walkie-talkie, and waited while the hook-handed man answered.
-            ``Hello? Yes, of course it's me, you idiot.
+            ``She&#039;s all tied up at the moment,&#039;&#039; Count Olaf said,
+            ``if you will pardon a little joke.&#039;&#039; His eyes shone as he
+            pressed buttons on the walkie-talkie, and waited while the
+            hook-handed man answered. ``Hello? Yes, of course it&#039;s me, you
+            idiot.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20691,9 +20863,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Klaus and Sunny have some chores to do before they go to bed.''
-            Count Olaf gave Klaus a sharp look. ``Are you satisfied now?'' he
-            asked.
+            Klaus and Sunny have some chores to do before they go to
+            bed.&#039;&#039; Count Olaf gave Klaus a sharp look. ``Are you
+            satisfied now?&#039;&#039; he asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20709,7 +20881,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Yes,'' Klaus said quietly.
+            ``Yes,&#039;&#039; Klaus said quietly.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20725,8 +20897,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            He wasn't satisfied at all, of course, but at least his baby sister
-            was no longer dangling from a tower.
+            He wasn&#039;t satisfied at all, of course, but at least his baby
+            sister was no longer dangling from a tower.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20742,8 +20914,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Don't think you're so safe,'' the bald man whispered to Klaus.
-            ``Count Olaf will take care of you and your sisters later.
+            ``Don&#039;t think you&#039;re so safe,&#039;&#039; the bald man
+            whispered to Klaus. ``Count Olaf will take care of you and your
+            sisters later.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20759,9 +20932,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            He doesn't want to do it in front of all these people.'' He did not
-            have to explain to Klaus what he meant by the phrase ``take care
-            of.''
+            He doesn&#039;t want to do it in front of all these
+            people.&#039;&#039; He did not have to explain to Klaus what he
+            meant by the phrase ``take care of.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20778,8 +20951,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Well, I'm not satisfied at all,'' Mr. Poe said. ``This is
-            absolutely horrendous.
+            ``Well, I&#039;m not satisfied at all,&#039;&#039; Mr. Poe said.
+            ``This is absolutely horrendous.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20811,7 +20984,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            This is financially dreadful.''
+            This is financially dreadful.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20829,8 +21002,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'm afraid, however,'' Count Olaf said, ``that it is legally
-            binding.
+            ``I&#039;m afraid, however,&#039;&#039; Count Olaf said, ``that it
+            is legally binding.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20848,7 +21021,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Tomorrow, Mr. Poe, I shall come down to the bank and withdraw the
-            complete Baudelaire fortune.''
+            complete Baudelaire fortune.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20882,8 +21055,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             For several seconds he coughed into a handkerchief while everyone
-            waited for him to speak. ``I won't allow it,'' Mr. Poe finally
-            gasped, wiping his mouth. ``I absolutely will not allow it.''
+            waited for him to speak. ``I won&#039;t allow it,&#039;&#039; Mr.
+            Poe finally gasped, wiping his mouth. ``I absolutely will not allow
+            it.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20899,7 +21073,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'm afraid you have to,'' Count Olaf replied.
+            ``I&#039;m afraid you have to,&#039;&#039; Count Olaf replied.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20915,8 +21089,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'm-I'm afraid Olaf is right,'' Justice Strauss said, through her
-            tears. ``This marriage is legally binding.''
+            ``I&#039;m-I&#039;m afraid Olaf is right,&#039;&#039; Justice
+            Strauss said, through her tears. ``This marriage is legally
+            binding.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20932,8 +21107,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Begging your pardon,'' Violet said suddenly, ``but I think you may
-            be wrong.''
+            ``Begging your pardon,&#039;&#039; Violet said suddenly, ``but I
+            think you may be wrong.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20965,7 +21140,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What did you say, Countess?'' Olaf said.
+            ``What did you say, Countess?&#039;&#039; Olaf said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -20982,9 +21157,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'm not your countess,'' Violet said testily, a word which here
-            means ``in an extremely annoyed tone.'' ``At least, I don't think I
-            am.''
+            ``I&#039;m not your countess,&#039;&#039; Violet said testily, a
+            word which here means ``in an extremely annoyed tone.&#039;&#039;
+            ``At least, I don&#039;t think I am.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21000,7 +21175,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``And why is that?'' Count Olaf said.
+            ``And why is that?&#039;&#039; Count Olaf said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21016,8 +21191,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I did not sign the document in my own hand, as the law states,''
-            Violet said.
+            ``I did not sign the document in my own hand, as the law
+            states,&#039;&#039; Violet said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21034,8 +21209,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What do you mean? We all saw you!'' Count Olaf's eyebrow was
-            beginning to rise in anger.
+            ``What do you mean? We all saw you!&#039;&#039; Count Olaf&#039;s
+            eyebrow was beginning to rise in anger.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21051,8 +21226,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'm afraid your husband is right, dear,'' Justice Strauss said
-            sadly. ``There's no use denying it.
+            ``I&#039;m afraid your husband is right, dear,&#039;&#039; Justice
+            Strauss said sadly. ``There&#039;s no use denying it.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21069,7 +21244,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            There are too many witnesses.''
+            There are too many witnesses.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21086,7 +21261,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Like most people,'' Violet said, ``I am right-handed.
+            ``Like most people,&#039;&#039; Violet said, ``I am right-handed.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21103,7 +21278,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But I signed the document with my left hand.''
+            But I signed the document with my left hand.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21120,7 +21295,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What?'' Count Olaf cried.
+            ``What?&#039;&#039; Count Olaf cried.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21155,8 +21330,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            His eyes were shining very bright. ``You are a liar!'' he hissed at
-            Violet.
+            His eyes were shining very bright. ``You are a liar!&#039;&#039; he
+            hissed at Violet.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21172,8 +21347,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``No she's not,'' Klaus said excitedly. ``I remember, because I
-            watched her left hand trembling as she signed her name.''
+            ``No she&#039;s not,&#039;&#039; Klaus said excitedly. ``I remember,
+            because I watched her left hand trembling as she signed her
+            name.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21189,7 +21365,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``It is impossible to prove,'' Count Olaf said.
+            ``It is impossible to prove,&#039;&#039; Count Olaf said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21206,9 +21382,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``If you like,'' Violet said, ``I shall be happy to sign my name
-            again, on a separate sheet of paper, with my right hand and then
-            with my left.
+            ``If you like,&#039;&#039; Violet said, ``I shall be happy to sign
+            my name again, on a separate sheet of paper, with my right hand and
+            then with my left.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21225,7 +21401,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Then we can see which signature the one on the document most
-            resembles.''
+            resembles.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21242,8 +21418,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``A small detail, like which hand you used to sign,'' Count Olaf
-            said, ``doesn't matter in the least.''
+            ``A small detail, like which hand you used to sign,&#039;&#039;
+            Count Olaf said, ``doesn&#039;t matter in the least.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21260,8 +21436,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``If you don't mind, sir,'' Mr. Poe said, ``I'd like Justice Strauss
-            to make that decision.''
+            ``If you don&#039;t mind, sir,&#039;&#039; Mr. Poe said, ``I&#039;d
+            like Justice Strauss to make that decision.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21278,8 +21454,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Everyone looked at Justice Strauss, who was wiping away the last of
-            her tears. ``Let me see,'' she said quietly, and closed her eyes
-            again.
+            her tears. ``Let me see,&#039;&#039; she said quietly, and closed
+            her eyes again.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21316,10 +21492,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Finally, she smiled. ``If Violet is indeed right-handed,'' she said
-            carefully, ``and she signed the document with her left hand, then it
-            follows that the signature does not fulfill the requirements of the
-            nuptial laws.
+            Finally, she smiled. ``If Violet is indeed right-handed,&#039;&#039;
+            she said carefully, ``and she signed the document with her left
+            hand, then it follows that the signature does not fulfill the
+            requirements of the nuptial laws.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21337,8 +21513,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The law clearly states the document must be signed in the bride's
-            own hand.
+            The law clearly states the document must be signed in the
+            bride&#039;s own hand.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21372,7 +21548,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Violet, you are not a countess, and Count Olaf, you are not in
-            control of the Baudelaire fortune.''
+            control of the Baudelaire fortune.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21389,8 +21565,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Hooray!'' cried a voice from the audience, and several people
-            applauded.
+            ``Hooray!&#039;&#039; cried a voice from the audience, and several
+            people applauded.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21408,8 +21584,8 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Unless you are a lawyer, it will probably strike you as odd that
-            Count Olaf's plan was defeated by Violet signing with her left hand
-            instead of her right.
+            Count Olaf&#039;s plan was defeated by Violet signing with her left
+            hand instead of her right.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21528,9 +21704,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Nevertheless, he gave everyone a grim smile. ``In that case,'' he
-            said to Violet, pushing a button on the walkie-talkie, ``you will
-            either marry me again, and correctly this time, or I will-''
+            Nevertheless, he gave everyone a grim smile. ``In that
+            case,&#039;&#039; he said to Violet, pushing a button on the
+            walkie-talkie, ``you will either marry me again, and correctly this
+            time, or I will-&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21546,8 +21723,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Neepo!'' Sunny's unmistakable voice rang out over Count Olaf's as
-            she tottered onstage toward her siblings.
+            ``Neepo!&#039;&#039; Sunny&#039;s unmistakable voice rang out over
+            Count Olaf&#039;s as she tottered onstage toward her siblings.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21599,7 +21776,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Sunny! You're safe!'' Klaus cried, and embraced her.
+            ``Sunny! You&#039;re safe!&#039;&#039; Klaus cried, and embraced
+            her.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21632,8 +21810,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Somebody bring her something to eat,'' Violet said. ``She must be
-            very hungry after hanging in a tower window all that time.''
+            ``Somebody bring her something to eat,&#039;&#039; Violet said.
+            ``She must be very hungry after hanging in a tower window all that
+            time.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21650,7 +21829,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Cake!'' Sunny shrieked.
+            ``Cake!&#039;&#039; Sunny shrieked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21667,7 +21846,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Argh!'' Count Olaf roared.
+            ``Argh!&#039;&#039; Count Olaf roared.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21684,8 +21863,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             He began to pace back and forth like an animal in a cage, pausing
-            only to point a finger at Violet. ``You may not be my wife,'' he
-            said, ``but you are still my daughter, and-''
+            only to point a finger at Violet. ``You may not be my
+            wife,&#039;&#039; he said, ``but you are still my daughter,
+            and-&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21702,9 +21882,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Do you honestly think,'' Mr. Poe said in an exasperated voice,
-            ``that I will allow you to continue to care for these three
-            children, after the treachery I have seen here tonight?''
+            ``Do you honestly think,&#039;&#039; Mr. Poe said in an exasperated
+            voice, ``that I will allow you to continue to care for these three
+            children, after the treachery I have seen here tonight?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21721,8 +21901,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``The orphans are mine,'' Count Olaf insisted, ``and with me they
-            shall stay.
+            ``The orphans are mine,&#039;&#039; Count Olaf insisted, ``and with
+            me they shall stay.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21739,7 +21919,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            There is nothing illegal about trying to marry someone.''
+            There is nothing illegal about trying to marry someone.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21756,8 +21936,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             ``But there is something illegal about dangling an infant out of a
-            tower window,'' Justice Strauss said indignantly. ``You, Count Olaf,
-            will go to jail, and the three children will live with me.''
+            tower window,&#039;&#039; Justice Strauss said indignantly. ``You,
+            Count Olaf, will go to jail, and the three children will live with
+            me.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21774,8 +21955,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Arrest him!'' a voice said from the audience, and other people
-            took up the cry.
+            ``Arrest him!&#039;&#039; a voice said from the audience, and other
+            people took up the cry.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21792,7 +21973,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Send him to jail!''
+            ``Send him to jail!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21808,7 +21989,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``He's an evil man!''
+            ``He&#039;s an evil man!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21825,7 +22006,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``And give us our money back! It was a lousy play!''
+            ``And give us our money back! It was a lousy play!&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21841,9 +22022,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Mr. Poe took Count Olaf's arm and, after a brief eruption of coughs,
-            announced in a harsh voice, ``I hereby arrest you in the name of the
-            law.''
+            Mr. Poe took Count Olaf&#039;s arm and, after a brief eruption of
+            coughs, announced in a harsh voice, ``I hereby arrest you in the
+            name of the law.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21860,8 +22041,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Oh, Justice Strauss!'' Violet said. ``Did you really mean what you
-            said? Can we really live with you?''
+            ``Oh, Justice Strauss!&#039;&#039; Violet said. ``Did you really
+            mean what you said? Can we really live with you?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21877,8 +22058,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Of course I mean it,'' Justice Strauss said. ``I am very fond of
-            you children, and I feel responsible for your welfare.''
+            ``Of course I mean it,&#039;&#039; Justice Strauss said. ``I am very
+            fond of you children, and I feel responsible for your
+            welfare.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21894,7 +22076,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Can we use your library every day?'' Klaus asked.
+            ``Can we use your library every day?&#039;&#039; Klaus asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21910,7 +22092,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Can we work in the garden?'' Violet asked.
+            ``Can we work in the garden?&#039;&#039; Violet asked.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -21927,7 +22109,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Cake!'' Sunny shrieked again, and everyone laughed.
+            ``Cake!&#039;&#039; Sunny shrieked again, and everyone laughed.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22033,7 +22215,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            For as everyone was laughing at Sunny's cry for cake, the
+            For as everyone was laughing at Sunny&#039;s cry for cake, the
             important-looking man with all the warts on his face was sneaking
             toward the controls for the lighting of the theater.
           </td>
@@ -22137,7 +22319,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Klaus grabbed Sunny and held her up as high as he could, so she
-            wouldn't get hurt.
+            wouldn&#039;t get hurt.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22277,9 +22459,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I'll get my hands on your fortune if it's the last thing I do,''
-            the voice hissed. ``And when I have it, I'll kill you and your
-            siblings with my own two hands.''
+            ``I&#039;ll get my hands on your fortune if it&#039;s the last thing
+            I do,&#039;&#039; the voice hissed. ``And when I have it, I&#039;ll
+            kill you and your siblings with my own two hands.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22383,7 +22565,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But nobody was touching Violet's shoulder.
+            But nobody was touching Violet&#039;s shoulder.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22417,7 +22599,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Where did he go?'' Mr. Poe shouted. ``Where did they all go?''
+            ``Where did he go?&#039;&#039; Mr. Poe shouted. ``Where did they all
+            go?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22456,8 +22639,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``They must have run outside,'' Klaus said, ``while it was still
-            dark.''
+            ``They must have run outside,&#039;&#039; Klaus said, ``while it was
+            still dark.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22527,7 +22710,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Maybe it didn't.
+            Maybe it didn&#039;t.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22563,7 +22746,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Blast it,'' Mr. Poe said. ``They're gone.
+            ``Blast it,&#039;&#039; Mr. Poe said. ``They&#039;re gone.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22580,7 +22763,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            But don't worry, children, we'll catch them.
+            But don&#039;t worry, children, we&#039;ll catch them.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22597,7 +22780,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I'm going to go call the police immediately.''
+            I&#039;m going to go call the police immediately.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22614,7 +22797,7 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Violet, Klaus, and Sunny looked at one another and knew that it
-            wasn't as simple as Mr. Poe said.
+            wasn&#039;t as simple as Mr. Poe said.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22667,9 +22850,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``Well, let's go home, children,'' Justice Strauss said. ``We can
-            worry about this in the morning, when I've fixed you a good
-            breakfast.''
+            ``Well, let&#039;s go home, children,&#039;&#039; Justice Strauss
+            said. ``We can worry about this in the morning, when I&#039;ve fixed
+            you a good breakfast.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22686,9 +22869,10 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Mr. Poe coughed. ``Wait a minute,'' he said, looking down at the
-            floor. ``I'm sorry to tell you this, children, but I cannot allow
-            you to be raised by someone who is not a relative.''
+            Mr. Poe coughed. ``Wait a minute,&#039;&#039; he said, looking down
+            at the floor. ``I&#039;m sorry to tell you this, children, but I
+            cannot allow you to be raised by someone who is not a
+            relative.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22705,8 +22889,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``What?'' Violet cried. ``After all Justice Strauss has done for
-            us?''
+            ``What?&#039;&#039; Violet cried. ``After all Justice Strauss has
+            done for us?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22722,9 +22906,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``We never would have figured out Count Olaf's plan without her and
-            her library,'' Klaus said. ``Without Justice Strauss, we would have
-            lost our lives.''
+            ``We never would have figured out Count Olaf&#039;s plan without her
+            and her library,&#039;&#039; Klaus said. ``Without Justice Strauss,
+            we would have lost our lives.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22742,8 +22926,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``That may be so,'' Mr. Poe said, ``and I thank Justice Strauss for
-            her generosity, but your parents' will is very specific.
+            ``That may be so,&#039;&#039; Mr. Poe said, ``and I thank Justice
+            Strauss for her generosity, but your parents&#039; will is very
+            specific.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22792,7 +22977,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I'm sorry, but that is the way it is.''
+            I&#039;m sorry, but that is the way it is.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22810,7 +22995,8 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             The children looked at Justice Strauss, who sighed heavily and
             hugged each of the Baudelaire youngsters in turn. ``Mr. Poe is
-            right,'' she said sadly. ``He must respect your parents' wishes.
+            right,&#039;&#039; she said sadly. ``He must respect your
+            parents&#039; wishes.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22826,7 +23012,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Don't you want to do what your parents wanted, children?''
+            Don&#039;t you want to do what your parents wanted,
+            children?&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22879,9 +23066,9 @@ meta.priority: 0
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
             They wanted very badly to live with this kind and generous woman,
-            but they knew that it simply could not be done. ``I guess you're
-            right, Justice Strauss,'' Violet said finally. ``We will miss you
-            very much.''
+            but they knew that it simply could not be done. ``I guess
+            you&#039;re right, Justice Strauss,&#039;&#039; Violet said finally.
+            ``We will miss you very much.&#039;&#039;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -22897,8 +23084,8 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            ``I will miss you, too,'' she said, and her eyes filled with tears
-            once more.
+            ``I will miss you, too,&#039;&#039; she said, and her eyes filled
+            with tears once more.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -23017,8 +23204,9 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            They didn't understand it, but like so many unfortunate events in
-            life, just because you don't understand it doesn't mean it isn't so.
+            They didn&#039;t understand it, but like so many unfortunate events
+            in life, just because you don&#039;t understand it doesn&#039;t mean
+            it isn&#039;t so.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -23053,8 +23241,9 @@ meta.priority: 0
           <td class="text-left align-text-top p-2 column-class-glico">
             The car drove farther and farther away, until Justice Strauss was
             merely a speck in the darkness, and it seemed to the children that
-            they were moving in an aberrant-the word ``aberrant'' here means
-            ``very, very wrong, and causing much grief''-direction.
+            they were moving in an aberrant-the word ``aberrant&#039;&#039; here
+            means ``very, very wrong, and causing much
+            grief&#039;&#039;-direction.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"
@@ -23259,7 +23448,7 @@ meta.priority: 0
             class="text-left align-text-top p-2 column-class-xorlo_lojbo"
           ></td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Montgomery's recipe for coconut cream cake.
+            Montgomery&#039;s recipe for coconut cream cake.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-cizra_lojbo"

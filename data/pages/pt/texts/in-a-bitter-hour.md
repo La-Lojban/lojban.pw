@@ -69,7 +69,7 @@ meta.priority: 3554
             English translation
           </td>
           <td class="font-bold text-left align-text-top p-2 column-class-lojbo">
-            ni'o ni'o bau le lojbo
+            ni&#039;o ni&#039;o bau le lojbo
           </td>
           <td class="font-bold text-left align-text-top p-2 column-class-rusko">
             Русский перевод
@@ -78,48 +78,72 @@ meta.priority: 3554
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-spero">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-spero"
+          >
             En Amara Horo
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             In A Bitter Hour
           </td>
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             ca lo kurki cacra
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             В горький час
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-spero">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-spero"
+          >
             de Kalman Kaloscay
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             by Kalman Kalocsay
           </td>
-          <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i se finti la'o my.Kalman. Kalocsay.my.
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
+            .i se finti la&#039;o my.Kalman. Kalocsay.my.
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Калман Калочаи
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-spero">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-spero"
+          >
             En Amara Horo, de Kalman Kaloscay
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             by Nick Nicholas
           </td>
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             .i se fanva fo le spero fe la gleki .e la nitcion
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Перевод la gleki
           </td>
         </tr>
@@ -133,7 +157,7 @@ meta.priority: 3554
             You are nothing, nothing,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            do se vamji le nomei fe le ba'e nomei
+            do se vamji le nomei fe le ba&#039;e nomei
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Ничто ты, ничто
@@ -159,16 +183,17 @@ meta.priority: 3554
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-spero">
-            vi hurlas pri la "nova sento"!
+            vi hurlas pri la &quot;nova sento&quot;!
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            you howl about the "New Sensation"!
+            you howl about the &quot;New Sensation&quot;!
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            do krixa tavla fi la'e "lu cnino se ganse li'u" vau
+            do krixa tavla fi la&#039;e &quot;lu cnino se ganse li&#039;u&quot;
+            vau
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            ты воешь о "новом чувстве"!
+            ты воешь о &quot;новом чувстве&quot;!
           </td>
         </tr>
         <tr
@@ -181,7 +206,7 @@ meta.priority: 3554
             I would know you to be a ferment,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            mi djuno da'i lo du'u do banro
+            mi djuno da&#039;i lo du&#039;u do banro
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Я хотел бы знать, что ты - закваска,
@@ -191,13 +216,13 @@ meta.priority: 3554
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-spero">
-            potenca povo, fort' magia:
+            potenca povo, fort&#039; magia:
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             a powerful capability, a magical force:
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            gi'e vlipa gi'e makfa jai bapli
+            gi&#039;e vlipa gi&#039;e makfa jai bapli
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             мощная способность, магическая сила:
@@ -207,16 +232,16 @@ meta.priority: 3554
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-spero">
-            dormema "rondo familia".
+            dormema &quot;rondo familia&quot;.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            you sleepy "family circle".
+            you sleepy &quot;family circle&quot;.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
             doi lazni ke cecmu lanzu
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            сонный "семейный круг".
+            сонный &quot;семейный круг&quot;.
           </td>
         </tr>
         <tr
@@ -237,7 +262,7 @@ meta.priority: 3554
             Is it true that singing the anthem till bursting,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i xu lo nu sanga lo antema ja'e lo ka spoja
+            .i xu lo nu sanga lo antema ja&#039;e lo ka spoja
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Правда ли, что пение гимна до упаду,
@@ -269,7 +294,7 @@ meta.priority: 3554
             and the fact that a collection of wierdos
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .e lo fatci poi du lonu lo so'i cizra
+            .e lo fatci poi du lonu lo so&#039;i cizra
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             и тот факт, что куча чудаков
@@ -357,7 +382,7 @@ meta.priority: 3554
             you merely gawp with crosseyed dreams,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            vau do bebna zgana fi'o fliba pacna
+            vau do bebna zgana fi&#039;o fliba pacna
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             ты просто смотришь с косоглазыми мечтами,
@@ -372,7 +397,9 @@ meta.priority: 3554
           <td class="text-left align-text-top p-2 column-class-glico">
             and taking a respectable pose
           </td>
-          <td class="text-left align-text-top p-2 column-class-lojbo">gi'e</td>
+          <td class="text-left align-text-top p-2 column-class-lojbo">
+            gi&#039;e
+          </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             и принимая респектабельную позу
           </td>
@@ -387,7 +414,8 @@ meta.priority: 3554
             you occasionally cast a pittance
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            renro so'oroiku fau lo ka se morna lo se sinma vau le se pikci jdini
+            renro so&#039;oroiku fau lo ka se morna lo se sinma vau le se pikci
+            jdini
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             ты время от времени бросаешь милостыню
@@ -397,7 +425,7 @@ meta.priority: 3554
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-spero">
-            sur la altaron de l' Afero:
+            sur la altaron de l&#039; Afero:
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             onto the altar of the Cause:
@@ -491,7 +519,7 @@ meta.priority: 3554
             I would know you to be a ferment,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            mi djuno da'i lo du'u do banro
+            mi djuno da&#039;i lo du&#039;u do banro
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Я хотел бы знать тебя как закваску,
@@ -507,7 +535,7 @@ meta.priority: 3554
             a strong capability, a guiding torch,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            gi'e vlipa kakne gi'e gidva te gusni
+            gi&#039;e vlipa kakne gi&#039;e gidva te gusni
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             сильную способность, путеводный факел,
@@ -517,13 +545,13 @@ meta.priority: 3554
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-spero">
-            en sorcx' malbona --- bona sorcxo!
+            en sorcx&#039; malbona --- bona sorcxo!
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             amidst bad magic --- good magic!
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            gi'e xamgu te makfa va'o lo makfa co tolxamgu
+            gi&#039;e xamgu te makfa va&#039;o lo makfa co tolxamgu
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             среди плохой магии --- хорошая магия!
@@ -541,16 +569,16 @@ meta.priority: 3554
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-spero">
-            Kaj, kvankam "stranga sekto eta",
+            Kaj, kvankam &quot;stranga sekto eta&quot;,
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            And, though "a strange little sect",
+            And, though &quot;a strange little sect&quot;,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i do cizra ke cmalu ke lijda cecmu ti'e
+            .i do cizra ke cmalu ke lijda cecmu ti&#039;e
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            И, хотя "странная маленькая секта",
+            И, хотя &quot;странная маленькая секта&quot;,
           </td>
         </tr>
         <tr
@@ -563,7 +591,7 @@ meta.priority: 3554
             yet ready to believe, to struggle, to win,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .iku'i do fe loka krici je damba je jinga vau bredi
+            .iku&#039;i do fe loka krici je damba je jinga vau bredi
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             но все же готова верить, бороться, побеждать,
@@ -579,7 +607,7 @@ meta.priority: 3554
             for which, despite all mockery
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .imu'inai ro nu ckasu vau
+            .imu&#039;inai ro nu ckasu vau
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             за что, несмотря на все насмешки.
@@ -595,7 +623,7 @@ meta.priority: 3554
             the Strong Voice through the world
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            le fe'eroroi vlipa voksa
+            le fe&#039;eroroi vlipa voksa
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Сильный голос на весь мир
@@ -627,7 +655,7 @@ meta.priority: 3554
             but a belief, a religion!
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            gi'e ja'a cai jai se krici gi'e jai lijda
+            gi&#039;e ja&#039;a cai jai se krici gi&#039;e jai lijda
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             а вера, религия!
@@ -651,7 +679,7 @@ meta.priority: 3554
             Sacrifices nourish aspirations,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i lo nu friti cu jai ri'a zenba fai lo se klani be lo se djica
+            .i lo nu friti cu jai ri&#039;a zenba fai lo se klani be lo se djica
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Жертвы питают стремления,
@@ -661,7 +689,7 @@ meta.priority: 3554
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-spero">
-            postulas cxiu venk' --- martirojn!
+            postulas cxiu venk&#039; --- martirojn!
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             every victory demands martyrs!
@@ -683,7 +711,7 @@ meta.priority: 3554
             Let paleness not cover your face,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i gau do e'u na mo'u pilda lo do flira
+            .i gau do e&#039;u na mo&#039;u pilda lo do flira
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Не прикрывай бледность своих щёк,
@@ -699,7 +727,7 @@ meta.priority: 3554
             noone wants your blood,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ro prenu cu djica na'e bo lo do ciblu
+            .i ro prenu cu djica na&#039;e bo lo do ciblu
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             никто не хочет твоей крови,
@@ -715,7 +743,8 @@ meta.priority: 3554
             but giving, doing, and fervour,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            e je'a bo lo nu do dunda gi'e zukte gi'e carmi djica vau
+            e je&#039;a bo lo nu do dunda gi&#039;e zukte gi&#039;e carmi djica
+            vau
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             но отдачи, делания и усердия,
@@ -731,7 +760,7 @@ meta.priority: 3554
             and your heart, but your whole heart!
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            e lo do risna poi ku'i sa'e du pi ro lo do risna
+            e lo do risna poi ku&#039;i sa&#039;e du pi ro lo do risna
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             и сердца, всего твоего сердца!
@@ -771,7 +800,7 @@ meta.priority: 3554
             that I am shouting away in a desert.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            fau da'i lo nu mi krixa bu'u lo kunti tumla vau
+            fau da&#039;i lo nu mi krixa bu&#039;u lo kunti tumla vau
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             что в пустыне я кричу.
@@ -787,7 +816,7 @@ meta.priority: 3554
             You will still stay in peace,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            do ca'o panpi
+            do ca&#039;o panpi
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Ты останешься на месте,
@@ -803,7 +832,7 @@ meta.priority: 3554
             a society amusing itself.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            doi lo cecmu poi se zdile tu'a lo nei
+            doi lo cecmu poi se zdile tu&#039;a lo nei
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             общество развлечения.
@@ -819,7 +848,7 @@ meta.priority: 3554
             Oh, where is there consolation
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ma tadji lonu co'u se raktu
+            .i ma tadji lonu co&#039;u se raktu
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             О, где же утешенье
@@ -859,7 +888,8 @@ meta.priority: 3554
             A poet without a people, oh a soul-pressing knowledge,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o finti lo pemci poi no da te cusku cu i .uinai se dunku se djuno
+            ni&#039;o finti lo pemci poi no da te cusku cu i .uinai se dunku se
+            djuno
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Поэт без народа, о, гнетущее душу знание,
@@ -875,7 +905,7 @@ meta.priority: 3554
             that ears are deaf to all my calls...
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            fa lo du'u lo mi kerla na tirna ro mi se bacru
+            fa lo du&#039;u lo mi kerla na tirna ro mi se bacru
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             что глухи уши к каждому моему призыву...
@@ -891,7 +921,7 @@ meta.priority: 3554
             The crying melody sounds out without resonance,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i lo klaku se zgisku cu se sance fi'onai se minra
+            .i lo klaku se zgisku cu se sance fi&#039;onai se minra
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Мелодия плача звучит без эха,
@@ -907,7 +937,7 @@ meta.priority: 3554
             like a torn string in a deserted place.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            tai tu'a lo porpi gitsko be bu'u lo se cliva
+            tai tu&#039;a lo porpi gitsko be bu&#039;u lo se cliva
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             как порванная струна в пустынном месте.
@@ -931,7 +961,7 @@ meta.priority: 3554
             Should I still make projects, believe and dream like a little boy,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i eipei mi ca'o platu je krici je pacna tai lo cmalu nanla
+            .i eipei mi ca&#039;o platu je krici je pacna tai lo cmalu nanla
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Должен ли я по-прежнему строить проекты, верить и мечтать, как
@@ -948,7 +978,7 @@ meta.priority: 3554
             and make a mosaic out of the split bits of language,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            gi'e zbasu lo artmozaiko loi bangu se katna spisa
+            gi&#039;e zbasu lo artmozaiko loi bangu se katna spisa
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             и составлять мозаику из расколотых кусочков языка,
@@ -964,7 +994,8 @@ meta.priority: 3554
             or should I throw the pen from my hand, like Kabe,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .ije'i mi renro lo penbi to'o lo mi xance tai la'oi Kabe
+            .ije&#039;i mi renro lo penbi to&#039;o lo mi xance tai la&#039;oi
+            Kabe
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             или я должен бросить перо из рук, как Кабе,
@@ -980,7 +1011,7 @@ meta.priority: 3554
             and start being silent --- father to aborted verses?
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            gi'e ge co'a smaji gi ba'o finti lo fliba pemci
+            gi&#039;e ge co&#039;a smaji gi ba&#039;o finti lo fliba pemci
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             и начать молчать - отец прерванных стихов?
@@ -1004,7 +1035,7 @@ meta.priority: 3554
             It would be more opportune, and certainly more sensible,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i da'i semau mapti je ju'o racli
+            .i da&#039;i semau mapti je ju&#039;o racli
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Это было бы более уместно и, конечно, более разумно,
@@ -1020,8 +1051,8 @@ meta.priority: 3554
             to no longer make vain soapbubbles fly by blowing,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            fa lo nu ba'o gasnu lo nu lo zbabu fonmo cu vofli ri'a lo nu
-            tolsakci vau
+            fa lo nu ba&#039;o gasnu lo nu lo zbabu fonmo cu vofli ri&#039;a lo
+            nu tolsakci vau
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             не пуская больше напрасные мыльные пузыри, надувая их,
@@ -1036,7 +1067,9 @@ meta.priority: 3554
           <td class="text-left align-text-top p-2 column-class-glico">
             and, shrugging my shoulders happily-indifferently,
           </td>
-          <td class="text-left align-text-top p-2 column-class-lojbo">gi'e</td>
+          <td class="text-left align-text-top p-2 column-class-lojbo">
+            gi&#039;e
+          </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             и, пожимая плечами счастливо-безразлично,
           </td>
@@ -1045,17 +1078,18 @@ meta.priority: 3554
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-spero">
-            La "Kanton de la Sklavo" ne kanti plu Schulhofe.
+            La &quot;Kanton de la Sklavo&quot; ne kanti plu Schulhofe.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            to no longer sing the "Song Of The Slave" like Schulhof.
+            to no longer sing the &quot;Song Of The Slave&quot; like Schulhof.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ba'o sanga la'e lu lo se sanga be lo selfu li'u tai la .culxof. fau
-            loka lafti lo janco seci'o loka gleki na'e se cinri
+            ba&#039;o sanga la&#039;e lu lo se sanga be lo selfu li&#039;u tai
+            la .culxof. fau loka lafti lo janco seci&#039;o loka gleki na&#039;e
+            se cinri
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            не петь больше "Песню раба", как Шульгоф.
+            не петь больше &quot;Песню раба&quot;, как Шульгоф.
           </td>
         </tr>
         <tr
@@ -1068,7 +1102,7 @@ meta.priority: 3554
             But where to go? Where is there an ideal,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .iku'i ei binxo ma .i ma du lo tarmi
+            .iku&#039;i ei binxo ma .i ma du lo tarmi
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Но куда идти? Где тот идеал,
@@ -1084,7 +1118,7 @@ meta.priority: 3554
             on which I would not see a malicious snigger,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            poi mi na viska lo palci cisma pe ke'a vau
+            poi mi na viska lo palci cisma pe ke&#039;a vau
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             над которым я не увижу злобной усмешки,
@@ -1100,7 +1134,8 @@ meta.priority: 3554
             in whose altar cloth, crazily, after a battle,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            je noi fe le altare bukpu pe ke'a cu fi'o fenki ba lo nu damba vau
+            je noi fe le altare bukpu pe ke&#039;a cu fi&#039;o fenki ba lo nu
+            damba vau
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             об алтарное покрывало которого, в безумии, после битвы,
@@ -1116,7 +1151,8 @@ meta.priority: 3554
             no adorer has already wiped a bloody hand?
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            fa no se ljida be ke'a co'i jisysatre fi lo ciblu se gacri xance
+            fa no se ljida be ke&#039;a co&#039;i jisysatre fi lo ciblu se gacri
+            xance
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             не вытер уже какой-нибудь фанат окровавленную руку?
@@ -1140,7 +1176,8 @@ meta.priority: 3554
             There you are, Esperanto! Not glorious and proud,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i doi sperybau va'o fa do noi na mleba'i gi'e na jgira
+            .i doi sperybau va&#039;o fa do noi na mleba&#039;i gi&#039;e na
+            jgira
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Вот ты где, эсперанто! Не славный и гордый,
@@ -1156,7 +1193,8 @@ meta.priority: 3554
             just orphan, powerless, strengthless, immature,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            gi'e sa'u claxu gi'e na'e vlipa gi'e na'e tsali gi'e na'e makcu
+            gi&#039;e sa&#039;u claxu gi&#039;e na&#039;e vlipa gi&#039;e
+            na&#039;e tsali gi&#039;e na&#039;e makcu
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             просто сирота, неспособный, бессильный, незрелый,
@@ -1172,7 +1210,8 @@ meta.priority: 3554
             fainting-prone and helpless and --- maybe --- hopeless,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            gi'e ruble tende gi'e na'e se sidju gi'e la'acu'i na'e jai se pacna
+            gi&#039;e ruble tende gi&#039;e na&#039;e se sidju gi&#039;e
+            la&#039;acu&#039;i na&#039;e jai se pacna
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             склонный к обморокам, беспомощный и - может быть - безнадежный,
@@ -1188,7 +1227,7 @@ meta.priority: 3554
             but noble, white, clear and immaculately pure.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            gi'e ku'i nobli gi'e vrude gi'e mulno jinsa
+            gi&#039;e ku&#039;i nobli gi&#039;e vrude gi&#039;e mulno jinsa
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             но благородный, белый, ясный и безукоризненно чистый.
@@ -1212,7 +1251,8 @@ meta.priority: 3554
             I know you. In the heart you sung as a nightingale
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i mi se slabu do .i bu'u lo risna pe'a do pu sanga tai lo lustcania
+            .i mi se slabu do .i bu&#039;u lo risna pe&#039;a do pu sanga tai lo
+            lustcania
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Я знаю тебя. В сердце ты пел как соловей
@@ -1238,32 +1278,32 @@ meta.priority: 3554
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-spero">
-            Vin oni ne auxskultis, bucxadis sin "reale"...
+            Vin oni ne auxskultis, bucxadis sin &quot;reale&quot;...
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Noone heard you, they kept butchering each other "in the real
-            world".
+            Noone heard you, they kept butchering each other &quot;in the real
+            world&quot;.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ro da na pu tirna do gi'e ca'o catra simxu bu'u lo ti'e to'e
-            xanri
+            .i ro da na pu tirna do gi&#039;e ca&#039;o catra simxu bu&#039;u lo
+            ti&#039;e to&#039;e xanri
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            Никто не слышал тебя, они продолжали убивать друг друга "в реальном
-            мире".
+            Никто не слышал тебя, они продолжали убивать друг друга &quot;в
+            реальном мире&quot;.
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-spero">
-            Cxu sxtopu mi l' orelojn por ilin eksimili?
+            Cxu sxtopu mi l&#039; orelojn por ilin eksimili?
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Should I stop my ears to start resembling them?
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i .eipei mi co'u pilno lo mi kerlo mu'i lo ka simsa da
+            .i .eipei mi co&#039;u pilno lo mi kerlo mu&#039;i lo ka simsa da
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Должен ли я заткнуть уши, чтобы подражать им?
@@ -1281,13 +1321,14 @@ meta.priority: 3554
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-spero">
-            Ne! En la kor' plusonu la kanto dolcxetrila,
+            Ne! En la kor&#039; plusonu la kanto dolcxetrila,
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             No! Let the sweet-trilling song still sound in the heart,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i .ai na go'i .i .ai lo pluka se sanga ca'o se sance bu'u le risna
+            .i .ai na go&#039;i .i .ai lo pluka se sanga ca&#039;o se sance
+            bu&#039;u le risna
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Нет! Пусть в сердце по-прежнему звучит трель сладкая,
@@ -1303,7 +1344,7 @@ meta.priority: 3554
             oh, sing, small, powerless, dear, dear bird!
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ko sanga doi cmalu je na'e vlipa je dirba je cai dirba cipni
+            .i ko sanga doi cmalu je na&#039;e vlipa je dirba je cai dirba cipni
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             о, пой, птичка маленькая, бессильная, дорогая, дорогая!
@@ -1319,7 +1360,7 @@ meta.priority: 3554
             Be my beautiful lie shining enchantingly,
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ko me lo mi melbi jai jitfa poi ru'i carmi fi'o pluka
+            .i ko me lo mi melbi jai jitfa poi ru&#039;i carmi fi&#039;o pluka
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Будь моей прекрасной ложью, сияющей очаровательно,
@@ -1329,13 +1370,14 @@ meta.priority: 3554
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-spero">
-            vi estu la konsolo en nia mond' amara!
+            vi estu la konsolo en nia mond&#039; amara!
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             be my consolation in our bitter world!
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ko jai rinka lo nu mi co'u se raktu bu'u lo mi'ai se badri munje
+            .i ko jai rinka lo nu mi co&#039;u se raktu bu&#039;u lo mi&#039;ai
+            se badri munje
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             будь мне утешением в нашем горьком мире!
@@ -1372,8 +1414,9 @@ meta.priority: 3554
             1911 Kabe stopped being a member of the Esperanto culture.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i la'oi Kabe noi du la'o py. Kazimierz Bein .py. cu misno ke spero
-            fanva .i ku'i ca lo 1911moi nanca ky. co'u cmima le spero kulnu
+            .i la&#039;oi Kabe noi du la&#039;o py. Kazimierz Bein .py. cu misno
+            ke spero fanva .i ku&#039;i ca lo 1911moi nanca ky. co&#039;u cmima
+            le spero kulnu
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Кабе (Казимеж Бейн) - известный переводчик эсперанто. Однако в 1911

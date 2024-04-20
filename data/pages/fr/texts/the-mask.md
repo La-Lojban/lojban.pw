@@ -83,7 +83,7 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="font-bold text-left align-text-top p-2 column-class-lojbo">
-            ni'o ni'o ni'o bau le lojbo
+            ni&#039;o ni&#039;o ni&#039;o bau le lojbo
           </td>
           <td class="font-bold text-left align-text-top p-2 column-class-glico">
             English version
@@ -104,65 +104,103 @@ meta.priority: 10543
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o le firgai
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
+            ni&#039;o le firgai
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             The Mask
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">Маска</td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
+            Маска
+          </td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Le Masque
           </td>
-          <td class="text-left align-text-top p-2 column-class-spano">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-spano"
+          >
             La máscara
           </td>
-          <td class="text-left align-text-top p-2 column-class-porto">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
+          >
             A mascára
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
-            ni'o la'e di'e tordu nu ciksi la'e noi lisri vau le firgai lu'u noi
-            la .stanislav.lem. finti
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
+            ni&#039;o la&#039;e di&#039;e tordu nu ciksi la&#039;e noi lisri vau
+            le firgai lu&#039;u noi la .stanislav.lem. finti
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
-            Summary of the Stanisław Lem's novel
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
+            Summary of the Stanisław Lem&#039;s novel
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Краткое содержание романа Станислава Лема
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Résumé du roman de Stanisław Lem
           </td>
-          <td class="text-left align-text-top p-2 column-class-spano">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-spano"
+          >
             Resumen de la novela de Stanisław Lem
           </td>
-          <td class="text-left align-text-top p-2 column-class-porto">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
+          >
             Resumo do romance de Stanisław Lem
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-lojbo">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
             .i la gleki cu fanva fi le lojbo
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
             English adaptation
           </td>
-          <td class="text-left align-text-top p-2 column-class-rusko">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
             Русская адаптация
           </td>
-          <td class="text-left align-text-top p-2 column-class-fraso">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
+          >
             Adaptation française
           </td>
-          <td class="text-left align-text-top p-2 column-class-spano">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-spano"
+          >
             adaptación española
           </td>
-          <td class="text-left align-text-top p-2 column-class-porto">
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
+          >
             Adaptação portuguesa
           </td>
         </tr>
@@ -170,7 +208,8 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ca le krasi cu manku gi'e lenku fagri gi'e ze'u cladu savru
+            .i ca le krasi cu manku gi&#039;e lenku fagri gi&#039;e ze&#039;u
+            cladu savru
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             In the beginning there was darkness and cold flame and lingering
@@ -180,8 +219,8 @@ meta.priority: 10543
             Вначале была тьма, холодное пламя и затяжной гром.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Au début, il y avait l'obscurité, des flammes froides et un tonnerre
-            persistant.
+            Au début, il y avait l&#039;obscurité, des flammes froides et un
+            tonnerre persistant.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             Al principio había oscuridad y frío, llamas y truenos persistentes.
@@ -194,9 +233,9 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i mi kargau le kanla be mi gi'e ze'i cisma gi'e klama le crane .i
-            je le taxfu pe le ninmu cu kansa mi le ka muvdu .i dansycu'u bu'u le
-            zdani be le noltrunau
+            .i mi kargau le kanla be mi gi&#039;e ze&#039;i cisma gi&#039;e
+            klama le crane .i je le taxfu pe le ninmu cu kansa mi le ka muvdu .i
+            dansycu&#039;u bu&#039;u le zdani be le noltrunau
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - I opened my eyes and smiled, and moved forward, and her dresses
@@ -207,8 +246,8 @@ meta.priority: 10543
             двигались вместе со мной. - Это был придворный бал.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - J'ai ouvert les yeux, j'ai souri, j'ai avancé et ses robes ont
-            bougé avec moi. - C'était le bal de la cour.
+            - J&#039;ai ouvert les yeux, j&#039;ai souri, j&#039;ai avancé et
+            ses robes ont bougé avec moi. - C&#039;était le bal de la cour.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Abrí los ojos y sonreí, y avancé, y sus vestidos se movieron
@@ -223,10 +262,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i vi le jamfu be le ve'a marmaro pixra cu sanli fa le pa nanmu poi
-            mleca le ro drata le ka clani .i ne'a ra mi de'a klama tai lo da'i
-            nu mi djica le nu mi krorinsa ra i ra na zukte le ka catlu mi i ra
-            du le noltrunau
+            .i vi le jamfu be le ve&#039;a marmaro pixra cu sanli fa le pa nanmu
+            poi mleca le ro drata le ka clani .i ne&#039;a ra mi de&#039;a klama
+            tai lo da&#039;i nu mi djica le nu mi krorinsa ra i ra na zukte le
+            ka catlu mi i ra du le noltrunau
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - At the foot of a marble statue stood a man shorter than the rest.
@@ -240,10 +279,10 @@ meta.priority: 10543
             Король.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Au pied d'une statue de marbre se tenait un homme plus petit que
-            les autres. - En passant devant lui, je me suis arrêtée comme si je
-            voulais lui faire une révérence. - Il ne daigna pas me regarder. -
-            C'était le roi.
+            - Au pied d&#039;une statue de marbre se tenait un homme plus petit
+            que les autres. - En passant devant lui, je me suis arrêtée comme si
+            je voulais lui faire une révérence. - Il ne daigna pas me regarder.
+            - C&#039;était le roi.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Al pie de una estatua de mármol se encontraba un hombre más bajo
@@ -261,7 +300,7 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ku'i ma jai se djica ra fai tu'a mi fa ma ke'u
+            i ku&#039;i ma jai se djica ra fai tu&#039;a mi fa ma ke&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             But what could he want of me, what?
@@ -270,7 +309,7 @@ meta.priority: 10543
             Но что он мог хотеть от меня, что?
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Mais qu'est-ce qu'il pouvait bien me vouloir, quoi ?
+            Mais qu&#039;est-ce qu&#039;il pouvait bien me vouloir, quoi ?
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             Pero ¿qué podría querer de mí, qué?
@@ -305,9 +344,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i crane fa le klaji noi da'i mi klama fo ke'a tai lo fu'e da'i nu mi
-            noltruni'u da vau fo ke'a noi pluta fo lu'i le ro prenu fu'o .i ku'i
-            ma stuzi gi'e se klama mi tai ku
+            i crane fa le klaji noi da&#039;i mi klama fo ke&#039;a tai lo
+            fu&#039;e da&#039;i nu mi noltruni&#039;u da vau fo ke&#039;a noi
+            pluta fo lu&#039;i le ro prenu fu&#039;o .i ku&#039;i ma stuzi
+            gi&#039;e se klama mi tai ku
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - There opened up a corridor, that I might walk like some Queen down
@@ -319,9 +359,9 @@ meta.priority: 10543
             шла?
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Un couloir s'ouvrait pour que je puisse marcher, comme une reine,
-            sur le chemin tracé à travers l'humanité. - Mais vers où marchais-je
-            ?
+            - Un couloir s&#039;ouvrait pour que je puisse marcher, comme une
+            reine, sur le chemin tracé à travers l&#039;humanité. - Mais vers où
+            marchais-je ?
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Se abrió un pasillo, por el cual podía caminar como una reina
@@ -337,7 +377,7 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ma prenu gi'e se klama mi
+            i ma prenu gi&#039;e se klama mi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             To whom.
@@ -369,7 +409,7 @@ meta.priority: 10543
             и я.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Cet étranger m'a regardée - aussi complètement seule que moi.
+            Cet étranger m&#039;a regardée - aussi complètement seule que moi.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             Este desconocido me miró, tan completamente solo como yo.
@@ -382,9 +422,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ra co'a sanli gi'e klama fa'a mi i re roi stapa gi'e de'a muvdu i
-            mi zukte fi lo nu ju'a fe le xancidni fa le clupa pe le falnu pe mi
-            cu kluza ja'e lo nu ri farlu
+            i ra co&#039;a sanli gi&#039;e klama fa&#039;a mi i re roi stapa
+            gi&#039;e de&#039;a muvdu i mi zukte fi lo nu ju&#039;a fe le
+            xancidni fa le clupa pe le falnu pe mi cu kluza ja&#039;e lo nu ri
+            farlu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - He rose and came towards me. - Two steps and he stopped. - I let
@@ -396,9 +437,9 @@ meta.priority: 10543
             Чтобы он упал.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Il s'est levé et s'est approché de moi. - Il a fait deux pas et
-            s'est arrêté. - J'ai laissé glisser de mon poignet la petite boucle
-            de mon éventail. - Pour qu'il tombe.
+            - Il s&#039;est levé et s&#039;est approché de moi. - Il a fait deux
+            pas et s&#039;est arrêté. - J&#039;ai laissé glisser de mon poignet
+            la petite boucle de mon éventail. - Pour qu&#039;il tombe.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Se levantó y se acercó a mí. - Dio dos pasos y se detuvo. - Dejé
@@ -414,45 +455,49 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i lu doi nolni'u to'i sa'a ra cusku toi y le falnu pe do li'u
+            i lu doi nolni&#039;u to&#039;i sa&#039;a ra cusku toi y le falnu pe
+            do li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             ‘Madam’, he said, ‘Your fan…’
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            Мадам, - сказал он, - "Ваш веер...".
+            Мадам, - сказал он, - &quot;Ваш веер...&quot;.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Madame", dit-il, "Votre éventail...
+            Madame&quot;, dit-il, &quot;Votre éventail...
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             ‘Señora’, dijo, ‘su abanico…’
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
-            Senhora, ele disse, "seu leque..."
+            Senhora, ele disse, &quot;seu leque...&quot;
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i lu doi nolnau do'u ei pei zu'e mi za'u re'u farlu li'u i mi cisma
+            i lu doi nolnau do&#039;u ei pei zu&#039;e mi za&#039;u re&#039;u
+            farlu li&#039;u i mi cisma
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - ‘Sir’, I said, ‘must I drop it again?’ - And I smiled.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            - "Сэр", - сказала я, - "мне уронить его снова?". - И я улыбнулась.
+            - &quot;Сэр&quot;, - сказала я, - &quot;мне уронить его
+            снова?&quot;. - И я улыбнулась.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Monsieur", ai-je dit, "dois-je encore le laisser tomber ? - Et
-            j'ai souri.
+            - Monsieur&quot;, ai-je dit, &quot;dois-je encore le laisser tomber
+            ? - Et j&#039;ai souri.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - ‘Señor’, dije, ‘¿debo dejarlo caer de nuevo?’ - Y sonreí.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
-            - "Senhor", eu disse, "devo deixá-lo cair novamente?" - E sorri.
+            - &quot;Senhor&quot;, eu disse, &quot;devo deixá-lo cair
+            novamente?&quot; - E sorri.
           </td>
         </tr>
         <tr
@@ -481,8 +526,9 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ze'u nicte fau lo nu savru i ri'a tu'a lei prenu mi'a simxu le ka
-            ta'e co'a sepli gi'e ku'i di'a kansa
+            i ze&#039;u nicte fau lo nu savru i ri&#039;a tu&#039;a lei prenu
+            mi&#039;a simxu le ka ta&#039;e co&#039;a sepli gi&#039;e ku&#039;i
+            di&#039;a kansa
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The night was long and clamorous, the huge crowd constantly
@@ -509,9 +555,9 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ca le midju be le nicte mi'a klama vi le noltrunau i je ri na
-            zukte le ka klama fa'a mi'a i le noltrunau na zukte fi lo nu ri
-            birti vau tai lo da'i nu ri lacri mi le ro co'e
+            i ca le midju be le nicte mi&#039;a klama vi le noltrunau i je ri na
+            zukte le ka klama fa&#039;a mi&#039;a i le noltrunau na zukte fi lo
+            nu ri birti vau tai lo da&#039;i nu ri lacri mi le ro co&#039;e
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - When in the late hours we passed by His Majesty, the ruler did not
@@ -525,9 +571,9 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             - Lorsque, vers la fin de la nuit, nous sommes passés devant Sa
-            Majesté, le souverain n'a même pas pris la peine de regarder dans
-            notre direction. - Il ne s'est pas assuré, comme s'il savait qu'il
-            pouvait me faire entièrement confiance.
+            Majesté, le souverain n&#039;a même pas pris la peine de regarder
+            dans notre direction. - Il ne s&#039;est pas assuré, comme s&#039;il
+            savait qu&#039;il pouvait me faire entièrement confiance.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Cuando en las últimas horas pasamos junto a Su Majestad, el
@@ -545,7 +591,7 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i baziku mi'a co'a simxu le ka sepli
+            i baziku mi&#039;a co&#039;a simxu le ka sepli
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Not long afterwards we parted.
@@ -568,8 +614,8 @@ meta.priority: 10543
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             i mi klama le bartu fau lo nu mi djuno no da le zdani be mi a le
-            ckaji be le ka mi klama fi ce'u a le jai se kanpe be fai le ka mi
-            catlu ce'u i je mi djuno le du'u na vajni
+            ckaji be le ka mi klama fi ce&#039;u a le jai se kanpe be fai le ka
+            mi catlu ce&#039;u i je mi djuno le du&#039;u na vajni
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I went out, not having the least idea of where I lived, whence I had
@@ -582,9 +628,9 @@ meta.priority: 10543
             эти вещи не дают мне покоя.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je sortis, sans avoir la moindre idée de l'endroit où je vivais,
-            d'où j'étais arrivé, où je tournerais mes yeux, je savais seulement
-            que ces choses ne dépendaient pas de moi.
+            Je sortis, sans avoir la moindre idée de l&#039;endroit où je
+            vivais, d&#039;où j&#039;étais arrivé, où je tournerais mes yeux, je
+            savais seulement que ces choses ne dépendaient pas de moi.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             Salí, sin tener la menor idea de dónde vivía, de dónde había
@@ -601,8 +647,9 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i su'o da pu cpedu fi le carce seva'u mi i le nenri cu kunti i le
-            manku pe le nenri se gusni no na'i da i sa'e kunti
+            i su&#039;o da pu cpedu fi le carce seva&#039;u mi i le nenri cu
+            kunti i le manku pe le nenri se gusni no na&#039;i da i sa&#039;e
+            kunti
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - Someone called my carriage. - The body of the carriage was empty.
@@ -614,9 +661,9 @@ meta.priority: 10543
             салона не была отсутствием света, это была пустота.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Quelqu'un appela ma voiture. - Le corps de la voiture était vide.
-            - L'obscurité de l'intérieur n'était pas une absence de lumière,
-            c'était un vide.
+            - Quelqu&#039;un appela ma voiture. - Le corps de la voiture était
+            vide. - L&#039;obscurité de l&#039;intérieur n&#039;était pas une
+            absence de lumière, c&#039;était un vide.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Alguien llamó a mi carruaje. - El interior del carruaje estaba
@@ -633,9 +680,9 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi zukte le ka di'a morji fi mi i mi lifri le ka pu co'a cikna vi
-            le vorme be fi le ve'u kumfa i ku'i mi ka'e morji fi le ba'e purci
-            be le nu me ka bu
+            i mi zukte le ka di&#039;a morji fi mi i mi lifri le ka pu co&#039;a
+            cikna vi le vorme be fi le ve&#039;u kumfa i ku&#039;i mi ka&#039;e
+            morji fi le ba&#039;e purci be le nu me ka bu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - I turned to myself. - I recollected waking at the door of the
@@ -646,9 +693,9 @@ meta.priority: 10543
             дворцового зала, и всё же смогла дотянуться до прошлого.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Je me suis tourné vers moi-même. - Je me suis souvenu m'être
-            réveillé à la porte de la salle du palais, et j'ai pu revenir en
-            arrière.
+            - Je me suis tourné vers moi-même. - Je me suis souvenu m&#039;être
+            réveillé à la porte de la salle du palais, et j&#039;ai pu revenir
+            en arrière.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Me volví hacia mí misma. - Recordé despertar en la puerta del
@@ -663,8 +710,8 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ie purci i bu'u ma mi voi nolprenu to nolprenu xu toi pu la'e di'u
-            i ma krasi mi
+            i ie purci i bu&#039;u ma mi voi nolprenu to nolprenu xu toi pu
+            la&#039;e di&#039;u i ma krasi mi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - Before that – yes, exactly. - Where was I – was it!? – before
@@ -676,7 +723,7 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             - Avant cela - oui, exactement. - Où étais-je - était-ce ! - avant
-            cela ? - D'où venais-je ?
+            cela ? - D&#039;où venais-je ?
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Antes de eso, sí, exactamente. - ¿Dónde estaba yo, estaba ahí!? -
@@ -691,7 +738,7 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i so'i danfu cu denpa pe'a i au da'i pa da go'i
+            i so&#039;i danfu cu denpa pe&#039;a i au da&#039;i pa da go&#039;i
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             A chorus of answers, ready, waiting; if only there had been a single
@@ -718,8 +765,8 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i la .du,enas. zo'u clani dinju gi'e cripu gi'e krixa ca le nicte
-            gi'e ciblu
+            i la .du,enas. zo&#039;u clani dinju gi&#039;e cripu gi&#039;e krixa
+            ca le nicte gi&#039;e ciblu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The Duenna: a tower, a drawbridge, shouts in the night, blood.
@@ -741,8 +788,8 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ku'i la .angelitas. zo'u blabi bitmu gi'e sudga palma gi'e cilce
-            gerku
+            i ku&#039;i la .angelitas. zo&#039;u blabi bitmu gi&#039;e sudga
+            palma gi&#039;e cilce gerku
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             But as Angelita: white walls, withered palms, wild dogs.
@@ -751,8 +798,8 @@ meta.priority: 10543
             Но как Анхелита: белые стены, засохшие пальмы, дикие собаки.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Mais en tant qu'Angelita : des murs blancs, des palmiers flétris,
-            des chiens sauvages.
+            Mais en tant qu&#039;Angelita : des murs blancs, des palmiers
+            flétris, des chiens sauvages.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             Pero como Angelita: paredes blancas, palmas marchitas, perros
@@ -767,9 +814,9 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ku'i le cimoi be le le'i nu mi renvi kei zo'u purdi fi le jai te
-            jensi i je valsi le ckaji be le ka nau na ku jai se jimpe be mi gi'e
-            ju'o pu ja'a ku jai se jimpe
+            i ku&#039;i le cimoi be le le&#039;i nu mi renvi kei zo&#039;u purdi
+            fi le jai te jensi i je valsi le ckaji be le ka nau na ku jai se
+            jimpe be mi gi&#039;e ju&#039;o pu ja&#039;a ku jai se jimpe
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - But then my third existence: trimmed gardens, gardeners with
@@ -784,7 +831,8 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             - Et puis ma troisième existence : des jardins taillés, des
             jardiniers avec des tondeuses. - Et ces mots ; je ne savais pas
-            maintenant ce qu'ils signifiaient, mais je l'ai sûrement su un jour.
+            maintenant ce qu&#039;ils signifiaient, mais je l&#039;ai sûrement
+            su un jour.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Pero luego mi tercera existencia: jardines cuidados, jardineros
@@ -801,9 +849,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ku'i la'e do'i na cumki sei mi smusku be fi mi i le fatci na ka'e
-            natfe le fatci i ga mi pu bilma gi mi ca ca'o bilma i le ci citri pu
-            ca'o se lifri mi i mi ka'e cuxna tu'a pa le go'i ije ku'i mi ca'o
+            i ku&#039;i la&#039;e do&#039;i na cumki sei mi smusku be fi mi i le
+            fatci na ka&#039;e natfe le fatci i ga mi pu bilma gi mi ca
+            ca&#039;o bilma i le ci citri pu ca&#039;o se lifri mi i mi
+            ka&#039;e cuxna tu&#039;a pa le go&#039;i ije ku&#039;i mi ca&#039;o
             senpi fi le te cuxna i ma du mi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
@@ -822,10 +871,10 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             - Mais une telle chose était impossible, me disais-je. - La vérité
-            ne peut pas se contredire. - Ou bien j'avais été fou, me disais-je,
-            ou bien je l'étais encore. - Ces généalogies tournaient en moi,
-            chacune pouvait prendre corps, mais je restais irrésolu entre ces
-            possibilités. - Qui suis-je ?
+            ne peut pas se contredire. - Ou bien j&#039;avais été fou, me
+            disais-je, ou bien je l&#039;étais encore. - Ces généalogies
+            tournaient en moi, chacune pouvait prendre corps, mais je restais
+            irrésolu entre ces possibilités. - Qui suis-je ?
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Pero tal cosa era imposible, me decía a mí mismo. - La verdad no
@@ -846,10 +895,11 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i uo mi de'a lanli le fenra poi du mi gi'e na du mi i di'a lifri le
-            pa fatci i pa da fasnu ije da du tu'a le noltrunau joi le vanci
-            dansycu'u joi le nanmu i tirse pe'a dimna i no prenu ka'e ku fapro
-            gi'a rivbi gi'a fanta gi'a cliva
+            i uo mi de&#039;a lanli le fenra poi du mi gi&#039;e na du mi i
+            di&#039;a lifri le pa fatci i pa da fasnu ije da du tu&#039;a le
+            noltrunau joi le vanci dansycu&#039;u joi le nanmu i tirse pe&#039;a
+            dimna i no prenu ka&#039;e ku fapro gi&#039;a rivbi gi&#039;a fanta
+            gi&#039;a cliva
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - So I retreated from the abyss that was myself and not myself. -
@@ -865,11 +915,11 @@ meta.priority: 10543
             уже нельзя было отказаться, уклониться, уйти, сбежать.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Alors je me suis retiré de l'abîme qu'était moi-même et non
-            moi-même. - Et maintenant, je reviens à ce qui était un, seulement
-            un. - Le roi, le bal, la cour et cet homme. - La présence de fer du
-            destin. - On ne pouvait plus refuser, se dérober, se retirer,
-            s'échapper.
+            - Alors je me suis retiré de l&#039;abîme qu&#039;était moi-même et
+            non moi-même. - Et maintenant, je reviens à ce qui était un,
+            seulement un. - Le roi, le bal, la cour et cet homme. - La présence
+            de fer du destin. - On ne pouvait plus refuser, se dérober, se
+            retirer, s&#039;échapper.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Así que me alejé del abismo que era yo y no era yo. - Y ahora
@@ -888,11 +938,12 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i xu fasnu tai lo sarcu i da'i va'o lo nu mi se ponse le noltrunau
-            vau ta'i ma mi djuno le se nundumu be nu bu i va'o lo da'i nu le
-            noltrunau cu jai rinka le co'e vau ki'u ma mi pu ku audji le ka
-            krorinsa ra kei gi'e ku'i ca le krasi na ku zukte ka bu i pei le
-            platu e le nu zukte cu se cfila
+            i xu fasnu tai lo sarcu i da&#039;i va&#039;o lo nu mi se ponse le
+            noltrunau vau ta&#039;i ma mi djuno le se nundumu be nu bu i
+            va&#039;o lo da&#039;i nu le noltrunau cu jai rinka le co&#039;e vau
+            ki&#039;u ma mi pu ku audji le ka krorinsa ra kei gi&#039;e
+            ku&#039;i ca le krasi na ku zukte ka bu i pei le platu e le nu zukte
+            cu se cfila
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - Had everything truly happened in the way it was supposed to? - If
@@ -909,11 +960,12 @@ meta.priority: 10543
             замысле и исполнении?
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Tout s'était-il vraiment passé comme prévu ? - Si j'étais la
-            propriété du roi, comment pouvais-je le savoir ? - S'il était à
-            l'origine de tout, pourquoi avais-je voulu lui rendre hommage, mais
-            ne l'avais-je pas fait au début ? - Se pourrait-il qu'il y ait un
-            défaut dans la conception et l'exécution ?
+            - Tout s&#039;était-il vraiment passé comme prévu ? - Si
+            j&#039;étais la propriété du roi, comment pouvais-je le savoir ? -
+            S&#039;il était à l&#039;origine de tout, pourquoi avais-je voulu
+            lui rendre hommage, mais ne l&#039;avais-je pas fait au début ? - Se
+            pourrait-il qu&#039;il y ait un défaut dans la conception et
+            l&#039;exécution ?
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - ¿Todo había sucedido realmente de la manera en que se suponía? -
@@ -934,16 +986,17 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi plipe gi'e katna le kicne ije le sudga je rufsu cu se sance le
-            savru vi le denci be mi i mi sputu le cilta i le dinko be mi co'a
-            spofu i la'e di'u tadji tu'a mi a ju'o cu'i le bradi i i'a nai i'a
-            nai i'a nai
+            i mi plipe gi&#039;e katna le kicne ije le sudga je rufsu cu se
+            sance le savru vi le denci be mi i mi sputu le cilta i le dinko be
+            mi co&#039;a spofu i la&#039;e di&#039;u tadji tu&#039;a mi a
+            ju&#039;o cu&#039;i le bradi i i&#039;a nai i&#039;a nai i&#039;a
+            nai
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - I jumped up, I tore the padding, dry, coarse material crackled in
             my teeth. - I spat out threads, my fingernails were snapping, good,
-            that was it, that was the way, I didn't know whether against myself
-            or someone else, but no, no, no, no, no, no.
+            that was it, that was the way, I didn&#039;t know whether against
+            myself or someone else, but no, no, no, no, no, no.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             - Я вскочила, разорвала подкладку, сухой, грубый материал хрустел на
@@ -952,11 +1005,11 @@ meta.priority: 10543
             нет, нет, нет, нет, нет.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Je me suis levé d'un bond, j'ai déchiré le rembourrage, la matière
-            sèche et grossière a craqué sous mes dents. - Je crachais des fils,
-            mes ongles claquaient, bien, c'était ça, c'était le moyen, je ne
-            savais pas si c'était contre moi ou contre quelqu'un d'autre, mais
-            non, non, non, non, non, non.
+            - Je me suis levé d&#039;un bond, j&#039;ai déchiré le rembourrage,
+            la matière sèche et grossière a craqué sous mes dents. - Je crachais
+            des fils, mes ongles claquaient, bien, c&#039;était ça, c&#039;était
+            le moyen, je ne savais pas si c&#039;était contre moi ou contre
+            quelqu&#039;un d&#039;autre, mais non, non, non, non, non, non.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Me levanté de un salto, rasgué el acolchado, un material seco y
@@ -975,8 +1028,8 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi viska le gusni i mi pu'i se tunta i mutce be le ka ruble cortu
-            i tunta gi'e ba bo kunti i kunti
+            i mi viska le gusni i mi pu&#039;i se tunta i mutce be le ka ruble
+            cortu i tunta gi&#039;e ba bo kunti i kunti
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - I saw a light. - I was pricked. - A tiny, barely noticeable pain,
@@ -987,8 +1040,9 @@ meta.priority: 10543
             укол, а потом ничего. - Ничего.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - J'ai vu une lumière. - J'ai été piqué. - Une douleur minuscule, à
-            peine perceptible, une piqûre et puis plus rien. - Rien.
+            - J&#039;ai vu une lumière. - J&#039;ai été piqué. - Une douleur
+            minuscule, à peine perceptible, une piqûre et puis plus rien. -
+            Rien.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Vi una luz. - Me pinché. - Un dolor diminuto, apenas perceptible,
@@ -1003,11 +1057,12 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i bu'u le purdi cu ctino le dilnu i je panka le nobli i mi'a re mei
-            i na'e banli gi'e no'e zabna fadni gi'e cinpa'i gi'e na pacna i iu
-            carmi prami gi'e milxe gi'e ku'i ue fadni gi'e uo rinka lo nu mi
-            desku gi'e zenba le ka ma kau se slilu le risna be mi i je ku'i
-            cmalu gi'e na bancu gi'e tamsmi
+            i bu&#039;u le purdi cu ctino le dilnu i je panka le nobli i
+            mi&#039;a re mei i na&#039;e banli gi&#039;e no&#039;e zabna fadni
+            gi&#039;e cinpa&#039;i gi&#039;e na pacna i iu carmi prami gi&#039;e
+            milxe gi&#039;e ku&#039;i ue fadni gi&#039;e uo rinka lo nu mi desku
+            gi&#039;e zenba le ka ma kau se slilu le risna be mi i je ku&#039;i
+            cmalu gi&#039;e na bancu gi&#039;e tamsmi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - The garden was overcast. - The royal park and the two of us. -
@@ -1025,10 +1080,10 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             - Le jardin était couvert. - Le parc royal et nous deux. - Un amour
-            bon marché, ordinaire, romantique, rempli de désespoir. - Oh c'était
-            un amour passionné, tendre et tout à fait ordinaire. - Très grand,
-            il m'a fait trembler, il a accéléré mon pouls. - Et très petit,
-            étant limité en moi, soumis au style.
+            bon marché, ordinaire, romantique, rempli de désespoir. - Oh
+            c&#039;était un amour passionné, tendre et tout à fait ordinaire. -
+            Très grand, il m&#039;a fait trembler, il a accéléré mon pouls. - Et
+            très petit, étant limité en moi, soumis au style.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - El jardín estaba nublado. - El parque real y los dos de nosotros.
@@ -1049,10 +1104,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ze'a le djedi be li re le ka prami cu ca'o cuntu tai lo drani i mi
-            pu audji le ka dunda fi ra fe tu'a le xadni be mi ku e le kernelo be
-            mi tai lo tre'endi va'o lo tcaci tai lo nu mi nobli tarti i mi pu
-            zifre bai le se zukte be le nolraitru
+            i ze&#039;a le djedi be li re le ka prami cu ca&#039;o cuntu tai lo
+            drani i mi pu audji le ka dunda fi ra fe tu&#039;a le xadni be mi ku
+            e le kernelo be mi tai lo tre&#039;endi va&#039;o lo tcaci tai lo nu
+            mi nobli tarti i mi pu zifre bai le se zukte be le nolraitru
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - In two days the love affair had progressed in due form. - I wanted
@@ -1066,10 +1121,10 @@ meta.priority: 10543
             двора. - Я была свободна в пределах королевской воли.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - En deux jours, l'histoire d'amour avait progressé en bonne et due
-            forme. - Je voulais me donner à lui corps et âme, à la manière de la
-            mode, selon la coutume, l'étiquette de la cour. - J'étais en liberté
-            dans les limites de la volonté royale.
+            - En deux jours, l&#039;histoire d&#039;amour avait progressé en
+            bonne et due forme. - Je voulais me donner à lui corps et âme, à la
+            manière de la mode, selon la coutume, l&#039;étiquette de la cour. -
+            J&#039;étais en liberté dans les limites de la volonté royale.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - En dos días el romance había progresado de acuerdo a la forma
@@ -1088,10 +1143,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ca le vanci be le ci moi mi facki fi le sevzi be mi i mi de'a
-            dasni le taxfu ne'a le ve'u minra gi'e lunbe sanli tai lo da'i nu mi
-            ve'a rokci i ne'i le glare je ranti senta be fi le betfu su'o da noi
-            mi ganse cu jdari
+            i ca le vanci be le ci moi mi facki fi le sevzi be mi i mi de&#039;a
+            dasni le taxfu ne&#039;a le ve&#039;u minra gi&#039;e lunbe sanli
+            tai lo da&#039;i nu mi ve&#039;a rokci i ne&#039;i le glare je ranti
+            senta be fi le betfu su&#039;o da noi mi ganse cu jdari
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - On the evening of the third day I finally set about discovering
@@ -1106,10 +1161,11 @@ meta.priority: 10543
             неподдающееся.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Le soir du troisième jour, j'ai enfin entrepris de découvrir qui
-            j'étais. - Je me suis déshabillée devant la vitre de la jetée et je
-            suis restée nue comme une statue. - Sous la couche extérieure chaude
-            et douce du ventre, j'ai rencontré une résistance, dure, inflexible.
+            - Le soir du troisième jour, j&#039;ai enfin entrepris de découvrir
+            qui j&#039;étais. - Je me suis déshabillée devant la vitre de la
+            jetée et je suis restée nue comme une statue. - Sous la couche
+            extérieure chaude et douce du ventre, j&#039;ai rencontré une
+            résistance, dure, inflexible.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - En la noche del tercer día finalmente comencé a descubrir quién
@@ -1128,13 +1184,14 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi co'a jgari le jai rai cmalu dakfu i mi katna le pagbu be le
-            xadni bei koi le dizlo be le betfu fi le'i re da fau lo nu gau mi
-            trati fa le denci gi'e ganlo fa le kanla vau ji'e lo nu mi stali i
-            le'i senta tai lo nu lu'a ri blabi skapi cu co'a simxu le ka sepli i
-            je fo mi te minra fe mi voi skari le'e rijno kei gi'e simsa le'e
-            tarbi poi ve'u se canlu i ti na du su'o fange a su'o drata i ti za'u
-            re'u du mi i ii sai catlu le nei tai
+            i mi co&#039;a jgari le jai rai cmalu dakfu i mi katna le pagbu be
+            le xadni bei koi le dizlo be le betfu fi le&#039;i re da fau lo nu
+            gau mi trati fa le denci gi&#039;e ganlo fa le kanla vau ji&#039;e
+            lo nu mi stali i le&#039;i senta tai lo nu lu&#039;a ri blabi skapi
+            cu co&#039;a simxu le ka sepli i je fo mi te minra fe mi voi skari
+            le&#039;e rijno kei gi&#039;e simsa le&#039;e tarbi poi ve&#039;u se
+            canlu i ti na du su&#039;o fange a su&#039;o drata i ti za&#039;u
+            re&#039;u du mi i ii sai catlu le nei tai
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - I picked up the smallest Lancet. - I cut the body in half
@@ -1153,13 +1210,14 @@ meta.priority: 10543
             смотреть на себя такой!
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - J'ai pris la plus petite lancette. - J'ai coupé le corps en deux
-            pratiquement jusqu'à l'aine, violemment, en serrant les dents et en
-            fermant les yeux aussi fort que possible. - Les couches se sont
-            séparées, comme du cuir blanc, et dans le miroir, j'ai vu une forme
-            argentée, nichée, comme celle d'un énorme fœtus. - Ce n'était pas
-            elle, une chose étrangère, une autre différente, c'était encore moi.
-            Quelle horreur, quelle terreur de se regarder ainsi !
+            - J&#039;ai pris la plus petite lancette. - J&#039;ai coupé le corps
+            en deux pratiquement jusqu&#039;à l&#039;aine, violemment, en
+            serrant les dents et en fermant les yeux aussi fort que possible. -
+            Les couches se sont séparées, comme du cuir blanc, et dans le
+            miroir, j&#039;ai vu une forme argentée, nichée, comme celle
+            d&#039;un énorme fœtus. - Ce n&#039;était pas elle, une chose
+            étrangère, une autre différente, c&#039;était encore moi. Quelle
+            horreur, quelle terreur de se regarder ainsi !
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Tomé el Lancet más pequeño. - Corté el cuerpo por la mitad
@@ -1182,9 +1240,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ra smaji pagre gi'e tai mo'u klama le nenri i fau bo ra jgari to
-            tai tu'a lo nu ciksi gi'a bandu toi le ve'u bakfu be le xunre rozgu
-            i ra ganse gi'e na jundi gi'e nu'o jimpe i na ka'e jimpe
+            i ra smaji pagre gi&#039;e tai mo&#039;u klama le nenri i fau bo ra
+            jgari to tai tu&#039;a lo nu ciksi gi&#039;a bandu toi le ve&#039;u
+            bakfu be le xunre rozgu i ra ganse gi&#039;e na jundi gi&#039;e
+            nu&#039;o jimpe i na ka&#039;e jimpe
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - He sneaked in, entered thus, holding out before him – as if in his
@@ -1197,11 +1256,11 @@ meta.priority: 10543
             ещё не понимал, не мог понять.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Ce n'était pas elle, une chose étrangère, une autre différente,
-            c'était encore moi. Quelle horreur, quelle terreur de se regarder
-            ainsi ! - Il se faufila, entra ainsi, tendant devant lui - comme
-            pour se justifier et se défendre - un immense bouclier de roses
-            rouges.
+            - Ce n&#039;était pas elle, une chose étrangère, une autre
+            différente, c&#039;était encore moi. Quelle horreur, quelle terreur
+            de se regarder ainsi ! - Il se faufila, entra ainsi, tendant devant
+            lui - comme pour se justifier et se défendre - un immense bouclier
+            de roses rouges.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Se coló, entró así, sosteniendo delante de él, como si fuera su
@@ -1218,7 +1277,7 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i flira ra i smaji inmo li ii ca le nu vofli i co'u prami
+            i flira ra i smaji inmo li ii ca le nu vofli i co&#039;u prami
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - His face, his silent scream in flight. - Love died.
@@ -1227,8 +1286,8 @@ meta.priority: 10543
             - Его лицо, его безмолвный крик в полете. - Любовь умерла.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Il a vu, mais n'a pas remarqué, n'a pas encore compris, ne pouvait
-            pas. - Son visage, son cri silencieux en fuite.
+            - Il a vu, mais n&#039;a pas remarqué, n&#039;a pas encore compris,
+            ne pouvait pas. - Son visage, son cri silencieux en fuite.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Su rostro, su grito silencioso en pleno vuelo. - El amor murió.
@@ -1241,10 +1300,11 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi catlu mi poi se minra i du mi to'i sa'a mi smaji cusku fi mi
-            toi i ca'o du mi i ca bo le vrici lisri be mi co'u se lifri mi i mi
-            co'a jimpe i le ka vimcu le canti cu se zukte fi le se kanpe be le
-            finti be le cartu i kanpe lo nu mi pante gi'e ba bo co'u fanta
+            i mi catlu mi poi se minra i du mi to&#039;i sa&#039;a mi smaji
+            cusku fi mi toi i ca&#039;o du mi i ca bo le vrici lisri be mi
+            co&#039;u se lifri mi i mi co&#039;a jimpe i le ka vimcu le canti cu
+            se zukte fi le se kanpe be le finti be le cartu i kanpe lo nu mi
+            pante gi&#039;e ba bo co&#039;u fanta
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - I looked at myself in the glass. - This was I, I told myself
@@ -1263,13 +1323,13 @@ meta.priority: 10543
             полной покорностью.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - L'amour est mort. - Je me suis regardée dans le verre. - C'était
-            moi, me suis-je dit sans mot dire, moi. Toujours moi. - Et en même
-            temps, le passé multiple s'est émoussé et s'est éteint en moi. -
-            J'ai commencé à comprendre. - L'acte d'auto-éviscération
-            représentait une partie prévue du plan, conçu précisément pour une
-            telle éventualité, afin que ma rébellion se révèle, à la fin, être
-            ma soumission totale.
+            - L&#039;amour est mort. - Je me suis regardée dans le verre. -
+            C&#039;était moi, me suis-je dit sans mot dire, moi. Toujours moi. -
+            Et en même temps, le passé multiple s&#039;est émoussé et s&#039;est
+            éteint en moi. - J&#039;ai commencé à comprendre. - L&#039;acte
+            d&#039;auto-éviscération représentait une partie prévue du plan,
+            conçu précisément pour une telle éventualité, afin que ma rébellion
+            se révèle, à la fin, être ma soumission totale.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Me miré en el espejo. - Este era yo, me dije sin palabras, yo. Aún
@@ -1293,7 +1353,7 @@ meta.priority: 10543
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             i mi bajra klama le manku purdi e le derxi i mi kakne lo ka zi jersi
-            ra fau lo nu ra se cfipu gi'e badri i ku'i mi na zukte
+            ra fau lo nu ra se cfipu gi&#039;e badri i ku&#039;i mi na zukte
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - I ran out into a garden dark and dump. - I could have gone
@@ -1306,9 +1366,9 @@ meta.priority: 10543
             отчаянии, но я не стала этого делать.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - J'ai couru dans un jardin sombre et vide. - J'aurais pu le
-            poursuivre et l'écraser dans sa confusion et son désespoir, mais je
-            ne l'ai pas fait.
+            - J&#039;ai couru dans un jardin sombre et vide. - J&#039;aurais pu
+            le poursuivre et l&#039;écraser dans sa confusion et son désespoir,
+            mais je ne l&#039;ai pas fait.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Salí corriendo a un jardín oscuro y húmedo. - Podría haberlo
@@ -1325,10 +1385,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi lanli le jai se kakne be mi i fau lo nu mi ca'o pensi tai le
-            jai purci kei mi tarti le ka sazri le cnino xadni be mi ku noi se
-            finti fo le te gusni jinme fi le ckaji le ka ei ju'a mi co'a zukte
-            fi ce'u
+            i mi lanli le jai se kakne be mi i fau lo nu mi ca&#039;o pensi tai
+            le jai purci kei mi tarti le ka sazri le cnino xadni be mi ku noi se
+            finti fo le te gusni jinme fi le ckaji le ka ei ju&#039;a mi
+            co&#039;a zukte fi ce&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - What occupied me now was the extraordinary subtlety of distinction
@@ -1343,11 +1403,12 @@ meta.priority: 10543
             блестящий металл записал в нем движения, которые я начала исполнять.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Ce qui m'occupait maintenant, c'était l'extraordinaire subtilité
-            de la distinction que je possédais. - Toujours capable de penser
-            avec mon habileté et ma facilité d'antan, je cédais en même temps à
-            ce nouveau corps, dont le métal brillant avait inscrit des
-            mouvements que je commençais à exécuter.
+            - Ce qui m&#039;occupait maintenant, c&#039;était
+            l&#039;extraordinaire subtilité de la distinction que je possédais.
+            - Toujours capable de penser avec mon habileté et ma facilité
+            d&#039;antan, je cédais en même temps à ce nouveau corps, dont le
+            métal brillant avait inscrit des mouvements que je commençais à
+            exécuter.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Lo que me ocupaba ahora era la extraordinaria sutileza de
@@ -1369,9 +1430,10 @@ meta.priority: 10543
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             i le zunle fepri be mi cu lenku i le pritu fepri be mi cu glare i le
-            se selci je nenri kanla be mi i mi ganse le panci be le ba'o se
-            prami ja'e le nu mi ka'e jersi ri i mi re roi carna gi'e bajra fa'a
-            le crane ce'e fau le nu mi ganse le panci .i ei klama fo le mi pluta
+            se selci je nenri kanla be mi i mi ganse le panci be le ba&#039;o se
+            prami ja&#039;e le nu mi ka&#039;e jersi ri i mi re roi carna
+            gi&#039;e bajra fa&#039;a le crane ce&#039;e fau le nu mi ganse le
+            panci .i ei klama fo le mi pluta
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - My cold left lung; right lung, hot. - My faceted internal eye. - I
@@ -1389,10 +1451,11 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             - Mon poumon gauche froid, le poumon droit chaud. - Mon œil interne
-            à facettes. - J'ai pris l'odeur de mon non-conjoint, non-amant, pour
-            pouvoir suivre sa trace. - J'ai tourné en rond une fois, deux fois,
-            puis j'ai filé droit devant, ayant capté l'odeur et ainsi trouvé le
-            bon cap, qui serait le mien désormais jusqu'à la fin.
+            à facettes. - J&#039;ai pris l&#039;odeur de mon non-conjoint,
+            non-amant, pour pouvoir suivre sa trace. - J&#039;ai tourné en rond
+            une fois, deux fois, puis j&#039;ai filé droit devant, ayant capté
+            l&#039;odeur et ainsi trouvé le bon cap, qui serait le mien
+            désormais jusqu&#039;à la fin.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Mi pulmón izquierdo frío; pulmón derecho, caliente. - Mi ojo
@@ -1413,8 +1476,8 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi ca'a bajra ca le nu carvi e le nu glare ce'e pa'o le foldi e le
-            fenra e le bakfu be lo spati
+            i mi ca&#039;a bajra ca le nu carvi e le nu glare ce&#039;e
+            pa&#039;o le foldi e le fenra e le bakfu be lo spati
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I run through rains and scorching suns, fields, ravines and
@@ -1424,8 +1487,8 @@ meta.priority: 10543
             Я бежала сквозь дожди и палящее солнце, поля, овраги и заросли.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            J'ai couru à travers les pluies et les soleils brûlants, les champs,
-            les ravins et les fourrés.
+            J&#039;ai couru à travers les pluies et les soleils brûlants, les
+            champs, les ravins et les fourrés.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             Corro a través de lluvias y soles abrasadores, campos, barrancos y
@@ -1439,8 +1502,8 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi na'o na ku sipna i se ki'u bo ca le'e nicte mi bajra si'a pa'o
-            le so'i ve'i tcadu
+            i mi na&#039;o na ku sipna i se ki&#039;u bo ca le&#039;e nicte mi
+            bajra si&#039;a pa&#039;o le so&#039;i ve&#039;i tcadu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I did not require sleep, thus in the night too I ran through
@@ -1451,8 +1514,8 @@ meta.priority: 10543
             поселки, маленькие города.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je n'avais pas besoin de dormir, alors la nuit aussi, je courais à
-            travers les villages, les bourgs, les petites villes.
+            Je n&#039;avais pas besoin de dormir, alors la nuit aussi, je
+            courais à travers les villages, les bourgs, les petites villes.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             No necesitaba dormir, así que también corría por las noches, a
@@ -1467,10 +1530,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi culno le panci be ra tai lo nu ri jai se nupre i mi ta'e no'e
-            sanji ri'a lo nu mi na jimpe le du'u mi jersi ma kau kei gi'e djuno
-            no drata be lo nu mi zukte fi lo nu mi ca'o bajra ja'e lo nu le
-            fulta pulce ca'o se ganse mi
+            i mi culno le panci be ra tai lo nu ri jai se nupre i mi ta&#039;e
+            no&#039;e sanji ri&#039;a lo nu mi na jimpe le du&#039;u mi jersi ma
+            kau kei gi&#039;e djuno no drata be lo nu mi zukte fi lo nu mi
+            ca&#039;o bajra ja&#039;e lo nu le fulta pulce ca&#039;o se ganse mi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - His odor filled me with completely, like a promise. - My mind,
@@ -1487,9 +1550,9 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             - Son odeur me remplissait complètement, comme une promesse. - Mon
             esprit, surtout pendant les courses nocturnes, se repliait sur
-            lui-même jusqu'à ce que je ne sache plus qui je suivais, je savais
-            seulement que ma volonté était de me précipiter, afin que ce pauvre
-            de mottes aériennes me désigne.
+            lui-même jusqu&#039;à ce que je ne sache plus qui je suivais, je
+            savais seulement que ma volonté était de me précipiter, afin que ce
+            pauvre de mottes aériennes me désigne.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Su olor me llenó por completo, como una promesa. - Mi mente,
@@ -1510,9 +1573,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ku'i co'i cabdei lo nu mi co'u ganse le panci ge le mi dizlo gi le
-            mi galtu i je mi cinmo lo ka se funca lo mabla gi'e ckaji le ka no
-            da prali fi tu'a ce'u noi ti'e prane
+            i ku&#039;i co&#039;i cabdei lo nu mi co&#039;u ganse le panci ge le
+            mi dizlo gi le mi galtu i je mi cinmo lo ka se funca lo mabla
+            gi&#039;e ckaji le ka no da prali fi tu&#039;a ce&#039;u noi
+            ti&#039;e prane
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             But the day came when my lower sense of smell went idle, in vain too
@@ -1526,8 +1590,9 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Mais le jour vint où mon odorat inférieur tomba en panne, où je
-            cherchai en vain l'odeur avec mon odorat supérieur, et où j'éprouvai
-            un sentiment de malheur, d'inutilité de toute ma perfection.
+            cherchai en vain l&#039;odeur avec mon odorat supérieur, et où
+            j&#039;éprouvai un sentiment de malheur, d&#039;inutilité de toute
+            ma perfection.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             Pero llegó el día en que mi sentido del olfato inferior quedó
@@ -1546,10 +1611,11 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi co'a ku zvati le rotsu korbi be lei canre gi'e sanli ca lo nu
-            mi desku i le tuple remei poi pamoi cu pencu le dargu noi se cpana
-            lei bogjinme i je le tuple re mei poi re moi cu pu'o to'o cadzu fa'a
-            le za'u bitmu le noi carmi blabi vau ve'i barda zdani be le se lijda
+            i mi co&#039;a ku zvati le rotsu korbi be lei canre gi&#039;e sanli
+            ca lo nu mi desku i le tuple remei poi pamoi cu pencu le dargu noi
+            se cpana lei bogjinme i je le tuple re mei poi re moi cu pu&#039;o
+            to&#039;o cadzu fa&#039;a le za&#039;u bitmu le noi carmi blabi vau
+            ve&#039;i barda zdani be le se lijda
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - I found the crossroads where the sand had gradually disappeared,
@@ -1564,11 +1630,12 @@ meta.priority: 10543
             стены небольшого монастыря.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - J'ai trouvé le carrefour où le sable avait peu à peu disparu, et
-            je me suis mis à trembler. - Une paire de jambes me tirait à
-            l'aveuglette sur la route couverte de poussière de chaux, tandis que
-            l'autre paire me tirait dans la direction opposée, où les murs d'un
-            petit monastère brillaient d'un éclat blanc.
+            - J&#039;ai trouvé le carrefour où le sable avait peu à peu disparu,
+            et je me suis mis à trembler. - Une paire de jambes me tirait à
+            l&#039;aveuglette sur la route couverte de poussière de chaux,
+            tandis que l&#039;autre paire me tirait dans la direction opposée,
+            où les murs d&#039;un petit monastère brillaient d&#039;un éclat
+            blanc.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Encontré el cruce donde la arena había desaparecido gradualmente y
@@ -1589,9 +1656,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ca lo nu mi lanli mi vau mi cpare fi le vorme be fo le zdani be'o
-            noi ne'a ke'a le pa se ljida cu sanli i mi cpedu fi sondu bu fe lo
-            nu ri lanli le pa tcila be mi be'o poi mi se nandu lo ka jitro ke'a
+            i ca lo nu mi lanli mi vau mi cpare fi le vorme be fo le zdani
+            be&#039;o noi ne&#039;a ke&#039;a le pa se ljida cu sanli i mi cpedu
+            fi sondu bu fe lo nu ri lanli le pa tcila be mi be&#039;o poi mi se
+            nandu lo ka jitro ke&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - Studying myself, I crawled heavily towards the monastery gate,
@@ -1606,10 +1674,10 @@ meta.priority: 10543
             самостоятельно.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - En m'étudiant, j'ai rampé lourdement vers la porte du monastère,
-            sous laquelle se tenait un moine. - Je lui ai demandé s'il me
-            permettait de lui confesser une certaine affaire que j'avais du mal
-            à régler seul.
+            - En m&#039;étudiant, j&#039;ai rampé lourdement vers la porte du
+            monastère, sous laquelle se tenait un moine. - Je lui ai demandé
+            s&#039;il me permettait de lui confesser une certaine affaire que
+            j&#039;avais du mal à régler seul.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Estudiándome a mí misma, me arrastré pesadamente hacia la puerta
@@ -1628,21 +1696,22 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi skicu fi sondu bu fe la'e di'e i mi pu du le pa citno ninmu poi
-            gau le nolraitru cu se dimna tu'a le pa nanmu noi mi penmi fi le
-            dansycu'u i je ba bo mi co'a prami ra i je mi co'u prami ca le nicte
-            be ca le nu tunta i je bo mi co'a sanji le du'u mi se va'u ra mo kau
-            la'a i je ca lo nu mi kanpe no drata vau gau mi le dakfu mi katna i
-            je ku'i se ba'i lo nu morsi vau mi cenba i je mi co'a jersi be ra ke
+            i mi skicu fi sondu bu fe la&#039;e di&#039;e i mi pu du le pa citno
+            ninmu poi gau le nolraitru cu se dimna tu&#039;a le pa nanmu noi mi
+            penmi fi le dansycu&#039;u i je ba bo mi co&#039;a prami ra i je mi
+            co&#039;u prami ca le nicte be ca le nu tunta i je bo mi co&#039;a
+            sanji le du&#039;u mi se va&#039;u ra mo kau la&#039;a i je ca lo nu
+            mi kanpe no drata vau gau mi le dakfu mi katna i je ku&#039;i se
+            ba&#039;i lo nu morsi vau mi cenba i je mi co&#039;a jersi be ra ke
             mabla crida
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I told him that first, I had been a young woman destined by the
-            King's will for with a man whom I met at the court bowl, and that I
-            had loved him till from the puncture in the night I realized what I
-            might be for him, and seeing no other salvation I had stabbed myself
-            with a knife, but instead of death and metamorphosis befell me, and
-            I became to him a persecuting Fury.
+            King&#039;s will for with a man whom I met at the court bowl, and
+            that I had loved him till from the puncture in the night I realized
+            what I might be for him, and seeing no other salvation I had stabbed
+            myself with a knife, but instead of death and metamorphosis befell
+            me, and I became to him a persecuting Fury.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Я рассказала ему, что сначала я была молодой женщиной,
@@ -1653,13 +1722,14 @@ meta.priority: 10543
             и я стала для него преследующей фурией.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Je lui racontai que j'avais d'abord été une jeune femme destinée par
-            la volonté du roi à un homme que j'avais rencontré au bol de la
-            cour, et que je l'avais aimé jusqu'à ce que, par une piqûre dans la
-            nuit, je me rende compte de ce que je pouvais être pour lui, et que,
-            ne voyant pas d'autre salut, je m'étais poignardée avec un couteau,
-            mais qu'au lieu de la mort, une métamorphose s'était produite, et
-            que j'étais devenue pour lui une Furie persécutrice.
+            Je lui racontai que j&#039;avais d&#039;abord été une jeune femme
+            destinée par la volonté du roi à un homme que j&#039;avais rencontré
+            au bol de la cour, et que je l&#039;avais aimé jusqu&#039;à ce que,
+            par une piqûre dans la nuit, je me rende compte de ce que je pouvais
+            être pour lui, et que, ne voyant pas d&#039;autre salut, je
+            m&#039;étais poignardée avec un couteau, mais qu&#039;au lieu de la
+            mort, une métamorphose s&#039;était produite, et que j&#039;étais
+            devenue pour lui une Furie persécutrice.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             Le dije que primero fui una joven destinada por voluntad del Rey a
@@ -1681,11 +1751,12 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ku'i le nu jersi cu djedi li du'e i ja'e bo mi zenba lo ka djica
-            lo nu gau mi ra morsi i ki'u bo mi co'u ka'e prami ra i mi djica lo
-            nu mi co'u jersi gi'e co'u gasnu lo nu lei cecmu cu kanpe lo nu
-            morsi ri'a tu'a mi i ie mi djica lo nu co'u palci i je ku'i mi na
-            djuno fi le tadji
+            i ku&#039;i le nu jersi cu djedi li du&#039;e i ja&#039;e bo mi
+            zenba lo ka djica lo nu gau mi ra morsi i ki&#039;u bo mi co&#039;u
+            ka&#039;e prami ra i mi djica lo nu mi co&#039;u jersi gi&#039;e
+            co&#039;u gasnu lo nu lei cecmu cu kanpe lo nu morsi ri&#039;a
+            tu&#039;a mi i ie mi djica lo nu co&#039;u palci i je ku&#039;i mi
+            na djuno fi le tadji
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - However the chase had lasted, and lasted so long, that a liking
@@ -1703,12 +1774,12 @@ meta.priority: 10543
             смертельный страх, да, я желаю исправить зло, но не знаю как.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Cependant, la poursuite avait duré, et duré si longtemps, qu'une
-            attirance pour cet homme était née en moi, car je voyais que je
-            voulais désespérément le tuer, parce que je ne pouvais plus l'aimer.
-            - C'est pourquoi je souhaitais maintenant cesser la poursuite et
-            cesser de susciter autour de moi une peur mortelle, oui, je
-            souhaitais remédier au mal, mais je ne savais pas comment.
+            - Cependant, la poursuite avait duré, et duré si longtemps,
+            qu&#039;une attirance pour cet homme était née en moi, car je voyais
+            que je voulais désespérément le tuer, parce que je ne pouvais plus
+            l&#039;aimer. - C&#039;est pourquoi je souhaitais maintenant cesser
+            la poursuite et cesser de susciter autour de moi une peur mortelle,
+            oui, je souhaitais remédier au mal, mais je ne savais pas comment.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Sin embargo, la persecución había durado tanto tiempo, que comencé
@@ -1731,8 +1802,8 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i sondu bu retsku lu ga nai do zvafa'i ra gi do zukte ma i xu do
-            djuno le du'u va'o ku do zukte ma kau li'u
+            i sondu bu retsku lu ga nai do zvafa&#039;i ra gi do zukte ma i xu
+            do djuno le du&#039;u va&#039;o ku do zukte ma kau li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - He said: And what if you should find the one you seek? - Do you
@@ -1743,7 +1814,7 @@ meta.priority: 10543
             ты, что ты тогда сделаешь?
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Il me dit : "Et si tu trouvais celle que tu aimes ? Et si tu
+            - Il me dit : &quot;Et si tu trouvais celle que tu aimes ? Et si tu
             trouvais celui que tu cherches ? - Sais-tu ce que tu feras alors ?
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
@@ -1759,9 +1830,9 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi spusku lu doi patfu mi djuno no drata be le du'u mi na djica lo
-            nu zukte le ka jai gau morsi i ku'i mi na kanpe lo nu mi na jai gau
-            morsi li'u
+            i mi spusku lu doi patfu mi djuno no drata be le du&#039;u mi na
+            djica lo nu zukte le ka jai gau morsi i ku&#039;i mi na kanpe lo nu
+            mi na jai gau morsi li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I replied: Father, I only know what I do not wish to do, but I
@@ -1772,9 +1843,9 @@ meta.priority: 10543
             сказать, что я не создана для совершения убийства.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            J'ai répondu : "Père, je ne sais que ce que je fais : Père, je sais
-            seulement ce que je ne veux pas faire, mais je ne peux pas dire
-            qu'on ne me ferait pas assassiner.
+            J&#039;ai répondu : &quot;Père, je ne sais que ce que je fais :
+            Père, je sais seulement ce que je ne veux pas faire, mais je ne peux
+            pas dire qu&#039;on ne me ferait pas assassiner.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             Respondí: Padre, solo sé lo que no deseo hacer, pero no puedo decir
@@ -1789,10 +1860,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i sondu bu zenba lo ka pensi kei gi'e ba bo cusku lu i ga nai sei do
-            pu zi skicu be fi mi do se nandu le ka bradi le bapli doi le minji
-            gi ga nai do co'u bilga le ka jai gau morsi gi sei do xusra do cinmo
-            le ka mulno gi'e mo sa'e li'u
+            i sondu bu zenba lo ka pensi kei gi&#039;e ba bo cusku lu i ga nai
+            sei do pu zi skicu be fi mi do se nandu le ka bradi le bapli doi le
+            minji gi ga nai do co&#039;u bilga le ka jai gau morsi gi sei do
+            xusra do cinmo le ka mulno gi&#039;e mo sa&#039;e li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - He grew thoughtful , and said: If, as you indeed tell me, you
@@ -1809,11 +1880,11 @@ meta.priority: 10543
             это для тебя?
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Il devint pensif et dit Si, comme tu me l'as dit, tu luttes contre
-            cette contrainte, ô machine, et que tu déclares en outre que tu te
-            sentirais délivré si on t'enlevait la volonté de tuer, dis-moi alors
-            comment se sent cette volonté ? - Comment cela se passe-t-il avec
-            vous ?
+            - Il devint pensif et dit Si, comme tu me l&#039;as dit, tu luttes
+            contre cette contrainte, ô machine, et que tu déclares en outre que
+            tu te sentirais délivré si on t&#039;enlevait la volonté de tuer,
+            dis-moi alors comment se sent cette volonté ? - Comment cela se
+            passe-t-il avec vous ?
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Él se puso pensativo y dijo: Si, como me dices, luchas contra esta
@@ -1832,10 +1903,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi spusku lu doi patfu le ka kalte gi'e facki fi lo'e prina gi'e
-            sivni zgana gi'e denpa gi'e smaji muvdu gi'e vimcu lo'e prina be fi
-            mi gi'e carna muvdu cu se certu be mi i le ka zukte le simsa cu
-            mansa mi li'u
+            i mi spusku lu doi patfu le ka kalte gi&#039;e facki fi lo&#039;e
+            prina gi&#039;e sivni zgana gi&#039;e denpa gi&#039;e smaji muvdu
+            gi&#039;e vimcu lo&#039;e prina be fi mi gi&#039;e carna muvdu cu se
+            certu be mi i le ka zukte le simsa cu mansa mi li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I replied: Father, maybe it is not well with me, but concerning how
@@ -1853,13 +1924,13 @@ meta.priority: 10543
             мастерством приносит мне удовлетворение.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            J'ai répondu : Père, peut-être que je ne suis pas bien, mais en ce
-            qui concerne la façon de chasser, de traquer, de détecter, de
-            débusquer, de guetter, d'épier, de se faufiler et de se tapir, de
-            couvrir les traces, de revenir sur ses pas, de revenir sur ses pas
-            et de tourner en rond, je suis extrêmement bien informé sur tout
-            cela et le fait d'effectuer de telles opérations avec une habileté
-            sans faille me donne de la satisfaction.
+            J&#039;ai répondu : Père, peut-être que je ne suis pas bien, mais en
+            ce qui concerne la façon de chasser, de traquer, de détecter, de
+            débusquer, de guetter, d&#039;épier, de se faufiler et de se tapir,
+            de couvrir les traces, de revenir sur ses pas, de revenir sur ses
+            pas et de tourner en rond, je suis extrêmement bien informé sur tout
+            cela et le fait d&#039;effectuer de telles opérations avec une
+            habileté sans faille me donne de la satisfaction.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             Respondí: Padre, tal vez no estoy bien, pero en cuanto a cazar,
@@ -1881,8 +1952,9 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i lu mi za'u re'u retsku fi do to'i sa'a sondu bu cusku toi i sei ko
-            skicu do ba cinmo ma ca lo nu do zgana ra li'u
+            i lu mi za&#039;u re&#039;u retsku fi do to&#039;i sa&#039;a sondu
+            bu cusku toi i sei ko skicu do ba cinmo ma ca lo nu do zgana ra
+            li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             ‘I ask you once again’, he said, ‘tell me, what will you do when you
@@ -1909,9 +1981,9 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i lu ke'u doi patfu mi na djuno i to'eki'unai lo nu mi na djica le
-            xlali be ra vau le proga voi se ciska fi mi kei ka'e za'u rau va'e
-            vlipa li'u
+            i lu ke&#039;u doi patfu mi na djuno i to&#039;eki&#039;unai lo nu
+            mi na djica le xlali be ra vau le proga voi se ciska fi mi kei
+            ka&#039;e za&#039;u rau va&#039;e vlipa li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             ‘Father, I tell you once again that I do not know, for though I wish
@@ -1925,7 +1997,7 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Père, je te répète que je ne sais pas, car même si je ne lui
-            souhaite aucun mal, ce qui est écrit en moi peut s'avérer plus
+            souhaite aucun mal, ce qui est écrit en moi peut s&#039;avérer plus
             puissant que ce que je souhaite.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
@@ -1943,11 +2015,12 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i le sondu cu spusku lu do mensi mi i la'e di'u se smuni le nu mi na
-            cinmo le ka zmadu do le ka vajni gi'a na vajni i le du'u do na djuno
-            vau noi do stace mi zi'e noi mi jinvi le du'u ke'a fatci cu nibli le
-            du'u mi do dunli ca'i le cevni i ja'o e'u kansa mi i je mi jai gau
-            zgana fai do li'u
+            i le sondu cu spusku lu do mensi mi i la&#039;e di&#039;u se smuni
+            le nu mi na cinmo le ka zmadu do le ka vajni gi&#039;a na vajni i le
+            du&#039;u do na djuno vau noi do stace mi zi&#039;e noi mi jinvi le
+            du&#039;u ke&#039;a fatci cu nibli le du&#039;u mi do dunli
+            ca&#039;i le cevni i ja&#039;o e&#039;u kansa mi i je mi jai gau
+            zgana fai do li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - He said: ‘You are my sister. - And it means I neither raise myself
@@ -1957,17 +2030,18 @@ meta.priority: 10543
             you something’.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            - Он сказал: "Ты - моя сестра. - И это значит, что я не возвышаюсь
-            над тобой и не смиряюсь перед тобой". - Твое неведение, в котором ты
-            призналась мне и в которое я верю, делает нас равными перед лицом
-            Провидения. - Поэтому пойдем со мной, и я тебе кое-что покажу".
+            - Он сказал: &quot;Ты - моя сестра. - И это значит, что я не
+            возвышаюсь над тобой и не смиряюсь перед тобой&quot;. - Твое
+            неведение, в котором ты призналась мне и в которое я верю, делает
+            нас равными перед лицом Провидения. - Поэтому пойдем со мной, и я
+            тебе кое-что покажу&quot;.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Il a dit : "Tu es ma sœur. - Et cela signifie que je ne m'élève
-            pas au-dessus de toi et que je ne m'abaisse pas devant toi. - Votre
-            ignorance, que vous m'avez avouée et que je crois, fait de nous des
-            égaux devant la Providence. - Cela étant, viens avec moi et je vais
-            te montrer quelque chose".
+            - Il a dit : &quot;Tu es ma sœur. - Et cela signifie que je ne
+            m&#039;élève pas au-dessus de toi et que je ne m&#039;abaisse pas
+            devant toi. - Votre ignorance, que vous m&#039;avez avouée et que je
+            crois, fait de nous des égaux devant la Providence. - Cela étant,
+            viens avec moi et je vais te montrer quelque chose&quot;.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Él dijo: ‘Eres mi hermana. - Y eso significa que no me elevo por
@@ -1986,9 +2060,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi'a mo'u klama le pa mudri marbi i le fepri be mi co'a te panci
-            le ru'i se jersi be mi fi le carmi i ja'e bo le tunta balre be mi
-            co'a ku muvdu gi'e punli le betfu
+            i mi&#039;a mo&#039;u klama le pa mudri marbi i le fepri be mi
+            co&#039;a te panci le ru&#039;i se jersi be mi fi le carmi i
+            ja&#039;e bo le tunta balre be mi co&#039;a ku muvdu gi&#039;e punli
+            le betfu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - We went to an old woodshed. - A smell entered my lungs through my
@@ -2004,9 +2079,9 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             - Nous sommes allés dans un vieux hangar à bois. - Une odeur pénétra
-            dans mes poumons par les narines, une odeur que j'avais poursuivie
-            sans cesse, et si forte ici, que je sentis mon dard s'agiter de
-            lui-même et sortir de sa gaine ventrale.
+            dans mes poumons par les narines, une odeur que j&#039;avais
+            poursuivie sans cesse, et si forte ici, que je sentis mon dard
+            s&#039;agiter de lui-même et sortir de sa gaine ventrale.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Fuimos a un viejo cobertizo de madera. - Un olor entró en mis
@@ -2025,9 +2100,9 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i le sondu cu cusku lu je'u i ra pu zvati ti i ra pu sivni xabju le
-            mi'a dinju i je ku'i la'u le djedi be li re le re co'u pendo cu
-            bevri ra fo ti
+            i le sondu cu cusku lu je&#039;u i ra pu zvati ti i ra pu sivni
+            xabju le mi&#039;a dinju i je ku&#039;i la&#039;u le djedi be li re
+            le re co&#039;u pendo cu bevri ra fo ti
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - The monk said: Yes, he was here. - He hid in our monastery, but
@@ -2038,8 +2113,8 @@ meta.priority: 10543
             но пять дней назад два предателя выкрали его.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Le moine dit : Oui, il était ici. - Il s'est caché dans notre
-            monastère, mais deux traîtres l'ont emporté il y a cinq jours.
+            - Le moine dit : Oui, il était ici. - Il s&#039;est caché dans notre
+            monastère, mais deux traîtres l&#039;ont emporté il y a cinq jours.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - El monje dijo: Sí, estuvo aquí. - Se escondió en nuestro
@@ -2054,9 +2129,9 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi bajra klama le bartu fo lu'i le xadba kalri vorme gi'e traji
-            sutra bajra fa'a le cmana voi jai se skicu sondu bu gi'e ga'a jbini
-            le tankoi
+            i mi bajra klama le bartu fo lu&#039;i le xadba kalri vorme
+            gi&#039;e traji sutra bajra fa&#039;a le cmana voi jai se skicu
+            sondu bu gi&#039;e ga&#039;a jbini le tankoi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I ran out through the half-open gate and, according to the monk’s
@@ -2070,7 +2145,7 @@ meta.priority: 10543
           <td class="text-left align-text-top p-2 column-class-fraso">
             Je suis sorti en courant par la porte entrouverte et, selon les
             indications du moine, je me suis dirigé à toute vitesse vers les
-            montagnes visibles à l'horizon.
+            montagnes visibles à l&#039;horizon.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             Salí corriendo por la puerta medio abierta y, siguiendo las
@@ -2087,9 +2162,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            mi cpare le cmana fau le nu mi se gidva le klina panci be bu'u le
-            milxe glare sefta be le rokci i mi bajra ca le nu ruble pencu le
-            rokci i je mi zgana je curmi le nu le ne'i nu slilu cu co'a carmi
+            mi cpare le cmana fau le nu mi se gidva le klina panci be bu&#039;u
+            le milxe glare sefta be le rokci i mi bajra ca le nu ruble pencu le
+            rokci i je mi zgana je curmi le nu le ne&#039;i nu slilu cu
+            co&#039;a carmi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - I climbed, following the clear spoor, the odor on the warm surface
@@ -2104,10 +2180,11 @@ meta.priority: 10543
             великолепной погоне.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - J'ai grimpé en suivant l'odeur claire, l'odeur sur la surface
-            chaude de la pierre. - J'ai couru vers le haut en touchant à peine
-            la roche et j'ai senti mon pouls se renforcer à l'intérieur, je l'ai
-            senti jouer et chanter dans une poursuite magnifique.
+            - J&#039;ai grimpé en suivant l&#039;odeur claire, l&#039;odeur sur
+            la surface chaude de la pierre. - J&#039;ai couru vers le haut en
+            touchant à peine la roche et j&#039;ai senti mon pouls se renforcer
+            à l&#039;intérieur, je l&#039;ai senti jouer et chanter dans une
+            poursuite magnifique.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Subí, siguiendo el rastro claro, el olor en la cálida superficie
@@ -2127,8 +2204,8 @@ meta.priority: 10543
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             le dizlo be le fenra noi se gacri le snime cu se stuzi le dinju noi
-            ge nai jai bandu gi nai ze'u zdani i mi co'a jimpe le du'u du le
-            marbi
+            ge nai jai bandu gi nai ze&#039;u zdani i mi co&#039;a jimpe le
+            du&#039;u du le marbi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             At the bottom of the gorge, which was white with snow, stood a
@@ -2141,8 +2218,8 @@ meta.priority: 10543
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Au fond de la gorge, blanche de neige, se dressait un bâtiment, pas
-            une maison, pas un château, et j'ai compris qu'il devait s'agir de
-            la retraite.
+            une maison, pas un château, et j&#039;ai compris qu&#039;il devait
+            s&#039;agir de la retraite.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             En el fondo del barranco, que estaba blanco de nieve, se encontraba
@@ -2159,8 +2236,8 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ne'i smaji i mi zukte le ka ganse fi tu'a le nicte kanla be mi i
-            je gau mi le stedu cu nenri le rokci kumfa
+            i ne&#039;i smaji i mi zukte le ka ganse fi tu&#039;a le nicte kanla
+            be mi i je gau mi le stedu cu nenri le rokci kumfa
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - Inside silence reigned. - To see better, I activated my night
@@ -2173,9 +2250,10 @@ meta.priority: 10543
             глаза-антенны.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - A l'intérieur, le silence régnait. - Pour mieux voir, j'ai activé
-            ma vision nocturne et, en mettant la tête dans la chambre de pierre,
-            j'ai ouvert les yeux lumineux de mes antennes.
+            - A l&#039;intérieur, le silence régnait. - Pour mieux voir,
+            j&#039;ai activé ma vision nocturne et, en mettant la tête dans la
+            chambre de pierre, j&#039;ai ouvert les yeux lumineux de mes
+            antennes.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - En su interior reinaba el silencio. - Para ver mejor, activé mi
@@ -2192,8 +2270,9 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi tirna le suksa je tordu savru e ba bo le na'e klina voksa vu'o
-            noi dizlo i ba ku sance le nu su'o tilju co'i farlu i ba ku smaji
+            i mi tirna le suksa je tordu savru e ba bo le na&#039;e klina voksa
+            vu&#039;o noi dizlo i ba ku sance le nu su&#039;o tilju co&#039;i
+            farlu i ba ku smaji
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             A sudden, short noise, followed by a babbling voice, reached me from
@@ -2206,9 +2285,9 @@ meta.priority: 10543
             тяжелого предмета, затем тишина.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Un bruit bref et soudain, suivi d'un bredouillement, me parvint d'en
-            bas - un autre son, un bruit sourd et creux, comme celui d'un objet
-            lourd qui tombe, puis le silence.
+            Un bruit bref et soudain, suivi d&#039;un bredouillement, me parvint
+            d&#039;en bas - un autre son, un bruit sourd et creux, comme celui
+            d&#039;un objet lourd qui tombe, puis le silence.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             Un ruido repentino y corto, seguido de una voz balbuceante, me llegó
@@ -2225,9 +2304,9 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i mi viska le xadni noi cnita le jubme i le prenu cu fange mi i ja'o
-            ri pu damba i le nu mi e ri e no drata cu zvati le kunti dinju cu
-            manci mi
+            i mi viska le xadni noi cnita le jubme i le prenu cu fange mi i
+            ja&#039;o ri pu damba i le nu mi e ri e no drata cu zvati le kunti
+            dinju cu manci mi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - I saw beneath the table a body. - This man was a stranger to me,
@@ -2242,10 +2321,10 @@ meta.priority: 10543
             поразил меня как удар грома.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Je vis sous la table un corps. - Cet homme m'était étranger, il y
-            avait donc eu lutte. - Le fait que je sois seul avec lui, et lui
-            vivant, dans cette maison vide, que nous ne soyons plus que tous les
-            deux, m'a frappé comme un coup de tonnerre.
+            - Je vis sous la table un corps. - Cet homme m&#039;était étranger,
+            il y avait donc eu lutte. - Le fait que je sois seul avec lui, et
+            lui vivant, dans cette maison vide, que nous ne soyons plus que tous
+            les deux, m&#039;a frappé comme un coup de tonnerre.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Vi debajo de la mesa un cuerpo. - Este hombre me era desconocido,
@@ -2274,8 +2353,8 @@ meta.priority: 10543
             Через порог была винтовая лестница, а на ней, на спине, он.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            De l'autre côté du seuil, il y avait des escaliers en colimaçon et
-            sur ces escaliers, sur le dos, lui.
+            De l&#039;autre côté du seuil, il y avait des escaliers en colimaçon
+            et sur ces escaliers, sur le dos, lui.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             A través del umbral había una escalera sinuosa y en ella, boca
@@ -2290,10 +2369,10 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ra savru vasxu i mi zgana le nu ra troci tu'a le kalri kanla i mi
-            noi le betfu be ke'a cu se kruvi cu catlu le noi cnita vau flira be
-            ra i mi na darsi le ka pencu ra gi'a cliva ra i ki'u bo ca le nu ra
-            jmive vau mi na birti tu'a mi
+            i ra savru vasxu i mi zgana le nu ra troci tu&#039;a le kalri kanla
+            i mi noi le betfu be ke&#039;a cu se kruvi cu catlu le noi cnita vau
+            flira be ra i mi na darsi le ka pencu ra gi&#039;a cliva ra i
+            ki&#039;u bo ca le nu ra jmive vau mi na birti tu&#039;a mi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             He gave a rattle, I watched as he tried to lift his lids, and I,
@@ -2308,10 +2387,11 @@ meta.priority: 10543
             уверена в себе.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            Il a poussé un râle, je l'ai regardé essayer de soulever ses
-            paupières, et moi, ragaillardie, l'abdomen plié, j'ai contemplé son
-            visage retourné, n'osant ni le toucher ni reculer, car tant qu'il
-            vivrait, je ne pourrais pas être sûre de moi.
+            Il a poussé un râle, je l&#039;ai regardé essayer de soulever ses
+            paupières, et moi, ragaillardie, l&#039;abdomen plié, j&#039;ai
+            contemplé son visage retourné, n&#039;osant ni le toucher ni
+            reculer, car tant qu&#039;il vivrait, je ne pourrais pas être sûre
+            de moi.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             Hizo un ruido, observé cómo intentaba levantar los párpados y yo,
@@ -2330,11 +2410,13 @@ meta.priority: 10543
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ku'i ra nu'o ku cikna gi'a jai gau kalri fai le kanla i ca le
-            cerni murse be fi mi'a ra za'u re'u cmoni gi'e co'u vasxu i ba'e ca
-            bo le menli be mi co'a surla .i je mi co'a vreta ne'a ra gi'e birjai
-            ra i mi vreta ze'a le djedi be li re ca le snime vilti'a poi ri'a
-            ke'a le ckana co'a se gacri le snime poi na runme
+            i ku&#039;i ra nu&#039;o ku cikna gi&#039;a jai gau kalri fai le
+            kanla i ca le cerni murse be fi mi&#039;a ra za&#039;u re&#039;u
+            cmoni gi&#039;e co&#039;u vasxu i ba&#039;e ca bo le menli be mi
+            co&#039;a surla .i je mi co&#039;a vreta ne&#039;a ra gi&#039;e
+            birjai ra i mi vreta ze&#039;a le djedi be li re ca le snime
+            vilti&#039;a poi ri&#039;a ke&#039;a le ckana co&#039;a se gacri le
+            snime poi na runme
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             - But he did not open his eyes in consciousness. - When dawn entered
@@ -2352,11 +2434,12 @@ meta.priority: 10543
             буря, накрывшая нашу постель простыней, которая не таяла.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
-            - Mais il n'ouvrit pas les yeux en pleine conscience. - Ce n'est
-            qu'à ce moment-là, l'esprit en paix, que je m'allongeai près de lui
-            et l'enveloppai étroitement dans mes bras. Je restai ainsi dans la
-            lumière et dans l'obscurité pendant deux jours de tempête de neige,
-            qui recouvrit notre lit d'un drap qui ne fondait pas.
+            - Mais il n&#039;ouvrit pas les yeux en pleine conscience. - Ce
+            n&#039;est qu&#039;à ce moment-là, l&#039;esprit en paix, que je
+            m&#039;allongeai près de lui et l&#039;enveloppai étroitement dans
+            mes bras. Je restai ainsi dans la lumière et dans l&#039;obscurité
+            pendant deux jours de tempête de neige, qui recouvrit notre lit
+            d&#039;un drap qui ne fondait pas.
           </td>
           <td class="text-left align-text-top p-2 column-class-spano">
             - Pero él no abrió los ojos conscientemente. - Cuando el amanecer se
