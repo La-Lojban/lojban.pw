@@ -7,23 +7,23 @@ Ang **Lojban** ay isang wikang lohikal na sinasalita na nilikha noong 1987 na ng
 
 Ang website na ito ay naglalaman ng mga di-opisyal na libreng pagtuturo at dokumentasyon sa wika ng Lojban.
 
-## [Kurso sa ‘Pag-aaral ng Lojban’](/en/books/learn-lojban)
+## [Kurso sa ‘Pag-aaral ng Lojban’](/tl/books/learn-lojban)
 
-<pixra redirect="/en/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="Kurso sa ‘Pag-aaral ng Lojban’"></pixra>
+<pixra redirect="/tl/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="Kurso sa ‘Pag-aaral ng Lojban’"></pixra>
 
 Ang kursong ito ay nagtuturo ng Lojban mula sa mga pormal na batayan, ngunit sa simpleng paraan at marami rin itong halimbawang ginamit.
 
-* [PDF](/vreji/uencu/en/learn-lojban.pdf) - sa isang PDF file para sa pag-download.
+* [PDF](/vreji/uencu/tl/learn-lojban.pdf) - sa isang PDF file para sa pag-download.
 
-## [Aktibong pakikipag-usap ng Lojban](/en/articles/live_chat)
+## [Aktibong pakikipag-usap ng Lojban](/tl/articles/live_chat)
 
-<pixra redirect="/en/articles/live_chat" url="/assets/pixra/ralju/jduli.svg" caption="Live Lojban chat"></pixra>
+<pixra redirect="/tl/articles/live_chat" url="/assets/pixra/ralju/jduli.svg" caption="Live Lojban chat"></pixra>
 
 sa Discord, Telegram messengers.
 
 ## Di-opisyal na Aklat na ‘Complete Lojban Language’, Edisyon ng Oktubre 2022
 
-<pixra redirect="/en/articles/complete-lojban-language" url="/assets/pixra/ralju/cll2.webp" caption="The Complete Lojban Language"></pixra>
+<pixra redirect="/tl/articles/complete-lojban-language" url="/assets/pixra/ralju/cll2.webp" caption="The Complete Lojban Language"></pixra>
 
 Ang aklat na ito ay sumusunod sa orihinal na aklat na inilathala noong 1997 at:
 
@@ -37,11 +37,11 @@ Ito ay maaaring makuha sa mga sumusunod na format:
 * [HTML sa mga seksyon](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/) - sa mga HTML file
 <!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.epub) - bilang isang aklat na EPUB -->
 
-[Karagdagang impormasyon...](/en/articles/complete-lojban-language)
+[Karagdagang impormasyon...](/tl/articles/complete-lojban-language)
 
 ## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - di-opisyal na talahuluganan
 
-Tuklasin ang [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), isang talahuluganan para sa Lojban na naglalaman ng:
+Tuklasin ang [La Sutysisku](https://la-lojban.github.io/sutysisku/tl/#seskari=cnano&sisku=coi_munje), isang talahuluganan para sa Lojban na naglalaman ng:
 
 * De facto na mga kahulugan ng mga salita
 * Mga eksperimental na kahulugan at halimbawa ng paggamit
