@@ -3,6 +3,18 @@ import { Items } from "../lib/api";
 import { TPost } from "../types/post";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
+import { useRouter } from "next/router";
+
+import langJson from "../config/locales.json";
+const languages = langJson.languages;
+const langDict = Object.keys(languages).sort().reduce(
+  (acc: any, language: string) => ({
+    ...acc,
+    [(languages as any)[language].short]: (languages as any)[language].native,
+  }),
+  {}
+);
+
 export default function LanguageBar({
   posts = [],
   post,
@@ -12,7 +24,13 @@ export default function LanguageBar({
   post?: TPost;
   siteSection?: string;
 }) {
+  const router = useRouter();
   const hasPdf = post && post.slug[1] === siteSection;
+  const handleLanguageChange = (event: any) => {
+    const language = event.target.value;
+    router.push(`/${language}`);
+  };
+
   return (
     <>
       {posts.length > 0 && (
@@ -26,7 +44,27 @@ export default function LanguageBar({
               <FontAwesomeIcon className="w-6" icon={faFilePdf} />
             </a>
           )}
-          {posts.map((post, index) => {
+          <div className="relative w-full lg:max-w-sm">
+            <select
+              className={`w-full h-10 inline-block py-2 px-3 bg-white border border-t-0 border-gray-300 hover:border-gray-400${!hasPdf ? "" : " ml-1"} rounded-b-md shadow-md text-gray-500 outline-none appearance-none focus:border-indigo-600`}
+              onChange={handleLanguageChange}
+            >
+              <option selected>
+                {langDict[post?.slug[0] ?? router.asPath.split("/")[1] ?? "en"]}
+              </option>
+              {posts.map((post) => {
+                return (
+                  <option
+                    key={`bangu-${post.language}`}
+                    value={post.fullPath as string}
+                  >
+                    {langDict[post.language as any]}
+                  </option>
+                );
+              })}
+            </select>
+          </div>
+          {/* {posts.map((post, index) => {
             return (
               <a
                 key={`bangu-${post.language}`}
@@ -36,7 +74,7 @@ export default function LanguageBar({
                 {post.language}
               </a>
             );
-          })}
+          })} */}
         </div>
       )}
     </>
