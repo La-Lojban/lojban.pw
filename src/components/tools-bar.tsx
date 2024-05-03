@@ -3,19 +3,19 @@ import { Items } from "../lib/api";
 import { TPost } from "../types/post";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
-import langJson from "../config/locales.json";
-const languages = langJson.languages;
-const langDict = Object.keys(languages).sort().reduce(
-  (acc: any, language: string) => ({
-    ...acc,
-    [(languages as any)[language].short]: (languages as any)[language].native,
-  }),
-  {}
-);
+// import langJson from "../config/locales.json";
+// const languages = langJson.languages;
+// const langDict = Object.keys(languages).sort().reduce(
+//   (acc: any, language: string) => ({
+//     ...acc,
+//     [(languages as any)[language].short]: (languages as any)[language].native,
+//   }),
+//   {}
+// );
 
-export default function LanguageBar({
+export default function ToolsBar({
   posts = [],
   post,
   siteSection,
@@ -24,17 +24,17 @@ export default function LanguageBar({
   post?: TPost;
   siteSection?: string;
 }) {
-  const router = useRouter();
+  // const router = useRouter();
   const hasPdf = post && post.slug[1] === siteSection;
-  const handleLanguageChange = (event: any) => {
-    const language = event.target.value;
-    router.push(`/${language}`);
-  };
+  // const handleLanguageChange = (event: any) => {
+  //   const language = event.target.value;
+  //   router.push(`/${language}`);
+  // };
 
   return (
     <>
       {posts.length > 0 && (
-        <div className="flex-row relative block max-w-sm h-10 mx-auto mb-2 flex justify-around print:hidden">
+        <div className="flex-row relative block max-w-sm h-10 mx-auto mb-2 flex justify-start print:hidden">
           {hasPdf && (
             <a
               key={`bangu-pdf`}
@@ -44,7 +44,7 @@ export default function LanguageBar({
               <FontAwesomeIcon className="w-6" icon={faFilePdf} />
             </a>
           )}
-          <div className="relative w-full lg:max-w-sm">
+          {/* <div className="relative w-full lg:max-w-sm">
             <select
               className={`h-10 inline-block py-2 px-3 bg-white border border-t-0 border-gray-300 hover:border-gray-400${!hasPdf ? "" : " ml-3"} rounded-b-md shadow-md text-gray-500 outline-none appearance-none`}
               onChange={handleLanguageChange}
@@ -63,7 +63,7 @@ export default function LanguageBar({
                 );
               })}
             </select>
-          </div>
+          </div> */}
           {/* {posts.map((post, index) => {
             return (
               <a

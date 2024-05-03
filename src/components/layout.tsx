@@ -10,7 +10,7 @@ import { Items } from "../lib/api";
 import { useRouter } from "next/router";
 import PostTitle from "./post-title";
 import { TPost } from "../types/post";
-import LanguageBar from "./language-bar";
+import ToolsBar from "./tools-bar";
 
 type Props = {
   children: React.ReactNode;
@@ -75,10 +75,12 @@ const Layout = ({
           path={router.asPath.replace(/#.*/, "")}
           allPosts={allPosts}
           currentLanguage={currentLanguage}
+          posts={posts}
+          post={post} 
         />
         <article ref={articleRef} className="flex-grow overflow-y-auto">
           {posts && (
-            <LanguageBar posts={posts} post={post} siteSection={siteSection} />
+            <ToolsBar posts={posts} post={post} siteSection={siteSection} />
           )}
           {children}
         </article>
