@@ -9,6 +9,20 @@ import { getClosestHeaderId } from "../lib/toc";
 import { Items } from "../lib/api";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faList, faScroll } from "@fortawesome/free-solid-svg-icons";
+import { useRouter } from "next/router";
+
+import langJson from "../config/locales.json";
+import { TPost } from "../types/post";
+const languages = langJson.languages;
+const langDict = Object.keys(languages)
+  .sort()
+  .reduce(
+    (acc: any, language: string) => ({
+      ...acc,
+      [(languages as any)[language].short]: (languages as any)[language].native,
+    }),
+    {}
+  );
 
 type TocItem = {
   name: string;
@@ -23,11 +37,15 @@ export default function Header({
   path = "",
   allPosts = [],
   currentLanguage = "en",
+  posts = [],
+  post,
 }: {
   toc?: TocElem[];
   path?: string;
   allPosts?: Items[];
   currentLanguage?: string;
+  posts?: Items[];
+  post?: TPost;
 }) {
   const listToC: TocItem[] = toc.map((tocElem) => ({
     depth: parseInt(tocElem.depth),
@@ -58,6 +76,13 @@ export default function Header({
     return { ...item, foundTitle };
   });
 
+  const router = useRouter();
+
+  const handleLanguageChange = (event: any) => {
+    const language = event.target.value;
+    router.push(`/${language}`);
+  };
+
   return (
     <Popover
       as="nav"
@@ -80,8 +105,30 @@ export default function Header({
 
                 <div className="hidden lg:block">
                   <div className="ml-5 flex items-baseline space-x-3">
+                    <select
+                      className={`h-8 inline-block py-1 px-3 bg-white border border-gray-300 hover:border-gray-400 rounded-md shadow-md text-gray-500 outline-none appearance-none`}
+                      onChange={handleLanguageChange}
+                    >
+                      <option selected>
+                        {
+                          langDict[
+                            post?.slug[0] ?? router.asPath.split("/")[1] ?? "en"
+                          ]
+                        }
+                      </option>
+                      {posts.map((post) => {
+                        return (
+                          <option
+                            key={`bangu-${post.language}`}
+                            value={post.fullPath as string}
+                          >
+                            {langDict[post.language as any]}
+                          </option>
+                        );
+                      })}
+                    </select>
                     {header_.map((item) => {
-                      const { coverImage } = item.foundTitle;
+                      // const { coverImage } = item.foundTitle;
                       return (
                         <Link
                           href={
@@ -115,6 +162,28 @@ export default function Header({
                 </div>
               </div>
               <div className="-mr-2 flex lg:hidden">
+                <select
+                  className={`mr-3 h-8 inline-block my-auto py-1 px-3 bg-white border border-gray-300 hover:border-gray-400 rounded-md shadow-md text-gray-500 outline-none appearance-none`}
+                  onChange={handleLanguageChange}
+                >
+                  <option selected>
+                    {
+                      langDict[
+                        post?.slug[0] ?? router.asPath.split("/")[1] ?? "en"
+                      ]
+                    }
+                  </option>
+                  {posts.map((post) => {
+                    return (
+                      <option
+                        key={`bangu-${post.language}`}
+                        value={post.fullPath as string}
+                      >
+                        {langDict[post.language as any]}
+                      </option>
+                    );
+                  })}
+                </select>
                 {/* Mobile menu button */}
                 <Popover.Button
                   onClick={() => {
