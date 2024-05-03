@@ -46,7 +46,7 @@ export default function LanguageBar({
           )}
           <div className="relative w-full lg:max-w-sm">
             <select
-              className={`w-full h-10 inline-block py-2 px-3 bg-white border border-t-0 border-gray-300 hover:border-gray-400${!hasPdf ? "" : " ml-1"} rounded-b-md shadow-md text-gray-500 outline-none appearance-none focus:border-indigo-600`}
+              className={`h-10 inline-block py-2 px-3 bg-white border border-t-0 border-gray-300 hover:border-gray-400${!hasPdf ? "" : " ml-3"} rounded-b-md shadow-md text-gray-500 outline-none appearance-none`}
               onChange={handleLanguageChange}
             >
               <option selected>
