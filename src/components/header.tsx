@@ -106,7 +106,7 @@ export default function Header({
                 <div className="hidden lg:block">
                   <div className="ml-5 flex items-baseline space-x-3">
                     <select
-                      className={`h-8 inline-block py-1 px-3 bg-white border border-gray-300 hover:border-gray-400 rounded-md shadow-md text-gray-500 outline-none appearance-none`}
+                      className={`outline-none py-1 h-8 flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base leading-none px-4 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center`}
                       onChange={handleLanguageChange}
                     >
                       <option selected>

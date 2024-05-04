@@ -36,4 +36,5 @@ export type PostProps<S> = {
   state?: S;
   setState?: React.Dispatch<React.SetStateAction<S>>;
   hasToc?: boolean;
+  siteSection?: string;
 };

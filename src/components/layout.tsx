@@ -10,7 +10,6 @@ import { Items } from "../lib/api";
 import { useRouter } from "next/router";
 import PostTitle from "./post-title";
 import { TPost } from "../types/post";
-import ToolsBar from "./tools-bar";
 
 type Props = {
   children: React.ReactNode;
@@ -79,9 +78,6 @@ const Layout = ({
           post={post} 
         />
         <article ref={articleRef} className="flex-grow overflow-y-auto">
-          {posts && (
-            <ToolsBar posts={posts} post={post} siteSection={siteSection} />
-          )}
           {children}
         </article>
         <Footer />
