@@ -7,7 +7,7 @@ meta.title: Что такое ложбан?
 
 На этом веб-сайте предоставлены неофициальные бесплатные учебные пособия и документация по языку ложбан.
 
-## [Курс «Изучаем ложбан»](/en/books/learn-lojban)
+## [Курс «Изучаем ложбан»](/ru/books/learn-lojban)
 
 <pixra redirect="/ru/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="Курс «Изучаем ложбан»"></pixra>
 
@@ -37,7 +37,7 @@ meta.title: Что такое ложбан?
 * [HTML в разделах](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/) - в HTML-файлах
 <!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.epub) — как книга EPUB -->
 
-[Подробнее...](/en/articles/complete-lojban-language)
+[Подробнее...](/ru/articles/complete-lojban-language)
 
 ## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku — отличный неофициальный словарь
 
