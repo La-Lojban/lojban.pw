@@ -106,7 +106,7 @@ export default function Header({
                 <div className="hidden lg:block">
                   <div className="ml-5 flex items-baseline space-x-3">
                     <select
-                      className={`outline-none py-1 h-8 flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base leading-none px-4 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center`}
+                      className={`outline-none py-1 h-8 flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base leading-none pl-2 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center`}
                       onChange={handleLanguageChange}
                     >
                       <option selected>
@@ -163,7 +163,7 @@ export default function Header({
               </div>
               <div className="-mr-2 flex lg:hidden">
                 <select
-                  className={`mr-3 h-8 inline-block my-auto py-1 px-3 bg-white border border-gray-300 hover:border-gray-400 rounded-md shadow-md text-gray-500 outline-none appearance-none`}
+                  className={`mr-3 h-8 inline-block my-auto py-1 px-2 bg-gray-100 border border-gray-300 hover:border-gray-400 rounded-md shadow-md text-gray-600 outline-none appearance-none`}
                   onChange={handleLanguageChange}
                 >
                   <option selected>
