@@ -1682,116 +1682,141 @@ vu'a
 
 ## A
 
-.a - Logical Or (and/or)
-.a signifies a logical "or" (inclusive disjunction). It indicates that at least one of the connected sumti holds true, possibly both.
+a
+	type: logical connective for sumti
+	definition: Logical Or (and/or). {a} signifies the logical "or" (inclusive disjunction). It indicates that at least one of the connected sumti holds true, possibly both.
 	Examples:
 		la .djan. .a la .djein. klama le zarci
 			gloss: That-named John or that-named Alice goes-to the market.
 			translation: John or Alice (or both) goes to the store.
+se a
+	type: logical connective for sumti
+	definition: grammatically valid but essentially means the same as ".a" due to the commutative nature of logical "or".
 
-With "se": "se .a" is grammatically valid but essentially means the same as ".a" due to the commutative nature of logical or.
-With "nai": ".anai" signifies "neither ... nor ...". It indicates that both connected sumti are false.
+anai
+	definition: signifies "neither ... nor ...". It indicates that both connected sumti are false.
 	Examples:
 		.anai la .djan. .anai la .djein. klama le zarci
 			translation: Neither John nor Alice goes to the store.
 
-.e - Logical And
-.e signifies a logical "and" (conjunction). It indicates that both connected sumti hold true simultaneously.
+e
+	definition: Logical And. {e} signifies the logical "and" (conjunction). It indicates that both connected sumti hold true simultaneously.
 	Examples:
 		mi .e do klama ti
 			gloss: I and you come-to this-here
 			translation: I and you come here.
 
-With "se": "se .e" is grammatically valid but essentially means the same as ".e" due to the commutative nature of logical and.
-With "nai": ".enai" signifies "not both ... and ...". It indicates that at least one of the connected sumti is false, possibly both.
-.o - Logical Equivalence (if and only if)
-.o signifies a logical equivalence or "if and only if" (biconditional). It indicates that both connected sumti have the same truth value; either both are true or both are false.
+se .e
+	definition: grammatically valid but essentially means the same as ".e" due to the commutative nature of logical "and".
+enai
+	definition: signifies "not both ... and ...". It indicates that at least one of the connected sumti is false, possibly both.
+o
+	definition: Logical Equivalence (if and only if). Signifies a logical equivalence or "if and only if" (biconditional). It indicates that both connected sumti have the same truth value; either both are true or both are false.
 	Examples:
 		la .djan. .o la .alis. klama le zarci
 			gloss: That-named John if-and-only-if that-named Alice goes-to the market.
 			translation: John goes to the market if, and only if, Alice does.
+se .o
+	definition: essentially means the same as ".o" because logical equivalence is commutative.
 
-With "se": "se .o" essentially means the same as ".o" because logical equivalence is commutative.
-With "nai": ".onai" signifies "exclusive or" (XOR). It indicates that the connected sumti have different truth values; one is true, and the other is false.
-.u - Whether or not
-.u signifies "whether or not" (implication). It indicates that the truth of the first sumti does not depend on the truth value of the second sumti.
+onai
+	definition: signifies "exclusive or" (XOR). It indicates that the connected sumti have different truth values; one is true, and the other is false.
+u
+	definition: Whether or not. Signifies "whether or not" (implication). It indicates that the truth of the first sumti does not depend on the truth value of the second sumti.
 	Examples:
 		la .djan. nanmu .iju la .djeimyz. ninmu
 			gloss: That-named John is-a-man whether-or-not that-named James is-a-woman.
 			translation: It is true that John is a man, whether or not James is a woman.
 
-With "se": "se .u" essentially reverses the implication, making the truth of the second sumti independent of the truth value of the first.
-With "nai": ".unai" signifies "neither ... nor ..." but with a focus on the first sumti. It is rarely used due to the availability of ".anai" which is shorter and expresses the same logical meaning.
-Note: While these examples demonstrate the use of A connectives with sumti, they can also be used to connect other grammatical structures like tanru units (explained in section 14.12) or operands within mathematical expressions (explained in section 18.17). The core logical meaning remains consistent regardless of the specific grammatical context.
+se u
+	definition: essentially reverses the implication, making the truth of the second sumti independent of the truth value of the first.
+
+unai
+	definition: signifies "neither ... nor ..." but with a focus on the first sumti. It is rarely used due to the availability of ".anai" which is shorter and expresses the same logical meaning.
 
 ## ZAhO
 
 The cmavo in selma'o ZAhO express the nuances of how an event unfolds over time, capturing aspects like its beginning, continuation, and end. These are often referred to as "event contours."
-ZAhO cmavo and their meanings:
-.pu'o - Prospective: Indicates the phase of an event before it begins, highlighting anticipation, preparation, or the verge of something happening.
+
+
+pu'o
+	definition: Prospective: Indicates the phase of an event before it begins, highlighting anticipation, preparation, or the verge of something happening.
 	Examples:
 		mi pu'o damba
 			gloss: I [prospective] fight
 			translation: I'm on the verge of fighting
 
-With -nai (Non-prospective): Would indicate that the event is not about to begin, is already in progress, or has already happened.
-.ca'o - Continuitive: Indicates the phase of an event while it is in progress, emphasizing its ongoing nature, duration, or continuation.
+pu'onai
+	definition: the event is not about to begin, is already in progress, or has already happened.
+ca'o
+	definition: Continuitive: Indicates the phase of an event while it is in progress, emphasizing its ongoing nature, duration, or continuation.
 	Examples:
 		la .stiv. ca'o bacru
 			gloss: That-named Steve [continuitive] utters
 			translation: Steve continues to talk
 
-With -nai (Non-continuitive): Would indicate that the event is not ongoing; it might be about to begin, has just ended, or happened at a specific point in time.
-.ba'o - Retrospective: Indicates the phase of an event after it has ended, emphasizing its completion, aftermath, or the fact that it no longer occurs.
+ca'onai
+	definition: the event is not ongoing; it might be about to begin, has just ended, or happened at a specific point in time.
+ba'o
+	definition: Retrospective: Indicates the phase of an event after it has ended, emphasizing its completion, aftermath, or the fact that it no longer occurs.
 	Examples:
 		le verba ba'o cadzu le bisli
 			gloss: The child [retrospective] walks-on the ice
 			translation: The child is no longer walking on the ice
-
-With -nai (Non-retrospective): Would indicate that the event is not over; it might be ongoing, about to begin, or happening at a specific point in time.
-.co'a - Initiative: Indicates the starting point of an event, the precise moment when it begins or transitions from not happening to happening.
+ba'onai
+	definition: the event is not over; it might be ongoing, about to begin, or happening at a specific point in time.
+co'a
+	definition: Initiative: Indicates the starting point of an event, the precise moment when it begins or transitions from not happening to happening.
 	Examples:
 		mi ba co'a citka le mi sanmi
 			gloss: I [future] [initiative] eat the associated-with-me meal.
 			translation: I will begin to eat my meal.
 
-.co'u - Cessitive: Indicates the ending point of an event, the precise moment when it stops or transitions from happening to not happening.
+co'u
+	definition: Cessitive: Indicates the ending point of an event, the precise moment when it stops or transitions from happening to not happening.
 	Examples:
 		mi pu co'u citka le mi sanmi
 			gloss: I [past] [cessitive] eat the associated-with-me meal.
 			translation: I ceased eating my meal.
-
-With -nai (Non-cessive): Would indicate that the event did not stop at the specified point; it might be ongoing, about to begin, or happening at a specific point in time.
-.mo'u - Completitive: Indicates the natural ending point of an event, the point at which it is considered finished or complete, regardless of whether it actually stops.
+co'unai
+	definition: the event did not stop at the specified point; it might be ongoing, about to begin, or happening at a specific point in time.
+mo'u
+	definition: Completitive: Indicates the natural ending point of an event, the point at which it is considered finished or complete, regardless of whether it actually stops.
 	Examples:
 		mi pu mo'u citka le mi sanmi
 			gloss: I [past] [completitive] eat the associated-with-me meal.
 			translation: I finished eating my meal.
 
-.za'o - Superfective: Indicates that an event continues beyond its natural ending point, emphasizing excessiveness, going too far, or doing something for longer than necessary.
+za'o
+	definition: Superfective: Indicates that an event continues beyond its natural ending point, emphasizing excessiveness, going too far, or doing something for longer than necessary.
 	Examples:
 		le ctuca pu za'o ciksi le cmaci seldanfu le tadgri
 			gloss: The teacher [past] [superfective] explained the mathematics problem to-the student-group.
 			translation: The teacher kept on explaining the mathematics problem to the class too long.
 
-.co'i - Achievative: Treats an entire event as a single, indivisible point in time, often used to emphasize the moment of completion or achievement.
+co'i
+	definition: Achievative: Treats an entire event as a single, indivisible point in time, often used to emphasize the moment of completion or achievement.
 	Examples:
 		la .djan. pu co'i catra la djim
 			gloss: That-named John [past] [achievative] kills that-named Jim.
 			translation: John was at the point in time where he killed Jim.
 
-.de'a - Pausative: Indicates the point in time just before an interruption in a process, highlighting a temporary pause or suspension with the intention of resuming.
+de'a
+	definition: Pausative: Indicates the point in time just before an interruption in a process, highlighting a temporary pause or suspension with the intention of resuming.
 	Examples:
 		mi pu de'a citka le mi sanmi
 			gloss: I [past] [pausative] eat the associated-with-me meal.
 			translation: I stopped eating my meal (with the intention of resuming).
 
-.di'a - Resumptive: Indicates the point in time just after an interruption in a process, highlighting the resumption or continuation of a paused activity.
+di'a
+	definition: Resumptive: Indicates the point in time just after an interruption in a process, highlighting the resumption or continuation of a paused activity.
 	Examples:
 		mi ba di'a citka le mi sanmi
 			gloss: I [future] [resumptive] eat the associated-with-me meal.
 			translation: I will resume eating my meal.
 
-Additional Notes:
-Combining ZAhO cmavo: You can combine multiple ZAhO cmavo to express more nuanced event contours. For example, "ca'o co'a" would indicate the ongoing beginning of an event, while "pu'o co'a" would highlight the point just before an event is about to start.
-Using ZAhO with other tense cmavo: ZAhO cmavo can be combined with other tense markers to specify the location and duration of the event. For instance, "puzu ze'u ca'o" would indicate an event that was happening continuously for a long time in the distant past.
+ca'o co'a
+	definition: the ongoing beginning of an event
+	
+pu'o co'a
+	definition: highlights the point just before an event is about to start.

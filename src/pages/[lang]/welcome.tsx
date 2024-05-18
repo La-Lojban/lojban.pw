@@ -59,7 +59,7 @@ const Post = ({
       title={title}
       posts={posts}
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-row">
+      <div className="mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row">
         <PostBody
           post={post}
           hasToc={hasToc}

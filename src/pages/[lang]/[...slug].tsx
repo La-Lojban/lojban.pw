@@ -73,7 +73,7 @@ const Post = ({ post, posts, siblingPosts, currentLanguage }: Props) => {
       siteSection={siteSection}
       title={title}
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap">
+      <div className="mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap">
         {state.galleryShown && post.slug[1] === siteSection && (
           <ImageGallery
             additionalClass="fullpage"

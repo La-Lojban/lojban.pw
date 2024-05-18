@@ -32,8 +32,8 @@ const Index = ({
       title={indexPost.title}
       posts={posts}
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-row">
-        <div className="mb-6 mt-3 mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row">
+        <div className="mb-8 mt-3 mx-auto max-w-7xl px-4 sm:px-6">
           {/* <Intro title={indexPost?.title} image={ogImage} /> */}
           <div
             className="mb-2"

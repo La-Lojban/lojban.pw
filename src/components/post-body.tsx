@@ -16,7 +16,7 @@ const PostBody = ({
   return (
     <>
       <div
-        className={`mb-6 mt-3 mx-auto w-full print:bg-white ${
+        className={`mb-8 mt-3 mx-auto w-full print:bg-white ${
           hasToc ? "md:w-3/5 " : ""
         }bg-gray-100`}
       >
