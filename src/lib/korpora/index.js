@@ -68,8 +68,8 @@ function moveElementForward(array, i) {
     buttons[title] = [];
     let columns = {};
     table[title]
-      .push(`<table class="mt-2 table-fixed max-w-full border font-light dark:border-neutral-500 text-left text-sm">
-    <thead class="border-b italic dark:border-neutral-500">`);
+      .push(`<table class="mt-2 table-fixed max-w-full border font-light text-left text-sm">
+    <thead class="border-b italic">`);
     table[title].push(`<tr>`);
     for (const i in langs) {
       const lang = langs[i];
@@ -148,7 +148,7 @@ function moveElementForward(array, i) {
       if (candidateExists) {
         ogImage = ogImage ?? candidatePath;
         table[title].push(
-          `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100">
+          `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100">
             <td colspan="${langs.length}">
             <div class="h-full w-full flex justify-center items-center">
             <img class="h-56" src="${candidatePath}"/>
@@ -159,7 +159,7 @@ function moveElementForward(array, i) {
         );
       }
       table[title].push(
-        `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100">`
+        `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100">`
       );
       for (const lang of langs) {
         const l = cssifyName(lang);
