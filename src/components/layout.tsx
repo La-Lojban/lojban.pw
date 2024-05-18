@@ -68,7 +68,7 @@ const Layout = ({
   return (
     <>
       <Meta meta={meta} title={title} />
-      <div className="flex flex-col h-screen">
+      <div className="flex flex-col h-screen print:h-auto">
         <Header
           toc={toc}
           path={router.asPath.replace(/#.*/, "")}
