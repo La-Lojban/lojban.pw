@@ -21,9 +21,13 @@ const AllStories = ({ posts, lang }: Props) => {
   if (Object.keys(groupedPosts).length === 1) {
     return Object.keys(groupedPosts).map((key) => (
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-16 lg:gap-x-20 gap-y-8">
-        {groupedPosts[key].sort().map((post) => (
-          <PostPreview key={post.slug.join("~")} post={post} />
-        ))}
+        {groupedPosts[key]
+          .sort((post1, post2) =>
+            (post1.contentLength ?? 0) > (post2.contentLength ?? 0) ? -1 : 1
+          )
+          .map((post) => (
+            <PostPreview key={post.slug.join("~")} post={post} />
+          ))}
       </div>
     ))[0];
   }
@@ -63,9 +67,15 @@ const AllStories = ({ posts, lang }: Props) => {
               aria-labelledby="about-tab"
             >
               <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-8 gap-y-4">
-                {groupedPosts[key].sort().map((post) => (
-                  <PostPreview key={post.slug.join("~")} post={post} />
-                ))}
+                {groupedPosts[key]
+                  .sort((post1, post2) =>
+                    (post1.contentLength ?? 0) > (post2.contentLength ?? 0)
+                      ? -1
+                      : 1
+                  )
+                  .map((post) => (
+                    <PostPreview key={post.slug.join("~")} post={post} />
+                  ))}
               </div>
             </div>
           </div>

@@ -90,6 +90,7 @@ export const getStaticProps = async ({ params }: Params) => {
   });
 
   allPosts = allPosts.map((post) => {
+    post.contentLength = (post.content as string).length;
     delete post.content;
     return post;
   });

@@ -24,6 +24,7 @@ export type TPost = {
   "og:url"?: string;
   "og:description"?: string;
   content: string
+  contentLength?: number
   toc?: TocElem[]
   imgs?: GalleryImg[]
   pdf?: boolean;

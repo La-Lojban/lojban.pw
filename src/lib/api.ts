@@ -32,7 +32,8 @@ export async function getPostSlugs(subfolder: string) {
 
 export type Items = {
   slug: string[];
-  [key: string]: string | string[] | boolean;
+  contentLength?: number;
+  [key: string]: string | string[] | boolean | number | undefined;
 };
 
 export function getPostBySlug(slug: string[], fields: string[] = []): Items {
