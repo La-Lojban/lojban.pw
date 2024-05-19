@@ -63,6 +63,10 @@
         "bantugulu": {
             "native": "Tagalog",
             "short": "tl"
+        },
+        "balgaro": {
+            "native": "български",
+            "short": "bg"
         }
     }
 }
