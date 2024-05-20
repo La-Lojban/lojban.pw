@@ -1,7 +1,8 @@
 ---
 title: Отче наш
 meta.type: korpora
-meta.description: Отче наш - Библия
+description: Библия - Перевод la gleki
+meta.description: Библия - Перевод la gleki
 meta.keywords: Πάτερ Ημών, le jdaselsku, Lord's prayer, Отче наш, mama sewi mi
 meta.author: Библия
 meta.priority: 552
@@ -57,9 +58,9 @@ meta.priority: 552
   <div class="clear-both" />
   <div class="w-full overflow-x-auto">
     <table
-      class="mt-2 table-fixed max-w-full border font-light dark:border-neutral-500 text-left text-sm"
+      class="mt-2 table-fixed max-w-full border font-light text-left text-sm"
     >
-      <thead class="border-b italic dark:border-neutral-500">
+      <thead class="border-b italic">
         <tr>
           <th scope="col" class="w-40 p-2 column-class-dzena_xelso">
             dzena xelso
@@ -72,7 +73,7 @@ meta.priority: 552
       </thead>
       <tbody>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="font-bold text-left align-text-top p-2 column-class-dzena_xelso"
@@ -95,7 +96,7 @@ meta.priority: 552
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-dzena_xelso"
@@ -124,7 +125,7 @@ meta.priority: 552
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-dzena_xelso"
@@ -151,7 +152,7 @@ meta.priority: 552
           ></td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-dzena_xelso"
@@ -178,7 +179,7 @@ meta.priority: 552
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς ἁγιασθήτω τὸ ὄνομά σου
@@ -198,7 +199,7 @@ meta.priority: 552
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             ἐλθέτω ἡ βασιλεία σου,
@@ -217,7 +218,7 @@ meta.priority: 552
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             γενηθήτω τὸ θέλημά σου ὡς ἐν οὐρανῷ καὶ ἐπὶ γῆς
@@ -237,7 +238,7 @@ meta.priority: 552
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον
@@ -257,7 +258,7 @@ meta.priority: 552
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ἀφίεμεν τοῖς
@@ -279,7 +280,7 @@ meta.priority: 552
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν
@@ -298,7 +299,7 @@ meta.priority: 552
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ
@@ -317,7 +318,7 @@ meta.priority: 552
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             Ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα εἰς τοὺς αἰῶνας.
@@ -338,7 +339,7 @@ meta.priority: 552
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-dzena_xelso">
             ἀμήν.

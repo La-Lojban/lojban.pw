@@ -1,9 +1,10 @@
 ---
 title: The Girl from Ipanema
 meta.type: korpora
-meta.description: The Girl from Ipanema - by Vinicius de Moraes
+description: Vinicius de Moraes - Translated by la gleki
+meta.description: Vinicius de Moraes - Translated by la gleki
 meta.keywords: .i la'e lu le nixli be la .ipaneman. lu'u, Garota de Ipanema, The Girl from Ipanema, Девушка из Ипанемы
-meta.author: by Vinicius de Moraes
+meta.author: Vinicius de Moraes
 meta.priority: 657
 ---
 
@@ -48,9 +49,9 @@ meta.priority: 657
   <div class="clear-both" />
   <div class="w-full overflow-x-auto">
     <table
-      class="mt-2 table-fixed max-w-full border font-light dark:border-neutral-500 text-left text-sm"
+      class="mt-2 table-fixed max-w-full border font-light text-left text-sm"
     >
-      <thead class="border-b italic dark:border-neutral-500">
+      <thead class="border-b italic">
         <tr>
           <th scope="col" class="w-40 p-2 column-class-lojbo">lojbo</th>
           <th scope="col" class="w-40 p-2 column-class-porto">porto</th>
@@ -60,7 +61,7 @@ meta.priority: 657
       </thead>
       <tbody>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="font-bold text-left align-text-top p-2 column-class-lojbo">
             ni&#039;o ni&#039;o bau le lojbo
@@ -76,7 +77,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
@@ -100,7 +101,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
@@ -115,7 +116,7 @@ meta.priority: 657
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
           >
-            by Vinicius de Moraes
+            Vinicius de Moraes
           </td>
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
@@ -124,7 +125,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
@@ -148,7 +149,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i ko catlu le dacti noi traji melbi
@@ -164,7 +165,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             gi&#039;e mulno le ka nobli
@@ -180,7 +181,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i du ra poi du le nixli
@@ -196,7 +197,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             noi klama gi&#039;e bancu muvdu
@@ -212,7 +213,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             ca le nu ke&#039;a pluka slilu
@@ -228,7 +229,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             vau fe le xamsi
@@ -244,7 +245,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i doi le nixli noi se xadni le sloska
@@ -260,7 +261,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             noi se krasi le solri be la .ipaneman.
@@ -276,7 +277,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             i le nu ra slilu
@@ -292,7 +293,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             cu zmadu lo&#039;e se pemci
@@ -308,7 +309,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             gi&#039;e du le fasnu co traji melbi
@@ -324,7 +325,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             poi mi pu&#039;i viska le nu ke&#039;a bancu muvdu
@@ -340,7 +341,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i .oi ki&#039;u ma mi tai kansa no da
@@ -356,7 +357,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i .oi ki&#039;u ma ro da tai se badri
@@ -372,7 +373,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i .oi doi le melbi noi zasti
@@ -388,7 +389,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             joi le melbi noi na co&#039;e mi po&#039;o
@@ -404,7 +405,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             gi&#039;e ji&#039;a bancu co kansa be no da
@@ -420,7 +421,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i .au da&#039;i ra djuno
@@ -436,7 +437,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             le du&#039;u ca le nu ra bancu vau
@@ -452,7 +453,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             le munje noi ca&#039;o cisma
@@ -468,7 +469,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             cu culno le ka nobli vau mo&#039;u
@@ -484,7 +485,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             gi&#039;e co&#039;a traji melbi
@@ -500,7 +501,7 @@ meta.priority: 657
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             vau ri&#039;a le nu prami

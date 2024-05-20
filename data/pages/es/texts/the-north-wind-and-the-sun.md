@@ -1,9 +1,10 @@
 ---
 title: The North Wind and the Sun
 meta.type: korpora
-meta.description: The North Wind and the Sun - by Aesop
+description: Aesop - Translated by la gleki
+meta.description: Aesop - Translated by la gleki
 meta.keywords: ni'o la berti brife jo'u la solri, The North Wind and the Sun, Северный ветер и солнце, Le vent du nord et le soleil
-meta.author: by Aesop
+meta.author: Aesop
 meta.priority: 734
 ---
 
@@ -48,9 +49,9 @@ meta.priority: 734
   <div class="clear-both" />
   <div class="w-full overflow-x-auto">
     <table
-      class="mt-2 table-fixed max-w-full border font-light dark:border-neutral-500 text-left text-sm"
+      class="mt-2 table-fixed max-w-full border font-light text-left text-sm"
     >
-      <thead class="border-b italic dark:border-neutral-500">
+      <thead class="border-b italic">
         <tr>
           <th scope="col" class="w-40 p-2 column-class-lojbo">lojbo</th>
           <th scope="col" class="w-40 p-2 column-class-glico">glico</th>
@@ -60,7 +61,7 @@ meta.priority: 734
       </thead>
       <tbody>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="font-bold text-left align-text-top p-2 column-class-lojbo">
             ni&#039;o ni&#039;o ni&#039;o bau le lojbo
@@ -76,7 +77,7 @@ meta.priority: 734
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
@@ -100,7 +101,7 @@ meta.priority: 734
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
@@ -110,7 +111,7 @@ meta.priority: 734
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
           >
-            by Aesop
+            Aesop
           </td>
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
@@ -124,7 +125,7 @@ meta.priority: 734
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
@@ -148,7 +149,7 @@ meta.priority: 734
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i la berti brife jo&#039;u la solri pu troci leka djuno ledu&#039;u
@@ -170,7 +171,7 @@ meta.priority: 734
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i lu&#039;i le remei pu simxu leka tugni fi lenu traji leka vlipa
@@ -191,7 +192,7 @@ meta.priority: 734
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i baku la berti brife co&#039;a traji cupra le brife .i ku&#039;i
@@ -216,7 +217,7 @@ meta.priority: 734
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i baku la solri co&#039;a dirce lo milxe glare .ibazibo le pa litru
@@ -235,7 +236,7 @@ meta.priority: 734
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .iseki&#039;ubo la berti brife co&#039;a bilga tugni fi lonu la

@@ -1,9 +1,10 @@
 ---
 title: Blagues
 meta.type: korpora
-meta.description: Blagues - Créées par de nombreux auteurs
+description: de nombreux auteurs - Adaptation anglaise
+meta.description: de nombreux auteurs - Adaptation anglaise
 meta.keywords: ni'o cfika lo xajmi, Jokes, Анекдоты, Blagues
-meta.author: Créées par de nombreux auteurs
+meta.author: de nombreux auteurs
 meta.priority: 983
 ---
 
@@ -48,9 +49,9 @@ meta.priority: 983
   <div class="clear-both" />
   <div class="w-full overflow-x-auto">
     <table
-      class="mt-2 table-fixed max-w-full border font-light dark:border-neutral-500 text-left text-sm"
+      class="mt-2 table-fixed max-w-full border font-light text-left text-sm"
     >
-      <thead class="border-b italic dark:border-neutral-500">
+      <thead class="border-b italic">
         <tr>
           <th scope="col" class="w-40 p-2 column-class-lojbo">lojbo</th>
           <th scope="col" class="w-40 p-2 column-class-glico">glico</th>
@@ -60,7 +61,7 @@ meta.priority: 983
       </thead>
       <tbody>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="font-bold text-left align-text-top p-2 column-class-lojbo">
             ni&#039;o ni&#039;o ni&#039;o bau le lojbo
@@ -76,7 +77,7 @@ meta.priority: 983
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
@@ -100,7 +101,7 @@ meta.priority: 983
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
@@ -110,21 +111,21 @@ meta.priority: 983
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
           >
-            by many authors
+            many authors
           </td>
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
           >
-            Создана многими авторами
+            многие авторы
           </td>
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
           >
-            Créées par de nombreux auteurs
+            de nombreux auteurs
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
@@ -148,7 +149,7 @@ meta.priority: 983
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             La Cerlok Xolms e la Mic Uotson cu se ginka. I ri e ra zbasu le
@@ -195,7 +196,7 @@ meta.priority: 983
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             da&#039;i le te renvi be su&#039;o xlali bei do ba zmadu fi lo ka se

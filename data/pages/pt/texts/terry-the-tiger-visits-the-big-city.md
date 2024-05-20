@@ -1,9 +1,10 @@
 ---
 title: Terry, o Tigre Visita a Grande Cidade
 meta.type: korpora
-meta.description: Terry, o Tigre Visita a Grande Cidade - por Michael Turniansky
+description: Michael Turniansky - Translated to English by Michael Turniansky
+meta.description: Michael Turniansky - Translated to English by Michael Turniansky
 meta.keywords: ni'o ni'o le tirxu be me'e zo .teris. cu klama le barda tcadu, .i la .teris. noi tirxu cu klama le barda tcadu, Terry the Tiger Visits the Big City, Тигренок Терри посещает большой город., Terry le tigre visite la grande ville, Terry el Tigre Visita la Gran Ciudad, Terry, o Tigre Visita a Grande Cidade, # Terry la Tigro Vizitas la Grandan Urbon
-meta.author: por Michael Turniansky
+meta.author: Michael Turniansky
 meta.priority: 2555
 ---
 
@@ -84,9 +85,9 @@ meta.priority: 2555
   <div class="clear-both" />
   <div class="w-full overflow-x-auto">
     <table
-      class="mt-2 table-fixed max-w-full border font-light dark:border-neutral-500 text-left text-sm"
+      class="mt-2 table-fixed max-w-full border font-light text-left text-sm"
     >
-      <thead class="border-b italic dark:border-neutral-500">
+      <thead class="border-b italic">
         <tr>
           <th scope="col" class="w-40 p-2 column-class-lojbo">lojbo</th>
           <th scope="col" class="w-40 p-2 column-class-sampu_lojbo">
@@ -102,7 +103,7 @@ meta.priority: 2555
       </thead>
       <tbody>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="font-bold text-left align-text-top p-2 column-class-lojbo">
             ni&#039;o ni&#039;o ni&#039;o bau le lojbo
@@ -132,7 +133,7 @@ meta.priority: 2555
           ></td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
@@ -177,7 +178,7 @@ meta.priority: 2555
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
@@ -192,36 +193,36 @@ meta.priority: 2555
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
           >
-            by Michael Turniansky
+            Michael Turniansky
           </td>
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
           >
-            создано Михаилом Турнянским
+            Михаил Турнянски
           </td>
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
           >
-            créé par Michael Turniansky
+            Michael Turniansky
           </td>
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-spano"
           >
-            por Michael Turniansky
+            Michael Turniansky
           </td>
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
           >
-            por Michael Turniansky
+            Michael Turniansky
           </td>
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-spero"
           >
-            de Michael Turniansky
+            Michael Turniansky
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
@@ -259,7 +260,7 @@ meta.priority: 2555
           ></td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             ni&#039;o le pa tirxu be me&#039;e zo .teris. pu ki kansa le
@@ -316,7 +317,7 @@ meta.priority: 2555
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i baziku la .teris. co&#039;a klama le pa rirxe gi&#039;e retsku fi
@@ -386,7 +387,7 @@ meta.priority: 2555
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             ni&#039;o ca le cerni la .teris. mo&#039;u klama le pa zarci noi se
@@ -461,7 +462,7 @@ meta.priority: 2555
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i «lu .iesai .i ku&#039;i ca je&#039;a se djica mi fa lonu mi
@@ -497,7 +498,7 @@ meta.priority: 2555
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i «lu je&#039;e do .i mi&#039;o zifre leka klama le zdani be mi
@@ -527,7 +528,7 @@ meta.priority: 2555
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .iseki&#039;ubo le remei cu cadzu klama le zdani be la .mulis.
@@ -555,7 +556,7 @@ meta.priority: 2555
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             ni&#039;o ca lenu le remei mo&#039;u klama le zdani vau la .mulis.
@@ -593,7 +594,7 @@ meta.priority: 2555
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i «lu .e&#039;a doi la .mulis. li&#039;u» se cusku le mamta
@@ -628,7 +629,7 @@ meta.priority: 2555
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i seja&#039;eku gau la .mulis. zvati fa la .teris. le kumfa ne my.
@@ -666,7 +667,7 @@ meta.priority: 2555
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             ni&#039;o le mamta za krixa cusku lu «doi la .mulis. ca tcika lenu
@@ -727,7 +728,7 @@ meta.priority: 2555
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
             .i le savru cu mukti le ka co&#039;a cikna vau la .teris. i ri plipe

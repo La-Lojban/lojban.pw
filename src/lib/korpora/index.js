@@ -25,6 +25,13 @@ if (!process.env.GOOGLE_READONLY_API_KEY) {
 }
 doc.useApiKey(process.env.GOOGLE_READONLY_API_KEY);
 
+function prettifyGraymatter(str) {
+  return str
+    .replace(/[\r\n]/g, " ")
+    .replace(/ {2,}/g, " ")
+    .replace(/:/g, "");
+}
+
 function escapeHtml(text) {
   const map = {
     "&": "&amp;",
@@ -121,13 +128,25 @@ function moveElementForward(array, i) {
 
     const priority = (columns["lojbo"] ?? []).slice(4).join("\n").length;
     allLanguages.forEach((lang) => {
-      const header = columns[lang]?.[1] ?? columns["glico"]?.[1] ?? title;
-      const author = columns[lang]?.[2] ?? columns["glico"]?.[2] ?? "";
+      const header = prettifyGraymatter(
+        columns[lang]?.[1] ?? columns["glico"]?.[1] ?? title
+      );
+      const author = prettifyGraymatter(
+        columns[lang]?.[2] ?? columns["glico"]?.[2] ?? ""
+      );
+
+      const translatedBy = prettifyGraymatter(
+        columns[lang]?.[3] ?? columns["glico"]?.[3] ?? ""
+      );
+
       headers[lang] = {
         header,
         priority,
         author,
-        description: `${header} - ${author}`.trim().replace(/ -$/, "").trim(),
+        description: `${author} - ${translatedBy}`
+          .trim()
+          .replace(/ -$/, "")
+          .trim(),
       };
     });
 
@@ -199,6 +218,10 @@ ${table[title].join("")}
           value: headers[lang].header ?? headers["glico"].header,
         },
         { key: "meta.type", value: "korpora" },
+        {
+          key: "description",
+          value: headers[lang].description ?? headers["glico"].description,
+        },
         {
           key: "meta.description",
           value: headers[lang].description ?? headers["glico"].description,

@@ -243,6 +243,28 @@
   color: #999;
 }
 
+.hide-column-checkbox-balgaro {
+  display: none;
+}
+
+.hide-column-checkbox-balgaro:checked
+  + .hide-column-button-balgaro
+  ~ div
+  table
+  th.column-class-balgaro,
+.hide-column-checkbox-balgaro:checked
+  + .hide-column-button-balgaro
+  ~ div
+  table
+  td.column-class-balgaro {
+  display: none;
+}
+
+.hide-column-checkbox-balgaro:checked + .hide-column-button-balgaro {
+  background-color: #fff;
+  color: #999;
+}
+
 .hide-column-checkbox-English_by_Stig_Dagerman {
   display: none;
 }
@@ -419,50 +441,6 @@
 
 .hide-column-checkbox-lojbo_fi_e_se_fanva_la_pimlu:checked
   + .hide-column-button-lojbo_fi_e_se_fanva_la_pimlu {
-  background-color: #fff;
-  color: #999;
-}
-
-.hide-column-checkbox-xorlo_lojbo {
-  display: none;
-}
-
-.hide-column-checkbox-xorlo_lojbo:checked
-  + .hide-column-button-xorlo_lojbo
-  ~ div
-  table
-  th.column-class-xorlo_lojbo,
-.hide-column-checkbox-xorlo_lojbo:checked
-  + .hide-column-button-xorlo_lojbo
-  ~ div
-  table
-  td.column-class-xorlo_lojbo {
-  display: none;
-}
-
-.hide-column-checkbox-xorlo_lojbo:checked + .hide-column-button-xorlo_lojbo {
-  background-color: #fff;
-  color: #999;
-}
-
-.hide-column-checkbox-cizra_lojbo {
-  display: none;
-}
-
-.hide-column-checkbox-cizra_lojbo:checked
-  + .hide-column-button-cizra_lojbo
-  ~ div
-  table
-  th.column-class-cizra_lojbo,
-.hide-column-checkbox-cizra_lojbo:checked
-  + .hide-column-button-cizra_lojbo
-  ~ div
-  table
-  td.column-class-cizra_lojbo {
-  display: none;
-}
-
-.hide-column-checkbox-cizra_lojbo:checked + .hide-column-button-cizra_lojbo {
   background-color: #fff;
   color: #999;
 }

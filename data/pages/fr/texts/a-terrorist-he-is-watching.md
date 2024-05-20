@@ -1,7 +1,8 @@
 ---
 title: Terroriste, il nous regarde.
 meta.type: korpora
-meta.description: Terroriste, il nous regarde. - Szymborska Wisława
+description: Szymborska Wisława - Traduit par Deepl
+meta.description: Szymborska Wisława - Traduit par Deepl
 meta.keywords: Terrorysta, on patrzy., sorxaizu'e sei catlu, A terrorist, he is watching, テロリスト、見てる, Террорист, он смотрит., Terroriste, il nous regarde.
 meta.author: Szymborska Wisława
 meta.priority: 1094
@@ -66,9 +67,9 @@ meta.priority: 1094
   <div class="clear-both" />
   <div class="w-full overflow-x-auto">
     <table
-      class="mt-2 table-fixed max-w-full border font-light dark:border-neutral-500 text-left text-sm"
+      class="mt-2 table-fixed max-w-full border font-light text-left text-sm"
     >
-      <thead class="border-b italic dark:border-neutral-500">
+      <thead class="border-b italic">
         <tr>
           <th scope="col" class="w-40 p-2 column-class-po_olska">
             po&#039;olska
@@ -82,7 +83,7 @@ meta.priority: 1094
       </thead>
       <tbody>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="font-bold text-left align-text-top p-2 column-class-po_olska"
@@ -104,7 +105,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-po_olska"
@@ -138,7 +139,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-po_olska"
@@ -153,7 +154,7 @@ meta.priority: 1094
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
           >
-            by Szymborska Wisława
+            Szymborska Wisława
           </td>
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-ponjo"
@@ -172,7 +173,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-po_olska"
@@ -204,7 +205,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Bomba wybuchnie w barze trzynasta dwadzieścia.
@@ -220,14 +221,14 @@ meta.priority: 1094
             爆弾は十三時二十分に爆発する。
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            Бомба возрвётся в баре в тринадцать двадцать.
+            Бомба взорвётся в баре в тринадцать двадцать.
           </td>
           <td class="text-left align-text-top p-2 column-class-fraso">
             Une bombe explose dans un bar à treize heures vingt.
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Teraz mamy dopiero trzynastą szesnaście.
@@ -249,7 +250,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Niektórzy zdążą jeszcze wejść.
@@ -271,7 +272,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Niektórzy wyjść.
@@ -293,7 +294,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska"></td>
           <td class="text-left align-text-top p-2 column-class-lojbo"></td>
@@ -303,7 +304,7 @@ meta.priority: 1094
           <td class="text-left align-text-top p-2 column-class-fraso"></td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Terrorysta już przeszedł na drugą stronę ulicy.
@@ -325,7 +326,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Ta odległość go chroni od wszelkiego złego
@@ -347,7 +348,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             no i widok jak w kinie:
@@ -369,7 +370,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska"></td>
           <td class="text-left align-text-top p-2 column-class-lojbo"></td>
@@ -379,7 +380,7 @@ meta.priority: 1094
           <td class="text-left align-text-top p-2 column-class-fraso"></td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Kobieta w żółtej kurtce, ona wchodzi.
@@ -401,7 +402,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Mężczyzna w ciemnych okularach, on wychodzi.
@@ -423,7 +424,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Chłopaki w dżinsach, oni rozmawiają.
@@ -445,7 +446,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Trzynasta siedemnaście i cztery sekundy.
@@ -467,7 +468,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Ten niższy to ma szczęście i wsiada na skuter,
@@ -489,7 +490,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             a ten wyższy to wchodzi.
@@ -511,7 +512,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska"></td>
           <td class="text-left align-text-top p-2 column-class-lojbo"></td>
@@ -521,7 +522,7 @@ meta.priority: 1094
           <td class="text-left align-text-top p-2 column-class-fraso"></td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Trzynasta siedemnaście i czterdzieści sekund.
@@ -543,7 +544,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Dziewczyna, ona idzie z zieloną wstążką we włosach.
@@ -565,7 +566,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Tylko że ten autobus nagle ją zasłania.
@@ -587,7 +588,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska"></td>
           <td class="text-left align-text-top p-2 column-class-lojbo"></td>
@@ -597,7 +598,7 @@ meta.priority: 1094
           <td class="text-left align-text-top p-2 column-class-fraso"></td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Trzynasta osiemnaście.
@@ -619,7 +620,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Już nie ma dziewczyny.
@@ -641,7 +642,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Czy była taka głupia i weszła, czy nie,
@@ -663,7 +664,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             to sie zobaczy, jak będą wynosić.
@@ -685,7 +686,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska"></td>
           <td class="text-left align-text-top p-2 column-class-lojbo"></td>
@@ -695,7 +696,7 @@ meta.priority: 1094
           <td class="text-left align-text-top p-2 column-class-fraso"></td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Trzynasta dziewiętnaście.
@@ -717,7 +718,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Nikt jakoś nie wchodzi.
@@ -739,7 +740,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Za to jeszcze wychodzi jeden gruby łysy.
@@ -761,7 +762,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Ale tak, jakby szukał czegoś po kieszeniach i
@@ -784,7 +785,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             o trzynastej dwadzieścia bez dziesięciu sekund
@@ -807,7 +808,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             wraca po te swoje marne rękawiczki.
@@ -830,7 +831,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska"></td>
           <td class="text-left align-text-top p-2 column-class-lojbo"></td>
@@ -840,7 +841,7 @@ meta.priority: 1094
           <td class="text-left align-text-top p-2 column-class-fraso"></td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Jest trzynasta dwadzieścia.
@@ -862,7 +863,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Czas, jak on się wlecze.
@@ -884,7 +885,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Już chyba teraz.
@@ -906,7 +907,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Jeszcze nie teraz.
@@ -928,7 +929,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Tak, teraz.
@@ -950,7 +951,7 @@ meta.priority: 1094
           </td>
         </tr>
         <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-100"
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-po_olska">
             Bomba, ona wybucha.
