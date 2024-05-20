@@ -51,8 +51,8 @@ const Meta = ({ meta, title }: { meta?: TMeta; title?: string }) => {
   );
   merged["og:description"] = getTag(
     [
-      "og:description",
       "meta.description",
+      "og:description",
       "twitter:description",
       "description",
     ],
@@ -68,8 +68,8 @@ const Meta = ({ meta, title }: { meta?: TMeta; title?: string }) => {
   );
   merged["twitter:description"] = getTag(
     [
-      "twitter:description",
       "meta.description",
+      "twitter:description",
       "og:description",
       "description",
     ],
@@ -86,8 +86,8 @@ const Meta = ({ meta, title }: { meta?: TMeta; title?: string }) => {
   merged["description"] = getTag(
     [
       "description",
-      "twitter:description",
       "meta.description",
+      "twitter:description",
       "og:description",
     ],
     meta,
