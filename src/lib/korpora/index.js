@@ -143,7 +143,7 @@ function moveElementForward(array, i) {
         header,
         priority,
         author,
-        description: `${author} - ${translatedBy}`
+        description: `${author} | ${translatedBy}`
           .trim()
           .replace(/ -$/, "")
           .trim(),

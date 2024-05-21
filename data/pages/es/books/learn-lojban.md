@@ -1,6 +1,6 @@
 ---
 title: 🎓 Aprende Lojban
-description: nice easy course with lots of examples
+description: Buen curso fácil con muchos ejemplos.
 og:image: /assets/pixra/cilre/sruri_since.webp
 coverImage: /assets/pixra/cilre/sruri_since.webp
 
