@@ -1,8 +1,8 @@
 ---
 title: Анекдоты
 meta.type: korpora
-description: многие авторы - Русский перевод
-meta.description: многие авторы - Русский перевод
+description: многие авторы | Русский перевод
+meta.description: многие авторы | Русский перевод
 meta.keywords: ni'o cfika lo xajmi, Jokes, Анекдоты, Blagues
 meta.author: многие авторы
 meta.priority: 983

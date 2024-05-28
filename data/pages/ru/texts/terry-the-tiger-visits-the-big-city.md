@@ -1,8 +1,8 @@
 ---
 title: Тигренок Терри посещает большой город.
 meta.type: korpora
-description: Михаил Турнянски - Перевел на русский язык la gleki
-meta.description: Михаил Турнянски - Перевел на русский язык la gleki
+description: Михаил Турнянски | Перевел на русский язык la gleki
+meta.description: Михаил Турнянски | Перевел на русский язык la gleki
 meta.keywords: ni'o ni'o le tirxu be me'e zo .teris. cu klama le barda tcadu, .i la .teris. noi tirxu cu klama le barda tcadu, Terry the Tiger Visits the Big City, Тигренок Терри посещает большой город., Terry le tigre visite la grande ville, Terry el Tigre Visita la Gran Ciudad, Terry, o Tigre Visita a Grande Cidade, # Terry la Tigro Vizitas la Grandan Urbon
 meta.author: Михаил Турнянски
 meta.priority: 2555

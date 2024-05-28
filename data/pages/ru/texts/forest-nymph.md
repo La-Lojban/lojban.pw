@@ -1,8 +1,8 @@
 ---
 title: Лесная нимфа
 meta.type: korpora
-description: Елин Пелин - перевод с болгарского от la gleki
-meta.description: Елин Пелин - перевод с болгарского от la gleki
+description: Елин Пелин | перевод с болгарского от la gleki
+meta.description: Елин Пелин | перевод с болгарского от la gleki
 meta.keywords: Самодива, ni'o ni'o le ricfoi crida, Forest nymph, Лесная нимфа
 meta.author: Елин Пелин
 og:image: /assets/pixra/texts/forest-nymph/2.png

@@ -1,8 +1,8 @@
 ---
 title: Как Враг пришел в Тлунрану
 meta.type: korpora
-description: Лорд Дансани, 51 рассказ, 1915 г. - Перевод - la gleki
-meta.description: Лорд Дансани, 51 рассказ, 1915 г. - Перевод - la gleki
+description: Лорд Дансани, 51 рассказ, 1915 г. | Перевод - la gleki
+meta.description: Лорд Дансани, 51 рассказ, 1915 г. | Перевод - la gleki
 meta.keywords: ni'o lisri le nu le bradi cu klama la tlunranan., ni'o sei lisri be me'e lu le su'u le bradi mo'u klama la tlunranan. se'u, How the enemy came to Thlunrana, Comment l'Ennemi est venu à Thlunrana, Как Враг пришел в Тлунрану, De cómo llegó el enemigo a Thulnrana., De como o inimigo chegou a Thlunrana, De como chegou o inimigo a Thlunrana
 meta.author: Лорд Дансани, 51 рассказ, 1915 г.
 og:image: /assets/pixra/texts/how-the-enemy-came-to-thlunrana/2.png

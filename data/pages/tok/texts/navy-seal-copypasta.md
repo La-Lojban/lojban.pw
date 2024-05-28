@@ -1,10 +1,10 @@
 ---
 title: Navy Seal Copypasta
 meta.type: korpora
-description: http://knowyourmeme.com/memes/navy-seal-copypasta - English original
-meta.description: http://knowyourmeme.com/memes/navy-seal-copypasta - English original
+description: http//knowyourmeme.com/memes/navy-seal-copypasta | English original
+meta.description: http//knowyourmeme.com/memes/navy-seal-copypasta | English original
 meta.keywords: Navy Seal Copypasta, la .navisil., la .navisil.
-meta.author: http://knowyourmeme.com/memes/navy-seal-copypasta
+meta.author: http//knowyourmeme.com/memes/navy-seal-copypasta
 meta.priority: 0
 ---
 

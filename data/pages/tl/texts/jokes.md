@@ -1,8 +1,8 @@
 ---
 title: Jokes
 meta.type: korpora
-description: many authors - English adaptation
-meta.description: many authors - English adaptation
+description: many authors | English adaptation
+meta.description: many authors | English adaptation
 meta.keywords: ni'o cfika lo xajmi, Jokes, Анекдоты, Blagues
 meta.author: many authors
 meta.priority: 983

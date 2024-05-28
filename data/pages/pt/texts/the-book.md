@@ -1,8 +1,8 @@
 ---
 title: O Livro
 meta.type: korpora
-description: H.P. Lovecraft
-meta.description: H.P. Lovecraft
+description: H.P. Lovecraft |
+meta.description: H.P. Lovecraft |
 meta.keywords: le pa cukta, The Book, Le Livre, O Livro, El Libro, Книга, tu'a le cukta, le cukta
 meta.author: H.P. Lovecraft
 og:image: /assets/pixra/texts/the-book/16.svg

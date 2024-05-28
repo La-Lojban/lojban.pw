@@ -1,8 +1,8 @@
 ---
 title: Le vent du nord et le soleil
 meta.type: korpora
-description: Esope - Traduit par la gleki
-meta.description: Esope - Traduit par la gleki
+description: Esope | Traduit par la gleki
+meta.description: Esope | Traduit par la gleki
 meta.keywords: ni'o la berti brife jo'u la solri, The North Wind and the Sun, Северный ветер и солнце, Le vent du nord et le soleil
 meta.author: Esope
 meta.priority: 734

@@ -1,8 +1,8 @@
 ---
 title: Девушка из Ипанемы
 meta.type: korpora
-description: Винисиус де Мораес - Перевод: la gleki
-meta.description: Винисиус де Мораес - Перевод: la gleki
+description: Винисиус де Мораес | Перевод la gleki
+meta.description: Винисиус де Мораес | Перевод la gleki
 meta.keywords: .i la'e lu le nixli be la .ipaneman. lu'u, Garota de Ipanema, The Girl from Ipanema, Девушка из Ипанемы
 meta.author: Винисиус де Мораес
 meta.priority: 657

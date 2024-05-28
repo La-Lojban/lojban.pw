@@ -1,8 +1,8 @@
 ---
 title: The Girl from Ipanema
 meta.type: korpora
-description: Vinicius de Moraes - Translated by la gleki
-meta.description: Vinicius de Moraes - Translated by la gleki
+description: Vinicius de Moraes | Translated by la gleki
+meta.description: Vinicius de Moraes | Translated by la gleki
 meta.keywords: .i la'e lu le nixli be la .ipaneman. lu'u, Garota de Ipanema, The Girl from Ipanema, Девушка из Ипанемы
 meta.author: Vinicius de Moraes
 meta.priority: 657

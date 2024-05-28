@@ -1,8 +1,8 @@
 ---
 title: В горький час
 meta.type: korpora
-description: Калман Калочаи - Перевод la gleki
-meta.description: Калман Калочаи - Перевод la gleki
+description: Калман Калочаи | Перевод la gleki
+meta.description: Калман Калочаи | Перевод la gleki
 meta.keywords: En Amara Horo, In A Bitter Hour, ca lo kurki cacra, В горький час
 meta.author: Калман Калочаи
 meta.priority: 3554

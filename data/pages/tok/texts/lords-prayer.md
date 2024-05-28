@@ -1,8 +1,8 @@
 ---
 title: mama sewi mi
 meta.type: korpora
-description: The Bible - jan Kasape
-meta.description: The Bible - jan Kasape
+description: The Bible | jan Kasape
+meta.description: The Bible | jan Kasape
 meta.keywords: Πάτερ Ημών, le jdaselsku, Lord's prayer, Отче наш, mama sewi mi
 meta.author: The Bible
 meta.priority: 552

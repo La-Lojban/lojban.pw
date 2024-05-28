@@ -1,8 +1,8 @@
 ---
 title: Blagues
 meta.type: korpora
-description: de nombreux auteurs - Adaptation anglaise
-meta.description: de nombreux auteurs - Adaptation anglaise
+description: de nombreux auteurs | Adaptation anglaise
+meta.description: de nombreux auteurs | Adaptation anglaise
 meta.keywords: ni'o cfika lo xajmi, Jokes, Анекдоты, Blagues
 meta.author: de nombreux auteurs
 meta.priority: 983

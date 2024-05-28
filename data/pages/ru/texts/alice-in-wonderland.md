@@ -1,8 +1,8 @@
 ---
 title: Алиса в Стране Чудес
 meta.type: korpora
-description: Льюис Кэрролл  - Перевод Н. Демуровой, редакция Gleki
-meta.description: Льюис Кэрролл  - Перевод Н. Демуровой, редакция Gleki
+description: Льюис Кэрролл  | Перевод Н. Демуровой, редакция Gleki
+meta.description: Льюис Кэрролл  | Перевод Н. Демуровой, редакция Gleki
 meta.keywords: ni'o ni'o lo selfri be la .alis. bei bu'u la selmacygu'e, ni'o ni'o la .alis. cu zvati la se manci tumla, Alice in Wonderland, Алиса в Стране Чудес
 meta.author: Льюис Кэрролл 
 meta.priority: 154163

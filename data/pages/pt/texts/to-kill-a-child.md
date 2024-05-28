@@ -1,8 +1,8 @@
 ---
 title: Matar uma criança
 meta.type: korpora
-description: Stig Dagerman - translated by la gleki
-meta.description: Stig Dagerman - translated by la gleki
+description: Stig Dagerman | translated by la gleki
+meta.description: Stig Dagerman | translated by la gleki
 meta.keywords: ka jai gau morsi fai lo verba, To Kill a Child, To Kill a Child, Убить ребёнка, Att döda ett barn, Matar a un niño, Matar uma criança, Tuer un enfant
 meta.author: Stig Dagerman
 og:image: /assets/pixra/texts/to-kill-a-child/8.svg

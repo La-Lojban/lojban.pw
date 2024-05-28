@@ -1,8 +1,8 @@
 ---
 title: Terry le tigre visite la grande ville
 meta.type: korpora
-description: Michael Turniansky - Traduit en anglais par Michael Turniansky
-meta.description: Michael Turniansky - Traduit en anglais par Michael Turniansky
+description: Michael Turniansky | Traduit en anglais par Michael Turniansky
+meta.description: Michael Turniansky | Traduit en anglais par Michael Turniansky
 meta.keywords: ni'o ni'o le tirxu be me'e zo .teris. cu klama le barda tcadu, .i la .teris. noi tirxu cu klama le barda tcadu, Terry the Tiger Visits the Big City, Тигренок Терри посещает большой город., Terry le tigre visite la grande ville, Terry el Tigre Visita la Gran Ciudad, Terry, o Tigre Visita a Grande Cidade, # Terry la Tigro Vizitas la Grandan Urbon
 meta.author: Michael Turniansky
 meta.priority: 2555

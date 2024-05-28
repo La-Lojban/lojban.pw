@@ -1,8 +1,8 @@
 ---
 title: Отче наш
 meta.type: korpora
-description: Библия - Перевод la gleki
-meta.description: Библия - Перевод la gleki
+description: Библия | Перевод la gleki
+meta.description: Библия | Перевод la gleki
 meta.keywords: Πάτερ Ημών, le jdaselsku, Lord's prayer, Отче наш, mama sewi mi
 meta.author: Библия
 meta.priority: 552

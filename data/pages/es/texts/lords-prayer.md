@@ -1,8 +1,8 @@
 ---
 title: Lord's prayer
 meta.type: korpora
-description: The Bible - Translated by la gleki
-meta.description: The Bible - Translated by la gleki
+description: The Bible | Translated by la gleki
+meta.description: The Bible | Translated by la gleki
 meta.keywords: Πάτερ Ημών, le jdaselsku, Lord's prayer, Отче наш, mama sewi mi
 meta.author: The Bible
 meta.priority: 552

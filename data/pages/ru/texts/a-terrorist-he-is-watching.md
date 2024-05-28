@@ -1,8 +1,8 @@
 ---
 title: Террорист, он смотрит.
 meta.type: korpora
-description: Вислава Шимборска - Перевод la gleki
-meta.description: Вислава Шимборска - Перевод la gleki
+description: Вислава Шимборска | Перевод la gleki
+meta.description: Вислава Шимборска | Перевод la gleki
 meta.keywords: Terrorysta, on patrzy., sorxaizu'e sei catlu, A terrorist, he is watching, テロリスト、見てる, Террорист, он смотрит., Terroriste, il nous regarde.
 meta.author: Вислава Шимборска
 meta.priority: 1094

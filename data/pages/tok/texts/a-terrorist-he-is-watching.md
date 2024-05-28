@@ -1,8 +1,8 @@
 ---
 title: A terrorist, he is watching
 meta.type: korpora
-description: Szymborska Wisława - Translated by la gleki
-meta.description: Szymborska Wisława - Translated by la gleki
+description: Szymborska Wisława | Translated by la gleki
+meta.description: Szymborska Wisława | Translated by la gleki
 meta.keywords: Terrorysta, on patrzy., sorxaizu'e sei catlu, A terrorist, he is watching, テロリスト、見てる, Террорист, он смотрит., Terroriste, il nous regarde.
 meta.author: Szymborska Wisława
 meta.priority: 1094

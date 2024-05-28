@@ -1,8 +1,8 @@
 ---
 title: The Mask
 meta.type: korpora
-description: Summary of the Stanisław Lem's novel - English adaptation
-meta.description: Summary of the Stanisław Lem's novel - English adaptation
+description: Summary of the Stanisław Lem's novel | English adaptation
+meta.description: Summary of the Stanisław Lem's novel | English adaptation
 meta.keywords: ni'o le firgai, The Mask, Маска, Le Masque, La máscara, A mascára
 meta.author: Summary of the Stanisław Lem's novel
 meta.priority: 10543

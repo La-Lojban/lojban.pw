@@ -1,8 +1,8 @@
 ---
 title: Le Masque
 meta.type: korpora
-description: Résumé du roman de Stanisław Lem - Adaptation française
-meta.description: Résumé du roman de Stanisław Lem - Adaptation française
+description: Résumé du roman de Stanisław Lem | Adaptation française
+meta.description: Résumé du roman de Stanisław Lem | Adaptation française
 meta.keywords: ni'o le firgai, The Mask, Маска, Le Masque, La máscara, A mascára
 meta.author: Résumé du roman de Stanisław Lem
 meta.priority: 10543

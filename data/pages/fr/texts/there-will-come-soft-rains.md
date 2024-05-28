@@ -1,8 +1,8 @@
 ---
 title: Il y aura de douces pluies
 meta.type: korpora
-description: Sara Teasdale - Original anglais
-meta.description: Sara Teasdale - Original anglais
+description: Sara Teasdale | Original anglais
+meta.description: Sara Teasdale | Original anglais
 meta.keywords: ba milxe bo carvi, There Will Come Soft Rains, There will be mild rains, Придут тихие дожди, Il y aura de douces pluies
 meta.author: Sara Teasdale
 meta.priority: 469

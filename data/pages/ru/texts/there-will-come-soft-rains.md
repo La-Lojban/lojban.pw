@@ -1,8 +1,8 @@
 ---
 title: Придут тихие дожди
 meta.type: korpora
-description: Сара Тисдейл - Перевод la gleki
-meta.description: Сара Тисдейл - Перевод la gleki
+description: Сара Тисдейл | Перевод la gleki
+meta.description: Сара Тисдейл | Перевод la gleki
 meta.keywords: ba milxe bo carvi, There Will Come Soft Rains, There will be mild rains, Придут тихие дожди, Il y aura de douces pluies
 meta.author: Сара Тисдейл
 meta.priority: 469

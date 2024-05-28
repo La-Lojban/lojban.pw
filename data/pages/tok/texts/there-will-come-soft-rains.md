@@ -1,8 +1,8 @@
 ---
 title: There Will Come Soft Rains
 meta.type: korpora
-description: Sara Teasdale - English original
-meta.description: Sara Teasdale - English original
+description: Sara Teasdale | English original
+meta.description: Sara Teasdale | English original
 meta.keywords: ba milxe bo carvi, There Will Come Soft Rains, There will be mild rains, Придут тихие дожди, Il y aura de douces pluies
 meta.author: Sara Teasdale
 meta.priority: 469
