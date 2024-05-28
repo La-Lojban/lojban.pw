@@ -1,8 +1,8 @@
 ---
 title: The Book
 meta.type: korpora
-description: H.P. Lovecraft - Original English text
-meta.description: H.P. Lovecraft - Original English text
+description: H.P. Lovecraft | Original English text
+meta.description: H.P. Lovecraft | Original English text
 meta.keywords: le pa cukta, The Book, Le Livre, O Livro, El Libro, Книга, tu'a le cukta, le cukta
 meta.author: H.P. Lovecraft
 og:image: /assets/pixra/texts/the-book/16.svg

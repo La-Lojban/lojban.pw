@@ -1,8 +1,8 @@
 ---
 title: A mascára
 meta.type: korpora
-description: Resumo do romance de Stanisław Lem - Adaptação portuguesa
-meta.description: Resumo do romance de Stanisław Lem - Adaptação portuguesa
+description: Resumo do romance de Stanisław Lem | Adaptação portuguesa
+meta.description: Resumo do romance de Stanisław Lem | Adaptação portuguesa
 meta.keywords: ni'o le firgai, The Mask, Маска, Le Masque, La máscara, A mascára
 meta.author: Resumo do romance de Stanisław Lem
 meta.priority: 10543

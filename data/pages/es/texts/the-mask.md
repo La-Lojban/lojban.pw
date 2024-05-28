@@ -1,8 +1,8 @@
 ---
 title: La máscara
 meta.type: korpora
-description: Resumen de la novela de Stanisław Lem - adaptación española
-meta.description: Resumen de la novela de Stanisław Lem - adaptación española
+description: Resumen de la novela de Stanisław Lem | adaptación española
+meta.description: Resumen de la novela de Stanisław Lem | adaptación española
 meta.keywords: ni'o le firgai, The Mask, Маска, Le Masque, La máscara, A mascára
 meta.author: Resumen de la novela de Stanisław Lem
 meta.priority: 10543

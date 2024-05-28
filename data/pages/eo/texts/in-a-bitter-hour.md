@@ -1,8 +1,8 @@
 ---
 title: En Amara Horo
 meta.type: korpora
-description: Kalman Kaloscay - En Amara Horo, de Kalman Kaloscay
-meta.description: Kalman Kaloscay - En Amara Horo, de Kalman Kaloscay
+description: Kalman Kaloscay | En Amara Horo, de Kalman Kaloscay
+meta.description: Kalman Kaloscay | En Amara Horo, de Kalman Kaloscay
 meta.keywords: En Amara Horo, In A Bitter Hour, ca lo kurki cacra, В горький час
 meta.author: Kalman Kaloscay
 meta.priority: 3554

@@ -1,8 +1,8 @@
 ---
 title: Книга
 meta.type: korpora
-description: Г. П. Лавкрафт - Перевод la gleki
-meta.description: Г. П. Лавкрафт - Перевод la gleki
+description: Г. П. Лавкрафт | Перевод la gleki
+meta.description: Г. П. Лавкрафт | Перевод la gleki
 meta.keywords: le pa cukta, The Book, Le Livre, O Livro, El Libro, Книга, tu'a le cukta, le cukta
 meta.author: Г. П. Лавкрафт
 og:image: /assets/pixra/texts/the-book/16.svg

@@ -1,8 +1,8 @@
 ---
 title: Terroriste, il nous regarde.
 meta.type: korpora
-description: Szymborska Wisława - Traduit par Deepl
-meta.description: Szymborska Wisława - Traduit par Deepl
+description: Szymborska Wisława | Traduit par Deepl
+meta.description: Szymborska Wisława | Traduit par Deepl
 meta.keywords: Terrorysta, on patrzy., sorxaizu'e sei catlu, A terrorist, he is watching, テロリスト、見てる, Террорист, он смотрит., Terroriste, il nous regarde.
 meta.author: Szymborska Wisława
 meta.priority: 1094

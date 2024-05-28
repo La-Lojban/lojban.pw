@@ -1,8 +1,8 @@
 ---
 title: Маска
 meta.type: korpora
-description: Краткое содержание романа Станислава Лема - Русская адаптация
-meta.description: Краткое содержание романа Станислава Лема - Русская адаптация
+description: Краткое содержание романа Станислава Лема | Русская адаптация
+meta.description: Краткое содержание романа Станислава Лема | Русская адаптация
 meta.keywords: ni'o le firgai, The Mask, Маска, Le Masque, La máscara, A mascára
 meta.author: Краткое содержание романа Станислава Лема
 meta.priority: 10543

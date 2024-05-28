@@ -1,8 +1,8 @@
 ---
 title: Северный ветер и солнце
 meta.type: korpora
-description: Эзоп - Перевод: la gleki
-meta.description: Эзоп - Перевод: la gleki
+description: Эзоп | Перевод la gleki
+meta.description: Эзоп | Перевод la gleki
 meta.keywords: ni'o la berti brife jo'u la solri, The North Wind and the Sun, Северный ветер и солнце, Le vent du nord et le soleil
 meta.author: Эзоп
 meta.priority: 734

@@ -1,8 +1,8 @@
 ---
 title: Dictionary with Examples
 meta.type: korpora
-description: Gleki and others - Translation from Lojban
-meta.description: Gleki and others - Translation from Lojban
+description: Gleki and others | Translation from Lojban
+meta.description: Gleki and others | Translation from Lojban
 meta.keywords: liste lo'i xamgu jufra, xamgu jufra, Dictionary with Examples, 
 meta.author: Gleki and others
 meta.priority: 109692

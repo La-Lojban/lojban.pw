@@ -68,6 +68,13 @@ function moveElementForward(array, i) {
     const sheet = doc.sheetsByTitle[title];
     title = title.replace(/^\+/g, "").trim();
     const meta = await sheet.getRows();
+    await sheet.loadCells();
+    const italicizedRows = [];
+    for (let i = 0; i < sheet.rowCount; i++) {
+      const cell = sheet.getCell(i, 0);
+      if (cell?.effectiveFormat?.textFormat?.italic) italicizedRows.push(i);
+    }
+
     const langs = meta[0]._sheet.headerValues.filter(
       (lang) => lang.indexOf("!") !== 0
     );
@@ -184,7 +191,11 @@ function moveElementForward(array, i) {
         const l = cssifyName(lang);
         table[title].push(
           `<td class="${
-            index == 0 ? "font-bold " : index < 4 ? "italic text-gray-500 " : ""
+            index == 0
+              ? "font-bold "
+              : index < 4 || italicizedRows.includes(parseInt(index)+1)
+                ? "italic text-gray-500 "
+                : ""
           }text-left align-text-top p-2 column-class-${l}">${escapeHtml(
             columns[lang][index] ?? ""
           )}</td>`

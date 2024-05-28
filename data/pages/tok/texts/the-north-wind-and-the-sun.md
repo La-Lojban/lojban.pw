@@ -1,8 +1,8 @@
 ---
 title: The North Wind and the Sun
 meta.type: korpora
-description: Aesop - Translated by la gleki
-meta.description: Aesop - Translated by la gleki
+description: Aesop | Translated by la gleki
+meta.description: Aesop | Translated by la gleki
 meta.keywords: ni'o la berti brife jo'u la solri, The North Wind and the Sun, Северный ветер и солнце, Le vent du nord et le soleil
 meta.author: Aesop
 meta.priority: 734

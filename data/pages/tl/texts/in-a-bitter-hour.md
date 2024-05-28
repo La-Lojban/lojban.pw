@@ -1,8 +1,8 @@
 ---
 title: In A Bitter Hour
 meta.type: korpora
-description: Kalman Kalocsay - by Nick Nicholas
-meta.description: Kalman Kalocsay - by Nick Nicholas
+description: Kalman Kalocsay | by Nick Nicholas
+meta.description: Kalman Kalocsay | by Nick Nicholas
 meta.keywords: En Amara Horo, In A Bitter Hour, ca lo kurki cacra, В горький час
 meta.author: Kalman Kalocsay
 meta.priority: 3554

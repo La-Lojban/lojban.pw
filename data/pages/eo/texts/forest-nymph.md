@@ -1,8 +1,8 @@
 ---
 title: Forest nymph
 meta.type: korpora
-description: Elin Pelin - translated from Bulgarian by la gleki
-meta.description: Elin Pelin - translated from Bulgarian by la gleki
+description: Elin Pelin | translated from Bulgarian by la gleki
+meta.description: Elin Pelin | translated from Bulgarian by la gleki
 meta.keywords: Самодива, ni'o ni'o le ricfoi crida, Forest nymph, Лесная нимфа
 meta.author: Elin Pelin
 og:image: /assets/pixra/texts/forest-nymph/2.png
