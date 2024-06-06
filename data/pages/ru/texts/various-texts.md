@@ -1,11 +1,11 @@
 ---
 title: Разные тексты
 meta.type: korpora
-description: Разные тексты | Разные авторы
-meta.description: Разные тексты | Разные авторы
+description: Разные авторы | Vários tradutores
+meta.description: Разные авторы | Vários tradutores
 meta.keywords: ni'o le'i jufra ku noi vrici, Various texts, Vários textos, Разные тексты
-meta.author: Разные тексты
-meta.priority: 444
+meta.author: Разные авторы
+meta.priority: 438
 ---
 
 <div class="w-full">
@@ -106,30 +106,6 @@ meta.priority: 444
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
           >
-            ni&#039;o le&#039;i jufra ku noi vrici
-          </td>
-          <td
-            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
-          >
-            Various texts
-          </td>
-          <td
-            class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
-          >
-            Vários textos
-          </td>
-          <td
-            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
-          >
-            Разные тексты
-          </td>
-        </tr>
-        <tr
-          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
-        >
-          <td
-            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
-          >
             ni&#039;o finti fa so&#039;i da
           </td>
           <td
@@ -146,6 +122,30 @@ meta.priority: 444
             class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
           >
             Разные авторы
+          </td>
+        </tr>
+        <tr
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
+        >
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
+          >
+            ni&#039;o fanva fa za&#039;u de
+          </td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
+          >
+            Various translators
+          </td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-porto"
+          >
+            Vários autores
+          </td>
+          <td
+            class="italic text-gray-500 text-left align-text-top p-2 column-class-rusko"
+          >
+            Vários tradutores
           </td>
         </tr>
         <tr
@@ -176,43 +176,114 @@ meta.priority: 444
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i fanva fa la gleki
+            .i lojbo krasi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            la gleki
+            Translated to English by la gleki
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
-            la gleki
+            Traduzido para o português por la gleki
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            Перевод la gleki
+            Перевел на русский язык la gleki
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i le nicte ca xekri je blanu i le dirba pu klama le darno i da
-            ve&#039;e trixe le tsani i da ze&#039;e sevzi le se prami i le kanla
-            be ra cu pu carmi i doi dilnu do e&#039;osai carvi
+            i le nicte ca xekri je blanu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The night is black-n-blue. The darling went far away. There is
-            something that covers the entire space behind the sky. There is
-            something that covers the whole of time of the soul of my beloved.
-            Her eyes were intense. Oh cloud, please let it rain.
+            The night is black-n-blue.
           </td>
           <td class="text-left align-text-top p-2 column-class-porto">
-            A noite está negra-e-azul. O querido foi para longe. Há algo que
-            cobre todo o espaço atrás do céu. Há algo que cobre todo o tempo da
-            alma da minha amada. Seus olhos eram intensos. Oh nuvem, por favor,
-            deixe chover.
+            A noite está negra-e-azul.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
-            Ночь черно-синяя. Любимый ушел далеко. Есть что-то, что покрывает
-            весь простор позади неба. Есть что-то, что покрывает весь промежуток
-            времени души моего возлюбленного. Его глаза были яркими. О, облако,
-            прошу, снизойди дождём.
+            Ночь черно-синяя.
+          </td>
+        </tr>
+        <tr
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
+        >
+          <td class="text-left align-text-top p-2 column-class-lojbo">
+            i le dirba pu klama le darno
+          </td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            The darling went far away.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            O querido foi para longe.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Любимый ушел далеко.
+          </td>
+        </tr>
+        <tr
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
+        >
+          <td class="text-left align-text-top p-2 column-class-lojbo">
+            i da ve&#039;e trixe le tsani
+          </td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            There is something that covers the entire space behind the sky.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Há algo que cobre todo o espaço atrás do céu.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Есть что-то, что покрывает весь простор позади неба.
+          </td>
+        </tr>
+        <tr
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
+        >
+          <td class="text-left align-text-top p-2 column-class-lojbo">
+            i da ze&#039;e sevzi le se prami
+          </td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            There is something that covers the whole of time of the soul of my
+            beloved.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Há algo que cobre todo o tempo da alma da minha amada.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Есть что-то, что покрывает весь промежуток времени души моего
+            возлюбленного.
+          </td>
+        </tr>
+        <tr
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
+        >
+          <td class="text-left align-text-top p-2 column-class-lojbo">
+            i le kanla be ra cu pu carmi
+          </td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            Her eyes were intense.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Seus olhos eram intensos.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Его глаза были яркими.
+          </td>
+        </tr>
+        <tr
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
+        >
+          <td class="text-left align-text-top p-2 column-class-lojbo">
+            i doi dilnu do e&#039;osai carvi
+          </td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            Oh cloud, please let it rain.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-porto">
+            Oh nuvem, por favor, deixe chover.
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            О, облако, прошу, снизойди дождём.
           </td>
         </tr>
         <tr
