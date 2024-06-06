@@ -1,0 +1,4 @@
+<a id="section-logic-conclusion"></a>16.15. <a id="c16s15"></a>Conclusion
+-------------------------------------------------------------------------
+
+<a id="id-1.17.17.2.1" class="indexterm"></a>This chapter is incomplete. There are many more aspects of logic that I neither fully understand nor feel competent to explain, neither in abstract nor in their Lojban realization. Lojban was designed to be a language that makes predicate logic speakable, and achieving that goal completely will need to wait for someone who understands both logic and Lojban better than I do. I can only hope to have pointed out the areas that are well-understood (and by implication, those that are not).

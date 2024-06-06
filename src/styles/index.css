@@ -89,6 +89,10 @@ a {
   }
 } */
 
+article h1 {
+  @apply text-4xl my-4 leading-snug;
+}
+
 article h2 {
   @apply text-3xl my-4 leading-snug;
 }

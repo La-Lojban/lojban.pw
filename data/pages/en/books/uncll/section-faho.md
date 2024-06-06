@@ -1,0 +1,8 @@
+<a id="section-faho"></a>19.15. <a id="c19s15"></a>No more to say: FAhO
+-----------------------------------------------------------------------
+
+The following cmavo is discussed in this section:
+
+<table class="cmavo-list"><colgroup></colgroup><tbody><tr class="cmavo-entry"><td class="cmavo"><p class="cmavo">fa'o</p></td><td class="selmaho"><p class="selmaho">FAhO</p></td><td class="description"><p class="description">end of text</p></td></tr></tbody></table>
+
+<a id="id-1.20.17.4.1" class="indexterm"></a><a id="id-1.20.17.4.2" class="indexterm"></a><a id="id-1.20.17.4.3" class="indexterm"></a><a id="id-1.20.17.4.4" class="indexterm"></a>The cmavo _<a id="id-1.20.17.4.5.1" class="indexterm"></a>[_fa'o_](../go01#valsi-faho)_ (of selma'o FAhO) is the usually omitted marker for the end of a text; it can be used in computer interaction to indicate the end of input or output, or for explicitly giving up the floor during a discussion. It is outside the regular grammar, and the machine parser takes it as an unconditional signal to stop parsing unless it is quoted with _<a id="id-1.20.17.4.6.1" class="indexterm"></a>[_zo_](../go01#valsi-zo)_ or with _<a id="id-1.20.17.4.7.1" class="indexterm"></a>lo'u ... le'u_. In particular, it is not used at the end of subordinate texts quoted with _<a id="id-1.20.17.4.8.1" class="indexterm"></a>[_lu_](../go01#valsi-lu)_ … _<a id="id-1.20.17.4.9.1" class="indexterm"></a>[_li'u_](../go01#valsi-lihu)_ or parenthesized with _<a id="id-1.20.17.4.10.1" class="indexterm"></a>to ... toi_.

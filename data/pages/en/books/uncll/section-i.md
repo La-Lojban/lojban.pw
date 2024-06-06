@@ -1,0 +1,29 @@
+<a id="section-i"></a>19.2. <a id="c19s2"></a>Sentences: I
+----------------------------------------------------------
+
+The following cmavo is discussed in this section:
+
+<table class="cmavo-list"><colgroup></colgroup><tbody><tr class="cmavo-entry"><td class="cmavo"><p class="cmavo">.i</p></td><td class="selmaho"><p class="selmaho">I</p></td><td class="description"><p class="description">sentence separator</p></td></tr></tbody></table>
+
+<a id="id-1.20.4.4.1" class="indexterm"></a>Since Lojban is audio-visually isomorphic, there needs to be a spoken and written way of signaling the end of a sentence and the start of the following one. In written English, a period serves this purpose; in spoken English, a tone contour (rising or falling) usually does the job, or sometimes a long pause. Lojban uses a single separator: the cmavo _<a id="id-1.20.4.4.2.1" class="indexterm"></a>[_.i_](../go01#valsi-i)_ (of selma'o I):
+
+<div class="interlinear-gloss-example example">
+<a id="example-random-id-XKAG"></a>
+
+**Example 19.1. <a id="c19e2d1"></a>** 
+
+<table class="interlinear-gloss"><colgroup></colgroup><tbody><tr class="jbo"><td>mi</td><td>klama</td><td>le</td><td>zarci</td><td>.i</td><td>do</td><td>cadzu</td><td>le</td><td>bisli</td></tr><tr class="gloss"><td>I</td><td>go-to</td><td>the</td><td>store.</td><td></td><td>You</td><td>walk-on</td><td>the</td><td>ice.</td></tr></tbody></table>
+
+</div>  
+
+<a id="id-1.20.4.6.1" class="indexterm"></a>The word “separator” should be noted. _<a id="id-1.20.4.6.3.1" class="indexterm"></a>[_.i_](../go01#valsi-i)_ is not normally used after the last sentence nor before the first one, although both positions are technically grammatical. _<a id="id-1.20.4.6.4.1" class="indexterm"></a>[_.i_](../go01#valsi-i)_ signals a new sentence on the same topic, not necessarily by the same speaker. The relationship between the sentences is left vague, except in stories, where the relationship usually is temporal, and the following sentence states something that happened after the previous sentence.
+
+Note that although the first letter of an English sentence is capitalized, the cmavo _<a id="id-1.20.4.7.1.1" class="indexterm"></a>[_.i_](../go01#valsi-i)_ is never capitalized. In writing, it is appropriate to place extra space before _<a id="id-1.20.4.7.2.1" class="indexterm"></a>[_.i_](../go01#valsi-i)_ to make it stand out better for the reader. In some styles of Lojban writing, every _<a id="id-1.20.4.7.3.1" class="indexterm"></a>[_.i_](../go01#valsi-i)_ is placed at the beginning of a line, possibly leaving space at the end of the previous line.
+
+An _<a id="id-1.20.4.8.1.1" class="indexterm"></a>[_.i_](../go01#valsi-i)_ cmavo may or may not be used when the speaker of the following sentence is different from the speaker of the preceding sentence, depending on whether the sentences are felt to be connected or not.
+
+An _<a id="id-1.20.4.9.1.1" class="indexterm"></a>[_.i_](../go01#valsi-i)_ cmavo can be compounded with a logical or non-logical connective (a jek or joik), a modal or tense connective, or both: these constructs are explained in [Section 9.8](../section-modal-connectives) , [Section 10.16](../section-tense-connection) , and [Section 14.4](../section-bridi-connection). In all cases, the _<a id="id-1.20.4.9.5.1" class="indexterm"></a>[_.i_](../go01#valsi-i)_ comes first in the compound. Attitudinals can also be attached to an _<a id="id-1.20.4.9.6.1" class="indexterm"></a>[_.i_](../go01#valsi-i)_ if they are meant to apply to the whole sentence: see [Section 13.9](../section-scope).
+
+<a id="id-1.20.4.10.1" class="indexterm"></a>There exist a pair of mechanisms for binding a sequence of sentences closely together. If the _<a id="id-1.20.4.10.2.1" class="indexterm"></a>[_.i_](../go01#valsi-i)_ (with or without connectives) is followed by _<a id="id-1.20.4.10.3.1" class="indexterm"></a>[_bo_](../go01#valsi-bo)_ (of selma'o BO), then the two sentences being separated are understood to be more closely grouped than sentences connected by _<a id="id-1.20.4.10.4.1" class="indexterm"></a>[_.i_](../go01#valsi-i)_ alone.
+
+<a id="id-1.20.4.11.1" class="indexterm"></a>Similarly, a group of sentences can be preceded by _<a id="id-1.20.4.11.2.1" class="indexterm"></a>[_tu'e_](../go01#valsi-tuhe)_ (of selma'o TUhE) and followed by _<a id="id-1.20.4.11.3.1" class="indexterm"></a>[_tu'u_](../go01#valsi-tuhu)_ (of selma'o TUhU) to fuse them into a single unit. A common use of _<a id="id-1.20.4.11.4.1" class="indexterm"></a>[_tu'e_](../go01#valsi-tuhe)_ … _<a id="id-1.20.4.11.5.1" class="indexterm"></a>[_tu'u_](../go01#valsi-tuhu)_ is to group the sentences which compose a poem: the title sentence would precede the group, separated from it by _<a id="id-1.20.4.11.6.1" class="indexterm"></a>[_.i_](../go01#valsi-i)_. Another use might be a set of directions, where each numbered direction might be surrounded by _<a id="id-1.20.4.11.7.1" class="indexterm"></a>[_tu'e_](../go01#valsi-tuhe)_ … _<a id="id-1.20.4.11.8.1" class="indexterm"></a>[_tu'u_](../go01#valsi-tuhu)_ and contain one or more sentences separated by _<a id="id-1.20.4.11.9.1" class="indexterm"></a>[_.i_](../go01#valsi-i)_. Grouping with _<a id="id-1.20.4.11.10.1" class="indexterm"></a>[_tu'e_](../go01#valsi-tuhe)_ and _<a id="id-1.20.4.11.11.1" class="indexterm"></a>[_tu'u_](../go01#valsi-tuhu)_ is analogous to grouping with _<a id="id-1.20.4.11.12.1" class="indexterm"></a>[_ke_](../go01#valsi-ke)_ and _<a id="id-1.20.4.11.13.1" class="indexterm"></a>[_ke'e_](../go01#valsi-kehe)_ to establish the scope of logical or non-logical connectives (see [Section 14.8](../section-afterthought-connectives-grouping)).

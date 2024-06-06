@@ -1,0 +1,10 @@
+<a id="section-hesitation"></a>19.14. <a id="c19s14"></a>Hesitation: Y
+----------------------------------------------------------------------
+
+The following cmavo is discussed in this section:
+
+<table class="cmavo-list"><colgroup></colgroup><tbody><tr class="cmavo-entry"><td class="cmavo"><p class="cmavo">.y.</p></td><td class="selmaho"><p class="selmaho">Y</p></td><td class="description"><p class="description">hesitation noise</p></td></tr></tbody></table>
+
+Speakers often need to hesitate to think of what to say next or for some extra-linguistic reason. There are two ways to hesitate in Lojban: to pause between words (that is, to say nothing) or to use the cmavo _<a id="id-1.20.16.4.1.1" class="indexterm"></a>[_.y._](../go01#valsi-y)_ (of selma'o Y). This resembles in sound the English hesitation noise written “uh” (or “er”), but differs from it in the requirement for pauses before and after. Unlike a long pause, it cannot be mistaken for having nothing more to say: it holds the floor for the speaker. Since vowel length is not significant in Lojban, the _y_ sound can be dragged out for as long as necessary. Furthermore, the sound can be repeated, provided the required pauses are respected.
+
+<a id="id-1.20.16.5.1" class="indexterm"></a>Since the hesitation sound in English is outside the formal language, English-speakers may question the need for a formal cmavo. Speakers of other languages, however, often hesitate by saying (or, if necessary, repeating) a word ( “este” in some dialects of Spanish, roughly meaning “that is”), and Lojban's audio-visual isomorphism requires a written representation of all meaningful spoken behavior. Of course, _<a id="id-1.20.16.5.4.1" class="indexterm"></a>[_.y._](../go01#valsi-y)_ has no grammatical significance: it can appear anywhere at all in a Lojban sentence except in the middle of a word.

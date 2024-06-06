@@ -1,0 +1,27 @@
+<a id="section-dimensionality"></a>10.7. <a id="c10s7"></a>Dimensionality: VIhA
+-------------------------------------------------------------------------------
+
+The following cmavo are discussed in this section:
+
+<table class="cmavo-list"><colgroup></colgroup><tbody><tr class="cmavo-entry"><td class="cmavo"><p class="cmavo">vi'i</p></td><td class="selmaho"><p class="selmaho">VIhA</p></td><td class="description"><p class="description">on a line</p></td></tr><tr class="cmavo-entry"><td class="cmavo"><p class="cmavo">vi'a</p></td><td class="selmaho"><p class="selmaho">VIhA</p></td><td class="description"><p class="description">in an area</p></td></tr><tr class="cmavo-entry"><td class="cmavo"><p class="cmavo">vi'u</p></td><td class="selmaho"><p class="selmaho">VIhA</p></td><td class="description"><p class="description">through a volume</p></td></tr><tr class="cmavo-entry"><td class="cmavo"><p class="cmavo">vi'e</p></td><td class="selmaho"><p class="selmaho">VIhA</p></td><td class="description"><p class="description">throughout a space/time interval</p></td></tr></tbody></table>
+
+<a id="id-1.11.9.4.1" class="indexterm"></a><a id="id-1.11.9.4.2" class="indexterm"></a><a id="id-1.11.9.4.3" class="indexterm"></a><a id="id-1.11.9.4.4" class="indexterm"></a><a id="id-1.11.9.4.5" class="indexterm"></a><a id="id-1.11.9.4.6" class="indexterm"></a>The cmavo of ZEhA are sufficient to express time intervals. One fundamental difference between space and time, however, is that space is multi-dimensional. Sometimes we want to say not only that something moves over a small interval, but also perhaps that it moves in a line. Lojban allows for this. I can specify that a motion “in a small space” is more specifically “in a short line” , “in a small area” , or “through a small volume”.
+
+What about the child walking on the ice in [Example 10.23](../section-interval-sizes#example-random-id-Pgzz) through [Example 10.25](../section-interval-sizes#example-random-id-gHPI) ? Given the nature of ice, probably the area interpretation is most sensible. I can make this assumption explicit with the appropriate member of selma'o VIhA:
+
+<div class="interlinear-gloss-example example">
+<a id="example-random-id-vKp6"></a>
+
+**Example 10.34. <a id="c10e7d1"></a>** 
+
+<table class="interlinear-gloss"><colgroup></colgroup><tbody><tr class="jbo"><td>le</td><td>verba</td><td>ve'a</td><td>vi'a</td><td>cadzu</td><td>le</td><td>bisli</td></tr><tr class="gloss"><td>The</td><td>child</td><td>[medium-space-interval]</td><td>[2-dimensional]</td><td>walks-on</td><td>the</td><td>ice.</td></tr></tbody></table>
+
+<table class="interlinear-gloss"><tbody><tr class="para"><td colspan="12321"><p class="natlang">In a medium-sized area, the child walks on the ice.</p></td></tr></tbody></table>
+
+</div>  
+
+<a id="id-1.11.9.7.1" class="indexterm"></a><a id="id-1.11.9.7.2" class="indexterm"></a><a id="id-1.11.9.7.3" class="indexterm"></a><a id="id-1.11.9.7.4" class="indexterm"></a>Space intervals can contain either VEhA or VIhA or both, but if both, VEhA must come first, as [Example 10.34](../section-dimensionality#example-random-id-vKp6) shows.
+
+<a id="id-1.11.9.8.1" class="indexterm"></a><a id="id-1.11.9.8.2" class="indexterm"></a>The reader may wish to raise a philosophical point here. (Readers who don't wish to, should skip this paragraph.) The ice may be two-dimensional, or more accurately its surface may be, but since the child is three-dimensional, her walking must also be. The subjective nature of Lojban tense comes to the rescue here: the action is essentially planar, and the third dimension of height is simply irrelevant to walking. Even walking on a mountain could be called _<a id="id-1.11.9.8.3.1" class="indexterm"></a>[_vi'a_](../go01#valsi-viha)_ , because relatively speaking the mountain is associated with an essentially two-dimensional surface. Motion which is not confined to such a surface (e.g., flying, or walking through a three-dimensional network of tunnels, or climbing among mountains rather than on a single mountain) would be properly described with _<a id="id-1.11.9.8.4.1" class="indexterm"></a>[_vi'u_](../go01#valsi-vihu)_. So the cognitive, rather than the physical, dimensionality controls the choice of VIhA cmavo.
+
+<a id="id-1.11.9.9.1" class="indexterm"></a><a id="id-1.11.9.9.2" class="indexterm"></a><a id="id-1.11.9.9.3" class="indexterm"></a><a id="id-1.11.9.9.4" class="indexterm"></a><a id="id-1.11.9.9.5" class="indexterm"></a><a id="id-1.11.9.9.6" class="indexterm"></a><a id="id-1.11.9.9.7" class="indexterm"></a>VIhA has a member _<a id="id-1.11.9.9.8.1" class="indexterm"></a>[_vi'e_](../go01#valsi-vihe)_ which indicates a 4-dimensional interval, one that involves both space and time. This allows the spatial tenses to invade, to some degree, the temporal tenses; it is possible to make statements about space-time considered as an Einsteinian whole. (There are presently no cmavo of FAhA assigned to “pastward” and “futureward” considered as space rather than time directions – they could be added, though, if Lojbanists find space-time expression useful.) If a temporal tense cmavo is used in the same tense construct with a _<a id="id-1.11.9.9.11.1" class="indexterm"></a>[_vi'e_](../go01#valsi-vihe)_ interval, the resulting tense may be self-contradictory.

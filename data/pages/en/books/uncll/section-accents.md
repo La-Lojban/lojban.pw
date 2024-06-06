@@ -1,0 +1,27 @@
+<a id="section-accents"></a>17.6. <a id="c17s6"></a>Accent marks and compound lerfu words
+-----------------------------------------------------------------------------------------
+
+<a id="id-1.18.8.2.1" class="indexterm"></a><a id="id-1.18.8.2.2" class="indexterm"></a><a id="id-1.18.8.2.3" class="indexterm"></a><a id="id-1.18.8.2.4" class="indexterm"></a><a id="id-1.18.8.2.5" class="indexterm"></a><a id="id-1.18.8.2.6" class="indexterm"></a><a id="id-1.18.8.2.7" class="indexterm"></a>Many languages that make use of the Latin alphabet add special marks to some of the lerfu they use. French, for example, uses three accent marks above vowels, called (in English) “acute” , “grave” , and “circumflex”. Likewise, German uses a mark called “umlaut” ; a mark which looks the same is also used in French, but with a different name and meaning.
+
+<a id="id-1.18.8.3.1" class="indexterm"></a>These marks may be considered lerfu, and each has a corresponding lerfu word in Lojban. So far, no problem. But the marks appear over lerfu, whereas the words must be spoken (or written) either before or after the lerfu word representing the basic lerfu. Typewriters (for mechanical reasons) and the computer programs that emulate them usually require their users to type the accent mark before the basic lerfu, whereas in speech the accent mark is often pronounced afterwards (for example, in German “a umlaut” is preferred to “umlaut a”).
+
+<a id="id-1.18.8.4.1" class="indexterm"></a>Lojban cannot settle this question by fiat. Either it must be left up to default interpretation depending on the language in question, or the lerfu-word compounding cmavo _<a id="id-1.18.8.4.2.1" class="indexterm"></a>[_tei_](../go01#valsi-tei)_ (of selma'o TEI) and _<a id="id-1.18.8.4.3.1" class="indexterm"></a>[_foi_](../go01#valsi-foi)_ (of selma'o FOI) must be used. These cmavo are always used in pairs; any number of lerfu words may appear between them, and the whole is treated as a single compound lerfu word. The French word “été” , with acute accent marks on both “e” lerfu, could be spelled as:
+
+<div class="interlinear-gloss-example example">
+<a id="example-random-id-NQgb"></a>
+
+**Example 17.18. <a id="c17e6d1"></a><a id="id-1.18.8.5.1.2" class="indexterm"></a>** 
+
+<table class="interlinear-gloss"><colgroup></colgroup><tbody><tr class="jbo"><td>tei</td><td>.ebu</td><td>.akut.bu</td><td>foi</td><td>ty.</td><td>tei</td><td>.akut.bu</td><td>.ebu</td><td>foi</td></tr><tr class="gloss"><td>(</td><td>e</td><td>acute</td><td>)</td><td>t</td><td>(</td><td>acute</td><td>e</td><td>)</td></tr></tbody></table>
+
+</div>  
+
+<a id="id-1.18.8.6.1" class="indexterm"></a><a id="id-1.18.8.6.2" class="indexterm"></a>and it does not matter whether _<a id="id-1.18.8.6.3.1" class="indexterm"></a>.akut. bu_ appears before or after _<a id="id-1.18.8.6.4.1" class="indexterm"></a>[_.ebu_](../go01#valsi-ebu)_ ; the _<a id="id-1.18.8.6.5.1" class="indexterm"></a>[_tei_](../go01#valsi-tei)_ … _<a id="id-1.18.8.6.6.1" class="indexterm"></a>[_foi_](../go01#valsi-foi)_ grouping guarantees that the acute accent is associated with the correct lerfu. Of course, the level of precision represented by [Example 17.18](../section-accents#example-random-id-NQgb) would rarely be required: it might be needed by a Lojban-speaker when spelling out a French word for exact transcription by another Lojban-speaker who did not know French.
+
+<a id="id-1.18.8.7.1" class="indexterm"></a>This system breaks down in languages which use more than one accent mark on a single lerfu; some other convention must be used for showing which accent marks are written where in that case. The obvious convention is to represent the mark nearest the basic lerfu by the lerfu word closest to the word representing the basic lerfu. Any remaining ambiguities must be resolved by further conventions not yet established.
+
+<a id="id-1.18.8.8.1" class="indexterm"></a><a id="id-1.18.8.8.2" class="indexterm"></a><a id="id-1.18.8.8.3" class="indexterm"></a><a id="id-1.18.8.8.4" class="indexterm"></a><a id="id-1.18.8.8.5" class="indexterm"></a>Some languages, like Swedish and Finnish, consider certain accented lerfu to be completely distinct from their unaccented equivalents, but Lojban does not make a formal distinction, since the printed characters look the same whether they are reckoned as separate letters or not. In addition, some languages consider certain 2-letter combinations (like “ll” and “ch” in Spanish) to be letters; this may be represented by enclosing the combination in _<a id="id-1.18.8.8.8.1" class="indexterm"></a>[_tei_](../go01#valsi-tei)_ … _<a id="id-1.18.8.8.9.1" class="indexterm"></a>[_foi_](../go01#valsi-foi)_.
+
+<a id="id-1.18.8.9.1" class="indexterm"></a>In addition, when discussing a specific language, it is permissible to make up new lerfu words, as long as they are either explained locally or well understood from context: thus Spanish “ll” or Croatian “lj” could be called _<a id="id-1.18.8.9.4.1" class="indexterm"></a>[_.ibu_](../go01#valsi-ibu)_ , but that usage would not necessarily be universally understood.
+
+[Section 17.19](../section-accents-multiple-letters) contains a table of proposed lerfu words for some common accent marks.
