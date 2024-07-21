@@ -158,7 +158,7 @@ function moveElementForward(array, i) {
       css.push(`
         .column-class-${cssfiedLangName} {
           min-width: 200px;
-          ${parseInt(i) === langs.length - 1 ? "white-space: nowrap; overflow-x: auto;" : ""}
+          ${(lang && lang.includes("||")) ? "white-space: nowrap; overflow-x: auto;" : ""}
         }
       `);
     }
@@ -329,11 +329,11 @@ ${contentMd}`;
       word-wrap: break-word;
       overflow-wrap: break-word;
     }
-    tr td:last-child .inner-table {
+    tr td .inner-table {
       table-layout: auto;
       width: auto;
     }
-    tr td:last-child .inner-table td {
+    tr td .inner-table td {
       white-space: nowrap;
     }
   `);
