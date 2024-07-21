@@ -111,7 +111,6 @@ function moveElementForward(array, i) {
       const lang = langs[i];
       const cssfiedLangName = cssifyName(lang);
       const txt = meta.map((row) => row[lang]);
-      console.log(txt[0]);
       columns[lang] = txt;
 
       // Check if the first cell contains "||" to determine if it's a table column
@@ -189,7 +188,7 @@ function moveElementForward(array, i) {
     });
 
     const keywords = Object.keys(columns)
-      .map((lang) => columns[lang][1])
+      .map((lang) => columns[lang][1]).filter(column=>!!column)
       .join(", ");
     let ogImage;
     for (const index in columns[langs[0]]) {
