@@ -120,7 +120,7 @@ function moveElementForward(array, i) {
 
       const prettifiedLang = lang.replace(/\|\|/g, "").trim();
       table[title].push(
-        `<th scope="col" class="p-2 column-class-${cssfiedLangName}">${escapeHtml(lang)}</th>`
+        `<th scope="col" class="p-2 column-class-${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`
       );
       buttons[title].push(
         `<input type="checkbox" id="hide-column-${cssfiedLangName}" class="hide-column-checkbox-${cssfiedLangName}" />
