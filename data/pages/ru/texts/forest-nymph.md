@@ -6,7 +6,7 @@ meta.description: Елин Пелин | перевод с болгарского
 meta.keywords: Самодива, ni'o ni'o le ricfoi crida, Forest nymph, Лесная нимфа
 meta.author: Елин Пелин
 og:image: /assets/pixra/texts/forest-nymph/2.png
-meta.priority: 7113
+meta.priority: 7119
 ---
 
 <div class="w-full">
@@ -180,7 +180,7 @@ meta.priority: 7113
             rirxe cu gacri le pluka xadni be ra i lei kerfu ku noi viknu cu
             tcena le snime blabi janco be le birka be ra tai lo nu lo citno
             dalgidva cu jai gau muvdu fa lo dalgunma be lo co&#039;a ruble lo
-            salpo lo salpo i le mutce cmalu tuple be ra ca&#039;o se lumci le
+            salpo lo salpo i le mutce cmalu jamfu be ra ca&#039;o se lumci le
             flecu be le klina rirxe be ve&#039;i i ti&#039;a ra zvati fa le noi
             se renro gi&#039;e ba&#039;o vifne ku&#039;o za&#039;u ricfoi xrula
             e le pa se jivbu be fi lo pelxu primula
@@ -214,9 +214,9 @@ meta.priority: 7113
             воал, готова да избяга.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i ra fau gi mi zgana gi co&#039;i slilu gi&#039;e ba bo toldarsi
-            jai gau jmaji fai le&#039;i korbi be le banli murta pe ra fau lo nu
-            ra bredi lo ka ba bajra klama fi
+            .i ra fau gi mi zgana gi co&#039;i suksa muvdu gi&#039;e ba bo
+            toldarsi jai gau jmaji fai le&#039;i korbi be le banli murta pe ra
+            fau lo nu ra bredi lo ka ba bajra klama fi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Upon seeing me, she flinched and shyly gathered the edges of her

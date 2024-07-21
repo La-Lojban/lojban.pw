@@ -20,28 +20,6 @@
   color: #999;
 }
 
-.hide-column-checkbox-sampu_lojbo {
-  display: none;
-}
-
-.hide-column-checkbox-sampu_lojbo:checked
-  + .hide-column-button-sampu_lojbo
-  ~ div
-  table
-  th.column-class-sampu_lojbo,
-.hide-column-checkbox-sampu_lojbo:checked
-  + .hide-column-button-sampu_lojbo
-  ~ div
-  table
-  td.column-class-sampu_lojbo {
-  display: none;
-}
-
-.hide-column-checkbox-sampu_lojbo:checked + .hide-column-button-sampu_lojbo {
-  background-color: #fff;
-  color: #999;
-}
-
 .hide-column-checkbox-glico {
   display: none;
 }
@@ -108,28 +86,6 @@
   color: #999;
 }
 
-.hide-column-checkbox-spano {
-  display: none;
-}
-
-.hide-column-checkbox-spano:checked
-  + .hide-column-button-spano
-  ~ div
-  table
-  th.column-class-spano,
-.hide-column-checkbox-spano:checked
-  + .hide-column-button-spano
-  ~ div
-  table
-  td.column-class-spano {
-  display: none;
-}
-
-.hide-column-checkbox-spano:checked + .hide-column-button-spano {
-  background-color: #fff;
-  color: #999;
-}
-
 .hide-column-checkbox-porto {
   display: none;
 }
@@ -148,6 +104,95 @@
 }
 
 .hide-column-checkbox-porto:checked + .hide-column-button-porto {
+  background-color: #fff;
+  color: #999;
+}
+
+.hide-column-checkbox-jbovla {
+  display: none;
+}
+
+.hide-column-checkbox-jbovla:checked
+  + .hide-column-button-jbovla
+  ~ div
+  table
+  th.column-class-jbovla,
+.hide-column-checkbox-jbovla:checked
+  + .hide-column-button-jbovla
+  ~ div
+  table
+  td.column-class-jbovla {
+  display: none;
+}
+
+.hide-column-checkbox-jbovla:checked + .hide-column-button-jbovla {
+  background-color: #fff;
+  color: #999;
+}
+
+.hide-column-checkbox-English_definition {
+  display: none;
+}
+
+.hide-column-checkbox-English_definition:checked
+  + .hide-column-button-English_definition
+  ~ div
+  table
+  th.column-class-English_definition,
+.hide-column-checkbox-English_definition:checked
+  + .hide-column-button-English_definition
+  ~ div
+  table
+  td.column-class-English_definition {
+  display: none;
+}
+
+.hide-column-checkbox-English_definition:checked
+  + .hide-column-button-English_definition {
+  background-color: #fff;
+  color: #999;
+}
+
+.hide-column-checkbox-sampu_lojbo {
+  display: none;
+}
+
+.hide-column-checkbox-sampu_lojbo:checked
+  + .hide-column-button-sampu_lojbo
+  ~ div
+  table
+  th.column-class-sampu_lojbo,
+.hide-column-checkbox-sampu_lojbo:checked
+  + .hide-column-button-sampu_lojbo
+  ~ div
+  table
+  td.column-class-sampu_lojbo {
+  display: none;
+}
+
+.hide-column-checkbox-sampu_lojbo:checked + .hide-column-button-sampu_lojbo {
+  background-color: #fff;
+  color: #999;
+}
+
+.hide-column-checkbox-spano {
+  display: none;
+}
+
+.hide-column-checkbox-spano:checked
+  + .hide-column-button-spano
+  ~ div
+  table
+  th.column-class-spano,
+.hide-column-checkbox-spano:checked
+  + .hide-column-button-spano
+  ~ div
+  table
+  td.column-class-spano {
+  display: none;
+}
+
+.hide-column-checkbox-spano:checked + .hide-column-button-spano {
   background-color: #fff;
   color: #999;
 }
@@ -485,51 +530,6 @@
 }
 
 .hide-column-checkbox-tokpona:checked + .hide-column-button-tokpona {
-  background-color: #fff;
-  color: #999;
-}
-
-.hide-column-checkbox-jbovla {
-  display: none;
-}
-
-.hide-column-checkbox-jbovla:checked
-  + .hide-column-button-jbovla
-  ~ div
-  table
-  th.column-class-jbovla,
-.hide-column-checkbox-jbovla:checked
-  + .hide-column-button-jbovla
-  ~ div
-  table
-  td.column-class-jbovla {
-  display: none;
-}
-
-.hide-column-checkbox-jbovla:checked + .hide-column-button-jbovla {
-  background-color: #fff;
-  color: #999;
-}
-
-.hide-column-checkbox-English_definition {
-  display: none;
-}
-
-.hide-column-checkbox-English_definition:checked
-  + .hide-column-button-English_definition
-  ~ div
-  table
-  th.column-class-English_definition,
-.hide-column-checkbox-English_definition:checked
-  + .hide-column-button-English_definition
-  ~ div
-  table
-  td.column-class-English_definition {
-  display: none;
-}
-
-.hide-column-checkbox-English_definition:checked
-  + .hide-column-button-English_definition {
   background-color: #fff;
   color: #999;
 }

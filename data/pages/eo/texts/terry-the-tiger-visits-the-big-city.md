@@ -320,7 +320,7 @@ meta.priority: 2555
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            .i baziku la .teris. co&#039;a klama le pa rirxe gi&#039;e retsku fi
+            .i baziku la .teris. mo&#039;u klama le pa rirxe gi&#039;e retsku fi
             le pa finpe pe ne&#039;i le rirxe fe le sedu&#039;u makau pluta le
             tcadu .i le finpe fi la .teris. cu spusku fe lu «ko cadzu ne&#039;a
             le bu&#039;u rirxe ze&#039;a le djedi be li ci .ibabo do viska ru
@@ -331,7 +331,7 @@ meta.priority: 2555
             le nicte
           </td>
           <td class="text-left align-text-top p-2 column-class-sampu_lojbo">
-            .i ba zi ku la .teris. co&#039;a klama le rirxe gi&#039;e retsku fi
+            .i ba zi ku la .teris. mo&#039;u klama le rirxe gi&#039;e retsku fi
             le finpe noi zvati le rirxe .i cusku lu ma pluta le tcadu li&#039;u
             .i le finpe cu spusku lu «ko cadzu ne&#039;a le rirxe ze&#039;a le
             djedi be li ci .i ba bo do viska le tcadu li&#039;u» .i la .teris.

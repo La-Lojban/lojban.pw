@@ -9,6 +9,25 @@ const { languages } = require("../../config/locales.json");
 
 const allLanguages = Object.keys(languages);
 
+function parseTableCell(cellContent) {
+  if (!cellContent) return "";
+  const rows = cellContent.split("||");
+  let tableHtml =
+    '<table class="inline-table border-collapse border border-gray-300">';
+
+  rows.forEach((row) => {
+    const cells = row.split("|");
+    tableHtml += "<tr>";
+    cells.forEach((cell) => {
+      tableHtml += `<td class="border border-gray-300 px-2 py-1">${escapeHtml(cell.trim())}</td>`;
+    });
+    tableHtml += "</tr>";
+  });
+
+  tableHtml += "</table>";
+  return tableHtml;
+}
+
 if (!process.env.GOOGLE_LOJBAN_CORPUS_DOC_ID) {
   console.log(
     "generation cancelled, no GOOGLE_LOJBAN_CORPUS_DOC_ID in .env file specified"
@@ -75,7 +94,7 @@ function moveElementForward(array, i) {
       if (cell?.effectiveFormat?.textFormat?.italic) italicizedRows.push(i);
     }
 
-    const langs = meta[0]._sheet.headerValues.filter(
+    let langs = meta[0]._sheet.headerValues.filter(
       (lang) => lang.indexOf("!") !== 0
     );
     table[title] = [];
@@ -85,13 +104,25 @@ function moveElementForward(array, i) {
       .push(`<table class="mt-2 table-fixed max-w-full border font-light text-left text-sm">
     <thead class="border-b italic">`);
     table[title].push(`<tr>`);
+
+    const columnsWithTables = {};
+
     for (const i in langs) {
       const lang = langs[i];
       const cssfiedLangName = cssifyName(lang);
       const txt = meta.map((row) => row[lang]);
+      console.log(txt[0]);
       columns[lang] = txt;
+
+      // Check if the first cell contains "||" to determine if it's a table column
+      if (lang && lang.includes("||")) {
+        columnsWithTables[lang] = true;
+      }
+
       table[title].push(
-        `<th scope="col" class="w-40 p-2 column-class-${cssfiedLangName}">${escapeHtml(lang)}</th>`
+        `<th scope="col" class="w-40 p-2 column-class-${cssfiedLangName}">${escapeHtml(
+          lang.replace(/\|\|/g, "").trim()
+        )}</th>`
       );
       buttons[title].push(
         `<input type="checkbox" id="hide-column-${cssfiedLangName}" class="hide-column-checkbox-${cssfiedLangName}" />
@@ -189,16 +220,24 @@ function moveElementForward(array, i) {
       );
       for (const lang of langs) {
         const l = cssifyName(lang);
+
+        let cellContent = columns[lang][index] ?? "";
+
+        // If this column is identified as containing tables, parse the cell content
+        if (columnsWithTables[lang]) {
+          cellContent = parseTableCell(cellContent);
+        } else {
+          cellContent = escapeHtml(cellContent);
+        }
+
         table[title].push(
           `<td class="${
             index == 0
               ? "font-bold "
-              : index < 4 || italicizedRows.includes(parseInt(index)+1)
+              : index < 4 || italicizedRows.includes(parseInt(index) + 1)
                 ? "italic text-gray-500 "
                 : ""
-          }text-left align-text-top p-2 column-class-${l}">${escapeHtml(
-            columns[lang][index] ?? ""
-          )}</td>`
+          }text-left align-text-top p-2 column-class-${l}">${cellContent}</td>`
         );
       }
       table[title].push(`</tr>`);
