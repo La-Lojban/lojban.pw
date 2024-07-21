@@ -10,21 +10,20 @@ const { languages } = require("../../config/locales.json");
 const allLanguages = Object.keys(languages);
 
 function parseTableCell(cellContent) {
-  if (!cellContent) return "";
-  const rows = cellContent.split("||");
-  let tableHtml =
-    '<table class="inline-table border-collapse border border-gray-300">';
-
-  rows.forEach((row) => {
-    const cells = row.split("|");
-    tableHtml += "<tr>";
-    cells.forEach((cell) => {
+  if (!cellContent) return '';
+  const rows = cellContent.split('||');
+  let tableHtml = '<table class="inner-table w-full border-collapse border border-gray-300">';
+  
+  rows.forEach(row => {
+    const cells = row.split('|');
+    tableHtml += '<tr>';
+    cells.forEach(cell => {
       tableHtml += `<td class="border border-gray-300 px-2 py-1">${escapeHtml(cell.trim())}</td>`;
     });
-    tableHtml += "</tr>";
+    tableHtml += '</tr>';
   });
-
-  tableHtml += "</table>";
+  
+  tableHtml += '</table>';
   return tableHtml;
 }
 
@@ -100,10 +99,9 @@ function moveElementForward(array, i) {
     table[title] = [];
     buttons[title] = [];
     let columns = {};
-    table[title]
-      .push(`<table class="mt-2 table-fixed max-w-full border font-light text-left text-sm">
-    <thead class="border-b italic">`);
-    table[title].push(`<tr>`);
+    table[title].push(`<table class="mt-2 w-full border font-light text-left text-sm">
+      <thead class="border-b italic">`);
+      table[title].push(`<tr>`);
 
     const columnsWithTables = {};
 
@@ -118,10 +116,9 @@ function moveElementForward(array, i) {
         columnsWithTables[lang] = true;
       }
 
+      const prettifiedLang = lang.replace(/\|\|/g, "").trim()
       table[title].push(
-        `<th scope="col" class="w-40 p-2 column-class-${cssfiedLangName}">${escapeHtml(
-          lang.replace(/\|\|/g, "").trim()
-        )}</th>`
+        `<th scope="col" class="p-2 column-class-${cssfiedLangName}">${escapeHtml(lang)}</th>`
       );
       buttons[title].push(
         `<input type="checkbox" id="hide-column-${cssfiedLangName}" class="hide-column-checkbox-${cssfiedLangName}" />
@@ -135,7 +132,7 @@ function moveElementForward(array, i) {
         leading-normal
         select-none
         py-2 px-4
-        ">${languages[lang]?.native ?? lang}</label>`
+        ">${languages[lang]?.native ?? languages[prettifiedLang]?.native ?? prettifiedLang}</label>`
       );
       css.push(
         ...`
@@ -156,6 +153,12 @@ function moveElementForward(array, i) {
           .replace(/^ +/gim, "")
           .split(/\n{2,}/)
       );
+      css.push(`
+        .column-class-${cssfiedLangName} {
+          min-width: 200px;
+          max-width: 400px;
+        }
+      `);
     }
     table[title].push(`</tr>`);
     table[title].push(`</thead>`);
@@ -233,7 +236,7 @@ function moveElementForward(array, i) {
           `<td class="${
             index == 0
               ? "font-bold "
-              : index < 4 || italicizedRows.includes(parseInt(index) + 1)
+              : index < 4 || italicizedRows.includes(parseInt(index)+1)
                 ? "italic text-gray-500 "
                 : ""
           }text-left align-text-top p-2 column-class-${l}">${cellContent}</td>`
@@ -313,6 +316,18 @@ ${contentMd}`;
       console.log(`translated "${title}"`);
     }
   }
+
+  css.push(`
+    .inner-table {
+      table-layout: fixed;
+      width: 100%;
+    }
+    .inner-table td {
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+  `);
+  
   const csspath = path.join("/app/src/styles", "style.css");
   fs.writeFileSync(
     csspath,
