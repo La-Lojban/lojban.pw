@@ -121,7 +121,7 @@ function moveElementForward(array, i) {
       const prettifiedLang = lang.replace(/\|\|/g, "").trim();
       table[title].push(
         lang && lang.includes("||")
-          ? `<th scope="col" class="p-2 column-class-${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`
+          ? `<th scope="col" class="w-40 p-2 column-class-${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`
           : `<th scope="col" class="w-40 p-2 column-class-${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`
       );
       buttons[title].push(
