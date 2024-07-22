@@ -101,7 +101,7 @@ function moveElementForward(array, i) {
     buttons[title] = [];
     let columns = {};
     table[title]
-      .push(`<table class="mt-2 w-full border font-light text-left text-sm">
+      .push(`<table class="mt-2 table-fixed max-w-full border font-light text-left text-sm">
       <thead class="border-b italic">`);
     table[title].push(`<tr>`);
 
@@ -120,7 +120,9 @@ function moveElementForward(array, i) {
 
       const prettifiedLang = lang.replace(/\|\|/g, "").trim();
       table[title].push(
-        `<th scope="col" class="p-2 column-class-${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`
+        lang && lang.includes("||")
+          ? `<th scope="col" class="p-2 column-class-${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`
+          : `<th scope="col" class="w-40 p-2 column-class-${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`
       );
       buttons[title].push(
         `<input type="checkbox" id="hide-column-${cssfiedLangName}" class="hide-column-checkbox-${cssfiedLangName}" />
@@ -158,7 +160,7 @@ function moveElementForward(array, i) {
       css.push(`
         .column-class-${cssfiedLangName} {
           min-width: 200px;
-          ${(lang && lang.includes("||")) ? "white-space: nowrap; overflow-x: auto;" : ""}
+          ${lang && lang.includes("||") ? "white-space: nowrap; overflow-x: auto;" : "max-width: 400px;"}
         }
       `);
     }
