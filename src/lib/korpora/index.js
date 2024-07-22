@@ -231,7 +231,7 @@ function moveElementForward(array, i) {
         let cellContent = columns[lang][index] ?? "";
 
         // If this column is identified as containing tables, parse the cell content
-        if (columnsWithTables[lang]) {
+        if (columnsWithTables[lang] && cellContent.includes("|")) {
           cellContent = parseTableCell(cellContent);
         } else {
           cellContent = escapeHtml(cellContent);
