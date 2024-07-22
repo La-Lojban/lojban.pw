@@ -244,7 +244,7 @@ function moveElementForward(array, i) {
               : index < 4 || italicizedRows.includes(parseInt(index) + 1)
                 ? "italic text-gray-500 "
                 : ""
-          }text-left align-text-top p-2 column-class-${l}">${cellContent}</td>`
+          }${languages[lang]?.direction==='RTL'? 'text-right':'text-left'} align-text-top p-2 column-class-${l}">${cellContent}</td>`
         );
       }
       table[title].push(`</tr>`);

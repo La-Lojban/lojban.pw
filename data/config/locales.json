@@ -30,7 +30,8 @@
         },
         "xrabo": {
             "native": "العربية",
-            "short": "ar"
+            "short": "ar",
+            "direction":"RTL"
         },
         "porto": {
             "native": "português",
