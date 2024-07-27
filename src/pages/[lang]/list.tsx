@@ -51,8 +51,8 @@ const Index = ({
 export default Index;
 
 export const getStaticProps = async ({ params }: Params) => {
-  let allPosts = await getAllPosts(
-    [
+  let allPosts = await getAllPosts({
+    fields: [
       "title",
       "hidden",
       "date",
@@ -72,8 +72,10 @@ export const getStaticProps = async ({ params }: Params) => {
       "meta.author",
       "meta.type",
     ],
-    false
-  );
+    showHidden: true,
+    folder: "",
+    ignoreTitles: false,
+  });
 
   const indexPost = {
     ...allPosts.filter(
@@ -122,7 +124,12 @@ export const getStaticProps = async ({ params }: Params) => {
 };
 
 export async function getStaticPaths(pa: any) {
-  const posts = await getAllPosts(["slug", "hidden"], true);
+  const posts = await getAllPosts({
+    fields: ["slug", "hidden"],
+    showHidden: true,
+    folder: "",
+    ignoreTitles: false,
+  });
   return {
     paths: posts
       .filter((post) => post.slug.slice(1).join("/") === "list")

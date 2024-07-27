@@ -108,14 +108,10 @@ export default function Header({
                     <select
                       className={`outline-none py-1 h-8 flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base leading-none pl-2 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center`}
                       onChange={handleLanguageChange}
-                    >
-                      <option selected>
-                        {
-                          langDict[
+                      defaultValue={langDict[
                             post?.slug[0] ?? router.asPath.split("/")[1] ?? "en"
-                          ]
-                        }
-                      </option>
+                          ]}
+                    >
                       {posts.map((post) => {
                         return (
                           <option
@@ -165,14 +161,12 @@ export default function Header({
                 <select
                   className={`mr-3 h-8 inline-block my-auto py-1 px-2 bg-gray-100 border border-gray-300 hover:border-gray-400 rounded-md shadow-md text-gray-600 outline-none appearance-none`}
                   onChange={handleLanguageChange}
-                >
-                  <option selected>
-                    {
+                  defaultValue={
                       langDict[
                         post?.slug[0] ?? router.asPath.split("/")[1] ?? "en"
                       ]
                     }
-                  </option>
+                >
                   {posts.map((post) => {
                     return (
                       <option

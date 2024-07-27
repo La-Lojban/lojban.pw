@@ -3,6 +3,13 @@ name: CI/CD with Docker
 on:
   push:
     branches: [ react ]
+  pull_request:
+    branches: [ react ]  # Added to run checks on PRs
+
+# Limit concurrent runs of this workflow
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true  # Cancels in-progress runs when a new workflow is triggered
 
 permissions:
   contents: read
@@ -11,6 +18,7 @@ permissions:
 
 env:
   TAG_NAME: ${{ github.sha }}
+  DOCKER_BUILDKIT: 1  # Enable BuildKit for faster builds
 
 jobs:
   build:
@@ -19,56 +27,69 @@ jobs:
 
     steps:
     - name: Check out code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 1  # Shallow clone for faster checkout
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
-    - name: Build the Docker image
-      run: |
-        docker pull lojban:latest || true
-        docker build --cache-from lojban:latest --file Dockerfile --tag lojban:latest .
-        # docker build --cache-from lojban:latest --file Dockerfile --tag lojban:${{ env.TAG_NAME }} .
 
-    # - name: Build the Docker image
-    #   run: docker build . --file Dockerfile --tag lojban:latest
-    #   # run: docker build . --file Dockerfile --tag lojban:${{ env.TAG_NAME }}
-    
+    - name: Cache Docker layers
+      uses: actions/cache@v3
+      with:
+        path: /tmp/.buildx-cache
+        key: ${{ runner.os }}-buildx-${{ github.sha }}
+        restore-keys: |
+          ${{ runner.os }}-buildx-
+
+    - name: Cache npm dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.npm
+        key: ${{ runner.OS }}-npm-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.OS }}-npm-
+
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v5
+      with:
+        context: .
+        push: false
+        load: true
+        tags: lojban:latest
+        cache-from: type=local,src=/tmp/.buildx-cache
+        cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=max
+        build-args: |
+          BUILDKIT_INLINE_CACHE=1
+          NODE_ENV=production
+
+    - name: Move cache
+      run: |
+        rm -rf /tmp/.buildx-cache
+        mv /tmp/.buildx-cache-new /tmp/.buildx-cache
+
     - name: Run Docker container
       run: |
-        docker run -v /output:/app/src/out1 \
-                    -v ${{ github.workspace }}/data/config:/app/src/config \
-                    -v ${{ github.workspace }}/data/pages:/app/src/md_pages \
-                    -v ${{ github.workspace }}/data/assets:/app/src/public/assets \
-                    -v ${{ github.workspace }}/data/DNS:/app/service/DNS \
-                    -v ${{ github.workspace }}/src:/app/src \
-                    -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
-                    -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
-                    lojban:latest \
-                    sh -c "npm install && npx playwright install chromium && npx playwright install-deps && npm run cicd"
+        docker run --rm -v /output:/app/src/out1 \
+                   -v ${{ github.workspace }}/data/config:/app/src/config:ro \
+                   -v ${{ github.workspace }}/data/pages:/app/src/md_pages:ro \
+                   -v ${{ github.workspace }}/data/assets:/app/src/public/assets:ro \
+                   -v ${{ github.workspace }}/data/DNS:/app/service/DNS:ro \
+                   -v ${{ github.workspace }}/src:/app/src:ro \
+                   -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
+                   -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
+                   -e CI=true \
+                   lojban:latest \
+                   sh -c "npm ci --prefer-offline && npx playwright install chromium --with-deps && npm run cicd"
 
-    # - name: Run Docker container
-    #   uses: kohlerdominik/docker-run-action@v1
-    #   with:
-    #     run: npm install && npx playwright install chromium && npx playwright install-deps && npm run cicd
-    #     image: lojban:latest
-    #     environment: |
-    #       GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }}
-    #       GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }}
-    #     # image: lojban:${{ env.TAG_NAME }}
-    #     volumes: |
-    #       /output:/app/src/out1
-    #       ${{ github.workspace }}/data/config:/app/src/config \
-    #       ${{ github.workspace }}/data/pages:/app/src/md_pages \
-    #       ${{ github.workspace }}/data/assets:/app/src/public/assets \
-    #       ${{ github.workspace }}/data/DNS:/app/service/DNS \
-    #       ${{ github.workspace }}/src:/app/src
-    
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
         path: /output/
+        retention-days: 1
 
   deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/react'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

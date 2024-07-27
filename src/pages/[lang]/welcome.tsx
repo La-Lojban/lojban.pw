@@ -99,7 +99,7 @@ export type Params = {
 
 export async function getStaticProps({ params }: Params) {
   params.slug = params.slug ?? ["welcome"];
-  const post = getPostBySlug([params.lang].concat(params.slug), [
+  const post = await getPostBySlug([params.lang].concat(params.slug), [
     "title",
     "hidden",
     "meta.title",
@@ -121,10 +121,12 @@ export async function getStaticProps({ params }: Params) {
   const shortSlug = params.slug.join("/");
   const currentLanguage = params.lang;
 
-  const allPosts = await getAllPosts(
-    ["slug", "hidden", "title", "directory", "coverImage"],
-    true
-  );
+  const allPosts = await getAllPosts({
+    fields: ["slug", "hidden", "title", "directory", "coverImage"],
+    showHidden: true,
+    folder: "",
+    ignoreTitles: false,
+  });
   const posts = allPosts.reduce(
     (acc, { slug }) => {
       const fullPath = slug.join("/");
@@ -176,7 +178,12 @@ export async function getStaticProps({ params }: Params) {
 }
 
 export async function getStaticPaths() {
-  const posts = await getAllPosts(["slug", "hidden"], true);
+  const posts = await getAllPosts({
+    fields: ["slug", "hidden"],
+    showHidden: true,
+    folder: "",
+    ignoreTitles: false,
+  });
 
   return {
     paths: posts

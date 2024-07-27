@@ -1,5 +1,5 @@
 import fs from "fs";
-import { join, resolve, relative, extname } from "path";
+import { join, resolve, relative, extname, dirname } from "path";
 import matter from "gray-matter";
 import { promises as fsp } from "fs";
 
@@ -33,10 +33,23 @@ export async function getPostSlugs(subfolder: string) {
 export type Items = {
   slug: string[];
   contentLength?: number;
-  [key: string]: string | string[] | boolean | number | undefined;
+  relatedSlugs?: string[];
+  parentPost?: Items;
+  [key: string]:
+    | string
+    | string[]
+    | boolean
+    | number
+    | string[][]
+    | undefined
+    | Items;
 };
 
-export function getPostBySlug(slug: string[], fields: string[] = []): Items {
+export async function getPostBySlug(
+  slug: string[],
+  fields: string[] = [],
+  allSlugs?: string[] | undefined
+): Promise<Items> {
   const realSlug = slug.join("/");
   const fullPath = join(postsDirectory, `${realSlug}.md`);
   let fileContents = "";
@@ -46,6 +59,26 @@ export function getPostBySlug(slug: string[], fields: string[] = []): Items {
   const { data, content } = matter(fileContents);
 
   const items: Items = { slug: [] };
+
+  const folderPath = dirname(fullPath);
+  allSlugs = allSlugs || (await getFiles(folderPath));
+
+  const relatedSlugs = allSlugs
+    .map((s) => s.replace(/\.md$/, "").split("/"))
+    .filter(
+      (s) =>
+        s[1] === "books" &&
+        s.slice(-1)[0].indexOf("!") === 0 &&
+        s.length >= 4 &&
+        s.slice(0, -1).join("/") === slug.slice(0, -1).join("/") &&
+        s.join("/") !== slug.join("/")
+    )
+    .map((s) => s.join("/"));
+
+  const firstHeaderMatch = content.match(/^#+\s+(.+)$/m);
+  const firstHeader = firstHeaderMatch
+    ? firstHeaderMatch?.[1]?.trim()
+    : undefined;
 
   // Ensure only the minimal needed data is exposed
   fields.forEach((field) => {
@@ -60,6 +93,12 @@ export function getPostBySlug(slug: string[], fields: string[] = []): Items {
     }
     if (field === "content") {
       items[field] = content;
+    }
+    if (field === "relatedSlugs") {
+      items[field] = relatedSlugs;
+    }
+    if (field === "firstHeader" && firstHeader !== undefined) {
+      items[field] = firstHeader;
     }
 
     if (data[field]) {
@@ -76,20 +115,33 @@ export function getPostBySlug(slug: string[], fields: string[] = []): Items {
 }
 
 export async function getAllPosts(
-  fields: string[] = [],
-  showHidden = false,
-  folder = ""
+  {
+    fields,
+    showHidden,
+    folder,
+    ignoreTitles,
+  }: {
+    fields: string[];
+    showHidden: boolean;
+    folder: string;
+    ignoreTitles: boolean;
+  } = { fields: [], showHidden: false, folder: "", ignoreTitles: false }
 ) {
   const slugs = await getPostSlugs(folder);
 
-  const posts = slugs
-    .map((slug: string) =>
-      getPostBySlug(slug.replace(/\.md$/, "").split("/"), fields)
+  const posts = await Promise.all(
+    slugs.map((slug: string) =>
+      getPostBySlug(slug.replace(/\.md$/, "").split("/"), fields, slugs)
     )
+  );
+
+  const a = posts
     .filter(
       (post) =>
         (showHidden || !post?.hidden) &&
-        (!fields.includes("title") || typeof post.title !== "undefined")
+        (ignoreTitles ||
+          !fields.includes("title") ||
+          typeof post.title !== "undefined")
     )
     // sort posts by date in descending order
     .sort((post1, post2) => ((post1.date ?? 0) > (post2.date ?? 0) ? -1 : 1))
@@ -97,5 +149,5 @@ export async function getAllPosts(
     .sort((post1, post2) =>
       (post1["meta.priority"] ?? 0) > (post2["meta.priority"] ?? 0) ? -1 : 1
     );
-  return posts;
+  return a;
 }
