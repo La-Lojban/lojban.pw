@@ -5,6 +5,14 @@ import { useRouter } from "next/router";
 import ErrorPage from "next/error";
 import PostBody from "../../components/post-body";
 import Layout from "../../components/layout";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowLeft,
+  faArrowRight,
+  faArrowUp,
+  faBackwardFast,
+} from "@fortawesome/free-solid-svg-icons";
+
 import { getPostBySlug, getAllPosts, Items } from "../../lib/api";
 import Head from "next/head";
 import markdownToHtml from "../../lib/markdownToHtml";
@@ -15,9 +23,14 @@ import { retainStringValues } from "../../lib/utils";
 
 type Props = {
   post: TPost;
+  parentPost?: TPost;
   posts: Items[];
   siblingPosts: Items[];
   currentLanguage: string;
+  prevPage: string | null;
+  nextPage: string | null;
+  currentPageNumber?: number;
+  totalPages?: number;
 };
 
 type TocItem = {
@@ -28,7 +41,17 @@ type TocItem = {
 
 const siteSection = "books";
 
-const Post = ({ post, posts, siblingPosts, currentLanguage }: Props) => {
+const Post = ({
+  post,
+  parentPost,
+  posts,
+  siblingPosts,
+  currentLanguage,
+  prevPage,
+  nextPage,
+  currentPageNumber,
+}: Props) => {
+  post = post ?? parentPost;
   const router = useRouter();
   if (!router.isFallback && !post?.slug) return <ErrorPage statusCode={404} />;
 
@@ -56,7 +79,14 @@ const Post = ({ post, posts, siblingPosts, currentLanguage }: Props) => {
   );
 
   const title_core = post["meta.title"] ?? post.title;
-  const title = title_core ? `${title_core} | ${site_title}` : site_title;
+  const firstHeaderPreview = post.firstHeader
+    ? post.firstHeader.slice(0, 50) +
+      (post.firstHeader.length > 50 ? "..." : "")
+    : "";
+
+  const title = firstHeaderPreview
+    ? `${firstHeaderPreview} | ${title_core}`
+    : `${title_core} | ${site_title}`;
   return (
     <Layout
       meta={{
@@ -73,7 +103,45 @@ const Post = ({ post, posts, siblingPosts, currentLanguage }: Props) => {
       siteSection={siteSection}
       title={title}
     >
-      <div className="mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap">
+      <div className="mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap select-none">
+        {/* Navigation links */}
+        {(nextPage !== null || prevPage !== null) && (
+          <div className="w-full flex justify-center mt-2 mb-4 items-center space-x-8">
+            {post.parentSlug !== undefined &&
+            post.parentSlug !== post.slug.join("/") ? (
+              <Link
+                href={"/" + post.parentSlug}
+                className="text-brown-500 hover:text-brown-500 transition-colors"
+              >
+                <FontAwesomeIcon className="w-6" icon={faBackwardFast} />
+              </Link>
+            ) : (
+              <div />
+            )}
+            {prevPage !== null ? (
+              <Link
+                href={prevPage}
+                className="text-deep-orange-900 hover:text-deep-orange-900 transition-colors"
+              >
+                <FontAwesomeIcon className="w-6" icon={faArrowLeft} />
+              </Link>
+            ) : (
+              <div className="w-12 h-12" />
+            )}
+            <span className="text-gray-600">{currentPageNumber}</span>
+            {nextPage !== null ? (
+              <Link
+                href={nextPage}
+                className="text-deep-orange-900 hover:text-deep-orange-900 transition-colors"
+              >
+                <FontAwesomeIcon className="w-6" icon={faArrowRight} />
+              </Link>
+            ) : (
+              <div className="w-12 h-12" />
+            )}
+          </div>
+        )}
+
         {state.galleryShown && post.slug[1] === siteSection && (
           <ImageGallery
             additionalClass="fullpage"
@@ -92,7 +160,7 @@ const Post = ({ post, posts, siblingPosts, currentLanguage }: Props) => {
         )}
 
         <PostBody
-          post={post}
+          post={{ ...post, title: title_core }}
           state={state}
           setState={setState}
           hasToc={hasToc}
@@ -130,9 +198,10 @@ export type Params = {
 };
 
 export async function getStaticProps({ params }: Params) {
-  const post = getPostBySlug([params.lang].concat(params.slug), [
+  const post = await getPostBySlug([params.lang].concat(params.slug), [
     "title",
     "hidden",
+    "firstHeader",
     "meta.title",
     "description",
     "meta.keywords",
@@ -145,35 +214,44 @@ export async function getStaticProps({ params }: Params) {
     "content",
     "coverImage",
     "fullPath",
-    // "pdf",
+    "relatedSlugs",
   ]);
 
   const fullSlug = params.lang + "/" + params.slug.join("/");
   const shortSlug = params.slug.join("/");
   const currentLanguage = params.lang;
 
-  const allPosts = await getAllPosts(
-    ["slug", "hidden", "title", "directory", "coverImage"],
-    true
-  );
+  const fields = ["slug", "hidden", "title", "directory", "coverImage"];
+  let allPosts = await getAllPosts({
+    fields,
+    showHidden: true,
+    folder: "",
+    ignoreTitles: true,
+  });
+  // const slugForPosts = slug.slice(-1)[0]
   const posts = allPosts.reduce(
     (acc, { slug }) => {
       const fullPath = slug.join("/");
       const shortPath = slug.slice(1).join("/");
       const language = slug[0];
       if (fullSlug === shortPath) {
-        //the current path is the english version so list the found slug
         acc.push({ fullPath, language });
       } else if (shortSlug === fullPath) {
-        //the current path is the X-lang version so list the found english version
         acc.push({ fullPath, language: "en" });
       } else if (shortSlug === shortPath && currentLanguage !== language) {
-        //the current path is the X-lang version so list the found Y-lang version
         acc.push({ fullPath, language });
       }
       return acc;
     },
-    [] as { fullPath: string; language: string }[]
+    [{ fullPath: fullSlug, language: params.lang }] as {
+      fullPath: string;
+      language: string;
+    }[]
+  );
+  console.log(posts, fullSlug);
+
+  allPosts = allPosts.filter(
+    (post) => !fields.includes("title") || typeof post.title !== "undefined"
   );
   const { text, toc, imgs } = await markdownToHtml({
     content: (post.content as string) || "",
@@ -181,6 +259,41 @@ export async function getStaticProps({ params }: Params) {
   });
 
   const siblingPosts = allPosts.filter((i) => i.slug[0] === params.lang);
+
+  // Find prev and next pages
+  let prevPage = null,
+    nextPage = null,
+    currentPageNumber;
+  try {
+    const relatedSlugs = post.relatedSlugs || [];
+    const currentIndex = parseInt(post.slug.slice(-1)[0].replace(/!/g, ""));
+    prevPage = post.slug
+      .slice(0, post.slug.length - 1)
+      .concat("!" + (currentIndex - 1).toString())
+      .join("/");
+    if (!relatedSlugs.includes(prevPage)) prevPage = null;
+    else prevPage = "/" + prevPage;
+    nextPage = post.slug
+      .slice(0, post.slug.length - 1)
+      .concat("!" + (currentIndex + 1).toString())
+      .join("/");
+    if (!relatedSlugs.includes(nextPage)) nextPage = null;
+    else nextPage = "/" + nextPage;
+    currentPageNumber = currentIndex;
+    const parentSlug = allPosts.find(
+      (externalPost) =>
+        externalPost.slug.join("/") === post.slug.slice(0, -1).join("/")
+    );
+    if (parentSlug?.title !== undefined && post.title === undefined) {
+      post.title = parentSlug.title;
+      post.parentPost = parentSlug;
+      const stringifiedSlug = post.slug.join("/");
+      const allSiblingPosts = relatedSlugs.concat(stringifiedSlug).sort();
+      if (allSiblingPosts[0] !== stringifiedSlug)
+        post.parentSlug = allSiblingPosts[0];
+    }
+  } catch (error) {}
+
   return {
     props: {
       posts,
@@ -192,12 +305,20 @@ export async function getStaticProps({ params }: Params) {
         toc,
         imgs,
       },
+      prevPage,
+      nextPage,
+      currentPageNumber,
     },
   };
 }
 
 export async function getStaticPaths() {
-  const posts = await getAllPosts(["slug", "hidden"], true);
+  const posts = await getAllPosts({
+    fields: ["slug", "hidden"],
+    showHidden: true,
+    folder: "",
+    ignoreTitles: false,
+  });
 
   return {
     paths: posts
@@ -217,5 +338,3 @@ export async function getStaticPaths() {
     fallback: false,
   };
 }
-
-// export const config = { amp: 'hybrid' }

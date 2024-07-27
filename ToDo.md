@@ -1,7 +1,9 @@
+* chapters split
+	* need entry pages
+* home page - where are the corpora?
 * autoredirect to your language? if not supported languages then english. use cookies to redirect only once or a popup.
 * autoredirect old pages to your language
 * add search functionality
-* split some pages into chapters but pdfs must be single
 
 * check for PWA problems
 * use cache in github actions

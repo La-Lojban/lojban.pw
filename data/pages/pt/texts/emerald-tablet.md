@@ -3,8 +3,9 @@ title: Emerald Tablet
 meta.type: korpora
 description: by an unknown Arabic writer | English translation by la gleki
 meta.description: by an unknown Arabic writer | English translation by la gleki
-meta.keywords: , ni'o la ri'ojme te ciska, Emerald Tablet, Emerald Tablet
+meta.keywords: اللوح الزمردي, ni'o la ri'ojme te ciska, Emerald Tablet, Emerald Tablet
 meta.author: by an unknown Arabic writer
+og:image: /assets/pixra/texts/emerald-tablet/2.png
 meta.priority: 1098
 ---
 
@@ -44,7 +45,7 @@ meta.priority: 1098
   <label
     for="hide-column-glico_glosa___"
     class="hide-column-button-glico_glosa___ float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
-    >glico glosa ||</label
+    >glico glosa</label
   >
   <div class="clear-both" />
   <div class="w-full overflow-x-auto">
@@ -66,8 +67,10 @@ meta.priority: 1098
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
-            class="font-bold text-left align-text-top p-2 column-class-xrabo"
-          ></td>
+            class="font-bold text-right align-text-top p-2 column-class-xrabo"
+          >
+            النسخة العربية
+          </td>
           <td class="font-bold text-left align-text-top p-2 column-class-lojbo">
             ni&#039;o ni&#039;o ni&#039;o bau le lojbo
           </td>
@@ -77,21 +80,29 @@ meta.priority: 1098
           <td
             class="font-bold text-left align-text-top p-2 column-class-glico_glosa___"
           >
-            <table class="inline-table border-collapse border border-gray-300">
-              <tr>
-                <td class="border border-gray-300 px-2 py-1">
-                  English version with glosses
-                </td>
-              </tr>
-            </table>
+            English version with glosses
+          </td>
+        </tr>
+        <tr
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
+        >
+          <td colspan="4">
+            <div class="h-full w-full flex justify-center items-center">
+              <img
+                class="h-56"
+                src="/assets/pixra/texts/emerald-tablet/2.png"
+              />
+            </div>
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
-            class="italic text-gray-500 text-left align-text-top p-2 column-class-xrabo"
-          ></td>
+            class="italic text-gray-500 text-right align-text-top p-2 column-class-xrabo"
+          >
+            اللوح الزمردي
+          </td>
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
           >
@@ -105,19 +116,17 @@ meta.priority: 1098
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-glico_glosa___"
           >
-            <table class="inline-table border-collapse border border-gray-300">
-              <tr>
-                <td class="border border-gray-300 px-2 py-1">Emerald Tablet</td>
-              </tr>
-            </table>
+            Emerald Tablet
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
-            class="italic text-gray-500 text-left align-text-top p-2 column-class-xrabo"
-          ></td>
+            class="italic text-gray-500 text-right align-text-top p-2 column-class-xrabo"
+          >
+            لكاتب عربي مجهول
+          </td>
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
           >
@@ -131,21 +140,17 @@ meta.priority: 1098
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-glico_glosa___"
           >
-            <table class="inline-table border-collapse border border-gray-300">
-              <tr>
-                <td class="border border-gray-300 px-2 py-1">
-                  by an unknown Arabic writer
-                </td>
-              </tr>
-            </table>
+            by an unknown Arabic writer
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td
-            class="italic text-gray-500 text-left align-text-top p-2 column-class-xrabo"
-          ></td>
+            class="italic text-gray-500 text-right align-text-top p-2 column-class-xrabo"
+          >
+            النص العربي الأصلي
+          </td>
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
           >
@@ -159,19 +164,13 @@ meta.priority: 1098
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-glico_glosa___"
           >
-            <table class="inline-table border-collapse border border-gray-300">
-              <tr>
-                <td class="border border-gray-300 px-2 py-1">
-                  English translation by la gleki
-                </td>
-              </tr>
-            </table>
+            English translation by la gleki
           </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             حقٌّ لا شكَّ فيه صَحيح،
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -181,7 +180,16 @@ meta.priority: 1098
             A truth, which is without doubt, is certain.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">حقٌّ</td>
+                <td class="border border-gray-300 px-2 py-1">لا</td>
+                <td class="border border-gray-300 px-2 py-1">شكَّ</td>
+                <td class="border border-gray-300 px-2 py-1">فيه</td>
+                <td class="border border-gray-300 px-2 py-1">صَحيح،</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">truth-NOM</td>
                 <td class="border border-gray-300 px-2 py-1">NEG</td>
@@ -202,7 +210,7 @@ meta.priority: 1098
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             إنّ الأعلى من الأسفل والأسفل من الأعلى،
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -213,7 +221,18 @@ meta.priority: 1098
             The higher is from the lower and the lower from the higher,
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">إنّ</td>
+                <td class="border border-gray-300 px-2 py-1">الأعلى</td>
+                <td class="border border-gray-300 px-2 py-1">من</td>
+                <td class="border border-gray-300 px-2 py-1">الأسفل</td>
+                <td class="border border-gray-300 px-2 py-1">والأسفل</td>
+                <td class="border border-gray-300 px-2 py-1">من</td>
+                <td class="border border-gray-300 px-2 py-1">الأعلى،</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">indeed</td>
                 <td class="border border-gray-300 px-2 py-1">DEF-highest</td>
@@ -242,7 +261,7 @@ meta.priority: 1098
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             عمل العجائب من واحد كما كانت الأشياء كلّها من واحد بتدبير واحد،
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -255,7 +274,23 @@ meta.priority: 1098
             arrangement of one.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">عمل</td>
+                <td class="border border-gray-300 px-2 py-1">العجائب</td>
+                <td class="border border-gray-300 px-2 py-1">من</td>
+                <td class="border border-gray-300 px-2 py-1">واحد</td>
+                <td class="border border-gray-300 px-2 py-1">كما</td>
+                <td class="border border-gray-300 px-2 py-1">كانت</td>
+                <td class="border border-gray-300 px-2 py-1">الأشياء</td>
+                <td class="border border-gray-300 px-2 py-1">كلّها</td>
+                <td class="border border-gray-300 px-2 py-1">من</td>
+                <td class="border border-gray-300 px-2 py-1">واحد</td>
+                <td class="border border-gray-300 px-2 py-1">بتدبير</td>
+                <td class="border border-gray-300 px-2 py-1">واحد،</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">work-3SG.PERF</td>
                 <td class="border border-gray-300 px-2 py-1">DEF-wonders</td>
@@ -301,7 +336,7 @@ meta.priority: 1098
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             أبوه الشمس، أُمّه القمر،
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -311,7 +346,15 @@ meta.priority: 1098
             Its father is the Sun, its mother the Moon,
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">أبوه</td>
+                <td class="border border-gray-300 px-2 py-1">الشمس،</td>
+                <td class="border border-gray-300 px-2 py-1">أُمّه</td>
+                <td class="border border-gray-300 px-2 py-1">القمر،</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">father-NOM-his</td>
                 <td class="border border-gray-300 px-2 py-1">DEF-sun</td>
@@ -330,7 +373,7 @@ meta.priority: 1098
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             حملته الريح في بطنها، غذته الأرض،
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -341,7 +384,17 @@ meta.priority: 1098
             The wind carried it in its belly, the earth nourished it.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">حملته</td>
+                <td class="border border-gray-300 px-2 py-1">الريح</td>
+                <td class="border border-gray-300 px-2 py-1">في</td>
+                <td class="border border-gray-300 px-2 py-1">بطنها،</td>
+                <td class="border border-gray-300 px-2 py-1">غذته</td>
+                <td class="border border-gray-300 px-2 py-1">الأرض،</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">
                   carry-3SG.FEM.PERF-it
@@ -372,7 +425,7 @@ meta.priority: 1098
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             أبو الطِّلسمات، خازن العجائب، كامل القوى،
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -383,7 +436,17 @@ meta.priority: 1098
             Father of talismans, keeper of wonders, perfect in powers,
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">أبو</td>
+                <td class="border border-gray-300 px-2 py-1">الطِّلسمات،</td>
+                <td class="border border-gray-300 px-2 py-1">خازن</td>
+                <td class="border border-gray-300 px-2 py-1">العجائب،</td>
+                <td class="border border-gray-300 px-2 py-1">كامل</td>
+                <td class="border border-gray-300 px-2 py-1">القوى،</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">father-NOM</td>
                 <td class="border border-gray-300 px-2 py-1">DEF-talismans</td>
@@ -410,7 +473,7 @@ meta.priority: 1098
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             نار صارت أرضاً ٱعزِل الأرض من النار،
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -421,7 +484,18 @@ meta.priority: 1098
             A fire that became earth. Separate the earth from the fire.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">نار</td>
+                <td class="border border-gray-300 px-2 py-1">صارت</td>
+                <td class="border border-gray-300 px-2 py-1">أرضاً</td>
+                <td class="border border-gray-300 px-2 py-1">ٱعزِل</td>
+                <td class="border border-gray-300 px-2 py-1">الأرض</td>
+                <td class="border border-gray-300 px-2 py-1">من</td>
+                <td class="border border-gray-300 px-2 py-1">النار،</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">fire-NOM</td>
                 <td class="border border-gray-300 px-2 py-1">
@@ -452,7 +526,7 @@ meta.priority: 1098
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             اللطيف أكرم من الغليظ،
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -462,7 +536,15 @@ meta.priority: 1098
             The subtle is more noble than the gross.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">اللطيف</td>
+                <td class="border border-gray-300 px-2 py-1">أكرم</td>
+                <td class="border border-gray-300 px-2 py-1">من</td>
+                <td class="border border-gray-300 px-2 py-1">الغليظ،</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">DEF-subtle</td>
                 <td class="border border-gray-300 px-2 py-1">more.noble</td>
@@ -481,7 +563,7 @@ meta.priority: 1098
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             برِفق وحُكم يصعد من الأرض إلى السماء وينزل إلى الأرض من السماء،
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -493,7 +575,23 @@ meta.priority: 1098
             descends to earth from heaven.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">برِفق</td>
+                <td class="border border-gray-300 px-2 py-1">وحُكم</td>
+                <td class="border border-gray-300 px-2 py-1">يصعد</td>
+                <td class="border border-gray-300 px-2 py-1">من</td>
+                <td class="border border-gray-300 px-2 py-1">الأرض</td>
+                <td class="border border-gray-300 px-2 py-1">إلى</td>
+                <td class="border border-gray-300 px-2 py-1">السماء</td>
+                <td class="border border-gray-300 px-2 py-1">وينزل</td>
+                <td class="border border-gray-300 px-2 py-1">إلى</td>
+                <td class="border border-gray-300 px-2 py-1">الأرض</td>
+                <td class="border border-gray-300 px-2 py-1">من</td>
+                <td class="border border-gray-300 px-2 py-1">السماء،</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">
                   with-gentleness
@@ -542,7 +640,7 @@ meta.priority: 1098
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             وفيه قُوّة الأعلى والأسفل،
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -552,7 +650,15 @@ meta.priority: 1098
             And within it is the power of the higher and the lower.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">وفيه</td>
+                <td class="border border-gray-300 px-2 py-1">قُوّة</td>
+                <td class="border border-gray-300 px-2 py-1">الأعلى</td>
+                <td class="border border-gray-300 px-2 py-1">والأسفل،</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">and-in-it</td>
                 <td class="border border-gray-300 px-2 py-1">power</td>
@@ -573,7 +679,7 @@ meta.priority: 1098
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             لأنّ معه نور الأنوار فلذلك تهرب منه الظُّلمة،
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -584,7 +690,29 @@ meta.priority: 1098
             For with it is the light of lights, thus darkness flees from it.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">لأنّ</td>
+                <td class="border border-gray-300 px-2 py-1">معه</td>
+                <td class="border border-gray-300 px-2 py-1">نور</td>
+                <td class="border border-gray-300 px-2 py-1">الأنوار</td>
+                <td class="border border-gray-300 px-2 py-1">فلذلك</td>
+                <td class="border border-gray-300 px-2 py-1">تهرب</td>
+                <td class="border border-gray-300 px-2 py-1">منه</td>
+                <td class="border border-gray-300 px-2 py-1">الظُّلمة،</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">الظُّلمة،</td>
+                <td class="border border-gray-300 px-2 py-1">منه</td>
+                <td class="border border-gray-300 px-2 py-1">تهرب</td>
+                <td class="border border-gray-300 px-2 py-1">فلذلك</td>
+                <td class="border border-gray-300 px-2 py-1">الأنوار</td>
+                <td class="border border-gray-300 px-2 py-1">نور</td>
+                <td class="border border-gray-300 px-2 py-1">معه</td>
+                <td class="border border-gray-300 px-2 py-1">لأنّ</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">because</td>
                 <td class="border border-gray-300 px-2 py-1">with-it</td>
@@ -623,7 +751,7 @@ meta.priority: 1098
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             قُوّة القوى
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -633,7 +761,13 @@ meta.priority: 1098
             The power of powers.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">قُوّة</td>
+                <td class="border border-gray-300 px-2 py-1">القوى</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">power</td>
                 <td class="border border-gray-300 px-2 py-1">DEF-powers</td>
@@ -650,7 +784,7 @@ meta.priority: 1098
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             يغلب كلّ شيء لطيف، يدخل في كلّ شيء غليظ،
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -661,7 +795,20 @@ meta.priority: 1098
             It overcomes every subtle thing and penetrates every solid thing,
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">يغلب</td>
+                <td class="border border-gray-300 px-2 py-1">كلّ</td>
+                <td class="border border-gray-300 px-2 py-1">شيء</td>
+                <td class="border border-gray-300 px-2 py-1">لطيف،</td>
+                <td class="border border-gray-300 px-2 py-1">يدخل</td>
+                <td class="border border-gray-300 px-2 py-1">في</td>
+                <td class="border border-gray-300 px-2 py-1">كلّ</td>
+                <td class="border border-gray-300 px-2 py-1">شيء</td>
+                <td class="border border-gray-300 px-2 py-1">غليظ،</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">
                   overcome.3SG.IMPF
@@ -700,7 +847,7 @@ meta.priority: 1098
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             على تكوين العالَم الأكبر تكوّن العمل،
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -712,7 +859,17 @@ meta.priority: 1098
             formed.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">على</td>
+                <td class="border border-gray-300 px-2 py-1">تكوين</td>
+                <td class="border border-gray-300 px-2 py-1">العالَم</td>
+                <td class="border border-gray-300 px-2 py-1">الأكبر</td>
+                <td class="border border-gray-300 px-2 py-1">تكوّن</td>
+                <td class="border border-gray-300 px-2 py-1">العمل،</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">upon</td>
                 <td class="border border-gray-300 px-2 py-1">formation</td>
@@ -741,7 +898,7 @@ meta.priority: 1098
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
-          <td class="text-left align-text-top p-2 column-class-xrabo">
+          <td class="text-right align-text-top p-2 column-class-xrabo">
             فهذا فَخْرِي ولذلك سُمّيتُ هرمس المثلَّث بالحكمة.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
@@ -754,7 +911,18 @@ meta.priority: 1098
             greatest in wisdom.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
-            <table class="inline-table border-collapse border border-gray-300">
+            <table
+              class="inner-table w-full border-collapse border border-gray-300"
+            >
+              <tr>
+                <td class="border border-gray-300 px-2 py-1">فهذا</td>
+                <td class="border border-gray-300 px-2 py-1">فَخْرِي</td>
+                <td class="border border-gray-300 px-2 py-1">ولذلك</td>
+                <td class="border border-gray-300 px-2 py-1">سُمّيتُ</td>
+                <td class="border border-gray-300 px-2 py-1">هرمس</td>
+                <td class="border border-gray-300 px-2 py-1">المثلَّث</td>
+                <td class="border border-gray-300 px-2 py-1">بالحكمة.</td>
+              </tr>
               <tr>
                 <td class="border border-gray-300 px-2 py-1">so-this</td>
                 <td class="border border-gray-300 px-2 py-1">pride-my</td>
