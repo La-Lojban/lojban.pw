@@ -70,7 +70,7 @@ jobs:
 
     - name: Run Docker container
       run: |
-        docker run --rm -v /output:/app/src/out1 \
+        docker run --rm \
                    -v ${{ github.workspace }}/data/config:/app/src/config:ro \
                    -v ${{ github.workspace }}/data/pages:/app/src/md_pages:ro \
                    -v ${{ github.workspace }}/data/assets:/app/src/public/assets:ro \
@@ -80,12 +80,19 @@ jobs:
                    -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
                    -e CI=true \
                    lojban:latest \
-                   sh -c "npm ci --prefer-offline && npx playwright install chromium --with-deps && npm run cicd"
+                   sh -c "npm ci --prefer-offline && npx playwright install chromium --with-deps && npm run cicd && cp -r /app/src/out1 /tmp/output"
+        
+    - name: Copy output from container
+      run: |
+        docker cp $(docker ps -lq):/tmp/output ./output
+        
+    - name: List output contents
+      run: ls -R ./output
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: /output/
+        path: ./output
         retention-days: 1
 
   deploy:
