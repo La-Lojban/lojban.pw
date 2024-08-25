@@ -106,7 +106,7 @@ const Post = ({
       <div className="mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap select-none">
         {/* Navigation links */}
         {(nextPage !== null || prevPage !== null) && (
-          <div className="w-full flex justify-center mt-2 mb-4 items-center space-x-8">
+          <div className="w-full flex justify-center mt-2 items-center space-x-8">
             {post.parentSlug !== undefined &&
             post.parentSlug !== post.slug.join("/") ? (
               <Link
@@ -126,7 +126,7 @@ const Post = ({
                 <FontAwesomeIcon className="w-6" icon={faArrowLeft} />
               </Link>
             ) : (
-              <div className="w-12 h-12" />
+              <div className="w-12" />
             )}
             <span className="text-gray-600">{currentPageNumber}</span>
             {nextPage !== null ? (
@@ -137,7 +137,7 @@ const Post = ({
                 <FontAwesomeIcon className="w-6" icon={faArrowRight} />
               </Link>
             ) : (
-              <div className="w-12 h-12" />
+              <div className="w-12" />
             )}
           </div>
         )}

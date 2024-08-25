@@ -17,12 +17,12 @@ const PostHeader = ({ post, siteSection }: Props) => {
 
   return (
     <>
-    <div className="flex">
+    <div className="flex items-center">
       {hasPdf && (
         <a
           key={`bangu-pdf`}
           href={`/vreji/uencu/${post.slug[0]}/${post.slug[2]}.pdf`}
-          className="mr-2 hover:from-lime-200 hover:to-lime-200 ease bg-gradient-to-br from-lime-50 to-white-900 h-10 inline-block py-2 px-3 border border-lime-500 hover:border-lime-600 rounded-l-md shadow-md print:hidden"
+          className="mr-2 hover:from-lime-200 hover:to-lime-200 ease bg-gradient-to-br from-lime-50 to-white-900 h-10 inline-flex items-center py-2 px-3 border border-lime-500 hover:border-lime-600 rounded-l-md shadow-md print:hidden"
         >
           <FontAwesomeIcon className="w-6" icon={faFilePdf} />
         </a>
