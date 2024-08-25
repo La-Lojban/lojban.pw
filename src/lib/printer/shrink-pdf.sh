@@ -30,55 +30,56 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 
-# shrink ()
-# {
-# 	gs					\
-# 	  -q -dNOPAUSE -dBATCH -dSAFER		\
-# 	  -sDEVICE=pdfwrite			\
-# 	  -dCompatibilityLevel=1.4		\
-# 	  -dPDFSETTINGS=/screen			\
-# 	  -dEmbedAllFonts=true			\
-# 	  -dSubsetFonts=true			\
-# 	  -dAutoRotatePages=/None		\
-# 	  -dColorImageDownsampleType=/Bicubic	\
-# 	  -dColorImageResolution=$3		\
-# 	  -dGrayImageDownsampleType=/Bicubic	\
-# 	  -dGrayImageResolution=$3		\
-# 	  -dDetectDuplicateImages \
-# 	  -dCompressFonts=true \
-# 	  -dMonoImageDownsampleType=/Subsample	\
-# 	  -dMonoImageResolution=$3		\
-# 	  -sOutputFile="$2"			\
-# 	  -c "[ /Title (Learn Lojban) /DOCINFO pdfmark" \
-# 	  -f \
-# 	  "$1"
-# }
-
 shrink ()
 {
 	gs					\
 	  -q -dNOPAUSE -dBATCH -dSAFER		\
 	  -sDEVICE=pdfwrite			\
 	  -dCompatibilityLevel=1.5		\
-	  -dPDFSETTINGS=/prepress		\
+	  -dPDFSETTINGS=/prepress			\
 	  -dEmbedAllFonts=true			\
 	  -dSubsetFonts=true			\
 	  -dAutoRotatePages=/None		\
-	  -dColorImageDownsampleType=/None	\
-	  -dGrayImageDownsampleType=/None	\
-	  -dMonoImageDownsampleType=/None	\
-	  -dAutoFilterColorImages=false	\
-	  -dAutoFilterGrayImages=false	\
+	  -dColorImageDownsampleType=/Bicubic	\
+	  -dColorImageResolution=$3		\
+	  -dGrayImageDownsampleType=/Bicubic	\
+	  -dGrayImageResolution=$3		\
+	  -dDetectDuplicateImages \
 	  -dCompressFonts=true \
-	  -dDetectDuplicateImages=true \
-	  -dColorConversionStrategy=/LeaveColorUnchanged \
-	  -dUseFlateCompression=true \
+	  -dMonoImageDownsampleType=/Subsample	\
+	  -dMonoImageResolution=$3		\
 	  -dDoThumbnails=false \
 	  -sOutputFile="$2"			\
 	  -c "[ /Title (Learn Lojban) /DOCINFO pdfmark" \
 	  -f \
 	  "$1"
 }
+
+# shrink ()
+# {
+# 	gs					\
+# 	  -q -dNOPAUSE -dBATCH -dSAFER		\
+# 	  -sDEVICE=pdfwrite			\
+# 	  -dCompatibilityLevel=1.5		\
+# 	  -dPDFSETTINGS=/prepress		\
+# 	  -dEmbedAllFonts=true			\
+# 	  -dSubsetFonts=true			\
+# 	  -dAutoRotatePages=/None		\
+# 	  -dColorImageDownsampleType=/None	\
+# 	  -dGrayImageDownsampleType=/None	\
+# 	  -dMonoImageDownsampleType=/None	\
+# 	  -dAutoFilterColorImages=false	\
+# 	  -dAutoFilterGrayImages=false	\
+# 	  -dCompressFonts=true \
+# 	  -dDetectDuplicateImages=true \
+# 	  -dColorConversionStrategy=/LeaveColorUnchanged \
+# 	  -dUseFlateCompression=true \
+# 	  -dDoThumbnails=false \
+# 	  -sOutputFile="$2"			\
+# 	  -c "[ /Title (Learn Lojban) /DOCINFO pdfmark" \
+# 	  -f \
+# 	  "$1"
+# }
 
 check_smaller ()
 {
@@ -106,7 +107,7 @@ usage ()
 if [ ! -z "$3" ]; then
 	res="$3"
 else
-	res="96"
+	res="120"
 fi
 
 echo "Shrinking pdf files"
@@ -117,7 +118,7 @@ find /vreji/uencu -type f -name '*-pre.pdf' | while read -r file; do
     # Apply the shrink command to each file
     output=$(echo "$file" | sed "s/-pre.pdf/.pdf/")
 
-	shrink "$file" "$output" || exit $?
+	shrink "$file" "$output" "$res" || exit $?
 
 	check_smaller "$file" "$output"
 
