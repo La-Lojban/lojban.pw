@@ -70,29 +70,22 @@ jobs:
 
     - name: Run Docker container
       run: |
-        docker run --rm \
-                   -v ${{ github.workspace }}/data/config:/app/src/config:ro \
-                   -v ${{ github.workspace }}/data/pages:/app/src/md_pages:ro \
-                   -v ${{ github.workspace }}/data/assets:/app/src/public/assets:ro \
-                   -v ${{ github.workspace }}/data/DNS:/app/service/DNS:ro \
-                   -v ${{ github.workspace }}/src:/app/src:ro \
+        docker run --rm -v /output:/app/src/out1 \
+                   -v ${{ github.workspace }}/data/config:/app/src/config:Z \
+                   -v ${{ github.workspace }}/data/pages:/app/src/md_pages:Z \
+                   -v ${{ github.workspace }}/data/assets:/app/src/public/assets:Z \
+                   -v ${{ github.workspace }}/data/DNS:/app/service/DNS:Z \
+                   -v ${{ github.workspace }}/src:/app/src:Z \
                    -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
                    -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
                    -e CI=true \
                    lojban:latest \
-                   sh -c "npm ci --prefer-offline && npx playwright install chromium --with-deps && npm run cicd && cp -r /app/src/out1 /tmp/output"
-        
-    - name: Copy output from container
-      run: |
-        docker cp $(docker ps -lq):/tmp/output ./output
-        
-    - name: List output contents
-      run: ls -R ./output
+                   sh -c "npm ci --prefer-offline && npx playwright install chromium --with-deps && npm run cicd"
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: ./output
+        path: /output/
         retention-days: 1
 
   deploy:
