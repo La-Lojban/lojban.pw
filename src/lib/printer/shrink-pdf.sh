@@ -35,19 +35,21 @@ shrink ()
 	gs					\
 	  -q -dNOPAUSE -dBATCH -dSAFER		\
 	  -sDEVICE=pdfwrite			\
-	  -dCompatibilityLevel=1.4		\
-	  -dPDFSETTINGS=/screen			\
+	  -dCompatibilityLevel=1.5		\
+	  -dPDFSETTINGS=/prepress		\
 	  -dEmbedAllFonts=true			\
 	  -dSubsetFonts=true			\
 	  -dAutoRotatePages=/None		\
-	  -dColorImageDownsampleType=/Bicubic	\
-	  -dColorImageResolution=$3		\
-	  -dGrayImageDownsampleType=/Bicubic	\
-	  -dGrayImageResolution=$3		\
-	  -dDetectDuplicateImages \
+	  -dColorImageDownsampleType=/None	\
+	  -dGrayImageDownsampleType=/None	\
+	  -dMonoImageDownsampleType=/None	\
+	  -dAutoFilterColorImages=false	\
+	  -dAutoFilterGrayImages=false	\
 	  -dCompressFonts=true \
-	  -dMonoImageDownsampleType=/Subsample	\
-	  -dMonoImageResolution=$3		\
+	  -dDetectDuplicateImages=true \
+	  -dColorConversionStrategy=/LeaveColorUnchanged \
+	  -dUseFlateCompression=true \
+	  -dDoThumbnails=false \
 	  -sOutputFile="$2"			\
 	  -c "[ /Title (Learn Lojban) /DOCINFO pdfmark" \
 	  -f \

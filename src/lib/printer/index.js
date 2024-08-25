@@ -45,6 +45,8 @@ const allLanguages = Object.keys(languages);
         // }, div_selector_to_remove);
         const pdf = await page.pdf({
           printBackground: true,
+          preferCSSPageSize: true,
+          quality: 100,
           format: "A4",
           margin: { top: "20px", right: "20px", bottom: "20px", left: "20px" },
           timeout: 0,
