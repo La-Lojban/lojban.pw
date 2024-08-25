@@ -111,7 +111,7 @@ const Post = ({
             post.parentSlug !== post.slug.join("/") ? (
               <Link
                 href={"/" + post.parentSlug}
-                className="text-brown-500 hover:text-brown-500 transition-colors"
+                className="text-brown-300 hover:text-brown-500 transition-colors"
               >
                 <FontAwesomeIcon className="w-6" icon={faBackwardFast} />
               </Link>
@@ -121,7 +121,7 @@ const Post = ({
             {prevPage !== null ? (
               <Link
                 href={prevPage}
-                className="text-deep-orange-900 hover:text-deep-orange-900 transition-colors"
+                className="text-deep-orange-300 hover:text-brown-500 transition-colors"
               >
                 <FontAwesomeIcon className="w-6" icon={faArrowLeft} />
               </Link>
@@ -132,7 +132,7 @@ const Post = ({
             {nextPage !== null ? (
               <Link
                 href={nextPage}
-                className="text-deep-orange-900 hover:text-deep-orange-900 transition-colors"
+                className="text-deep-orange-300 hover:text-deep-brown-500 transition-colors"
               >
                 <FontAwesomeIcon className="w-6" icon={faArrowRight} />
               </Link>
@@ -248,7 +248,7 @@ export async function getStaticProps({ params }: Params) {
       language: string;
     }[]
   );
-  console.log(posts, fullSlug);
+  // console.log(posts, fullSlug);
 
   allPosts = allPosts.filter(
     (post) => !fields.includes("title") || typeof post.title !== "undefined"
