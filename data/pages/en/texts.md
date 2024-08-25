@@ -1,5 +1,5 @@
 ---
-title: 📚 Corpus of texts
+title: 📚 Text corpus
 og:image: /assets/pixra/ralju/texts.webp
 description: stories, books in Lojban and English with parallel translation 
 ---
