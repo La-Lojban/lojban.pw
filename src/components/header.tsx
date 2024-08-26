@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Popover } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
@@ -83,31 +83,34 @@ export default function Header({
     return { ...item, foundTitle };
   });
 
-  const handleLanguageChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+  const handleLanguageChange = (
+    event: React.ChangeEvent<HTMLSelectElement>
+  ) => {
     const language = event.target.value;
     router.push(`/${language}`);
   };
 
   useEffect(() => {
     const updateVisibleItems = () => {
-      const headerWidth = document.querySelector('nav')?.offsetWidth || 0;
+      const headerWidth = document.querySelector("nav")?.offsetWidth || 0;
       const logoWidth = 100; // Approximate width of the logo
       const languageSelectorWidth = 150; // Approximate width of the language selector
       const burgerMenuWidth = 50; // Approximate width of the burger menu icon
       const itemWidth = 120; // Approximate width of each navigation item
 
-      const availableWidth = headerWidth - logoWidth - languageSelectorWidth - burgerMenuWidth;
+      const availableWidth =
+        headerWidth - logoWidth - languageSelectorWidth - burgerMenuWidth;
       const possibleVisibleItems = Math.floor(availableWidth / itemWidth);
-      
+
       setVisibleItems(Math.max(0, possibleVisibleItems));
       setShowBurger(possibleVisibleItems < header_.length);
     };
 
     updateVisibleItems();
-    window.addEventListener('resize', updateVisibleItems);
+    window.addEventListener("resize", updateVisibleItems);
 
     return () => {
-      window.removeEventListener('resize', updateVisibleItems);
+      window.removeEventListener("resize", updateVisibleItems);
     };
   }, [header_.length]);
 
@@ -115,7 +118,10 @@ export default function Header({
   const hiddenNavItems = header_.slice(visibleItems);
 
   return (
-    <Popover as="nav" className="z-50 bg-deep-orange-400 shadow-md print:hidden">
+    <Popover
+      as="nav"
+      className="z-50 bg-deep-orange-400 shadow-md print:hidden"
+    >
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -135,24 +141,45 @@ export default function Header({
                   <select
                     className="outline-none py-1 h-8 flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base leading-none pl-2 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center"
                     onChange={handleLanguageChange}
-                    defaultValue={langDict[post?.slug[0] ?? router.asPath.split("/")[1] ?? "en"]}
+                    defaultValue={
+                      langDict[
+                        post?.slug[0] ?? router.asPath.split("/")[1] ?? "en"
+                      ]
+                    }
                   >
-                    {posts.map((post) => (
-                      <option key={`bangu-${post.language}`} value={post.fullPath as string}>
-                        {langDict[post.language as any]}
-                      </option>
-                    ))}
+                    <option
+                      key={`bangu-${currentLanguage}`}
+                      value={path}
+                    >
+                      {langDict[currentLanguage as any]}
+                    </option>
+                    {posts
+                      .filter((post) => post.language !== currentLanguage)
+                      .map((post) => (
+                        <option
+                          key={`bangu-${post.language}`}
+                          value={post.fullPath as string}
+                        >
+                          {langDict[post.language as any]}
+                        </option>
+                      ))}
                   </select>
-                  
+
                   {visibleNavItems.map((item) => (
                     <Link
-                      href={!!item.foundTitle ? (item.foundTitle.url as string) : item.url}
+                      href={
+                        !!item.foundTitle
+                          ? (item.foundTitle.url as string)
+                          : item.url
+                      }
                       key={item.url}
                       className="mt-auto"
                     >
                       <button className="h-8 flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base leading-none px-4 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center">
                         <span className="py-1">
-                          {!!item.foundTitle ? (item.foundTitle.name as string) : item.name}
+                          {!!item.foundTitle
+                            ? (item.foundTitle.name as string)
+                            : item.name}
                         </span>
                       </button>
                     </Link>
@@ -164,10 +191,17 @@ export default function Header({
                 <select
                   className="sm:hidden mr-3 h-8 inline-block my-auto py-1 px-2 bg-gray-100 border border-gray-300 hover:border-gray-400 rounded-md shadow-md text-gray-600 outline-none appearance-none"
                   onChange={handleLanguageChange}
-                  defaultValue={langDict[post?.slug[0] ?? router.asPath.split("/")[1] ?? "en"]}
+                  defaultValue={
+                    langDict[
+                      post?.slug[0] ?? router.asPath.split("/")[1] ?? "en"
+                    ]
+                  }
                 >
                   {posts.map((post) => (
-                    <option key={`bangu-${post.language}`} value={post.fullPath as string}>
+                    <option
+                      key={`bangu-${post.language}`}
+                      value={post.fullPath as string}
+                    >
                       {langDict[post.language as any]}
                     </option>
                   ))}
@@ -182,7 +216,11 @@ export default function Header({
                   >
                     <span className="sr-only">Open main menu</span>
                     {open ? (
-                      <XMarkIcon id="xicon" className="block h-6 w-6" aria-hidden="true" />
+                      <XMarkIcon
+                        id="xicon"
+                        className="block h-6 w-6"
+                        aria-hidden="true"
+                      />
                     ) : (
                       <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
                     )}
@@ -198,7 +236,11 @@ export default function Header({
                 <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                   {hiddenNavItems.map((item) => (
                     <Link
-                      href={!!item.foundTitle ? (item.foundTitle.url as string) : item.url}
+                      href={
+                        !!item.foundTitle
+                          ? (item.foundTitle.url as string)
+                          : item.url
+                      }
                       key={item.url}
                       onClick={() => {
                         closeXicon();
@@ -206,7 +248,9 @@ export default function Header({
                       }}
                       className={`block border-b last:border-b-0 hover:text-deep-orange-600 ${buttonClass}`}
                     >
-                      {!!item.foundTitle ? (item.foundTitle.name as string) : item.name}
+                      {!!item.foundTitle
+                        ? (item.foundTitle.name as string)
+                        : item.name}
                     </Link>
                   ))}
 
@@ -218,7 +262,10 @@ export default function Header({
                       </h1>
 
                       <nav className="toc w-full md:w-1/5 p-2 bottom-0 md:top-20 h-48 md:h-screen font-medium text-sm overflow-ellipsis">
-                        <div id="toc-topbar" className="h-full px-2 pb-3 space-y-1 sm:px-3 overflow-y-auto">
+                        <div
+                          id="toc-topbar"
+                          className="h-full px-2 pb-3 space-y-1 sm:px-3 overflow-y-auto"
+                        >
                           {listToC.map((item) => (
                             <Link
                               href={item.url}
