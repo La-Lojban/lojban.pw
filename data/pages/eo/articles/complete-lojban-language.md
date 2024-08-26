@@ -1,5 +1,6 @@
 ---
-title: 📕 Kompleta lingvo
+icon: 📕 
+title: Kompleta lingvo
 ---
 
 <pixra url="/assets/pixra/ralju/cll2.webp" caption="La Kompleta Loĵbana Lingvo, la presita eldono de 2016"></pixra>
@@ -101,7 +102,8 @@ title: 📕 Kompleta lingvo
 
 [git fonto de la UnCLL](https://github.com/lojban/cll/compare/geklojban-master)
 ---
-title: 📕 Complete language
+icon: 📕 
+title: Complete language
 ---
 
 <pixra url="/assets/pixra/ralju/cll2.webp" caption="The Complete Lojban Language, the 2016 printed edition"></pixra>
@@ -267,7 +269,8 @@ title: 📕 Complete language
 ### geklojban-1.2.10 August 2020
 
 #### Compiled version---
-title: 📕 Complete language
+icon: 📕 
+title: Complete language
 ---
 
 <pixra url="/assets/pixra/ralju/cll2.webp" caption="The Complete Lojban Language, the 2016 printed edition"></pixra>

@@ -221,7 +221,7 @@ export async function getStaticProps({ params }: Params) {
   const shortSlug = params.slug.join("/");
   const currentLanguage = params.lang;
 
-  const fields = ["slug", "hidden", "title", "directory", "coverImage"];
+  const fields = ["slug", "hidden", "title", "directory", "coverImage", "icon"];
   let allPosts = await getAllPosts({
     fields,
     showHidden: true,
@@ -248,7 +248,6 @@ export async function getStaticProps({ params }: Params) {
       language: string;
     }[]
   );
-  // console.log(posts, fullSlug);
 
   allPosts = allPosts.filter(
     (post) => !fields.includes("title") || typeof post.title !== "undefined"

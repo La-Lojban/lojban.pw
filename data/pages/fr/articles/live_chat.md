@@ -1,5 +1,6 @@
 ---
-title: 💬 Chat
+icon: 💬 
+title: Chat
 meta.type: article
 meta.description: Lojban est une langue vivante, et vous pouvez contacter des experts en Lojban dans un chat.
 ---

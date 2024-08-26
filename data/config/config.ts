@@ -34,13 +34,13 @@ export const footer = [
 ];
 
 export const header = [
-  { name: "🎓 Learn Lojban", url: "/books/learn-lojban" },
-  { name: "💬 Live chat", url: "/articles/live_chat" },
+  { icon: "🎓", "name": "Learn Lojban", url: "/books/learn-lojban" },
+  { icon: "💬", name: "Live chat", url: "/articles/live_chat" },
   {
-    name: "📚 Texts",
+    icon: "📚", name: "Texts",
     url: "/texts",
   },
-  { name: "📕 Full grammar", url: "/articles/complete-lojban-language" },
+  { icon: "📕", name: "Full grammar", url: "/articles/complete-lojban-language" },
   { name: "📂📑📑📑", url: "/list" },
 ];
 

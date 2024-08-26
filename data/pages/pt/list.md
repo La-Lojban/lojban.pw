@@ -1,3 +1,4 @@
 ---
-title: 📑 Mapa do site
+icon: 📑 
+title: Mapa do site
 ---

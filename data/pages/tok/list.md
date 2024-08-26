@@ -1,3 +1,4 @@
 ---
-title: 📑 lipu ni ale
+icon: 📑 
+title: lipu ni ale
 ---

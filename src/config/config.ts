@@ -34,10 +34,10 @@ export const footer = [
 ];
 
 export const header = [
-  { name: "🎓 Learn", url: "/books/learn", coverImage: "" },
-  { name: "💬 Live chat", url: "/articles/chat" },
-  { name: "📚 To read", url: "/texts", "og:image": "" },
-  { name: "🗂️ All pages", url: "/list" },
+  { icon: "🎓", name: "Learn", url: "/books/learn", coverImage: "" },
+  { icon: "💬", name: "Live chat", url: "/articles/chat" },
+  { icon: "📚", name: "To read", url: "/texts", "og:image": "" },
+  { icon: "🗂️", name: "All pages", url: "/list" },
 ];
 
 export const links = [

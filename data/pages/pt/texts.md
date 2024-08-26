@@ -1,5 +1,6 @@
 ---
-title: 📚 Corpus de textos
+icon: 📚 
+title: Corpus de textos
 og:image: /assets/pixra/ralju/texts.webp
 description: contos, livros em lojban e português com tradução paralela
 ---

@@ -1,3 +1,4 @@
 ---
-title: 📑 Mapo de retejo
+icon: 📑 
+title: Mapo de retejo
 ---
