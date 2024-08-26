@@ -10,6 +10,7 @@ import { Items } from "../lib/api";
 import { useRouter } from "next/router";
 import PostTitle from "./post-title";
 import { TPost } from "../types/post";
+import NavigationWidget from "./navigation";
 
 type Props = {
   children: React.ReactNode;
@@ -22,6 +23,9 @@ type Props = {
   posts?: Items[];
   post?: TPost;
   siteSection?: string;
+  prevPage?: any;
+  nextPage?: any;
+  currentPageNumber?: number;
 };
 
 const Layout = ({
@@ -35,6 +39,9 @@ const Layout = ({
   posts,
   post,
   siteSection,
+  prevPage,
+  nextPage,
+  currentPageNumber,
 }: Props) => {
   const router = useRouter();
 
@@ -75,28 +82,24 @@ const Layout = ({
           allPosts={allPosts}
           currentLanguage={currentLanguage}
           posts={posts}
-          post={post} 
+          post={post}
         />
         <article ref={articleRef} className="flex-grow overflow-y-auto">
           {children}
         </article>
         <Footer />
-        {/* Back to top button */}
-        <button
-          type="button"
-          className={[
-            isVisible ? null : "hidden",
-            "z-50 !fixed bottom-5 end-5 rounded-full bg-red-600 p-3 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg",
-          ]
-            .filter(Boolean)
-            .join(" ")}
-          id="btn-back-to-top"
-          onClick={scrollToTop}
-        >
-          <span className="[&>svg]:w-4">
-            <FontAwesomeIcon className="" icon={faArrowUp} />
-          </span>
-        </button>
+        {(prevPage !== undefined ||
+          nextPage !== undefined ||
+          currentLanguage !== undefined) && isVisible && (
+          <NavigationWidget
+            parentSlug={post?.parentSlug}
+            isVisible={isVisible}
+            scrollToTop={scrollToTop}
+            prevPage={prevPage}
+            nextPage={nextPage}
+            currentPageNumber={currentPageNumber}
+          />
+        )}
       </div>
     </>
   );

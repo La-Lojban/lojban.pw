@@ -20,6 +20,7 @@ import { TPost } from "../../types/post";
 import { site_title } from "../../config/config";
 import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import { retainStringValues } from "../../lib/utils";
+import NavigationWidget from "../../components/navigation";
 
 type Props = {
   post: TPost;
@@ -102,6 +103,9 @@ const Post = ({
       post={post}
       siteSection={siteSection}
       title={title}
+      prevPage={prevPage}
+      nextPage={nextPage}
+      currentPageNumber={currentPageNumber}
     >
       <div className="mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap select-none">
         {/* Navigation links */}
@@ -141,7 +145,7 @@ const Post = ({
             )}
           </div>
         )}
-
+        
         {state.galleryShown && post.slug[1] === siteSection && (
           <ImageGallery
             additionalClass="fullpage"
