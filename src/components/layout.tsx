@@ -88,18 +88,16 @@ const Layout = ({
           {children}
         </article>
         <Footer />
-        {(prevPage !== undefined ||
-          nextPage !== undefined ||
-          currentLanguage !== undefined) && isVisible && (
-          <NavigationWidget
-            parentSlug={post?.parentSlug}
-            isVisible={isVisible}
-            scrollToTop={scrollToTop}
-            prevPage={prevPage}
-            nextPage={nextPage}
-            currentPageNumber={currentPageNumber}
-          />
-        )}
+
+        <NavigationWidget
+          parentSlug={post?.parentSlug}
+          isVisible={isVisible}
+          scrollToTop={scrollToTop}
+          prevPage={prevPage}
+          nextPage={nextPage}
+          currentPageNumber={currentPageNumber}
+          currentLanguage={currentLanguage}
+        />
       </div>
     </>
   );
