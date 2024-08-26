@@ -75,9 +75,10 @@ export async function getPostBySlug(
     )
     .map((s) => s.join("/"));
 
-  const firstHeaderMatch = content.match(/^#+\s+(.+)$/m);
+  const firstHeaderMatch =
+    slug[1] === "books" ? content.match(/^#+\s+(.+)$/m) : null;
   const firstHeader = firstHeaderMatch
-    ? firstHeaderMatch?.[1]?.trim()
+    ? firstHeaderMatch?.[1]?.replace(/<*?>/g, "").trim()
     : undefined;
 
   // Ensure only the minimal needed data is exposed
