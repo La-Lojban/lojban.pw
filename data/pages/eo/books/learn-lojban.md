@@ -1,5 +1,6 @@
 ---
-title: 🎓 Lernu Loĵbanon
+icon: 🎓
+title: Lernu Loĵbanon
 description: bela facila kurso kun multaj ekzemploj
 og:image: /assets/pixra/cilre/sruri_since.webp
 coverImage: /assets/pixra/cilre/sruri_since.webp

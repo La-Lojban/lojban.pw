@@ -1,5 +1,6 @@
 ---
-title: 📕 sona ale toki
+icon: 📕 
+title: sona ale toki
 ---
 
 

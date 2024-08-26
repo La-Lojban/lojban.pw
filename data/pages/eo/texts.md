@@ -1,5 +1,6 @@
 ---
-title: 📚 Korpuso de tekstoj
+icon: 📚 
+title: Korpuso de tekstoj
 og:image: /assets/pixra/ralju/texts.webp
 description: rakontoj, libroj en Loĵbano kaj la angla kun paralela traduko
 ---

@@ -1,5 +1,6 @@
 ---
-title: 📕 Complete language
+icon: 📕 
+title: Complete language
 ---
 
 <pixra url="/assets/pixra/ralju/cll2.webp" caption="The Complete Lojban Language, the 2016 printed edition"></pixra>

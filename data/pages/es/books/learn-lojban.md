@@ -1,5 +1,6 @@
 ---
-title: 🎓 Aprende Lojban
+icon: 🎓
+title: Aprende Lojban
 description: Buen curso fácil con muchos ejemplos.
 og:image: /assets/pixra/cilre/sruri_since.webp
 coverImage: /assets/pixra/cilre/sruri_since.webp

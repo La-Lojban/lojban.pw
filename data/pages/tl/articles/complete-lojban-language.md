@@ -1,5 +1,6 @@
 ---
-title: 📕 Buong Wika
+icon: 📕 
+title: Buong Wika
 ---
 
 <pixra url="/assets/pixra/ralju/cll2.webp" caption="Ang Buong Wika ng Lojban, ang 2016 na inilimbag na edisyon"></pixra>

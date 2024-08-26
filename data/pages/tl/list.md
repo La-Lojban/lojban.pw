@@ -1,3 +1,4 @@
 ---
-title: 📑 Mapa ng Website
+icon: 📑 
+title: Mapa ng Website
 ---

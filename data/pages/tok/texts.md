@@ -1,5 +1,6 @@
 ---
-title: 📚 lipu mute
+icon: 📚 
+title: lipu mute
 ---
 
 sina wile ala wile ante e lipu ni tawa toki sina?

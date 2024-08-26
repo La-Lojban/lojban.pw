@@ -69,6 +69,7 @@ export default function Header({
           acc.push({
             slug: post.slug,
             url: localizedUrl,
+            icon: post.icon??'na',
             name: post.title,
             directory: post.slug[0],
             coverImage: post.coverImage,
@@ -147,10 +148,7 @@ export default function Header({
                       ]
                     }
                   >
-                    <option
-                      key={`bangu-${currentLanguage}`}
-                      value={path}
-                    >
+                    <option key={`bangu-${currentLanguage}`} value={path}>
                       {langDict[currentLanguage as any]}
                     </option>
                     {posts
@@ -175,8 +173,13 @@ export default function Header({
                       key={item.url}
                       className="mt-auto"
                     >
-                      <button className="h-8 flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base leading-none px-4 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center">
-                        <span className="py-1">
+                      <button className="h-8 flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base leading-none px-4 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center relative overflow-hidden">
+                        {!!item.foundTitle && (
+                          <div className="absolute flex items-center justify-center text-xl opacity-80 left-1 top-1 bottom-1">
+                            {item.foundTitle.icon as string}
+                          </div>
+                        )}
+                        <span className="py-1 relative z-10 pl-4">
                           {!!item.foundTitle
                             ? (item.foundTitle.name as string)
                             : item.name}
