@@ -2,8 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import Footer from "./footer";
 import Meta from "./meta";
 import { debounce } from "../lib/utils";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import Header from "./header";
 import { TocElem } from "../types/toc";
 import { Items } from "../lib/api";
@@ -70,6 +68,20 @@ const Layout = ({
     }
   }, []);
 
+  useEffect(() => {
+    const handleRouteChange = () => {
+      if (articleRef.current) {
+        articleRef.current.scrollTop = 0;
+      }
+    };
+
+    router.events.on('routeChangeComplete', handleRouteChange);
+
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, [router.events]);
+  
   if (router.isFallback) return <PostTitle>Loading…</PostTitle>;
 
   return (
