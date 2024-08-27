@@ -107,7 +107,7 @@ const Post = ({
       nextPage={nextPage}
       currentPageNumber={currentPageNumber}
     >
-      <div className="mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap select-none">
+      <div className="mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap">
         {/* Navigation links */}
         {(nextPage !== null || prevPage !== null) && (
           <div className="w-full flex justify-center mt-2 items-center space-x-8">
