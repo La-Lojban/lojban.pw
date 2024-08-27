@@ -34,7 +34,7 @@ export const footer = [
 ];
 
 export const header = [
-  { icon: "🎓", "name": "Learn Lojban", url: "/books/learn-lojban" },
+  { icon: "🎓", "name": "Learn Lojban", url: "/books/learn-lojban/!1" },
   { icon: "💬", name: "Live chat", url: "/articles/live_chat" },
   {
     icon: "📚", name: "Texts",

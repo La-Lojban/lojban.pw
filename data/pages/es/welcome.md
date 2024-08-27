@@ -9,7 +9,7 @@ Este sitio web enumera documentación y tutoriales gratuitos no oficiales sobre 
 
 ## [Curso ‘Aprende Lojban’](/es/libros/aprende-lojban)
 
-<pixra redirect="/es/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="Curso ‘Aprende Lojban’"></pixra>
+<pixra redirect="/es/books/learn-lojban/!1" url="/assets/pixra/cilre/sruri_since.webp" caption="Curso ‘Aprende Lojban’"></pixra>
 
 Este curso enseña Lojban desde sus fundamentos formales, pero en términos simples y con muchos ejemplos de uso.
 
