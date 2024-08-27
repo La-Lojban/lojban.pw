@@ -9,7 +9,7 @@ meta.title: Что такое ложбан?
 
 ## [Курс «Изучаем ложбан»](/ru/books/learn-lojban)
 
-<pixra redirect="/ru/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="Курс «Изучаем ложбан»"></pixra>
+<pixra redirect="/ru/books/learn-lojban/!1" url="/assets/pixra/cilre/sruri_since.webp" caption="Курс «Изучаем ложбан»"></pixra>
 
 В этом курсе ложбан объясняется, начиная с его формальных основ, но простыми словами и с множеством примеров использования.
 

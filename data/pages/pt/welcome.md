@@ -9,7 +9,7 @@ Este site lista tutoriais gratuitos não oficiais e documentação sobre a lingu
 
 ## [Сurso ‘Aprenda Lojban’](/pt/books/learn-lojban)
 
-<pixra redirect="/pt/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="Curso ‘Aprenda Lojban’"></pixra>
+<pixra redirect="/pt/books/learn-lojban/!1" url="/assets/pixra/cilre/sruri_since.webp" caption="Curso ‘Aprenda Lojban’"></pixra>
 
 Este curso ensina Lojban desde seus fundamentos formais, mas em termos simples e com muitos exemplos de uso.
 

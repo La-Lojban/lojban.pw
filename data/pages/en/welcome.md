@@ -9,7 +9,7 @@ This website lists unofficial free libre tutorials and documentation on the Lojb
 
 ## [‘Learn Lojban’ course](/en/books/learn-lojban)
 
-<pixra redirect="/en/books/learn-lojban" url="/assets/pixra/cilre/sruri_since.webp" caption="‘Learn Lojban’ course"></pixra>
+<pixra redirect="/en/books/learn-lojban/!1" url="/assets/pixra/cilre/sruri_since.webp" caption="‘Learn Lojban’ course"></pixra>
 
 This course teaches Lojban from its formal foundations, but in simple terms and with plenty of usage examples.
 
