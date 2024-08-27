@@ -56,7 +56,7 @@ const AllStories = ({ posts, lang }: Props) => {
             >
               <span>{key}</span>
               <a className="print:hidden" aria-hidden="true" href={`#${key}`}>
-                <span className="in-heading hash">#</span>
+                <span className="in-heading hash select-none">#</span>
               </a>
             </div>
           </div>

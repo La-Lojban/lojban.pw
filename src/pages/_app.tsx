@@ -19,7 +19,6 @@ NProgress.configure({
 if (process.env.NODE_ENV !== "development") {
   Router.events.on("routeChangeStart", () => NProgress.start());
   Router.events.on("routeChangeComplete", () => {
-    window && window.scrollTo(0, 0);
     NProgress.done();
     closeXicon();
     window && window.dispatchEvent(new Event("popstate"));

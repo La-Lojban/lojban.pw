@@ -19,7 +19,7 @@ export const transformers: {selector: string; fn?: any; wrapper?:string; idCount
 
 			const a = document.createElement("a");
 			a.className = "print:hidden";
-			a.innerHTML = `<span class="in-heading hash">#</span>`;
+			a.innerHTML = `<span class="in-heading hash select-none">#</span>`;
 			a.setAttribute("aria-hidden", "true");
 			a.setAttribute("tabindex", "-1");
 			a.setAttribute("href", "#" + element.id);
