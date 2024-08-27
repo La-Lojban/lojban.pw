@@ -29,23 +29,20 @@ const NavigationWidget: React.FC<NavigationWidgetProps> = ({
   scrollToTop,
   currentLanguage,
 }) => {
-  if (!isVisible||!currentLanguage) return <></>;
+  if (!isVisible || !currentLanguage) return <></>;
 
   const hasNavigation =
-    prevPage ||
-    nextPage ||
-    parentSlug ||
-    currentPageNumber !== null;
+    prevPage || nextPage || parentSlug || currentPageNumber !== null;
 
   return (
-    <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50">
+    <div className="fixed bottom-9 left-1/2 transform -translate-x-1/2 z-50">
       <div className="h-12 flex">
         {hasNavigation && (
-          <div className="bg-white rounded-lg shadow-md p-2 flex items-center space-x-4 mr-16">
+          <div className="bg-white rounded-lg shadow-md p-2 flex items-center space-x-4 mr-12">
             {parentSlug && parentSlug !== currentSlug?.join("/") && (
               <Link
                 href={"/" + parentSlug}
-                className="text-brown-300 hover:text-brown-500 transition-colors mr-4"
+                className="text-brown-400 hover:text-brown-600 transition-colors mr-4"
               >
                 <FontAwesomeIcon className="w-6" icon={faBackwardFast} />
               </Link>
@@ -53,7 +50,7 @@ const NavigationWidget: React.FC<NavigationWidgetProps> = ({
             {prevPage && (
               <Link
                 href={prevPage}
-                className="text-deep-orange-300 hover:text-brown-500 transition-colors"
+                className="text-deep-orange-400 hover:text-brown-600 transition-colors"
               >
                 <FontAwesomeIcon className="w-6" icon={faArrowLeft} />
               </Link>
@@ -64,7 +61,7 @@ const NavigationWidget: React.FC<NavigationWidgetProps> = ({
             {nextPage && (
               <Link
                 href={nextPage}
-                className="text-deep-orange-300 hover:text-deep-brown-500 transition-colors"
+                className="text-deep-orange-400 hover:text-brown-600"
               >
                 <FontAwesomeIcon className="w-6" icon={faArrowRight} />
               </Link>
@@ -73,10 +70,13 @@ const NavigationWidget: React.FC<NavigationWidgetProps> = ({
         )}
         <button
           onClick={scrollToTop}
-          className="rounded-full bg-red-600 p-3 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition-colors"
+          className="bg-white rounded-lg shadow-md py-2 px-3 transition duration-150 ease-in-out hover:bg-deep-orange-600 group"
         >
           <span className="[&>svg]:w-4">
-            <FontAwesomeIcon icon={faArrowUp} />
+            <FontAwesomeIcon
+              icon={faArrowUp}
+              className="text-deep-orange-400 group-hover:text-white transition-colors duration-150 ease-in-out"
+            />
           </span>
         </button>
       </div>

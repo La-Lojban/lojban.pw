@@ -115,7 +115,7 @@ const Post = ({
             post.parentSlug !== post.slug.join("/") ? (
               <Link
                 href={"/" + post.parentSlug}
-                className="text-brown-300 hover:text-brown-500 transition-colors"
+                className="text-brown-400 hover:text-brown-600 transition-colors"
               >
                 <FontAwesomeIcon className="w-6" icon={faBackwardFast} />
               </Link>
@@ -125,7 +125,7 @@ const Post = ({
             {prevPage !== null ? (
               <Link
                 href={prevPage}
-                className="text-deep-orange-300 hover:text-brown-500 transition-colors"
+                className="text-deep-orange-400 hover:text-brown-600 transition-colors"
               >
                 <FontAwesomeIcon className="w-6" icon={faArrowLeft} />
               </Link>
@@ -136,7 +136,7 @@ const Post = ({
             {nextPage !== null ? (
               <Link
                 href={nextPage}
-                className="text-deep-orange-300 hover:text-deep-brown-500 transition-colors"
+                className="text-deep-orange-400 hover:text-brown-600 transition-colors"
               >
                 <FontAwesomeIcon className="w-6" icon={faArrowRight} />
               </Link>
