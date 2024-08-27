@@ -60,6 +60,20 @@ export async function getPostBySlug(
 
   const items: Items = { slug: [] };
 
+  // Check if the last element of the slug starts with "!"
+  if (slug[slug.length - 1].startsWith("!")) {
+    const parentSlug = slug.slice(0, -1);
+    const parentFullPath = join(postsDirectory, `${parentSlug.join("/")}.md`);
+    
+    if (fs.existsSync(parentFullPath)) {
+      const parentFileContents = fs.readFileSync(parentFullPath, "utf8");
+      const { data: parentData } = matter(parentFileContents);
+      
+      // Merge parent data with current data, giving priority to current data
+      Object.assign(data, { ...parentData, ...data });
+    }
+  }
+  
   const folderPath = dirname(fullPath);
   allSlugs = allSlugs || (await getFiles(folderPath));
 
