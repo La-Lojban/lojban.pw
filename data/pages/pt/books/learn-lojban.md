@@ -7,8 +7,6 @@ coverImage: /assets/pixra/cilre/sruri_since.webp
 
 ---
 
-@include "learn-lojban/!0.md"
-
 @include "learn-lojban/!1.md"
 
 @include "learn-lojban/!2.md"

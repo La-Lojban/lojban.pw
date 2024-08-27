@@ -12,8 +12,6 @@ coverImage: /assets/pixra/cilre/sruri_since.webp
 <!-- Target language: FR_fr - Français, France (orthographe moderne, dite "1990") -->
 <!-- Special additions or changes (compared to the source) are tagged with "L10N" in this source code: "L10N: <somme additional info>" -->
 
-@include "learn-lojban/!0.md"
-
 @include "learn-lojban/!1.md"
 
 @include "learn-lojban/!2.md"

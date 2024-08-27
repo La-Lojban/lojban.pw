@@ -149,7 +149,7 @@ export default function Header({
                     }
                   >
                     <option key={`bangu-${currentLanguage}`} value={path}>
-                      {langDict[currentLanguage as any]}
+                      {langDict[currentLanguage]}
                     </option>
                     {posts
                       .filter((post) => post.language !== currentLanguage)
@@ -200,6 +200,9 @@ export default function Header({
                     ]
                   }
                 >
+                  <option key={`bangu-${currentLanguage}`} value={path}>
+                    {langDict[currentLanguage]}
+                  </option>
                   {posts.map((post) => (
                     <option
                       key={`bangu-${post.language}`}
