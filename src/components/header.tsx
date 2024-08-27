@@ -267,7 +267,7 @@ export default function Header({
                         <FontAwesomeIcon icon={faList} className="ml-2 h-6" />
                       </h1>
 
-                      <nav className="toc w-full md:w-1/5 p-2 bottom-0 md:top-20 h-48 md:h-screen font-medium text-sm overflow-ellipsis">
+                      <nav className="toc w-full p-2 bottom-0 md:top-20 h-48 md:h-screen font-medium text-sm overflow-ellipsis">
                         <div
                           id="toc-topbar"
                           className="h-full px-2 pb-3 space-y-1 sm:px-3 overflow-y-auto"
