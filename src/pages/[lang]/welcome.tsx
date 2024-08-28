@@ -128,7 +128,8 @@ export async function getStaticProps({ params }: Params) {
     ignoreTitles: false,
   });
   const posts = allPosts.reduce(
-    (acc, { slug }) => {
+    (acc, { slug, hidden }) => {
+      if (hidden) return acc;
       const fullPath = slug.join("/");
       const shortPath = slug.slice(1).join("/");
       const language = slug[0];
@@ -153,6 +154,7 @@ export async function getStaticProps({ params }: Params) {
 
   const contentPosts = allPosts.filter(
     (i) =>
+      !i.hidden &&
       !(i.slug[1] === "list" && i.slug.length === 2) &&
       i.slug[0] === params.lang &&
       i.slug.length > 2
