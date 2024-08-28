@@ -7,7 +7,7 @@ Loĵbano (**Lojban**) estas parolata logika lingvo, kiu estis kreita en 1987 kaj
 
 Ĉi tiu retejo listigas neoficialajn liberajn tutoriaĵojn kaj dokumentaron pri la lingvo Lojban.
 
-## [Kurso ‘Lernu Loĵbanon’](/eo/books/learn-lojban)
+## [Kurso ‘Lernu Loĵbanon’](/eo/books/learn-lojban/!1)
 
 <pixra redirect="/eo/books/learn-lojban/!1" url="/assets/pixra/cilre/sruri_since.webp" caption="Kurso ‘Lernu Loĵbanon"></pixra>
 

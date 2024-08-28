@@ -7,7 +7,7 @@ meta.title: What is Lojban?
 
 This website lists unofficial free libre tutorials and documentation on the Lojban language.
 
-## [‘Learn Lojban’ course](/en/books/learn-lojban)
+## [‘Learn Lojban’ course](/en/books/learn-lojban/!1)
 
 <pixra redirect="/en/books/learn-lojban/!1" url="/assets/pixra/cilre/sruri_since.webp" caption="‘Learn Lojban’ course"></pixra>
 
