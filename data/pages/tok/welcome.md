@@ -7,7 +7,7 @@ meta.title: toki Losupan li seme?
 
 lipu ni la lipu lili mute li lon li jo e sona pi toki Losupan. ona li tan ala kulupu pali pi toki Losupan. lipu ale la ale li ken kepeken.
 
-## [lipu ‘o kama sona toki Losupan’](/tok/books/learn-lojban)
+## [lipu ‘o kama sona toki Losupan’](/tok/books/learn-lojban/!1)
 <pixra redirect="/tok/books/learn-lojban/!1" url="/assets/pixra/cilre/sruri_since.webp" caption="lipu ‘o kama sona toki Losupan’"></pixra>
 
 lipu ni li pana e sona pi toki Losupan li open lon nasin sona ona. nasin sona li lawa mute e toki li ken wawa ike tawa kama sona, la lipu li toki pona e nasin lon nimi lili li pana e ni mute: toki lili li kepeken nasin.
