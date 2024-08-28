@@ -7,7 +7,6 @@ export type TPost = {
   slug: string[]
   parentSlug?: string
   directory?: string
-  hidden?: boolean
   firstHeader?: string
   "meta.title"?: string
   "meta.description"?: string

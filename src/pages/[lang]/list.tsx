@@ -101,6 +101,7 @@ export const getStaticProps = async ({ params }: Params) => {
   const posts = allPosts
     .filter(
       (i) =>
+        !i.hidden &&
         i.slug[0] !== params.lang &&
         i.slug[1] === "texts" &&
         i.slug.length === 2
@@ -110,7 +111,7 @@ export const getStaticProps = async ({ params }: Params) => {
     });
 
   const contentPosts = allPosts.filter(
-    (i) => !(i.slug[1] === "list" && i.slug.length === 2)
+    (i) => !i.hidden && !(i.slug[1] === "list" && i.slug.length === 2)
   );
   const siblingPosts = allPosts.filter((i) => i.slug[0] === params.lang);
   return {
