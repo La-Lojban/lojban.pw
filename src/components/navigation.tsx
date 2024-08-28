@@ -36,8 +36,6 @@ const NavigationWidget: React.FC<NavigationWidgetProps> = ({
 
   return (
     <div className="fixed bottom-9 right-4 md:right-auto z-50 md:left-1/2 md:transform md:-translate-x-1/2">
-    {/* <div className="fixed bottom-9 left-1/2 transform -translate-x-1/2 z-50"> */}
-
       <div className="h-12 flex">
         {hasNavigation && (
           <div className="bg-white rounded-lg shadow-md p-2 flex items-center space-x-4 mr-6 md:mr-12">

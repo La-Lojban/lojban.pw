@@ -155,8 +155,7 @@ export async function getStaticProps({ params }: Params) {
     (i) =>
       !(i.slug[1] === "list" && i.slug.length === 2) &&
       i.slug[0] === params.lang &&
-      i.slug.length > 2 &&
-      i.hidden !== true
+      i.slug.length > 2
   );
 
   const siblingPosts = allPosts.filter((i) => i.slug[0] === params.lang);

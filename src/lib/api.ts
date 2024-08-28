@@ -64,16 +64,16 @@ export async function getPostBySlug(
   if (slug[slug.length - 1].startsWith("!")) {
     const parentSlug = slug.slice(0, -1);
     const parentFullPath = join(postsDirectory, `${parentSlug.join("/")}.md`);
-    
+
     if (fs.existsSync(parentFullPath)) {
       const parentFileContents = fs.readFileSync(parentFullPath, "utf8");
       const { data: parentData } = matter(parentFileContents);
-      
+
       // Merge parent data with current data, giving priority to current data
       Object.assign(data, { ...parentData, ...data });
     }
   }
-  
+
   const folderPath = dirname(fullPath);
   allSlugs = allSlugs || (await getFiles(folderPath));
 
@@ -150,19 +150,15 @@ export async function getAllPosts(
     )
   );
 
-  const a = posts
-    .filter(
-      (post) =>
-        (showHidden || !post?.hidden) &&
-        (ignoreTitles ||
-          !fields.includes("title") ||
-          typeof post.title !== "undefined")
-    )
+  const filteredPosts = posts.filter(post => 
+    (showHidden || !post.slug.some(part => part.startsWith("!"))) &&
+    (ignoreTitles || !fields.includes("title") || post.title !== undefined)
+  )
     // sort posts by date in descending order
     .sort((post1, post2) => ((post1.date ?? 0) > (post2.date ?? 0) ? -1 : 1))
     //sort by priority in descending order
     .sort((post1, post2) =>
       (post1["meta.priority"] ?? 0) > (post2["meta.priority"] ?? 0) ? -1 : 1
     );
-  return a;
+  return filteredPosts;
 }
