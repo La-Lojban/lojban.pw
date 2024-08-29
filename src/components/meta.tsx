@@ -125,7 +125,7 @@ const Meta = ({
   if (parentSlug) {
     links_.push({
       rel: "canonical",
-      href: parentSlug,
+      href: "/" + parentSlug,
       sizes: "",
     });
   }

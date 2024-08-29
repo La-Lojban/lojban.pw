@@ -219,6 +219,7 @@ export async function getStaticProps({ params }: Params) {
     "coverImage",
     "fullPath",
     "relatedSlugs",
+    "parentSlug"
   ]);
 
   const fullSlug = params.lang + "/" + params.slug.join("/");
@@ -283,18 +284,18 @@ export async function getStaticProps({ params }: Params) {
     if (!relatedSlugs.includes(nextPage)) nextPage = null;
     else nextPage = "/" + nextPage;
     currentPageNumber = currentIndex;
-    const parentSlug = allPosts.find(
-      (externalPost) =>
-        externalPost.slug.join("/") === post.slug.slice(0, -1).join("/")
-    );
-    if (parentSlug?.title !== undefined && post.title === undefined) {
-      post.title = parentSlug.title;
-      post.parentPost = parentSlug;
-      const stringifiedSlug = post.slug.join("/");
-      const allSiblingPosts = relatedSlugs.concat(stringifiedSlug).sort();
-      if (allSiblingPosts[0] !== stringifiedSlug)
-        post.parentSlug = allSiblingPosts[0];
-    }
+    // const parentSlug = allPosts.find(
+    //   (externalPost) =>
+    //     externalPost.slug.join("/") === post.slug.slice(0, -1).join("/")
+    // );
+    // if (parentSlug?.title !== undefined && post.title === undefined) {
+    //   post.title = parentSlug.title;
+    //   post.parentPost = parentSlug;
+    //   const stringifiedSlug = post.slug.join("/");
+    //   const allSiblingPosts = relatedSlugs.concat(stringifiedSlug).sort();
+    //   if (allSiblingPosts[0] !== stringifiedSlug)
+    //     post.parentSlug = allSiblingPosts[0];
+    // }
   } catch (error) {}
 
   return {
