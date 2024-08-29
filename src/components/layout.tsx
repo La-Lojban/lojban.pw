@@ -75,18 +75,18 @@ const Layout = ({
       }
     };
 
-    router.events.on('routeChangeComplete', handleRouteChange);
+    router.events.on("routeChangeComplete", handleRouteChange);
 
     return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
+      router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, [router.events]);
-  
+
   if (router.isFallback) return <PostTitle>Loading…</PostTitle>;
 
   return (
     <>
-      <Meta meta={meta} title={title} />
+      <Meta meta={meta} title={title} parentSlug={post?.parentSlug} />
       <div className="flex flex-col h-screen print:h-auto">
         <Header
           toc={toc}

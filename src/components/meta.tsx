@@ -40,7 +40,15 @@ function getTag(fallbacks: string[], meta: TMeta, metaDefault: TMeta) {
   }
 }
 
-const Meta = ({ meta, title }: { meta?: TMeta; title?: string }) => {
+const Meta = ({
+  meta,
+  title,
+  parentSlug,
+}: {
+  meta?: TMeta;
+  title?: string;
+  parentSlug?: string;
+}) => {
   meta = meta ?? {};
   let merged: TMeta = { ...metaDefault, ...meta };
 
@@ -113,6 +121,14 @@ const Meta = ({ meta, title }: { meta?: TMeta; title?: string }) => {
     },
     [] as MetaLink[]
   );
+
+  if (parentSlug) {
+    links_.push({
+      rel: "canonical",
+      href: parentSlug,
+      sizes: "",
+    });
+  }
 
   return (
     <Head>
