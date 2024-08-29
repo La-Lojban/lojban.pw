@@ -70,7 +70,7 @@ export async function getPostBySlug(
       const { data: parentData } = matter(parentFileContents);
 
       // Merge parent data with current data, giving priority to current data
-      Object.assign(data, { ...parentData, ...data });
+      Object.assign(data, { ...parentData, ...data, parentSlug: parentSlug.join("/") });
     }
   }
 
