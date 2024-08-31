@@ -1,12 +1,12 @@
-[Next](vocab2.html)
+[Next](./vocab2)
 
-[Previous](semantic.html)
+[Previous](./semantic)
 
-[Contents](guarefmn.html)
+[Contents](./guarefmn)
 
 ------------------------------------------------------------------------
 
-# Vocabulary {#vocabulary align="center"}
+# Vocabulary 
 
 A great deal of the machinery of language, which in natural languages is
 shared between the grammar and the vocabulary, is handled in *gua\\spi*
@@ -30,7 +30,7 @@ to be lawful in *gua\\spi*, in which the definitions are tailored to
 make compounding easy, rather than taking the semantically slippery form
 of a true metaphor.
 
-## Functional Categories of Words {#functional-categories-of-words align="center"}
+## Functional Categories of Words 
 
 *Gua\\spi* words have a relation between function and morphology. The CV
 pattern is for structure words, a few pronouns, and digits. CVV is for
@@ -151,7 +151,7 @@ reliably.
 >
 > 8%
 
-## Word Creation {#word-creation align="center"}
+## Word Creation 
 
 The words of natural languages appear to be arbitrary symbol strings of
 tremendous variety of sound. *Gua\\spi* is similar in that its words
@@ -220,9 +220,9 @@ is minimal, I think it is fairly close. Thus I chose to use existing
 word lists for *gua\\spi* rather than to try for radical pruning or *de
 novo* creation.
 
-## Words and Grammar {#words-and-grammar align="center"}
+## Words and Grammar 
 
-### [Phrase-Relative Pronouns]{#pronouns} {#phrase-relative-pronouns align="center"}
+### [Phrase-Relative Pronouns] 
 
 The CCVV pattern is used for organized groups of noun-type words such as
 the phrase-relative pronouns. These words have a CCV part and a final V,
@@ -370,7 +370,7 @@ continuing\'\'.
 >
 > Question to be answered
 
-### Letterals {#letterals align="center"}
+### Letterals 
 
 Letterals are words representing letters, which are built up on a
 regular pattern like the pronouns are. A letteral means \`\`X1 is an
@@ -653,7 +653,7 @@ In English we use acronyms freely, but in *gua\\spi* the letterals for
 the acronym are as long or longer than the words themselves. It is
 better to make an ordinary compound word for the concept.
 
-### Foreign Words {#foreign-words align="center"}
+### Foreign Words 
 
 It is the policy in *gua\\spi* to use foreign words as-is (except for
 necessary mangling to make them fit the CV pattern), to represent the
@@ -688,7 +688,7 @@ See the discussion under [Pronouns: Foreign
 Words](pronouns.html#c-foreign) about attaching foreign words to
 *gua\\spi* predicates to provide cases.
 
-### Retroactive Downjumps {#retroactive-downjumps align="center"}
+### Retroactive Downjumps 
 
 Sentences are usually connected by a retroactive downjump
 *\`\`\^:o\'\'*. With this operator the preceeding sentence is taken out
@@ -762,7 +762,7 @@ matching pair of *\`\`fl\'\'* and *\`\`fr\'\'* are supposed to be at the
 same grammatical level; if they are not, someone has made an error. They
 have no meaning beyond this checking function.
 
-### Error Correction {#error-correction align="center"}
+### Error Correction 
 
 Another organizational transformation related to the retroactive
 downjump is error correction with *\`\`fa\'\'*. When prefixed to a
@@ -778,9 +778,9 @@ delete the current sentence. For example,
 >
 > Did you eat my apple . . . Forget it.
 
-## Subphrase Forms {#subphrase-forms align="center"}
+## Subphrase Forms 
 
-### [Conjunctions, Mixtures and Masses]{#conjunctions} {#conjunctions-mixtures-and-masses align="center"}
+### [Conjunctions, Mixtures and Masses] 
 
 The conjunction *\`\`fe\'\'* has several functions depending on what it
 joins. First, when it joins phrase predicates it makes a collection of
@@ -881,7 +881,7 @@ default you need not say *\`\`xo\'\'*.
 >
 > The fur (emphasizing repetition)
 
-### Named Arguments {#named-arguments align="center"}
+### Named Arguments 
 
 > *\^:i !qo -:mobi -dyk /kqnu \|bir \^sa -qo -german -:melvyl*
 >
@@ -920,7 +920,7 @@ hence it takes the form of a decoration with *\`\`vi\'\'* in a
 nonsentence. With it the by-line appears in the usual form for setting a
 modal case default.
 
-### Modal Cases {#modal-cases align="center"}
+### Modal Cases 
 
 Here are examples of the most important modal cases. However, virtually
 any word with two or more cases can be construed as a modal operator. Be
@@ -1075,7 +1075,7 @@ are relevant to only four or five words each. These are served by modal
 cases as a matter of policy, rather than having numbered cases on each
 word.
 
-### Tenses and Aspects {#tenses-and-aspects align="center"}
+### Tenses and Aspects 
 
 In English and all Indo-European languages, every sentence has a tense,
 that is, the syntax indicates (with great complexity) when the sentence
@@ -1132,7 +1132,7 @@ are necessary. Here are a few aspects in *gua\\spi*:
 >
 > The cat *fails to* catch the rat (though it tries)
 
-### Decorations {#decorations align="center"}
+### Decorations 
 
 A decoration is a short subordinate clause. Sometimes it expresses the
 speaker\'s attitude about the sentence or the relation between
@@ -1282,8 +1282,8 @@ I have some food, *that is*, an apple
 
 ------------------------------------------------------------------------
 
-[Next](vocab2.html)
+[Next](./vocab2)
 
-[Previous](semantic.html)
+[Previous](./semantic)
 
-[Contents](guarefmn.html)
+[Contents](./guarefmn)

@@ -1,12 +1,12 @@
-[Next](pronouns.html)
+[Next](./pronouns)
 
-[Previous](grammar.html)
+[Previous](./grammar)
 
-[Contents](guarefmn.html)
+[Contents](./guarefmn)
 
 ------------------------------------------------------------------------
 
-# Cases and Relations {#cases-and-relations align="center"}
+# Cases and Relations 
 
 The next layer of *gua\\spi* syntax is the organizational level, but to
 understand the reason for some organizations we have to make a detour
@@ -30,7 +30,7 @@ word, and it means \`\`rat\'\' in English. Isolated words or phrases
 like this are written without a tone because it depends on the context
 where the word is used.
 
-## What is a Predicate {#what-is-a-predicate align="center"}
+## What is a Predicate 
 
 Human languages generally distinguish between \`\`things\'\' and
 \`\`actions\'\', where an \`\`action\'\' is a relation between
@@ -89,7 +89,7 @@ cuts in half the complexity of the language, which is already simple.
 The term \`\`phrase\'\' will be used to mean either a sentence or an
 argument.
 
-## What Definitions Mean {#what-definitions-mean align="center"}
+## What Definitions Mean 
 
 A predicate word expresses a relation between the occupants of its
 cases. In English and all natural languages, words are \`\`defined\'\'
@@ -129,7 +129,7 @@ tractable both for theory and for practical implementation. A *gua\\spi*
 referent set is perfectly suited to be represented as a Prolog database,
 if truncated to a practical size.
 
-## Interpreting Language Behavior {#interpreting-language-behavior align="center"}
+## Interpreting Language Behavior 
 
 When you speak an argument in a nonsentence you call the listener\'s
 attention to its referents. For example,
@@ -152,7 +152,7 @@ member which John will want to append to the ones he knows, before the
 cheese is stolen. This is the ultimate meaning of the *gua\\spi*
 sentence.
 
-# Organization {#organization align="center"}
+# Organization 
 
 Now that we have an unambiguous parse tree made up of phrases, what
 shall we do with it? Modern theories of parsing are very good at
@@ -166,7 +166,7 @@ preparatory transformations including assigning sub-phrases to cases,
 handling imbedded sentences, replacing pronouns by their bases, and
 transforming compound words into sub-phrases.
 
-## Which Words Go in Which Cases {#which-words-go-in-which-cases align="center"}
+## Which Words Go in Which Cases 
 
 The tones of grammar deliver to the organizational syntax level, for
 each phrase, an ordered list of attached sub-phrases, which are the
@@ -295,7 +295,7 @@ construction is called a \`\`nonsentence\'\'. It begins with the usual
 sentence start word *\`\`:i\'\'* and the arguments, as usual, are one
 level down, but there just isn\'t any sentence predicate.
 
-## Sentences as Arguments \-\-- Infinitives {#sentences-as-arguments-----infinitives align="center"}
+## Sentences as Arguments \-\-- Infinitives 
 
 A *gua\\spi* sentence or argument expresses a relation between specific
 referents, and this specific referent set member is called an
@@ -344,7 +344,7 @@ The extensive defaults on structure words, of which the default *vo* is
 one of the more common examples, increase the efficiency of *gua\\spi*
 by letting the speaker not say most structure words.
 
-## Subordinate Clauses {#subordinate-clauses align="center"}
+## Subordinate Clauses 
 
 A subordinate clause, indicated by the linking prefix *\`\`vu\'\'*, is a
 sentence within a sentence. Its most common use is to restrict a phrase
@@ -434,7 +434,7 @@ become more natural:
 >
 > Hooray! (I am happy)
 
-## Quoted Text {#quoted-text align="center"}
+## Quoted Text 
 
 A special argument form is quoted text. A quote is a prefix that
 transforms the following word or phrase to mean \`\`X1 is an instance of
@@ -517,8 +517,8 @@ in connection with story dialog.
 
 ------------------------------------------------------------------------
 
-[Next](pronouns.html)
+[Next](./pronouns)
 
-[Previous](grammar.html)
+[Previous](./grammar)
 
-[Contents](guarefmn.html)
+[Contents](./guarefmn)

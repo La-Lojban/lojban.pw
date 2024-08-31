@@ -1,14 +1,14 @@
-[Next](guarefmn.html)
+[Next](./guarefmn)
 
-[Previous](vocab2.html)
+[Previous](./vocab2)
 
-[Contents](guarefmn.html)
+[Contents](./guarefmn)
 
 ------------------------------------------------------------------------
 
-# Grammar Algorithms {#grammar-algorithms align="center"}
+# Grammar Algorithms 
 
-## [Backus-Naur Form]{#Backus} {#backus-naur-form align="center"}
+## [Backus-Naur Form] 
 
 For computer applications the normal way to represent *gua\\spi* syntax
 is in a semi-procedural language such as Prolog, because the end of a
@@ -169,7 +169,7 @@ text is not shown, but foreign predicates and quoted *gua\\spi* are
 processed by this grammar and are put together at the organizational
 syntax level.
 
-## Organizational Transformations {#organizational-transformations align="center"}
+## Organizational Transformations 
 
 Formal syntax is finished at this point, and transformation begins, in
 this sequence of steps:
@@ -199,7 +199,7 @@ this sequence of steps:
     Update word referent sets accordingly, or take other appropriate
     action.
 
-# Conclusion {#conclusion align="center"}
+# Conclusion 
 
 People developing applications in *gua\\spi* need some assurance that
 the language is not going to shift out from under them; but *gua\\spi*
@@ -227,7 +227,7 @@ for modern fifth-generation languages \-\-- which, in fact, those
 languages were designed to represent. Thus the gap between human and
 machine languages is closed by *gua\\spi*.
 
-## Bibliography {#bibliography align="center"}
+## Bibliography 
 
 -   \[L1\] Brown, James C. Loglan 1: A Logical Language. The Loglan
     Institute, Inc., Gainesville, Fla., 1975.
@@ -252,8 +252,8 @@ machine languages is closed by *gua\\spi*.
 
 ------------------------------------------------------------------------
 
-[Next](guarefmn.html)
+[Next](./guarefmn)
 
-[Previous](vocab2.html)
+[Previous](./vocab2)
 
-[Contents](guarefmn.html)
+[Contents](./guarefmn)

@@ -1,12 +1,12 @@
-[Next](cases.html)
+[Next](./cases)
 
-[Previous](guarefmn.html)
+[Previous](./guarefmn)
 
-[Contents](guarefmn.html)
+[Contents](./guarefmn)
 
 ------------------------------------------------------------------------
 
-# Introduction to *Gua\\spi* {#introduction-to-guaspi align="center"}
+# Introduction to *Gua\\spi* 
 
 Most human languages are natural: they evolved with their host societies
 without the benefit of intentional design. While some languages like
@@ -33,7 +33,7 @@ vocabulary section contains an extensive list of how to say various
 types of expressions. To learn *gua\\spi* you also need a dictionary, a
 language textbook, and a set of *gua\\spi* reading material.
 
-## Artificial Intelligence {#artificial-intelligence align="center"}
+## Artificial Intelligence 
 
 The significance of *gua\\spi* to artificial intelligence work is that
 it is a bridge between humans and machines: it is complete enough to
@@ -70,7 +70,7 @@ by humans and artificial intelligences together.
     meaning per word; and every valid utterance can be parsed in only
     one way.
 
-## Ancestor Languages {#ancestor-languages align="center"}
+## Ancestor Languages 
 
 The language artifact *Loglan*, developed by James Cooke Brown \[L1\],
 was the inspiration for *gua\\spi*. Brown realized that a very small set
@@ -108,7 +108,7 @@ makes them less interesting than jewels like the \`\`perfective
 aspect\'\' of Russian or the \`\`long object case\'\' of Navajo, but it
 makes them much simpler and much easier to learn and use.
 
-# Morphology: What is a Word {#morphology-what-is-a-word align="center"}
+# Morphology: What is a Word 
 
 The phonemes are divided in two classes, C\'s and V\'s. All C\'s are
 consonants in English and those English vowels used in *gua\\spi* are
@@ -117,7 +117,7 @@ frequency modulation of the V\'s of each word in the Chinese manner. A
 word is written as a tone (see [Table 4 \[Tones\]](grammar.html#Tones)),
 one or more C\'s and one or more V\'s. What could be simpler?
 
-## The Phonemes {#the-phonemes align="center"}
+## The Phonemes 
 
 Phonemes can be distinguished by where the tongue is placed to make
 them, whether they are sudden (plosive) or continuous (spirant), and
@@ -139,7 +139,7 @@ individual letters which differ from European usage \-\-- \`q\' for
 \`sh\'. [Table 2 \[Pronunciation\]](grammar.html#Pronunciation) gives
 examples of these, and all the vowels. Written blanks have no sound, and
 are optional. There is no distinction between upper and lower case.
-[]{#Phonemes}
+[]
 
 ------------------------------------------------------------------------
 
@@ -257,7 +257,7 @@ r
 
 ------------------------------------------------------------------------
 
-[]{#Pronunciation}
+[]
 
 ------------------------------------------------------------------------
 
@@ -384,7 +384,7 @@ transform sounds beyond the bounds that a *gua\\spi* speaker can
 recognize. If you speak with a regional accent, please use the vowel
 sounds that you can hear on television or radio (American or British
 will both work). Particularly troublesome examples, rendered with
-*gua\\spi* letters, are shown in this table: []{#Accent}
+*gua\\spi* letters, are shown in this table: []
 
 ------------------------------------------------------------------------
 
@@ -449,7 +449,7 @@ single phoneme (sound) and each phoneme has a single letter (with
 trivial exceptions), so that each spoken text can be spelled easily and
 without ambiguity, and each written text can be read off equally easily.
 
-# Grammar by Tones {#grammar-by-tones align="center"}
+# Grammar by Tones 
 
 The job of grammar is to stick words together into phrases. The grammar
 does not support meaning of any kind \-\-- no tenses, no possessives, no
@@ -457,7 +457,7 @@ nouns, no verbs. These ideas are handled at the organizational and
 semantic levels, using the grammar as a foundation. Like its morphology,
 the grammar of *gua\\spi* is nearly minimal.
 
-## Parse Tree {#parse-tree align="center"}
+## Parse Tree 
 
 The grammar is stated in Backus-Naur form in
 [Section \[Backus\]](conclusn.html#Backus). For grammatical purposes
@@ -477,7 +477,7 @@ their own predicates come at the next lower level. These in turn may
 have their own sub-phrases. Each phrase is at a certain level and it
 attaches to the most recent phrase at the next higher level. The tones
 (see [Table 4 \[Tones\]](grammar.html#Tones)) show the level of each
-word relative to the one before it. []{#Parsetree}
+word relative to the one before it. []
 
 ------------------------------------------------------------------------
 
@@ -526,7 +526,7 @@ word at the next higher level, and the tones of *gua\\spi* represent the
 attachment level of the present word relative to the one just before it.
 Every word has such a tone.
 
-## The Tones {#the-tones align="center"}
+## The Tones 
 
 The tones are the most terrifying aspect of *gua\\spi* for speakers of
 European languages. Please remember that over a billion people in China
@@ -541,7 +541,7 @@ but each word has one and the tones distinguish between meanings, e.g.
 (down-up) means \`\`horse\'\'. *Gua\\spi* is intermediate in its use of
 tones: each word has a tone, but rather than affecting the meaning of
 the word it tells which neighboring word it attaches to. The tones are
-shown in this table: []{#Tones}
+shown in this table: []
 
 ------------------------------------------------------------------------
 
@@ -699,8 +699,8 @@ than natural language.
 
 ------------------------------------------------------------------------
 
-[Next](cases.html)
+[Next](./cases)
 
-[Previous](guarefmn.html)
+[Previous](./guarefmn)
 
-[Contents](guarefmn.html)
+[Contents](./guarefmn)
