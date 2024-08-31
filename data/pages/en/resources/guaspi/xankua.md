@@ -17,7 +17,7 @@
     <th>Loglan</th>
     <th>Xref</th>
     <th>Definition (*=obj cpd, +n=1st case merge, -n=2nd case merge, Sn=set members, Pn=pairwise, @=merge but no cpd, ?=special merge, = =as needed)</th>
-    <th>Comments (c=ch,q=sh,x=zh,#=schwa,i=ee,y=bin,w=ng)</th>
+    <th>Comments (c=ch, q=sh, x=zh, #=schwa, i=ee, y=bin, w=ng)</th>
   </tr>
   <tr>
     <td>000</td>
@@ -66,7 +66,7 @@
     <td>S</td>
     <td></td>
     <td>0.1.1</td>
-    <td>cancel,that~is</td>
+    <td>cancel, that~is</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -80,12 +80,12 @@
     <td>S</td>
     <td>30</td>
     <td>0.1.1</td>
-    <td>and,or,conjunction</td>
+    <td>and, or, conjunction</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
     <td>.e</td>
-    <td>fy,tla,stl</td>
+    <td>fy, tla, stl</td>
     <td>X1= and following arguments conjoin</td>
     <td>As in the Cartesian expansion of a single argument.  Use -tla or -stl to make a set.</td>
   </tr>
@@ -122,12 +122,12 @@
     <td>S</td>
     <td></td>
     <td>0.1.1, 0.2.1</td>
-    <td>foreign,metaphor</td>
+    <td>foreign, metaphor</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
     <td></td>
-    <td>qo,fw</td>
+    <td>qo, fw</td>
     <td>Event (vo) X1+ is represented by metaphor X2?</td>
     <td>X2 is a sequence of foreign syllables to end of compounding tone.  -fn with X2 make a subordinate clause.</td>
   </tr>
@@ -183,7 +183,7 @@
     <td>-</td>
     <td>-</td>
     <td>.e</td>
-    <td>fe,tla,stl</td>
+    <td>fe, tla, stl</td>
     <td>Retroactive downjump: previous argument at same level as fy goes down one level and becomes the first case of the following predicate</td>
     <td>Often used with -tla and -stl for afterthought group arguments.</td>
   </tr>
@@ -197,7 +197,7 @@
     <td>-</td>
     <td>-</td>
     <td></td>
-    <td>qu,fo</td>
+    <td>qu, fo</td>
     <td>X1 is what a foreign word names</td>
     <td>The foreign name follows, to end of compound tone.</td>
   </tr>
@@ -500,7 +500,7 @@
     <td>S</td>
     <td>259</td>
     <td>0.2.1</td>
-    <td>start,period</td>
+    <td>start, period</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -561,7 +561,7 @@
     <td>-</td>
     <td>-</td>
     <td></td>
-    <td>qo,fn</td>
+    <td>qo, fn</td>
     <td>Event (vo) X1+ is represented by metaphor X2?</td>
     <td>X1 is a \guaspi\  phrase, not foreign.  -fw with X2 makes a subordinate clause.</td>
   </tr>
@@ -570,7 +570,7 @@
     <td>S</td>
     <td></td>
     <td>0.2.1, 1.5.5</td>
-    <td>which,subordinate,attitude</td>
+    <td>which, subordinate, attitude</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -584,7 +584,7 @@
     <td>S</td>
     <td></td>
     <td>0.2.1</td>
-    <td>which,subordinate</td>
+    <td>which, subordinate</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -598,7 +598,7 @@
     <td>S</td>
     <td>14</td>
     <td>0.2.1, 1.5.5</td>
-    <td>discursive,subordinate</td>
+    <td>discursive, subordinate</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -612,7 +612,7 @@
     <td>S</td>
     <td>23</td>
     <td>0.2.1</td>
-    <td>to,infinitive</td>
+    <td>to, infinitive</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -626,7 +626,7 @@
     <td>S</td>
     <td>11</td>
     <td>0.2.1</td>
-    <td>which,subordinate</td>
+    <td>which, subordinate</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -696,7 +696,7 @@
     <td>S</td>
     <td></td>
     <td>0.2.2</td>
-    <td>inter~alia,each~other,reflexive</td>
+    <td>inter~alia, each~other, reflexive</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -752,7 +752,7 @@
     <td>S</td>
     <td>17</td>
     <td>0.2.2</td>
-    <td>typical,mostly</td>
+    <td>typical, mostly</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -766,7 +766,7 @@
     <td>S</td>
     <td></td>
     <td>0.2.2</td>
-    <td>none,nothing,nobody</td>
+    <td>none, nothing, nobody</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -780,7 +780,7 @@
     <td>S</td>
     <td>28</td>
     <td>0.2.2</td>
-    <td>some,any,a</td>
+    <td>some, any, a</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -822,7 +822,7 @@
     <td>S</td>
     <td></td>
     <td>0.2.2</td>
-    <td>some*,any,a</td>
+    <td>some*, any, a</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -995,7 +995,7 @@
     <td>-</td>
     <td>-</td>
     <td></td>
-    <td>qy,qi</td>
+    <td>qy, qi</td>
     <td>X1 becomes the default modal argument for the following predicate</td>
     <td>The prior default is saved on its stack.</td>
   </tr>
@@ -1009,7 +1009,7 @@
     <td>-</td>
     <td>-</td>
     <td></td>
-    <td>qe,qy</td>
+    <td>qe, qy</td>
     <td>X1 is the default modal argument for the following predicate</td>
     <td>The previous default is replaced by X1.  The previous default is lost.</td>
   </tr>
@@ -1051,7 +1051,7 @@
     <td>-</td>
     <td>-</td>
     <td></td>
-    <td>qe,qi</td>
+    <td>qe, qi</td>
     <td>X1 is the default modal argument for the following predicate</td>
     <td>The default is not changed; the sentence is simply true or false.</td>
   </tr>
@@ -1088,12 +1088,12 @@
     <td>S</td>
     <td></td>
     <td>0.2.5</td>
-    <td>affirm,factual,real,yes</td>
+    <td>affirm, factual, real, yes</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
     <td></td>
-    <td>go,qtr,qkr,po,dve</td>
+    <td>go, qtr, qkr, po, dve</td>
     <td>The phrase is asserted to be real or factual</td>
     <td></td>
   </tr>
@@ -1116,7 +1116,7 @@
     <td>S</td>
     <td></td>
     <td>0.2.5</td>
-    <td>hypothesis,subjunctive</td>
+    <td>hypothesis, subjunctive</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -1130,12 +1130,12 @@
     <td>S</td>
     <td>17</td>
     <td>0.2.5, 1.5.4</td>
-    <td>non-,negative,not</td>
+    <td>non-, negative, not</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
     <td>bufpo</td>
-    <td>gr,ver</td>
+    <td>gr, ver</td>
     <td>Central negation</td>
     <td>Makes predicate vanish, e.g. red-gray, above-beside, happy-bored.  Also works on central property, e.g. -gl-xbr = slanted, not level.</td>
   </tr>
@@ -1144,12 +1144,12 @@
     <td>S</td>
     <td></td>
     <td>0.2.5, 1.5.4</td>
-    <td>not,unreal,no</td>
+    <td>not, unreal, no</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
     <td></td>
-    <td>ge,tso,po</td>
+    <td>ge, tso, po</td>
     <td>This phrase is unreal or counter to fact</td>
     <td>Contradictory negation; the sentence is not true but doesn't say what is true.</td>
   </tr>
@@ -1158,12 +1158,12 @@
     <td>S</td>
     <td>18</td>
     <td>0.2.5, 1.5.4</td>
-    <td>un-,opposite,negative,not</td>
+    <td>un-, opposite, negative, not</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
     <td>bufpo</td>
-    <td>gl,ver</td>
+    <td>gl, ver</td>
     <td>Scale negation</td>
     <td>Makes predicate opposite, e.g. red-cyan, above-below, happy-sad.</td>
   </tr>
@@ -1452,7 +1452,7 @@
     <td>P</td>
     <td></td>
     <td>0.3.3</td>
-    <td>discourse,sequel,title</td>
+    <td>discourse, sequel, title</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -1746,7 +1746,7 @@
     <td>S</td>
     <td></td>
     <td>0.3.6</td>
-    <td>imperative,lets</td>
+    <td>imperative, lets</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -1774,7 +1774,7 @@
     <td>S</td>
     <td>132</td>
     <td>0.3.6</td>
-    <td>i,me,speaker</td>
+    <td>i, me, speaker</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -1788,7 +1788,7 @@
     <td>S</td>
     <td></td>
     <td>0.3.6</td>
-    <td>something,somebody</td>
+    <td>something, somebody</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -1816,7 +1816,7 @@
     <td>S</td>
     <td></td>
     <td>0.3.6</td>
-    <td>now,present</td>
+    <td>now, present</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -1830,7 +1830,7 @@
     <td>S</td>
     <td>48</td>
     <td>0.3.6</td>
-    <td>imperative,you</td>
+    <td>imperative, you</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -1844,7 +1844,7 @@
     <td>S</td>
     <td></td>
     <td>0.3.6</td>
-    <td>place,here</td>
+    <td>place, here</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -1886,7 +1886,7 @@
     <td>S</td>
     <td>10</td>
     <td>0.3.6</td>
-    <td>which,something</td>
+    <td>which, something</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -1914,7 +1914,7 @@
     <td>S</td>
     <td></td>
     <td>0.3.7</td>
-    <td>what,who</td>
+    <td>what, who</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -1961,7 +1961,7 @@
     <td>-</td>
     <td>-</td>
     <td></td>
-    <td>ge,go</td>
+    <td>ge, go</td>
     <td>Question Pronouns: mood marker</td>
     <td>Answer is typically yes or no.</td>
   </tr>
@@ -2194,7 +2194,7 @@
     <td>S</td>
     <td></td>
     <td>0.4.1</td>
-    <td>decimal,point</td>
+    <td>decimal, point</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -2432,7 +2432,7 @@
     <td>S</td>
     <td></td>
     <td>0.4.2, 1.5.5</td>
-    <td>ordinal,next</td>
+    <td>ordinal, next</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -4014,7 +4014,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.1</td>
-    <td>chaos,disorder</td>
+    <td>chaos, disorder</td>
     <td>caos</td>
     <td>!bu-guei!liu</td>
     <td>caos</td>
@@ -4028,7 +4028,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.1</td>
-    <td>copy,original,prototype</td>
+    <td>copy, original, prototype</td>
     <td>kapi</td>
     <td>!iaw|ben</td>
     <td>eksempl.um</td>
@@ -4047,7 +4047,7 @@
     <td>-qaw|duw</td>
     <td>par</td>
     <td>ciktu</td>
-    <td>dem,xim</td>
+    <td>dem, xim</td>
     <td>In relation (vo) X1+2 all the arguments X2:= repeated as needed, fit equally</td>
     <td>Use -dem to compare math expressions for equality.  Use -xim to assign a symbol's value.</td>
   </tr>
@@ -4056,12 +4056,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.1</td>
-    <td>repeat,recur,again,prototype</td>
+    <td>repeat, recur, again, prototype</td>
     <td>rik#r</td>
     <td>/sun/huan</td>
     <td>rurs.us</td>
     <td>genza</td>
-    <td>pia,plm,qkm,tfr</td>
+    <td>pia, plm, qkm, tfr</td>
     <td>X1 is a recurrent instance of prototype X2*</td>
     <td>X1 automatically has many X2's.  Use for non-distinguishable particles in quantum mechanics.</td>
   </tr>
@@ -4070,7 +4070,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.1</td>
-    <td>substitute,replace</td>
+    <td>substitute, replace</td>
     <td>s#bstytut</td>
     <td>!dai!iuw|pin</td>
     <td>vikary.us</td>
@@ -4084,7 +4084,7 @@
     <td>r</td>
     <td>11</td>
     <td>1.1.1, 1.1.7</td>
-    <td>exceed,more,less</td>
+    <td>exceed, more, less</td>
     <td>eksid</td>
     <td>!guw/u</td>
     <td>egredy</td>
@@ -4098,12 +4098,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.1, 1.5.4</td>
-    <td>reverse,opposite</td>
+    <td>reverse, opposite</td>
     <td>ap#zyt</td>
     <td>-siaw|fan</td>
     <td>kontrary.us</td>
     <td></td>
-    <td>vri,vry</td>
+    <td>vri, vry</td>
     <td>Process (vo) X1@! occurs in the reverse order from process (vo) X2+</td>
     <td></td>
   </tr>
@@ -4117,7 +4117,7 @@
     <td>-siaw|fan</td>
     <td>advers.us</td>
     <td>bufpo</td>
-    <td>gr,sra</td>
+    <td>gr, sra</td>
     <td>X1 is opposite X2* in dimension (xu-vo) X3+1, 2</td>
     <td>As in high--low.</td>
   </tr>
@@ -4131,7 +4131,7 @@
     <td>-siaw|fan</td>
     <td>kontrari.um</td>
     <td>fanve</td>
-    <td>fau,vry,fay</td>
+    <td>fau, vry, fay</td>
     <td>List (xy) X1s is in reverse order from list (xy) X2s*</td>
     <td></td>
   </tr>
@@ -4154,7 +4154,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.1, 1.5.5</td>
-    <td>similar,like</td>
+    <td>similar, like</td>
     <td>laik</td>
     <td>-siaw!sz</td>
     <td>symyl.ys</td>
@@ -4182,7 +4182,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.1, 3.7.4</td>
-    <td>similar,scale,congruent</td>
+    <td>similar, scale, congruent</td>
     <td>symylr</td>
     <td>!lei!sz</td>
     <td>par</td>
@@ -4196,12 +4196,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.1, 4.4.6, 1.5.6</td>
-    <td>relate,predicate</td>
+    <td>relate, predicate</td>
     <td>rilait</td>
     <td>|jiaw</td>
     <td>kognat.us</td>
     <td>kunci</td>
-    <td>qin,skam</td>
+    <td>qin, skam</td>
     <td>Relation (vo) X1+ has arguments X2= repeated as needed</td>
     <td>X2, X3, etc. are in the same referent set member in unspecified cases.  No case merge for X1.</td>
   </tr>
@@ -4243,7 +4243,7 @@
     <td>-i!iaw</td>
     <td>ydem</td>
     <td>samto</td>
-    <td>dom,qaw</td>
+    <td>dom, qaw</td>
     <td>The referents of X1: are the same as the referents of X2:</td>
     <td></td>
   </tr>
@@ -4252,12 +4252,12 @@
     <td>q</td>
     <td></td>
     <td>1.1.2</td>
-    <td>group,set</td>
+    <td>group, set</td>
     <td>grup</td>
     <td>/tuan</td>
     <td>katerva</td>
     <td>grupa</td>
-    <td>sto,diu</td>
+    <td>sto, diu</td>
     <td>(xy) X1s is a group with members X2* in extension</td>
     <td>A set of people</td>
   </tr>
@@ -4266,7 +4266,7 @@
     <td>q</td>
     <td></td>
     <td>1.1.2</td>
-    <td>class,set</td>
+    <td>class, set</td>
     <td>klas</td>
     <td>-</td>
     <td>gen.us</td>
@@ -4299,7 +4299,7 @@
     <td>!tau</td>
     <td>kongery.es</td>
     <td>setci</td>
-    <td>vge,vdr,tla,sty,gvu</td>
+    <td>vge, vdr, tla, sty, gvu</td>
     <td>(xy) X1s is a set of members X2* in extension</td>
     <td>Use -tla when each member is given in a separate argument.</td>
   </tr>
@@ -4313,7 +4313,7 @@
     <td>|biau</td>
     <td>tabula</td>
     <td></td>
-    <td>sty,tla</td>
+    <td>sty, tla</td>
     <td>(xy) X1s is a list with members (xu) X2= repeated as needed, in that order</td>
     <td>An ordered set.  -xu default because -stl is used for vectors, dates, etc.</td>
   </tr>
@@ -4322,12 +4322,12 @@
     <td>q</td>
     <td></td>
     <td>1.1.2</td>
-    <td>list,sort,order</td>
+    <td>list, sort, order</td>
     <td>lyst</td>
     <td>|biau</td>
     <td>tabula</td>
     <td>lista</td>
-    <td>stl,sto</td>
+    <td>stl, sto</td>
     <td>List (xy) X1s is a list of set (xy) X2s in order (vo) X3+PS2, 1</td>
     <td></td>
   </tr>
@@ -4355,7 +4355,7 @@
     <td>!tau</td>
     <td>konlat.yo</td>
     <td></td>
-    <td>sto,stl,fy</td>
+    <td>sto, stl, fy</td>
     <td>(xa) X1 is one of members X2=? repeated as needed</td>
     <td>Use -xu to get the set.</td>
   </tr>
@@ -4369,7 +4369,7 @@
     <td>!siy|tuw</td>
     <td>rat.yo</td>
     <td>sisto</td>
-    <td>cin,fwa,brm,gme</td>
+    <td>cin, fwa, brm, gme</td>
     <td>(xy) X1s is a system of parts X2 with function (xi-vo) X3+1</td>
     <td>An organized set of parts.</td>
   </tr>
@@ -4392,12 +4392,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.2</td>
-    <td>exclusive~or,alternation</td>
+    <td>exclusive~or, alternation</td>
     <td>eksklusyv</td>
     <td></td>
     <td></td>
     <td></td>
-    <td>xiw,zny</td>
+    <td>xiw, zny</td>
     <td>X1: is a member of the exclusive union of (xy) X2:s= repeated as needed</td>
     <td>Exclusive or: X1 is in an odd number of argument sets.</td>
   </tr>
@@ -4406,12 +4406,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.2</td>
-    <td>iff,if-only-if,equivalent</td>
+    <td>iff, if-only-if, equivalent</td>
     <td>iff</td>
     <td></td>
     <td></td>
     <td></td>
-    <td>vlu,sew</td>
+    <td>vlu, sew</td>
     <td>X1: is a member of the intersection of (xy) X2:s= repeated as needed, or of all their complements</td>
     <td></td>
   </tr>
@@ -4420,7 +4420,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.2</td>
-    <td>union,or</td>
+    <td>union, or</td>
     <td>iuni#n</td>
     <td>/lian/h#</td>
     <td>yunkt.yo</td>
@@ -4434,12 +4434,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.2</td>
-    <td>infer,imply</td>
+    <td>infer, imply</td>
     <td>ymplai</td>
     <td>/han!i</td>
     <td>sygnyfyk.are</td>
     <td></td>
-    <td>sny,klu</td>
+    <td>sny, klu</td>
     <td>X1: is a member of the union of (xy) X2:s and the complement of (xy) X3:s</td>
     <td>Use this for a setwise inference.</td>
   </tr>
@@ -4453,7 +4453,7 @@
     <td>-duw!shr</td>
     <td>sodal.ys</td>
     <td>djori</td>
-    <td>sto,zdi</td>
+    <td>sto, zdi</td>
     <td>X1 is a member of set (xy) X2s*</td>
     <td>Conversion of -sto.</td>
   </tr>
@@ -4467,7 +4467,7 @@
     <td>-dou/mei</td>
     <td>nemo</td>
     <td>notbi</td>
-    <td>dem,ple</td>
+    <td>dem, ple</td>
     <td>None of the referents of X1: are referents of X2:*</td>
     <td></td>
   </tr>
@@ -4560,12 +4560,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.3</td>
-    <td>boundary,edge,border,end</td>
+    <td>boundary, edge, border, end</td>
     <td>border</td>
     <td>-bian!jie</td>
     <td>margo</td>
     <td></td>
-    <td>fni,xyn</td>
+    <td>fni, xyn</td>
     <td>X1s is the boundary of region (xy) X2s* with topology (xy) X3s</td>
     <td>Includes ends of a long object as a set.</td>
   </tr>
@@ -4574,12 +4574,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.3</td>
-    <td>part,system</td>
+    <td>part, system</td>
     <td>part</td>
     <td>!bu!f#n</td>
     <td>membr.um</td>
     <td>parti</td>
-    <td>gme,tsy</td>
+    <td>gme, tsy</td>
     <td>X1 is a part of system X2s*</td>
     <td>X1 is in place or it can be put in and X2 will work.</td>
   </tr>
@@ -4607,7 +4607,7 @@
     <td>!bu!f#n</td>
     <td>fragment.um</td>
     <td>pisku</td>
-    <td>brm,tsy,qno</td>
+    <td>brm, tsy, qno</td>
     <td>X1 is a piece of system X2s*</td>
     <td>X1 is detached as if broken off.</td>
   </tr>
@@ -4649,7 +4649,7 @@
     <td>!qau!qu</td>
     <td>pauky</td>
     <td>ri</td>
-    <td>vdu,pql</td>
+    <td>vdu, pql</td>
     <td>Set (xy) X1s has few members X2, in extension</td>
     <td></td>
   </tr>
@@ -4691,7 +4691,7 @@
     <td>-duo</td>
     <td>multy</td>
     <td>re</td>
-    <td>pqu,fto</td>
+    <td>pqu, fto</td>
     <td>Set (xy) X1s has many members X2, in extension</td>
     <td></td>
   </tr>
@@ -4700,7 +4700,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.3</td>
-    <td>mixture,medley</td>
+    <td>mixture, medley</td>
     <td>myksti#r</td>
     <td>/dza!s#</td>
     <td>farago</td>
@@ -4714,7 +4714,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.3, 1.2.5</td>
-    <td>chief,highest,most,extreme</td>
+    <td>chief, highest, most, extreme</td>
     <td>most</td>
     <td>!dzuei</td>
     <td>maksyme</td>
@@ -4728,13 +4728,13 @@
     <td>r</td>
     <td></td>
     <td>1.1.3, 1.3.3</td>
-    <td>rare,unusual</td>
+    <td>rare, unusual</td>
     <td>rer</td>
     <td>-si|iou</td>
     <td>rar.us</td>
     <td>rirci*</td>
     <td></td>
-    <td>X1: is rare among set (xy) X2s in property (vo) X3+1,S2</td>
+    <td>X1: is rare among set (xy) X2s in property (vo) X3+1, S2</td>
     <td>Few X2 members are X3, but X1 is one of them.</td>
   </tr>
   <tr>
@@ -4742,12 +4742,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.3, 3.7.4</td>
-    <td>first,begin,next,least</td>
+    <td>first, begin, next, least</td>
     <td>bigyn</td>
     <td>|ci</td>
     <td>ynyty.um</td>
     <td>satci</td>
-    <td>fne,tl,sym</td>
+    <td>fne, tl, sym</td>
     <td>X1: is next in list (xy) X2s* after origin X3</td>
     <td>For lists, processes or oriented objects.  First or least member without X3.  |pa for N'th from X3 or |tepa for initial segment.</td>
   </tr>
@@ -4756,12 +4756,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.3, 3.7.4</td>
-    <td>last,end,previous,most</td>
+    <td>last, end, previous, most</td>
     <td>end</td>
     <td>/jie</td>
     <td>fyn.ys</td>
     <td>fando</td>
-    <td>bny,sym</td>
+    <td>bny, sym</td>
     <td>X1 is previous in list (xy) X2s* before origin X3</td>
     <td>For lists, processes or oriented objects.  Tail or largest member without X3.  |pa gives N'th from X3 or |tepa for end segment.</td>
   </tr>
@@ -4775,7 +4775,7 @@
     <td>!fan/uei</td>
     <td></td>
     <td>ranjo</td>
-    <td>biar,bor</td>
+    <td>biar, bor</td>
     <td>Process X1s ranges over set (xy) X2s*</td>
     <td>Use -xu F for the range of a function.</td>
   </tr>
@@ -4784,7 +4784,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.3, 4.1.6</td>
-    <td>decoration,adorn</td>
+    <td>decoration, adorn</td>
     <td>adorn</td>
     <td>-juaw!qr</td>
     <td>orn.are</td>
@@ -4798,12 +4798,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.3, 4.4.5, 1.5.1</td>
-    <td>example,illustrate</td>
+    <td>example, illustrate</td>
     <td>eksampl</td>
     <td>|baw!iaw</td>
     <td>eksempl.um</td>
     <td>mipli</td>
-    <td>sur,bya</td>
+    <td>sur, bya</td>
     <td>X1 is an example member of set (xy) X2s*</td>
     <td>A member of X2 which illustrates clearly what kind of thing is in it.</td>
   </tr>
@@ -4826,12 +4826,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.4</td>
-    <td>encounter,meet</td>
+    <td>encounter, meet</td>
     <td>mit</td>
     <td>!iu!jian</td>
     <td>obvy.us</td>
     <td>jmite</td>
-    <td>twa,cra</td>
+    <td>twa, cra</td>
     <td>X1: meets, encounters X2:*</td>
     <td></td>
   </tr>
@@ -4845,7 +4845,7 @@
     <td>!qr-cyw</td>
     <td>res</td>
     <td>ferci</td>
-    <td>twa,ftr</td>
+    <td>twa, ftr</td>
     <td>(vo) X1 is an affair involving persons (xy) X2s*</td>
     <td>Meaning is close to -za -twa = interact.</td>
   </tr>
@@ -4854,12 +4854,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.4, 1.5.1</td>
-    <td>relevant,possess,my,pertinent</td>
+    <td>relevant, possess, my, pertinent</td>
     <td>p#zes</td>
     <td>-de</td>
     <td>posesyv.us</td>
     <td>pe</td>
-    <td>bou,pry,kio</td>
+    <td>bou, pry, kio</td>
     <td>X1: is pertinent or relevant to thing X2:*</td>
     <td>For ``possessive'' constructions like ``my hat'' where X1 = hat, X2 = me.  Ownership not required.</td>
   </tr>
@@ -4896,7 +4896,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.4, 2.3.5</td>
-    <td>analyse,conclusion</td>
+    <td>analyse, conclusion</td>
     <td>analayz</td>
     <td>-fen|jie</td>
     <td>eksplyc.are</td>
@@ -4910,7 +4910,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.4, 4.6.2</td>
-    <td>spouse,marry</td>
+    <td>spouse, marry</td>
     <td>mari</td>
     <td>/jie-hun</td>
     <td>matrymon.yo</td>
@@ -4929,7 +4929,7 @@
     <td>|iou</td>
     <td>hab.ere</td>
     <td>ponsu</td>
-    <td>zey,kio</td>
+    <td>zey, kio</td>
     <td>Owner X1 owns property X2*</td>
     <td>Use -zey for ordinary possessive.  |gul for the law or |tue for a culture.</td>
   </tr>
@@ -4966,7 +4966,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.5</td>
-    <td>neutral,struggle</td>
+    <td>neutral, struggle</td>
     <td>nutr#l</td>
     <td>-juw!li</td>
     <td>medy.us</td>
@@ -4994,12 +4994,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.5, 2.1.7</td>
-    <td>enemy,struggle</td>
+    <td>enemy, struggle</td>
     <td>enemi</td>
     <td>/cou/di</td>
     <td>ynymyk.us</td>
     <td>nemdi</td>
-    <td>pin,fre</td>
+    <td>pin, fre</td>
     <td>X1 is an enemy of X2: in affair or struggle (vo) X3+</td>
     <td></td>
   </tr>
@@ -5022,7 +5022,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.5, 2.5.1</td>
-    <td>rely,depend</td>
+    <td>rely, depend</td>
     <td>rilai</td>
     <td>!sin!ren</td>
     <td>fyd.ere</td>
@@ -5055,7 +5055,7 @@
     <td>!jew!qr</td>
     <td>rit.us</td>
     <td>forma</td>
-    <td>fma,zia,gul,qre,tri</td>
+    <td>fma, zia, gul, qre, tri</td>
     <td>Activity (vo) X1+ is done formally</td>
     <td>By standard or expected plans or rules.</td>
   </tr>
@@ -5064,12 +5064,12 @@
     <td>q</td>
     <td></td>
     <td>1.1.6</td>
-    <td>random,accident</td>
+    <td>random, accident</td>
     <td>rand#m</td>
     <td>/suei!bian</td>
     <td>tem.ere</td>
     <td>canse</td>
-    <td>kau,qun</td>
+    <td>kau, qun</td>
     <td>Process (vo) X1 is accidental or random</td>
     <td>Not necessarily bad.  Use -psm |stu for bad luck.  ``There is no such thing as bad luck.''</td>
   </tr>
@@ -5078,12 +5078,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.6</td>
-    <td>proxy,test,valid</td>
+    <td>proxy, test, valid</td>
     <td>test</td>
     <td>!qr!ian</td>
     <td></td>
     <td>pruci</td>
-    <td>fta,pyn,sen,vju</td>
+    <td>fta, pyn, sen, vju</td>
     <td>Examinee X1 being/doing test (vo) X3+1@! is a proxy measure for having real quality (vo) X2+1</td>
     <td>|sen for tester, |pyn for interpreter, and |fta for standard.  -za -qne means valid.</td>
   </tr>
@@ -5097,7 +5097,7 @@
     <td>|k#/n#w</td>
     <td>pose</td>
     <td>blicu</td>
-    <td>bal,pwo,zba</td>
+    <td>bal, pwo, zba</td>
     <td>Event (vo) X1+ is possible</td>
     <td>Has a low but nonzero probability.</td>
   </tr>
@@ -5106,12 +5106,12 @@
     <td>q</td>
     <td></td>
     <td>1.1.6</td>
-    <td>likely,probable</td>
+    <td>likely, probable</td>
     <td>laikli</td>
     <td>|k#/n#w</td>
     <td>probabyl.ys</td>
     <td>blicu</td>
-    <td>bal,spo</td>
+    <td>bal, spo</td>
     <td>Event (vo) X1+ is likely</td>
     <td>Has a high probability.</td>
   </tr>
@@ -5120,7 +5120,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.6, 1.3.6, 1.4.4</td>
-    <td>location,place</td>
+    <td>location, place</td>
     <td>lokaqn</td>
     <td>!di-faw</td>
     <td>loky</td>
@@ -5134,12 +5134,12 @@
     <td>q</td>
     <td></td>
     <td>1.1.6, 1.5.2</td>
-    <td>standard,rule</td>
+    <td>standard, rule</td>
     <td>standrd</td>
     <td>-biau|jun</td>
     <td>regula</td>
     <td></td>
-    <td>qre,gul,qne</td>
+    <td>qre, gul, qne</td>
     <td>X1s is a standard or set of rules by which (vo) X2:+ can be asserted</td>
     <td>Normally X2 IS asserted (use -ge).</td>
   </tr>
@@ -5148,12 +5148,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.6, 1.5.2, 1.5.6</td>
-    <td>manner,way</td>
+    <td>manner, way</td>
     <td>uai</td>
     <td>!iaw.-dz</td>
     <td>mod.us</td>
     <td>forma</td>
-    <td>fma,jrm</td>
+    <td>fma, jrm</td>
     <td>(vo) X1@ is the way or manner in which activity (vo) X2+ is done</td>
     <td>Typically used as an argument; otherwise, just apply the X1 predicate to X2.</td>
   </tr>
@@ -5162,12 +5162,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.6, 1.5.3</td>
-    <td>likely,probable,consequence</td>
+    <td>likely, probable, consequence</td>
     <td>laikli</td>
     <td>/ie|qu</td>
     <td>probabyl.ys</td>
     <td>dakli</td>
-    <td>spo,zba</td>
+    <td>spo, zba</td>
     <td>If antecedent (vo) X1@ happens, it is likely that consequence (vo) X2+ also will</td>
     <td></td>
   </tr>
@@ -5176,12 +5176,12 @@
     <td>r</td>
     <td>11</td>
     <td>1.1.6, 1.5.3</td>
-    <td>cause,consequence</td>
+    <td>cause, consequence</td>
     <td>kauz</td>
     <td>|qr</td>
     <td>fak.ere</td>
     <td>ckozu</td>
-    <td>qma,kmo,sny,psm</td>
+    <td>qma, kmo, sny, psm</td>
     <td>Antecedent (vo) X1@ causes consequence (vo) X2+</td>
     <td>Cause is mechanical.  Use -kmo for motivation.</td>
   </tr>
@@ -5190,7 +5190,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.6, 1.5.3</td>
-    <td>motivation,motive</td>
+    <td>motivation, motive</td>
     <td>motiv</td>
     <td>|li/iou</td>
     <td>kausa</td>
@@ -5204,7 +5204,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.6, 1.5.3</td>
-    <td>purpose,act</td>
+    <td>purpose, act</td>
     <td>purp#s</td>
     <td>!mu-di</td>
     <td>konsyly.um</td>
@@ -5218,7 +5218,7 @@
     <td>r</td>
     <td>8</td>
     <td>1.1.6, 1.5.3</td>
-    <td>reason,because</td>
+    <td>reason, because</td>
     <td>riz#n</td>
     <td>/uan-in</td>
     <td>kausa</td>
@@ -5232,7 +5232,7 @@
     <td>q</td>
     <td></td>
     <td>1.1.6, 2.4.8</td>
-    <td>process,stage</td>
+    <td>process, stage</td>
     <td>prases</td>
     <td>-faw|fa</td>
     <td>rat.yo</td>
@@ -5246,12 +5246,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.6, 3.4.3, 1.5.6, 4.4.6</td>
-    <td>event,argument</td>
+    <td>event, argument</td>
     <td>ivent</td>
     <td>!qr!jian</td>
     <td>fakt.um</td>
     <td>vetci</td>
-    <td>gna,tua,dlmo</td>
+    <td>gna, tua, dlmo</td>
     <td>(vo) X1 is an event having argument X2 in some case</td>
     <td>-zu -qin for argument; -zu -qin |pa for a numbered case.</td>
   </tr>
@@ -5265,7 +5265,7 @@
     <td>!tsuo!u</td>
     <td>eror</td>
     <td>tsero</td>
-    <td>dve,sfa,go</td>
+    <td>dve, sfa, go</td>
     <td>(vo) X1 is an error</td>
     <td>|fta for the standard.</td>
   </tr>
@@ -5274,12 +5274,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.6, 3.7.4, 1.5.3</td>
-    <td>necessary,condition</td>
+    <td>necessary, condition</td>
     <td>nesesari</td>
     <td>!bi-siu</td>
     <td>nekesary.us</td>
     <td>nerbi</td>
-    <td>sno,bni,spo,xen</td>
+    <td>sno, bni, spo, xen</td>
     <td>Antecedent (vo) X1@ is a necessary condition for consequence (vo) X2+ to occur</td>
     <td>Use -bni for X1 needs to do X2.</td>
   </tr>
@@ -5288,12 +5288,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.6, 3.7.4, 1.5.3</td>
-    <td>sufficient,condition</td>
+    <td>sufficient, condition</td>
     <td>s#fyqnt</td>
     <td>/dzu!gou</td>
     <td>sat.ys</td>
     <td>tsufi</td>
-    <td>bni,sar,gou,zuy,guo</td>
+    <td>bni, sar, gou, zuy, guo</td>
     <td>Antecedent (vo) X1@ is a sufficient condition for consequence (vo) X2+ to occur</td>
     <td></td>
   </tr>
@@ -5302,7 +5302,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.6, 1.5.3</td>
-    <td>condition,state,status</td>
+    <td>condition, state, status</td>
     <td>k#ndyqn</td>
     <td>/ciw-qiw</td>
     <td>stat.us</td>
@@ -5316,12 +5316,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.6, 3.7.4, 1.5.3</td>
-    <td>logic,imply,entail</td>
+    <td>logic, imply, entail</td>
     <td>ymplai</td>
     <td>/han!iy</td>
     <td>sygnyfyk.are</td>
     <td>snola</td>
-    <td>zny,kau</td>
+    <td>zny, kau</td>
     <td>Antecedent (vo) X1@ logically entails consequence (vo) X2+</td>
     <td>For definitions and theorems; use -kau for causation.  |sya for axioms, |qre for rules of logic.</td>
   </tr>
@@ -5344,13 +5344,13 @@
     <td>q</td>
     <td>14</td>
     <td>1.1.7</td>
-    <td>very,more,such,particularly,fairly</td>
+    <td>very, more, such, particularly, fairly</td>
     <td>suc</td>
     <td>/ru|tz#</td>
     <td>tot</td>
     <td></td>
-    <td>vdu,pql</td>
-    <td>X1: is more than usual or expected in dimension (vo) X2+1,S3 for members of set (xy) X3s</td>
+    <td>vdu, pql</td>
+    <td>X1: is more than usual or expected in dimension (vo) X2+1, S3 for members of set (xy) X3s</td>
     <td>|fta for the standard.  -gl -fto means fairly, i.e. at the high end of the usual range.</td>
   </tr>
   <tr>
@@ -5377,7 +5377,7 @@
     <td>/dzu!gou</td>
     <td>sat.ys</td>
     <td>tsufi</td>
-    <td>sno,zuy</td>
+    <td>sno, zuy</td>
     <td>X1:! is sufficient for consequence (vo) X2+1@ in dimension (vo) X3+1</td>
     <td></td>
   </tr>
@@ -5386,7 +5386,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.7</td>
-    <td>almost,quite,barely</td>
+    <td>almost, quite, barely</td>
     <td>almost</td>
     <td>-ji-#u</td>
     <td>paene</td>
@@ -5400,13 +5400,13 @@
     <td>q</td>
     <td>11</td>
     <td>1.1.7</td>
-    <td>only,less,just,somewhat</td>
+    <td>only, less, just, somewhat</td>
     <td>les</td>
     <td>|jr!qr</td>
     <td>tant.us</td>
     <td></td>
-    <td>pqu,fto</td>
-    <td>X1: is less than usual or expected in dimension (vo) X2+1,S3 for members of set (xy) X3s</td>
+    <td>pqu, fto</td>
+    <td>X1: is less than usual or expected in dimension (vo) X2+1, S3 for members of set (xy) X3s</td>
     <td>|fta for the standard.  -gl -pql means somewhat, i.e. low end of usual range.</td>
   </tr>
   <tr>
@@ -5414,7 +5414,7 @@
     <td>q</td>
     <td></td>
     <td>1.1.7</td>
-    <td>accurate,precise</td>
+    <td>accurate, precise</td>
     <td>akiur#t</td>
     <td>-jiw!mi</td>
     <td>verus</td>
@@ -5433,7 +5433,7 @@
     <td>!bu/dzu</td>
     <td>kar.ere</td>
     <td>clesi</td>
-    <td>kio,xno,fpw</td>
+    <td>kio, xno, fpw</td>
     <td>X1: lacks, has no (xa) X2:*</td>
     <td>Use for objects and servings.</td>
   </tr>
@@ -5447,7 +5447,7 @@
     <td>!bu/dzu</td>
     <td>par.um</td>
     <td>tsufi</td>
-    <td>sno,gou</td>
+    <td>sno, gou</td>
     <td>X1:! is insufficient for consequence (vo) X2+1@ in dimension (vo) X3+1</td>
     <td></td>
   </tr>
@@ -5456,12 +5456,12 @@
     <td>q</td>
     <td></td>
     <td>1.1.7, 1.3.2</td>
-    <td>regular,uniform,homogeneous</td>
+    <td>regular, uniform, homogeneous</td>
     <td>regiulr</td>
     <td>|iou!jr-su</td>
     <td>kert.us</td>
     <td>vitci*</td>
-    <td>qkl,kym</td>
+    <td>qkl, kym</td>
     <td>Set (xy) X1s is regular or uniform in property (vo) X2+S1</td>
     <td>Members of X1 fit X2 to about the same degree.  If X1 is not obviously a set, consider its parts.</td>
   </tr>
@@ -5470,7 +5470,7 @@
     <td>q</td>
     <td></td>
     <td>1.1.7, 1.3.2</td>
-    <td>irregular,nonuniform</td>
+    <td>irregular, nonuniform</td>
     <td>yrregular</td>
     <td>!bu|jew/ci</td>
     <td>ynaekual.ys</td>
@@ -5498,12 +5498,12 @@
     <td>r</td>
     <td></td>
     <td>1.1.7, 1.5.6</td>
-    <td>degree,quantity,amount</td>
+    <td>degree, quantity, amount</td>
     <td>#maunt</td>
     <td>!liaw</td>
     <td>alykuot</td>
     <td>kanli</td>
-    <td>tme,ful</td>
+    <td>tme, ful</td>
     <td>X1: IEC the amount, degree or quantity of (vo) X2:+</td>
     <td>For a predicate V for which |pa specifies some amount, -kun -V can recover that amount.</td>
   </tr>
@@ -5517,7 +5517,7 @@
     <td>-pin/jr</td>
     <td>natura</td>
     <td>katli</td>
-    <td>qin,gre,sym</td>
+    <td>qin, gre, sym</td>
     <td>(vo) X1+2 is a quality that X2: has</td>
     <td>Use -sym or -gre for ``high quality''.  Note unusual case merge.</td>
   </tr>
@@ -5554,7 +5554,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.8</td>
-    <td>relevant,pertinent</td>
+    <td>relevant, pertinent</td>
     <td>prtynent</td>
     <td>|qu/u</td>
     <td>pertyn.ere</td>
@@ -5573,7 +5573,7 @@
     <td>!uen/ti</td>
     <td>kuaest.yo</td>
     <td>nable</td>
-    <td>xue,pon</td>
+    <td>xue, pon</td>
     <td>(bi) X1 is a problem on the subject (vo) X2!</td>
     <td>A question for students to answer, thereby to learn.</td>
   </tr>
@@ -5582,7 +5582,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.8, 1.5.6</td>
-    <td>state,status,situation,condition</td>
+    <td>state, status, situation, condition</td>
     <td>k#ndyqn</td>
     <td>/ciw!kuaw</td>
     <td>stat.us</td>
@@ -5596,7 +5596,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.8, 1.5.6</td>
-    <td>serving,portion,piece</td>
+    <td>serving, portion, piece</td>
     <td>porqn</td>
     <td>!fen</td>
     <td>pars</td>
@@ -5610,7 +5610,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.8, 1.5.6</td>
-    <td>all,common</td>
+    <td>all, common</td>
     <td>al</td>
     <td>!uan!u</td>
     <td>omn.ys</td>
@@ -5624,7 +5624,7 @@
     <td>q</td>
     <td></td>
     <td>1.1.8, 1.5.6, 4.4.6</td>
-    <td>event,occur</td>
+    <td>event, occur</td>
     <td>ivent</td>
     <td>-fa-qew</td>
     <td>fakt.um</td>
@@ -5638,12 +5638,12 @@
     <td>q</td>
     <td></td>
     <td>1.1.8, 3.4.3, 3.7.4</td>
-    <td>real,exist</td>
+    <td>real, exist</td>
     <td>eksyst</td>
     <td>/tsun!dzai</td>
     <td>ekst.are</td>
     <td>dzabi</td>
-    <td>qkr,dve</td>
+    <td>qkr, dve</td>
     <td>X1 exists in reality</td>
     <td>|sen for the experiencer.  It is very hard to authoritatively assert -stw.  Instead assert that you believe it (-cre or -xou) or that it is a fact (-qkr).</td>
   </tr>
@@ -5666,7 +5666,7 @@
     <td>r</td>
     <td></td>
     <td>1.1.8, 4.4.6</td>
-    <td>compatible,fit</td>
+    <td>compatible, fit</td>
     <td>fyt</td>
     <td>/he!shr</td>
     <td>kongruens</td>
@@ -5755,7 +5755,7 @@
     <td>-guan</td>
     <td>klaudy</td>
     <td>klogu</td>
-    <td>tao,dae</td>
+    <td>tao, dae</td>
     <td>X1 is closed</td>
     <td>Things cannot go in and out of the interior.</td>
   </tr>
@@ -5797,7 +5797,7 @@
     <td>-kon-jien</td>
     <td>exped.yre</td>
     <td>klina*</td>
-    <td>sar,sir</td>
+    <td>sar, sir</td>
     <td>X1 is clear for event (vo) X2+ to happen</td>
     <td>Makes no obstacle.  Necessary conditions for X2 about X1, typically being empty, are true.</td>
   </tr>
@@ -5806,7 +5806,7 @@
     <td>r</td>
     <td></td>
     <td>1.2.1, 2.1.3</td>
-    <td>immune,prevent,disease,fault,vaccine</td>
+    <td>immune, prevent, disease, fault, vaccine</td>
     <td>ymiun</td>
     <td>|mien!i</td>
     <td>ymun.ys</td>
@@ -5923,7 +5923,7 @@
     <td>/liou-sin</td>
     <td>dilygens</td>
     <td></td>
-    <td>vra,kar</td>
+    <td>vra, kar</td>
     <td>X1: does activity (vo) X2+1 carefully</td>
     <td></td>
   </tr>
@@ -5932,12 +5932,12 @@
     <td>r</td>
     <td></td>
     <td>1.2.3</td>
-    <td>crazy,mad,insane</td>
+    <td>crazy, mad, insane</td>
     <td>krazi</td>
     <td>-few/kuaw</td>
     <td>kerit.us</td>
     <td>fenki*</td>
-    <td>ksa,tul,smi</td>
+    <td>ksa, tul, smi</td>
     <td>X1: is crazy to do activity (vo) X2+1</td>
     <td>|ciw for holder of opinion.</td>
   </tr>
@@ -5960,7 +5960,7 @@
     <td>r</td>
     <td></td>
     <td>1.2.3</td>
-    <td>difficult,hard</td>
+    <td>difficult, hard</td>
     <td>dyfyk#lt</td>
     <td>!ku#/nan</td>
     <td>vikx</td>
@@ -5974,7 +5974,7 @@
     <td>r</td>
     <td></td>
     <td>1.2.3</td>
-    <td>fast,quick</td>
+    <td>fast, quick</td>
     <td>fast</td>
     <td>!kuai</td>
     <td>keler</td>
@@ -6021,7 +6021,7 @@
     <td>-tsuw-miw</td>
     <td>sapyens</td>
     <td>sadji</td>
-    <td>ker,pew,tul</td>
+    <td>ker, pew, tul</td>
     <td>X1: is wise about affair (vo) X2+1</td>
     <td></td>
   </tr>
@@ -6030,12 +6030,12 @@
     <td>r</td>
     <td></td>
     <td>1.2.3</td>
-    <td>fool,dumb,stupid</td>
+    <td>fool, dumb, stupid</td>
     <td>ful</td>
     <td>!u/ren</td>
     <td>stult.us</td>
     <td>bunbo</td>
-    <td>ker,smi</td>
+    <td>ker, smi</td>
     <td>X1: is foolish to do activity (vo) X2+1</td>
     <td>|ciw for holder of opinion.</td>
   </tr>
@@ -6072,7 +6072,7 @@
     <td>r</td>
     <td></td>
     <td>1.2.3</td>
-    <td>serious,care</td>
+    <td>serious, care</td>
     <td>siri#s</td>
     <td>/ian!juw</td>
     <td>grav.ys</td>
@@ -6100,7 +6100,7 @@
     <td>r</td>
     <td></td>
     <td>1.2.3, 2.1.4</td>
-    <td>famous,fan</td>
+    <td>famous, fan</td>
     <td>famus</td>
     <td>/miw!u</td>
     <td>praeklar.us</td>
@@ -6114,7 +6114,7 @@
     <td>r</td>
     <td></td>
     <td>1.2.3, 2.1.4</td>
-    <td>hide,secret</td>
+    <td>hide, secret</td>
     <td>haid</td>
     <td>/tsaw</td>
     <td>abd.ere</td>
@@ -6217,7 +6217,7 @@
     <td>-huan!le</td>
     <td>rydykul.ys</td>
     <td>kamki</td>
-    <td>qya,fry</td>
+    <td>qya, fry</td>
     <td>(vo) X1 is funny</td>
     <td>|gae for experiencer.</td>
   </tr>
@@ -6268,12 +6268,12 @@
     <td>q</td>
     <td></td>
     <td>1.2.4</td>
-    <td>novel,new</td>
+    <td>novel, new</td>
     <td>nu</td>
     <td>-sin</td>
     <td>nov.us</td>
     <td>cninu</td>
-    <td>psw,ksi</td>
+    <td>psw, ksi</td>
     <td>X1 is new, novel in aspect (vo) X2+1</td>
     <td>|ciw for the experiencer.  Use -ksi for fresh or unused.</td>
   </tr>
@@ -6287,7 +6287,7 @@
     <td>|pu-tuw</td>
     <td>usytat.us</td>
     <td>danri</td>
-    <td>psn,csn</td>
+    <td>psn, csn</td>
     <td>X1 is ordinary in aspect (vo) X2+1</td>
     <td>|ciw for experiencer.</td>
   </tr>
@@ -6301,7 +6301,7 @@
     <td>-gu!jia</td>
     <td>aestym.are</td>
     <td>vatli</td>
-    <td>spe,sri</td>
+    <td>spe, sri</td>
     <td>X1: values X2:*</td>
     <td>X1 has a static, quantitative opinion.  Use modal unit to say how much.</td>
   </tr>
@@ -6338,7 +6338,7 @@
     <td>q</td>
     <td></td>
     <td>1.2.4, 1.5.5</td>
-    <td>unimportant,by~the~way</td>
+    <td>unimportant, by~the~way</td>
     <td>#nymportnt</td>
     <td>/bu!juw!iau</td>
     <td>lev.is</td>
@@ -6357,7 +6357,7 @@
     <td>/ci!guai</td>
     <td>ynsolyt.us</td>
     <td>gutra</td>
-    <td>psw,zgn</td>
+    <td>psw, zgn</td>
     <td>X1 is strange</td>
     <td>Not ordinary.  |ciw for experiencer.</td>
   </tr>
@@ -6399,7 +6399,7 @@
     <td>!uay/guo</td>
     <td>peregryn.us</td>
     <td>fange*</td>
-    <td>spi,csn</td>
+    <td>spi, csn</td>
     <td>X1 is alien, not a member of the local culture</td>
     <td>|ciw for experiencer (feelings of alienation are not objective).</td>
   </tr>
@@ -6427,7 +6427,7 @@
     <td>-iou|dian</td>
     <td>bon.us</td>
     <td>gudbi</td>
-    <td>stu,vdo</td>
+    <td>stu, vdo</td>
     <td>X1 is good for purpose (vo) X2+1</td>
     <td>|ciw for holder of opinion.</td>
   </tr>
@@ -6469,7 +6469,7 @@
     <td>/sie!e</td>
     <td>mal.us</td>
     <td>palci*</td>
-    <td>stu,vdo,xai</td>
+    <td>stu, vdo, xai</td>
     <td>X1 is evil</td>
     <td>X1 does things that motivate people to hate it (q.v.)  |ciw for holder of opinion.</td>
   </tr>
@@ -6492,12 +6492,12 @@
     <td>q</td>
     <td></td>
     <td>1.2.5</td>
-    <td>unsuitable,bad</td>
+    <td>unsuitable, bad</td>
     <td>bad</td>
     <td>!huai</td>
     <td>turp.ys</td>
     <td>zavlo</td>
-    <td>dvn,psi</td>
+    <td>dvn, psi</td>
     <td>X1 is bad, unsuitable for purpose (vo) X2+1</td>
     <td>|ciw for holder of opinion.  Use |psi for evil.</td>
   </tr>
@@ -6534,7 +6534,7 @@
     <td>r</td>
     <td></td>
     <td>1.2.5, 3.6.1</td>
-    <td>concentrate,dense</td>
+    <td>concentrate, dense</td>
     <td>kansentraqn</td>
     <td>/ji-juw</td>
     <td></td>
@@ -6618,12 +6618,12 @@
     <td>r</td>
     <td></td>
     <td>1.3.1</td>
-    <td>point,vertex</td>
+    <td>point, vertex</td>
     <td>point</td>
     <td>-jien-duan</td>
     <td>akumen</td>
     <td>penta</td>
-    <td>qku,zdi</td>
+    <td>qku, zdi</td>
     <td>X1 is a point of shape X2*</td>
     <td>``Pointed''.  An acute vertex, like the point of a knife.</td>
   </tr>
@@ -6707,7 +6707,7 @@
     <td>-uan-ciu</td>
     <td>kurv.us</td>
     <td>betcu</td>
-    <td>psa,fle</td>
+    <td>psa, fle</td>
     <td>X1 is bent</td>
     <td>Implies usually straight, or was once straight.</td>
   </tr>
@@ -6758,12 +6758,12 @@
     <td>q</td>
     <td></td>
     <td>1.3.1, 1.3.7</td>
-    <td>large,rotund,fat</td>
+    <td>large, rotund, fat</td>
     <td>fat</td>
     <td>!paw</td>
     <td>rotund.us</td>
     <td>fotpa</td>
-    <td>kqa,deri</td>
+    <td>kqa, deri</td>
     <td>X1 is large</td>
     <td>Larger than standard or useful.  Use -cul -deri to emphasize fat content.</td>
   </tr>
@@ -6791,7 +6791,7 @@
     <td>-ciw</td>
     <td>lev.ys</td>
     <td>latci</td>
-    <td>vga,xgy,vaw,xgm</td>
+    <td>vga, xgy, vaw, xgm</td>
     <td>X1 is light</td>
     <td>Has little mass.  Use -xgm for brilliant.</td>
   </tr>
@@ -6800,12 +6800,12 @@
     <td>r</td>
     <td></td>
     <td>1.3.2</td>
-    <td>full,swollen</td>
+    <td>full, swollen</td>
     <td>ful</td>
     <td>-cuw|man</td>
     <td>plen.us</td>
     <td>folma</td>
-    <td>gai,vel,toum,fpw</td>
+    <td>gai, vel, toum, fpw</td>
     <td>Container X1 is full of content (xo) X2*</td>
     <td></td>
   </tr>
@@ -6819,7 +6819,7 @@
     <td>-kow</td>
     <td>ynan.ys</td>
     <td>kunti*</td>
-    <td>cul,zua</td>
+    <td>cul, zua</td>
     <td>X1 is empty of content (xo) X2*</td>
     <td>X1 is a container that could contain X2 but doesn't.</td>
   </tr>
@@ -6828,7 +6828,7 @@
     <td>q</td>
     <td></td>
     <td>1.3.2</td>
-    <td>taut,tense,strain</td>
+    <td>taut, tense, strain</td>
     <td>tat</td>
     <td>|jin-jaw</td>
     <td>poryg.ere</td>
@@ -6889,7 +6889,7 @@
     <td>!juw</td>
     <td>grav.ys</td>
     <td>tidjo</td>
-    <td>gvi,vaw,xgy</td>
+    <td>gvi, vaw, xgy</td>
     <td>X1 is heavy</td>
     <td>Has much mass.  Use -vaw for strength, -xgy for stiffness.</td>
   </tr>
@@ -6945,7 +6945,7 @@
     <td>-gaw!iw</td>
     <td>dur.us</td>
     <td>hardu</td>
-    <td>ftm,kly</td>
+    <td>ftm, kly</td>
     <td>X1 is hard</td>
     <td>Resists scratching or cutting.  Use -kly for difficult.</td>
   </tr>
@@ -7001,7 +7001,7 @@
     <td>/qaw/qaw</td>
     <td>frekuens</td>
     <td>pifno</td>
-    <td>sur,xer</td>
+    <td>sur, xer</td>
     <td>(vo) X1 occurs frequently</td>
     <td></td>
   </tr>
@@ -7066,12 +7066,12 @@
     <td>r</td>
     <td></td>
     <td>1.3.3</td>
-    <td>periodic,daily,annual,hourly,monthly</td>
+    <td>periodic, daily, annual, hourly, monthly</td>
     <td>periadyk</td>
     <td>!dzai-san</td>
     <td>yter.are</td>
     <td>rilri</td>
-    <td>tfr,zai</td>
+    <td>tfr, zai</td>
     <td>Event (vo) X1 is periodic with period (xu) X2*</td>
     <td></td>
   </tr>
@@ -7113,7 +7113,7 @@
     <td>|hau!siaw</td>
     <td></td>
     <td></td>
-    <td>fsn,tia</td>
+    <td>fsn, tia</td>
     <td>X1 sounds like prototype (xi) X2*</td>
     <td>Similar in sound.  Not for generalized similarity (-smy).</td>
   </tr>
@@ -7136,12 +7136,12 @@
     <td>q</td>
     <td></td>
     <td>1.3.4</td>
-    <td>saturated,bright</td>
+    <td>saturated, bright</td>
     <td>satiurated</td>
     <td>-sian!ian</td>
     <td>splendyd.us</td>
     <td></td>
-    <td>xgm,sfe</td>
+    <td>xgm, sfe</td>
     <td>X1 is saturated in color</td>
     <td>Use -qnr |tmy for chemical or solution saturation.</td>
   </tr>
@@ -7206,7 +7206,7 @@
     <td>q</td>
     <td></td>
     <td>1.3.4</td>
-    <td>clear,transparent</td>
+    <td>clear, transparent</td>
     <td>klir</td>
     <td>!tou/miw</td>
     <td>perlukid.us</td>
@@ -7234,7 +7234,7 @@
     <td>q</td>
     <td></td>
     <td>1.3.4</td>
-    <td>purple,magenta</td>
+    <td>purple, magenta</td>
     <td>majenta</td>
     <td>|dz</td>
     <td>purpura</td>
@@ -7267,7 +7267,7 @@
     <td>-hei</td>
     <td>obskur.us</td>
     <td>draka</td>
-    <td>xgm,sfe</td>
+    <td>xgm, sfe</td>
     <td>X1 is dark</td>
     <td>Low intensity color or lacks light.  Use |sfe for pastel.</td>
   </tr>
@@ -7281,7 +7281,7 @@
     <td>|fen|bi</td>
     <td></td>
     <td></td>
-    <td>fsi,skr</td>
+    <td>fsi, skr</td>
     <td>X1 is pastel in color</td>
     <td>The color is low in saturation.</td>
   </tr>
@@ -7360,12 +7360,12 @@
     <td>q</td>
     <td></td>
     <td>1.3.4</td>
-    <td>brilliant,light,bright</td>
+    <td>brilliant, light, bright</td>
     <td>brayt</td>
     <td>-guaw/myw</td>
     <td>spendid.us</td>
     <td>brili</td>
-    <td>skr,fsi</td>
+    <td>skr, fsi</td>
     <td>X1 is bright</td>
     <td>Brilliant, high intensity color or full of light.  Not for ``intelligent'' (-kua -swy or similar metaphor).</td>
   </tr>
@@ -7402,7 +7402,7 @@
     <td>r</td>
     <td></td>
     <td>1.3.4, 1.3.6</td>
-    <td>look,appearance</td>
+    <td>look, appearance</td>
     <td>l#k</td>
     <td>!sian!siaw</td>
     <td>spekies</td>
@@ -7472,12 +7472,12 @@
     <td>q</td>
     <td></td>
     <td>1.3.5</td>
-    <td>spring,elastic</td>
+    <td>spring, elastic</td>
     <td>ilastyk</td>
     <td>/tan!siw</td>
     <td></td>
     <td>lasti</td>
-    <td>xgy,spwy</td>
+    <td>xgy, spwy</td>
     <td>X1 is elastic or springy</td>
     <td></td>
   </tr>
@@ -7491,7 +7491,7 @@
     <td>-tsu</td>
     <td>asper</td>
     <td>rofsu</td>
-    <td>spy,vme</td>
+    <td>spy, vme</td>
     <td>X1 is rough in texture</td>
     <td>Use -vme for violent.</td>
   </tr>
@@ -7514,7 +7514,7 @@
     <td>q</td>
     <td></td>
     <td>1.3.5</td>
-    <td>soft,malleable</td>
+    <td>soft, malleable</td>
     <td>mali#bl</td>
     <td>|ran</td>
     <td>lent.us</td>
@@ -7528,12 +7528,12 @@
     <td>r</td>
     <td></td>
     <td>1.3.5, 1.3.6</td>
-    <td>texture,feel</td>
+    <td>texture, feel</td>
     <td>fil</td>
     <td>/jr</td>
     <td>tekstura</td>
     <td></td>
-    <td>gae,ciw</td>
+    <td>gae, ciw</td>
     <td>X1 feels like prototype (xi) X2</td>
     <td>Similar in texture.  Use -smy for general similarity.</td>
   </tr>
@@ -7556,7 +7556,7 @@
     <td>r</td>
     <td></td>
     <td>1.3.6, 1.3.7</td>
-    <td>odor,smell</td>
+    <td>odor, smell</td>
     <td>smel</td>
     <td>!uei</td>
     <td>odor</td>
@@ -7570,7 +7570,7 @@
     <td>r</td>
     <td></td>
     <td>1.3.6, 1.3.7</td>
-    <td>flavor,taste</td>
+    <td>flavor, taste</td>
     <td>flavor</td>
     <td>-dz!uei</td>
     <td>sapor</td>
@@ -7584,12 +7584,12 @@
     <td>r</td>
     <td></td>
     <td>1.3.6, 1.4.4, 1.5.1</td>
-    <td>here,location</td>
+    <td>here, location</td>
     <td>hir</td>
     <td>!je|li</td>
     <td>hyk</td>
     <td>hijra</td>
-    <td>cnu,qlo,jr</td>
+    <td>cnu, qlo, jr</td>
     <td>X1: is here, is at the same place as, has location (jr) X2*M5</td>
     <td>Typically objects but may be events.  </td>
   </tr>
@@ -7598,7 +7598,7 @@
     <td>r</td>
     <td></td>
     <td>1.3.6, 3.5.6, 1.4.4</td>
-    <td>duration,last</td>
+    <td>duration, last</td>
     <td>last</td>
     <td>/ien/tsaw</td>
     <td>dur.are</td>
@@ -7668,12 +7668,12 @@
     <td>q</td>
     <td></td>
     <td>1.3.7</td>
-    <td>rotten,infest,scavenger</td>
+    <td>rotten, infest, scavenger</td>
     <td>ratn</td>
     <td>|fu!lan</td>
     <td>putryd.us</td>
     <td>ranta</td>
-    <td>ksi,zbi</td>
+    <td>ksi, zbi</td>
     <td>X1 is rotten, infested with scavengers (xo) X2*</td>
     <td>X2 are bacterial or metazoan scavengers (maggots).</td>
   </tr>
@@ -7696,12 +7696,12 @@
     <td>q</td>
     <td></td>
     <td>1.3.7</td>
-    <td>fresh,undamaged,unused</td>
+    <td>fresh, undamaged, unused</td>
     <td>freq</td>
     <td>-sin-sian</td>
     <td>rekens</td>
     <td>frese</td>
-    <td>fpu,psn,ste</td>
+    <td>fpu, psn, ste</td>
     <td>X1 is fresh</td>
     <td>Undamaged by age or use.</td>
   </tr>
@@ -7715,7 +7715,7 @@
     <td>-faw-suw</td>
     <td>laks.ere</td>
     <td>surla*</td>
-    <td>sil,bzi</td>
+    <td>sil, bzi</td>
     <td>X1 is relaxed</td>
     <td></td>
   </tr>
@@ -7757,7 +7757,7 @@
     <td>|lau</td>
     <td>grand.ys</td>
     <td>laldo</td>
-    <td>fpa,bir,ste</td>
+    <td>fpa, bir, ste</td>
     <td>X1 is old</td>
     <td>Been alive a long time; use -bir for ancient.  |pa for how old, low numbers permitted.</td>
   </tr>
@@ -7780,7 +7780,7 @@
     <td>q</td>
     <td></td>
     <td>1.3.7, 4.6.4</td>
-    <td>wild,tame</td>
+    <td>wild, tame</td>
     <td>uild</td>
     <td>|ie</td>
     <td>fer.us</td>
@@ -7822,7 +7822,7 @@
     <td>r</td>
     <td></td>
     <td>1.4.1</td>
-    <td>below,up</td>
+    <td>below, up</td>
     <td>bilo</td>
     <td>!dzai!sia</td>
     <td>ynfra</td>
@@ -7864,7 +7864,7 @@
     <td>r</td>
     <td></td>
     <td>1.4.1</td>
-    <td>above,down</td>
+    <td>above, down</td>
     <td>#b#v</td>
     <td>!qaw!myan</td>
     <td>supra</td>
@@ -7962,12 +7962,12 @@
     <td>r</td>
     <td></td>
     <td>1.4.2</td>
-    <td>center,middle</td>
+    <td>center, middle</td>
     <td>sentr</td>
     <td>-juw-jian</td>
     <td>medi.us</td>
     <td>midju</td>
-    <td>cunu,xne,dyn</td>
+    <td>cunu, xne, dyn</td>
     <td>X1 is in the center of X2s:*</td>
     <td>A central subset (of a set or territory).  Use -dyn for center point, -cunu for nucleus.</td>
   </tr>
@@ -7990,7 +7990,7 @@
     <td>r</td>
     <td></td>
     <td>1.4.2</td>
-    <td>west,deasil</td>
+    <td>west, deasil</td>
     <td>uest</td>
     <td>-si</td>
     <td>oksydens</td>
@@ -8046,7 +8046,7 @@
     <td>q</td>
     <td></td>
     <td>1.4.2</td>
-    <td>horizontal,level</td>
+    <td>horizontal, level</td>
     <td>levl</td>
     <td>|quei/piw</td>
     <td>lybr.are</td>
@@ -8060,7 +8060,7 @@
     <td>r</td>
     <td></td>
     <td>1.4.2</td>
-    <td>east,widdershins</td>
+    <td>east, widdershins</td>
     <td>ist</td>
     <td>-d#w</td>
     <td>oryens</td>
@@ -8088,7 +8088,7 @@
     <td>r</td>
     <td></td>
     <td>1.4.3</td>
-    <td>cross,intersect</td>
+    <td>cross, intersect</td>
     <td>kras</td>
     <td>/h#w-cie</td>
     <td>trans.yre</td>
@@ -8172,12 +8172,12 @@
     <td>r</td>
     <td></td>
     <td>1.4.3</td>
-    <td>neighbor,contact,touch,close</td>
+    <td>neighbor, contact, touch, close</td>
     <td>kontakt</td>
     <td>-jie!cu</td>
     <td>takt.us</td>
     <td>nedza</td>
-    <td>pae,tmu,klo,bie</td>
+    <td>pae, tmu, klo, bie</td>
     <td>X1 is in contact with neighbor X2*</td>
     <td>Geometrically.  -pwo -kuo for X1 can talk to X2 (in touch).</td>
   </tr>
@@ -8186,7 +8186,7 @@
     <td>r</td>
     <td></td>
     <td>1.4.3</td>
-    <td>neighbor,near</td>
+    <td>neighbor, near</td>
     <td>nir</td>
     <td>!jin</td>
     <td>vykyn.us</td>
@@ -8205,7 +8205,7 @@
     <td>-x/jien</td>
     <td>ynter</td>
     <td>bitsa</td>
-    <td>vdr,juw</td>
+    <td>vdr, juw</td>
     <td>X1 is between X2: and X3:</td>
     <td>No case merge.  Use -juw or -vdr for among.</td>
   </tr>
@@ -8242,7 +8242,7 @@
     <td>r</td>
     <td>12</td>
     <td>1.4.4</td>
-    <td>outside,out</td>
+    <td>outside, out</td>
     <td>autsaid</td>
     <td>!uai!mian</td>
     <td>ekster</td>
@@ -8256,12 +8256,12 @@
     <td>r</td>
     <td>8</td>
     <td>1.4.4, 1.1.3</td>
-    <td>inside,interior,in</td>
+    <td>inside, interior, in</td>
     <td>ynsaid</td>
     <td>|li!mian</td>
     <td>yntra</td>
     <td>nenri</td>
-    <td>tai,bor</td>
+    <td>tai, bor</td>
     <td>X1 is inside of X2:*</td>
     <td>-xu -xyn for the interior of a boundary.</td>
   </tr>
@@ -8270,12 +8270,12 @@
     <td>r</td>
     <td>13</td>
     <td>1.4.4, 1.3.6, 1.5.1</td>
-    <td>present,now,time</td>
+    <td>present, now, time</td>
     <td>nou</td>
     <td>!mi/cian</td>
     <td>nunk</td>
     <td>nadzo</td>
-    <td>jir,bir,jro</td>
+    <td>jir, bir, jro</td>
     <td>(vo) X1@! occurs at the same time as, at time (vo-jn) X2+M4</td>
     <td>Present tense.  </td>
   </tr>
@@ -8284,12 +8284,12 @@
     <td>r</td>
     <td>23</td>
     <td>1.4.4, 1.5.1</td>
-    <td>past,early,before</td>
+    <td>past, early, before</td>
     <td>bifor</td>
     <td>!guo!ciu!qr</td>
     <td>pri.us</td>
     <td>pasko</td>
-    <td>jro,cnu,xda</td>
+    <td>jro, cnu, xda</td>
     <td>(vo) X1@! is before time (vo-jn) X2+M4</td>
     <td>Past tense.  </td>
   </tr>
@@ -8298,12 +8298,12 @@
     <td>r</td>
     <td>21</td>
     <td>1.4.4, 1.5.1</td>
-    <td>future,after,late,then</td>
+    <td>future, after, late, then</td>
     <td>aftr</td>
     <td>-jr!hou</td>
     <td>post</td>
     <td>futci</td>
-    <td>bir,cnu</td>
+    <td>bir, cnu</td>
     <td>(vo) X1@! is later than time (vo-jn) X2+M4</td>
     <td>Future tense.  </td>
   </tr>
@@ -8312,7 +8312,7 @@
     <td>r</td>
     <td></td>
     <td>1.4.4, 1.5.4</td>
-    <td>reverse,backwards</td>
+    <td>reverse, backwards</td>
     <td>bakuardz</td>
     <td>|fan|juan</td>
     <td>retro</td>
@@ -8326,7 +8326,7 @@
     <td>r</td>
     <td></td>
     <td>1.4.4, 2.2.7</td>
-    <td>direction,vector</td>
+    <td>direction, vector</td>
     <td>dyrekqn</td>
     <td>-faw!siaw</td>
     <td>kurs.us</td>
@@ -8410,12 +8410,12 @@
     <td>r</td>
     <td></td>
     <td>1.5.4</td>
-    <td>reverse,backwards</td>
+    <td>reverse, backwards</td>
     <td>rivrs</td>
     <td>|fan|juan</td>
     <td>ynvert.ere</td>
     <td></td>
-    <td>vri,fay</td>
+    <td>vri, fay</td>
     <td>Process (vo) X1 occurs in the reverse of its usual order</td>
     <td></td>
   </tr>
@@ -8541,7 +8541,7 @@
     <td>!bi-su</td>
     <td>eg.are</td>
     <td>cnida</td>
-    <td>daw,sar,sno</td>
+    <td>daw, sar, sno</td>
     <td>X1 needs to do (vo) X2:+1 so it will have result (vo) X3+1@</td>
     <td>Example: !X1 /bni -byw -kqua = X1 needs to drink water, not needs water.</td>
   </tr>
@@ -8550,12 +8550,12 @@
     <td>r</td>
     <td>25</td>
     <td>2.1.1</td>
-    <td>change,become</td>
+    <td>change, become</td>
     <td>canj</td>
     <td>!bian!hua</td>
     <td>mut.ary</td>
     <td>cenja</td>
-    <td>tar,siw</td>
+    <td>tar, siw</td>
     <td>X1 changes so property (vo) X2+1 becomes true</td>
     <td>Most of the time use -can, but use -tar to emphasize starting.</td>
   </tr>
@@ -8564,12 +8564,12 @@
     <td>r</td>
     <td></td>
     <td>2.1.1</td>
-    <td>order,command</td>
+    <td>order, command</td>
     <td>ordr</td>
     <td>!miw!liw</td>
     <td>yus.um</td>
     <td>korji</td>
-    <td>pli,kmi,zno</td>
+    <td>pli, kmi, zno</td>
     <td>X1 is ordered to do (vo) X2+1 by commander X3</td>
     <td></td>
   </tr>
@@ -8578,12 +8578,12 @@
     <td>r</td>
     <td></td>
     <td>2.1.1</td>
-    <td>custom,habit</td>
+    <td>custom, habit</td>
     <td>kustm</td>
     <td>-few/su</td>
     <td>us.us</td>
     <td>kusmo</td>
-    <td>tue,tiu</td>
+    <td>tue, tiu</td>
     <td>X1 habitually or customarily does (vo) X2:+1</td>
     <td>Use -tue for customs of a culture.</td>
   </tr>
@@ -8592,12 +8592,12 @@
     <td>r</td>
     <td></td>
     <td>2.1.1</td>
-    <td>temporary,transient</td>
+    <td>temporary, transient</td>
     <td>temporari</td>
     <td>!jan/qr</td>
     <td></td>
     <td>zasni*</td>
-    <td>tiu,zai</td>
+    <td>tiu, zai</td>
     <td>X1 temporarily is or does (vo) X2:+1</td>
     <td></td>
   </tr>
@@ -8611,7 +8611,7 @@
     <td>/new-gou</td>
     <td>pose</td>
     <td>kanmo</td>
-    <td>juy,spo</td>
+    <td>juy, spo</td>
     <td>X1 is capable of doing (vo) X2:+1</td>
     <td></td>
   </tr>
@@ -8634,12 +8634,12 @@
     <td>r</td>
     <td>45</td>
     <td>2.1.1</td>
-    <td>make,transitive</td>
+    <td>make, transitive</td>
     <td>maik</td>
     <td>|qr</td>
     <td>fak.ere</td>
     <td>madzo</td>
-    <td>kau,dma</td>
+    <td>kau, dma</td>
     <td>Actor X1 makes (vo) X2:+ happen</td>
     <td>Makes transitive meanings.  No case merge.  Not for building things.</td>
   </tr>
@@ -8653,7 +8653,7 @@
     <td>-kai|qr</td>
     <td>ynkyp.ere</td>
     <td></td>
-    <td>tiw,can</td>
+    <td>tiw, can</td>
     <td>X1 starts being or doing (vo) X2:+1</td>
     <td>To emphasize the starting; use -can for most changes.</td>
   </tr>
@@ -8681,7 +8681,7 @@
     <td>!ji!siu</td>
     <td>kontinu.#s</td>
     <td>stolo</td>
-    <td>por,fwu,zai</td>
+    <td>por, fwu, zai</td>
     <td>X1 continuously is or does (vo) X2:+1</td>
     <td></td>
   </tr>
@@ -8695,7 +8695,7 @@
     <td>/tiw</td>
     <td>desyn.ere</td>
     <td>stise</td>
-    <td>tar,can,siw</td>
+    <td>tar, can, siw</td>
     <td>X1 stops being or doing (vo) X2:+1</td>
     <td>To emphasize the stopping; use -can or -siw for most changes.</td>
   </tr>
@@ -8709,7 +8709,7 @@
     <td>!dzai-san</td>
     <td>yter.are</td>
     <td>genza*</td>
-    <td>tiu,por,xer</td>
+    <td>tiu, por, xer</td>
     <td>X1 repeatedly is or does (vo) X2:+1</td>
     <td>Separated by times when it doesn't do it.</td>
   </tr>
@@ -8718,7 +8718,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.1, 1.1.8</td>
-    <td>increase,decrease</td>
+    <td>increase, decrease</td>
     <td>ynkris</td>
     <td>-jia!da</td>
     <td>kresk.yre</td>
@@ -8732,12 +8732,12 @@
     <td>r</td>
     <td></td>
     <td>2.1.1, 1.5.4</td>
-    <td>stop,cease</td>
+    <td>stop, cease</td>
     <td>sis</td>
     <td>/tiw|jr</td>
     <td>desyn.ere</td>
     <td></td>
-    <td>tiw,can</td>
+    <td>tiw, can</td>
     <td>X1 ceases to be (vo) X2:+1</td>
     <td>Normal form for a negated change.  Use -tiw to emphasize the stopping.</td>
   </tr>
@@ -8830,7 +8830,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.2</td>
-    <td>attempt,try</td>
+    <td>attempt, try</td>
     <td>atempt</td>
     <td>!qr</td>
     <td>kon.ary</td>
@@ -8858,7 +8858,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.2</td>
-    <td>respond,stimulus</td>
+    <td>respond, stimulus</td>
     <td>rispand</td>
     <td>|siaw!iw</td>
     <td></td>
@@ -8872,7 +8872,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.2, 1.5.1</td>
-    <td>use,means,end,by~means~of</td>
+    <td>use, means, end, by~means~of</td>
     <td>iuz</td>
     <td>!iuw</td>
     <td>uty</td>
@@ -8886,7 +8886,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.2, 1.5.4</td>
-    <td>avoid,evade,shun,refrain,doesnt,dont</td>
+    <td>avoid, evade, shun, refrain, doesnt, dont</td>
     <td>avoid</td>
     <td>!bi|mian</td>
     <td>vyt.are</td>
@@ -8942,7 +8942,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.3</td>
-    <td>peril,safe</td>
+    <td>peril, safe</td>
     <td>saif</td>
     <td>-an/cuan</td>
     <td>tut.us</td>
@@ -8956,7 +8956,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.3</td>
-    <td>danger,peril</td>
+    <td>danger, peril</td>
     <td>danjr</td>
     <td>/uei|sian</td>
     <td>perykul.um</td>
@@ -8984,7 +8984,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.3</td>
-    <td>survive,endure</td>
+    <td>survive, endure</td>
     <td>srvaiv</td>
     <td>-qew/tsu#n</td>
     <td>superese</td>
@@ -8998,7 +8998,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.3</td>
-    <td>tragedy,disaster</td>
+    <td>tragedy, disaster</td>
     <td>trajedi</td>
     <td>/tsan!qr</td>
     <td>klad.es</td>
@@ -9012,7 +9012,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.3</td>
-    <td>luck,fortunate</td>
+    <td>luck, fortunate</td>
     <td>l#k</td>
     <td>-qyw!iun</td>
     <td>fortuna</td>
@@ -9040,7 +9040,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.3</td>
-    <td>doom,destiny,fate</td>
+    <td>doom, destiny, fate</td>
     <td>dum</td>
     <td>!miw!iun</td>
     <td>sors</td>
@@ -9068,7 +9068,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.4</td>
-    <td>desire,want</td>
+    <td>desire, want</td>
     <td>disair</td>
     <td>!u!uaw</td>
     <td>apet.ere</td>
@@ -9115,7 +9115,7 @@
     <td>|new!gan</td>
     <td>posse</td>
     <td>spuro</td>
-    <td>toa,smi</td>
+    <td>toa, smi</td>
     <td>X1 is competent in doing (vo) X2:+1</td>
     <td></td>
   </tr>
@@ -9124,7 +9124,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.4</td>
-    <td>responsible,authority</td>
+    <td>responsible, authority</td>
     <td>responsybl</td>
     <td>!fu/dz</td>
     <td>praest.are</td>
@@ -9157,7 +9157,7 @@
     <td>/cuan!li</td>
     <td>auktor</td>
     <td>tcori</td>
-    <td>per,poy,pew</td>
+    <td>per, poy, pew</td>
     <td>X1 is an authority in/on/over (vo) X2:+1</td>
     <td>Use -per for power, -pew for skill.  Authority implies power to act or compel.</td>
   </tr>
@@ -9180,12 +9180,12 @@
     <td>r</td>
     <td></td>
     <td>2.1.5</td>
-    <td>broken,inoperable</td>
+    <td>broken, inoperable</td>
     <td>brokn</td>
     <td>!huai-le</td>
     <td></td>
     <td>spofu*</td>
-    <td>sao,brn</td>
+    <td>sao, brn</td>
     <td>X1 doesn't do (vo) X2:+1 because it is broken</td>
     <td>Use causal connective to say what it does do.  -brn for broken in pieces.</td>
   </tr>
@@ -9194,7 +9194,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.5</td>
-    <td>clown,levity</td>
+    <td>clown, levity</td>
     <td>kloun</td>
     <td>|siau|cou</td>
     <td>rustyk.us</td>
@@ -9222,7 +9222,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.5</td>
-    <td>behave,conduct</td>
+    <td>behave, conduct</td>
     <td>kondukt</td>
     <td>|pin!qyw</td>
     <td>ger.ere</td>
@@ -9236,12 +9236,12 @@
     <td>r</td>
     <td></td>
     <td>2.1.5</td>
-    <td>obey,follow</td>
+    <td>obey, follow</td>
     <td>obei</td>
     <td>-dzun|qou</td>
     <td>par.ere</td>
     <td>tinbe*</td>
-    <td>dwl,gul,kmi</td>
+    <td>dwl, gul, kmi</td>
     <td>X1 does (vo) X2:+1 in obedience to the order or rule (vo) X3+1@ given by authority X4</td>
     <td></td>
   </tr>
@@ -9250,12 +9250,12 @@
     <td>r</td>
     <td></td>
     <td>2.1.5</td>
-    <td>automatic,initiative</td>
+    <td>automatic, initiative</td>
     <td>atomatyk</td>
     <td>!dz!dong</td>
     <td></td>
     <td>tomki</td>
-    <td>sao,gma</td>
+    <td>sao, gma</td>
     <td>X1 performs (vo) X2:+1 automatically</td>
     <td>Without the intervention of another controller or actor.  Usually a machine but can be a person.</td>
   </tr>
@@ -9264,7 +9264,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.5, 1.2.3</td>
-    <td>audacity,chutzpah</td>
+    <td>audacity, chutzpah</td>
     <td>audasyti</td>
     <td>!da|dan/u|c#</td>
     <td>audaks</td>
@@ -9292,7 +9292,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.5, 2.1.7</td>
-    <td>play,game</td>
+    <td>play, game</td>
     <td>plai</td>
     <td>/uan</td>
     <td>lud.ere</td>
@@ -9306,12 +9306,12 @@
     <td>r</td>
     <td></td>
     <td>2.1.5, 2.5.2</td>
-    <td>amuse,fun,enjoy</td>
+    <td>amuse, fun, enjoy</td>
     <td>amiuz</td>
     <td>-qyau|cien</td>
     <td>delect.are</td>
     <td>cmiza</td>
-    <td>vyu,kqn</td>
+    <td>vyu, kqn</td>
     <td>X1 has fun, is amused by doing (vo) X2:+1</td>
     <td>If amused by an object, X2 is a phrase about what it is/does.</td>
   </tr>
@@ -9320,7 +9320,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.5, 4.7.2</td>
-    <td>job,work</td>
+    <td>job, work</td>
     <td>jab</td>
     <td>-guw!dzuo</td>
     <td>op.us</td>
@@ -9348,7 +9348,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.6</td>
-    <td>obstacle,obstruct</td>
+    <td>obstacle, obstruct</td>
     <td>obstakl</td>
     <td>!jan!gai</td>
     <td>obeks</td>
@@ -9376,12 +9376,12 @@
     <td>r</td>
     <td></td>
     <td>2.1.6</td>
-    <td>interfere,hinder</td>
+    <td>interfere, hinder</td>
     <td>hyndr</td>
     <td>|dzu|jr</td>
     <td>ymped.yre</td>
     <td>minzu*</td>
-    <td>sir,beo</td>
+    <td>sir, beo</td>
     <td>X1 hinders X2: from doing (vo) X3:+2</td>
     <td>Not necessarily prevents it.  X1 acts actively.</td>
   </tr>
@@ -9432,7 +9432,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.6</td>
-    <td>interrupt,disturb</td>
+    <td>interrupt, disturb</td>
     <td>ynter#pt</td>
     <td>-juw!duan</td>
     <td>ynterf.ary</td>
@@ -9451,7 +9451,7 @@
     <td>!miw!liw</td>
     <td>yub.ere</td>
     <td>korji</td>
-    <td>gul,dwl,zno,pli</td>
+    <td>gul, dwl, zno, pli</td>
     <td>X1 commands X2: to do (vo) X3:+2</td>
     <td></td>
   </tr>
@@ -9465,7 +9465,7 @@
     <td>!sian!jr</td>
     <td>koerk.ere</td>
     <td>litnu</td>
-    <td>biy,drm</td>
+    <td>biy, drm</td>
     <td>X1 restrains X2: from doing (vo) X3:+2</td>
     <td>X1 is active and does prevent X3.</td>
   </tr>
@@ -9488,12 +9488,12 @@
     <td>r</td>
     <td></td>
     <td>2.1.6, 4.7.1</td>
-    <td>demand,right</td>
+    <td>demand, right</td>
     <td>dimand</td>
     <td>-iau/ciou</td>
     <td>poskere</td>
     <td></td>
-    <td>gul,dmo,fai</td>
+    <td>gul, dmo, fai</td>
     <td>X1 demands that X2: do (vo) X3:+2</td>
     <td>Often X1 is the 2nd case of X3, but no automatic merge for this.  X3 should be X2 of -gul (rule).  X3 is X1's right.</td>
   </tr>
@@ -9516,7 +9516,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.7</td>
-    <td>compete,prize</td>
+    <td>compete, prize</td>
     <td>kompit</td>
     <td>|bi!sai</td>
     <td>kert.are</td>
@@ -9530,7 +9530,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.7</td>
-    <td>soccer,football</td>
+    <td>soccer, football</td>
     <td>sakr</td>
     <td>/dzu/co</td>
     <td></td>
@@ -9586,7 +9586,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.7</td>
-    <td>court,flirt</td>
+    <td>court, flirt</td>
     <td>flrt</td>
     <td>!mai!now-fow/cyw</td>
     <td>subland.yry</td>
@@ -9642,7 +9642,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.7</td>
-    <td>together,all</td>
+    <td>together, all</td>
     <td>tugetr</td>
     <td>!iy/tuw</td>
     <td>kunkt.us</td>
@@ -9656,7 +9656,7 @@
     <td>r</td>
     <td></td>
     <td>2.1.7</td>
-    <td>win,prize,lose,compete</td>
+    <td>win, prize, lose, compete</td>
     <td>uyn</td>
     <td>/iyw</td>
     <td>vynk.ere</td>
@@ -9689,7 +9689,7 @@
     <td>-jiau-tuw</td>
     <td></td>
     <td>socli</td>
-    <td>qcy,jiy</td>
+    <td>qcy, jiy</td>
     <td>X1 interacts with X2: in affair (vo) X3+</td>
     <td>X1 and X2 are typically people.</td>
   </tr>
@@ -9815,7 +9815,7 @@
     <td>/siw!duw</td>
     <td>mov.ery</td>
     <td>muvdo</td>
-    <td>cyr,qkm</td>
+    <td>cyr, qkm</td>
     <td>X1 moves to X2: from X3: via X4:</td>
     <td>Emphasizes the process of moving rather than the location change or the manner of movement.  Use -qkm for ``it moves its legs''.</td>
   </tr>
@@ -9908,7 +9908,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.1, 2.2.2</td>
-    <td>run,gallop</td>
+    <td>run, gallop</td>
     <td>r#n</td>
     <td>|pau</td>
     <td>kur.ere</td>
@@ -9922,7 +9922,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.1, 2.2.2</td>
-    <td>trot,jog</td>
+    <td>trot, jog</td>
     <td>trat</td>
     <td>/qiau|pau</td>
     <td>grad.us</td>
@@ -9978,7 +9978,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.2</td>
-    <td>dive,swoop</td>
+    <td>dive, swoop</td>
     <td>dayv</td>
     <td>!tu/ran!sia/jue</td>
     <td>uryn.ary</td>
@@ -10048,7 +10048,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.2</td>
-    <td>soak,absorb</td>
+    <td>soak, absorb</td>
     <td>sok</td>
     <td>!jin</td>
     <td>byb.ere</td>
@@ -10062,12 +10062,12 @@
     <td>r</td>
     <td>10</td>
     <td>2.2.2</td>
-    <td>turn,axis,angle,rotate</td>
+    <td>turn, axis, angle, rotate</td>
     <td>turn</td>
     <td>|juan</td>
     <td>konvers.yo</td>
     <td>trana</td>
-    <td>xye,sye</td>
+    <td>xye, sye</td>
     <td>X1 turns to angle X2 from X3: around axis X4</td>
     <td>Alternatively, |syo for axis.  See -xye, -sye for rotation directions.</td>
   </tr>
@@ -10076,7 +10076,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.2</td>
-    <td>collide,crash</td>
+    <td>collide, crash</td>
     <td>kolid</td>
     <td>-siaw!juaw</td>
     <td>konflyg.ere</td>
@@ -10090,7 +10090,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.2</td>
-    <td>drain,empty</td>
+    <td>drain, empty</td>
     <td>drain</td>
     <td>/pai|quei</td>
     <td>syk.are</td>
@@ -10118,7 +10118,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.2</td>
-    <td>slide,slip</td>
+    <td>slide, slip</td>
     <td>slaid</td>
     <td>/hua</td>
     <td>laby</td>
@@ -10160,7 +10160,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.3</td>
-    <td>excrete,throw~away,dump</td>
+    <td>excrete, throw~away, dump</td>
     <td>ekskrit</td>
     <td>-diou!diau</td>
     <td>abyk.ere</td>
@@ -10188,7 +10188,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.3</td>
-    <td>drive,ride,vehicle</td>
+    <td>drive, ride, vehicle</td>
     <td>draiv</td>
     <td>!jia|qr</td>
     <td>vehy</td>
@@ -10244,7 +10244,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.3</td>
-    <td>send,messenger</td>
+    <td>send, messenger</td>
     <td>send</td>
     <td>!suw</td>
     <td>myt.ere</td>
@@ -10258,7 +10258,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.3</td>
-    <td>suck,suction,vacuum</td>
+    <td>suck, suction, vacuum</td>
     <td>s#k</td>
     <td>-si</td>
     <td>sug.ere</td>
@@ -10272,7 +10272,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.3</td>
-    <td>set,place,put</td>
+    <td>set, place, put</td>
     <td>p#t</td>
     <td>!faw</td>
     <td>statu.ere</td>
@@ -10286,7 +10286,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.3</td>
-    <td>lift,lower</td>
+    <td>lift, lower</td>
     <td>lyft</td>
     <td>|jiu</td>
     <td>tol.ere</td>
@@ -10300,7 +10300,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.3</td>
-    <td>pull,drag</td>
+    <td>pull, drag</td>
     <td>p#l</td>
     <td>-la</td>
     <td>trah.ere</td>
@@ -10314,7 +10314,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.3, 2.3.2</td>
-    <td>mail,post</td>
+    <td>mail, post</td>
     <td>mail</td>
     <td>/iou!ji</td>
     <td>lyterae</td>
@@ -10361,7 +10361,7 @@
     <td>/de</td>
     <td>kap.ere</td>
     <td>getsi</td>
-    <td>gey,kio</td>
+    <td>gey, kio</td>
     <td>X1 gets X2:* from custodian X3</td>
     <td>X3 can be a non-active reserve.  X1 comes to possess X2 (-kio).  Not for begetting.</td>
   </tr>
@@ -10375,7 +10375,7 @@
     <td>|gei</td>
     <td>d.are</td>
     <td>donsu</td>
-    <td>kio,gew</td>
+    <td>kio, gew</td>
     <td>X1 gives gift X2* to recipient X3</td>
     <td></td>
   </tr>
@@ -10384,7 +10384,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.4</td>
-    <td>seek,search,look</td>
+    <td>seek, search, look</td>
     <td>src</td>
     <td>/siun|jau</td>
     <td>kuaer.ere</td>
@@ -10398,7 +10398,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.4</td>
-    <td>pursue,quarry,hunt</td>
+    <td>pursue, quarry, hunt</td>
     <td>h#nt</td>
     <td>/siun!jau</td>
     <td>ven.ary</td>
@@ -10412,7 +10412,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.4</td>
-    <td>harvest,reap</td>
+    <td>harvest, reap</td>
     <td>harvest</td>
     <td>-qou-ge</td>
     <td>met.ere</td>
@@ -10426,7 +10426,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.4</td>
-    <td>sow,plant</td>
+    <td>sow, plant</td>
     <td>plant</td>
     <td>|sa|juw</td>
     <td>ser.ere</td>
@@ -10468,7 +10468,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.5</td>
-    <td>load,deflect,bend</td>
+    <td>load, deflect, bend</td>
     <td>diflekt</td>
     <td>-uan-ciu</td>
     <td>deflekt.ere</td>
@@ -10482,12 +10482,12 @@
     <td>r</td>
     <td></td>
     <td>2.2.5</td>
-    <td>lay,lie,recline</td>
+    <td>lay, lie, recline</td>
     <td>lai</td>
     <td>!faw!sia</td>
     <td>pon.ere</td>
     <td>vreta*</td>
-    <td>sio,duo,jan</td>
+    <td>sio, duo, jan</td>
     <td>X1 lays on or in bed X2</td>
     <td>Includes inanimate X1, horizontally oriented.  Use -can -fwi for lays down.</td>
   </tr>
@@ -10510,7 +10510,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.5</td>
-    <td>rest,repose</td>
+    <td>rest, repose</td>
     <td>rest</td>
     <td>-siou-si</td>
     <td>pon.ere</td>
@@ -10543,7 +10543,7 @@
     <td>-la/caw</td>
     <td>tend.ere</td>
     <td>tetcu</td>
-    <td>pue,gzy</td>
+    <td>pue, gzy</td>
     <td>X1 stretches to destination X2 from origin X3 via route X4</td>
     <td>Static, not moving over.</td>
   </tr>
@@ -10552,12 +10552,12 @@
     <td>r</td>
     <td>16</td>
     <td>2.2.5</td>
-    <td>stick,adhere</td>
+    <td>stick, adhere</td>
     <td>styk</td>
     <td>-tie</td>
     <td>fyg.ere</td>
     <td>gomni</td>
-    <td>glue,fen</td>
+    <td>glue, fen</td>
     <td>X1 sticks, adheres to substrate X2 by means of glue (xo) X3*</td>
     <td>Insects and seeds also use spines and hooks for X3.</td>
   </tr>
@@ -10566,7 +10566,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.5</td>
-    <td>load,twist</td>
+    <td>load, twist</td>
     <td>tuyst</td>
     <td>|niou</td>
     <td>torku.ere</td>
@@ -10636,7 +10636,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.6, 1.5.5</td>
-    <td>exchange,trade,back</td>
+    <td>exchange, trade, back</td>
     <td>ekscainj</td>
     <td>!diau!huan</td>
     <td>permut.are</td>
@@ -10664,7 +10664,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.7</td>
-    <td>road,street</td>
+    <td>road, street</td>
     <td>rod</td>
     <td>!lu</td>
     <td>vya</td>
@@ -10678,7 +10678,7 @@
     <td>r</td>
     <td></td>
     <td>2.2.7</td>
-    <td>canal,river</td>
+    <td>canal, river</td>
     <td>kanal</td>
     <td>!iun/he</td>
     <td>fosa</td>
@@ -10734,7 +10734,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.1</td>
-    <td>show,exhibit,display</td>
+    <td>show, exhibit, display</td>
     <td>qo</td>
     <td>|gei!kan</td>
     <td>ekshybyt</td>
@@ -10748,7 +10748,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.1</td>
-    <td>greet,hail,hello,goodbye</td>
+    <td>greet, hail, hello, goodbye</td>
     <td>grit</td>
     <td>!uen!hou</td>
     <td>salut.are</td>
@@ -10790,12 +10790,12 @@
     <td>r</td>
     <td></td>
     <td>2.3.1</td>
-    <td>respond,answer</td>
+    <td>respond, answer</td>
     <td>ansr</td>
     <td>/huei/da</td>
     <td>respond.ere</td>
     <td>dapli</td>
-    <td>xue,pon</td>
+    <td>xue, pon</td>
     <td>(ji) X1M2 gives answer (bi) X2+ to question (bi) X3@ speaking to (ju) X4:M2</td>
     <td></td>
   </tr>
@@ -10804,12 +10804,12 @@
     <td>r</td>
     <td></td>
     <td>2.3.1</td>
-    <td>ask,question</td>
+    <td>ask, question</td>
     <td>ask</td>
     <td>!uen</td>
     <td>rog.are</td>
     <td>kenti</td>
-    <td>srn,pon,stm</td>
+    <td>srn, pon, stm</td>
     <td>(ji) X1M2 asks question (bi) X2+ of (ju) X3:M3</td>
     <td></td>
   </tr>
@@ -10823,7 +10823,7 @@
     <td>|jiaw</td>
     <td>dyk.ere</td>
     <td>cutse</td>
-    <td>qnu,sai</td>
+    <td>qnu, sai</td>
     <td>(ji) X1M2 says (bi) X2:+ to (ju) X3:M3</td>
     <td>Modal case for speaker, and listener in dialog.</td>
   </tr>
@@ -10837,7 +10837,7 @@
     <td>!jiau</td>
     <td>klamor</td>
     <td>kraku</td>
-    <td>faw,kli</td>
+    <td>faw, kli</td>
     <td>(ji) X1M2 cries (bi) X2:+ to listener (ju) X3M3</td>
     <td>Emotional upset, often but not necessarily loud.  Use -jai |kqe for shout.</td>
   </tr>
@@ -10860,7 +10860,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.1, 4.4.6</td>
-    <td>say,utter,language</td>
+    <td>say, utter, language</td>
     <td>utr</td>
     <td>-quo</td>
     <td>ef.ary</td>
@@ -10888,7 +10888,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.2</td>
-    <td>song,sing</td>
+    <td>song, sing</td>
     <td>syw</td>
     <td>!caw</td>
     <td>kan.ere</td>
@@ -10935,7 +10935,7 @@
     <td>!in</td>
     <td>ymprym.ere</td>
     <td>prina*</td>
-    <td>fpr,kry</td>
+    <td>fpr, kry</td>
     <td>X1 prints message (bi) X2+ on media X3</td>
     <td>Using a machine rather than handwriting.</td>
   </tr>
@@ -10944,7 +10944,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.2</td>
-    <td>music,whistle</td>
+    <td>music, whistle</td>
     <td>huysl</td>
     <td>-cuei|kou!qau</td>
     <td>sybyl.are</td>
@@ -11000,7 +11000,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.3</td>
-    <td>request,ask</td>
+    <td>request, ask</td>
     <td>rikuest</td>
     <td>|ciw/ciou</td>
     <td>prek.ary</td>
@@ -11084,7 +11084,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.3</td>
-    <td>say,assert</td>
+    <td>say, assert</td>
     <td>sai</td>
     <td>-quo</td>
     <td>adfirm.are</td>
@@ -11126,7 +11126,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.3</td>
-    <td>request,ask</td>
+    <td>request, ask</td>
     <td>rikuest</td>
     <td>|ciw/ciou</td>
     <td>prek.ary</td>
@@ -11168,7 +11168,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.3, 2.4.6</td>
-    <td>curse,damn</td>
+    <td>curse, damn</td>
     <td>kurs</td>
     <td>!jou|dzu</td>
     <td>eksekr.ary</td>
@@ -11196,7 +11196,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.4</td>
-    <td>ridicule,mock,scoff</td>
+    <td>ridicule, mock, scoff</td>
     <td>skaf</td>
     <td>/cau!siau</td>
     <td>deryd.ere</td>
@@ -11271,7 +11271,7 @@
     <td>|ciw</td>
     <td>sis</td>
     <td>pluci</td>
-    <td>dwl,kmi,gny</td>
+    <td>dwl, kmi, gny</td>
     <td>(ji) X1 feels pleased that X2: does (vo) X3:+2</td>
     <td>For English decoration "please" on imperatives.</td>
   </tr>
@@ -11322,7 +11322,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.5</td>
-    <td>remember,remind</td>
+    <td>remember, remind</td>
     <td>rimembr</td>
     <td>!ji-de</td>
     <td>memynyse</td>
@@ -11355,7 +11355,7 @@
     <td>-tuei!lun</td>
     <td>konklud.ere</td>
     <td>nusna*</td>
-    <td>zny,dil</td>
+    <td>zny, dil</td>
     <td>X1 infers that X2: is (vo) X3:+2 from fact (vo) X4+2@</td>
     <td>Compared to the logic (-sny, q.v.) of a deduction, inferential reasoning is based more on experience and probability.</td>
   </tr>
@@ -11411,7 +11411,7 @@
     <td>|siaw</td>
     <td>kogyt.are</td>
     <td>penso</td>
-    <td>koy,cre</td>
+    <td>koy, cre</td>
     <td>X1 thinks about affair (vo) X2+</td>
     <td></td>
   </tr>
@@ -11574,7 +11574,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.6</td>
-    <td>guess,conjecture</td>
+    <td>guess, conjecture</td>
     <td>ges</td>
     <td>-tsai</td>
     <td>konyk.ere</td>
@@ -11588,12 +11588,12 @@
     <td>r</td>
     <td></td>
     <td>2.3.6, 2.5.1, 1.5.2</td>
-    <td>opinion,subjective,feel</td>
+    <td>opinion, subjective, feel</td>
     <td>fil</td>
     <td>/gan|ciw</td>
     <td>kap.ere</td>
     <td>filmo</td>
-    <td>gae,sen,pyn</td>
+    <td>gae, sen, pyn</td>
     <td>X1 feels that subjective opinion (vo) X2+ is true</td>
     <td>Modal case for the holder of a subjective opinion.</td>
   </tr>
@@ -11616,12 +11616,12 @@
     <td>r</td>
     <td></td>
     <td>2.3.7, 1.5.2</td>
-    <td>spectator,audience</td>
+    <td>spectator, audience</td>
     <td>audiens</td>
     <td>-guan!dzow</td>
     <td>audyent.es</td>
     <td></td>
-    <td>qou,knl</td>
+    <td>qou, knl</td>
     <td>X1M3 is a spectator or member of the audience at event (vo) X2+3 performer X3M2</td>
     <td></td>
   </tr>
@@ -11644,7 +11644,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.7</td>
-    <td>aware,conscious</td>
+    <td>aware, conscious</td>
     <td>auar</td>
     <td>/jue!u</td>
     <td>sk.ire</td>
@@ -11658,7 +11658,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.7</td>
-    <td>read,book</td>
+    <td>read, book</td>
     <td>rid</td>
     <td>!kan</td>
     <td>leg.ere</td>
@@ -11677,7 +11677,7 @@
     <td>!kan</td>
     <td></td>
     <td>bleka</td>
-    <td>qnu,kur,den,qou</td>
+    <td>qnu, kur, den, qou</td>
     <td>X1 looks at object X2</td>
     <td>By eyeball.  Use -qnu, -kur, -den for various kinds of paying attention.</td>
   </tr>
@@ -11691,7 +11691,7 @@
     <td>/lio/qin</td>
     <td>kur.are</td>
     <td>tedji</td>
-    <td>qnu,knl</td>
+    <td>qnu, knl</td>
     <td>X1 pays attention to event (vo) X2+</td>
     <td>Use -qnu for data attended to.</td>
   </tr>
@@ -11719,7 +11719,7 @@
     <td>-kan|qou</td>
     <td>tu.ery</td>
     <td>katca</td>
-    <td>den,knl</td>
+    <td>den, knl</td>
     <td>X1 watches actor X2 do event (vo) X3+2</td>
     <td></td>
   </tr>
@@ -11728,12 +11728,12 @@
     <td>r</td>
     <td></td>
     <td>2.3.7</td>
-    <td>hear,sound,background</td>
+    <td>hear, sound, background</td>
     <td>hiar</td>
     <td>-tiw</td>
     <td>aud.ire</td>
     <td>hirti</td>
-    <td>sau,fsn</td>
+    <td>sau, fsn</td>
     <td>X1 hears sound (vo) X2+ against background (vo) X3@</td>
     <td></td>
   </tr>
@@ -11742,7 +11742,7 @@
     <td>r</td>
     <td></td>
     <td>2.3.7</td>
-    <td>see,background</td>
+    <td>see, background</td>
     <td>si</td>
     <td>!kan</td>
     <td>vyd.ere</td>
@@ -11761,7 +11761,7 @@
     <td>!ju!i</td>
     <td>kur.are</td>
     <td></td>
-    <td>kur,knl,glu,jai</td>
+    <td>kur, knl, glu, jai</td>
     <td>X1M3 attends to information (bi) X2+ from source or speaker X3M2</td>
     <td>Modal case for listener.  -qnu is said by speaker; in dialog the narrator uses |jai !sa X instead.</td>
   </tr>
@@ -11770,12 +11770,12 @@
     <td>r</td>
     <td></td>
     <td>2.3.7, 1.5.2</td>
-    <td>experience,sense,stimulus</td>
+    <td>experience, sense, stimulus</td>
     <td>sens</td>
     <td>|gan/jue</td>
     <td>sens.us</td>
     <td>speni</td>
-    <td>gae,ciw</td>
+    <td>gae, ciw</td>
     <td>X1 senses stimulus (vo) X2+</td>
     <td>Modal case for experiencer of more-or-less objective sensations.  X2 includes mental states like -psw (ordinary).</td>
   </tr>
@@ -11854,7 +11854,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.1</td>
-    <td>hunger,thirst</td>
+    <td>hunger, thirst</td>
     <td>hungr</td>
     <td>!jie</td>
     <td>avyd.us</td>
@@ -11915,7 +11915,7 @@
     <td>!puo|suen</td>
     <td>ter.ere</td>
     <td></td>
-    <td>ksi,xda</td>
+    <td>ksi, xda</td>
     <td>X1 wears out by itself</td>
     <td></td>
   </tr>
@@ -11966,7 +11966,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.1, 2.3.4</td>
-    <td>weep,cry,tear</td>
+    <td>weep, cry, tear</td>
     <td>uip</td>
     <td>/liou!lei</td>
     <td>lakrym.are</td>
@@ -12050,7 +12050,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.2</td>
-    <td>organize,system</td>
+    <td>organize, system</td>
     <td>org#naiz</td>
     <td>|dzu/jr</td>
     <td>ordyn.are</td>
@@ -12064,12 +12064,12 @@
     <td>r</td>
     <td></td>
     <td>2.4.2</td>
-    <td>make,material</td>
+    <td>make, material</td>
     <td>maik</td>
     <td>!dzuo</td>
     <td>fak.ere</td>
     <td>makso</td>
-    <td>smu,qma</td>
+    <td>smu, qma</td>
     <td>X1 makes X2:* out of material (xo) X3</td>
     <td>X2 should be a unitary object, not a system, for which use -smu.  -qma for transitive make.</td>
   </tr>
@@ -12078,12 +12078,12 @@
     <td>r</td>
     <td></td>
     <td>2.4.2, 2.1.1</td>
-    <td>assemble,system,build</td>
+    <td>assemble, system, build</td>
     <td>asembl</td>
     <td>-qou/ji</td>
     <td>stru.ere</td>
     <td>balci</td>
-    <td>dma,zor,cur</td>
+    <td>dma, zor, cur</td>
     <td>X1 builds or assembles system X2s by adding parts X3</td>
     <td>Use -dma for a unitary object.</td>
   </tr>
@@ -12092,7 +12092,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.2, 4.3.5</td>
-    <td>cook,eat</td>
+    <td>cook, eat</td>
     <td>k#k</td>
     <td>|ju!fan</td>
     <td>kok.ere</td>
@@ -12106,7 +12106,7 @@
     <td>q</td>
     <td></td>
     <td>2.4.2, 4.6.3</td>
-    <td>designer,architect,engineer</td>
+    <td>designer, architect, engineer</td>
     <td>dizain</td>
     <td>!qe!ji</td>
     <td>desygn.are</td>
@@ -12190,7 +12190,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.3</td>
-    <td>squish,squash,pulp,smash</td>
+    <td>squish, squash, pulp, smash</td>
     <td>skuaq</td>
     <td>-ia!lan</td>
     <td>konter.ere</td>
@@ -12218,7 +12218,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.3</td>
-    <td>consume,use,deplete</td>
+    <td>consume, use, deplete</td>
     <td>iuz</td>
     <td>-siau!hau</td>
     <td>konsum.ere</td>
@@ -12232,7 +12232,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.3</td>
-    <td>crunch,crush</td>
+    <td>crunch, crush</td>
     <td>kruq</td>
     <td>-ia!suei</td>
     <td>oprym.ere</td>
@@ -12246,7 +12246,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.3</td>
-    <td>tear,rip</td>
+    <td>tear, rip</td>
     <td>ter</td>
     <td>-sz!puo</td>
     <td>skind.ere</td>
@@ -12316,7 +12316,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.4</td>
-    <td>fill,inflate</td>
+    <td>fill, inflate</td>
     <td>fyl</td>
     <td>-cuw|man</td>
     <td>ympl.ere</td>
@@ -12414,7 +12414,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.4, 1.1.8</td>
-    <td>select,choose</td>
+    <td>select, choose</td>
     <td>selekt</td>
     <td>-tiau|suan</td>
     <td>leg.ere</td>
@@ -12442,7 +12442,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.4, 4.7.2, 4.7.3</td>
-    <td>sell,buy,price</td>
+    <td>sell, buy, price</td>
     <td>sel</td>
     <td>!mai</td>
     <td>vend.ere</td>
@@ -12470,7 +12470,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.5</td>
-    <td>protect,defend</td>
+    <td>protect, defend</td>
     <td>protekt</td>
     <td>/faw!bei</td>
     <td>defend.ere</td>
@@ -12498,7 +12498,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.5</td>
-    <td>repair,fix</td>
+    <td>repair, fix</td>
     <td>fyks</td>
     <td>|siou|li</td>
     <td>refyk.ere</td>
@@ -12526,7 +12526,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.5</td>
-    <td>care,custodian</td>
+    <td>care, custodian</td>
     <td>kar</td>
     <td>!dzao!gu</td>
     <td>kur.are</td>
@@ -12638,12 +12638,12 @@
     <td>r</td>
     <td></td>
     <td>2.4.5, 4.6.3</td>
-    <td>doctor,disease,treat,medicine</td>
+    <td>doctor, disease, treat, medicine</td>
     <td>daktor</td>
     <td>-i-qew</td>
     <td>medyk.us</td>
     <td>kicmu</td>
-    <td>xym,zbi,fyo</td>
+    <td>xym, zbi, fyo</td>
     <td>X1 treats patient X2 for disease (vo) X3+2 with medicine X4</td>
     <td>Not for Ph.D.</td>
   </tr>
@@ -12694,7 +12694,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.6</td>
-    <td>stab,poke,jab</td>
+    <td>stab, poke, jab</td>
     <td>stab</td>
     <td>!tsz</td>
     <td>konfod.ere</td>
@@ -12722,7 +12722,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.6</td>
-    <td>harsh,severe</td>
+    <td>harsh, severe</td>
     <td>harq</td>
     <td>-juaw/ian</td>
     <td>asper</td>
@@ -12867,7 +12867,7 @@
     <td>!jen!duw</td>
     <td>vibr.are</td>
     <td>canvi*</td>
-    <td>sur,bvi</td>
+    <td>sur, bvi</td>
     <td>X1 vibrates</td>
     <td>So fast you can't see.</td>
   </tr>
@@ -12876,7 +12876,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.7</td>
-    <td>radiate,shine,emit</td>
+    <td>radiate, shine, emit</td>
     <td>qain</td>
     <td>!jau</td>
     <td>fulg.ere</td>
@@ -12890,12 +12890,12 @@
     <td>q</td>
     <td></td>
     <td>2.4.7</td>
-    <td>oscillate,shake,move</td>
+    <td>oscillate, shake, move</td>
     <td>qaik</td>
     <td>/iau</td>
     <td>vibr.are</td>
     <td>siltu</td>
-    <td>sur,duw</td>
+    <td>sur, duw</td>
     <td>X1 shakes or oscillates</td>
     <td>Use -sur for repetitive events.</td>
   </tr>
@@ -12904,12 +12904,12 @@
     <td>r</td>
     <td></td>
     <td>2.4.7</td>
-    <td>operate,function,perform</td>
+    <td>operate, function, perform</td>
     <td>operait</td>
     <td>-tsau!dzuo</td>
     <td></td>
     <td>bapra</td>
-    <td>zom,kro,bro</td>
+    <td>zom, kro, bro</td>
     <td>X1 operates performing function (vo) X2+1</td>
     <td></td>
   </tr>
@@ -12951,7 +12951,7 @@
     <td>-qau</td>
     <td>ard.ere</td>
     <td>cabro</td>
-    <td>xgn,cfl</td>
+    <td>xgn, cfl</td>
     <td>X1 burns</td>
     <td></td>
   </tr>
@@ -12974,7 +12974,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.8</td>
-    <td>develop,mature</td>
+    <td>develop, mature</td>
     <td>divel#p</td>
     <td>-fa/da</td>
     <td>kresk.ere</td>
@@ -13044,12 +13044,12 @@
     <td>r</td>
     <td></td>
     <td>2.4.8</td>
-    <td>keep,possess</td>
+    <td>keep, possess</td>
     <td>kip</td>
     <td>|iou</td>
     <td>posyd.ere</td>
     <td>klipu</td>
-    <td>zua,qlu,znr,bou,zey</td>
+    <td>zua, qlu, znr, bou, zey</td>
     <td>X1 keeps object X2 in his possession</td>
     <td></td>
   </tr>
@@ -13058,7 +13058,7 @@
     <td>r</td>
     <td></td>
     <td>2.4.8</td>
-    <td>panic,crisis</td>
+    <td>panic, crisis</td>
     <td>panik</td>
     <td>|kuw!bu</td>
     <td>pav.ere</td>
@@ -13091,7 +13091,7 @@
     <td>/i-shr</td>
     <td>amyt.ere</td>
     <td>dirlu</td>
-    <td>kio,vyw</td>
+    <td>kio, vyw</td>
     <td>X1 loses object X2</td>
     <td>Loses possession.  Use -vyw for contests.</td>
   </tr>
@@ -13142,7 +13142,7 @@
     <td>r</td>
     <td></td>
     <td>2.5.1</td>
-    <td>pity,regret,sorry</td>
+    <td>pity, regret, sorry</td>
     <td>pyti</td>
     <td>-k#/lian</td>
     <td>myser.ery</td>
@@ -13156,7 +13156,7 @@
     <td>r</td>
     <td></td>
     <td>2.5.1</td>
-    <td>like,fond,care</td>
+    <td>like, fond, care</td>
     <td>fand</td>
     <td>/lian!nai</td>
     <td>amans</td>
@@ -13170,7 +13170,7 @@
     <td>r</td>
     <td></td>
     <td>2.5.1</td>
-    <td>distress,anguish</td>
+    <td>distress, anguish</td>
     <td>dystres</td>
     <td>|ku!nan</td>
     <td>ang.ere</td>
@@ -13282,7 +13282,7 @@
     <td>r</td>
     <td></td>
     <td>2.5.1</td>
-    <td>jealous,envy</td>
+    <td>jealous, envy</td>
     <td>jel#s</td>
     <td>/ji!du</td>
     <td>livyd.us</td>
@@ -13380,7 +13380,7 @@
     <td>r</td>
     <td></td>
     <td>2.5.2</td>
-    <td>wonder,awe</td>
+    <td>wonder, awe</td>
     <td>u#ndr</td>
     <td>/ci-ji</td>
     <td>myr.ary</td>
@@ -13408,7 +13408,7 @@
     <td>r</td>
     <td></td>
     <td>2.5.2</td>
-    <td>guilt,remorse</td>
+    <td>guilt, remorse</td>
     <td>gylt</td>
     <td>!dzuei</td>
     <td>vyty.um</td>
@@ -13422,7 +13422,7 @@
     <td>r</td>
     <td></td>
     <td>2.5.2, 2.1.4</td>
-    <td>like,enjoy</td>
+    <td>like, enjoy</td>
     <td>laik</td>
     <td>|si-huan</td>
     <td>yuv.are</td>
@@ -13450,7 +13450,7 @@
     <td>r</td>
     <td></td>
     <td>2.5.3</td>
-    <td>humble,modest</td>
+    <td>humble, modest</td>
     <td>humbl</td>
     <td>-cian-bei</td>
     <td>humyl.ys</td>
@@ -13464,7 +13464,7 @@
     <td>r</td>
     <td></td>
     <td>2.5.3</td>
-    <td>sad,regret</td>
+    <td>sad, regret</td>
     <td>sad</td>
     <td>-iou/cou</td>
     <td>tryst.ys</td>
@@ -13534,7 +13534,7 @@
     <td>r</td>
     <td></td>
     <td>2.5.3</td>
-    <td>attract,emotion</td>
+    <td>attract, emotion</td>
     <td>#trakt</td>
     <td>-qi|in</td>
     <td>atrah.ere</td>
@@ -13562,12 +13562,12 @@
     <td>r</td>
     <td></td>
     <td>2.5.3, 1.5.2</td>
-    <td>feel,emotion</td>
+    <td>feel, emotion</td>
     <td>imoqn</td>
     <td>|gan/jue</td>
     <td>kap.ere</td>
     <td>sanse</td>
-    <td>ciw,sen</td>
+    <td>ciw, sen</td>
     <td>X1 feels emotion (vo) X2+</td>
     <td>Modal case for experiencer of subjective emotions.</td>
   </tr>
@@ -13674,7 +13674,7 @@
     <td>p</td>
     <td></td>
     <td>3.1.1</td>
-    <td>donkey,jackass,ass</td>
+    <td>donkey, jackass, ass</td>
     <td>danki</td>
     <td>/liu.-dz</td>
     <td>asyn.us</td>
@@ -13758,7 +13758,7 @@
     <td>p</td>
     <td></td>
     <td>3.1.1</td>
-    <td>rat,mouse</td>
+    <td>rat, mouse</td>
     <td>rat</td>
     <td>|lau|qu</td>
     <td>rat.us</td>
@@ -13800,7 +13800,7 @@
     <td>p</td>
     <td></td>
     <td>3.1.1, 4.6.1, 4.6.4</td>
-    <td>spirit,ghost</td>
+    <td>spirit, ghost</td>
     <td>spyryt</td>
     <td>|guei!guai</td>
     <td>anyma</td>
@@ -14066,7 +14066,7 @@
     <td>p</td>
     <td></td>
     <td>3.1.3</td>
-    <td>mollusc,clam,snail</td>
+    <td>mollusc, clam, snail</td>
     <td>klam</td>
     <td>!baw/k#</td>
     <td></td>
@@ -14080,7 +14080,7 @@
     <td>p</td>
     <td></td>
     <td>3.1.3</td>
-    <td>spider,arachnid</td>
+    <td>spider, arachnid</td>
     <td>spaidr</td>
     <td>-jr-ju</td>
     <td>aranea</td>
@@ -14150,7 +14150,7 @@
     <td>p</td>
     <td></td>
     <td>3.1.3</td>
-    <td>butterfly,moth</td>
+    <td>butterfly, moth</td>
     <td>butrflai</td>
     <td>/hu/die</td>
     <td>papyl.yo</td>
@@ -14248,7 +14248,7 @@
     <td>p</td>
     <td></td>
     <td>3.1.4</td>
-    <td>fungus,mold,mushroom</td>
+    <td>fungus, mold, mushroom</td>
     <td>mold</td>
     <td>/mei</td>
     <td>fung.us</td>
@@ -14290,7 +14290,7 @@
     <td>p</td>
     <td></td>
     <td>3.1.4</td>
-    <td>alga,algae</td>
+    <td>alga, algae</td>
     <td>alga</td>
     <td>|dzao!lei</td>
     <td></td>
@@ -14374,7 +14374,7 @@
     <td>p</td>
     <td></td>
     <td>3.1.4</td>
-    <td>germ,bacteria</td>
+    <td>germ, bacteria</td>
     <td>jrm</td>
     <td>/uei-qew!u</td>
     <td>germen</td>
@@ -14430,7 +14430,7 @@
     <td>p</td>
     <td></td>
     <td>3.1.5, 4.1.7</td>
-    <td>flax,linen</td>
+    <td>flax, linen</td>
     <td>lyn#n</td>
     <td>/ma!bu</td>
     <td>lynte.um</td>
@@ -14528,7 +14528,7 @@
     <td>p</td>
     <td></td>
     <td>3.1.5, 4.3.3</td>
-    <td>cassava,taro</td>
+    <td>cassava, taro</td>
     <td>kasava</td>
     <td>!u/tou</td>
     <td></td>
@@ -14724,7 +14724,7 @@
     <td>p</td>
     <td></td>
     <td>3.1.6, 4.3.3</td>
-    <td>maize,corn</td>
+    <td>maize, corn</td>
     <td>maiz</td>
     <td>!u|qu|qu</td>
     <td>far</td>
@@ -14836,7 +14836,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.1</td>
-    <td>brow,forehead</td>
+    <td>brow, forehead</td>
     <td>brou</td>
     <td>/cia!ne</td>
     <td>frons</td>
@@ -15046,7 +15046,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.2</td>
-    <td>throat,gullet</td>
+    <td>throat, gullet</td>
     <td>trot</td>
     <td>/hou-luw</td>
     <td>gula</td>
@@ -15088,7 +15088,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.3</td>
-    <td>claw,nail,talon</td>
+    <td>claw, nail, talon</td>
     <td>kla</td>
     <td>|jua</td>
     <td>ungu.ys</td>
@@ -15102,7 +15102,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.3</td>
-    <td>hand,paw</td>
+    <td>hand, paw</td>
     <td>hand</td>
     <td>|qou</td>
     <td>man.us</td>
@@ -15130,7 +15130,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.3</td>
-    <td>shoulder,hip</td>
+    <td>shoulder, hip</td>
     <td>qoldr</td>
     <td>-jiaw|baw</td>
     <td>humer.us</td>
@@ -15144,7 +15144,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.3</td>
-    <td>foot,paw</td>
+    <td>foot, paw</td>
     <td>f#t</td>
     <td>|jiau</td>
     <td>ped.es</td>
@@ -15172,7 +15172,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.3</td>
-    <td>finger,toe</td>
+    <td>finger, toe</td>
     <td>fywgr</td>
     <td>|qou|jr</td>
     <td>dygyt.us</td>
@@ -15200,7 +15200,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.4</td>
-    <td>chest,thorax</td>
+    <td>chest, thorax</td>
     <td>cest</td>
     <td>-siuw!bu</td>
     <td>pekt.us</td>
@@ -15284,7 +15284,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.4</td>
-    <td>belly,abdomen</td>
+    <td>belly, abdomen</td>
     <td>beli</td>
     <td>!fu!bu</td>
     <td>venter</td>
@@ -15312,7 +15312,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.4</td>
-    <td>teat,milk</td>
+    <td>teat, milk</td>
     <td>tit</td>
     <td>|ru/faw</td>
     <td>uber</td>
@@ -15382,7 +15382,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.5</td>
-    <td>vertebra,backbone</td>
+    <td>vertebra, backbone</td>
     <td>bakbon</td>
     <td>|ji!ju</td>
     <td>vertebra</td>
@@ -15438,7 +15438,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.5</td>
-    <td>intestine,gut</td>
+    <td>intestine, gut</td>
     <td>yntestn</td>
     <td>/caw</td>
     <td>vyskera</td>
@@ -15480,7 +15480,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.5</td>
-    <td>uterus,womb</td>
+    <td>uterus, womb</td>
     <td>um</td>
     <td>|dz-guw</td>
     <td>uter.us</td>
@@ -15494,7 +15494,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.5, 3.3.3</td>
-    <td>blood,sap,juice</td>
+    <td>blood, sap, juice</td>
     <td>blud</td>
     <td>|sie</td>
     <td>sangu.ys</td>
@@ -15676,7 +15676,7 @@
     <td>q</td>
     <td></td>
     <td>3.2.7, 4.3.5</td>
-    <td>fruit,vegetable</td>
+    <td>fruit, vegetable</td>
     <td>frut</td>
     <td>|guo.-dz</td>
     <td>frukt.us</td>
@@ -15690,7 +15690,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.7</td>
-    <td>organ,viscus,gut</td>
+    <td>organ, viscus, gut</td>
     <td>orgn</td>
     <td>!ci-guan</td>
     <td>vysk.us</td>
@@ -15718,7 +15718,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.7, 4.3.5</td>
-    <td>nut,nucleus,central</td>
+    <td>nut, nucleus, central</td>
     <td>nut</td>
     <td>/hu</td>
     <td>nuks</td>
@@ -15760,12 +15760,12 @@
     <td>p</td>
     <td></td>
     <td>3.2.7</td>
-    <td>swelling,tumor</td>
+    <td>swelling, tumor</td>
     <td>suelyw</td>
     <td>/liou</td>
     <td>tumor</td>
     <td>sulba</td>
-    <td>jwuw,cul</td>
+    <td>jwuw, cul</td>
     <td>X1 is a tumor of/on/in body part X2-3* of creature X3</td>
     <td>Not necessarily cancerous.  Use -cul if the whole part is swollen.</td>
   </tr>
@@ -15774,7 +15774,7 @@
     <td>p</td>
     <td></td>
     <td>3.2.7, 4.3.1</td>
-    <td>egg,sperm</td>
+    <td>egg, sperm</td>
     <td>eg</td>
     <td>!dan</td>
     <td>ov.um</td>
@@ -16096,7 +16096,7 @@
     <td>r</td>
     <td></td>
     <td>3.3.1, 3.4.3, 3.6.1, 1.5.6</td>
-    <td>chemical,pure</td>
+    <td>chemical, pure</td>
     <td>kemykl</td>
     <td>/tsu#n!du</td>
     <td></td>
@@ -16194,7 +16194,7 @@
     <td>p</td>
     <td></td>
     <td>3.3.2</td>
-    <td>rock,stone</td>
+    <td>rock, stone</td>
     <td>rak</td>
     <td>/qr-tou</td>
     <td>saks.um</td>
@@ -16236,7 +16236,7 @@
     <td>p</td>
     <td></td>
     <td>3.3.2</td>
-    <td>soil,dirt</td>
+    <td>soil, dirt</td>
     <td>drt</td>
     <td>|tu!di</td>
     <td>sol.um</td>
@@ -16348,12 +16348,12 @@
     <td>p</td>
     <td></td>
     <td>3.3.3</td>
-    <td>oil,grease,mucus,lubricate</td>
+    <td>oil, grease, mucus, lubricate</td>
     <td>oil</td>
     <td>-ji/iou</td>
     <td>lubryk.o</td>
     <td></td>
-    <td>deri,trou</td>
+    <td>deri, trou</td>
     <td>(xo) X1 is some lubricant for making surface X2* slippery</td>
     <td>In animals often a polysaccharide solution (mucus), also used to flush out or immobilize predators or vermin.</td>
   </tr>
@@ -16362,7 +16362,7 @@
     <td>p</td>
     <td></td>
     <td>3.3.3</td>
-    <td>oil,petroleum</td>
+    <td>oil, petroleum</td>
     <td>petrole#m</td>
     <td>!ci/iou</td>
     <td></td>
@@ -16418,7 +16418,7 @@
     <td>p</td>
     <td></td>
     <td>3.3.3</td>
-    <td>sputum,spit</td>
+    <td>sputum, spit</td>
     <td>spyt</td>
     <td>|kou|quei</td>
     <td>veru</td>
@@ -16446,7 +16446,7 @@
     <td>p</td>
     <td></td>
     <td>3.3.3</td>
-    <td>wax,olefin</td>
+    <td>wax, olefin</td>
     <td>uaks</td>
     <td>!la</td>
     <td>kera</td>
@@ -16474,7 +16474,7 @@
     <td>p</td>
     <td></td>
     <td>3.3.3</td>
-    <td>feces,shit</td>
+    <td>feces, shit</td>
     <td>qyt</td>
     <td>|s#</td>
     <td>sterk.us</td>
@@ -16544,7 +16544,7 @@
     <td>p</td>
     <td></td>
     <td>3.3.4</td>
-    <td>paste,glue</td>
+    <td>paste, glue</td>
     <td>paist</td>
     <td>!jiaw-hu</td>
     <td>gluten</td>
@@ -16656,12 +16656,12 @@
     <td>p</td>
     <td></td>
     <td>3.3.4, 4.1.7</td>
-    <td>pelt,hide,leather</td>
+    <td>pelt, hide, leather</td>
     <td>pelt</td>
     <td>/pi</td>
     <td>kory.um</td>
     <td>pelpi</td>
-    <td>fpyl,skyn</td>
+    <td>fpyl, skyn</td>
     <td>X1 is a pelt, cured hide or piece of leather from animal X2*</td>
     <td></td>
   </tr>
@@ -16684,12 +16684,12 @@
     <td>p</td>
     <td></td>
     <td>3.3.4, 4.3.5</td>
-    <td>grease,fat</td>
+    <td>grease, fat</td>
     <td>gris</td>
     <td>/iou</td>
     <td>adeps</td>
     <td>gresa</td>
-    <td>tfa,joil</td>
+    <td>tfa, joil</td>
     <td>(xo) X1 is some grease</td>
     <td>Liquid or solid, eaten or used to prepare food.  Use -joil for lubrication.</td>
   </tr>
@@ -16754,7 +16754,7 @@
     <td>p</td>
     <td></td>
     <td>3.3.5</td>
-    <td>ore,mineral</td>
+    <td>ore, mineral</td>
     <td>men#r#l</td>
     <td>!kuaw!u</td>
     <td>aes</td>
@@ -16782,7 +16782,7 @@
     <td>r</td>
     <td></td>
     <td>3.3.5</td>
-    <td>foam,froth</td>
+    <td>foam, froth</td>
     <td>fom</td>
     <td>!pau!muo</td>
     <td>spuma</td>
@@ -16880,7 +16880,7 @@
     <td>q</td>
     <td></td>
     <td>3.3.5, 3.4.2</td>
-    <td>gas,vapor</td>
+    <td>gas, vapor</td>
     <td>gas</td>
     <td>!ci</td>
     <td>vapor</td>
@@ -16964,7 +16964,7 @@
     <td>r</td>
     <td></td>
     <td>3.4.1</td>
-    <td>pile,mountain</td>
+    <td>pile, mountain</td>
     <td>pail</td>
     <td>-duei</td>
     <td>stru.es</td>
@@ -16978,7 +16978,7 @@
     <td>q</td>
     <td></td>
     <td>3.4.1</td>
-    <td>hole,depress</td>
+    <td>hole, depress</td>
     <td>hol</td>
     <td>!duw</td>
     <td>kav.um</td>
@@ -16997,7 +16997,7 @@
     <td>-kuw-jian</td>
     <td></td>
     <td>spasi</td>
-    <td>cme,tera,jomu</td>
+    <td>cme, tera, jomu</td>
     <td>(xo) X1 is a region of space</td>
     <td>That which stars and planets are in.</td>
   </tr>
@@ -17034,7 +17034,7 @@
     <td>r</td>
     <td></td>
     <td>3.4.1</td>
-    <td>store,reserve,deposit</td>
+    <td>store, reserve, deposit</td>
     <td>stor</td>
     <td>/tsun</td>
     <td>kopya</td>
@@ -17062,7 +17062,7 @@
     <td>p</td>
     <td></td>
     <td>3.4.1</td>
-    <td>bead,pebble</td>
+    <td>bead, pebble</td>
     <td>bid</td>
     <td>/qr.-dz</td>
     <td>baka</td>
@@ -17118,7 +17118,7 @@
     <td>q</td>
     <td></td>
     <td>3.4.2</td>
-    <td>flame,fire</td>
+    <td>flame, fire</td>
     <td>flaim</td>
     <td>|huo/ian</td>
     <td>flama</td>
@@ -17137,7 +17137,7 @@
     <td>-qew-in</td>
     <td>son.us</td>
     <td>sonda</td>
-    <td>sau,tia</td>
+    <td>sau, tia</td>
     <td>(xo) X1 is sound from emitter (vo) X2+</td>
     <td>Bell ringing: ^fsn !qkm !tfel, not csn =tynl.</td>
   </tr>
@@ -17174,7 +17174,7 @@
     <td>r</td>
     <td></td>
     <td>3.4.2</td>
-    <td>shade,light,shadow</td>
+    <td>shade, light, shadow</td>
     <td>qado</td>
     <td>|iw.-dz</td>
     <td>umbra</td>
@@ -17202,7 +17202,7 @@
     <td>q</td>
     <td></td>
     <td>3.4.2</td>
-    <td>light,lamp</td>
+    <td>light, lamp</td>
     <td>lait</td>
     <td>-guaw</td>
     <td>luks</td>
@@ -17230,7 +17230,7 @@
     <td>q</td>
     <td></td>
     <td>3.4.2</td>
-    <td>fire,fuel</td>
+    <td>fire, fuel</td>
     <td>fair</td>
     <td>|huo</td>
     <td>ygn.ys</td>
@@ -17286,7 +17286,7 @@
     <td>q</td>
     <td></td>
     <td>3.4.3</td>
-    <td>object,thing</td>
+    <td>object, thing</td>
     <td>tyw</td>
     <td>!u/jr</td>
     <td>res</td>
@@ -17300,7 +17300,7 @@
     <td>q</td>
     <td></td>
     <td>3.4.3</td>
-    <td>phenomenon,nature</td>
+    <td>phenomenon, nature</td>
     <td>naitcr</td>
     <td>!di!qr</td>
     <td>natural.ys</td>
@@ -17314,7 +17314,7 @@
     <td>q</td>
     <td></td>
     <td>3.4.3, 1.1.3</td>
-    <td>atom,molecule,cell</td>
+    <td>atom, molecule, cell</td>
     <td>atom</td>
     <td>/uen.-dz</td>
     <td>korpuskul.um</td>
@@ -17328,7 +17328,7 @@
     <td>r</td>
     <td></td>
     <td>3.4.3, 3.5.6, 1.4.4</td>
-    <td>interval,time</td>
+    <td>interval, time</td>
     <td>yntrvl</td>
     <td>-jian/g#</td>
     <td>ynterval.um</td>
@@ -17356,7 +17356,7 @@
     <td>q</td>
     <td></td>
     <td>3.4.3, 4.4.5</td>
-    <td>fact,science</td>
+    <td>fact, science</td>
     <td>saiens</td>
     <td>-k#/que</td>
     <td>skyentya</td>
@@ -17538,7 +17538,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.1</td>
-    <td>river,basin,drain</td>
+    <td>river, basin, drain</td>
     <td>ryvr</td>
     <td>/h#</td>
     <td>flumen</td>
@@ -17552,7 +17552,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.1</td>
-    <td>land,region</td>
+    <td>land, region</td>
     <td>land</td>
     <td>|tu!di</td>
     <td>tera</td>
@@ -17566,7 +17566,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.1</td>
-    <td>field,farm</td>
+    <td>field, farm</td>
     <td>fild</td>
     <td>/tian!di</td>
     <td>ager</td>
@@ -17594,7 +17594,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.1</td>
-    <td>bay,coast</td>
+    <td>bay, coast</td>
     <td>bai</td>
     <td>|hai-uan</td>
     <td>sayn.us</td>
@@ -17678,7 +17678,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.2</td>
-    <td>satellite,moon</td>
+    <td>satellite, moon</td>
     <td>mun</td>
     <td>!uei-qyw</td>
     <td>luna</td>
@@ -17692,7 +17692,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.2</td>
-    <td>universe,cosmos</td>
+    <td>universe, cosmos</td>
     <td>kosm#s</td>
     <td>|iu!jou</td>
     <td>mund.us</td>
@@ -17706,7 +17706,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.2</td>
-    <td>homeworld,earth</td>
+    <td>homeworld, earth</td>
     <td>rt</td>
     <td>!qr!jie</td>
     <td>tera</td>
@@ -17720,7 +17720,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.2</td>
-    <td>star,galaxy</td>
+    <td>star, galaxy</td>
     <td>star</td>
     <td>-qiw</td>
     <td>stela</td>
@@ -17734,7 +17734,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.2</td>
-    <td>planet,star,sun</td>
+    <td>planet, star, sun</td>
     <td>planet</td>
     <td>-siw</td>
     <td>stela</td>
@@ -17804,7 +17804,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.3</td>
-    <td>office,station</td>
+    <td>office, station</td>
     <td>afys</td>
     <td>!ban-guw!qr</td>
     <td>taberna</td>
@@ -17818,7 +17818,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.3</td>
-    <td>factory,mill</td>
+    <td>factory, mill</td>
     <td>faktori</td>
     <td>-guw|caw</td>
     <td>fabryka</td>
@@ -17846,7 +17846,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.3</td>
-    <td>bank,financial</td>
+    <td>bank, financial</td>
     <td>bank</td>
     <td>/in/haw</td>
     <td>argentarya</td>
@@ -17860,7 +17860,7 @@
     <td>p</td>
     <td>15</td>
     <td>3.5.3</td>
-    <td>market,store,shop</td>
+    <td>market, store, shop</td>
     <td>mark#t</td>
     <td>!qr|caw</td>
     <td>makel.um</td>
@@ -17874,7 +17874,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.3</td>
-    <td>church,god,temple</td>
+    <td>church, god, temple</td>
     <td>curc</td>
     <td>!jiau!huei</td>
     <td>eklesya</td>
@@ -17902,7 +17902,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.3</td>
-    <td>station,transport</td>
+    <td>station, transport</td>
     <td>staqn</td>
     <td>!jan</td>
     <td></td>
@@ -17986,7 +17986,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.4</td>
-    <td>cafe,eatery</td>
+    <td>cafe, eatery</td>
     <td>kafe</td>
     <td>-ka-fei|guan</td>
     <td></td>
@@ -18084,7 +18084,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.5</td>
-    <td>city,town</td>
+    <td>city, town</td>
     <td>syti</td>
     <td>/cew!qr</td>
     <td>urbs</td>
@@ -18098,7 +18098,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.5</td>
-    <td>street,road</td>
+    <td>street, road</td>
     <td>strit</td>
     <td>-jie</td>
     <td>vya</td>
@@ -18182,7 +18182,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.5, 4.2.8</td>
-    <td>bridge,span</td>
+    <td>bridge, span</td>
     <td>brydj</td>
     <td>/ciau</td>
     <td>pons</td>
@@ -18196,7 +18196,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.5, 4.7.4</td>
-    <td>homeland,people,nation</td>
+    <td>homeland, people, nation</td>
     <td>naqn</td>
     <td>-jia-siaw</td>
     <td>gens</td>
@@ -18224,7 +18224,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.6</td>
-    <td>morning,evening,noon</td>
+    <td>morning, evening, noon</td>
     <td>morn#w</td>
     <td>|dzau/cen</td>
     <td>mane</td>
@@ -18238,7 +18238,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.6</td>
-    <td>nighttime,night</td>
+    <td>nighttime, night</td>
     <td>nait</td>
     <td>|uan!qaw</td>
     <td>noks</td>
@@ -18252,7 +18252,7 @@
     <td>p</td>
     <td></td>
     <td>3.5.6</td>
-    <td>daytime,day</td>
+    <td>daytime, day</td>
     <td>daitaim</td>
     <td>/bai-tian</td>
     <td>di.es</td>
@@ -18453,7 +18453,7 @@
     <td>/ji!biw</td>
     <td>morb.us</td>
     <td>malbi</td>
-    <td>fti,kme,fpu</td>
+    <td>fti, kme, fpu</td>
     <td>X1 is a disease in creature X2* caused by parasite X3</td>
     <td></td>
   </tr>
@@ -18518,7 +18518,7 @@
     <td>p</td>
     <td></td>
     <td>3.7.1</td>
-    <td>function,arity</td>
+    <td>function, arity</td>
     <td>funkqn</td>
     <td>|ian!suan</td>
     <td></td>
@@ -18532,7 +18532,7 @@
     <td>r</td>
     <td></td>
     <td>3.7.1</td>
-    <td>multiply,product,times,divide</td>
+    <td>multiply, product, times, divide</td>
     <td>multyplai</td>
     <td>/cew</td>
     <td>multyplyk.are</td>
@@ -18546,7 +18546,7 @@
     <td>r</td>
     <td></td>
     <td>3.7.1</td>
-    <td>mean,average</td>
+    <td>mean, average</td>
     <td>av#raj</td>
     <td>/piw/caw</td>
     <td>medy.us</td>
@@ -18560,7 +18560,7 @@
     <td>r</td>
     <td></td>
     <td>3.7.1</td>
-    <td>remainder,modulo</td>
+    <td>remainder, modulo</td>
     <td>madulo</td>
     <td>!qew!sia-de</td>
     <td>resydu#m</td>
@@ -18588,12 +18588,12 @@
     <td>r</td>
     <td></td>
     <td>3.7.1</td>
-    <td>quotient,divide</td>
+    <td>quotient, divide</td>
     <td>dyvaid</td>
     <td>-f#n-kai</td>
     <td>dyvyd.ere</td>
     <td>brato</td>
-    <td>vyn,dum</td>
+    <td>vyn, dum</td>
     <td>X1 IEC (xu) X2: divided by (xu) X3:</td>
     <td>Normally real or rational division; use -dya -fw -dum for integer division.</td>
   </tr>
@@ -18602,7 +18602,7 @@
     <td>r</td>
     <td></td>
     <td>3.7.1</td>
-    <td>base,radix</td>
+    <td>base, radix</td>
     <td>radyks</td>
     <td>-</td>
     <td>radyks</td>
@@ -18658,7 +18658,7 @@
     <td>r</td>
     <td></td>
     <td>3.7.1</td>
-    <td>power,exponent,logarithm,base,e</td>
+    <td>power, exponent, logarithm, base, e</td>
     <td>paur</td>
     <td>-piw-fw</td>
     <td></td>
@@ -18672,7 +18672,7 @@
     <td>r</td>
     <td></td>
     <td>3.7.1</td>
-    <td>plus,add,sum,minus,subtract,moreover</td>
+    <td>plus, add, sum, minus, subtract, moreover</td>
     <td>pl#s</td>
     <td>-jia</td>
     <td></td>
@@ -18714,7 +18714,7 @@
     <td>r</td>
     <td></td>
     <td>3.7.1</td>
-    <td>number,count,cardinal</td>
+    <td>number, count, cardinal</td>
     <td>kaunt</td>
     <td>!ji!suan</td>
     <td>numer.are</td>
@@ -18728,7 +18728,7 @@
     <td>p</td>
     <td></td>
     <td>3.7.1</td>
-    <td>infinity,finite,infinitesimal,small</td>
+    <td>infinity, finite, infinitesimal, small</td>
     <td>ynfynyt</td>
     <td>/u!sian</td>
     <td>ynfyny.tas</td>
@@ -18756,12 +18756,12 @@
     <td>r</td>
     <td></td>
     <td>3.7.1</td>
-    <td>inverse,divide</td>
+    <td>inverse, divide</td>
     <td>ynvrs</td>
     <td>/dau|dzuan</td>
     <td>ynvers.us</td>
     <td>brato</td>
-    <td>dya,kl</td>
+    <td>dya, kl</td>
     <td>X1 IEC the multiplicative inverse of (xu) X2:*</td>
     <td>X2 is typically a number but can be a matrix etc.</td>
   </tr>
@@ -18770,7 +18770,7 @@
     <td>p</td>
     <td></td>
     <td>3.7.1</td>
-    <td>derivative,rate</td>
+    <td>derivative, rate</td>
     <td>rait</td>
     <td>|bil!u</td>
     <td>-</td>
@@ -18798,7 +18798,7 @@
     <td>r</td>
     <td></td>
     <td>3.7.1, 1.5.2</td>
-    <td>frame,reference,vertical,coordinate</td>
+    <td>frame, reference, vertical, coordinate</td>
     <td>vrtykl</td>
     <td>/ji!li</td>
     <td>rekt.us</td>
@@ -18840,7 +18840,7 @@
     <td>r</td>
     <td></td>
     <td>3.7.2</td>
-    <td>measure,kernel</td>
+    <td>measure, kernel</td>
     <td>mexr</td>
     <td>/cew!du</td>
     <td>mensura</td>
@@ -18910,7 +18910,7 @@
     <td>q</td>
     <td></td>
     <td>3.7.2, 1.3.1</td>
-    <td>straight,line</td>
+    <td>straight, line</td>
     <td>lain</td>
     <td>/jr!sian</td>
     <td>lynea</td>
@@ -18952,7 +18952,7 @@
     <td>p</td>
     <td></td>
     <td>3.7.2</td>
-    <td>vector,tangent</td>
+    <td>vector, tangent</td>
     <td>vektr</td>
     <td>-faw!qiaw</td>
     <td>kurs.us</td>
@@ -18966,7 +18966,7 @@
     <td>p</td>
     <td></td>
     <td>3.7.2</td>
-    <td>vertex,point</td>
+    <td>vertex, point</td>
     <td>point</td>
     <td>|jiau</td>
     <td>verteks</td>
@@ -19013,7 +19013,7 @@
     <td>|dian</td>
     <td>lok.us</td>
     <td>penta</td>
-    <td>jin,vdr</td>
+    <td>jin, vdr</td>
     <td>X1 is a point of set (xy) X2s</td>
     <td>|sya for topology.  Objects with organized geometry (topological spaces) are sets of points, with a topology given.</td>
   </tr>
@@ -19064,7 +19064,7 @@
     <td>p</td>
     <td></td>
     <td>3.7.3</td>
-    <td>sphere,ball</td>
+    <td>sphere, ball</td>
     <td>bal</td>
     <td>/ciou</td>
     <td>glob.us</td>
@@ -19078,7 +19078,7 @@
     <td>q</td>
     <td></td>
     <td>3.7.3</td>
-    <td>flat,surface,plane</td>
+    <td>flat, surface, plane</td>
     <td>srf#s</td>
     <td>!mian</td>
     <td>superfyky.es</td>
@@ -19120,7 +19120,7 @@
     <td>p</td>
     <td></td>
     <td>3.7.3</td>
-    <td>circle,round</td>
+    <td>circle, round</td>
     <td>syrkl</td>
     <td>-ciuan</td>
     <td>orb.ys</td>
@@ -19134,7 +19134,7 @@
     <td>p</td>
     <td></td>
     <td>3.7.3</td>
-    <td>cylinder,roll,rod,round</td>
+    <td>cylinder, roll, rod, round</td>
     <td>sylyndr</td>
     <td>/uan</td>
     <td>kylyndr.us</td>
@@ -19218,7 +19218,7 @@
     <td>p</td>
     <td></td>
     <td>3.7.3</td>
-    <td>wrinkle,crease</td>
+    <td>wrinkle, crease</td>
     <td>rynkl</td>
     <td>!jou</td>
     <td>ruga</td>
@@ -19232,12 +19232,12 @@
     <td>r</td>
     <td></td>
     <td>3.7.3, 1.3.6</td>
-    <td>shape,form</td>
+    <td>shape, form</td>
     <td>qaip</td>
     <td>!iaw.-dz</td>
     <td>forma</td>
     <td>forma</td>
-    <td>zia,jrm</td>
+    <td>zia, jrm</td>
     <td>X1 is in the same equivalence class on shape as shape X2* is</td>
     <td>-xu-fma !X for ``the form of X''.</td>
   </tr>
@@ -19246,12 +19246,12 @@
     <td>r</td>
     <td></td>
     <td>3.7.3, 1.4.2</td>
-    <td>center,midpoint</td>
+    <td>center, midpoint</td>
     <td>sentr</td>
     <td>-juw-siyn|dian</td>
     <td>medy.us</td>
     <td>midju</td>
-    <td>syry,syo,juw</td>
+    <td>syry, syo, juw</td>
     <td>X1 is the midpoint of shape X2</td>
     <td>Center of symmetry (or mass if no symmetry) of shape of any dimension.</td>
   </tr>
@@ -19260,7 +19260,7 @@
     <td>p</td>
     <td></td>
     <td>3.7.3, 4.2.4, 3.2.6</td>
-    <td>bulb,swell</td>
+    <td>bulb, swell</td>
     <td>suel</td>
     <td>|juw</td>
     <td>tum.ere</td>
@@ -19288,7 +19288,7 @@
     <td>r</td>
     <td></td>
     <td>3.7.4</td>
-    <td>abstract,concrete</td>
+    <td>abstract, concrete</td>
     <td>abstrakt</td>
     <td>-cou!syaw</td>
     <td>oblyv.yo</td>
@@ -19316,7 +19316,7 @@
     <td>p</td>
     <td></td>
     <td>3.7.4</td>
-    <td>mathematics,expression</td>
+    <td>mathematics, expression</td>
     <td>ekspreqn</td>
     <td>-</td>
     <td>verb.um</td>
@@ -19330,12 +19330,12 @@
     <td>r</td>
     <td></td>
     <td>3.7.4</td>
-    <td>rule,algorithm,procedure,recipe</td>
+    <td>rule, algorithm, procedure, recipe</td>
     <td>resypi</td>
     <td>/qr|pu</td>
     <td></td>
     <td>rulni</td>
-    <td>gul,fta,jrm</td>
+    <td>gul, fta, jrm</td>
     <td>(vo) X1@ is a rule or procedure often useful to achieve result (vo) X2+</td>
     <td></td>
   </tr>
@@ -19358,12 +19358,12 @@
     <td>q</td>
     <td></td>
     <td>3.7.4, 1.2.2</td>
-    <td>correct,right</td>
+    <td>correct, right</td>
     <td>korekt</td>
     <td>!duei</td>
     <td>ver.us</td>
     <td>dreti</td>
-    <td>tso,stw,qkr,ge,qtr,fpe</td>
+    <td>tso, stw, qkr, ge, qtr, fpe</td>
     <td>(vo) X1 is correct</td>
     <td>|fta for the standard.  Means X1 is done according to prespecified axioms, procedures, etc.</td>
   </tr>
@@ -19377,7 +19377,7 @@
     <td>-siu|jia</td>
     <td>fals.us</td>
     <td>falji</td>
-    <td>qtr,tso</td>
+    <td>qtr, tso</td>
     <td>(vo) X1 is false</td>
     <td>|fta for the standard or epistomology by which it is judged.</td>
   </tr>
@@ -19391,7 +19391,7 @@
     <td>-jen</td>
     <td>ver.us</td>
     <td>tradu</td>
-    <td>sfa,qkr,dve,ge</td>
+    <td>sfa, qkr, dve, ge</td>
     <td>(vo) X1 is true</td>
     <td>|fta for the standard or epistomology by which it is judged.</td>
   </tr>
@@ -19419,7 +19419,7 @@
     <td>/muo!iaw</td>
     <td>spekymen</td>
     <td>morna*</td>
-    <td>fma,gvr</td>
+    <td>fma, gvr</td>
     <td>X1 IEC the pattern in process X2 its property (vo) X3+2</td>
     <td>A generalizable regularity of how X3 varies from one part of X2 to another.  Includes non-visual patterns.</td>
   </tr>
@@ -19428,7 +19428,7 @@
     <td>r</td>
     <td></td>
     <td>3.7.4, 1.5.2</td>
-    <td>basis,axiom</td>
+    <td>basis, axiom</td>
     <td>basys</td>
     <td>-ji|cu</td>
     <td>bas.ys</td>
@@ -19447,7 +19447,7 @@
     <td>|jia!q#</td>
     <td>pon.ere</td>
     <td>sruma*</td>
-    <td>gu,gy</td>
+    <td>gu, gy</td>
     <td>Thinker X1 assumes that fact (vo) X2 is true</td>
     <td>X2 may or may not be true.</td>
   </tr>
@@ -19456,7 +19456,7 @@
     <td>r</td>
     <td></td>
     <td>3.7.4, 2.4.8</td>
-    <td>calculate,arithmetic,reckon</td>
+    <td>calculate, arithmetic, reckon</td>
     <td>rekn</td>
     <td>!ji!suan</td>
     <td>komput.are</td>
@@ -19475,7 +19475,7 @@
     <td>!qr/qr</td>
     <td>res</td>
     <td>fekto</td>
-    <td>stw,ge,qtr,dve</td>
+    <td>stw, ge, qtr, dve</td>
     <td>(vo) X1 is a fact</td>
     <td>A fact is an event (-qin) which most people think is real (-stw).  They could be wrong.</td>
   </tr>
@@ -19624,7 +19624,7 @@
     <td>r</td>
     <td></td>
     <td>4.1.1</td>
-    <td>contain,vessel,full</td>
+    <td>contain, vessel, full</td>
     <td>vesl</td>
     <td>/ruw!ci</td>
     <td>vas</td>
@@ -19708,7 +19708,7 @@
     <td>p</td>
     <td></td>
     <td>4.1.2</td>
-    <td>dish,plate</td>
+    <td>dish, plate</td>
     <td>dyq</td>
     <td>/pan.-dz</td>
     <td>patyna</td>
@@ -19820,7 +19820,7 @@
     <td>p</td>
     <td></td>
     <td>4.1.3</td>
-    <td>parasol,umbrella</td>
+    <td>parasol, umbrella</td>
     <td>parasol</td>
     <td>|san</td>
     <td>umbela</td>
@@ -19937,7 +19937,7 @@
     <td>/piw-few</td>
     <td>umbrakul.um</td>
     <td>codji+</td>
-    <td>vdeo,jiwi</td>
+    <td>vdeo, jiwi</td>
     <td>X1 is a screen</td>
     <td>Like a room divider.  Use -kriw -zu -gai if the screen covers something, -fcuy -tene for window screen, -za -jiwi for movie screen.</td>
   </tr>
@@ -19974,7 +19974,7 @@
     <td>p</td>
     <td></td>
     <td>4.1.4</td>
-    <td>pad,cushion</td>
+    <td>pad, cushion</td>
     <td>pad</td>
     <td>!dian.-dz</td>
     <td>pulvyn.us</td>
@@ -20072,7 +20072,7 @@
     <td>p</td>
     <td></td>
     <td>4.1.5</td>
-    <td>pant,trousers,sleeve</td>
+    <td>pant, trousers, sleeve</td>
     <td>pant</td>
     <td>|duan!ku</td>
     <td></td>
@@ -20086,7 +20086,7 @@
     <td>p</td>
     <td></td>
     <td>4.1.5</td>
-    <td>robe,tunic,gown</td>
+    <td>robe, tunic, gown</td>
     <td>rob</td>
     <td>/pau</td>
     <td>vest.ys</td>
@@ -20105,7 +20105,7 @@
     <td>/sie</td>
     <td>kalke.us</td>
     <td>butpa</td>
-    <td>psie,qoma</td>
+    <td>psie, qoma</td>
     <td>X1 is a boot on X2: its X3:-2</td>
     <td>A thick or durable shoe.</td>
   </tr>
@@ -20156,7 +20156,7 @@
     <td>p</td>
     <td></td>
     <td>4.1.5</td>
-    <td>shirt,blouse</td>
+    <td>shirt, blouse</td>
     <td>qrt</td>
     <td>!cen-qan</td>
     <td>tunyka</td>
@@ -20212,7 +20212,7 @@
     <td>q</td>
     <td></td>
     <td>4.1.5</td>
-    <td>garment,clothing</td>
+    <td>garment, clothing</td>
     <td>garment</td>
     <td>-i-fu</td>
     <td>vest.ys</td>
@@ -20352,7 +20352,7 @@
     <td>p</td>
     <td></td>
     <td>4.1.7</td>
-    <td>silk,spiderweb</td>
+    <td>silk, spiderweb</td>
     <td>sylk</td>
     <td>/cou</td>
     <td>seryk.us</td>
@@ -20422,7 +20422,7 @@
     <td>p</td>
     <td></td>
     <td>4.1.8</td>
-    <td>pipe,tube</td>
+    <td>pipe, tube</td>
     <td>paip</td>
     <td>-guan</td>
     <td>tub.us</td>
@@ -20436,7 +20436,7 @@
     <td>p</td>
     <td></td>
     <td>4.1.8</td>
-    <td>cord,rope</td>
+    <td>cord, rope</td>
     <td>rop</td>
     <td>/qew.-dz</td>
     <td>fun.ys</td>
@@ -20450,7 +20450,7 @@
     <td>p</td>
     <td></td>
     <td>4.1.8</td>
-    <td>sheet,foil</td>
+    <td>sheet, foil</td>
     <td>qit</td>
     <td>!pian</td>
     <td>lamyna</td>
@@ -20604,7 +20604,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.1</td>
-    <td>tongs,pincers,pliers</td>
+    <td>tongs, pincers, pliers</td>
     <td>taw</td>
     <td>/cian.-dz</td>
     <td>forkeps</td>
@@ -20716,7 +20716,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.1</td>
-    <td>bow,arrow</td>
+    <td>bow, arrow</td>
     <td>bo</td>
     <td>-guw</td>
     <td>ark.us</td>
@@ -20758,7 +20758,7 @@
     <td>q</td>
     <td></td>
     <td>4.2.2</td>
-    <td>instrument,musical</td>
+    <td>instrument, musical</td>
     <td>musykal</td>
     <td>!ue!ci</td>
     <td>fyd.es</td>
@@ -20814,7 +20814,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.2</td>
-    <td>guitar,violin</td>
+    <td>guitar, violin</td>
     <td>gytar</td>
     <td>|guan/quen!ue</td>
     <td>kitara</td>
@@ -20828,7 +20828,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.2</td>
-    <td>oboe,clarinet,reed</td>
+    <td>oboe, clarinet, reed</td>
     <td>rid</td>
     <td>/huaw!ue!ci</td>
     <td>kalam.us</td>
@@ -20847,7 +20847,7 @@
     <td>!iau-qr</td>
     <td>klav.ys</td>
     <td>tocki</td>
-    <td>klau,bzo</td>
+    <td>klau, bzo</td>
     <td>X1 is a key to lock X2</td>
     <td>Not for switches, piano keys, etc., but X2 may be a key-operated switch.</td>
   </tr>
@@ -20912,7 +20912,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.2</td>
-    <td>flute,pipe,whistle</td>
+    <td>flute, pipe, whistle</td>
     <td>flut</td>
     <td>/di.-dz</td>
     <td>tybya</td>
@@ -20954,7 +20954,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.2</td>
-    <td>trumpet,horn,brass</td>
+    <td>trumpet, horn, brass</td>
     <td>tr#mpet</td>
     <td>|la-ba</td>
     <td>tuba</td>
@@ -20996,7 +20996,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.3</td>
-    <td>car,truck</td>
+    <td>car, truck</td>
     <td>kar</td>
     <td>!ci-c#</td>
     <td>kar.us</td>
@@ -21052,7 +21052,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.3</td>
-    <td>cart,trailer</td>
+    <td>cart, trailer</td>
     <td>kart</td>
     <td>-ce</td>
     <td>plaustr.um</td>
@@ -21122,7 +21122,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.3, 3.2.6</td>
-    <td>fin,oar</td>
+    <td>fin, oar</td>
     <td>fyn</td>
     <td>/u/qi</td>
     <td>pina</td>
@@ -21150,7 +21150,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.4</td>
-    <td>bolt,screw</td>
+    <td>bolt, screw</td>
     <td>bolt</td>
     <td>/luo-sz-dau</td>
     <td>obeks</td>
@@ -21178,12 +21178,12 @@
     <td>p</td>
     <td></td>
     <td>4.2.4</td>
-    <td>around,ring</td>
+    <td>around, ring</td>
     <td>ryw</td>
     <td>-cuan</td>
     <td>anul.us</td>
     <td>djale</td>
-    <td>syry,jui</td>
+    <td>syry, jui</td>
     <td>Ring X1 goes around mandrel X2*</td>
     <td></td>
   </tr>
@@ -21192,12 +21192,12 @@
     <td>r</td>
     <td></td>
     <td>4.2.4</td>
-    <td>fasten,connect,attach</td>
+    <td>fasten, connect, attach</td>
     <td>fasten</td>
     <td>/lien-jie</td>
     <td>adfyg.ere</td>
     <td>lasna*</td>
-    <td>tye,cun</td>
+    <td>tye, cun</td>
     <td>X1 attaches part X2 to part X3</td>
     <td>A part holding X2 on, not a person putting X2 on.</td>
   </tr>
@@ -21220,7 +21220,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.4</td>
-    <td>layer,stratum</td>
+    <td>layer, stratum</td>
     <td>lair</td>
     <td>/ts#n</td>
     <td>strat.um</td>
@@ -21332,7 +21332,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.5</td>
-    <td>projector,screen</td>
+    <td>projector, screen</td>
     <td>projektr</td>
     <td>!faw|iw-ji</td>
     <td></td>
@@ -21346,7 +21346,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.5</td>
-    <td>monitor,crt,screen,video</td>
+    <td>monitor, crt, screen, video</td>
     <td>vydeo</td>
     <td>-</td>
     <td></td>
@@ -21360,7 +21360,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.5</td>
-    <td>engine,motor</td>
+    <td>engine, motor</td>
     <td>enjn</td>
     <td>-fa!duw-ji</td>
     <td>macina</td>
@@ -21402,12 +21402,12 @@
     <td>p</td>
     <td></td>
     <td>4.2.6</td>
-    <td>support,foundation</td>
+    <td>support, foundation</td>
     <td>faundaqn</td>
     <td>-ji|cu</td>
     <td>fundamenta</td>
     <td></td>
-    <td>sya,baim</td>
+    <td>sya, baim</td>
     <td>Foundation X1 supports structure X2*</td>
     <td>Includes slabs.  X2 is a house, a machine, etc.</td>
   </tr>
@@ -21458,7 +21458,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.6</td>
-    <td>support,pedestal,base,stand</td>
+    <td>support, pedestal, base, stand</td>
     <td>bais</td>
     <td>!jia</td>
     <td>bas.ys</td>
@@ -21584,7 +21584,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.7</td>
-    <td>wall,fence</td>
+    <td>wall, fence</td>
     <td>fens</td>
     <td>/lan-gan</td>
     <td>saep.es</td>
@@ -21640,7 +21640,7 @@
     <td>p</td>
     <td></td>
     <td>4.2.7</td>
-    <td>stair,staircase</td>
+    <td>stair, staircase</td>
     <td>ster</td>
     <td>/ji</td>
     <td>skalae</td>
@@ -21696,7 +21696,7 @@
     <td>p</td>
     <td>15</td>
     <td>4.2.8</td>
-    <td>house,resident,reside</td>
+    <td>house, resident, reside</td>
     <td>haus</td>
     <td>/faw-u</td>
     <td>dom.us</td>
@@ -21799,7 +21799,7 @@
     <td>-ji!ci</td>
     <td>macina</td>
     <td>matci</td>
-    <td>fwa,tsy</td>
+    <td>fwa, tsy</td>
     <td>X1 is a machine with function (vo) X2+1</td>
     <td>-cin is a unitary thing while -fwa is a system.</td>
   </tr>
@@ -21808,12 +21808,12 @@
     <td>r</td>
     <td></td>
     <td>4.2.9</td>
-    <td>device,apparatus</td>
+    <td>device, apparatus</td>
     <td>divais</td>
     <td>-faw|fa</td>
     <td>aparat.us</td>
     <td>patce</td>
-    <td>cin,tsy</td>
+    <td>cin, tsy</td>
     <td>X1 is a device or apparatus for function (vo) X2+1</td>
     <td>-fwa is a system as compared to -cin which is more of a unit.</td>
   </tr>
@@ -21836,7 +21836,7 @@
     <td>r</td>
     <td></td>
     <td>4.2.9</td>
-    <td>equipment,furniture</td>
+    <td>equipment, furniture</td>
     <td>ikuypmnt</td>
     <td>-gow!ju</td>
     <td>arma</td>
@@ -21850,7 +21850,7 @@
     <td>r</td>
     <td></td>
     <td>4.2.9, 1.5.2</td>
-    <td>tool,instrument</td>
+    <td>tool, instrument</td>
     <td>tul</td>
     <td>-guw!jiu</td>
     <td>ynstrument.um</td>
@@ -22046,7 +22046,7 @@
     <td>p</td>
     <td></td>
     <td>4.3.2</td>
-    <td>soda,carbonated,coke</td>
+    <td>soda, carbonated, coke</td>
     <td>sod#</td>
     <td>-su/da</td>
     <td></td>
@@ -22247,7 +22247,7 @@
     <td>|jio</td>
     <td></td>
     <td>likro</td>
-    <td>gvin,fpir</td>
+    <td>gvin, fpir</td>
     <td>(xo) X1 is some liquor with special ingredient (xo) X2*</td>
     <td>Distilled, alcoholic.</td>
   </tr>
@@ -22424,7 +22424,7 @@
     <td>p</td>
     <td></td>
     <td>4.4.1</td>
-    <td>drama,play</td>
+    <td>drama, play</td>
     <td>drama</td>
     <td>!si!jiu</td>
     <td>fabula</td>
@@ -22494,7 +22494,7 @@
     <td>p</td>
     <td></td>
     <td>4.4.1</td>
-    <td>cinema,movie</td>
+    <td>cinema, movie</td>
     <td>synema</td>
     <td>!dian|iw</td>
     <td></td>
@@ -22606,7 +22606,7 @@
     <td>p</td>
     <td></td>
     <td>4.4.2</td>
-    <td>memo,note,notice</td>
+    <td>memo, note, notice</td>
     <td>not</td>
     <td>!ji!lu</td>
     <td>lybel.us</td>
@@ -22662,7 +22662,7 @@
     <td>p</td>
     <td></td>
     <td>4.4.2</td>
-    <td>journal,newspaper,magazine</td>
+    <td>journal, newspaper, magazine</td>
     <td>jrnl</td>
     <td>!r!bau</td>
     <td>akta-dyurna</td>
@@ -22690,12 +22690,12 @@
     <td>r</td>
     <td></td>
     <td>4.4.2, 4.7.1</td>
-    <td>rite,ceremony,ritual</td>
+    <td>rite, ceremony, ritual</td>
     <td>rytiu#l</td>
     <td>|li</td>
     <td>rit.us</td>
     <td>ritli*</td>
-    <td>ga,jil,jrm</td>
+    <td>ga, jil, jrm</td>
     <td>(vo) X1@! is a ceremony or ritual about (vo) X2:+ of culture (xy) X3s</td>
     <td></td>
   </tr>
@@ -22760,12 +22760,12 @@
     <td>q</td>
     <td></td>
     <td>4.4.3</td>
-    <td>code,cypher,encrypt</td>
+    <td>code, cypher, encrypt</td>
     <td>kod</td>
     <td>-mi|ma</td>
     <td>notae</td>
     <td>mifra*</td>
-    <td>qkia,saw</td>
+    <td>qkia, saw</td>
     <td>X1 is a coded record of plain text X2* using code X3</td>
     <td>Code is secret writing.  Use -qkia for the key.</td>
   </tr>
@@ -22835,7 +22835,7 @@
     <td>-tie|jr</td>
     <td>-</td>
     <td></td>
-    <td>xim,dre</td>
+    <td>xim, dre</td>
     <td>X1 is a label for object X2</td>
     <td>Descriptive writing on or near it.  Use -xe -bn -vbl to get its text.  Use -xim for ``name''.</td>
   </tr>
@@ -22858,7 +22858,7 @@
     <td>q</td>
     <td></td>
     <td>4.4.3</td>
-    <td>record,medium</td>
+    <td>record, medium</td>
     <td>rekrd</td>
     <td>!ji!dzai</td>
     <td>tabulae</td>
@@ -22872,7 +22872,7 @@
     <td>r</td>
     <td></td>
     <td>4.4.3, 3.7.4</td>
-    <td>datum,statistic</td>
+    <td>datum, statistic</td>
     <td>data</td>
     <td>-dz!liau</td>
     <td></td>
@@ -22919,7 +22919,7 @@
     <td>!dy|jr</td>
     <td>ynskript.yo</td>
     <td>judri*</td>
-    <td>der,vbl</td>
+    <td>der, vbl</td>
     <td>(bi) X1 is an address of object X2*</td>
     <td>A sign or text saying which X2 is chosen, often for sending messages.</td>
   </tr>
@@ -22928,12 +22928,12 @@
     <td>r</td>
     <td></td>
     <td>4.4.4</td>
-    <td>answer,question</td>
+    <td>answer, question</td>
     <td>ansr</td>
     <td>/huei/da</td>
     <td>respons.um</td>
     <td>retpi</td>
-    <td>xue,srn,stm</td>
+    <td>xue, srn, stm</td>
     <td>(bi) X1 is an answer to question (bi) X2@ from interrogator X3</td>
     <td></td>
   </tr>
@@ -22956,7 +22956,7 @@
     <td>r</td>
     <td></td>
     <td>4.4.4</td>
-    <td>mean,sign</td>
+    <td>mean, sign</td>
     <td>sain</td>
     <td>!i-sz</td>
     <td>sygnyfyk.are</td>
@@ -22989,7 +22989,7 @@
     <td>/miw.-dz</td>
     <td>nomen</td>
     <td>namci</td>
-    <td>vbl,xgnl</td>
+    <td>vbl, xgnl</td>
     <td>The referent of nameholder X1 has the name X2</td>
     <td>To assign a name to an argument you need -ga (performative), e.g. (argument) |ga -xim =(name).</td>
   </tr>
@@ -23012,7 +23012,7 @@
     <td>r</td>
     <td></td>
     <td>4.4.4, 4.5.3</td>
-    <td>date,time</td>
+    <td>date, time</td>
     <td>dat</td>
     <td>!r/ci</td>
     <td>temp.us</td>
@@ -23045,7 +23045,7 @@
     <td>-dzuw!jiau</td>
     <td>relyg.yo</td>
     <td>lidji</td>
-    <td>qew,tri</td>
+    <td>qew, tri</td>
     <td>(vo) X1 is a religious belief or practice of people (xy) X2s*</td>
     <td></td>
   </tr>
@@ -23068,7 +23068,7 @@
     <td>r</td>
     <td></td>
     <td>4.4.5</td>
-    <td>holy,sacred</td>
+    <td>holy, sacred</td>
     <td>holi</td>
     <td>!qew/jie</td>
     <td>saker</td>
@@ -23185,7 +23185,7 @@
     <td>!hua</td>
     <td>verb.um</td>
     <td>purda</td>
-    <td>sni,qury</td>
+    <td>sni, qury</td>
     <td>(bu) X1 is a word of language X2 with meaning X3</td>
     <td>X3's referent set suggests what ``-xe X1'' would produce if it were \guaspi\  --- training aid only.</td>
   </tr>
@@ -23194,7 +23194,7 @@
     <td>q</td>
     <td></td>
     <td>4.4.6</td>
-    <td>grammar,syntax</td>
+    <td>grammar, syntax</td>
     <td>gramr</td>
     <td>/uen|fa</td>
     <td>gramatyka</td>
@@ -23292,12 +23292,12 @@
     <td>p</td>
     <td></td>
     <td>4.4.7</td>
-    <td>case,parameter</td>
+    <td>case, parameter</td>
     <td>kas</td>
     <td>-</td>
     <td>kas.us</td>
     <td></td>
-    <td>gna,dlmo</td>
+    <td>gna, dlmo</td>
     <td>X1 is the first case of relation (vo) X2+</td>
     <td>Convert X2 for N'th case.  Use -qin for case occupant or actual argument.</td>
   </tr>
@@ -23334,7 +23334,7 @@
     <td>p</td>
     <td></td>
     <td>4.4.7</td>
-    <td>restrict,phrase</td>
+    <td>restrict, phrase</td>
     <td>ristrykt</td>
     <td>!qo!qien!j#.-de</td>
     <td>fyn.yre</td>
@@ -23381,7 +23381,7 @@
     <td>-</td>
     <td>-</td>
     <td></td>
-    <td>gna,skam,qin</td>
+    <td>gna, skam, qin</td>
     <td>X1 is the modal case of relation (vo) X2@! on dimension (vo) X3+</td>
     <td>-qin |dlmo for actual argument.  X3 is the modal predicate and X1 is its 2nd case after autoconversion.</td>
   </tr>
@@ -23404,7 +23404,7 @@
     <td>p</td>
     <td></td>
     <td>4.4.7</td>
-    <td>phrase,sentence,argument</td>
+    <td>phrase, sentence, argument</td>
     <td>fraiz</td>
     <td>|duan!ju</td>
     <td>lokut.yo</td>
@@ -23572,7 +23572,7 @@
     <td>p</td>
     <td></td>
     <td>4.5.2</td>
-    <td>radian,angle</td>
+    <td>radian, angle</td>
     <td>radian</td>
     <td>-</td>
     <td>-</td>
@@ -23586,7 +23586,7 @@
     <td>r</td>
     <td></td>
     <td>4.5.2</td>
-    <td>quantity,ful</td>
+    <td>quantity, ful</td>
     <td>ful</td>
     <td>|man</td>
     <td></td>
@@ -23614,7 +23614,7 @@
     <td>p</td>
     <td></td>
     <td>4.5.2</td>
-    <td>kelvin,degree</td>
+    <td>kelvin, degree</td>
     <td>kelvyn</td>
     <td>-</td>
     <td>-</td>
@@ -23712,7 +23712,7 @@
     <td>r</td>
     <td></td>
     <td>4.5.2, 4.7.3</td>
-    <td>money,piece,dollar</td>
+    <td>money, piece, dollar</td>
     <td>m#ni</td>
     <td>/cian</td>
     <td>num.us</td>
@@ -23908,7 +23908,7 @@
     <td>p</td>
     <td></td>
     <td>4.6.1, 4.6.2</td>
-    <td>embryo,fetus</td>
+    <td>embryo, fetus</td>
     <td>fit#s</td>
     <td>-tai/r</td>
     <td>fet.us</td>
@@ -24118,7 +24118,7 @@
     <td>p</td>
     <td></td>
     <td>4.6.3, 4.7.4</td>
-    <td>diplomat,consul</td>
+    <td>diplomat, consul</td>
     <td>dyplamat</td>
     <td>|liw!shr</td>
     <td>legat.us</td>
@@ -24146,7 +24146,7 @@
     <td>p</td>
     <td></td>
     <td>4.6.4</td>
-    <td>deputy,vice</td>
+    <td>deputy, vice</td>
     <td>depiuti</td>
     <td>!fu</td>
     <td>legat.us</td>
@@ -24179,7 +24179,7 @@
     <td>!ju|qou</td>
     <td>adyutor</td>
     <td>helba</td>
-    <td>fuiu,bwu</td>
+    <td>fuiu, bwu</td>
     <td>X1 is an assistant to chief X2*</td>
     <td>X1 cannot do X2's job alone.</td>
   </tr>
@@ -24230,7 +24230,7 @@
     <td>r</td>
     <td></td>
     <td>4.7.1</td>
-    <td>moral,rule</td>
+    <td>moral, rule</td>
     <td>mor#l</td>
     <td>!dau/de!liu</td>
     <td>mor.es</td>
@@ -24244,7 +24244,7 @@
     <td>r</td>
     <td></td>
     <td>4.7.1</td>
-    <td>may,entitle</td>
+    <td>may, entitle</td>
     <td>mai</td>
     <td>|ke|i</td>
     <td>fas</td>
@@ -24258,12 +24258,12 @@
     <td>r</td>
     <td></td>
     <td>4.7.1</td>
-    <td>must,rule,oblige,require,imperative</td>
+    <td>must, rule, oblige, require, imperative</td>
     <td>rul</td>
     <td>!guei/dz#</td>
     <td>leks</td>
     <td>rulni</td>
-    <td>fyn,qre,cim,dmo,fta,zno,jrm</td>
+    <td>fyn, qre, cim, dmo, fta, zno, jrm</td>
     <td>Actor X1 must do activity (vo) X2+1 by rule (bi) X3@ promulgated by authority X4</td>
     <td>Use -qre for scientific rules.</td>
   </tr>
@@ -24272,7 +24272,7 @@
     <td>q</td>
     <td></td>
     <td>4.7.1</td>
-    <td>culture,person,people</td>
+    <td>culture, person, people</td>
     <td>pipl</td>
     <td>/min</td>
     <td>kivys</td>
@@ -24328,7 +24328,7 @@
     <td>r</td>
     <td></td>
     <td>4.7.2</td>
-    <td>insure,peril,premium</td>
+    <td>insure, peril, premium</td>
     <td>ynqur</td>
     <td>|bau|sian</td>
     <td></td>
@@ -24356,12 +24356,12 @@
     <td>r</td>
     <td></td>
     <td>4.7.2, 2.4.4</td>
-    <td>trade,exchange,barter</td>
+    <td>trade, exchange, barter</td>
     <td>traid</td>
     <td>!diau!huan</td>
     <td>permut.yo</td>
     <td>batmi</td>
-    <td>ven,din</td>
+    <td>ven, din</td>
     <td>X1 trades goods X2* with other trader X3 in exchange for goods X4</td>
     <td>For barter; use -ven for selling for money.</td>
   </tr>
@@ -24370,7 +24370,7 @@
     <td>r</td>
     <td></td>
     <td>4.7.2, 2.4.4</td>
-    <td>offer,price</td>
+    <td>offer, price</td>
     <td>afr</td>
     <td>!swu</td>
     <td>of.ere</td>
@@ -24398,7 +24398,7 @@
     <td>p</td>
     <td></td>
     <td>4.7.3</td>
-    <td>coin,bill,money</td>
+    <td>coin, bill, money</td>
     <td>koyn</td>
     <td>/tuw/cien</td>
     <td>num.us</td>
@@ -24417,7 +24417,7 @@
     <td>!cian</td>
     <td>deb.ere</td>
     <td>djeta</td>
-    <td>jen,kre</td>
+    <td>jen, kre</td>
     <td>X1 owes money (xu) X2 to lender X3 for or secured by asset X4</td>
     <td>X2 is typically money but doesn't have to be.</td>
   </tr>
@@ -24426,12 +24426,12 @@
     <td>r</td>
     <td></td>
     <td>4.7.3</td>
-    <td>loan,lend,rent,interest</td>
+    <td>loan, lend, rent, interest</td>
     <td>lend</td>
     <td>!jie-cu</td>
     <td>faener.ary</td>
     <td></td>
-    <td>cia,kre</td>
+    <td>cia, kre</td>
     <td>X1 lends goods X2 to borrower X3 for IEC rent (xu) X4</td>
     <td>Includes renting, and no-fee lending.  If X2 is repeated (e.g. money), X4 is money per X2 unit, usually also per time.</td>
   </tr>
@@ -24459,7 +24459,7 @@
     <td>!jie!dai</td>
     <td>kred.ere</td>
     <td>kredi</td>
-    <td>cia,tew,jen</td>
+    <td>cia, tew, jen</td>
     <td>X1 gives amount of credit (xu) X3 to borrower X2 for interest (xu) X4</td>
     <td>Credit is a potential money loan.</td>
   </tr>
@@ -24538,7 +24538,7 @@
     <td>p</td>
     <td></td>
     <td>4.7.4</td>
-    <td>nation,citizen</td>
+    <td>nation, citizen</td>
     <td>naiqn</td>
     <td>/min/dzu</td>
     <td>kyvytas</td>
