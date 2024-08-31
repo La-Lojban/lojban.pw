@@ -37,7 +37,7 @@ Even uneducated speakers quantify phrases, that is, they say how many or how big
 
 ### Numbers, Expressions and Functions
 
-Cardinal numbers (here exemplified by _cu_ \- set of two) are defined as X1 is a set containing so many members X2. The converted predicate means ``X2 is a member of a set X1 of so many members''. Quantifiers are subordinate clauses on an argument, e.g. 
+Cardinal numbers (here exemplified by _<span class="latex">cu</span>_ \- set of two) are defined as <span class="latex">X1 is a set containing so many members X2</span>. The converted predicate means <span class="latex">X2 is a member of a set X1 of so many members</span>. Quantifiers are subordinate clauses on an argument, e.g. 
 
 > 
 
@@ -63,7 +63,7 @@ Cardinal numbers (here exemplified by _cu_ \- set of two) are defined as X1 is a
 
 
 
-How do you say the number two? Any set with two members can be put in 1-1 correspondence with any other such set, but not with a set with different count; this forms an equivalence relation that segregates sets by count. Among the ways to define the number two the one that fits best in _gua\spi_ is _xu -cu_ , designating this equivalence class. All kinds of mathematical objects, such as rational, real, complex and dimensioned numbers, can be produced by various extension maneuvers from these equivalence classes, and can be named in _gua\spi_ by _xu -N_. 
+How do you say <span class="latex">the number two</span>? Any set with two members can be put in 1-1 correspondence with any other such set, but not with a set with different count; this forms an equivalence relation that segregates sets by count. Among the ways to define <span class="latex">the number two</span> the one that fits best in _gua\spi_ is _<span class="latex">xu -cu</span>_ , designating this equivalence class. All kinds of mathematical objects, such as rational, real, complex and dimensioned numbers, can be produced by various extension maneuvers from these equivalence classes, and can be named in _gua\spi_ by _<span class="latex">xu -N</span>_. 
 
 > 
 
@@ -80,11 +80,7 @@ How do you say the number two? Any set with two members can be put in 1-1 corres
         </i>
       </td>
       <td>
-        The number 2.5 (the class of all sets of
-        <span class="latex">
-        count
-        </span>
-        2.5)
+        The number 2.5 (the class of all sets of <span class="latex">count</span> 2.5)
       </td>
     </tr>
   </tbody>
@@ -93,7 +89,7 @@ How do you say the number two? Any set with two members can be put in 1-1 corres
 
 
 
-Mathematical functions are defined with such classes as formal parameters, and hence have _xu_ on parameter cases by default --- _xu_ means the entire referent set of an argument, as a set (or class). The first case of a function is its value, and the function is defined as ``X1 is in the equivalence class that comes from doing (function) on (_xu_) X2'', possibly with several parameters. Thus a function can be used to predicate that something has a particular count or measure. _xu_ recovers the equivalence class. The abbreviation IEC, meaning in equivalence class, is used thus: X1 IEC the result of (whatever). For example, 
+Mathematical functions are defined with such classes as formal parameters, and hence have _<span class="latex">xu</span>_ on parameter cases by default --- _<span class="latex">xu</span>_ means the entire referent set of an argument, as a set (or class). The first case of a function is its value, and the function is defined as <span class="latex">X1 is in the equivalence class that comes from doing (function) on (_xu_) X2</span>, possibly with several parameters. Thus a function can be used to predicate that something has a particular count or measure. _<span class="latex">xu</span>_ recovers the equivalence class. The abbreviation <span class="latex">IEC</span>, meaning <span class="latex">in equivalence class</span>, is used thus: <span class="latex">X1 IEC the result of (whatever)</span>. For example, 
 
 > 
 
@@ -122,11 +118,11 @@ Mathematical functions are defined with such classes as formal parameters, and h
 
 This syntax for mathematical expressions is neat, compact and unambiguous. No special syntax needs to be added to _gua\spi_ beyond that already in use for ordinary arguments and sentences. 
 
-Functions always deliver their value in the first case and take arguments in the second and following cases. For the range and domain of a function F, use _xu -F_ and _xu -zu -F_ respectively. 
+Functions always deliver their value in the first case and take arguments in the second and following cases. For the range and domain of a function F, use _<span class="latex">xu -F</span>_ and _<span class="latex">xu -zu -F</span>_ respectively. 
 
 ### Ordinal Numbers and List Ends
 
-An ordinal number, cued by the quasidigit _tr_ , means ``X1 is N'th in list (_xy_) X2 starting at X3''. For example: 
+An ordinal number, cued by the quasidigit _<span class="latex">tr</span>_ , means <span class="latex">X1 is N'th in list (_xy_) X2 starting at X3</span>. For example: 
 
 > 
 
@@ -152,7 +148,7 @@ An ordinal number, cued by the quasidigit _tr_ , means ``X1 is N'th in list (_xy
 
 
 
-List ends and segments are built with _bny_ -begin and _fne_ -end restricted by a numeric predicate. Note the definition, ``X1 is the next or previous member of (xy) X2 after X3''; restrict with a numeric predicate to change to the N'th next or previous member. Without X3 the list ends are produced, but don't be confused by the polarity: _bny_ -next also means ``beginning or least when the list is ordered by size or degree; _fne_ -previous means end or most. It is clearer to use an ordinal number when you can. For example, 
+List ends and segments are built with <span class="latex">_bny_ -begin</span> and <span class="latex">_fne_ -end</span> restricted by a numeric predicate. Note the definition, <span class="latex">X1 is the next or previous member of (xy) X2 after X3</span>; restrict with a numeric predicate to change to the N'th next or previous member. Without X3 the list ends are produced, but don't be confused by the polarity: <span class="latex">_bny_ -next also means ``beginning</span> or <span class="latex">least</span> when the list is ordered by size or degree; <span class="latex">_fne_ -previous</span> means <span class="latex">end</span> or <span class="latex">most</span>. It is clearer to use an ordinal number when you can. For example, 
 
 > 
 
@@ -221,11 +217,11 @@ List ends and segments are built with _bny_ -begin and _fne_ -end restricted by 
 
 
 
-Lists are ordered with smaller or negative numbers first, so the smallest is _bny -sty -kqa_ whereas the largest would be _fne -sty -kqa_ or, sorting the list in reverse order, _/bny !sty -spl_. See also the discussion of _sym_ -chief under [Comparative and Superlative](../vocab2.html#sym-chief) for a better way to do second smallest and the like. 
+Lists are ordered with smaller or negative numbers first, so the <span class="latex">smallest</span> is _<span class="latex">bny -sty -kqa</span>_ whereas the largest would be _<span class="latex">fne -sty -kqa</span>_ or, sorting the list in reverse order, _<span class="latex">/bny !sty -spl</span>_. See also the discussion of <span class="latex">_sym_ -chief</span> under [Comparative and Superlative](../vocab2.html#sym-chief) for a better way to do <span class="latex">second smallest</span> and the like. 
 
 ### Vectors, Dates and Times
 
-You express a vector as a _stl_ -list of expressions. Units of measure applied to a vector multiply each component individually. A matrix (by components) is a list of vectors, and so on. A date or time is also a list of expressions. 
+You express a vector as a <span class="latex">_stl_ -list</span> of expressions. Units of measure applied to a vector multiply each component individually. A matrix (by components) is a list of vectors, and so on. A date or time is also a list of expressions. 
 
 > 
 
@@ -281,7 +277,7 @@ You express a vector as a _stl_ -list of expressions. Units of measure applied t
 
 
 
-The date is defined as ``X1 is the date of event (vo) X2+ starting with unit (xu-jani) X3* in calendar X4'' in which auto-conversion lets it restrict a sentence directly, while the unit can still be compounded. The first vector component has that unit, and subsequent components are multiplied by sub-units in the order years, months, days, hours, minutes, seconds. The default unit is _jani_ -years. 
+The date is defined as <span class="latex">X1 is the date of event (vo) X2+ starting with unit (xu-jani) X3* in calendar X4</span> in which auto-conversion lets it restrict a sentence directly, while the unit can still be compounded. The first vector component has that unit, and subsequent components are multiplied by sub-units in the order years, months, days, hours, minutes, seconds. The default unit is <span class="latex">_jani_ -years</span>. 
 
 ### Units of Measure
 
@@ -322,11 +318,11 @@ Units of measure are defined to multiply a number or other expression by the uni
 
 
 
-Scientific notation is used in _gua\spi_ instead of the thousands and millions typical of English and in place of the metric prefixes; it is more compact and much easier to specify syntactically. 
+<span class="latex">Scientific notation</span> is used in _gua\spi_ instead of the thousands and millions typical of English and in place of the metric prefixes; it is more compact and much easier to specify syntactically. 
 
 This definition of a unit is reasonable mathematically since a physical unit of measure can be interpreted as a basis member of a 1-dimensional vector space of things having that dimension. For example, consider mass. Take the set of all things with mass, and take equivalence classes of things with equal mass. Those equivalence classes occupy, and can be extended to create, a 1-D vector space. Any single member is a basis, and a unit is a member selected by convention, e.g. _the_ standard kilogram. Now for the word, its referent could be the unit, but you have to multiply it by the number (e.g. 2.5 times grams), which makes expressions too wordy. So the unit word is defined as a math function that multiplies by the unit. 
 
-In units of measure, the first argument occupants are not things but properties, e.g. masses of things, which are events, e.g. something is massive. The need for a predicate to go with the thing being measured is easiest to see in 3-D, e.g. the argument could be high, wide or deep but all are measured by the single dimension of meters. Then the unit becomes a modal case of the predicate. These examples show how to use MKS and provincial units: 
+In units of measure, the first argument occupants are not things but properties, e.g. masses of things, which are events, e.g. <span class="latex">something is massive</span>. The need for a predicate to go with the thing being measured is easiest to see in 3-D, e.g. the argument could be high, wide or deep but all are measured by the single dimension of meters. Then the unit becomes a modal case of the predicate. These examples show how to use MKS and provincial units: 
 
 > 
 
@@ -362,9 +358,9 @@ In units of measure, the first argument occupants are not things but properties,
 
 
 
-In particular, no quantifiable relation (e.g. heavy or ``exceeds in dimension _vo_ X3'') has an explicit case for how much it is, relying instead on the modal case of units. There is one exception: _kun_ -quantity is like a unit in providing a modal case for quantity, but provides an identity transformation, so that a question word can be dropped into the multiplicand argument without forcing a specific unit. 
+In particular, no quantifiable relation (e.g. <span class="latex">heavy</span> or <span class="latex">exceeds in dimension _vo_ X3</span>) has an explicit case for how much it is, relying instead on the modal case of units. There is one exception: <span class="latex">_kun_ -quantity</span> is like a unit in providing a modal case for quantity, but provides an identity transformation, so that a question word can be dropped into the multiplicand argument without forcing a specific unit. 
 
-To talk about the unit rather than to use it, use _``xu vo <unit>''_, as in the pound is a provincial unit. _xe vo <unit>_ will deliver the standard unit, if there is one, given suitable context cues. 
+To talk about the unit rather than to use it, use _<span class="latex">xu vo <unit></span>_, as in <span class="latex">the pound is a provincial unit</span>. _<span class="latex">xe vo <unit></span>_ will deliver the standard unit, if there is one, given suitable context cues. 
 
 Compound units, like ohms, require a product or quotient of several units. One may use the personal name units (ohm, volt, pascal, celsius) in the same manner as provincial units. 
 
@@ -704,27 +700,27 @@ Compound units, like ohms, require a product or quotient of several units. One m
 _^:i _-sfa_ !kio !ji ^tara |zey !ju_
      _It is false_ that I have your rat. This is the prototype of negation, and it is the policy in _gua\spi_ to use predicates when possible rather than prefixes or other structure words. However, the negated sentence is an extra level down, a problem for speakers. 
 _^:i _-go_ !ji /kio !tara |zey !ju_
-     I _don't_ have your rat. _go_ is a mood prefix which means that the asserted sentence is counter to fact. It is simpler and more familiar to natural language speakers than _sfa_ -false is, and it works in subordinate clauses where _sfa_ doesn't. 
+     I _don't_ have your rat. _<span class="latex">go</span>_ is a mood prefix which means that the asserted sentence is counter to fact. It is simpler and more familiar to natural language speakers than <span class="latex">_sfa_ -false</span> is, and it works in subordinate clauses where _<span class="latex">sfa</span>_ doesn't. 
 _^:i !ji /kio !tara _|go_ -zey !ju_
-    I have a rat which _isn't_ yours. _go_ can equally be used in subordinate clauses, or even in argument predicates. 
+    I have a rat which _isn't_ yours. _<span class="latex">go</span>_ can equally be used in subordinate clauses, or even in argument predicates. 
 _^:i !ji /kio _!xn_ -kseo_
-     I have _no_ cheese. _xn_ means that of the members of the full referent set of the argument, none fit in the predicated relation. Unlike the rest of the articles, this is actually a statement about the excluded members, and means the same as _^:i !ji _/go_ -kio !xa -kseo_ \--- freely translated, ``for all pieces of cheese, I don't have it''. (See De Morgan's rules below.) 
+     I have _no_ cheese. _<span class="latex">xn</span>_ means that of the members of the full referent set of the argument, none fit in the predicated relation. Unlike the rest of the articles, this is actually a statement about the excluded members, and means the same as _<span class="latex">^:i !ji _/go_ -kio !xa -kseo</span>_ \--- freely translated, <span class="latex">for all pieces of cheese, I don't have it</span>. (See De Morgan's rules below.) 
 _^:i !ji /kio !kseo _|zu -cy__
-     I have _zero_ pieces of cheese. This is the most natural form of argument negation in _Loglan_ , but _gua\spi_ looks strictly at referent sets, and if you say you have all the members of the null set, it isn't a cheesy null set --- there is only one null set. The statement is a tautology, and says nothing about cheese. Many logical fallacies, such as St. Anselm's ontological proof of the existence of God, are like this example in that they prove a statement about the members of a set which may not have any members. In _gua\spi_ use _xn_ as above. 
+     I have _zero_ pieces of cheese. This is the most natural form of argument negation in _Loglan_ , but _gua\spi_ looks strictly at referent sets, and if you say you have all the members of the null set, it isn't a cheesy null set --- there is only one null set. The statement is a tautology, and says nothing about cheese. Many logical fallacies, such as St. Anselm's ontological proof of the existence of God, are like this example in that they prove a statement about the members of a set which may not have any members. In _gua\spi_ use _<span class="latex">xn</span>_ as above. 
 _^:i !ji /kio _!ple_ !tara_
-     I have something which _isn't_ the rat. The full referent set of _ple !xe -tara_ (and therefore its referent subset) is in the complement of the referent subset of _xe -tara_. 
+     I have something which _isn't_ the rat. The full referent set of _<span class="latex">ple !xe -tara</span>_ (and therefore its referent subset) is in the complement of the referent subset of _<span class="latex">xe -tara</span>_. 
 _^:i !jw |kseo /fi _-stu_ -zao_
-     This cheese is _bad_ in flavor. In George Orwell's 1984, the language newspeak was designed to destroy the ability of people to think, and one of its design features was that negative words were eliminated; bad became ungood. _Gua\spi_ (imitating _Loglan_) offers specific negated words for major predicates when the negations are used frequently. Nonetheless, most negations will have to be done with compound words as in the next examples. Be alert for creative expression possibilities such as _``^:i !jw |kseo !fu _-zu -dyi_ ''_ \--- this cheese is _disgusting_. 
+     This cheese is _bad_ in flavor. In George Orwell's 1984, the language <span class="latex">newspeak</span> was designed to destroy the ability of people to think, and one of its design features was that negative words were eliminated; <span class="latex">bad</span> became <span class="latex">ungood</span>. _Gua\spi_ (imitating _Loglan_) offers specific negated words for major predicates when the negations are used frequently. Nonetheless, most negations will have to be done with compound words as in the next examples. Be alert for creative expression possibilities such as _<span class="latex">^:i !jw |kseo !fu _-zu -dyi_ </span>_ \--- <span class="latex">this cheese is _disgusting_ </span>. 
 _^:i !jw |kseo !fu _/gl_ -zao_
      This cheese is flavor _less_. Many dimensions are quantifiable (more or less) but unsigned, so their degree ranges from zero to larger values. This is how to assert that the degree is zero or negligible. 
 _^:i !jw |kseo !fu _/gr_ -ksi_
-     This cheese is _not_ fresh. When the dimension ranges from positive to negative values, _gr_ interchanges positive and negative. On occasion, _gl_ will also apply to indicate the zero point, though it is meaningless with _ksi_ -fresh. For extremes of unfreshness one can use _fpu_ -rotten. 
+     This cheese is _not_ fresh. When the dimension ranges from positive to negative values, _<span class="latex">gr</span>_ interchanges positive and negative. On occasion, _<span class="latex">gl</span>_ will also apply to indicate the zero point, though it is meaningless with <span class="latex">_ksi_ -fresh</span>. For extremes of unfreshness one can use <span class="latex">_fpu_ -rotten</span>. 
 _^:i !jw |kseo /fi _-vry_ -can -psl_
-     This cheese is _de_ solidifying. When a process occurs in the reverse of the usual order, _vry_ -reverse indicates this. 
+     This cheese is _de_ solidifying. When a process occurs in the reverse of the usual order, <span class="latex">_vry_ -reverse</span> indicates this. 
 
 ### De Morgan's Rules in Quantification
 
-Negation interacts with and and or, which necessarily occur in sentences which are quantified or whose arguments have multiple referents. Therefore it is advisable to digress into some elementary symbolic logic. Here is De Morgan's rule for negation, stated four ways: (A and B are sentences) 
+Negation interacts with <span class="latex">and</span> and <span class="latex">or</span>, which necessarily occur in sentences which are quantified or whose arguments have multiple referents. Therefore it is advisable to digress into some elementary symbolic logic. Here is De Morgan's rule for negation, stated four ways: (A and B are sentences) 
 
 > 
 
@@ -828,20 +824,20 @@ Negation interacts with and and or, which necessarily occur in sentences which a
 
 
 
-Remember that in logic, A or B is true if one or _both_ of the statements is true, unlike in English where the or generally excludes both being true. 
+Remember that in logic, <span class="latex">A or B</span> is true if one or _both_ of the statements is true, unlike in English where the <span class="latex">or</span> generally excludes both being true. 
 
-Universal quantification means a statement is true when applied to all members of a set, of the form ``S1 and S2 and S3 and . . .'', where S1 is the statement applied to member 1 and so on. Existential quantification means that a statement is true about at least one set member, in form ``S1 or S2 or S3 or . . .'' When such statements are negated, De Morgan's rule applies. Here are some more specific examples. 
+Universal quantification means a statement is true when applied to all members of a set, of the form <span class="latex">S1 and S2 and S3 and . . .</span>, where S1 is the statement applied to member 1 and so on. Existential quantification means that a statement is true about at least one set member, in form <span class="latex">S1 or S2 or S3 or . . .</span> When such statements are negated, De Morgan's rule applies. Here are some more specific examples. 
 
 _^:i -kio !ji ^kseo_
      I have the cheese. This will be the basic example sentence. Let us make the existential quantification more explicit: 
 _^:i -kio !ji ^kseo |zu -to_
-     I have at least one piece of cheese. Existential quantification like this means the same as ``I have piece 1 _or_ I have piece 2 _or_ . . .'' for all pieces of cheese. Now the simplest negation of this sentence is simply: 
+     I have at least one piece of cheese. Existential quantification like this means the same as <span class="latex">I have piece 1 _or_ I have piece 2 _or_ . . .</span> for all pieces of cheese. Now the simplest negation of this sentence is simply: 
 _^:i -sfa !kio !ji ^kseo |zu -to_
-     It is false that I have at least one piece of cheese. This form does not suit typical speakers; we want to negate the relation word _kio_ -possess, not the whole sentence, like this: 
+     It is false that I have at least one piece of cheese. This form does not suit typical speakers; we want to negate the relation word <span class="latex">_kio_ -possess</span>, not the whole sentence, like this: 
 _^:i !ji _/go_ -kio !xa -kseo_
-     I don't have any cheese --- I don't have piece 1 _and_ I don't have piece 2 _and_ . . . To negate (or de-negate) a disjunction (compound sentence with or), we had to change or to and, producing a universal quantification. The same principle applies when you start with a universal: 
+     I don't have any cheese --- I don't have piece 1 _and_ I don't have piece 2 _and_ . . . To negate (or de-negate) a disjunction (compound sentence with <span class="latex">or</span>), we had to change <span class="latex">or</span> to <span class="latex">and</span>, producing a universal quantification. The same principle applies when you start with a universal: 
 _^:i !xa -xe -cil /jir_
-     All the children are here --- Child 1 is here _and_ child 2 is here _and_ . . . Rather than negating the whole sentence with _sfa_ -false, let us negate the predicate _jir_ -here: 
+     All the children are here --- Child 1 is here _and_ child 2 is here _and_ . . . Rather than negating the whole sentence with <span class="latex">_sfa_ -false</span>, let us negate the predicate <span class="latex">_jir_ -here</span>: 
 _^:i -go -jir !cil _|zu -to__
      At least one of the children is not here --- Child 1 is not here _or_ child 2 is not here _or_ . . . In general, when you negate the predicate of a sentence involving quantification or multiple argument referents of any kind, you will also have to reverse the type of quantification or conjunction used. 
 
@@ -849,7 +845,7 @@ _^:i -go -jir !cil _|zu -to__
 
 ### Moods and Imperatives
 
-These are the mood prefixes in _gua\spi_ , which indicate the manner of assertion of a phrase. A top level sentence has _ge_ on it by default unless another mood prefix appears. 
+These are the mood prefixes in _gua\spi_ , which indicate the manner of assertion of a phrase. A top level sentence has _<span class="latex">ge</span>_ on it by default unless another mood prefix appears. 
 
 > 
 
@@ -994,7 +990,7 @@ These are the mood prefixes in _gua\spi_ , which indicate the manner of assertio
 
 
 
-Closely related to the mood prefixes is the aspect operator _tri_ -ritual, a sign of a performative phrase. Performative means that by uttering the words the speaker makes something true, as in a marriage vow or the illustrated naming ceremony. Note that auto-conversion is suppressed by _zo_ ; without it, the sentence would merely be the topic of a ceremony, not the ceremony itself. 
+Closely related to the mood prefixes is the aspect operator <span class="latex">_tri_ -ritual</span>, a sign of a performative phrase. <span class="latex">Performative</span> means that by uttering the words the speaker makes something true, as in a marriage vow or the illustrated naming ceremony. Note that auto-conversion is suppressed by _<span class="latex">zo</span>_ ; without it, the sentence would merely be the topic of a ceremony, not the ceremony itself. 
 
 > 
 
@@ -1024,7 +1020,7 @@ Closely related to the mood prefixes is the aspect operator _tri_ -ritual, a sig
 
 
 
-In English there is an imperative mood; however, in _gua\spi_ you make a sentence imperative by using _jo_ -you or _ja_ -we in the case for the actor, generally the first. These pronouns are distinguished from the non-imperative _ju_ -you and _je_ -we. A decoration _pli_ -please softens the command. For example, 
+In English there is an imperative mood; however, in _gua\spi_ you make a sentence imperative by using <span class="latex">_jo_ -you</span> or <span class="latex">_ja_ -we</span> in the case for the actor, generally the first. These pronouns are distinguished from the non-imperative <span class="latex">_ju_ -you</span> and <span class="latex">_je_ -we</span>. A decoration <span class="latex">_pli_ -please</span> softens the command. For example, 
 
 > 
 
@@ -1062,9 +1058,9 @@ In English there is an imperative mood; however, in _gua\spi_ you make a sentenc
 
 ### Special Features of Infinitives
 
-In an infinitive the previous argument is replicated by default as the infinitive's first argument, while the first argument of a subordinate clause comes normally from the restricted phrase. Hence numbered cases skip over the first argument, and you must use the caselink _so_ for any explicit first case in an infinitive or subordinate clause. In an infinitive with _vo_ a predicate is made out of the sub-sentence that follows, including arguments and clauses. In the rare case where a sub-phrase (like a subordinate clause) must go on the infinitive predicate rather than into the sub-sentence, you can put a prefix before _vo_ , like an article, and put the clause between the article and _vo_. 
+In an infinitive the previous argument is replicated by default as the infinitive's first argument, while the first argument of a subordinate clause comes normally from the restricted phrase. Hence numbered cases skip over the first argument, and you must use the caselink _<span class="latex">so</span>_ for any explicit first case in an infinitive or subordinate clause. In an infinitive with _<span class="latex">vo</span>_ a predicate is made out of the sub-sentence that follows, including arguments and clauses. In the rare case where a sub-phrase (like a subordinate clause) must go on the infinitive predicate rather than into the sub-sentence, you can put a prefix before _<span class="latex">vo</span>_ , like an article, and put the clause between the article and _<span class="latex">vo</span>_. 
 
-When an infinitive with _vo_ is an argument, the main sentence asserts the relation of arguments to the infinitive's events, but does not make a separate assertion of those events. To additionally assert or deny the sub-phrase, use _ge_ or _go_ respectively. For example: 
+When an infinitive with _<span class="latex">vo</span>_ is an argument, the main sentence asserts the relation of arguments to the infinitive's events, but does not make a separate assertion of those events. To additionally assert or deny the sub-phrase, use _<span class="latex">ge</span>_ or _<span class="latex">go</span>_ respectively. For example: 
 
 > 
 
@@ -1151,7 +1147,7 @@ Natural languages have various complicated arrangements to change a simple prope
 
 
 
-In the case of _sym_ -superlative it is possible for several members to be equally green, each being greener than the remaining members. Also, a numeric predicate modifying _sym_ produces the N'th greenest member. Here are some sentences with comparatives and superlatives: 
+In the case of <span class="latex">_sym_ -superlative</span> it is possible for several members to be equally green, each being greener than the remaining members. Also, a numeric predicate modifying _<span class="latex">sym</span>_ produces the N'th greenest member. Here are some sentences with comparatives and superlatives: 
 
 > 
 
@@ -1216,21 +1212,21 @@ In the case of _sym_ -superlative it is possible for several members to be equal
 _^:i !tara /crw !kseo ^:o _-kau_ !gai -tuol !kseo_
      The rat eats the cheese, and that _causes_ it to be dirty. A cause is rather mechanical. Actors with free will are rarely caused to do anything, despite their protestations. Here the rat may have free will, but the cheese, caused to be dirty, certainly does not. 
 _^:i !ji /gri !tara ^kai |kei ^kseo ^:o _-kmo_ !qma -qtu !ji ^tara_
-     I am angry at the rat for stealing the cheese, which _motivates_ me to kill the rat. The theft motivates the anger and the anger motivates the planned killing. When a free agent acts it is usually because of a motivation. Here the speaker includes _kei_ -crime in the sentence as a justification for his action. The definition of this word reminds you that it has the modal case _tue_ -culture, which presumably includes the speaker --- but not the rat. 
+     I am angry at the rat for stealing the cheese, which _motivates_ me to kill the rat. The theft motivates the anger and the anger motivates the planned killing. When a free agent acts it is usually because of a motivation. Here the speaker includes <span class="latex">_kei_ -crime</span> in the sentence as a justification for his action. The definition of this word reminds you that it has the modal case <span class="latex">_tue_ -culture</span>, which presumably includes the speaker --- but not the rat. 
 _^:i !xi -tara /qai -crw |jro ^kseo ^:o _-zu -zni_ !vel !klo ^kseo_
-     So that rats cannot eat the cheese, is the _reason_ the cheese is in a closed container. A reason is an end (ending event) or consequence that _motivates_ someone to make a starting event happen, such as keeping the cheese in the box, that will _cause_ the consequence. The concept of _zni_ -reason is rather slippery. First, the desired or planned consequence should be stated, not its inverse; _``^:i !xo -tara /gi -crw !kseo''_ = A rat might eat the cheese is the negative of the correct consequence. Second, we say in English ``past event Y is the reason for action Z'' where the _gua\spi_ definition of _zni_ -reason requires vengeance for past event Y \--- a future consequence of action Z. _vou_ = vengeance. Third, a _gul_ -rule can be said to _cause_ its reason, provided the obligees obey it. 
+     So that rats cannot eat the cheese, is the _reason_ the cheese is in a closed container. A reason is an end (ending event) or consequence that _motivates_ someone to make a starting event happen, such as keeping the cheese in the box, that will _cause_ the consequence. The concept of <span class="latex">_zni_ -reason</span> is rather slippery. First, the desired or planned consequence should be stated, not its inverse; _<span class="latex">^:i !xo -tara /gi -crw !kseo</span>_ = <span class="latex">A rat might eat the cheese</span> is the negative of the correct consequence. Second, we say in English <span class="latex">past event Y is the reason for action Z</span> where the _gua\spi_ definition of <span class="latex">_zni_ -reason</span> requires <span class="latex">vengeance for past event Y</span> --- a future consequence of action Z. _<span class="latex">vou</span>_ = <span class="latex">vengeance</span>. Third, a <span class="latex">_gul_ -rule</span> can be said to _cause_ its reason, provided the obligees obey it. 
 _^:i -dae !kara ^:o _-sny_ !pwo -cyr -xyn !xi -tara ^kara_
-     The box being open _implies_ that a rat can go into it. The relation of logical entailment has to do with definitions and theorems, not with the arrangement of the real world or the will of its actors. _zny_ -imply is the corresponding set operator: ``X1 is the union of X2 and the complement of X3'', where X2 and X3 can be infinitives with _vo_. Perhaps the distinction between _sny_ and _zny_ is merely an artifact of old _Loglan_ and English usage. We shall see if this is true as _gua\spi_ matures. 
+     The box being open _implies_ that a rat can go into it. The relation of logical entailment has to do with definitions and theorems, not with the arrangement of the real world or the will of its actors. <span class="latex">_zny_ -imply</span> is the corresponding set operator: <span class="latex">X1 is the union of X2 and the complement of X3</span>, where X2 and X3 can be infinitives with _<span class="latex">vo</span>_. Perhaps the distinction between _<span class="latex">sny</span>_ and _<span class="latex">zny</span>_ is merely an artifact of old _Loglan_ and English usage. We shall see if this is true as _gua\spi_ matures. 
 _^:i -dae !kara ^:o _-bal_ !crw |jro ^tara ^kseo_
      If the box is open _then maybe_ the rat will eat the cheese. This kind of fuzzy inference based on real-world consequences is what people use most often, rather than pure logic. 
 _^:i !ji _/gu_ -fli ^:o _-sar !gu_ -vlw !ji ^qyun_
-     _If_ I could fly I _would_ go to the moon. Necessary conditions are very commonly expressed and the logical if-then catches their true meaning poorly. Related is _sno_ -sufficient. 
+     _If_ I could fly I _would_ go to the moon. Necessary conditions are very commonly expressed and the logical <span class="latex">if-then</span> catches their true meaning poorly. Related is <span class="latex">_sno_ -sufficient</span>. 
 
 These are the sentence connectives most often seen. But the speaker may connect sentences with any useful word having suitable cases. And like all _gua\spi_ words, the sentence connectives can also be useful as arguments and as modal caselinks. 
 
 ### Logical Sentence Connectives
 
-Old _Loglan_ was intended to be a logical language, thereby to differ as much as possible from English. Therefore, one of its key features is support for what amounts to spoken symbolic logic. This feature is de-emphasized in _gua\spi_ ; in practice, what language users encounter most often, and stumble over, are Cartesian expansion of multiple arguments, non-commutative quantification, and complicated negations. These topics are well-supported in _gua\spi_. Nonetheless, set arithmetic can be performed on infinitives and the result is a set of events to which the listener's attention is drawn, just as with a more normal sentence. The logician's if-then can be realized through _zny_. Here are some examples of logical sentence connectives: 
+Old _Loglan_ was intended to be a <span class="latex">logical language</span>, thereby to differ as much as possible from English. Therefore, one of its key features is support for what amounts to spoken symbolic logic. This feature is de-emphasized in _gua\spi_ ; in practice, what language users encounter most often, and stumble over, are Cartesian expansion of multiple arguments, non-commutative quantification, and complicated negations. These topics are well-supported in _gua\spi_. Nonetheless, set arithmetic can be performed on infinitives and the result is a set of events to which the listener's attention is drawn, just as with a more normal sentence. The logician's <span class="latex">if-then</span> can be realized through _<span class="latex">zny</span>_. Here are some examples of logical sentence connectives: 
 
 > 
 
@@ -1357,33 +1353,33 @@ Many abstract comparisons (1.1.1) and set member words (1.1.3) include a dimensi
 
 
 
-_xgi_ -green is applied to both X1 and X2 in the first and second sentence. This is described as a dual merge. In the last sentence, _xgi_ -green is applied to X1 and to members of X2. The dictionary indicates all these special merges. 
+<span class="latex">_xgi_ -green</span> is applied to both X1 and X2 in the first and second sentence. This is described as a <span class="latex">dual merge</span>. In the last sentence, <span class="latex">_xgi_ -green</span> is applied to X1 and to members of X2. The dictionary indicates all these special merges. 
 
-_stl_ -list involves a dimension which is applied pairwise to members of the list, indicating the ordering. 
+<span class="latex">_stl_ -list</span> involves a dimension which is applied pairwise to members of the list, indicating the ordering. 
 
-_qaw_ -equally has a very unusual definition: the first case is an infinitive into whose first case the rest of the cases are copied in turn; the predicate means that all the arguments fit in the infinitive equally. Normally the predicate of this infinitive is provided by compounding, as in the example above. 
+<span class="latex">_qaw_ -equally</span> has a very unusual definition: the first case is an infinitive into whose first case the rest of the cases are copied in turn; the predicate means that all the arguments fit in the infinitive equally. Normally the predicate of this infinitive is provided by compounding, as in the example above. 
 
 ### Sets
 
-For several words in category 1.1.2 (sets) of the form ``(set) X1 is a (whatever)'', you can make a compound _vdr =W_ to get the members. 
+For several words in category 1.1.2 (sets) of the form <span class="latex">(set) X1 is a (whatever)</span>, you can make a compound _<span class="latex">vdr =W</span>_ to get the members. 
 
-When _xy_ (in-mind set) is the default article for a case, then if the referents are sets the default changes automatically to _xe_ (in-mind in extension). But _xu_ (whole set) does not change to _xa_ (same in extension) because in math functions the usual occupant of such a case is supposed to be a set of equal-count sets. 
+When _<span class="latex">xy</span>_ (in-mind set) is the default article for a case, then if the referents are sets the default changes automatically to _<span class="latex">xe</span>_ (in-mind in extension). But _<span class="latex">xu</span>_ (whole set) does not change to _<span class="latex">xa</span>_ (same in extension) because in math functions the usual occupant of such a case is supposed to be a set of equal-count sets. 
 
-The predicates _tla_ -set and _stl_ -list have a special arrangement of cases. They mean ``X1 is a set (in extension) or list (ordered) consisting of members X2, X3, X4, . . .'', as many cases as needed. If X2 etc. have multiple referents in extension (which must be ordered for _stl_), all referents go in the set or list. Five or six words have this as many as needed argument list. 
+The predicates <span class="latex">_tla_ -set</span> and <span class="latex">_stl_ -list</span> have a special arrangement of cases. They mean <span class="latex">X1 is a set (in extension) or list (ordered) consisting of members X2, X3, X4, . . .</span>, as many cases as needed. If X2 etc. have multiple referents in extension (which must be ordered for _<span class="latex">stl</span>_), all referents go in the set or list. Five or six words have this <span class="latex">as many as needed</span> argument list. 
 
 ### Properties
 
-Noncomparative Properties are distinguished in _Loglan_ from the Comparative Properties in that it is not useful to say that X is more <whatever> than Y; for example, X is more dead than Y. For this reason _Loglan_ Comparative Properties each have a case for the compared item and Noncomparative Properties do not. Nonetheless, many of its members may actually be used comparatively (like _ksu_ -delicious) and the distinction is rather artificial. In _gua\spi_ , Properties do not have comparative arguments. 
+Noncomparative Properties are distinguished in _Loglan_ from the Comparative Properties in that it is not useful to say that X is more <whatever> than Y; for example, X is more dead than Y. For this reason _Loglan_ Comparative Properties each have a case for the compared item and Noncomparative Properties do not. Nonetheless, many of its members may actually be used comparatively (like <span class="latex">_ksu_ -delicious</span>) and the distinction is rather artificial. In _gua\spi_ , Properties do not have comparative arguments. 
 
-Directional Properties (1.5): These are often compounded with motion words, in which the moving case is related to the destination. (Special case: _tai_ -outside merges with the start point. Examples in Compound Words.) Note that the polarity (e.g. up/down) in such compounds is often backwards from English. 
+Directional Properties (1.5): These are often compounded with motion words, in which the moving case is related to the destination. (Special case: <span class="latex">_tai_ -outside</span> merges with the start point. Examples in <span class="latex">Compound Words</span>.) Note that the polarity (e.g. up/down) in such compounds is often backwards from English. 
 
 Timelike Directional Properties (1.5.3): These are the relation words for the tense modal case. 
 
 ### Behaviors
 
-Abstract Behaviors(2.1): These have the form X1 does (vo) X2+1, in which X1 is automatically replicated as the first case of the infinitive _vo X2_. 
+Abstract Behaviors(2.1): These have the form <span class="latex">X1 does (vo) X2+1</span>, in which X1 is automatically replicated as the first case of the infinitive _<span class="latex">vo X2</span>_. 
 
-Double Actor Transitive Activities (2.1.3): These have the prototype X1 makes X2 do (vo) X3+2, in which X2 is automatically replicated as the first case of _vo X3_. 
+Double Actor Transitive Activities (2.1.3): These have the prototype <span class="latex">X1 makes X2 do (vo) X3+2</span>, in which X2 is automatically replicated as the first case of _<span class="latex">vo X3</span>_. 
 
 Games for Two Players (2.1.4): Generally you will want to use a reciprocal construction like this, unless the relation really is unilateral: 
 
@@ -1411,13 +1407,13 @@ Games for Two Players (2.1.4): Generally you will want to use a reciprocal const
 
 
 
-Motion Words (2.2): The prototype is ``X1 goes to X2 (destination) from X3 (start point) via X4 (route)''. Since motion words are complicated, effort has been put in to make them all regular. They are very frequently combined with directional properties, q.v. 
+Motion Words (2.2): The prototype is <span class="latex">X1 goes to X2 (destination) from X3 (start point) via X4 (route)</span>. Since motion words are complicated, effort has been put in to make them all regular. They are very frequently combined with directional properties, q.v. 
 
-Transitive Motion Words (2.2.3): The prototype is ``X1 makes X2 go to X3 from X4 via X5'', and again they are all regular. Directional properties relate X2, the mover, with X3, the start point. 
+Transitive Motion Words (2.2.3): The prototype is <span class="latex">X1 makes X2 go to X3 from X4 via X5</span>, and again they are all regular. Directional properties relate X2, the mover, with X3, the start point. 
 
 Quasi-motions and Routes (2.2.4): The routes are set up as regular motion words. The quasi-motions can profitably be compounded with motion words. 
 
-Communication and Mental Activity (2.3): The pattern ``X1 knows that X2 is (vo) X3+2'' is common, with X2 merging as the first case of X3. However, quite a few predicates in this category have different patterns, so watch out. 
+Communication and Mental Activity (2.3): The pattern <span class="latex">X1 knows that X2 is (vo) X3+2</span> is common, with X2 merging as the first case of X3. However, quite a few predicates in this category have different patterns, so watch out. 
 
 Transitive Activities with an Object (2.4): A number of these words have an X3 case for a tool or means which is typically filled by a transitive compound, as in: 
 
@@ -1449,13 +1445,13 @@ Transitive Activities with an Object (2.4): A number of these words have an X3 c
 
 Animals and Plants (3.1): These have just one argument. The animals and plants category has been extended to include a primitive for each phylum, or at least most of them. 
 
-Body Parts (3.2): These have the prototype ``X1 is a (part) of creature X2*''. 
+Body Parts (3.2): These have the prototype <span class="latex">X1 is a (part) of creature X2*</span>. 
 
-Materials (3.3): Almost all of these are of the form ``(xo) X1 is a serving/portion of (material)''. The _xo_ appears by default when the word is used as an argument, unless the containing sentence provides a default article other than the usual _xe_. 
+Materials (3.3): Almost all of these are of the form <span class="latex">(xo) X1 is a serving/portion of (material)</span>. The _<span class="latex">xo</span>_ appears by default when the word is used as an argument, unless the containing sentence provides a default article other than the usual _<span class="latex">xe</span>_. 
 
-Places, Seasons and Weather (3.5): Places mostly have the form ``X1 is a (place) of locality or superset X2''. 
+Places, Seasons and Weather (3.5): Places mostly have the form <span class="latex">X1 is a (place) of locality or superset X2</span>. 
 
-Containers (4.1.1) and Cooking and Eating (4.1.2): These have the form X1 is a container containing (xo) X2*. Constructions like spoonful are handled with _ful_ -contained quantity, like this: 
+Containers (4.1.1) and Cooking and Eating (4.1.2): These have the form <span class="latex">X1 is a container containing (xo) X2*</span>. Constructions like <span class="latex">spoonful</span> are handled with <span class="latex">_ful_ -contained quantity</span>, like this: 
 
 > 
 
@@ -1481,21 +1477,21 @@ Containers (4.1.1) and Cooking and Eating (4.1.2): These have the form X1 is a c
 
 
 
-Transport (4.1.4), Machines (4.1.5), and Parts of Structures (4.1.7): Many of these are like body parts: ``X1 is a (part) of structure X2*''. 
+Transport (4.1.4), Machines (4.1.5), and Parts of Structures (4.1.7): Many of these are like body parts: <span class="latex">X1 is a (part) of structure X2*</span>. 
 
-Houses (4.1.8): House parts are as above. Houses themselves have the form X1 is a (house) of resident X2*. 
+Houses (4.1.8): House parts are as above. Houses themselves have the form <span class="latex">X1 is a (house) of resident X2*</span>. 
 
-Cloth and Parts of Clothes (4.2.2): Parts are as above. Cloth has the form (xo) X1 is a portion of (cloth). 
+Cloth and Parts of Clothes (4.2.2): Parts are as above. Cloth has the form <span class="latex">(xo) X1 is a portion of (cloth)</span>. 
 
-Food (4.3): Mostly of the form ``(xo) X1 is a serving/portion of (food)''. 
+Food (4.3): Mostly of the form <span class="latex">(xo) X1 is a serving/portion of (food)</span>. 
 
-Works of Art (4.4.1): All have the form ``X1 is a (thing) about X2 created by X3 and performed by X4''. X2 may be an event or a thing; there is no _vo_ default. X4 is present only on relevant words such as _jiul_ -drama. 
+Works of Art (4.4.1): All have the form <span class="latex">X1 is a (thing) about X2 created by X3 and performed by X4</span>. X2 may be an event or a thing; there is no _<span class="latex">vo</span>_ default. X4 is present only on relevant words such as <span class="latex">_jiul_ -drama</span>. 
 
 ### Miscellaneous Categories
 
-Nationalities (4.7.1): _Loglan_ has words for nationalities, for the languages spoken there, and for the basis money unit of the nation. But only about fifteen arbitrarily chosen nations are supported, mainly European ones. _Gua\spi_ uses foreign names for these concepts, through _zina_ -nation, _gua_ -language, and _cni_ -money. _spi_ -person translates the usual self-referential word in primitive languages for ethnic members of that culture. 
+Nationalities (4.7.1): _Loglan_ has words for nationalities, for the languages spoken there, and for the basis money unit of the nation. But only about fifteen arbitrarily chosen nations are supported, mainly European ones. _Gua\spi_ uses foreign names for these concepts, through <span class="latex">_zina_ -nation</span>, <span class="latex">_gua_ -language</span>, and <span class="latex">_cni_ -money</span>. <span class="latex">_spi_ -person</span> translates the usual self-referential word in primitive languages for ethnic members of that culture. 
 
-Business (4.7.3): A number of these words have the form ``X1 (sells) goods or services X2 to other trader X3 for amount of money (xu) X4''. 
+Business (4.7.3): A number of these words have the form <span class="latex">X1 (sells) goods or services X2 to other trader X3 for amount of money (xu) X4</span>. 
 
 ## Most Frequent Words
 
@@ -1659,10 +1655,7 @@ So far, the corpus of _gua\spi_ text available for analysis consists of 3140 wor
         28
       </td>
       <td>
-        Article
-        <span class="latex">
-        any
-        </span>
+        Article <span class="latex">any</span>
       </td>
     </tr>
     <tr>
@@ -1739,10 +1732,7 @@ So far, the corpus of _gua\spi_ text available for analysis consists of 3140 wor
         17
       </td>
       <td>
-        Article
-        <span class="latex">
-        typical
-        </span>
+        Article <span class="latex">typical</span>
       </td>
     </tr>
     <tr>
@@ -1797,10 +1787,7 @@ So far, the corpus of _gua\spi_ text available for analysis consists of 3140 wor
         11
       </td>
       <td>
-        Article
-        <span class="latex">
-        all
-        </span>
+        Article <span class="latex">all</span>
       </td>
     </tr>
     <tr>

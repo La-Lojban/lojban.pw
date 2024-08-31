@@ -98,7 +98,7 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
         Compound
       </td>
       <td>
-        = `-' | `='
+        = <span class="latex">-</span> | <span class="latex">=</span>
       </td>
     </tr>
     <tr>
@@ -106,7 +106,7 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
         Sametone
       </td>
       <td>
-        = `^'
+        = <span class="latex">^</span>
       </td>
     </tr>
     <tr>
@@ -114,7 +114,7 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
         Down1
       </td>
       <td>
-        = `!' | `|'
+        = <span class="latex">!</span> | <span class="latex">|</span>
       </td>
     </tr>
     <tr>
@@ -122,12 +122,12 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
         Up1
       </td>
       <td>
-        = `/'
+        = <span class="latex">/</span>
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        ; Grammar.  LHS `-' symbol indicates which end has a tone.
+        ; Grammar.  LHS <span class="latex">-</span> symbol indicates which end has a tone.
       </td>
     </tr>
     <tr>
@@ -137,15 +137,11 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
       <td>
         = (subset of Word, e.g.
         <i>
-        <span class="latex">
-        vo
-        </span>
+        <span class="latex">vo</span>
         </i>
         or
         <i>
-        <span class="latex">
-        zu
-        </span>
+        <span class="latex">zu</span>
         </i>
         )
       </td>
@@ -157,15 +153,11 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
       <td>
         = (subset of Word, e.g.
         <i>
-        <span class="latex">
-        tara
-        </span>
+        <span class="latex">tara</span>
         </i>
         or
         <i>
-        <span class="latex">
-        crw
-        </span>
+        <span class="latex">crw</span>
         </i>
         )
       </td>
@@ -264,7 +256,7 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
         Args2-
       </td>
       <td>
-        = Phrase `!' `fu'
+        = Phrase <span class="latex">!</span> <span class="latex">fu</span>
       </td>
     </tr>
     <tr>
@@ -285,9 +277,7 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
       <td colspan="2">
         ; These add the effect of
         <i>
-        <span class="latex">
-        fi
-        </span>
+        <span class="latex">fi</span>
         </i>
         .
       </td>
@@ -319,14 +309,14 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
         After1
       </td>
       <td>
-        | After1 Down1 `fi' `-' After1
+        | After1 Down1 <span class="latex">fi</span> <span class="latex">-</span> After1
       </td>
     </tr>
     <tr>
       <td>
       </td>
       <td>
-        | After1 `-' `fi' Down1 After1
+        | After1 <span class="latex">-</span> <span class="latex">fi</span> Down1 After1
       </td>
     </tr>
     <tr>
@@ -341,14 +331,14 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
         -Preargs-
       </td>
       <td>
-        = Down1 After1 `/fi' Preargs
+        = Down1 After1 <span class="latex">/fi</span> Preargs
       </td>
     </tr>
     <tr>
       <td>
       </td>
       <td>
-        | Down1 After1 Down1 `fi' `/' Args1
+        | Down1 After1 Down1 <span class="latex">fi</span> <span class="latex">/</span> Args1
       </td>
     </tr>
     <tr>
@@ -363,11 +353,9 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
         -Sentstart
       </td>
       <td>
-        = `^' (choice of words such as
+        = <span class="latex">^</span> (choice of words such as
         <i>
-        <span class="latex">
-        :i
-        </span>
+        <span class="latex">:i</span>
         </i>
         )
       </td>
@@ -425,18 +413,18 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
 
  
 
-Discourse is the root grameme. Grammar for quoted non-_gua\spi_ text is not shown, but foreign predicates and quoted _gua\spi_ are processed by this grammar and are put together at the organizational syntax level. 
+<span class="latex">Discourse</span> is the root grameme. Grammar for quoted non-_gua\spi_ text is not shown, but foreign predicates and quoted _gua\spi_ are processed by this grammar and are put together at the organizational syntax level. 
 
 ## Organizational Transformations
 
 Formal syntax is finished at this point, and transformation begins, in this sequence of steps: 
 
-  * Transform the tone `|' into _!vu_ -subordinate clause. 
+  * Transform the tone <span class="latex">|</span> into <span class="latex">_!vu_ -subordinate clause</span>. 
   * Do the transformations for retroactive downjumps and for error correction (_fa_). 
-  * Distinguish arguments from sentences. Insert _!so -jy_ as the placeholder for arguments' open first cases. 
+  * Distinguish arguments from sentences. Insert _<span class="latex">!so -jy</span>_ as the placeholder for arguments' open first cases. 
   * Re-order argument lists according to caselinks and conversions. Insert placeholders for missing cases. 
-  * Look up each word in the dictionary. Insert default articles, typically _xe_ -the, before arguments. Insert default _vo_. 
-  * In cases of compounding, replicate argument lists for parallel arguments; insert _vo_ for compound infinitives; or demote a compound object into the argument list. 
+  * Look up each word in the dictionary. Insert default articles, typically <span class="latex">_xe_ -the</span>, before arguments. Insert default _<span class="latex">vo</span>_. 
+  * In cases of compounding, replicate argument lists for parallel arguments; insert _<span class="latex">vo</span>_ for compound infinitives; or demote a compound object into the argument list. 
   * Replicate main phrase arguments into infinitives. 
   * Substitute the antecedents for phrase-relative, modal and question pronouns. The antecedent of a question pronoun is found in the future answer. 
   * Deal with modal case stack operations. 
@@ -459,7 +447,7 @@ I hope this brief introduction to _gua\spi_ has whetted your appetite to learn m
   * [NB2] Brown, James C.  A Proposed Revision in the Structure of Loglan Words  (Notebook No. 2). The Loglan Institute, Inc., Gainesville, Fla., 1982. 
   * [TL43] Parks-Clifford, J.  Supplement to Loglan 1.  \sl The Loglanist 4, 3 (Nov. 1980). 
   * [La] Information about _Loglan_ may be obtained from The Loglan Institute, Inc., 1701 NE 75th Street, Gainesville, FL 32601. 
-  * [Lja] A modernized version of _Loglan_ , much closer to the original _Loglan_ than _gua\spi_ , is _Lojban_. Information is available from The Logical Languages Group, 2904 Beau Lane, Fairfax, VA 22031, or lojbab@lojban.org. For on-line access, send a message whose body is index lojban to listserv@hebrew.cc.columbia.edu. 
+  * [Lja] A modernized version of _Loglan_ , much closer to the original _Loglan_ than _gua\spi_ , is _Lojban_. Information is available from The Logical Languages Group, 2904 Beau Lane, Fairfax, VA 22031, or lojbab@lojban.org. For on-line access, send a message whose body is <span class="latex">index lojban</span> to listserv@hebrew.cc.columbia.edu. 
   * [Ga] Please contact the author at UCLA Department of Mathematics, Los Angeles, CA 90024-1555, or e-mail to jimc@math.ucla.edu. 
 
 
