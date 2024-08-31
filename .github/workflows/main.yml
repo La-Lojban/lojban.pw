@@ -2,9 +2,9 @@ name: CI/CD with Docker
 
 on:
   push:
-    branches: [ react ]
+    branches: [ main ]
   pull_request:
-    branches: [ react ]  # Added to run checks on PRs
+    branches: [ main ]  # Added to run checks on PRs
 
 # Limit concurrent runs of this workflow
 concurrency:
@@ -89,7 +89,7 @@ jobs:
         retention-days: 1
 
   deploy:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/react'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
