@@ -20,7 +20,6 @@ import { TPost } from "../../types/post";
 import { site_title } from "../../config/config";
 import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import { retainStringValues } from "../../lib/utils";
-import NavigationWidget from "../../components/navigation";
 
 type Props = {
   post: TPost;
