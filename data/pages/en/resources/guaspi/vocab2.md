@@ -1381,9 +1381,9 @@ Timelike Directional Properties (1.5.3): These are the relation words for the te
 
 ### Behaviors
 
-Abstract Behaviors(2.1): These have the form X1 does o X2+1, in which X1 is automatically replicated as the first case of the infinitive _vo X2_. 
+Abstract Behaviors(2.1): These have the form X1 does (vo) X2+1, in which X1 is automatically replicated as the first case of the infinitive _vo X2_. 
 
-Double Actor Transitive Activities (2.1.3): These have the prototype X1 makes X2 do o X3+2, in which X2 is automatically replicated as the first case of _vo X3_. 
+Double Actor Transitive Activities (2.1.3): These have the prototype X1 makes X2 do (vo) X3+2, in which X2 is automatically replicated as the first case of _vo X3_. 
 
 Games for Two Players (2.1.4): Generally you will want to use a reciprocal construction like this, unless the relation really is unilateral: 
 
