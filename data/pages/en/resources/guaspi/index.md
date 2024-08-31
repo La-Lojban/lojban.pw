@@ -1,23 +1,21 @@
-# *Gua\\spi* Index 
+---
+"title": "Gua\\spi Index"
+---
 
-### James F. Carter 
+# _Gua\spi_ Index
 
-> Abstract: *Gua\\spi* is an artificial language suited to both humans
-> and machines. It can express real human conversation. Yet the
-> vocabulary and the grammar are two and three orders of magnitude
-> simpler than English. Word and phrase meanings are defined through
-> predicate calculus and hence can be represented and manipulated
-> efficiently and unambiguously by programs (and people).
+### James F. Carter
 
--   [Introduction to *Gua\\spi*](../acmpaper)
--   [*Gua\\spi* Reference Manual](../guarefmn)
--   [*Gua\\spi* Dictionary](../dictintr) (introduction only, with case
-    merge symbols)
--   [*Gua\\spi* Vocabulary Lookup](../xankua)
--   [TeX Documents and Miscellaneous Non-HTML Stuff](../old)
+> Abstract: _Gua\spi_ is an artificial language suited to both humans and machines. It can express real human conversation. Yet the vocabulary and the grammar are two and three orders of magnitude simpler than English. Word and phrase meanings are defined through predicate calculus and hence can be represented and manipulated efficiently and unambiguously by programs (and people). 
 
-If you would like to modify the vocabulary CGI script for another
-language, use [this link.](xankuacgi.txt)
+  * [Introduction to _Gua\spi_](../acmpaper)
+  * [_Gua\spi_ Reference Manual](../guarefmn)
+  * [_Gua\spi_ Dictionary](../dictintr) (introduction only, with case merge symbols) 
+  * [_Gua\spi_ Vocabulary Lookup](../xankua)
+  * [TeX Documents and Miscellaneous Non-HTML Stuff](../old)
 
-To download the dictionary in machine readable form, use [this
-link.](xankua.dat){type="text/plain"}
+
+
+If you would like to modify the vocabulary CGI script for another language, use [this link.](../xankuacgi.txt)
+
+To download the dictionary in machine readable form, use [this link.](../xankua.dat)

@@ -13,6 +13,8 @@ const PostBody = ({
   siteSection,
 }: PostProps<any>) => {
   const content = buildDOMFromJSONBasic(post.content, { state, setState });
+  const isBookPath = post.slug[1] === "books";
+
   return (
     <>
       <div
@@ -21,7 +23,15 @@ const PostBody = ({
         }bg-gray-100`}
       >
         <PostHeader post={post} siteSection={siteSection} />
-        <div className="lojbo simple_blockquotes"></div>
+        <div
+          className={[
+            "simple_blockquotes",
+            "lojbo",
+            isBookPath ? "cukta" : null,
+          ]
+            .filter(Boolean)
+            .join(" ")}
+        ></div>
         {content}
         {posts && posts.length > 0 && <AllStories posts={posts} lang={lang} />}
         {/* <div dangerouslySetInnerHTML={{ __html: post?.content }} /> */}

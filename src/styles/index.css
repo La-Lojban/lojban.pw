@@ -397,7 +397,7 @@ article blockquote p {
   @apply font-normal mt-0 mb-0;
 }
 
-article .simple_blockquotes ~ blockquote p > *:not(span) {
+article .cukta.simple_blockquotes ~ blockquote p > *:not(span) {
   @apply block;
 }
 
