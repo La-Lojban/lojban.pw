@@ -1,8 +1,8 @@
-[Next](./cases)
+[Next](../cases)
 
-[Previous](./guarefmn)
+[Previous](../guarefmn)
 
-[Contents](./guarefmn)
+[Contents](../guarefmn)
 
 ------------------------------------------------------------------------
 
@@ -699,8 +699,8 @@ than natural language.
 
 ------------------------------------------------------------------------
 
-[Next](./cases)
+[Next](../cases)
 
-[Previous](./guarefmn)
+[Previous](../guarefmn)
 
-[Contents](./guarefmn)
+[Contents](../guarefmn)

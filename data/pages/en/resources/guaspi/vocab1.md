@@ -1,8 +1,8 @@
-[Next](./vocab2)
+[Next](../vocab2)
 
-[Previous](./semantic)
+[Previous](../semantic)
 
-[Contents](./guarefmn)
+[Contents](../guarefmn)
 
 ------------------------------------------------------------------------
 
@@ -1282,8 +1282,8 @@ I have some food, *that is*, an apple
 
 ------------------------------------------------------------------------
 
-[Next](./vocab2)
+[Next](../vocab2)
 
-[Previous](./semantic)
+[Previous](../semantic)
 
-[Contents](./guarefmn)
+[Contents](../guarefmn)
