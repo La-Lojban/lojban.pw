@@ -102,7 +102,7 @@ const Layout = ({
         <Footer />
 
         <NavigationWidget
-          parentSlug={post?.parentSlug}
+          firstSiblingSlug={post?.firstSiblingSlug}
           isVisible={isVisible}
           scrollToTop={scrollToTop}
           prevPage={prevPage}

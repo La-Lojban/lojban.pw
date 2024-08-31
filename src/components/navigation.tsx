@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 type NavigationWidgetProps = {
-  parentSlug?: string;
+  firstSiblingSlug?: string;
   prevPage?: string | null;
   nextPage?: string | null;
   currentPageNumber?: number;
@@ -20,7 +20,7 @@ type NavigationWidgetProps = {
 };
 
 const NavigationWidget: React.FC<NavigationWidgetProps> = ({
-  parentSlug,
+  firstSiblingSlug,
   prevPage,
   nextPage,
   currentPageNumber,
@@ -32,16 +32,16 @@ const NavigationWidget: React.FC<NavigationWidgetProps> = ({
   if (!isVisible || !currentLanguage) return <></>;
 
   const hasNavigation =
-    prevPage || nextPage || parentSlug || currentPageNumber !== null;
+    prevPage || nextPage || firstSiblingSlug || currentPageNumber !== null;
 
   return (
     <div className="fixed bottom-9 right-4 md:right-auto z-50 md:left-1/2 md:transform md:-translate-x-1/2">
       <div className="h-12 flex">
         {hasNavigation && (
           <div className="bg-white rounded-lg shadow-md p-2 flex items-center space-x-4 mr-6 md:mr-12">
-            {parentSlug && parentSlug !== currentSlug?.join("/") && (
+            {firstSiblingSlug && firstSiblingSlug !== currentSlug?.join("/") && (
               <Link
-                href={"/" + parentSlug}
+                href={"/" + firstSiblingSlug}
                 className="text-brown-400 hover:text-brown-600 transition-colors mr-4"
               >
                 <FontAwesomeIcon className="w-6" icon={faBackwardFast} />
