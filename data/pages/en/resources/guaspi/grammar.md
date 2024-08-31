@@ -75,7 +75,7 @@ Organization
 Semantics
      Giving meaning to syntactic structures. 
 
-Natural language syntax is extremely complicated because the syntax expresses actual meanings such as tenses and numbers. In _gua\spi_ the first three levels are independent of the meaning of the words. This makes them less interesting than jewels like the ``perfective aspect'' of Russian or the ``long object case'' of Navajo, but it makes them much simpler and much easier to learn and use. 
+Natural language syntax is extremely complicated because the syntax expresses actual meanings such as tenses and numbers. In _gua\spi_ the first three levels are independent of the meaning of the words. This makes them less interesting than jewels like the perfective aspect of Russian or the long object case of Navajo, but it makes them much simpler and much easier to learn and use. 
 
 # Morphology: What is a Word
 
@@ -455,13 +455,13 @@ Phonemes can be distinguished by where the tongue is placed to make them, whethe
 
  
 
-> Table 2 [Pronunciation]. How to pronounce _gua\spi_ phonemes. Nonstandard C's are shown; C's without examples are as in English. Standard radio broadcast accent is close to correct for the V's; Spanish is closer. Pronounce the vowels as one sound, not a glide between two sounds as in ``eye''. 
+> Table 2 [Pronunciation]. How to pronounce _gua\spi_ phonemes. Nonstandard C's are shown; C's without examples are as in English. Standard radio broadcast accent is close to correct for the V's; Spanish is closer. Pronounce the vowels as one sound, not a glide between two sounds as in eye. 
 
 * * *
 
-The sound `#' or `uh' is common in English; all vowel letters are sometimes pronounced `#'. The `a' of ``among'' is a good example. This sound is called ``schwa''; that German name is pronounced (with _gua\spi_ letters) ``sqv#''. `#' is not used in regular words; its purpose is to break up CC pairs that a particular speaker finds hard to pronounce, since virtually all speakers will be able to handle C#C. It is to be ignored and it is only written in explanations like this one. Though normally considered a vowel, it is in the C class because it occurs among C's, and a word is defined as some C's followed by some V's. 
+The sound `#' or `uh' is common in English; all vowel letters are sometimes pronounced `#'. The `a' of among is a good example. This sound is called schwa; that German name is pronounced (with _gua\spi_ letters) sqv#. `#' is not used in regular words; its purpose is to break up CC pairs that a particular speaker finds hard to pronounce, since virtually all speakers will be able to handle C#C. It is to be ignored and it is only written in explanations like this one. Though normally considered a vowel, it is in the C class because it occurs among C's, and a word is defined as some C's followed by some V's. 
 
-The glottal stop `:' pronounced alone is a sudden (plosive) `#', but it is normally followed by a V so that it sounds like a brief pause after which the V comes on. In many English dialects, as in _gua\spi_ , it is found between a vowel-final and vowel-initial word, like ``the:apple'', while the Cockney dialect uses it much more extensively. The glottal stop is not used in regular words; its place is at the beginning of each sentence start word, and in vowel-initial foreign words. 
+The glottal stop `:' pronounced alone is a sudden (plosive) `#', but it is normally followed by a V so that it sounds like a brief pause after which the V comes on. In many English dialects, as in _gua\spi_ , it is found between a vowel-final and vowel-initial word, like the:apple, while the Cockney dialect uses it much more extensively. The glottal stop is not used in regular words; its place is at the beginning of each sentence start word, and in vowel-initial foreign words. 
 
 English has thirteen subtly different vowels plus four official diphthongs but only five letters to represent them. _Gua\spi_ uses only six easily distinguished vowel sounds, recruiting Y for one of them, and adds some vowel-like sounds which are considered consonants in English. Unfortunately, many regional accents of English turn simple vowels into diphthongs, invalidating the example words given in [Table 2 [Pronuncation]](grammar.html#Pronunciation). Other accents transform sounds beyond the bounds that a _gua\spi_ speaker can recognize. If you speak with a regional accent, please use the vowel sounds that you can hear on television or radio (American or British will both work). Particularly troublesome examples, rendered with _gua\spi_ letters, are shown in this table: 
 
@@ -522,7 +522,11 @@ English has thirteen subtly different vowels plus four official diphthongs but o
         f%thA
       </td>
       <td>
-        (% represents `a' in ``cat'')
+        (% represents `a' in
+        <span class="latex">
+        cat
+        </span>
+        )
       </td>
     </tr>
     <tr>
@@ -543,7 +547,7 @@ Japanese speakers are famous for producing `l' and `r' that Europeans cannot dis
 
 Preliminary experience shows that the errors English-speaking beginners make most often are to interchange `q' with `c', `x' with `j', and `i' with `y'; and to pronounce `w' as `oo' (should be `ng'). 
 
-Written blanks have no sound, and are optional. In this document a blank usually comes before each word (except in the phrase ``_gua\spi_ ''), although in running text it looks nicer to omit blanks before the tone `-'. There is no distinction between upper and lower case. The tones (described next) make punctuation unnecessary. There are no periods at the ends of sentences; however, each sentence start word begins with a glottal stop, written as a colon. This colon is a letter, not a punctuation. 
+Written blanks have no sound, and are optional. In this document a blank usually comes before each word (except in the phrase _gua\spi_), although in running text it looks nicer to omit blanks before the tone `-'. There is no distinction between upper and lower case. The tones (described next) make punctuation unnecessary. There are no periods at the ends of sentences; however, each sentence start word begins with a glottal stop, written as a colon. This colon is a letter, not a punctuation. 
 
 A feature of _gua\spi_ (like Loglan before it, and unlike English) is that writing and speech are isomorphic, that is, each letter has a single phoneme (sound) and each phoneme has a single letter (with trivial exceptions), so that each spoken text can be spelled easily and without ambiguity, and each written text can be read off equally easily. 
 
@@ -553,9 +557,9 @@ The job of grammar is to stick words together into phrases. The grammar does not
 
 ## Parse Tree
 
-The grammar is stated in Backus-Naur form in [Section [Backus]](conclusn.html#Backus). For grammatical purposes there is only one kind of phrase (though distinctions are made at the organizational level), but words have five categories: the two words _``fu''_ and _``fi''_ , sentence start words, other prefixes, and everything else. The main part of a phrase is a sequence of one or more words collectively called the ``phrase predicate''; any prefixes in this must come first. After any of the prefixes or after the whole predicate the sub-phrases are interspersed. They, of course, have their own prefixes, predicates and sub-phrases. 
+The grammar is stated in Backus-Naur form in [Section [Backus]](conclusn.html#Backus). For grammatical purposes there is only one kind of phrase (though distinctions are made at the organizational level), but words have five categories: the two words _fu_ and _fi_ , sentence start words, other prefixes, and everything else. The main part of a phrase is a sequence of one or more words collectively called the phrase predicate; any prefixes in this must come first. After any of the prefixes or after the whole predicate the sub-phrases are interspersed. They, of course, have their own prefixes, predicates and sub-phrases. 
 
-Let us understand phrases with the help of the example in the following figure, showing the ``parse tree'' of a simple sentence. The root phrase is at the top; parse trees grow upside down. Sub-phrases with their own predicates come at the next lower level. These in turn may have their own sub-phrases. Each phrase is at a certain level and it attaches to the most recent phrase at the next higher level. The tones (see [Table 4 [Tones]](grammar.html#Tones)) show the level of each word relative to the one before it. 
+Let us understand phrases with the help of the example in the following figure, showing the parse tree of a simple sentence. The root phrase is at the top; parse trees grow upside down. Sub-phrases with their own predicates come at the next lower level. These in turn may have their own sub-phrases. Each phrase is at a certain level and it attaches to the most recent phrase at the next higher level. The tones (see [Table 4 [Tones]](grammar.html#Tones)) show the level of each word relative to the one before it. 
 
 * * *
 
@@ -603,13 +607,13 @@ Let us understand phrases with the help of the example in the following figure, 
 
 * * *
 
-The root phrase predicate of the example sentence is ``devour'' (violently eat), and the start word is at the same level. ``Rat'', attaching to ``violent'', is therefore at the next level below the start word, indicated by `!'. ``Violent'' is at the level above ``rat'', indicated by `/'. ``Eat'' is attached to ``violent'' in a compound, indicated by `-'. For grammatical purposes the pair of words, plus the start word, form the root phrase predicate, although later at the organizational syntax level ``eat'' will be split from ``violent''. Like ``rat'', ``cheese'' attaches below ``eat'' (`!'). The next phrase also attaches to ``eat'', indicated by `^', because ``eat'' is the most recent word at the next level up. It is a subordinate clause, indicated by the prefix _``vu''_ , that tells what was ``used'' to eat; in a similar tone pattern ``fork'' and ``knife'' both attach to ``using''. ``Using'' and ``knife'' attach to their prefixes with compounding tone `-'. To summarize, words attach to the previous word at the next higher level, and the tones of _gua\spi_ represent the attachment level of the present word relative to the one just before it. Every word has such a tone. 
+The root phrase predicate of the example sentence is devour (violently eat), and the start word is at the same level. Rat, attaching to violent, is therefore at the next level below the start word, indicated by `!'. Violent is at the level above rat, indicated by `/'. Eat is attached to violent in a compound, indicated by `-'. For grammatical purposes the pair of words, plus the start word, form the root phrase predicate, although later at the organizational syntax level eat will be split from violent. Like rat, cheese attaches below eat (`!'). The next phrase also attaches to eat, indicated by `^', because eat is the most recent word at the next level up. It is a subordinate clause, indicated by the prefix _vu_ , that tells what was used to eat; in a similar tone pattern fork and knife both attach to using. Using and knife attach to their prefixes with compounding tone `-'. To summarize, words attach to the previous word at the next higher level, and the tones of _gua\spi_ represent the attachment level of the present word relative to the one just before it. Every word has such a tone. 
 
 ## The Tones
 
 The tones are the most terrifying aspect of _gua\spi_ for speakers of European languages. Please remember that over a billion people in China and Southeast Asia speak tonal languages. If they can do it, so can you. 
 
-A tone is a specific change in pitch or vocal frequency. In English a falling tone marks the end of the sentence, a rising tone marks a question, a down-up combination is a kind of verbal comma, and most of the sentence is said at a fairly even tone. Chinese has similar tones but each word has one and the tones distinguish between meanings, e.g. _``-ma''_ (high even tone) means ``mother'' while _``|ma''_ (down-up) means ``horse''. _Gua\spi_ is intermediate in its use of tones: each word has a tone, but rather than affecting the meaning of the word it tells which neighboring word it attaches to. The tones are shown in this table: 
+A tone is a specific change in pitch or vocal frequency. In English a falling tone marks the end of the sentence, a rising tone marks a question, a down-up combination is a kind of verbal comma, and most of the sentence is said at a fairly even tone. Chinese has similar tones but each word has one and the tones distinguish between meanings, e.g. _-ma_ (high even tone) means mother while _|ma_ (down-up) means horse. _Gua\spi_ is intermediate in its use of tones: each word has a tone, but rather than affecting the meaning of the word it tells which neighboring word it attaches to. The tones are shown in this table: 
 
 * * *
 
@@ -764,7 +768,7 @@ A tone is a specific change in pitch or vocal frequency. In English a falling to
 
  
 
-> Table 4 [Tones]. Sounds and interpretations of the tones. ``Level'' refers to the parse tree level of the word with that tone, relative to the structure before it. ``Type'' indicates the organizational type of that word or phrase. The first set of symbols shown, ascii characters, is preferred but the second set can substitute on a manual typewriter. In this paper, `!' is used instead of `\' for convenience in typesetting. 
+> Table 4 [Tones]. Sounds and interpretations of the tones. Level refers to the parse tree level of the word with that tone, relative to the structure before it. Type indicates the organizational type of that word or phrase. The first set of symbols shown, ascii characters, is preferred but the second set can substitute on a manual typewriter. In this paper, `!' is used instead of `\' for convenience in typesetting. 
 
 * * *
 
@@ -772,9 +776,9 @@ You don't speak this language, you sing it. Chinese speakers will have no proble
 
 Tones `-' and `=' join adjacent words of a compound phrase predicate. Tones `|' and `!' start a sub-phrase of the current phrase. Tone `^' closes the current sub-phrase and starts a new one, part of the same containing phrase. Tone `/' closes a sub-phrase and resumes the predicate of the containing phrase, if among its prefixes, or otherwise starts a new phrase at the higher level. Distinctions within these tone classes are important later but do not affect the grammar. 
 
-A sentence start prefix with up-down tone such as _``^:i''_ is automatically at root level. _``fi''_ jumps to the root level or one or two levels lower without ending the sentence, depending on its tone selected from `!', `^' or `/', as if an imaginary level 1 word preceeded it. If a word is supposed to be more than one level higher (closer to the root) than the previous one but _``fi''_ does not apply, you use _``fu''_ to raise the level count by two to four depending on its tone, selected from `!', `^' or `/' respectively. You can repeat _``fu''_ for even higher levels, but this is rarely necessary since from level 7 or less you can reach any level from 0 (root) to 8 in one jump. On the level-shifting prefixes the tone `-' usually can substitute for `^', except after a foreign word, name or digit, where the prefix tends to get included in the previous structure. 
+A sentence start prefix with up-down tone such as _^:i_ is automatically at root level. _fi_ jumps to the root level or one or two levels lower without ending the sentence, depending on its tone selected from `!', `^' or `/', as if an imaginary level 1 word preceeded it. If a word is supposed to be more than one level higher (closer to the root) than the previous one but _fi_ does not apply, you use _fu_ to raise the level count by two to four depending on its tone, selected from `!', `^' or `/' respectively. You can repeat _fu_ for even higher levels, but this is rarely necessary since from level 7 or less you can reach any level from 0 (root) to 8 in one jump. On the level-shifting prefixes the tone `-' usually can substitute for `^', except after a foreign word, name or digit, where the prefix tends to get included in the previous structure. 
 
-Sentence start words like _``:i''_ and other prefix words like _``se''_ or _``vu''_ come before and at the same level as the predicate of their phrase. The predicate normally has compounding (high even) tone unless some of its arguments precede it, and the linked predicate is considered to be a compound word with the prefix, whether or not arguments come between them. There may be several prefixes in a row before the predicate, all at the same level and linked in sequence. The one closest to the predicate has effect first. 
+Sentence start words like _:i_ and other prefix words like _se_ or _vu_ come before and at the same level as the predicate of their phrase. The predicate normally has compounding (high even) tone unless some of its arguments precede it, and the linked predicate is considered to be a compound word with the prefix, whether or not arguments come between them. There may be several prefixes in a row before the predicate, all at the same level and linked in sequence. The one closest to the predicate has effect first. 
 
 As befits a grammatical element, the tone of a word implies what kind of structure is attaching. In particular, the third tone, down-up, `|', is specifically for the very common case of putting a subordinate clause one level down from the previous word. 
 

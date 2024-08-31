@@ -137,11 +137,15 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
       <td>
         = (subset of Word, e.g.
         <i>
-        ``vo''
+        <span class="latex">
+        vo
+        </span>
         </i>
         or
         <i>
-        ``zu''
+        <span class="latex">
+        zu
+        </span>
         </i>
         )
       </td>
@@ -153,11 +157,15 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
       <td>
         = (subset of Word, e.g.
         <i>
-        ``tara''
+        <span class="latex">
+        tara
+        </span>
         </i>
         or
         <i>
-        ``crw''
+        <span class="latex">
+        crw
+        </span>
         </i>
         )
       </td>
@@ -277,7 +285,9 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
       <td colspan="2">
         ; These add the effect of
         <i>
-        ``fi''
+        <span class="latex">
+        fi
+        </span>
         </i>
         .
       </td>
@@ -355,7 +365,9 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
       <td>
         = `^' (choice of words such as
         <i>
-        ``:i''
+        <span class="latex">
+        :i
+        </span>
         </i>
         )
       </td>
@@ -413,18 +425,18 @@ For computer applications the normal way to represent _gua\spi_ syntax is in a s
 
  
 
-``Discourse'' is the root grameme. Grammar for quoted non-_gua\spi_ text is not shown, but foreign predicates and quoted _gua\spi_ are processed by this grammar and are put together at the organizational syntax level. 
+Discourse is the root grameme. Grammar for quoted non-_gua\spi_ text is not shown, but foreign predicates and quoted _gua\spi_ are processed by this grammar and are put together at the organizational syntax level. 
 
 ## Organizational Transformations
 
 Formal syntax is finished at this point, and transformation begins, in this sequence of steps: 
 
-  * Transform the tone `|' into ``_!vu_ -subordinate clause''. 
+  * Transform the tone `|' into _!vu_ -subordinate clause. 
   * Do the transformations for retroactive downjumps and for error correction (_fa_). 
-  * Distinguish arguments from sentences. Insert _``!so -jy''_ as the placeholder for arguments' open first cases. 
+  * Distinguish arguments from sentences. Insert _!so -jy_ as the placeholder for arguments' open first cases. 
   * Re-order argument lists according to caselinks and conversions. Insert placeholders for missing cases. 
-  * Look up each word in the dictionary. Insert default articles, typically ``_xe_ -the'', before arguments. Insert default _``vo''_. 
-  * In cases of compounding, replicate argument lists for parallel arguments; insert _``vo''_ for compound infinitives; or demote a compound object into the argument list. 
+  * Look up each word in the dictionary. Insert default articles, typically _xe_ -the, before arguments. Insert default _vo_. 
+  * In cases of compounding, replicate argument lists for parallel arguments; insert _vo_ for compound infinitives; or demote a compound object into the argument list. 
   * Replicate main phrase arguments into infinitives. 
   * Substitute the antecedents for phrase-relative, modal and question pronouns. The antecedent of a question pronoun is found in the future answer. 
   * Deal with modal case stack operations. 
@@ -447,7 +459,7 @@ I hope this brief introduction to _gua\spi_ has whetted your appetite to learn m
   * [NB2] Brown, James C.  A Proposed Revision in the Structure of Loglan Words  (Notebook No. 2). The Loglan Institute, Inc., Gainesville, Fla., 1982. 
   * [TL43] Parks-Clifford, J.  Supplement to Loglan 1.  \sl The Loglanist 4, 3 (Nov. 1980). 
   * [La] Information about _Loglan_ may be obtained from The Loglan Institute, Inc., 1701 NE 75th Street, Gainesville, FL 32601. 
-  * [Lja] A modernized version of _Loglan_ , much closer to the original _Loglan_ than _gua\spi_ , is _Lojban_. Information is available from The Logical Languages Group, 2904 Beau Lane, Fairfax, VA 22031, or lojbab@lojban.org. For on-line access, send a message whose body is ``index lojban'' to listserv@hebrew.cc.columbia.edu. 
+  * [Lja] A modernized version of _Loglan_ , much closer to the original _Loglan_ than _gua\spi_ , is _Lojban_. Information is available from The Logical Languages Group, 2904 Beau Lane, Fairfax, VA 22031, or lojbab@lojban.org. For on-line access, send a message whose body is index lojban to listserv@hebrew.cc.columbia.edu. 
   * [Ga] Please contact the author at UCLA Department of Mathematics, Los Angeles, CA 90024-1555, or e-mail to jimc@math.ucla.edu. 
 
 
