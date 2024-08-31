@@ -6,7 +6,7 @@
 
 <table>
   <tr>
-    <th>!Word</th>
+    <th>Word</th>
     <th>Class</th>
     <th>Rank</th>
     <th>Thes</th>
@@ -121,7 +121,7 @@
     <td>fn</td>
     <td>S</td>
     <td></td>
-    <td>0.1.1,0.2.1</td>
+    <td>0.1.1, 0.2.1</td>
     <td>foreign,metaphor</td>
     <td>-</td>
     <td>-</td>
@@ -569,7 +569,7 @@
     <td>va</td>
     <td>S</td>
     <td></td>
-    <td>0.2.1,1.5.5</td>
+    <td>0.2.1, 1.5.5</td>
     <td>which,subordinate,attitude</td>
     <td>-</td>
     <td>-</td>
@@ -597,7 +597,7 @@
     <td>vi</td>
     <td>S</td>
     <td>14</td>
-    <td>0.2.1,1.5.5</td>
+    <td>0.2.1, 1.5.5</td>
     <td>discursive,subordinate</td>
     <td>-</td>
     <td>-</td>
@@ -1129,7 +1129,7 @@
     <td>gl</td>
     <td>S</td>
     <td>17</td>
-    <td>0.2.5,1.5.4</td>
+    <td>0.2.5, 1.5.4</td>
     <td>non-,negative,not</td>
     <td>-</td>
     <td>-</td>
@@ -1143,7 +1143,7 @@
     <td>go</td>
     <td>S</td>
     <td></td>
-    <td>0.2.5,1.5.4</td>
+    <td>0.2.5, 1.5.4</td>
     <td>not,unreal,no</td>
     <td>-</td>
     <td>-</td>
@@ -1157,7 +1157,7 @@
     <td>gr</td>
     <td>S</td>
     <td>18</td>
-    <td>0.2.5,1.5.4</td>
+    <td>0.2.5, 1.5.4</td>
     <td>un-,opposite,negative,not</td>
     <td>-</td>
     <td>-</td>
@@ -1941,7 +1941,7 @@
     <td>pr</td>
     <td>S</td>
     <td></td>
-    <td>0.3.7,0.2.2</td>
+    <td>0.3.7, 0.2.2</td>
     <td>which</td>
     <td>-</td>
     <td>-</td>
@@ -1955,7 +1955,7 @@
     <td>po</td>
     <td>S</td>
     <td>17</td>
-    <td>0.3.7,0.2.5</td>
+    <td>0.3.7, 0.2.5</td>
     <td>is~it</td>
     <td>-</td>
     <td>-</td>
@@ -1969,7 +1969,7 @@
     <td>pa</td>
     <td>S</td>
     <td></td>
-    <td>0.3.7,0.4.2</td>
+    <td>0.3.7, 0.4.2</td>
     <td>how~many</td>
     <td>-</td>
     <td>-</td>
@@ -1997,7 +1997,7 @@
     <td>da</td>
     <td>S</td>
     <td></td>
-    <td>0.3.8,0.4.1</td>
+    <td>0.3.8, 0.4.1</td>
     <td>variable~d</td>
     <td>-</td>
     <td>-</td>
@@ -2011,7 +2011,7 @@
     <td>de</td>
     <td>S</td>
     <td></td>
-    <td>0.3.8,0.4.1</td>
+    <td>0.3.8, 0.4.1</td>
     <td>variable~e</td>
     <td>-</td>
     <td>-</td>
@@ -2025,7 +2025,7 @@
     <td>di</td>
     <td>S</td>
     <td></td>
-    <td>0.3.8,0.4.1</td>
+    <td>0.3.8, 0.4.1</td>
     <td>variable~f</td>
     <td>-</td>
     <td>-</td>
@@ -2039,7 +2039,7 @@
     <td>do</td>
     <td>S</td>
     <td>179</td>
-    <td>0.3.8,0.4.1</td>
+    <td>0.3.8, 0.4.1</td>
     <td>variable~b</td>
     <td>-</td>
     <td>-</td>
@@ -2053,7 +2053,7 @@
     <td>du</td>
     <td>S</td>
     <td></td>
-    <td>0.3.8,0.4.1</td>
+    <td>0.3.8, 0.4.1</td>
     <td>variable~c</td>
     <td>-</td>
     <td>-</td>
@@ -2067,7 +2067,7 @@
     <td>dy</td>
     <td>S</td>
     <td></td>
-    <td>0.3.8,0.4.1</td>
+    <td>0.3.8, 0.4.1</td>
     <td>variable~a</td>
     <td>-</td>
     <td>-</td>
@@ -2431,7 +2431,7 @@
     <td>tl</td>
     <td>S</td>
     <td></td>
-    <td>0.4.2,1.5.5</td>
+    <td>0.4.2, 1.5.5</td>
     <td>ordinal,next</td>
     <td>-</td>
     <td>-</td>
@@ -4006,7 +4006,7 @@
     <td>ultra</td>
     <td>bancu*</td>
     <td></td>
-    <td>X1: is beyond X2: in relation (vo) X3+1,2-4 with reference X4?</td>
+    <td>X1: is beyond X2: in relation (vo) X3+1, 2-4 with reference X4?</td>
     <td>X1 compared to X4 is more than X2-X4.  Default X4 is the modal default for X3.</td>
   </tr>
   <tr>
@@ -4076,28 +4076,28 @@
     <td>vikary.us</td>
     <td>basti*</td>
     <td></td>
-    <td>X1 is a substitute for original X2 in activity or function (vo) X3+1,2</td>
+    <td>X1 is a substitute for original X2 in activity or function (vo) X3+1, 2</td>
     <td></td>
   </tr>
   <tr>
     <td>gre</td>
     <td>r</td>
     <td>11</td>
-    <td>1.1.1,1.1.7</td>
+    <td>1.1.1, 1.1.7</td>
     <td>exceed,more,less</td>
     <td>eksid</td>
     <td>!guw/u</td>
     <td>egredy</td>
     <td>mordu</td>
     <td></td>
-    <td>X1: exceeds X2: in quality (vo) X3+1,2</td>
+    <td>X1: exceeds X2: in quality (vo) X3+1, 2</td>
     <td></td>
   </tr>
   <tr>
     <td>fay</td>
     <td>r</td>
     <td></td>
-    <td>1.1.1,1.5.4</td>
+    <td>1.1.1, 1.5.4</td>
     <td>reverse,opposite</td>
     <td>ap#zyt</td>
     <td>-siaw|fan</td>
@@ -4111,21 +4111,21 @@
     <td>ver</td>
     <td>r</td>
     <td></td>
-    <td>1.1.1,1.5.4</td>
+    <td>1.1.1, 1.5.4</td>
     <td>opposite</td>
     <td>opozyt</td>
     <td>-siaw|fan</td>
     <td>advers.us</td>
     <td>bufpo</td>
     <td>gr,sra</td>
-    <td>X1 is opposite X2* in dimension (xu-vo) X3+1,2</td>
+    <td>X1 is opposite X2* in dimension (xu-vo) X3+1, 2</td>
     <td>As in high--low.</td>
   </tr>
   <tr>
     <td>vri</td>
     <td>r</td>
     <td></td>
-    <td>1.1.1,1.5.4</td>
+    <td>1.1.1, 1.5.4</td>
     <td>reverse</td>
     <td>rivrs</td>
     <td>-siaw|fan</td>
@@ -4139,49 +4139,49 @@
     <td>bwy</td>
     <td>r</td>
     <td>16</td>
-    <td>1.1.1,1.5.5</td>
+    <td>1.1.1, 1.5.5</td>
     <td>differ</td>
     <td>dyfr</td>
     <td>!bu/tuw</td>
     <td>aly.us</td>
     <td>retca</td>
     <td></td>
-    <td>X1: differs from X2: in dimension (vo) X3+1,2</td>
+    <td>X1: differs from X2: in dimension (vo) X3+1, 2</td>
     <td></td>
   </tr>
   <tr>
     <td>smy</td>
     <td>r</td>
     <td></td>
-    <td>1.1.1,1.5.5</td>
+    <td>1.1.1, 1.5.5</td>
     <td>similar,like</td>
     <td>laik</td>
     <td>-siaw!sz</td>
     <td>symyl.ys</td>
     <td>clika</td>
     <td>xor</td>
-    <td>X1: is similar to X2: in fitting predicate (vo) X3+1,2</td>
+    <td>X1: is similar to X2: in fitting predicate (vo) X3+1, 2</td>
     <td></td>
   </tr>
   <tr>
     <td>par</td>
     <td>r</td>
     <td></td>
-    <td>1.1.1,2.3.7</td>
+    <td>1.1.1, 2.3.7</td>
     <td>compare</td>
     <td>kumpar</td>
     <td>|bi|jiau</td>
     <td>kompar.are</td>
     <td>kambi</td>
     <td></td>
-    <td>Actor X1 compares X2: to X3: on dimension (vo) X4+2,3</td>
+    <td>Actor X1 compares X2: to X3: on dimension (vo) X4+2, 3</td>
     <td></td>
   </tr>
   <tr>
     <td>slr</td>
     <td>r</td>
     <td></td>
-    <td>1.1.1,3.7.4</td>
+    <td>1.1.1, 3.7.4</td>
     <td>similar,scale,congruent</td>
     <td>symylr</td>
     <td>!lei!sz</td>
@@ -4195,7 +4195,7 @@
     <td>gna</td>
     <td>r</td>
     <td></td>
-    <td>1.1.1,4.4.6,1.5.6</td>
+    <td>1.1.1, 4.4.6, 1.5.6</td>
     <td>relate,predicate</td>
     <td>rilait</td>
     <td>|jiaw</td>
@@ -4328,7 +4328,7 @@
     <td>tabula</td>
     <td>lista</td>
     <td>stl,sto</td>
-    <td>List (xy) X1s is a list of set (xy) X2s in order (vo) X3+PS2,1</td>
+    <td>List (xy) X1s is a list of set (xy) X2s in order (vo) X3+PS2, 1</td>
     <td></td>
   </tr>
   <tr>
@@ -4461,7 +4461,7 @@
     <td>dom</td>
     <td>r</td>
     <td></td>
-    <td>1.1.2,1.5.4</td>
+    <td>1.1.2, 1.5.4</td>
     <td>none</td>
     <td>n#n</td>
     <td>-dou/mei</td>
@@ -4475,7 +4475,7 @@
     <td>ple</td>
     <td>r</td>
     <td></td>
-    <td>1.1.2,1.5.4</td>
+    <td>1.1.2, 1.5.4</td>
     <td>complement</td>
     <td>komplement</td>
     <td>|bu/dzu</td>
@@ -4489,7 +4489,7 @@
     <td>kfa</td>
     <td>q</td>
     <td></td>
-    <td>1.1.2,4.6.2</td>
+    <td>1.1.2, 4.6.2</td>
     <td>family</td>
     <td>famyli</td>
     <td>-jia/ren</td>
@@ -4503,7 +4503,7 @@
     <td>xde</td>
     <td>q</td>
     <td></td>
-    <td>1.1.2,4.6.3</td>
+    <td>1.1.2, 4.6.3</td>
     <td>orchestra</td>
     <td>orkestr#</td>
     <td>!ue!duei</td>
@@ -4517,7 +4517,7 @@
     <td>diu</td>
     <td>r</td>
     <td></td>
-    <td>1.1.2,4.6.4</td>
+    <td>1.1.2, 4.6.4</td>
     <td>team</td>
     <td>tim</td>
     <td>!duei</td>
@@ -4531,7 +4531,7 @@
     <td>kqy</td>
     <td>q</td>
     <td></td>
-    <td>1.1.2,4.7.4</td>
+    <td>1.1.2, 4.7.4</td>
     <td>committee</td>
     <td>kamyti</td>
     <td>|duw!qr!bu</td>
@@ -4713,21 +4713,21 @@
     <td>sym</td>
     <td>r</td>
     <td></td>
-    <td>1.1.3,1.2.5</td>
+    <td>1.1.3, 1.2.5</td>
     <td>chief,highest,most,extreme</td>
     <td>most</td>
     <td>!dzuei</td>
     <td>maksyme</td>
     <td>cefli</td>
     <td></td>
-    <td>X1: is most in set (xy) X2s on dimension (vo) X3+S2,1</td>
+    <td>X1: is most in set (xy) X2s on dimension (vo) X3+S2, 1</td>
     <td>Dimension typically is ``importance'' but there is no default.  Ties for X1 are possible.</td>
   </tr>
   <tr>
     <td>zer</td>
     <td>r</td>
     <td></td>
-    <td>1.1.3,1.3.3</td>
+    <td>1.1.3, 1.3.3</td>
     <td>rare,unusual</td>
     <td>rer</td>
     <td>-si|iou</td>
@@ -4741,7 +4741,7 @@
     <td>bny</td>
     <td>r</td>
     <td></td>
-    <td>1.1.3,3.7.4</td>
+    <td>1.1.3, 3.7.4</td>
     <td>first,begin,next,least</td>
     <td>bigyn</td>
     <td>|ci</td>
@@ -4755,7 +4755,7 @@
     <td>fne</td>
     <td>r</td>
     <td></td>
-    <td>1.1.3,3.7.4</td>
+    <td>1.1.3, 3.7.4</td>
     <td>last,end,previous,most</td>
     <td>end</td>
     <td>/jie</td>
@@ -4769,7 +4769,7 @@
     <td>fni</td>
     <td>r</td>
     <td></td>
-    <td>1.1.3,3.7.4</td>
+    <td>1.1.3, 3.7.4</td>
     <td>range</td>
     <td>rainj</td>
     <td>!fan/uei</td>
@@ -4783,7 +4783,7 @@
     <td>dor</td>
     <td>r</td>
     <td></td>
-    <td>1.1.3,4.1.6</td>
+    <td>1.1.3, 4.1.6</td>
     <td>decoration,adorn</td>
     <td>adorn</td>
     <td>-juaw!qr</td>
@@ -4797,7 +4797,7 @@
     <td>plm</td>
     <td>r</td>
     <td></td>
-    <td>1.1.3,4.4.5,1.5.1</td>
+    <td>1.1.3, 4.4.5, 1.5.1</td>
     <td>example,illustrate</td>
     <td>eksampl</td>
     <td>|baw!iaw</td>
@@ -4853,7 +4853,7 @@
     <td>zey</td>
     <td>r</td>
     <td></td>
-    <td>1.1.4,1.5.1</td>
+    <td>1.1.4, 1.5.1</td>
     <td>relevant,possess,my,pertinent</td>
     <td>p#zes</td>
     <td>-de</td>
@@ -4867,7 +4867,7 @@
     <td>bai</td>
     <td>r</td>
     <td></td>
-    <td>1.1.4,2.1.4</td>
+    <td>1.1.4, 2.1.4</td>
     <td>polite</td>
     <td>polait</td>
     <td>|iou|li/mau</td>
@@ -4881,7 +4881,7 @@
     <td>per</td>
     <td>r</td>
     <td></td>
-    <td>1.1.4,2.1.6,4.7.1</td>
+    <td>1.1.4, 2.1.6, 4.7.1</td>
     <td>power</td>
     <td>paur</td>
     <td>/cuan!biw</td>
@@ -4895,7 +4895,7 @@
     <td>gly</td>
     <td>r</td>
     <td></td>
-    <td>1.1.4,2.3.5</td>
+    <td>1.1.4, 2.3.5</td>
     <td>analyse,conclusion</td>
     <td>analayz</td>
     <td>-fen|jie</td>
@@ -4909,7 +4909,7 @@
     <td>jym</td>
     <td>r</td>
     <td></td>
-    <td>1.1.4,4.6.2</td>
+    <td>1.1.4, 4.6.2</td>
     <td>spouse,marry</td>
     <td>mari</td>
     <td>/jie-hun</td>
@@ -4923,7 +4923,7 @@
     <td>bou</td>
     <td>r</td>
     <td></td>
-    <td>1.1.4,4.7.1</td>
+    <td>1.1.4, 4.7.1</td>
     <td>own</td>
     <td>on</td>
     <td>|iou</td>
@@ -4979,7 +4979,7 @@
     <td>pin</td>
     <td>r</td>
     <td></td>
-    <td>1.1.5,1.2.1</td>
+    <td>1.1.5, 1.2.1</td>
     <td>peace</td>
     <td>pis</td>
     <td>/pin-gan</td>
@@ -4993,7 +4993,7 @@
     <td>cmi</td>
     <td>r</td>
     <td></td>
-    <td>1.1.5,2.1.7</td>
+    <td>1.1.5, 2.1.7</td>
     <td>enemy,struggle</td>
     <td>enemi</td>
     <td>/cou/di</td>
@@ -5007,7 +5007,7 @@
     <td>tew</td>
     <td>r</td>
     <td></td>
-    <td>1.1.5,2.3.6</td>
+    <td>1.1.5, 2.3.6</td>
     <td>interest</td>
     <td>yntrest</td>
     <td>|hau-tiw</td>
@@ -5021,7 +5021,7 @@
     <td>fri</td>
     <td>r</td>
     <td></td>
-    <td>1.1.5,2.5.1</td>
+    <td>1.1.5, 2.5.1</td>
     <td>rely,depend</td>
     <td>rilai</td>
     <td>!sin!ren</td>
@@ -5119,7 +5119,7 @@
     <td>qlo</td>
     <td>r</td>
     <td></td>
-    <td>1.1.6,1.3.6,1.4.4</td>
+    <td>1.1.6, 1.3.6, 1.4.4</td>
     <td>location,place</td>
     <td>lokaqn</td>
     <td>!di-faw</td>
@@ -5133,7 +5133,7 @@
     <td>fta</td>
     <td>q</td>
     <td></td>
-    <td>1.1.6,1.5.2</td>
+    <td>1.1.6, 1.5.2</td>
     <td>standard,rule</td>
     <td>standrd</td>
     <td>-biau|jun</td>
@@ -5147,7 +5147,7 @@
     <td>zia</td>
     <td>r</td>
     <td></td>
-    <td>1.1.6,1.5.2,1.5.6</td>
+    <td>1.1.6, 1.5.2, 1.5.6</td>
     <td>manner,way</td>
     <td>uai</td>
     <td>!iaw.-dz</td>
@@ -5161,7 +5161,7 @@
     <td>bal</td>
     <td>r</td>
     <td></td>
-    <td>1.1.6,1.5.3</td>
+    <td>1.1.6, 1.5.3</td>
     <td>likely,probable,consequence</td>
     <td>laikli</td>
     <td>/ie|qu</td>
@@ -5175,7 +5175,7 @@
     <td>kau</td>
     <td>r</td>
     <td>11</td>
-    <td>1.1.6,1.5.3</td>
+    <td>1.1.6, 1.5.3</td>
     <td>cause,consequence</td>
     <td>kauz</td>
     <td>|qr</td>
@@ -5189,7 +5189,7 @@
     <td>kmo</td>
     <td>r</td>
     <td></td>
-    <td>1.1.6,1.5.3</td>
+    <td>1.1.6, 1.5.3</td>
     <td>motivation,motive</td>
     <td>motiv</td>
     <td>|li/iou</td>
@@ -5203,7 +5203,7 @@
     <td>syl</td>
     <td>r</td>
     <td></td>
-    <td>1.1.6,1.5.3</td>
+    <td>1.1.6, 1.5.3</td>
     <td>purpose,act</td>
     <td>purp#s</td>
     <td>!mu-di</td>
@@ -5217,7 +5217,7 @@
     <td>zni</td>
     <td>r</td>
     <td>8</td>
-    <td>1.1.6,1.5.3</td>
+    <td>1.1.6, 1.5.3</td>
     <td>reason,because</td>
     <td>riz#n</td>
     <td>/uan-in</td>
@@ -5231,7 +5231,7 @@
     <td>pse</td>
     <td>q</td>
     <td></td>
-    <td>1.1.6,2.4.8</td>
+    <td>1.1.6, 2.4.8</td>
     <td>process,stage</td>
     <td>prases</td>
     <td>-faw|fa</td>
@@ -5245,7 +5245,7 @@
     <td>qin</td>
     <td>r</td>
     <td></td>
-    <td>1.1.6,3.4.3,1.5.6,4.4.6</td>
+    <td>1.1.6, 3.4.3, 1.5.6, 4.4.6</td>
     <td>event,argument</td>
     <td>ivent</td>
     <td>!qr!jian</td>
@@ -5259,7 +5259,7 @@
     <td>tso</td>
     <td>q</td>
     <td></td>
-    <td>1.1.6,3.7.4</td>
+    <td>1.1.6, 3.7.4</td>
     <td>error</td>
     <td>er#r</td>
     <td>!tsuo!u</td>
@@ -5273,7 +5273,7 @@
     <td>sar</td>
     <td>r</td>
     <td></td>
-    <td>1.1.6,3.7.4,1.5.3</td>
+    <td>1.1.6, 3.7.4, 1.5.3</td>
     <td>necessary,condition</td>
     <td>nesesari</td>
     <td>!bi-siu</td>
@@ -5287,7 +5287,7 @@
     <td>sno</td>
     <td>r</td>
     <td></td>
-    <td>1.1.6,3.7.4,1.5.3</td>
+    <td>1.1.6, 3.7.4, 1.5.3</td>
     <td>sufficient,condition</td>
     <td>s#fyqnt</td>
     <td>/dzu!gou</td>
@@ -5301,7 +5301,7 @@
     <td>qiw</td>
     <td>r</td>
     <td></td>
-    <td>1.1.6,1.5.3</td>
+    <td>1.1.6, 1.5.3</td>
     <td>condition,state,status</td>
     <td>k#ndyqn</td>
     <td>/ciw-qiw</td>
@@ -5315,7 +5315,7 @@
     <td>sny</td>
     <td>r</td>
     <td></td>
-    <td>1.1.6,3.7.4,1.5.3</td>
+    <td>1.1.6, 3.7.4, 1.5.3</td>
     <td>logic,imply,entail</td>
     <td>ymplai</td>
     <td>/han!iy</td>
@@ -5455,7 +5455,7 @@
     <td>gvr</td>
     <td>q</td>
     <td></td>
-    <td>1.1.7,1.3.2</td>
+    <td>1.1.7, 1.3.2</td>
     <td>regular,uniform,homogeneous</td>
     <td>regiulr</td>
     <td>|iou!jr-su</td>
@@ -5469,7 +5469,7 @@
     <td>qkl</td>
     <td>q</td>
     <td></td>
-    <td>1.1.7,1.3.2</td>
+    <td>1.1.7, 1.3.2</td>
     <td>irregular,nonuniform</td>
     <td>yrregular</td>
     <td>!bu|jew/ci</td>
@@ -5483,7 +5483,7 @@
     <td>vdw</td>
     <td>q</td>
     <td></td>
-    <td>1.1.7,1.3.2</td>
+    <td>1.1.7, 1.3.2</td>
     <td>miscellaneous</td>
     <td>myselani#s</td>
     <td>|dza!qiaw</td>
@@ -5497,7 +5497,7 @@
     <td>kun</td>
     <td>r</td>
     <td></td>
-    <td>1.1.7,1.5.6</td>
+    <td>1.1.7, 1.5.6</td>
     <td>degree,quantity,amount</td>
     <td>#maunt</td>
     <td>!liaw</td>
@@ -5511,7 +5511,7 @@
     <td>tua</td>
     <td>r</td>
     <td></td>
-    <td>1.1.7,1.5.6</td>
+    <td>1.1.7, 1.5.6</td>
     <td>quality</td>
     <td>kualyti</td>
     <td>-pin/jr</td>
@@ -5581,7 +5581,7 @@
     <td>kaw</td>
     <td>r</td>
     <td></td>
-    <td>1.1.8,1.5.6</td>
+    <td>1.1.8, 1.5.6</td>
     <td>state,status,situation,condition</td>
     <td>k#ndyqn</td>
     <td>/ciw!kuaw</td>
@@ -5595,7 +5595,7 @@
     <td>qno</td>
     <td>r</td>
     <td></td>
-    <td>1.1.8,1.5.6</td>
+    <td>1.1.8, 1.5.6</td>
     <td>serving,portion,piece</td>
     <td>porqn</td>
     <td>!fen</td>
@@ -5609,7 +5609,7 @@
     <td>znu</td>
     <td>r</td>
     <td></td>
-    <td>1.1.8,1.5.6</td>
+    <td>1.1.8, 1.5.6</td>
     <td>all,common</td>
     <td>al</td>
     <td>!uan!u</td>
@@ -5623,7 +5623,7 @@
     <td>cfa</td>
     <td>q</td>
     <td></td>
-    <td>1.1.8,1.5.6,4.4.6</td>
+    <td>1.1.8, 1.5.6, 4.4.6</td>
     <td>event,occur</td>
     <td>ivent</td>
     <td>-fa-qew</td>
@@ -5637,7 +5637,7 @@
     <td>stw</td>
     <td>q</td>
     <td></td>
-    <td>1.1.8,3.4.3,3.7.4</td>
+    <td>1.1.8, 3.4.3, 3.7.4</td>
     <td>real,exist</td>
     <td>eksyst</td>
     <td>/tsun!dzai</td>
@@ -5651,21 +5651,21 @@
     <td>xor</td>
     <td>r</td>
     <td></td>
-    <td>1.1.8,4.4.5</td>
+    <td>1.1.8, 4.4.5</td>
     <td>metaphor</td>
     <td>metafor</td>
     <td>|bi!u</td>
     <td>translat.yo</td>
     <td></td>
     <td>smy</td>
-    <td>X1: its qualities are represented as a metaphor X2 in dimension (vo) X3+1,2</td>
+    <td>X1: its qualities are represented as a metaphor X2 in dimension (vo) X3+1, 2</td>
     <td></td>
   </tr>
   <tr>
     <td>gne</td>
     <td>r</td>
     <td></td>
-    <td>1.1.8,4.4.6</td>
+    <td>1.1.8, 4.4.6</td>
     <td>compatible,fit</td>
     <td>fyt</td>
     <td>/he!shr</td>
@@ -5805,7 +5805,7 @@
     <td>xym</td>
     <td>r</td>
     <td></td>
-    <td>1.2.1,2.1.3</td>
+    <td>1.2.1, 2.1.3</td>
     <td>immune,prevent,disease,fault,vaccine</td>
     <td>ymiun</td>
     <td>|mien!i</td>
@@ -5819,7 +5819,7 @@
     <td>qtu</td>
     <td>q</td>
     <td></td>
-    <td>1.2.1,2.4.1</td>
+    <td>1.2.1, 2.4.1</td>
     <td>dead</td>
     <td>ded</td>
     <td>|sz</td>
@@ -6099,7 +6099,7 @@
     <td>fmu</td>
     <td>r</td>
     <td></td>
-    <td>1.2.3,2.1.4</td>
+    <td>1.2.3, 2.1.4</td>
     <td>famous,fan</td>
     <td>famus</td>
     <td>/miw!u</td>
@@ -6113,7 +6113,7 @@
     <td>saw</td>
     <td>r</td>
     <td></td>
-    <td>1.2.3,2.1.4</td>
+    <td>1.2.3, 2.1.4</td>
     <td>hide,secret</td>
     <td>haid</td>
     <td>/tsaw</td>
@@ -6127,7 +6127,7 @@
     <td>fei</td>
     <td>r</td>
     <td></td>
-    <td>1.2.3,2.5.2</td>
+    <td>1.2.3, 2.5.2</td>
     <td>tired</td>
     <td>taird</td>
     <td>/pi/fa</td>
@@ -6337,7 +6337,7 @@
     <td>fpo</td>
     <td>q</td>
     <td></td>
-    <td>1.2.4,1.5.5</td>
+    <td>1.2.4, 1.5.5</td>
     <td>unimportant,by~the~way</td>
     <td>#nymportnt</td>
     <td>/bu!juw!iau</td>
@@ -6351,7 +6351,7 @@
     <td>csn</td>
     <td>q</td>
     <td></td>
-    <td>1.2.4,1.5.5</td>
+    <td>1.2.4, 1.5.5</td>
     <td>strange</td>
     <td>strainj</td>
     <td>/ci!guai</td>
@@ -6365,7 +6365,7 @@
     <td>tfn</td>
     <td>q</td>
     <td></td>
-    <td>1.2.4,1.5.5</td>
+    <td>1.2.4, 1.5.5</td>
     <td>important</td>
     <td>ymportnt</td>
     <td>!iau|jin</td>
@@ -6379,7 +6379,7 @@
     <td>tsu</td>
     <td>q</td>
     <td></td>
-    <td>1.2.4,1.5.5</td>
+    <td>1.2.4, 1.5.5</td>
     <td>sudden</td>
     <td>s#dn</td>
     <td>-hu/ran</td>
@@ -6393,7 +6393,7 @@
     <td>zgn</td>
     <td>q</td>
     <td></td>
-    <td>1.2.4,4.7.1</td>
+    <td>1.2.4, 4.7.1</td>
     <td>alien</td>
     <td>alien</td>
     <td>!uay/guo</td>
@@ -6519,7 +6519,7 @@
     <td>tfo</td>
     <td>q</td>
     <td></td>
-    <td>1.2.5,2.1.3</td>
+    <td>1.2.5, 2.1.3</td>
     <td>brave</td>
     <td>brav</td>
     <td>|iuw|gan</td>
@@ -6533,7 +6533,7 @@
     <td>qnr</td>
     <td>r</td>
     <td></td>
-    <td>1.2.5,3.6.1</td>
+    <td>1.2.5, 3.6.1</td>
     <td>concentrate,dense</td>
     <td>kansentraqn</td>
     <td>/ji-juw</td>
@@ -6743,7 +6743,7 @@
     <td>qku</td>
     <td>q</td>
     <td></td>
-    <td>1.3.1,1.3.5</td>
+    <td>1.3.1, 1.3.5</td>
     <td>sharp</td>
     <td>qarp</td>
     <td>!li</td>
@@ -6757,7 +6757,7 @@
     <td>tfa</td>
     <td>q</td>
     <td></td>
-    <td>1.3.1,1.3.7</td>
+    <td>1.3.1, 1.3.7</td>
     <td>large,rotund,fat</td>
     <td>fat</td>
     <td>!paw</td>
@@ -6939,7 +6939,7 @@
     <td>zdr</td>
     <td>q</td>
     <td></td>
-    <td>1.3.2,1.3.5</td>
+    <td>1.3.2, 1.3.5</td>
     <td>hard</td>
     <td>hard</td>
     <td>-gaw!iw</td>
@@ -6953,7 +6953,7 @@
     <td>spr</td>
     <td>q</td>
     <td></td>
-    <td>1.3.2,1.4.1</td>
+    <td>1.3.2, 1.4.1</td>
     <td>steep</td>
     <td>stip</td>
     <td>/suan/iai</td>
@@ -7093,7 +7093,7 @@
     <td>ksn</td>
     <td>q</td>
     <td></td>
-    <td>1.3.3,1.3.5</td>
+    <td>1.3.3, 1.3.5</td>
     <td>viscous</td>
     <td>vysk#s</td>
     <td>/nuw</td>
@@ -7107,7 +7107,7 @@
     <td>sau</td>
     <td>r</td>
     <td></td>
-    <td>1.3.3,1.3.6</td>
+    <td>1.3.3, 1.3.6</td>
     <td>sound</td>
     <td>saund</td>
     <td>|hau!siaw</td>
@@ -7387,7 +7387,7 @@
     <td>kor</td>
     <td>r</td>
     <td></td>
-    <td>1.3.4,1.3.6</td>
+    <td>1.3.4, 1.3.6</td>
     <td>color</td>
     <td>kolor</td>
     <td>!ci!se</td>
@@ -7401,7 +7401,7 @@
     <td>sie</td>
     <td>r</td>
     <td></td>
-    <td>1.3.4,1.3.6</td>
+    <td>1.3.4, 1.3.6</td>
     <td>look,appearance</td>
     <td>l#k</td>
     <td>!sian!siaw</td>
@@ -7527,7 +7527,7 @@
     <td>jra</td>
     <td>r</td>
     <td></td>
-    <td>1.3.5,1.3.6</td>
+    <td>1.3.5, 1.3.6</td>
     <td>texture,feel</td>
     <td>fil</td>
     <td>/jr</td>
@@ -7555,7 +7555,7 @@
     <td>xel</td>
     <td>r</td>
     <td></td>
-    <td>1.3.6,1.3.7</td>
+    <td>1.3.6, 1.3.7</td>
     <td>odor,smell</td>
     <td>smel</td>
     <td>!uei</td>
@@ -7569,7 +7569,7 @@
     <td>zao</td>
     <td>r</td>
     <td></td>
-    <td>1.3.6,1.3.7</td>
+    <td>1.3.6, 1.3.7</td>
     <td>flavor,taste</td>
     <td>flavor</td>
     <td>-dz!uei</td>
@@ -7583,7 +7583,7 @@
     <td>jir</td>
     <td>r</td>
     <td></td>
-    <td>1.3.6,1.4.4,1.5.1</td>
+    <td>1.3.6, 1.4.4, 1.5.1</td>
     <td>here,location</td>
     <td>hir</td>
     <td>!je|li</td>
@@ -7597,7 +7597,7 @@
     <td>swa</td>
     <td>r</td>
     <td></td>
-    <td>1.3.6,3.5.6,1.4.4</td>
+    <td>1.3.6, 3.5.6, 1.4.4</td>
     <td>duration,last</td>
     <td>last</td>
     <td>/ien/tsaw</td>
@@ -7611,7 +7611,7 @@
     <td>xnu</td>
     <td>r</td>
     <td></td>
-    <td>1.3.6,4.5.2,1.5.6</td>
+    <td>1.3.6, 4.5.2, 1.5.6</td>
     <td>unit</td>
     <td>iunyt</td>
     <td>-dan!uei</td>
@@ -7779,7 +7779,7 @@
     <td>dvi</td>
     <td>q</td>
     <td></td>
-    <td>1.3.7,4.6.4</td>
+    <td>1.3.7, 4.6.4</td>
     <td>wild,tame</td>
     <td>uild</td>
     <td>|ie</td>
@@ -8255,7 +8255,7 @@
     <td>xyn</td>
     <td>r</td>
     <td>8</td>
-    <td>1.4.4,1.1.3</td>
+    <td>1.4.4, 1.1.3</td>
     <td>inside,interior,in</td>
     <td>ynsaid</td>
     <td>|li!mian</td>
@@ -8269,7 +8269,7 @@
     <td>cnu</td>
     <td>r</td>
     <td>13</td>
-    <td>1.4.4,1.3.6,1.5.1</td>
+    <td>1.4.4, 1.3.6, 1.5.1</td>
     <td>present,now,time</td>
     <td>nou</td>
     <td>!mi/cian</td>
@@ -8283,7 +8283,7 @@
     <td>bir</td>
     <td>r</td>
     <td>23</td>
-    <td>1.4.4,1.5.1</td>
+    <td>1.4.4, 1.5.1</td>
     <td>past,early,before</td>
     <td>bifor</td>
     <td>!guo!ciu!qr</td>
@@ -8297,7 +8297,7 @@
     <td>jro</td>
     <td>r</td>
     <td>21</td>
-    <td>1.4.4,1.5.1</td>
+    <td>1.4.4, 1.5.1</td>
     <td>future,after,late,then</td>
     <td>aftr</td>
     <td>-jr!hou</td>
@@ -8311,7 +8311,7 @@
     <td>fau</td>
     <td>r</td>
     <td></td>
-    <td>1.4.4,1.5.4</td>
+    <td>1.4.4, 1.5.4</td>
     <td>reverse,backwards</td>
     <td>bakuardz</td>
     <td>|fan|juan</td>
@@ -8325,7 +8325,7 @@
     <td>qyr</td>
     <td>r</td>
     <td></td>
-    <td>1.4.4,2.2.7</td>
+    <td>1.4.4, 2.2.7</td>
     <td>direction,vector</td>
     <td>dyrekqn</td>
     <td>-faw!siaw</td>
@@ -8717,7 +8717,7 @@
     <td>kri</td>
     <td>r</td>
     <td></td>
-    <td>2.1.1,1.1.8</td>
+    <td>2.1.1, 1.1.8</td>
     <td>increase,decrease</td>
     <td>ynkris</td>
     <td>-jia!da</td>
@@ -8731,7 +8731,7 @@
     <td>siw</td>
     <td>r</td>
     <td></td>
-    <td>2.1.1,1.5.4</td>
+    <td>2.1.1, 1.5.4</td>
     <td>stop,cease</td>
     <td>sis</td>
     <td>/tiw|jr</td>
@@ -8745,7 +8745,7 @@
     <td>cur</td>
     <td>r</td>
     <td></td>
-    <td>2.1.1,2.4.2</td>
+    <td>2.1.1, 2.4.2</td>
     <td>produce</td>
     <td>produs</td>
     <td>-cu|can</td>
@@ -8871,7 +8871,7 @@
     <td>ziu</td>
     <td>r</td>
     <td></td>
-    <td>2.1.2,1.5.1</td>
+    <td>2.1.2, 1.5.1</td>
     <td>use,means,end,by~means~of</td>
     <td>iuz</td>
     <td>!iuw</td>
@@ -8885,7 +8885,7 @@
     <td>voi</td>
     <td>r</td>
     <td></td>
-    <td>2.1.2,1.5.4</td>
+    <td>2.1.2, 1.5.4</td>
     <td>avoid,evade,shun,refrain,doesnt,dont</td>
     <td>avoid</td>
     <td>!bi|mian</td>
@@ -8899,7 +8899,7 @@
     <td>qyn</td>
     <td>r</td>
     <td></td>
-    <td>2.1.2,1.5.6</td>
+    <td>2.1.2, 1.5.6</td>
     <td>action</td>
     <td>akqn</td>
     <td>/qyng/uey</td>
@@ -8913,7 +8913,7 @@
     <td>qyw</td>
     <td>r</td>
     <td></td>
-    <td>2.1.2,1.5.6</td>
+    <td>2.1.2, 1.5.6</td>
     <td>behave</td>
     <td>bihav</td>
     <td>/qyw|wei</td>
@@ -9263,7 +9263,7 @@
     <td>dau</td>
     <td>r</td>
     <td></td>
-    <td>2.1.5,1.2.3</td>
+    <td>2.1.5, 1.2.3</td>
     <td>audacity,chutzpah</td>
     <td>audasyti</td>
     <td>!da|dan/u|c#</td>
@@ -9277,7 +9277,7 @@
     <td>tyn</td>
     <td>r</td>
     <td></td>
-    <td>2.1.5,1.2.3</td>
+    <td>2.1.5, 1.2.3</td>
     <td>stubborn</td>
     <td>stubrn</td>
     <td>/uan!gu</td>
@@ -9291,7 +9291,7 @@
     <td>plu</td>
     <td>r</td>
     <td></td>
-    <td>2.1.5,2.1.7</td>
+    <td>2.1.5, 2.1.7</td>
     <td>play,game</td>
     <td>plai</td>
     <td>/uan</td>
@@ -9305,7 +9305,7 @@
     <td>qya</td>
     <td>r</td>
     <td></td>
-    <td>2.1.5,2.5.2</td>
+    <td>2.1.5, 2.5.2</td>
     <td>amuse,fun,enjoy</td>
     <td>amiuz</td>
     <td>-qyau|cien</td>
@@ -9319,7 +9319,7 @@
     <td>bwo</td>
     <td>r</td>
     <td></td>
-    <td>2.1.5,4.7.2</td>
+    <td>2.1.5, 4.7.2</td>
     <td>job,work</td>
     <td>jab</td>
     <td>-guw!dzuo</td>
@@ -9473,7 +9473,7 @@
     <td>kro</td>
     <td>r</td>
     <td></td>
-    <td>2.1.6,2.4.4</td>
+    <td>2.1.6, 2.4.4</td>
     <td>control</td>
     <td>kntrol</td>
     <td>|guan/sia</td>
@@ -9487,7 +9487,7 @@
     <td>cim</td>
     <td>r</td>
     <td></td>
-    <td>2.1.6,4.7.1</td>
+    <td>2.1.6, 4.7.1</td>
     <td>demand,right</td>
     <td>dimand</td>
     <td>-iau/ciou</td>
@@ -9508,7 +9508,7 @@
     <td>-</td>
     <td></td>
     <td></td>
-    <td>Competitor X1 and competitor X2 do activity (vo) X3+1,2</td>
+    <td>Competitor X1 and competitor X2 do activity (vo) X3+1, 2</td>
     <td></td>
   </tr>
   <tr>
@@ -9522,7 +9522,7 @@
     <td>kert.are</td>
     <td>kanpi</td>
     <td>vyw</td>
-    <td>X1 competes with X2: in activity (vo) X3+1,2 for prize X4</td>
+    <td>X1 competes with X2: in activity (vo) X3+1, 2 for prize X4</td>
     <td>In team sports X1 and X2 are teams.  In typical races X2 is all the other competitors in extension.</td>
   </tr>
   <tr>
@@ -9669,7 +9669,7 @@
     <td>poe</td>
     <td>r</td>
     <td></td>
-    <td>2.1.7,1.1.4</td>
+    <td>2.1.7, 1.1.4</td>
     <td>oppose</td>
     <td>opoz</td>
     <td>|fan!duei</td>
@@ -9683,7 +9683,7 @@
     <td>twa</td>
     <td>r</td>
     <td></td>
-    <td>2.1.7,1.1.4</td>
+    <td>2.1.7, 1.1.4</td>
     <td>interact</td>
     <td>yntrakt</td>
     <td>-jiau-tuw</td>
@@ -9697,7 +9697,7 @@
     <td>biu</td>
     <td>r</td>
     <td></td>
-    <td>2.1.7,2.3.1</td>
+    <td>2.1.7, 2.3.1</td>
     <td>argue</td>
     <td>argiu</td>
     <td>!bian!lun</td>
@@ -9711,7 +9711,7 @@
     <td>dyw</td>
     <td>r</td>
     <td></td>
-    <td>2.1.7,2.3.1</td>
+    <td>2.1.7, 2.3.1</td>
     <td>discuss</td>
     <td>dysk#s</td>
     <td>-qaw-liaw</td>
@@ -9725,7 +9725,7 @@
     <td>kuo</td>
     <td>r</td>
     <td></td>
-    <td>2.1.7,2.3.1</td>
+    <td>2.1.7, 2.3.1</td>
     <td>talk</td>
     <td>talk</td>
     <td>-quo!hua</td>
@@ -9907,7 +9907,7 @@
     <td>pur</td>
     <td>r</td>
     <td></td>
-    <td>2.2.1,2.2.2</td>
+    <td>2.2.1, 2.2.2</td>
     <td>run,gallop</td>
     <td>r#n</td>
     <td>|pau</td>
@@ -9921,7 +9921,7 @@
     <td>xra</td>
     <td>r</td>
     <td></td>
-    <td>2.2.1,2.2.2</td>
+    <td>2.2.1, 2.2.2</td>
     <td>trot,jog</td>
     <td>trat</td>
     <td>/qiau|pau</td>
@@ -9935,7 +9935,7 @@
     <td>zou</td>
     <td>r</td>
     <td></td>
-    <td>2.2.1,2.2.2</td>
+    <td>2.2.1, 2.2.2</td>
     <td>walk</td>
     <td>ualk</td>
     <td>|dzou</td>
@@ -10313,7 +10313,7 @@
     <td>qly</td>
     <td>r</td>
     <td></td>
-    <td>2.2.3,2.3.2</td>
+    <td>2.2.3, 2.3.2</td>
     <td>mail,post</td>
     <td>mail</td>
     <td>/iou!ji</td>
@@ -10635,7 +10635,7 @@
     <td>din</td>
     <td>r</td>
     <td></td>
-    <td>2.2.6,1.5.5</td>
+    <td>2.2.6, 1.5.5</td>
     <td>exchange,trade,back</td>
     <td>ekscainj</td>
     <td>!diau!huan</td>
@@ -10817,7 +10817,7 @@
     <td>jai</td>
     <td>r</td>
     <td>56</td>
-    <td>2.3.1,1.5.1</td>
+    <td>2.3.1, 1.5.1</td>
     <td>say</td>
     <td>sai</td>
     <td>|jiaw</td>
@@ -10831,7 +10831,7 @@
     <td>kam</td>
     <td>r</td>
     <td></td>
-    <td>2.3.1,1.5.2</td>
+    <td>2.3.1, 1.5.2</td>
     <td>cry</td>
     <td>krai</td>
     <td>!jiau</td>
@@ -10845,7 +10845,7 @@
     <td>faw</td>
     <td>r</td>
     <td>12</td>
-    <td>2.3.1,1.5.5</td>
+    <td>2.3.1, 1.5.5</td>
     <td>emphatic</td>
     <td>emfatyk</td>
     <td>/ciaw!diau</td>
@@ -10859,7 +10859,7 @@
     <td>quo</td>
     <td>r</td>
     <td></td>
-    <td>2.3.1,4.4.6</td>
+    <td>2.3.1, 4.4.6</td>
     <td>say,utter,language</td>
     <td>utr</td>
     <td>-quo</td>
@@ -10957,7 +10957,7 @@
     <td>koy</td>
     <td>r</td>
     <td></td>
-    <td>2.3.2,1.5.2</td>
+    <td>2.3.2, 1.5.2</td>
     <td>think</td>
     <td>tynk</td>
     <td>|siaw</td>
@@ -11139,7 +11139,7 @@
     <td>twi</td>
     <td>r</td>
     <td></td>
-    <td>2.3.3,1.1.5</td>
+    <td>2.3.3, 1.1.5</td>
     <td>agree</td>
     <td>agri</td>
     <td>/tuw-i</td>
@@ -11153,7 +11153,7 @@
     <td>jim</td>
     <td>r</td>
     <td></td>
-    <td>2.3.3,2.1.6</td>
+    <td>2.3.3, 2.1.6</td>
     <td>teach</td>
     <td>tic</td>
     <td>-jiau</td>
@@ -11167,7 +11167,7 @@
     <td>xur</td>
     <td>r</td>
     <td></td>
-    <td>2.3.3,2.4.6</td>
+    <td>2.3.3, 2.4.6</td>
     <td>curse,damn</td>
     <td>kurs</td>
     <td>!jou|dzu</td>
@@ -11265,7 +11265,7 @@
     <td>pli</td>
     <td>r</td>
     <td>13</td>
-    <td>2.3.4,2.4.5,1.5.5,2.1.1</td>
+    <td>2.3.4, 2.4.5, 1.5.5, 2.1.1</td>
     <td>please</td>
     <td>pliz</td>
     <td>|ciw</td>
@@ -11587,7 +11587,7 @@
     <td>ciw</td>
     <td>r</td>
     <td></td>
-    <td>2.3.6,2.5.1,1.5.2</td>
+    <td>2.3.6, 2.5.1, 1.5.2</td>
     <td>opinion,subjective,feel</td>
     <td>fil</td>
     <td>/gan|ciw</td>
@@ -11615,7 +11615,7 @@
     <td>den</td>
     <td>r</td>
     <td></td>
-    <td>2.3.7,1.5.2</td>
+    <td>2.3.7, 1.5.2</td>
     <td>spectator,audience</td>
     <td>audiens</td>
     <td>-guan!dzow</td>
@@ -11755,7 +11755,7 @@
     <td>qnu</td>
     <td>r</td>
     <td>13</td>
-    <td>2.3.7,1.5.1</td>
+    <td>2.3.7, 1.5.1</td>
     <td>attention</td>
     <td>atenqn</td>
     <td>!ju!i</td>
@@ -11769,7 +11769,7 @@
     <td>sen</td>
     <td>r</td>
     <td></td>
-    <td>2.3.7,1.5.2</td>
+    <td>2.3.7, 1.5.2</td>
     <td>experience,sense,stimulus</td>
     <td>sens</td>
     <td>|gan/jue</td>
@@ -11951,7 +11951,7 @@
     <td>vom</td>
     <td>r</td>
     <td></td>
-    <td>2.4.1,2.2.3</td>
+    <td>2.4.1, 2.2.3</td>
     <td>vomit</td>
     <td>vamyt</td>
     <td>|ou</td>
@@ -11965,7 +11965,7 @@
     <td>kli</td>
     <td>r</td>
     <td></td>
-    <td>2.4.1,2.3.4</td>
+    <td>2.4.1, 2.3.4</td>
     <td>weep,cry,tear</td>
     <td>uip</td>
     <td>/liou!lei</td>
@@ -12077,7 +12077,7 @@
     <td>smu</td>
     <td>r</td>
     <td></td>
-    <td>2.4.2,2.1.1</td>
+    <td>2.4.2, 2.1.1</td>
     <td>assemble,system,build</td>
     <td>asembl</td>
     <td>-qou/ji</td>
@@ -12091,7 +12091,7 @@
     <td>kow</td>
     <td>r</td>
     <td></td>
-    <td>2.4.2,4.3.5</td>
+    <td>2.4.2, 4.3.5</td>
     <td>cook,eat</td>
     <td>k#k</td>
     <td>|ju!fan</td>
@@ -12105,7 +12105,7 @@
     <td>zde</td>
     <td>q</td>
     <td></td>
-    <td>2.4.2,4.6.3</td>
+    <td>2.4.2, 4.6.3</td>
     <td>designer,architect,engineer</td>
     <td>dizain</td>
     <td>!qe!ji</td>
@@ -12273,7 +12273,7 @@
     <td>crw</td>
     <td>r</td>
     <td>13</td>
-    <td>2.4.3,4.3.5</td>
+    <td>2.4.3, 4.3.5</td>
     <td>eat</td>
     <td>it</td>
     <td>-cr</td>
@@ -12413,7 +12413,7 @@
     <td>sle</td>
     <td>r</td>
     <td></td>
-    <td>2.4.4,1.1.8</td>
+    <td>2.4.4, 1.1.8</td>
     <td>select,choose</td>
     <td>selekt</td>
     <td>-tiau|suan</td>
@@ -12427,7 +12427,7 @@
     <td>tme</td>
     <td>r</td>
     <td></td>
-    <td>2.4.4,1.3.6</td>
+    <td>2.4.4, 1.3.6</td>
     <td>measure</td>
     <td>mexr</td>
     <td>/liaw</td>
@@ -12441,7 +12441,7 @@
     <td>ven</td>
     <td>r</td>
     <td></td>
-    <td>2.4.4,4.7.2,4.7.3</td>
+    <td>2.4.4, 4.7.2, 4.7.3</td>
     <td>sell,buy,price</td>
     <td>sel</td>
     <td>!mai</td>
@@ -12567,7 +12567,7 @@
     <td>xia</td>
     <td>r</td>
     <td></td>
-    <td>2.4.5,2.1.6</td>
+    <td>2.4.5, 2.1.6</td>
     <td>reward</td>
     <td>riuard</td>
     <td>|jiaw|qaw</td>
@@ -12581,7 +12581,7 @@
     <td>gny</td>
     <td>r</td>
     <td></td>
-    <td>2.4.5,2.1.5,1.5.5</td>
+    <td>2.4.5, 2.1.5, 1.5.5</td>
     <td>kind</td>
     <td>kaind</td>
     <td>/ren-tsz</td>
@@ -12595,7 +12595,7 @@
     <td>qel</td>
     <td>r</td>
     <td></td>
-    <td>2.4.5,3.5.2,4.2.9</td>
+    <td>2.4.5, 3.5.2, 4.2.9</td>
     <td>shelter</td>
     <td>qeltr</td>
     <td>|bau!hu</td>
@@ -12609,7 +12609,7 @@
     <td>tuo</td>
     <td>r</td>
     <td></td>
-    <td>2.4.5,4.2.4</td>
+    <td>2.4.5, 4.2.4</td>
     <td>support</td>
     <td>s#port</td>
     <td>-tuo!ju</td>
@@ -12623,7 +12623,7 @@
     <td>van</td>
     <td>r</td>
     <td></td>
-    <td>2.4.5,4.4.6</td>
+    <td>2.4.5, 4.4.6</td>
     <td>translate</td>
     <td>translait</td>
     <td>-fan!i</td>
@@ -12637,7 +12637,7 @@
     <td>kme</td>
     <td>r</td>
     <td></td>
-    <td>2.4.5,4.6.3</td>
+    <td>2.4.5, 4.6.3</td>
     <td>doctor,disease,treat,medicine</td>
     <td>daktor</td>
     <td>-i-qew</td>
@@ -12735,7 +12735,7 @@
     <td>kai</td>
     <td>r</td>
     <td></td>
-    <td>2.4.6,2.2.4</td>
+    <td>2.4.6, 2.2.4</td>
     <td>take</td>
     <td>taik</td>
     <td>/na</td>
@@ -13099,7 +13099,7 @@
     <td>vrn</td>
     <td>r</td>
     <td></td>
-    <td>2.4.8,4.7.4</td>
+    <td>2.4.8, 4.7.4</td>
     <td>govern</td>
     <td>g#vrn</td>
     <td>!jr|li</td>
@@ -13225,7 +13225,7 @@
     <td>jiw</td>
     <td>r</td>
     <td></td>
-    <td>2.5.1,1.5.5</td>
+    <td>2.5.1, 1.5.5</td>
     <td>surprise</td>
     <td>surpraiz</td>
     <td>-jiw/ci</td>
@@ -13421,7 +13421,7 @@
     <td>vyu</td>
     <td>r</td>
     <td></td>
-    <td>2.5.2,2.1.4</td>
+    <td>2.5.2, 2.1.4</td>
     <td>like,enjoy</td>
     <td>laik</td>
     <td>|si-huan</td>
@@ -13561,7 +13561,7 @@
     <td>gae</td>
     <td>r</td>
     <td></td>
-    <td>2.5.3,1.5.2</td>
+    <td>2.5.3, 1.5.2</td>
     <td>feel,emotion</td>
     <td>imoqn</td>
     <td>|gan/jue</td>
@@ -13799,7 +13799,7 @@
     <td>spym</td>
     <td>p</td>
     <td></td>
-    <td>3.1.1,4.6.1,4.6.4</td>
+    <td>3.1.1, 4.6.1, 4.6.4</td>
     <td>spirit,ghost</td>
     <td>spyryt</td>
     <td>|guei!guai</td>
@@ -13995,7 +13995,7 @@
     <td>dwu</td>
     <td>r</td>
     <td></td>
-    <td>3.1.2,4.6.1</td>
+    <td>3.1.2, 4.6.1</td>
     <td>animal</td>
     <td>anim#l</td>
     <td>!duw!u</td>
@@ -14163,7 +14163,7 @@
     <td>spon</td>
     <td>p</td>
     <td></td>
-    <td>3.1.3,4.1.3</td>
+    <td>3.1.3, 4.1.3</td>
     <td>sponge</td>
     <td>sp#nj</td>
     <td>|hai/mian</td>
@@ -14177,7 +14177,7 @@
     <td>jiow</td>
     <td>p</td>
     <td></td>
-    <td>3.1.3,4.6.4</td>
+    <td>3.1.3, 4.6.4</td>
     <td>parasite</td>
     <td>parasait</td>
     <td>!ji-q#w/tsow</td>
@@ -14401,7 +14401,7 @@
     <td>kman</td>
     <td>p</td>
     <td></td>
-    <td>3.1.4,4.1.7</td>
+    <td>3.1.4, 4.1.7</td>
     <td>cotton</td>
     <td>katn</td>
     <td>/mian</td>
@@ -14429,7 +14429,7 @@
     <td>glyn</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.1.7</td>
+    <td>3.1.5, 4.1.7</td>
     <td>flax,linen</td>
     <td>lyn#n</td>
     <td>/ma!bu</td>
@@ -14443,7 +14443,7 @@
     <td>fcie</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.2</td>
+    <td>3.1.5, 4.3.2</td>
     <td>tomato</td>
     <td>t#mato</td>
     <td>-fan/cie</td>
@@ -14457,7 +14457,7 @@
     <td>peir</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.2</td>
+    <td>3.1.5, 4.3.2</td>
     <td>pear</td>
     <td>per</td>
     <td>/li</td>
@@ -14471,7 +14471,7 @@
     <td>bawo</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.2</td>
+    <td>3.1.5, 4.3.2</td>
     <td>banana</td>
     <td>banana</td>
     <td>-qiaw-jio</td>
@@ -14485,7 +14485,7 @@
     <td>plyw</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.2</td>
+    <td>3.1.5, 4.3.2</td>
     <td>apple</td>
     <td>apl</td>
     <td>-pyw|guo</td>
@@ -14499,7 +14499,7 @@
     <td>guau</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.2</td>
+    <td>3.1.5, 4.3.2</td>
     <td>squash</td>
     <td>skuaq</td>
     <td>-gua</td>
@@ -14513,7 +14513,7 @@
     <td>vanl</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.2</td>
+    <td>3.1.5, 4.3.2</td>
     <td>olive</td>
     <td>al#v</td>
     <td>|gan|lan</td>
@@ -14527,7 +14527,7 @@
     <td>tuou</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.3</td>
+    <td>3.1.5, 4.3.3</td>
     <td>cassava,taro</td>
     <td>kasava</td>
     <td>!u/tou</td>
@@ -14541,7 +14541,7 @@
     <td>piwu</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.3</td>
+    <td>3.1.5, 4.3.3</td>
     <td>potato</td>
     <td>p#taito</td>
     <td>|ma/liw|qu</td>
@@ -14555,7 +14555,7 @@
     <td>cawi</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.4</td>
+    <td>3.1.5, 4.3.4</td>
     <td>tea</td>
     <td>ti</td>
     <td>/ca</td>
@@ -14569,7 +14569,7 @@
     <td>kana</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.4</td>
+    <td>3.1.5, 4.3.4</td>
     <td>marijuana</td>
     <td>maryhuana</td>
     <td>/ma</td>
@@ -14583,7 +14583,7 @@
     <td>tsan</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.4</td>
+    <td>3.1.5, 4.3.4</td>
     <td>tobacco</td>
     <td>t#bako</td>
     <td>-ian|tsau</td>
@@ -14597,7 +14597,7 @@
     <td>pawi</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.5</td>
+    <td>3.1.5, 4.3.5</td>
     <td>parsley</td>
     <td>parsli</td>
     <td>-qiaw!tsai</td>
@@ -14611,7 +14611,7 @@
     <td>psun</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.5</td>
+    <td>3.1.5, 4.3.5</td>
     <td>asparagus</td>
     <td>asperagus</td>
     <td>/lu|su#n</td>
@@ -14625,7 +14625,7 @@
     <td>tsuw</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.5</td>
+    <td>3.1.5, 4.3.5</td>
     <td>onion</td>
     <td>#ni#n</td>
     <td>-tsuw</td>
@@ -14639,7 +14639,7 @@
     <td>sual</td>
     <td>p</td>
     <td></td>
-    <td>3.1.5,4.3.5</td>
+    <td>3.1.5, 4.3.5</td>
     <td>garlic</td>
     <td>garlyk</td>
     <td>!suan</td>
@@ -14667,7 +14667,7 @@
     <td>siai</td>
     <td>p</td>
     <td></td>
-    <td>3.1.6,4.3.3</td>
+    <td>3.1.6, 4.3.3</td>
     <td>rye</td>
     <td>rai</td>
     <td>|siau!mai</td>
@@ -14681,7 +14681,7 @@
     <td>bzn</td>
     <td>q</td>
     <td></td>
-    <td>3.1.6,4.3.3</td>
+    <td>3.1.6, 4.3.3</td>
     <td>bean</td>
     <td>bin</td>
     <td>!dou</td>
@@ -14695,7 +14695,7 @@
     <td>cmyl</td>
     <td>p</td>
     <td></td>
-    <td>3.1.6,4.3.3</td>
+    <td>3.1.6, 4.3.3</td>
     <td>millet</td>
     <td>mylet</td>
     <td>-</td>
@@ -14709,7 +14709,7 @@
     <td>vena</td>
     <td>p</td>
     <td></td>
-    <td>3.1.6,4.3.3</td>
+    <td>3.1.6, 4.3.3</td>
     <td>oats</td>
     <td>ot</td>
     <td>!mai</td>
@@ -14723,7 +14723,7 @@
     <td>quma</td>
     <td>p</td>
     <td></td>
-    <td>3.1.6,4.3.3</td>
+    <td>3.1.6, 4.3.3</td>
     <td>maize,corn</td>
     <td>maiz</td>
     <td>!u|qu|qu</td>
@@ -14737,7 +14737,7 @@
     <td>guri</td>
     <td>p</td>
     <td></td>
-    <td>3.1.6,4.3.3</td>
+    <td>3.1.6, 4.3.3</td>
     <td>rice</td>
     <td>rais</td>
     <td>|gu</td>
@@ -14751,7 +14751,7 @@
     <td>dwoi</td>
     <td>p</td>
     <td></td>
-    <td>3.1.6,4.3.3</td>
+    <td>3.1.6, 4.3.3</td>
     <td>soya</td>
     <td>soi#</td>
     <td>/huaw!dou</td>
@@ -14765,7 +14765,7 @@
     <td>tymi</td>
     <td>p</td>
     <td></td>
-    <td>3.1.6,4.3.3</td>
+    <td>3.1.6, 4.3.3</td>
     <td>wheat</td>
     <td>uit</td>
     <td>!mai.-dz</td>
@@ -14779,7 +14779,7 @@
     <td>vdi</td>
     <td>q</td>
     <td></td>
-    <td>3.1.6,4.3.3</td>
+    <td>3.1.6, 4.3.3</td>
     <td>barley</td>
     <td>barli</td>
     <td>!da!mai</td>
@@ -14793,7 +14793,7 @@
     <td>fiei</td>
     <td>p</td>
     <td></td>
-    <td>3.1.6,4.3.4</td>
+    <td>3.1.6, 4.3.4</td>
     <td>coffee</td>
     <td>kofi</td>
     <td>-ka-fei</td>
@@ -15325,7 +15325,7 @@
     <td>kqel</td>
     <td>p</td>
     <td></td>
-    <td>3.2.4,4.2.8,3.1.3</td>
+    <td>3.2.4, 4.2.8, 3.1.3</td>
     <td>shell</td>
     <td>qel</td>
     <td>/k#</td>
@@ -15493,7 +15493,7 @@
     <td>guie</td>
     <td>p</td>
     <td></td>
-    <td>3.2.5,3.3.3</td>
+    <td>3.2.5, 3.3.3</td>
     <td>blood,sap,juice</td>
     <td>blud</td>
     <td>|sie</td>
@@ -15675,7 +15675,7 @@
     <td>ftu</td>
     <td>q</td>
     <td></td>
-    <td>3.2.7,4.3.5</td>
+    <td>3.2.7, 4.3.5</td>
     <td>fruit,vegetable</td>
     <td>frut</td>
     <td>|guo.-dz</td>
@@ -15717,7 +15717,7 @@
     <td>cunu</td>
     <td>p</td>
     <td></td>
-    <td>3.2.7,4.3.5</td>
+    <td>3.2.7, 4.3.5</td>
     <td>nut,nucleus,central</td>
     <td>nut</td>
     <td>/hu</td>
@@ -15773,7 +15773,7 @@
     <td>vdan</td>
     <td>p</td>
     <td></td>
-    <td>3.2.7,4.3.1</td>
+    <td>3.2.7, 4.3.1</td>
     <td>egg,sperm</td>
     <td>eg</td>
     <td>!dan</td>
@@ -16095,7 +16095,7 @@
     <td>kmy</td>
     <td>r</td>
     <td></td>
-    <td>3.3.1,3.4.3,3.6.1,1.5.6</td>
+    <td>3.3.1, 3.4.3, 3.6.1, 1.5.6</td>
     <td>chemical,pure</td>
     <td>kemykl</td>
     <td>/tsu#n!du</td>
@@ -16305,7 +16305,7 @@
     <td>cani</td>
     <td>p</td>
     <td></td>
-    <td>3.3.2,3.6.1</td>
+    <td>3.3.2, 3.6.1</td>
     <td>ammonia</td>
     <td>amonia</td>
     <td>-an</td>
@@ -16319,7 +16319,7 @@
     <td>psal</td>
     <td>p</td>
     <td></td>
-    <td>3.3.2,4.3.5</td>
+    <td>3.3.2, 4.3.5</td>
     <td>salt</td>
     <td>salt</td>
     <td>/ian</td>
@@ -16655,7 +16655,7 @@
     <td>kory</td>
     <td>p</td>
     <td></td>
-    <td>3.3.4,4.1.7</td>
+    <td>3.3.4, 4.1.7</td>
     <td>pelt,hide,leather</td>
     <td>pelt</td>
     <td>/pi</td>
@@ -16669,7 +16669,7 @@
     <td>xbu</td>
     <td>q</td>
     <td></td>
-    <td>3.3.4,4.1.7</td>
+    <td>3.3.4, 4.1.7</td>
     <td>cloth</td>
     <td>klot</td>
     <td>!bu</td>
@@ -16683,7 +16683,7 @@
     <td>deri</td>
     <td>p</td>
     <td></td>
-    <td>3.3.4,4.3.5</td>
+    <td>3.3.4, 4.3.5</td>
     <td>grease,fat</td>
     <td>gris</td>
     <td>/iou</td>
@@ -16837,7 +16837,7 @@
     <td>tli</td>
     <td>r</td>
     <td></td>
-    <td>3.3.5,1.5.1</td>
+    <td>3.3.5, 1.5.1</td>
     <td>material</td>
     <td>matiri#l</td>
     <td>/tsai!liau</td>
@@ -16851,7 +16851,7 @@
     <td>kql</td>
     <td>q</td>
     <td></td>
-    <td>3.3.5,3.4.2</td>
+    <td>3.3.5, 3.4.2</td>
     <td>liquid</td>
     <td>lykuyd</td>
     <td>!i|ti</td>
@@ -16865,7 +16865,7 @@
     <td>psl</td>
     <td>q</td>
     <td></td>
-    <td>3.3.5,3.4.2</td>
+    <td>3.3.5, 3.4.2</td>
     <td>solid</td>
     <td>salyd</td>
     <td>!gu|ti</td>
@@ -16879,7 +16879,7 @@
     <td>xga</td>
     <td>q</td>
     <td></td>
-    <td>3.3.5,3.4.2</td>
+    <td>3.3.5, 3.4.2</td>
     <td>gas,vapor</td>
     <td>gas</td>
     <td>!ci</td>
@@ -17313,7 +17313,7 @@
     <td>psu</td>
     <td>q</td>
     <td></td>
-    <td>3.4.3,1.1.3</td>
+    <td>3.4.3, 1.1.3</td>
     <td>atom,molecule,cell</td>
     <td>atom</td>
     <td>/uen.-dz</td>
@@ -17327,7 +17327,7 @@
     <td>gyn</td>
     <td>r</td>
     <td></td>
-    <td>3.4.3,3.5.6,1.4.4</td>
+    <td>3.4.3, 3.5.6, 1.4.4</td>
     <td>interval,time</td>
     <td>yntrvl</td>
     <td>-jian/g#</td>
@@ -17341,7 +17341,7 @@
     <td>fkr</td>
     <td>q</td>
     <td></td>
-    <td>3.4.3,4.4.5</td>
+    <td>3.4.3, 4.4.5</td>
     <td>artifact</td>
     <td>artyfakt</td>
     <td>/ren-guw</td>
@@ -17355,7 +17355,7 @@
     <td>ske</td>
     <td>q</td>
     <td></td>
-    <td>3.4.3,4.4.5</td>
+    <td>3.4.3, 4.4.5</td>
     <td>fact,science</td>
     <td>saiens</td>
     <td>-k#/que</td>
@@ -17453,7 +17453,7 @@
     <td>bau</td>
     <td>r</td>
     <td></td>
-    <td>3.4.4,2.2.6</td>
+    <td>3.4.4, 2.2.6</td>
     <td>hail</td>
     <td>hail</td>
     <td>/bau</td>
@@ -17467,7 +17467,7 @@
     <td>ply</td>
     <td>r</td>
     <td></td>
-    <td>3.4.4,2.2.6</td>
+    <td>3.4.4, 2.2.6</td>
     <td>rain</td>
     <td>rain</td>
     <td>|u</td>
@@ -17481,7 +17481,7 @@
     <td>ksny</td>
     <td>p</td>
     <td></td>
-    <td>3.4.4,3.3.2,2.2.6</td>
+    <td>3.4.4, 3.3.2, 2.2.6</td>
     <td>snow</td>
     <td>sno</td>
     <td>|sue</td>
@@ -17495,7 +17495,7 @@
     <td>vbu</td>
     <td>q</td>
     <td></td>
-    <td>3.4.4,3.3.5</td>
+    <td>3.4.4, 3.3.5</td>
     <td>fog</td>
     <td>fag</td>
     <td>!u</td>
@@ -17635,7 +17635,7 @@
     <td>skai</td>
     <td>p</td>
     <td></td>
-    <td>3.5.1,3.4.4</td>
+    <td>3.5.1, 3.4.4</td>
     <td>sky</td>
     <td>skai</td>
     <td>-tian</td>
@@ -17649,7 +17649,7 @@
     <td>qkae</td>
     <td>p</td>
     <td></td>
-    <td>3.5.1,4.2.8</td>
+    <td>3.5.1, 4.2.8</td>
     <td>cave</td>
     <td>kav</td>
     <td>!duw</td>
@@ -17761,7 +17761,7 @@
     <td>tein</td>
     <td>p</td>
     <td></td>
-    <td>3.5.2,3.6.2</td>
+    <td>3.5.2, 3.6.2</td>
     <td>territory</td>
     <td>terytori</td>
     <td>|tu!di</td>
@@ -17775,7 +17775,7 @@
     <td>juo</td>
     <td>r</td>
     <td></td>
-    <td>3.5.2,3.6.2</td>
+    <td>3.5.2, 3.6.2</td>
     <td>habitat</td>
     <td>habytat</td>
     <td>-ju/lio!di</td>
@@ -18153,7 +18153,7 @@
     <td>stam</td>
     <td>p</td>
     <td></td>
-    <td>3.5.5,4.2.6</td>
+    <td>3.5.5, 4.2.6</td>
     <td>platform</td>
     <td>platform</td>
     <td>/tai</td>
@@ -18167,7 +18167,7 @@
     <td>qkam</td>
     <td>p</td>
     <td></td>
-    <td>3.5.5,4.2.8</td>
+    <td>3.5.5, 4.2.8</td>
     <td>camp</td>
     <td>kamp</td>
     <td>/iw</td>
@@ -18181,7 +18181,7 @@
     <td>bryo</td>
     <td>p</td>
     <td></td>
-    <td>3.5.5,4.2.8</td>
+    <td>3.5.5, 4.2.8</td>
     <td>bridge,span</td>
     <td>brydj</td>
     <td>/ciau</td>
@@ -18195,7 +18195,7 @@
     <td>jiwe</td>
     <td>p</td>
     <td></td>
-    <td>3.5.5,4.7.4</td>
+    <td>3.5.5, 4.7.4</td>
     <td>homeland,people,nation</td>
     <td>naqn</td>
     <td>-jia-siaw</td>
@@ -18461,7 +18461,7 @@
     <td>gei</td>
     <td>r</td>
     <td></td>
-    <td>3.6.2,1.1.2</td>
+    <td>3.6.2, 1.1.2</td>
     <td>species</td>
     <td>spisiz</td>
     <td>|juw!lei</td>
@@ -18475,7 +18475,7 @@
     <td>kymu</td>
     <td>p</td>
     <td></td>
-    <td>3.6.2,4.7.1</td>
+    <td>3.6.2, 4.7.1</td>
     <td>community</td>
     <td>kamunyti</td>
     <td>!qe!huei</td>
@@ -18797,7 +18797,7 @@
     <td>vrl</td>
     <td>r</td>
     <td></td>
-    <td>3.7.1,1.5.2</td>
+    <td>3.7.1, 1.5.2</td>
     <td>frame,reference,vertical,coordinate</td>
     <td>vrtykl</td>
     <td>/ji!li</td>
@@ -18909,7 +18909,7 @@
     <td>psa</td>
     <td>q</td>
     <td></td>
-    <td>3.7.2,1.3.1</td>
+    <td>3.7.2, 1.3.1</td>
     <td>straight,line</td>
     <td>lain</td>
     <td>/jr!sian</td>
@@ -19007,7 +19007,7 @@
     <td>zdi</td>
     <td>q</td>
     <td></td>
-    <td>3.7.2,1.1.2</td>
+    <td>3.7.2, 1.1.2</td>
     <td>point</td>
     <td>point</td>
     <td>|dian</td>
@@ -19021,7 +19021,7 @@
     <td>tmy</td>
     <td>r</td>
     <td></td>
-    <td>3.7.2,1.1.3,3.7.4</td>
+    <td>3.7.2, 1.1.3, 3.7.4</td>
     <td>limit</td>
     <td>lymyt</td>
     <td>!jie!sian</td>
@@ -19035,7 +19035,7 @@
     <td>gyo</td>
     <td>r</td>
     <td></td>
-    <td>3.7.2,1.4.4</td>
+    <td>3.7.2, 1.4.4</td>
     <td>parallel</td>
     <td>paralel</td>
     <td>/piw/siw</td>
@@ -19231,7 +19231,7 @@
     <td>fma</td>
     <td>r</td>
     <td></td>
-    <td>3.7.3,1.3.6</td>
+    <td>3.7.3, 1.3.6</td>
     <td>shape,form</td>
     <td>qaip</td>
     <td>!iaw.-dz</td>
@@ -19245,7 +19245,7 @@
     <td>dyn</td>
     <td>r</td>
     <td></td>
-    <td>3.7.3,1.4.2</td>
+    <td>3.7.3, 1.4.2</td>
     <td>center,midpoint</td>
     <td>sentr</td>
     <td>-juw-siyn|dian</td>
@@ -19259,7 +19259,7 @@
     <td>jwuw</td>
     <td>p</td>
     <td></td>
-    <td>3.7.3,4.2.4,3.2.6</td>
+    <td>3.7.3, 4.2.4, 3.2.6</td>
     <td>bulb,swell</td>
     <td>suel</td>
     <td>|juw</td>
@@ -19357,7 +19357,7 @@
     <td>dve</td>
     <td>q</td>
     <td></td>
-    <td>3.7.4,1.2.2</td>
+    <td>3.7.4, 1.2.2</td>
     <td>correct,right</td>
     <td>korekt</td>
     <td>!duei</td>
@@ -19371,7 +19371,7 @@
     <td>sfa</td>
     <td>q</td>
     <td></td>
-    <td>3.7.4,1.2.2</td>
+    <td>3.7.4, 1.2.2</td>
     <td>false</td>
     <td>fals</td>
     <td>-siu|jia</td>
@@ -19385,7 +19385,7 @@
     <td>qtr</td>
     <td>q</td>
     <td></td>
-    <td>3.7.4,1.2.2</td>
+    <td>3.7.4, 1.2.2</td>
     <td>true</td>
     <td>tru</td>
     <td>-jen</td>
@@ -19399,7 +19399,7 @@
     <td>ska</td>
     <td>q</td>
     <td></td>
-    <td>3.7.4,1.2.2</td>
+    <td>3.7.4, 1.2.2</td>
     <td>exact</td>
     <td>eksakt</td>
     <td>!jew!cue</td>
@@ -19413,7 +19413,7 @@
     <td>kym</td>
     <td>r</td>
     <td></td>
-    <td>3.7.4,1.3.2,4.4.5</td>
+    <td>3.7.4, 1.3.2, 4.4.5</td>
     <td>pattern</td>
     <td>patrn</td>
     <td>/muo!iaw</td>
@@ -19427,7 +19427,7 @@
     <td>sya</td>
     <td>r</td>
     <td></td>
-    <td>3.7.4,1.5.2</td>
+    <td>3.7.4, 1.5.2</td>
     <td>basis,axiom</td>
     <td>basys</td>
     <td>-ji|cu</td>
@@ -19441,7 +19441,7 @@
     <td>poa</td>
     <td>r</td>
     <td></td>
-    <td>2.3.6,3.7.4</td>
+    <td>2.3.6, 3.7.4</td>
     <td>assume</td>
     <td>asum</td>
     <td>|jia!q#</td>
@@ -19455,7 +19455,7 @@
     <td>kom</td>
     <td>r</td>
     <td></td>
-    <td>3.7.4,2.4.8</td>
+    <td>3.7.4, 2.4.8</td>
     <td>calculate,arithmetic,reckon</td>
     <td>rekn</td>
     <td>!ji!suan</td>
@@ -19469,7 +19469,7 @@
     <td>qkr</td>
     <td>q</td>
     <td></td>
-    <td>3.7.4,3.4.3</td>
+    <td>3.7.4, 3.4.3</td>
     <td>fact</td>
     <td>fakt</td>
     <td>!qr/qr</td>
@@ -19483,7 +19483,7 @@
     <td>jia</td>
     <td>r</td>
     <td></td>
-    <td>3.7.4,4.4.6</td>
+    <td>3.7.4, 4.4.6</td>
     <td>satisfy</td>
     <td>satysfai</td>
     <td>|jie/da</td>
@@ -19651,7 +19651,7 @@
     <td>piwl</td>
     <td>p</td>
     <td></td>
-    <td>4.1.1,4.1.2</td>
+    <td>4.1.1, 4.1.2</td>
     <td>bottle</td>
     <td>batl</td>
     <td>/piw.-dz</td>
@@ -20505,7 +20505,7 @@
     <td>fire</td>
     <td>p</td>
     <td></td>
-    <td>4.1.8,4.1.7</td>
+    <td>4.1.8, 4.1.7</td>
     <td>thread</td>
     <td>tred</td>
     <td>!sian</td>
@@ -20729,7 +20729,7 @@
     <td>fnau</td>
     <td>p</td>
     <td></td>
-    <td>4.2.1,4.1.3</td>
+    <td>4.2.1, 4.1.3</td>
     <td>knife</td>
     <td>naif</td>
     <td>-dau</td>
@@ -21121,7 +21121,7 @@
     <td>fyni</td>
     <td>p</td>
     <td></td>
-    <td>4.2.3,3.2.6</td>
+    <td>4.2.3, 3.2.6</td>
     <td>fin,oar</td>
     <td>fyn</td>
     <td>/u/qi</td>
@@ -21513,7 +21513,7 @@
     <td>bryr</td>
     <td>p</td>
     <td></td>
-    <td>4.2.6,3.3.4</td>
+    <td>4.2.6, 3.3.4</td>
     <td>brick</td>
     <td>bryk</td>
     <td>-juan</td>
@@ -21849,7 +21849,7 @@
     <td>tum</td>
     <td>r</td>
     <td></td>
-    <td>4.2.9,1.5.2</td>
+    <td>4.2.9, 1.5.2</td>
     <td>tool,instrument</td>
     <td>tul</td>
     <td>-guw!jiu</td>
@@ -22577,7 +22577,7 @@
     <td>pla</td>
     <td>r</td>
     <td></td>
-    <td>4.4.1,4.4.5</td>
+    <td>4.4.1, 4.4.5</td>
     <td>plan</td>
     <td>plan</td>
     <td>!ji!hua</td>
@@ -22675,7 +22675,7 @@
     <td>vdy</td>
     <td>q</td>
     <td></td>
-    <td>4.4.2,2.3.2</td>
+    <td>4.4.2, 2.3.2</td>
     <td>comment</td>
     <td>kament</td>
     <td>/piw!ju</td>
@@ -22689,7 +22689,7 @@
     <td>tri</td>
     <td>r</td>
     <td></td>
-    <td>4.4.2,4.7.1</td>
+    <td>4.4.2, 4.7.1</td>
     <td>rite,ceremony,ritual</td>
     <td>rytiu#l</td>
     <td>|li</td>
@@ -22703,7 +22703,7 @@
     <td>spia</td>
     <td>p</td>
     <td></td>
-    <td>4.4.2,4.7.2</td>
+    <td>4.4.2, 4.7.2</td>
     <td>ticket</td>
     <td>tyk#t</td>
     <td>!piau</td>
@@ -22717,7 +22717,7 @@
     <td>vdaw</td>
     <td>p</td>
     <td></td>
-    <td>4.4.2,4.7.3</td>
+    <td>4.4.2, 4.7.3</td>
     <td>bill</td>
     <td>byl</td>
     <td>!jaw-dan</td>
@@ -22731,7 +22731,7 @@
     <td>spau</td>
     <td>p</td>
     <td></td>
-    <td>4.4.2,4.7.4</td>
+    <td>4.4.2, 4.7.4</td>
     <td>passport</td>
     <td>pasport</td>
     <td>!hu!jau</td>
@@ -22871,7 +22871,7 @@
     <td>dal</td>
     <td>r</td>
     <td></td>
-    <td>4.4.3,3.7.4</td>
+    <td>4.4.3, 3.7.4</td>
     <td>datum,statistic</td>
     <td>data</td>
     <td>-dz!liau</td>
@@ -22885,7 +22885,7 @@
     <td>dvro</td>
     <td>p</td>
     <td></td>
-    <td>4.4.3,4.7.2</td>
+    <td>4.4.3, 4.7.2</td>
     <td>advertise</td>
     <td>advrtiz</td>
     <td>|guaw!gau</td>
@@ -23011,7 +23011,7 @@
     <td>tem</td>
     <td>r</td>
     <td></td>
-    <td>4.4.4,4.5.3</td>
+    <td>4.4.4, 4.5.3</td>
     <td>date,time</td>
     <td>dat</td>
     <td>!r/ci</td>
@@ -23123,7 +23123,7 @@
     <td>dur</td>
     <td>r</td>
     <td></td>
-    <td>4.4.5,4.7.2</td>
+    <td>4.4.5, 4.7.2</td>
     <td>industry</td>
     <td>yndustri</td>
     <td>-guw!ie</td>
@@ -23417,7 +23417,7 @@
     <td>zin</td>
     <td>r</td>
     <td></td>
-    <td>4.4.7,1.1.3,1.5.6</td>
+    <td>4.4.7, 1.1.3, 1.5.6</td>
     <td>referent</td>
     <td>min</td>
     <td>!i-sz</td>
@@ -23711,7 +23711,7 @@
     <td>cni</td>
     <td>r</td>
     <td></td>
-    <td>4.5.2,4.7.3</td>
+    <td>4.5.2, 4.7.3</td>
     <td>money,piece,dollar</td>
     <td>m#ni</td>
     <td>/cian</td>
@@ -23879,7 +23879,7 @@
     <td>bew</td>
     <td>r</td>
     <td></td>
-    <td>4.6.1,4.6.2</td>
+    <td>4.6.1, 4.6.2</td>
     <td>adult</td>
     <td>#d#lt</td>
     <td>/qew/ren</td>
@@ -23893,7 +23893,7 @@
     <td>bia</td>
     <td>r</td>
     <td></td>
-    <td>4.6.1,4.6.2</td>
+    <td>4.6.1, 4.6.2</td>
     <td>baby</td>
     <td>baibi</td>
     <td>-iw/hai</td>
@@ -23907,7 +23907,7 @@
     <td>tfir</td>
     <td>p</td>
     <td></td>
-    <td>4.6.1,4.6.2</td>
+    <td>4.6.1, 4.6.2</td>
     <td>embryo,fetus</td>
     <td>fit#s</td>
     <td>-tai/r</td>
@@ -24103,7 +24103,7 @@
     <td>pliw</td>
     <td>p</td>
     <td></td>
-    <td>4.6.3,4.7.4</td>
+    <td>4.6.3, 4.7.4</td>
     <td>police</td>
     <td>polis</td>
     <td>|jiw/ca</td>
@@ -24117,7 +24117,7 @@
     <td>plma</td>
     <td>p</td>
     <td></td>
-    <td>4.6.3,4.7.4</td>
+    <td>4.6.3, 4.7.4</td>
     <td>diplomat,consul</td>
     <td>dyplamat</td>
     <td>|liw!shr</td>
@@ -24355,7 +24355,7 @@
     <td>dia</td>
     <td>r</td>
     <td></td>
-    <td>4.7.2,2.4.4</td>
+    <td>4.7.2, 2.4.4</td>
     <td>trade,exchange,barter</td>
     <td>traid</td>
     <td>!diau!huan</td>
@@ -24369,7 +24369,7 @@
     <td>frw</td>
     <td>r</td>
     <td></td>
-    <td>4.7.2,2.4.4</td>
+    <td>4.7.2, 2.4.4</td>
     <td>offer,price</td>
     <td>afr</td>
     <td>!swu</td>
@@ -24579,7 +24579,7 @@
     <td>kei</td>
     <td>r</td>
     <td></td>
-    <td>4.7.4,4.7.1</td>
+    <td>4.7.4, 4.7.1</td>
     <td>crime</td>
     <td>kraim</td>
     <td>!dzuei</td>
