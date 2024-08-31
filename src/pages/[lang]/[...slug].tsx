@@ -111,10 +111,10 @@ const Post = ({
         {/* Navigation links */}
         {(nextPage !== null || prevPage !== null) && (
           <div className="w-full flex justify-center mt-2 items-center space-x-8">
-            {post.parentSlug !== undefined &&
-            post.parentSlug !== post.slug.join("/") ? (
+            {post.firstSiblingSlug !== undefined &&
+            post.firstSiblingSlug !== post.slug.join("/") ? (
               <Link
-                href={"/" + post.parentSlug}
+                href={"/" + post.firstSiblingSlug}
                 className="text-brown-400 hover:text-brown-600 transition-colors"
               >
                 <FontAwesomeIcon className="w-6" icon={faBackwardFast} />
@@ -284,18 +284,17 @@ export async function getStaticProps({ params }: Params) {
     if (!relatedSlugs.includes(nextPage)) nextPage = null;
     else nextPage = "/" + nextPage;
     currentPageNumber = currentIndex;
-    // const parentSlug = allPosts.find(
-    //   (externalPost) =>
-    //     externalPost.slug.join("/") === post.slug.slice(0, -1).join("/")
-    // );
-    // if (parentSlug?.title !== undefined && post.title === undefined) {
-    //   post.title = parentSlug.title;
-    //   post.parentPost = parentSlug;
-    //   const stringifiedSlug = post.slug.join("/");
-    //   const allSiblingPosts = relatedSlugs.concat(stringifiedSlug).sort();
-    //   if (allSiblingPosts[0] !== stringifiedSlug)
-    //     post.parentSlug = allSiblingPosts[0];
-    // }
+    const firstSiblingSlug = allPosts.find(
+      (externalPost) =>
+        externalPost.slug.join("/") === post.slug.slice(0, -1).join("/")
+    );
+    if (firstSiblingSlug?.title !== undefined && post.title === undefined) {
+      post.title = firstSiblingSlug.title;
+      const stringifiedSlug = post.slug.join("/");
+      const allSiblingPosts = relatedSlugs.concat(stringifiedSlug).sort();
+      if (allSiblingPosts[0] !== stringifiedSlug)
+        post.firstSiblingSlug = allSiblingPosts[0];
+    }
   } catch (error) {}
 
   return {

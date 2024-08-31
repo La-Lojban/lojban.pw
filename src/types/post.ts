@@ -6,6 +6,7 @@ import { TocElem } from './toc'
 export type TPost = {
   slug: string[]
   parentSlug?: string
+  firstSiblingSlug?: string
   directory?: string
   firstHeader?: string
   "meta.title"?: string
