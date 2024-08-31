@@ -399,19 +399,19 @@ The phonemes (sounds) are divided in two classes, C's and V's, or _kona_ and _vu
 
  
 
-> Table 2 [Pronunciation]. How to pronounce _gua\spi_ phonemes. Nonstandard C's are shown; C's without examples are as in English. Standard radio broadcast accent is close to correct for the V's; Spanish is closer. Pronounce the vowels as one sound, not a glide between two sounds as in ``eye''. 
+> Table 2 [Pronunciation]. How to pronounce _gua\spi_ phonemes. Nonstandard C's are shown; C's without examples are as in English. Standard radio broadcast accent is close to correct for the V's; Spanish is closer. Pronounce the vowels as one sound, not a glide between two sounds as in eye. 
 
 * * *
 
 Table 1 [Phonemes] shows the phonemes, categorized by tongue position and sound type. Some phonemes are represented confusingly in English, e.g. `sh' which sounds like neither `s' nor `h'. So in _gua\spi_ they are assigned individual letters which differ from English usage --- `q' for `sh'. Table 2 [Pronunciation] gives examples of these, and all the vowels. There is a 1-1 relation between written and spoken _gua\spi_. Written blanks have no sound, and are optional. There is no distinction between upper and lower case. 
 
-All words must begin with a C and end with a V so foreign words must be modified to fit. They appear in _gua\spi_ as possibly several CnVn syllables. A prefix, most commonly _``qo''_ for a foreign name, signals that the syllables are not to be looked up in the dictionary and are to be kept together when other compound words are split up during organization. 
+All words must begin with a C and end with a V so foreign words must be modified to fit. They appear in _gua\spi_ as possibly several CnVn syllables. A prefix, most commonly _qo_ for a foreign name, signals that the syllables are not to be looked up in the dictionary and are to be kept together when other compound words are split up during organization. 
 
 ## Grammar by Tones --- How Words Join 
 
 The grammar is stated in Backus-Naur form in the Appendix. The job of grammar is to stick words together into phrases (_zdua_). _Gua\spi_ grammar produces a strict tree-structure parse for each sentence wherein one phrase is at the root forming the main sentence, and each phrase has an ordered list of zero or more sub-phrases. The grammar does not support meaning of any kind --- no tenses, no possessives, no nouns, no verbs. These ideas are handled at the organizational and semantic levels, using the grammar as a foundation. Like its morphology, the grammar of _gua\spi_ is nearly minimal. 
 
-For grammatical purposes there is only one kind of phrase (though distinctions are made at the organizational level), but words have five categories: the two grammar words _``fu''_ and _``fi''_ , sentence start prefixes, other prefixes, and everything else. The main part of a phrase is a sequence of one or more words collectively called the ``phrase predicate''; any prefixes in this must come first. During grammatical analysis there may be several content words in the predicate, though later transformations split up all compound words into separate phrases. After any of the prefixes or after the whole predicate the sub-phrases are interspersed where convenient; they attach to the current phrase at the next higher level. 
+For grammatical purposes there is only one kind of phrase (though distinctions are made at the organizational level), but words have five categories: the two grammar words _fu_ and _fi_ , sentence start prefixes, other prefixes, and everything else. The main part of a phrase is a sequence of one or more words collectively called the phrase predicate; any prefixes in this must come first. During grammatical analysis there may be several content words in the predicate, though later transformations split up all compound words into separate phrases. After any of the prefixes or after the whole predicate the sub-phrases are interspersed where convenient; they attach to the current phrase at the next higher level. 
 
 Fig. 1 [Parsetree] shows a parse tree for a simple sentence with two levels of sub-phrases. The tones (see Table 3 [tones]) show the level of each word relative to the one before it. 
 
@@ -616,13 +616,13 @@ The tone, or frequency modulation, of a _gua\spi_ word represents its parse tree
 
  
 
-> Table 3 [Tones]. Sounds and interpretations of the tones. ``Level'' refers to the parse tree level of the word with that tone, relative to the structure before it. ``Type'' indicates the organizational type of that word or phrase. The first set of symbols shown, ascii characters, is preferred but the second set can substitute on a manual typewriter. In this paper, `!' is used instead of `\' for convenience in typesetting. 
+> Table 3 [Tones]. Sounds and interpretations of the tones. Level refers to the parse tree level of the word with that tone, relative to the structure before it. Type indicates the organizational type of that word or phrase. The first set of symbols shown, ascii characters, is preferred but the second set can substitute on a manual typewriter. In this paper, `!' is used instead of `\' for convenience in typesetting. 
 
 * * *
 
 Tones `-' and `=' join adjacent words of a compound phrase predicate. Tones `!' and `|' start a sub-phrase of the current phrase. Tone `^' closes the current sub-phrase and starts a new one, part of the same containing phrase. Tone `/' closes a sub-phrase and resumes the predicate of the containing phrase, if among its prefixes, or otherwise starts a new phrase at the higher level. Distinctions within these tone classes are important later but do not affect the grammar. 
 
-A sentence start prefix such as _``^:i''_ is automatically at root level, and _``/fi''_ jumps to root level without ending the sentence. Other multi-level upjumps are available with _``fu''_ but are needed rarely. 
+A sentence start prefix such as _^:i_ is automatically at root level, and _/fi_ jumps to root level without ending the sentence. Other multi-level upjumps are available with _fu_ but are needed rarely. 
 
 ## Cases --- Members of a Relation 
 
@@ -653,9 +653,9 @@ The next layer of _gua\spi_ syntax is the organizational level, but to understan
 
 
 
-Please pronounce it correctly: `c' as English `ch' and `i' as `ee'. Mind the tones, lest you change it into ``the eat rats the cheese'' or some such. (Chinese is worse: you could change ``mother'' into ``horse'' with a wrong tone. But Chinese people survive nicely.) The notation ``_tara_ -rat'' in examples means that _``tara''_ is the example word, and it means ``rat'' in English. Isolated words or phrases like this are written without a tone because it depends on the context where the word is used. 
+Please pronounce it correctly: `c' as English `ch' and `i' as `ee'. Mind the tones, lest you change it into the eat rats the cheese or some such. (Chinese is worse: you could change mother into horse with a wrong tone. But Chinese people survive nicely.) The notation _tara_ -rat in examples means that _tara_ is the example word, and it means rat in English. Isolated words or phrases like this are written without a tone because it depends on the context where the word is used. 
 
-Natural languages generally distinguish between ``things'' and ``actions'', where an ``action'' is a relation between ``things''. The formal term for such a relation is a ``predicate'' (_gna_). Take for example: 
+Natural languages generally distinguish between things and actions, where an action is a relation between things. The formal term for such a relation is a predicate (_gna_). Take for example: 
 
 > 
 
@@ -681,11 +681,11 @@ Natural languages generally distinguish between ``things'' and ``actions'', wher
 
 
 
-``_crw_ -eats'', called a ``predicate word'' (_qury_), is a symbol for the predicate by which the rat and the cheese are related. The predicate is like a function whose arguments are things that might be related; the value of the function is true or false (or fuzzily in between) depending on whether or not they actually are thus related: in this sentence, whether the first actual parameter eats the second. 
+_crw_ -eats, called a predicate word (_qury_), is a symbol for the predicate by which the rat and the cheese are related. The predicate is like a function whose arguments are things that might be related; the value of the function is true or false (or fuzzily in between) depending on whether or not they actually are thus related: in this sentence, whether the first actual parameter eats the second. 
 
-The formal parameters of a predicate, regarded as a function, are referred to as ``cases''. English has ``nominative'' and ``accusative'' cases (the rat occupies the nominative case and the cheese occupies the accusative case), and Latin has in addition ``genitive'', ``ablative'' and others, but _gua\spi_ simply numbers the cases. Some _gua\spi_ words have as many as five numbered cases. In our example, ``_tara_ -rat'' fills the first case of ``_crw_ -eats'' and ``_kseo_ -cheese'' fills the second. Natural languages and -gua!spi have obvious regularities in how particular cases are used, but it is not possible, at least in -gua!spi, to make a universal theory of what cases mean. Users should attend closely to case patterns in related words, but each category must be learned individually. 
+The formal parameters of a predicate, regarded as a function, are referred to as cases. English has nominative and accusative cases (the rat occupies the nominative case and the cheese occupies the accusative case), and Latin has in addition genitive, ablative and others, but _gua\spi_ simply numbers the cases. Some _gua\spi_ words have as many as five numbered cases. In our example, _tara_ -rat fills the first case of _crw_ -eats and _kseo_ -cheese fills the second. Natural languages and -gua!spi have obvious regularities in how particular cases are used, but it is not possible, at least in -gua!spi, to make a universal theory of what cases mean. Users should attend closely to case patterns in related words, but each category must be learned individually. 
 
-The words denoting the actual parameters of a predicate are called ``arguments''; being sub-phrases, they have their own predicate words. Here, _``!tara''_ and _``!kseo''_ are the arguments. The ``thing'' represented by an argument, which is the actual parameter of the sentence predicate, is something that can fill the first case of the argument's predicate. It is referred to as the ``referent'' of the argument. For example, 
+The words denoting the actual parameters of a predicate are called arguments; being sub-phrases, they have their own predicate words. Here, _!tara_ and _!kseo_ are the arguments. The thing represented by an argument, which is the actual parameter of the sentence predicate, is something that can fill the first case of the argument's predicate. It is referred to as the referent of the argument. For example, 
 
 > 
 
@@ -717,9 +717,9 @@ While English partially segregates nouns and verbs, _gua\spi_ uses the same pred
 
 ### What Definitions Mean
 
-In a dictionary words are defined in one or two sentences, but for _gua\spi_ these sentences are considered to be merely a learning aid. The effective definition is a set of lists of thus-related referents. For example, the referent set of ``eats'' includes a member list with our example rat in first case and our example cheese in second, as well as numerous other members containing other rats, foods, and so on ad (almost literally) infinitum. Other predicates like ``_cu_ -pair'' have referent sets that are actually infinite. 
+In a dictionary words are defined in one or two sentences, but for _gua\spi_ these sentences are considered to be merely a learning aid. The effective definition is a set of lists of thus-related referents. For example, the referent set of eats includes a member list with our example rat in first case and our example cheese in second, as well as numerous other members containing other rats, foods, and so on ad (almost literally) infinitum. Other predicates like _cu_ -pair have referent sets that are actually infinite. 
 
-Language users are not expected to be familiar with every object list that was, is now or ever shall be thus related. A big part of language behavior consists of the listener adding to his knowledge of which items are thus related, which information the speaker sends to him or her. Each person has his own limited experience of the world, but we speak of ``the referent set'' of a word independent of a person because words are supposed to mean the same thing to each person, and language users really do agree on meanings most of the time. 
+Language users are not expected to be familiar with every object list that was, is now or ever shall be thus related. A big part of language behavior consists of the listener adding to his knowledge of which items are thus related, which information the speaker sends to him or her. Each person has his own limited experience of the world, but we speak of the referent set of a word independent of a person because words are supposed to mean the same thing to each person, and language users really do agree on meanings most of the time. 
 
 Humans are very good at generalizing from a few referent set members so as to recognize novel referents, and they are not satisfied with a word until they can do such a general recognition algorithm and usually come out with the same answers their neighbors do. But mechanical users of _gua\spi_ cannot be expected to show such skill, and neither can beginning human users such as infants. They must build up a referent set for a word by exhaustively hearing referent set members. If an advanced human, or advanced software, can transcend the official definition of _gua\spi_ words, that's fine --- a common (but risky) strategy for humans will be to use their native language as a guide to _gua\spi_ meanings. However, _gua\spi_ words are still defined officially in terms of referent sets simply because this definition is known to be tractable both for theory and for practical implementation. A _gua\spi_ referent set is perfectly suited to be represented as a Prolog database, if truncated to a practical size. 
 
@@ -777,7 +777,7 @@ When you speak a sentence or a subordinate assertion you do the same thing: you 
 
 
 
-your knowledge of the referent set of ``_jun_ -hunt'' includes a member which John will want to append to the ones he knows, before the cheese is stolen. This is the ultimate meaning of the _gua\spi_ sentence. 
+your knowledge of the referent set of _jun_ -hunt includes a member which John will want to append to the ones he knows, before the cheese is stolen. This is the ultimate meaning of the _gua\spi_ sentence. 
 
 ## The Organizational Syntax Level
 
@@ -785,13 +785,13 @@ Now that we have an unambiguous parse tree made up of phrases, what shall we do 
 
 ### Which Words Go in Which Cases 
 
-The tones of grammar deliver to the organizational syntax level, for each phrase, an ordered list of attached sub-phrases, which are the arguments of the phrase predicate. For example in _``!tara /crw !kseo''_ , ``_tara_ -rat'' and ``_kseo_ -cheese'' are attached to ``_crw_ -eats'' as sub-phrases and therefore are its arguments. In the simplest and most common variation the arguments fill a sentence predicate's cases in order by number, much like English and Chinese, so ``_tara_ -rat'' fills the first case of ``_crw_ -eats'' and ``_kseo_ -cheese'' fills the second. In arguments the first case is skipped over, being filled by an invisible placeholder for the referent. This organizational syntax can be so simple because the grammar delivers unambiguous lists of arguments, whereas in English or Latin a combined syntax has to deal with both getting the arguments on the right predicates and getting them into the right cases, and so is a lot more complicated. 
+The tones of grammar deliver to the organizational syntax level, for each phrase, an ordered list of attached sub-phrases, which are the arguments of the phrase predicate. For example in _!tara /crw !kseo_ , _tara_ -rat and _kseo_ -cheese are attached to _crw_ -eats as sub-phrases and therefore are its arguments. In the simplest and most common variation the arguments fill a sentence predicate's cases in order by number, much like English and Chinese, so _tara_ -rat fills the first case of _crw_ -eats and _kseo_ -cheese fills the second. In arguments the first case is skipped over, being filled by an invisible placeholder for the referent. This organizational syntax can be so simple because the grammar delivers unambiguous lists of arguments, whereas in English or Latin a combined syntax has to deal with both getting the arguments on the right predicates and getting them into the right cases, and so is a lot more complicated. 
 
-The root phrase is assumed, in the absence of special cue words like _``vn''_ , to be a sentence; thus its first sub-phrase fills its first case. All sub-phrases are assumed to be arguments with empty first cases, except if they have tones or prefixed cue words that make them subordinate or infinitive clauses. 
+The root phrase is assumed, in the absence of special cue words like _vn_ , to be a sentence; thus its first sub-phrase fills its first case. All sub-phrases are assumed to be arguments with empty first cases, except if they have tones or prefixed cue words that make them subordinate or infinitive clauses. 
 
-Should it be inconvenient to have cases filled in order, _gua\spi_ has ways to change the order. First, certain prefixes signify that the relation word is ``converted'': one case is moved in front of the others. This is most useful for arguments, and lets one _gua\spi_ word do the job of as many as five English words. For example in _``zu -crw''_ the second case comes first, and the referent of such an argument would be something occupying the second case of ``eats'' before conversion: the meaning is ``food''. The original first case, the eater, comes afterward: _``zu -crw !xo -tara''_ means ``rat food''. The English ``passive voice'' is a conversion in a sentence. 
+Should it be inconvenient to have cases filled in order, _gua\spi_ has ways to change the order. First, certain prefixes signify that the relation word is converted: one case is moved in front of the others. This is most useful for arguments, and lets one _gua\spi_ word do the job of as many as five English words. For example in _zu -crw_ the second case comes first, and the referent of such an argument would be something occupying the second case of eats before conversion: the meaning is food. The original first case, the eater, comes afterward: _zu -crw !xo -tara_ means rat food. The English passive voice is a conversion in a sentence. 
 
-Second, an argument can be directed to a specific case by a ``caselink'' prefix analogous to the case endings of Latin. For example, take 
+Second, an argument can be directed to a specific case by a caselink prefix analogous to the case endings of Latin. For example, take 
 
 > 
 
@@ -818,17 +818,17 @@ Second, an argument can be directed to a specific case by a ``caselink'' prefix 
 
 
 
-_``fer''_ means ``X1 carries X2 to X3 from X4 via X5''. Its arguments are _``!tara''_ in the first case, but _``se''_ links the next argument, ``_dowu_ -house'', to the fourth case: the start point. 
+_fer_ means X1 carries X2 to X3 from X4 via X5. Its arguments are _!tara_ in the first case, but _se_ links the next argument, _dowu_ -house, to the fourth case: the start point. 
 
-A predicate word can act as a caselink too, linking a ``modal case'' by means of an imbedded sentence. Such sentences are covered in the next two sections. 
+A predicate word can act as a caselink too, linking a modal case by means of an imbedded sentence. Such sentences are covered in the next two sections. 
 
-The motion words have complicated definitions, so all the definitions have been made similar: ``X1 (moves) to X2 from X3 via X4'' or ``X1 makes X2 (move) to X3 from X4 via X5''. Many other word categories have uniform definitions too. 
+The motion words have complicated definitions, so all the definitions have been made similar: ``X1 (moves) to X2 from X3 via X4'' or X1 makes X2 (move) to X3 from X4 via X5. Many other word categories have uniform definitions too. 
 
 ### Sentences as Arguments --- Infinitives 
 
-A _gua\spi_ sentence or argument expresses a relation between specific referents, and this specific referent set member is called an ``event''. (Frequently the sentence represents several similar events.) It is common for several cases of the predicate to be vacant: in the previous example the thing carried, the destination and the route were not specified. Nonetheless there must have been a thing carried, a destination and a route, and the sentence asserts a relation between all five arguments. The next organizational elements we will look at are linking words that attach sentence predicates (with their arguments). The linked sentences represent lists of specific events with specific argument referents and with all cases filled even if not specified by words. 
+A _gua\spi_ sentence or argument expresses a relation between specific referents, and this specific referent set member is called an event. (Frequently the sentence represents several similar events.) It is common for several cases of the predicate to be vacant: in the previous example the thing carried, the destination and the route were not specified. Nonetheless there must have been a thing carried, a destination and a route, and the sentence asserts a relation between all five arguments. The next organizational elements we will look at are linking words that attach sentence predicates (with their arguments). The linked sentences represent lists of specific events with specific argument referents and with all cases filled even if not specified by words. 
 
-Returning to organization, the first sentence link word is _``vo''_ , which acts to change a sentence into a one-argument predicate, referred to as an ``infinitive'', which means that the occupant of its first case is an instance of the sentence relation. Though the infinitive can itself be a sentence predicate it is much more commonly used in arguments, like this: 
+Returning to organization, the first sentence link word is _vo_ , which acts to change a sentence into a one-argument predicate, referred to as an infinitive, which means that the occupant of its first case is an instance of the sentence relation. Though the infinitive can itself be a sentence predicate it is much more commonly used in arguments, like this: 
 
 > 
 
@@ -854,9 +854,9 @@ Returning to organization, the first sentence link word is _``vo''_ , which acts
 
 
 
-_``vyu''_ means ``X1 enjoys doing (_vo_) X2'', where the second case is some kind of activity --- a natural place to fill with an infinitive. The sentence linked by _``vo''_ is _``!tara /crw''_ = ``the rat eats'', and an instance of that relation, an event, is the referent of the argument _``vo -crw !tara''_. (The argument _``!tara''_ may come before or after the sentence predicate _``crw''_ , wherever convenient.) 
+_vyu_ means X1 enjoys doing (_vo_) X2, where the second case is some kind of activity --- a natural place to fill with an infinitive. The sentence linked by _vo_ is _!tara /crw_ = the rat eats, and an instance of that relation, an event, is the referent of the argument _vo -crw !tara_. (The argument _!tara_ may come before or after the sentence predicate _crw_ , wherever convenient.) 
 
-_``vyu''_ includes the prefix _``vo''_ on its second case by default, as do all words which commonly have infinitive arguments. Also, there are various patterns in which main sentence arguments are replicated into infinitives, and by far the most common is for the argument just before the infinitive to be replicated, if the infinitive has none --- _``!tara''_ here. So you could just say 
+_vyu_ includes the prefix _vo_ on its second case by default, as do all words which commonly have infinitive arguments. Also, there are various patterns in which main sentence arguments are replicated into infinitives, and by far the most common is for the argument just before the infinitive to be replicated, if the infinitive has none --- _!tara_ here. So you could just say 
 
 > 
 
@@ -884,7 +884,7 @@ _``vyu''_ includes the prefix _``vo''_ on its second case by default, as do all 
 
 ### Subordinate Clauses 
 
-A subordinate clause is a sentence within a sentence. Its predicate relates one (or more) of its internal arguments to the phrase it modifies; the internal argument is called a ``modal case'' of the modified phrase. A subordinate clause can specify a tense, location, possession (genitive case), listener (vocative case), speaker in dialogue, gender, plural number, repeated action, and numerous miscellaneous cases as in the examples below. Its purpose is signalled by a linking word: 
+A subordinate clause is a sentence within a sentence. Its predicate relates one (or more) of its internal arguments to the phrase it modifies; the internal argument is called a modal case of the modified phrase. A subordinate clause can specify a tense, location, possession (genitive case), listener (vocative case), speaker in dialogue, gender, plural number, repeated action, and numerous miscellaneous cases as in the examples below. Its purpose is signalled by a linking word: 
 
 _ve_
      A supplementary comment, giving additional information about the modified phrase, typically adding a modal case. 
@@ -897,12 +897,12 @@ _va_
 
 Subordinate clauses are more common in _gua\spi_ than in English, and also can be complicated, so two special rules are provided to make them simpler: 
 
-  * Because subordinate clauses are so common the tone `|' is allocated specifically to them which automatically supplies the linking prefix _``ve''_. When this tone does not apply, of course, _``ve''_ may be used explicitly. `|' is used commonly with the other linking words too. 
-  * The restricted phrase is automatically replicated via a placeholder pronoun into whichever case of the subordinate clause is intended for an event, indicated by default _``vo''_ or _``bi''_ , or the first case if no event is expected or if the event case is occupied. 
+  * Because subordinate clauses are so common the tone `|' is allocated specifically to them which automatically supplies the linking prefix _ve_. When this tone does not apply, of course, _ve_ may be used explicitly. `|' is used commonly with the other linking words too. 
+  * The restricted phrase is automatically replicated via a placeholder pronoun into whichever case of the subordinate clause is intended for an event, indicated by default _vo_ or _bi_ , or the first case if no event is expected or if the event case is occupied. 
 
 
 
-Here is a subordinate clause restricting an argument, illustrating _``vu''_ : 
+Here is a subordinate clause restricting an argument, illustrating _vu_ : 
 
 > 
 
@@ -928,7 +928,7 @@ Here is a subordinate clause restricting an argument, illustrating _``vu''_ :
 
 
 
-Not all cheeses but only those which smell (_|xel_) are eaten by the rat. The restricting sentence is ``X1 smells like X2'', and argument referents (cheeses) are automatically brought into X1 through the placeholder. When in English we use adjectives and adverbs, in _gua\spi_ we usually use subordinate clauses like this one. Here are examples of the other subordinate linking words: 
+Not all cheeses but only those which smell (_|xel_) are eaten by the rat. The restricting sentence is X1 smells like X2, and argument referents (cheeses) are automatically brought into X1 through the placeholder. When in English we use adjectives and adverbs, in _gua\spi_ we usually use subordinate clauses like this one. Here are examples of the other subordinate linking words: 
 
 > 
 
@@ -954,7 +954,7 @@ Not all cheeses but only those which smell (_|xel_) are eaten by the rat. The re
 
 
 
-This subordinate clause adds a modal case. The clause is _``!vden !xdro !fu -tum !vo (event)''_ = ``its teeth are the tool for doing (event)'', and the asserted relation _``!tara /crw !kseo''_ = ``The rat eats the cheese'' also satisfies this sub-sentence. Because of the clause we know that the rat does not gum the cheese. The effect is as if an additional case were added to ``_crw_ -eat'' for the cutting tool. 
+This subordinate clause adds a modal case. The clause is _!vden !xdro !fu -tum !vo (event)_ = its teeth are the tool for doing (event), and the asserted relation _!tara /crw !kseo_ = The rat eats the cheese also satisfies this sub-sentence. Because of the clause we know that the rat does not gum the cheese. The effect is as if an additional case were added to _crw_ -eat for the cutting tool. 
 
 > 
 
@@ -980,7 +980,7 @@ This subordinate clause adds a modal case. The clause is _``!vden !xdro !fu -tum
 
 
 
-_``|vi -bwy''_ appears to have no modal argument, but for this discursive category a pronoun is provided by default to represent the previous sentence. Thus the subordinate clause says ``this sentence differs from the previous one''. The other clause beginning with _``va''_ is a subordinate assertion, which is similar to a main sentence, but the reader can understand it better when it is imbedded. 
+_|vi -bwy_ appears to have no modal argument, but for this discursive category a pronoun is provided by default to represent the previous sentence. Thus the subordinate clause says ``this sentence differs from the previous one''. The other clause beginning with _va_ is a subordinate assertion, which is similar to a main sentence, but the reader can understand it better when it is imbedded. 
 
 > 
 
@@ -1006,21 +1006,21 @@ _``|vi -bwy''_ appears to have no modal argument, but for this discursive catego
 
 
 
-In ``_tan_ -annoy'' who is annoyed? ``_ji_ -me'' is provided by default in the first case (after conversion) of supplementary assertions, main phrases and infinitives that otherwise lack one (provided certain conditions are met). Forceful or emotional speech seems more free and expressive with this feature. The other clause _``|zey !ji''_ is a possessive phrase; most languages have special grammar just for possessives, but _gua\spi_ uses the general clause mechanism. 
+In _tan_ -annoy who is annoyed? _ji_ -me is provided by default in the first case (after conversion) of supplementary assertions, main phrases and infinitives that otherwise lack one (provided certain conditions are met). Forceful or emotional speech seems more free and expressive with this feature. The other clause _|zey !ji_ is a possessive phrase; most languages have special grammar just for possessives, but _gua\spi_ uses the general clause mechanism. 
 
 ### Pronouns Represent Words, Not Things 
 
-The next organizational issue is the pronoun. English pronouns have referents just like any other argument. But _gua\spi_ pronouns represent words, not the referent of words. In computer terms, they are like functions that are expanded in-line rather than being called. The represented words are called the ``antecedent'' of the pronoun, and the sentence is analysed as if each pronoun were taken out and replaced by its antecedent. The antecedents, not the pronouns, have referents. In this way the organizational syntax level can be kept free of meaning, and the semantic level has to deal with only one class of words, predicates. 
+The next organizational issue is the pronoun. English pronouns have referents just like any other argument. But _gua\spi_ pronouns represent words, not the referent of words. In computer terms, they are like functions that are expanded in-line rather than being called. The represented words are called the antecedent of the pronoun, and the sentence is analysed as if each pronoun were taken out and replaced by its antecedent. The antecedents, not the pronouns, have referents. In this way the organizational syntax level can be kept free of meaning, and the semantic level has to deal with only one class of words, predicates. 
 
-For example, a document typically will have a signature line saying in effect ``this text is the output of Jim Carter''. (Spoken discourse is analogous though identification is by sight or voice tone.) Then when there appears the pronoun _``ji''_ (``me'' in English) the effect is as if the words ``Jim Carter'' had been written in its place. That is, ``A rat ate my cheese'' and ``A rat ate Jim Carter's cheese'' mean exactly the same thing. 
+For example, a document typically will have a signature line saying in effect this text is the output of Jim Carter. (Spoken discourse is analogous though identification is by sight or voice tone.) Then when there appears the pronoun _ji_ (me in English) the effect is as if the words Jim Carter had been written in its place. That is, A rat ate my cheese and A rat ate Jim Carter's cheese mean exactly the same thing. 
 
 As illustrated below, various kinds of context are carried into a phrase by a pronoun-like mechanism. When an antecedent is replicated to replace a pronoun the context is replicated with it, so the antecedent will have the same referent in both places despite intervening context changes. And when the antecedent is copied any pronouns originally in it have already been replaced by their own antecedents. 
 
-_Gua\spi_ includes question pronouns, phrase-relative pronouns, names and modal pronouns. For question pronouns the listener is supposed to say the antecedent; in other words, the speaker provides a sentence and the listener is to fill in the blanks. There are question pronouns corresponding to English ``who'', ``how'', ``how many'', ``which'' and ``isn't it''. 
+_Gua\spi_ includes question pronouns, phrase-relative pronouns, names and modal pronouns. For question pronouns the listener is supposed to say the antecedent; in other words, the speaker provides a sentence and the listener is to fill in the blanks. There are question pronouns corresponding to English who, how, how many, which and isn't it. 
 
 Phrase-relative pronouns are for copying neighboring phrases --- arguments or entire sentences. One of the more common phrase-relative pronouns is _vgry_ , the whole phrase that the current listener last said, which typically is the question the speaker is filling blanks in. 
 
-In _gua\spi_ a name is a pronoun. A name consists of a predicate prefixed by _``qu''_ , or _``qo''_ for foreign names, which disconnects the usual meaning of the predicate and substitutes the pronoun behavior. People are assigned permanent names at birth through a performative (ritual) statement like this: 
+In _gua\spi_ a name is a pronoun. A name consists of a predicate prefixed by _qu_ , or _qo_ for foreign names, which disconnects the usual meaning of the predicate and substitutes the pronoun behavior. People are assigned permanent names at birth through a performative (ritual) statement like this: 
 
 > 
 
@@ -1046,11 +1046,11 @@ In _gua\spi_ a name is a pronoun. A name consists of a predicate prefixed by _``
 
 
 
-From then on, _``!jw |cil''_ (``this child'', with context so the listeners remember which one) is the antecedent of the name _``qo -ben''_. 
+From then on, _!jw |cil_ (this child, with context so the listeners remember which one) is the antecedent of the name _qo -ben_. 
 
 The six variables _da, de, di, do, du, dy_ are names which you can assign to important concepts in nonfiction or characters in fiction. In mathematics it is also common to use letter words as pronouns for mathematical expressions. 
 
-Modal pronouns are like ``_ji_ -me'' and ``_jn_ -now''. A modal pronoun's antecedent is set by a modal phrase with a special prefix, saying to save the modal phrase on a kind of stack, separate for each modal predicate, from which it can be retrieved. The previous antecedent can be replaced, but of more interest, it can be saved and later restored. 
+Modal pronouns are like _ji_ -me and _jn_ -now. A modal pronoun's antecedent is set by a modal phrase with a special prefix, saying to save the modal phrase on a kind of stack, separate for each modal predicate, from which it can be retrieved. The previous antecedent can be replaced, but of more interest, it can be saved and later restored. 
 
 The modal stack is used for more than modal pronouns, though. For each kind of modal case, e.g. tense or speaker, every sentence that lacks a modal phrase for that case gets the stacked phrase automatically. Here is an example of stacked speaker cases, in story dialog: 
 
@@ -1069,7 +1069,11 @@ The modal stack is used for more than modal pronouns, though. For each kind of m
         </i>
       </td>
       <td>
-        Says Kira, ``Why do you flee?'' (default saved, set)
+        Says Kira,
+        <span class="latex">
+        Why do you flee?
+        </span>
+        (default saved, set)
       </td>
     </tr>
     <tr>
@@ -1079,7 +1083,10 @@ The modal stack is used for more than modal pronouns, though. For each kind of m
         </i>
       </td>
       <td>
-        ``Don't you want to be rescued?''  (default inserted automatically)
+        <span class="latex">
+        Don't you want to be rescued?
+        </span>
+        (default inserted automatically)
       </td>
     </tr>
     <tr>
@@ -1089,7 +1096,10 @@ The modal stack is used for more than modal pronouns, though. For each kind of m
         </i>
       </td>
       <td>
-        ``Please, at least talk to me!''   (default inserted automatically)
+        <span class="latex">
+        Please, at least talk to me!
+        </span>
+        (default inserted automatically)
       </td>
     </tr>
     <tr>
@@ -1108,15 +1118,15 @@ The modal stack is used for more than modal pronouns, though. For each kind of m
 
 
 
-Kira said the first three sentences. In the first, _``|qe''_ indicates that the current speaker, the narrator, should be saved while Kira speaks. The words _``|jai !qo -kira''_ are added to the second and third sentences automatically. Finally, _``qa''_ restores the narrator as speaker and his modal phrase is put on automatically. 
+Kira said the first three sentences. In the first, _|qe_ indicates that the current speaker, the narrator, should be saved while Kira speaks. The words _|jai !qo -kira_ are added to the second and third sentences automatically. Finally, _qa_ restores the narrator as speaker and his modal phrase is put on automatically. 
 
-Tenses are handled the same way. If you put _``|qe -cnu !X''_ on the opening descriptive sentence (where X is an event identifying when the sentence happens) then it will be propagated to subsequent sentences automatically --- unlike in English where a syntactically complicated and less precise tense has to be used on every sentence. John Parks-Clifford, then with the Loglan Institute, originally developed this concept of tense defaults [TL43]. 
+Tenses are handled the same way. If you put _|qe -cnu !X_ on the opening descriptive sentence (where X is an event identifying when the sentence happens) then it will be propagated to subsequent sentences automatically --- unlike in English where a syntactically complicated and less precise tense has to be used on every sentence. John Parks-Clifford, then with the Loglan Institute, originally developed this concept of tense defaults [TL43]. 
 
 ### Compound Predicates 
 
-A key organizational element of _gua\spi_ is the compound predicate, a sequence of words heading a phrase. The motivation to make compounds is threefold. First, you can use a single argument list to say what amounts to two sentences, which when compounded are much easier for the listener to interpret. Second, just as we use Latin prefixes in English to make many words from one, e.g. ``ob-ject'', ``pro-ject'', ``in-ject'', ``ab-ject'', most meanings in _gua\spi_ are achieved by combining a much broader range of predicates. A beginner can learn the primitive words (_qury_), about 1400, and then stick them together in self-created compounds which he can expect any listener to understand, while to achieve the same range of expression in natural languages the speaker and the listener must master a huge vocabulary in which most of the words are rarely used. Third, the compound words are deconstructed into phrases headed by one _qury_ word each, and semantically processing these phrases is much easier than in natural languages because there are so few _qury_ that must be kept track of. 
+A key organizational element of _gua\spi_ is the compound predicate, a sequence of words heading a phrase. The motivation to make compounds is threefold. First, you can use a single argument list to say what amounts to two sentences, which when compounded are much easier for the listener to interpret. Second, just as we use Latin prefixes in English to make many words from one, e.g. ob-ject, pro-ject, in-ject, ab-ject, most meanings in _gua\spi_ are achieved by combining a much broader range of predicates. A beginner can learn the primitive words (_qury_), about 1400, and then stick them together in self-created compounds which he can expect any listener to understand, while to achieve the same range of expression in natural languages the speaker and the listener must master a huge vocabulary in which most of the words are rarely used. Third, the compound words are deconstructed into phrases headed by one _qury_ word each, and semantically processing these phrases is much easier than in natural languages because there are so few _qury_ that must be kept track of. 
 
-There are three main patterns to the compounds. First, if the main word has a case with a default linker of _``vo''_ or _``bi''_ \--- that is, a case for an infinitive --- a word compounded with high even tone `-' is the predicate of that infinitive, and the main word case before the infinitive (before conversion) becomes the infinitive's first case. (Exceptions are noted in the dictionary.) 
+There are three main patterns to the compounds. First, if the main word has a case with a default linker of _vo_ or _bi_ \--- that is, a case for an infinitive --- a word compounded with high even tone `-' is the predicate of that infinitive, and the main word case before the infinitive (before conversion) becomes the infinitive's first case. (Exceptions are noted in the dictionary.) 
 
 > 
 
@@ -1188,7 +1198,7 @@ There are three main patterns to the compounds. First, if the main word has a ca
 
 
 
-Second, the words may share an argument list. The effect is as if you had made two sentences with the arguments copied into each. This pattern is cued by tone `-' when the infinitive argument pattern does not apply, or by a conjunction _``-fe''_ when it does. 
+Second, the words may share an argument list. The effect is as if you had made two sentences with the arguments copied into each. This pattern is cued by tone `-' when the infinitive argument pattern does not apply, or by a conjunction _-fe_ when it does. 
 
 > 
 
@@ -1331,9 +1341,9 @@ That is how _gua\spi_ is organized. Let us now turn to the semantics of argument
 
 As stated earlier, a predicate word expresses a relation between the occupants of its cases, and is defined by a referent set consisting of lists of case occupants that are thus related. 
 
-To interpret an argument, you start with its predicate's referent set. You retain members consistent with any sub-phrases. From each member you extract the first case occupant (after conversion), and out of these you make the ``full referent set'' of the argument. The ``referent subset'', which is the set of actual referents of the argument, is a subset of the full set which depends on a prefix word called an ``article'' (_tirl_). (More modern terminology might be ``determiner''.) 
+To interpret an argument, you start with its predicate's referent set. You retain members consistent with any sub-phrases. From each member you extract the first case occupant (after conversion), and out of these you make the full referent set of the argument. The referent subset, which is the set of actual referents of the argument, is a subset of the full set which depends on a prefix word called an article (_tirl_). (More modern terminology might be determiner.) 
 
-The most common article is _``xe''_ , and it is assumed with most predicates when arguments lack an article. Its English translation is ``the''. The referent subset is whichever members the speaker has in mind to talk about, but generally there are prior context cues to show which out of numerous possibilities are intended as the referents. In particular, if a set of referents has been designated before and if it is the only such set that is a subset of the full referent set of the argument, then those are the referents of the argument. For example, 
+The most common article is _xe_ , and it is assumed with most predicates when arguments lack an article. Its English translation is the. The referent subset is whichever members the speaker has in mind to talk about, but generally there are prior context cues to show which out of numerous possibilities are intended as the referents. In particular, if a set of referents has been designated before and if it is the only such set that is a subset of the full referent set of the argument, then those are the referents of the argument. For example, 
 
 > 
 
@@ -1369,9 +1379,9 @@ The most common article is _``xe''_ , and it is assumed with most predicates whe
 
 
 
-``_fkar_ -car'' appears three times. The first instance designates one referent in detail using _``xo''_ , described below. The other two instances are typical arguments with ``_xe_ -the'', but the article is unseen, being provided by default. Since the prior referent fits this predicate (and in the second sentence ``its garage'' does not), the prior referent is being redesignated. Because _gua\spi_ words are so short it is just as efficient to redesignate an argument like this as to use a phrase-relative pronoun, so pronouns are less commonly used in _gua\spi_ than in English. 
+_fkar_ -car appears three times. The first instance designates one referent in detail using _xo_ , described below. The other two instances are typical arguments with _xe_ -the, but the article is unseen, being provided by default. Since the prior referent fits this predicate (and in the second sentence its garage does not), the prior referent is being redesignated. Because _gua\spi_ words are so short it is just as efficient to redesignate an argument like this as to use a phrase-relative pronoun, so pronouns are less commonly used in _gua\spi_ than in English. 
 
-There are also articles that select the entire referent set, ``typical'' members of it, and no members of it (actually making a negative statement about all members). Another important article is _``xo''_ : From the full referent set one or more members are selected, and it doesn't matter which ones. For example, 
+There are also articles that select the entire referent set, typical members of it, and no members of it (actually making a negative statement about all members). Another important article is _xo_ : From the full referent set one or more members are selected, and it doesn't matter which ones. For example, 
 
 > 
 
@@ -1397,11 +1407,11 @@ There are also articles that select the entire referent set, ``typical'' members
 
 
 
-All in the box are equivalent and it doesn't matter which you get. _``xo''_ is often used for arguments in the ``serving or portion'' category, called ``partitive nouns'' in English. 
+All in the box are equivalent and it doesn't matter which you get. _xo_ is often used for arguments in the ``serving or portion'' category, called partitive nouns in English. 
 
 There are two articles for each meaning; the first unfolds the referent subset so each member is a referent, while the second specifies that the referent is the referent subset as a set. The careful distinction between sets and extensions of their members is characteristic of _gua\spi_. 
 
-Most Indo-European languages distinguish between genders and numbers of arguments. Like Chinese and English, _gua\spi_ has no gender, though you may use a subordinate clause like ``_|fmy_ -female''. Number comes from the referent sets, not the grammar. You may specify the exact number of referents with a numeric predicate, like this: 
+Most Indo-European languages distinguish between genders and numbers of arguments. Like Chinese and English, _gua\spi_ has no gender, though you may use a subordinate clause like _|fmy_ -female. Number comes from the referent sets, not the grammar. You may specify the exact number of referents with a numeric predicate, like this: 
 
 > 
 
@@ -1547,7 +1557,10 @@ Here are examples of a few modal cases. However, virtually any word can be const
         <em>
         Said
         </em>
-        Kira, ``You're a monster''
+        Kira,
+        <span class="latex">
+        You're a monster
+        </span>
       </td>
     </tr>
     <tr>
@@ -1593,13 +1606,13 @@ Here are examples of a few modal cases. However, virtually any word can be const
 In _gua\spi_ negation is not a unitary concept; beside the obvious antonyms there are nine or ten ways to express negative meanings, most of which involve compound words. Here are a few examples. 
 
 _^:i _-go_ !ji /kio !tara |zey !ju_
-     I _don't_ have your rat. _``go''_ is a mood prefix which means that the asserted sentence is counter to fact. 
+     I _don't_ have your rat. _go_ is a mood prefix which means that the asserted sentence is counter to fact. 
 _^:i !jw |kseo /fi _-gl_ -zao_
-     This cheese is flavor _less_. Some dimensions like ``_zao_ -flavor'' are quantifiable (more or less) but unsigned, so their degree ranges from zero to larger values. Others like ``_gal_ -high'' are signed. In either case _``gl''_ modifies a predicate so that its degree is zero or negligible. 
+     This cheese is flavor _less_. Some dimensions like _zao_ -flavor are quantifiable (more or less) but unsigned, so their degree ranges from zero to larger values. Others like _gal_ -high are signed. In either case _gl_ modifies a predicate so that its degree is zero or negligible. 
 _^:i !jw |kseo /fi _-gr_ -ksi_
-     This cheese is _not_ fresh. When the dimension ranges from positive to negative values, _``gr''_ interchanges positive and negative. For extremes of unfreshness one can use ``_fpu_ -rotten''. 
+     This cheese is _not_ fresh. When the dimension ranges from positive to negative values, _gr_ interchanges positive and negative. For extremes of unfreshness one can use _fpu_ -rotten. 
 _^:i !jw |kseo /fi _-vry_ -can -psl_
-     This cheese is _de_ solidifying. ``_vry_ -reverse'' indicates that the process in its X2 case is occuring in the reverse of the usual order. 
+     This cheese is _de_ solidifying. _vry_ -reverse indicates that the process in its X2 case is occuring in the reverse of the usual order. 
 
 ### Causal Connectives
 
@@ -1637,11 +1650,11 @@ The root structure of syntax is a discourse, or sequence of sentences. But the s
 
 
 
-The speaker may connect sentences with any useful word having suitable cases, such as ``_kau_ -cause'', ``_kmo_ -motivate'' or ``_sny_ -imply''. Like all _gua\spi_ words, the causal connectives can also be useful as arguments and as modal caselinks. In this example _``^:o''_ is a ``retroactive downjump'', a special case in organization. A sentence start word, it transforms itself into a pronoun for the previous sentence, which goes into the first case of the following main word, the causal connective in these examples. Human speakers prefer infix causal connectives with a retroactive downjump rather than the obvious form with two explicit infinitives. 
+The speaker may connect sentences with any useful word having suitable cases, such as _kau_ -cause, _kmo_ -motivate or _sny_ -imply. Like all _gua\spi_ words, the causal connectives can also be useful as arguments and as modal caselinks. In this example _^:o_ is a retroactive downjump, a special case in organization. A sentence start word, it transforms itself into a pronoun for the previous sentence, which goes into the first case of the following main word, the causal connective in these examples. Human speakers prefer infix causal connectives with a retroactive downjump rather than the obvious form with two explicit infinitives. 
 
 ### Mathematical Expressions
 
-Any discussion sooner or later involves quantitative statements with units of measure. Therefore _gua\spi_ has quite an extensive facility for mathematical expressions, even if the more complicated possibilities are rarely used by non-scientists. First, _gua\spi_ syntax matches perfectly the definition of a ``number'' as an equivalence class of equal-count sets. This concept can be generalized to various extension rings and fields. 
+Any discussion sooner or later involves quantitative statements with units of measure. Therefore _gua\spi_ has quite an extensive facility for mathematical expressions, even if the more complicated possibilities are rarely used by non-scientists. First, _gua\spi_ syntax matches perfectly the definition of a number as an equivalence class of equal-count sets. This concept can be generalized to various extension rings and fields. 
 
 > 
 
@@ -1658,7 +1671,11 @@ Any discussion sooner or later involves quantitative statements with units of me
         </i>
       </td>
       <td>
-        The number 2.5 (the class of all sets of ``count'' 2.5)
+        The number 2.5 (the class of all sets of
+        <span class="latex">
+        count
+        </span>
+        2.5)
       </td>
     </tr>
   </tbody>
@@ -1667,7 +1684,7 @@ Any discussion sooner or later involves quantitative statements with units of me
 
 
 
-Mathematical functions are defined with such classes as formal parameters, and hence have _``xu''_ on parameter cases by default --- _``xu''_ means the entire referent set of an argument, as a set (or class). The first case of a function is its value, and the function is defined as ``X1 is in the equivalence class that comes from doing (function) on (_xu_) X2'', possibly with several parameters. For example, 
+Mathematical functions are defined with such classes as formal parameters, and hence have _xu_ on parameter cases by default --- _xu_ means the entire referent set of an argument, as a set (or class). The first case of a function is its value, and the function is defined as ``X1 is in the equivalence class that comes from doing (function) on (_xu_) X2'', possibly with several parameters. For example, 
 
 > 
 
@@ -1753,7 +1770,7 @@ Brackets `[ ]' surround sentence-type phrases; angle brackets `<>' mark subordin
 
 [then the boat1 and2 carry2 surprise < paragraph \surprise1\> < speaker/cry/ tiger's2 eye1 < performative name \eye1\ variable b2> \surprise2\> < listener/warn/ you2 (child) \surprise2\> < time/present/ (something2) \surprise1\>]
 
-``Carry-boat'' is used for ``barge''. _``qe''_ sets the speaker and listener modal case antecedents. However, ``_gau_ -warn'' supercedes ``_kam_ -cry'' as the predicate bearing the listener. ``_do_ -variable~b'' is assigned to represent Tigereye. Words for document structure like ``_gza_ -paragraph'' fit naturally into the text, written or spoken. 
+Carry-boat is used for barge. _qe_ sets the speaker and listener modal case antecedents. However, _gau_ -warn supercedes _kam_ -cry as the predicate bearing the listener. _do_ -variable~b is assigned to represent Tigereye. Words for document structure like _gza_ -paragraph fit naturally into the text, written or spoken. 
 
 > 
 
@@ -1781,7 +1798,7 @@ Brackets `[ ]' surround sentence-type phrases; angle brackets `<>' mark subordin
 
 [imperative1 (child) swim place2 (something) < listener/emphatic/ you3\,(child) \swim2\> < speaker/emphatic/ I1 (eye) \swim2\> < time/present/ (something2) \swim1\>]
 
-_``jo''_ instead of ``_ju_ -you'' makes the sentence imperative. ``_faw_ -emphatic'' has a default ``_ji_ -me'' in the case for its speaker and ``_ju_ -you'' in the case for its listener, thus superceding the default _kam_ otherwise imported from the first sentence. 
+_jo_ instead of _ju_ -you makes the sentence imperative. _faw_ -emphatic has a default _ji_ -me in the case for its speaker and _ju_ -you in the case for its listener, thus superceding the default _kam_ otherwise imported from the first sentence. 
 
 > 
 
@@ -1809,7 +1826,7 @@ _``jo''_ instead of ``_ju_ -you'' makes the sentence imperative. ``_faw_ -emphat
 
 [imperative1 (qo se fo) make to2 [your2 (qo se fo's) buttock1 move] < listener/emphatic/ you3 (qo se fo) \make2\> < speaker/emphatic/ I1 (eye) \make2\> < time/present/ (something2) \make1\>]
 
-Only a few words like ``_fer_ -carry'' are intrinsically transitive. Normally an infinitive compound with ``_qma_ -make'' makes words transitive. 
+Only a few words like _fer_ -carry are intrinsically transitive. Normally an infinitive compound with _qma_ -make makes words transitive. 
 
 > 
 
@@ -1837,7 +1854,7 @@ Only a few words like ``_fer_ -carry'' are intrinsically transitive. Normally an
 
 [you1 (qo se fo) is it desire to2 [to1 [[(qo se fo2) food1/eat/ by to's2 [push boat1 and2 carry2] device1] and [(device1) tear2 (qo se fo2)] complete] < speaker/cry/ (eye1) \desire2\> < experiencer/attention/ (qo se fo1) \desire2\> < time/present/ (something2) \desire1\>]]
 
-A complicated sentence, just as efficient as English. See how Josepho is replicated into the internal infinitives. ``Push-device'' is used for ``propeller''; ``completely eat-tear'' is ``chew up''. The speaker and time are added automatically. 
+A complicated sentence, just as efficient as English. See how Josepho is replicated into the internal infinitives. Push-device is used for propeller; completely eat-tear is chew up. The speaker and time are added automatically. 
 
 > 
 
@@ -1865,7 +1882,7 @@ A complicated sentence, just as efficient as English. See how Josepho is replica
 
 [I1 (eye) must to2 [(eye1) watch2 this2 < time/present/ all something2 \watch1\>] < performer/think/ variable b1 (eye) \must2\> < listener/think/ (eye3) \must2\> < actor/angry/ (eye2) I1 (eye) \must3\> < time/present/ (something2) \must1\>]
 
-A subordinate clause gives, literally, ``at all times''. 
+A subordinate clause gives, literally, at all times. 
 
 > 
 
@@ -1921,7 +1938,7 @@ For a reflexive, repeat the argument.
 
 [I1 (eye) swim < duration all* one's2 second1 \swim2\> < performer/think/ variable b1 (eye) \swim2\> < listener/think/ (eye3) (swim2)> < time/present/ (something2) \swim1\>]
 
-Here is another tense, this time a continuous one. ``One second'' is a simple mathematical expression. 
+Here is another tense, this time a continuous one. One second is a simple mathematical expression. 
 
 > 
 
@@ -1949,9 +1966,9 @@ Here is another tense, this time a continuous one. ``One second'' is a simple ma
 
 [conjunction \swim1\ sufficient to2 [to2 [(this2) trouble] change by this1] < performer/think/ variable b1 (eye) (sufficient2)> < listener/think/ (eye3) (sufficient2)> < time/present/ (something2) \sufficient1\>]
 
-_Gua\spi_ is much richer in causal connectives than English with its ambiguous ``because''; thus this _gua\spi_ sentence is half the length of its English translation. 
+_Gua\spi_ is much richer in causal connectives than English with its ambiguous because; thus this _gua\spi_ sentence is half the length of its English translation. 
 
-This short sample exercises almost every feature of _gua\spi_ \, even including a mathematical expression. To verify every phrase the reader must know _gua\spi_ fairly well, but one can see easily the simple phrase organization of _gua\spi_. The lengths of the _gua\spi_ and native English sentences are comparable, showing how efficient _gua\spi_ is. The primitive words cover almost all meanings in this relatively unspecialized text, and the componds for ``barge'' and ``propeller'' are quite understandable. Finally, the sample makes it clear that _gua\spi_ is more than just a dry substitute for SQL; _gua\spi_ can support real life. 
+This short sample exercises almost every feature of _gua\spi_ \, even including a mathematical expression. To verify every phrase the reader must know _gua\spi_ fairly well, but one can see easily the simple phrase organization of _gua\spi_. The lengths of the _gua\spi_ and native English sentences are comparable, showing how efficient _gua\spi_ is. The primitive words cover almost all meanings in this relatively unspecialized text, and the componds for barge and propeller are quite understandable. Finally, the sample makes it clear that _gua\spi_ is more than just a dry substitute for SQL; _gua\spi_ can support real life. 
 
 ## Conclusion 
 
@@ -1971,7 +1988,7 @@ I hope this brief introduction to _gua\spi_ has whetted your appetite to learn m
 
 ## Appendix: _Gua!spi_ Grammar in Backus-Naur Form
 
-``Discourse'' is the root grameme. Grammar for quoted non-_gua\spi_ text is not shown, but foreign predicates and quoted _gua\spi_ are processed by this grammar and are recognized at the organizational syntax level. A procedural definition shows the simplicity of the grammar more clearly. 
+Discourse is the root grameme. Grammar for quoted non-_gua\spi_ text is not shown, but foreign predicates and quoted _gua\spi_ are processed by this grammar and are recognized at the organizational syntax level. A procedural definition shows the simplicity of the grammar more clearly. 
 
 <table width="100%">
   <colgroup>
@@ -2073,11 +2090,15 @@ I hope this brief introduction to _gua\spi_ has whetted your appetite to learn m
       <td>
         = (subset of Word, e.g.
         <i>
-        ``vo''
+        <span class="latex">
+        vo
+        </span>
         </i>
         or
         <i>
-        ``zu''
+        <span class="latex">
+        zu
+        </span>
         </i>
         )
       </td>
@@ -2089,11 +2110,15 @@ I hope this brief introduction to _gua\spi_ has whetted your appetite to learn m
       <td>
         = (subset of Word, e.g.
         <i>
-        ``tara''
+        <span class="latex">
+        tara
+        </span>
         </i>
         or
         <i>
-        ``crw''
+        <span class="latex">
+        crw
+        </span>
         </i>
         )
       </td>
@@ -2213,7 +2238,9 @@ I hope this brief introduction to _gua\spi_ has whetted your appetite to learn m
       <td colspan="2">
         ; These add the effect of
         <i>
-        ``fi''
+        <span class="latex">
+        fi
+        </span>
         </i>
         .
       </td>
@@ -2291,7 +2318,9 @@ I hope this brief introduction to _gua\spi_ has whetted your appetite to learn m
       <td>
         = `^' (choice of words such as
         <i>
-        ``:i''
+        <span class="latex">
+        :i
+        </span>
         </i>
         )
       </td>
@@ -2356,7 +2385,7 @@ I hope this brief introduction to _gua\spi_ has whetted your appetite to learn m
   * [NB2] Brown, James C.  A Proposed Revision in the Structure of Loglan Words  (Notebook No. 2). The Loglan Institute, Inc., Gainesville, Fla., 1982. 
   * [TL43] Parks-Clifford, J.  Supplement to Loglan 1.  \sl The Loglanist 4, 3 (Nov. 1980). 
   * [La] Information about _Loglan_ may be obtained from The Loglan Institute, Inc., 1701 NE 75th Street, Gainesville, FL 32601. 
-  * [Lja] A modernized version of _Loglan_ , much closer to the original _Loglan_ than _gua\spi_ , is _Lojban_. Information is available from The Logical Languages Group, 2904 Beau Lane, Fairfax, VA 22031, or lojbab@lojban.org. For on-line access, send a message whose body is ``index lojban'' to listserv@hebrew.cc.columbia.edu. 
+  * [Lja] A modernized version of _Loglan_ , much closer to the original _Loglan_ than _gua\spi_ , is _Lojban_. Information is available from The Logical Languages Group, 2904 Beau Lane, Fairfax, VA 22031, or lojbab@lojban.org. For on-line access, send a message whose body is index lojban to listserv@hebrew.cc.columbia.edu. 
   * [Ga] Please contact the author at UCLA Department of Mathematics, Los Angeles, CA 90024-1555, or e-mail to jimc@math.ucla.edu. 
 
 

@@ -33,15 +33,15 @@
 
 ## Pronouns Represent Words, Not Things
 
-The next organizational issue is the pronoun. In English, pronouns have referents just like any other argument. But _gua\spi_ pronouns represent words, not the referent of words. In computer terms, they are like macro-instructions rather than in-line functions. The represented words are called the ``antecedent'' of the pronoun, and the sentence is analysed as if each pronoun were taken out and replaced by its antecedent. The antecedents, not the pronouns, have referents. In this way the organizational syntax level can be kept free of meaning, and the semantic level has to deal with only one class of words, predicates. 
+The next organizational issue is the pronoun. In English, pronouns have referents just like any other argument. But _gua\spi_ pronouns represent words, not the referent of words. In computer terms, they are like macro-instructions rather than in-line functions. The represented words are called the antecedent of the pronoun, and the sentence is analysed as if each pronoun were taken out and replaced by its antecedent. The antecedents, not the pronouns, have referents. In this way the organizational syntax level can be kept free of meaning, and the semantic level has to deal with only one class of words, predicates. 
 
-For example, a document typically will have a signature line saying in effect ``this text is the output of Jim Carter''. (Spoken discourse is completely analogous.) Then when there appears the pronoun _``ji''_ (``me'' in English) the effect is as if the words ``Jim Carter'' had been written in its place. That is, ``A rat ate my cheese'' and ``A rat ate Jim Carter's cheese'' mean exactly the same thing. 
+For example, a document typically will have a signature line saying in effect this text is the output of Jim Carter. (Spoken discourse is completely analogous.) Then when there appears the pronoun _ji_ (me in English) the effect is as if the words Jim Carter had been written in its place. That is, A rat ate my cheese and A rat ate Jim Carter's cheese mean exactly the same thing. 
 
 Phrases attached to a pronoun replace or supplement phrases in its antecedent. In general, if two arguments are given for the same case, numbered or modal, it is not an error but the first is ignored. 
 
 ### Phrase-Relative Pronouns
 
-_Gua\spi_ has phrase-relative pronouns, question pronouns, names and modal pronouns. Phrase-relative pronouns are for copying neighboring phrases --- arguments or entire sentences. Each point of use may have a different neighbor, so the same word used in different places may have different antecedents, while to reach the same antecedent from different places may require different words. The pronouns whose antecedent is a whole phrase are automatically infinitives; an explicit _``vo''_ is not needed. The most often used such pronouns are: 
+_Gua\spi_ has phrase-relative pronouns, question pronouns, names and modal pronouns. Phrase-relative pronouns are for copying neighboring phrases --- arguments or entire sentences. Each point of use may have a different neighbor, so the same word used in different places may have different antecedents, while to reach the same antecedent from different places may require different words. The pronouns whose antecedent is a whole phrase are automatically infinitives; an explicit _vo_ is not needed. The most often used such pronouns are: 
 
 > 
 
@@ -117,7 +117,7 @@ _Gua\spi_ has phrase-relative pronouns, question pronouns, names and modal prono
 
 
 
-There are pronouns for five cases and the whole phrase, for five phrase types --- 30 in all. The complete list is under [Vocabulary: Phrase-Relative Pronouns](../vocab1.html#pronouns). Phrase-relative pronouns like ``it'' are common in English, but in _gua\spi_ it is easier to redesignate an argument, so phrase-relative pronouns are less used in _gua\spi_. 
+There are pronouns for five cases and the whole phrase, for five phrase types --- 30 in all. The complete list is under [Vocabulary: Phrase-Relative Pronouns](../vocab1.html#pronouns). Phrase-relative pronouns like it are common in English, but in _gua\spi_ it is easier to redesignate an argument, so phrase-relative pronouns are less used in _gua\spi_. 
 
 ### Question Pronouns
 
@@ -320,7 +320,7 @@ For question pronouns the listener is supposed to say the antecedent; in other w
 
 ### Names
 
-In _gua\spi_ a name is a pronoun. A name consists of a predicate prefixed by _``qu''_ , or _``qo''_ for foreign names, which disconnects the usual meaning of the predicate and substitutes the pronoun behavior. People are assigned permanent names at birth through a performative (ritual) statement like this: 
+In _gua\spi_ a name is a pronoun. A name consists of a predicate prefixed by _qu_ , or _qo_ for foreign names, which disconnects the usual meaning of the predicate and substitutes the pronoun behavior. People are assigned permanent names at birth through a performative (ritual) statement like this: 
 
 > 
 
@@ -346,17 +346,17 @@ In _gua\spi_ a name is a pronoun. A name consists of a predicate prefixed by _``
 
 
 
-From then on, _``!jw |cil''_ (``this child'', with context so the listeners remember which one) is the antecedent of the name _``qo -ben''_. Subsequently when Ben is introduced to people a speaker will make a similar statement, except lacking ``_tri_ -ritual'' so it is constative (a statement of fact). Either statement lets the listener know what is the antecedent of the pronoun _``qo -ben''_. The antecedent then has a referent, which is the actual person being named. 
+From then on, _!jw |cil_ (this child, with context so the listeners remember which one) is the antecedent of the name _qo -ben_. Subsequently when Ben is introduced to people a speaker will make a similar statement, except lacking _tri_ -ritual so it is constative (a statement of fact). Either statement lets the listener know what is the antecedent of the pronoun _qo -ben_. The antecedent then has a referent, which is the actual person being named. 
 
-The meaning (if any) of the predicate without _``qu''_ is not changed. There is no implication that the antecedent may fit in the first case of the name, e.g. ``Mr. Coward'' may be quite courageous. A single referent can, and usually does, have several names. Semantics, though perhaps not law, allows you to put a new antecedent on a name at any time. 
+The meaning (if any) of the predicate without _qu_ is not changed. There is no implication that the antecedent may fit in the first case of the name, e.g. Mr. Coward may be quite courageous. A single referent can, and usually does, have several names. Semantics, though perhaps not law, allows you to put a new antecedent on a name at any time. 
 
 The six variables _da, de, di, do, du, dy_ are names which you can assign to important concepts in nonfiction or characters in fiction. In mathematics it is common to use letter words as names for mathematical expressions, which in _gua\spi_ have the form of arguments. When the name antecedent, or any pronoun antecedent, is assigned all pronouns therein are already replaced by their antecedents, so that if those contained pronouns are later reassigned the name antecedent is unchanged. 
 
 ### Personal Pronouns and Modal Defaults
 
-Modal cases have a default value which is inserted in each sentence lacking explicit words for that case. Let us again use the speaker's modal case as an example. Most or all sentences in the document have the same speaker even though no speaker clause appears on them explicitly. There is a default value for the speaker, which is like a pronoun in that the antecedent words of the default are placed automatically into every sentence lacking an explicit speaker clause. The same default is the antecedent of the personal pronoun ``_ji_ -me''. The subordinate clause to identify the speaker initially is _``|qi -jai !X''_ ; the _``qi''_ prefix indicates that the default modal case for the speaker should be changed to X. The default value is like a pronoun, in that the antecedent words of the default are placed into the sentences. 
+Modal cases have a default value which is inserted in each sentence lacking explicit words for that case. Let us again use the speaker's modal case as an example. Most or all sentences in the document have the same speaker even though no speaker clause appears on them explicitly. There is a default value for the speaker, which is like a pronoun in that the antecedent words of the default are placed automatically into every sentence lacking an explicit speaker clause. The same default is the antecedent of the personal pronoun _ji_ -me. The subordinate clause to identify the speaker initially is _|qi -jai !X_ ; the _qi_ prefix indicates that the default modal case for the speaker should be changed to X. The default value is like a pronoun, in that the antecedent words of the default are placed into the sentences. 
 
-``Personal'' pronouns, so called because ``me'' and ``you'' are among them, mostly represent certain important modal case defaults. There have already been several examples. The personal pronouns are: 
+Personal pronouns, so called because me and you are among them, mostly represent certain important modal case defaults. There have already been several examples. The personal pronouns are: 
 
 > 
 
@@ -478,9 +478,9 @@ Modal cases have a default value which is inserted in each sentence lacking expl
 
 
 
-_``jy''_ marks the open case of an argument, where the referent goes. It appears by default in the first case, but you may link something else there explicitly with _``so''_ and put _``jy''_ explicitly elsewhere. Conversion is neater. 
+_jy_ marks the open case of an argument, where the referent goes. It appears by default in the first case, but you may link something else there explicitly with _so_ and put _jy_ explicitly elsewhere. Conversion is neater. 
 
-The modal case default has a kind of stack, so that a previous default value can be saved, replaced, and later restored. Here is a list of the control prefixes for the modal cases and their stacks. Except _``ql''_ , each must be used in front of a predicate, which identifies which modal case is being affected. 
+The modal case default has a kind of stack, so that a previous default value can be saved, replaced, and later restored. Here is a list of the control prefixes for the modal cases and their stacks. Except _ql_ , each must be used in front of a predicate, which identifies which modal case is being affected. 
 
 > 
 
@@ -563,7 +563,11 @@ Here is an example of stacked cases, in story dialog:
         </i>
       </td>
       <td>
-        Said Kira, ``Why do you flee?'' (default saved, set)
+        Said Kira,
+        <span class="latex">
+        Why do you flee?
+        </span>
+        (default saved, set)
       </td>
     </tr>
     <tr>
@@ -573,7 +577,10 @@ Here is an example of stacked cases, in story dialog:
         </i>
       </td>
       <td>
-        ``Don't you want to be rescued?''  (default inserted automatically)
+        <span class="latex">
+        Don't you want to be rescued?
+        </span>
+        (default inserted automatically)
       </td>
     </tr>
     <tr>
@@ -583,7 +590,10 @@ Here is an example of stacked cases, in story dialog:
         </i>
       </td>
       <td>
-        ``Please, at least talk to me!''   (default inserted automatically)
+        <span class="latex">
+        Please, at least talk to me!
+        </span>
+        (default inserted automatically)
       </td>
     </tr>
     <tr>
@@ -602,23 +612,23 @@ Here is an example of stacked cases, in story dialog:
 
 
 
-Kira said the first three sentences, and the effect is as if the words _``|jai !qo -kira''_ were added to the second and third, while the narrator said the last one, and _``qa''_ restores him as speaker. 
+Kira said the first three sentences, and the effect is as if the words _|jai !qo -kira_ were added to the second and third, while the narrator said the last one, and _qa_ restores him as speaker. 
 
-Tenses are also handled this way, as is any modal case. If you put _``|qe -cnu !X''_ on the opening descriptive sentence (where X is an event identifying when the sentence happens) then it will be propagated to subsequent sentences automatically --- unlike in English where a syntactically complicated and less precise tense has to be used on every sentence. John Parks-Clifford, then with the Loglan Institute, originally developed this concept of tense defaults [TL43]. 
+Tenses are also handled this way, as is any modal case. If you put _|qe -cnu !X_ on the opening descriptive sentence (where X is an event identifying when the sentence happens) then it will be propagated to subsequent sentences automatically --- unlike in English where a syntactically complicated and less precise tense has to be used on every sentence. John Parks-Clifford, then with the Loglan Institute, originally developed this concept of tense defaults [TL43]. 
 
-In the third dialog line above, notice the use of ``_jo_ -you'' to make the sentence imperative. The decoration ``_|vi-pli_ -please'' shows the speaker's attitude but does not by itself make the sentence imperative. 
+In the third dialog line above, notice the use of _jo_ -you to make the sentence imperative. The decoration _|vi-pli_ -please shows the speaker's attitude but does not by itself make the sentence imperative. 
 
 ## Compound Predicates
 
-A key organizational element of _gua\spi_ is the compound word, a sequence of predicates and structure words. The first word's tone shows where the compound attaches. There may be several following words in the compound, each of which has high even tone `-' or low even tone `='. A phrase predicate often begins with prefixes, such as the caselink _``sa''_ or the conversion _``zu''_ , but the most significant use of compounding is to join two or more predicate words. 
+A key organizational element of _gua\spi_ is the compound word, a sequence of predicates and structure words. The first word's tone shows where the compound attaches. There may be several following words in the compound, each of which has high even tone `-' or low even tone `='. A phrase predicate often begins with prefixes, such as the caselink _sa_ or the conversion _zu_ , but the most significant use of compounding is to join two or more predicate words. 
 
-The motivation to make compounds is twofold. First, you can use a single argument list to say what amounts to two sentences, which when compounded are much easier for the listener to interpret. Second, just as we use Latin prefixes in English to make many words from one, e.g. ``ob-ject'', ``pro-ject'', ``in-ject'', ``ab-ject'', most meanings in _gua\spi_ are achieved by combining a much broader range of predicates. A beginner can learn the primitive words, about 1400, and then stick them together in self-created compounds which he can expect any listener to understand, while to achieve the same range of expression in natural languages the speaker and the listener must master a huge vocabulary in which most of the words are rarely used. 
+The motivation to make compounds is twofold. First, you can use a single argument list to say what amounts to two sentences, which when compounded are much easier for the listener to interpret. Second, just as we use Latin prefixes in English to make many words from one, e.g. ob-ject, pro-ject, in-ject, ab-ject, most meanings in _gua\spi_ are achieved by combining a much broader range of predicates. A beginner can learn the primitive words, about 1400, and then stick them together in self-created compounds which he can expect any listener to understand, while to achieve the same range of expression in natural languages the speaker and the listener must master a huge vocabulary in which most of the words are rarely used. 
 
 Though humans like to think of compound predicates as separate words analogous to the primitive words, compounds are actually defined through the transformations described below, so that each primitive word heads a separate phrase. For example in a transitive compound the compounded object is to be taken off and put in its proper case as a sub-phrase. Thus one can easily and reliably interpret a compound word that one has never heard before, as long as one knows all the primitive words. 
 
 ### Infinitive Argument
 
-There are three main patterns to the compounds. First, if the main word has a case with a default linker of _``vo''_ or _``bi''_ \--- that is, a case for an infinitive --- a word compounded with high even tone `-' is the predicate of that infinitive, and the main word case before the infinitive (before conversion) becomes the infinitive's first case. (Exceptions are noted in the dictionary.) Here are examples: 
+There are three main patterns to the compounds. First, if the main word has a case with a default linker of _vo_ or _bi_ \--- that is, a case for an infinitive --- a word compounded with high even tone `-' is the predicate of that infinitive, and the main word case before the infinitive (before conversion) becomes the infinitive's first case. (Exceptions are noted in the dictionary.) Here are examples: 
 
 > 
 
@@ -909,11 +919,11 @@ There are three main patterns to the compounds. First, if the main word has a ca
 
 
 
-The patterns with ``_can_ -change'' and ``_qma_ -make'' are as common in _gua\spi_ as the pre-pro-in-ob-ab Latin prefix set is in English. In the second and third examples, the infinitive first case is a copy of the main sentence case before the infinitive: the second case. _Gua\spi_ predicate words are usually not transitive, and the third example shows how transitive predicates are produced. (There is a separate word ``_fow_ -force''.) As shown in the fourth example, multiple compounds are common. The expansion of this sentence is also shown with all defaults written out in full. 
+The patterns with _can_ -change and _qma_ -make are as common in _gua\spi_ as the pre-pro-in-ob-ab Latin prefix set is in English. In the second and third examples, the infinitive first case is a copy of the main sentence case before the infinitive: the second case. _Gua\spi_ predicate words are usually not transitive, and the third example shows how transitive predicates are produced. (There is a separate word _fow_ -force.) As shown in the fourth example, multiple compounds are common. The expansion of this sentence is also shown with all defaults written out in full. 
 
 ### Shared Argument List
 
-Second, the words may share an argument list. The effect is as if you had made two sentences with the arguments copied into each. This pattern is cued by `-' when the infinitive argument pattern does not apply, or by a conjunction _``-fe''_ when it does. For example: 
+Second, the words may share an argument list. The effect is as if you had made two sentences with the arguments copied into each. This pattern is cued by `-' when the infinitive argument pattern does not apply, or by a conjunction _-fe_ when it does. For example: 
 
 > 
 
@@ -967,7 +977,9 @@ Second, the words may share an argument list. The effect is as if you had made t
       <td>
         His garment; which joins him to . . . (
         <i>
-        ``jy''
+        <span class="latex">
+        jy
+        </span>
         </i>
         = referent placeholder)
       </td>
@@ -1044,13 +1056,13 @@ Second, the words may share an argument list. The effect is as if you had made t
 
 
 
-The first sentence shows this pattern plainly. In the second, the predicate of an argument is compound and the pronoun _``jy''_ is used in the paired expansions to represent its open first case. It is very common for a motion word and a directional property to share arguments, as in the last three sentences. In the fourth one, with a transitive motion word the directional property relates the thing that moves, not the actor, to the destination. The polarity of the direction is often reverse of English: ``swims down'' means it is ``_qmy_ -above'' the destination. A better translation is ``swims from above''. 
+The first sentence shows this pattern plainly. In the second, the predicate of an argument is compound and the pronoun _jy_ is used in the paired expansions to represent its open first case. It is very common for a motion word and a directional property to share arguments, as in the last three sentences. In the fourth one, with a transitive motion word the directional property relates the thing that moves, not the actor, to the destination. The polarity of the direction is often reverse of English: swims down means it is _qmy_ -above the destination. A better translation is swims from above. 
 
 Most usually the first and second cases of all the predicates go together. For exceptions as in the fourth sentence above the dictionary shows which cases merge. 
 
 ### Object of Transitive Predicate
 
-A third pattern is found in which a transitive main word is followed by its object as a compound. It is cued by the tone `='. In this pattern the main word's second case (before conversion) receives the sub-word as an argument, except that if the main word is converted so the second case is unavailable, the first case (before conversion) gets the sub-word. For organizing the other arguments the effect is the same as if an explicit caselink _``!su''_ had been used. For example: 
+A third pattern is found in which a transitive main word is followed by its object as a compound. It is cued by the tone `='. In this pattern the main word's second case (before conversion) receives the sub-word as an argument, except that if the main word is converted so the second case is unavailable, the first case (before conversion) gets the sub-word. For organizing the other arguments the effect is the same as if an explicit caselink _!su_ had been used. For example: 
 
 > 
 
@@ -1149,11 +1161,11 @@ A third pattern is found in which a transitive main word is followed by its obje
 
 
 
-_``dri -fli''_ would be the second type of compound, meaning that its referent both drives and flies, like a bird driving a car. This is not quite the right meaning. 
+_dri -fli_ would be the second type of compound, meaning that its referent both drives and flies, like a bird driving a car. This is not quite the right meaning. 
 
 ### Foreign Words and Metaphors
 
-The prefixes _``fo''_ , _``fn''_ and _``qo''_ start a foreign word, and all subsequent compounded words are part of it. The word must start with a C and end with a V, and so you may have to modify the word either by removing or adding letters. Put a glottal stop before an initial vowel. Sounds not in _gua\spi_ are mangled to fit. _``qo''_ is for foreign names, _``fo''_ marks a non-name predicate, and _``fn''_ is for foreign metaphors. As a predicate the foreign word means ``X1 is (whatever)'' but listeners rarely know its meaning, so cases are never recognized on a foreign word. Normally you attach it as a metaphor to a _gua\spi_ predicate, both to provide cases and to give the listener a cue, if not to the exact meaning, at least to the category of the meaning. For example, 
+The prefixes _fo_ , _fn_ and _qo_ start a foreign word, and all subsequent compounded words are part of it. The word must start with a C and end with a V, and so you may have to modify the word either by removing or adding letters. Put a glottal stop before an initial vowel. Sounds not in _gua\spi_ are mangled to fit. _qo_ is for foreign names, _fo_ marks a non-name predicate, and _fn_ is for foreign metaphors. As a predicate the foreign word means X1 is (whatever) but listeners rarely know its meaning, so cases are never recognized on a foreign word. Normally you attach it as a metaphor to a _gua\spi_ predicate, both to provide cases and to give the listener a cue, if not to the exact meaning, at least to the category of the meaning. For example, 
 
 > 
 
@@ -1189,13 +1201,13 @@ The prefixes _``fo''_ , _``fn''_ and _``qo''_ start a foreign word, and all subs
 
 
 
-Here the foreign name ``John'' could be pronounced without change (note the phonetic spelling), but ``australopithecine'' needed work. While in English we use the adjective or set-membership form of the word, in _gua\spi_ it works better to use the root form of the foreign word, if you know it: ``australopithecus''. A glottal stop `:' was added at the beginning, `th' was changed to `t', the final consonant `s' was removed (a V could have been added), and the word was stuck on ``_dwu_ -animal'' to provide cases. This long word has five _gua\spi_ syllables, treated in morphology as separate words, and they are stuck together by compounding tone `-'. (Normally the `-' tone symbols are not written inside a foreign word.) 
+Here the foreign name John could be pronounced without change (note the phonetic spelling), but australopithecine needed work. While in English we use the adjective or set-membership form of the word, in _gua\spi_ it works better to use the root form of the foreign word, if you know it: australopithecus. A glottal stop `:' was added at the beginning, `th' was changed to `t', the final consonant `s' was removed (a V could have been added), and the word was stuck on _dwu_ -animal to provide cases. This long word has five _gua\spi_ syllables, treated in morphology as separate words, and they are stuck together by compounding tone `-'. (Normally the `-' tone symbols are not written inside a foreign word.) 
 
-Similarly on the other sentence, _gua\spi_ predicates are put in front of the foreign words to help the listener interpret them. An educated human knows what a Borneo is, but a naive listener, particularly mechanical, needs the assistance of ``_dlau_ -island''. 
+Similarly on the other sentence, _gua\spi_ predicates are put in front of the foreign words to help the listener interpret them. An educated human knows what a Borneo is, but a naive listener, particularly mechanical, needs the assistance of _dlau_ -island. 
 
 Foreign words make the organization ambiguous: when a word has compounding tone is it compound or does it continue a foreign word? The Procrustean method is used to resolve the ambiguity: a foreign word eats all following first tone words. 
 
-While metaphors are most common with foreign words, they are also available with _gua\spi_ predicates, being cued by the conjunction _``fw''_. They resemble shared-argument compounds but the meaning is not so precisely derived from the combined words. Only the cases of the main word appear; the sub-word's cases are ignored. (But metaphors are clearer if the first cases of all the words can merge.) Use regular compounds if at all possible, as in the last example, because they are unambiguous. 
+While metaphors are most common with foreign words, they are also available with _gua\spi_ predicates, being cued by the conjunction _fw_. They resemble shared-argument compounds but the meaning is not so precisely derived from the combined words. Only the cases of the main word appear; the sub-word's cases are ignored. (But metaphors are clearer if the first cases of all the words can merge.) Use regular compounds if at all possible, as in the last example, because they are unambiguous. 
 
 > 
 
@@ -1276,7 +1288,7 @@ While metaphors are most common with foreign words, they are also available with
 
 ### Special Cases
 
-Numbers are a special case in organization. Compounded digits after the first build up a multi-digit cardinal number, with a possible sign, exponent and decimal point. Quasidigits, which appear first, mean ``approximately'', ``at least'', and so on. As a predicate a cardinal number means ``X1 is a set of N members, one of which is X2''. An ordinal number, cued by the quasidigit _``tr''_ , means ``X1 is N'th in list (_xy_) X2 starting at X3''. For example: 
+Numbers are a special case in organization. Compounded digits after the first build up a multi-digit cardinal number, with a possible sign, exponent and decimal point. Quasidigits, which appear first, mean approximately, at least, and so on. As a predicate a cardinal number means ``X1 is a set of N members, one of which is X2''. An ordinal number, cued by the quasidigit _tr_ , means ``X1 is N'th in list (_xy_) X2 starting at X3''. For example: 
 
 > 
 

@@ -39,9 +39,9 @@ A major difference between _gua\spi_ and Old _Loglan_ (and, I fear, _Lojban_) is
 
 ## Functional Categories of Words
 
-_Gua\spi_ words have a relation between function and morphology. The CV pattern is for structure words, a few pronouns, and digits. CVV is for ``real'' relations, what in English are verbs. CCV is for abstract ``nouns'', normally used to denote objects. CCVV is used for more concrete ``nouns'' such as species, chemical elements, or household artifacts. The purpose of these assignments is to cater to the known proclivities of natural language speakers, who like to segregate nouns from verbs, and to simplify the process of making words for meanings. Nothing in the language depends on these assignments, and the language never actually distinguishes between nouns and verbs. If you find that some word has a morphological form other than what you expect, this is simply an effort to keep related words together, and it will have no effect on the efficiency of the language. 
+_Gua\spi_ words have a relation between function and morphology. The CV pattern is for structure words, a few pronouns, and digits. CVV is for real relations, what in English are verbs. CCV is for abstract nouns, normally used to denote objects. CCVV is used for more concrete nouns such as species, chemical elements, or household artifacts. The purpose of these assignments is to cater to the known proclivities of natural language speakers, who like to segregate nouns from verbs, and to simplify the process of making words for meanings. Nothing in the language depends on these assignments, and the language never actually distinguishes between nouns and verbs. If you find that some word has a morphological form other than what you expect, this is simply an effort to keep related words together, and it will have no effect on the efficiency of the language. 
 
-Here is the distribution of _gua\spi_ words by functional and morphological category. There are 11 V's, and 14 regular C's. `:' is allowed only in CV words such as _``^:i''_ , and `#' does not count towards differences in words. There are 74 allowed CC digraphs out of 196 possible pairs; many CC's are too hard for people to recognize reliably. 
+Here is the distribution of _gua\spi_ words by functional and morphological category. There are 11 V's, and 14 regular C's. `:' is allowed only in CV words such as _^:i_ , and `#' does not count towards differences in words. There are 74 allowed CC digraphs out of 196 possible pairs; many CC's are too hard for people to recognize reliably. 
 
 > 
 
@@ -272,9 +272,9 @@ Because the words are modestly similar to their natural language counterparts, l
 
 CV structure words were assigned by hand; related structure words, like articles, have the same C and varying V's. Structure words pertaining to numbered cases have the same V's as the corresponding digits, but contrasting consonants, making learning easier. 
 
-A question often asked is, why create new words? Why not use Chinese or English words? First, some attempt has been made to keep _gua\spi_ culturally neutral, and if Chinese words were used it would intimidate English speakers and vice versa. More important, Chinese words are designed for use with Chinese. Many required meanings, like articles, simply do not exist in Chinese, and similarly in English. And those meanings that are present are only approximations of the _gua\spi_ meanings; while users have to invest a lot of effort to learn the new words and their definitions, they will find it even harder to keep straight what a word of their native language ``really'' means in _gua\spi_. That is why the approach was rejected of simply stealing natural language vocabulary. 
+A question often asked is, why create new words? Why not use Chinese or English words? First, some attempt has been made to keep _gua\spi_ culturally neutral, and if Chinese words were used it would intimidate English speakers and vice versa. More important, Chinese words are designed for use with Chinese. Many required meanings, like articles, simply do not exist in Chinese, and similarly in English. And those meanings that are present are only approximations of the _gua\spi_ meanings; while users have to invest a lot of effort to learn the new words and their definitions, they will find it even harder to keep straight what a word of their native language really means in _gua\spi_. That is why the approach was rejected of simply stealing natural language vocabulary. 
 
-Given some set, a ``basis'' is a subset from which all its members can be derived, as with vectors. Each vector space has a specific dimension, or number of basis elements, but words are not so simple. _Loglan_ has about 1000 primitive words and it was intended that virtually any meaning should be achievable as combinations of these words; that is, the primitive words form a basis of nearly all meanings. Experiment proved that this intention had been accomplished for the most part, but that as anticipated, some areas were incompletely or imprecisely covered. The _Lojban_ project of LeChevalier [Lja] is a continuation of Brown's work on _Loglan_ [L1], and he has added about 300 primitive words, mainly about human emotion and interaction. For _gua\spi_ I took over LeChevalier's primitive word list, with his kind assistance. I rewrote all the definitions to match _gua\spi_ usage. I also added and deleted a small number of words to deal with specific _gua\spi_ issues, and I expanded the scientific vocabulary in mathematics, chemistry, zoology, botany and agriculture. As a result, _gua\spi_ has about 1400 primitive words. Some people are interested to discover just how few basis words we can get by with. However, I have experience with the _Loglan_ word list and I have confidence in its ability to handle the required meanings; and while I do not believe it is minimal, I think it is fairly close. Thus I chose to use existing word lists for _gua\spi_ rather than to try for radical pruning or _de novo_ creation. 
+Given some set, a basis is a subset from which all its members can be derived, as with vectors. Each vector space has a specific dimension, or number of basis elements, but words are not so simple. _Loglan_ has about 1000 primitive words and it was intended that virtually any meaning should be achievable as combinations of these words; that is, the primitive words form a basis of nearly all meanings. Experiment proved that this intention had been accomplished for the most part, but that as anticipated, some areas were incompletely or imprecisely covered. The _Lojban_ project of LeChevalier [Lja] is a continuation of Brown's work on _Loglan_ [L1], and he has added about 300 primitive words, mainly about human emotion and interaction. For _gua\spi_ I took over LeChevalier's primitive word list, with his kind assistance. I rewrote all the definitions to match _gua\spi_ usage. I also added and deleted a small number of words to deal with specific _gua\spi_ issues, and I expanded the scientific vocabulary in mathematics, chemistry, zoology, botany and agriculture. As a result, _gua\spi_ has about 1400 primitive words. Some people are interested to discover just how few basis words we can get by with. However, I have experience with the _Loglan_ word list and I have confidence in its ability to handle the required meanings; and while I do not believe it is minimal, I think it is fairly close. Thus I chose to use existing word lists for _gua\spi_ rather than to try for radical pruning or _de novo_ creation. 
 
 ## Words and Grammar
 
@@ -400,7 +400,7 @@ The CCVV pattern is used for organized groups of noun-type words such as the phr
 
 
 
-Here is a list of all the phrase-relative pronouns. There is also _``zgln''_ meaning ``the previous discourse in general'' and _``zglr''_ meaning ``the event just finished or still continuing''. 
+Here is a list of all the phrase-relative pronouns. There is also _zgln_ meaning the previous discourse in general and _zglr_ meaning the event just finished or still continuing. 
 
 > 
 
@@ -612,7 +612,7 @@ Here is a list of all the phrase-relative pronouns. There is also _``zgln''_ mea
 
 ### Letterals
 
-Letterals are words representing letters, which are built up on a regular pattern like the pronouns are. A letteral means ``X1 is an instance of the letter (whatever)''. _``zu -fma !xo - <letteral>''_ is the right way to say that something has the shape of a letter. To spell a word, compound the letters start to end. The result means ``X1 is an instance of something spelled (whatever)''. 
+Letterals are words representing letters, which are built up on a regular pattern like the pronouns are. A letteral means ``X1 is an instance of the letter (whatever)''. _zu -fma !xo - <letteral>_ is the right way to say that something has the shape of a letter. To spell a word, compound the letters start to end. The result means ``X1 is an instance of something spelled (whatever)''. 
 
 Among letterals there are different forms for V's and C's, and upper and lower case in two alphabets are supported. The first table shows stem forms arranged phonetically, while the second shows what to substitute for the asterisks to signal alphabets and cases. 
 
@@ -956,7 +956,7 @@ To select cases and alphabets, use these for * or **:
 
 
 
-The relation of Greek letters to _gua\spi_ Roman letters is basically phonetic; the arbitrary assignments below are marked by `*'. The `:' can be used for the aspiration mark, an apostrophe in Greek or `h' in English transliteration, as in ``Hellas''. In principle one can also use a form like _``tler -fn -:alfa''_ (the letter alpha) to refer to Greek letters. 
+The relation of Greek letters to _gua\spi_ Roman letters is basically phonetic; the arbitrary assignments below are marked by `*'. The `:' can be used for the aspiration mark, an apostrophe in Greek or `h' in English transliteration, as in Hellas. In principle one can also use a form like _tler -fn -:alfa_ (the letter alpha) to refer to Greek letters. 
 
 > 
 
@@ -1170,15 +1170,15 @@ In English we use acronyms freely, but in _gua\spi_ the letterals for the acrony
 
 ### Foreign Words
 
-It is the policy in _gua\spi_ to use foreign words as-is (except for necessary mangling to make them fit the CV pattern), to represent the names of foreign people, places, flora, fauna, units of measure, foods, clothes, and so on. Certain of these word categories have a few members assigned CCV words. These are in _gua\spi_ because they were in _Loglan_ , and they were in _Loglan_ because they occurred with high frequency in European literature. In _Loglan_ it has proven impractical to manufacture in-language primitive words for every possible primitive, not for lack of word space but rather because those working on the language have other issues to attend to than making a continuous stream of predicates. For example, such an obvious animal as ``bear'' didn't make it into _Loglan_ and probably never will. _Gua\spi_ will have primitive words for more fauna and flora, but as in _Loglan_ , the majority of species will never have _gua\spi_ primitive words, and neither will most ethnic foods, foreign countries, provincial units and so on. 
+It is the policy in _gua\spi_ to use foreign words as-is (except for necessary mangling to make them fit the CV pattern), to represent the names of foreign people, places, flora, fauna, units of measure, foods, clothes, and so on. Certain of these word categories have a few members assigned CCV words. These are in _gua\spi_ because they were in _Loglan_ , and they were in _Loglan_ because they occurred with high frequency in European literature. In _Loglan_ it has proven impractical to manufacture in-language primitive words for every possible primitive, not for lack of word space but rather because those working on the language have other issues to attend to than making a continuous stream of predicates. For example, such an obvious animal as bear didn't make it into _Loglan_ and probably never will. _Gua\spi_ will have primitive words for more fauna and flora, but as in _Loglan_ , the majority of species will never have _gua\spi_ primitive words, and neither will most ethnic foods, foreign countries, provincial units and so on. 
 
-When foreign words fit neatly into the language, speakers are tempted to over-use them. Agglutinative languages like _gua\spi_ and _Loglan_ have great power to produce compound words with quite precise meanings, and speakers should try very hard to learn to produce such words. It is a fact that despite _Loglan_ 's limited set of nouns and, at that time, its lack of foreign words, I was able to write about 20,000 words of text while inventing only four unapproved primitive words (and a fifth was made for me after the fact): bear, torus, tape, noodle and oar. Speakers of _gua\spi_ should try to emulate this performance and to use foreign words only for truly local concepts, such as the ``|mu'' (a Chinese area unit for land) or ``adobo'' (a Filipino chicken stew). 
+When foreign words fit neatly into the language, speakers are tempted to over-use them. Agglutinative languages like _gua\spi_ and _Loglan_ have great power to produce compound words with quite precise meanings, and speakers should try very hard to learn to produce such words. It is a fact that despite _Loglan_ 's limited set of nouns and, at that time, its lack of foreign words, I was able to write about 20,000 words of text while inventing only four unapproved primitive words (and a fifth was made for me after the fact): bear, torus, tape, noodle and oar. Speakers of _gua\spi_ should try to emulate this performance and to use foreign words only for truly local concepts, such as the |mu (a Chinese area unit for land) or adobo (a Filipino chicken stew). 
 
 See the discussion under [Pronouns: Foreign Words](../pronouns.html#c-foreign) about attaching foreign words to _gua\spi_ predicates to provide cases. 
 
 ### Retroactive Downjumps
 
-Sentences are usually connected by a retroactive downjump _``^:o''_. With this operator the preceeding sentence is taken out of the discourse and is inserted in the first case of the word following _``^:o''_ (which will need a default _``vo''_). Thus the following two sentences are equivalent: 
+Sentences are usually connected by a retroactive downjump _^:o_. With this operator the preceeding sentence is taken out of the discourse and is inserted in the first case of the word following _^:o_ (which will need a default _vo_). Thus the following two sentences are equivalent: 
 
 > 
 
@@ -1215,15 +1215,15 @@ Sentences are usually connected by a retroactive downjump _``^:o''_. With this o
 
 
 
-The form with the explicit infinitive is more natural in _gua\spi_. When retroactive downjumps are allowed you have to finish an entire sentence structure and hear the next word, possibly a downjump, before you can place the structure in the parse tree. However, all natural languages allow afterthought sentence connectives as in the above examples, and speakers rarely use forethought forms where the beginning of the antecedent sentence is marked. I wonder if users might resist an absolute requirement to put _``!vo -ge''_ at the beginning of the antecedent sentence. 
+The form with the explicit infinitive is more natural in _gua\spi_. When retroactive downjumps are allowed you have to finish an entire sentence structure and hear the next word, possibly a downjump, before you can place the structure in the parse tree. However, all natural languages allow afterthought sentence connectives as in the above examples, and speakers rarely use forethought forms where the beginning of the antecedent sentence is marked. I wonder if users might resist an absolute requirement to put _!vo -ge_ at the beginning of the antecedent sentence. 
 
 Speakers, please try to minimize the use of retroactive downjumps. We shall see if it is feasible to outlaw them completely. 
 
-Since the antecedent sentence starts out at the top level, it is asserted by default and remains thus after the downjump. The consequent sentence is an ordinary infinitive, which is not asserted. If you wish to assert it, or the antecedent when not using the retroactive downjump, put in a _``ge''_ prefix as shown for the explicit infinitive antecedent. 
+Since the antecedent sentence starts out at the top level, it is asserted by default and remains thus after the downjump. The consequent sentence is an ordinary infinitive, which is not asserted. If you wish to assert it, or the antecedent when not using the retroactive downjump, put in a _ge_ prefix as shown for the explicit infinitive antecedent. 
 
-A sentence start word _``^:u''_ connects sentences with coordinated arguments, and such a group acts as a unit for retroactive downjumps. _``^:e''_ also makes such units, but the arguments are not coordinated. More complicated groupings are best handled by making explicit infinitive arguments out of the component sentences and using _``ge''_ to assert them, or by assigning names to the sentences and subsequently asserting a causal relation among the antecedents of the names. 
+A sentence start word _^:u_ connects sentences with coordinated arguments, and such a group acts as a unit for retroactive downjumps. _^:e_ also makes such units, but the arguments are not coordinated. More complicated groupings are best handled by making explicit infinitive arguments out of the component sentences and using _ge_ to assert them, or by assigning names to the sentences and subsequently asserting a causal relation among the antecedents of the names. 
 
-The retroactive downjump _``fy''_ relocates the sub-phrase before it at the same level, to become the first case of the following predicate at the same level. It roughly translates the infix ``and'' that connects a list of arguments in English. For example, 
+The retroactive downjump _fy_ relocates the sub-phrase before it at the same level, to become the first case of the following predicate at the same level. It roughly translates the infix and that connects a list of arguments in English. For example, 
 
 > 
 
@@ -1276,13 +1276,13 @@ The retroactive downjump _``fy''_ relocates the sub-phrase before it at the same
 
 
 
-This is one way to do multiple arguments (see also the section [just below](../vocab1.html#conjunctions)), and is just about the only use for _``fy''_ \--- but difficult for hard-core English speakers to give up. Needless to say, the retroactive downjump is not mandatory. ``_tla_ -set'' is used when the arguments form an unordered collection, while ``_stl_ -list'' is for arguments that have a sequence. Both words take as many arguments as you wish. 
+This is one way to do multiple arguments (see also the section [just below](../vocab1.html#conjunctions)), and is just about the only use for _fy_ \--- but difficult for hard-core English speakers to give up. Needless to say, the retroactive downjump is not mandatory. _tla_ -set is used when the arguments form an unordered collection, while _stl_ -list is for arguments that have a sequence. Both words take as many arguments as you wish. 
 
-When a sentence is complicated, one can use ``_fl_ -begin'' and ``_fr_ -end'' to mark the beginning and end of a grammatical unit. A matching pair of _``fl''_ and _``fr''_ are supposed to be at the same grammatical level; if they are not, someone has made an error. They have no meaning beyond this checking function. 
+When a sentence is complicated, one can use _fl_ -begin and _fr_ -end to mark the beginning and end of a grammatical unit. A matching pair of _fl_ and _fr_ are supposed to be at the same grammatical level; if they are not, someone has made an error. They have no meaning beyond this checking function. 
 
 ### Error Correction
 
-Another organizational transformation related to the retroactive downjump is error correction with _``fa''_. When prefixed to a phrase, it causes the previous phrase at the same level to vanish and to be replaced by the one that follows. _``/fi -fa''_ is a quick way to delete the current sentence. For example, 
+Another organizational transformation related to the retroactive downjump is error correction with _fa_. When prefixed to a phrase, it causes the previous phrase at the same level to vanish and to be replaced by the one that follows. _/fi -fa_ is a quick way to delete the current sentence. For example, 
 
 > 
 
@@ -1322,7 +1322,7 @@ Another organizational transformation related to the retroactive downjump is err
 
 ###  Conjunctions, Mixtures and Masses
 
-The conjunction _``fe''_ has several functions depending on what it joins. First, when it joins phrase predicates it makes a collection of phrases with the same arguments; usually it is unseen in this function since the first tone `-' is usually sufficient to cue a parallel phrase compound. 
+The conjunction _fe_ has several functions depending on what it joins. First, when it joins phrase predicates it makes a collection of phrases with the same arguments; usually it is unseen in this function since the first tone `-' is usually sufficient to cue a parallel phrase compound. 
 
 > 
 
@@ -1382,7 +1382,7 @@ The conjunction _``fe''_ has several functions depending on what it joins. First
 
 Despite our monkeylike eagerness to treat these words as units, we should remember that in _gua\spi_ there are phrases being conjoined. Thus everyone is told to go from the water _and_ to be out of the water; and the result of cutting is both a hole _and_ goes through the steel; the referent of this argument satisfies two predicates. 
 
-_``fe''_ also can join arguments. The first of the following examples shows a conjunction with _``fe''_ in which successive arguments are joined into one. (For details, see [Semantics: Cartesian Expansion](../semantic.html#S-conjunction).) The second example shows the same sentence rendered with ``_tla_ -set'' in which the set members are listed. _``fe''_ produces referents only in extension whereas _``tla''_ produces a set in suitable context. There is a similar word ``_stl_ -list'' when the arguments must have a specific order. For both words you may give as many arguments as you need. 
+_fe_ also can join arguments. The first of the following examples shows a conjunction with _fe_ in which successive arguments are joined into one. (For details, see [Semantics: Cartesian Expansion](../semantic.html#S-conjunction).) The second example shows the same sentence rendered with _tla_ -set in which the set members are listed. _fe_ produces referents only in extension whereas _tla_ produces a set in suitable context. There is a similar word _stl_ -list when the arguments must have a specific order. For both words you may give as many arguments as you need. 
 
 > 
 
@@ -1418,7 +1418,7 @@ _``fe''_ also can join arguments. The first of the following examples shows a co
 
 
 
-Here is a particularly troublesome example of ``or'' in a set of arguments: 
+Here is a particularly troublesome example of or in a set of arguments: 
 
 > 
 
@@ -1504,9 +1504,9 @@ Mixtures are expressed in several ways.
 
 
 
-_Loglan_ has a concept of a ``mass individual''. According to Brown [L1] it is more characteristic of non-Western cultures. Here is my best explanation of it. Take the full referent set of an argument, and personify it so that, potentially at least, it is the same kind of thing as its members. For example, all sharks can be considered to be instances or manifestations of an archetypical shark god. This composite object is the mass individual. In _Loglan_ , arguments in the ``serving or portion'' category, like ``_cutri_ -water'', generally are used as mass individuals. 
+_Loglan_ has a concept of a mass individual. According to Brown [L1] it is more characteristic of non-Western cultures. Here is my best explanation of it. Take the full referent set of an argument, and personify it so that, potentially at least, it is the same kind of thing as its members. For example, all sharks can be considered to be instances or manifestations of an archetypical shark god. This composite object is the mass individual. In _Loglan_ , arguments in the serving or portion category, like _cutri_ -water, generally are used as mass individuals. 
 
-Concepts and features which in other languages seem unitary are revealed in _gua\spi_ to be various. The mixtures above are one example, and mass individuals are another. Here are some examples related to mass individuals. Note that _``xo''_ is the default first case article for servings and portions and so in argument sites with the normal default you need not say _``xo''_. 
+Concepts and features which in other languages seem unitary are revealed in _gua\spi_ to be various. The mixtures above are one example, and mass individuals are another. Here are some examples related to mass individuals. Note that _xo_ is the default first case article for servings and portions and so in argument sites with the normal default you need not say _xo_. 
 
 > 
 
@@ -1618,7 +1618,11 @@ Concepts and features which in other languages seem unitary are revealed in _gua
       </td>
       <td>
         <em>
-        The ``C'' Programming Language
+        The
+        <span class="latex">
+        C
+        </span>
+        Programming Language
         </em>
         was written by Kernighan and Ritchie
       </td>
@@ -1642,9 +1646,9 @@ Concepts and features which in other languages seem unitary are revealed in _gua
 
 
 
-``Moby Dick'' is a bit ambiguous; it names both the book and the whale in it. The fault lies with the author for using one name for two referents. In any case, it is obvious what a foreign name means when referring to an object or a person. In the second example we have two _gua\spi_ predicate names, conveniently all compound words so that they feel the same as the foreign names. But in the third example the predicate name is quite intricate, extends over three grammatical levels, and includes an imbedded name, ``C'', represented by a letteral. Nonetheless the principle is the same; _``qu''_ converts the following phrase into a name. 
+Moby Dick is a bit ambiguous; it names both the book and the whale in it. The fault lies with the author for using one name for two referents. In any case, it is obvious what a foreign name means when referring to an object or a person. In the second example we have two _gua\spi_ predicate names, conveniently all compound words so that they feel the same as the foreign names. But in the third example the predicate name is quite intricate, extends over three grammatical levels, and includes an imbedded name, C, represented by a letteral. Nonetheless the principle is the same; _qu_ converts the following phrase into a name. 
 
-The fourth example is perhaps the most difficult: the declaration of a title. The title is not part of the discourse but rather tells about it, hence it takes the form of a decoration with _``vi''_ in a nonsentence. With it the by-line appears in the usual form for setting a modal case default. 
+The fourth example is perhaps the most difficult: the declaration of a title. The title is not part of the discourse but rather tells about it, hence it takes the form of a decoration with _vi_ in a nonsentence. With it the by-line appears in the usual form for setting a modal case default. 
 
 ### Modal Cases
 
@@ -1833,7 +1837,10 @@ Here are examples of the most important modal cases. However, virtually any word
         <em>
         Said
         </em>
-        Kira, ``You're a monster''
+        Kira,
+        <span class="latex">
+        You're a monster
+        </span>
       </td>
     </tr>
     <tr>
@@ -1862,7 +1869,10 @@ Here are examples of the most important modal cases. However, virtually any word
         <em>
         Thought
         </em>
-        Kira, ``The pilot needs to be rescued''
+        Kira,
+        <span class="latex">
+        The pilot needs to be rescued
+        </span>
       </td>
     </tr>
     <tr>
@@ -2174,11 +2184,11 @@ Here are examples of the most important modal cases. However, virtually any word
 </table>
 
 
- There are several moderately complex cases, such as ``_tue_ -culture'', and ``_fta_ -standard for judgement'', which are relevant to only four or five words each. These are served by modal cases as a matter of policy, rather than having numbered cases on each word. 
+ There are several moderately complex cases, such as _tue_ -culture, and _fta_ -standard for judgement, which are relevant to only four or five words each. These are served by modal cases as a matter of policy, rather than having numbered cases on each word. 
 
 ### Tenses and Aspects
 
-In English and all Indo-European languages, every sentence has a tense, that is, the syntax indicates (with great complexity) when the sentence occurred. Stories, for example, frequently have every narrative sentence in the past tense. _Gua\spi_ uses instead the modal case default for tense, and explicit tense modal cases appear only for sentences off the default. The sentence start word _``^:a''_ links sentences that occur in sequence. Here are some example sentences with tenses. 
+In English and all Indo-European languages, every sentence has a tense, that is, the syntax indicates (with great complexity) when the sentence occurred. Stories, for example, frequently have every narrative sentence in the past tense. _Gua\spi_ uses instead the modal case default for tense, and explicit tense modal cases appear only for sentences off the default. The sentence start word _^:a_ links sentences that occur in sequence. Here are some example sentences with tenses. 
 
 > 
 
@@ -2266,7 +2276,7 @@ In English and all Indo-European languages, every sentence has a tense, that is,
 
 
 
-In Russian, every verb is formally assigned an ``aspect'': ``perfective'', meaning that the sentence's event is considered as a unit, including its completion, and ``imperfective'', meaning that the predicated relation is continuous. English has these aspects too, though each verb can have either aspect depending on a moderately complicated syntactic cue (``ing'' for imperfective and various others for perfective). Speakers also like to distinguish a ``completed'' versus ``aborted'' aspect, whether an event reached its usual conclusion. In _gua\spi_ the unmodified predicates are perfective or imperfective according to their meanings, but subordinate clauses or compounding words can express whatever aspects are necessary. Here are a few aspects in _gua\spi_ : 
+In Russian, every verb is formally assigned an aspect: perfective, meaning that the sentence's event is considered as a unit, including its completion, and imperfective, meaning that the predicated relation is continuous. English has these aspects too, though each verb can have either aspect depending on a moderately complicated syntactic cue (ing for imperfective and various others for perfective). Speakers also like to distinguish a completed versus aborted aspect, whether an event reached its usual conclusion. In _gua\spi_ the unmodified predicates are perfective or imperfective according to their meanings, but subordinate clauses or compounding words can express whatever aspects are necessary. Here are a few aspects in _gua\spi_ : 
 
 > 
 
@@ -2357,7 +2367,7 @@ In Russian, every verb is formally assigned an ``aspect'': ``perfective'', meani
 
 ### Decorations
 
-A decoration is a short subordinate clause. Sometimes it expresses the speaker's attitude about the sentence or the relation between sentences, in which case its prefix is _``vi''_ , or it can be a subordinate assertion with _``va''_ , or an actual part of the main assertion, with _``vu''_ or `|' tone. 
+A decoration is a short subordinate clause. Sometimes it expresses the speaker's attitude about the sentence or the relation between sentences, in which case its prefix is _vi_ , or it can be a subordinate assertion with _va_ , or an actual part of the main assertion, with _vu_ or `|' tone. 
 
 
 
