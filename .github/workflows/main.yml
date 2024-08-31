@@ -50,6 +50,12 @@ jobs:
         restore-keys: |
           ${{ runner.OS }}-npm-
 
+    - name: Cache Playwright browsers
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/ms-playwright
+        key: ${{ runner.OS }}-playwright-${{ hashFiles('**/package-lock.json') }}
+
     - name: Build and push Docker image
       uses: docker/build-push-action@v5
       with:
