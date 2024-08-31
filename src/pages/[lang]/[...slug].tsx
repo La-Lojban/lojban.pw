@@ -287,10 +287,12 @@ export async function getStaticProps({ params }: Params) {
       (externalPost) =>
         externalPost.slug.join("/") === post.slug.slice(0, -1).join("/")
     );
-    if (firstSiblingSlug?.title !== undefined && post.title === undefined) {
+    console.log(allPosts.map(i=>i.slug),firstSiblingSlug, post.title);
+    if (firstSiblingSlug?.title !== undefined) {
       post.title = firstSiblingSlug.title;
       const stringifiedSlug = post.slug.join("/");
       const allSiblingPosts = relatedSlugs.concat(stringifiedSlug).sort();
+      console.log(allSiblingPosts[0], stringifiedSlug);
       if (allSiblingPosts[0] !== stringifiedSlug)
         post.firstSiblingSlug = allSiblingPosts[0];
     }
