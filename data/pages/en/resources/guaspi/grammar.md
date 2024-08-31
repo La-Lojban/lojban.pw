@@ -75,7 +75,7 @@ Organization
 Semantics
      Giving meaning to syntactic structures. 
 
-Natural language syntax is extremely complicated because the syntax expresses actual meanings such as tenses and numbers. In _gua\spi_ the first three levels are independent of the meaning of the words. This makes them less interesting than jewels like the perfective aspect of Russian or the long object case of Navajo, but it makes them much simpler and much easier to learn and use. 
+Natural language syntax is extremely complicated because the syntax expresses actual meanings such as tenses and numbers. In _gua\spi_ the first three levels are independent of the meaning of the words. This makes them less interesting than jewels like the <span class="latex">perfective aspect</span> of Russian or the <span class="latex">long object case</span> of Navajo, but it makes them much simpler and much easier to learn and use. 
 
 # Morphology: What is a Word
 
@@ -85,7 +85,7 @@ The phonemes are divided in two classes, C's and V's. All C's are consonants in 
 
 Phonemes can be distinguished by where the tongue is placed to make them, whether they are sudden (plosive) or continuous (spirant), and whether their sound comes from the vocal cords (voiced) or the rush of air (unvoiced). Particular ranges of tongue position produce each phoneme, much like states on a map. But each listener has unique map boundaries for recognizing phonemes, especially for the vowels, so the speaker should try to hit the center of the phoneme region so as to maximize the likelihood that any particular listener will be able to recognize his speech. Nonetheless, the more difficult phoneme distinctions have been removed from _gua\spi_ and so speakers of any natural language should find most phonemes easy to say and to hear. 
 
-[Table 1 [Phonemes]](grammar.html#Phonemes) shows the phonemes, categorized by tongue position and sound source. Some phonemes are represented confusingly in European languages, e.g. `sh' which sounds like neither `s' nor `h'. So in _gua\spi_ they are assigned individual letters which differ from European usage --- `q' for `sh'. [Table 2 [Pronunciation]](grammar.html#Pronunciation) gives examples of these, and all the vowels. Written blanks have no sound, and are optional. There is no distinction between upper and lower case. 
+[Table 1 [Phonemes]](grammar.html#Phonemes) shows the phonemes, categorized by tongue position and sound source. Some phonemes are represented confusingly in European languages, e.g. <span class="latex">sh</span> which sounds like neither <span class="latex">s</span> nor <span class="latex">h</span>. So in _gua\spi_ they are assigned individual letters which differ from European usage --- <span class="latex">q</span> for <span class="latex">sh</span>. [Table 2 [Pronunciation]](grammar.html#Pronunciation) gives examples of these, and all the vowels. Written blanks have no sound, and are optional. There is no distinction between upper and lower case. 
 
 * * *
 
@@ -279,7 +279,7 @@ Phonemes can be distinguished by where the tongue is placed to make them, whethe
 
  
 
-> Table 1 [Phonemes]. _Gua\spi_ phonemes, arranged by tongue position front to back (reading across) and sound type (reading down). Letters marked `*' differ from European standard usage. 
+> Table 1 [Phonemes]. _Gua\spi_ phonemes, arranged by tongue position front to back (reading across) and sound type (reading down). Letters marked <span class="latex">*</span> differ from European standard usage. 
 
 * * *
 
@@ -455,13 +455,13 @@ Phonemes can be distinguished by where the tongue is placed to make them, whethe
 
  
 
-> Table 2 [Pronunciation]. How to pronounce _gua\spi_ phonemes. Nonstandard C's are shown; C's without examples are as in English. Standard radio broadcast accent is close to correct for the V's; Spanish is closer. Pronounce the vowels as one sound, not a glide between two sounds as in eye. 
+> Table 2 [Pronunciation]. How to pronounce _gua\spi_ phonemes. Nonstandard C's are shown; C's without examples are as in English. Standard radio broadcast accent is close to correct for the V's; Spanish is closer. Pronounce the vowels as one sound, not a glide between two sounds as in <span class="latex">eye</span>. 
 
 * * *
 
-The sound `#' or `uh' is common in English; all vowel letters are sometimes pronounced `#'. The `a' of among is a good example. This sound is called schwa; that German name is pronounced (with _gua\spi_ letters) sqv#. `#' is not used in regular words; its purpose is to break up CC pairs that a particular speaker finds hard to pronounce, since virtually all speakers will be able to handle C#C. It is to be ignored and it is only written in explanations like this one. Though normally considered a vowel, it is in the C class because it occurs among C's, and a word is defined as some C's followed by some V's. 
+The sound <span class="latex">#</span> or <span class="latex">uh</span> is common in English; all vowel letters are sometimes pronounced <span class="latex">#</span>. The <span class="latex">a</span> of <span class="latex">among</span> is a good example. This sound is called <span class="latex">schwa</span>; that German name is pronounced (with _gua\spi_ letters) <span class="latex">sqv#</span>. <span class="latex">#</span> is not used in regular words; its purpose is to break up CC pairs that a particular speaker finds hard to pronounce, since virtually all speakers will be able to handle C#C. It is to be ignored and it is only written in explanations like this one. Though normally considered a vowel, it is in the C class because it occurs among C's, and a word is defined as some C's followed by some V's. 
 
-The glottal stop `:' pronounced alone is a sudden (plosive) `#', but it is normally followed by a V so that it sounds like a brief pause after which the V comes on. In many English dialects, as in _gua\spi_ , it is found between a vowel-final and vowel-initial word, like the:apple, while the Cockney dialect uses it much more extensively. The glottal stop is not used in regular words; its place is at the beginning of each sentence start word, and in vowel-initial foreign words. 
+The glottal stop <span class="latex">:</span> pronounced alone is a sudden (plosive) <span class="latex">#</span>, but it is normally followed by a V so that it sounds like a brief pause after which the V comes on. In many English dialects, as in _gua\spi_ , it is found between a vowel-final and vowel-initial word, like <span class="latex">the:apple</span>, while the Cockney dialect uses it much more extensively. The glottal stop is not used in regular words; its place is at the beginning of each sentence start word, and in vowel-initial foreign words. 
 
 English has thirteen subtly different vowels plus four official diphthongs but only five letters to represent them. _Gua\spi_ uses only six easily distinguished vowel sounds, recruiting Y for one of them, and adds some vowel-like sounds which are considered consonants in English. Unfortunately, many regional accents of English turn simple vowels into diphthongs, invalidating the example words given in [Table 2 [Pronuncation]](grammar.html#Pronunciation). Other accents transform sounds beyond the bounds that a _gua\spi_ speaker can recognize. If you speak with a regional accent, please use the vowel sounds that you can hear on television or radio (American or British will both work). Particularly troublesome examples, rendered with _gua\spi_ letters, are shown in this table: 
 
@@ -495,7 +495,7 @@ English has thirteen subtly different vowels plus four official diphthongs but o
         bAt
       </td>
       <td>
-        (a very closed `o')
+        (a very closed <span class="latex">o</span>)
       </td>
     </tr>
     <tr>
@@ -522,11 +522,7 @@ English has thirteen subtly different vowels plus four official diphthongs but o
         f%thA
       </td>
       <td>
-        (% represents `a' in
-        <span class="latex">
-        cat
-        </span>
-        )
+        (% represents <span class="latex">a</span> in <span class="latex">cat</span>)
       </td>
     </tr>
     <tr>
@@ -543,11 +539,11 @@ English has thirteen subtly different vowels plus four official diphthongs but o
 
 * * *
 
-Japanese speakers are famous for producing `l' and `r' that Europeans cannot distinguish. Chinese has distinct `l' and `r' but uses phoneme boundaries different from the European norm, so its speakers also have some trouble being understood. The _gua\spi_ `l' and `r' are biased to European norms, and Asian speakers should take special care with these phonemes. 
+Japanese speakers are famous for producing <span class="latex">l</span> and <span class="latex">r</span> that Europeans cannot distinguish. Chinese has distinct <span class="latex">l</span> and <span class="latex">r</span> but uses phoneme boundaries different from the European norm, so its speakers also have some trouble being understood. The _gua\spi_ <span class="latex">l</span> and <span class="latex">r</span> are biased to European norms, and Asian speakers should take special care with these phonemes. 
 
-Preliminary experience shows that the errors English-speaking beginners make most often are to interchange `q' with `c', `x' with `j', and `i' with `y'; and to pronounce `w' as `oo' (should be `ng'). 
+Preliminary experience shows that the errors English-speaking beginners make most often are to interchange <span class="latex">q</span> with <span class="latex">c</span>, <span class="latex">x</span> with <span class="latex">j</span>, and <span class="latex">i</span> with <span class="latex">y</span>; and to pronounce <span class="latex">w</span> as <span class="latex">oo</span> (should be <span class="latex">ng</span>). 
 
-Written blanks have no sound, and are optional. In this document a blank usually comes before each word (except in the phrase _gua\spi_), although in running text it looks nicer to omit blanks before the tone `-'. There is no distinction between upper and lower case. The tones (described next) make punctuation unnecessary. There are no periods at the ends of sentences; however, each sentence start word begins with a glottal stop, written as a colon. This colon is a letter, not a punctuation. 
+Written blanks have no sound, and are optional. In this document a blank usually comes before each word (except in the phrase <span class="latex">_gua\spi_ </span>), although in running text it looks nicer to omit blanks before the tone <span class="latex">-</span>. There is no distinction between upper and lower case. The tones (described next) make punctuation unnecessary. There are no periods at the ends of sentences; however, each sentence start word begins with a glottal stop, written as a colon. This colon is a letter, not a punctuation. 
 
 A feature of _gua\spi_ (like Loglan before it, and unlike English) is that writing and speech are isomorphic, that is, each letter has a single phoneme (sound) and each phoneme has a single letter (with trivial exceptions), so that each spoken text can be spelled easily and without ambiguity, and each written text can be read off equally easily. 
 
@@ -557,9 +553,9 @@ The job of grammar is to stick words together into phrases. The grammar does not
 
 ## Parse Tree
 
-The grammar is stated in Backus-Naur form in [Section [Backus]](conclusn.html#Backus). For grammatical purposes there is only one kind of phrase (though distinctions are made at the organizational level), but words have five categories: the two words _fu_ and _fi_ , sentence start words, other prefixes, and everything else. The main part of a phrase is a sequence of one or more words collectively called the phrase predicate; any prefixes in this must come first. After any of the prefixes or after the whole predicate the sub-phrases are interspersed. They, of course, have their own prefixes, predicates and sub-phrases. 
+The grammar is stated in Backus-Naur form in [Section [Backus]](conclusn.html#Backus). For grammatical purposes there is only one kind of phrase (though distinctions are made at the organizational level), but words have five categories: the two words _<span class="latex">fu</span>_ and _<span class="latex">fi</span>_ , sentence start words, other prefixes, and everything else. The main part of a phrase is a sequence of one or more words collectively called the <span class="latex">phrase predicate</span>; any prefixes in this must come first. After any of the prefixes or after the whole predicate the sub-phrases are interspersed. They, of course, have their own prefixes, predicates and sub-phrases. 
 
-Let us understand phrases with the help of the example in the following figure, showing the parse tree of a simple sentence. The root phrase is at the top; parse trees grow upside down. Sub-phrases with their own predicates come at the next lower level. These in turn may have their own sub-phrases. Each phrase is at a certain level and it attaches to the most recent phrase at the next higher level. The tones (see [Table 4 [Tones]](grammar.html#Tones)) show the level of each word relative to the one before it. 
+Let us understand phrases with the help of the example in the following figure, showing the <span class="latex">parse tree</span> of a simple sentence. The root phrase is at the top; parse trees grow upside down. Sub-phrases with their own predicates come at the next lower level. These in turn may have their own sub-phrases. Each phrase is at a certain level and it attaches to the most recent phrase at the next higher level. The tones (see [Table 4 [Tones]](grammar.html#Tones)) show the level of each word relative to the one before it. 
 
 * * *
 
@@ -607,13 +603,13 @@ Let us understand phrases with the help of the example in the following figure, 
 
 * * *
 
-The root phrase predicate of the example sentence is devour (violently eat), and the start word is at the same level. Rat, attaching to violent, is therefore at the next level below the start word, indicated by `!'. Violent is at the level above rat, indicated by `/'. Eat is attached to violent in a compound, indicated by `-'. For grammatical purposes the pair of words, plus the start word, form the root phrase predicate, although later at the organizational syntax level eat will be split from violent. Like rat, cheese attaches below eat (`!'). The next phrase also attaches to eat, indicated by `^', because eat is the most recent word at the next level up. It is a subordinate clause, indicated by the prefix _vu_ , that tells what was used to eat; in a similar tone pattern fork and knife both attach to using. Using and knife attach to their prefixes with compounding tone `-'. To summarize, words attach to the previous word at the next higher level, and the tones of _gua\spi_ represent the attachment level of the present word relative to the one just before it. Every word has such a tone. 
+The root phrase predicate of the example sentence is <span class="latex">devour</span> (violently eat), and the start word is at the same level. <span class="latex">Rat</span>, attaching to <span class="latex">violent</span>, is therefore at the next level below the start word, indicated by <span class="latex">!</span>. <span class="latex">Violent</span> is at the level above <span class="latex">rat</span>, indicated by <span class="latex">/</span>. <span class="latex">Eat</span> is attached to <span class="latex">violent</span> in a compound, indicated by <span class="latex">-</span>. For grammatical purposes the pair of words, plus the start word, form the root phrase predicate, although later at the organizational syntax level <span class="latex">eat</span> will be split from <span class="latex">violent</span>. Like <span class="latex">rat</span>, <span class="latex">cheese</span> attaches below <span class="latex">eat</span> (<span class="latex">!</span>). The next phrase also attaches to <span class="latex">eat</span>, indicated by <span class="latex">^</span>, because <span class="latex">eat</span> is the most recent word at the next level up. It is a subordinate clause, indicated by the prefix _<span class="latex">vu</span>_ , that tells what was <span class="latex">used</span> to eat; in a similar tone pattern <span class="latex">fork</span> and <span class="latex">knife</span> both attach to <span class="latex">using</span>. <span class="latex">Using</span> and <span class="latex">knife</span> attach to their prefixes with compounding tone <span class="latex">-</span>. To summarize, words attach to the previous word at the next higher level, and the tones of _gua\spi_ represent the attachment level of the present word relative to the one just before it. Every word has such a tone. 
 
 ## The Tones
 
 The tones are the most terrifying aspect of _gua\spi_ for speakers of European languages. Please remember that over a billion people in China and Southeast Asia speak tonal languages. If they can do it, so can you. 
 
-A tone is a specific change in pitch or vocal frequency. In English a falling tone marks the end of the sentence, a rising tone marks a question, a down-up combination is a kind of verbal comma, and most of the sentence is said at a fairly even tone. Chinese has similar tones but each word has one and the tones distinguish between meanings, e.g. _-ma_ (high even tone) means mother while _|ma_ (down-up) means horse. _Gua\spi_ is intermediate in its use of tones: each word has a tone, but rather than affecting the meaning of the word it tells which neighboring word it attaches to. The tones are shown in this table: 
+A tone is a specific change in pitch or vocal frequency. In English a falling tone marks the end of the sentence, a rising tone marks a question, a down-up combination is a kind of verbal comma, and most of the sentence is said at a fairly even tone. Chinese has similar tones but each word has one and the tones distinguish between meanings, e.g. _<span class="latex">-ma</span>_ (high even tone) means <span class="latex">mother</span> while _<span class="latex">|ma</span>_ (down-up) means <span class="latex">horse</span>. _Gua\spi_ is intermediate in its use of tones: each word has a tone, but rather than affecting the meaning of the word it tells which neighboring word it attaches to. The tones are shown in this table: 
 
 * * *
 
@@ -768,19 +764,19 @@ A tone is a specific change in pitch or vocal frequency. In English a falling to
 
  
 
-> Table 4 [Tones]. Sounds and interpretations of the tones. Level refers to the parse tree level of the word with that tone, relative to the structure before it. Type indicates the organizational type of that word or phrase. The first set of symbols shown, ascii characters, is preferred but the second set can substitute on a manual typewriter. In this paper, `!' is used instead of `\' for convenience in typesetting. 
+> Table 4 [Tones]. Sounds and interpretations of the tones. <span class="latex">Level</span> refers to the parse tree level of the word with that tone, relative to the structure before it. <span class="latex">Type</span> indicates the organizational type of that word or phrase. The first set of symbols shown, ascii characters, is preferred but the second set can substitute on a manual typewriter. In this paper, <span class="latex">!</span> is used instead of <span class="latex">\</span> for convenience in typesetting. 
 
 * * *
 
 You don't speak this language, you sing it. Chinese speakers will have no problem to produce and hear the tones, but Europeans will need a lot of practice, particularly in listening. A Chinese person speaking clearly will let his voice vary over an interval of a fourth, e.g. C to F on the piano, and this should be enough for Europeans to catch. On the falling and rising tones Europeans tend to produce, and listen for, little curlicues at the end that make the tone sound like down-up or up-down. Avoid the curlicues, and recognize the two-direction tones only if they range over at least a third, e.g. C to E or D to F. 
 
-Tones `-' and `=' join adjacent words of a compound phrase predicate. Tones `|' and `!' start a sub-phrase of the current phrase. Tone `^' closes the current sub-phrase and starts a new one, part of the same containing phrase. Tone `/' closes a sub-phrase and resumes the predicate of the containing phrase, if among its prefixes, or otherwise starts a new phrase at the higher level. Distinctions within these tone classes are important later but do not affect the grammar. 
+Tones <span class="latex">-</span> and <span class="latex">=</span> join adjacent words of a compound phrase predicate. Tones <span class="latex">|</span> and <span class="latex">!</span> start a sub-phrase of the current phrase. Tone <span class="latex">^</span> closes the current sub-phrase and starts a new one, part of the same containing phrase. Tone <span class="latex">/</span> closes a sub-phrase and resumes the predicate of the containing phrase, if among its prefixes, or otherwise starts a new phrase at the higher level. Distinctions within these tone classes are important later but do not affect the grammar. 
 
-A sentence start prefix with up-down tone such as _^:i_ is automatically at root level. _fi_ jumps to the root level or one or two levels lower without ending the sentence, depending on its tone selected from `!', `^' or `/', as if an imaginary level 1 word preceeded it. If a word is supposed to be more than one level higher (closer to the root) than the previous one but _fi_ does not apply, you use _fu_ to raise the level count by two to four depending on its tone, selected from `!', `^' or `/' respectively. You can repeat _fu_ for even higher levels, but this is rarely necessary since from level 7 or less you can reach any level from 0 (root) to 8 in one jump. On the level-shifting prefixes the tone `-' usually can substitute for `^', except after a foreign word, name or digit, where the prefix tends to get included in the previous structure. 
+A sentence start prefix with up-down tone such as _<span class="latex">^:i</span>_ is automatically at root level. _<span class="latex">fi</span>_ jumps to the root level or one or two levels lower without ending the sentence, depending on its tone selected from <span class="latex">!</span>, <span class="latex">^</span> or <span class="latex">/</span>, as if an imaginary level 1 word preceeded it. If a word is supposed to be more than one level higher (closer to the root) than the previous one but _<span class="latex">fi</span>_ does not apply, you use _<span class="latex">fu</span>_ to raise the level count by two to four depending on its tone, selected from <span class="latex">!</span>, <span class="latex">^</span> or <span class="latex">/</span> respectively. You can repeat _<span class="latex">fu</span>_ for even higher levels, but this is rarely necessary since from level 7 or less you can reach any level from 0 (root) to 8 in one jump. On the level-shifting prefixes the tone <span class="latex">-</span> usually can substitute for <span class="latex">^</span>, except after a foreign word, name or digit, where the prefix tends to get included in the previous structure. 
 
-Sentence start words like _:i_ and other prefix words like _se_ or _vu_ come before and at the same level as the predicate of their phrase. The predicate normally has compounding (high even) tone unless some of its arguments precede it, and the linked predicate is considered to be a compound word with the prefix, whether or not arguments come between them. There may be several prefixes in a row before the predicate, all at the same level and linked in sequence. The one closest to the predicate has effect first. 
+Sentence start words like _<span class="latex">:i</span>_ and other prefix words like _<span class="latex">se</span>_ or _<span class="latex">vu</span>_ come before and at the same level as the predicate of their phrase. The predicate normally has compounding (high even) tone unless some of its arguments precede it, and the linked predicate is considered to be a compound word with the prefix, whether or not arguments come between them. There may be several prefixes in a row before the predicate, all at the same level and linked in sequence. The one closest to the predicate has effect first. 
 
-As befits a grammatical element, the tone of a word implies what kind of structure is attaching. In particular, the third tone, down-up, `|', is specifically for the very common case of putting a subordinate clause one level down from the previous word. 
+As befits a grammatical element, the tone of a word implies what kind of structure is attaching. In particular, the third tone, down-up, <span class="latex">|</span>, is specifically for the very common case of putting a subordinate clause one level down from the previous word. 
 
 There are two word sequences for quoting non-_gua\spi_ text. These are part of the grammar but are described with the other quote words, which are at the organizational level. 
 
