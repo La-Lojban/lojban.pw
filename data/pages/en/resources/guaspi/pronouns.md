@@ -1,8 +1,8 @@
-[Next](./semantic)
+[Next](../semantic)
 
-[Previous](./cases)
+[Previous](../cases)
 
-[Contents](./guarefmn)
+[Contents](../guarefmn)
 
 ------------------------------------------------------------------------
 
@@ -670,8 +670,8 @@ arguments.
 
 ------------------------------------------------------------------------
 
-[Next](./semantic)
+[Next](../semantic)
 
-[Previous](./cases)
+[Previous](../cases)
 
-[Contents](./guarefmn)
+[Contents](../guarefmn)

@@ -1,8 +1,8 @@
-[Next](./guarefmn)
+[Next](../guarefmn)
 
-[Previous](./vocab2)
+[Previous](../vocab2)
 
-[Contents](./guarefmn)
+[Contents](../guarefmn)
 
 ------------------------------------------------------------------------
 
@@ -252,8 +252,8 @@ machine languages is closed by *gua\\spi*.
 
 ------------------------------------------------------------------------
 
-[Next](./guarefmn)
+[Next](../guarefmn)
 
-[Previous](./vocab2)
+[Previous](../vocab2)
 
-[Contents](./guarefmn)
+[Contents](../guarefmn)

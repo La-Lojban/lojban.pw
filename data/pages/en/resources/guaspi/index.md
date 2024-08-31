@@ -9,12 +9,12 @@
 > predicate calculus and hence can be represented and manipulated
 > efficiently and unambiguously by programs (and people).
 
--   [Introduction to *Gua\\spi*](./acmpaper)
--   [*Gua\\spi* Reference Manual](./guarefmn)
--   [*Gua\\spi* Dictionary](./dictintr) (introduction only, with case
+-   [Introduction to *Gua\\spi*](../acmpaper)
+-   [*Gua\\spi* Reference Manual](../guarefmn)
+-   [*Gua\\spi* Dictionary](../dictintr) (introduction only, with case
     merge symbols)
--   [*Gua\\spi* Vocabulary Lookup](./xankua)
--   [TeX Documents and Miscellaneous Non-HTML Stuff](./old)
+-   [*Gua\\spi* Vocabulary Lookup](../xankua)
+-   [TeX Documents and Miscellaneous Non-HTML Stuff](../old)
 
 If you would like to modify the vocabulary CGI script for another
 language, use [this link.](xankuacgi.txt)

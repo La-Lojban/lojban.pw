@@ -1,8 +1,8 @@
-[Next](./conclusn)
+[Next](../conclusn)
 
-[Previous](./vocab1)
+[Previous](../vocab1)
 
-[Contents](./guarefmn)
+[Contents](../guarefmn)
 
 ------------------------------------------------------------------------
 
@@ -1302,8 +1302,8 @@ beginner should be sure to learn.
 
 ------------------------------------------------------------------------
 
-[Next](./conclusn)
+[Next](../conclusn)
 
-[Previous](./vocab1)
+[Previous](../vocab1)
 
-[Contents](./guarefmn)
+[Contents](../guarefmn)

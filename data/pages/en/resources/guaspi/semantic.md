@@ -1,8 +1,8 @@
-[Next](./vocab1)
+[Next](../vocab1)
 
-[Previous](./pronouns)
+[Previous](../pronouns)
 
-[Contents](./guarefmn)
+[Contents](../guarefmn)
 
 ------------------------------------------------------------------------
 
@@ -268,8 +268,8 @@ number of referents with a numeric predicate, like this:
 
 ------------------------------------------------------------------------
 
-[Next](./vocab1)
+[Next](../vocab1)
 
-[Previous](./pronouns)
+[Previous](../pronouns)
 
-[Contents](./guarefmn)
+[Contents](../guarefmn)

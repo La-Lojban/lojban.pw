@@ -1,8 +1,8 @@
-[Next](./pronouns)
+[Next](../pronouns)
 
-[Previous](./grammar)
+[Previous](../grammar)
 
-[Contents](./guarefmn)
+[Contents](../guarefmn)
 
 ------------------------------------------------------------------------
 
@@ -517,8 +517,8 @@ in connection with story dialog.
 
 ------------------------------------------------------------------------
 
-[Next](./pronouns)
+[Next](../pronouns)
 
-[Previous](./grammar)
+[Previous](../grammar)
 
-[Contents](./guarefmn)
+[Contents](../guarefmn)

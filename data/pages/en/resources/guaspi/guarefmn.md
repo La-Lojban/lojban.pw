@@ -11,10 +11,10 @@
 > predicate calculus and hence can be represented and manipulated
 > efficiently and unambiguously by programs (and people).
 
--   [Introduction and Grammar](./grammar)
--   [Cases and Relations](./cases)
--   [Pronouns; Compound Words](./pronouns)
--   [Semantics of Arguments](./semantic)
--   [Vocabulary: Special Word Categories](./vocab1)
--   [Mathematical Expressions; Sentence Forms](./vocab2)
--   [BNF Grammar and Conclusion](./conclusn)
+-   [Introduction and Grammar](../grammar)
+-   [Cases and Relations](../cases)
+-   [Pronouns; Compound Words](../pronouns)
+-   [Semantics of Arguments](../semantic)
+-   [Vocabulary: Special Word Categories](../vocab1)
+-   [Mathematical Expressions; Sentence Forms](../vocab2)
+-   [BNF Grammar and Conclusion](../conclusn)
