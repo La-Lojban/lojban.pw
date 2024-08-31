@@ -1,12 +1,12 @@
-[Next](vocab1.html)
+[Next](./vocab1)
 
-[Previous](pronouns.html)
+[Previous](./pronouns)
 
-[Contents](guarefmn.html)
+[Contents](./guarefmn)
 
 ------------------------------------------------------------------------
 
-# Argument Referent Sets {#argument-referent-sets align="center"}
+# Argument Referent Sets 
 
 As stated earlier, a predicate word expresses a relation between the
 occupants of its cases, and is defined by a referent set consisting of
@@ -32,7 +32,7 @@ equivalence class), reject the whole equivalence class. For subordinate
 clauses, the same procedure applies except the predicate is from the
 clause and the restricted phrase acts as one of its sub-arguments.
 
-## The Articles {#the-articles align="center"}
+## The Articles 
 
 Here are the articles. There are two articles for each meaning; the
 first unfolds the referent subset so each member is a referent, while
@@ -128,7 +128,7 @@ default, the argument predicate\'s article is used. Otherwise if the
 defaults are unequal and not *\`\`xe\'\'*, the situation is ambiguous
 and the speaker is required to say the article he wants.
 
-## Cartesian Expansion of Arguments {#cartesian-expansion-of-arguments align="center"}
+## Cartesian Expansion of Arguments 
 
 The reason arguments are in a phrase is to select particular events from
 the definition of the phrase predicate. When there are several arguments
@@ -223,7 +223,7 @@ arguments may sound better. Here is an example of prenex arguments:
 >
 > All rats are loved by someone (same without prenex)
 
-[]{#S-conjunction} A conjunction is a pair or list of similar
+[] A conjunction is a pair or list of similar
 grammatical structures which act as if they were one unit. We have seen
 the conjunction word *\`\`fe\'\'* in compound words, but it also works
 with arguments to combine several into one, just as when one argument
@@ -243,7 +243,7 @@ arguments designate multiple referents which are Cartesian multiplied.
 See also [Vocabulary: Conjunctions](vocab1.html#conjunctions) for other
 kinds of conjunctions.
 
-## Miscellany about Arguments {#miscellany-about-arguments align="center"}
+## Miscellany about Arguments 
 
 Formally the articles are described as prefixes, but it makes sense
 semantically to regard them as predicates with two arguments; a full
@@ -268,8 +268,8 @@ number of referents with a numeric predicate, like this:
 
 ------------------------------------------------------------------------
 
-[Next](vocab1.html)
+[Next](./vocab1)
 
-[Previous](pronouns.html)
+[Previous](./pronouns)
 
-[Contents](guarefmn.html)
+[Contents](./guarefmn)

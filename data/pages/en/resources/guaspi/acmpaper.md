@@ -1,10 +1,8 @@
-# *Gua\\spi*, an Artifical Natural Language {#guaspi-an-artifical-natural-language align="center"}
+# *Gua\\spi*, an Artifical Natural Language 
 
-### James F. Carter {#james-f.-carter align="center"}
+### James F. Carter 
 
-::: {align="center"}
 15 September 1991
-:::
 
 > Abstract: *Gua\\spi* is an artificial language suited to both humans
 > and machines. It can express real human conversation. Yet the
@@ -70,7 +68,7 @@ find that the problem is handled adequately. A fuller description of
 *gua\\spi* is available, and a dictionary and teaching materials are in
 preparation \[Ga\].
 
-## Morphology \-\-- What is a Word {#morphology-----what-is-a-word align="center"}
+## Morphology \-\-- What is a Word 
 
 The phonemes (sounds) are divided in two classes, C\'s and V\'s, or
 *kona* and *vumu* in *gua\\spi*. All C\'s are consonants in English and
@@ -190,7 +188,7 @@ w\*
 
 r
 
-> [Table 1 \[Phonemes\].]{#Phonemes} *Gua\\spi* phonemes, arranged by
+> [Table 1 \[Phonemes\].] *Gua\\spi* phonemes, arranged by
 > tongue position front to back (reading across) and sound type (reading
 > down). Letters marked \`\*\' differ from European standard usage.
 
@@ -282,7 +280,7 @@ ng
 
 stroNG
 
-> [Table 2 \[Pronunciation\].]{#Pronunciation} How to pronounce
+> [Table 2 \[Pronunciation\].] How to pronounce
 > *gua\\spi* phonemes. Nonstandard C\'s are shown; C\'s without examples
 > are as in English. Standard radio broadcast accent is close to correct
 > for the V\'s; Spanish is closer. Pronounce the vowels as one sound,
@@ -306,7 +304,7 @@ signals that the syllables are not to be looked up in the dictionary and
 are to be kept together when other compound words are split up during
 organization.
 
-## Grammar by Tones \-\-- How Words Join {#grammar-by-tones-----how-words-join align="center"}
+## Grammar by Tones \-\-- How Words Join 
 
 The grammar is stated in Backus-Naur form in the Appendix. The job of
 grammar is to stick words together into phrases (*zdua*). *Gua\\spi*
@@ -353,7 +351,7 @@ of each word relative to the one before it.
                                       !kfor         ^fe-fnau
                       +1 fork       +0 knife
 
-> [Figure 1 \[Parsetree\].]{#Parsetree} A Sample Parse Tree. Each phrase
+> [Figure 1 \[Parsetree\].] A Sample Parse Tree. Each phrase
 > is part of the most recent one at the next higher level. Each phrase
 > may have sub-phrases. Tone symbols (see Table 3 \[Tones\]) show jumps
 > into and out of sub-phrases; they show the difference in level between
@@ -453,7 +451,7 @@ Transitive
 
 \%
 
-> [Table 3 \[Tones\].]{#Tones} Sounds and interpretations of the tones.
+> [Table 3 \[Tones\].] Sounds and interpretations of the tones.
 > \`\`Level\'\' refers to the parse tree level of the word with that
 > tone, relative to the structure before it. \`\`Type\'\' indicates the
 > organizational type of that word or phrase. The first set of symbols
@@ -477,7 +475,7 @@ level, and *\`\`/fi\'\'* jumps to root level without ending the
 sentence. Other multi-level upjumps are available with *\`\`fu\'\'* but
 are needed rarely.
 
-## Cases \-\-- Members of a Relation {#cases-----members-of-a-relation align="center"}
+## Cases \-\-- Members of a Relation 
 
 The next layer of *gua\\spi* syntax is the organizational level, but to
 understand the reason for some organizations we have to make a detour
@@ -549,7 +547,7 @@ are presented later.
 While English partially segregates nouns and verbs, *gua\\spi* uses the
 same predicate words (*qury*) in both argument and sentence phrases.
 
-### What Definitions Mean {#what-definitions-mean align="center"}
+### What Definitions Mean 
 
 In a dictionary words are defined in one or two sentences, but for
 *gua\\spi* these sentences are considered to be merely a learning aid.
@@ -585,7 +583,7 @@ tractable both for theory and for practical implementation. A *gua\\spi*
 referent set is perfectly suited to be represented as a Prolog database,
 if truncated to a practical size.
 
-### The Interpretation of Language Behavior {#the-interpretation-of-language-behavior align="center"}
+### The Interpretation of Language Behavior 
 
 When you speak an argument in a nonsentence you call the listener\'s
 attention to its referents. For example,
@@ -608,7 +606,7 @@ member which John will want to append to the ones he knows, before the
 cheese is stolen. This is the ultimate meaning of the *gua\\spi*
 sentence.
 
-## The Organizational Syntax Level {#the-organizational-syntax-level align="center"}
+## The Organizational Syntax Level 
 
 Now that we have an unambiguous parse tree made up of phrases, what
 shall we do with it? Modern theories of parsing are very good at
@@ -626,7 +624,7 @@ transformed into a single deep structure, the predicate with its
 arguments, which is a uniform and simple interface into the semantic
 level.
 
-### Which Words Go in Which Cases {#which-words-go-in-which-cases align="center"}
+### Which Words Go in Which Cases 
 
 The tones of grammar deliver to the organizational syntax level, for
 each phrase, an ordered list of attached sub-phrases, which are the
@@ -684,7 +682,7 @@ have been made similar: \`\`X1 (moves) to X2 from X3 via X4\'\' or
 \`\`X1 makes X2 (move) to X3 from X4 via X5\'\'. Many other word
 categories have uniform definitions too.
 
-### Sentences as Arguments \-\-- Infinitives {#sentences-as-arguments-----infinitives align="center"}
+### Sentences as Arguments \-\-- Infinitives 
 
 A *gua\\spi* sentence or argument expresses a relation between specific
 referents, and this specific referent set member is called an
@@ -729,7 +727,7 @@ has none \-\-- *\`\`!tara\'\'* here. So you could just say
 >
 > The rat likes to eat
 
-### Subordinate Clauses {#subordinate-clauses align="center"}
+### Subordinate Clauses 
 
 A subordinate clause is a sentence within a sentence. Its predicate
 relates one (or more) of its internal arguments to the phrase it
@@ -821,7 +819,7 @@ seems more free and expressive with this feature. The other clause
 grammar just for possessives, but *gua\\spi* uses the general clause
 mechanism.
 
-### Pronouns Represent Words, Not Things {#pronouns-represent-words-not-things align="center"}
+### Pronouns Represent Words, Not Things 
 
 The next organizational issue is the pronoun. English pronouns have
 referents just like any other argument. But *gua\\spi* pronouns
@@ -923,7 +921,7 @@ and less precise tense has to be used on every sentence. John
 Parks-Clifford, then with the Loglan Institute, originally developed
 this concept of tense defaults \[TL43\].
 
-### Compound Predicates {#compound-predicates align="center"}
+### Compound Predicates 
 
 A key organizational element of *gua\\spi* is the compound predicate, a
 sequence of words heading a phrase. The motivation to make compounds is
@@ -1020,7 +1018,7 @@ heard before, as long as one knows all the primitive words.
 That is how *gua\\spi* is organized. Let us now turn to the semantics of
 arguments.
 
-## Argument Semantics \-\-- Referent Sets {#argument-semantics-----referent-sets align="center"}
+## Argument Semantics \-\-- Referent Sets 
 
 As stated earlier, a predicate word expresses a relation between the
 occupants of its cases, and is defined by a referent set consisting of
@@ -1092,7 +1090,7 @@ number of referents with a numeric predicate, like this:
 >
 > Please give me two nuts (female screws)
 
-## Vocabulary {#vocabulary align="center"}
+## Vocabulary 
 
 A great deal of the machinery of language, which in natural languages is
 shared between the grammar and the vocabulary, is handled in *gua\\spi*
@@ -1102,7 +1100,7 @@ I have thought that some form or meaning required a new primitive word,
 or even a change in the grammar, but it has turned out that existing
 words were more than adequate if creatively used.
 
-### Word Creation {#word-creation align="center"}
+### Word Creation 
 
 The words of natural languages appear to be arbitrary symbol strings of
 tremendous variety of sound. *Gua\\spi* is similar in that its words
@@ -1149,7 +1147,7 @@ minimal, I think it is fairly close. Thus I chose to use existing word
 lists for *gua\\spi* rather than to try for radical pruning or *de novo*
 creation.
 
-### Modal Cases {#modal-cases align="center"}
+### Modal Cases 
 
 Here are examples of a few modal cases. However, virtually any word can
 be construed as a modal operator. Be alert for creative opportunities
@@ -1187,7 +1185,7 @@ for expression.
 >
 > Bad people *such as* thieves
 
-### Varieties of Negation {#varieties-of-negation align="center"}
+### Varieties of Negation 
 
 In *gua\\spi* negation is not a unitary concept; beside the obvious
 antonyms there are nine or ten ways to express negative meanings, most
@@ -1214,7 +1212,7 @@ of which involve compound words. Here are a few examples.
     the process in its X2 case is occuring in the reverse of the usual
     order.
 
-### Causal Connectives {#causal-connectives align="center"}
+### Causal Connectives 
 
 The root structure of syntax is a discourse, or sequence of sentences.
 But the sentences need not stand alone; they may be connected by
@@ -1235,7 +1233,7 @@ following main word, the causal connective in these examples. Human
 speakers prefer infix causal connectives with a retroactive downjump
 rather than the obvious form with two explicit infinitives.
 
-### Mathematical Expressions {#mathematical-expressions align="center"}
+### Mathematical Expressions 
 
 Any discussion sooner or later involves quantitative statements with
 units of measure. Therefore *gua\\spi* has quite an extensive facility
@@ -1272,7 +1270,7 @@ sentence predicate tells what dimension is being measured. For example,
 >
 > I weigh 70 kilos (I heavy kilo 7 0)
 
-## Sample Text {#sample-text align="center"}
+## Sample Text 
 
 Here is a short passage from a story I am currently translating from
 *Loglan* to *gua\\spi*. If a second human knew *gua\\spi* I would have
@@ -1409,7 +1407,7 @@ relatively unspecialized text, and the componds for \`\`barge\'\' and
 clear that *gua\\spi* is more than just a dry substitute for SQL;
 *gua\\spi* can support real life.
 
-## Conclusion {#conclusion align="center"}
+## Conclusion 
 
 What can one use *gua\\spi* for? Here is a brief list:
 
@@ -1451,7 +1449,7 @@ for modern fifth-generation languages \-\-- which, in fact, those
 languages were designed to represent. Thus the gap between human and
 machine languages is closed by *gua\\spi*.
 
-## Appendix: [*Gua!spi* Grammar]{#grammar} in Backus-Naur Form {#appendix-guaspi-grammar-in-backus-naur-form align="center"}
+## Appendix: [*Gua!spi* Grammar] in Backus-Naur Form 
 
 \`\`Discourse\'\' is the root grameme. Grammar for quoted non-*gua\\spi*
 text is not shown, but foreign predicates and quoted *gua\\spi* are
@@ -1605,7 +1603,7 @@ Sentend
 
 = (Discourse Unit) \| Unit
 
-## Bibliography {#bibliography align="center"}
+## Bibliography 
 
 -   \[L1\] Brown, James C. Loglan 1: A Logical Language. The Loglan
     Institute, Inc., Gainesville, Fla., 1975.

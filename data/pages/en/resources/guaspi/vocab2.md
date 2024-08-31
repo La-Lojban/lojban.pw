@@ -1,19 +1,19 @@
-[Next](conclusn.html)
+[Next](./conclusn)
 
-[Previous](vocab1.html)
+[Previous](./vocab1)
 
-[Contents](guarefmn.html)
+[Contents](./guarefmn)
 
 ------------------------------------------------------------------------
 
-## Mathematical Expressions {#mathematical-expressions align="center"}
+## Mathematical Expressions 
 
 Even uneducated speakers quantify phrases, that is, they say how many or
 how big some phrase is. It turns out that to support just simple
 dimensioned quantities the language has to include a complete facility
 for mathematical expressions.
 
-### Numbers, Expressions and Functions {#numbers-expressions-and-functions align="center"}
+### Numbers, Expressions and Functions 
 
 Cardinal numbers (here exemplified by *\`\`cu\'\'* - set of two) are
 defined as \`\`X1 is a set containing so many members X2\'\'. The
@@ -62,7 +62,7 @@ Functions always deliver their value in the first case and take
 arguments in the second and following cases. For the range and domain of
 a function F, use *\`\`xu -F\'\'* and *\`\`xu -zu -F\'\'* respectively.
 
-### Ordinal Numbers and List Ends {#ordinal-numbers-and-list-ends align="center"}
+### Ordinal Numbers and List Ends 
 
 An ordinal number, cued by the quasidigit *\`\`tr\'\'*, means \`\`X1 is
 N\'th in list (*xy*) X2 starting at X3\'\'. For example:
@@ -111,7 +111,7 @@ Lists are ordered with smaller or negative numbers first, so the
 [Comparative and Superlative](vocab2.html#sym-chief) for a better way to
 do \`\`second smallest\'\' and the like.
 
-### Vectors, Dates and Times {#vectors-dates-and-times align="center"}
+### Vectors, Dates and Times 
 
 You express a vector as a \`\`*stl*-list\'\' of expressions. Units of
 measure applied to a vector multiply each component individually. A
@@ -141,7 +141,7 @@ compounded. The first vector component has that unit, and subsequent
 components are multiplied by sub-units in the order years, months, days,
 hours, minutes, seconds. The default unit is \`\`*jani*-years\'\'.
 
-### Units of Measure {#units-of-measure align="center"}
+### Units of Measure 
 
 Units of measure are defined to multiply a number or other expression by
 the unit. The resulting equivalence class is considered to contain
@@ -207,9 +207,9 @@ Compound units, like ohms, require a product or quotient of several
 units. One may use the personal name units (ohm, volt, pascal, celsius)
 in the same manner as provincial units.
 
-## Quantification and Negation {#quantification-and-negation align="center"}
+## Quantification and Negation 
 
-### Some Important Quantifiers {#some-important-quantifiers align="center"}
+### Some Important Quantifiers 
 
 > *[xa]{.underline} -tara*
 >
@@ -259,7 +259,7 @@ in the same manner as provincial units.
 >
 > *Almost* vertical
 
-### Words for Something {#words-for-something align="center"}
+### Words for Something 
 
 > *\^:i !ji /crw \|bir*
 >
@@ -286,7 +286,7 @@ in the same manner as provincial units.
 >
 > For *anything* in a compact set  . . .
 
-### Nine Varieties of Negation {#nine-varieties-of-negation align="center"}
+### Nine Varieties of Negation 
 
 *\^:i [-sfa]{.underline} !kio !ji \^tara \|zey !ju*
 :   *It is false* that I have your rat. This is the prototype of
@@ -358,7 +358,7 @@ in the same manner as provincial units.
 :   This cheese is *de*solidifying. When a process occurs in the reverse
     of the usual order, \`\`*vry*-reverse\'\' indicates this.
 
-### De Morgan\'s Rules in Quantification {#de-morgans-rules-in-quantification align="center"}
+### De Morgan\'s Rules in Quantification 
 
 Negation interacts with \`\`and\'\' and \`\`or\'\', which necessarily
 occur in sentences which are quantified or whose arguments have multiple
@@ -468,9 +468,9 @@ examples.
     argument referents of any kind, you will also have to reverse the
     type of quantification or conjunction used.
 
-## Sentence Forms {#sentence-forms align="center"}
+## Sentence Forms 
 
-### Moods and Imperatives {#moods-and-imperatives align="center"}
+### Moods and Imperatives 
 
 These are the mood prefixes in *gua\\spi*, which indicate the manner of
 assertion of a phrase. A top level sentence has *\`\`ge\'\'* on it by
@@ -538,7 +538,7 @@ For example,
 >
 > Please be patient.
 
-### Special Features of Infinitives {#special-features-of-infinitives align="center"}
+### Special Features of Infinitives 
 
 In an infinitive the previous argument is replicated by default as the
 infinitive\'s first argument, while the first argument of a subordinate
@@ -568,7 +568,7 @@ example:
 > It watches as Kira bails (drains) the boat with a bucket (infinitive
 > is also asserted)
 
-### [Comparative and Superlative]{#sym-chief} {#comparative-and-superlative align="center"}
+### [Comparative and Superlative] 
 
 Natural languages have various complicated arrangements to change a
 simple property to become comparative or superlative. *Gua\\spi* does it
@@ -610,7 +610,7 @@ superlatives:
 >
 > Sirius is the brightest star except for the Sun
 
-### Causal Sentence Connectives {#causal-sentence-connectives align="center"}
+### Causal Sentence Connectives 
 
 *\^:i !tara /crw !kseo \^:o [-kau]{.underline} !gai -tuol !kseo*
 :   The rat eats the cheese, and that *causes* it to be dirty. A cause
@@ -670,7 +670,7 @@ connect sentences with any useful word having suitable cases. And like
 all *gua\\spi* words, the sentence connectives can also be useful as
 arguments and as modal caselinks.
 
-### Logical Sentence Connectives {#logical-sentence-connectives align="center"}
+### Logical Sentence Connectives 
 
 Old *Loglan* was intended to be a \`\`logical language\'\', thereby to
 differ as much as possible from English. Therefore, one of its key
@@ -699,14 +699,14 @@ connectives:
 > *If* a shape has void boundary *then* it is itself the boundary of
 > something
 
-## Features of Thesaurus Categories {#features-of-thesaurus-categories align="center"}
+## Features of Thesaurus Categories 
 
 The *gua\\spi* words have been put into groups with related meanings,
 for ease of learning and for ease of creation. The dictionary includes a
 thesaurus of these categories. Many categories have closely related
 cases, or certain special features, which are described below.
 
-### Abstract Comparisons {#abstract-comparisons align="center"}
+### Abstract Comparisons 
 
 Many abstract comparisons (1.1.1) and set member words (1.1.3) include a
 dimension on which comparison occurs. In a compound with the dimension
@@ -741,7 +741,7 @@ turn; the predicate means that all the arguments fit in the infinitive
 equally. Normally the predicate of this infinitive is provided by
 compounding, as in the example above.
 
-### Sets {#sets align="center"}
+### Sets 
 
 For several words in category 1.1.2 (sets) of the form \`\`(set) X1 is a
 (whatever)\'\', you can make a compound *\`\`vdr =W\'\'* to get the
@@ -761,7 +761,7 @@ needed. If X2 etc. have multiple referents in extension (which must be
 ordered for *\`\`stl\'\'*), all referents go in the set or list. Five or
 six words have this \`\`as many as needed\'\' argument list.
 
-### Properties {#properties align="center"}
+### Properties 
 
 Noncomparative Properties are distinguished in *Loglan* from the
 Comparative Properties in that it is not useful to say that X is more
@@ -781,7 +781,7 @@ compounds is often backwards from English.
 Timelike Directional Properties (1.5.3): These are the relation words
 for the tense modal case.
 
-### Behaviors {#behaviors align="center"}
+### Behaviors 
 
 Abstract Behaviors(2.1): These have the form \`\`X1 does (vo) X2+1\'\',
 in which X1 is automatically replicated as the first case of the
@@ -825,7 +825,7 @@ compound, as in:
 >
 > I pound on the nail (hammer hit)
 
-### Things and Materials {#things-and-materials align="center"}
+### Things and Materials 
 
 Animals and Plants (3.1): These have just one argument. The animals and
 plants category has been extended to include a primitive for each
@@ -869,7 +869,7 @@ created by X3 and performed by X4\'\'. X2 may be an event or a thing;
 there is no *\`\`vo\'\'* default. X4 is present only on relevant words
 such as \`\`*jiul*-drama\'\'.
 
-### Miscellaneous Categories {#miscellaneous-categories align="center"}
+### Miscellaneous Categories 
 
 Nationalities (4.7.1): *Loglan* has words for nationalities, for the
 languages spoken there, and for the basis money unit of the nation. But
@@ -882,7 +882,7 @@ primitive languages for ethnic members of that culture.
 Business (4.7.3): A number of these words have the form \`\`X1 (sells)
 goods or services X2 to other trader X3 for amount of money (xu) X4\'\'.
 
-## Most Frequent Words {#most-frequent-words align="center"}
+## Most Frequent Words 
 
 So far, the corpus of *gua\\spi* text available for analysis consists of
 3140 words of fiction representing a teenager setting up a small
@@ -1302,8 +1302,8 @@ beginner should be sure to learn.
 
 ------------------------------------------------------------------------
 
-[Next](conclusn.html)
+[Next](./conclusn)
 
-[Previous](vocab1.html)
+[Previous](./vocab1)
 
-[Contents](guarefmn.html)
+[Contents](./guarefmn)

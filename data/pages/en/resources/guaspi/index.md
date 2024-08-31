@@ -1,6 +1,6 @@
-# *Gua\\spi* Index {#guaspi-index align="center"}
+# *Gua\\spi* Index 
 
-### James F. Carter {#james-f.-carter align="center"}
+### James F. Carter 
 
 > Abstract: *Gua\\spi* is an artificial language suited to both humans
 > and machines. It can express real human conversation. Yet the
@@ -9,12 +9,12 @@
 > predicate calculus and hence can be represented and manipulated
 > efficiently and unambiguously by programs (and people).
 
--   [Introduction to *Gua\\spi*](acmpaper.html)
--   [*Gua\\spi* Reference Manual](guarefmn.html)
--   [*Gua\\spi* Dictionary](dictintr.html) (introduction only, with case
+-   [Introduction to *Gua\\spi*](./acmpaper)
+-   [*Gua\\spi* Reference Manual](./guarefmn)
+-   [*Gua\\spi* Dictionary](./dictintr) (introduction only, with case
     merge symbols)
--   [*Gua\\spi* Vocabulary Lookup](xankua.html)
--   [TeX Documents and Miscellaneous Non-HTML Stuff](old.html)
+-   [*Gua\\spi* Vocabulary Lookup](./xankua)
+-   [TeX Documents and Miscellaneous Non-HTML Stuff](./old)
 
 If you would like to modify the vocabulary CGI script for another
 language, use [this link.](xankuacgi.txt)

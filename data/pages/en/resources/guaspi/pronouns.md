@@ -1,12 +1,12 @@
-[Next](semantic.html)
+[Next](./semantic)
 
-[Previous](cases.html)
+[Previous](./cases)
 
-[Contents](guarefmn.html)
+[Contents](./guarefmn)
 
 ------------------------------------------------------------------------
 
-## Pronouns Represent Words, Not Things {#pronouns-represent-words-not-things align="center"}
+## Pronouns Represent Words, Not Things 
 
 The next organizational issue is the pronoun. In English, pronouns have
 referents just like any other argument. But *gua\\spi* pronouns
@@ -30,7 +30,7 @@ Phrases attached to a pronoun replace or supplement phrases in its
 antecedent. In general, if two arguments are given for the same case,
 numbered or modal, it is not an error but the first is ignored.
 
-### Phrase-Relative Pronouns {#phrase-relative-pronouns align="center"}
+### Phrase-Relative Pronouns 
 
 *Gua\\spi* has phrase-relative pronouns, question pronouns, names and
 modal pronouns. Phrase-relative pronouns are for copying neighboring
@@ -80,7 +80,7 @@ pronouns like \`\`it\'\' are common in English, but in *gua\\spi* it is
 easier to redesignate an argument, so phrase-relative pronouns are less
 used in *gua\\spi*.
 
-### Question Pronouns {#question-pronouns align="center"}
+### Question Pronouns 
 
 For question pronouns the listener is supposed to say the antecedent; in
 other words, the speaker provides a sentence and the listener is to fill
@@ -146,7 +146,7 @@ in the blanks. Here are the question pronouns:
 >
 > Yes \-\-- No
 
-### Names {#names align="center"}
+### Names 
 
 In *gua\\spi* a name is a pronoun. A name consists of a predicate
 prefixed by *\`\`qu\'\'*, or *\`\`qo\'\'* for foreign names, which
@@ -182,7 +182,7 @@ therein are already replaced by their antecedents, so that if those
 contained pronouns are later reassigned the name antecedent is
 unchanged.
 
-### Personal Pronouns and Modal Defaults {#personal-pronouns-and-modal-defaults align="center"}
+### Personal Pronouns and Modal Defaults 
 
 Modal cases have a default value which is inserted in each sentence
 lacking explicit words for that case. Let us again use the speaker\'s
@@ -333,7 +333,7 @@ make the sentence imperative. The decoration \`\`*\|vi-pli*-please\'\'
 shows the speaker\'s attitude but does not by itself make the sentence
 imperative.
 
-## Compound Predicates {#compound-predicates align="center"}
+## Compound Predicates 
 
 A key organizational element of *gua\\spi* is the compound word, a
 sequence of predicates and structure words. The first word\'s tone shows
@@ -363,7 +363,7 @@ object is to be taken off and put in its proper case as a sub-phrase.
 Thus one can easily and reliably interpret a compound word that one has
 never heard before, as long as one knows all the primitive words.
 
-### Infinitive Argument {#infinitive-argument align="center"}
+### Infinitive Argument 
 
 There are three main patterns to the compounds. First, if the main word
 has a case with a default linker of *\`\`vo\'\'* or *\`\`bi\'\'* \-\--
@@ -456,7 +456,7 @@ separate word \`\`*fow*-force\'\'.) As shown in the fourth example,
 multiple compounds are common. The expansion of this sentence is also
 shown with all defaults written out in full.
 
-### Shared Argument List {#shared-argument-list align="center"}
+### Shared Argument List 
 
 Second, the words may share an argument list. The effect is as if you
 had made two sentences with the arguments copied into each. This pattern
@@ -519,7 +519,7 @@ Most usually the first and second cases of all the predicates go
 together. For exceptions as in the fourth sentence above the dictionary
 shows which cases merge.
 
-### Object of Transitive Predicate {#object-of-transitive-predicate align="center"}
+### Object of Transitive Predicate 
 
 A third pattern is found in which a transitive main word is followed by
 its object as a compound. It is cued by the tone \`=\'. In this pattern
@@ -561,7 +561,7 @@ if an explicit caselink *\`\`!su\'\'* had been used. For example:
 its referent both drives and flies, like a bird driving a car. This is
 not quite the right meaning.
 
-### [Foreign Words and Metaphors]{#c-foreign} {#foreign-words-and-metaphors align="center"}
+### [Foreign Words and Metaphors] 
 
 The prefixes *\`\`fo\'\'*, *\`\`fn\'\'* and *\`\`qo\'\'* start a foreign
 word, and all subsequent compounded words are part of it. The word must
@@ -643,7 +643,7 @@ unambiguous.
 >
 > Flash
 
-### Special Cases {#special-cases align="center"}
+### Special Cases 
 
 Numbers are a special case in organization. Compounded digits after the
 first build up a multi-digit cardinal number, with a possible sign,
@@ -670,8 +670,8 @@ arguments.
 
 ------------------------------------------------------------------------
 
-[Next](semantic.html)
+[Next](./semantic)
 
-[Previous](cases.html)
+[Previous](./cases)
 
-[Contents](guarefmn.html)
+[Contents](./guarefmn)

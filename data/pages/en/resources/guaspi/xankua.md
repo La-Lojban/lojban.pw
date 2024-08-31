@@ -1,4 +1,4 @@
-# *Gua\\spi* Vocabulary Lookup {#guaspi-vocabulary-lookup align="center"}
+# *Gua\\spi* Vocabulary Lookup 
 
 ------------------------------------------------------------------------
 

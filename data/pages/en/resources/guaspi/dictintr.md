@@ -1,10 +1,8 @@
-# Introduction to the Dictionary {#introduction-to-the-dictionary align="center"}
+# Introduction to the Dictionary 
 
-### James F. Carter {#james-f.-carter align="center"}
+### James F. Carter 
 
-::: {align="center"}
 15 September 1991
-:::
 
 This is the dictionary of the *gua\\spi* language. It is organized into
 three parts in which words are ordered by *gua\\spi* spelling (with
