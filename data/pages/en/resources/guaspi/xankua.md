@@ -1,5 +1,5 @@
 ---
-"title": "Gua\spi Vocabulary"
+"title": "Gua\\spi Vocabulary"
 ---
 
 # Gua\spi Vocabulary
