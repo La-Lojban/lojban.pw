@@ -174,7 +174,7 @@ meta.priority: 1098
             حقٌّ لا شكَّ فيه صَحيح،
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            le jetnu noi na se senpi fi ke&#039;a cu drani
+            lo jetnu noi na se senpi fi ke&#039;a cu drani
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             A truth, which is without doubt, is certain.
@@ -218,7 +218,7 @@ meta.priority: 1098
             cu co&#039;e ra&#039;i le galtu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The higher is from the lower and the lower from the higher,
+            The higher is from the lower and the lower is from the higher,
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
             <table
@@ -270,8 +270,7 @@ meta.priority: 1098
             da fe ce&#039;e ta&#039;i pa te platu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Working wonders from one, as all things were from one by the
-            arrangement of one.
+            Working wonders from one, as all things were from one by one plan.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
             <table
@@ -343,7 +342,7 @@ meta.priority: 1098
             .i patfu ra fa le solri .i mamta ra fa le lunra
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Its father is the Sun, its mother the Moon,
+            Its father is the Sun, its mother is the Moon,
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
             <table
@@ -433,7 +432,8 @@ meta.priority: 1098
             le se zukte
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Father of talismans, keeper of wonders, perfect in powers,
+            Father of the talismans, keeper of the wonders, perfect in the
+            powers,
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
             <table
@@ -533,7 +533,7 @@ meta.priority: 1098
             .i le ralci cu noblymau fe le rufsu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The subtle is more noble than the gross.
+            The subtle is more noble than the coarse.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
             <table
@@ -571,8 +571,8 @@ meta.priority: 1098
             le tsani gi&#039;e ca&#039;o farlu fe le terdi fi le tsani
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            With gentleness and wisdom, it ascends from earth to heaven and
-            descends to earth from heaven.
+            With gentleness and wisdom, it ascends from the earth to the sky and
+            descends to the earth from the sky.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
             <table
@@ -647,7 +647,7 @@ meta.priority: 1098
             .i je fe tu&#039;a ra vlipa fa le galtu .e le dizlo
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            And within it is the power of the higher and the lower.
+            And within it there is a power of the higher and the lower.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
             <table
@@ -687,7 +687,7 @@ meta.priority: 1098
             ki&#039;u bo ca&#039;o rivbi ra fa le manku
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            For with it is the light of lights, thus darkness flees from it.
+            For with it is the light of lights, thus the darkness flees from it.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
             <table
@@ -855,7 +855,7 @@ meta.priority: 1098
             jai te gunka
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            According to the formation of the greater world was this work got
+            According to the formation of the greater world this work got
             formed.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico_glosa___">
