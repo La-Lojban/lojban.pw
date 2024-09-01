@@ -37,7 +37,7 @@ Es ist in folgenden Formaten verfügbar:
 * [HTML in Abschnitten](https://la-lojban.github.io/uncll/uncll-1.2.15/xhtml_section_chunks/) - in HTML-Dateien
 <!-- * [EPUB](https://la-lojban.github.io/uncll/uncll-1.2.15/cll.epub) - als EPUB-Buch -->
 
-[Mehr Infos...](/en/articles/complete-lojban-language)
+[Mehr Infos...](/de/articles/complete-lojban-language)
 
 ## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - ein geschicktes inoffizielles Wörterbuch
 
