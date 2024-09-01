@@ -118,13 +118,10 @@ export default function Header({
   const visibleNavItems = header_.slice(0, visibleItems);
   const hiddenNavItems = header_.slice(visibleItems);
 
-  const color = "deep-orange";
   return (
     <Popover
       as="nav"
-      className={["z-50", `bg-${color}-400`, "shadow-md", "print:hidden"].join(
-        " "
-      )}
+      className="z-50 bg-deep-orange-400 shadow-md print:hidden"
     >
       {({ open }) => (
         <>
@@ -143,23 +140,7 @@ export default function Header({
 
                 <div className="hidden sm:flex ml-5 items-center space-x-3">
                   <select
-                    className={[
-                      "outline-none",
-                      "py-1",
-                      "h-8",
-                      "flex-shrink-0",
-                      `bg-${color}-300`,
-                      "text-gray-100",
-                      "text-base",
-                      "leading-none",
-                      "pl-2",
-                      "rounded",
-                      "shadow-md",
-                      `hover:bg-${color}-200`,
-                      "focus:outline-none",
-                      "flex",
-                      "items-center",
-                    ].join(" ")}
+                    className="outline-none py-1 h-8 flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base leading-none pl-2 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center active:transform active:translate-y-px"
                     onChange={handleLanguageChange}
                     defaultValue={
                       langDict[
@@ -192,25 +173,7 @@ export default function Header({
                       key={item.url}
                       className="mt-auto"
                     >
-                      <button
-                        className={[
-                          "h-8",
-                          "flex-shrink-0",
-                          `bg-${color}-300`,
-                          "text-gray-100",
-                          "text-base",
-                          "leading-none",
-                          "px-4",
-                          "rounded",
-                          "shadow-md",
-                          `hover:bg-${color}-200`,
-                          "focus:outline-none",
-                          "flex",
-                          "items-center",
-                          "relative",
-                          "overflow-hidden",
-                        ].join(" ")}
-                      >
+                      <button className="h-8 flex-shrink-0 bg-deep-orange-300 text-gray-100 text-base leading-none px-4 rounded shadow-md hover:bg-deep-orange-200 focus:outline-none flex items-center relative overflow-hidden active:transform active:translate-y-px transition-transform duration-75">
                         {!!item.foundTitle?.icon && (
                           <div className="absolute flex items-center justify-center text-xl opacity-80 left-1 top-1 bottom-1">
                             {item.foundTitle.icon as string}
@@ -255,18 +218,7 @@ export default function Header({
                     onClick={() => {
                       getClosestHeaderId();
                     }}
-                    className={[
-                      "select-none",
-                      `bg-${color}-400`,
-                      "inline-flex",
-                      "items-center",
-                      "justify-center",
-                      "p-2",
-                      "rounded-md",
-                      "text-white",
-                      `hover:bg-${color}-400`,
-                      "focus:outline-none",
-                    ].join(" ")}
+                    className="select-none bg-deep-orange-400 inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-deep-orange-400 focus:outline-none"
                   >
                     <span className="sr-only">Open main menu</span>
                     {open ? (
@@ -300,13 +252,7 @@ export default function Header({
                         closeXicon();
                         close();
                       }}
-                      className={[
-                        "block",
-                        "border-b",
-                        "last:border-b-0",
-                        `hover:text-${color}-600`,
-                        buttonClass,
-                      ].join(" ")}
+                      className={`block border-b last:border-b-0 hover:text-deep-orange-600 ${buttonClass}`}
                     >
                       {!!item.foundTitle
                         ? (item.foundTitle.name as string)
@@ -334,13 +280,7 @@ export default function Header({
                                 closeXicon();
                                 close();
                               }}
-                              className={[
-                                "block",
-                                "border-b",
-                                `hover:text-${color}-600`,
-                                buttonClass,
-                                `lme-ml-${(item.depth - 2) * 2}`,
-                              ].join(" ")}
+                              className={`block border-b hover:text-deep-orange-600 ${buttonClass} lme-ml-${(item.depth - 2) * 2}`}
                             >
                               {item.name}
                             </Link>
