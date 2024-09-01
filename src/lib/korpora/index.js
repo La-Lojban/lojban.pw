@@ -13,7 +13,8 @@ const MAX_CONCURRENT_TASKS = 10;
 function parseTableCell(cellContent) {
   if (!cellContent) return "";
   const rows = cellContent.split("||");
-  let tableHtml = '<table class="inner-table w-full border-collapse border border-gray-300">';
+  let tableHtml =
+    '<table class="inner-table w-full border-collapse border border-gray-300">';
 
   rows.forEach((row) => {
     const cells = row.split("|");
@@ -29,12 +30,16 @@ function parseTableCell(cellContent) {
 }
 
 if (!process.env.GOOGLE_LOJBAN_CORPUS_DOC_ID) {
-  console.log("generation cancelled, no GOOGLE_LOJBAN_CORPUS_DOC_ID in .env file specified");
+  console.log(
+    "generation cancelled, no GOOGLE_LOJBAN_CORPUS_DOC_ID in .env file specified"
+  );
   process.exit();
 }
 
 if (!process.env.GOOGLE_READONLY_API_KEY) {
-  console.log("generation cancelled, no GOOGLE_READONLY_API_KEY in .env file specified");
+  console.log(
+    "generation cancelled, no GOOGLE_READONLY_API_KEY in .env file specified"
+  );
   process.exit();
 }
 
@@ -42,7 +47,10 @@ const doc = new GoogleSpreadsheet(process.env.GOOGLE_LOJBAN_CORPUS_DOC_ID);
 doc.useApiKey(process.env.GOOGLE_READONLY_API_KEY);
 
 function prettifyGraymatter(str) {
-  return str.replace(/[\r\n]/g, " ").replace(/ {2,}/g, " ").replace(/:/g, "");
+  return str
+    .replace(/[\r\n]/g, " ")
+    .replace(/ {2,}/g, " ")
+    .replace(/:/g, "");
 }
 
 function escapeHtml(text) {
@@ -57,7 +65,10 @@ function escapeHtml(text) {
 }
 
 function cssifyName(text) {
-  return text.replace(/[!\"#$%&'\(\)\*\+,\.\/:;<=>\?\@\[\\\]\^`\{\|\}~\s]/g, "_");
+  return text.replace(
+    /[!\"#$%&'\(\)\*\+,\.\/:;<=>\?\@\[\\\]\^`\{\|\}~\s]/g,
+    "_"
+  );
 }
 
 async function processSheet(sheet, title) {
@@ -69,7 +80,9 @@ async function processSheet(sheet, title) {
     if (cell?.effectiveFormat?.textFormat?.italic) italicizedRows.push(i);
   }
 
-  let langs = meta[0]._sheet.headerValues.filter((lang) => lang.indexOf("!") !== 0);
+  let langs = meta[0]._sheet.headerValues.filter(
+    (lang) => lang.indexOf("!") !== 0
+  );
   let table = [];
   let buttons = [];
   let columns = {};
@@ -119,15 +132,24 @@ async function processSheet(sheet, title) {
   const priority = (columns["lojbo"] ?? []).slice(4).join("\n").length;
   const headers = {};
   allLanguages.forEach((lang) => {
-    const header = prettifyGraymatter(columns[lang]?.[1] ?? columns["glico"]?.[1] ?? title);
-    const author = prettifyGraymatter(columns[lang]?.[2] ?? columns["glico"]?.[2] ?? "");
-    const translatedBy = prettifyGraymatter(columns[lang]?.[3] ?? columns["glico"]?.[3] ?? "");
+    const header = prettifyGraymatter(
+      columns[lang]?.[1] ?? columns["glico"]?.[1] ?? title
+    );
+    const author = prettifyGraymatter(
+      columns[lang]?.[2] ?? columns["glico"]?.[2] ?? ""
+    );
+    const translatedBy = prettifyGraymatter(
+      columns[lang]?.[3] ?? columns["glico"]?.[3] ?? ""
+    );
 
     headers[lang] = {
       header,
       priority,
       author,
-      description: `${author} | ${translatedBy}`.trim().replace(/ -$/, "").trim(),
+      description: `${author} | ${translatedBy}`
+        .trim()
+        .replace(/ -$/, "")
+        .trim(),
     };
   });
 
@@ -144,7 +166,9 @@ async function processSheet(sheet, title) {
     const candidate1Exists = fs.existsSync(candidate1);
     const candidate2Exists = fs.existsSync(candidate2);
     const candidateExists = candidate1Exists || candidate2Exists;
-    const candidatePath = (candidate1Exists ? candidate1 : candidate2Exists ? candidate2 : "").replace(/^\/app\/src\/public/, "");
+    const candidatePath = (
+      candidate1Exists ? candidate1 : candidate2Exists ? candidate2 : ""
+    ).replace(/^\/app\/src\/public/, "");
     if (candidateExists) {
       ogImage = ogImage ?? candidatePath;
       table.push(
@@ -158,7 +182,9 @@ async function processSheet(sheet, title) {
         `
       );
     }
-    table.push(`<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100">`);
+    table.push(
+      `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100">`
+    );
     for (const lang of langs) {
       const l = cssifyName(lang);
 
@@ -177,7 +203,7 @@ async function processSheet(sheet, title) {
             : index < 4 || italicizedRows.includes(parseInt(index) + 1)
               ? "italic text-gray-500 "
               : ""
-        }${languages[lang]?.direction === 'RTL' ? 'text-right' : 'text-left'} align-text-top p-2 column-class-${l}">${cellContent}</td>`
+        }${languages[lang]?.direction === "RTL" ? "text-right" : "text-left"} align-text-top p-2 column-class-${l}">${cellContent}</td>`
       );
     }
     table.push(`</tr>`);
@@ -188,7 +214,16 @@ async function processSheet(sheet, title) {
   return { table, buttons, headers, slug, keywords, ogImage, columns };
 }
 
-async function writeFiles(lang, title, buttons, table, headers, slug, keywords, ogImage) {
+async function writeFiles(
+  lang,
+  title,
+  buttons,
+  table,
+  headers,
+  slug,
+  keywords,
+  ogImage
+) {
   const langedDirectoryRoot = `/app/src/md_pages/${languages[lang].short}`;
   const langedDirectory = `${langedDirectoryRoot}/texts`;
   const filepath = path.join(langedDirectory, title + ".html");
@@ -209,12 +244,24 @@ ${table.join("")}
   const graymatter = [
     { key: "title", value: headers[lang].header ?? headers["glico"].header },
     { key: "meta.type", value: "korpora" },
-    { key: "description", value: headers[lang].description ?? headers["glico"].description },
-    { key: "meta.description", value: headers[lang].description ?? headers["glico"].description },
+    {
+      key: "description",
+      value: headers[lang].description ?? headers["glico"].description,
+    },
+    {
+      key: "meta.description",
+      value: headers[lang].description ?? headers["glico"].description,
+    },
     { key: "meta.keywords", value: keywords },
-    { key: "meta.author", value: headers[lang].author ?? headers["glico"].author },
+    {
+      key: "meta.author",
+      value: headers[lang].author ?? headers["glico"].author,
+    },
     { key: "og:image", value: ogImage },
-    { key: "meta.priority", value: headers[lang].priority ?? headers["glico"].priority },
+    {
+      key: "meta.priority",
+      value: headers[lang].priority ?? headers["glico"].priority,
+    },
   ].filter((el) => el.value !== undefined);
 
   const contentFull = `---
@@ -248,24 +295,33 @@ async function processTitlesInParallel(titles, processFunction) {
   const processedData = await processTitlesInParallel(titles, async (title) => {
     const sheet = doc.sheetsByTitle[title];
     title = title.replace(/^\+/g, "").trim();
-    return processSheet(sheet, title);
+    return { title, data: await processSheet(sheet, title) };
   });
 
   const css = [];
 
-  console.log('generating korpora pages');
-  await processTitlesInParallel(processedData, async (data) => {
+  console.log("generating korpora pages");
+  await processTitlesInParallel(processedData, async ({ title, data }) => {
     const { table, buttons, headers, slug, keywords, ogImage, columns } = data;
 
     for (const lang of allLanguages) {
-      await writeFiles(lang, data.title, buttons, table, headers, slug, keywords, ogImage);
+      await writeFiles(
+        lang,
+        title,
+        buttons,
+        table,
+        headers,
+        slug,
+        keywords,
+        ogImage
+      );
     }
 
-    console.log(`generated "${data.title}" corpus entry`);
+    console.log(`generated "${title}" corpus entry`);
 
     if ((args[0] ?? "").indexOf("fanva") === 0) {
       const translation = await autoSplitNTranslate({
-        title: data.title,
+        title,
         chunkSize: 8,
         text: columns["glico"],
         from: "en",
@@ -274,7 +330,7 @@ async function processTitlesInParallel(titles, processFunction) {
       });
       const translation_file = path.join("/tmp/korpora", slug + ".txt");
       fs.writeFileSync(translation_file, translation);
-      console.log(`translated "${data.title}"`);
+      console.log(`translated "${title}"`);
     }
 
     // Generate CSS
