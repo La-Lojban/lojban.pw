@@ -156,8 +156,7 @@ md-footer-social__link.in-heading {
   @apply hover:text-deep-orange-500;
 }
 a.in-toc.hover,
-a.in-topbar-toc.hover
- {
+a.in-topbar-toc.hover {
   @apply font-bold text-deep-orange-500;
 }
 
@@ -235,7 +234,12 @@ article .first_col table tr td:first-child {
 }
 
 body {
-  font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial,
+  font-family:
+    Roboto,
+    -apple-system,
+    BlinkMacSystemFont,
+    Helvetica,
+    Arial,
     sans-serif;
   font-feature-settings: "kern", "liga";
 }
@@ -375,7 +379,7 @@ article blockquote:has(.naldra) {
   border-left: 3px solid #ff1e1e;
 }
 
-article blockquote  {
+article blockquote {
   @apply flex relative py-4 px-3 mb-1 m-0 bg-gray-100 print:bg-white hover:bg-gray-200 border-0 shadow rounded-sm rounded-l-none;
   border-left: 3px solid #1e90ff;
 }
@@ -388,9 +392,13 @@ article blockquote:before {
 .common + blockquote {
   @apply border-l-0 ml-2;
   --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  box-shadow: -3px 0px 0px 0px #ffa500, -5px 0px 0px 0px #fff,
-    -8px 0px 0px 0px #ffa500, var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  box-shadow:
+    -3px 0px 0px 0px #ffa500,
+    -5px 0px 0px 0px #fff,
+    -8px 0px 0px 0px #ffa500,
+    var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
 }
 
 article blockquote p {
@@ -421,7 +429,6 @@ dd::after {
   content: "\a";
   white-space: pre;
 }
-
 
 article figure {
   @apply print:ml-3 md:ml-3 mt-1 mb-3 print:float-right md:float-right border border-gray-200 bg-gray-100 print:bg-white shadow rounded-sm clear-right w-full print:w-48 md:w-48;
@@ -569,8 +576,11 @@ description {
   display: flex;
   white-space: nowrap;
   text-overflow: ellipsis;
-  box-shadow: 0 0 0 1px rgb(56 136 233), 0 0 0 2px rgb(34 87 213),
-    0 0 0 3px rgb(38 99 224), 0 0 0 4px rgb(25 65 165);
+  box-shadow:
+    0 0 0 1px rgb(56 136 233),
+    0 0 0 2px rgb(34 87 213),
+    0 0 0 3px rgb(38 99 224),
+    0 0 0 4px rgb(25 65 165);
   margin-top: 3px;
 }
 
@@ -622,7 +632,26 @@ div.mermaid > svg foreignObject > div {
 }
 
 @media print {
-  div, blockquote {
+  div,
+  blockquote {
     break-inside: avoid;
   }
+}
+
+.latex {
+  @apply relative inline-block;
+}
+.latex::before,
+.latex::after {
+  @apply absolute text-gray-600;
+  font-size: 1.1em;
+  line-height: 0;
+}
+.latex::before {
+  @apply -left-2 top-0;
+  content: "\201C";
+}
+.latex::after {
+  @apply -right-2 bottom-0;
+  content: "\201D";
 }
