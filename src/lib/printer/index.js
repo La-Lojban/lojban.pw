@@ -4,7 +4,7 @@ const { sluggify } = require("../html-prettifier/slugger");
 const { languages } = require("../../config/locales.json");
 
 const allLanguages = Object.keys(languages);
-const CONCURRENCY_LIMIT = 4;
+const CONCURRENCY_LIMIT = 5;
 
 async function generatePDF(browser, url, shortLang) {
   const page = await browser.newPage();
