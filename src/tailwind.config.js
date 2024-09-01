@@ -6,7 +6,7 @@ module.exports = {
     "./components/**/*.tsx",
     "./lib/**/*.tsx",
   ],
-  safelist: ["bg-deep-orange-300", "bg-deep-orange-400"],
+  safelist: ["bg-brown-300", "bg-brown-400"],
   variants: {
     extend: {
       borderWidth: ["last"],
