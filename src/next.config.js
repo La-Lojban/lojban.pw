@@ -1,4 +1,4 @@
-const redirect = require("./config/redirect.json");
+// const redirect = require("./config/redirect.json");
 const { join } = require("path");
 const md_content = join(process.cwd(), "md_pages");
 

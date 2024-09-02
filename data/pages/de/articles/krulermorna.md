@@ -38,23 +38,23 @@ _la vlipa krulermorna_ ist eine Modifikation von la krulermorna, bei der der Buc
 
 ## Interjektionen gemäß krulerske
 
-|          |           |              |        |
-| -------- | --------- | ------------ | ------ |
-| .ǎ       | .ą        | .ę           | .ǫ     |
-| Wunsch ... | Ich werde | es sollte sein | Autsch\! |
+|            |           |                |            |
+| ---------- | --------- | ---------------| ------     |
+| .ǎ         | .ą        | .ę             | .ǫ         |
+| Wunsch ... | Ich werde | es sollte sein | Autsch\!   |
 
 <div class="first_col">
 
-|     | a               | e                | i                   | o             | u               |
-| --- | --------------- | ---------------- | ------------------- | ------------- | --------------- |
-| .   |                 |                  |                     |               |                 |
-| ɩ   | Ich glaube      | aye\! einverstanden\! | oh je\!             | Respekt       | Ich liebe es     |
-| w   | Entdeckung      | Was für eine Überraschung | hurra\!            | voila\!       | oh du Arme/r   |
-| .a' | Ich höre zu     | Wachsamkeit      | oomph\! (Anstrengung) | Ich hoffe     | hm, ich frage mich... |
-| .e' | du darfst       | komm schon, mach es\! | mach es\!             | bitte, mach es | Ich schlage vor |
-| .i' | ok, ich akzeptiere es | Ich stimme zu\!      | Ich kenne das Gefühl | dank ihm/ihr  | Vertrautheit     |
-| .o' | Stolz           | Nähe             | Gefahr\!            | Geduld        | Entspannung      |
-| .u' | Gewinn          | was für ein Wunder\!  | hahaha\!            | Mut           | Entschuldigung\! |
+|     | a                     | e                         | i                     | o              | u                     |
+| --- | --------------------- | ------------------------- | --------------------- | -------------- | --------------------- |
+| .   |                       |                           |                       |                |                       |
+| ɩ   | Ich glaube            | aye\! einverstanden\!     | oh je\!               | Respekt        | Ich liebe es          |
+| w   | Entdeckung            | Was für eine Überraschung | hurra\!               | voila\!        | oh du Arme/r          |
+| .a' | Ich höre zu           | Wachsamkeit               | oomph\! (Anstrengung) | Ich hoffe      | hm, ich frage mich... |
+| .e' | du darfst             | komm schon, mach es\!     | mach es\!             | bitte, mach es | Ich schlage vor       |
+| .i' | ok, ich akzeptiere es | Ich stimme zu\!           | Ich kenne das Gefühl  | dank ihm/ihr   | Vertrautheit          |
+| .o' | Stolz                 | Nähe                      | Gefahr\!              | Geduld         | Entspannung           |
+| .u' | Gewinn                | was für ein Wunder\!      | hahaha\!              | Mut            | Entschuldigung\!      |
 
 </div>
 
@@ -62,15 +62,15 @@ _la vlipa krulermorna_ ist eine Modifikation von la krulermorna, bei der der Buc
 
 <div class="first_col">
 
-|     | a          | e          | i            | o            | u           | ǎ      | ą      | ę          | ǫ              |
-| --- | ---------- | ---------- | ------------ | ------------ | ----------- | ------ | ------ | ---------- | -------------- |
-| .   |            |            |              |              |             | Wunsch | Absicht | Verpflichtung | Beschwerde/Schmerz |
-| ɩ   | Glaube     | Zustimmung | Angst        | Respekt      | Liebe       |        |        |            |                |
-| w   | Entdeckung | Überraschung | Glück       | Vollendung   | Mitleid     |        |        |            |                |
-| .a' | aufmerksam | Wachsamkeit | Anstrengung  | Hoffnung     | Interesse   |        |        |            |                |
-| .e' | Erlaubnis  | Kompetenz   | Einschränkung | Bitte       | Vorschlag   |        |        |            |                |
-| .i' | Akzeptanz  | Zustimmung  | Zusammengehörigkeit | Wertschätzung | Vertrautheit |        |        |            |                |
-| .o' | Stolz      | Nähe        | Vorsicht     | Geduld       | Entspannung |        |        |            |                |
-| .u' | Gewinn     | Wunder      | Belustigung  | Mut          | Reue        |        |        |            |                |
+| -    | a           | e            | i                   | o             | u            | ǎ           | ą           | ę             | ǫ                    |
+|------|-------------|--------------|---------------------|---------------|--------------|-------------|-------------|---------------|----------------------|
+| .    |             |              |                     |               |              | Wunsch      | Absicht     | Verpflichtung | Beschwerde/Schmerz   |
+| ɩ    | Glaube      | Zustimmung   | Angst               | Respekt       | Liebe        |             |             |               |                      |
+| w    | Entdeckung  | Überraschung | Glück               | Vollendung    | Mitleid      |             |             |               |                      |
+| .a'  | aufmerksam  | Wachsamkeit  | Anstrengung         | Hoffnung      | Interesse    |             |             |               |                      |
+| .e'  | Erlaubnis   | Kompetenz    | Einschränkung       | Bitte         | Vorschlag    |             |             |               |                      |
+| .i'  | Akzeptanz   | Zustimmung   | Zusammengehörigkeit | Wertschätzung | Vertrautheit |             |             |               |                      |
+| .o'  | Stolz       | Nähe         | Vorsicht            | Geduld        | Entspannung  |             |             |               |                      |
+| .u'  | Gewinn      | Wunder       | Belustigung         | Mut           | Reue         |             |             |               |                      |
 
 </div>
