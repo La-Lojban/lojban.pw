@@ -39,7 +39,7 @@ _la vlipa krulermorna_ ist eine Modifikation von la krulermorna, bei der der Buc
 ## Interjektionen gemäß krulerske
 
 |            |           |                |            |
-| ---------- | --------- | ---------------| ------     |
+| ---------- | --------- | -------------- | ---------- |
 | .ǎ         | .ą        | .ę             | .ǫ         |
 | Wunsch ... | Ich werde | es sollte sein | Autsch\!   |
 
