@@ -1,7 +1,6 @@
 import { unified } from "unified";
 import remarkParse from "remark-parse";
 import gfm from "remark-gfm";
-import includeMarkdownPlugin from "./remark-plugins/include";
 import remarkMermaid from "./remark-plugins/mermaid-ssr";
 import rehypeKatex from "rehype-katex";
 import {
