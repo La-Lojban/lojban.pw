@@ -48,9 +48,15 @@ async function processBatch(browser, urls, shortLang) {
 async function printPDF() {
   for (const lang of allLanguages) {
     const shortLang = languages[lang].short;
+    const dirPath = `/app/src/md_pages/${shortLang}/books/`;
+
+    if (!fs.existsSync(dirPath)) {
+      continue;
+    }
+
     try {
       const urls = fs
-        .readdirSync(`/app/src/md_pages/${shortLang}/books/`)
+        .readdirSync(dirPath)
         .filter((i) => i.endsWith(".md"))
         .map((i) => sluggify(i.replace(/.md$/, "")))
         .map((url) => `http://127.0.0.1:3000/${shortLang}/books/${url}`);

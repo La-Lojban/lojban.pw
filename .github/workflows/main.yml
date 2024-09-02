@@ -136,6 +136,7 @@ jobs:
                    -v ${{ github.workspace }}/src:/app/src:Z \
                    -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
                    -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
+                   -v ${{ github.workspace }}/vreji:/vreji \
                    -e CI=true \
                    lojban:latest sh -c "npm run print"
 
@@ -150,6 +151,7 @@ jobs:
                    -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
                    -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
                    -e CI=true \
+                   -v ${{ github.workspace }}/vreji:/vreji \
                    lojban:latest sh -c "touch out/.nojekyll && cp -avr /app/service/DNS/* out/ && cp -avr /vreji out/ && npm run cleanup"
 
     - name: Upload artifact
