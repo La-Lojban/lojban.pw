@@ -76,37 +76,80 @@ jobs:
 
     - name: Install dependencies
       run: |
-        docker run --rm -v ${{ github.workspace }}:/app/src lojban:latest npm ci --prefer-offline
+        docker run --rm -v /output:/app/src/out1 \
+                   -v ${{ github.workspace }}/data/config:/app/src/config:Z \
+                   -v ${{ github.workspace }}/data/pages:/app/src/md_pages:Z \
+                   -v ${{ github.workspace }}/data/assets:/app/src/public/assets:Z \
+                   -v ${{ github.workspace }}/data/DNS:/app/service/DNS:Z \
+                   -v ${{ github.workspace }}/src:/app/src:Z \
+                   -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
+                   -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
+                   -e CI=true \
+                   lojban:latest npm ci --prefer-offline
 
     - name: Install Playwright
       run: |
-        docker run --rm -v ${{ github.workspace }}:/app/src lojban:latest npx playwright install chromium --with-deps
+        docker run --rm -v /output:/app/src/out1 \
+                   -v ${{ github.workspace }}/data/config:/app/src/config:Z \
+                   -v ${{ github.workspace }}/data/pages:/app/src/md_pages:Z \
+                   -v ${{ github.workspace }}/data/assets:/app/src/public/assets:Z \
+                   -v ${{ github.workspace }}/data/DNS:/app/service/DNS:Z \
+                   -v ${{ github.workspace }}/src:/app/src:Z \
+                   -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
+                   -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
+                   -e CI=true \
+                   lojban:latest npx playwright install chromium --with-deps
 
     - name: Run korpora script
       run: |
-        docker run --rm -v ${{ github.workspace }}:/app/src \
+        docker run --rm -v /output:/app/src/out1 \
+                   -v ${{ github.workspace }}/data/config:/app/src/config:Z \
+                   -v ${{ github.workspace }}/data/pages:/app/src/md_pages:Z \
+                   -v ${{ github.workspace }}/data/assets:/app/src/public/assets:Z \
+                   -v ${{ github.workspace }}/data/DNS:/app/service/DNS:Z \
+                   -v ${{ github.workspace }}/src:/app/src:Z \
                    -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
                    -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
+                   -e CI=true \
                    lojban:latest npm run clearup-serve && next telemetry disable && npm run korpora
 
     - name: Build application
       run: |
-        docker run --rm -v ${{ github.workspace }}:/app/src \
+        docker run --rm -v /output:/app/src/out1 \
+                   -v ${{ github.workspace }}/data/config:/app/src/config:Z \
+                   -v ${{ github.workspace }}/data/pages:/app/src/md_pages:Z \
+                   -v ${{ github.workspace }}/data/assets:/app/src/public/assets:Z \
+                   -v ${{ github.workspace }}/data/DNS:/app/service/DNS:Z \
+                   -v ${{ github.workspace }}/src:/app/src:Z \
+                   -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
+                   -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
                    -e CI=true \
                    lojban:latest npm run build-core
 
     - name: Generate print version
       run: |
-        docker run --rm -v ${{ github.workspace }}:/app/src \
-                   lojban:latest npm run print
-
-    - name: Finalize build
-      run: |
-        docker run --rm -v ${{ github.workspace }}:/app/src \
+        docker run --rm -v /output:/app/src/out1 \
                    -v ${{ github.workspace }}/data/config:/app/src/config:Z \
                    -v ${{ github.workspace }}/data/pages:/app/src/md_pages:Z \
                    -v ${{ github.workspace }}/data/assets:/app/src/public/assets:Z \
                    -v ${{ github.workspace }}/data/DNS:/app/service/DNS:Z \
+                   -v ${{ github.workspace }}/src:/app/src:Z \
+                   -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
+                   -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
+                   -e CI=true \
+                   lojban:latest npm run print
+
+    - name: Finalize build
+      run: |
+        docker run --rm -v /output:/app/src/out1 \
+                   -v ${{ github.workspace }}/data/config:/app/src/config:Z \
+                   -v ${{ github.workspace }}/data/pages:/app/src/md_pages:Z \
+                   -v ${{ github.workspace }}/data/assets:/app/src/public/assets:Z \
+                   -v ${{ github.workspace }}/data/DNS:/app/service/DNS:Z \
+                   -v ${{ github.workspace }}/src:/app/src:Z \
+                   -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
+                   -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
+                   -e CI=true \
                    lojban:latest sh -c "touch out/.nojekyll && cp -avr /app/service/DNS/* out/ && cp -avr /vreji out/ && npm run cleanup"
 
     - name: Upload artifact
