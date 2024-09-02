@@ -8,7 +8,7 @@ const { autoSplitNTranslate } = require("./autotranslate");
 const { languages } = require("../../config/locales.json");
 
 const allLanguages = Object.keys(languages);
-const MAX_CONCURRENT_TASKS = 10;
+const MAX_CONCURRENT_TASKS = 20;
 
 function parseTableCell(cellContent) {
   if (!cellContent) return "";
