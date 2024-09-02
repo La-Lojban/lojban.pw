@@ -111,7 +111,7 @@ jobs:
                    -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
                    -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
                    -e CI=true \
-                   lojban:latest npm run clearup-serve && npm run korpora
+                   lojban:latest sh -c "npm run clearup-serve && npm run korpora"
 
     - name: Build application
       run: |
@@ -124,7 +124,7 @@ jobs:
                    -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
                    -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
                    -e CI=true \
-                   lojban:latest npm run build-core
+                   lojban:latest sh -c "npm run build-core"
 
     - name: Generate print version
       run: |
@@ -137,7 +137,7 @@ jobs:
                    -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
                    -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
                    -e CI=true \
-                   lojban:latest npm run print
+                   lojban:latest sh -c "npm run print"
 
     - name: Finalize build
       run: |
