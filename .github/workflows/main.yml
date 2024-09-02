@@ -45,16 +45,42 @@ jobs:
     - name: Cache npm dependencies
       uses: actions/cache@v3
       with:
-        path: ~/.npm
+        path: ${{ github.workspace }}/node_modules
         key: ${{ runner.OS }}-npm-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
           ${{ runner.OS }}-npm-
 
+    - name: Install dependencies
+      run: |
+        docker run --rm -v /output:/app/src/out1 \
+                   -v ${{ github.workspace }}/data/config:/app/src/config:Z \
+                   -v ${{ github.workspace }}/data/pages:/app/src/md_pages:Z \
+                   -v ${{ github.workspace }}/data/assets:/app/src/public/assets:Z \
+                   -v ${{ github.workspace }}/data/DNS:/app/service/DNS:Z \
+                   -v ${{ github.workspace }}/src:/app/src:Z \
+                   -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
+                   -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
+                   -e CI=true \
+                   lojban:latest npm ci --prefer-offline
+
     - name: Cache Playwright browsers
       uses: actions/cache@v3
       with:
-        path: ~/.cache/ms-playwright
+        path: ${{ github.workspace }}/.cache/ms-playwright
         key: ${{ runner.OS }}-playwright-${{ hashFiles('**/package-lock.json') }}
+
+    - name: Install Playwright
+      run: |
+        docker run --rm -v /output:/app/src/out1 \
+                   -v ${{ github.workspace }}/data/config:/app/src/config:Z \
+                   -v ${{ github.workspace }}/data/pages:/app/src/md_pages:Z \
+                   -v ${{ github.workspace }}/data/assets:/app/src/public/assets:Z \
+                   -v ${{ github.workspace }}/data/DNS:/app/service/DNS:Z \
+                   -v ${{ github.workspace }}/src:/app/src:Z \
+                   -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
+                   -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
+                   -e CI=true \
+                   lojban:latest npx playwright install chromium --with-deps
 
     - name: Build Docker image
       uses: docker/build-push-action@v5
@@ -73,32 +99,6 @@ jobs:
       run: |
         rm -rf /tmp/.buildx-cache
         mv /tmp/.buildx-cache-new /tmp/.buildx-cache
-
-    - name: Install dependencies
-      run: |
-        docker run --rm -v /output:/app/src/out1 \
-                   -v ${{ github.workspace }}/data/config:/app/src/config:Z \
-                   -v ${{ github.workspace }}/data/pages:/app/src/md_pages:Z \
-                   -v ${{ github.workspace }}/data/assets:/app/src/public/assets:Z \
-                   -v ${{ github.workspace }}/data/DNS:/app/service/DNS:Z \
-                   -v ${{ github.workspace }}/src:/app/src:Z \
-                   -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
-                   -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
-                   -e CI=true \
-                   lojban:latest npm ci --prefer-offline
-
-    - name: Install Playwright
-      run: |
-        docker run --rm -v /output:/app/src/out1 \
-                   -v ${{ github.workspace }}/data/config:/app/src/config:Z \
-                   -v ${{ github.workspace }}/data/pages:/app/src/md_pages:Z \
-                   -v ${{ github.workspace }}/data/assets:/app/src/public/assets:Z \
-                   -v ${{ github.workspace }}/data/DNS:/app/service/DNS:Z \
-                   -v ${{ github.workspace }}/src:/app/src:Z \
-                   -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
-                   -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
-                   -e CI=true \
-                   lojban:latest npx playwright install chromium --with-deps
 
     - name: Run korpora script
       run: |
