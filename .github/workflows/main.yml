@@ -111,7 +111,7 @@ jobs:
                    -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
                    -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
                    -e CI=true \
-                   lojban:latest npm run clearup-serve && next telemetry disable && npm run korpora
+                   lojban:latest npm run clearup-serve && npm run korpora
 
     - name: Build application
       run: |
