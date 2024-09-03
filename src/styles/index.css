@@ -666,7 +666,7 @@ div.mermaid > svg foreignObject > div {
 }
 
 .color-transition-400 {
-  animation: changeColor400 10s ease-in-out forwards;
+  animation: changeColor400 30s ease-in-out forwards;
 }
 
 @keyframes changeColor300 {
@@ -679,5 +679,5 @@ div.mermaid > svg foreignObject > div {
 }
 
 .color-transition-300 {
-  animation: changeColor300 10s ease-in-out forwards;
+  animation: changeColor300 30s ease-in-out forwards;
 }
