@@ -15,7 +15,7 @@
     "print": "mkdir -p /vreji/uencu && npm run start & sleep 5 && node lib/printer && ./lib/printer/shrink-pdf.sh && npm run clearup-serve",
     "clearup-serve": "lsof -t -i:3000 | xargs --no-run-if-empty kill -9 && next telemetry disable",
     "cleanup": "rm -rf /app/src/md_pages/text",
-    "clean": "rm -rf node_modules && rm -rf .next",
+    "clean": "rm -rf .next",
     "typecheck": "tsc"
   },
   "dependencies": {
