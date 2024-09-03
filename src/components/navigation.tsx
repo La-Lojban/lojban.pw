@@ -32,21 +32,25 @@ const NavigationWidget: React.FC<NavigationWidgetProps> = ({
   if (!isVisible || !currentLanguage) return <></>;
 
   const hasNavigation =
-    prevPage || nextPage || firstSiblingSlug || currentPageNumber !== null;
+    (firstSiblingSlug && firstSiblingSlug !== currentSlug?.join("/")) ||
+    prevPage ||
+    currentPageNumber !== null ||
+    nextPage;
 
   return (
     <div className="fixed bottom-9 right-4 md:right-auto z-50 md:left-1/2 md:transform md:-translate-x-1/2">
       <div className="h-12 flex">
         {hasNavigation && (
           <div className="bg-white rounded-lg shadow-md p-2 flex items-center space-x-4 mr-6 md:mr-12">
-            {firstSiblingSlug && firstSiblingSlug !== currentSlug?.join("/") && (
-              <Link
-                href={"/" + firstSiblingSlug}
-                className="text-brown-400 hover:text-brown-600 transition-colors mr-4"
-              >
-                <FontAwesomeIcon className="w-6" icon={faBackwardFast} />
-              </Link>
-            )}
+            {firstSiblingSlug &&
+              firstSiblingSlug !== currentSlug?.join("/") && (
+                <Link
+                  href={"/" + firstSiblingSlug}
+                  className="text-brown-400 hover:text-brown-600 transition-colors mr-4"
+                >
+                  <FontAwesomeIcon className="w-6" icon={faBackwardFast} />
+                </Link>
+              )}
             {prevPage && (
               <Link
                 href={prevPage}
@@ -55,7 +59,7 @@ const NavigationWidget: React.FC<NavigationWidgetProps> = ({
                 <FontAwesomeIcon className="w-6" icon={faArrowLeft} />
               </Link>
             )}
-            {currentPageNumber && (
+            {currentPageNumber !== null && (
               <span className="text-gray-600">{currentPageNumber}</span>
             )}
             {nextPage && (
