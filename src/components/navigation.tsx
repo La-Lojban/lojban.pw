@@ -23,7 +23,7 @@ const NavigationWidget: React.FC<NavigationWidgetProps> = ({
   firstSiblingSlug,
   prevPage,
   nextPage,
-  currentPageNumber,
+  currentPageNumber = null,
   currentSlug,
   isVisible,
   scrollToTop,
