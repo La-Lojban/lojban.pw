@@ -121,7 +121,8 @@ export default function Header({
   useEffect(() => {
     const timer = setTimeout(() => {
       setUseDeepOrange(false);
-    }, 10000);
+      localStorage.setItem("headerColor", "brown");
+    }, 30000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -134,12 +135,6 @@ export default function Header({
       setUseDeepOrange(true);
     }
   }, []);
-
-  useEffect(() => {
-    if (!useDeepOrange) {
-      localStorage.setItem("headerColor", "brown");
-    }
-  }, [useDeepOrange]);
 
   const getColor = (className: string) => {
     return [undefined, false].includes(useDeepOrange)
