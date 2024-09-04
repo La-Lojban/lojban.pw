@@ -6,7 +6,14 @@ module.exports = {
     "./components/**/*.tsx",
     "./lib/**/*.tsx",
   ],
-  // safelist: ["bg-brown-300", "bg-brown-400"],
+  safelist: [
+    "bg-deep-orange-400",
+    "bg-deep-orange-300",
+    "hover:bg-deep-orange-300",
+    "bg-brown-300",
+    "bg-brown-400",
+    "hover:text-deep-orange-600",
+  ],
   variants: {
     extend: {
       borderWidth: ["last"],
@@ -278,7 +285,7 @@ module.exports = {
         "brown-700": "#5d4037",
         "brown-800": "#4e342e",
         "brown-900": "#3e2723",
-        "russet": "#b14930",
+        russet: "#b14930",
         "russet-50": "#f5dfd8",
         "russet-100": "#ebc0b1",
         "russet-200": "#e0a18a",

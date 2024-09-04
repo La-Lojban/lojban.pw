@@ -655,29 +655,3 @@ div.mermaid > svg foreignObject > div {
   @apply -right-2 bottom-0;
   content: "\201D";
 }
-
-@keyframes changeColor400 {
-  0%, 99% {
-    @apply bg-deep-orange-400;
-  }
-  100% {
-    @apply bg-brown-400;
-  }
-}
-
-.color-transition-400 {
-  animation: changeColor400 30s ease-in-out forwards;
-}
-
-@keyframes changeColor300 {
-  0%, 99% {
-    @apply bg-deep-orange-300;
-  }
-  100% {
-    @apply bg-brown-300;
-  }
-}
-
-.color-transition-300 {
-  animation: changeColor300 30s ease-in-out forwards;
-}
