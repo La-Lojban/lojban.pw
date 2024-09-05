@@ -158,7 +158,7 @@ export default function Header({
                 <div className="flex-shrink-0">
                   <Link href={`/${currentLanguage}/welcome`}>
                     <img
-                      className="logo"
+                      className="logo active:transform active:translate-y-px transition-transform duration-75"
                       src="/assets/pixra/ralju/ralju_lanci.svg"
                       alt="Lojban logo"
                     />
@@ -167,7 +167,7 @@ export default function Header({
 
                 <div className="hidden sm:flex ml-5 items-center space-x-3">
                   <select
-                    className={`outline-none py-1 h-8 flex-shrink-0 ${getColor("bg-deep-orange-300")} ${getColor("hover:bg-deep-orange-200")} text-gray-100 text-base leading-none pl-2 rounded shadow-md focus:outline-none flex items-center active:transform active:translate-y-px`}
+                    className={`outline-none py-1 h-8 flex-shrink-0 ${getColor("bg-deep-orange-300")} ${getColor("hover:bg-deep-orange-200")} text-gray-100 text-base leading-none pl-2 rounded shadow-md focus:outline-none flex items-center active:transform active:translate-y-px transition-transform duration-75`}
                     onChange={handleLanguageChange}
                     defaultValue={
                       langDict[
