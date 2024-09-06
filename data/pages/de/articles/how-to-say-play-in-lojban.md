@@ -1,17 +1,18 @@
 ---
-title: Wie man "play" auf Lojban sagt
-summary: Übersetzungen des englischen Wortes "play" in die logische Sprache Lojban
+title: Wie man "spielen" auf Lojban sagt
+summary: Übersetzungen des deutschen Wortes "spielen" in die logische Sprache Lojban
 ---
-Das englische Verb *to play* hat mehrere Bedeutungen, von denen die häufigsten sind
 
-* to play
+Das deutsche Verb *spielen* hat mehrere Bedeutungen, von denen die häufigsten sind:
+
+* spielen
 	* sich zur Erholung, nicht ernsthaft im Gegensatz zur Arbeit zu betätigen, Spaß haben. *Sie spielten lange.*
 	* an einem Wettbewerb teilnehmen, an einem Spiel teilnehmen. *Sie spielten Fußball.*
 	* eine Rolle spielen (z.B. in Theateraufführungen). *Er spielte Hamlet.*
 	* Musik mit einem Instrument machen. *Er spielte Klavier, zuerst spielte er Chopin, dann spielte er Beethovens Mondscheinsonate.*
 	* ein Gerät zum Ansehen oder Anhören verwenden. *Ich spielte eine DVD.*
 
-Die Lojban-Sprache ist jedoch nicht einfach eine verschlüsselte englische Sprache. Sie kann nicht immer die gleiche Bandbreite an Bedeutungen für ein einzelnes Wort haben wie das Englische. Es gibt normalerweise keine Eins-zu-eins-Entsprechung.
+Die Lojban-Sprache ist jedoch nicht einfach eine verschlüsselte deutsche Sprache. Sie kann nicht immer die gleiche Bandbreite an Bedeutungen für ein einzelnes Wort haben wie das Deutsche. Es gibt normalerweise keine Eins-zu-eins-Entsprechung.
 
 Hier ist eine Liste der vorhandenen offiziellen Wörter mit ihren angepassten Definitionen:
 
@@ -20,7 +21,7 @@ Hier ist eine Liste der vorhandenen offiziellen Wörter mit ihren angepassten De
 * **jivna** - *... konkurriert mit Gegner ... im Wettbewerb ... (Ereignis) um Gewinn/Preis ...*
 	* **.i la .alis. pu jivna le drata nixli le nu vi'i ve'u bajra vau le ka cpacu le jdini** - *Alice konkurrierte mit anderen Mädchen in einem Langstreckenlauf mit einem Geldpreis für den Gewinner.*
 
-Nicht viel. Kein offizielles Wort für Musik spielen, ein Gerät spielen, in einer Theateraufführung spielen. Es gibt jedoch Wörter für verwandte Konzepte, die kombiniert werden können, um die Idee zu vermitteln. Außerdem kann man neue inoffizielle Wörter vorschlagen. Hier ist also die Liste der Bedeutungen des Verbs "to play" mit möglichen Übersetzungen.
+Nicht viel. Kein offizielles Wort für Musik spielen, ein Gerät spielen, in einer Theateraufführung spielen. Es gibt jedoch Wörter für verwandte Konzepte, die kombiniert werden können, um die Idee zu vermitteln. Außerdem kann man neue inoffizielle Wörter vorschlagen. Hier ist also die Liste der Bedeutungen des Verbs "spielen" mit möglichen Übersetzungen.
 
 * *Sie spielten lange.*
 	* **le prenu pu nalgunka se zdile**, wörtlich `Die Leute hatten nicht-arbeitsmäßig Spaß`.
