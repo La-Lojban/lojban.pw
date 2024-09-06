@@ -26,7 +26,7 @@ const PostPreview = ({ post }: Props) => {
       }}
     >
       <div className="inner">
-        <h3 className="break-normal text-gray-800 text-2xl text-center">
+        <h3 className="break-words text-gray-800 text-2xl text-center">
           <Link
             as={`/${slug.join("/")}`}
             href="/[...slug]"
