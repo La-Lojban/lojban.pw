@@ -3,7 +3,18 @@ const fs = require("fs");
 function jsonToMarkdown(json, indent = "") {
   let markdown = "";
 
+  // Add front matter with title
+  if (json["@metadata"]) {
+    markdown += "---\n";
+    for (const [key, value] of Object.entries(json["@metadata"])) {
+      markdown += `${key}: ${value}\n`;
+    }
+    markdown += "---\n\n";
+  }
+
   for (const [key, value] of Object.entries(json)) {
+    if (key === "@metadata") continue; // Skip metadata as it's already in front matter
+
     if (Array.isArray(value)) {
       if (key === "equivalents") {
         markdown += `${indent}- ${key}:\n`;
@@ -30,10 +41,25 @@ function jsonToMarkdown(json, indent = "") {
 
 function markdownToJson(markdown) {
   const lines = markdown.split("\n");
-  const json = {};
+  const json = { "@metadata": {} };
   const stack = [{ obj: json, indent: -1, isArray: false, key: null }];
+  let inFrontMatter = false;
 
   lines.forEach((line) => {
+    if (line.trim() === "---") {
+      inFrontMatter = !inFrontMatter;
+      return;
+    }
+
+    if (inFrontMatter) {
+      const [key, ...valueParts] = line.split(":");
+      const value = valueParts.join(":").trim();
+      if (key && value) {
+        json["@metadata"][key.trim()] = value;
+      }
+      return;
+    }
+
     if (line.trim() === "") return;
 
     const indent = line.search(/\S/);
@@ -119,16 +145,16 @@ function convertExamplesToArrays(obj, parent = null) {
 }
 
 // Read the JSON file
-console.log('Reading cmavo.json...');
-const jsonData = JSON.parse(fs.readFileSync('cmavo.json', 'utf8'));
+// console.log("Reading cmavo.json...");
+// const jsonData = JSON.parse(fs.readFileSync("cmavo.json", "utf8"));
 
-// Convert JSON to Markdown
-console.log('Converting JSON to Markdown...');
-const markdown = jsonToMarkdown(jsonData);
+// // Convert JSON to Markdown
+// console.log("Converting JSON to Markdown...");
+// const markdown = jsonToMarkdown(jsonData);
 
-// Write the Markdown to a file
-console.log('Writing Markdown to !cmavo.md...');
-fs.writeFileSync('!cmavo.md', markdown);
+// // Write the Markdown to a file
+// console.log("Writing Markdown to !cmavo.md...");
+// fs.writeFileSync("!cmavo.md", markdown);
 
 // Read the Markdown file
 console.log("Reading !cmavo.md...");
@@ -142,4 +168,4 @@ const newJsonData = markdownToJson(markdownData);
 console.log("Writing JSON to cmavo.json...");
 fs.writeFileSync("cmavo.json", JSON.stringify(newJsonData, null, 2));
 
-console.log("Conversion completed. Check cmavo.json");
+console.log("Conversion completed. Check cmavo.json and !cmavo.md");
