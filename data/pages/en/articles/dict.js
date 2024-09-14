@@ -1,27 +1,27 @@
-const fs = require('fs');
+const fs = require("fs");
 
-function jsonToMarkdown(json, indent = '') {
-  let markdown = '';
+function jsonToMarkdown(json, indent = "") {
+  let markdown = "";
 
   for (const [key, value] of Object.entries(json)) {
     if (Array.isArray(value)) {
-      if (key === 'equivalents') {
+      if (key === "equivalents") {
         markdown += `${indent}- ${key}:\n`;
-        value.forEach(item => {
+        value.forEach((item) => {
           markdown += `${indent}  - ${item}\n`;
         });
       } else {
         markdown += `${indent}- ${key}:\n`;
         value.forEach((item, index) => {
-          markdown += `${indent}  - ${index+1}:\n`;
-          markdown += jsonToMarkdown(item, indent + '    ');
+          markdown += `${indent}  - ${index + 1}:\n`;
+          markdown += jsonToMarkdown(item, indent + "    ");
         });
       }
-    } else if (typeof value === 'object' && value !== null) {
+    } else if (typeof value === "object" && value !== null) {
       markdown += `${indent}- ${key}:\n`;
-      markdown += jsonToMarkdown(value, indent + '  ');
+      markdown += jsonToMarkdown(value, indent + "  ");
     } else {
-      markdown += `${indent}- ${key}: ${(value)}\n`;
+      markdown += `${indent}- ${key}: ${value}\n`;
     }
   }
 
@@ -29,16 +29,16 @@ function jsonToMarkdown(json, indent = '') {
 }
 
 function markdownToJson(markdown) {
-  const lines = markdown.split('\n');
+  const lines = markdown.split("\n");
   const json = {};
   const stack = [{ obj: json, indent: -1, isArray: false, key: null }];
 
-  lines.forEach(line => {
-    if (line.trim() === '') return;
+  lines.forEach((line) => {
+    if (line.trim() === "") return;
 
     const indent = line.search(/\S/);
-    const [key, ...valueParts] = line.trim().slice(2).split(':');
-    let value = valueParts.join(':').trim();
+    const [key, ...valueParts] = line.trim().slice(2).split(":");
+    let value = valueParts.join(":").trim();
 
     while (stack.length > 1 && indent <= stack[stack.length - 1].indent) {
       stack.pop();
@@ -48,7 +48,7 @@ function markdownToJson(markdown) {
     const parentIsArray = stack[stack.length - 1].isArray;
     const parentKey = stack[stack.length - 1].key;
 
-    if (value === '') {
+    if (value === "") {
       const isArray = false;
       const newObj = {};
       if (parentIsArray) {
@@ -75,30 +75,41 @@ function markdownToJson(markdown) {
     }
   });
 
-  return convertExamplesToArrays(json);
+  return convertExamplesToArrays(json, null);
 }
 
-function convertExamplesToArrays(obj) {
-  if (typeof obj !== 'object' || obj === null) {
+function convertExamplesToArrays(obj, parent = null) {
+  if (typeof obj !== "object" || obj === null) {
     return obj;
   }
 
   if (Array.isArray(obj)) {
-    return obj.map(convertExamplesToArrays);
+    return obj.map((item) => convertExamplesToArrays(item, parent));
   }
 
   const result = {};
   for (const [key, value] of Object.entries(obj)) {
-    if (key === 'examples') continue;
-    if (key === 'equivalents') {
+    if (obj.definitions) {
+      const clone = { ...obj };
+
+      delete clone.definitions;
+      result["definitions"] = [
+        {
+          ...clone,
+          definition: obj.definitions[1].definition,
+          examples: obj.definitions[1].examples
+            ? Object.values(obj.definitions[1].examples).map(
+                convertExamplesToArrays
+              )
+            : undefined,
+        },
+      ];
+      break;
+    }
+
+    if (key === "examples") continue;
+    if (key === "equivalents") {
       result[key] = Object.keys(value);
-    } else if (key === 'definitions') {
-      console.log(obj);
-      result[key] = [{
-        "definition": value['1'].definition,
-        examples: obj.definitions[1].examples ? Object.values(obj.definitions[1].examples).map(convertExamplesToArrays) : undefined
-      }];
-      delete obj.examples;
     } else {
       result[key] = convertExamplesToArrays(value);
     }
@@ -116,19 +127,19 @@ console.log('Converting JSON to Markdown...');
 const markdown = jsonToMarkdown(jsonData);
 
 // Write the Markdown to a file
-console.log('Writing Markdown to cmavo.md...');
+console.log('Writing Markdown to !cmavo.md...');
 fs.writeFileSync('!cmavo.md', markdown);
 
 // Read the Markdown file
-console.log('Reading !cmavo.md...');
-const markdownData = fs.readFileSync('!cmavo.md', 'utf8');
+console.log("Reading !cmavo.md...");
+const markdownData = fs.readFileSync("!cmavo.md", "utf8");
 
 // Convert Markdown back to JSON
-console.log('Converting Markdown back to JSON...');
+console.log("Converting Markdown back to JSON...");
 const newJsonData = markdownToJson(markdownData);
 
 // Write the new JSON to a file
-console.log('Writing JSON to cmavo.json...');
-fs.writeFileSync('cmavo.json', JSON.stringify(newJsonData, null, 2));
+console.log("Writing JSON to cmavo.json...");
+fs.writeFileSync("cmavo.json", JSON.stringify(newJsonData, null, 2));
 
-console.log('Conversion completed. Check cmavo3.json');
+console.log("Conversion completed. Check cmavo.json");

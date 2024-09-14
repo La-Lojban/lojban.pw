@@ -2,7 +2,6 @@
   "KOhA": {
     "constructs": {
       "mi": {
-        "type": "personal pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to the speaker of the utterance. It may encompass the speaker alone or include others whom the speaker represents (e.g., a group or organization). The referent of **mi** can be either an individual or a mass, depending on context.",
@@ -16,7 +15,6 @@
         ]
       },
       "do": {
-        "type": "personal pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to the listener or listeners of the utterance. Similar to **mi**, the referent can be either an individual or a mass, depending on the context.",
@@ -30,7 +28,6 @@
         ]
       },
       "mi'o": {
-        "type": "personal pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to the mass entity formed by the speaker and the listener(s) together and no one else. It always represents a mass, incorporating the properties and characteristics of both individuals.",
@@ -44,7 +41,6 @@
         ]
       },
       "mi'a": {
-        "type": "personal pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to the mass entity formed by the speaker and others, excluding the listener(s). It always represents a mass, encompassing the collective properties and characteristics of the individuals involved.",
@@ -58,7 +54,6 @@
         ]
       },
       "ma'a": {
-        "type": "personal pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to the mass entity formed by the speaker, the listener(s), and any other unspecified individuals. It always represents a mass, encompassing the collective properties and characteristics of all individuals involved.",
@@ -72,7 +67,6 @@
         ]
       },
       "do'o": {
-        "type": "personal pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to the mass entity formed by the listener(s) and others, excluding the speaker. It always represents a mass, encompassing the collective properties and characteristics of the individuals involved.",
@@ -86,7 +80,6 @@
         ]
       },
       "ko": {
-        "type": "personal pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti is equivalent to **do** but is used specifically in commands or imperatives, indicating the listener should take action to make the statement true.",
@@ -100,7 +93,6 @@
         ]
       },
       "ti": {
-        "type": "demonstrative pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to a specific object or location near the speaker, typically something that can be pointed to.",
@@ -114,7 +106,6 @@
         ]
       },
       "ta": {
-        "type": "demonstrative pro-sumti",
         "definitions": [
           {
             "definition": "Similar to **ti**, this pro-sumti refers to a specific object or location, but one that is closer to the listener than the speaker.",
@@ -128,7 +119,6 @@
         ]
       },
       "tu": {
-        "type": "demonstrative pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to a specific object or location that is distant from both the speaker and the listener.",
@@ -142,7 +132,6 @@
         ]
       },
       "di'u": {
-        "type": "utterance pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to the most recently completed utterance in the discourse.",
@@ -156,7 +145,6 @@
         ]
       },
       "de'u": {
-        "type": "utterance pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to an earlier utterance in the discourse, further back than the one referenced by **di'u**."
@@ -164,7 +152,6 @@
         ]
       },
       "da'u": {
-        "type": "utterance pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to a much earlier utterance in the discourse, further back than the one referenced by **de'u**."
@@ -172,7 +159,6 @@
         ]
       },
       "di'e": {
-        "type": "utterance pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to the next utterance in the discourse, the one that will follow the current utterance.",
@@ -186,7 +172,6 @@
         ]
       },
       "de'e": {
-        "type": "utterance pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to a later utterance in the discourse, further ahead than the one referenced by **di'e**."
@@ -194,7 +179,6 @@
         ]
       },
       "da'e": {
-        "type": "utterance pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to a much later utterance in the discourse, further ahead than the one referenced by **de'e**."
@@ -202,7 +186,6 @@
         ]
       },
       "dei": {
-        "type": "utterance pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to the current utterance, the one being spoken or written at the moment.",
@@ -216,7 +199,6 @@
         ]
       },
       "do'i": {
-        "type": "utterance pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to some unspecified utterance within the discourse, without specifying its position or content."
@@ -224,7 +206,6 @@
         ]
       },
       "ko'a": {
-        "type": "assignable pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti can be assigned to any sumti using the cmavo **goi** and then used to refer to that sumti for the remainder of the discourse or until reassigned.",
@@ -238,7 +219,6 @@
         ]
       },
       "ko'e": {
-        "type": "assignable pro-sumti",
         "definitions": [
           {
             "definition": "Similar to **ko'a**, this pro-sumti can be assigned to the second selected sumti using **goi** and later used to refer to that sumti."
@@ -246,7 +226,6 @@
         ]
       },
       "ko'i": {
-        "type": "assignable pro-sumti",
         "definitions": [
           {
             "definition": "Similar to **ko'a**, this pro-sumti can be assigned to the third selected sumti using **goi** and later used to refer to that sumti."
@@ -254,7 +233,6 @@
         ]
       },
       "ko'o": {
-        "type": "assignable pro-sumti",
         "definitions": [
           {
             "definition": "Similar to **ko'a**, this pro-sumti can be assigned to the 4th selected sumti using **goi** and later used to refer to that sumti."
@@ -262,7 +240,6 @@
         ]
       },
       "ko'u": {
-        "type": "assignable pro-sumti",
         "definitions": [
           {
             "definition": "Similar to **ko'a**, this pro-sumti can be assigned to the 5th selected sumti using **goi** and later used to refer to that sumti."
@@ -270,7 +247,6 @@
         ]
       },
       "fo'a": {
-        "type": "assignable pro-sumti",
         "definitions": [
           {
             "definition": "Similar to **ko'a**, this pro-sumti can be assigned to the 6th selected sumti using **goi** and later used to refer to that sumti."
@@ -278,7 +254,6 @@
         ]
       },
       "fo'e": {
-        "type": "assignable pro-sumti",
         "definitions": [
           {
             "definition": "Similar to **ko'a**, this pro-sumti can be assigned to the 7th selected sumti using **goi** and later used to refer to that sumti."
@@ -286,7 +261,6 @@
         ]
       },
       "fo'i": {
-        "type": "assignable pro-sumti",
         "definitions": [
           {
             "definition": "Similar to **ko'a**, this pro-sumti can be assigned to the 8th selected sumti using **goi** and later used to refer to that sumti."
@@ -294,7 +268,6 @@
         ]
       },
       "fo'o": {
-        "type": "assignable pro-sumti",
         "definitions": [
           {
             "definition": "Similar to **ko'a**, this pro-sumti can be assigned to the 9th selected sumti using **goi** and later used to refer to that sumti."
@@ -302,7 +275,6 @@
         ]
       },
       "fo'u": {
-        "type": "assignable pro-sumti",
         "definitions": [
           {
             "definition": "Similar to **ko'a**, this pro-sumti can be assigned to the 10th selected sumti using **goi** and later used to refer to that sumti."
@@ -310,7 +282,6 @@
         ]
       },
       "ri": {
-        "type": "anaphoric pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to the last complete sumti appearing before the **ri**.",
@@ -324,7 +295,6 @@
         ]
       },
       "ra": {
-        "type": "anaphoric pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti repeats a previously used sumti but is more vague than **ri**, requiring the listener to infer the referent from context. It cannot refer to the last complete sumti if **ri** is already used."
@@ -332,7 +302,6 @@
         ]
       },
       "ru": {
-        "type": "anaphoric pro-sumti",
         "definitions": [
           {
             "definition": "Similar to **ra**, this pro-sumti repeats a previously used sumti but with even greater vagueness, referring to a sumti further back in the discourse than **ra**."
@@ -340,7 +309,6 @@
         ]
       },
       "zo'e": {
-        "type": "indefinite pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti represents an unspecified value that would make the bridi true.",
@@ -354,7 +322,6 @@
         ]
       },
       "zu'i": {
-        "type": "indefinite pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti represents the typical value for a given place in the bridi, based on the listener's understanding of the context.",
@@ -368,7 +335,6 @@
         ]
       },
       "zi'o": {
-        "type": "indefinite pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti represents a nonexistent value, indicating the specific place in the selbri is irrelevant to the relationship being expressed.",
@@ -382,7 +348,6 @@
         ]
       },
       "vo'a": {
-        "type": "reflexive pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to the sumti occupying the x1 place of the same bridi.",
@@ -396,7 +361,6 @@
         ]
       },
       "vo'e": {
-        "type": "reflexive pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti refers to the sumti occupying the x2 place of the same bridi.",
@@ -410,7 +374,6 @@
         ]
       },
       "vo'i": {
-        "type": "reflexive pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti functions similarly to **vo'a** and **vo'e** but refers to the sumti occupying the x3 place of the same bridi."
@@ -418,7 +381,6 @@
         ]
       },
       "vo'o": {
-        "type": "reflexive pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti functions similarly to **vo'a** and **vo'e** but refers to the sumti occupying the x4 place of the same bridi."
@@ -426,7 +388,6 @@
         ]
       },
       "vo'u": {
-        "type": "reflexive pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti functions similarly to **vo'a** and **vo'e** but refers to the sumti occupying the x5 place of the same bridi."
@@ -434,7 +395,6 @@
         ]
       },
       "da": {
-        "type": "bound variable pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti acts as a variable within a prenex, typically bound by a quantifier like **ro** (all) or **su'o** (at least one).",
@@ -449,7 +409,6 @@
         ]
       },
       "de": {
-        "type": "bound variable pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti function similarly to **da** but is used for the second bound variable in a prenex."
@@ -457,7 +416,6 @@
         ]
       },
       "di": {
-        "type": "bound variable pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti function similarly to **da** but is used for the third bound variable in a prenex."
@@ -465,7 +423,6 @@
         ]
       },
       "ke'a": {
-        "type": "pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti is used within relative clauses to refer to the sumti to which the clause is attached (the \"relativized sumti\").",
@@ -479,7 +436,6 @@
         ]
       },
       "ma": {
-        "type": "pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti is used to form sumti questions, asking for a sumti to fill the place where **ma** appears.",
@@ -493,7 +449,6 @@
         ]
       },
       "ce'u": {
-        "type": "pro-sumti",
         "definitions": [
           {
             "definition": "This pro-sumti is used within abstraction bridi, particularly with **ka** (property) abstractions, to indicate the sumti whose property is being abstracted.",
@@ -511,7 +466,6 @@
   "NU": {
     "constructs": {
       "nu": {
-        "type": "abstractor",
         "definitions": [
           {
             "definition": "This abstractor forms an event abstraction. It refers to the entire event or state described by the bridi, encapsulating all its aspects and participants as a single entity.",
@@ -523,11 +477,9 @@
               }
             ]
           }
-        ],
-        "place structure": "x1 is an event of (the bridi)"
+        ]
       },
       "ka": {
-        "type": "abstractor",
         "definitions": [
           {
             "definition": "This abstractor forms a property abstraction. It refers to a property or quality possessed by one or more of the sumti (arguments) within the bridi. The specific sumti whose property is being referenced is indicated by the pro-sumti **ce'u** within the abstraction.",
@@ -539,11 +491,9 @@
               }
             ]
           }
-        ],
-        "place structure": "x1 is a property of (the bridi)"
+        ]
       },
       "ni": {
-        "type": "abstractor",
         "definitions": [
           {
             "definition": "This abstractor forms an amount abstraction. It refers to the measurable quantity or degree to which the bridi holds true. It requires a second place to specify the scale or dimension on which the amount is measured.",
@@ -555,11 +505,9 @@
               }
             ]
           }
-        ],
-        "place structure": "x1 is the amount of (the bridi) on scale x2"
+        ]
       },
       "jei": {
-        "type": "abstractor",
         "definitions": [
           {
             "definition": "This abstractor forms a truth-value abstraction. It expresses the degree of truth of the bridi under a specific epistemological framework. The resulting value is a number between 0 (false) and 1 (true), enabling representations of fuzzy logic.",
@@ -570,12 +518,10 @@
               }
             ]
           }
-        ],
-        "place structure": "x1 is the truth value of (the bridi) under epistemology x2"
+        ]
       },
       "li'i": {},
       "si'o": {
-        "type": "abstractor",
         "definitions": [
           {
             "definition": "This abstractor forms a concept abstraction. It refers to a mental image, idea, or concept held in someone's mind, corresponding to the event or state described by the bridi. It requires a second place to specify the mind in which the concept resides.",
@@ -587,11 +533,9 @@
               }
             ]
           }
-        ],
-        "place structure": "x1 is the idea/concept of (the bridi) in the mind of x2"
+        ]
       },
       "du'u": {
-        "type": "abstractor",
         "definitions": [
           {
             "definition": "This abstractor forms a predication abstraction. It refers to the predication or statement itself, as expressed in a particular sentence. It is often used with selbri expressing propositional attitudes like \"knowing\" or \"believing\".",
@@ -603,15 +547,13 @@
               }
             ]
           }
-        ],
-        "place structure": "x1 is the predication (the bridi), expressed in sentence x2"
+        ]
       }
     }
   },
   "LE": {
     "constructs": {
       "le": {
-        "type": "descriptor",
         "definitions": [
           {
             "definition": "The sumti \"le X\" refers to one or more specific things that the speaker has in mind and chooses to describe as X (where X is a selbri), regardless of the actual truth of that description.",
@@ -626,24 +568,9 @@
               }
             ]
           }
-        ],
-        "implicit quantifiers": {
-          "outer": {
-            "ro": {
-              "translation": "all",
-              "comment": "indicating the speaker refers to all of the things they have in mind that fit the description."
-            }
-          },
-          "inner": {
-            "su'o": {
-              "translation": "at least one",
-              "comment": "implying the speaker has at least one specific thing in mind that they are describing as X."
-            }
-          }
-        }
+        ]
       },
       "lo": {
-        "type": "descriptor",
         "definitions": [
           {
             "definition": "The sumti \"lo X\" refers to one or more of all the things that truly are X (where X is a selbri). It asserts the existence of things that actually fit the description. Equivalent to bare selbri without a gadri",
@@ -664,24 +591,9 @@
               }
             ]
           }
-        ],
-        "implicit quantifiers": {
-          "outer": {
-            "su'o": {
-              "translation": "at least one",
-              "comment": "implying there exists at least one thing that truly is X."
-            }
-          },
-          "inner": {
-            "ro": {
-              "translation": "all",
-              "comment": "referring to all the things that truly are X."
-            }
-          }
-        }
+        ]
       },
       "lo'e": {
-        "type": "descriptor",
         "definitions": [
           {
             "definition": "The sumti \"lo'e X\" refers to the typical instance of X, an abstract or imaginary entity that best exemplifies the characteristics of the set of all things that are truly X.",
@@ -693,24 +605,9 @@
               }
             ]
           }
-        ],
-        "implicit quantifiers": {
-          "outer": {
-            "su'o": {
-              "translation": "at least one",
-              "comment": "implying there exists at least one typical instance."
-            }
-          },
-          "inner": {
-            "ro": {
-              "translation": "all",
-              "comment": "encompassing all the characteristics of a typical instance."
-            }
-          }
-        }
+        ]
       },
       "lei": {
-        "type": "descriptor",
         "definitions": [
           {
             "definition": "The sumti \"lei X\" refers to a mass entity formed from one or more specific things that the speaker has in mind and describes as X, regardless of the actual truth of that description.",
@@ -722,24 +619,9 @@
               }
             ]
           }
-        ],
-        "implicit quantifiers": {
-          "outer": {
-            "pisu'o": {
-              "translation": "some part of",
-              "comment": "indicating the speaker refers to some part of the mass."
-            }
-          },
-          "inner": {
-            "su'o": {
-              "translation": "at least one",
-              "comment": "implying the speaker has at least one specific thing in mind that they are describing as X to form the mass."
-            }
-          }
-        }
+        ]
       },
       "loi": {
-        "type": "descriptor",
         "definitions": [
           {
             "definition": "The sumti \"loi X\" refers to some part of the mass entity formed from all the things that truly are X.",
@@ -751,24 +633,9 @@
               }
             ]
           }
-        ],
-        "implicit quantifiers": {
-          "outer": {
-            "pisu'o": {
-              "translation": "some part of",
-              "comment": "indicating reference to some portion of the mass."
-            }
-          },
-          "inner": {
-            "ro": {
-              "translation": "all",
-              "comment": "encompassing all the things that truly are X to form the mass."
-            }
-          }
-        }
+        ]
       },
       "le'i": {
-        "type": "descriptor",
         "definitions": [
           {
             "definition": "The sumti \"le'i X\" refers to the set of all things that the speaker has in mind and describes as X, regardless of the actual truth of that description, treated as a set with its own properties.",
@@ -780,24 +647,9 @@
               }
             ]
           }
-        ],
-        "implicit quantifiers": {
-          "outer": {
-            "piro": {
-              "translation": "the whole of",
-              "comment": "referring to the entire set."
-            }
-          },
-          "inner": {
-            "su'o": {
-              "translation": "at least one",
-              "comment": "implying the speaker has at least one specific thing in mind that they are describing as X to form the set."
-            }
-          }
-        }
+        ]
       },
       "le'e": {
-        "type": "descriptor",
         "definitions": [
           {
             "definition": "The sumti \"le'e X\" refers to the stereotypical instance of X, an abstract or imaginary entity that best exemplifies the characteristics of the set of those things that the speaker has in mind and describes as X.",
@@ -810,29 +662,13 @@
               }
             ]
           }
-        ],
-        "implicit quantifiers": {
-          "outer": {
-            "ro": {
-              "translation": "all",
-              "comment": "encompassing all the characteristics of the stereotypical instance."
-            }
-          },
-          "inner": {
-            "su'o": {
-              "translation": "at least one",
-              "comment": "implying the speaker has at least one specific thing in mind that they are describing as X to form the stereotype."
-            }
-          }
-        }
+        ]
       }
     }
   },
   "BAI": {
     "constructs": {
       "se ba'i": {
-        "type": "modal tag",
-        "source": "se basti",
         "definitions": [
           {
             "definition": "[sumti] ne se ba'i [sumti] = [sumti] instead of [sumti]. Indicates substitution or replacement.",
@@ -846,8 +682,6 @@
         ]
       },
       "bai": {
-        "type": "modal tag",
-        "source": "bapli",
         "definitions": [
           {
             "definition": "[bridi] happens due to the compelling force of [sumti] (the source of compulsion).",
@@ -861,8 +695,6 @@
         ]
       },
       "bau": {
-        "type": "modal tag",
-        "source": "bangu",
         "definitions": [
           {
             "definition": "the concept [bridi] is defined in the language/by means of the language [sumti].",
@@ -876,8 +708,6 @@
         ]
       },
       "be'i": {
-        "type": "modal tag",
-        "source": "benji",
         "definitions": [
           {
             "definition": "[sumti] is sent/transmitted by sender [sumti].",
@@ -891,8 +721,6 @@
         ]
       },
       "ca'i": {
-        "type": "modal tag",
-        "source": "catni",
         "definitions": [
           {
             "definition": "By the authority of [sumti] the event of [bridi] happens.",
@@ -906,8 +734,6 @@
         ]
       },
       "se cau": {
-        "type": "modal tag",
-        "source": "se claxu",
         "definitions": [
           {
             "definition": "Lacking/without property [sumti], the event of [bridi] happens.",
@@ -921,8 +747,6 @@
         ]
       },
       "ci'e": {
-        "type": "modal tag",
-        "source": "ciste",
         "definitions": [
           {
             "definition": "[sumti] ne ci'e [sumti] = rules [sumti] are in the system/context of [sumti]",
@@ -936,8 +760,6 @@
         ]
       },
       "se ci'o": {
-        "type": "modal tag",
-        "source": "cinmo",
         "definitions": [
           {
             "definition": "[sumti] ne se ci'o [sumti] = [sumti] feels emotion described as property [sumti]",
@@ -951,8 +773,6 @@
         ]
       },
       "ci'u": {
-        "type": "modal tag",
-        "source": "ckilu",
         "definitions": [
           {
             "definition": "[bridi] is measured on the scale identified by property [sumti]",
@@ -966,8 +786,6 @@
         ]
       },
       "cu'u": {
-        "type": "modal tag",
-        "source": "cusku",
         "definitions": [
           {
             "definition": "[sumti] ne cu'u [sumti] = [sumti] is expressed/said by [sumti]",
@@ -981,8 +799,6 @@
         ]
       },
       "de'i": {
-        "type": "modal tag",
-        "source": "detri",
         "definitions": [
           {
             "definition": "the event of [bridi] is dated by number [sumti]. If one number is used it is assumed to be the day of a month",
@@ -1000,8 +816,6 @@
         ]
       },
       "se di'o": {
-        "type": "modal tag",
-        "source": "se diklo",
         "definitions": [
           {
             "definition": "[sumti] pe se di'o [sumti] = [sumti] that is at the location/locus [sumti]",
@@ -1015,8 +829,6 @@
         ]
       },
       "do'e": {
-        "type": "modal tag",
-        "source": "co'e",
         "definitions": [
           {
             "definition": "X is vaguely/generally related to Y (where X and Y are sumti).",
@@ -1030,8 +842,6 @@
         ]
       },
       "du'i": {
-        "type": "modal tag",
-        "source": "dunli",
         "definitions": [
           {
             "definition": "[sumti] ne du'i [sumti] = [sumti] as much as/equally to [sumti] (where [bridi] is the standard of comparison).",
@@ -1045,8 +855,6 @@
         ]
       },
       "du'o": {
-        "type": "modal tag",
-        "source": "djuno",
         "definitions": [
           {
             "definition": "[bridi] is true according to the knowledge of [sumti].",
@@ -1060,8 +868,6 @@
         ]
       },
       "fau": {
-        "type": "modal tag",
-        "source": "fasnu",
         "definitions": [
           {
             "definition": "In the event/case of [sumti], the event of [bridi] happens.",
@@ -1075,8 +881,6 @@
         ]
       },
       "fi'e": {
-        "type": "modal tag",
-        "source": "finti",
         "definitions": [
           {
             "definition": "[sumti] ne [sumti] = [sumti] created/invented by [sumti].",
@@ -1090,8 +894,6 @@
         ]
       },
       "ga'a": {
-        "type": "modal tag",
-        "source": "zgana",
         "definitions": [
           {
             "definition": "As observed/seen by [sumti], the event of [bridi] happens",
@@ -1105,8 +907,6 @@
         ]
       },
       "gau": {
-        "type": "modal tag",
-        "source": "gasnu",
         "definitions": [
           {
             "definition": "With [sumti] as the agent/actor, the event of [bridi] happens.",
@@ -1120,8 +920,6 @@
         ]
       },
       "ja'e": {
-        "type": "modal tag",
-        "source": "jalge",
         "definitions": [
           {
             "definition": "As a result/consequence of [sumti], the event of [bridi] happens.",
@@ -1135,8 +933,6 @@
         ]
       },
       "ja'i": {
-        "type": "modal tag",
-        "source": "javni",
         "definitions": [
           {
             "definition": "According to the rule/law [sumti], the event of [bridi] happens.",
@@ -1150,8 +946,6 @@
         ]
       },
       "ji'e": {
-        "type": "modal tag",
-        "source": "jimte",
         "definitions": [
           {
             "definition": "[sumti] ne ji'e [sumti] = [sumti] limited by [sumti] is described in [bridi].",
@@ -1165,8 +959,6 @@
         ]
       },
       "ji'o": {
-        "type": "modal tag",
-        "source": "jitro",
         "definitions": [
           {
             "definition": "[sumti] ne ji'o [sumti] = [sumti] under the direction/control of [sumti] does what [bridi] described.",
@@ -1180,8 +972,6 @@
         ]
       },
       "ji'u": {
-        "type": "modal tag",
-        "source": "jicmu",
         "definitions": [
           {
             "definition": "Based on the assumption/support of X, Y (where X is the assumption and Y is the thing based on it).",
@@ -1195,8 +985,6 @@
         ]
       },
       "kai": {
-        "type": "modal tag",
-        "source": "ckaji",
         "definitions": [
           {
             "definition": "[sumti] pe kai [sumti] = property [sumti] that [sumti] manifests.",
@@ -1210,8 +998,6 @@
         ]
       },
       "se ka'a": {
-        "type": "modal tag",
-        "source": "klama",
         "definitions": [
           {
             "definition": "[sumti] ne se ka'a [sumti] = [sumti] coming to [sumti] does what [bridi] describes.",
@@ -1225,8 +1011,6 @@
         ]
       },
       "se ka'i": {
-        "type": "modal tag",
-        "source": "se krati",
         "definitions": [
           {
             "definition": "[sumti] ne se ka'i [sumti] = [sumti] representing/on behalf of [sumti] does what [bridi] describes.",
@@ -1240,8 +1024,6 @@
         ]
       },
       "ki'i": {
-        "type": "modal tag",
-        "source": "ckini",
         "definitions": [
           {
             "definition": "[sumti] ne ki'i [sumti] = [sumti] that is specifically associated with [sumti].",
@@ -1255,8 +1037,6 @@
         ]
       },
       "ki'u": {
-        "type": "modal tag",
-        "source": "krinu",
         "definitions": [
           {
             "definition": "With the justification/reason of [sumti], [bridi] happens.",
@@ -1270,8 +1050,6 @@
         ]
       },
       "koi": {
-        "type": "modal tag",
-        "source": "korbi",
         "definitions": [
           {
             "definition": "[bridi] is bounded by/has the border [sumti].",
@@ -1285,8 +1063,6 @@
         ]
       },
       "ku'u": {
-        "type": "modal tag",
-        "source": "kulnu",
         "definitions": [
           {
             "definition": "In the culture/society of X, Y (where X is the culture and Y is the thing related to it).",
@@ -1300,8 +1076,6 @@
         ]
       },
       "la'u": {
-        "type": "modal tag",
-        "source": "klani",
         "definitions": [
           {
             "definition": "With the quantity/amount of X, Y (where X is the quantity and Y is the thing quantified).",
@@ -1315,8 +1089,6 @@
         ]
       },
       "le'a": {
-        "type": "modal tag",
-        "source": "klesi",
         "definitions": [
           {
             "definition": "[sumti] ne le'a [sumti] = [sumti] that is in category/cetegorized by [sumti].",
@@ -1330,8 +1102,6 @@
         ]
       },
       "li'e": {
-        "type": "modal tag",
-        "source": "lidne",
         "definitions": [
           {
             "definition": "[sumti] pe li'e [sumti] = [sumti] that is followed by [sumti] in sequence.",
@@ -1345,8 +1115,6 @@
         ]
       },
       "se ma'e": {
-        "type": "modal tag",
-        "source": "se marji",
         "definitions": [
           {
             "definition": "[sumti] ne se ma'e [sumti] = [sumti] made of/composed of material [sumti].",
@@ -1360,8 +1128,6 @@
         ]
       },
       "ma'i": {
-        "type": "modal tag",
-        "source": "manri",
         "definitions": [
           {
             "definition": "[bridi] happens in the reference frame [sumti].",
@@ -1375,8 +1141,6 @@
         ]
       },
       "se mau": {
-        "type": "modal tag",
-        "source": "se zmadu",
         "definitions": [
           {
             "definition": "[sumti] ne se mau [sumti] = [sumti] exceeds [sumti] in what [bridi] describes.",
@@ -1390,8 +1154,6 @@
         ]
       },
       "se me'a": {
-        "type": "modal tag",
-        "source": "se mleca",
         "definitions": [
           {
             "definition": "[sumti] ne se me'a [sumti] = [sumti] is less than [sumti] in what [bridi] describes.",
@@ -1405,8 +1167,6 @@
         ]
       },
       "me'e": {
-        "type": "modal tag",
-        "source": "cmene",
         "definitions": [
           {
             "definition": "[sumti] ne me'e [sumti] = [sumti] named as [sumti] (quotation)",
@@ -1420,8 +1180,6 @@
         ]
       },
       "mu'i": {
-        "type": "modal tag",
-        "source": "mukti",
         "definitions": [
           {
             "definition": "Motivated by/having the motive of [sumti] the event of [bridi] happens",
@@ -1435,8 +1193,6 @@
         ]
       },
       "mu'u": {
-        "type": "modal tag",
-        "source": "mupli",
         "definitions": [
           {
             "definition": "[sumti] ne mu'u [sumti] = property [sumti] exemplified by [sumti].",
@@ -1450,8 +1206,6 @@
         ]
       },
       "ni'i": {
-        "type": "modal tag",
-        "source": "nibli",
         "definitions": [
           {
             "definition": "Logically entailed by/because of X, Y (where X is the premise and Y is the conclusion).",
@@ -1465,8 +1219,6 @@
         ]
       },
       "pa'a": {
-        "type": "modal tag",
-        "source": "panra",
         "definitions": [
           {
             "definition": "In addition to/as well as X, Y (where X and Y are sumti).",
@@ -1480,8 +1232,6 @@
         ]
       },
       "pa'u": {
-        "type": "modal tag",
-        "source": "pagbu",
         "definitions": [
           {
             "definition": "With component/part X, Y (where X is the part and Y is the whole).",
@@ -1495,8 +1245,6 @@
         ]
       },
       "pi'o": {
-        "type": "modal tag",
-        "source": "pilno",
         "definitions": [
           {
             "definition": "Used by X, for the purpose of Y, Z (where X is the user, Y is the purpose, and Z is the tool).",
@@ -1510,8 +1258,6 @@
         ]
       },
       "po'i": {
-        "type": "modal tag",
-        "source": "porsi",
         "definitions": [
           {
             "definition": "In the sequence/order of X, Y (where X is the sequence and Y is the thing sequenced).",
@@ -1525,8 +1271,6 @@
         ]
       },
       "pu'a": {
-        "type": "modal tag",
-        "source": "pluka",
         "definitions": [
           {
             "definition": "In order to please X, Y (where X is the one pleased and Y is the action done to please them).",
@@ -1540,8 +1284,6 @@
         ]
       },
       "pu'e": {
-        "type": "modal tag",
-        "source": "pruce",
         "definitions": [
           {
             "definition": "By the process/method of X, from Y to Z, passing through stages W, [something] is ... (where X is the process, Y is the origin, Z is the destination, and W are the stages).",
@@ -1555,8 +1297,6 @@
         ]
       },
       "ra'a": {
-        "type": "modal tag",
-        "source": "srana",
         "definitions": [
           {
             "definition": "Pertaining to/concerning X, Y (where X is the topic and Y is the thing related to it).",
@@ -1570,8 +1310,6 @@
         ]
       },
       "ra'i": {
-        "type": "modal tag",
-        "source": "krasi",
         "definitions": [
           {
             "definition": "From the source/origin of X, Y (where X is the source and Y is the thing originating there).",
@@ -1585,8 +1323,6 @@
         ]
       },
       "rai": {
-        "type": "modal tag",
-        "source": "traji",
         "definitions": [
           {
             "definition": "With the superlative/extremum of X, being the Y-est among the set Z, [something] does/is ... (where X is the property, Y is the extremum type, and Z is the set).",
@@ -1600,8 +1336,6 @@
         ]
       },
       "ri'a": {
-        "type": "modal tag",
-        "source": "rinka",
         "definitions": [
           {
             "definition": "Caused by/with the physical cause of X, Y (where X is the cause and Y is the effect).",
@@ -1615,8 +1349,6 @@
         ]
       },
       "ri'i": {
-        "type": "modal tag",
-        "source": "lifri",
         "definitions": [
           {
             "definition": "Experienced by X, Y (where X is the experiencer and Y is the experience).",
@@ -1630,8 +1362,6 @@
         ]
       },
       "sau": {
-        "type": "modal tag",
-        "source": "sarcu",
         "definitions": [
           {
             "definition": "Necessarily/required by X, under conditions Y, Z (where X is the thing requiring, Y are the conditions, and Z is the thing required).",
@@ -1645,8 +1375,6 @@
         ]
       },
       "si'u": {
-        "type": "modal tag",
-        "source": "sidju",
         "definitions": [
           {
             "definition": "Aided by/with the assistance of X, Y (where X is the helper and Y is the thing helped).",
@@ -1660,8 +1388,6 @@
         ]
       },
       "ta'i": {
-        "type": "modal tag",
-        "source": "tadji",
         "definitions": [
           {
             "definition": "By the method/technique of X, Y (where X is the method and Y is the thing done by it).",
@@ -1675,8 +1401,6 @@
         ]
       },
       "tai": {
-        "type": "modal tag",
-        "source": "tamsmi",
         "definitions": [
           {
             "definition": "With the form/shape of X, similar to Y, in the property/quality of Z, [something] does/is ... (where X is the form, Y is the thing it is similar to, and Z is the property).",
@@ -1690,8 +1414,6 @@
         ]
       },
       "te'i": {
-        "type": "modal tag",
-        "source": "stidi",
         "definitions": [
           {
             "definition": "Suggested/proposed by X, to Y, Z (where X is the suggester, Y is the audience, and Z is the suggestion).",
@@ -1705,8 +1427,6 @@
         ]
       },
       "ti'i": {
-        "type": "modal tag",
-        "source": "stidi",
         "definitions": [
           {
             "definition": "Suggested to X, Y (where X is the recipient of the suggestion and Y is the suggestion).",
@@ -1720,8 +1440,6 @@
         ]
       },
       "ti'u": {
-        "type": "modal tag",
-        "source": "tcika",
         "definitions": [
           {
             "definition": "At the time/during the time of X, Y (where X is the time and Y is the thing happening then).",
@@ -1735,8 +1453,6 @@
         ]
       },
       "tu'i": {
-        "type": "modal tag",
-        "source": "stuzi",
         "definitions": [
           {
             "definition": "At the location/site of X, Y (where X is the location and Y is the thing located there).",
@@ -1750,8 +1466,6 @@
         ]
       },
       "va'o": {
-        "type": "modal tag",
-        "source": "vanbi",
         "definitions": [
           {
             "definition": "Under the conditions/circumstances of X, Y (where X are the conditions and Y is the thing conditioned).",
@@ -1765,8 +1479,6 @@
         ]
       },
       "va'u": {
-        "type": "modal tag",
-        "source": "xamgu",
         "definitions": [
           {
             "definition": "Benefiting X, Y (where X is the beneficiary and Y is the action that benefits them).",
@@ -1780,8 +1492,6 @@
         ]
       },
       "zau": {
-        "type": "modal tag",
-        "source": "zanru",
         "definitions": [
           {
             "definition": "Approved by/with the approval of X, Y (where X is the approver and Y is the thing approved).",
@@ -1795,8 +1505,6 @@
         ]
       },
       "zu'e": {
-        "type": "modal tag",
-        "source": "zukte",
         "definitions": [
           {
             "definition": "With the goal/purpose/intention of X, by means of Y, Z (where X is the goal, Y is the means, and Z is the actor/action).",
@@ -1832,7 +1540,6 @@
   "UI": {
     "constructs": {
       "ki'a": {
-        "type": "indicator",
         "definitions": [
           {
             "definition": "Metalinguistic confusion",
@@ -1859,7 +1566,6 @@
         ]
       },
       "jo'a": {
-        "type": "indicator",
         "definitions": [
           {
             "definition": "Metalinguistic affirmation",
@@ -1873,7 +1579,6 @@
         ]
       },
       "xu": {
-        "type": "indicator",
         "definitions": [
           {
             "definition": "Truth question marker",
@@ -1887,7 +1592,6 @@
         ]
       },
       "pau": {
-        "type": "indicator",
         "definitions": [
           {
             "definition": "Question pre-marker",
@@ -1901,7 +1605,6 @@
         ]
       },
       "paunai": {
-        "type": "indicator",
         "definitions": [
           {
             "definition": "Indicates rhetorical question"
@@ -1909,7 +1612,6 @@
         ]
       },
       "pe'a": {
-        "type": "indicator",
         "definitions": [
           {
             "definition": "Figurative language marker",
@@ -1924,7 +1626,6 @@
         ]
       },
       "pe'anai": {
-        "type": "indicator",
         "definitions": [
           {
             "definition": "Literal language marker"
@@ -1932,7 +1633,6 @@
         ]
       },
       ".ua": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Discovery/Confusion: Expresses the feeling of suddenly finding or understanding something previously unknown or unclear, or conversely, the feeling of being perplexed or lost.",
@@ -1948,7 +1648,6 @@
         ]
       },
       ".uanai": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Confusion: Expresses the feeling of being lost, perplexed, or unable to understand something."
@@ -1956,7 +1655,6 @@
         ]
       },
       ".u'a": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Gain/Loss: Expresses the feeling of acquiring or achieving something desirable, or conversely, the feeling of losing something of value.",
@@ -1972,7 +1670,6 @@
         ]
       },
       ".u'anai": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Loss: Expresses the feeling of losing something valuable, experiencing a setback, or missing out on something desirable."
@@ -1980,7 +1677,6 @@
         ]
       },
       ".ue": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Surprise/Expectation: Expresses the feeling of astonishment, wonder, or unexpectedness, or conversely, the feeling of something being unsurprising or anticipated.",
@@ -2020,7 +1716,6 @@
         ]
       },
       ".u'e": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Wonder/Commonplace: Expresses the feeling of amazement, curiosity, or fascination, or conversely, the feeling of something being ordinary or mundane."
@@ -2028,7 +1723,6 @@
         ]
       },
       ".ui": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Happiness/Unhappiness: Expresses the feeling of joy, contentment, or pleasure, or conversely, the feeling of sadness, dissatisfaction, or displeasure.",
@@ -2051,7 +1745,6 @@
         ]
       },
       ".u'i": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Amusement/Weariness: Expresses the feeling of being entertained or finding something funny, or conversely, the feeling of being bored or tired."
@@ -2066,7 +1759,6 @@
         ]
       },
       ".uo": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Completion/Incompleteness: Expresses the feeling of having finished something, reaching a goal, or achieving closure, or conversely, the feeling of something being unfinished or incomplete.",
@@ -2089,7 +1781,6 @@
         ]
       },
       ".u'o": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Courage/Timidity: Expresses the feeling of bravery, confidence, or boldness, or conversely, the feeling of fearfulness, shyness, or cowardice."
@@ -2104,7 +1795,6 @@
         ]
       },
       ".uu": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Pity/Cruelty: Expresses the feeling of compassion, sympathy, or sorrow for someone else's misfortune, or conversely, the feeling of ruthlessness, heartlessness, or pleasure in someone else's suffering.",
@@ -2127,7 +1817,6 @@
         ]
       },
       ".u'u": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Repentance/Innocence: Expresses the feeling of remorse, regret, or guilt for one's actions, or conversely, the feeling of being blameless or without regret.",
@@ -2150,7 +1839,6 @@
         ]
       },
       ".o'a": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Pride/Shame: Expresses the feeling of satisfaction, self-respect, or accomplishment, or conversely, the feeling of humiliation, guilt, or embarrassment."
@@ -2158,7 +1846,6 @@
         ]
       },
       ".o'e": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Closeness/Distance: Expresses the feeling of intimacy, connection, or warmth toward someone or something, or conversely, the feeling of detachment, separation, or coldness."
@@ -2166,7 +1853,6 @@
         ]
       },
       ".oi": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Complaint/Pleasure: Expresses the feeling of pain, discomfort, or displeasure, or conversely, the feeling of enjoyment, satisfaction, or pleasure.",
@@ -2193,7 +1879,6 @@
         ]
       },
       ".o'i": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Caution/Rashness: Expresses the feeling of being careful, hesitant, or wary, or conversely, the feeling of being reckless, impulsive, or daring.",
@@ -2207,7 +1892,6 @@
         ]
       },
       ".o'o": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Patience/Anger: Expresses the feeling of being able to wait calmly or endure delays, or conversely, the feeling of irritation, frustration, or rage."
@@ -2215,7 +1899,6 @@
         ]
       },
       ".o'u": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Relaxation/Stress: Expresses the feeling of being calm, peaceful, or at ease, or conversely, the feeling of being tense, anxious, or under pressure.",
@@ -2229,7 +1912,6 @@
         ]
       },
       ".ii": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Fear/Security: Expresses the feeling of fright, anxiety, or apprehension, or conversely, the feeling of safety, confidence, or peace of mind.",
@@ -2244,7 +1926,6 @@
         ]
       },
       ".i'i": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Togetherness/Privacy: Expresses the feeling of wanting to be with others or be part of a group, or conversely, the feeling of wanting to be alone or have privacy."
@@ -2252,7 +1933,6 @@
         ]
       },
       ".io": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Respect/Disrespect: Expresses the feeling of admiration, esteem, or deference, or conversely, the feeling of contempt, disdain, or disregard.",
@@ -2266,7 +1946,6 @@
         ]
       },
       ".i'o": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Appreciation/Envy: Expresses the feeling of gratitude, thankfulness, or recognition of value, or conversely, the feeling of resentment or covetousness toward someone else's possessions or qualities."
@@ -2274,7 +1953,6 @@
         ]
       },
       ".iu": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Love/Hate: Expresses the feeling of affection, fondness, or deep care for someone or something, or conversely, the feeling of dislike, aversion, or animosity.",
@@ -2288,7 +1966,6 @@
         ]
       },
       ".i'u": {
-        "type": "simple emotion indicator",
         "definitions": [
           {
             "definition": "Familiarity/Mystery: Expresses the feeling of knowing something well or being comfortable with it, or conversely, the feeling of something being unknown, strange, or enigmatic."
@@ -2628,8 +2305,7 @@
           {
             "definition": "Expectation: Indicates the speaker's anticipation or expectation of a future event."
           }
-        ],
-        "notes": "The scale \"Expectation/Experience/Memory\" expresses the speaker's relationship to the timeline of an event."
+        ]
       },
       "ba'acu'i": {
         "definitions": [
@@ -2657,8 +2333,7 @@
           {
             "definition": "Generalization: Indicates that the speaker is making a general statement or drawing a conclusion based on a pattern or a set of examples. It's similar to saying \"generally\" or \"as a rule\" in English."
           }
-        ],
-        "notes": "Generalization/Particularization: Expresses the speaker's approach to formulating the statement. su'a can also be used as a discursive with slightly different meanings: \"abstractly\" for su'a and \"concretely\" or \"in particular\" for su'anai."
+        ]
       },
       "su'anai": {
         "definitions": [
@@ -2751,7 +2426,6 @@
         ]
       },
       "ku'i": {
-        "type": "Commentary on Discourse",
         "definitions": [
           {
             "definition": "However/But/In contrast - Signals a contrast or exception to the previous statement or argument. It indicates a shift in direction or a change of perspective.",
@@ -2766,7 +2440,6 @@
         ]
       },
       "ji'a": {
-        "type": "Commentary on Discourse",
         "definitions": [
           {
             "definition": "Additionally/Furthermore - Adds weight or provides further support to the previous statement or argument. It indicates a continuation or strengthening of the current line of thought.",
@@ -2781,7 +2454,6 @@
         ]
       },
       "si'a": {
-        "type": "Commentary on Discourse",
         "definitions": [
           {
             "definition": "Similarly/Likewise - Indicates that the following statement is similar or analogous to the previous one. It suggests a parallel or comparison between two ideas."
@@ -2789,7 +2461,6 @@
         ]
       },
       "mi'u": {
-        "type": "Commentary on Discourse",
         "definitions": [
           {
             "definition": "Ditto - Repeats the previous statement or idea, often used in lists or tables to avoid redundancy."
@@ -2797,7 +2468,6 @@
         ]
       },
       "po'o": {
-        "type": "Commentary on Discourse",
         "definitions": [
           {
             "definition": "Uniquely/Only - Indicates that the associated statement is the only relevant or true case. It excludes other possibilities and emphasizes exclusivity.",
@@ -2811,7 +2481,6 @@
         ]
       },
       "va'i": {
-        "type": "Commentary on Words",
         "definitions": [
           {
             "definition": "In other words/Rephrasing - Signals a rephrasing or clarification of the previous statement using different words but retaining the same meaning.",
@@ -2825,7 +2494,6 @@
         ]
       },
       "va'inai": {
-        "type": "Commentary on Words",
         "definitions": [
           {
             "definition": "Repeating: Indicates that the same idea is being repeated using the same words."
@@ -2833,7 +2501,6 @@
         ]
       },
       "ta'u": {
-        "type": "Commentary on Words",
         "definitions": [
           {
             "definition": "Expanding a tanru/Making a tanru - Indicates a shift between a concise but potentially ambiguous tanru and its more elaborate and explicit explanation."
@@ -2841,7 +2508,6 @@
         ]
       },
       "ta'unai": {
-        "type": "Commentary on Words",
         "definitions": [
           {
             "definition": "Making a tanru: Signals the opposite process, where a detailed explanation is being condensed into a shorter tanru."
@@ -2849,7 +2515,6 @@
         ]
       },
       "ju'o": {
-        "type": "Commentary on Knowledge",
         "definitions": [
           {
             "definition": "Certainly/Uncertain - Expresses the speaker's degree of certainty or uncertainty about the truth of the associated statement."
@@ -2857,7 +2522,6 @@
         ]
       },
       "ju'onai": {
-        "type": "Commentary on Knowledge",
         "definitions": [
           {
             "definition": "Uncertainty: Indicates a lack of certainty or doubt about the truth of the statement."
@@ -2865,7 +2529,6 @@
         ]
       },
       "la'a": {
-        "type": "Commentary on Knowledge",
         "definitions": [
           {
             "definition": "Probably/Improbably - Expresses the speaker's assessment of the likelihood or probability of the associated statement being true."
@@ -2873,7 +2536,6 @@
         ]
       },
       "la'anai": {
-        "type": "Commentary on Knowledge",
         "definitions": [
           {
             "definition": "Improbably: Indicates that the statement is unlikely or improbable."
@@ -2881,7 +2543,6 @@
         ]
       },
       "ta'o": {
-        "type": "Discourse Management",
         "definitions": [
           {
             "definition": "By the way/Returning to point - Signals a digression or aside, often followed by a return to the main topic of discussion.",
@@ -2895,7 +2556,6 @@
         ]
       },
       "ta'onai": {
-        "type": "Discourse Management",
         "definitions": [
           {
             "definition": "Returning to point: Indicates a return to the main topic after a digression."
@@ -2903,7 +2563,6 @@
         ]
       },
       "ra'u": {
-        "type": "Discourse Management",
         "definitions": [
           {
             "definition": "Chiefly/Equally/Incidentally - Indicates the relative importance of the associated statement within the discourse."
@@ -2911,7 +2570,6 @@
         ]
       },
       "ra'ucu'i": {
-        "type": "Discourse Management",
         "definitions": [
           {
             "definition": "Equally: Suggests that the statement is of equal importance to other points in the discourse."
@@ -2919,7 +2577,6 @@
         ]
       },
       "ra'unai": {
-        "type": "Discourse Management",
         "definitions": [
           {
             "definition": "Incidentally: Indicates that the statement is of lesser importance or is a side point."
@@ -2927,7 +2584,6 @@
         ]
       },
       "mu'a": {
-        "type": "Discourse Management",
         "definitions": [
           {
             "definition": "For example/Omitting examples/End examples - Introduces examples, signals that examples are being omitted, or marks the end of a series of examples."
@@ -2935,7 +2591,6 @@
         ]
       },
       "zu'u": {
-        "type": "Discourse Management",
         "definitions": [
           {
             "definition": "On the one hand/On the other hand - Presents contrasting viewpoints or alternatives within the discourse."
@@ -2943,7 +2598,6 @@
         ]
       },
       "ke'u": {
-        "type": "Discourse Management",
         "definitions": [
           {
             "definition": "Repeating/Continuing - Indicates that the same idea will be expressed using different words or that the discourse will continue along the same line of thought."
@@ -2951,7 +2605,6 @@
         ]
       },
       "ke'unai": {
-        "type": "Discourse Management",
         "definitions": [
           {
             "definition": "Furthermore: Signals that the content is new and the discourse is moving on to a different idea."
@@ -2959,7 +2612,6 @@
         ]
       },
       "da'i": {
-        "type": "Discourse Management",
         "definitions": [
           {
             "definition": "Supposing/In fact - Marks a hypothetical scenario or supposition, contrasted with a statement of fact.",
@@ -2973,7 +2625,6 @@
         ]
       },
       "da'inai": {
-        "type": "Discourse Management",
         "definitions": [
           {
             "definition": "In fact: Emphasizes that the statement is based on reality or actual facts.",
@@ -2986,8 +2637,10 @@
           }
         ]
       }
-    },
-    "COI": {
+    }
+  },
+  "COI": {
+    "constructs": {
       "coi": {},
       "co'o": {
         "definitions": [
@@ -3204,7 +2857,6 @@
     "description": "FAhA cmavo specify the direction of the imaginary journey taken from the speaker to the location of the event described by the bridi. They can be used alone or in combination with VA (distance) and ZAhO (event contour) cmavo to create complex spatial tenses.",
     "constructs": {
       "bu'u": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "coincident with: Indicates that the event happens at the same location as the speaker. This is the spatial equivalent of the temporal tense **ca** (present).",
@@ -3219,7 +2871,6 @@
         ]
       },
       "ti'a": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "behind: Indicates that the event happens behind the speaker, opposite the direction the speaker is facing."
@@ -3227,7 +2878,6 @@
         ]
       },
       "zu'a": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "on the left of: Indicates that the event happens to the left of the speaker.",
@@ -3247,7 +2897,6 @@
         ]
       },
       "ri'u": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "on the right of: Indicates that the event happens to the right of the speaker.",
@@ -3262,7 +2911,6 @@
         ]
       },
       "ga'u": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "above: Indicates that the event happens above the speaker.",
@@ -3277,7 +2925,6 @@
         ]
       },
       "ni'a": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "below: Indicates that the event happens below the speaker.",
@@ -3292,7 +2939,6 @@
         ]
       },
       "ne'i": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "within: Indicates that the event happens inside of something.",
@@ -3307,7 +2953,6 @@
         ]
       },
       "ru'u": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "surrounding: Indicates that the event happens all around the speaker."
@@ -3315,7 +2960,6 @@
         ]
       },
       "pa'o": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "transfixing: Indicates that the event happens while passing through something."
@@ -3323,7 +2967,6 @@
         ]
       },
       "ne'a": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "next to: Indicates that the event happens beside something else."
@@ -3331,7 +2974,6 @@
         ]
       },
       "te'e": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "bordering: Indicates that the event happens at the edge or boundary of something."
@@ -3339,7 +2981,6 @@
         ]
       },
       "re'o": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "adjacent to: Indicates that the event happens right next to something else, touching it."
@@ -3347,7 +2988,6 @@
         ]
       },
       "fa'a": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "towards: Indicates movement towards a specific destination.",
@@ -3362,7 +3002,6 @@
         ]
       },
       "to'o": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "away from: Indicates movement away from a specific origin point."
@@ -3370,7 +3009,6 @@
         ]
       },
       "zo'i": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "approaching from: Indicates movement towards the speaker or the origin point of the imaginary journey."
@@ -3378,7 +3016,6 @@
         ]
       },
       "ze'o": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "receding from: Indicates movement away from the speaker or the origin point of the imaginary journey."
@@ -3386,7 +3023,6 @@
         ]
       },
       "zo'a": {
-        "type": "direction of the imaginary journey taken from the speaker to the location of the event described by the bridi",
         "definitions": [
           {
             "definition": "tangential to: Indicates movement that passes by something without directly approaching or leaving it."
@@ -3394,7 +3030,6 @@
         ]
       },
       "be'a": {
-        "type": "absolute or relative directions based on a compass or similar frame of reference",
         "definitions": [
           {
             "definition": "north of: Indicates that the event happens to the north of the speaker or the origin point.",
@@ -3409,7 +3044,6 @@
         ]
       },
       "ne'u": {
-        "type": "absolute or relative directions based on a compass or similar frame of reference",
         "definitions": [
           {
             "definition": "south of: Indicates that the event happens to the south of the speaker or the origin point."
@@ -3417,7 +3051,6 @@
         ]
       },
       "du'a": {
-        "type": "absolute or relative directions based on a compass or similar frame of reference",
         "definitions": [
           {
             "definition": "east of: Indicates that the event happens to the east of the speaker or the origin point."
@@ -3425,7 +3058,6 @@
         ]
       },
       "vu'a": {
-        "type": "absolute or relative directions based on a compass or similar frame of reference",
         "definitions": [
           {
             "definition": "west of: Indicates that the event happens to the west of the speaker or the origin point."
