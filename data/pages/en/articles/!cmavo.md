@@ -298,12 +298,12 @@
     - le:
       - type: descriptor
       - definition: The sumti "le X" refers to one or more specific things that the speaker has in mind and chooses to describe as X (where X is a selbri), regardless of the actual truth of that description.
-      - Implicit Quantifiers:
-        - Outer:
+      - implicit quantifiers:
+        - outer:
           - ro:
             - translation: all
             - comment: indicating the speaker refers to all of the things they have in mind that fit the description.
-        - Inner:
+        - inner:
           - su'o:
             - translation: at least one
             - comment: implying the speaker has at least one specific thing in mind that they are describing as X.
@@ -317,12 +317,12 @@
     - lo:
       - type: descriptor
       - definition: The sumti "lo X" refers to one or more of all the things that truly are X (where X is a selbri). It asserts the existence of things that actually fit the description. Equivalent to bare selbri without a gadri
-      - Implicit Quantifiers:
-        - Outer:
+      - implicit quantifiers:
+        - outer:
           - su'o:
             - translation: at least one
             - comment: implying there exists at least one thing that truly is X.
-        - Inner:
+        - inner:
           - ro:
             - translation: all
             - comment: referring to all the things that truly are X.
@@ -339,14 +339,14 @@
           - translation: That which really is a cat is a dog
           - comment: This sentence is false because nothing can be both a cat and a dog.
     - lo'e:
-      - type: decriptor
+      - type: descriptor
       - definition: The sumti "lo'e X" refers to the typical instance of X, an abstract or imaginary entity that best exemplifies the characteristics of the set of all things that are truly X.
-      - Implicit Quantifiers:
-        - Outer:
+      - implicit quantifiers:
+        - outer:
           - su'o:
             - translation: at least one
             - comment: implying there exists at least one typical instance.
-        - Inner:
+        - inner:
           - ro:
             - translation: all
             - comment: encompassing all the characteristics of a typical instance.
@@ -356,14 +356,14 @@
           - translation: The typical lion dwells in the African land.
           - comment: Refers to the concept of a typical lion with characteristics like living in Africa.
     - lei:
-      - type: decriptor
+      - type: descriptor
       - definition: The sumti "lei X" refers to a mass entity formed from one or more specific things that the speaker has in mind and describes as X, regardless of the actual truth of that description.
-      - Implicit Quantifiers:
-        - Outer:
+      - implicit quantifiers:
+        - outer:
           - pisu'o:
             - translation: some part of
             - comment: indicating the speaker refers to some part of the mass.
-        - Inner:
+        - inner:
           - su'o:
             - translation: at least one
             - comment: implying the speaker has at least one specific thing in mind that they are describing as X to form the mass.
@@ -373,14 +373,14 @@
           - translation: The mass-of persons carry the piano.
           - comment: Refers to a group of people acting together to carry the piano.
     - loi:
-      - type: decriptor
+      - type: descriptor
       - definition: The sumti "loi X" refers to some part of the mass entity formed from all the things that truly are X.
-      - Implicit Quantifiers:
-        - Outer:
+      - implicit quantifiers:
+        - outer:
           - pisu'o:
             - translation: some part of
             - comment: indicating reference to some portion of the mass.
-        - Inner:
+        - inner:
           - ro:
             - translation: all
             - comment: encompassing all the things that truly are X to form the mass.
@@ -390,14 +390,14 @@
           - translation: Part of the mass of lions dwell in the African land.
           - comment: Refers to some lions (not necessarily all) that live in Africa.
     - le'i:
-      - type: decriptor
+      - type: descriptor
       - definition: The sumti "le'i X" refers to the set of all things that the speaker has in mind and describes as X, regardless of the actual truth of that description, treated as a set with its own properties.
-      - Implicit Quantifiers:
-        - Outer:
+      - implicit quantifiers:
+        - outer:
           - piro:
             - translation: the whole of
             - comment: referring to the entire set.
-        - Inner:
+        - inner:
           - su'o:
             - translation: at least one
             - comment: implying the speaker has at least one specific thing in mind that they are describing as X to form the set.
@@ -407,14 +407,14 @@
           - translation: The set of rats is large
           - comment: refers to the set of all rats as having a large number of members.
     - le'e:
-      - type: decriptor
+      - type: descriptor
       - definition: The sumti "le'e X" refers to the stereotypical instance of X, an abstract or imaginary entity that best exemplifies the characteristics of the set of those things that the speaker has in mind and describes as X.
-      - Implicit Quantifiers:
-        - Outer:
+      - implicit quantifiers:
+        - outer:
           - ro:
             - translation: all
             - comment: encompassing all the characteristics of the stereotypical instance.
-        - Inner:
+        - inner:
           - su'o:
             - translation: at least one
             - comment: implying the speaker has at least one specific thing in mind that they are describing as X to form the stereotype.
@@ -621,6 +621,14 @@
         - 1:
           - lojban: lo'e dacti cu muvdu ji'u le za'u javni be fi le daiske
           - translation: Typical objects move governed by the laws of physics.
+    - kai:
+      - type: modal tag
+      - source: ckaji
+      - definition: [sumti] pe kai [sumti] = property [sumti] that [sumti] manifests.
+      - examples:
+        - 1:
+          - lojban: lo ka xunre kei pe kai le makcu tamca cu se simlu so'i le plise
+          - translation: Red color as in this ripe tomato is what many of the apples seem to have.
     - se ka'a:
       - type: modal tag
       - source: klama
@@ -704,51 +712,51 @@
     - ma'i:
       - type: modal tag
       - source: manri
-      - definition: In the reference frame of X, Y (where X is the reference frame and Y is the thing referenced).
+      - definition: [bridi] happens in the reference frame [sumti].
       - examples:
         - 1:
-          - lojban: Ma'i le solri, le terdi cu se jarco
-          - translation: In the reference frame of the sun, the Earth revolves.
-    - mau:
+          - lojban: ma'i le junla li ze tcika
+          - translation: According to the clock, it's 7 o'clock.
+    - se mau:
       - type: modal tag
-      - source: zmadu
-      - definition: Exceeded by/more than X, in the property/quantity of Y, by the amount of Z, [something] does/is ... (where X is the thing exceeded, Y is the property or quantity, and Z is the amount).
+      - source: se zmadu
+      - definition: [sumti] ne se mau [sumti] = [sumti] exceeds [sumti] in what [bridi] describes.
       - examples:
         - 1:
-          - lojban: Mau la .djan., mi citka le nanba
-          - translation: I eat more bread than John.
-    - me'a:
+          - lojban: mi se mau la .djan. cu prami la .alis.
+          - translation: I love Alice more than John does.
+    - se me'a:
       - type: modal tag
-      - source: mleca
-      - definition: Undercut by/less than X, in the property/quantity of Y, by the amount of Z, [something] does/is ... (where X is the thing undercut, Y is the property or quantity, and Z is the amount).
+      - source: se mleca
+      - definition: [sumti] ne se me'a [sumti] = [sumti] is less than [sumti] in what [bridi] describes.
       - examples:
         - 1:
-          - lojban: Me'a la .djan., mi citka le nanba
-          - translation: I eat less bread than John.
+          - lojban: lei ckafi ne se me'a lei tcati cu glare
+          - translation: The coffee is less hot than the tea.
     - me'e:
       - type: modal tag
       - source: cmene
-      - definition: Having the name/title of X, Y (where X is the name and Y is the named thing).
+      - definition: [sumti] ne me'e [sumti] = [sumti] named as [sumti] (quotation)
       - examples:
         - 1:
-          - lojban: Me'e zo .lojban., ti cu bangu
-          - translation: Having the name "Lojban", this is a language.
+          - lojban: le verba ne me'e zo .alis. cu vi zutse
+          - translation: The child named "Alice" sits nearby.
     - mu'i:
       - type: modal tag
       - source: mukti
-      - definition: Motivated by/having the motive of X, Y (where X is the motive and Y is the motivated thing).
+      - definition: Motivated by/having the motive of [sumti] the event of [bridi] happens
       - examples:
         - 1:
-          - lojban: Mu'i le gleki, mi klama le zarci
-          - translation: Motivated by happiness, I go to the store.
+          - lojban: mi di'i tadni mu'i lo nu mi djica lo nu mi certu
+          - translation: I study regularly motivated by my desire to be an expert.
     - mu'u:
       - type: modal tag
       - source: mupli
-      - definition: As an example/instance of X, Y (where X is the category and Y is the example).
+      - definition: [sumti] ne mu'u [sumti] = property [sumti] exemplified by [sumti].
       - examples:
         - 1:
-          - lojban: Mu'u lo nu gleki, mi klama le zarci
-          - translation: As an example of happiness, I go to the store.
+          - lojban: lo ka carmi gunka kei ne mu'u le bersa be mi cu se banli so'i le diklo xabju
+          - translation: Hard work as shown by my son is what many of the local inhabitants are great in.
     - ni'i:
       - type: modal tag
       - source: nibli
