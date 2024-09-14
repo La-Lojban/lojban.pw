@@ -58,21 +58,20 @@ function markdownToJson(markdown) {
       }
       stack.push({ obj: newObj, indent, isArray, key });
     } else {
-        try {
-          const parsedValue = JSON.parse(value);
-          if (parentIsArray) {
-            parent.push(parsedValue);
-          } else {
-            parent[key] = parsedValue;
-          }
-        } catch {
-          if (parentIsArray) {
-            parent.push(value);
-          } else {
-            parent[key] = value;
-          }
+      try {
+        const parsedValue = JSON.parse(value);
+        if (parentIsArray) {
+          parent.push(parsedValue);
+        } else {
+          parent[key] = parsedValue;
         }
-      
+      } catch {
+        if (parentIsArray) {
+          parent.push(value);
+        } else {
+          parent[key] = value;
+        }
+      }
     }
   });
 
@@ -90,10 +89,16 @@ function convertExamplesToArrays(obj) {
 
   const result = {};
   for (const [key, value] of Object.entries(obj)) {
-    if (key === 'examples' && typeof value === 'object' && !Array.isArray(value)) {
-      result[key] = Object.values(value).map(convertExamplesToArrays);
-    } else if (key === 'equivalents') {
+    if (key === 'examples') continue;
+    if (key === 'equivalents') {
       result[key] = Object.keys(value);
+    } else if (key === 'definitions') {
+      console.log(obj);
+      result[key] = [{
+        "definition": value['1'].definition,
+        examples: obj.definitions[1].examples ? Object.values(obj.definitions[1].examples).map(convertExamplesToArrays) : undefined
+      }];
+      delete obj.examples;
     } else {
       result[key] = convertExamplesToArrays(value);
     }
@@ -102,17 +107,17 @@ function convertExamplesToArrays(obj) {
   return result;
 }
 
-// // Read the JSON file
-// console.log('Reading cmavo.json...');
-// const jsonData = JSON.parse(fs.readFileSync('cmavo.json', 'utf8'));
+// Read the JSON file
+console.log('Reading cmavo.json...');
+const jsonData = JSON.parse(fs.readFileSync('cmavo.json', 'utf8'));
 
-// // Convert JSON to Markdown
-// console.log('Converting JSON to Markdown...');
-// const markdown = jsonToMarkdown(jsonData);
+// Convert JSON to Markdown
+console.log('Converting JSON to Markdown...');
+const markdown = jsonToMarkdown(jsonData);
 
-// // Write the Markdown to a file
-// console.log('Writing Markdown to cmavo.md...');
-// fs.writeFileSync('cmavo.md', markdown);
+// Write the Markdown to a file
+console.log('Writing Markdown to cmavo.md...');
+fs.writeFileSync('!cmavo.md', markdown);
 
 // Read the Markdown file
 console.log('Reading !cmavo.md...');
@@ -126,4 +131,4 @@ const newJsonData = markdownToJson(markdownData);
 console.log('Writing JSON to cmavo.json...');
 fs.writeFileSync('cmavo.json', JSON.stringify(newJsonData, null, 2));
 
-console.log('Conversion completed. Check cmavo.md and cmavo2.json');
+console.log('Conversion completed. Check cmavo3.json');
