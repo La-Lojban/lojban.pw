@@ -1,284 +1,284 @@
 - KOhA:
   - constructs:
     - mi:
-      - type: personal pro-sumti
       - definitions:
         - 1:
+          - type: personal pro-sumti
           - definition: This pro-sumti refers to the speaker of the utterance. It may encompass the speaker alone or include others whom the speaker represents (e.g., a group or organization). The referent of **mi** can be either an individual or a mass, depending on context.
           - examples:
             - 1:
               - lojban: mi klama le zarci
               - translation: I go to the store.
     - do:
-      - type: personal pro-sumti
       - definitions:
         - 1:
+          - type: personal pro-sumti
           - definition: This pro-sumti refers to the listener or listeners of the utterance. Similar to **mi**, the referent can be either an individual or a mass, depending on the context.
           - examples:
             - 1:
               - lojban: do catlu le cukta
               - translation: You see the book.
     - mi'o:
-      - type: personal pro-sumti
       - definitions:
         - 1:
+          - type: personal pro-sumti
           - definition: This pro-sumti refers to the mass entity formed by the speaker and the listener(s) together and no one else. It always represents a mass, incorporating the properties and characteristics of both individuals.
           - examples:
             - 1:
               - lojban: mi'o klama le zarci
               - translation: You and I go to the store together.
     - mi'a:
-      - type: personal pro-sumti
       - definitions:
         - 1:
+          - type: personal pro-sumti
           - definition: This pro-sumti refers to the mass entity formed by the speaker and others, excluding the listener(s). It always represents a mass, encompassing the collective properties and characteristics of the individuals involved.
           - examples:
             - 1:
               - lojban: mi'a klama le zarci
               - translation: We, but not you, go to the store.
     - ma'a:
-      - type: personal pro-sumti
       - definitions:
         - 1:
+          - type: personal pro-sumti
           - definition: This pro-sumti refers to the mass entity formed by the speaker, the listener(s), and any other unspecified individuals. It always represents a mass, encompassing the collective properties and characteristics of all individuals involved.
           - examples:
             - 1:
               - lojban: ma'a casnu le jbobau
               - translation: We all discuss Lojban.
     - do'o:
-      - type: personal pro-sumti
       - definitions:
         - 1:
+          - type: personal pro-sumti
           - definition: This pro-sumti refers to the mass entity formed by the listener(s) and others, excluding the speaker. It always represents a mass, encompassing the collective properties and characteristics of the individuals involved.
           - examples:
             - 1:
               - lojban: do'o klama le zarci
               - translation: You and others, but not me, go to the store.
     - ko:
-      - type: personal pro-sumti
       - definitions:
         - 1:
+          - type: personal pro-sumti
           - definition: This pro-sumti is equivalent to **do** but is used specifically in commands or imperatives, indicating the listener should take action to make the statement true.
           - examples:
             - 1:
               - lojban: ko klama le zarci
               - translation: Go to the store!
     - ti:
-      - type: demonstrative pro-sumti
       - definitions:
         - 1:
+          - type: demonstrative pro-sumti
           - definition: This pro-sumti refers to a specific object or location near the speaker, typically something that can be pointed to.
           - examples:
             - 1:
               - lojban: ti barda
               - translation: This (thing near me) is big.
     - ta:
-      - type: demonstrative pro-sumti
       - definitions:
         - 1:
+          - type: demonstrative pro-sumti
           - definition: Similar to **ti**, this pro-sumti refers to a specific object or location, but one that is closer to the listener than the speaker.
           - examples:
             - 1:
               - lojban: ta xekri gerku
               - translation: That thing near you is a black dog.
     - tu:
-      - type: demonstrative pro-sumti
       - definitions:
         - 1:
+          - type: demonstrative pro-sumti
           - definition: This pro-sumti refers to a specific object or location that is distant from both the speaker and the listener.
           - examples:
             - 1:
               - lojban: tu barda cmana
               - translation: That far away thing is a big mountain.
     - di'u:
-      - type: utterance pro-sumti
       - definitions:
         - 1:
+          - type: utterance pro-sumti
           - definition: This pro-sumti refers to the most recently completed utterance in the discourse.
           - examples:
             - 1:
               - lojban: mi klama le zarci .i la'e di'u xamgu
               - translation: I go to the store. And that is good.
     - de'u:
-      - type: utterance pro-sumti
       - definitions:
         - 1:
+          - type: utterance pro-sumti
           - definition: This pro-sumti refers to an earlier utterance in the discourse, further back than the one referenced by **di'u**.
     - da'u:
-      - type: utterance pro-sumti
       - definitions:
         - 1:
+          - type: utterance pro-sumti
           - definition: This pro-sumti refers to a much earlier utterance in the discourse, further back than the one referenced by **de'u**.
     - di'e:
-      - type: utterance pro-sumti
       - definitions:
         - 1:
+          - type: utterance pro-sumti
           - definition: This pro-sumti refers to the next utterance in the discourse, the one that will follow the current utterance.
           - examples:
             - 1:
               - lojban: la .saimn. cusku di'e
               - translation: Simon says the following:
     - de'e:
-      - type: utterance pro-sumti
       - definitions:
         - 1:
+          - type: utterance pro-sumti
           - definition: This pro-sumti refers to a later utterance in the discourse, further ahead than the one referenced by **di'e**.
     - da'e:
-      - type: utterance pro-sumti
       - definitions:
         - 1:
+          - type: utterance pro-sumti
           - definition: This pro-sumti refers to a much later utterance in the discourse, further ahead than the one referenced by **de'e**.
     - dei:
-      - type: utterance pro-sumti
       - definitions:
         - 1:
+          - type: utterance pro-sumti
           - definition: This pro-sumti refers to the current utterance, the one being spoken or written at the moment.
           - examples:
             - 1:
               - lojban: dei jufra
               - translation: This is a sentence.
     - do'i:
-      - type: utterance pro-sumti
       - definitions:
         - 1:
+          - type: utterance pro-sumti
           - definition: This pro-sumti refers to some unspecified utterance within the discourse, without specifying its position or content.
     - ko'a:
-      - type: assignable pro-sumti
       - definitions:
         - 1:
+          - type: assignable pro-sumti
           - definition: This pro-sumti can be assigned to any sumti using the cmavo **goi** and then used to refer to that sumti for the remainder of the discourse or until reassigned.
           - examples:
             - 1:
               - lojban: le gerku goi ko'a cu xekri. .i ko'a klama le zdani
               - translation: The dog, which we'll call it-1, is black. And it-1 goes to the house.
     - ko'e:
-      - type: assignable pro-sumti
       - definitions:
         - 1:
+          - type: assignable pro-sumti
           - definition: Similar to **ko'a**, this pro-sumti can be assigned to the second selected sumti using **goi** and later used to refer to that sumti.
     - ko'i:
-      - type: assignable pro-sumti
       - definitions:
         - 1:
+          - type: assignable pro-sumti
           - definition: Similar to **ko'a**, this pro-sumti can be assigned to the third selected sumti using **goi** and later used to refer to that sumti.
     - ko'o:
-      - type: assignable pro-sumti
       - definitions:
         - 1:
+          - type: assignable pro-sumti
           - definition: Similar to **ko'a**, this pro-sumti can be assigned to the 4th selected sumti using **goi** and later used to refer to that sumti.
     - ko'u:
-      - type: assignable pro-sumti
       - definitions:
         - 1:
+          - type: assignable pro-sumti
           - definition: Similar to **ko'a**, this pro-sumti can be assigned to the 5th selected sumti using **goi** and later used to refer to that sumti.
     - fo'a:
-      - type: assignable pro-sumti
       - definitions:
         - 1:
+          - type: assignable pro-sumti
           - definition: Similar to **ko'a**, this pro-sumti can be assigned to the 6th selected sumti using **goi** and later used to refer to that sumti.
     - fo'e:
-      - type: assignable pro-sumti
       - definitions:
         - 1:
+          - type: assignable pro-sumti
           - definition: Similar to **ko'a**, this pro-sumti can be assigned to the 7th selected sumti using **goi** and later used to refer to that sumti.
     - fo'i:
-      - type: assignable pro-sumti
       - definitions:
         - 1:
+          - type: assignable pro-sumti
           - definition: Similar to **ko'a**, this pro-sumti can be assigned to the 8th selected sumti using **goi** and later used to refer to that sumti.
     - fo'o:
-      - type: assignable pro-sumti
       - definitions:
         - 1:
+          - type: assignable pro-sumti
           - definition: Similar to **ko'a**, this pro-sumti can be assigned to the 9th selected sumti using **goi** and later used to refer to that sumti.
     - fo'u:
-      - type: assignable pro-sumti
       - definitions:
         - 1:
+          - type: assignable pro-sumti
           - definition: Similar to **ko'a**, this pro-sumti can be assigned to the 10th selected sumti using **goi** and later used to refer to that sumti.
     - ri:
-      - type: anaphoric pro-sumti
       - definitions:
         - 1:
+          - type: anaphoric pro-sumti
           - definition: This pro-sumti refers to the last complete sumti appearing before the **ri**.
           - examples:
             - 1:
               - lojban: la .alis. sipna ne'i le ri kumfa
               - translation: Alice sleeps in her room.
     - ra:
-      - type: anaphoric pro-sumti
       - definitions:
         - 1:
+          - type: anaphoric pro-sumti
           - definition: This pro-sumti repeats a previously used sumti but is more vague than **ri**, requiring the listener to infer the referent from context. It cannot refer to the last complete sumti if **ri** is already used.
     - ru:
-      - type: anaphoric pro-sumti
       - definitions:
         - 1:
+          - type: anaphoric pro-sumti
           - definition: Similar to **ra**, this pro-sumti repeats a previously used sumti but with even greater vagueness, referring to a sumti further back in the discourse than **ra**.
     - zo'e:
-      - type: indefinite pro-sumti
       - definitions:
         - 1:
+          - type: indefinite pro-sumti
           - definition: This pro-sumti represents an unspecified value that would make the bridi true.
           - examples:
             - 1:
               - lojban: mi tavla zo'e do
               - translation: I talk to someone about you.
     - zu'i:
-      - type: indefinite pro-sumti
       - definitions:
         - 1:
+          - type: indefinite pro-sumti
           - definition: This pro-sumti represents the typical value for a given place in the bridi, based on the listener's understanding of the context.
           - examples:
             - 1:
               - lojban: mi klama le bartu be le zdani le nenri be le zdani zu'i zu'i
               - translation: I go to the outside of the house from the inside of the house by the typical route and by typical means.
     - zi'o:
-      - type: indefinite pro-sumti
       - definitions:
         - 1:
+          - type: indefinite pro-sumti
           - definition: This pro-sumti represents a nonexistent value, indicating the specific place in the selbri is irrelevant to the relationship being expressed.
           - examples:
             - 1:
               - lojban: loi jmive cu se zbasu zi'o loi selci
               - translation: Living things are made from cells.
     - vo'a:
-      - type: reflexive pro-sumti
       - definitions:
         - 1:
+          - type: reflexive pro-sumti
           - definition: This pro-sumti refers to the sumti occupying the x1 place of the same bridi.
           - examples:
             - 1:
               - lojban: mi lumci vo'a
               - translation: I wash myself.
     - vo'e:
-      - type: reflexive pro-sumti
       - definitions:
         - 1:
+          - type: reflexive pro-sumti
           - definition: This pro-sumti refers to the sumti occupying the x2 place of the same bridi.
           - examples:
             - 1:
               - lojban: mi klama le zarci vo'e
               - translation: I go to the store from itself. [By some route unspecified.]
     - vo'i:
-      - type: reflexive pro-sumti
       - definitions:
         - 1:
+          - type: reflexive pro-sumti
           - definition: This pro-sumti functions similarly to **vo'a** and **vo'e** but refers to the sumti occupying the x3 place of the same bridi.
     - vo'o:
-      - type: reflexive pro-sumti
       - definitions:
         - 1:
+          - type: reflexive pro-sumti
           - definition: This pro-sumti functions similarly to **vo'a** and **vo'e** but refers to the sumti occupying the x4 place of the same bridi.
     - vo'u:
-      - type: reflexive pro-sumti
       - definitions:
         - 1:
+          - type: reflexive pro-sumti
           - definition: This pro-sumti functions similarly to **vo'a** and **vo'e** but refers to the sumti occupying the x5 place of the same bridi.
     - da:
-      - type: bound variable pro-sumti
       - definitions:
         - 1:
+          - type: bound variable pro-sumti
           - definition: This pro-sumti acts as a variable within a prenex, typically bound by a quantifier like **ro** (all) or **su'o** (at least one).
           - examples:
             - 1:
@@ -286,37 +286,37 @@
               - gloss: For every X : X sees me.
               - translation: Everything sees me.
     - de:
-      - type: bound variable pro-sumti
       - definitions:
         - 1:
+          - type: bound variable pro-sumti
           - definition: This pro-sumti function similarly to **da** but is used for the second bound variable in a prenex.
     - di:
-      - type: bound variable pro-sumti
       - definitions:
         - 1:
+          - type: bound variable pro-sumti
           - definition: This pro-sumti function similarly to **da** but is used for the third bound variable in a prenex.
     - ke'a:
-      - type: pro-sumti
       - definitions:
         - 1:
+          - type: pro-sumti
           - definition: This pro-sumti is used within relative clauses to refer to the sumti to which the clause is attached (the "relativized sumti").
           - examples:
             - 1:
               - lojban: mi viska le mlatu ku poi zo'e zbasu ke'a loi slasi
               - translation: I see the cat made of plastic.
     - ma:
-      - type: pro-sumti
       - definitions:
         - 1:
+          - type: pro-sumti
           - definition: This pro-sumti is used to form sumti questions, asking for a sumti to fill the place where **ma** appears.
           - examples:
             - 1:
               - lojban: do klama ma
               - translation: Where are you going?
     - ce'u:
-      - type: pro-sumti
       - definitions:
         - 1:
+          - type: pro-sumti
           - definition: This pro-sumti is used within abstraction bridi, particularly with **ka** (property) abstractions, to indicate the sumti whose property is being abstracted.
           - examples:
             - 1:
@@ -325,77 +325,86 @@
 - NU:
   - constructs:
     - nu:
-      - type: abstractor
       - definitions:
         - 1:
+          - type: abstractor
+          - place structure: x1 is an event of (the bridi)
           - definition: This abstractor forms an event abstraction. It refers to the entire event or state described by the bridi, encapsulating all its aspects and participants as a single entity.
           - examples:
             - 1:
               - lojban: le nu mi vasxu
               - translation: the event-of my breathing
               - comment: This describes the ongoing act of the speaker breathing, encompassing every instance of inhalation and exhalation throughout their life.
-      - place structure: x1 is an event of (the bridi)
     - ka:
-      - type: abstractor
       - definitions:
         - 1:
+          - type: abstractor
+          - place structure: x1 is a property of (the bridi)
           - definition: This abstractor forms a property abstraction. It refers to a property or quality possessed by one or more of the sumti (arguments) within the bridi. The specific sumti whose property is being referenced is indicated by the pro-sumti **ce'u** within the abstraction.
           - examples:
             - 1:
               - lojban: le ka xunre [kei]
               - translation: the property-of being-red
               - comment: This refers to the abstract property of redness, independent of any specific object possessing that property.
-      - place structure: x1 is a property of (the bridi)
     - ni:
-      - type: abstractor
       - definitions:
         - 1:
+          - type: abstractor
+          - place structure: x1 is the amount of (the bridi) on scale x2
           - definition: This abstractor forms an amount abstraction. It refers to the measurable quantity or degree to which the bridi holds true. It requires a second place to specify the scale or dimension on which the amount is measured.
           - examples:
             - 1:
               - lojban: le ni le pixra cu blanu [kei]
               - translation: the amount-of (the picture being-blue )
               - comment: This refers to the quantifiable amount of blueness present in the picture, presumably measurable with a tool like a colorimeter.
-      - place structure: x1 is the amount of (the bridi) on scale x2
     - jei:
-      - type: abstractor
       - definitions:
         - 1:
+          - type: abstractor
+          - place structure: x1 is the truth value of (the bridi) under epistemology x2
           - definition: This abstractor forms a truth-value abstraction. It expresses the degree of truth of the bridi under a specific epistemological framework. The resulting value is a number between 0 (false) and 1 (true), enabling representations of fuzzy logic.
           - examples:
             - 1:
               - lojban: le jei li re su'i re du li vo [kei]
               - translation: the truth-value-of the-number 2 + 2 – the-number 4) – This refers to the truth value of the statement "2 + 2 – 4", which would be 1 (true) under standard arithmetic.
-      - place structure: x1 is the truth value of (the bridi) under epistemology x2
     - li'i:
     - si'o:
-      - type: abstractor
       - definitions:
         - 1:
+          - type: abstractor
+          - place structure: x1 is the idea/concept of (the bridi) in the mind of x2
           - definition: This abstractor forms a concept abstraction. It refers to a mental image, idea, or concept held in someone's mind, corresponding to the event or state described by the bridi. It requires a second place to specify the mind in which the concept resides.
           - examples:
             - 1:
               - lojban: mi nelci le si'o la .lojban. cu mulno
               - translation: I enjoy the concept-of that-named Lojban being-complete
               - comment: This expresses the speaker's enjoyment of the idea of Lojban being complete, referring to a mental image or understanding of a finished and fully developed Lojban language.
-      - place structure: x1 is the idea/concept of (the bridi) in the mind of x2
     - du'u:
-      - type: abstractor
       - definitions:
         - 1:
+          - type: abstractor
+          - place structure: x1 is the predication (the bridi), expressed in sentence x2
           - definition: This abstractor forms a predication abstraction. It refers to the predication or statement itself, as expressed in a particular sentence. It is often used with selbri expressing propositional attitudes like "knowing" or "believing".
           - examples:
             - 1:
               - lojban: mi djuno le du'u la .frank. cu bebna [kei]
               - translation: I know the predication that Frank is a fool
               - comment: This signifies that the speaker knows the truth of the statement "Frank is a fool".
-      - place structure: x1 is the predication (the bridi), expressed in sentence x2
 - LE:
   - constructs:
     - le:
-      - type: descriptor
       - definitions:
         - 1:
+          - type: descriptor
+          - implicit quantifiers:
+            - outer:
+              - ro:
+                - translation: all
+                - comment: indicating the speaker refers to all of the things they have in mind that fit the description.
+            - inner:
+              - su'o:
+                - translation: at least one
+                - comment: implying the speaker has at least one specific thing in mind that they are describing as X.
           - definition: The sumti "le X" refers to one or more specific things that the speaker has in mind and chooses to describe as X (where X is a selbri), regardless of the actual truth of that description.
           - examples:
             - 1:
@@ -404,19 +413,19 @@
             - 2:
               - lojban: le mlatu cu gerku
               - translation: The cat is a dog. The speaker describes someone they thought was a cat as actually being a dog.
-      - implicit quantifiers:
-        - outer:
-          - ro:
-            - translation: all
-            - comment: indicating the speaker refers to all of the things they have in mind that fit the description.
-        - inner:
-          - su'o:
-            - translation: at least one
-            - comment: implying the speaker has at least one specific thing in mind that they are describing as X.
     - lo:
-      - type: descriptor
       - definitions:
         - 1:
+          - type: descriptor
+          - implicit quantifiers:
+            - outer:
+              - su'o:
+                - translation: at least one
+                - comment: implying there exists at least one thing that truly is X.
+            - inner:
+              - ro:
+                - translation: all
+                - comment: referring to all the things that truly are X.
           - definition: The sumti "lo X" refers to one or more of all the things that truly are X (where X is a selbri). It asserts the existence of things that actually fit the description. Equivalent to bare selbri without a gadri
           - examples:
             - 1:
@@ -430,95 +439,95 @@
                 - su'o da poi mlatu cu gerku
               - translation: That which really is a cat is a dog
               - comment: This sentence is false because nothing can be both a cat and a dog.
-      - implicit quantifiers:
-        - outer:
-          - su'o:
-            - translation: at least one
-            - comment: implying there exists at least one thing that truly is X.
-        - inner:
-          - ro:
-            - translation: all
-            - comment: referring to all the things that truly are X.
     - lo'e:
-      - type: descriptor
       - definitions:
         - 1:
+          - type: descriptor
+          - implicit quantifiers:
+            - outer:
+              - su'o:
+                - translation: at least one
+                - comment: implying there exists at least one typical instance.
+            - inner:
+              - ro:
+                - translation: all
+                - comment: encompassing all the characteristics of a typical instance.
           - definition: The sumti "lo'e X" refers to the typical instance of X, an abstract or imaginary entity that best exemplifies the characteristics of the set of all things that are truly X.
           - examples:
             - 1:
               - lojban: lo'e cinfo cu xabju le fi'ortu'a
               - translation: The typical lion dwells in the African land.
               - comment: Refers to the concept of a typical lion with characteristics like living in Africa.
-      - implicit quantifiers:
-        - outer:
-          - su'o:
-            - translation: at least one
-            - comment: implying there exists at least one typical instance.
-        - inner:
-          - ro:
-            - translation: all
-            - comment: encompassing all the characteristics of a typical instance.
     - lei:
-      - type: descriptor
       - definitions:
         - 1:
+          - type: descriptor
+          - implicit quantifiers:
+            - outer:
+              - pisu'o:
+                - translation: some part of
+                - comment: indicating the speaker refers to some part of the mass.
+            - inner:
+              - su'o:
+                - translation: at least one
+                - comment: implying the speaker has at least one specific thing in mind that they are describing as X to form the mass.
           - definition: The sumti "lei X" refers to a mass entity formed from one or more specific things that the speaker has in mind and describes as X, regardless of the actual truth of that description.
           - examples:
             - 1:
               - lojban: lei prenu cu bevri le pipno
               - translation: The mass-of persons carry the piano.
               - comment: Refers to a group of people acting together to carry the piano.
-      - implicit quantifiers:
-        - outer:
-          - pisu'o:
-            - translation: some part of
-            - comment: indicating the speaker refers to some part of the mass.
-        - inner:
-          - su'o:
-            - translation: at least one
-            - comment: implying the speaker has at least one specific thing in mind that they are describing as X to form the mass.
     - loi:
-      - type: descriptor
       - definitions:
         - 1:
+          - type: descriptor
+          - implicit quantifiers:
+            - outer:
+              - pisu'o:
+                - translation: some part of
+                - comment: indicating reference to some portion of the mass.
+            - inner:
+              - ro:
+                - translation: all
+                - comment: encompassing all the things that truly are X to form the mass.
           - definition: The sumti "loi X" refers to some part of the mass entity formed from all the things that truly are X.
           - examples:
             - 1:
               - lojban: loi cinfo cu xabju le fi'ortu'a
               - translation: Part of the mass of lions dwell in the African land.
               - comment: Refers to some lions (not necessarily all) that live in Africa.
-      - implicit quantifiers:
-        - outer:
-          - pisu'o:
-            - translation: some part of
-            - comment: indicating reference to some portion of the mass.
-        - inner:
-          - ro:
-            - translation: all
-            - comment: encompassing all the things that truly are X to form the mass.
     - le'i:
-      - type: descriptor
       - definitions:
         - 1:
+          - type: descriptor
+          - implicit quantifiers:
+            - outer:
+              - piro:
+                - translation: the whole of
+                - comment: referring to the entire set.
+            - inner:
+              - su'o:
+                - translation: at least one
+                - comment: implying the speaker has at least one specific thing in mind that they are describing as X to form the set.
           - definition: The sumti "le'i X" refers to the set of all things that the speaker has in mind and describes as X, regardless of the actual truth of that description, treated as a set with its own properties.
           - examples:
             - 1:
               - lojban: lo'i ratcu cu barda
               - translation: The set of rats is large
               - comment: refers to the set of all rats as having a large number of members.
-      - implicit quantifiers:
-        - outer:
-          - piro:
-            - translation: the whole of
-            - comment: referring to the entire set.
-        - inner:
-          - su'o:
-            - translation: at least one
-            - comment: implying the speaker has at least one specific thing in mind that they are describing as X to form the set.
     - le'e:
-      - type: descriptor
       - definitions:
         - 1:
+          - type: descriptor
+          - implicit quantifiers:
+            - outer:
+              - ro:
+                - translation: all
+                - comment: encompassing all the characteristics of the stereotypical instance.
+            - inner:
+              - su'o:
+                - translation: at least one
+                - comment: implying the speaker has at least one specific thing in mind that they are describing as X to form the stereotype.
           - definition: The sumti "le'e X" refers to the stereotypical instance of X, an abstract or imaginary entity that best exemplifies the characteristics of the set of those things that the speaker has in mind and describes as X.
           - examples:
             - 1:
@@ -526,122 +535,113 @@
               - The-stereotypical movie is-invented in that-named Hollywood.:
               - translation: The stereotypical movie is made in Hollywood.
               - comment: This statement is probably true to an American, but might be false (not the stereotype) to someone living in Antarctica.
-      - implicit quantifiers:
-        - outer:
-          - ro:
-            - translation: all
-            - comment: encompassing all the characteristics of the stereotypical instance.
-        - inner:
-          - su'o:
-            - translation: at least one
-            - comment: implying the speaker has at least one specific thing in mind that they are describing as X to form the stereotype.
 - BAI:
   - constructs:
     - se ba'i:
-      - type: modal tag
-      - source: se basti
       - definitions:
         - 1:
+          - type: modal tag
+          - source: se basti
           - definition: [sumti] ne se ba'i [sumti] = [sumti] instead of [sumti]. Indicates substitution or replacement.
           - examples:
             - 1:
               - lojban: mi klama le zarci ne se ba'i le zdani
               - translation: I go to the store instead of going home.
     - bai:
-      - type: modal tag
-      - source: bapli
       - definitions:
         - 1:
+          - type: modal tag
+          - source: bapli
           - definition: [bridi] happens due to the compelling force of [sumti] (the source of compulsion).
           - examples:
             - 1:
               - lojban: bai tu'a le pulji la .djan. stali
               - translation: Because the police compel him, John stays.
     - bau:
-      - type: modal tag
-      - source: bangu
       - definitions:
         - 1:
+          - type: modal tag
+          - source: bangu
           - definition: the concept [bridi] is defined in the language/by means of the language [sumti].
           - examples:
             - 1:
               - lojban: le ve ciksi be bau le drata cu nandu
               - translation: The explanation the other language is hard.
     - be'i:
-      - type: modal tag
-      - source: benji
       - definitions:
         - 1:
+          - type: modal tag
+          - source: benji
           - definition: [sumti] is sent/transmitted by sender [sumti].
           - examples:
             - 1:
               - lojban: le cukta ne be'i la .meiris.
               - translation: The book that is sent by Mary.
     - ca'i:
-      - type: modal tag
-      - source: catni
       - definitions:
         - 1:
+          - type: modal tag
+          - source: catni
           - definition: By the authority of [sumti] the event of [bridi] happens.
           - examples:
             - 1:
               - lojban: ca'i la .djan. mi klama le zarci
               - translation: By John's authority, I go to the store.
     - se cau:
-      - type: modal tag
-      - source: se claxu
       - definitions:
         - 1:
+          - type: modal tag
+          - source: se claxu
           - definition: Lacking/without property [sumti], the event of [bridi] happens.
           - examples:
             - 1:
               - lojban: mi ciska se cau lo ka pilno lo penbi
               - translation: I write without a pen.
     - ci'e:
-      - type: modal tag
-      - source: ciste
       - definitions:
         - 1:
+          - type: modal tag
+          - source: ciste
           - definition: [sumti] ne ci'e [sumti] = rules [sumti] are in the system/context of [sumti]
           - examples:
             - 1:
               - lojban: le flalu ne ci'e le gugde cu pluja
               - translation: The law in the system of the country is complex.
     - se ci'o:
-      - type: modal tag
-      - source: cinmo
       - definitions:
         - 1:
+          - type: modal tag
+          - source: cinmo
           - definition: [sumti] ne se ci'o [sumti] = [sumti] feels emotion described as property [sumti]
           - examples:
             - 1:
               - lojban: mi ne se ci'o lo ka gleki cu viska do
               - translation: Feeling happy, I see you.
     - ci'u:
-      - type: modal tag
-      - source: ckilu
       - definitions:
         - 1:
+          - type: modal tag
+          - source: ckilu
           - definition: [bridi] is measured on the scale identified by property [sumti]
           - examples:
             - 1:
               - lojban: ci'u lo ka blabi kei ti xekri
               - translation: On the scale of white, this is black.
     - cu'u:
-      - type: modal tag
-      - source: cusku
       - definitions:
         - 1:
+          - type: modal tag
+          - source: cusku
           - definition: [sumti] ne cu'u [sumti] = [sumti] is expressed/said by [sumti]
           - examples:
             - 1:
               - lojban: lu coi li'u ne cu'u la .djan. jufra le nu rinsa le fange prenu
               - translation: "Hello", said by John, is a sentence about greeting the alien person.
     - de'i:
-      - type: modal tag
-      - source: detri
       - definitions:
         - 1:
+          - type: modal tag
+          - source: detri
           - definition: the event of [bridi] is dated by number [sumti]. If one number is used it is assumed to be the day of a month
           - examples:
             - 1:
@@ -651,540 +651,530 @@
               - lojban: de'i li 3 mi co'a litru
               - translation: I started my trip on the third day of the month.
     - se di'o:
-      - type: modal tag
-      - source: se diklo
       - definitions:
         - 1:
+          - type: modal tag
+          - source: se diklo
           - definition: [sumti] pe se di'o [sumti] = [sumti] that is at the location/locus [sumti]
           - examples:
             - 1:
               - lojban: lo'e bakni pe se di'o le nurma cu barda
               - translation: Typical cows in the rural area are big.
     - do'e:
-      - type: modal tag
-      - source: co'e
       - definitions:
         - 1:
+          - type: modal tag
+          - source: co'e
           - definition: X is vaguely/generally related to Y (where X and Y are sumti).
           - examples:
             - 1:
               - lojban: le nanmu be do'e le tcadu cu klama le zdani
               - translation: The man of the city came home.
     - du'i:
-      - type: modal tag
-      - source: dunli
       - definitions:
         - 1:
+          - type: modal tag
+          - source: dunli
           - definition: [sumti] ne du'i [sumti] = [sumti] as much as/equally to [sumti] (where [bridi] is the standard of comparison).
           - examples:
             - 1:
               - lojban: xu do ne du'i mi zukcfu
               - translation: Are you as busy as I am?
     - du'o:
-      - type: modal tag
-      - source: djuno
       - definitions:
         - 1:
+          - type: modal tag
+          - source: djuno
           - definition: [bridi] is true according to the knowledge of [sumti].
           - examples:
             - 1:
               - lojban: du'o mi ti lojbo
               - translation: According to my knowledge, this is Lojbanic.
     - fau:
-      - type: modal tag
-      - source: fasnu
       - definitions:
         - 1:
+          - type: modal tag
+          - source: fasnu
           - definition: In the event/case of [sumti], the event of [bridi] happens.
           - examples:
             - 1:
               - lojban: fau le nu carvi kei mi na klama le zarci
               - translation: In the case of rain, I don't go to the store.
     - fi'e:
-      - type: modal tag
-      - source: finti
       - definitions:
         - 1:
+          - type: modal tag
+          - source: finti
           - definition: [sumti] ne [sumti] = [sumti] created/invented by [sumti].
           - examples:
             - 1:
               - lojban: le zdani ne fi'e la .djan.
               - translation: The house, which is built by John.
     - ga'a:
-      - type: modal tag
-      - source: zgana
       - definitions:
         - 1:
+          - type: modal tag
+          - source: zgana
           - definition: As observed/seen by [sumti], the event of [bridi] happens
           - examples:
             - 1:
               - lojban: ga'a mi le zdani cu xekri
               - translation: As seen by me, the house is black.
     - gau:
-      - type: modal tag
-      - source: gasnu
       - definitions:
         - 1:
+          - type: modal tag
+          - source: gasnu
           - definition: With [sumti] as the agent/actor, the event of [bridi] happens.
           - examples:
             - 1:
               - lojban: gau la .djan. le canko cu kalri
               - translation: The window is opened by John.
     - ja'e:
-      - type: modal tag
-      - source: jalge
       - definitions:
         - 1:
+          - type: modal tag
+          - source: jalge
           - definition: As a result/consequence of [sumti], the event of [bridi] happens.
           - examples:
             - 1:
               - lojban: ja'e le nu carvi kei mi na ku klama le zarci
               - translation: As a result of the rain, I don't go to the store.
     - ja'i:
-      - type: modal tag
-      - source: javni
       - definitions:
         - 1:
+          - type: modal tag
+          - source: javni
           - definition: According to the rule/law [sumti], the event of [bridi] happens.
           - examples:
             - 1:
               - lojban: ja'i le flalu do na klama le zdani
               - translation: According to the law, you may not enter the house.
     - ji'e:
-      - type: modal tag
-      - source: jimte
       - definitions:
         - 1:
+          - type: modal tag
+          - source: jimte
           - definition: [sumti] ne ji'e [sumti] = [sumti] limited by [sumti] is described in [bridi].
           - examples:
             - 1:
               - lojban: le zbani ne ji'e le xamsi cu ganra
               - translation: The shore limited by the sea is wide.
     - ji'o:
-      - type: modal tag
-      - source: jitro
       - definitions:
         - 1:
+          - type: modal tag
+          - source: jitro
           - definition: [sumti] ne ji'o [sumti] = [sumti] under the direction/control of [sumti] does what [bridi] described.
           - examples:
             - 1:
               - lojban: le gerku ne ji'o la .djan. cu klama
               - translation: Under John's control, the dog comes.
     - ji'u:
-      - type: modal tag
-      - source: jicmu
       - definitions:
         - 1:
+          - type: modal tag
+          - source: jicmu
           - definition: Based on the assumption/support of X, Y (where X is the assumption and Y is the thing based on it).
           - examples:
             - 1:
               - lojban: lo'e dacti cu muvdu ji'u le za'u javni be fi le daiske
               - translation: Typical objects move governed by the laws of physics.
     - kai:
-      - type: modal tag
-      - source: ckaji
       - definitions:
         - 1:
+          - type: modal tag
+          - source: ckaji
           - definition: [sumti] pe kai [sumti] = property [sumti] that [sumti] manifests.
           - examples:
             - 1:
               - lojban: lo ka xunre kei pe kai le makcu tamca cu se simlu so'i le plise
               - translation: Red color as in this ripe tomato is what many of the apples seem to have.
     - se ka'a:
-      - type: modal tag
-      - source: klama
       - definitions:
         - 1:
+          - type: modal tag
+          - source: klama
           - definition: [sumti] ne se ka'a [sumti] = [sumti] coming to [sumti] does what [bridi] describes.
           - examples:
             - 1:
               - lojban: mi ne se ka'a le zdani cu bajra
               - translation: I run home.
     - se ka'i:
-      - type: modal tag
-      - source: se krati
       - definitions:
         - 1:
+          - type: modal tag
+          - source: se krati
           - definition: [sumti] ne se ka'i [sumti] = [sumti] representing/on behalf of [sumti] does what [bridi] describes.
           - examples:
             - 1:
               - lojban: mi ne se ka'i la .djan. cu cusku lu co'o li'u
               - translation: On behalf of John, I say "goodbye".
     - ki'i:
-      - type: modal tag
-      - source: ckini
       - definitions:
         - 1:
+          - type: modal tag
+          - source: ckini
           - definition: [sumti] ne ki'i [sumti] = [sumti] that is specifically associated with [sumti].
           - examples:
             - 1:
               - lojban: ti'e le sance ne ki'i le barda mabru cu tsali
               - translation: They say, the sound from the big mammal is pretty strong.
     - ki'u:
-      - type: modal tag
-      - source: krinu
       - definitions:
         - 1:
+          - type: modal tag
+          - source: krinu
           - definition: With the justification/reason of [sumti], [bridi] happens.
           - examples:
             - 1:
               - lojban: ki'u le nu mi tatpi kei mi na ku klama le zarci
               - translation: With the reason that I am tired, I don't go to the store.
     - koi:
-      - type: modal tag
-      - source: korbi
       - definitions:
         - 1:
+          - type: modal tag
+          - source: korbi
           - definition: [bridi] is bounded by/has the border [sumti].
           - examples:
             - 1:
               - lojban: le verba pu kelci koi le bitmu
               - translation: The child played bounded by the fence.
     - ku'u:
-      - type: modal tag
-      - source: kulnu
       - definitions:
         - 1:
+          - type: modal tag
+          - source: kulnu
           - definition: In the culture/society of X, Y (where X is the culture and Y is the thing related to it).
           - examples:
             - 1:
               - lojban: ku'u le merko lo'e prenu cu tavla fo le glibau
               - translation: In American culture, people speak English.
     - la'u:
-      - type: modal tag
-      - source: klani
       - definitions:
         - 1:
+          - type: modal tag
+          - source: klani
           - definition: With the quantity/amount of X, Y (where X is the quantity and Y is the thing quantified).
           - examples:
             - 1:
               - lojban: la .frank. cu sanli zu'a nu'i la .djordj. la'u lo mitre be li mu
               - translation: Frank is standing five meters to the left of George.
     - le'a:
-      - type: modal tag
-      - source: klesi
       - definitions:
         - 1:
+          - type: modal tag
+          - source: klesi
           - definition: [sumti] ne le'a [sumti] = [sumti] that is in category/cetegorized by [sumti].
           - examples:
             - 1:
               - lojban: le'i spati ne le'a lo'i se pezli lo crino cu ckaji lo ka lu'a ce'u vasru so'i tirse
               - translation: The set of plants that are in category of leafy plants are such that each member of the set has lots of iron.
     - li'e:
-      - type: modal tag
-      - source: lidne
       - definitions:
         - 1:
+          - type: modal tag
+          - source: lidne
           - definition: [sumti] pe li'e [sumti] = [sumti] that is followed by [sumti] in sequence.
           - examples:
             - 1:
               - lojban: ro lojbo ba'urvlasle pe li'e pa karsnasni cu sunsnasni
               - translation: Every Lojban phoneme followed by a vowel is a consonant.
     - se ma'e:
-      - type: modal tag
-      - source: se marji
       - definitions:
         - 1:
+          - type: modal tag
+          - source: se marji
           - definition: [sumti] ne se ma'e [sumti] = [sumti] made of/composed of material [sumti].
           - examples:
             - 1:
               - lojban: le mudri ne se ma'e le dinju cu denmi
               - translation: The wood of the building is dense.
     - ma'i:
-      - type: modal tag
-      - source: manri
       - definitions:
         - 1:
+          - type: modal tag
+          - source: manri
           - definition: [bridi] happens in the reference frame [sumti].
           - examples:
             - 1:
               - lojban: ma'i le junla li ze tcika
               - translation: According to the clock, it's 7 o'clock.
     - se mau:
-      - type: modal tag
-      - source: se zmadu
       - definitions:
         - 1:
+          - type: modal tag
+          - source: se zmadu
           - definition: [sumti] ne se mau [sumti] = [sumti] exceeds [sumti] in what [bridi] describes.
           - examples:
             - 1:
               - lojban: mi se mau la .djan. cu prami la .alis.
               - translation: I love Alice more than John does.
     - se me'a:
-      - type: modal tag
-      - source: se mleca
       - definitions:
         - 1:
+          - type: modal tag
+          - source: se mleca
           - definition: [sumti] ne se me'a [sumti] = [sumti] is less than [sumti] in what [bridi] describes.
           - examples:
             - 1:
               - lojban: lei ckafi ne se me'a lei tcati cu glare
               - translation: The coffee is less hot than the tea.
     - me'e:
-      - type: modal tag
-      - source: cmene
       - definitions:
         - 1:
+          - type: modal tag
+          - source: cmene
           - definition: [sumti] ne me'e [sumti] = [sumti] named as [sumti] (quotation)
           - examples:
             - 1:
               - lojban: le verba ne me'e zo .alis. cu vi zutse
               - translation: The child named "Alice" sits nearby.
     - mu'i:
-      - type: modal tag
-      - source: mukti
       - definitions:
         - 1:
+          - type: modal tag
+          - source: mukti
           - definition: Motivated by/having the motive of [sumti] the event of [bridi] happens
           - examples:
             - 1:
               - lojban: mi di'i tadni mu'i lo nu mi djica lo nu mi certu
               - translation: I study regularly motivated by my desire to be an expert.
     - mu'u:
-      - type: modal tag
-      - source: mupli
       - definitions:
         - 1:
+          - type: modal tag
+          - source: mupli
           - definition: [sumti] ne mu'u [sumti] = property [sumti] exemplified by [sumti].
           - examples:
             - 1:
               - lojban: lo ka carmi gunka kei ne mu'u le bersa be mi cu se banli so'i le diklo xabju
               - translation: Hard work as shown by my son is what many of the local inhabitants are great in.
     - ni'i:
-      - type: modal tag
-      - source: nibli
       - definitions:
         - 1:
-          - definition: Logically entailed by/because of X, Y (where X is the premise and Y is the conclusion).
+          - type: modal tag
+          - source: nibli
+          - definition: [bridi] happens logically entailed by/because of event [sumti].
           - examples:
             - 1:
-              - lojban: Ni'i le nu do nanmu, do ka'e jbena
-              - translation: Because you are a man, you can be born.
-    - pa'a:
-      - type: modal tag
-      - source: panra
-      - definitions:
-        - 1:
-          - definition: In addition to/as well as X, Y (where X and Y are sumti).
-          - examples:
-            - 1:
-              - lojban: Pa'a le gerku, mi viska le mlatu
-              - translation: In addition to the dog, I see the cat.
+              - lojban: ni'i le nu do remna kei do ka'e jbena
+              - translation: Because you are a human, you can be born.
     - pa'u:
-      - type: modal tag
-      - source: pagbu
       - definitions:
         - 1:
-          - definition: With component/part X, Y (where X is the part and Y is the whole).
+          - type: modal tag
+          - source: pagbu
+          - definition: [sumti] ne pa'u [sumti] = [sumti], of which [sumti] is a part.
           - examples:
             - 1:
-              - lojban: Pa'u le zdani, le vorme cu stuzi
-              - translation: With the house as a component, the door is located. / The door is part of the house.
-    - pi'o:
-      - type: modal tag
-      - source: pilno
+              - lojban: le skami ne pa'u le vidni cu spofu
+              - translation: The computer, of which the mointor is a part, is broken.
+    - se pi'o:
       - definitions:
         - 1:
-          - definition: Used by X, for the purpose of Y, Z (where X is the user, Y is the purpose, and Z is the tool).
+          - type: modal tag
+          - source: se pilno
+          - definition: [sumti] ne se pi'o [sumti] = [sumti] makes the event of the bridi happen by using the tool [sumti]. 
           - examples:
             - 1:
-              - lojban: Pi'o la .djan., le penbi cu ciska le cukta
-              - translation: Used by John, the pen writes the book.
+              - lojban: mi ne se pi'o le forca cu citka
+              - translation: I eat by using a fork.
     - po'i:
-      - type: modal tag
-      - source: porsi
       - definitions:
         - 1:
-          - definition: In the sequence/order of X, Y (where X is the sequence and Y is the thing sequenced).
+          - type: modal tag
+          - source: porsi
+          - definition: [sumti] ne po'i [sumti] = property [sumti], which is how the sequence [sumti] is formed.
           - examples:
             - 1:
-              - lojban: Po'i le liste, la .djan. cmene pamoi
-              - translation: In the sequence of the list, John's name comes first.
+              - lojban: le ka ce'u dzena ce'u kei ne po'i la .alis. ce'o la .bob. cu ...  
+              - translation: is a sequence of numbers where a number to the left is less than the number to the right.
     - pu'a:
-      - type: modal tag
-      - source: pluka
       - definitions:
         - 1:
+          - type: modal tag
+          - source: pluka
           - definition: In order to please X, Y (where X is the one pleased and Y is the action done to please them).
           - examples:
             - 1:
               - lojban: Pu'a la .djan., mi klama le zarci
               - translation: In order to please John, I go to the store.
     - pu'e:
-      - type: modal tag
-      - source: pruce
       - definitions:
         - 1:
+          - type: modal tag
+          - source: pruce
           - definition: By the process/method of X, from Y to Z, passing through stages W, [something] is ... (where X is the process, Y is the origin, Z is the destination, and W are the stages).
           - examples:
             - 1:
               - lojban: Pu'e le ctuca mi djuno le lojbo
               - translation: By the process of teaching, I know Lojban.
     - ra'a:
-      - type: modal tag
-      - source: srana
       - definitions:
         - 1:
+          - type: modal tag
+          - source: srana
           - definition: Pertaining to/concerning X, Y (where X is the topic and Y is the thing related to it).
           - examples:
             - 1:
               - lojban: Ra'a le cukta, mi tavla do
               - translation: Concerning the book, I speak to you.
     - ra'i:
-      - type: modal tag
-      - source: krasi
       - definitions:
         - 1:
+          - type: modal tag
+          - source: krasi
           - definition: From the source/origin of X, Y (where X is the source and Y is the thing originating there).
           - examples:
             - 1:
               - lojban: Ra'i le zdani mi klama le zarci
               - translation: From the house as the origin, I go to the store.
     - rai:
-      - type: modal tag
-      - source: traji
       - definitions:
         - 1:
+          - type: modal tag
+          - source: traji
           - definition: With the superlative/extremum of X, being the Y-est among the set Z, [something] does/is ... (where X is the property, Y is the extremum type, and Z is the set).
           - examples:
             - 1:
               - lojban: Rai le barda le zdani cu melbi
               - translation: With the property of being big, the house is beautiful. / The house is beautiful in its bigness.
     - ri'a:
-      - type: modal tag
-      - source: rinka
       - definitions:
         - 1:
+          - type: modal tag
+          - source: rinka
           - definition: Caused by/with the physical cause of X, Y (where X is the cause and Y is the effect).
           - examples:
             - 1:
               - lojban: Ri'a le carvi mi na klama le zarci
               - translation: Because of the rain, I don't go to the store.
     - ri'i:
-      - type: modal tag
-      - source: lifri
       - definitions:
         - 1:
+          - type: modal tag
+          - source: lifri
           - definition: Experienced by X, Y (where X is the experiencer and Y is the experience).
           - examples:
             - 1:
               - lojban: Ri'i la .djan. le zdani cu finti
               - translation: Experienced by John, the house was built. / John experienced the building of the house.
     - sau:
-      - type: modal tag
-      - source: sarcu
       - definitions:
         - 1:
+          - type: modal tag
+          - source: sarcu
           - definition: Necessarily/required by X, under conditions Y, Z (where X is the thing requiring, Y are the conditions, and Z is the thing required).
           - examples:
             - 1:
               - lojban: Sau le zdani, le vorme cu stuzi
               - translation: Necessarily with the house, the door is located. / The house requires a door.
     - si'u:
-      - type: modal tag
-      - source: sidju
       - definitions:
         - 1:
+          - type: modal tag
+          - source: sidju
           - definition: Aided by/with the assistance of X, Y (where X is the helper and Y is the thing helped).
           - examples:
             - 1:
               - lojban: Si'u la .djan. mi klama le zarci
               - translation: With John's help, I go to the store.
     - ta'i:
-      - type: modal tag
-      - source: tadji
       - definitions:
         - 1:
+          - type: modal tag
+          - source: tadji
           - definition: By the method/technique of X, Y (where X is the method and Y is the thing done by it).
           - examples:
             - 1:
               - lojban: Ta'i le cmalu skami mi klama le zarci
               - translation: By the method of using a small computer, I go to the store. / I go to the store using a small computer.
     - tai:
-      - type: modal tag
-      - source: tamsmi
       - definitions:
         - 1:
+          - type: modal tag
+          - source: tamsmi
           - definition: With the form/shape of X, similar to Y, in the property/quality of Z, [something] does/is ... (where X is the form, Y is the thing it is similar to, and Z is the property).
           - examples:
             - 1:
               - lojban: Tai le bolci le zdani cu barda
               - translation: With the form of a ball, the house is big. / The house is big and ball-shaped.
     - te'i:
-      - type: modal tag
-      - source: stidi
       - definitions:
         - 1:
+          - type: modal tag
+          - source: stidi
           - definition: Suggested/proposed by X, to Y, Z (where X is the suggester, Y is the audience, and Z is the suggestion).
           - examples:
             - 1:
               - lojban: Te'i la .djan. do mi klama le zarci
               - translation: Suggested by John to you, I go to the store. / John suggests to you that I go to the store.
     - ti'i:
-      - type: modal tag
-      - source: stidi
       - definitions:
         - 1:
+          - type: modal tag
+          - source: stidi
           - definition: Suggested to X, Y (where X is the recipient of the suggestion and Y is the suggestion).
           - examples:
             - 1:
               - lojban: Ti'i mi do klama le zarci
               - translation: It is suggested to me that you go to the store. / It seems to me that you should go to the store.
     - ti'u:
-      - type: modal tag
-      - source: tcika
       - definitions:
         - 1:
+          - type: modal tag
+          - source: tcika
           - definition: At the time/during the time of X, Y (where X is the time and Y is the thing happening then).
           - examples:
             - 1:
               - lojban: Ti'u le vanci mi klama le zdani
               - translation: At the time of evening, I go home. / I go home in the evening.
     - tu'i:
-      - type: modal tag
-      - source: stuzi
       - definitions:
         - 1:
+          - type: modal tag
+          - source: stuzi
           - definition: At the location/site of X, Y (where X is the location and Y is the thing located there).
           - examples:
             - 1:
               - lojban: Tu'i le zdani, le gerku cu sipna
               - translation: At the site of the house, the dog sleeps.
     - va'o:
-      - type: modal tag
-      - source: vanbi
       - definitions:
         - 1:
+          - type: modal tag
+          - source: vanbi
           - definition: Under the conditions/circumstances of X, Y (where X are the conditions and Y is the thing conditioned).
           - examples:
             - 1:
               - lojban: Va'o le carvi mi na klama le zarci
               - translation: Under the condition of rain, I don't go to the store.
     - va'u:
-      - type: modal tag
-      - source: xamgu
       - definitions:
         - 1:
+          - type: modal tag
+          - source: xamgu
           - definition: Benefiting X, Y (where X is the beneficiary and Y is the action that benefits them).
           - examples:
             - 1:
               - lojban: Va'u mi do klama le zarci
               - translation: Benefiting me, you go to the store. / You go to the store for my benefit.
     - zau:
-      - type: modal tag
-      - source: zanru
       - definitions:
         - 1:
+          - type: modal tag
+          - source: zanru
           - definition: Approved by/with the approval of X, Y (where X is the approver and Y is the thing approved).
           - examples:
             - 1:
               - lojban: Zau la .djan. mi klama le zarci
               - translation: With John's approval, I go to the store.
     - zu'e:
-      - type: modal tag
-      - source: zukte
       - definitions:
         - 1:
+          - type: modal tag
+          - source: zukte
           - definition: With the goal/purpose/intention of X, by means of Y, Z (where X is the goal, Y is the means, and Z is the actor/action).
           - examples:
             - 1:
@@ -1203,9 +1193,9 @@
 - UI:
   - constructs:
     - ki'a:
-      - type: indicator
       - definitions:
         - 1:
+          - type: indicator
           - definition: Metalinguistic confusion
           - examples:
             - 1:
@@ -1220,41 +1210,41 @@
               - lojban: la .djan. nanmu .ina'i ninmu
               - translation: John, who is a man, [is not] a woman.
     - jo'a:
-      - type: indicator
       - definitions:
         - 1:
+          - type: indicator
           - definition: Metalinguistic affirmation
           - examples:
             - 1:
               - lojban: la .djan. nanmu .ijo'a ninmu.
               - translation: John, who is a man, is [indeed] not a woman.
     - xu:
-      - type: indicator
       - definitions:
         - 1:
+          - type: indicator
           - definition: Truth question marker
           - examples:
             - 1:
               - lojban: xu do klama le zarci?
               - translation: Is it true that you go to the store?
     - pau:
-      - type: indicator
       - definitions:
         - 1:
+          - type: indicator
           - definition: Question pre-marker
           - examples:
             - 1:
               - lojban: pau ma cmene do?
               - translation: What is your name?
     - paunai:
-      - type: indicator
       - definitions:
         - 1:
+          - type: indicator
           - definition: Indicates rhetorical question
     - pe'a:
-      - type: indicator
       - definitions:
         - 1:
+          - type: indicator
           - definition: Figurative language marker
           - examples:
             - 1:
@@ -1262,14 +1252,14 @@
               - translation: I see the "blue" house.
               - comment: The house is not literally blue but figuratively so, perhaps meaning it's sad.
     - pe'anai:
-      - type: indicator
       - definitions:
         - 1:
+          - type: indicator
           - definition: Literal language marker
     - .ua:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Discovery/Confusion: Expresses the feeling of suddenly finding or understanding something previously unknown or unclear, or conversely, the feeling of being perplexed or lost.
           - examples:
             - 1:
@@ -1278,14 +1268,14 @@
               - translation: [Eureka!] I found my hat!
               - comment: Emphasizes the discovery
     - .uanai:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Confusion: Expresses the feeling of being lost, perplexed, or unable to understand something.
     - .u'a:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Gain/Loss: Expresses the feeling of acquiring or achieving something desirable, or conversely, the feeling of losing something of value.
           - examples:
             - 1:
@@ -1294,14 +1284,14 @@
               - translation: [Gain!] I found my hat!
               - comment: Emphasizes the acquisition
     - .u'anai:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Loss: Expresses the feeling of losing something valuable, experiencing a setback, or missing out on something desirable.
     - .ue:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Surprise/Expectation: Expresses the feeling of astonishment, wonder, or unexpectedness, or conversely, the feeling of something being unsurprising or anticipated.
           - examples:
             - 1:
@@ -1324,14 +1314,14 @@
               - lojban: .uenai la .djan. klama
               - gloss: [Expected!] that-named John comes.
     - .u'e:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Wonder/Commonplace: Expresses the feeling of amazement, curiosity, or fascination, or conversely, the feeling of something being ordinary or mundane.
     - .ui:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Happiness/Unhappiness: Expresses the feeling of joy, contentment, or pleasure, or conversely, the feeling of sadness, dissatisfaction, or displeasure.
           - examples:
             - 1:
@@ -1344,18 +1334,18 @@
         - 1:
           - definition: Unhappiness: Expresses the feeling of sadness, discontent, or displeasure.
     - .u'i:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Amusement/Weariness: Expresses the feeling of being entertained or finding something funny, or conversely, the feeling of being bored or tired.
     - .u'inai:
       - definitions:
         - 1:
           - definition: Weariness: Expresses the feeling of boredom, fatigue, or lack of interest.
     - .uo:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Completion/Incompleteness: Expresses the feeling of having finished something, reaching a goal, or achieving closure, or conversely, the feeling of something being unfinished or incomplete.
           - examples:
             - 1:
@@ -1368,18 +1358,18 @@
         - 1:
           - definition: Incompleteness: Expresses the feeling of something being unfinished, lacking closure, or having more to do.
     - .u'o:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Courage/Timidity: Expresses the feeling of bravery, confidence, or boldness, or conversely, the feeling of fearfulness, shyness, or cowardice.
     - .u'onai:
       - definitions:
         - 1:
           - definition: Timidity: Expresses the feeling of fear, shyness, or lack of confidence.
     - .uu:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Pity/Cruelty: Expresses the feeling of compassion, sympathy, or sorrow for someone else's misfortune, or conversely, the feeling of ruthlessness, heartlessness, or pleasure in someone else's suffering.
           - examples:
             - 1:
@@ -1392,9 +1382,9 @@
         - 1:
           - definition: Cruelty: Expresses the feeling of ruthlessness, lack of compassion, or pleasure in someone else's suffering.
     - .u'u:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Repentance/Innocence: Expresses the feeling of remorse, regret, or guilt for one's actions, or conversely, the feeling of being blameless or without regret.
           - examples:
             - 1:
@@ -1407,19 +1397,19 @@
         - 1:
           - definition: Innocence: Expresses the feeling of being blameless, without guilt, or having a clear conscience.
     - .o'a:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Pride/Shame: Expresses the feeling of satisfaction, self-respect, or accomplishment, or conversely, the feeling of humiliation, guilt, or embarrassment.
     - .o'e:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Closeness/Distance: Expresses the feeling of intimacy, connection, or warmth toward someone or something, or conversely, the feeling of detachment, separation, or coldness.
     - .oi:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Complaint/Pleasure: Expresses the feeling of pain, discomfort, or displeasure, or conversely, the feeling of enjoyment, satisfaction, or pleasure.
           - examples:
             - 1:
@@ -1434,32 +1424,32 @@
               - lojban: .o'onai la .djan. klama
               - gloss: [Anger!] that-named John is-coming!
     - .o'i:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Caution/Rashness: Expresses the feeling of being careful, hesitant, or wary, or conversely, the feeling of being reckless, impulsive, or daring.
           - examples:
             - 1:
               - lojban: .o'i la .djan. klama
               - gloss: [Beware!] that-named John is-coming.
     - .o'o:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Patience/Anger: Expresses the feeling of being able to wait calmly or endure delays, or conversely, the feeling of irritation, frustration, or rage.
     - .o'u:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Relaxation/Stress: Expresses the feeling of being calm, peaceful, or at ease, or conversely, the feeling of being tense, anxious, or under pressure.
           - examples:
             - 1:
               - lojban: .o'u la .djan. klama
               - gloss: [Phew!] that-named John is-coming.
     - .ii:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Fear/Security: Expresses the feeling of fright, anxiety, or apprehension, or conversely, the feeling of safety, confidence, or peace of mind.
           - examples:
             - 1:
@@ -1467,37 +1457,37 @@
               - gloss: [Fear!] [Observative:]-a-mouse!
               - translation: Eek! A mouse!
     - .i'i:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Togetherness/Privacy: Expresses the feeling of wanting to be with others or be part of a group, or conversely, the feeling of wanting to be alone or have privacy.
     - .io:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Respect/Disrespect: Expresses the feeling of admiration, esteem, or deference, or conversely, the feeling of contempt, disdain, or disregard.
           - examples:
             - 1:
               - lojban: .ionai la .djan. klama
               - gloss: [disrespect!] that-named John is-coming.
     - .i'o:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Appreciation/Envy: Expresses the feeling of gratitude, thankfulness, or recognition of value, or conversely, the feeling of resentment or covetousness toward someone else's possessions or qualities.
     - .iu:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Love/Hate: Expresses the feeling of affection, fondness, or deep care for someone or something, or conversely, the feeling of dislike, aversion, or animosity.
           - examples:
             - 1:
               - lojban: .iu la .djan. klama
               - gloss: [love!] that-named John is-coming.
     - .i'u:
-      - type: simple emotion indicator
       - definitions:
         - 1:
+          - type: simple emotion indicator
           - definition: Familiarity/Mystery: Expresses the feeling of knowing something well or being comfortable with it, or conversely, the feeling of something being unknown, strange, or enigmatic.
     - .a'a:
       - definitions:
@@ -1707,8 +1697,8 @@
     - ba'a:
       - definitions:
         - 1:
+          - notes: The scale "Expectation/Experience/Memory" expresses the speaker's relationship to the timeline of an event.
           - definition: Expectation: Indicates the speaker's anticipation or expectation of a future event.
-      - notes: The scale "Expectation/Experience/Memory" expresses the speaker's relationship to the timeline of an event.
     - ba'acu'i:
       - definitions:
         - 1:
@@ -1725,8 +1715,8 @@
     - su'a:
       - definitions:
         - 1:
+          - notes: Generalization/Particularization: Expresses the speaker's approach to formulating the statement. su'a can also be used as a discursive with slightly different meanings: "abstractly" for su'a and "concretely" or "in particular" for su'anai.
           - definition: Generalization: Indicates that the speaker is making a general statement or drawing a conclusion based on a pattern or a set of examples. It's similar to saying "generally" or "as a rule" in English.
-      - notes: Generalization/Particularization: Expresses the speaker's approach to formulating the statement. su'a can also be used as a discursive with slightly different meanings: "abstractly" for su'a and "concretely" or "in particular" for su'anai.
     - su'anai:
       - definitions:
         - 1:
@@ -1784,9 +1774,9 @@
         - 1:
           - definition: Statement: A general evidential indicating that the speaker is making a statement without specifying the basis or source of their knowledge. It can also be used when the basis for the statement doesn't fall into any of the other evidential categories.
     - ku'i:
-      - type: Commentary on Discourse
       - definitions:
         - 1:
+          - type: Commentary on Discourse
           - definition: However/But/In contrast - Signals a contrast or exception to the previous statement or argument. It indicates a shift in direction or a change of perspective.
           - examples:
             - 1:
@@ -1794,9 +1784,9 @@
               - translation: I'm a Lojbanic person in that I'm interested in Lojban; I don't speak it.
               - comment: Here, **ku'i** highlights the contrast between being interested in Lojban and not speaking it.
     - ji'a:
-      - type: Commentary on Discourse
       - definitions:
         - 1:
+          - type: Commentary on Discourse
           - definition: Additionally/Furthermore - Adds weight or provides further support to the previous statement or argument. It indicates a continuation or strengthening of the current line of thought.
           - examples:
             - 1:
@@ -1804,130 +1794,130 @@
               - translation: A hungry bear will eat even insects.
               - comment: ji'a emphasizes that the bear's hunger is so intense that it will eat anything, even insects.
     - si'a:
-      - type: Commentary on Discourse
       - definitions:
         - 1:
+          - type: Commentary on Discourse
           - definition: Similarly/Likewise - Indicates that the following statement is similar or analogous to the previous one. It suggests a parallel or comparison between two ideas.
     - mi'u:
-      - type: Commentary on Discourse
       - definitions:
         - 1:
+          - type: Commentary on Discourse
           - definition: Ditto - Repeats the previous statement or idea, often used in lists or tables to avoid redundancy.
     - po'o:
-      - type: Commentary on Discourse
       - definitions:
         - 1:
+          - type: Commentary on Discourse
           - definition: Uniquely/Only - Indicates that the associated statement is the only relevant or true case. It excludes other possibilities and emphasizes exclusivity.
           - examples:
             - 1:
               - lojban: mi po'o darxi le mi tamne fo le nazbi
               - translation: Only I (nobody else) hit my cousin on his nose.
     - va'i:
-      - type: Commentary on Words
       - definitions:
         - 1:
+          - type: Commentary on Words
           - definition: In other words/Rephrasing - Signals a rephrasing or clarification of the previous statement using different words but retaining the same meaning.
           - examples:
             - 1:
               - lojban: mi se slabu le ctuca .i va'i le ctuca cu slabu mi
               - translation: I am familiar with the teacher. In other words, the teacher is familiar to me.
     - va'inai:
-      - type: Commentary on Words
       - definitions:
         - 1:
+          - type: Commentary on Words
           - definition: Repeating: Indicates that the same idea is being repeated using the same words.
     - ta'u:
-      - type: Commentary on Words
       - definitions:
         - 1:
+          - type: Commentary on Words
           - definition: Expanding a tanru/Making a tanru - Indicates a shift between a concise but potentially ambiguous tanru and its more elaborate and explicit explanation.
     - ta'unai:
-      - type: Commentary on Words
       - definitions:
         - 1:
+          - type: Commentary on Words
           - definition: Making a tanru: Signals the opposite process, where a detailed explanation is being condensed into a shorter tanru.
     - ju'o:
-      - type: Commentary on Knowledge
       - definitions:
         - 1:
+          - type: Commentary on Knowledge
           - definition: Certainly/Uncertain - Expresses the speaker's degree of certainty or uncertainty about the truth of the associated statement.
     - ju'onai:
-      - type: Commentary on Knowledge
       - definitions:
         - 1:
+          - type: Commentary on Knowledge
           - definition: Uncertainty: Indicates a lack of certainty or doubt about the truth of the statement.
     - la'a:
-      - type: Commentary on Knowledge
       - definitions:
         - 1:
+          - type: Commentary on Knowledge
           - definition: Probably/Improbably - Expresses the speaker's assessment of the likelihood or probability of the associated statement being true.
     - la'anai:
-      - type: Commentary on Knowledge
       - definitions:
         - 1:
+          - type: Commentary on Knowledge
           - definition: Improbably: Indicates that the statement is unlikely or improbable.
     - ta'o:
-      - type: Discourse Management
       - definitions:
         - 1:
+          - type: Discourse Management
           - definition: By the way/Returning to point - Signals a digression or aside, often followed by a return to the main topic of discussion.
           - examples:
             - 1:
               - lojban: ca'o se menli jdice fu'e ta'o se rai leka kakne poi se curmi le glare donri noi rinka lonu la .alis. cu lifri leka djica lonu ri sipna kei gi'e bebna fu'o fi le jei lonu pluka fa lonu zbasu lo xrula linsi cu naku naku jalge lo raktu poi nu co'a sanli gi'e crepu lo xrula .icabo suksa fa lonu le pa blabi ractu ku noi se kanla lo xunblabi cu bajra ne'a la .alis.
               - translation: So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.
     - ta'onai:
-      - type: Discourse Management
       - definitions:
         - 1:
+          - type: Discourse Management
           - definition: Returning to point: Indicates a return to the main topic after a digression.
     - ra'u:
-      - type: Discourse Management
       - definitions:
         - 1:
+          - type: Discourse Management
           - definition: Chiefly/Equally/Incidentally - Indicates the relative importance of the associated statement within the discourse.
     - ra'ucu'i:
-      - type: Discourse Management
       - definitions:
         - 1:
+          - type: Discourse Management
           - definition: Equally: Suggests that the statement is of equal importance to other points in the discourse.
     - ra'unai:
-      - type: Discourse Management
       - definitions:
         - 1:
+          - type: Discourse Management
           - definition: Incidentally: Indicates that the statement is of lesser importance or is a side point.
     - mu'a:
-      - type: Discourse Management
       - definitions:
         - 1:
+          - type: Discourse Management
           - definition: For example/Omitting examples/End examples - Introduces examples, signals that examples are being omitted, or marks the end of a series of examples.
     - zu'u:
-      - type: Discourse Management
       - definitions:
         - 1:
+          - type: Discourse Management
           - definition: On the one hand/On the other hand - Presents contrasting viewpoints or alternatives within the discourse.
     - ke'u:
-      - type: Discourse Management
       - definitions:
         - 1:
+          - type: Discourse Management
           - definition: Repeating/Continuing - Indicates that the same idea will be expressed using different words or that the discourse will continue along the same line of thought.
     - ke'unai:
-      - type: Discourse Management
       - definitions:
         - 1:
+          - type: Discourse Management
           - definition: Furthermore: Signals that the content is new and the discourse is moving on to a different idea.
     - da'i:
-      - type: Discourse Management
       - definitions:
         - 1:
+          - type: Discourse Management
           - definition: Supposing/In fact - Marks a hypothetical scenario or supposition, contrasted with a statement of fact.
           - examples:
             - 1:
               - lojban: ganai da'i do viska le mi citno mensi gi ju'o do djuno le du'u ri pazvau
               - translation: If you were to see my younger sister, you would certainly know she is pregnant.
     - da'inai:
-      - type: Discourse Management
       - definitions:
         - 1:
+          - type: Discourse Management
           - definition: In fact: Emphasizes that the statement is based on reality or actual facts.
           - examples:
             - 1:
@@ -2072,9 +2062,9 @@
   - description: FAhA cmavo specify the direction of the imaginary journey taken from the speaker to the location of the event described by the bridi. They can be used alone or in combination with VA (distance) and ZAhO (event contour) cmavo to create complex spatial tenses.
   - constructs:
     - bu'u:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: coincident with: Indicates that the event happens at the same location as the speaker. This is the spatial equivalent of the temporal tense **ca** (present).
           - examples:
             - 1:
@@ -2082,14 +2072,14 @@
               - gloss: The man [front] [short] [down] [medium] [right] [long] [within] bites the dog.
               - comment: Here, **ca'u** indicates that the first leg of the imaginary journey is forward, in front of the speaker.
     - ti'a:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: behind: Indicates that the event happens behind the speaker, opposite the direction the speaker is facing.
     - zu'a:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: on the left of: Indicates that the event happens to the left of the speaker.
           - examples:
             - 1:
@@ -2101,9 +2091,9 @@
               - gloss: The man [left-short-distance] bites the dog.
               - comment: Here, **zu'avi** indicates that the event happens a short distance to the left of the speaker.
     - ri'u:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: on the right of: Indicates that the event happens to the right of the speaker.
           - examples:
             - 1:
@@ -2111,9 +2101,9 @@
               - gloss: The child [movement] [right] walks-on the ice.
               - comment: Here, **ri'u** combined with **mo'i** indicates that the child is walking towards the speaker's right side.
     - ga'u:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: above: Indicates that the event happens above the speaker.
           - examples:
             - 1:
@@ -2121,9 +2111,9 @@
               - gloss: The man [up] [left] bites the dog.
               - comment: Here, **ga'u** indicates that the first leg of the imaginary journey is upwards, above the speaker.
     - ni'a:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: below: Indicates that the event happens below the speaker.
           - examples:
             - 1:
@@ -2131,9 +2121,9 @@
               - gloss: The man [front] [short] [down] [medium] [right] [long] [within] bites the dog.
               - comment: Here, **ni'a** indicates that the second leg of the imaginary journey is downwards, below a point that is a short distance in front of the speaker.
     - ne'i:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: within: Indicates that the event happens inside of something.
           - examples:
             - 1:
@@ -2141,34 +2131,34 @@
               - gloss: The man [front] [short] [down] [medium] [right] [long] [within] bites the dog.
               - comment: Here, **ne'i** indicates that the event happens within something that is far to the right of a point below and in front of the speaker.
     - ru'u:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: surrounding: Indicates that the event happens all around the speaker.
     - pa'o:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: transfixing: Indicates that the event happens while passing through something.
     - ne'a:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: next to: Indicates that the event happens beside something else.
     - te'e:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: bordering: Indicates that the event happens at the edge or boundary of something.
     - re'o:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: adjacent to: Indicates that the event happens right next to something else, touching it.
     - fa'a:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: towards: Indicates movement towards a specific destination.
           - examples:
             - 1:
@@ -2176,29 +2166,29 @@
               - translation: ...and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway...
               - comment: Here, the speaker desires to leave the dark hall and go towards the garden, which is the destination.
     - to'o:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: away from: Indicates movement away from a specific origin point.
     - zo'i:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: approaching from: Indicates movement towards the speaker or the origin point of the imaginary journey.
     - ze'o:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: receding from: Indicates movement away from the speaker or the origin point of the imaginary journey.
     - zo'a:
-      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definitions:
         - 1:
+          - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
           - definition: tangential to: Indicates movement that passes by something without directly approaching or leaving it.
     - be'a:
-      - type: absolute or relative directions based on a compass or similar frame of reference
       - definitions:
         - 1:
+          - type: absolute or relative directions based on a compass or similar frame of reference
           - definition: north of: Indicates that the event happens to the north of the speaker or the origin point.
           - examples:
             - 1:
@@ -2206,19 +2196,19 @@
               - gloss: That-yonder [medium-space-interval-north] [space] [initiative] is-a-rock.
               - comment: Here, **be'a** indicates that the rock extends northward from a point near the speaker.
     - ne'u:
-      - type: absolute or relative directions based on a compass or similar frame of reference
       - definitions:
         - 1:
+          - type: absolute or relative directions based on a compass or similar frame of reference
           - definition: south of: Indicates that the event happens to the south of the speaker or the origin point.
     - du'a:
-      - type: absolute or relative directions based on a compass or similar frame of reference
       - definitions:
         - 1:
+          - type: absolute or relative directions based on a compass or similar frame of reference
           - definition: east of: Indicates that the event happens to the east of the speaker or the origin point.
     - vu'a:
-      - type: absolute or relative directions based on a compass or similar frame of reference
       - definitions:
         - 1:
+          - type: absolute or relative directions based on a compass or similar frame of reference
           - definition: west of: Indicates that the event happens to the west of the speaker or the origin point.
 - A:
   - constructs:

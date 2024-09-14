@@ -1,3 +1,10 @@
+---
+title: Cmavo dictionary
+icon: 🧩
+meta.type: article
+meta.description: A more user-friendly list of cmavo definitions with examples
+---
+
 - KOhA:
   - constructs:
     - mi:
@@ -955,51 +962,41 @@
         - 1:
           - type: modal tag
           - source: nibli
-          - definition: Logically entailed by/because of X, Y (where X is the premise and Y is the conclusion).
+          - definition: [bridi] happens logically entailed by/because of event [sumti].
           - examples:
             - 1:
-              - lojban: Ni'i le nu do nanmu, do ka'e jbena
-              - translation: Because you are a man, you can be born.
-    - pa'a:
-      - definitions:
-        - 1:
-          - type: modal tag
-          - source: panra
-          - definition: In addition to/as well as X, Y (where X and Y are sumti).
-          - examples:
-            - 1:
-              - lojban: Pa'a le gerku, mi viska le mlatu
-              - translation: In addition to the dog, I see the cat.
+              - lojban: ni'i le nu do remna kei do ka'e jbena
+              - translation: Because you are a human, you can be born.
     - pa'u:
       - definitions:
         - 1:
           - type: modal tag
           - source: pagbu
-          - definition: With component/part X, Y (where X is the part and Y is the whole).
+          - definition: [sumti] ne pa'u [sumti] = [sumti], of which [sumti] is a part.
           - examples:
             - 1:
-              - lojban: Pa'u le zdani, le vorme cu stuzi
-              - translation: With the house as a component, the door is located. / The door is part of the house.
-    - pi'o:
+              - lojban: le skami ne pa'u le vidni cu spofu
+              - translation: The computer, of which the mointor is a part, is broken.
+    - se pi'o:
       - definitions:
         - 1:
           - type: modal tag
-          - source: pilno
-          - definition: Used by X, for the purpose of Y, Z (where X is the user, Y is the purpose, and Z is the tool).
+          - source: se pilno
+          - definition: [sumti] ne se pi'o [sumti] = [sumti] makes the event of the bridi happen by using the tool [sumti]. 
           - examples:
             - 1:
-              - lojban: Pi'o la .djan., le penbi cu ciska le cukta
-              - translation: Used by John, the pen writes the book.
-    - po'i:
+              - lojban: mi ne se pi'o le forca cu citka
+              - translation: I eat by using a fork.
+    - se po'i:
       - definitions:
         - 1:
           - type: modal tag
-          - source: porsi
-          - definition: In the sequence/order of X, Y (where X is the sequence and Y is the thing sequenced).
+          - source: se porsi
+          - definition: [sumti] ne se po'i [sumti] = the sequence [sumti], which is formed by rules [sumti].
           - examples:
             - 1:
-              - lojban: Po'i le liste, la .djan. cmene pamoi
-              - translation: In the sequence of the list, John's name comes first.
+              - lojban: la .alis. ce'o la .bob. ce'o la .cen. vu'o ne le ka ce'u dzena ce'u cu te bridi lo ka sinma  
+              - translation: The sequence of Alice, Bob, and Sher, ordered from ancestors to descendants, is such that each person respects the next one in the sequence.
     - pu'a:
       - definitions:
         - 1:
