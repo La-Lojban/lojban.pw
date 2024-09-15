@@ -1083,7 +1083,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
     - 1:
       - type: modal tag
       - source: sarcu
-      - definition: Necessarily/required by X, under conditions Y, Z (where X is the thing requiring, Y are the conditions, and Z is the thing required).
+      - definition: with event [sumti] being necessary, the event of [bridi] happens.
       - examples:
         - 1:
           - lojban: sau lo nu carvi kei le spati cu banro
