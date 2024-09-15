@@ -5,9 +5,9 @@ meta.type: article
 meta.description: A more user-friendly list of cmavo definitions with examples
 ---
 
-# KOhA
+## KOhA
 
-## Constructs
+### Constructs
 
 - mi:
   - definitions:
@@ -287,9 +287,9 @@ meta.description: A more user-friendly list of cmavo definitions with examples
           - lojban: le ka ce'u gleki
           - translation: The property of being happy
 
-# NU
+## NU
 
-## Constructs
+### Constructs
 
 - nu:
   - definitions:
@@ -346,9 +346,9 @@ meta.description: A more user-friendly list of cmavo definitions with examples
           - translation: I know the predication that Frank is a fool
           - comment: This signifies that the speaker knows the truth of the statement "Frank is a fool".
 
-# LE
+## LE
 
-## Constructs
+### Constructs
 
 - le:
   - definitions:
@@ -424,9 +424,9 @@ meta.description: A more user-friendly list of cmavo definitions with examples
           - translation: The stereotypical movie is made in Hollywood.
           - comment: This statement is probably true to an American, but might be false (not the stereotype) to someone living in Antarctica.
 
-# BAI
+## BAI
 
-## Constructs
+### Constructs
 
 - se ba'i:
   - definitions:
@@ -936,9 +936,9 @@ meta.description: A more user-friendly list of cmavo definitions with examples
           - lojban: Zu'e le zdani mi klama le karce
           - translation: With the goal of getting home, I go by car.
 
-# NAI
+## NAI
 
-## Constructs
+### Constructs
 
 - nai:
   - definitions:
@@ -949,9 +949,9 @@ meta.description: A more user-friendly list of cmavo definitions with examples
     - 1:
       - definition: indicates a middle position on the scale. For example, .uicui expresses neither happiness nor unhappiness.
 
-# UI
+## UI
 
-## Constructs
+### Constructs
 
 - ki'a:
   - definitions:
@@ -1628,9 +1628,9 @@ meta.description: A more user-friendly list of cmavo definitions with examples
           - lojban: ganai da'inai do viska le mi citno mensi gi ju'o do djuno le du'u ri pazvau
           - translation: If you saw my younger sister, you would certainly know she is pregnant.
 
-# COI
+## COI
 
-## Constructs
+### Constructs
 
 - coi:
 - co'o:
@@ -1751,9 +1751,9 @@ meta.description: A more user-friendly list of cmavo definitions with examples
     - 1:
       - definition: serves for self-identification rather than addressing the listener.
 
-# DOI
+## DOI
 
-## Constructs
+### Constructs
 
 - doi:
   - definitions:
@@ -1770,13 +1770,13 @@ meta.description: A more user-friendly list of cmavo definitions with examples
           - translation: Hey, you!
           - comment: asking for the name or identity of someone
 
-# FAhA
+## FAhA
 
-## Description
+### Description
 
 FAhA cmavo specify the direction of the imaginary journey taken from the speaker to the location of the event described by the bridi. They can be used alone or in combination with VA (distance) and ZAhO (event contour) cmavo to create complex spatial tenses.
 
-## Constructs
+### Constructs
 
 - bu'u:
   - definitions:
@@ -1907,9 +1907,9 @@ FAhA cmavo specify the direction of the imaginary journey taken from the speaker
     - 1:
       - definition: west of: Indicates that the event happens to the west of the speaker or the origin point.
 
-# A
+## A
 
-## Constructs
+### Constructs
 
 - .enai:
   - definitions:
@@ -1950,13 +1950,13 @@ FAhA cmavo specify the direction of the imaginary journey taken from the speaker
     - 1:
       - definition: signifies "neither ... nor ..." but with a focus on the first sumti. It is rarely used due to the availability of ".anai" which is shorter and expresses the same logical meaning.
 
-# ZAhO
+## ZAhO
 
-## Description
+### Description
 
 The cmavo in selma'o ZAhO express the nuances of how an event unfolds over time, capturing aspects like its beginning, continuation, and end. These are often referred to as "event contours."
 
-## Constructs
+### Constructs
 
 - pu'o:
   - definitions:
