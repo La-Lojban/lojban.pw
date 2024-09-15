@@ -1086,8 +1086,11 @@ meta.description: A more user-friendly list of cmavo definitions with examples
       - definition: Necessarily/required by X, under conditions Y, Z (where X is the thing requiring, Y are the conditions, and Z is the thing required).
       - examples:
         - 1:
-          - lojban: Sau le zdani, le vorme cu stuzi
-          - translation: Necessarily with the house, the door is located. / The house requires a door.
+          - lojban: sau lo nu carvi kei le spati cu banro
+          - translation: With rain being necessary, the plant grows.
+        - 2:
+          - lojban: sau lo nu troci kei da snada
+          - translation: With effort being necessary, one succeeds.
 - si'u:
   - definitions:
     - 1:
