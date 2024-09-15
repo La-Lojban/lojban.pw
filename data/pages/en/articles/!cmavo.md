@@ -12,6 +12,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - mi:
   - definitions:
     - 1:
+      - type: personal pro-sumti
       - definition: This pro-sumti refers to the speaker of the utterance. It may encompass the speaker alone or include others whom the speaker represents (e.g., a group or organization). The referent of **mi** can be either an individual or a mass, depending on context.
       - examples:
         - 1:
@@ -20,6 +21,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - do:
   - definitions:
     - 1:
+      - type: personal pro-sumti
       - definition: This pro-sumti refers to the listener or listeners of the utterance. Similar to **mi**, the referent can be either an individual or a mass, depending on the context.
       - examples:
         - 1:
@@ -28,6 +30,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - mi'o:
   - definitions:
     - 1:
+      - type: personal pro-sumti
       - definition: This pro-sumti refers to the mass entity formed by the speaker and the listener(s) together and no one else. It always represents a mass, incorporating the properties and characteristics of both individuals.
       - examples:
         - 1:
@@ -36,6 +39,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - mi'a:
   - definitions:
     - 1:
+      - type: personal pro-sumti
       - definition: This pro-sumti refers to the mass entity formed by the speaker and others, excluding the listener(s). It always represents a mass, encompassing the collective properties and characteristics of the individuals involved.
       - examples:
         - 1:
@@ -44,6 +48,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ma'a:
   - definitions:
     - 1:
+      - type: personal pro-sumti
       - definition: This pro-sumti refers to the mass entity formed by the speaker, the listener(s), and any other unspecified individuals. It always represents a mass, encompassing the collective properties and characteristics of all individuals involved.
       - examples:
         - 1:
@@ -52,6 +57,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - do'o:
   - definitions:
     - 1:
+      - type: personal pro-sumti
       - definition: This pro-sumti refers to the mass entity formed by the listener(s) and others, excluding the speaker. It always represents a mass, encompassing the collective properties and characteristics of the individuals involved.
       - examples:
         - 1:
@@ -60,6 +66,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ko:
   - definitions:
     - 1:
+      - type: personal pro-sumti
       - definition: This pro-sumti is equivalent to **do** but is used specifically in commands or imperatives, indicating the listener should take action to make the statement true.
       - examples:
         - 1:
@@ -68,6 +75,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ti:
   - definitions:
     - 1:
+      - type: demonstrative pro-sumti
       - definition: This pro-sumti refers to a specific object or location near the speaker, typically something that can be pointed to.
       - examples:
         - 1:
@@ -76,6 +84,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ta:
   - definitions:
     - 1:
+      - type: demonstrative pro-sumti
       - definition: Similar to **ti**, this pro-sumti refers to a specific object or location, but one that is closer to the listener than the speaker.
       - examples:
         - 1:
@@ -84,6 +93,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - tu:
   - definitions:
     - 1:
+      - type: demonstrative pro-sumti
       - definition: This pro-sumti refers to a specific object or location that is distant from both the speaker and the listener.
       - examples:
         - 1:
@@ -92,6 +102,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - di'u:
   - definitions:
     - 1:
+      - type: utterance pro-sumti
       - definition: This pro-sumti refers to the most recently completed utterance in the discourse.
       - examples:
         - 1:
@@ -100,14 +111,17 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - de'u:
   - definitions:
     - 1:
+      - type: utterance pro-sumti
       - definition: This pro-sumti refers to an earlier utterance in the discourse, further back than the one referenced by **di'u**.
 - da'u:
   - definitions:
     - 1:
+      - type: utterance pro-sumti
       - definition: This pro-sumti refers to a much earlier utterance in the discourse, further back than the one referenced by **de'u**.
 - di'e:
   - definitions:
     - 1:
+      - type: utterance pro-sumti
       - definition: This pro-sumti refers to the next utterance in the discourse, the one that will follow the current utterance.
       - examples:
         - 1:
@@ -116,14 +130,17 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - de'e:
   - definitions:
     - 1:
+      - type: utterance pro-sumti
       - definition: This pro-sumti refers to a later utterance in the discourse, further ahead than the one referenced by **di'e**.
 - da'e:
   - definitions:
     - 1:
+      - type: utterance pro-sumti
       - definition: This pro-sumti refers to a much later utterance in the discourse, further ahead than the one referenced by **de'e**.
 - dei:
   - definitions:
     - 1:
+      - type: utterance pro-sumti
       - definition: This pro-sumti refers to the current utterance, the one being spoken or written at the moment.
       - examples:
         - 1:
@@ -132,10 +149,12 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - do'i:
   - definitions:
     - 1:
+      - type: utterance pro-sumti
       - definition: This pro-sumti refers to some unspecified utterance within the discourse, without specifying its position or content.
 - ko'a:
   - definitions:
     - 1:
+      - type: assignable pro-sumti
       - definition: This pro-sumti can be assigned to any sumti using the cmavo **goi** and then used to refer to that sumti for the remainder of the discourse or until reassigned.
       - examples:
         - 1:
@@ -144,42 +163,52 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ko'e:
   - definitions:
     - 1:
+      - type: assignable pro-sumti
       - definition: Similar to **ko'a**, this pro-sumti can be assigned to the second selected sumti using **goi** and later used to refer to that sumti.
 - ko'i:
   - definitions:
     - 1:
+      - type: assignable pro-sumti
       - definition: Similar to **ko'a**, this pro-sumti can be assigned to the third selected sumti using **goi** and later used to refer to that sumti.
 - ko'o:
   - definitions:
     - 1:
+      - type: assignable pro-sumti
       - definition: Similar to **ko'a**, this pro-sumti can be assigned to the 4th selected sumti using **goi** and later used to refer to that sumti.
 - ko'u:
   - definitions:
     - 1:
+      - type: assignable pro-sumti
       - definition: Similar to **ko'a**, this pro-sumti can be assigned to the 5th selected sumti using **goi** and later used to refer to that sumti.
 - fo'a:
   - definitions:
     - 1:
+      - type: assignable pro-sumti
       - definition: Similar to **ko'a**, this pro-sumti can be assigned to the 6th selected sumti using **goi** and later used to refer to that sumti.
 - fo'e:
   - definitions:
     - 1:
+      - type: assignable pro-sumti
       - definition: Similar to **ko'a**, this pro-sumti can be assigned to the 7th selected sumti using **goi** and later used to refer to that sumti.
 - fo'i:
   - definitions:
     - 1:
+      - type: assignable pro-sumti
       - definition: Similar to **ko'a**, this pro-sumti can be assigned to the 8th selected sumti using **goi** and later used to refer to that sumti.
 - fo'o:
   - definitions:
     - 1:
+      - type: assignable pro-sumti
       - definition: Similar to **ko'a**, this pro-sumti can be assigned to the 9th selected sumti using **goi** and later used to refer to that sumti.
 - fo'u:
   - definitions:
     - 1:
+      - type: assignable pro-sumti
       - definition: Similar to **ko'a**, this pro-sumti can be assigned to the 10th selected sumti using **goi** and later used to refer to that sumti.
 - ri:
   - definitions:
     - 1:
+      - type: anaphoric pro-sumti
       - definition: This pro-sumti refers to the last complete sumti appearing before the **ri**.
       - examples:
         - 1:
@@ -188,14 +217,17 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ra:
   - definitions:
     - 1:
+      - type: anaphoric pro-sumti
       - definition: This pro-sumti repeats a previously used sumti but is more vague than **ri**, requiring the listener to infer the referent from context. It cannot refer to the last complete sumti if **ri** is already used.
 - ru:
   - definitions:
     - 1:
+      - type: anaphoric pro-sumti
       - definition: Similar to **ra**, this pro-sumti repeats a previously used sumti but with even greater vagueness, referring to a sumti further back in the discourse than **ra**.
 - zo'e:
   - definitions:
     - 1:
+      - type: indefinite pro-sumti
       - definition: This pro-sumti represents an unspecified value that would make the bridi true.
       - examples:
         - 1:
@@ -204,6 +236,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - zu'i:
   - definitions:
     - 1:
+      - type: indefinite pro-sumti
       - definition: This pro-sumti represents the typical value for a given place in the bridi, based on the listener's understanding of the context.
       - examples:
         - 1:
@@ -212,6 +245,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - zi'o:
   - definitions:
     - 1:
+      - type: indefinite pro-sumti
       - definition: This pro-sumti represents a nonexistent value, indicating the specific place in the selbri is irrelevant to the relationship being expressed.
       - examples:
         - 1:
@@ -220,6 +254,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - vo'a:
   - definitions:
     - 1:
+      - type: reflexive pro-sumti
       - definition: This pro-sumti refers to the sumti occupying the x1 place of the same bridi.
       - examples:
         - 1:
@@ -228,6 +263,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - vo'e:
   - definitions:
     - 1:
+      - type: reflexive pro-sumti
       - definition: This pro-sumti refers to the sumti occupying the x2 place of the same bridi.
       - examples:
         - 1:
@@ -236,18 +272,22 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - vo'i:
   - definitions:
     - 1:
+      - type: reflexive pro-sumti
       - definition: This pro-sumti functions similarly to **vo'a** and **vo'e** but refers to the sumti occupying the x3 place of the same bridi.
 - vo'o:
   - definitions:
     - 1:
+      - type: reflexive pro-sumti
       - definition: This pro-sumti functions similarly to **vo'a** and **vo'e** but refers to the sumti occupying the x4 place of the same bridi.
 - vo'u:
   - definitions:
     - 1:
+      - type: reflexive pro-sumti
       - definition: This pro-sumti functions similarly to **vo'a** and **vo'e** but refers to the sumti occupying the x5 place of the same bridi.
 - da:
   - definitions:
     - 1:
+      - type: bound variable pro-sumti
       - definition: This pro-sumti acts as a variable within a prenex, typically bound by a quantifier like **ro** (all) or **su'o** (at least one).
       - examples:
         - 1:
@@ -257,14 +297,17 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - de:
   - definitions:
     - 1:
+      - type: bound variable pro-sumti
       - definition: This pro-sumti function similarly to **da** but is used for the second bound variable in a prenex.
 - di:
   - definitions:
     - 1:
+      - type: bound variable pro-sumti
       - definition: This pro-sumti function similarly to **da** but is used for the third bound variable in a prenex.
 - ke'a:
   - definitions:
     - 1:
+      - type: pro-sumti
       - definition: This pro-sumti is used within relative clauses to refer to the sumti to which the clause is attached (the "relativized sumti").
       - examples:
         - 1:
@@ -273,6 +316,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ma:
   - definitions:
     - 1:
+      - type: pro-sumti
       - definition: This pro-sumti is used to form sumti questions, asking for a sumti to fill the place where **ma** appears.
       - examples:
         - 1:
@@ -281,6 +325,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ce'u:
   - definitions:
     - 1:
+      - type: pro-sumti
       - definition: This pro-sumti is used within abstraction bridi, particularly with **ka** (property) abstractions, to indicate the sumti whose property is being abstracted.
       - examples:
         - 1:
@@ -294,6 +339,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - nu:
   - definitions:
     - 1:
+      - type: abstractor
+      - place structure: x1 is an event of (the bridi)
       - definition: This abstractor forms an event abstraction. It refers to the entire event or state described by the bridi, encapsulating all its aspects and participants as a single entity.
       - examples:
         - 1:
@@ -303,6 +350,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ka:
   - definitions:
     - 1:
+      - type: abstractor
+      - place structure: x1 is a property of (the bridi)
       - definition: This abstractor forms a property abstraction. It refers to a property or quality possessed by one or more of the sumti (arguments) within the bridi. The specific sumti whose property is being referenced is indicated by the pro-sumti **ce'u** within the abstraction.
       - examples:
         - 1:
@@ -312,6 +361,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ni:
   - definitions:
     - 1:
+      - type: abstractor
+      - place structure: x1 is the amount of (the bridi) on scale x2
       - definition: This abstractor forms an amount abstraction. It refers to the measurable quantity or degree to which the bridi holds true. It requires a second place to specify the scale or dimension on which the amount is measured.
       - examples:
         - 1:
@@ -321,6 +372,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - jei:
   - definitions:
     - 1:
+      - type: abstractor
+      - place structure: x1 is the truth value of (the bridi) under epistemology x2
       - definition: This abstractor forms a truth-value abstraction. It expresses the degree of truth of the bridi under a specific epistemological framework. The resulting value is a number between 0 (false) and 1 (true), enabling representations of fuzzy logic.
       - examples:
         - 1:
@@ -330,6 +383,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - si'o:
   - definitions:
     - 1:
+      - type: abstractor
+      - place structure: x1 is the idea/concept of (the bridi) in the mind of x2
       - definition: This abstractor forms a concept abstraction. It refers to a mental image, idea, or concept held in someone's mind, corresponding to the event or state described by the bridi. It requires a second place to specify the mind in which the concept resides.
       - examples:
         - 1:
@@ -339,6 +394,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - du'u:
   - definitions:
     - 1:
+      - type: abstractor
+      - place structure: x1 is the predication (the bridi), expressed in sentence x2
       - definition: This abstractor forms a predication abstraction. It refers to the predication or statement itself, as expressed in a particular sentence. It is often used with selbri expressing propositional attitudes like "knowing" or "believing".
       - examples:
         - 1:
@@ -353,6 +410,16 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - le:
   - definitions:
     - 1:
+      - type: descriptor
+      - implicit quantifiers:
+        - outer:
+          - ro:
+            - translation: all
+            - comment: indicating the speaker refers to all of the things they have in mind that fit the description.
+        - inner:
+          - su'o:
+            - translation: at least one
+            - comment: implying the speaker has at least one specific thing in mind that they are describing as X.
       - definition: The sumti "le X" refers to one or more specific things that the speaker has in mind and chooses to describe as X (where X is a selbri), regardless of the actual truth of that description.
       - examples:
         - 1:
@@ -364,6 +431,16 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - lo:
   - definitions:
     - 1:
+      - type: descriptor
+      - implicit quantifiers:
+        - outer:
+          - su'o:
+            - translation: at least one
+            - comment: implying there exists at least one thing that truly is X.
+        - inner:
+          - ro:
+            - translation: all
+            - comment: referring to all the things that truly are X.
       - definition: The sumti "lo X" refers to one or more of all the things that truly are X (where X is a selbri). It asserts the existence of things that actually fit the description. Equivalent to bare selbri without a gadri
       - examples:
         - 1:
@@ -380,6 +457,16 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - lo'e:
   - definitions:
     - 1:
+      - type: descriptor
+      - implicit quantifiers:
+        - outer:
+          - su'o:
+            - translation: at least one
+            - comment: implying there exists at least one typical instance.
+        - inner:
+          - ro:
+            - translation: all
+            - comment: encompassing all the characteristics of a typical instance.
       - definition: The sumti "lo'e X" refers to the typical instance of X, an abstract or imaginary entity that best exemplifies the characteristics of the set of all things that are truly X.
       - examples:
         - 1:
@@ -389,6 +476,16 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - lei:
   - definitions:
     - 1:
+      - type: descriptor
+      - implicit quantifiers:
+        - outer:
+          - pisu'o:
+            - translation: some part of
+            - comment: indicating the speaker refers to some part of the mass.
+        - inner:
+          - su'o:
+            - translation: at least one
+            - comment: implying the speaker has at least one specific thing in mind that they are describing as X to form the mass.
       - definition: The sumti "lei X" refers to a mass entity formed from one or more specific things that the speaker has in mind and describes as X, regardless of the actual truth of that description.
       - examples:
         - 1:
@@ -398,6 +495,16 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - loi:
   - definitions:
     - 1:
+      - type: descriptor
+      - implicit quantifiers:
+        - outer:
+          - pisu'o:
+            - translation: some part of
+            - comment: indicating reference to some portion of the mass.
+        - inner:
+          - ro:
+            - translation: all
+            - comment: encompassing all the things that truly are X to form the mass.
       - definition: The sumti "loi X" refers to some part of the mass entity formed from all the things that truly are X.
       - examples:
         - 1:
@@ -407,6 +514,16 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - le'i:
   - definitions:
     - 1:
+      - type: descriptor
+      - implicit quantifiers:
+        - outer:
+          - piro:
+            - translation: the whole of
+            - comment: referring to the entire set.
+        - inner:
+          - su'o:
+            - translation: at least one
+            - comment: implying the speaker has at least one specific thing in mind that they are describing as X to form the set.
       - definition: The sumti "le'i X" refers to the set of all things that the speaker has in mind and describes as X, regardless of the actual truth of that description, treated as a set with its own properties.
       - examples:
         - 1:
@@ -416,6 +533,16 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - le'e:
   - definitions:
     - 1:
+      - type: descriptor
+      - implicit quantifiers:
+        - outer:
+          - ro:
+            - translation: all
+            - comment: encompassing all the characteristics of the stereotypical instance.
+        - inner:
+          - su'o:
+            - translation: at least one
+            - comment: implying the speaker has at least one specific thing in mind that they are describing as X to form the stereotype.
       - definition: The sumti "le'e X" refers to the stereotypical instance of X, an abstract or imaginary entity that best exemplifies the characteristics of the set of those things that the speaker has in mind and describes as X.
       - examples:
         - 1:
@@ -431,6 +558,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - se ba'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: se basti
       - definition: [sumti] ne se ba'i [sumti] = [sumti] instead of [sumti]. Indicates substitution or replacement.
       - examples:
         - 1:
@@ -439,6 +568,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - bai:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: bapli
       - definition: [bridi] happens due to the compelling force of [sumti] (the source of compulsion).
       - examples:
         - 1:
@@ -447,6 +578,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - bau:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: bangu
       - definition: the concept [bridi] is defined in the language/by means of the language [sumti].
       - examples:
         - 1:
@@ -455,6 +588,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - be'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: benji
       - definition: [sumti] is sent/transmitted by sender [sumti].
       - examples:
         - 1:
@@ -463,6 +598,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ca'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: catni
       - definition: By the authority of [sumti] the event of [bridi] happens.
       - examples:
         - 1:
@@ -471,6 +608,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - se cau:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: se claxu
       - definition: Lacking/without property [sumti], the event of [bridi] happens.
       - examples:
         - 1:
@@ -479,6 +618,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ci'e:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: ciste
       - definition: [sumti] ne ci'e [sumti] = rules [sumti] are in the system/context of [sumti]
       - examples:
         - 1:
@@ -487,6 +628,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - se ci'o:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: cinmo
       - definition: [sumti] ne se ci'o [sumti] = [sumti] feels emotion described as property [sumti]
       - examples:
         - 1:
@@ -495,6 +638,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ci'u:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: ckilu
       - definition: [bridi] is measured on the scale identified by property [sumti]
       - examples:
         - 1:
@@ -503,6 +648,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - cu'u:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: cusku
       - definition: [sumti] ne cu'u [sumti] = [sumti] is expressed/said by [sumti]
       - examples:
         - 1:
@@ -511,6 +658,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - de'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: detri
       - definition: the event of [bridi] is dated by number [sumti]. If one number is used it is assumed to be the day of a month
       - examples:
         - 1:
@@ -522,6 +671,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - se di'o:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: se diklo
       - definition: [sumti] pe se di'o [sumti] = [sumti] that is at the location/locus [sumti]
       - examples:
         - 1:
@@ -530,6 +681,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - do'e:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: co'e
       - definition: X is vaguely/generally related to Y (where X and Y are sumti).
       - examples:
         - 1:
@@ -538,6 +691,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - du'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: dunli
       - definition: [sumti] ne du'i [sumti] = [sumti] as much as/equally to [sumti] (where [bridi] is the standard of comparison).
       - examples:
         - 1:
@@ -546,6 +701,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - du'o:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: djuno
       - definition: [bridi] is true according to the knowledge of [sumti].
       - examples:
         - 1:
@@ -554,6 +711,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - fau:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: fasnu
       - definition: In the event/case of [sumti], the event of [bridi] happens.
       - examples:
         - 1:
@@ -562,6 +721,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - fi'e:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: finti
       - definition: [sumti] ne [sumti] = [sumti] created/invented by [sumti].
       - examples:
         - 1:
@@ -570,6 +731,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ga'a:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: zgana
       - definition: As observed/seen by [sumti], the event of [bridi] happens
       - examples:
         - 1:
@@ -578,6 +741,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - gau:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: gasnu
       - definition: With [sumti] as the agent/actor, the event of [bridi] happens.
       - examples:
         - 1:
@@ -586,6 +751,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ja'e:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: jalge
       - definition: As a result/consequence of [sumti], the event of [bridi] happens.
       - examples:
         - 1:
@@ -594,6 +761,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ja'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: javni
       - definition: According to the rule/law [sumti], the event of [bridi] happens.
       - examples:
         - 1:
@@ -602,6 +771,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ji'e:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: jimte
       - definition: [sumti] ne ji'e [sumti] = [sumti] limited by [sumti] is described in [bridi].
       - examples:
         - 1:
@@ -610,6 +781,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ji'o:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: jitro
       - definition: [sumti] ne ji'o [sumti] = [sumti] under the direction/control of [sumti] does what [bridi] described.
       - examples:
         - 1:
@@ -618,6 +791,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ji'u:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: jicmu
       - definition: Based on the assumption/support of X, Y (where X is the assumption and Y is the thing based on it).
       - examples:
         - 1:
@@ -626,6 +801,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - kai:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: ckaji
       - definition: [sumti] pe kai [sumti] = property [sumti] that [sumti] manifests.
       - examples:
         - 1:
@@ -634,6 +811,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - se ka'a:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: klama
       - definition: [sumti] ne se ka'a [sumti] = [sumti] coming to [sumti] does what [bridi] describes.
       - examples:
         - 1:
@@ -642,6 +821,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - se ka'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: se krati
       - definition: [sumti] ne se ka'i [sumti] = [sumti] representing/on behalf of [sumti] does what [bridi] describes.
       - examples:
         - 1:
@@ -650,6 +831,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ki'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: ckini
       - definition: [sumti] ne ki'i [sumti] = [sumti] that is specifically associated with [sumti].
       - examples:
         - 1:
@@ -658,6 +841,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ki'u:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: krinu
       - definition: With the justification/reason of [sumti], [bridi] happens.
       - examples:
         - 1:
@@ -666,6 +851,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - koi:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: korbi
       - definition: [bridi] is bounded by/has the border [sumti].
       - examples:
         - 1:
@@ -674,6 +861,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ku'u:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: kulnu
       - definition: In the culture/society of X, Y (where X is the culture and Y is the thing related to it).
       - examples:
         - 1:
@@ -682,6 +871,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - la'u:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: klani
       - definition: With the quantity/amount of X, Y (where X is the quantity and Y is the thing quantified).
       - examples:
         - 1:
@@ -690,6 +881,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - le'a:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: klesi
       - definition: [sumti] ne le'a [sumti] = [sumti] that is in category/cetegorized by [sumti].
       - examples:
         - 1:
@@ -698,6 +891,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - li'e:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: lidne
       - definition: [sumti] pe li'e [sumti] = [sumti] that is followed by [sumti] in sequence.
       - examples:
         - 1:
@@ -706,6 +901,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - se ma'e:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: se marji
       - definition: [sumti] ne se ma'e [sumti] = [sumti] made of/composed of material [sumti].
       - examples:
         - 1:
@@ -714,6 +911,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ma'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: manri
       - definition: [bridi] happens in the reference frame [sumti].
       - examples:
         - 1:
@@ -722,6 +921,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - se mau:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: se zmadu
       - definition: [sumti] ne se mau [sumti] = [sumti] exceeds [sumti] in what [bridi] describes.
       - examples:
         - 1:
@@ -730,6 +931,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - se me'a:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: se mleca
       - definition: [sumti] ne se me'a [sumti] = [sumti] is less than [sumti] in what [bridi] describes.
       - examples:
         - 1:
@@ -738,6 +941,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - me'e:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: cmene
       - definition: [sumti] ne me'e [sumti] = [sumti] named as [sumti] (quotation)
       - examples:
         - 1:
@@ -746,6 +951,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - mu'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: mukti
       - definition: Motivated by/having the motive of [sumti] the event of [bridi] happens
       - examples:
         - 1:
@@ -754,6 +961,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - mu'u:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: mupli
       - definition: [sumti] ne mu'u [sumti] = property [sumti] exemplified by [sumti].
       - examples:
         - 1:
@@ -762,6 +971,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ni'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: nibli
       - definition: [bridi] happens logically entailed by/because of event [sumti].
       - examples:
         - 1:
@@ -770,6 +981,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - pa'u:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: pagbu
       - definition: [sumti] ne pa'u [sumti] = [sumti], of which [sumti] is a part.
       - examples:
         - 1:
@@ -778,6 +991,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - se pi'o:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: se pilno
       - definition: [sumti] ne se pi'o [sumti] = [sumti] makes the event of the bridi happen by using the tool [sumti].
       - examples:
         - 1:
@@ -786,6 +1001,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - se po'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: se porsi
       - definition: [sumti] ne se po'i [sumti] = the sequence [sumti], which is formed by rules [sumti].
       - examples:
         - 1:
@@ -794,6 +1011,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - pu'a:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: pluka
       - definition: [sumti] ne pu'a [sumti] = [sumti], which is opleasant to [sumti].
       - examples:
         - 1:
@@ -802,38 +1021,48 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - se pu'e:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: se pruce
       - definition: [sumti] ne se pu'e [sumti] = the process [sumti] with inputs [sumti].
       - examples:
         - 1:
-          - lojban: Pu'e le ctuca mi djuno le lojbo
-          - translation: By the process of teaching, I know Lojban.
-- ra'a:
+          - lojban: le te jukpa ne se pu'e lo sunga cu nandu
+          - translation: The process of cooking with garlic as input is hard.
+- se ra'a:
   - definitions:
     - 1:
-      - definition: Pertaining to/concerning X, Y (where X is the topic and Y is the thing related to it).
+      - type: modal tag
+      - source: se srana
+      - definition: pertaining to/concerning [sumti].
       - examples:
         - 1:
-          - lojban: Ra'a le cukta, mi tavla do
-          - translation: Concerning the book, I speak to you.
+          - lojban: se ra'a le spofu patxu pu snuti pe'i
+          - translation: Concerning the broken pot, I think it was an accident.
 - ra'i:
   - definitions:
     - 1:
-      - definition: From the source/origin of X, Y (where X is the source and Y is the thing originating there).
+      - type: modal tag
+      - source: krasi
+      - definition: from the source/origin of/originating from [sumti].
       - examples:
         - 1:
-          - lojban: Ra'i le zdani mi klama le zarci
-          - translation: From the house as the origin, I go to the store.
+          - lojban: mi pu ganse le pluka panci pe ra'i le purdi
+          - translation: I felt a pleasant smell originating from the garden.
 - rai:
   - definitions:
     - 1:
-      - definition: With the superlative/extremum of X, being the Y-est among the set Z, [something] does/is ... (where X is the property, Y is the extremum type, and Z is the set).
+      - type: modal tag
+      - source: traji
+      - definition: [sumti] ne rai [sumti] = [sumti], of which [sumti] is superlative in that [bridi] describes..
       - examples:
         - 1:
-          - lojban: Rai le barda le zdani cu melbi
-          - translation: With the property of being big, the house is beautiful. / The house is beautiful in its bigness.
+          - lojban: mi nelci le'e jbari ne rai lo'e fragari
+          - translation: I like berries with strawberries being my favorite ones.
 - ri'a:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: rinka
       - definition: Caused by/with the physical cause of X, Y (where X is the cause and Y is the effect).
       - examples:
         - 1:
@@ -842,6 +1071,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ri'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: lifri
       - definition: Experienced by X, Y (where X is the experiencer and Y is the experience).
       - examples:
         - 1:
@@ -850,6 +1081,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - sau:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: sarcu
       - definition: Necessarily/required by X, under conditions Y, Z (where X is the thing requiring, Y are the conditions, and Z is the thing required).
       - examples:
         - 1:
@@ -858,6 +1091,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - si'u:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: sidju
       - definition: Aided by/with the assistance of X, Y (where X is the helper and Y is the thing helped).
       - examples:
         - 1:
@@ -866,6 +1101,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ta'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: tadji
       - definition: By the method/technique of X, Y (where X is the method and Y is the thing done by it).
       - examples:
         - 1:
@@ -874,14 +1111,28 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - tai:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: tamsmi
       - definition: With the form/shape of X, similar to Y, in the property/quality of Z, [something] does/is ... (where X is the form, Y is the thing it is similar to, and Z is the property).
       - examples:
         - 1:
           - lojban: Tai le bolci le zdani cu barda
           - translation: With the form of a ball, the house is big. / The house is big and ball-shaped.
+- te'i:
+  - definitions:
+    - 1:
+      - type: modal tag
+      - source: stidi
+      - definition: Suggested/proposed by X, to Y, Z (where X is the suggester, Y is the audience, and Z is the suggestion).
+      - examples:
+        - 1:
+          - lojban: Te'i la .djan. do mi klama le zarci
+          - translation: Suggested by John to you, I go to the store. / John suggests to you that I go to the store.
 - ti'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: stidi
       - definition: Suggested to X, Y (where X is the recipient of the suggestion and Y is the suggestion).
       - examples:
         - 1:
@@ -890,6 +1141,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ti'u:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: tcika
       - definition: At the time/during the time of X, Y (where X is the time and Y is the thing happening then).
       - examples:
         - 1:
@@ -898,6 +1151,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - tu'i:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: stuzi
       - definition: At the location/site of X, Y (where X is the location and Y is the thing located there).
       - examples:
         - 1:
@@ -906,6 +1161,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - va'o:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: vanbi
       - definition: Under the conditions/circumstances of X, Y (where X are the conditions and Y is the thing conditioned).
       - examples:
         - 1:
@@ -914,6 +1171,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - va'u:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: xamgu
       - definition: Benefiting X, Y (where X is the beneficiary and Y is the action that benefits them).
       - examples:
         - 1:
@@ -922,6 +1181,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - zau:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: zanru
       - definition: Approved by/with the approval of X, Y (where X is the approver and Y is the thing approved).
       - examples:
         - 1:
@@ -930,6 +1191,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - zu'e:
   - definitions:
     - 1:
+      - type: modal tag
+      - source: zukte
       - definition: With the goal/purpose/intention of X, by means of Y, Z (where X is the goal, Y is the means, and Z is the actor/action).
       - examples:
         - 1:
@@ -956,6 +1219,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ki'a:
   - definitions:
     - 1:
+      - type: indicator
       - definition: Metalinguistic confusion
       - examples:
         - 1:
@@ -972,6 +1236,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - jo'a:
   - definitions:
     - 1:
+      - type: indicator
       - definition: Metalinguistic affirmation
       - examples:
         - 1:
@@ -980,6 +1245,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - xu:
   - definitions:
     - 1:
+      - type: indicator
       - definition: Truth question marker
       - examples:
         - 1:
@@ -988,6 +1254,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - pau:
   - definitions:
     - 1:
+      - type: indicator
       - definition: Question pre-marker
       - examples:
         - 1:
@@ -996,10 +1263,12 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - paunai:
   - definitions:
     - 1:
+      - type: indicator
       - definition: Indicates rhetorical question
 - pe'a:
   - definitions:
     - 1:
+      - type: indicator
       - definition: Figurative language marker
       - examples:
         - 1:
@@ -1009,10 +1278,12 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - pe'anai:
   - definitions:
     - 1:
+      - type: indicator
       - definition: Literal language marker
 - .ua:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Discovery/Confusion: Expresses the feeling of suddenly finding or understanding something previously unknown or unclear, or conversely, the feeling of being perplexed or lost.
       - examples:
         - 1:
@@ -1023,10 +1294,12 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .uanai:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Confusion: Expresses the feeling of being lost, perplexed, or unable to understand something.
 - .u'a:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Gain/Loss: Expresses the feeling of acquiring or achieving something desirable, or conversely, the feeling of losing something of value.
       - examples:
         - 1:
@@ -1037,10 +1310,12 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .u'anai:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Loss: Expresses the feeling of losing something valuable, experiencing a setback, or missing out on something desirable.
 - .ue:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Surprise/Expectation: Expresses the feeling of astonishment, wonder, or unexpectedness, or conversely, the feeling of something being unsurprising or anticipated.
       - examples:
         - 1:
@@ -1065,10 +1340,12 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .u'e:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Wonder/Commonplace: Expresses the feeling of amazement, curiosity, or fascination, or conversely, the feeling of something being ordinary or mundane.
 - .ui:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Happiness/Unhappiness: Expresses the feeling of joy, contentment, or pleasure, or conversely, the feeling of sadness, dissatisfaction, or displeasure.
       - examples:
         - 1:
@@ -1083,6 +1360,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .u'i:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Amusement/Weariness: Expresses the feeling of being entertained or finding something funny, or conversely, the feeling of being bored or tired.
 - .u'inai:
   - definitions:
@@ -1091,6 +1369,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .uo:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Completion/Incompleteness: Expresses the feeling of having finished something, reaching a goal, or achieving closure, or conversely, the feeling of something being unfinished or incomplete.
       - examples:
         - 1:
@@ -1105,6 +1384,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .u'o:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Courage/Timidity: Expresses the feeling of bravery, confidence, or boldness, or conversely, the feeling of fearfulness, shyness, or cowardice.
 - .u'onai:
   - definitions:
@@ -1113,6 +1393,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .uu:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Pity/Cruelty: Expresses the feeling of compassion, sympathy, or sorrow for someone else's misfortune, or conversely, the feeling of ruthlessness, heartlessness, or pleasure in someone else's suffering.
       - examples:
         - 1:
@@ -1127,6 +1408,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .u'u:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Repentance/Innocence: Expresses the feeling of remorse, regret, or guilt for one's actions, or conversely, the feeling of being blameless or without regret.
       - examples:
         - 1:
@@ -1141,14 +1423,17 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .o'a:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Pride/Shame: Expresses the feeling of satisfaction, self-respect, or accomplishment, or conversely, the feeling of humiliation, guilt, or embarrassment.
 - .o'e:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Closeness/Distance: Expresses the feeling of intimacy, connection, or warmth toward someone or something, or conversely, the feeling of detachment, separation, or coldness.
 - .oi:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Complaint/Pleasure: Expresses the feeling of pain, discomfort, or displeasure, or conversely, the feeling of enjoyment, satisfaction, or pleasure.
       - examples:
         - 1:
@@ -1165,6 +1450,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .o'i:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Caution/Rashness: Expresses the feeling of being careful, hesitant, or wary, or conversely, the feeling of being reckless, impulsive, or daring.
       - examples:
         - 1:
@@ -1173,10 +1459,12 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .o'o:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Patience/Anger: Expresses the feeling of being able to wait calmly or endure delays, or conversely, the feeling of irritation, frustration, or rage.
 - .o'u:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Relaxation/Stress: Expresses the feeling of being calm, peaceful, or at ease, or conversely, the feeling of being tense, anxious, or under pressure.
       - examples:
         - 1:
@@ -1185,6 +1473,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .ii:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Fear/Security: Expresses the feeling of fright, anxiety, or apprehension, or conversely, the feeling of safety, confidence, or peace of mind.
       - examples:
         - 1:
@@ -1194,10 +1483,12 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .i'i:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Togetherness/Privacy: Expresses the feeling of wanting to be with others or be part of a group, or conversely, the feeling of wanting to be alone or have privacy.
 - .io:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Respect/Disrespect: Expresses the feeling of admiration, esteem, or deference, or conversely, the feeling of contempt, disdain, or disregard.
       - examples:
         - 1:
@@ -1206,10 +1497,12 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .i'o:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Appreciation/Envy: Expresses the feeling of gratitude, thankfulness, or recognition of value, or conversely, the feeling of resentment or covetousness toward someone else's possessions or qualities.
 - .iu:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Love/Hate: Expresses the feeling of affection, fondness, or deep care for someone or something, or conversely, the feeling of dislike, aversion, or animosity.
       - examples:
         - 1:
@@ -1218,6 +1511,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .i'u:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Familiarity/Mystery: Expresses the feeling of knowing something well or being comfortable with it, or conversely, the feeling of something being unknown, strange, or enigmatic.
 - .a'a:
   - definitions:
@@ -1427,6 +1721,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ba'a:
   - definitions:
     - 1:
+      - notes: The scale "Expectation/Experience/Memory" expresses the speaker's relationship to the timeline of an event.
       - definition: Expectation: Indicates the speaker's anticipation or expectation of a future event.
 - ba'acu'i:
   - definitions:
@@ -1444,6 +1739,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - su'a:
   - definitions:
     - 1:
+      - notes: Generalization/Particularization: Expresses the speaker's approach to formulating the statement. su'a can also be used as a discursive with slightly different meanings: "abstractly" for su'a and "concretely" or "in particular" for su'anai.
       - definition: Generalization: Indicates that the speaker is making a general statement or drawing a conclusion based on a pattern or a set of examples. It's similar to saying "generally" or "as a rule" in English.
 - su'anai:
   - definitions:
@@ -1504,6 +1800,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ku'i:
   - definitions:
     - 1:
+      - type: Commentary on Discourse
       - definition: However/But/In contrast - Signals a contrast or exception to the previous statement or argument. It indicates a shift in direction or a change of perspective.
       - examples:
         - 1:
@@ -1513,6 +1810,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ji'a:
   - definitions:
     - 1:
+      - type: Commentary on Discourse
       - definition: Additionally/Furthermore - Adds weight or provides further support to the previous statement or argument. It indicates a continuation or strengthening of the current line of thought.
       - examples:
         - 1:
@@ -1522,14 +1820,17 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - si'a:
   - definitions:
     - 1:
+      - type: Commentary on Discourse
       - definition: Similarly/Likewise - Indicates that the following statement is similar or analogous to the previous one. It suggests a parallel or comparison between two ideas.
 - mi'u:
   - definitions:
     - 1:
+      - type: Commentary on Discourse
       - definition: Ditto - Repeats the previous statement or idea, often used in lists or tables to avoid redundancy.
 - po'o:
   - definitions:
     - 1:
+      - type: Commentary on Discourse
       - definition: Uniquely/Only - Indicates that the associated statement is the only relevant or true case. It excludes other possibilities and emphasizes exclusivity.
       - examples:
         - 1:
@@ -1538,6 +1839,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - va'i:
   - definitions:
     - 1:
+      - type: Commentary on Words
       - definition: In other words/Rephrasing - Signals a rephrasing or clarification of the previous statement using different words but retaining the same meaning.
       - examples:
         - 1:
@@ -1546,34 +1848,42 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - va'inai:
   - definitions:
     - 1:
+      - type: Commentary on Words
       - definition: Repeating: Indicates that the same idea is being repeated using the same words.
 - ta'u:
   - definitions:
     - 1:
+      - type: Commentary on Words
       - definition: Expanding a tanru/Making a tanru - Indicates a shift between a concise but potentially ambiguous tanru and its more elaborate and explicit explanation.
 - ta'unai:
   - definitions:
     - 1:
+      - type: Commentary on Words
       - definition: Making a tanru: Signals the opposite process, where a detailed explanation is being condensed into a shorter tanru.
 - ju'o:
   - definitions:
     - 1:
+      - type: Commentary on Knowledge
       - definition: Certainly/Uncertain - Expresses the speaker's degree of certainty or uncertainty about the truth of the associated statement.
 - ju'onai:
   - definitions:
     - 1:
+      - type: Commentary on Knowledge
       - definition: Uncertainty: Indicates a lack of certainty or doubt about the truth of the statement.
 - la'a:
   - definitions:
     - 1:
+      - type: Commentary on Knowledge
       - definition: Probably/Improbably - Expresses the speaker's assessment of the likelihood or probability of the associated statement being true.
 - la'anai:
   - definitions:
     - 1:
+      - type: Commentary on Knowledge
       - definition: Improbably: Indicates that the statement is unlikely or improbable.
 - ta'o:
   - definitions:
     - 1:
+      - type: Discourse Management
       - definition: By the way/Returning to point - Signals a digression or aside, often followed by a return to the main topic of discussion.
       - examples:
         - 1:
@@ -1582,38 +1892,47 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - ta'onai:
   - definitions:
     - 1:
+      - type: Discourse Management
       - definition: Returning to point: Indicates a return to the main topic after a digression.
 - ra'u:
   - definitions:
     - 1:
+      - type: Discourse Management
       - definition: Chiefly/Equally/Incidentally - Indicates the relative importance of the associated statement within the discourse.
 - ra'ucu'i:
   - definitions:
     - 1:
+      - type: Discourse Management
       - definition: Equally: Suggests that the statement is of equal importance to other points in the discourse.
 - ra'unai:
   - definitions:
     - 1:
+      - type: Discourse Management
       - definition: Incidentally: Indicates that the statement is of lesser importance or is a side point.
 - mu'a:
   - definitions:
     - 1:
+      - type: Discourse Management
       - definition: For example/Omitting examples/End examples - Introduces examples, signals that examples are being omitted, or marks the end of a series of examples.
 - zu'u:
   - definitions:
     - 1:
+      - type: Discourse Management
       - definition: On the one hand/On the other hand - Presents contrasting viewpoints or alternatives within the discourse.
 - ke'u:
   - definitions:
     - 1:
+      - type: Discourse Management
       - definition: Repeating/Continuing - Indicates that the same idea will be expressed using different words or that the discourse will continue along the same line of thought.
 - ke'unai:
   - definitions:
     - 1:
+      - type: Discourse Management
       - definition: Furthermore: Signals that the content is new and the discourse is moving on to a different idea.
 - da'i:
   - definitions:
     - 1:
+      - type: Discourse Management
       - definition: Supposing/In fact - Marks a hypothetical scenario or supposition, contrasted with a statement of fact.
       - examples:
         - 1:
@@ -1622,6 +1941,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - da'inai:
   - definitions:
     - 1:
+      - type: Discourse Management
       - definition: In fact: Emphasizes that the statement is based on reality or actual facts.
       - examples:
         - 1:
@@ -1750,10 +2070,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
   - definitions:
     - 1:
       - definition: serves for self-identification rather than addressing the listener.
-
-## DOI
-
-### Constructs
+### DOI
 
 - doi:
   - definitions:
@@ -1781,6 +2098,7 @@ FAhA cmavo specify the direction of the imaginary journey taken from the speaker
 - bu'u:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: coincident with: Indicates that the event happens at the same location as the speaker. This is the spatial equivalent of the temporal tense **ca** (present).
       - examples:
         - 1:
@@ -1790,10 +2108,12 @@ FAhA cmavo specify the direction of the imaginary journey taken from the speaker
 - ti'a:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: behind: Indicates that the event happens behind the speaker, opposite the direction the speaker is facing.
 - zu'a:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: on the left of: Indicates that the event happens to the left of the speaker.
       - examples:
         - 1:
@@ -1807,6 +2127,7 @@ FAhA cmavo specify the direction of the imaginary journey taken from the speaker
 - ri'u:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: on the right of: Indicates that the event happens to the right of the speaker.
       - examples:
         - 1:
@@ -1816,6 +2137,7 @@ FAhA cmavo specify the direction of the imaginary journey taken from the speaker
 - ga'u:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: above: Indicates that the event happens above the speaker.
       - examples:
         - 1:
@@ -1825,6 +2147,7 @@ FAhA cmavo specify the direction of the imaginary journey taken from the speaker
 - ni'a:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: below: Indicates that the event happens below the speaker.
       - examples:
         - 1:
@@ -1834,6 +2157,7 @@ FAhA cmavo specify the direction of the imaginary journey taken from the speaker
 - ne'i:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: within: Indicates that the event happens inside of something.
       - examples:
         - 1:
@@ -1843,26 +2167,32 @@ FAhA cmavo specify the direction of the imaginary journey taken from the speaker
 - ru'u:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: surrounding: Indicates that the event happens all around the speaker.
 - pa'o:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: transfixing: Indicates that the event happens while passing through something.
 - ne'a:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: next to: Indicates that the event happens beside something else.
 - te'e:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: bordering: Indicates that the event happens at the edge or boundary of something.
 - re'o:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: adjacent to: Indicates that the event happens right next to something else, touching it.
 - fa'a:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: towards: Indicates movement towards a specific destination.
       - examples:
         - 1:
@@ -1872,22 +2202,27 @@ FAhA cmavo specify the direction of the imaginary journey taken from the speaker
 - to'o:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: away from: Indicates movement away from a specific origin point.
 - zo'i:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: approaching from: Indicates movement towards the speaker or the origin point of the imaginary journey.
 - ze'o:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: receding from: Indicates movement away from the speaker or the origin point of the imaginary journey.
 - zo'a:
   - definitions:
     - 1:
+      - type: direction of the imaginary journey taken from the speaker to the location of the event described by the bridi
       - definition: tangential to: Indicates movement that passes by something without directly approaching or leaving it.
 - be'a:
   - definitions:
     - 1:
+      - type: absolute or relative directions based on a compass or similar frame of reference
       - definition: north of: Indicates that the event happens to the north of the speaker or the origin point.
       - examples:
         - 1:
@@ -1897,14 +2232,17 @@ FAhA cmavo specify the direction of the imaginary journey taken from the speaker
 - ne'u:
   - definitions:
     - 1:
+      - type: absolute or relative directions based on a compass or similar frame of reference
       - definition: south of: Indicates that the event happens to the south of the speaker or the origin point.
 - du'a:
   - definitions:
     - 1:
+      - type: absolute or relative directions based on a compass or similar frame of reference
       - definition: east of: Indicates that the event happens to the east of the speaker or the origin point.
 - vu'a:
   - definitions:
     - 1:
+      - type: absolute or relative directions based on a compass or similar frame of reference
       - definition: west of: Indicates that the event happens to the west of the speaker or the origin point.
 
 ## A

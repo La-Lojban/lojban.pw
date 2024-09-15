@@ -198,10 +198,9 @@ function convertExamplesToArrays(obj: any, parent: any = null): any {
     if (obj.definitions) {
       const clone = { ...obj };
 
-      delete clone.definitions;
       result["definitions"] = [
         {
-          ...clone,
+          ...clone.definitions[1],
           definition: (obj.definitions as any)[1].definition,
           examples: (obj.definitions as any)[1].examples
             ? Object.values((obj.definitions as any)[1].examples).map(
