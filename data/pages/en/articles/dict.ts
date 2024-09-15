@@ -229,17 +229,15 @@ function convertExamplesToArrays(obj: any, parent: any = null): any {
   return result;
 }
 
-// Read the JSON file
-console.log("Reading cmavo.json...");
-const jsonData: JsonObject = JSON.parse(fs.readFileSync("cmavo.json", "utf8"));
+// // Read the JSON file
+// console.log("Reading cmavo.json...");
+// const jsonData: JsonObject = JSON.parse(fs.readFileSync("cmavo.json", "utf8"));
 
-// Convert JSON to Markdown
-console.log("Converting JSON to Markdown...");
-const markdown = jsonToMarkdown(jsonData);
+// console.log("Converting JSON to Markdown...");
+// const markdown = jsonToMarkdown(jsonData);
 
-// Write the Markdown to a file
-console.log("Writing Markdown to !cmavo.md...");
-fs.writeFileSync("!cmavo.md", markdown);
+// console.log("Writing Markdown to !cmavo.md...");
+// fs.writeFileSync("!cmavo.md", markdown);
 
 // Read the Markdown file
 console.log("Reading !cmavo.md...");
