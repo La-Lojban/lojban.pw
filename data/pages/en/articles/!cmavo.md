@@ -1066,7 +1066,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
       - definition: Caused by/with the physical cause of X, Y (where X is the cause and Y is the effect).
       - examples:
         - 1:
-          - lojban: Ri'a le carvi mi na klama le zarci
+          - lojban: ri'a le nu carvi kei  mi na ku klama le zarci
           - translation: Because of the rain, I don't go to the store.
 - ri'i:
   - definitions:
@@ -1076,8 +1076,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
       - definition: Experienced by X, Y (where X is the experiencer and Y is the experience).
       - examples:
         - 1:
-          - lojban: Ri'i la .djan. le zdani cu finti
-          - translation: Experienced by John, the house was built. / John experienced the building of the house.
+          - lojban: ri'i la tom da sance lo darno lindi ca le nu le tcima cu zenba lo ka vlile
+          - translation: As experienced by Tom, there was a sound of distant thunder as the weather grew stormy.
 - sau:
   - definitions:
     - 1:
