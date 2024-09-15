@@ -1,6 +1,8 @@
 name: CI/CD with Docker
 
 on:
+  schedule:
+    - cron: '0 0 */3 * *'  # Run every 3 days at midnight UTC
   push:
     branches: [ main ]
   pull_request:
