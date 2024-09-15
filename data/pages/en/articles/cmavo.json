@@ -1266,20 +1266,20 @@
       "pu'a": {
         "definitions": [
           {
-            "definition": "In order to please X, Y (where X is the one pleased and Y is the action done to please them).",
+            "definition": "[sumti] ne pu'a [sumti] = [sumti], which is opleasant to [sumti].",
             "examples": [
               {
-                "lojban": "Pu'a la .djan., mi klama le zarci",
-                "translation": "In order to please John, I go to the store."
+                "lojban": "le pu'a mi sance be le nu le verba cu cmila cu se minra pa'o le panka",
+                "translation": "The sound of a child's laughter, which is pleasant to me, is echoing through the park."
               }
             ]
           }
         ]
       },
-      "pu'e": {
+      "se pu'e": {
         "definitions": [
           {
-            "definition": "By the process/method of X, from Y to Z, passing through stages W, [something] is ... (where X is the process, Y is the origin, Z is the destination, and W are the stages).",
+            "definition": "[sumti] ne se pu'e [sumti] = the process [sumti] with inputs [sumti].",
             "examples": [
               {
                 "lojban": "Pu'e le ctuca mi djuno le lojbo",
@@ -1401,19 +1401,6 @@
               {
                 "lojban": "Tai le bolci le zdani cu barda",
                 "translation": "With the form of a ball, the house is big. / The house is big and ball-shaped."
-              }
-            ]
-          }
-        ]
-      },
-      "te'i": {
-        "definitions": [
-          {
-            "definition": "Suggested/proposed by X, to Y, Z (where X is the suggester, Y is the audience, and Z is the suggestion).",
-            "examples": [
-              {
-                "lojban": "Te'i la .djan. do mi klama le zarci",
-                "translation": "Suggested by John to you, I go to the store. / John suggests to you that I go to the store."
               }
             ]
           }
@@ -2822,8 +2809,10 @@
           }
         ]
       }
-    },
-    "DOI": {
+    }
+  },
+  "DOI": {
+    "constructs": {
       "doi": {
         "definitions": [
           {
