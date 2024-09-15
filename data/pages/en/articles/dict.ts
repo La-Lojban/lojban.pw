@@ -33,7 +33,7 @@ function jsonToMarkdown(
 
     if (level === 0) {
       // Top-level keys become h1 headers
-      markdown += `\n# ${key}\n\n`;
+      markdown += `\n## ${key}\n\n`;
       if (typeof value === "object" && value !== null) {
         markdown += jsonToMarkdown(value, indent + "  ", level + 1);
       } else {
@@ -41,7 +41,7 @@ function jsonToMarkdown(
       }
     } else if (level === 1) {
       // Second-level keys become h2 headers
-      markdown += `## ${capitalize(key)}\n\n`;
+      markdown += `### ${capitalize(key)}\n\n`;
       if (typeof value === "object" && value !== null) {
         markdown += jsonToMarkdown(value, indent + "  ", level + 1);
       } else {
@@ -106,17 +106,17 @@ function markdownToJson(markdown: string): JsonObject {
 
     if (line.trim() === "") return;
 
-    if (line.startsWith("# ")) {
+    if (line.startsWith("## ")) {
       // Handle top-level (h1) headers
-      currentH1 = line.slice(2).trim();
+      currentH1 = line.slice(3).trim();
       currentH2 = null;
       json[currentH1] = {};
       stack[0] = { obj: json[currentH1], indent: 0, isArray: false, key: null };
       return;
     }
-    if (line.startsWith("## ")) {
+    if (line.startsWith("### ")) {
       // Handle second-level (h2) headers
-      currentH2 = decapitalize(line.slice(3).trim());
+      currentH2 = decapitalize(line.slice(4).trim());
       if (currentH1) {
         (json[currentH1] as JsonObject)[currentH2] = {};
         stack[0] = {
@@ -153,7 +153,6 @@ function markdownToJson(markdown: string): JsonObject {
 
     const parent = stack[stack.length - 1].obj;
     const parentIsArray = stack[stack.length - 1].isArray;
-    const parentKey = stack[stack.length - 1].key;
 
     if (value === "") {
       const isArray = false;
