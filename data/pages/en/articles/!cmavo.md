@@ -1096,10 +1096,10 @@ meta.description: A more user-friendly list of cmavo definitions with examples
     - 1:
       - type: modal tag
       - source: sidju
-      - definition: Aided by/with the assistance of X, Y (where X is the helper and Y is the thing helped).
+      - definition: [sumti] ne si'u [sumti] = [sumti] with the help of [sumti] does whatever [brid] describes.
       - examples:
         - 1:
-          - lojban: Si'u la .djan. mi klama le zarci
+          - lojban: mi ne si'u la .djan. cu klama le zarci
           - translation: With John's help, I go to the store.
 - ta'i:
   - definitions:
@@ -1109,8 +1109,11 @@ meta.description: A more user-friendly list of cmavo definitions with examples
       - definition: By the method/technique of X, Y (where X is the method and Y is the thing done by it).
       - examples:
         - 1:
-          - lojban: Ta'i le cmalu skami mi klama le zarci
-          - translation: By the method of using a small computer, I go to the store. / I go to the store using a small computer.
+          - lojban: ta'i lo nu loi djacu gau di'i carvi le spati kei ri banro
+          - translation: By watering the plant regularly, its growth occurs.
+        - 2:
+          - lojban: ta'i da do pu pu'i limna pa'o le mi'u rirxe
+          - translation: Somehow, you were able to swim across the river.
 - tai:
   - definitions:
     - 1:
@@ -1119,8 +1122,8 @@ meta.description: A more user-friendly list of cmavo definitions with examples
       - definition: With the form/shape of X, similar to Y, in the property/quality of Z, [something] does/is ... (where X is the form, Y is the thing it is similar to, and Z is the property).
       - examples:
         - 1:
-          - lojban: Tai le bolci le zdani cu barda
-          - translation: With the form of a ball, the house is big. / The house is big and ball-shaped.
+          - lojban: i le murta taxfu cu kluza tai lo nu cerni bumru
+          - translation: The veil was mottled like river morning mist 
 - te'i:
   - definitions:
     - 1:
