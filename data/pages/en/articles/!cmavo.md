@@ -1013,7 +1013,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
     - 1:
       - type: modal tag
       - source: pluka
-      - definition: [sumti] ne pu'a [sumti] = [sumti], which is opleasant to [sumti].
+      - definition: [sumti] ne pu'a [sumti] = [sumti], which is pleasant to [sumti].
       - examples:
         - 1:
           - lojban: le pu'a mi sance be le nu le verba cu cmila cu se minra pa'o le panka
@@ -1096,7 +1096,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
     - 1:
       - type: modal tag
       - source: sidju
-      - definition: [sumti] ne si'u [sumti] = [sumti] with the help of [sumti] does whatever [brid] describes.
+      - definition: [sumti] ne si'u [sumti] = [sumti] with the help of [sumti] does whatever [bridi] describes.
       - examples:
         - 1:
           - lojban: mi ne si'u la .djan. cu klama le zarci
@@ -1106,7 +1106,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
     - 1:
       - type: modal tag
       - source: tadji
-      - definition: By the method/technique of X, Y (where X is the method and Y is the thing done by it).
+      - definition: the event of [bridi] happens by the method/technique of [sumti].
       - examples:
         - 1:
           - lojban: ta'i lo nu loi djacu gau di'i carvi le spati kei ri banro
@@ -1119,41 +1119,31 @@ meta.description: A more user-friendly list of cmavo definitions with examples
     - 1:
       - type: modal tag
       - source: tamsmi
-      - definition: With the form/shape of X, similar to Y, in the property/quality of Z, [something] does/is ... (where X is the form, Y is the thing it is similar to, and Z is the property).
+      - definition: the event of [bridi] is similar to [sumti]; the event of [bridi] is like [sumti]; the event of [bridi] happens in manner [sumti]
       - examples:
         - 1:
           - lojban: i le murta taxfu cu kluza tai lo nu cerni bumru
           - translation: The veil was mottled like river morning mist 
-- te'i:
-  - definitions:
-    - 1:
-      - type: modal tag
-      - source: stidi
-      - definition: Suggested/proposed by X, to Y, Z (where X is the suggester, Y is the audience, and Z is the suggestion).
-      - examples:
-        - 1:
-          - lojban: Te'i la .djan. do mi klama le zarci
-          - translation: Suggested by John to you, I go to the store. / John suggests to you that I go to the store.
 - ti'i:
   - definitions:
     - 1:
       - type: modal tag
       - source: stidi
-      - definition: Suggested to X, Y (where X is the recipient of the suggestion and Y is the suggestion).
+      - definition: the event of [bridi] is suggested by [sumti].
       - examples:
         - 1:
-          - lojban: Ti'i mi do klama le zarci
-          - translation: It is suggested to me that you go to the store. / It seems to me that you should go to the store.
+          - lojban: ti'i la .alis. ra pu klama le zarci
+          - translation: As suggested by Alice he went to the store.
 - ti'u:
   - definitions:
     - 1:
       - type: modal tag
       - source: tcika
-      - definition: At the time/during the time of X, Y (where X is the time and Y is the thing happening then).
+      - definition: [bridi] happens at the time/during the time with timestamp [sumti].
       - examples:
         - 1:
-          - lojban: Ti'u le vanci mi klama le zdani
-          - translation: At the time of evening, I go home. / I go home in the evening.
+          - lojban: ti'u li xa mi klama le zdani
+          - translation: I go home at 6 o'clock.
 - tu'i:
   - definitions:
     - 1:
@@ -1162,48 +1152,48 @@ meta.description: A more user-friendly list of cmavo definitions with examples
       - definition: At the location/site of X, Y (where X is the location and Y is the thing located there).
       - examples:
         - 1:
-          - lojban: Tu'i le zdani, le gerku cu sipna
-          - translation: At the site of the house, the dog sleeps.
+          - lojban: le zarci ne tu'i le ralj klaji na smaji
+          - translation: The shop located at Main street is not quiet.
 - va'o:
   - definitions:
     - 1:
       - type: modal tag
       - source: vanbi
-      - definition: Under the conditions/circumstances of X, Y (where X are the conditions and Y is the thing conditioned).
+      - definition: [bridi] happens under the conditions/circumstances [sumti].
       - examples:
         - 1:
-          - lojban: Va'o le carvi mi na klama le zarci
-          - translation: Under the condition of rain, I don't go to the store.
-- va'u:
+          - lojban: .e'o va'o lo nu do ganse lo se srera kei do cikre
+          - translation: If you see a mistake, then please correct it.
+- se va'u:
   - definitions:
     - 1:
       - type: modal tag
-      - source: xamgu
-      - definition: Benefiting X, Y (where X is the beneficiary and Y is the action that benefits them).
+      - source: se xamgu
+      - definition: [bridi] happens for the benefit of [sumti].
       - examples:
         - 1:
-          - lojban: Va'u mi do klama le zarci
-          - translation: Benefiting me, you go to the store. / You go to the store for my benefit.
+          - lojban: do .e'o cikre le karce se va'u le lanzu
+          - translation: lease, fix the car for the benefit of the family.
 - zau:
   - definitions:
     - 1:
       - type: modal tag
       - source: zanru
-      - definition: Approved by/with the approval of X, Y (where X is the approver and Y is the thing approved).
+      - definition: the event of [bridi] happens with the approval of [sumti].
       - examples:
         - 1:
-          - lojban: Zau la .djan. mi klama le zarci
+          - lojban: zau la .djan. mi klama le zarci
           - translation: With John's approval, I go to the store.
-- zu'e:
+- te zu'e:
   - definitions:
     - 1:
       - type: modal tag
-      - source: zukte
-      - definition: With the goal/purpose/intention of X, by means of Y, Z (where X is the goal, Y is the means, and Z is the actor/action).
+      - source: te zukte
+      - definition: [bridi] happens with the goal/purpose/intention [sumti].
       - examples:
         - 1:
-          - lojban: Zu'e le zdani mi klama le karce
-          - translation: With the goal of getting home, I go by car.
+          - lojban: mi citka tezu'e lo nu mi jmive
+          - translation: I eat so I may live.
 
 ## NAI
 
