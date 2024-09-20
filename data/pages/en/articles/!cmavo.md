@@ -1202,9 +1202,35 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - nai:
   - definitions:
     - 1:
-      - definition: negates the preceding indicator, creating the opposite meaning on the scale. For example, .uinai expresses unhappiness, and .oinai expresses pleasure.
+      - type: scalar modifier
+      - definition: Negates the preceding indicator or grammatical construct, creating the opposite meaning on the scale. This applies to indicators and attitudinals (UI or CAI). For example, **.uinai** expresses unhappiness, and **.ienai** expresses disagreement, not ambivalence.
+      - examples:
+        - 1:
+          - lojban: .uinai
+          - translation: (interjection of unhappiness)
+    - 2:
+      - type: scalar modifier
+      - definition: In vocatives of selma'o COI, **nai** negates the word, creating the opposite communication intent, such as a negative acknowledgment.
+      - example: **je'enai** means "I didn't get that."
+    - 3:
+      - type: scalar modifier
+      - definition: When attached to tenses or modals, **nai** indicates a contradictory negation, meaning the action or state described is false. 
+      - examples:
+        - 1:
+          - lojban: mi punai klama le zarci
+          - translation: I didn't go to the market.
+    - 4:
+      - type: scalar modifier
+      - definition: when attached to logical connectives, **nai** negates a part of the connective or one of the connected bridi or sumti.
+      - example: **ge la .djan. nanmu ginai la .djeimyz. ninmu** means "John is a man and James is not a woman."
+    - 5:
+      - type: scalar modifier
+      - definition: In non-logical connectives (like JOI or BIhI), **nai** signals scalar negation, indicating the bridi is false under the given connection but could be true under a different one.
+      - example: **mi paroinai dansu le bisli** means "I danced on the ice either zero or two or more times."
+
 - cu'i:
   - definitions:
+    - type: scalar modifier
     - 1:
       - definition: indicates a middle position on the scale. For example, .uicui expresses neither happiness nor unhappiness.
 
@@ -1224,6 +1250,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - na'i:
   - definitions:
     - 1:
+      - type: indicator
       - definition: Metalinguistic negation (indicates error or inappropriateness)
       - examples:
         - 1:
@@ -1320,6 +1347,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .uecu'i:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Neutral surprise: Expresses a mild or neutral level of surprise, neither expecting nor being particularly surprised by something.
       - examples:
         - 1:
@@ -1328,6 +1356,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .uenai:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Expectation: Expresses the feeling that something was anticipated or expected.
       - examples:
         - 1:
@@ -1352,6 +1381,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .uinai:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Unhappiness: Expresses the feeling of sadness, discontent, or displeasure.
 - .u'i:
   - definitions:
@@ -1376,6 +1406,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .uonai:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Incompleteness: Expresses the feeling of something being unfinished, lacking closure, or having more to do.
 - .u'o:
   - definitions:
@@ -1400,6 +1431,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .uunai:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Cruelty: Expresses the feeling of ruthlessness, lack of compassion, or pleasure in someone else's suffering.
 - .u'u:
   - definitions:
@@ -1415,6 +1447,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .u'unai:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Innocence: Expresses the feeling of being blameless, without guilt, or having a clear conscience.
 - .o'a:
   - definitions:
@@ -1438,6 +1471,7 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 - .oinai:
   - definitions:
     - 1:
+      - type: simple emotion indicator
       - definition: Pleasure: Expresses the feeling of enjoyment, satisfaction, or pleasure.
       - examples:
         - 1:
@@ -2283,6 +2317,54 @@ FAhA cmavo specify the direction of the imaginary journey taken from the speaker
   - definitions:
     - 1:
       - definition: signifies "neither ... nor ..." but with a focus on the first sumti. It is rarely used due to the availability of ".anai" which is shorter and expresses the same logical meaning.
+
+## BO
+
+### Description
+
+Despite having several meanings particles of class BO never lead to ambiguity since those meanings arise from applying separate parts of the grammar.
+
+### Constructs
+
+- bo:
+  - definitions:
+    - 1:
+      - definition: Joins statements, ensuring a high-precedence grouping.
+      - examples:
+        - 1:
+          lojban: mi klama le zarci .i ca bo do klama le zdani .i ra sipna
+          translation: I go to the market when you go home. She sleeps. 
+    - 2:
+      - definition: Joins tanru units, ensuring a high-precedence grouping
+      - examples:
+        - 1:
+          lojban: ta cmalu bo ractu zdani
+          translation: That is a small-rabbit home.
+          comment: The first two tanru units are grouped first.
+    - 3:
+      - definition: Used for bridi tails, ensuring a high-precedence grouping.
+      - examples:
+        - 1:
+          lojban: mi klama le zarci gi'e ca bo citka gi'e pensi
+          translation: I go to the market when eating, and I think. 
+    - 4:
+      - definition: Used for sumti, ensuring a high-precedence grouping.
+      - examples:
+        - 1:
+          lojban: do .e ca bo mi .e ra klama le zarci
+          translation: You-and-at-the-same-time-me, and also she go to the market. 
+    - 5:
+      - definition: Used to attach particles of class NAhE to sumti 
+      - examples:
+        - 1:
+          lojban: na'e bo le prenu cu zvati tu
+          translation: Something other than the people are present there. 
+    - 6:
+      - definition: Used to attach particles of class NAhE to operands in math (mekso) expressions 
+      - examples:
+        - 1:
+          lojban: li na'e bo tau ny. du li pa su'i my.
+          translation: other than N is equal to 1 + m. 
 
 ## ZAhO
 
