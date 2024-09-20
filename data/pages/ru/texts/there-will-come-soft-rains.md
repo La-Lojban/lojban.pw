@@ -160,7 +160,7 @@ meta.priority: 469
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-lojbo"
           >
-            .i fanva fa la gleki
+            .i fanva fa la lalxu .i milxe cnegau fa la gleki
           </td>
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-glico"
@@ -180,7 +180,7 @@ meta.priority: 469
           <td
             class="italic text-gray-500 text-left align-text-top p-2 column-class-fraso"
           >
-            Original anglais
+            Traduction en français
           </td>
         </tr>
         <tr

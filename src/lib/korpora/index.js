@@ -135,6 +135,7 @@ async function processSheet(sheet, title) {
     const header = prettifyGraymatter(
       columns[lang]?.[1] ?? columns["glico"]?.[1] ?? title
     );
+    console.log({header, lang});
     const author = prettifyGraymatter(
       columns[lang]?.[2] ?? columns["glico"]?.[2] ?? ""
     );

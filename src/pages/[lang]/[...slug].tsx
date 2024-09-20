@@ -288,7 +288,7 @@ export async function getStaticProps({ params }: Params) {
         externalPost.slug.join("/") === post.slug.slice(0, -1).join("/")
     );
     if (firstSiblingSlug?.title !== undefined) {
-      post.title = firstSiblingSlug.title;
+      // post.title = firstSiblingSlug.title;
       const stringifiedSlug = post.slug.join("/");
       const allSiblingPosts = relatedSlugs.concat(stringifiedSlug).sort();
       if (allSiblingPosts[0] !== stringifiedSlug)

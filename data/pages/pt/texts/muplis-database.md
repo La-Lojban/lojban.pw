@@ -567,7 +567,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             A is enough, but B is not enough.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .abu raunzu. i je ku&#039;i by. na go&#039;i
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -4329,7 +4331,9 @@ meta.priority: 335210
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
         >
           <td class="text-left align-text-top p-2 column-class-lojbo">Bye!</td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            co&#039;o
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -12190,7 +12194,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Good-bye!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            co&#039;o
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -12198,7 +12204,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Goodbye!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            co&#039;o
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -12206,7 +12214,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Goodbye, Bob and Nora.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            co&#039;o la .bab. .e la .noras.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -12290,7 +12300,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Greetings, old friend!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            sei mi do i&#039;u rinsa
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -17950,7 +17962,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hello everyone!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi ro do
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18032,7 +18046,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hello, how are you?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi do do mo
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18040,7 +18056,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hello, I am Sepideh.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi mi&#039;e sepides
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18056,7 +18074,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hello, it&#039;s me, Nancy!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi mi&#039;e nansis
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18080,7 +18100,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hello, old friend!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi .i&#039;u
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18088,7 +18110,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hello, old friend!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi slabu pendo
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18096,7 +18120,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hello, this is Mike.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi mi&#039;e maik
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18104,7 +18130,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hello, Tom.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi tam
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18120,7 +18148,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hello, world!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi munje
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18128,7 +18158,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hello, world!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi se terdi
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18152,7 +18184,7 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hello.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">coi</td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18627,7 +18659,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hi! How are you?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi .i pei
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18635,7 +18669,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hi! Where do you want to go?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do klama ma au dai
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18659,7 +18695,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hi, everybody!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi ro do ga&#039;i cu&#039;i
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18667,7 +18705,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hi, George! How&#039;s it going?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            co&#039;oi .djordj. do mo
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18683,7 +18723,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hi, how are you?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi .i pei
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18707,7 +18749,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hi, John. - I&#039;m not John.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            lu coi djan li&#039;u lu mi&#039;e nai djan li&#039;u
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18747,7 +18791,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hi, Tom!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi .tam.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18755,7 +18801,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hi, Tom.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi tam.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -18779,7 +18827,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Hi. How are you?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            coi .i pei
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -19076,7 +19126,7 @@ meta.priority: 335210
             Hopefully everything turns out all right.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            .a&#039;o ro da ba xamgu
+            .a&#039;o .a&#039;ucu&#039;i ro da ba se jalge lo zabna
           </td>
         </tr>
         <tr
@@ -20069,7 +20119,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             How long will you be home?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            ai dai ze&#039;a ma do zvati le zdani
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -21258,7 +21310,7 @@ meta.priority: 335210
             I am deeply interested in art.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            lo&#039;e larcu cu mutce lo ka cinri mi
+            .a&#039;ucai lardai
           </td>
         </tr>
         <tr
@@ -21438,7 +21490,8 @@ meta.priority: 335210
             I am going to explain it completely on the wiki.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            .ai mi ciksi ro da pe ta ve cu&#039;u lo uitki
+            .ai mi ba cusku le jufra be le mulno se ciksi fo lo ka ciska fi le
+            uitki
           </td>
         </tr>
         <tr
@@ -21447,7 +21500,10 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I am going to explain it completely on the wiki.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .ai mi ba cusku le jufra be le mulno se ciksi fo lo ka ciska fi le
+            uitki
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -23769,7 +23825,10 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I did it, through much hard work, though it took but little thought.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            uo ru&#039;e a&#039;i sai ro&#039;o bu&#039;o nai a&#039;i ru&#039;e
+            sai ro&#039;e bu&#039;o nai
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -23801,7 +23860,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I did not know this.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi pu na ku djuno fi la&#039;e do&#039;i
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -23955,7 +24016,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I didn&#039;t know that you cared.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi pu na ku djuno le du&#039;u vajni do
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -23963,7 +24026,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I didn&#039;t know Tom had a brother.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi pu na ku djuno le du&#039;u la tom da bruna
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -23971,7 +24036,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I didn&#039;t know Tom had a dog.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi pu na ku djuno le du&#039;u la tom pa gerku cu ralte
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25218,7 +25285,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I don&#039;t like chocolate.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            cakla .iu ru&#039;e nai
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25226,7 +25295,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I don&#039;t like coffee.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi na nelci lo&#039;e ckafi
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25242,7 +25313,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I don&#039;t like her.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi na nelci le ninmu
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25250,7 +25323,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I don&#039;t like high heat.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi na nelci lo&#039;e nu mutce glare
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25282,7 +25357,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I don&#039;t like sand.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi na nelci lo&#039;e canre
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25290,7 +25367,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I don&#039;t like tea.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi na nelci lo&#039;e tcati
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25330,7 +25409,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I don&#039;t like this book.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi na nelci ti voi cukta
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25338,7 +25419,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I don&#039;t like this jacket.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi na nelci ti voi kosta
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25362,7 +25445,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I don&#039;t like to paint.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi na se dirba lo ka punji lo cinta
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25386,7 +25471,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I don&#039;t like winter.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi na nelci lo&#039;e dunra
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25402,7 +25489,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I don&#039;t love her.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi na prami ra
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25426,7 +25515,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I don&#039;t mean to add words of my own devising.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .ai nai mi jmina lo valsi poi mi finti
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25793,7 +25884,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I don&#039;t want to be late.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi jai lerci aunai
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25879,7 +25972,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I don&#039;t want to go to bed.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .au nai mi klama le ckana
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -25952,7 +26047,7 @@ meta.priority: 335210
             I don&#039;t want to listen to you.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            .au nai mi tinju&#039;i do
+            .aunai mi zgatirna do
           </td>
         </tr>
         <tr
@@ -28645,7 +28740,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I haven&#039;t heard from him since then.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            co&#039;a la&#039;e di&#039;u mi na ku ve nuzba le prenu
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -28671,7 +28768,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I haven&#039;t told Tom.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi nu&#039;o cusku fi la .tom.
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -29041,7 +29140,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I hope Tom is in a good mood.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .a&#039;o la .tam. cu gleki
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -35029,7 +35130,7 @@ meta.priority: 335210
             I want to be a teacher.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            .au mi se jibri lo ka ctuca
+            .au mi se cuntu lo ka ctuca
           </td>
         </tr>
         <tr
@@ -35164,7 +35265,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I want to dance.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .au mi dansu
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -35358,7 +35461,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I want to kiss you.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .au mi cinba do
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -35470,7 +35575,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I want to leave.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .au mi cliva
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -35704,7 +35811,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I want to talk to her.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .au mi tavla ra
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -35805,7 +35914,7 @@ meta.priority: 335210
             I want to write a book.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            .au mi ciska su&#039;o se cukta
+            .au mi finti lo se cukta
           </td>
         </tr>
         <tr
@@ -36501,7 +36610,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I wasn&#039;t alone.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi pu na ku kansa no da
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -36510,7 +36621,11 @@ meta.priority: 335210
             I wasn&#039;t sold on their plan at first, but their conviction won
             me over.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            puku ca le pamoi mi na ku birti tu&#039;a le se platu be le
+            za&#039;u mei i ku&#039;i le ni ri krici cu jai rinka lo nu mi
+            co&#039;a birti
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -36743,7 +36858,7 @@ meta.priority: 335210
             I will do it myself.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            .ai mi zukte si&#039;u no da
+            .e&#039;e mi zukte se&#039;a
           </td>
         </tr>
         <tr
@@ -37612,7 +37727,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I&#039;d like some plum jam.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .au zirsmela pesxu
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -37673,7 +37790,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I&#039;d like to eat something.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .au mi citka da
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -38162,7 +38281,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I&#039;ll gouge out your eyes!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .ai le&#039;o mi vimcu le kanla be do
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -38246,7 +38367,7 @@ meta.priority: 335210
             I&#039;ll make an effort to get up early every morning.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            .ai mi gunka fi lo nu ca ro cerni mi clira sanli
+            .a&#039;i mi ca ro cerni co&#039;a cikna
           </td>
         </tr>
         <tr
@@ -38376,7 +38497,7 @@ meta.priority: 335210
             I&#039;ll take your suitcase to your room.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            .ai mi bevri lo do tcemodani lo do kumfa
+            .ai mi bevri le do dakli le do kumfa
           </td>
         </tr>
         <tr
@@ -39811,7 +39932,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I&#039;m hopeless!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi .a&#039;o nai
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -40239,7 +40362,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I&#039;m not a doctor.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi na se cuntu lo ka mikce
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -40305,7 +40430,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I&#039;m not a student.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi na se cuntu lo ka tadni
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -40717,7 +40844,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I&#039;m not you.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            mi na simsa do
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -41571,7 +41700,7 @@ meta.priority: 335210
             I&#039;m trying to hold it!
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            .a&#039;i mi ca&#039;o troci lo ka ralte
+            .a&#039;i mi troci lo ka ru&#039;i jgari ti
           </td>
         </tr>
         <tr
@@ -42044,7 +42173,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             I&#039;ve got to stop you.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            gau mi .e&#039;i cai do sisti
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -42538,7 +42669,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             If you are free, give me a hand.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .e&#039;o ga nai do zifre gi do mi sidju
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -42697,7 +42830,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             If you see a mistake, then please correct it.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .e&#039;o va&#039;o lo nu do ganse lo se srera kei do cikre
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -45932,7 +46067,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             It&#039;s fall now.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            ca critu
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -46065,7 +46202,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             It&#039;s hopeless.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .a&#039;onaicai
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -50818,7 +50957,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             My dream is to go to Japan someday.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .au mi klama la pongu&#039;e ca da
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -52122,7 +52263,7 @@ meta.priority: 335210
             Nah, why bother fixing it.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            .ie nai no da prali fi lo nu cikre ta
+            .a&#039;i nai cikre ta
           </td>
         </tr>
         <tr
@@ -53314,7 +53455,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Oh no!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .a&#039;onai
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -54769,7 +54912,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Please go on with your story.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .e&#039;o do di&#039;a skicu le do lisri
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -54793,7 +54938,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Please keep it a secret.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            gau do .e&#039;o sivni
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -55088,7 +55235,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Please sit down!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .e&#039;o do zutse
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -55246,7 +55395,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Please will you close the door when you go out.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            gau do .e&#039;o ganlo fa le vorme ca lo nu do cliva
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -61446,7 +61597,7 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             That hurts.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">cortu</td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -66016,7 +66167,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             The rain stopped at last.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            co&#039;u je za&#039;o carvi
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -68276,7 +68429,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             There&#039;s no hope.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .a&#039;onaicai
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -77313,7 +77468,10 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Tom went to buy dog food.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            la .tom. pu klama te zu&#039;e le nu ri te posyve&#039;u lo cidja be
+            lo gerku
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -81278,7 +81436,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             What are you doing?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do ca jai gau mo
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -81286,7 +81446,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             What are you doing?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do ca zukte ma
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -81294,7 +81456,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             What are you doing?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do ca jai gau mo
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -81312,7 +81476,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             What are you eating?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do ca&#039;o citka ma
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -81400,7 +81566,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             What are you up to?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do cinmo lo ka pu&#039;o zukte ma
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -83802,7 +83970,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             What&#039;s up?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            ma nuzba
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -84004,7 +84174,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             When are you leaving?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do cliva de&#039;i ma
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -87423,7 +87595,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Whose son are you?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do bersa ma
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -89338,7 +89512,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You are a large person.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do barda prenu
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -89346,7 +89522,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You are a panda.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do latcribe
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -89370,7 +89548,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You are a small person.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do cmalu prenu
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -89444,7 +89624,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You are foolish.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do bebna
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -89534,7 +89716,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You are not a child any more.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do ba&#039;o verba
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -89638,7 +89822,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You are stupid.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do bebna
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -89848,7 +90034,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You CAN do it.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do ba&#039;e kakne
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -90686,7 +90874,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You have to do it, whether you like it or not.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do bilga gi&#039;u djica
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -90778,7 +90968,10 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You jumped high enough to touch this branch.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do raunzu lo ka mo&#039;u plipe fo makau da kei lo ka pencu ti voi
+            jimca
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -90786,7 +90979,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You jumped high enough.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do mo&#039;u plipe fo le raunzu
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -91263,7 +91458,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You must come with me.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do bilga lo ka kansa mi lo ka klama
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -91289,7 +91486,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You must go up the hill.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do bilga lo ka cpare le cmana
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -91305,7 +91504,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You must join me.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do bilga lo ka kansa mi
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -91349,7 +91550,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You must not go inside.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do bilga lo ka na klama le nenri
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -91375,7 +91578,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You must pay attention to the teacher.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do bilga lo ka jundi le ctuca
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -91407,7 +91612,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You must study more.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do bilga lo ka zenba lo ka tadni
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -91415,7 +91622,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You must study more.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do bilga lo ka zenba lo ka tadni xo kau da
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -91734,7 +91943,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You run.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do bajra
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -92051,7 +92262,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You speak.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do bacru
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -92261,7 +92474,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You will regret this.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do ba xenru
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -92375,7 +92590,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You&#039;ll get well soon.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do ba zi di&#039;a kanro
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -92567,7 +92784,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You&#039;re bleeding.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do vikmi le ciblu
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -92575,7 +92794,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You&#039;re bleeding.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do vikmu le ciblu
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -92721,7 +92942,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You&#039;re in shock.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do ca&#039;a se jenca
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -92729,7 +92952,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You&#039;re looking at that tree.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do ca ca&#039;o catlu tu voi tricu
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -92787,7 +93012,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You&#039;re new, aren&#039;t you?
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do cnino xu nai
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -92795,7 +93022,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You&#039;re not a child anymore.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do ba&#039;o verba
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -92827,7 +93056,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You&#039;re not as young as Tom.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do zmadu la .tom. lo ka jmive ze&#039;a makau
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -92903,7 +93134,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You&#039;re required to help them.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do bilga lo ka sidju
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -92951,7 +93184,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You&#039;re smaller than Tom.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do mleca la .tom. lo ka se canlu
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -93049,7 +93284,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You&#039;re weird.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do jai cizra
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -93081,7 +93318,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             You&#039;ve already forgotten.
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            do pujenai morji
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
@@ -93481,7 +93720,9 @@ meta.priority: 335210
           <td class="text-left align-text-top p-2 column-class-lojbo">
             Yuck, that smells like shit!
           </td>
-          <td class="text-left align-text-top p-2 column-class-glico">#REF!</td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            .a&#039;u nai ta simsa lo kalci lo ka se panci
+          </td>
         </tr>
         <tr
           class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
