@@ -6,7 +6,7 @@ meta.description: Елин Пелин | перевод с болгарского
 meta.keywords: Самодива, ni'o ni'o le ricfoi crida, Forest nymph, Лесная нимфа
 meta.author: Елин Пелин
 og:image: /assets/pixra/texts/forest-nymph/2.png
-meta.priority: 7119
+meta.priority: 7164
 ---
 
 <div class="w-full">
@@ -181,19 +181,19 @@ meta.priority: 7119
             tcena le snime blabi janco be le birka be ra tai lo nu lo citno
             dalgidva cu jai gau muvdu fa lo dalgunma be lo co&#039;a ruble lo
             salpo lo salpo i le mutce cmalu jamfu be ra ca&#039;o se lumci le
-            flecu be le klina rirxe be ve&#039;i i ti&#039;a ra zvati fa le noi
+            flecu be le klina rirxe be ve&#039;i i ne&#039;a ra zvati fa le noi
             se renro gi&#039;e ba&#039;o vifne ku&#039;o za&#039;u ricfoi xrula
             e le pa se jivbu be fi lo pelxu primula
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            My encounter happened in the deep forest ravines. She was sitting
-            there, sad and tearful, by the verdant bank of a clear stream.
-            Transparent and mottled like river morning mist, a veil covered her
-            enchanting figure. Luxuriant, golden hair cascaded down her
-            snow-white shoulders, like a young shepherd spreading a feeble flock
-            from slope to slope. Her tiny marble-like feet were being washed by
-            the currents of the clear stream. Beside her lay discarded wilted
-            forest flowers and a wreath of yellow primroses.
+            My encounter happened in the deep forest ravines. She was sitting,
+            sad and tearful, by the verdant bank of a clear stream. Transparent
+            and mottled like river morning mist, a veil covered her enchanting
+            figure. Luxuriant, golden hair cascaded down her snow-white
+            shoulders, like a young shepherd spreading a feeble flock from slope
+            to slope. Her tiny marble-like feet were being washed by the
+            currents of the clear stream. Beside her lay discarded wilted forest
+            flowers and a wreath of yellow primroses.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             Встреча моя произошла в глубоких лесных оврагах. Она сидела грустная
@@ -234,7 +234,7 @@ meta.priority: 7119
             — Постой, очарователно момиче — извиках аз, пленен и влюбен.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i fe lu e&#039;o do stodi doi pluka ninmu cu cladu cusku fa mi fau
+            i fe lu e&#039;o do stali doi pluka ninmu cu cladu cusku fa mi fau
             lo nu mi manci gi&#039;e prami
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
@@ -263,9 +263,9 @@ meta.priority: 7119
             nu&#039;i ge co&#039;u ku lo blabi gi co&#039;a ku lo xunre ne tai
             lo rozgu i le re zabna cinje noi cmalu lo ka simsa lo punli be lo
             dizlo be lo pezli be le&#039;e spatirusku cu xanka slilu ti&#039;a
-            le korbi be le xunre je cmalu moklu be ra i le blabi cnebo be ra
-            be&#039;o cu kelci minra lo carmi fo le cpana be le lunbe tatru be
-            ra tai lo nu le nei cu vinmirtci
+            le korbi be le xunre je cmalu moklu be ra i le blabi cnebo be ra cu
+            kelci minra lo carmi fo le cpana be le lunbe tatru be ra tai lo nu
+            le nei cu vinmirtci
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             She looked at me fearfully with her cornflower-blue eyes and
@@ -273,7 +273,7 @@ meta.priority: 7119
             head. Maidenly shyness bloomed like magnificent roses on her pale
             cheeks. Two nimble dimples, tiny as a stipule of
             butcher&#039;s-broom, quivered nervously behind the corners of her
-            small, crimson lips. From her white neck, a light reflection, like
+            small, crimson lips. From her white neck, a light reflection, as if
             from a mirror, played upon her bare, virgin chest.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
@@ -302,7 +302,7 @@ meta.priority: 7119
             klaku noi barda gi&#039;e klina ku&#039;o tai le nu le nei cu jemna
             i je le flecu cu bevri le go&#039;i le cnita i le ricfoi cu lenku
             gi&#039;e smaji i fa le noi renvi fi le nanca be li pa no no
-            ku&#039;o tricu cu na&#039;e muvdu stodi gi&#039;e ca&#039;o pensi
+            ku&#039;o tricu cu na&#039;e muvdu stali gi&#039;e ca&#039;o pensi
             su&#039;o da i&#039;u nai
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
@@ -418,7 +418,7 @@ meta.priority: 7119
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
             i le valsi be ra cu se bacru ta&#039;i lo nu tolycladu gi&#039;e
-            kukte pe&#039;a tai lo nu le nei cu se sanga i ra co&#039;a ku stodi
+            kukte pe&#039;a tai lo nu le nei cu se sanga i ra co&#039;a ku sanli
             gi&#039;e jai gau muvdu le trixe fai le korbi be le murta taxfu poi
             ra dasni
           </td>
@@ -440,54 +440,26 @@ meta.priority: 7119
             бедна аз съм слушал за тебе чудни приказки и песни и съм се обайвал,
             и съм жадувал да те видя. През много нощи в детинските ми години ти
             си се явявала в сънищата ми и си ми пяла дивни песни, и си ми кичила
-            главата с цветя. Кога бях буен юноша, ти пак смущаваше моите нощи и
-            ми се явяваше огнена и пленителна, прегръщаше ме страстно в топлите
-            си обятия, нежна, ласкателна, дъхаща на горски цветя и упоителна до
-            забрава. Теб дълго са те гонили мечтите ми, дълго моето сърце те е
-            жадувало и обичало. Нощем в потайно време съм се сепвал и събуждал,
-            дано чуя нощните ти песни, дано те видя хвърчаща под тайнствените
-            небеса! Но ти? Къде беше ти, та не могох нито да те видя, нито да те
-            чуя? И до днес още аз обръщам очите си към горите и ги гледам с
-            надежда и желание да оставя шумния град, да ида да те диря…
+            главата с цветя.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
             i fe lu e&#039;o sai doi do&#039;u e&#039;o e&#039;o doi le ricfoi
             ninmu do&#039;u e&#039;o mi catlu do cu pikci cusku fa mi i ba bo
             go&#039;i lu pu ki ca le po&#039;o nai nu mi zvati le ckana be fi
             lo&#039;e cifnu cu skicu fi mi fe lo zabna ranmi be do fe la&#039;e
-            lo se sanga poi gunma lo jufra be do i je mi manci gi&#039;e audji
-            lo ka co&#039;a zgana do i mi ca le nu mi verba kei so&#039;i roi ku
-            ca lo nicte cu senva tu&#039;a do fe lo nu do sanga lo jai se manci
-            gi&#039;e punji lo jadni le stedu be mi i ca le nu mi cilce verba be
-            pu zi ku do ca&#039;o raktu mi lo ka senva ma kau gi&#039;e jai se
-            senva mi fai lo nu do fagri gi&#039;e kavbu gi&#039;e jgari mi le ka
-            se xance lo milxe glare kei tai lo nu do ralci gi&#039;e milxe satre
-            gi&#039;e se panci lo ricfoi xrula gi&#039;e vindu ja&#039;e lo nu
-            de&#039;a sanji i mi pu ta&#039;e senva lo nu mi jersi do ije le
-            risna be mi pu ku audji tu&#039;a do gi&#039;e prami do i pu
-            ta&#039;e ku ca lo nicte mi di&#039;a cikna tai lo da&#039;i nu mi
-            tirna lo nicte se sanga be do gi&#039;e viska lo nu do vofli
-            ni&#039;a lei cizra tsani i ku&#039;i do i do pu zvati ma ja&#039;e
-            lo nu mi tu&#039;a do na ku ka&#039;e ku viska gi&#039;a tirna i
-            ba&#039;e nau ku mi ta&#039;e catlu le ricfoi gi&#039;e zgana ri fau
-            lo nu mi pacna gi&#039;e djica lo nu mi cliva le cladu tcadu te
-            zu&#039;e lo nu mi klama gi&#039;e penmi do li&#039;u
+            lo se sanga poi jufra do i je mi manci gi&#039;e audji lo ka
+            co&#039;a zgana do i mi ca le nu mi verba kei so&#039;i roi ku ca lo
+            nicte cu senva tu&#039;a do fe lo nu do sanga fi mi fe lo jai se
+            manci gi&#039;e punji fi le stedu be mi fe lo xrula noi ja&#039;e
+            jadni ri
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             «Please, wait, wait, beautiful forest maiden, wait for me to gaze
             upon you,» I implored and continued, «Ever since my poor cradle, I
-            have heard wondrous tales and songs of you, and I have wondered, and
-            longed to see you. In many nights of my childhood, you appeared in
-            my dreams, singing me enchanting songs, adorning my head with
-            flowers. In my turbulent youth, you still disturbed my nights,
-            appearing fiery and captivating, embracing me passionately in your
-            warm embrace, tender, caressing, smelling of forest flowers and
-            intoxicating to oblivion. Long have you haunted my dreams, long has
-            my heart desired and loved you. In secret hours of the night, I have
-            awoke to hear your nocturnal songs, to see you soaring under
-            mysterious skies! But you? Where were you, that I could neither see
-            you nor hear you? Even now, I turn my eyes to the forests, hoping
-            and desiring to leave the noisy city, to come and find you...»
+            have heard wondrous tales and songs of you, and I have been
+            enchanted, longing to see you. In many nights of my childhood, you
+            appeared in my dreams, singing me enchanting songs, adorning my head
+            with flowers.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             «Прошу тебя, постой, постой, прекрасная лесная девушка, постой,
@@ -495,7 +467,53 @@ meta.priority: 7119
             своей бедной колыбели я слышал о тебе чудесные сказки и песни, и
             восхищался и жаждал увидеть тебя. Много раз ночами в моём детстве ты
             появлялась мне во сне, пела мне дивные песни и украшала мою голову
-            цветами. Когда я был буйным юношей, ты ещё тревожила мои ночи и
+            цветами.
+          </td>
+        </tr>
+        <tr
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
+        >
+          <td class="text-left align-text-top p-2 column-class-balgaro">
+            Кога бях буен юноша, ти пак смущаваше моите нощи и ми се явяваше
+            огнена и пленителна, прегръщаше ме страстно в топлите си обятия,
+            нежна, ласкателна, дъхаща на горски цветя и упоителна до забрава.
+            Теб дълго са те гонили мечтите ми, дълго моето сърце те е жадувало и
+            обичало. Нощем в потайно време съм се сепвал и събуждал, дано чуя
+            нощните ти песни, дано те видя хвърчаща под тайнствените небеса! Но
+            ти? Къде беше ти, та не могох нито да те видя, нито да те чуя? И до
+            днес още аз обръщам очите си към горите и ги гледам с надежда и
+            желание да оставя шумния град, да ида да те диря…
+          </td>
+          <td class="text-left align-text-top p-2 column-class-lojbo">
+            i ca le nu mi cilce verba be pu zi ku do ca&#039;o raktu mi lo ka
+            senva ma kau gi&#039;e jai se senva mi fai lo nu do fagri gi&#039;e
+            kavbu gi&#039;e jgari mi le ka se xance lo milxe glare kei tai lo nu
+            do ralci gi&#039;e milxe satre gi&#039;e se panci lo ricfoi xrula
+            gi&#039;e vindu ja&#039;e lo nu de&#039;a sanji i mi pu ta&#039;e
+            senva lo nu mi jersi do ije le risna be mi pu ku audji tu&#039;a do
+            gi&#039;e prami do i pu ta&#039;e ku ca lo nicte mi di&#039;a cikna
+            tai lo da&#039;i nu mi tirna lo nicte se sanga be do gi&#039;e viska
+            lo nu do vofli ni&#039;a lei cizra tsani i ku&#039;i do i do pu
+            zvati ma ja&#039;e lo nu mi tu&#039;a do na ku ka&#039;e ku viska
+            gi&#039;a tirna i ba&#039;e nau ku mi ta&#039;e catlu le ricfoi
+            gi&#039;e zgana ri fau lo nu mi pacna gi&#039;e djica lo nu mi cliva
+            le cladu tcadu te zu&#039;e lo nu mi klama gi&#039;e penmi do
+            li&#039;u
+          </td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            When I was a turbulent youth, you still disturbed my nights and
+            appeared fiery and captivating, embracing me passionately in your
+            warm embrace, tender, caressing, smelling of forest flowers and
+            intoxicating to oblivion. Long have you haunted my dreams, long has
+            my heart desired and loved you. At night in secret hours, I have
+            awoke to hear your nocturnal songs, to see you soaring under
+            mysterious skies! But you? Where were you, that I could neither see
+            you nor hear you? Even now, I turn my eyes to the forests and look
+            at them with hope and desire to leave the noisy city, to go and
+            search for you...»
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Когда я был буйным юношей, ты ещё тревожила мои ночи и
             представлялась мне пламенной и обаятельной, страстно обнимая меня в
             своих тёплых объятиях, нежных, ласкающих, пахнущих лесными цветами и
             опьяняющих до забвения. Мои мечты давно преследовали тебя, моё
@@ -531,7 +549,7 @@ meta.priority: 7119
             lebna tu&#039;a le dalgidva gi&#039;e jmina le te rirxe le naxle
             gi&#039;e katna le za&#039;u ricfoi pe mi&#039;a gi&#039;e jai gau
             bilma fai le za&#039;u cmana pe mi&#039;a fi lo ka se savru le se
-            cupra be le do&#039;o trene i mu&#039;i ma do&#039;o pu ku jai gau
+            cupra be le do&#039;o trene i mu&#039;i ma do&#039;o pu jai gau
             zandi fai le vacri le danmo be lo fanri i mu&#039;i ma do gasnu le
             nu le prenu co&#039;u gleki gi&#039;e co&#039;u zifre lo ka na kurji
             kei gi&#039;e co&#039;u ka&#039;e prami i mu&#039;i ma li&#039;u
@@ -541,7 +559,7 @@ meta.priority: 7119
             exclaimed incredulously, looking at me disdainfully. Her lips curled
             with malice. «From the cities, aren&#039;t you? You are one of those
             people who drove us out of the forests? Well then! You&#039;ve
-            fallen into my hands... I will take revenge on behalf of all of us.
+            fallen into my hands... I will take revenge on you for all of us.
             Speak! Why did you take away our shepherds, why did you divert the
             forest rivers into canals, why did you cut down our forests, why do
             you deafen our mountains with the screams of railways, why did you
@@ -593,73 +611,32 @@ meta.priority: 7119
             овчари млади, нашите безгрижни и волни любовници. В усоите вече не
             ехтят влюбените им кавали, под ведрите нощни небеса се не носят вече
             страстните им въздишки, не вайкат се вече те по нас, не чезнат, не
-            вехнат за нас… Вий там от градовете им създадохте нови грижи и
-            погубихте и нас, и тях… Изгубиха се, безследно се изгубиха немирни
-            юнаци, кои на луди коне се носеха над поля и планини, вършеха
-            подвизи, гинеха и печелеха победи. Сега по горските пътеки изрядко
-            ще мине човек. И той — слаб, загрижен, умислен, останал без душа,
-            озлобен и тъжен! Оставиха ни хората, и нещастни са без нас. Тия
-            големи градове, що се издигнаха над земята, издигнаха се над
-            разрушените човешки сърца. Селата приличат на гробища. Във
-            великолепните ви храмове се не моли вече никой. Аз любех един млад
-            планинец, но той ме разлюби и го няма вече. Аз съм тъжна и убита.
-            Денонощно се лутам из горите, викам го, плача, но напразно — медният
-            му кавал се не обади отникъде…
+            вехнат за нас…
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            lu ienai i mi ba&#039;o xlura ke ricfoi crida i mi&#039;a ba&#039;o
+            lu ianai i mi ba&#039;o xlura ke ricfoi crida i mi&#039;a ba&#039;o
             simxu lo ka kansa fi lo ka vofli bu&#039;u lo ricfoi i mi&#039;a
             ba&#039;o zukte lo ka gleki jinru lo ve&#039;i rirxe i mi&#039;a
-            ba&#039;o cilce kelci ca tu&#039;a le lunra i mi&#039;a ca cu spofu
-            gi&#039;e badri i do&#039;o pu lebna tu&#039;a le citno dalgidva pe
-            loi cmana zi&#039;e noi se prami mi&#039;a gi&#039;e na&#039;e dunku
-            gi&#039;e zifre i le zgike poi sance lo flani pe le dalgidva pu je
-            ca nai se minra fo le se stuzi be lo jbini be lo&#039;i su&#039;o
-            cmana i je le sance be le nu le dalgidva cu cinmo vasxu cu pu je ca
-            nai pagre le klina tsani ca lo nicte i ba&#039;o ku le dalgidva cu
-            klaku fi tu&#039;a mi&#039;a gi&#039;a senva tu&#039;a mi&#039;a
-            gi&#039;a zenba lo ka kandi ri&#039;a tu&#039;a mi&#039;a i
-            do&#039;o ne le za&#039;u tcadu cu gasnu le cnino nabmi e le daspo
-            be ge mi&#039;a gi le dalgidva .i le dalgidva cu canci gi&#039;e
-            canci fau le nu ri te prina fi no da kei gi&#039;e me le na&#039;e
-            cando virnu noi klama fo lu&#039;i le foldi e le cmana fu lo ka se
-            marce lo cilce xirma zi&#039;e noi gasnu lo banli zi&#039;e noi
-            ta&#039;e ku su&#039;o me ke&#039;a co&#039;a morsi gi&#039;a jinga
-            i nauku so&#039;u roi ku su&#039;o remna cu klama fo lu&#039;i le
-            klaji pe le ricfoi i ro go&#039;i cu ruble gi&#039;e dunku gi&#039;e
-            du&#039;e va&#039;e pensi gi&#039;e na&#039;e cinmo gi&#039;e
-            to&#039;e ckire gi&#039;e badri i le remna mo&#039;u cliva mi&#039;a
-            gi&#039;e na&#039;e gleki fau le nu le nei na kansa mi&#039;a i le
-            banli tcadu ku voi cpana le terdi cu cpana le spofu risna be lo
-            remna i le nurma tcadu cu simsa lo&#039;e muzga be lo morsi i
-            bu&#039;u le do&#039;o banli malsi ba&#039;o ku su&#039;o da pikci i
-            mi pu prami le pa citno pe le cmana i je ku&#039;i ba bo le se
-            go&#039;i co&#039;u prami mi gi&#039;e cliva i mi badri gi&#039;e
-            spofu i ca lo nicte e lo donri mi klama fo lu&#039;i le za&#039;u
-            ricfoi gi&#039;e lausku le cmene be ra i ku&#039;i fliba i le lastu
-            flani be ra no roi se sance to&#039;o su&#039;o da li&#039;u
+            ba&#039;o cilce kelci ca lo nu le lunra cu te gusni i mi&#039;a ca
+            cu spofu gi&#039;e badri i do&#039;o pu lebna tu&#039;a le citno
+            dalgidva pe loi cmana zi&#039;e noi se prami mi&#039;a gi&#039;e
+            na&#039;e dunku gi&#039;e zifre i le zgike poi sance lo flani pe le
+            dalgidva pu je ca nai se minra fo le se stuzi be lo jbini be
+            lo&#039;i su&#039;o cmana i je le sance be le nu le dalgidva cu
+            cinmo vasxu cu pu je ca nai se bevri ni&#039;a le klina tsani ca lo
+            nicte i ba&#039;o ku le dalgidva cu klaku fi tu&#039;a mi&#039;a
+            gi&#039;a senva tu&#039;a mi&#039;a gi&#039;a zenba lo ka kandi
+            ri&#039;a tu&#039;a mi&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             «Ah! I am no longer the enchanting forest nymph! We no longer fly
             together through the forests, we no longer happily bathe in the
-            streams, we no longer play wildly in the moonlight. We are broken
-            and sad. You have taken from us our young mountain shepherds, our
+            streams, we no longer play wildly in the moonlight. We are scattered
+            and sad. You have taken from us the young mountain shepherds, our
             carefree and free-spirited lovers. In the groves, no longer do their
             loving flutes echo, under the clear night skies, no longer do their
             passionate sighs carry, they no longer wail for us, they do not
-            yearn, they do not fade away for us... You, from the cities, created
-            new worries for them and destroyed us, and them... They were lost,
-            lost without a trace, restless heroes, who once rode wild horses
-            over fields and mountains, performing feats, dying and winning
-            victories. Now, scarcely will a man pass through the forest paths.
-            And he — weak, concerned, thoughtful, soulless, embittered and sad!
-            The people left us, and they are unhappy without us. Those great
-            cities, towering above the earth, rose above broken human hearts.
-            Villages resemble cemeteries. In your magnificent temples, no one
-            prays anymore. I loved a young mountaineer, but he fell out of love
-            with me and is gone. I am sad and broken. Day and night I wander
-            through the woods, calling out to him, crying, but in vain — his
-            brass flute never sounds from anywhere...»
+            yearn, they do not fade away for us...
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             «Ах! Я больше не обольстительная лесная нимфа! Мы больше не летаем
@@ -668,18 +645,75 @@ meta.priority: 7119
             пастухов, наших беззаботных и свободолюбивых любовников. Их любовные
             кавалькады уже не отдаются эхом в долинах, их страстные вздохи уже
             не плывут под ясным ночным небом, они уже не плачут по нам, они не
-            мечтают, они не угасают для нас... Вы там из своих городов создали
-            новые заботы и погубили и нас, и их... Они потерялись, потерялись
-            без следа, смелые юноши, которые скакали по полям и горам на бешеных
-            конях, совершали подвиги, умирали и одерживали победы. Теперь по
-            лесным тропинкам редко пройдет человек. И он — слабый,
-            обеспокоенный, задумчивый, бездушный, озлобленный и печальный! Люди
-            покинули нас, и без нас они несчастны. Те великие города, которые
-            возвышались над землей, возвышались над разбитыми сердцами людей.
-            Деревни похожи на кладбища. В ваших великолепных храмах больше никто
-            не молится. Я любила молодого горца, но он меня разлюбил и ушел. Я
-            опечалена и убита. Я брожу по лесам день и ночь, зовя его, плача, но
-            напрасно — его медная дудка не откликается ниоткуда...»
+            мечтают, они не угасают для нас...
+          </td>
+        </tr>
+        <tr
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
+        >
+          <td class="text-left align-text-top p-2 column-class-balgaro">
+            Вий там от градовете им създадохте нови грижи и погубихте и нас, и
+            тях… Изгубиха се, безследно се изгубиха немирни юнаци, кои на луди
+            коне се носеха над поля и планини, вършеха подвизи, гинеха и
+            печелеха победи. Сега по горските пътеки изрядко ще мине човек. И
+            той — слаб, загрижен, умислен, останал без душа, озлобен и тъжен!
+            Оставиха ни хората, и нещастни са без нас. Тия големи градове, що се
+            издигнаха над земята, издигнаха се над разрушените човешки сърца.
+            Селата приличат на гробища. Във великолепните ви храмове се не моли
+            вече никой. Аз любех един млад планинец, но той ме разлюби и го няма
+            вече. Аз съм тъжна и убита. Денонощно се лутам из горите, викам го,
+            плача, но напразно — медният му кавал се не обади отникъде…
+          </td>
+          <td class="text-left align-text-top p-2 column-class-lojbo">
+            i do&#039;o ne le za&#039;u tcadu cu gasnu le cnino nabmi e le daspo
+            be ge mi&#039;a gi le dalgidva .i le dalgidva cu canci gi&#039;e
+            canci fau le nu ri te prina fi no da kei gi&#039;e me le na&#039;e
+            cando virnu noi klama fo lu&#039;i le foldi e le cmana fu lo ka se
+            marce lo cilce xirma zi&#039;e noi gasnu lo banli zi&#039;e noi
+            ta&#039;e ku su&#039;o me ke&#039;a co&#039;a morsi gi&#039;a jinga
+            i nauku so&#039;u roi ku su&#039;o remna cu klama fo lu&#039;i le
+            klaji pe le ricfoi i ro go&#039;i cu ruble gi&#039;e dunku gi&#039;e
+            du&#039;e va&#039;e pensi gi&#039;e na&#039;e cinmo gi&#039;e
+            to&#039;e ckire gi&#039;e badri i le&#039;e remna mo&#039;u cliva
+            mi&#039;a gi&#039;e na&#039;e gleki fau le nu le nei na kansa
+            mi&#039;a i le banli tcadu ku voi cpana le terdi cu cpana le spofu
+            risna be lo remna i le nurma tcadu cu simsa lo&#039;e muzga be lo
+            morsi i bu&#039;u le do&#039;o banli malsi ba&#039;o ku su&#039;o da
+            pikci i mi pu prami le pa citno pe le cmana i je ku&#039;i ba bo le
+            se go&#039;i co&#039;u prami mi gi&#039;e cliva i mi badri gi&#039;e
+            spofu i ca le&#039;e nicte e le&#039;e donri mi klama fo lu&#039;i
+            le za&#039;u ricfoi gi&#039;e lausku le cmene be ra i ku&#039;i
+            fliba i le lastu flani be ra no roi se sance to&#039;o su&#039;o da
+            li&#039;u
+          </td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            You, from the cities, created new worries for them and destroyed us,
+            and them... They were lost, lost without a trace, those restless
+            heroes, who once rode wild horses over fields and mountains,
+            performing feats, dying and winning victories. Now, scarcely will a
+            man pass through the forest paths. And he — weak, concerned,
+            thoughtful, soulless, embittered and sad! People left us, and they
+            are unhappy without us. Those great cities, towering above the
+            earth, rose above broken human hearts. Villages resemble cemeteries.
+            In your magnificent temples, no one prays anymore. I loved a young
+            mountaineer, but he fell out of love with me and is gone. I am sad
+            and broken. Day and night I wander through the woods, calling out to
+            him, crying, but in vain — his brass flute never sounds from
+            anywhere...»
+          </td>
+          <td class="text-left align-text-top p-2 column-class-rusko">
+            Вы там из своих городов создали новые заботы и погубили и нас, и
+            их... Они потерялись, потерялись без следа, смелые юноши, которые
+            скакали по полям и горам на бешеных конях, совершали подвиги,
+            умирали и одерживали победы. Теперь по лесным тропинкам редко
+            пройдет человек. И он — слабый, обеспокоенный, задумчивый,
+            бездушный, озлобленный и печальный! Люди покинули нас, и без нас они
+            несчастны. Те великие города, которые возвышались над землей,
+            возвышались над разбитыми сердцами людей. Деревни похожи на
+            кладбища. В ваших великолепных храмах больше никто не молится. Я
+            любила молодого горца, но он меня разлюбил и ушел. Я опечалена и
+            убита. Я брожу по лесам день и ночь, зовя его, плача, но напрасно —
+            его медная дудка не откликается ниоткуда...»
           </td>
         </tr>
         <tr
@@ -689,7 +723,7 @@ meta.priority: 7119
             Като каза това самодивата, отново се разплака.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ba le nu cusku di&#039;u kei le crida co&#039;a klaku
+            i ba le nu le nei cu cusku di&#039;u kei le crida co&#039;a klaku
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             As the nymph said this, she began to cry again.
@@ -767,7 +801,7 @@ meta.priority: 7119
             И тя красиво и презрително се изсмя.
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            i ra melbi je se rigni cisma
+            i ra melbi je se rigni cmila
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             And with disdainful beauty, she laughed at me.
@@ -789,7 +823,7 @@ meta.priority: 7119
             mi skicu fi le prenu noi ke&#039;a fi do co&#039;u morji ce&#039;e
             fe le nu do ca&#039;o renvi gi&#039;e ca&#039;o melbi ce&#039;e fe
             le nu le risna be do ca&#039;o ka&#039;e prami ce&#039;e fe le nu do
-            badri gi&#039;e na&#039;e gleki
+            badri gi&#039;e se betri
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             «Come, wild forest maiden, come! I love you! I want to call out to
@@ -836,7 +870,7 @@ meta.priority: 7119
             i fe lu oi li&#039;u terpa cusku fa le crida
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            «Ah,» exclaimed in horror the forest nymph.
+            «Ah,» exclaimed the forest nymph in horror.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             «Ах,» – вскричала испуганная нимфа.

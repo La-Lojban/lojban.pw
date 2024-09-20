@@ -3,9 +3,9 @@ title: Dictionary with Examples
 meta.type: korpora
 description: Gleki and others | Translation from Lojban
 meta.description: Gleki and others | Translation from Lojban
-meta.keywords: liste lo'i xamgu jufra, xamgu jufra, Dictionary with Examples, 
+meta.keywords: liste lo'i xamgu jufra, xamgu jufra, Dictionary with Examples
 meta.author: Gleki and others
-meta.priority: 109692
+meta.priority: 109869
 ---
 
 <div class="w-full">
@@ -3433,7 +3433,7 @@ meta.priority: 109692
             lu ma nuzba li&#039;u brisni
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;What&#039;s up?&amp;quot; is a grammatical clause.
+            &quot;What&#039;s up?&quot; is a grammatical clause.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -3450,9 +3450,9 @@ meta.priority: 109692
             zo do
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;I give this to you.&amp;quot; is a clause with the main
-            verb &amp;quot;give&amp;quot; that has sequential places
-            &amp;quot;I&amp;quot;,&amp;quot;this&amp;quot;,&amp;quot;you&amp;quot;.
+            &quot;I give this to you.&quot; is a clause with the main verb
+            &quot;give&quot; that has sequential places
+            &quot;I&quot;,&quot;this&quot;,&quot;you&quot;.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -6324,7 +6324,7 @@ meta.priority: 109692
             mi ba ciska lu coi munje li&#039;u le pelji
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I will write &amp;quot;Hello, world!&amp;quot; on the paper.
+            I will write &quot;Hello, world!&quot; on the paper.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -6406,7 +6406,7 @@ meta.priority: 109692
             citno
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            le mi&#039;u nixli cu citno le ka lifri le xo kau mei
+            le nixli cu citno le ka lifri le xo kau mei
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The girl is young in how much she experienced.
@@ -6827,8 +6827,8 @@ meta.priority: 109692
             ckini
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            mi na jimpe le te ckini be le mi&#039;u panci bei le se vecnu be fi
-            do
+            mi na jimpe le du&#039;u makau te ckini le panci le jai se vecnu be
+            fi do
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I don&#039;t understand the relation between the smell and your
@@ -6849,8 +6849,8 @@ meta.priority: 109692
             ckini
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ti&#039;e le mi&#039;u sance cu ckini le barda mabru le ka ce&#039;u
-            cupra ce&#039;u fau le nu ri pagre ti
+            ti&#039;e le sance cu ckini le barda mabru le ka ce&#039;u cupra
+            ce&#039;u fau le nu ri pagre ti
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             They say the sound is related to a large mammal that produces it
@@ -7325,8 +7325,8 @@ meta.priority: 109692
             zo ka cmavo ma&#039;oi nu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            {ka} is a grammatical particle of class &amp;quot;NU&amp;quot;
-            (clause prefix)
+            {ka} is a grammatical particle of class &quot;NU&quot; (clause
+            prefix)
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -7394,7 +7394,7 @@ meta.priority: 109692
             .i le bruna be mi mi te cmene zo ractu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            My brother calls me &amp;quot;Rabbit&amp;quot;
+            My brother calls me &quot;Rabbit&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -7417,7 +7417,7 @@ meta.priority: 109692
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The committee asserted that the person had done nothing
-            &amp;quot;incorrect&amp;quot; (quoting the committee&#039;s words).
+            &quot;incorrect&quot; (quoting the committee&#039;s words).
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -7438,7 +7438,7 @@ meta.priority: 109692
             zo lojban cmevla
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Lojban&amp;quot; is cmevla.
+            &quot;Lojban&quot; is cmevla.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -7497,7 +7497,7 @@ meta.priority: 109692
             le mi&#039;u prenu pu cmoni zo a le ka gleki
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The person uttered &amp;quot;A!&amp;quot; expressing his happiness.
+            The person uttered &quot;A!&quot; expressing his happiness.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -7683,8 +7683,8 @@ meta.priority: 109692
             lu le ractu co melbi li&#039;u dunli lu le melbi ractu li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Pretty bunnies&amp;quot; is the same as &amp;quot;bunnies,
-            the pretty&amp;quot;.
+            &quot;Pretty bunnies&quot; is the same as &quot;bunnies, the
+            pretty&quot;.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -8665,8 +8665,7 @@ meta.priority: 109692
             lu do cu&#039;e vitke la nipon li&#039;u lu pu&#039;o li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Have you been to Japan?&amp;quot; &amp;quot;I&#039;m about
-            to.&amp;quot;
+            &quot;Have you been to Japan?&quot; &quot;I&#039;m about to.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -8684,8 +8683,7 @@ meta.priority: 109692
             lu le mi&#039;u penbi cu&#039;e zvati li&#039;u lu pu vu li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Where is the pen?&amp;quot; &amp;quot;It was over
-            there.&amp;quot;
+            &quot;Where is the pen?&quot; &quot;It was over there.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -9065,7 +9063,7 @@ meta.priority: 109692
             .i ba ku mi cusku fi ra fe lu do mutce le ka xendo li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            And then I said to her: &amp;quot;You are very kind.&amp;quot;
+            And then I said to her: &quot;You are very kind.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -10896,7 +10894,7 @@ meta.priority: 109692
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The following sentence isn&#039;t correct. Someone called John is my
-            name. &amp;quot;John is my name&amp;quot; is correct, though.
+            name. &quot;John is my name&quot; is correct, though.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -11651,8 +11649,8 @@ meta.priority: 109692
             li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;We discussed travelling.&amp;quot; &amp;quot;What did you
-            choose?&amp;quot;
+            &quot;We discussed travelling.&quot; &quot;What did you
+            choose?&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -11891,7 +11889,7 @@ meta.priority: 109692
             du&#039;i
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            xu do pe du&#039;i mi zukcfu
+            xu do ne du&#039;i mi zukcfu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Are you as busy as I am?
@@ -13195,8 +13193,8 @@ meta.priority: 109692
             hello!.gy.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I translated {coi ui} to English from Lojban as &amp;quot;Yay,
-            hello!&amp;quot;
+            I translated {coi ui} to English from Lojban as &quot;Yay,
+            hello!&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -14031,8 +14029,7 @@ meta.priority: 109692
             lu do klama fi&#039;a le mi&#039;u zdani li&#039;u lu fi li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Are you going home, from home or?&amp;quot; &amp;quot;From
-            home.&amp;quot;
+            &quot;Are you going home, from home or?&quot; &quot;From home.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -15680,9 +15677,8 @@ meta.priority: 109692
             li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;What connective of GA series matches your situation: you
-            eat a cake, you drink some juice?&amp;quot; &amp;quot;I do
-            both.&amp;quot;
+            &quot;What connective of GA series matches your situation: you eat a
+            cake, you drink some juice?&quot; &quot;I do both.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -15797,7 +15793,7 @@ meta.priority: 109692
             .i zoi ry.привет.ry. te gerna le rusko
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;привет&amp;quot; is a Russian text.
+            &quot;привет&quot; is a Russian text.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -16591,7 +16587,7 @@ meta.priority: 109692
             lu do gu&#039;i citka gi pinxe li&#039;u lu ge li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Do you eat or drink?&amp;quot; &amp;quot;Both.&amp;quot;
+            &quot;Do you eat or drink?&quot; &quot;Both.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -18951,8 +18947,7 @@ meta.priority: 109692
             lu do je&#039;ai nelci le gerku li&#039;u lu to&#039;e li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;You like/dislike dogs?&amp;quot; &amp;quot;I hate
-            them.&amp;quot;
+            &quot;You like/dislike dogs?&quot; &quot;I hate them.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -18970,7 +18965,7 @@ meta.priority: 109692
             lu ki&#039;e do li&#039;u lu je&#039;e do li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Thank you!&amp;quot; &amp;quot;You are welcome!&amp;quot;
+            &quot;Thank you!&quot; &quot;You are welcome!&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -19026,8 +19021,8 @@ meta.priority: 109692
             prenu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            This &amp;quot;garden&amp;quot; (which is in fact not a garden) is
-            owed by some weird people.
+            This &quot;garden&quot; (which is in fact not a garden) is owed by
+            some weird people.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -19842,8 +19837,8 @@ meta.priority: 109692
             zo xagri zo tabra cu jibni le ka se smuni
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The terms &amp;quot;pipe instrument&amp;quot; and
-            &amp;quot;horn&amp;quot; are close in their meanings.
+            The terms &quot;pipe instrument&quot; and &quot;horn&quot; are close
+            in their meanings.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -20915,10 +20910,10 @@ meta.priority: 109692
             li&#039;u lu jo&#039;a i mi na djuno li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Is the person standing near that building a
-            woman?&amp;quot; &amp;quot;Good question! I don&#039;t know! (there
-            is a person standing near the building, the question of whether
-            it&#039;s a woman is applicable).&amp;quot;
+            &quot;Is the person standing near that building a woman?&quot;
+            &quot;Good question! I don&#039;t know! (there is a person standing
+            near the building, the question of whether it&#039;s a woman is
+            applicable).&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -21306,8 +21301,7 @@ meta.priority: 109692
             le toknu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Mother cooked a cake by putting a raw &amp;quot;cake&amp;quot; in
-            the oven.
+            Mother cooked a cake by putting a raw &quot;cake&quot; in the oven.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -22311,7 +22305,8 @@ meta.priority: 109692
             kantu
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            mi pu xaksu re kantu be le cacra ta&#039;i le ka denpa tu&#039;a do
+            mi pu xaksu re kantu be le cacra ta&#039;i le nu mi denpa tu&#039;a
+            do
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I wasted two hours waiting for you.
@@ -22971,8 +22966,7 @@ meta.priority: 109692
             li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;I bought granate.&amp;quot; &amp;quot;Huh,
-            granate?&amp;quot;
+            &quot;I bought granate.&quot; &quot;Huh, granate?&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -22992,8 +22986,7 @@ meta.priority: 109692
             ki&#039;a nai li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;The child is just very tired.&amp;quot; &amp;quot;I
-            understand.&amp;quot;
+            &quot;The child is just very tired.&quot; &quot;I understand.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -24356,7 +24349,7 @@ meta.priority: 109692
             ra pu krixa zo sidju
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            He cried, &amp;quot;Help!&amp;quot;
+            He cried, &quot;Help!&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -24985,7 +24978,7 @@ meta.priority: 109692
             la&#039;e zo .alis. cu cinri cukta
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Alice&amp;quot; is an interesting book.
+            &quot;Alice&quot; is an interesting book.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -25004,7 +24997,7 @@ meta.priority: 109692
             la&#039;o gy.The wild bears.gy. jai cinri skina
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;The wild bears&amp;quot; is an interesting movie.
+            &quot;The wild bears&quot; is an interesting movie.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -25977,7 +25970,7 @@ meta.priority: 109692
             li&#039;a no da poi te ckini la alis la kevin pu na drani
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Clearly, nothing in their relations was amiss.
+            Clearly, nothing in the relations of Alice to Kevin was amiss.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -26158,7 +26151,7 @@ meta.priority: 109692
             lifri
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            mi lifri le ka pu se nandu
+            mi pu&#039;i ze&#039;u lifri le nandu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I&#039;ve had a hard life.
@@ -26206,7 +26199,7 @@ meta.priority: 109692
             lifri
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            mi pu lifri le ka ganse le cizra
+            mi pu lifri le nu mi ganse le cizra
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I underwent strange sensation.
@@ -26652,7 +26645,7 @@ meta.priority: 109692
             sa&#039;ai ba klama le mi&#039;u&#039;ai pei
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Is it &amp;quot;will go&amp;quot; that should have been said?
+            Is it &quot;will go&quot; that should have been said?
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -26821,7 +26814,7 @@ meta.priority: 109692
             mi pu cusku lu coi le pendo li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I said &amp;quot;Hello, friends!&amp;quot;
+            I said &quot;Hello, friends!&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -26880,11 +26873,11 @@ meta.priority: 109692
             kilto grake li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            {ki&#039;ogra} is a lujvo meaning &amp;quot;is a thousand of
-            grams&amp;quot; with arguments referencing relations &amp;quot;what
-            is measured in thousands and is measured in grams&amp;quot;,
-            &amp;quot;the number of grams&amp;quot;; affixes of the lujvo are
-            built from {kilto} and {grake} attached sequentially.
+            {ki&#039;ogra} is a lujvo meaning &quot;is a thousand of grams&quot;
+            with arguments referencing relations &quot;what is measured in
+            thousands and is measured in grams&quot;, &quot;the number of
+            grams&quot;; affixes of the lujvo are built from {kilto} and {grake}
+            attached sequentially.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -27099,7 +27092,7 @@ meta.priority: 109692
             ma&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            le rarna munje cu vajni ca le nu ma&#039;a se lifri
+            le rarna munje cu vajni ca lo&#039;e se lifri be ma&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Nature plays an important role in our lives.
@@ -27157,8 +27150,8 @@ meta.priority: 109692
             zo di&#039;ai cmavo ma&#039;oi coi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            {di&#039;ai} is a grammatical particle of class
-            &amp;quot;COI&amp;quot; (vocative).
+            {di&#039;ai} is a grammatical particle of class &quot;COI&quot;
+            (vocative).
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -27178,7 +27171,7 @@ meta.priority: 109692
             li ma&#039;u re du li bi vu&#039;u xa
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;+2 = 8 - 6.&amp;quot;
+            &quot;+2 = 8 - 6.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -27478,7 +27471,30 @@ meta.priority: 109692
             manri
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            mi manri le nu ma kau ba jinga vau le ka jdice ma kau
+            le junla cu manri lo nu djuno fi lo tcika kei lo ka tcidu lo se
+            zvati be lo pagbu be le nei le nei
+          </td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            The clock is a frame of reference for determining time by reading
+            position of its parts from it.
+          </td>
+          <td
+            class="text-left align-text-top p-2 column-class-English_definition"
+          >
+            x1 is a frame of reference / standard for observing / measuring /
+            determining x2, with / by rules x3. (x1 may be object or si&#039;o
+            idea); See also cmavo list {ma&#039;i}, {ckilu}, {merli}, {pajni},
+            {cimde}, {jdice}, {marde}.
+          </td>
+        </tr>
+        <tr
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
+        >
+          <td class="text-left align-text-top p-2 column-class-jbovla">
+            manri
+          </td>
+          <td class="text-left align-text-top p-2 column-class-lojbo">
+            mi manri le nu ma kau ba jinga vau lo ka jdice ma kau
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I&#039;m the standard of determining of who will win, however I
@@ -27500,7 +27516,7 @@ meta.priority: 109692
             manri
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            tu noi ve&#039;i cmana ba manri le nu zgana le mi&#039;u tumla
+            tu voi ve&#039;i cmana ba manri le nu zgana le mi&#039;u tumla
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             That hill will be the reference frame for observing the land.
@@ -27561,7 +27577,7 @@ meta.priority: 109692
             ai mi dasni le mapku
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I&#039;m going to put on a hat.
+            I&#039;m going to put on the hat.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -27577,7 +27593,7 @@ meta.priority: 109692
             mapni
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            le mi&#039;u mapni cu zabna
+            le mapni cu zabna
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             The cotton is of high quality.
@@ -28313,7 +28329,7 @@ meta.priority: 109692
             zoi cy.(x+15&amp;~15).cy. mekso le bangu poi du la c
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;(x+15&amp;~15)&amp;quot; is a mathematical expression in C
+            &quot;(x+15&amp;~15)&quot; is a mathematical expression in C
             language.
           </td>
           <td
@@ -28574,8 +28590,7 @@ meta.priority: 109692
             lu coi la kevin li&#039;u lu mi&#039;e nai la kevin li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Hello, Kevin!&amp;quot; &amp;quot;I&#039;m not
-            Kevin.&amp;quot;
+            &quot;Hello, Kevin!&quot; &quot;I&#039;m not Kevin.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -28755,7 +28770,7 @@ meta.priority: 109692
             mikce
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            le mamta be mi pu mikce mi tu&#039;a le bekpi be mi ta&#039;i le ka
+            le mamta be mi pu mikce mi tu&#039;a le bekpi be mi ta&#039;i le nu
             punji le jduli
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
@@ -30270,7 +30285,7 @@ meta.priority: 109692
             munje
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            la alis cu se zdani le munje be le se xanri be vo&#039;a
+            la .alis. cu se zdani le munje be le se xanri be le nei
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Alice lives in the world of her fantasies.
@@ -30295,10 +30310,52 @@ meta.priority: 109692
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
             le danlu pendo pe mi cu mupli le ka ca da co&#039;a morsi vau
-            le&#039;i mabru
+            lo&#039;i mabru
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             My pet is an example that at one point all mammals die.
+          </td>
+          <td
+            class="text-left align-text-top p-2 column-class-English_definition"
+          >
+            x1 is an example / sample / specimen / instance / case /
+            illustration of common property(s) x2 of set x3. See also cmavo list
+            {mu&#039;u}, {pixra}.
+          </td>
+        </tr>
+        <tr
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
+        >
+          <td class="text-left align-text-top p-2 column-class-jbovla">
+            mupli
+          </td>
+          <td class="text-left align-text-top p-2 column-class-lojbo">
+            le bisli noi ca&#039;o runme cu mupli lo ka cenba kei lo&#039;i
+            marji
+          </td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            The melting piece of ice is an illustration that instances of matter
+            change
+          </td>
+          <td
+            class="text-left align-text-top p-2 column-class-English_definition"
+          >
+            x1 is an example / sample / specimen / instance / case /
+            illustration of common property(s) x2 of set x3. See also cmavo list
+            {mu&#039;u}, {pixra}.
+          </td>
+        </tr>
+        <tr
+          class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100"
+        >
+          <td class="text-left align-text-top p-2 column-class-jbovla">
+            mupli
+          </td>
+          <td class="text-left align-text-top p-2 column-class-lojbo">
+            ti mupli lo ka narji kei lo&#039;i mlatu
+          </td>
+          <td class="text-left align-text-top p-2 column-class-glico">
+            Here is an example of a cat that is orange.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -30591,8 +30648,8 @@ meta.priority: 109692
             ractu na&#039;i li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;A rabbit, when did you buy it?&amp;quot; &amp;quot;I
-            didn&#039;t buy a rabbit.&amp;quot;
+            &quot;A rabbit, when did you buy it?&quot; &quot;I didn&#039;t buy a
+            rabbit.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -30611,8 +30668,8 @@ meta.priority: 109692
             zo pelmeni li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;What do you think of pelmeni?&amp;quot; &amp;quot;Nothing,
-            I don&#039;t know this word.&amp;quot;
+            &quot;What do you think of pelmeni?&quot; &quot;Nothing, I
+            don&#039;t know this word.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -32043,8 +32100,8 @@ meta.priority: 109692
             nu&#039;o djuno li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I made a statement about the experiment: &amp;quot;We don&#039;t
-            know yet.&amp;quot;
+            I made a statement about the experiment: &quot;We don&#039;t know
+            yet.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -33178,8 +33235,8 @@ meta.priority: 109692
             pi&#039;i ry te&#039;o re
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The area of a circle of diameter &amp;quot;2 × r&amp;quot; is equal
-            to π × r&lt;sup&gt;2&lt;/sup&gt;.
+            The area of a circle of diameter &quot;2 × r&quot; is equal to π ×
+            r&lt;sup&gt;2&lt;/sup&gt;.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -33565,8 +33622,8 @@ meta.priority: 109692
             pante
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            za&#039;u pa gunka pu pante le ka te pleji ma kau vau lei turni
-            ta&#039;i le ka de&#039;a gunka
+            le za&#039;u gunka pu pante le ka te pleji ma kau vau lei turni
+            ta&#039;i le nu de&#039;a gunka
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Workers complained about their salary to the management by halting
@@ -33895,7 +33952,7 @@ meta.priority: 109692
             le mi&#039;u nanmu cu lanbi pe&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            He is a &amp;quot;sheep&amp;quot; (figuratively).
+            He is a &quot;sheep&quot; (figuratively).
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -34131,7 +34188,7 @@ meta.priority: 109692
             pencu
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            mi pu pencu le vorme ta&#039;i le ka pilno pa canpa
+            mi pu pencu le vorme ta&#039;i le nu mi pilno le canpa
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I touched a worm with a spade.
@@ -35449,8 +35506,8 @@ meta.priority: 109692
             porsi
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            li pa ce&#039;o li re ce&#039;o li ci cu porsi le ka ce&#039;u mleca
-            ce&#039;u vau le namcu
+            li pa ce&#039;o li re ce&#039;o li ci cu porsi le ka ce&#039;u se
+            dubmau ce&#039;u vau le&#039;i namcu
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             1, 2, 3 is a sequence of numbers where a number to the left is less
@@ -35472,8 +35529,8 @@ meta.priority: 109692
             porsi
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            mi pu ganse le po&#039;o porsi be fi le valsi i je mi na pu jimpe le
-            smuni be le mi&#039;u porsi
+            mi pu ganse le po&#039;o porsi be fi le&#039;i valsi i je mi na pu
+            jimpe fi le smuni be le porsi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I could only see a sequence of words, the sequence the meaning of
@@ -35495,7 +35552,7 @@ meta.priority: 109692
             porto
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            le mi&#039;u ninmu cu tavla fo le porto
+            ra tavla fo le porto
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             She speaks Portuguese.
@@ -35644,7 +35701,7 @@ meta.priority: 109692
             mi pu cusku le preti poi du lu ma nuzba li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I asked a question, &amp;quot;What are the news?&amp;quot;
+            I asked a question, &quot;What are the news?&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -36276,7 +36333,7 @@ meta.priority: 109692
             li pa fe&#039;i ci du li pi ra&#039;e ci
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;1/3 equals 0.(3)&amp;quot;
+            &quot;1/3 equals 0.(3)&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -36291,7 +36348,7 @@ meta.priority: 109692
             ra&#039;i
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            mi pu ganse le pluka panci pe ra&#039;i le mi&#039;u purdi
+            mi pu ganse le pluka panci pe ra&#039;i le purdi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I felt a pleasant smell from the garden.
@@ -36313,8 +36370,7 @@ meta.priority: 109692
             li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;I am pleased to meet you.&amp;quot; &amp;quot;Me
-            too.&amp;quot;
+            &quot;I am pleased to meet you.&quot; &quot;Me too.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -36552,7 +36608,7 @@ meta.priority: 109692
         >
           <td class="text-left align-text-top p-2 column-class-jbovla">rai</td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            mi nelci le jbari ne rai le fragari
+            mi nelci le&#039;e jbari ne rai lo&#039;e fragari
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I like berries with strawberries being my favorite ones.
@@ -36570,7 +36626,7 @@ meta.priority: 109692
             raktu
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            ko ko na raktu ta&#039;i le ka cusku le simsa
+            ko ko na raktu ta&#039;i le nu cusku lo simsa
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             Don&#039;t trouble yourself saying such things.
@@ -36879,9 +36935,8 @@ meta.priority: 109692
             ka se smuni zo co&#039;o
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Chao&amp;quot; that you said was ironic in that instead of
-            meaning &amp;quot;Hi!&amp;quot; it actually meant
-            &amp;quot;Bye!&amp;quot;
+            &quot;Chao&quot; that you said was ironic in that instead of meaning
+            &quot;Hi!&quot; it actually meant &quot;Bye!&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -36920,7 +36975,7 @@ meta.priority: 109692
             pu ci roi cusku zo coi le mi&#039;u fetsi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I said &amp;quot;Hello!&amp;quot; to her three times.
+            I said &quot;Hello!&quot; to her three times.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -37125,7 +37180,7 @@ meta.priority: 109692
             lu ju&#039;i li&#039;u lu re&#039;i do li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Hey!&amp;quot; - &amp;quot;Yes?&amp;quot;
+            &quot;Hey!&quot; - &quot;Yes?&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -37143,7 +37198,7 @@ meta.priority: 109692
             lu ju&#039;i li&#039;u lu re&#039;i nai li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Hey!&amp;quot; - &amp;quot;Wait a bit…&amp;quot;
+            &quot;Hey!&quot; - &quot;Wait a bit…&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -37334,12 +37389,12 @@ meta.priority: 109692
             retsku
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            le mi&#039;u nixli pu retsku fi pa pulji fe lu ta&#039;i ma klama la
-            palma noi xotli li&#039;u
+            le nixli pu retsku fi le pulji fe lu ta&#039;i ma klama la palma noi
+            xotli li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The girl asked a police officer &amp;quot;How does one get to Palm
-            hotel?&amp;quot;
+            The girl asked a police officer &quot;How does one get to Palm
+            hotel?&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -37651,7 +37706,7 @@ meta.priority: 109692
             rinsa
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            mi pu rinsa la alis ta&#039;i le ka jai gau slilu fai le xance be mi
+            mi pu rinsa la alis le ka jai gau slilu fai le xance be mi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             I greeted Alice by waving my hand.
@@ -39221,7 +39276,7 @@ meta.priority: 109692
             li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The girl is singing the song &amp;quot;I love you&amp;quot;.
+            The girl is singing the song &quot;I love you&quot;.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -40575,8 +40630,8 @@ meta.priority: 109692
             mi pu cusku zoi gy.hello, friends!.gy. si zoi gy.hello, kids!.gy.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I said &amp;quot;Hello, friends!&amp;quot;, ehm, no,
-            &amp;quot;Hello, kids!&amp;quot;
+            I said &quot;Hello, friends!&quot;, ehm, no, &quot;Hello,
+            kids!&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -41167,7 +41222,7 @@ meta.priority: 109692
             li no sinso le radno be li pai
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            0 is the sine of &amp;quot;pi&amp;quot; radians.
+            0 is the sine of &quot;pi&quot; radians.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -41648,7 +41703,7 @@ meta.priority: 109692
             zoi zoi.sla.zoi slaka la lojban
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;sla&amp;quot; is a syllable in Lojban.
+            &quot;sla&quot; is a syllable in Lojban.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -42162,7 +42217,7 @@ meta.priority: 109692
             ma lojbo smuni zoi sy.hola.sy. poi spano
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            What is the Lojban for Spanish &amp;quot;hola&amp;quot;?
+            What is the Lojban for Spanish &quot;hola&quot;?
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -43030,7 +43085,7 @@ meta.priority: 109692
             mi pu spuda le se retsku le ka spusku zo je&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I responded to the question by replying &amp;quot;Yes.&amp;quot;
+            I responded to the question by replying &quot;Yes.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -43106,7 +43161,7 @@ meta.priority: 109692
             au la jasmin ba spusku zo je&#039;u mi
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I wish Jasmine replies &amp;quot;Yes&amp;quot; to me.
+            I wish Jasmine replies &quot;Yes&quot; to me.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -44079,7 +44134,7 @@ meta.priority: 109692
             su&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            le nu catlu le pindi vau be le se lifri pu cizra
+            le su&#039;u catlu le pindi vau be le se lifri pu cizra
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             It was a strange experience to look at the poor man.
@@ -44721,7 +44776,7 @@ meta.priority: 109692
             li pa tanjo le radno be li pai fe&#039;i vo
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            1 is the tangent of &amp;quot;pi/4&amp;quot; radians.
+            1 is the tangent of &quot;pi/4&quot; radians.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -44780,7 +44835,7 @@ meta.priority: 109692
             zoi gy.drip fry.gy. tanru
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;drip fry&amp;quot; is a tanru.
+            &quot;drip fry&quot; is a tanru.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -44867,8 +44922,8 @@ meta.priority: 109692
             do pe na ku li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            She said to him &amp;quot;It&#039;s not your baby.&amp;quot; (about
-            her not yet born child).
+            She said to him &quot;It&#039;s not your baby.&quot; (about her not
+            yet born child).
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -45462,8 +45517,8 @@ meta.priority: 109692
             lu ma tcima la moskov ca le cabdei li&#039;u lu le solri li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;What is the weather today in Moscow?&amp;quot;
-            &amp;quot;It is sunny.&amp;quot;
+            &quot;What is the weather today in Moscow?&quot; &quot;It is
+            sunny.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -46744,7 +46799,7 @@ meta.priority: 109692
             do traduki zoi gy.Yay, hello!.gy. ma noi lojbo
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            How would you translate &amp;quot;Yay, hello!&amp;quot; to Lojban?
+            How would you translate &quot;Yay, hello!&quot; to Lojban?
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -46761,8 +46816,7 @@ meta.priority: 109692
             noi glico
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I translated Lojban {coi ui} to English as &amp;quot;Yay,
-            hello!&amp;quot;
+            I translated Lojban {coi ui} to English as &quot;Yay, hello!&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -47102,7 +47156,7 @@ meta.priority: 109692
             le tsani cu tsina pe&#039;a le galtu le tarci
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            The sky is a high &amp;quot;pedestal&amp;quot; for stars.
+            The sky is a high &quot;pedestal&quot; for stars.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -48170,8 +48224,7 @@ meta.priority: 109692
             zoi sy.parte.sy. valsi le ka pagbu vau le spano
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;parte&amp;quot; means &amp;quot;part&amp;quot; in Spanish
-            language.
+            &quot;parte&quot; means &quot;part&quot; in Spanish language.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -48979,7 +49032,7 @@ meta.priority: 109692
             lu ko lumci le mi&#039;u kumfa li&#039;u lu vi&#039;o do li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Clean the room.&amp;quot; &amp;quot;Will do.&amp;quot;
+            &quot;Clean the room.&quot; &quot;Will do.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -49949,8 +50002,8 @@ meta.priority: 109692
             zo oi e zo ua vu&#039;o poi do pu cusku cu srana xu le jibri be do
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Are &amp;quot;Ouch&amp;quot; and &amp;quot;Eureka&amp;quot; that you
-            said related to your job?
+            Are &quot;Ouch&quot; and &quot;Eureka&quot; that you said related to
+            your job?
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -50998,8 +51051,8 @@ meta.priority: 109692
             xlura
           </td>
           <td class="text-left align-text-top p-2 column-class-lojbo">
-            do pu xlura sa&#039;u mi le ka te vecnu ti noi dinju vau ta&#039;i
-            le ka jai gau cenba fai le jdima
+            do pu xlura sa&#039;u mi le ka te vecnu ti voi dinju vau le ka jai
+            gau cenba fai le jdima
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             You just lured me into buying this house by changing the price.
@@ -51040,7 +51093,7 @@ meta.priority: 109692
             lu do nanca li xo li&#039;u lu pa ci li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;How old are you?&amp;quot; &amp;quot;Thirteen.&amp;quot;
+            &quot;How old are you?&quot; &quot;Thirteen.&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -51131,7 +51184,7 @@ meta.priority: 109692
             la uestern poi xotli cu zvati ma
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            Where is &amp;quot;Western&amp;quot; hotel?
+            Where is &quot;Western&quot; hotel?
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -51559,8 +51612,7 @@ meta.priority: 109692
             mi pu za&#039;e derpi i va&#039;i mi pu smusku le jai se bebna
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            I &amp;quot;derped&amp;quot;. In other words, I said something
-            stupid.
+            I &quot;derped&quot;. In other words, I said something stupid.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -52555,7 +52607,7 @@ meta.priority: 109692
             zi&#039;o traduki zo coi zoi gy.hello!.gy.
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            {coi} is translated as &amp;quot;Hello!&amp;quot;
+            {coi} is translated as &quot;Hello!&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -52994,7 +53046,7 @@ meta.priority: 109692
             zo&#039;oi again se traduki fi lu za&#039;u re&#039;u li&#039;u
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            &amp;quot;Again&amp;quot; is translated as {za&#039;u re&#039;u}.
+            &quot;Again&quot; is translated as {za&#039;u re&#039;u}.
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
@@ -53052,8 +53104,7 @@ meta.priority: 109692
             glico
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            {coi ro do} is translated to English as &amp;quot;Hello,
-            everyone!&amp;quot;
+            {coi ro do} is translated to English as &quot;Hello, everyone!&quot;
           </td>
           <td
             class="text-left align-text-top p-2 column-class-English_definition"
