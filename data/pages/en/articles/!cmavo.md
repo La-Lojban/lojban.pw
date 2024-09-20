@@ -1238,6 +1238,221 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 
 ### Constructs
 
+- .ua:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Discovery: Expresses the feeling of suddenly finding or understanding something previously unknown or unclear.
+      - examples:
+        - 1:
+          - lojban: .ua le mi mapku cu zvati le drata kumfa
+          - gloss: [Eureka!] the of-me hat - is-present-at the another room.
+          - translation: [Eureka!] My hat is in the other room!
+          - comment: Emphasizes the discovery of the hat.
+- .ue:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Surprise: Expresses the feeling of being surprised.
+      - examples:
+        - 1:
+          - lojban: .ue la .djan. cu klama
+          - gloss: [Wow!] that-named John is-coming.
+          - translation: [Wow!] John is coming!
+          - comment: Expresses surprise at John's arrival.
+- .ui:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Happiness: Expresses the feeling of happiness or joy.
+      - examples:
+        - 1:
+          - lojban: .ui mi facki fi le mi mapku
+          - gloss: [Yay!] I found-out about the of-me hat.
+          - translation: [Yay!] I found my hat!
+          - comment: Emphasizes the feeling of happiness about finding the hat.
+- .uo:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Completion: Expresses a sense of completion or finality, having finished something, reaching a goal, or achieving closure.
+      - examples:
+        - 1:
+          - lojban: .uo mi facki fi le mi mapku
+          - gloss: [At-last!] I found-out about the of-me hat.
+          - translation: [At last!] I found my hat!
+          - comment: Emphasizes the sense of finality upon finding the hat.
+- .uu:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Pity: Expresses feelings of pity or sympathy, compassion, or sorrow for someone else's misfortune.
+      - examples:
+        - 1:
+          - lojban: .uu do cortu
+          - gloss: [Pity!] you feel-pain.
+          - translation: [Pity!] you feel pain.
+          - comment: Expresses sympathy for someone feeling pain.
+- .u'a:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Gain: Expresses the feeling of gaining or obtaining something, acquiring or achieving something desirable.
+      - examples:
+        - 1:
+          - lojban: .u'a mi facki fi le mi mapku
+          - gloss: [Gain!] I found-out about the of-me hat.
+          - translation: [Gain!] I found my hat!
+          - comment: Emphasizes the feeling of gain associated with finding the hat.
+- .u'e:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Wonder/Awe: Expresses feelings of awe, wonder, amazement, fascination, or admiration.
+      - examples:
+        - 1:
+          - lojban: .u'e le jemna cu melbi
+          - gloss: [Awe!] The gem is-beautiful.
+          - translation: [Wow!] The gem is beautiful!
+          - comment: Expresses admiration for the beauty of the gem.
+- .u'i:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Amusement/Playfulness: Expresses feelings of amusement, fun, playfulness, being entertained or finding something funny,.
+      - examples:
+        - 1:
+          - lojban: .u'i mi citka
+          - gloss: [Fun!] I eat.
+          - translation: [Fun!] I'm eating!
+          - comment: Expresses a playful attitude while doing something simple like eating.
+- .u'o:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Courage: Expresses the feeling of courage, boldness, bravery, valor, or daring.
+      - examples:
+        - 1:
+          - lojban: .u'o mi vofli
+          - gloss: [Courage!] I fly
+          - translation: [Courage!] I'm flying!
+          - comment: Shows courage when flying.
+- .u'u:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Repentance: Expresses feelings of remorse, guilt, regret, or repentance.
+      - examples:
+        - 1:
+          - lojban: .u'u do cortu
+          - gloss: [Repentance!] you feel-pain.
+          - translation: [Repentance!] you feel pain.
+          - comment: The speaker feels guilt about the other person’s pain.
+- .uanai:
+  - definitions:
+    - 1:
+      - type: Confusion: Expresses the feeling of confusion, searching for something.
+      - examples:
+        - 1:
+          - lojban: .uanai le mi mapku na nenri le dinju
+          - gloss: [Confusion!] The of-me hat not is-inside-of the building.
+          - translation: [Confusion!] My hat is not inside the building.
+          - comment: Emphasizes the feeling of confusion when not finding the hat.
+- .uenai:
+  - definitions:
+    - 1:
+      - type: Expectation: Expresses the feeling of expectation or no surprise.
+      - examples:
+        - 1:
+          - lojban: .uenai la .djan. klama
+          - gloss: [As-expected!] that-named John is-coming.
+          - translation: [As expected!] John is coming.
+          - comment: Expresses a lack of surprise at John's arrival.
+- .uinai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Unhappiness: Expresses the feeling of unhappiness or dissatisfaction.
+      - examples:
+        - 1:
+          - lojban: .uinai mi na facki fi le mi mapku
+          - gloss: [Ugh!] I not found-out about the of-me hat.
+          - translation: [Ugh!] I didn't find my hat.
+          - comment: Emphasizes unhappiness due to not finding the hat.
+- .uonai:
+  - definitions:
+    - 1:
+      - type: Incompleteness: Expresses the sense of something being unfinished or incomplete, lacking closure, or having something more to do (but not necessarily with an obligation or restriction to do it).
+      - examples:
+        - 1:
+          - lojban: .uonai mi na facki fi le mi mapku
+          - gloss: [Not-finished!] I not found-out about the of-me hat.
+          - translation: [Not finished!] I didn’t find my hat.
+          - comment: Emphasizes the feeling of incompleteness from not finding the hat.
+- .uunai:
+  - definitions:
+    - 1:
+      - type: Cruelty: Expresses a lack of sympathy, cold-heartedness, ruthlessness, or heartlessness.
+      - examples:
+        - 1:
+          - lojban: .uunai do cortu
+          - gloss: [No-pity!] you feel-pain.
+          - translation: [No pity!] You feel pain.
+          - comment: Expresses a lack of sympathy for someone feeling pain.
+- .u'anai:
+  - definitions:
+    - 1:
+      - type: Loss: Expresses the feeling of losing something valuable, experiencing a setback, or missing out on something desirable.
+      - examples:
+        - 1:
+          - lojban: .u'anai le mi mapku ba'o zvati
+          - gloss: [Loss!] the of-me hat no-anymore is-present-at.
+          - translation: [Loss!] My hat is no longer here.
+          - comment: Shows the feeling of loss when the hat is not present.
+- .u'enai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Commonplace: Expresses the feeling of something being ordinary or unimpressive.
+      - examples:
+        - 1:
+          - lojban: .u'enai la djan klama
+          - gloss: [Meh!] that-named John is-coming.
+          - translation: [Meh!] John is coming.
+          - comment: Expresses that John's arrival is seen as ordinary or unimpressive.
+- .u'inai:
+  - definitions:
+    - 1:
+      - type: Weariness: Expresses the feeling of weariness or a lack of amusement.
+      - examples:
+        - 1:
+          - lojban: .u'inai do tavla mi
+          - gloss: [Boring!] you talk to me.
+          - translation: [Boring!] You are talking to me.
+          - comment: Expresses weariness or boredom with the conversation.
+- .u'onai:
+  - definitions:
+    - 1:
+      - type: Cowardice: Expresses the feeling of cowardice, shyness, or lack of confidence.
+      - examples:
+        - 1:
+          - lojban: .u'o nai mi na klama tu
+          - gloss: [Fear!] I not go-to there.
+          - translation: [Oh no!] I'm not going there!
+          - comment: Shows cowardice when attempting/planning/considering to go to that place.
+- .u'unai:
+  - definitions:
+    - 1:
+      - type: Innocence: Expresses innocence, blamelessness, clear conscience, righteousness, naïveté, or lack of guilt, feeling of being blameless or without regret.
+      - examples:
+        - 1:
+          - lojban: .u'unai do cortu
+          - gloss: [I'm not to blame!] you feel-pain.
+          - translation: [I'm not to blame!] You feel pain.
+          - comment: The speaker emphasizes no regret or guilt about the other person’s pain.
+
+----
+
 - ki'a:
   - definitions:
     - 1:
@@ -1303,152 +1518,6 @@ meta.description: A more user-friendly list of cmavo definitions with examples
     - 1:
       - type: indicator
       - definition: Literal language marker
-- .ua:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Discovery/Confusion: Expresses the feeling of suddenly finding or understanding something previously unknown or unclear, or conversely, the feeling of being perplexed or lost.
-      - examples:
-        - 1:
-          - lojban: .ua mi facki fi le mi mapku
-          - gloss: [Eureka!] I found-out about the of-me hat.
-          - translation: [Eureka!] I found my hat!
-          - comment: Emphasizes the discovery
-- .uanai:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Confusion: Expresses the feeling of being lost, perplexed, or unable to understand something.
-- .u'a:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Gain/Loss: Expresses the feeling of acquiring or achieving something desirable, or conversely, the feeling of losing something of value.
-      - examples:
-        - 1:
-          - lojban: .u'a mi facki fi le mi mapku
-          - gloss: [Gain!] I found-out about the of-me hat.
-          - translation: [Gain!] I found my hat!
-          - comment: Emphasizes the acquisition
-- .u'anai:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Loss: Expresses the feeling of losing something valuable, experiencing a setback, or missing out on something desirable.
-- .ue:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Surprise/Expectation: Expresses the feeling of astonishment, wonder, or unexpectedness, or conversely, the feeling of something being unsurprising or anticipated.
-      - examples:
-        - 1:
-          - lojban: .ue la .djan. klama
-          - gloss: [Surprise!] that-named John comes.
-- .uecu'i:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Neutral surprise: Expresses a mild or neutral level of surprise, neither expecting nor being particularly surprised by something.
-      - examples:
-        - 1:
-          - lojban: .uecu'i la .djan. klama
-          - gloss: [Ho-hum.] that-named John comes.
-- .uenai:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Expectation: Expresses the feeling that something was anticipated or expected.
-      - examples:
-        - 1:
-          - lojban: .uenai la .djan. klama
-          - gloss: [Expected!] that-named John comes.
-- .u'e:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Wonder/Commonplace: Expresses the feeling of amazement, curiosity, or fascination, or conversely, the feeling of something being ordinary or mundane.
-- .ui:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Happiness/Unhappiness: Expresses the feeling of joy, contentment, or pleasure, or conversely, the feeling of sadness, dissatisfaction, or displeasure.
-      - examples:
-        - 1:
-          - lojban: .ui mi facki fi le mi mapku
-          - gloss: [Yay!] I found-out about the of-me hat.
-          - translation: [Yay!] I found my hat!
-          - comment: Emphasizes the happiness
-- .uinai:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Unhappiness: Expresses the feeling of sadness, discontent, or displeasure.
-- .u'i:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Amusement/Weariness: Expresses the feeling of being entertained or finding something funny, or conversely, the feeling of being bored or tired.
-- .u'inai:
-  - definitions:
-    - 1:
-      - definition: Weariness: Expresses the feeling of boredom, fatigue, or lack of interest.
-- .uo:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Completion/Incompleteness: Expresses the feeling of having finished something, reaching a goal, or achieving closure, or conversely, the feeling of something being unfinished or incomplete.
-      - examples:
-        - 1:
-          - lojban: .uo mi facki fi le mi mapku
-          - gloss: [At-last!] I found-out about the of-me hat.
-          - translation: [At last!] I found my hat!
-          - comment: Emphasizes the completion
-- .uonai:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Incompleteness: Expresses the feeling of something being unfinished, lacking closure, or having more to do.
-- .u'o:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Courage/Timidity: Expresses the feeling of bravery, confidence, or boldness, or conversely, the feeling of fearfulness, shyness, or cowardice.
-- .u'onai:
-  - definitions:
-    - 1:
-      - definition: Timidity: Expresses the feeling of fear, shyness, or lack of confidence.
-- .uu:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Pity/Cruelty: Expresses the feeling of compassion, sympathy, or sorrow for someone else's misfortune, or conversely, the feeling of ruthlessness, heartlessness, or pleasure in someone else's suffering.
-      - examples:
-        - 1:
-          - lojban: .uu do cortu
-          - gloss: [Pity!] you feel-pain.
-          - translation: [Pity!] you feel pain.
-          - comment: Expresses speaker's sympathy
-- .uunai:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Cruelty: Expresses the feeling of ruthlessness, lack of compassion, or pleasure in someone else's suffering.
-- .u'u:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Repentance/Innocence: Expresses the feeling of remorse, regret, or guilt for one's actions, or conversely, the feeling of being blameless or without regret.
-      - examples:
-        - 1:
-          - lojban: .u'u do cortu
-          - gloss: [Repentance!] you feel-pain.
-          - translation: [Repentance!] you feel pain.
-          - comment: Expresses that speaker feels guilty
-- .u'unai:
-  - definitions:
-    - 1:
-      - type: simple emotion indicator
-      - definition: Innocence: Expresses the feeling of being blameless, without guilt, or having a clear conscience.
 - .o'a:
   - definitions:
     - 1:
