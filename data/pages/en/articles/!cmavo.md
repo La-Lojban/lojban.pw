@@ -1238,72 +1238,1202 @@ meta.description: A more user-friendly list of cmavo definitions with examples
 
 ### Constructs
 
-- .ua:
+- re'e:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Spiritual - Indicates that the preceding attitudinal is focused towards the spiritual / religious / numinous / supernatural.
+      - examples:
+        - 1:
+          - lojban: ki'e lojbot do pairnu'i io re'e
+          - gloss: Thanks Lojbot you fair-judge [respect] [spiritually]
+          - translation: Thank you, Lojbot. You are fair and just (in a spiritual sense).
+        - 2:
+          - lojban: .ua re'e
+          - gloss: [Discovery] spiritual
+          - translation: I feel a spiritual sense of discovery.
+- re'e cu'i:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Secular - Indicates that the preceding attitudinal is not focused towards the spiritual / religious / numinous / supernatural, and is therefore secular in nature.
+      - examples:
+        - 1:
+          - lojban: .uisai re'ecu'i lo bavlamdei ku detri lo xisyjbenunsla
+          - gloss: [Happy] [secular] the tomorrow is-date-of the Christian-birth-celebration
+          - translation: Hooray! Tomorrow is Christmas! (secular celebration)
+        - 2:
+          - lojban: .uu re'ecu'i
+          - gloss: [Pity] secular
+          - translation: I feel pity, but without any spiritual context.
+- re'e nai:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Sacrilegious - Indicates that the preceding attitudinal is focused away from the spiritual / religious / numinous / supernatural, into active sacrilege.
+      - examples:
+        - 1:
+          - lojban: no cevni cu zasti re'enai
+          - gloss: No god exists [sacrilegeously]
+          - translation: There is no god. (said sacrilegiously)
+
+- ro'a:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Social - Indicates that the preceding attitudinal is focused towards the speaker's interaction with society.
+      - examples:
+        - 1:
+          - lojban: .oi ro'a ba'e ca ku mi se cfipu po'o
+          - gloss: [Pain] [social] [emphasize] now I am-confused only
+          - translation: Awkward. Now I'm just confused! (in a social context)
+        - 2:
+          - lojban: .ui ro'a
+          - gloss: [Happiness] social
+          - translation: I feel socially happy.
+        - 3:
+          - lojban: .o'unai ro'a
+          - gloss: [Anxiety] social
+          - translation: I feel social anxiety, possibly distress in a group setting.
+- ro'a cu'i:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Asocial - Indicates that the preceding attitudinal is not focused towards the speaker's interaction with society.
+      - examples:
+        - 1:
+          - lojban: .ui ro'a cu'i mi cikre le mi skami
+          - gloss: [Happy] [asocial] I repair the my computer
+          - translation: I'm just puttering here by myself, fixing my computer.
+
+- ro'a nai:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Antisocial - Indicates that the preceding attitudinal is focused away from the speaker's interaction with society, towards the speaker's isolation from society.
+      - examples:
+        - 1:
+          - lojban: .ui nai ro'a nai mi mo'u zbasu le mi selkei no'u la .gandam.
+          - gloss: [Unhappy] [antisocial] I complete build the my model namely Gundam
+          - translation: I finished building my Gundam model. I feel so lonely.
+        - 2:
+          - lojban: .uinai ro'anai
+          - gloss: [Sadness] antisocial
+          - translation: I feel an antisocial sadness, pushing away social interactions.
+        - 3:
+          - lojban: .ei ro'anai
+          - gloss: [Obligation] antisocial
+          - translation: I feel obligated, but in a manner that disregards social expectations.
+- ro'e:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Mental - Indicates that the preceding attitudinal is focused towards the mental / intellectual / thoughtful / contemplative.
+      - examples:
+        - 1:
+          - lojban: .oi ro'e mu'i ma pau nai lo nu tavla cusku zo galxe cu mutce nandu fi lo nu galxe bilma
+          - gloss: [Pain] [mental] motivation what-question [lacking] the event-of talk say word throat is-very difficult for the event-of throat is-ill
+          - translation: Stupid brain! Why is saying "galxe" so very difficult with a sore throat?
+        - 2:
+          - lojban: .ei ro'e
+          - gloss: [Obligation] mental
+          - translation: I feel a mental obligation to do something.
+- ro'e cu'i:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Non-mental - Indicates that the preceding attitudinal is not focused towards the mental / intellectual / thoughtful / contemplative.
+      - examples:
+        - 1:
+          - lojban: .a'i ro'e cu'i mi snada
+          - gloss: [Effort] [non-mental] I succeed
+          - translation: I did it, through much hard work, though it took but little thought.
+
+- ro'e nai:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Mindless - Indicates that the preceding attitudinal is focused away from the mental / intellectual / thoughtful / contemplative, and towards mindless action.
+      - examples:
+        - 1:
+          - lojban: le'o ro'e nai catra ko
+          - gloss: [Aggressive] [mindless] kill you-imperative
+          - translation: Die! (said mindlessly)
+
+- ro'i:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Emotional - Indicates that the preceding attitudinal is focused towards the speaker's feelings / emotions.
+      - examples:
+        - 1:
+          - lojban: oi cai ro'i mi mutce caucni
+          - gloss: [Pain] [intense] [emotional] I very-much cry-intend
+          - translation: I am so lonely I think I'm going to cry.
+        - 2:
+          - lojban: .oi ro'i
+          - gloss: [Pain] emotional
+          - translation: I feel emotional pain.
+- ro'i cu'i:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Non-emotional - Indicates that the preceding attitudinal is not focused towards the speaker's feelings / emotions.
+      - examples:
+        - 1:
+          - lojban: .i xu do kanro vau ro'i cu'i
+          - gloss: [Question] you healthy [end] [non-emotional]
+          - translation: How do you do. (asked non-emotionally)
+
+- ro'i nai:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Unemotional - Indicates that the preceding attitudinal is focused away from the speaker's feelings / emotions.
+      - examples:
+        - 1:
+          - lojban: .i mi na jinvi ro'i nai
+          - gloss: I not opine [unemotional]
+          - translation: I don't care that I don't have an opinion.
+        - 2:
+          - lojban: .ui ro'inai
+          - gloss: [Happiness] denying emotion
+          - translation: I express happiness but without emotional involvement.
+- ro'o:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Physical - Indicates that the preceding attitudinal is focused towards the physical, which can include the speaker's own body, but also the physical surroundings.
+      - examples:
+        - 1:
+          - lojban: .oi nai ro'o le cidja cu kukte
+          - gloss: [Pain] [not] [physical] the food is-delicious
+          - translation: Yum, this food is delicious!
+        - 2:
+          - lojban: .uinai ro'o
+          - gloss: [Sadness] physical
+          - translation: I feel physical sadness, perhaps manifesting as lethargy.
+- ro'o cu'i:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Non-physical - Indicates that the preceding attitudinal is not focused towards the physical, which can include the speaker's own body, but also the physical surroundings.
+      - examples:
+        - 1:
+          - lojban: .ii ro'o cu'i le cidja cu mutce kukte .i ku'i lo nu ri kargu cu terpa mi
+          - gloss: [Fear] [non-physical] the food is-very delicious . But the event-of it expensive frightens me
+          - translation: Gulp! The food is delicious, but I'm afraid of how expensive it's going to be.
+
+- ro'o nai:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Non-physical (focused away from the physical) - Indicates that the preceding attitudinal is focused away from the physical, which can include the speaker's own body, but also the physical surroundings.
+      - examples:
+        - 1:
+          - lojban: ro'o nai dai do ka'e sutra zenba .i ko lo du'u go'i cu jinvi po'o na gi'e ba'e djuno
+          - gloss: [Non-physical] [empathy] you can quickly increase . You-imperative the statement-that previous-statement opine only not and [emphasize] know
+          - translation: You're faster than this. Don't just think you are, know you are.
+        - 2:
+          - lojban: .uu ro'onai
+          - gloss: [Pity] denying physical
+          - translation: I feel pity but without any physical reaction.
+
+- ro'u:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Sexual - Indicates that the preceding attitudinal is focused towards sexuality.
+      - examples:
+        - 1:
+          - lojban: melbi ro'u
+          - gloss: Beautiful [sexual]
+          - translation: Damn, she's HOT!
+        - 2:
+          - lojban: .ei ro'u
+          - gloss: [Obligation] sexual
+          - translation: I feel a sexual obligation.
+- ro'u cu'i:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Asexual - Indicates that the preceding attitudinal is not focused towards sexuality.
+      - examples:
+        - 1:
+          - lojban: .iu ro'u cu'i
+          - gloss: [Love] [asexual]
+          - translation: I love you, there's just no spark.
+
+- ro'u nai:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Non-sexual - Indicates that the preceding attitudinal is focused away from sexuality.
+      - examples:
+        - 1:
+          - lojban: .iu ro'o nai
+          - gloss: [Love] [non-sexual]
+          - translation: I love you like a brother.
+        - 2:
+          - lojban: .au ro'unai
+          - gloss: [Desire] abstinence
+          - translation: I feel desire, but without sexual involvement.
+- bu'o:
+  - definitions:
+    - 1:
+      - type: UI7
+      - definition: Start emotion - Used to indicate that the state referred to by the preceding attitudinal is just beginning.
+      - examples:
+        - 1:
+          - lojban: .ui bu'o do tolcliva
+          - gloss: [Happy] [start-emotion] you arrive
+          - translation: I'm happy now that you've arrived.
+
+- bu'o cu'i:
+  - definitions:
+    - 1:
+      - type: UI*7
+      - definition: Continuing emotion - Used to indicate that the state referred to by the preceding attitudinal is ongoing (i.e., not presently beginning or ending).
+      - examples:
+        - 1:
+          - lojban: .ue bu'o cu'i do ji'a xu co'e doi brutus
+          - gloss: [Surprise] [continuing-emotion] you also [question] do-ellipsis O Brutus
+          - translation: Et tu, Brute?
+
+- bu'o nai:
+  - definitions:
+    - 1:
+      - type: UI*7
+      - definition: End emotion - Used to indicate that the state referred to by the preceding attitudinal is now ending.
+      - examples:
+        - 1:
+          - lojban: .iu bu'onai .uinai
+          - gloss: [Love] [end-emotion] [unhappy]
+          - translation: I don't love you anymore; I'm sad.
+
+- fu'e:
+  - definitions:
+    - 1:
+      - type: FUhE
+      - definition: Begin indicator scope - Marks the beginning of an alternate scope that can have attitudinals applied to it.
+      - examples:
+        - 1:
+          - lojban: mi viska le fu'e .ia blanu zdani fu'o ponse
+          - gloss: I see the [begin-scope] [belief] blue house [end-scope] owner
+          - translation: I see the owner of what I believe to be a blue house.
+        - 2:
+          - lojban: .i fu'e po'o lo za'i prami .e lo za'i gleki fu'o cu se cinmo lo se gugde be la skatygug
+          - gloss: [Begin-scope] only the state-of love and the state-of happy [end-scope] is-felt-by the country-folk of Scatland
+          - translation: There is only love and happiness in Scatland.
+
+- fu'o:
+  - definitions:
+    - 1:
+      - type: FUhO
+      - definition: End indicator scope - Marks the end of an alternate scope that can have attitudinals applied to it.
+      - examples:
+        - 1:
+          - lojban: mi viska le fu'e .ia blanu zdani fu'o ponse
+          - gloss: I see the [begin-scope] [belief] blue house [end-scope] owner
+          - translation: I see the owner of what I believe to be a blue house.
+
+- .a'a:
   - definitions:
     - 1:
       - type: pure emotion indicator
-      - definition: Discovery: Expresses the feeling of suddenly finding or understanding something previously unknown or unclear.
+      - definition: Attentive: Expresses attentiveness, concentration, or paying attention.
       - examples:
         - 1:
-          - lojban: .ua le mi mapku cu zvati le drata kumfa
-          - gloss: [Eureka!] the of-me hat - is-present-at the another room.
-          - translation: [Eureka!] My hat is in the other room!
-          - comment: Emphasizes the discovery of the hat.
-- .ue:
+          - lojban: .a'a .i ko di'a co'e .i ba ku ma fasnu
+          - gloss: [Attentively] . You again do-ellipsis . After that what happens?
+          - translation: I'm listening. Go on, what happened next?
+        - 2:
+          - lojban: .a'a mi tirna lo cnino zgike
+          - gloss: [Attentively] I listen-to the new music.
+          - translation: I'm paying close attention to the new music.
+
+- re'e:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Spiritual - Indicates that the preceding attitudinal is focused towards the spiritual / religious / numinous / supernatural.
+      - examples:
+        - 1:
+          - lojban: ki'e lojbot do pairnu'i io re'e
+          - gloss: Thanks Lojbot you fair-judge [respect] [spiritually]
+          - translation: Thank you, Lojbot. You are fair and just (in a spiritual sense).
+
+- re'e cu'i:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Secular - Indicates that the preceding attitudinal is not focused towards the spiritual / religious / numinous / supernatural, and is therefore secular in nature.
+      - examples:
+        - 1:
+          - lojban: .uisai re'ecu'i lo bavlamdei ku detri lo xisyjbenunsla
+          - gloss: [Happy] [secular] the tomorrow is-date-of the Christian-birth-celebration
+          - translation: Hooray! Tomorrow is Christmas! (secular celebration)
+
+- re'e nai:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Sacrilegious - Indicates that the preceding attitudinal is focused away from the spiritual / religious / numinous / supernatural, into active sacrilege.
+      - examples:
+        - 1:
+          - lojban: no cevni cu zasti re'enai
+          - gloss: No god exists [sacrilegeously]
+          - translation: There is no god. (said sacrilegiously)
+
+- ro'a:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Social - Indicates that the preceding attitudinal is focused towards the speaker's interaction with society.
+      - examples:
+        - 1:
+          - lojban: .oi ro'a ba'e ca ku mi se cfipu po'o
+          - gloss: [Pain] [social] [emphasize] now I am-confused only
+          - translation: Awkward. Now I'm just confused! (in a social context)
+
+- ro'a cu'i:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Asocial - Indicates that the preceding attitudinal is not focused towards the speaker's interaction with society.
+      - examples:
+        - 1:
+          - lojban: .ui ro'a cu'i mi cikre le mi skami
+          - gloss: [Happy] [asocial] I repair the my computer
+          - translation: I'm just puttering here by myself, fixing my computer.
+
+- ro'a nai:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Antisocial - Indicates that the preceding attitudinal is focused away from the speaker's interaction with society, towards the speaker's isolation from society.
+      - examples:
+        - 1:
+          - lojban: .ui nai ro'a nai mi mo'u zbasu le mi selkei no'u la .gandam.
+          - gloss: [Unhappy] [antisocial] I complete build the my model namely Gundam
+          - translation: I finished building my Gundam model. I feel so lonely.
+
+- ro'e:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Mental - Indicates that the preceding attitudinal is focused towards the mental / intellectual / thoughtful / contemplative.
+      - examples:
+        - 1:
+          - lojban: .oi ro'e mu'i ma pau nai lo nu tavla cusku zo galxe cu mutce nandu fi lo nu galxe bilma
+          - gloss: [Pain] [mental] motivation what-question [lacking] the event-of talk say word throat is-very difficult for the event-of throat is-ill
+          - translation: Stupid brain! Why is saying "galxe" so very difficult with a sore throat?
+
+- ro'e cu'i:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Non-mental - Indicates that the preceding attitudinal is not focused towards the mental / intellectual / thoughtful / contemplative.
+      - examples:
+        - 1:
+          - lojban: .a'i ro'e cu'i mi snada
+          - gloss: [Effort] [non-mental] I succeed
+          - translation: I did it, through much hard work, though it took but little thought.
+
+- ro'e nai:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Mindless - Indicates that the preceding attitudinal is focused away from the mental / intellectual / thoughtful / contemplative, and towards mindless action.
+      - examples:
+        - 1:
+          - lojban: le'o ro'e nai catra ko
+          - gloss: [Aggressive] [mindless] kill you-imperative
+          - translation: Die! (said mindlessly)
+
+- ro'i:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Emotional - Indicates that the preceding attitudinal is focused towards the speaker's feelings / emotions.
+      - examples:
+        - 1:
+          - lojban: oi cai ro'i mi mutce caucni
+          - gloss: [Pain] [intense] [emotional] I very-much cry-intend
+          - translation: I am so lonely I think I'm going to cry.
+
+- ro'i cu'i:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Non-emotional - Indicates that the preceding attitudinal is not focused towards the speaker's feelings / emotions.
+      - examples:
+        - 1:
+          - lojban: .i xu do kanro vau ro'i cu'i
+          - gloss: [Question] you healthy [end] [non-emotional]
+          - translation: How do you do. (asked non-emotionally)
+
+- ro'i nai:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Unemotional - Indicates that the preceding attitudinal is focused away from the speaker's feelings / emotions.
+      - examples:
+        - 1:
+          - lojban: .i mi na jinvi ro'i nai
+          - gloss: I not opine [unemotional]
+          - translation: I don't care that I don't have an opinion.
+
+- ro'o:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Physical - Indicates that the preceding attitudinal is focused towards the physical, which can include the speaker's own body, but also the physical surroundings.
+      - examples:
+        - 1:
+          - lojban: .oi nai ro'o le cidja cu kukte
+          - gloss: [Pain] [not] [physical] the food is-delicious
+          - translation: Yum, this food is delicious!
+
+- ro'o cu'i:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Non-physical - Indicates that the preceding attitudinal is not focused towards the physical, which can include the speaker's own body, but also the physical surroundings.
+      - examples:
+        - 1:
+          - lojban: .ii ro'o cu'i le cidja cu mutce kukte .i ku'i lo nu ri kargu cu terpa mi
+          - gloss: [Fear] [non-physical] the food is-very delicious . But the event-of it expensive frightens me
+          - translation: Gulp! The food is delicious, but I'm afraid of how expensive it's going to be.
+
+- ro'o nai:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Non-physical (focused away from the physical) - Indicates that the preceding attitudinal is focused away from the physical, which can include the speaker's own body, but also the physical surroundings.
+      - examples:
+        - 1:
+          - lojban: ro'o nai dai do ka'e sutra zenba .i ko lo du'u go'i cu jinvi po'o na gi'e ba'e djuno
+          - gloss: [Non-physical] [empathy] you can quickly increase . You-imperative the statement-that previous-statement opine only not and [emphasize] know
+          - translation: You're faster than this. Don't just think you are, know you are.
+
+- ro'u:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Sexual - Indicates that the preceding attitudinal is focused towards sexuality.
+      - examples:
+        - 1:
+          - lojban: melbi ro'u
+          - gloss: Beautiful [sexual]
+          - translation: Damn, she's HOT!
+
+- ro'u cu'i:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Asexual - Indicates that the preceding attitudinal is not focused towards sexuality.
+      - examples:
+        - 1:
+          - lojban: .iu ro'o cu'i
+          - gloss: [Love] [asexual]
+          - translation: I love you, there's just no spark.
+
+- ro'u nai:
+  - definitions:
+    - 1:
+      - type: emotional category modifier
+      - definition: Non-sexual - Indicates that the preceding attitudinal is focused away from sexuality.
+      - examples:
+        - 1:
+          - lojban: .iu ro'o nai
+          - gloss: [Love] [non-sexual]
+          - translation: I love you like a brother.
+
+- bu'o:
+  - definitions:
+    - 1:
+      - type: UI7
+      - definition: Start emotion - Used to indicate that the state referred to by the preceding attitudinal is just beginning.
+      - examples:
+        - 1:
+          - lojban: .ui bu'o do tolcliva
+          - gloss: [Happy] [start-emotion] you arrive
+          - translation: I'm happy now that you've arrived.
+
+- bu'o cu'i:
+  - definitions:
+    - 1:
+      - type: UI*7
+      - definition: Continuing emotion - Used to indicate that the state referred to by the preceding attitudinal is ongoing (i.e., not presently beginning or ending).
+      - examples:
+        - 1:
+          - lojban: .ue bu'o cu'i do ji'a xu co'e doi brutus
+          - gloss: [Surprise] [continuing-emotion] you also [question] do-ellipsis O Brutus
+          - translation: Et tu, Brute?
+
+- bu'o nai:
+  - definitions:
+    - 1:
+      - type: UI*7
+      - definition: End emotion - Used to indicate that the state referred to by the preceding attitudinal is now ending.
+      - examples:
+        - 1:
+          - lojban: .iu bu'onai .uinai
+          - gloss: [Love] [end-emotion] [unhappy]
+          - translation: I don't love you anymore; I'm sad.
+
+- fu'e:
+  - definitions:
+    - 1:
+      - type: FUhE
+      - definition: Begin indicator scope - Marks the beginning of an alternate scope that can have attitudinals applied to it.
+      - examples:
+        - 1:
+          - lojban: mi viska le fu'e .ia blanu zdani fu'o ponse
+          - gloss: I see the [begin-scope] [belief] blue house [end-scope] owner
+          - translation: I see the owner of what I believe to be a blue house.
+        - 2:
+          - lojban: .i fu'e po'o lo za'i prami .e lo za'i gleki fu'o cu se cinmo lo se gugde be la skatygug
+          - gloss: [Begin-scope] only the state-of love and the state-of happy [end-scope] is-felt-by the country-folk of Scatland
+          - translation: There is only love and happiness in Scatland.
+
+- fu'o:
+  - definitions:
+    - 1:
+      - type: FUhO
+      - definition: End indicator scope - Marks the end of an alternate scope that can have attitudinals applied to it.
+      - examples:
+        - 1:
+          - lojban: mi viska le fu'e .ia blanu zdani fu'o ponse
+          - gloss: I see the [begin-scope] [belief] blue house [end-scope] owner
+          - translation: I see the owner of what I believe to be a blue house.
+          
+- .a'a cu'i:
   - definitions:
     - 1:
       - type: pure emotion indicator
-      - definition: Surprise: Expresses the feeling of being surprised.
+      - definition: Inattentive: Expresses inattentiveness or distraction.
       - examples:
         - 1:
-          - lojban: .ue la .djan. cu klama
-          - gloss: [Wow!] that-named John is-coming.
-          - translation: [Wow!] John is coming!
-          - comment: Expresses surprise at John's arrival.
-- .ui:
+          - lojban: .a'a cu'i ko denpa lo nu mi mulgau ti
+          - gloss: [Inattentively] You wait the event-of I complete this.
+          - translation: Eh, just a second, let me finish this.
+        - 2:
+          - lojban: .a'a cu'i mi na pu tirna
+          - gloss: [Inattentively] I didn't past listen.
+          - translation: Sorry, I wasn't really paying attention.
+
+- .a'a nai:
   - definitions:
     - 1:
       - type: pure emotion indicator
-      - definition: Happiness: Expresses the feeling of happiness or joy.
+      - definition: Avoiding: Expresses avoidance or evasion.
       - examples:
         - 1:
-          - lojban: .ui mi facki fi le mi mapku
-          - gloss: [Yay!] I found-out about the of-me hat.
-          - translation: [Yay!] I found my hat!
-          - comment: Emphasizes the feeling of happiness about finding the hat.
-- .uo:
+          - lojban: .a'a nai mi na tirna
+          - gloss: [Avoidingly] I not listen.
+          - translation: La la la, I'm not listening.
+        - 2:
+          - lojban: .a'a nai mi cliva ti
+          - gloss: [Avoidingly] I leave here.
+          - translation: I'm getting out of here (to avoid something).
+
+- .a'e:
   - definitions:
     - 1:
       - type: pure emotion indicator
-      - definition: Completion: Expresses a sense of completion or finality, having finished something, reaching a goal, or achieving closure.
+      - definition: Alertness: Expresses alertness, readiness, or enthusiasm.
       - examples:
         - 1:
-          - lojban: .uo mi facki fi le mi mapku
-          - gloss: [At-last!] I found-out about the of-me hat.
-          - translation: [At last!] I found my hat!
-          - comment: Emphasizes the sense of finality upon finding the hat.
-- .uu:
+          - lojban: .a'e le cabdei ba xamgu djedi
+          - gloss: [Alertly] The now-day future good day.
+          - translation: Today is going to be a good day!
+        - 2:
+          - lojban: .a'e mi bredi lo nu ci'erkei
+          - gloss: [Alertly] I ready the event-of compete.
+          - translation: I'm ready and eager to compete!
+
+- .a'e nai:
   - definitions:
     - 1:
       - type: pure emotion indicator
-      - definition: Pity: Expresses feelings of pity or sympathy, compassion, or sorrow for someone else's misfortune.
+      - definition: Tired: Expresses exhaustion, fatigue, or weariness.
       - examples:
         - 1:
-          - lojban: .uu do cortu
-          - gloss: [Pity!] you feel-pain.
-          - translation: [Pity!] you feel pain.
-          - comment: Expresses sympathy for someone feeling pain.
+          - lojban: .a'e nai mi klama lo ckana
+          - gloss: [Tiredly] I go-to the bed.
+          - translation: Yawn... I'm going to bed.
+        - 2:
+          - lojban: .a'e nai mi nitcu lo nu sipna
+          - gloss: [Tiredly] I need the event-of sleep.
+          - translation: I'm exhausted, I need to sleep.
+
+- .a'u:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Interest: Expresses interest or curiosity.
+      - examples:
+        - 1:
+          - lojban: .a'u ma ba'o se lifri do
+          - gloss: [Interestedly] What has-been experienced-by you?
+          - translation: What happened to you?
+        - 2:
+          - lojban: .a'u do cusku lo cnino
+          - gloss: [Interestedly] You express the new.
+          - translation: Tell me more, that's interesting!
+
+- .a'u cu'i:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Disinterest: Expresses lack of interest or indifference.
+      - examples:
+        - 1:
+          - lojban: .a'u cu'i na cuntu mi
+          - gloss: [Disinterestedly] Not affair-of me.
+          - translation: That's none of my business.
+        - 2:
+          - lojban: .a'u cu'i mi na djica lo nu djuno
+          - gloss: [Disinterestedly] I not want the event-of know.
+          - translation: I don't really care to know.
+
+- .a'u nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Repulsion: Expresses repulsion or disgust.
+      - examples:
+        - 1:
+          - lojban: .a'u nai ta panci simsa lo kalci
+          - gloss: [Repulsedly] That odor similar-to the feces.
+          - translation: Yuck, that smells like shit!
+        - 2:
+          - lojban: .a'u nai mi na djica lo nu viska ta
+          - gloss: [Repulsedly] I not want the event-of see that.
+          - translation: Ugh, I don't want to see that.
+
+- .i'a:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Acceptance: Expresses acceptance or agreement.
+      - examples:
+        - 1:
+          - lojban: .i'a ta banzu
+          - gloss: [Acceptingly] That suffices.
+          - translation: Okay, that will do.
+        - 2:
+          - lojban: .i'a mi jimpe
+          - gloss: [Acceptingly] I understand.
+          - translation: I see, I understand and accept that.
+
+- .i'a nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Refusal: Expresses refusal / rejection / eschewal / resistance / dissatisfaction / blame / incrimination / inculpation.
+      - examples:
+        - 1:
+          - lojban: .i'a nai ta mi za'o na mansa
+          - gloss: [Refusingly] That me still not satisfies.
+          - translation: No, that still doesn't satisfy me.
+        - 2:
+          - lojban: .i'a nai mi na zasti ti
+          - gloss: [Refusingly] I not approve this.
+          - translation: I don't accept this at all.
+
+- .i'e:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Approval: Expresses approval or endorsement.
+      - examples:
+        - 1:
+          - lojban: .i'e do xautce gunka
+          - gloss: [Approvingly] You excellent work.
+          - translation: Very good! You did an excellent job.
+        - 2:
+          - lojban: .i'e mi nelci ta
+          - gloss: [Approvingly] I like that.
+          - translation: I approve of that, I like it.
+
+- .i'e cu'i:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Neutrality: Expresses non-approval and non-disapproval.
+      - examples:
+        - 1:
+          - lojban: .i'e cu'i lo cmaci ka'e cfipu lo co'a ve ckule
+          - gloss: [Neutrally] The mathematics can-be confusing the beginner type-of student.
+          - translation: Speaking objectively, math can be confusing for beginners.
+        - 2:
+          - lojban: .i'e cu'i mi na jinvi
+          - gloss: [Neutrally] I not opine.
+          - translation: I have no opinion on that either way.
+
+- .i'e nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Disapproval: Expresses disapproval or criticism.
+      - examples:
+        - 1:
+          - lojban: .i'e nai le pixra cu korcu dandu
+          - gloss: [Disapprovingly] The picture - crooked hang.
+          - translation: Hm, the picture is hanging crooked.
+        - 2:
+          - lojban: .i'e nai ta na xamgu
+          - gloss: [Disapprovingly] That not good.
+          - translation: I disapprove of that, it's not good.
+
+- .i'i:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Togetherness: Expresses a feeling of togetherness or camaraderie.
+      - examples:
+        - 1:
+          - lojban: .i'i mi ba jinga
+          - gloss: [Together] We future win.
+          - translation: Yay! We're gonna win!
+        - 2:
+          - lojban: .i'i mi'o gunka tai traji
+          - gloss: [Together] We work like best.
+          - translation: We make such a great team!
+
+- .i'i nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Separation: Expresses a desire for privacy or solitude.
+      - examples:
+        - 1:
+          - lojban: .i'i nai ko cliva
+          - gloss: [Separately] You leave.
+          - translation: Go away, I want to be alone!
+        - 2:
+          - lojban: .i'i nai mi djica lo nu stali
+          - gloss: [Separately] I want the event-of stay.
+          - translation: I'd rather stay by myself.
+
+- .i'o:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Appreciation: Expresses appreciation or gratitude.
+      - examples:
+        - 1:
+          - lojban: .i'o do je'a pendo
+          - gloss: [Appreciatively] You indeed friend.
+          - translation: Ah, you're a true friend.
+        - 2:
+          - lojban: .i'o do pu sidju mi
+          - gloss: [Appreciatively] You past help me.
+          - translation: Thank you, I really appreciate your help.
+
+- .i'o nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Envy: Expresses envy or resentment.
+      - examples:
+        - 1:
+          - lojban: .i'o nai do ro roi se funca lo zabna
+          - gloss: [Enviously] You all times is-luckied the good.
+          - translation: Damn you, you always have good luck!
+        - 2:
+          - lojban: .i'o nai mi djica lo nu mi ponse ta
+          - gloss: [Enviously] I want the event-of I possess that.
+          - translation: I'm so jealous, I wish I had that.
+
+- .i'u:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Familiarity: Expresses familiarity or recognition.
+      - examples:
+        - 1:
+          - lojban: .i'u mi ta xabju ze'a lo nanca be li so'i
+          - gloss: [Familiarly] I that inhabit for-time the year of-number many.
+          - translation: Yes, I lived there for many years.
+        - 2:
+          - lojban: .i'u mi djuno ro da
+          - gloss: [Familiarly] I know all that.
+          - translation: I'm familiar with all of that.
+
+- .i'u nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Unfamiliarity: Expresses unfamiliarity or mystification.
+      - examples:
+        - 1:
+          - lojban: .i'u nai no da sidbo fi mi lo du'u pleji ma kau fo ta
+          - gloss: [Unfamiliarly] No one knows to me the statement-of pay what-amount for that.
+          - translation: I have no idea how much they are paying for that.
+        - 2:
+          - lojban: .i'u nai mi na djuno lo du'u makau fasnu
+          - gloss: [Unfamiliarly] I not know the statement-of what happens.
+          - translation: I'm completely unfamiliar with what's going on.
+
+- ii:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Fear: Expresses fear or terror.
+      - examples:
+        - 1:
+          - lojban: ii le tirxu cu xruti
+          - gloss: [Fearfully] The tiger - returns.
+          - translation: Oh, no! The tiger is back!
+        - 2:
+          - lojban: ii mi terpa lo nu farlu
+          - gloss: [Fearfully] I fear the event-of fall.
+          - translation: I'm terrified of falling!
+
+- ii nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Security: Expresses security or fearlessness.
+      - examples:
+        - 1:
+          - lojban: ii nai le ctuca na ba tolcri mi'o ti
+          - gloss: [Securely] The teacher not future find us here.
+          - translation: Heh, the teacher won't find us here.
+        - 2:
+          - lojban: ii nai mi na terpa
+          - gloss: [Securely] I not afraid.
+          - translation: I'm not scared at all, I feel completely safe.
+
+- io:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Respect: Expresses respect or deference.
+      - examples:
+        - 1:
+          - lojban: io ko mi jersi doi nolnau
+          - gloss: [Respectfully] You-imperative me follow , O noble-person.
+          - translation: This way, Sir, if you please.
+        - 2:
+          - lojban: io mi ckire do
+          - gloss: [Respectfully] I thank you.
+          - translation: I respectfully thank you.
+
+- io nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Disrespect: Expresses disrespect or scorn.
+      - examples:
+        - 1:
+          - lojban: io nai ko ti klama doi bebna
+          - gloss: [Disrespectfully] You-imperative here come , O stupid-one.
+          - translation: Get your ass over here, you idiot!
+        - 2:
+          - lojban: io nai do na certu
+          - gloss: [Disrespectfully] You not expert.
+          - translation: You're incompetent and I have no respect for you.
+
+- iu:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Love: Expresses love or affection.
+      - examples:
+        - 1:
+          - lojban: iu do melbi
+          - gloss: [Lovingly] You beautiful.
+          - translation: You're beautiful.
+        - 2:
+          - lojban: iu mi prami do
+          - gloss: [Lovingly] I love you.
+          - translation: I love you.
+
+- iu nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Hatred: Expresses hatred or antipathy.
+      - examples:
+        - 1:
+          - lojban: iu nai do palci
+          - gloss: [Hatefully] You evil.
+          - translation: You're evil.
+        - 2:
+          - lojban: iu nai mi xebni do
+          - gloss: [Hatefully] I hate you.
+          - translation: I hate you.
+
+- .o'a:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Pride: Expresses pride / dignity / self-confidence / smugness / bravado / grandiloquence / pomposity / cockiness / conceit / arrogance.
+      - examples:
+        - 1:
+          - lojban: .o'a ju'i mamta mi kakne lo ka tcidu
+          - gloss: [Proudly] [attention] mother I able the event-of read.
+          - translation: Look Mummy, I can read!
+        - 2:
+          - lojban: .o'a mi jinga
+          - gloss: [Proudly] I win.
+          - translation: I won the competition!
+
+- .o'a cu'i:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Modesty: Expresses modesty or humility.
+      - examples:
+        - 1:
+          - lojban: .o'a cu'i ba'e mi lumci pi su'o po'o le loldi
+          - gloss: [Modestly] [emphasize] I clean some only the floor.
+          - translation: Oh, *I* mopped only some part of the floor.
+        - 2:
+          - lojban: .o'a cu'i mi na traji
+          - gloss: [Modestly] I not superlative.
+          - translation: I'm not the best, just doing my part.
+
+- .o'a nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Shame: Expresses shame or embarrassment.
+      - examples:
+        - 1:
+          - lojban: .o'a nai mi mrilu le notci lo srera noigri
+          - gloss: [Shamefully] I mail the message the wrong newsgroup.
+          - translation: Oops, I posted the message to the wrong newsgroup.
+        - 2:
+          - lojban: .o'a nai mi pu zukte lo srera
+          - gloss: [Shamefully] I past do the mistake.
+          - translation: I'm ashamed, I made a terrible mistake.
+
+- .o'e:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Closeness: Expresses emotional closeness or intimacy.
+      - examples:
+        - 1:
+          - lojban: .o'e mi do ba kansa lo nu vitke lo mikce
+          - gloss: [Intimately] I you future accompany the event-of visit the doctor.
+          - translation: I'll go with you to see the doctor.
+        - 2:
+          - lojban: .o'e mi djica lo nu penmi do
+          - gloss: [Intimately] I desire the event-of meet you.
+          - translation: I really want to see you.
+
+- .o'e nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Distance: Expresses emotional distance or reserve.
+      - examples:
+        - 1:
+          - lojban: .o'e nai doi dirba mi to'e cinmo
+          - gloss: [Distantly] O dear I opposite-of emotion.
+          - translation: Frankly, my dear, I don't give a damn.
+        - 2:
+          - lojban: .o'e nai mi na djica lo nu tavla do
+          - gloss: [Distantly] I not desire the event-of talk-to you.
+          - translation: I don't want to talk to you, leave me alone.
+
+- .o'i:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Caution: Expresses caution or care.
+      - examples:
+        - 1:
+          - lojban: .o'i le loldi cu se sakli
+          - gloss: [Cautiously] The floor - is-slippery.
+          - translation: Careful! The floor is slippery.
+        - 2:
+          - lojban: .o'i ko larcu klama
+          - gloss: [Cautiously] You-imperative careful go.
+          - translation: Be careful as you go!
+
+- .o'i nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Rashness: Expresses recklessness or rashness.
+      - examples:
+        - 1:
+          - lojban: .o'i nai ko gunta
+          - gloss: [Recklessly] You-imperative attack.
+          - translation: Charge!
+        - 2:
+          - lojban: .o'i nai mi darsi
+          - gloss: [Recklessly] I dare.
+          - translation: I'll do it, no matter the risk!
+
+- .o'o:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Patience: Expresses patience or tolerance.
+      - examples:
+        - 1:
+          - lojban: .o'o ko za'u re'u troci
+          - gloss: [Patiently] You-imperative again try.
+          - translation: Ok, try again.
+        - 2:
+          - lojban: .o'o mi denpa
+          - gloss: [Patiently] I wait.
+          - translation: I'll wait patiently.
+
+- .o'o cu'i:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Mere tolerance: Expresses mere tolerance without patience or impatience.
+      - examples:
+        - 1:
+          - lojban: .o'o cu'i ma pu mukti fi do
+          - gloss: [Tolerantly] What past motivate of you.
+          - translation: So, what drove you to do it?
+        - 2:
+          - lojban: .o'o cu'i mi na tugni gi'e na fapro
+          - gloss: [Tolerantly] I not agree and not oppose.
+          - translation: I neither agree nor disagree, I can tolerate it.
+
+- .o'o nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Impatience: Expresses impatience or anger.
+      - examples:
+        - 1:
+          - lojban: .o'o nai lo xanto cu fanta lo nu mi pagre
+          - gloss: [Impatiently] The elephant - prevent the event-of I pass-through.
+          - translation: Damn, the elephants are blocking my way!
+        - 2:
+          - lojban: .o'o nai do masno mutce
+          - gloss: [Impatiently] You slow very.
+          - translation: Hurry up! You're so slow!
+
+- .o'u:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Relaxation: Expresses relaxation or serenity.
+      - examples:
+        - 1:
+          - lojban: .o'u ti zabna se lifri
+          - gloss: [Relaxedly] This good experience.
+          - translation: Ah, this is the life!
+        - 2:
+          - lojban: .o'u mi ca surla
+          - gloss: [Relaxedly] I now relax.
+          - translation: I'm feeling so relaxed right now.
+
+- .o'u cu'i:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Composure: Expresses composure or calmness.
+      - examples:
+        - 1:
+          - lojban: .o'u cu'i mi pu tinbe lo selfla
+          - gloss: [Composedly] I past obey the law.
+          - translation: I followed the law.
+        - 2:
+          - lojban: .o'u cu'i mi na cinmo
+          - gloss: [Composedly] I not emotion.
+          - translation: I'm feeling neither relaxed nor stressed.
+
+- .o'u nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Stress: Expresses stress or anxiety.
+      - examples:
+        - 1:
+          - lojban: .o'u nai le mi bersa cu zvati ma
+          - gloss: [Stressfully] The of-me son - present-at where?
+          - translation: Where is my son?
+        - 2:
+          - lojban: .o'u nai mi na kakne lo nu gunka
+          - gloss: [Stressfully] I not able the event-of work.
+          - translation: I'm too stressed to work!
+
+- .oi:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Complaint: Expresses complaint or pain.
+      - examples:
+        - 1:
+          - lojban: .oi mi cortu le kanla
+          - gloss: [Painfully] I pain the eye.
+          - translation: Ouch! My eyes hurt.
+        - 2:
+          - lojban: .oi ti nandu
+          - gloss: [Complainingly] This difficult.
+          - translation: Ugh, this is hard.
+
+- .oi nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Pleasure: Expresses pleasure or delight.
+      - examples:
+        - 1:
+          - lojban: .oi nai glare cakla
+          - gloss: [Pleasurably] Hot chocolate.
+          - translation: Mmm, hot chocolate!
+        - 2:
+          - lojban: .oi nai mi mutce gleki
+          - gloss: [Pleasurably] I very happy.
+          - translation: I'm so pleased!
+
 - .u'a:
   - definitions:
     - 1:
       - type: pure emotion indicator
-      - definition: Gain: Expresses the feeling of gaining or obtaining something, acquiring or achieving something desirable.
+      - definition: Gain: Expresses the feeling of gaining or obtaining something, victory, acquiring or achieving something desirable.
       - examples:
         - 1:
           - lojban: .u'a mi facki fi le mi mapku
           - gloss: [Gain!] I found-out about the of-me hat.
           - translation: [Gain!] I found my hat!
           - comment: Emphasizes the feeling of gain associated with finding the hat.
+        - 2:
+          - lojban: .u'a la'e di'u se jetnu lo du'u mi pu drani
+          - gloss: [Gain!] The-referent of-previous-sentence is-true-ified the statement-of I past correct.
+          - translation: Hah, that proves I was right!
+        - 3:
+          - lojban: .u'a mi jinga le jinga
+          - gloss: [Gain!] I win the prize.
+          - translation: I won the prize!
+
+- .u'a nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Loss: Expresses the feeling of losing something valuable, experiencing a setback, defeat, or missing out on something desirable.
+      - examples:
+        - 1:
+          - lojban: .u'anai le mi mapku ba'o zvati
+          - gloss: [Loss!] the of-me hat no-anymore is-present-at.
+          - translation: [Loss!] My hat is no longer here.
+          - comment: Shows the feeling of loss when the hat is not present.
+        - 2:
+          - lojban: .u'a nai la rover pu xamgu gerku
+          - gloss: [Loss!] The Rover past good dog.
+          - translation: Snif, Rover was a good dog.
+        - 3:
+          - lojban: .u'a nai mi pu cirko lo jdini
+          - gloss: [Loss!] I past lose the money.
+          - translation: Alas, I lost the money.
+
 - .u'e:
   - definitions:
     - 1:
@@ -1315,17 +2445,74 @@ meta.description: A more user-friendly list of cmavo definitions with examples
           - gloss: [Awe!] The gem is-beautiful.
           - translation: [Wow!] The gem is beautiful!
           - comment: Expresses admiration for the beauty of the gem.
+        - 2:
+          - lojban: .u'e ze prenu cu zvati
+          - gloss: [Wonderfully] Seven person - present-at.
+          - translation: Wow, there are seven people here!
+        - 3:
+          - lojban: .u'e le va gerku cu mutce stati
+          - gloss: [Wonderfully] The yonder dog - very talented.
+          - translation: Wow, that dog is really talented!
+
+- .u'e nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Commonplace: Expresses the feeling that something is commonplace, unremarkable, ordinary, or unimpressive.
+      - examples:
+        - 1:
+          - lojban: .u'enai la djan klama
+          - gloss: [Meh!] that-named John is-coming.
+          - translation: [Meh!] John is coming.
+          - comment: Expresses that John's arrival is seen as ordinary or unimpressive.
+        - 2:
+          - lojban: .u'e nai xu ta xagrai lo se kakne be do
+          - gloss: [Mundanely] Is-it-true that superlative the is-able-to by you?
+          - translation: Pshaw, is that the best you can do?
+        - 3:
+          - lojban: .u'e nai mi pu zi viska lo simsa
+          - gloss: [Mundanely] I past recently see the similar.
+          - translation: Meh, I just saw something like that.
+
 - .u'i:
   - definitions:
     - 1:
       - type: pure emotion indicator
-      - definition: Amusement/Playfulness: Expresses feelings of amusement, fun, playfulness, being entertained or finding something funny,.
+      - definition: Amusement/Playfulness: Expresses feelings of amusement, mirth, fun, playfulness, being entertained or finding something funny.
       - examples:
         - 1:
+          - lojban: .u'i tu cusku zo ganxo
+          - gloss: [Fun!] That-over-there express word "anus".
+          - translation: Heh, heh, he said "arsehole".
+        - 2:
+          - lojban: .u'i le skina cu mutce xajmi
+          - gloss: [Fun!] The movie - very funny.
+          - translation: Haha, the movie is so funny!
+        - 3:
           - lojban: .u'i mi citka
           - gloss: [Fun!] I eat.
           - translation: [Fun!] I'm eating!
           - comment: Expresses a playful attitude while doing something simple like eating.
+- .u'i nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Weariness: Expresses weariness or boredom, lack of amusement.
+      - examples:
+        - 1:
+          - lojban: .u'inai do tavla mi
+          - gloss: [Boring!] you talk to me.
+          - translation: [Boring!] You are talking to me.
+          - comment: Expresses weariness or boredom with the conversation.
+        - 2:
+          - lojban: .u'i nai banzu ca le cabdei
+          - gloss: [Wearily] Enough in the now-day.
+          - translation: Yawn, that's enough for today.
+        - 3:
+          - lojban: .u'i nai ti na cinri
+          - gloss: [Wearily] This not interesting.
+          - translation: This is so boring.
+
 - .u'o:
   - definitions:
     - 1:
@@ -1333,10 +2520,45 @@ meta.description: A more user-friendly list of cmavo definitions with examples
       - definition: Courage: Expresses the feeling of courage, boldness, bravery, valor, or daring.
       - examples:
         - 1:
+          - lojban: .u'o mi do pu'o nurgau
+          - gloss: [Courageously] I you about-to rescue.
+          - translation: I'm coming to your rescue!
+        - 2:
           - lojban: .u'o mi vofli
           - gloss: [Courage!] I fly
           - translation: [Courage!] I'm flying!
           - comment: Shows courage when flying.
+- .u'o cu'i:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Timidity: Expresses timidity or shyness.
+      - examples:
+        - 1:
+          - lojban: .u'o cu'i xu mi zifre lo nu stali
+          - gloss: [Timidly] Is-it-true I free the event-of stay?
+          - translation: Erm, may I stay here?
+        - 2:
+          - lojban: .u'o cu'i mi na djica lo nu tavla
+          - gloss: [Timidly] I not want the event-of talk.
+          - translation: I'm too shy to speak up.
+
+- .u'o nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Cowardice: Expresses the feeling of cowardice, shyness, or lack of confidence.
+      - examples:
+        - 1:
+          - lojban: .u'o nai mi na klama tu
+          - gloss: [Cowardly!] I not go-to there.
+          - translation: [Oh no!] I'm not going there!
+          - comment: Shows cowardice when attempting/planning/considering to go to that place.
+        - 2:
+          - lojban: .u'o nai mi djica lo nu mi cliva
+          - gloss: [Cowardly!] I want the event-of leave.
+          - translation: I'm too scared, I want to leave!
+
 - .u'u:
   - definitions:
     - 1:
@@ -1344,114 +2566,318 @@ meta.description: A more user-friendly list of cmavo definitions with examples
       - definition: Repentance: Expresses feelings of remorse, guilt, regret, or repentance.
       - examples:
         - 1:
+          - lojban: .u'u mi pu na jundi
+          - gloss: [Repentantly] I past not attentive.
+          - translation: Sorry, I wasn't paying attention.
+        - 2:
+          - lojban: .u'u mi pu zukte lo srera
+          - gloss: [Repentantly] I past do the mistake.
+          - translation: I regret that I made a mistake.
+        - 3:
           - lojban: .u'u do cortu
           - gloss: [Repentance!] you feel-pain.
           - translation: [Repentance!] you feel pain.
           - comment: The speaker feels guilt about the other person’s pain.
-- .uanai:
+- .u'u cu'i:
   - definitions:
     - 1:
-      - type: Confusion: Expresses the feeling of confusion, searching for something.
+      - type: pure emotion indicator
+      - definition: Lack of regret: Expresses neither regret nor lack of regret.
+      - examples:
+        - 1:
+          - lojban: .u'u cu'i mi zukte no da
+          - gloss: [Non-repentantly] I do no thing.
+          - translation: I didn't do anything!
+        - 2:
+          - lojban: .u'u cu'i mi na djuno
+          - gloss: [Non-repentantly] I not know.
+          - translation: I don't know, and I don't feel particularly bad about it.
+
+- .u'u nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Lack of regret: Expresses a lack of regret, remorselessness, defiance,  spite, provocation, unrepentance.
+      -- examples:
+        - 1:
+          - lojban: .u'u nai mi pu zi stapa le do jamfu i do ba zukte ma
+          - gloss: [Unrepentantly] I past recently step-on the your foot . You future do what?
+          - translation: Yeah, I just stepped on your foot. What are you going to do about it?
+        - 2:
+          - lojban: .u'u nai mi na cikre
+          - gloss: [Unrepentantly] I not repair.
+          - translation: I won't fix it and I don't feel bad about it.
+        - 3:
+          - lojban: .u'unai do cortu
+          - gloss: [Unrepentantly] you feel-pain.
+          - translation: You feel pain, I'm not to blame.
+          - comment: The speaker emphasizes no regret or guilt about the other person’s pain.
+- ua:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Discovery: Expresses discovery or comprehension, the feeling of suddenly finding or understanding something previously unknown or unclear.
+      - examples:
+        - 1:
+          - lojban: .ua le mi mapku cu zvati le drata kumfa
+          - gloss: [Eureka!] the of-me hat - is-present-at the another room.
+          - translation: [Eureka!] My hat is in the other room!
+          - comment: Emphasizes the discovery of the hat.
+        - 2:
+          - lojban: ua ba'e ta do mensi
+          - gloss: [Ah!] [emphasize] that your sister.
+          - translation: Ah, so *that's* your sister.
+        - 3:
+          - lojban: ua .i mi jimpe
+          - gloss: [Ah!] I understand.
+          - translation: Oh, I get it now!
+
+- ua nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Confusion: Expresses confusion or incomprehension.
       - examples:
         - 1:
           - lojban: .uanai le mi mapku na nenri le dinju
           - gloss: [Confusion!] The of-me hat not is-inside-of the building.
           - translation: [Confusion!] My hat is not inside the building.
           - comment: Emphasizes the feeling of confusion when not finding the hat.
-- .uenai:
+        - 2:
+          - lojban: ua nai la'e di'u vajni fi ma
+          - gloss: [Confusion!] The-referent of-previous-sentence important to what?
+          - translation: Huh? How is that relevant?
+
+- ue:
   - definitions:
     - 1:
-      - type: Expectation: Expresses the feeling of expectation or no surprise.
+      - type: pure emotion indicator
+      - definition: Surprise: Expresses surprise or astonishment.
+      - examples:
+        - 1:
+          - lojban: ue ta lenku
+          - gloss: [Surprisingly] That cold.
+          - translation: Oo, that's cold!
+        - 2:
+          - lojban: ue do klama ti
+          - gloss: [Surprisingly] You come here.
+          - translation: Wow, you came here!
+        - 3:
+          - lojban: .ue la .djan. cu klama
+          - gloss: [Wow!] that-named John is-coming.
+          - translation: [Wow!] John is coming!
+          - comment: Expresses surprise at John's arrival.
+- ue cu'i:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Not really surprised: Expresses a lack of real surprise.
+      - examples:
+        - 1:
+          - lojban: ue cu'i ma cnino
+          - gloss: [Not-really-surprisingly] What new?
+          - translation: So what's new?
+        - 2:
+          - lojban: ue cu'i mi pu djuno
+          - gloss: [Not-really-surprisingly] I past know.
+          - translation: I'm not really surprised, I knew about it.
+
+- ue nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Expectation: Expresses expectation or lack of surprise.
       - examples:
         - 1:
           - lojban: .uenai la .djan. klama
           - gloss: [As-expected!] that-named John is-coming.
           - translation: [As expected!] John is coming.
           - comment: Expresses a lack of surprise at John's arrival.
-- .uinai:
+        - 2:
+          - lojban: ue nai ro da pu prane
+          - gloss: [Expectedly] All everything past perfect.
+          - translation: Everything was perfect, just as I expected.
+        - 3:
+          - lojban: ue nai do za'o zukte
+          - gloss: [Expectedly] You still do.
+          - translation: I'm not surprised you're still doing that.
+
+- ui:
   - definitions:
     - 1:
       - type: pure emotion indicator
-      - definition: Unhappiness: Expresses the feeling of unhappiness or dissatisfaction.
+      - definition: Happiness: Expresses happiness or joy.
+      - examples:
+        - 1:
+          - lojban: .ui mi facki fi le mi mapku
+          - gloss: [Yay!] I found-out about the of-me hat.
+          - translation: [Yay!] I found my hat!
+          - comment: Emphasizes the feeling of happiness about finding the hat.
+        - 2:
+          - lojban: ui mi pu klama le zarci
+          - gloss: [Happily] I past go-to the store.
+          - translation: Yay, I went to the store!
+        - 3:
+          - lojban: ui mi co'a se slabu do
+          - gloss: [Happily] I start-to be-familiar-with you.
+          - translation: I'm so happy to get to know you!
+
+- ui nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Unhappiness: Expresses unhappiness or sadness.
       - examples:
         - 1:
           - lojban: .uinai mi na facki fi le mi mapku
           - gloss: [Ugh!] I not found-out about the of-me hat.
           - translation: [Ugh!] I didn't find my hat.
           - comment: Emphasizes unhappiness due to not finding the hat.
-- .uonai:
+        - 2:
+          - lojban: ui nai ti pu melbi jarbu
+          - gloss: [Unhappily] This past beautiful neighborhood.
+          - translation: Sigh, this used to be a nice neighbourhood.
+        - 3:
+          - lojban: ui nai mi na co'a se slabu do
+          - gloss: [Unhappily] I not start-to be-familiar-with you.
+          - translation: I'm sad that I don't know you better.
+
+- uo:
   - definitions:
     - 1:
-      - type: Incompleteness: Expresses the sense of something being unfinished or incomplete, lacking closure, or having something more to do (but not necessarily with an obligation or restriction to do it).
+      - type: pure emotion indicator
+      - definition: Completion: Expresses completion or achievement, a sense of completion or finality, having finished something, reaching a goal, or achieving closure.
+      - examples:
+        - 1:
+          - lojban: .uo mi facki fi le mi mapku
+          - gloss: [At-last!] I found-out about the of-me hat.
+          - translation: [At last!] I found my hat!
+          - comment: Emphasizes the sense of finality upon finding the hat.
+        - 2:
+          - lojban: uo di'u clani jufra
+          - gloss: [Completely] This long sentence.
+          - translation: Phew, that was a long sentence!
+        - 3:
+          - lojban: uo mi mo'u gunka
+          - gloss: [Completely] I complete work.
+          - translation: I've finished the work, finally!
+
+- uo nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Incompleteness: Incompleteness: Expresses the sense of something being unfinished or incomplete, lacking closure, or having something more to do, to be, or to have (but not necessarily with an obligation or restriction to do it).
       - examples:
         - 1:
           - lojban: .uonai mi na facki fi le mi mapku
           - gloss: [Not-finished!] I not found-out about the of-me hat.
           - translation: [Not finished!] I didn’t find my hat.
           - comment: Emphasizes the feeling of incompleteness from not finding the hat.
-- .uunai:
+        - 2:
+          - lojban: uo nai do tu na ru'e darxi
+          - gloss: [Incompletely] You yonder not at-most hit.
+          - translation: Oh, you almost hit it.
+        - 3:
+          - lojban: uo nai mi na mo'u gunka
+          - gloss: [Incompletely] I not complete work.
+          - translation: I haven't finished the work yet, unfortunately.
+
+- uu:
   - definitions:
     - 1:
-      - type: Cruelty: Expresses a lack of sympathy, cold-heartedness, ruthlessness, or heartlessness.
+      - type: pure emotion indicator
+      - definition: Pity: Expresses pity or compassion.
       - examples:
         - 1:
+          - lojban: .uu do cortu
+          - gloss: [Pity!] you feel-pain.
+          - translation: I'm so sorry you're in pain.
+          - comment: Expresses sympathy for someone feeling pain.
+        - 2:
+          - lojban: uu mi ba plicru do le boxfo
+          - gloss: [Pity!] I future use-allow you the blanket.
+          - translation: Oh you poor thing! I'll get you a blanket.
+
+- uu nai:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Cruelty: Expresses cruelty, callousness, a lack of sympathy, cold-heartedness, ruthlessness, or heartlessness.
+      - examples:
+        - 1:
+          - lojban: uu nai mi ba ponse le do pruxi
+          - gloss: [Cruelly] I future possess the your spirit.
+          - translation: Mwa, ha, ha, ha, ha! Your soul will be mine!
+        - 2:
           - lojban: .uunai do cortu
           - gloss: [No-pity!] you feel-pain.
           - translation: [No pity!] You feel pain.
           - comment: Expresses a lack of sympathy for someone feeling pain.
-- .u'anai:
-  - definitions:
-    - 1:
-      - type: Loss: Expresses the feeling of losing something valuable, experiencing a setback, or missing out on something desirable.
-      - examples:
-        - 1:
-          - lojban: .u'anai le mi mapku ba'o zvati
-          - gloss: [Loss!] the of-me hat no-anymore is-present-at.
-          - translation: [Loss!] My hat is no longer here.
-          - comment: Shows the feeling of loss when the hat is not present.
-- .u'enai:
+----
+
+- .o'e:
   - definitions:
     - 1:
       - type: pure emotion indicator
-      - definition: Commonplace: Expresses the feeling of something being ordinary or unimpressive.
+      - definition: Closeness: Expresses intimacy, closeness, affinity, sympathy, rapport
       - examples:
         - 1:
-          - lojban: .u'enai la djan klama
-          - gloss: [Meh!] that-named John is-coming.
-          - translation: [Meh!] John is coming.
-          - comment: Expresses that John's arrival is seen as ordinary or unimpressive.
-- .u'inai:
-  - definitions:
-    - 1:
-      - type: Weariness: Expresses the feeling of weariness or a lack of amusement.
-      - examples:
+          - lojban: .o'e do pu se nandu
+          - gloss: [Intimacy!] You in-past has-problem.
+          - translation: Your problems resonated with me.
+          - comment: The speaker feels closeness with others' problems.
         - 1:
-          - lojban: .u'inai do tavla mi
-          - gloss: [Boring!] you talk to me.
-          - translation: [Boring!] You are talking to me.
-          - comment: Expresses weariness or boredom with the conversation.
-- .u'onai:
-  - definitions:
-    - 1:
-      - type: Cowardice: Expresses the feeling of cowardice, shyness, or lack of confidence.
-      - examples:
-        - 1:
-          - lojban: .u'o nai mi na klama tu
-          - gloss: [Fear!] I not go-to there.
-          - translation: [Oh no!] I'm not going there!
-          - comment: Shows cowardice when attempting/planning/considering to go to that place.
-- .u'unai:
-  - definitions:
-    - 1:
-      - type: Innocence: Expresses innocence, blamelessness, clear conscience, righteousness, naïveté, or lack of guilt, feeling of being blameless or without regret.
-      - examples:
-        - 1:
-          - lojban: .u'unai do cortu
-          - gloss: [I'm not to blame!] you feel-pain.
-          - translation: [I'm not to blame!] You feel pain.
-          - comment: The speaker emphasizes no regret or guilt about the other person’s pain.
+          - lojban: .o'e mi zvati le zdani
+          - gloss: [Intimacy!] I is-present-at the home.
+          - translation: Honey, I'm back home.
+          - comment: The speaker feels emotionally close by the fact of being at home.
 
-----
+- .o'i:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Expresses caution, boldness, rashness
+      - examples:
+        - 1:
+          - lojban: .o'i le loldi cu se sakli
+          - gloss: [Caution!] The floor - is-slipped-upon
+          - translation: Careful! The floor is slippery.
+
+- .o'o:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Expresses patience / forbearance / leniency / benevolence / indulgence / magnanimity
+      - examples:
+        - 1:
+          - lojban: .o'o do .e'u za'u re'u troci
+          - gloss: [Patience!] You [Suggestion!] again try.
+          - translation: Ok, try again.
+          - comment: The speaker feels patient with others' attempts.
+
+- .o'u:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Expresses relaxation / leisure / repose / peacefulness / serenity / calmness / placidity / tranquility / quietude
+      - examples:
+        - 1:
+          - lojban: .o'u mi co'a jinru le glare
+          - gloss: [Relaxation!] I at-the-beginning bathe-in the hot.
+          - translation: [Phew!] I'm sinking into a hot bath.
+          - comment: The speaker feels relieved when taking a hot bath.
+
+- .oi:
+  - definitions:
+    - 1:
+      - type: pure emotion indicator
+      - definition: Complaint or pain
+      - examples:
+        - 1:
+          - lojban: .oi la djan. klama
+          - gloss: [Complaint!] That-named John comes.
+          - translation: [Complaint!] John is coming.
+          - comment: The speaker feels distressed about John's arrival.
 
 - ki'a:
   - definitions:
