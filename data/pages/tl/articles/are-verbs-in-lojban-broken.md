@@ -6,7 +6,7 @@ title: Sira ba ang mga pandiwa sa Lojban?
 
 Tila mahirap ang pag-aaral ng mga kahulugan ng mga pandiwa sa Lojban, tulad ng
 
-> *$x_$1$ tumatakbo sa ibabaw ng $x_$1$ gamit ang mga paa $x_$1$ na may galaw $x_$1$*
+> *$x_1$ tumatakbo sa ibabaw ng $x_1$ gamit ang mga paa $x_1$ na may galaw $x_1$*
 
 dahil halos bawat pandiwa ay may sariling magkakaibang istraktura ng lugar. May paraan bang gawing mas madali ito para sa atin? Bakit ganito ang disenyo ng Lojban?
 
@@ -44,17 +44,17 @@ May ilang mga istraktura ng lugar sa Lojban na hindi gaanong tuwiran kumpara sa 
 
 Ang mga pandiwa sa Lojban, tulad ng sa Ingles, ay maaaring maikategorya sa mga frames na may parehong mga istraktura ng lugar, halimbawa:
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - $x_$1$ ay isang pusa ng uri $x_$1$
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - $x_1$ ay isang pusa ng uri $x_1$
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - $x_$1$ ay isang aso ng uri $x_$1$
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - $x_1$ ay isang aso ng uri $x_1$
 
 ## Madaling Matutunan ang Istraktura ng Lugar, Pero...
 
 Madalas, madaling matutunan ang istraktura ng lugar. Gayunpaman, ang konsepto ng paggalaw ay nagbibigay ng iba't ibang mga istraktura ng lugar. Tingnan ang mga sumusunod:
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - $x_$1$ (object) ay gumagalaw patungo sa destinasyon/tanggapang $x_$1$ [palayo] mula sa pinanggalingan $x_$1$ sa ibabaw ng landas/ruta $x_$1$.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - $x_1$ (object) ay gumagalaw patungo sa destinasyon/tanggapang $x_1$ [palayo] mula sa pinanggalingan $x_1$ sa ibabaw ng landas/ruta $x_1$.
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - $x_$1$ ay tumatakbo sa ibabaw ng isang surface $x_$1$ gamit ang mga limbs $x_$1$ na may takbo $x_$1$.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - $x_1$ ay tumatakbo sa ibabaw ng isang surface $x_1$ gamit ang mga limbs $x_1$ na may takbo $x_1$.
 
 Bakit hindi magkaroon ng iisang istraktura ng lugar para sa lahat?
 
