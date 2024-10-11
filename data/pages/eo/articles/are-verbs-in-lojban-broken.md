@@ -8,7 +8,7 @@ title: Ĉu la verboj en Loĵbano estas difektaj?
 
 Ŝajnas ke lerni difinojn de verboj en Loĵbano, kiel ekzemple
 
-> *$x_$1$ kuras sur surfaco $x_$1$ uzante membrojn $x_$1$ kun paŝmaniero $x_$1$*
+> *$x_1$ kuras sur surfaco $x_1$ uzante membrojn $x_1$ kun paŝmaniero $x_1$*
 
 povus esti defia ĉar preskaŭ ĉiu verbo havas sian propran apartan lokstrukturon. Ĉu ekzistas maniero por fari tion postuli malpli da mensa penado? Kial Loĵbano estas dizajnita tiel?
 
@@ -46,17 +46,17 @@ Kelkaj strukturoj de lokojbana estas malpli rekta ol aliaj, same kiel en la angl
 
 Lokojbana verboj, kiel en la angla, povas esti grupigitaj en kadrojn kun identaj lokstrukturoj, ekz.
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - $x_$1$ estas kato de specio $x_$1$
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - $x_1$ estas kato de specio $x_1$
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - $x_$1$ estas hundo de specio $x_$1$
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - $x_1$ estas hundo de specio $x_1$
 
 ## Lokstrukturo Estas Facila Lerni, Sed...
 
 Ofte, la lokstrukturo estas facila lerni. Tamen, la koncepto de moviĝo prezentas hazardanaron de lokstrukturoj. Konsideru la jenan:
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - $x_$1$ (objekto) moviĝas al celo/ricevanto $x_$1$ [for] de origino $x_$1$ super vojo/ruto $x_$1$.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - $x_1$ (objekto) moviĝas al celo/ricevanto $x_1$ [for] de origino $x_1$ super vojo/ruto $x_1$.
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - $x_$1$ kuras sur surfaco $x_$1$ uzante membrojn $x_$1$ kun paŝo $x_$1$.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - $x_1$ kuras sur surfaco $x_1$ uzante membrojn $x_1$ kun paŝo $x_1$.
 
 Kial ne havi unu lokstrukturon por ĉiuj el ili?
 

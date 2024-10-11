@@ -8,7 +8,7 @@ title: Sind Verben in Lojban kaputt?
 
 Es scheint, dass das Lernen der Definitionen von Verben in Lojban, wie zum Beispiel
 
-> *$x_$1$ läuft auf der Oberfläche $x_$1$ mit Gliedmaßen $x_$1$ mit Gangart $x_$1$*
+> *$x_1$ läuft auf der Oberfläche $x_1$ mit Gliedmaßen $x_1$ mit Gangart $x_1$*
 
 herausfordernd sein könnte, weil fast jedes Verb seine eigene spezifische Platzstruktur hat. Gibt es eine Möglichkeit, dies weniger geistigen Aufwand zu erfordern? Warum ist Lojban so gestaltet?
 
@@ -46,17 +46,17 @@ Einige Lojban-Ortsstrukturen sind weniger eindeutig als andere, genau wie im Eng
 
 Lojban-Verben, wie englische Verben, können in Rahmen mit identischen Ortsstrukturen gruppiert werden, z.B.
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - $x_$1$ ist eine Katze der Spezies $x_$1$
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=mlatu&bangu=en&versio=masno">mlatu</a> - $x_1$ ist eine Katze der Spezies $x_1$
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - $x_$1$ ist ein Hund der Spezies $x_$1$
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=gerku&bangu=en&versio=masno">gerku</a> - $x_1$ ist ein Hund der Spezies $x_1$
 
 ## Ortsstruktur ist leicht zu lernen, aber...
 
 Oft ist die Ortsstruktur leicht zu lernen. Allerdings stellt das Konzept der Bewegung eine zufällige Reihe von Ortsstrukturen dar. Betrachten Sie die folgenden Beispiele:
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - $x_$1$ (Objekt) bewegt sich zum Ziel/Empfänger $x_$1$ [weg] vom Ursprung $x_$1$ über den Pfad/Route $x_$1$.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=muvdu&bangu=en&versio=masno">muvdu</a> - $x_1$ (Objekt) bewegt sich zum Ziel/Empfänger $x_1$ [weg] vom Ursprung $x_1$ über den Pfad/Route $x_1$.
 
-> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - $x_$1$ läuft auf der Oberfläche $x_$1$ mit Gliedmaßen $x_$1$ mit Gangart $x_$1$.
+> <a href="https://la-lojban.github.io/sutysisku/lojban/#seskari=cnano&sisku=bajra&bangu=en&versio=masno">bajra</a> - $x_1$ läuft auf der Oberfläche $x_1$ mit Gliedmaßen $x_1$ mit Gangart $x_1$.
 
 Warum nicht eine Ortsstruktur für alle?
 

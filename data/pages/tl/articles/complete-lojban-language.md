@@ -205,7 +205,7 @@ title: Buong Wika
 * Ang bersyong HTML ngayon ay may mga talahanayan at mga halimbawa na maaaring i-scroll ng pahalang sa makitid (halimbawa, mga mobile device') na mga screen. Ito ay gumagawa ng bersyong HTML na mas kaibigan sa mobile
 * Ang EPUB ay muli nang nilikha (wala sa bersyon 1.2.8.1)
 * Ang mga simbolo sa Korean at Chinese ay ipinapakita ngayon gamit ang Noto CJK font
-* Ang mga lugar tulad ng "$x_$1$" ay ipinapakita ngayon na may mga numero sa subscript
+* Ang mga lugar tulad ng "$x_1$" ay ipinapakita ngayon na may mga numero sa subscript
 * Ang isang halimbawa sa Seksyon 16.9 {naku zo'u la djan. klama} ay hindi tugma sa iba pang mga halimbawa sa paligid kaya ito ay pinalitan ng {naku zo'u mi klama le zarci} (isang bug na napansin ni [Corbin Simpson](https://github.com/MostAwesomeDude))
 * isang kahulugan ng salitang {bu'u} ay idinagdag sa listahan ng iba pang mga bahagi ng gramatika ng klase FAhA
 

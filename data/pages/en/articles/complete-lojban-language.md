@@ -206,7 +206,7 @@ title: Complete language
 * HTML version now has tables and examples horizontally scrollable on narrow (e.g. mobile devices') screens. This makes the HTML version more mobile-friendly
 * EPUB is generated again (was missing from version  1.2.8.1)
 * Korean and Chinese symbols are now displayed using Noto CJK font
-* places like "$x_$1$" are now displayed with numbers subscripted
+* places like "$x_1$" are now displayed with numbers subscripted
 * An example in Section 16.9 {naku zo'u la djan. klama} didn't correspond to other examples around it so it was replaced with {naku zo'u mi klama le zarci} (a bug noticed by [Corbin Simpson](https://github.com/MostAwesomeDude))
 * a definition of the word {bu'u} is added to the list of other grammatical partices of class FAhA
 

@@ -205,7 +205,7 @@ title: Complete language
 * Die HTML-Version hat jetzt Tabellen und Beispiele, die auf schmalen (z.B. mobilen) Bildschirmen horizontal scrollbar sind. Dies macht die HTML-Version mobilerfreundlicher
 * EPUB wird wieder generiert (fehlte in Version 1.2.8.1)
 * Koreanische und chinesische Symbole werden jetzt mit der Noto CJK-Schriftart angezeigt
-* Stellen wie "$x_$1$" werden jetzt mit tiefgestellten Zahlen angezeigt
+* Stellen wie "$x_1$" werden jetzt mit tiefgestellten Zahlen angezeigt
 * Ein Beispiel in Abschnitt 16.9 {naku zo'u la djan. klama} entsprach nicht den anderen Beispielen in der Umgebung, daher wurde es durch {naku zo'u mi klama le zarci} ersetzt (ein Fehler, bemerkt von [Corbin Simpson](https://github.com/MostAwesomeDude))
 * Eine Definition des Wortes {bu'u} wurde der Liste der anderen grammatikalischen Partikel der Klasse FAhA hinzugefügt
 
