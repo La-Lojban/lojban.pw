@@ -143,16 +143,14 @@ const Meta = ({
           color={el.color}
         />
       ))}
-      {Object.keys(removeUndefinedOrNull(merged)).map(
-        (key: any, index: number) => (
-          <meta
-            key={`meta_${index}`}
-            property={key.indexOf("og:") === 0 ? key : undefined}
-            name={key.indexOf("og:") === -1 ? key : undefined}
-            content={merged[key]}
-          />
-        )
-      )}
+      {Object.entries(removeUndefinedOrNull(merged)).map(([key, value]) => (
+        <meta
+          key={key}
+          property={key.indexOf("og:") === 0 ? key : undefined}
+          name={key.indexOf("og:") === -1 ? key : undefined}
+          content={value as string}
+        />
+      ))}
     </Head>
   );
 };

@@ -34,7 +34,6 @@ const PostBody = ({
         ></div>
         {content}
         {posts && posts.length > 0 && <AllStories posts={posts} lang={lang} />}
-        {/* <div dangerouslySetInnerHTML={{ __html: post?.content }} /> */}
       </div>
     </>
   );
