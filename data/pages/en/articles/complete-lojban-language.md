@@ -13,8 +13,37 @@ title: Complete language
     *   Live chat: [Telegram chat](https://t.me/lojban) or [Discord chat](https://discord.gg/BVm4EYR)
     *   to <gleki.is.my.name@gmail.com> (Gleki&nbsp;Arxokuna), the maintainer of the UnCLL.
 
-
 ## Releases
+
+### geklojban-1.2.16 October 2024
+
+#### Compiled version
+*   read the final document that is to be used for printing and publication. Notice that the title page has the document explicitly marked as "geklojban-1.2.16" and has the name of the organization published it different from the LLG; this is done to emphasize that it's not an LLG publication:
+    *   [PDF format](https://la-lojban.github.io/uncll/uncll-1.2.16/cll.pdf)
+    *   [HTML format, one page is one section of the book](https://la-lojban.github.io/uncll/uncll-1.2.16/xhtml_section_chunks/)
+    *   [HTML format - the whole book in one very long page](https://la-lojban.github.io/uncll/uncll-1.2.16/xhtml_no_chunks/)
+* or read the so called ["difference" PDF document](https://la-lojban.github.io/uncll/uncll-1.2.16/diff_from_previous/cll_difference_prefixed.pdf) that compares geklojban-1.2.16 to the UnCLL, version 1.2.15 (published in October 2022). The document has insertions marked with green and "ins\`" prefix and deletions marked with red and "del\`" prefix. Prefixes are added so that you can use Cmd+F or Ctrl+F to quickly find the differences in the PDF document. There is [an alternative difference version without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.16/diff_from_previous/cll_difference.pdf) (but then you'll have to manually scroll the document to find the differences).
+*   or read the difference document in HTML format instead:
+    *   [with prefixes](https://la-lojban.github.io/uncll/uncll-1.2.16/diff_from_previous/difference_prefixed.html),
+    *   [without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.16/diff_from_previous/difference.html).
+
+#### Short list of changes compared to the previous version 'geklojban-1.2.15 October 2022'
+
+* [issue #409](https://github.com/lojban/cll/issues/409) added [two tables with phonology](https://la-lojban.github.io/uncll/romoi/xhtml_section_chunks/section-anglophone-phonetics.html) for American English and separately British English speakers.
+* [issue #518](https://github.com/lojban/cll/issues/518) such examples as **le nanmu cu ninmu** (_The man is a woman._) are replaced with **le mlatu cu gerku** (_The cat is a dog._) because they better reflect the idea of non-veridical reference.
+* [issue #515](https://github.com/lojban/cll/issues/515) one text from the Chrestomathy is replaced with a larger text 'Forest Nymph' (a translation of a short story by the Bulgarian writer Elin Pelin)
+* [issue #499](https://github.com/lojban/cll/issues/499) definition for tanru grouping fixed. The new text: `A second rule relating to bo is that where more than one bo -marked connective is used in succession, the normal Lojban left-grouping rule is replaced by a right-grouping rule.`
+* [issue #513](https://github.com/lojban/cll/issues/513) French diacritics fixed
+* [issue #506](https://github.com/lojban/cll/issues/506), [issue #507](https://github.com/lojban/cll/issues/507), [issue #508](https://github.com/lojban/cll/issues/508), [issue #511](https://github.com/lojban/cll/issues/511) fixed glosses in several examples (thanks to Oheto for noticing)
+* [issue #510](https://github.com/lojban/cll/issues/510) incorrect translation of **ti liste mi ce'o do ce'o la .djan.** fixed (thanks to Oheto for noticing) 
+* [issue #509](https://github.com/lojban/cll/issues/509) in several examples the name of the dog "Alice" was fixed to "Fido" as in other examples  (thanks to Oheto for noticing) 
+* [issue #504](https://github.com/lojban/cll/issues/504) **ke'a** was incorrectly attributed to GOhA - fixed 
+* fixed other minor mistypes in the text
+
+[git source of the UnCLL](https://github.com/lojban/cll/compare/geklojban-master)
+
+* [Compared with version 'geklojban-1.2.12 November 2020': git difference](https://github.com/lojban/cll/compare/geklojban-1.2.12...geklojban-1.2.16)
+* the ["difference" PDF document](https://la-lojban.github.io/uncll/uncll-1.2.16/diff_from_official/cll_difference_prefixed.pdf) that compares geklojban-1.2.16 to the official CLL v.1.1 edition (2016). The document has insertions marked with green and "ins\`" prefix and deletions marked with red and "del\`" prefix. Prefixes are added so that you can use Cmd+F or Ctrl+F to quickly find the differences in the PDF document. There is [an alternative difference version without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.16/diff_from_official/cll_difference.pdf) (but then you'll have to manually scroll the document to find the differences).
 
 ### geklojban-1.2.15 October 2022
 
@@ -41,7 +70,7 @@ title: Complete language
 
 [git source of the UnCLL](https://github.com/lojban/cll/compare/geklojban-master)
 
-* [Compared with version 'geklojban-1.2.12 November 2020': git difference](https://github.com/lojban/cll/compare/geklojban-1.2.12...geklojban-1.2.14)
+* [Compared with version 'geklojban-1.2.12 November 2020': git difference](https://github.com/lojban/cll/compare/geklojban-1.2.12...geklojban-1.2.16)
 * [Comparison between the official CLL v.1.1 edition (2016) and the UnCLL November 2020 edition': git difference](https://github.com/lojban/cll/compare/6c0556c7b17f96b3bf41e.133ba18ef4868e056a...geklojban-1.2.12)
 * the ["difference" PDF document](https://la-lojban.github.io/uncll/uncll-1.2.15/diff_from_official/cll_difference_prefixed.pdf) that compares geklojban-1.2.15 to the official CLL v.1.1 edition (2016). The document has insertions marked with green and "ins\`" prefix and deletions marked with red and "del\`" prefix. Prefixes are added so that you can use Cmd+F or Ctrl+F to quickly find the differences in the PDF document. There is [an alternative difference version without prefixes](https://la-lojban.github.io/uncll/uncll-1.2.15/diff_from_official/cll_difference.pdf) (but then you'll have to manually scroll the document to find the differences).
 
