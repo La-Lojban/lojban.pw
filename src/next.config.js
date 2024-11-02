@@ -10,7 +10,7 @@ const withPWA = require("next-pwa")({
 
 module.exports = withPWA({
   experimental: {
-    reactCompiler: true,
+    // reactCompiler: true,
     cpus: 4,
     workerThreads: true,
   },

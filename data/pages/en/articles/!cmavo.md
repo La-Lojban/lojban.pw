@@ -2218,16 +2218,18 @@ meta.description: A more user-friendly list of cmavo definitions with examples
   - definitions:
     - 1:
       - type: pure emotion indicator
-      - definition: Closeness: Expresses emotional closeness or intimacy.
+      - definition: Closeness: Expresses intimacy, closeness, affinity, sympathy, rapport
       - examples:
         - 1:
-          - lojban: .o'e mi do ba kansa lo nu vitke lo mikce
-          - gloss: [Intimately] I you future accompany the event-of visit the doctor.
-          - translation: I'll go with you to see the doctor.
+          - lojban: .o'e do pu se nandu
+          - gloss: [Intimacy!] You in-past has-problem.
+          - translation: Your problems resonated with me.
+          - comment: The speaker feels closeness with others' problems.
         - 2:
-          - lojban: .o'e mi djica lo nu penmi do
-          - gloss: [Intimately] I desire the event-of meet you.
-          - translation: I really want to see you.
+          - lojban: .o'e mi zvati le zdani
+          - gloss: [Intimacy!] I is-present-at the home.
+          - translation: Honey, I'm back home.
+          - comment: The speaker feels emotionally close by the fact of being at home.
 
 - .o'e nai:
   - definitions:
@@ -2248,15 +2250,15 @@ meta.description: A more user-friendly list of cmavo definitions with examples
   - definitions:
     - 1:
       - type: pure emotion indicator
-      - definition: Caution: Expresses caution or care.
+      - definition: Caution: Expresses caution / carefulness / prudence / vigilance
       - examples:
         - 1:
           - lojban: .o'i le loldi cu se sakli
           - gloss: [Cautiously] The floor - is-slippery.
           - translation: Careful! The floor is slippery.
         - 2:
-          - lojban: .o'i ko larcu klama
-          - gloss: [Cautiously] You-imperative careful go.
+          - lojban: .o'i ko jundi klama o'i
+          - gloss: [Cautiously] You-imperative attentive go.
           - translation: Be careful as you go!
 
 - .o'i nai:
@@ -2278,16 +2280,13 @@ meta.description: A more user-friendly list of cmavo definitions with examples
   - definitions:
     - 1:
       - type: pure emotion indicator
-      - definition: Patience: Expresses patience or tolerance.
+      - definition: Patience: Expresses patience / tolerance / forbearance / leniency / benevolence / indulgence / magnanimity.
       - examples:
         - 1:
-          - lojban: .o'o ko za'u re'u troci
-          - gloss: [Patiently] You-imperative again try.
-          - translation: Ok, try again.
-        - 2:
-          - lojban: .o'o mi denpa
-          - gloss: [Patiently] I wait.
-          - translation: I'll wait patiently.
+          - lojban: .o'o do fliba .i ko za'u re'u troci
+          - gloss: [Patiently] you fail new-sentence you-imperative again try.
+          - translation: Ok, you failed. Try again.
+          - comment: The speaker feels patient with others' attempts.
 
 - .o'o cu'i:
   - definitions:
@@ -2323,16 +2322,13 @@ meta.description: A more user-friendly list of cmavo definitions with examples
   - definitions:
     - 1:
       - type: pure emotion indicator
-      - definition: Relaxation: Expresses relaxation or serenity.
+      - definition: Relaxation: Expresses relaxation / leisure / repose / peacefulness / serenity / calmness / placidity / tranquility / quietude
       - examples:
         - 1:
-          - lojban: .o'u ti zabna se lifri
-          - gloss: [Relaxedly] This good experience.
-          - translation: Ah, this is the life!
-        - 2:
-          - lojban: .o'u mi ca surla
-          - gloss: [Relaxedly] I now relax.
-          - translation: I'm feeling so relaxed right now.
+          - lojban: .o'u mi co'a jinru le glare
+          - gloss: [Relaxation!] I at-the-beginning bathe-in the hot.
+          - translation: [Phew!] I'm sinking into a hot bath.
+          - comment: The speaker feels relieved when taking a hot bath.
 
 - .o'u cu'i:
   - definitions:
@@ -2368,15 +2364,16 @@ meta.description: A more user-friendly list of cmavo definitions with examples
   - definitions:
     - 1:
       - type: pure emotion indicator
-      - definition: Complaint: Expresses complaint or pain.
+      - definition: Complaint: Expresses pain / complaint / displeasure / discomfort / discontentment / frustration / protestation.
       - examples:
         - 1:
-          - lojban: .oi mi cortu le kanla
-          - gloss: [Painfully] I pain the eye.
-          - translation: Ouch! My eyes hurt.
+          - lojban: .oi la djan. klama
+          - gloss: [Complaint!] That-named John comes.
+          - translation: [Complaint!] John is coming.
+          - comment: The speaker feels distressed about John's arrival.
         - 2:
-          - lojban: .oi ti nandu
-          - gloss: [Complainingly] This difficult.
+          - lojban: .oi la'e do'i nandu
+          - gloss: [Complainingly] referent-of some-utterance difficult.
           - translation: Ugh, this is hard.
 
 - .oi nai:
@@ -2814,70 +2811,6 @@ meta.description: A more user-friendly list of cmavo definitions with examples
           - translation: [No pity!] You feel pain.
           - comment: Expresses a lack of sympathy for someone feeling pain.
 ----
-
-- .o'e:
-  - definitions:
-    - 1:
-      - type: pure emotion indicator
-      - definition: Closeness: Expresses intimacy, closeness, affinity, sympathy, rapport
-      - examples:
-        - 1:
-          - lojban: .o'e do pu se nandu
-          - gloss: [Intimacy!] You in-past has-problem.
-          - translation: Your problems resonated with me.
-          - comment: The speaker feels closeness with others' problems.
-        - 1:
-          - lojban: .o'e mi zvati le zdani
-          - gloss: [Intimacy!] I is-present-at the home.
-          - translation: Honey, I'm back home.
-          - comment: The speaker feels emotionally close by the fact of being at home.
-
-- .o'i:
-  - definitions:
-    - 1:
-      - type: pure emotion indicator
-      - definition: Expresses caution, boldness, rashness
-      - examples:
-        - 1:
-          - lojban: .o'i le loldi cu se sakli
-          - gloss: [Caution!] The floor - is-slipped-upon
-          - translation: Careful! The floor is slippery.
-
-- .o'o:
-  - definitions:
-    - 1:
-      - type: pure emotion indicator
-      - definition: Expresses patience / forbearance / leniency / benevolence / indulgence / magnanimity
-      - examples:
-        - 1:
-          - lojban: .o'o do .e'u za'u re'u troci
-          - gloss: [Patience!] You [Suggestion!] again try.
-          - translation: Ok, try again.
-          - comment: The speaker feels patient with others' attempts.
-
-- .o'u:
-  - definitions:
-    - 1:
-      - type: pure emotion indicator
-      - definition: Expresses relaxation / leisure / repose / peacefulness / serenity / calmness / placidity / tranquility / quietude
-      - examples:
-        - 1:
-          - lojban: .o'u mi co'a jinru le glare
-          - gloss: [Relaxation!] I at-the-beginning bathe-in the hot.
-          - translation: [Phew!] I'm sinking into a hot bath.
-          - comment: The speaker feels relieved when taking a hot bath.
-
-- .oi:
-  - definitions:
-    - 1:
-      - type: pure emotion indicator
-      - definition: Complaint or pain
-      - examples:
-        - 1:
-          - lojban: .oi la djan. klama
-          - gloss: [Complaint!] That-named John comes.
-          - translation: [Complaint!] John is coming.
-          - comment: The speaker feels distressed about John's arrival.
 
 - ki'a:
   - definitions:
