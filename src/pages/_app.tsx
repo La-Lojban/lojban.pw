@@ -87,17 +87,3 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   }, []);
   return <Component {...pageProps} />;
 }
-
-// MyApp.getInitialProps = async (appContext: AppContext) => {
-// 	const appInitialProps = await App.getInitialProps(appContext);
-
-// 	const asPath = appContext.ctx.asPath ?? "";
-// 	const res = appContext.ctx.res;
-// 	if (res && asPath.endsWith("/") && asPath.length > 1) {
-// 		res.writeHead(301, { Location: asPath.substring(0, asPath.length - 1) });
-// 		res.end();
-// 		return;
-// 	}
-
-// 	return { ...appInitialProps };
-// };
