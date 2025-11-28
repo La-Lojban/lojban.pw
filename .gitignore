@@ -32,3 +32,4 @@ scripts/
 data/.cache
 
 data/pages/texts
+.specstory/*
