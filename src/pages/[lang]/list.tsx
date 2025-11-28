@@ -2,9 +2,13 @@ import AllStories from "../../components/all-stories";
 import Layout from "../../components/layout";
 import { Items, getAllPosts } from "../../lib/api";
 import { TPost } from "../../types/post";
-
-import { Params } from "next/dist/shared/lib/router/utils/route-matcher";
 import markdownToHtml from "../../lib/markdownToHtml";
+
+type Params = {
+  params: {
+    lang: string;
+  };
+};
 
 type Props = {
   siblingPosts: TPost[];

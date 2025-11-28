@@ -13,7 +13,6 @@ import type { MermaidConfig } from "mermaid";
 import type { Config as SvgoConfig } from "svgo";
 import type { Plugin, Transformer } from "unified";
 import type { Node, Parent } from "unist";
-import type { VFileCompatible } from "vfile";
 
 // we want to check types for browser-executed mermaid codes, but don't want to "import" any mermaid modules in them.
 // declare const mermaid: typeof Mermaid;
@@ -84,7 +83,7 @@ const remarkMermaid: Plugin<[RemarkMermaidOptions?]> = function mermaidTrans(
   const settings = Object.assign({}, DEFAULT_SETTINGS, options);
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  return async (node: Node, _file: VFileCompatible) => {
+  return async (node: Node, _file: any) => {
     const mermaidBlocks = getMermaidBlocks(node);
     if (mermaidBlocks.length === 0) {
       return;
@@ -175,8 +174,8 @@ function getMermaidBlocks(node: Node): MermaidBlock[] {
   visit(
     node,
     isMermaid,
-    (node: Code, index: number, parent: Parent | undefined) => {
-      if (!isParent(parent)) {
+    (node: Code, index: number | undefined, parent: Parent | undefined) => {
+      if (!isParent(parent) || index === undefined) {
         return;
       }
       blocks.push([node, index, parent]);

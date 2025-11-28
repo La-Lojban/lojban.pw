@@ -1,8 +1,11 @@
-FROM mcr.microsoft.com/playwright:v1.45.3-focal
+FROM mcr.microsoft.com/playwright:v1.51.1-focal
 
 # Set timezone to avoid questions in CLI
 ENV TZ=Europe/London
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+# Install pnpm
+RUN corepack enable && corepack prepare pnpm@latest --activate
 
 # Install additional common dependencies
 RUN apt-get update && apt-get install -y \
@@ -24,9 +27,9 @@ RUN apt-get autoclean && rm -rf /var/lib/apt/lists/*
 RUN mkdir -p /app/src
 WORKDIR /app/src
 
-# Optionally, copy package.json and package-lock.json if you want to install npm dependencies
-# COPY package*.json ./
-# RUN npm install
+# Optionally, copy package.json and pnpm-lock.yaml if you want to install pnpm dependencies
+# COPY package.json pnpm-lock.yaml ./
+# RUN pnpm install
 
 # Optionally, copy application source code
 # COPY . .

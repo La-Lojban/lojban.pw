@@ -11,9 +11,7 @@ const withPWA = require("next-pwa")({
 module.exports = withPWA({
   experimental: {
     cpus: 4,
-    workerThreads: true,
   },
-  swcMinify: true,
   output: 'export',
   // async redirects() {
   //   return redirect;

@@ -1,10 +1,16 @@
 const playwright = require("playwright-core");
 const fs = require("fs");
+const path = require("path");
 const { sluggify } = require("../html-prettifier/slugger");
 const { languages } = require("../../config/locales.json");
 
 const allLanguages = Object.keys(languages);
 const CONCURRENCY_LIMIT = 10;
+
+// Environment-aware paths
+const BASE_DIR = process.env.APP_SRC || process.cwd();
+const MD_PAGES_DIR = path.join(BASE_DIR, "md_pages");
+const VREJI_DIR = process.env.VREJI_DIR || "/vreji";
 
 async function generatePDF(browser, url, shortLang) {
   const page = await browser.newPage();
@@ -24,8 +30,8 @@ async function generatePDF(browser, url, shortLang) {
       timeout: 0,
     });
 
-    const pdfFile = `/vreji/uencu/${shortLang}/${url.split("/").slice("-1")[0]}.pdf`;
-    fs.mkdirSync(`/vreji/uencu/${shortLang}`, { recursive: true });
+    const pdfFile = path.join(VREJI_DIR, "uencu", shortLang, `${url.split("/").slice("-1")[0]}.pdf`);
+    fs.mkdirSync(path.join(VREJI_DIR, "uencu", shortLang), { recursive: true });
     fs.writeFileSync(pdfFile, pdf);
     console.log(`pdf file saved: ${pdfFile}`);
   } catch (error) {
@@ -48,7 +54,7 @@ async function processBatch(browser, urls, shortLang) {
 async function printPDF() {
   for (const lang of allLanguages) {
     const shortLang = languages[lang].short;
-    const dirPath = `/app/src/md_pages/${shortLang}/books/`;
+    const dirPath = path.join(MD_PAGES_DIR, shortLang, "books");
 
     if (!fs.existsSync(dirPath)) {
       continue;

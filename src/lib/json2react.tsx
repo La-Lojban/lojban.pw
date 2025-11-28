@@ -9,7 +9,7 @@ import { PostProps } from "../types/post";
 export function buildDOMFromJSONBasic(
   html: string,
   { state, setState }: Partial<PostProps<any>>
-): JSX.Element {
+): React.JSX.Element {
   return parse(html, {
     replace: (domNode) => {
       if (
@@ -49,5 +49,5 @@ export function buildDOMFromJSONBasic(
       }
       return domNode;
     },
-  }) as JSX.Element;
+  }) as React.JSX.Element;
 }

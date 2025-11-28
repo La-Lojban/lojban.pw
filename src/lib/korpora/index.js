@@ -7,6 +7,11 @@ const args = process.argv.slice(2);
 const { autoSplitNTranslate } = require("./autotranslate");
 const { languages } = require("../../config/locales.json");
 
+// Environment-aware paths
+const BASE_DIR = process.env.APP_SRC || process.cwd();
+const PUBLIC_DIR = path.join(BASE_DIR, "public");
+const MD_PAGES_DIR = path.join(BASE_DIR, "md_pages");
+
 const allLanguages = Object.keys(languages);
 const MAX_CONCURRENT_TASKS = 20;
 
@@ -162,8 +167,8 @@ async function processSheet(sheet, title) {
 
   for (const index in columns[langs[0]]) {
     const lineNo = parseInt(index) + 1;
-    const candidate1 = `/app/src/public/assets/pixra/texts/${slug}/${lineNo}.svg`;
-    const candidate2 = `/app/src/public/assets/pixra/texts/${slug}/${lineNo}.png`;
+    const candidate1 = path.join(PUBLIC_DIR, "assets/pixra/texts", slug, `${lineNo}.svg`);
+    const candidate2 = path.join(PUBLIC_DIR, "assets/pixra/texts", slug, `${lineNo}.png`);
     const candidate1Exists = fs.existsSync(candidate1);
     const candidate2Exists = fs.existsSync(candidate2);
     const candidateExists = candidate1Exists || candidate2Exists;
@@ -225,8 +230,8 @@ async function writeFiles(
   keywords,
   ogImage
 ) {
-  const langedDirectoryRoot = `/app/src/md_pages/${languages[lang].short}`;
-  const langedDirectory = `${langedDirectoryRoot}/texts`;
+  const langedDirectoryRoot = path.join(MD_PAGES_DIR, languages[lang].short);
+  const langedDirectory = path.join(langedDirectoryRoot, "texts");
   const filepath = path.join(langedDirectory, title + ".html");
 
   const contentMd = await prettier.format(

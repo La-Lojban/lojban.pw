@@ -113,7 +113,8 @@ fi
 echo "Shrinking pdf files"
 
 # Find all files matching the *-pre.pdf wildcard recursively
-find /vreji/uencu -type f -name '*-pre.pdf' | while read -r file; do
+VREJI_DIR=${VREJI_DIR:-/vreji}
+find ${VREJI_DIR}/uencu -type f -name '*-pre.pdf' | while read -r file; do
 	echo "shrinking $file"
     # Apply the shrink command to each file
     output=$(echo "$file" | sed "s/-pre.pdf/.pdf/")
