@@ -158,7 +158,7 @@ export default function Header({
                 <div className="flex-shrink-0">
                   <Link href={`/${currentLanguage}/welcome`}>
                     <img
-                      className="logo active:transform active:translate-y-px transition-transform duration-75"
+                      className="logo active:transform active:translate-y-px transition-all duration-150 hover:scale-110 hover:brightness-110"
                       src="/assets/pixra/ralju/ralju_lanci.svg"
                       alt="Lojban logo"
                     />
@@ -167,7 +167,7 @@ export default function Header({
 
                 <div className="hidden sm:flex ml-5 items-center space-x-3">
                   <select
-                    className={`outline-none py-1 h-8 flex-shrink-0 ${getColor("bg-deep-orange-300")} ${getColor("hover:bg-deep-orange-200")} text-gray-100 text-base leading-none pl-2 rounded shadow-md focus:outline-none flex items-center active:transform active:translate-y-px transition-transform duration-75`}
+                    className={`outline-none py-1 h-8 flex-shrink-0 ${getColor("bg-deep-orange-300")} ${getColor("hover:bg-deep-orange-200")} text-gray-100 text-base leading-none pl-2 rounded shadow-md focus:outline-none flex items-center active:transform active:translate-y-px transition-all duration-150 hover:shadow-lg hover:scale-105 cursor-pointer`}
                     onChange={handleLanguageChange}
                     defaultValue={
                       langDict[
@@ -201,7 +201,7 @@ export default function Header({
                       className="mt-auto"
                     >
                       <button
-                        className={`h-8 flex-shrink-0 ${getColor("bg-deep-orange-300")} ${getColor("hover:bg-deep-orange-200")} text-gray-100 text-base leading-none px-4 rounded shadow-md focus:outline-none flex items-center relative overflow-hidden active:transform active:translate-y-px transition-transform duration-75`}
+                        className={`h-8 flex-shrink-0 ${getColor("bg-deep-orange-300")} ${getColor("hover:bg-deep-orange-200")} text-gray-100 text-base leading-none px-4 rounded shadow-md focus:outline-none flex items-center relative overflow-hidden active:transform active:translate-y-px transition-all duration-150 hover:shadow-lg hover:scale-105 hover:-translate-y-0.5`}
                       >
                         {!!item.foundTitle?.icon && (
                           <div className="absolute flex items-center justify-center text-xl opacity-80 left-1 top-1 bottom-1">
@@ -247,7 +247,7 @@ export default function Header({
                     onClick={() => {
                       getClosestHeaderId();
                     }}
-                    className={`select-none ${getColor("bg-deep-orange-400")} ${getColor("hover:bg-deep-orange-300")} inline-flex items-center justify-center p-2 rounded-md text-white focus:outline-none`}
+                    className={`select-none ${getColor("bg-deep-orange-400")} ${getColor("hover:bg-deep-orange-300")} inline-flex items-center justify-center p-2 rounded-md text-white focus:outline-none transition-all duration-150 hover:shadow-lg hover:scale-110`}
                   >
                     <span className="sr-only">Open main menu</span>
                     {open ? (
