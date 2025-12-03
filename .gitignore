@@ -34,3 +34,4 @@ data/.cache
 data/pages/texts
 .specstory/*
 data/pages/.specstory/*
+tmp/

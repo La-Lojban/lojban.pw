@@ -112,8 +112,11 @@ fi
 
 echo "Shrinking pdf files"
 
+# Use VREJI_PATH environment variable if set, otherwise default to Docker path
+VREJI_PATH=${VREJI_PATH:-/vreji}
+
 # Find all files matching the *-pre.pdf wildcard recursively
-find /vreji/uencu -type f -name '*-pre.pdf' | while read -r file; do
+find ${VREJI_PATH}/uencu -type f -name '*-pre.pdf' | while read -r file; do
 	echo "shrinking $file"
     # Apply the shrink command to each file
     output=$(echo "$file" | sed "s/-pre.pdf/.pdf/")

@@ -6,6 +6,7 @@ const { sluggify } = require("../html-prettifier/slugger");
 const args = process.argv.slice(2);
 const { autoSplitNTranslate } = require("./autotranslate");
 const { languages } = require("../../config/locales.json");
+const { getMdPagesPath, getPublicAssetsPath, getStylesPath, getTmpPath } = require("../paths");
 
 const allLanguages = Object.keys(languages);
 const MAX_CONCURRENT_TASKS = 20;
@@ -162,14 +163,16 @@ async function processSheet(sheet, title) {
 
   for (const index in columns[langs[0]]) {
     const lineNo = parseInt(index) + 1;
-    const candidate1 = `/app/src/public/assets/pixra/texts/${slug}/${lineNo}.svg`;
-    const candidate2 = `/app/src/public/assets/pixra/texts/${slug}/${lineNo}.png`;
+    const publicAssetsPath = getPublicAssetsPath();
+    const candidate1 = path.join(publicAssetsPath, "pixra", "texts", slug, `${lineNo}.svg`);
+    const candidate2 = path.join(publicAssetsPath, "pixra", "texts", slug, `${lineNo}.png`);
     const candidate1Exists = fs.existsSync(candidate1);
     const candidate2Exists = fs.existsSync(candidate2);
     const candidateExists = candidate1Exists || candidate2Exists;
-    const candidatePath = (
-      candidate1Exists ? candidate1 : candidate2Exists ? candidate2 : ""
-    ).replace(/^\/app\/src\/public/, "");
+    // For web paths, we need relative path from public directory
+    const candidatePath = candidateExists
+      ? path.join("/assets", "pixra", "texts", slug, candidate1Exists ? `${lineNo}.svg` : `${lineNo}.png`)
+      : "";
     if (candidateExists) {
       ogImage = ogImage ?? candidatePath;
       table.push(
@@ -225,8 +228,9 @@ async function writeFiles(
   keywords,
   ogImage
 ) {
-  const langedDirectoryRoot = `/app/src/md_pages/${languages[lang].short}`;
-  const langedDirectory = `${langedDirectoryRoot}/texts`;
+  const mdPagesPath = getMdPagesPath();
+  const langedDirectoryRoot = path.join(mdPagesPath, languages[lang].short);
+  const langedDirectory = path.join(langedDirectoryRoot, "texts");
   const filepath = path.join(langedDirectory, title + ".html");
 
   const contentMd = await prettier.format(
@@ -329,7 +333,9 @@ async function processTitlesInParallel(titles, processFunction) {
         to: args[0].replace(/^fanva-/, ""),
         limit: 3000,
       });
-      const translation_file = path.join("/tmp/korpora", slug + ".txt");
+      const tmpPath = getTmpPath();
+      const translation_file = path.join(tmpPath, "korpora", slug + ".txt");
+      fs.mkdirSync(path.join(tmpPath, "korpora"), { recursive: true });
       fs.writeFileSync(translation_file, translation);
       console.log(`translated "${title}"`);
     }
@@ -378,7 +384,8 @@ async function processTitlesInParallel(titles, processFunction) {
     }
   `);
 
-  const csspath = path.join("/app/src/styles", "style.css");
+  const stylesPath = getStylesPath();
+  const csspath = path.join(stylesPath, "style.css");
   fs.writeFileSync(
     csspath,
     await prettier.format(Array.from(new Set(css)).join("\n\n"), {
