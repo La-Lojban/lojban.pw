@@ -12,18 +12,37 @@ if (args.length === 0) {
 }
 
 // Set environment variables
-process.env.MD_PAGES_PATH = paths.mdPages;
-process.env.SERVICE_PATH = paths.service;
-process.env.VREJI_PATH = paths.vreji;
-process.env.TMP_PATH = paths.tmp;
-process.env.SRC_PATH = paths.src;
+const env = {
+  ...process.env,
+  MD_PAGES_PATH: paths.mdPages,
+  SERVICE_PATH: paths.service,
+  VREJI_PATH: paths.vreji,
+  TMP_PATH: paths.tmp,
+  SRC_PATH: paths.src,
+};
+
+// If the command is 'sh -c' or 'bash -c', we need to expand variables in the command string
+const [command, ...commandArgs] = args;
+
+// Replace environment variables in command arguments if using sh -c or bash -c
+let finalArgs = commandArgs;
+if ((command === 'sh' || command === 'bash') && commandArgs[0] === '-c' && commandArgs[1]) {
+  let cmdString = commandArgs[1];
+  // Replace ${VAR} and $VAR with actual values
+  cmdString = cmdString.replace(/\$\{([^}]+)\}/g, (match, varName) => {
+    return env[varName] || match;
+  });
+  cmdString = cmdString.replace(/\$([A-Z_][A-Z0-9_]*)/g, (match, varName) => {
+    return env[varName] || match;
+  });
+  finalArgs = ['-c', cmdString];
+}
 
 // Run the command
-const [command, ...commandArgs] = args;
-const child = spawn(command, commandArgs, {
+const child = spawn(command, finalArgs, {
   stdio: "inherit",
-  shell: true,
-  env: process.env,
+  shell: false, // Don't use shell, we're handling it ourselves
+  env: env,
 });
 
 child.on("exit", (code) => {
