@@ -1,7 +1,10 @@
+const { getMdPagesPath } = require("./lib/paths");
+const { join } = require("path");
+
 module.exports = {
   mode: "jit",
   content: [
-    "./md_pages/**/*.md",
+    join(getMdPagesPath(), "**/*.md"),
     "./pages/**/*.tsx",
     "./components/**/*.tsx",
     "./lib/**/*.tsx",

@@ -2,6 +2,7 @@ FROM mcr.microsoft.com/playwright:v1.45.3-focal
 
 # Set timezone to avoid questions in CLI
 ENV TZ=Europe/London
+ENV IN_DOCKER=true
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # Install additional common dependencies

@@ -1,6 +1,7 @@
 // const redirect = require("./config/redirect.json");
 const { join } = require("path");
-const md_content = join(process.cwd(), "md_pages");
+const { getMdPagesPath } = require("./lib/paths");
+const md_content = getMdPagesPath();
 
 const prod = process.env.NODE_ENV === "production";
 const withPWA = require("next-pwa")({
