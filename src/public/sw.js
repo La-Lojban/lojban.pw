@@ -1,16 +1,26 @@
 // Simple service worker for static export
 const CACHE_NAME = 'lojban-pwa-v1';
 const urlsToCache = [
-  '/',
-  '/styles/index.css',
-  '/styles/style.css'
+  '/'
+  // Note: CSS files are bundled by Next.js into /_next/static/css/ with hashed filenames
+  // They are automatically included in the HTML, so no need to cache them separately
 ];
 
 // Install event - cache resources
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then((cache) => cache.addAll(urlsToCache))
+      .then((cache) => {
+        // Cache each URL individually to handle missing files gracefully
+        return Promise.allSettled(
+          urlsToCache.map(url => 
+            cache.add(url).catch(err => {
+              console.log(`Failed to cache ${url}:`, err);
+              return null; // Continue even if one file fails
+            })
+          )
+        );
+      })
       .catch((err) => console.log('Cache install error:', err))
   );
   self.skipWaiting();
