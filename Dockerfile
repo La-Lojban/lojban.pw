@@ -22,7 +22,7 @@ RUN apt-get update && apt-get install -y \
 RUN apt-get autoclean && rm -rf /var/lib/apt/lists/*
 
 # Install pnpm
-RUN corepack enable && corepack prepare pnpm@latest --activate
+RUN npm install -g pnpm@9.0.0
 
 # Create workspace
 RUN mkdir -p /app/src
