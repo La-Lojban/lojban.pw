@@ -37,21 +37,32 @@ jobs:
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
 
-    - name: Cache npm dependencies
+    - name: Install pnpm
+      uses: pnpm/action-setup@v4
+      with:
+        version: 9
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'pnpm'
+
+    - name: Cache pnpm dependencies
       uses: actions/cache@v4
-      id: npm-cache
+      id: pnpm-cache
       with:
         path: ${{ github.workspace }}/node_modules
-        key: ${{ runner.OS }}-npm-${{ hashFiles('**/package-lock.json') }}
+        key: ${{ runner.OS }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
-          ${{ runner.OS }}-npm-
+          ${{ runner.OS }}-pnpm-
 
     - name: Cache Playwright browsers
       uses: actions/cache@v4
       id: playwright-cache
       with:
         path: ${{ github.workspace }}/ms-playwright
-        key: ${{ runner.OS }}-playwright-${{ hashFiles('**/package-lock.json') }}
+        key: ${{ runner.OS }}-playwright-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.OS }}-playwright-
 
@@ -72,11 +83,11 @@ jobs:
       run: |
         # Build install commands based on cache status
         INSTALL_CMD=""
-        if [ "${{ steps.npm-cache.outputs.cache-hit }}" != "true" ]; then
-          INSTALL_CMD="npm ci --prefer-offline && "
+        if [ "${{ steps.pnpm-cache.outputs.cache-hit }}" != "true" ]; then
+          INSTALL_CMD="pnpm install --frozen-lockfile && "
         fi
         if [ "${{ steps.playwright-cache.outputs.cache-hit }}" != "true" ]; then
-          INSTALL_CMD="${INSTALL_CMD}npx playwright install chromium --with-deps && "
+          INSTALL_CMD="${INSTALL_CMD}pnpm exec playwright install chromium --with-deps && "
         fi
         docker run --rm -v /output:/app/src/out1 \
                    -v ${{ github.workspace }}/data/config:/app/src/config:Z \
@@ -90,7 +101,7 @@ jobs:
                    -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
                    -e CI=true \
                    lojban:latest \
-                   sh -c "${INSTALL_CMD}npm run cicd"
+                   sh -c "${INSTALL_CMD}pnpm cicd"
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
