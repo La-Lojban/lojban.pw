@@ -21,13 +21,16 @@ RUN apt-get update && apt-get install -y \
 # Cleanup to reduce image size
 RUN apt-get autoclean && rm -rf /var/lib/apt/lists/*
 
+# Install pnpm
+RUN corepack enable && corepack prepare pnpm@latest --activate
+
 # Create workspace
 RUN mkdir -p /app/src
 WORKDIR /app/src
 
-# Optionally, copy package.json and package-lock.json if you want to install npm dependencies
-# COPY package*.json ./
-# RUN npm install
+# Optionally, copy package.json and pnpm-lock.yaml if you want to install pnpm dependencies
+# COPY package.json pnpm-lock.yaml ./
+# RUN pnpm install
 
 # Optionally, copy application source code
 # COPY . .
