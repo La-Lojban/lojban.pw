@@ -46,12 +46,11 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
-        cache: 'pnpm'
-        cache-dependency-path: 'src/pnpm-lock.yaml'
 
     - name: Cache Playwright browsers
       uses: actions/cache@v4
       id: playwright-cache
+      continue-on-error: true
       with:
         path: ${{ github.workspace }}/ms-playwright
         key: ${{ runner.OS }}-playwright-${{ hashFiles('**/pnpm-lock.yaml') }}
