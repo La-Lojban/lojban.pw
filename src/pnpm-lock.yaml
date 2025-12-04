@@ -35,6 +35,9 @@ importers:
       jsdom:
         specifier: ^25.0.0
         version: 25.0.1
+      mdast:
+        specifier: ^3.0.0
+        version: 3.0.0
       next:
         specifier: 14.2.7
         version: 14.2.7(@babel/core@7.28.5)(@playwright/test@1.45.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.94.2)
@@ -62,6 +65,15 @@ importers:
       socket.io-client:
         specifier: ^4.7.5
         version: 4.8.1
+      unist-util-is:
+        specifier: ^6.0.1
+        version: 6.0.1
+      unist-util-visit:
+        specifier: ^5.0.0
+        version: 5.0.0
+      vfile:
+        specifier: '5'
+        version: 5.3.7
     devDependencies:
       '@next/env':
         specifier: 14.2.7
@@ -78,6 +90,9 @@ importers:
       '@types/jsdom':
         specifier: ^21.1.7
         version: 21.1.7
+      '@types/mdast':
+        specifier: ^4.0.4
+        version: 4.0.4
       '@types/mermaid':
         specifier: ^9.2.0
         version: 9.2.0
@@ -96,6 +111,9 @@ importers:
       '@types/react-image-gallery':
         specifier: ^1.2.4
         version: 1.2.4
+      '@types/unist':
+        specifier: ^3.0.3
+        version: 3.0.3
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.22(postcss@8.5.6)
@@ -1165,6 +1183,9 @@ packages:
 
   '@types/mdast@3.0.15':
     resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
+
+  '@types/mdast@4.0.4':
+    resolution: {integrity: sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA==}
 
   '@types/mermaid@9.2.0':
     resolution: {integrity: sha512-AlvLWYer6u4BkO4QzMkHo0t9RkvVIgqggVZmO+5snUiuX2caTKqtdqygX6GeE1VQa/TnXw9WoH0spcmHtG0inQ==}
@@ -2813,6 +2834,10 @@ packages:
 
   mdast-util-to-string@3.2.0:
     resolution: {integrity: sha512-V4Zn/ncyN1QNSqSBxTrMOLpjr+IKdHl2v3KVLoWmDPscP4r9GcCi71gjgvUV1SFSKh92AjAG4peFuBl2/YgCJg==}
+
+  mdast@3.0.0:
+    resolution: {integrity: sha512-xySmf8g4fPKMeC07jXGz971EkLbWAJ83s4US2Tj9lEdnZ142UP5grN73H1Xd3HzrdbU5o9GYYP/y8F9ZSwLE9g==}
+    deprecated: '`mdast` was renamed to `remark`'
 
   mdn-data@2.0.28:
     resolution: {integrity: sha512-aylIc7Z9y4yzHYAJNuESG3hfhC+0Ibp/MAMiaOZgNv4pmEdFyfZhhhny4MNiAfWdBQ1RQ2mfDWmM1x8SvGyp8g==}
@@ -5214,6 +5239,10 @@ snapshots:
     dependencies:
       '@types/unist': 2.0.11
 
+  '@types/mdast@4.0.4':
+    dependencies:
+      '@types/unist': 3.0.3
+
   '@types/mermaid@9.2.0':
     dependencies:
       mermaid: 10.9.0
@@ -7120,6 +7149,8 @@ snapshots:
   mdast-util-to-string@3.2.0:
     dependencies:
       '@types/mdast': 3.0.15
+
+  mdast@3.0.0: {}
 
   mdn-data@2.0.28: {}
 
