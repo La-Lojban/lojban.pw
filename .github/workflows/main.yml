@@ -47,15 +47,7 @@ jobs:
       with:
         node-version: '20'
         cache: 'pnpm'
-
-    - name: Cache pnpm dependencies
-      uses: actions/cache@v4
-      id: pnpm-cache
-      with:
-        path: ${{ github.workspace }}/node_modules
-        key: ${{ runner.OS }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
-        restore-keys: |
-          ${{ runner.OS }}-pnpm-
+        cache-dependency-path: 'src/pnpm-lock.yaml'
 
     - name: Cache Playwright browsers
       uses: actions/cache@v4
@@ -83,9 +75,9 @@ jobs:
       run: |
         # Build install commands based on cache status
         INSTALL_CMD=""
-        if [ "${{ steps.pnpm-cache.outputs.cache-hit }}" != "true" ]; then
-          INSTALL_CMD="pnpm install --frozen-lockfile && "
-        fi
+        # Note: pnpm cache is handled by setup-node action, but we still need to install in Docker
+        # The cache helps speed up installs, but we always run install in Docker for consistency
+        INSTALL_CMD="pnpm install --frozen-lockfile && "
         if [ "${{ steps.playwright-cache.outputs.cache-hit }}" != "true" ]; then
           INSTALL_CMD="${INSTALL_CMD}pnpm exec playwright install chromium --with-deps && "
         fi
