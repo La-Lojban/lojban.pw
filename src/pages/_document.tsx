@@ -15,6 +15,10 @@ export default class MyDocument extends Document {
             integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC"
             crossOrigin="anonymous"
           />
+          <link rel="manifest" href="/manifest.json" />
+          <meta name="theme-color" content="#000000" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
           {/* <Script src="/assets/js/redirector.js" strategy="beforeInteractive" /> */}
         </Head>
         <body className="bg-gray-100 print:bg-white">

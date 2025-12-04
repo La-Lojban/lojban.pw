@@ -3,7 +3,7 @@ import Layout from "../../components/layout";
 import { Items, getAllPosts } from "../../lib/api";
 import { TPost } from "../../types/post";
 
-import { Params } from "next/dist/shared/lib/router/utils/route-matcher";
+import { GetStaticPropsContext } from "next";
 import markdownToHtml from "../../lib/markdownToHtml";
 
 type Props = {
@@ -11,7 +11,7 @@ type Props = {
   contentPosts: TPost[];
   indexPost: TPost;
   posts: Items[];
-  params: any;
+  params: { lang: string };
 };
 
 const Index = ({
@@ -50,7 +50,11 @@ const Index = ({
 
 export default Index;
 
-export const getStaticProps = async ({ params }: Params) => {
+export const getStaticProps = async ({ params }: GetStaticPropsContext<{ lang: string }>) => {
+  if (!params) {
+    return { notFound: true };
+  }
+  
   let allPosts = await getAllPosts({
     fields: [
       "title",

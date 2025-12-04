@@ -1,1 +1,78 @@
-if(!self.define){let e,s={};const a=(a,n)=>(a=new URL(a+".js",n).href,s[a]||new Promise(s=>{if("document"in self){const e=document.createElement("script");e.src=a,e.onload=s,document.head.appendChild(e)}else e=a,importScripts(a),s()}).then(()=>{let e=s[a];if(!e)throw new Error(`Module ${a} didn’t register its module`);return e}));self.define=(n,t)=>{const c=e||("document"in self?document.currentScript.src:"")||location.href;if(s[c])return;let i={};const r=e=>a(e,c),o={module:{uri:c},exports:i,require:r};s[c]=Promise.all(n.map(e=>o[e]||r(e))).then(e=>(t(...e),i))}}define(["./workbox-e9849328"],function(e){"use strict";importScripts(),self.skipWaiting(),e.clientsClaim(),e.precacheAndRoute([{url:"/_next/static/b1HAGsRq4JTqtEyIppqBV/_buildManifest.js",revision:"b3a205089a7b835ba5a8d8814915283b"},{url:"/_next/static/b1HAGsRq4JTqtEyIppqBV/_ssgManifest.js",revision:"b6652df95db52feb4daf4eca35380933"},{url:"/_next/static/chunks/340-3fcfa14512de6be4.js",revision:"3fcfa14512de6be4"},{url:"/_next/static/chunks/356-15aba1e2ac3a0a4b.js",revision:"15aba1e2ac3a0a4b"},{url:"/_next/static/chunks/401-cc7e98e3cdaecac1.js",revision:"cc7e98e3cdaecac1"},{url:"/_next/static/chunks/5e405f82-b5872d2789474319.js",revision:"b5872d2789474319"},{url:"/_next/static/chunks/5ff3ec2e-47a5bc3055e2354a.js",revision:"47a5bc3055e2354a"},{url:"/_next/static/chunks/712-73fe0daea40de578.js",revision:"73fe0daea40de578"},{url:"/_next/static/chunks/f29ff5d7-eae1822fe77053ae.js",revision:"eae1822fe77053ae"},{url:"/_next/static/chunks/framework-a85322f027b40e20.js",revision:"a85322f027b40e20"},{url:"/_next/static/chunks/main-88728f2ed8f18f2f.js",revision:"88728f2ed8f18f2f"},{url:"/_next/static/chunks/pages/%5Blang%5D/%5B...slug%5D-3815fb696613ae08.js",revision:"3815fb696613ae08"},{url:"/_next/static/chunks/pages/%5Blang%5D/list-cff4faa85fdfe2c9.js",revision:"cff4faa85fdfe2c9"},{url:"/_next/static/chunks/pages/%5Blang%5D/texts-b2c39a1b9ab55812.js",revision:"b2c39a1b9ab55812"},{url:"/_next/static/chunks/pages/%5Blang%5D/welcome-7a5a3a018b08d2f5.js",revision:"7a5a3a018b08d2f5"},{url:"/_next/static/chunks/pages/_app-7ae7424805da3ae0.js",revision:"7ae7424805da3ae0"},{url:"/_next/static/chunks/pages/_error-12cd720363148474.js",revision:"12cd720363148474"},{url:"/_next/static/chunks/pages/articles/%5B...slug%5D-f7c20d0f7b0a628f.js",revision:"f7c20d0f7b0a628f"},{url:"/_next/static/chunks/pages/books/%5B...slug%5D-0bbbc570b5e40d71.js",revision:"0bbbc570b5e40d71"},{url:"/_next/static/chunks/pages/books/learn-lojban-d4e0a5e3f55b81dc.js",revision:"d4e0a5e3f55b81dc"},{url:"/_next/static/chunks/pages/humour/%5B...slug%5D-50cc19a57eb727cd.js",revision:"50cc19a57eb727cd"},{url:"/_next/static/chunks/pages/index-cb2d4e95b0f8d1a1.js",revision:"cb2d4e95b0f8d1a1"},{url:"/_next/static/chunks/pages/list-168ff4d62729f3ef.js",revision:"168ff4d62729f3ef"},{url:"/_next/static/chunks/pages/questions/%5B...slug%5D-9f02e22dbf3a4ded.js",revision:"9f02e22dbf3a4ded"},{url:"/_next/static/chunks/pages/texts/%5B...slug%5D-4deec7bffaad5dd5.js",revision:"4deec7bffaad5dd5"},{url:"/_next/static/chunks/pages/welcome-684f621185a3ea34.js",revision:"684f621185a3ea34"},{url:"/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",revision:"79330112775102f91e1010318bae2bd3"},{url:"/_next/static/chunks/webpack-6ef43a8d4a395f49.js",revision:"6ef43a8d4a395f49"},{url:"/_next/static/css/0d3ee20e3c6b62ff.css",revision:"0d3ee20e3c6b62ff"}],{ignoreURLParametersMatching:[]}),e.cleanupOutdatedCaches(),e.registerRoute("/",new e.NetworkFirst({cacheName:"start-url",plugins:[{cacheWillUpdate:async({request:e,response:s,event:a,state:n})=>s&&"opaqueredirect"===s.type?new Response(s.body,{status:200,statusText:"OK",headers:s.headers}):s}]}),"GET"),e.registerRoute(/^https:\/\/fonts\.(?:gstatic)\.com\/.*/i,new e.CacheFirst({cacheName:"google-fonts-webfonts",plugins:[new e.ExpirationPlugin({maxEntries:4,maxAgeSeconds:31536e3})]}),"GET"),e.registerRoute(/^https:\/\/fonts\.(?:googleapis)\.com\/.*/i,new e.StaleWhileRevalidate({cacheName:"google-fonts-stylesheets",plugins:[new e.ExpirationPlugin({maxEntries:4,maxAgeSeconds:604800})]}),"GET"),e.registerRoute(/\.(?:eot|otf|ttc|ttf|woff|woff2|font.css)$/i,new e.StaleWhileRevalidate({cacheName:"static-font-assets",plugins:[new e.ExpirationPlugin({maxEntries:4,maxAgeSeconds:604800})]}),"GET"),e.registerRoute(/\.(?:jpg|jpeg|gif|png|svg|ico|webp)$/i,new e.StaleWhileRevalidate({cacheName:"static-image-assets",plugins:[new e.ExpirationPlugin({maxEntries:64,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\/_next\/image\?url=.+$/i,new e.StaleWhileRevalidate({cacheName:"next-image",plugins:[new e.ExpirationPlugin({maxEntries:64,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:mp3|wav|ogg)$/i,new e.CacheFirst({cacheName:"static-audio-assets",plugins:[new e.RangeRequestsPlugin,new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:mp4)$/i,new e.CacheFirst({cacheName:"static-video-assets",plugins:[new e.RangeRequestsPlugin,new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:js)$/i,new e.StaleWhileRevalidate({cacheName:"static-js-assets",plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:css|less)$/i,new e.StaleWhileRevalidate({cacheName:"static-style-assets",plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\/_next\/data\/.+\/.+\.json$/i,new e.StaleWhileRevalidate({cacheName:"next-data",plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:json|xml|csv)$/i,new e.NetworkFirst({cacheName:"static-data-assets",plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(({url:e})=>{if(!(self.origin===e.origin))return!1;const s=e.pathname;return!s.startsWith("/api/auth/")&&!!s.startsWith("/api/")},new e.NetworkFirst({cacheName:"apis",networkTimeoutSeconds:10,plugins:[new e.ExpirationPlugin({maxEntries:16,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(({url:e})=>{if(!(self.origin===e.origin))return!1;return!e.pathname.startsWith("/api/")},new e.NetworkFirst({cacheName:"others",networkTimeoutSeconds:10,plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(({url:e})=>!(self.origin===e.origin),new e.NetworkFirst({cacheName:"cross-origin",networkTimeoutSeconds:10,plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:3600})]}),"GET")});
+// Simple service worker for static export
+const CACHE_NAME = 'lojban-pwa-v1';
+const urlsToCache = [
+  '/',
+  '/styles/index.css',
+  '/styles/style.css'
+];
+
+// Install event - cache resources
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then((cache) => cache.addAll(urlsToCache))
+      .catch((err) => console.log('Cache install error:', err))
+  );
+  self.skipWaiting();
+});
+
+// Activate event - clean up old caches
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cacheName) => {
+          if (cacheName !== CACHE_NAME) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
+  self.clients.claim();
+});
+
+// Fetch event - serve from cache, fallback to network
+self.addEventListener('fetch', (event) => {
+  event.respondWith(
+    caches.match(event.request)
+      .then((response) => {
+        // Return cached version or fetch from network
+        return response || fetch(event.request);
+      })
+      .catch(() => {
+        // If both fail, return offline page if available
+        if (event.request.destination === 'document') {
+          return caches.match('/');
+        }
+      })
+  );
+});
+
+// Push notification support (optional)
+self.addEventListener('push', (event) => {
+  if (event.data) {
+    const data = event.data.json();
+    const options = {
+      body: data.body,
+      icon: data.icon || '/icon-192x192.png',
+      badge: '/icon-192x192.png',
+      vibrate: [100, 50, 100],
+      data: {
+        dateOfArrival: Date.now(),
+        primaryKey: '1',
+      },
+    };
+    event.waitUntil(
+      self.registration.showNotification(data.title || 'Lojban Made Easy', options)
+    );
+  }
+});
+
+// Notification click handler
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+  event.waitUntil(
+    clients.openWindow(event.notification.data?.url || '/')
+  );
+});
