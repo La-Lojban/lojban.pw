@@ -39,6 +39,20 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     };
   }, []);
 
+  // Register service worker for PWA
+  useEffect(() => {
+    if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('/sw.js', { scope: '/' })
+        .then((registration) => {
+          console.log('Service Worker registered:', registration);
+        })
+        .catch((error) => {
+          console.log('Service Worker registration failed:', error);
+        });
+    }
+  }, []);
+
   useEffect(() => {
     let socket1Chat_connected: boolean;
     const socket1Chat = io("wss://jbotcan.org:9091", {
