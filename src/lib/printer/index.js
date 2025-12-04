@@ -6,7 +6,7 @@ const { languages } = require("../../config/locales.json");
 const { getMdPagesPath, getVrejiPath } = require("../paths");
 
 const allLanguages = Object.keys(languages);
-const CONCURRENCY_LIMIT = 10;
+const CONCURRENCY_LIMIT = 20; // Increased from 10 for faster PDF generation
 
 async function generatePDF(browser, url, shortLang) {
   const page = await browser.newPage();
@@ -49,41 +49,47 @@ async function processBatch(browser, urls, shortLang) {
 }
 
 async function printPDF() {
-  for (const lang of allLanguages) {
-    const shortLang = languages[lang].short;
-    const mdPagesPath = getMdPagesPath();
-    const dirPath = path.join(mdPagesPath, shortLang, "books");
+  // Launch a single browser instance for all languages to reuse
+  const browser = await playwright.chromium.launch({
+    headless: true,
+    args: [
+      "--disable-dev-shm-usage",
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-gpu", // Faster in headless mode
+      "--disable-software-rasterizer",
+    ],
+  });
 
-    if (!fs.existsSync(dirPath)) {
-      continue;
-    }
+  try {
+    // Process all languages in parallel for faster builds
+    await Promise.all(
+      allLanguages.map(async (lang) => {
+        const shortLang = languages[lang].short;
+        const mdPagesPath = getMdPagesPath();
+        const dirPath = path.join(mdPagesPath, shortLang, "books");
 
-    try {
-      const urls = fs
-        .readdirSync(dirPath)
-        .filter((i) => i.endsWith(".md"))
-        .map((i) => sluggify(i.replace(/.md$/, "")))
-        .map((url) => `http://127.0.0.1:3000/${shortLang}/books/${url}`);
+        if (!fs.existsSync(dirPath)) {
+          return;
+        }
 
-      console.log("generating PDF files for", urls);
-      const browser = await playwright.chromium.launch({
-        headless: true,
-        args: [
-          "--disable-dev-shm-usage",
-          "--no-sandbox",
-          "--disable-setuid-sandbox",
-        ],
-      });
+        try {
+          const urls = fs
+            .readdirSync(dirPath)
+            .filter((i) => i.endsWith(".md"))
+            .map((i) => sluggify(i.replace(/.md$/, "")))
+            .map((url) => `http://127.0.0.1:3000/${shortLang}/books/${url}`);
 
-      try {
-        // Process URLs in batches with concurrency limit
-        await processBatch(browser, urls, shortLang);
-      } finally {
-        await browser.close();
-      }
-    } catch (err) {
-      console.error(`Error processing language ${lang}:`, err);
-    }
+          console.log("generating PDF files for", urls);
+          // Process URLs in batches with concurrency limit
+          await processBatch(browser, urls, shortLang);
+        } catch (err) {
+          console.error(`Error processing language ${lang}:`, err);
+        }
+      })
+    );
+  } finally {
+    await browser.close();
   }
 }
 
