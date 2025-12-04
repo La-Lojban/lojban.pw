@@ -90,9 +90,6 @@ importers:
       '@types/mdast':
         specifier: ^4.0.4
         version: 4.0.4
-      '@types/mermaid':
-        specifier: ^9.2.0
-        version: 9.2.0
       '@types/node':
         specifier: ^22.5.2
         version: 22.19.1
@@ -750,10 +747,6 @@ packages:
 
   '@types/mdast@4.0.4':
     resolution: {integrity: sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA==}
-
-  '@types/mermaid@9.2.0':
-    resolution: {integrity: sha512-AlvLWYer6u4BkO4QzMkHo0t9RkvVIgqggVZmO+5snUiuX2caTKqtdqygX6GeE1VQa/TnXw9WoH0spcmHtG0inQ==}
-    deprecated: This is a stub types definition. mermaid provides its own type definitions, so you do not need this installed.
 
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
@@ -3287,12 +3280,6 @@ snapshots:
   '@types/mdast@4.0.4':
     dependencies:
       '@types/unist': 3.0.3
-
-  '@types/mermaid@9.2.0':
-    dependencies:
-      mermaid: 10.9.0
-    transitivePeerDependencies:
-      - supports-color
 
   '@types/ms@2.1.0': {}
 

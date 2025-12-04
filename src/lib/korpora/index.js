@@ -309,18 +309,21 @@ async function processTitlesInParallel(titles, processFunction) {
   await processTitlesInParallel(processedData, async ({ title, data }) => {
     const { table, buttons, headers, slug, keywords, ogImage, columns } = data;
 
-    for (const lang of allLanguages) {
-      await writeFiles(
-        lang,
-        title,
-        buttons,
-        table,
-        headers,
-        slug,
-        keywords,
-        ogImage
-      );
-    }
+    // Parallelize language processing for faster builds
+    await Promise.all(
+      allLanguages.map(lang =>
+        writeFiles(
+          lang,
+          title,
+          buttons,
+          table,
+          headers,
+          slug,
+          keywords,
+          ogImage
+        )
+      )
+    );
 
     console.log(`generated "${title}" corpus entry`);
 

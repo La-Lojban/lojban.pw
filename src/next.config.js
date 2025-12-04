@@ -1,15 +1,27 @@
 const { getMdPagesPath } = require("./lib/paths");
 const md_content = getMdPagesPath();
 
+// Detect available CPUs, use all but leave 1 for system
+const os = require("os");
+const availableCPUs = Math.max(1, os.cpus().length - 1);
+
 module.exports = {
   experimental: {
-    // Limit CPU usage for builds
-    cpus: 4,
+    // Use available CPUs for parallel builds (leave 1 for system)
+    cpus: availableCPUs,
   },
   // Configure Turbopack for better performance
   turbopack: {
-    // Limit memory usage
-    memoryLimit: 4096,
+    // Increase memory limit for better performance
+    memoryLimit: 8192,
+  },
+  // Enable SWC minification for faster builds
+  swcMinify: true,
+  // Optimize compiler settings
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production' ? {
+      exclude: ['error', 'warn'],
+    } : false,
   },
   output: 'export',
   // async redirects() {

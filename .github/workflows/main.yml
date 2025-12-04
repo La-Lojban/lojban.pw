@@ -46,6 +46,7 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
+        cache: 'pnpm'  # Cache pnpm dependencies
 
     - name: Cache Playwright browsers
       uses: actions/cache@v4
@@ -56,6 +57,16 @@ jobs:
         key: ${{ runner.OS }}-playwright-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.OS }}-playwright-
+    
+    - name: Cache Next.js build
+      uses: actions/cache@v4
+      id: nextjs-cache
+      continue-on-error: true
+      with:
+        path: ${{ github.workspace }}/src/.next
+        key: ${{ runner.OS }}-nextjs-${{ hashFiles('src/**/*.js', 'src/**/*.ts', 'src/**/*.tsx', 'src/**/*.json', 'src/package.json', 'src/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.OS }}-nextjs-
 
     - name: Build Docker image with cache
       uses: docker/build-push-action@v5
