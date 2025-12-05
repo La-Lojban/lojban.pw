@@ -3,41 +3,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* CSS Custom Properties for Theme Colors */
-@layer base {
-  :root {
-    --color-primary: #ff5722;
-    --color-primary-light: #ff7043;
-    --color-primary-dark: #e64a19;
-    --color-accent: #795548;
-    --color-accent-light: #a1887f;
-  }
-}
 @layer base {
   @font-face {
     font-family: "Linux Libertine";
     src: url("/assets/fonts/LinLibertine_RBI.otf");
     font-style: italic;
     font-weight: 600;
-    font-display: swap;
   }
   @font-face {
     font-family: "Linux Libertine";
     src: url("/assets/fonts/LinLibertine_RI.otf");
     font-style: italic;
-    font-display: swap;
   }
   @font-face {
     font-family: "Linux Libertine";
     src: url("/assets/fonts/LinLibertine_RB.otf");
     font-weight: 600;
-    font-display: swap;
   }
   @font-face {
     font-family: "Linux Libertine";
     src: url("/assets/fonts/LinLibertine_R.otf");
-    font-display: swap;
   }
 }
 
@@ -105,28 +90,23 @@ a {
 } */
 
 article h1 {
-  font-size: clamp(1.875rem, 4vw, 2.25rem);
-  @apply my-4 leading-snug;
+  @apply text-4xl my-4 leading-snug;
 }
 
 article h2 {
-  font-size: clamp(1.5rem, 3.5vw, 1.875rem);
-  @apply my-4 leading-snug;
+  @apply text-3xl my-4 leading-snug;
 }
 
 article h3 {
-  font-size: clamp(1.25rem, 3vw, 1.5rem);
-  @apply my-4 leading-snug;
+  @apply text-2xl my-4 leading-snug;
 }
 
 article h4 {
-  font-size: clamp(1.125rem, 2.5vw, 1.25rem);
-  @apply my-4 leading-snug;
+  @apply text-xl my-4 leading-snug;
 }
 
 article h5 {
-  font-size: clamp(1rem, 2vw, 1.125rem);
-  @apply my-4 leading-tight;
+  @apply text-lg my-4 leading-tight;
 }
 
 /* article h1:before,
@@ -200,17 +180,6 @@ article ol {
 
 article table {
   @apply shadow table-auto	divide-y divide-gray-200 w-full border border-collapse border-gray-200 rounded-sm;
-  display: block;
-  overflow-x: auto;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-}
-
-@media (min-width: 768px) {
-  article table {
-    display: table;
-    white-space: normal;
-  }
 }
 
 @media print {
@@ -273,10 +242,6 @@ body {
     Arial,
     sans-serif;
   font-feature-settings: "kern", "liga";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* Improve touch scrolling on iOS */
-  -webkit-overflow-scrolling: touch;
 }
 
 img {
@@ -579,21 +544,15 @@ description {
   border: 1px solid #333;
   cursor: pointer;
   color: #000;
-  padding: 4px 8px;
+  padding: 1px 6px;
   margin: 0 4px 0 4px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #666;
-  min-height: 44px;
-  min-width: 44px;
+  max-height: 24px;
   font-size: 50%;
   top: -4px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   position: relative;
-  /* Improve touch feedback */
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
-  touch-action: manipulation;
 }
 
 #velsku {

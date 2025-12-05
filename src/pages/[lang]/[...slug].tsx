@@ -1,4 +1,4 @@
-import { useState, lazy, Suspense } from "react";
+import { useState } from "react";
 import Link from "next/link";
 
 import { useRouter } from "next/router";
@@ -18,11 +18,8 @@ import Head from "next/head";
 import markdownToHtml from "../../lib/markdownToHtml";
 import { TPost } from "../../types/post";
 import { site_title } from "../../config/config";
+import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import { retainStringValues } from "../../lib/utils";
-
-// Lazy load ImageGallery - it's heavy and only used conditionally
-const ImageGallery = lazy(() => import("react-image-gallery"));
-type ReactImageGalleryItem = import("react-image-gallery").ReactImageGalleryItem;
 
 type Props = {
   post: TPost;
@@ -149,22 +146,20 @@ const Post = ({
         )}
         
         {state.galleryShown && post.slug[1] === siteSection && (
-          <Suspense fallback={<div className="fullpage flex items-center justify-center bg-black text-white">Loading gallery...</div>}>
-            <ImageGallery
-              additionalClass="fullpage"
-              items={images}
-              lazyLoad={true}
-              useTranslate3D={false}
-              showBullets={false}
-              startIndex={currentImgIndex}
-              onSlide={(currentIndex) => {
-                document
-                  ?.querySelector(`[data-url="${images[currentIndex].original}"]`)
-                  ?.scrollIntoView({ behavior: "smooth" });
-              }}
-              onClick={() => setState((p) => ({ ...p, galleryShown: false }))}
-            />
-          </Suspense>
+          <ImageGallery
+            additionalClass="fullpage"
+            items={images}
+            lazyLoad={true}
+            useTranslate3D={false}
+            showBullets={false}
+            startIndex={currentImgIndex}
+            onSlide={(currentIndex) => {
+              document
+                ?.querySelector(`[data-url="${images[currentIndex].original}"]`)
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+            onClick={() => setState((p) => ({ ...p, galleryShown: false }))}
+          />
         )}
 
         <PostBody

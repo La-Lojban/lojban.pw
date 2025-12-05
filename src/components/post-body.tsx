@@ -19,8 +19,8 @@ const PostBody = ({
     <>
       <div
         className={`mb-8 mt-3 mx-auto w-full print:bg-white ${
-          hasToc ? "md:w-3/5 lg:max-w-4xl " : "max-w-4xl"
-        } bg-gray-100`}
+          hasToc ? "md:w-3/5 " : ""
+        }bg-gray-100`}
       >
         <PostHeader post={post} siteSection={siteSection} />
         <div
