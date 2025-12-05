@@ -59,12 +59,17 @@ const { getPublicAssetsPath, getTmpPath } = require("../paths");
           path.join(directoryPath, `${filenameWithoutExtension}.${ext}`)
         );
 
-        await page.waitForSelector("#App-ImageView-RightCanvas", {timeout:60000});
+        // Wait for the canvas container and toolbar to be ready
+        await page.waitForSelector("#App-ImageView-CanvasContainer canvas", {timeout:60000});
 
         await page.waitForSelector("#App-Toolbar-Zoom1To1", {timeout:60000});
+        
+        // Give it a moment for the vectorization to complete
+        await page.waitForTimeout(2000);
 
         const dataURL = await page.evaluate(() => {
-          const canvas = document.querySelector("#App-ImageView-RightCanvas");
+          // Find the canvas inside the canvas container
+          const canvas = document.querySelector("#App-ImageView-CanvasContainer canvas");
           if (canvas) return canvas.toDataURL();
 
           return null;
