@@ -4,10 +4,9 @@ import "../styles/style.css";
 import NProgress from "nprogress";
 import Router from "next/router";
 import "../styles/nprogress.css";
-import { io } from "socket.io-client";
 
 import { closeXicon } from "../lib/buttons";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { debouncedGetClosestHeaderId } from "../lib/toc";
 NProgress.configure({
   minimum: 0.3,
@@ -53,51 +52,102 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     }
   }, []);
 
+  // Lazy load Socket.io connection only when footer is visible or after page load
   useEffect(() => {
-    let socket1Chat_connected: boolean;
-    const socket1Chat = io("wss://jbotcan.org:9091", {
-      transports: ["polling", "websocket"],
-    });
+    let socket1Chat: any = null;
+    let socket1Chat_connected: boolean = false;
+    let isInitialized = false;
 
-    socket1Chat.on("connect", () => {
-      console.log(socket1Chat);
-      socket1Chat_connected = true;
-    });
+    const initSocket = async () => {
+      if (isInitialized) return;
+      isInitialized = true;
 
-    socket1Chat.on("connect_error", () => {
-      console.log("1chat connection error");
-    });
+      try {
+        // Dynamically import socket.io-client only when needed
+        const { io } = await import("socket.io-client");
+        socket1Chat = io("wss://jbotcan.org:9091", {
+          transports: ["polling", "websocket"],
+        });
 
-    socket1Chat.on("sentFrom", (data: any) => {
-      if (!socket1Chat_connected) return;
-      const i = data.data;
+        socket1Chat.on("connect", () => {
+          console.log(socket1Chat);
+          socket1Chat_connected = true;
+        });
 
-      const msg = {
-        d: trimSocketChunk(i.chunk),
-        s: i.channelId,
-        w: i.author,
-      };
+        socket1Chat.on("connect_error", () => {
+          console.log("1chat connection error");
+        });
 
-      const velsku = document.getElementById("velsku_sebenji");
-      if (velsku)
-        velsku.innerHTML =
-          '<span class="velsku_pamei">' + msg.w + ": " + msg.d + "</span>";
-    });
+        socket1Chat.on("sentFrom", (data: any) => {
+          if (!socket1Chat_connected) return;
+          const i = data.data;
 
-    socket1Chat.on("history", (data: any) => {
-      if (!socket1Chat_connected) return;
-      const i = data.slice(-1)[0];
-      if (!i) return;
-      const msg = {
-        d: trimSocketChunk(i.chunk),
-        s: i.channelId,
-        w: i.author,
-      };
-      const velsku = document.getElementById("velsku_sebenji");
-      if (velsku)
-        velsku.innerHTML =
-          '<span class="velsku_pamei">' + msg.w + ": " + msg.d + "</span>";
-    });
+          const msg = {
+            d: trimSocketChunk(i.chunk),
+            s: i.channelId,
+            w: i.author,
+          };
+
+          const velsku = document.getElementById("velsku_sebenji");
+          if (velsku)
+            velsku.innerHTML =
+              '<span class="velsku_pamei">' + msg.w + ": " + msg.d + "</span>";
+        });
+
+        socket1Chat.on("history", (data: any) => {
+          if (!socket1Chat_connected) return;
+          const i = data.slice(-1)[0];
+          if (!i) return;
+          const msg = {
+            d: trimSocketChunk(i.chunk),
+            s: i.channelId,
+            w: i.author,
+          };
+          const velsku = document.getElementById("velsku_sebenji");
+          if (velsku)
+            velsku.innerHTML =
+              '<span class="velsku_pamei">' + msg.w + ": " + msg.d + "</span>";
+        });
+      } catch (error) {
+        console.error("Failed to load socket.io-client:", error);
+      }
+    };
+
+    // Initialize after a delay or when footer comes into view
+    const timeoutId = setTimeout(() => {
+      initSocket();
+    }, 2000); // Delay initial connection by 2 seconds
+
+    // Also initialize when footer is visible
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          initSocket();
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    // Wait for DOM to be ready
+    const checkFooter = () => {
+      const footer = document.getElementById("velsku");
+      if (footer) {
+        observer.observe(footer);
+      } else {
+        // Retry after a short delay if footer not found
+        setTimeout(checkFooter, 100);
+      }
+    };
+    checkFooter();
+
+    return () => {
+      clearTimeout(timeoutId);
+      observer.disconnect();
+      if (socket1Chat) {
+        socket1Chat.disconnect();
+      }
+    };
   }, []);
   return <Component {...pageProps} />;
 }
