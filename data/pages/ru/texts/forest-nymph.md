@@ -5,7 +5,7 @@ description: Елин Пелин | перевод с болгарского от
 meta.description: Елин Пелин | перевод с болгарского от la gleki
 meta.keywords: Самодива, ni'o ni'o le ricfoi crida, Forest nymph, Лесная нимфа
 meta.author: Елин Пелин
-og:image: /assets/pixra/texts/forest-nymph/2.png
+og:image: /assets/pixra/texts/forest-nymph/2.webp
 meta.priority: 7164
 ---
 
@@ -84,7 +84,7 @@ meta.priority: 7164
         >
           <td colspan="4">
             <div class="h-full w-full flex justify-center items-center">
-              <img class="h-56" src="/assets/pixra/texts/forest-nymph/2.png" />
+              <img class="h-56" src="/assets/pixra/texts/forest-nymph/2.webp" />
             </div>
           </td>
         </tr>
