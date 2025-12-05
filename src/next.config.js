@@ -23,10 +23,11 @@ module.exports = {
     } : false,
   },
   output: 'export',
-  // Disable image optimization for static export (Image Optimization API requires a server)
-  // The Next.js Image component will still provide lazy loading and responsive images
+  // Optimize images
   images: {
-    unoptimized: true,
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
   // Optimize bundle splitting
   webpack: (config, { isServer }) => {
