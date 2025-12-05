@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Popover } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { useRouter } from "next/router";
@@ -158,16 +157,11 @@ export default function Header({
               <div className="flex items-center">
                 <div className="flex-shrink-0">
                   <Link href={`/${currentLanguage}/welcome`}>
-                    <div className="relative w-12 h-12 mt-2">
-                      <Image
-                        src="/assets/pixra/ralju/ralju_lanci.svg"
-                        alt="Lojban logo"
-                        fill
-                        className="logo active:transform active:translate-y-px transition-all duration-150 hover:scale-110 hover:brightness-110"
-                        priority
-                        sizes="48px"
-                      />
-                    </div>
+                    <img
+                      className="logo active:transform active:translate-y-px transition-all duration-150 hover:scale-110 hover:brightness-110"
+                      src="/assets/pixra/ralju/ralju_lanci.svg"
+                      alt="Lojban logo"
+                    />
                   </Link>
                 </div>
 
@@ -206,9 +200,9 @@ export default function Header({
                       key={item.url}
                       className="mt-auto"
                     >
-                    <button
-                      className={`h-8 min-h-[44px] flex-shrink-0 ${getColor("bg-deep-orange-300")} ${getColor("hover:bg-deep-orange-200")} text-gray-100 text-base leading-none px-4 rounded shadow-md focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-deep-orange-300 flex items-center relative overflow-hidden active:transform active:translate-y-px transition-all duration-150 hover:shadow-lg hover:scale-105 hover:-translate-y-0.5`}
-                    >
+                      <button
+                        className={`h-8 flex-shrink-0 ${getColor("bg-deep-orange-300")} ${getColor("hover:bg-deep-orange-200")} text-gray-100 text-base leading-none px-4 rounded shadow-md focus:outline-none flex items-center relative overflow-hidden active:transform active:translate-y-px transition-all duration-150 hover:shadow-lg hover:scale-105 hover:-translate-y-0.5`}
+                      >
                         {!!item.foundTitle?.icon && (
                           <div className="absolute flex items-center justify-center text-xl opacity-80 left-1 top-1 bottom-1">
                             {item.foundTitle.icon as string}
@@ -253,8 +247,7 @@ export default function Header({
                     onClick={() => {
                       getClosestHeaderId();
                     }}
-                    className={`select-none ${getColor("bg-deep-orange-400")} ${getColor("hover:bg-deep-orange-300")} inline-flex items-center justify-center p-2.5 min-w-[44px] min-h-[44px] rounded-md text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-deep-orange-400 transition-all duration-150 hover:shadow-lg hover:scale-110 active:scale-95`}
-                    aria-label="Toggle navigation menu"
+                    className={`select-none ${getColor("bg-deep-orange-400")} ${getColor("hover:bg-deep-orange-300")} inline-flex items-center justify-center p-2 rounded-md text-white focus:outline-none transition-all duration-150 hover:shadow-lg hover:scale-110`}
                   >
                     <span className="sr-only">Open main menu</span>
                     {open ? (
@@ -288,7 +281,7 @@ export default function Header({
                         closeXicon();
                         close();
                       }}
-                      className={`block border-b last:border-b-0 ${getColor("hover:text-deep-orange-600")} ${buttonClass} min-h-[44px] flex items-center active:bg-gray-200`}
+                      className={`block border-b last:border-b-0 ${getColor("hover:text-deep-orange-600")} ${buttonClass}`}
                     >
                       {!!item.foundTitle
                         ? (item.foundTitle.name as string)
@@ -298,12 +291,12 @@ export default function Header({
 
                   {hasToC && (
                     <>
-                      <h1 className={`flex bg-gray-200 ${buttonClass} min-h-[44px] items-center`}>
+                      <h1 className={`flex bg-gray-200 ${buttonClass}`}>
                         <FontAwesomeIcon icon={faScroll} className="h-6" />
                         <FontAwesomeIcon icon={faList} className="ml-2 h-6" />
                       </h1>
 
-                      <nav className="toc w-full p-2 bottom-0 md:top-20 h-48 md:h-screen font-medium text-sm overflow-ellipsis" aria-label="Table of contents">
+                      <nav className="toc w-full p-2 bottom-0 md:top-20 h-48 md:h-screen font-medium text-sm overflow-ellipsis">
                         <div
                           id="toc-topbar"
                           className="h-full px-2 pb-3 space-y-1 sm:px-3 overflow-y-auto"
@@ -316,7 +309,7 @@ export default function Header({
                                 closeXicon();
                                 close();
                               }}
-                              className={`block border-b ${getColor("hover:text-deep-orange-600")} ${buttonClass} lme-ml-${(item.depth - 2) * 2} min-h-[44px] flex items-center active:bg-gray-200`}
+                              className={`block border-b ${getColor("hover:text-deep-orange-600")} ${buttonClass} lme-ml-${(item.depth - 2) * 2}`}
                             >
                               {item.name}
                             </Link>

@@ -179,7 +179,7 @@ async function processSheet(sheet, title) {
         `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100">
           <td colspan="${langs.length}">
           <div class="h-full w-full flex justify-center items-center">
-          <img class="h-56" src="${candidatePath}" loading="lazy" decoding="async" alt="Line ${lineNo} illustration"/>
+          <img class="h-56" src="${candidatePath}"/>
           </div>
           </td>
         </tr>
