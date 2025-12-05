@@ -46,7 +46,8 @@ const NavigationWidget: React.FC<NavigationWidgetProps> = ({
               firstSiblingSlug !== currentSlug?.join("/") && (
                 <Link
                   href={"/" + firstSiblingSlug}
-                  className="text-brown-400 hover:text-brown-600 transition-colors mr-4"
+                  className="text-brown-400 hover:text-brown-600 transition-colors mr-4 focus:outline-none focus:ring-2 focus:ring-deep-orange-400 focus:ring-offset-2 rounded"
+                  aria-label="Go to first page"
                 >
                   <FontAwesomeIcon className="w-6" icon={faBackwardFast} />
                 </Link>
@@ -54,18 +55,22 @@ const NavigationWidget: React.FC<NavigationWidgetProps> = ({
             {prevPage && (
               <Link
                 href={prevPage}
-                className="text-deep-orange-400 hover:text-brown-600 transition-colors"
+                className="text-deep-orange-400 hover:text-brown-600 transition-colors focus:outline-none focus:ring-2 focus:ring-deep-orange-400 focus:ring-offset-2 rounded"
+                aria-label="Go to previous page"
               >
                 <FontAwesomeIcon className="w-6" icon={faArrowLeft} />
               </Link>
             )}
             {currentPageNumber !== null && (
-              <span className="text-gray-600">{currentPageNumber}</span>
+              <span className="text-gray-600" aria-label={`Current page ${currentPageNumber}`}>
+                {currentPageNumber}
+              </span>
             )}
             {nextPage && (
               <Link
                 href={nextPage}
-                className="text-deep-orange-400 hover:text-brown-600"
+                className="text-deep-orange-400 hover:text-brown-600 focus:outline-none focus:ring-2 focus:ring-deep-orange-400 focus:ring-offset-2 rounded"
+                aria-label="Go to next page"
               >
                 <FontAwesomeIcon className="w-6" icon={faArrowRight} />
               </Link>
@@ -74,7 +79,8 @@ const NavigationWidget: React.FC<NavigationWidgetProps> = ({
         )}
         <button
           onClick={scrollToTop}
-          className="bg-white rounded-lg shadow-md py-2 px-3 transition duration-150 ease-in-out hover:bg-deep-orange-600 group"
+          className="bg-white rounded-lg shadow-md py-2 px-3 min-w-[44px] min-h-[44px] transition duration-150 ease-in-out hover:bg-deep-orange-600 focus:outline-none focus:ring-2 focus:ring-deep-orange-400 focus:ring-offset-2 group"
+          aria-label="Scroll to top"
         >
           <span className="[&>svg]:w-4">
             <FontAwesomeIcon

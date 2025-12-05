@@ -1,7 +1,9 @@
-// Simple service worker for static export
-const CACHE_NAME = 'lojban-pwa-v1';
+// Enhanced service worker for static export with stale-while-revalidate strategy
+const CACHE_NAME = 'lojban-pwa-v2';
+const RUNTIME_CACHE = 'lojban-runtime-v2';
 const urlsToCache = [
-  '/'
+  '/',
+  '/manifest.json'
   // Note: CSS files are bundled by Next.js into /_next/static/css/ with hashed filenames
   // They are automatically included in the HTML, so no need to cache them separately
 ];
@@ -28,6 +30,54 @@ self.addEventListener('install', (event) => {
 
 // Activate event - clean up old caches
 self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cacheName) => {
+          if (cacheName !== CACHE_NAME && cacheName !== RUNTIME_CACHE) {
+            console.log('Deleting old cache:', cacheName);
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
+  return self.clients.claim();
+});
+
+// Fetch event - implement stale-while-revalidate strategy
+self.addEventListener('fetch', (event) => {
+  // Skip non-GET requests
+  if (event.request.method !== 'GET') {
+    return;
+  }
+
+  // Skip cross-origin requests
+  if (!event.request.url.startsWith(self.location.origin)) {
+    return;
+  }
+
+  event.respondWith(
+    caches.open(RUNTIME_CACHE).then((cache) => {
+      return cache.match(event.request).then((cachedResponse) => {
+        // Stale-while-revalidate: return cached version immediately, then update
+        const fetchPromise = fetch(event.request).then((networkResponse) => {
+          // Update cache with fresh response
+          if (networkResponse.ok) {
+            cache.put(event.request, networkResponse.clone());
+          }
+          return networkResponse;
+        }).catch(() => {
+          // If network fails and we have a cached version, return it
+          return cachedResponse;
+        });
+
+        // Return cached version immediately if available, otherwise wait for network
+        return cachedResponse || fetchPromise;
+      });
+    })
+  );
+});('activate', (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(

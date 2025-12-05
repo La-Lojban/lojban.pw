@@ -17,7 +17,10 @@
     "clearup-serve": "lsof -t -i:3000 | xargs --no-run-if-empty kill -9 && next telemetry disable",
     "cleanup": "node scripts/run-with-paths.js sh -c 'rm -rf ${MD_PAGES_PATH}/text'",
     "clean": "rm -rf .next",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "analyze": "ANALYZE=true next build",
+    "lint:css": "stylelint '**/*.css'",
+    "optimize:images": "echo 'Image optimization should be handled by Next.js Image component during build'"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",

@@ -96,9 +96,13 @@ const Layout = ({
           posts={posts}
           post={post}
         />
-        <article ref={articleRef} className="flex-grow overflow-y-auto">
-          {children}
-        </article>
+        <main>
+          <article ref={articleRef} className="flex-grow overflow-y-auto overflow-x-hidden" role="main" aria-label="Main content">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              {children}
+            </div>
+          </article>
+        </main>
         <Footer />
 
         <NavigationWidget

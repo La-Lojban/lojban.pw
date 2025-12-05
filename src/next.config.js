@@ -12,8 +12,7 @@ module.exports = {
   },
   // Configure Turbopack for better performance
   turbopack: {
-    // Increase memory limit for better performance
-    memoryLimit: 8192,
+    memoryLimit: 4096,
   },
   // Enable SWC minification for faster builds
   swcMinify: true,
@@ -24,6 +23,50 @@ module.exports = {
     } : false,
   },
   output: 'export',
+  // Optimize images
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+  },
+  // Optimize bundle splitting
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.optimization = {
+        ...config.optimization,
+        splitChunks: {
+          chunks: 'all',
+          cacheGroups: {
+            default: false,
+            vendors: false,
+            // Vendor chunk for large libraries
+            vendor: {
+              name: 'vendor',
+              chunks: 'all',
+              test: /node_modules/,
+              priority: 20,
+            },
+            // Separate chunk for react-image-gallery
+            imageGallery: {
+              name: 'image-gallery',
+              test: /[\\/]node_modules[\\/]react-image-gallery[\\/]/,
+              chunks: 'all',
+              priority: 30,
+            },
+            // Common chunk
+            common: {
+              name: 'common',
+              minChunks: 2,
+              chunks: 'all',
+              priority: 10,
+              reuseExistingChunk: true,
+            },
+          },
+        },
+      };
+    }
+    return config;
+  },
   // async redirects() {
   //   return redirect;
   // },
