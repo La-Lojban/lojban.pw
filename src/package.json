@@ -43,6 +43,7 @@
     "vfile": "5"
   },
   "devDependencies": {
+    "@gradio/client": "^2.0.0",
     "@next/env": "^16.0.0",
     "@playwright/test": "^1.51.1",
     "@tailwindcss/postcss": "^0.0.0-development.1",

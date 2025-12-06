@@ -60,16 +60,30 @@ const { getPublicAssetsPath, getTmpPath } = require("../paths");
         );
 
         // Wait for the canvas container and toolbar to be ready
-        await page.waitForSelector("#App-ImageView-CanvasContainer canvas", {timeout:60000});
+        await page.waitForSelector("#App-ImageView-RightCanvas", {timeout:60000});
 
         await page.waitForSelector("#App-Toolbar-Zoom1To1", {timeout:60000});
         
-        // Give it a moment for the vectorization to complete
+        // Wait for the progress dialog to disappear before clicking
+        try {
+          await page.waitForSelector("#App-Progress-Dialog", { state: "hidden", timeout: 60000 });
+        } catch (err) {
+          // If the dialog doesn't exist or is already hidden, continue
+          console.log("Progress dialog not found or already hidden, continuing...");
+        }
+        
+        // Click the zoom 1:1 button before taking screenshot
+        // Use JavaScript click to bypass any pointer event interception
+        await page.evaluate(() => {
+          const button = document.querySelector("#App-Toolbar-Zoom1To1");
+          if (button) button.click();
+        });
+        
+        // Give it a moment for the vectorization and zoom to complete
         await page.waitForTimeout(2000);
 
         const dataURL = await page.evaluate(() => {
-          // Find the canvas inside the canvas container
-          const canvas = document.querySelector("#App-ImageView-CanvasContainer canvas");
+          const canvas = document.querySelector("#App-ImageView-RightCanvas");
           if (canvas) return canvas.toDataURL();
 
           return null;

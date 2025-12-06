@@ -72,6 +72,9 @@ importers:
         specifier: '5'
         version: 5.3.7
     devDependencies:
+      '@gradio/client':
+        specifier: ^2.0.0
+        version: 2.0.0
       '@next/env':
         specifier: ^16.0.0
         version: 16.0.7
@@ -291,6 +294,10 @@ packages:
     peerDependencies:
       '@fortawesome/fontawesome-svg-core': ~6 || ~7
       react: ^18.0.0 || ^19.0.0
+
+  '@gradio/client@2.0.0':
+    resolution: {integrity: sha512-AYy0/0nbN3xrjquQ1ScqZp9RHkw2mlg9+zsimYC1yxOW+TpKVpweUvKcuL0QLsf/Dq7zsYJfFxM8CRf9qaKC0w==}
+    engines: {node: '>=18.0.0'}
 
   '@headlessui/react@2.2.9':
     resolution: {integrity: sha512-Mb+Un58gwBn0/yWZfyrCh0TJyurtT+dETj7YHleylHk5od3dv2XqETPGWMyQ5/7sYN7oWdyM1u9MvC0OC8UmzQ==}
@@ -1498,6 +1505,9 @@ packages:
     peerDependenciesMeta:
       picomatch:
         optional: true
+
+  fetch-event-stream@0.1.6:
+    resolution: {integrity: sha512-GREtJ5HNikdU2AXtZ6E/5bk+aslMU6ie5mPG6H9nvsdDkkHQ6m5lHwmmmDTOBexok9hApQ7EprsXCdmz9ZC68w==}
 
   filename-reserved-regex@2.0.0:
     resolution: {integrity: sha512-lc1bnsSr4L4Bdif8Xb/qrtokGbq5zlsms/CYH8PP+WtCkGNF65DPiQY8vG3SakEdRn8Dlnm+gW/qWKKjS5sZzQ==}
@@ -3089,6 +3099,10 @@ snapshots:
       '@fortawesome/fontawesome-svg-core': 6.7.2
       react: 19.2.1
 
+  '@gradio/client@2.0.0':
+    dependencies:
+      fetch-event-stream: 0.1.6
+
   '@headlessui/react@2.2.9(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
     dependencies:
       '@floating-ui/react': 0.26.28(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
@@ -4236,6 +4250,8 @@ snapshots:
   fdir@6.5.0(picomatch@4.0.3):
     optionalDependencies:
       picomatch: 4.0.3
+
+  fetch-event-stream@0.1.6: {}
 
   filename-reserved-regex@2.0.0: {}
 
