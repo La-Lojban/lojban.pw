@@ -164,16 +164,17 @@ async function processSheet(sheet, title) {
   for (const index in columns[langs[0]]) {
     const lineNo = parseInt(index) + 1;
     const publicAssetsPath = getPublicAssetsPath();
-    const candidate1 = path.join(publicAssetsPath, "pixra", "texts", slug, `${lineNo}.svg`);
-    const candidate2 = path.join(publicAssetsPath, "pixra", "texts", slug, `${lineNo}.png`);
-    const candidate1Exists = fs.existsSync(candidate1);
-    const candidate2Exists = fs.existsSync(candidate2);
-    const candidateExists = candidate1Exists || candidate2Exists;
-    // For web paths, we need relative path from public directory
-    const candidatePath = candidateExists
-      ? path.join("/assets", "pixra", "texts", slug, candidate1Exists ? `${lineNo}.svg` : `${lineNo}.png`)
-      : "";
-    if (candidateExists) {
+    // Priority: svg > png > webp
+    const imageExtensions = ["svg", "png", "webp"];
+    let candidatePath = "";
+    for (const ext of imageExtensions) {
+      const candidate = path.join(publicAssetsPath, "pixra", "texts", slug, `${lineNo}.${ext}`);
+      if (fs.existsSync(candidate)) {
+        candidatePath = path.join("/assets", "pixra", "texts", slug, `${lineNo}.${ext}`);
+        break;
+      }
+    }
+    if (candidatePath) {
       ogImage = ogImage ?? candidatePath;
       table.push(
         `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100">
