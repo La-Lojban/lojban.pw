@@ -8,7 +8,7 @@
     "start": "pnpm clearup-serve && python3 -m http.server 3000 --directory out",
     "compile": "pnpm build && pkill node",
     "cicd": "pnpm build  && mkdir -p out1 && cp -rT out out1 && pnpm clean",
-    "build-core": "NODE_OPTIONS='--max-old-space-size=4096' next build",
+    "build-core": "next build",
     "build": "pnpm clearup-serve && pnpm korpora && pnpm build-core && pnpm print && touch out/.nojekyll && node scripts/run-with-paths.js sh -c 'cp -avr ${SERVICE_PATH}/* out/ && cp -avr ${VREJI_PATH} out/' && pnpm cleanup",
     "build:test": "NODE_OPTIONS='--max-old-space-size=4096' pnpm clearup-serve && next build && touch out/.nojekyll && node scripts/run-with-paths.js sh -c 'cp -avr ${SERVICE_PATH}/* out/ && cp -avr ${VREJI_PATH} out/' && pnpm cleanup",
     "korpora": "node scripts/run-with-paths.js sh -c 'rm -rf ${TMP_PATH}/korpora && mkdir -p ${TMP_PATH}/korpora && rm -rf ${MD_PAGES_PATH}/texts && mkdir -p ${MD_PAGES_PATH}/texts' && node lib/korpora/index.js",

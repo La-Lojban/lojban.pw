@@ -10,20 +10,17 @@ module.exports = {
     // Use available CPUs for parallel builds (leave 1 for system)
     cpus: availableCPUs,
   },
-  // Configure Turbopack for better performance
-  turbopack: {
-    // Increase memory limit for better performance
-    memoryLimit: 8192,
-  },
-  // Enable SWC minification for faster builds
-  swcMinify: true,
+
   // Optimize compiler settings
   compiler: {
-    removeConsole: process.env.NODE_ENV === 'production' ? {
-      exclude: ['error', 'warn'],
-    } : false,
+    removeConsole:
+      process.env.NODE_ENV === "production"
+        ? {
+            exclude: ["error", "warn"],
+          }
+        : false,
   },
-  output: 'export',
+  output: "export",
   // async redirects() {
   //   return redirect;
   // },
