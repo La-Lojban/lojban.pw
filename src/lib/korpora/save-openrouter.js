@@ -3,7 +3,7 @@ const path = require("path");
 require("dotenv").config({});
 const { getPublicAssetsPath } = require("../paths");
 
-const INPUT_DIR = path.join(getPublicAssetsPath(), "pixra", "cilre");
+const INPUT_DIR = path.join(getPublicAssetsPath(), "pixra", "cilre-2");
 const OUTPUT_DIR = path.join(getPublicAssetsPath(), "pixra", "cilre-xekri-g");
 const SUPPORTED_EXT = new Set([".png", ".webp", ".jpg", ".jpeg"]);
 const PROMPT = "turn this image into a black and white hand drawn sketch, 1024x1024";
