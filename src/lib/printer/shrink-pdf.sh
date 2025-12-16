@@ -123,7 +123,7 @@ find ${VREJI_PATH}/uencu -type f -name '*-pre.pdf' | while read -r file; do
 
 	# Add timeout to prevent hanging (5 minutes per file should be more than enough)
 	if timeout 300 shrink "$file" "$output" "$res"; then
-		check_smaller "$file" "$output"
+	check_smaller "$file" "$output"
 		rm "$file"
 		echo "successfully shrunk $file"
 	else
@@ -132,7 +132,7 @@ find ${VREJI_PATH}/uencu -type f -name '*-pre.pdf' | while read -r file; do
 			echo "ERROR: Timeout shrinking $file - took more than 5 minutes" >&2
 			# Copy original file as fallback
 			cp "$file" "$output"
-			rm "$file"
+	rm "$file"
 		else
 			echo "ERROR: Failed to shrink $file with exit code $exit_code" >&2
 			exit $exit_code
