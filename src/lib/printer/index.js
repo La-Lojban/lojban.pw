@@ -7,8 +7,8 @@ const { getMdPagesPath, getVrejiPath } = require("../paths");
 
 const allLanguages = Object.keys(languages);
 const CONCURRENCY_LIMIT = 20; // Increased from 10 for faster PDF generation
-const PAGE_TIMEOUT = 120000; // 2 minutes timeout for page operations
-const PDF_GENERATION_TIMEOUT = 180000; // 3 minutes timeout for PDF generation
+const PAGE_TIMEOUT = 300000; // 5 minutes timeout for page operations (large books need time)
+const PDF_GENERATION_TIMEOUT = 600000; // 10 minutes timeout for PDF generation
 
 async function generatePDF(browser, url, shortLang) {
   const page = await browser.newPage();
@@ -19,9 +19,12 @@ async function generatePDF(browser, url, shortLang) {
     page.setDefaultTimeout(PAGE_TIMEOUT);
     
     await page.goto(url, {
-      waitUntil: "networkidle",
+      waitUntil: "load", // Changed from "networkidle" - just wait for page load, not all network activity
       timeout: PAGE_TIMEOUT,
     });
+    
+    // Give the page a bit more time to settle after load
+    await page.waitForTimeout(2000);
 
     const pdf = await page.pdf({
       printBackground: true,
@@ -47,7 +50,7 @@ async function generatePDF(browser, url, shortLang) {
   } finally {
     // Ensure page is closed even if there's an error
     try {
-      await page.close();
+    await page.close();
     } catch (closeError) {
       console.error(`Error closing page for ${url}:`, closeError);
     }
