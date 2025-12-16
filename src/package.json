@@ -13,7 +13,7 @@
     "build:test": "NODE_OPTIONS='--max-old-space-size=4096' pnpm clearup-serve && next build && touch out/.nojekyll && node scripts/run-with-paths.js sh -c 'cp -avr ${SERVICE_PATH}/* out/ && cp -avr ${VREJI_PATH} out/' && pnpm cleanup",
     "korpora": "node scripts/run-with-paths.js sh -c 'rm -rf ${TMP_PATH}/korpora && mkdir -p ${TMP_PATH}/korpora && rm -rf ${MD_PAGES_PATH}/texts && mkdir -p ${MD_PAGES_PATH}/texts' && node lib/korpora/index.js",
     "fanva": "pnpm korpora fanva",
-    "print": "node scripts/run-with-paths.js sh -c 'mkdir -p ${VREJI_PATH}/uencu' && pnpm start & node lib/printer/wait-for-server.js && node lib/printer && node scripts/run-with-paths.js sh ./lib/printer/shrink-pdf.sh && pnpm clearup-serve",
+    "print": "node scripts/run-with-paths.js sh ./lib/printer/run-print.sh",
     "clearup-serve": "lsof -t -i:3000 | xargs --no-run-if-empty kill -9 && next telemetry disable",
     "cleanup": "node scripts/run-with-paths.js sh -c 'rm -rf ${MD_PAGES_PATH}/text'",
     "clean": "rm -rf .next",

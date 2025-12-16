@@ -7,14 +7,20 @@ const { getMdPagesPath, getVrejiPath } = require("../paths");
 
 const allLanguages = Object.keys(languages);
 const CONCURRENCY_LIMIT = 20; // Increased from 10 for faster PDF generation
+const PAGE_TIMEOUT = 120000; // 2 minutes timeout for page operations
+const PDF_GENERATION_TIMEOUT = 180000; // 3 minutes timeout for PDF generation
 
 async function generatePDF(browser, url, shortLang) {
   const page = await browser.newPage();
   try {
     console.log(`opening page: ${url}`);
+    
+    // Set page timeout
+    page.setDefaultTimeout(PAGE_TIMEOUT);
+    
     await page.goto(url, {
-      waitUntil: "networkidle0",
-      timeout: 0,
+      waitUntil: "networkidle",
+      timeout: PAGE_TIMEOUT,
     });
 
     const pdf = await page.pdf({
@@ -23,26 +29,49 @@ async function generatePDF(browser, url, shortLang) {
       quality: 100,
       format: "A4",
       margin: { top: "20px", right: "20px", bottom: "20px", left: "20px" },
-      timeout: 0,
+      timeout: PDF_GENERATION_TIMEOUT,
     });
 
     const vrejiPath = getVrejiPath();
     const pdfFile = path.join(vrejiPath, "uencu", shortLang, `${url.split("/").slice("-1")[0]}.pdf`);
     fs.mkdirSync(path.join(vrejiPath, "uencu", shortLang), { recursive: true });
+    
+    // Use synchronous write with explicit error handling
     fs.writeFileSync(pdfFile, pdf);
     console.log(`pdf file saved: ${pdfFile}`);
+    
+    return { success: true, url, pdfFile };
   } catch (error) {
     console.error(`Error generating PDF for ${url}:`, error);
+    return { success: false, url, error: error.message };
   } finally {
-    await page.close();
+    // Ensure page is closed even if there's an error
+    try {
+      await page.close();
+    } catch (closeError) {
+      console.error(`Error closing page for ${url}:`, closeError);
+    }
   }
+}
+
+async function generatePDFWithTimeout(browser, url, shortLang) {
+  return Promise.race([
+    generatePDF(browser, url, shortLang),
+    new Promise((_, reject) => 
+      setTimeout(() => reject(new Error(`Timeout after ${PDF_GENERATION_TIMEOUT}ms`)), PDF_GENERATION_TIMEOUT + 10000)
+    )
+  ]).catch(error => {
+    console.error(`Failed to generate PDF for ${url}:`, error);
+    return { success: false, url, error: error.message };
+  });
 }
 
 async function processBatch(browser, urls, shortLang) {
   const results = [];
   for (let i = 0; i < urls.length; i += CONCURRENCY_LIMIT) {
     const batch = urls.slice(i, i + CONCURRENCY_LIMIT);
-    const batchPromises = batch.map(url => generatePDF(browser, url, shortLang));
+    console.log(`Processing batch ${Math.floor(i / CONCURRENCY_LIMIT) + 1} of ${Math.ceil(urls.length / CONCURRENCY_LIMIT)} (${batch.length} PDFs)`);
+    const batchPromises = batch.map(url => generatePDFWithTimeout(browser, url, shortLang));
     results.push(...await Promise.all(batchPromises));
   }
   return results;
@@ -63,14 +92,14 @@ async function printPDF() {
 
   try {
     // Process all languages in parallel for faster builds
-    await Promise.all(
+    const results = await Promise.all(
       allLanguages.map(async (lang) => {
         const shortLang = languages[lang].short;
         const mdPagesPath = getMdPagesPath();
         const dirPath = path.join(mdPagesPath, shortLang, "books");
 
         if (!fs.existsSync(dirPath)) {
-          return;
+          return [];
         }
 
         try {
@@ -82,15 +111,41 @@ async function printPDF() {
 
           console.log("generating PDF files for", urls);
           // Process URLs in batches with concurrency limit
-          await processBatch(browser, urls, shortLang);
+          return await processBatch(browser, urls, shortLang);
         } catch (err) {
           console.error(`Error processing language ${lang}:`, err);
+          return [];
         }
       })
     );
+
+    // Log summary of results
+    const allResults = results.flat();
+    const successful = allResults.filter(r => r && r.success).length;
+    const failed = allResults.filter(r => r && !r.success).length;
+    console.log(`PDF generation complete: ${successful} successful, ${failed} failed`);
+
+    if (failed > 0) {
+      console.error("Some PDFs failed to generate. Check logs above for details.");
+      process.exitCode = 1;
+    }
   } finally {
+    // Ensure browser is properly closed
+    console.log("Closing browser...");
     await browser.close();
+    console.log("Browser closed successfully");
   }
 }
 
-printPDF().catch(console.error);
+printPDF()
+  .then(() => {
+    console.log("PDF generation script completed");
+    // Give Node.js time to flush stdout/stderr before exiting
+    setTimeout(() => {
+      process.exit(process.exitCode || 0);
+    }, 100);
+  })
+  .catch((error) => {
+    console.error("Fatal error in PDF generation:", error);
+    process.exit(1);
+  });
