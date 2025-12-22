@@ -17,7 +17,7 @@ meta.priority: 154163
   <label
     for="hide-column-lojbo"
     class="hide-column-button-lojbo float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
-    >lojbo</label
+    >la .lojban.</label
   ><input
     type="checkbox"
     id="hide-column-lojbo_gi_e_nu_o_bredi"
