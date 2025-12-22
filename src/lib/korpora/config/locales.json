@@ -1,0 +1,53 @@
+{
+    "languages": {
+        "jungo": {
+            "native": "普通话",
+            "short": "zh"
+        },
+        "spano": {
+            "native": "español",
+            "short": "es"
+        },
+        "glico": {
+            "native": "English",
+            "short": "en"
+        },
+        "xrabo": {
+            "native": "العربية",
+            "short": "ar",
+            "direction": "RTL"
+        },
+        "porto": {
+            "native": "português",
+            "short": "pt"
+        },
+        "rusko": {
+            "native": "русский",
+            "short": "ru"
+        },
+        "dotco": {
+            "native": "Deutsch",
+            "short": "de"
+        },
+        "fraso": {
+            "native": "français",
+            "short": "fr"
+        },
+        "baurgulugu": {
+            "native": "galego",
+            "short": "gl"
+        },
+        "sfe'ero": {
+            "native": "svenska",
+            "short": "sv"
+        },
+        "lojbo": {
+            "native": "la .lojban.",
+            "short": "jbo"
+        },
+        "tokpona": {
+            "native": "toki pona",
+            "short": "tok"
+        }
+    }
+}
