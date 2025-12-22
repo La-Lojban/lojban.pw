@@ -3,13 +3,14 @@ const path = require("path");
 const { GoogleSpreadsheet } = require("google-spreadsheet");
 const prettier = require("prettier");
 const { sluggify } = require("../html-prettifier/slugger");
-const args = process.argv.slice(2);
-const { autoSplitNTranslate } = require("./autotranslate");
 const { languages } = require("../../config/locales.json");
 const { getMdPagesPath, getPublicAssetsPath, getStylesPath, getTmpPath } = require("../paths");
 
 const allLanguages = Object.keys(languages);
 const MAX_CONCURRENT_TASKS = 20;
+const TSV_FOLDER_NAME = "korpora-tsv";
+const tsvOutputDir = path.join(getPublicAssetsPath(), TSV_FOLDER_NAME);
+const tsvIndexFilename = "korpora-tsv.md";
 
 function parseTableCell(cellContent) {
   if (!cellContent) return "";
@@ -63,6 +64,87 @@ function escapeHtml(text) {
     "'": "&#039;",
   };
   return text.replace(/[&<>"']/g, (m) => map[m]);
+}
+
+function sanitizeTsvValue(value) {
+  if (value === null || value === undefined) return "";
+  return String(value).replace(/\t/g, " ").replace(/\r?\n/g, " ").trim();
+}
+
+function shouldIncludeInTsv(header) {
+  const lower = (header ?? "").toLowerCase();
+  return (
+    lower.includes("glico") ||
+    lower.includes("lojbo") ||
+    lower.includes("original") ||
+    lower.includes("source")
+  );
+}
+
+function buildTsvContent(columns, langs) {
+  if (!langs?.length) return "";
+
+  const selectedHeaders = [];
+  langs.forEach((header, index) => {
+    if (index === 0 || shouldIncludeInTsv(header)) {
+      if (!selectedHeaders.includes(header)) selectedHeaders.push(header);
+    }
+  });
+
+  if (!selectedHeaders.length) return "";
+
+  const rowCount = columns[selectedHeaders[0]]?.length ?? 0;
+  const lines = [];
+  lines.push(selectedHeaders.map((h) => sanitizeTsvValue(h)).join("\t"));
+
+  for (let i = 0; i < rowCount; i++) {
+    const row = selectedHeaders.map((header) => sanitizeTsvValue(columns[header]?.[i]));
+    lines.push(row.join("\t"));
+  }
+
+  return lines.join("\n");
+}
+
+function writeTsvFile(slug, tsvContent) {
+  if (!tsvContent) return;
+  fs.mkdirSync(tsvOutputDir, { recursive: true });
+  const tsvPath = path.join(tsvOutputDir, `${slug}.tsv`);
+  fs.writeFileSync(tsvPath, tsvContent);
+}
+
+function writeTsvIndexFile() {
+  const mdPagesPath = getMdPagesPath();
+  if (!fs.existsSync(mdPagesPath)) return;
+
+  const tsvFiles = fs
+    .readdirSync(tsvOutputDir, { withFileTypes: true })
+    .filter((dirent) => dirent.isFile() && dirent.name.endsWith(".tsv"))
+    .map((dirent) => dirent.name)
+    .sort();
+
+  const listBody =
+    tsvFiles.length === 0
+      ? "_No TSV files generated._"
+      : tsvFiles
+        .map((file) => {
+          const title = path.parse(file).name;
+          return `- [${title}](/assets/${TSV_FOLDER_NAME}/${file})`;
+        })
+        .join("\n");
+
+  const content = `---
+title: Korpora TSV Index
+meta.type: korpora
+---
+
+Below is the list of generated TSV extracts from the corpus sheets:
+
+${listBody}
+`;
+
+  const targetPath = path.join(mdPagesPath, tsvIndexFilename);
+  const formatted = prettier.format(content, { filepath: targetPath });
+  fs.writeFileSync(targetPath, formatted);
 }
 
 function cssifyName(text) {
@@ -136,7 +218,7 @@ async function processSheet(sheet, title) {
     const header = prettifyGraymatter(
       columns[lang]?.[1] ?? columns["glico"]?.[1] ?? title
     );
-    console.log({header, lang});
+    console.log({ header, lang });
     const author = prettifyGraymatter(
       columns[lang]?.[2] ?? columns["glico"]?.[2] ?? ""
     );
@@ -160,6 +242,7 @@ async function processSheet(sheet, title) {
     .filter((column) => !!column)
     .join(", ");
   let ogImage;
+  const tsvContent = buildTsvContent(columns, langs);
 
   for (const index in columns[langs[0]]) {
     const lineNo = parseInt(index) + 1;
@@ -202,12 +285,11 @@ async function processSheet(sheet, title) {
       }
 
       table.push(
-        `<td class="${
-          index == 0
-            ? "font-bold "
-            : index < 4 || italicizedRows.includes(parseInt(index) + 1)
-              ? "italic text-gray-500 "
-              : ""
+        `<td class="${index == 0
+          ? "font-bold "
+          : index < 4 || italicizedRows.includes(parseInt(index) + 1)
+            ? "italic text-gray-500 "
+            : ""
         }${languages[lang]?.direction === "RTL" ? "text-right" : "text-left"} align-text-top p-2 column-class-${l}">${cellContent}</td>`
       );
     }
@@ -216,7 +298,7 @@ async function processSheet(sheet, title) {
   table.push(`</tbody>`);
   table.push(`</table>`);
 
-  return { table, buttons, headers, slug, keywords, ogImage, columns };
+  return { table, buttons, headers, slug, keywords, ogImage, columns, tsvContent };
 }
 
 async function writeFiles(
@@ -298,6 +380,10 @@ async function processTitlesInParallel(titles, processFunction) {
     .map((sheet) => sheet.title)
     .filter((name) => name.indexOf("+") === 0);
 
+  fs.mkdirSync(getPublicAssetsPath(), { recursive: true });
+  fs.rmSync(tsvOutputDir, { recursive: true, force: true });
+  fs.mkdirSync(tsvOutputDir, { recursive: true });
+
   const processedData = await processTitlesInParallel(titles, async (title) => {
     const sheet = doc.sheetsByTitle[title];
     title = title.replace(/^\+/g, "").trim();
@@ -308,7 +394,9 @@ async function processTitlesInParallel(titles, processFunction) {
 
   console.log("generating korpora pages");
   await processTitlesInParallel(processedData, async ({ title, data }) => {
-    const { table, buttons, headers, slug, keywords, ogImage, columns } = data;
+    const { table, buttons, headers, slug, keywords, ogImage, columns, tsvContent } = data;
+
+    writeTsvFile(slug, tsvContent);
 
     // Parallelize language processing for faster builds
     await Promise.all(
@@ -327,22 +415,6 @@ async function processTitlesInParallel(titles, processFunction) {
     );
 
     console.log(`generated "${title}" corpus entry`);
-
-    if ((args[0] ?? "").indexOf("fanva") === 0) {
-      const translation = await autoSplitNTranslate({
-        title,
-        chunkSize: 8,
-        text: columns["glico"],
-        from: "en",
-        to: args[0].replace(/^fanva-/, ""),
-        limit: 3000,
-      });
-      const tmpPath = getTmpPath();
-      const translation_file = path.join(tmpPath, "korpora", slug + ".txt");
-      fs.mkdirSync(path.join(tmpPath, "korpora"), { recursive: true });
-      fs.writeFileSync(translation_file, translation);
-      console.log(`translated "${title}"`);
-    }
 
     // Generate CSS
     for (const lang of Object.keys(columns)) {
@@ -396,4 +468,6 @@ async function processTitlesInParallel(titles, processFunction) {
       filepath: csspath,
     })
   );
+
+  writeTsvIndexFile();
 })();
