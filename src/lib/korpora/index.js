@@ -112,7 +112,7 @@ function writeTsvFile(slug, tsvContent) {
   fs.writeFileSync(tsvPath, tsvContent);
 }
 
-function writeTsvIndexFile() {
+async function writeTsvIndexFile() {
   const mdPagesPath = getMdPagesPath();
   if (!fs.existsSync(mdPagesPath)) return;
 
@@ -143,7 +143,7 @@ ${listBody}
 `;
 
   const targetPath = path.join(mdPagesPath, tsvIndexFilename);
-  const formatted = prettier.format(content, { filepath: targetPath });
+  const formatted = await prettier.format(content, { filepath: targetPath });
   fs.writeFileSync(targetPath, formatted);
 }
 
@@ -469,5 +469,5 @@ async function processTitlesInParallel(titles, processFunction) {
     })
   );
 
-  writeTsvIndexFile();
+  await writeTsvIndexFile();
 })();
