@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { GoogleSpreadsheet } = require("google-spreadsheet");
 const prettier = require("prettier");
+const archiver = require("archiver");
 const { sluggify } = require("../html-prettifier/slugger");
 const { languages } = require("../../config/locales.json");
 const { getMdPagesPath, getPublicAssetsPath, getStylesPath, getTmpPath } = require("../paths");
@@ -112,6 +113,42 @@ function writeTsvFile(slug, tsvContent) {
   fs.writeFileSync(tsvPath, tsvContent);
 }
 
+async function createTsvZip() {
+  const tsvFiles = fs
+    .readdirSync(tsvOutputDir, { withFileTypes: true })
+    .filter((dirent) => dirent.isFile() && dirent.name.endsWith(".tsv"))
+    .map((dirent) => dirent.name)
+    .sort();
+
+  if (tsvFiles.length === 0) return null;
+
+  const zipFilename = "korpora-tsv-all.zip";
+  const zipPath = path.join(tsvOutputDir, zipFilename);
+
+  return new Promise((resolve, reject) => {
+    const output = fs.createWriteStream(zipPath);
+    const archive = archiver("zip", {
+      zlib: { level: 9 },
+    });
+
+    output.on("close", () => {
+      resolve(zipFilename);
+    });
+
+    archive.on("error", (err) => {
+      reject(err);
+    });
+
+    archive.pipe(output);
+
+    tsvFiles.forEach((file) => {
+      archive.file(path.join(tsvOutputDir, file), { name: file });
+    });
+
+    archive.finalize();
+  });
+}
+
 async function writeTsvIndexFile() {
   const mdPagesPath = getMdPagesPath();
   if (!fs.existsSync(mdPagesPath)) return;
@@ -126,6 +163,9 @@ async function writeTsvIndexFile() {
     .map((dirent) => dirent.name)
     .sort();
 
+  // Create zip file with all TSV files
+  const zipFilename = await createTsvZip();
+
   const listBody =
     tsvFiles.length === 0
       ? "_No TSV files generated._"
@@ -136,6 +176,10 @@ async function writeTsvIndexFile() {
         })
         .join("\n");
 
+  const zipLink = zipFilename
+    ? `\n\n**Download all TSV files:** [${zipFilename}](/assets/${TSV_FOLDER_NAME}/${zipFilename})`
+    : "";
+
   const content = `---
 title: Korpora TSV Index
 meta.type: korpora
@@ -143,7 +187,7 @@ meta.type: korpora
 
 Below is the list of generated TSV extracts from the corpus sheets:
 
-${listBody}
+${listBody}${zipLink}
 `;
 
   const targetPath = path.join(targetDirectory, tsvIndexFilename);
