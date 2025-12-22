@@ -17,7 +17,7 @@ meta.priority: 552
   <label
     for="hide-column-dzena_xelso"
     class="hide-column-button-dzena_xelso float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
-    >αρχαία ελληνικά</label
+    >dzena xelso</label
   ><input
     type="checkbox"
     id="hide-column-lojbo"
@@ -26,7 +26,7 @@ meta.priority: 552
   <label
     for="hide-column-lojbo"
     class="hide-column-button-lojbo float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
-    >lojbo</label
+    >la .lojban.</label
   ><input
     type="checkbox"
     id="hide-column-glico"

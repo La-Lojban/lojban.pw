@@ -116,6 +116,10 @@ async function writeTsvIndexFile() {
   const mdPagesPath = getMdPagesPath();
   if (!fs.existsSync(mdPagesPath)) return;
 
+  // Place the index in the English namespace so it is routable at /en/korpora-tsv
+  const targetDirectory = path.join(mdPagesPath, "en");
+  fs.mkdirSync(targetDirectory, { recursive: true });
+
   const tsvFiles = fs
     .readdirSync(tsvOutputDir, { withFileTypes: true })
     .filter((dirent) => dirent.isFile() && dirent.name.endsWith(".tsv"))
@@ -142,7 +146,7 @@ Below is the list of generated TSV extracts from the corpus sheets:
 ${listBody}
 `;
 
-  const targetPath = path.join(mdPagesPath, tsvIndexFilename);
+  const targetPath = path.join(targetDirectory, tsvIndexFilename);
   const formatted = await prettier.format(content, { filepath: targetPath });
   fs.writeFileSync(targetPath, formatted);
 }

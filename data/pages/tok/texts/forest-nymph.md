@@ -6,7 +6,7 @@ meta.description: Elin Pelin | translated from Bulgarian by la gleki
 meta.keywords: Самодива, ni'o ni'o le ricfoi crida, Forest nymph, Лесная нимфа
 meta.author: Elin Pelin
 og:image: /assets/pixra/texts/forest-nymph/2.webp
-meta.priority: 7164
+meta.priority: 7170
 ---
 
 <div class="w-full">
@@ -18,7 +18,7 @@ meta.priority: 7164
   <label
     for="hide-column-balgaro"
     class="hide-column-button-balgaro float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
-    >български</label
+    >balgaro</label
   ><input
     type="checkbox"
     id="hide-column-lojbo"
@@ -27,7 +27,7 @@ meta.priority: 7164
   <label
     for="hide-column-lojbo"
     class="hide-column-button-lojbo float-left drop-shadow bg-teal-100 hover:bg-teal-600 focus:bg-teal-600 text-gray-900 hover:text-white font-bold leading-normal select-none py-2 px-4"
-    >lojbo</label
+    >la .lojban.</label
   ><input
     type="checkbox"
     id="hide-column-glico"
@@ -619,14 +619,14 @@ meta.priority: 7164
             ba&#039;o zukte lo ka gleki jinru lo ve&#039;i rirxe i mi&#039;a
             ba&#039;o cilce kelci ca lo nu le lunra cu te gusni i mi&#039;a ca
             cu spofu gi&#039;e badri i do&#039;o pu lebna tu&#039;a le citno
-            dalgidva pe loi cmana zi&#039;e noi se prami mi&#039;a gi&#039;e
-            na&#039;e dunku gi&#039;e zifre i le zgike poi sance lo flani pe le
-            dalgidva pu je ca nai se minra fo le se stuzi be lo jbini be
-            lo&#039;i su&#039;o cmana i je le sance be le nu le dalgidva cu
-            cinmo vasxu cu pu je ca nai se bevri ni&#039;a le klina tsani ca lo
-            nicte i ba&#039;o ku le dalgidva cu klaku fi tu&#039;a mi&#039;a
-            gi&#039;a senva tu&#039;a mi&#039;a gi&#039;a zenba lo ka kandi
-            ri&#039;a tu&#039;a mi&#039;a
+            dalgidva pe loi cmana zi&#039;e noi se prami lo me mi&#039;a
+            gi&#039;e na&#039;e dunku gi&#039;e zifre i le zgike poi sance lo
+            flani pe le dalgidva pu je ca nai se minra fo le se stuzi be lo
+            jbini be lo&#039;i su&#039;o cmana i je le sance be le nu le
+            dalgidva cu cinmo vasxu cu pu je ca nai se bevri ni&#039;a le klina
+            tsani ca lo nicte i ba&#039;o ku le dalgidva cu klaku fi tu&#039;a
+            mi&#039;a gi&#039;a senva tu&#039;a mi&#039;a gi&#039;a zenba lo ka
+            kandi ri&#039;a tu&#039;a mi&#039;a
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
             «Ah! I am no longer the enchanting forest nymph! We no longer fly
@@ -804,7 +804,7 @@ meta.priority: 7164
             i ra melbi je se rigni cmila
           </td>
           <td class="text-left align-text-top p-2 column-class-glico">
-            And with disdainful beauty, she laughed at me.
+            And she laughed beautifully and scornfully.
           </td>
           <td class="text-left align-text-top p-2 column-class-rusko">
             И она красиво и презрительно усмехнулась.
