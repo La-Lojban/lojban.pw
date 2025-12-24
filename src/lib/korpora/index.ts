@@ -3,15 +3,14 @@ import * as fs from "fs";
 import * as path from "path";
 import { GoogleSpreadsheet } from "google-spreadsheet";
 import * as prettier from "prettier";
-import archiver = require("archiver");
-const { sluggify } = require("../html-prettifier/slugger");
+import archiver from "archiver";
+import { sluggify } from "../html-prettifier/slugger";
 import { languages } from "../../config/locales.json";
-const {
+import {
   getMdPagesPath,
   getPublicAssetsPath,
   getStylesPath,
-  getTmpPath,
-} = require("../paths");
+} from "../paths";
 
 const allLanguages = Object.keys(languages);
 const MAX_CONCURRENT_TASKS = 20;
