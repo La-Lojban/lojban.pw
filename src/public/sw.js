@@ -1,9 +1,7 @@
 // Simple service worker for static export
-const CACHE_NAME = 'lojban-pwa-v2';
+const CACHE_NAME = 'lojban-pwa-v4';
 const urlsToCache = [
   '/'
-  // Note: CSS files are bundled by Next.js into /_next/static/css/ with hashed filenames
-  // They are automatically included in the HTML, so no need to cache them separately
 ];
 
 // Install event - cache resources
@@ -11,17 +9,15 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then((cache) => {
-        // Cache each URL individually to handle missing files gracefully
         return Promise.allSettled(
           urlsToCache.map(url => 
             cache.add(url).catch(err => {
-              console.log(`Failed to cache ${url}:`, err);
-              return null; // Continue even if one file fails
+              console.log(`[SW] Failed to cache ${url}:`, err);
+              return null;
             })
           )
         );
       })
-      .catch((err) => console.log('Cache install error:', err))
   );
   self.skipWaiting();
 });
@@ -33,6 +29,7 @@ self.addEventListener('activate', (event) => {
       return Promise.all(
         cacheNames.map((cacheName) => {
           if (cacheName !== CACHE_NAME) {
+            console.log('[SW] Deleting old cache:', cacheName);
             return caches.delete(cacheName);
           }
         })
@@ -45,22 +42,37 @@ self.addEventListener('activate', (event) => {
 // Fetch event - network-first for navigation, cache-first for other resources
 self.addEventListener('fetch', (event) => {
   // Use network-first for navigation requests (HTML documents)
-  // This fixes issues with redirects and URL-encoded paths returning 404
   if (event.request.mode === 'navigate') {
     event.respondWith(
       fetch(event.request)
         .then((response) => {
-          // Clone response to cache it
-          const responseClone = response.clone();
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseClone);
-          });
+          // Only cache successful, non-redirected responses
+          if (response.status === 200 && (response.type === 'basic' || response.type === 'cors')) {
+            const responseClone = response.clone();
+            caches.open(CACHE_NAME).then((cache) => {
+              cache.put(event.request, responseClone).catch(err => {
+                console.log('[SW] Cache put error:', err);
+              });
+            });
+          }
           return response;
         })
-        .catch(() => {
-          // If network fails, try cache, then fallback to home page
+        .catch((err) => {
+          console.log('[SW] Network fetch failed, trying cache:', event.request.url, err);
+          // If network fails, try cache
           return caches.match(event.request)
-            .then((cached) => cached || caches.match('/'));
+            .then((cached) => {
+              if (cached) return cached;
+              
+              // Only fallback to '/' if the request is actually for the root path
+              const url = new URL(event.request.url);
+              if (url.pathname === '/' || url.pathname === '/index.html') {
+                return caches.match('/');
+              }
+              
+              // Return undefined to let the browser handle the network error itself
+              return undefined;
+            });
         })
     );
     return;
