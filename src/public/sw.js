@@ -1,5 +1,5 @@
 // Simple service worker for static export
-const CACHE_NAME = 'lojban-pwa-v1';
+const CACHE_NAME = 'lojban-pwa-v2';
 const urlsToCache = [
   '/'
   // Note: CSS files are bundled by Next.js into /_next/static/css/ with hashed filenames
@@ -42,8 +42,31 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// Fetch event - serve from cache, fallback to network
+// Fetch event - network-first for navigation, cache-first for other resources
 self.addEventListener('fetch', (event) => {
+  // Use network-first for navigation requests (HTML documents)
+  // This fixes issues with redirects and URL-encoded paths returning 404
+  if (event.request.mode === 'navigate') {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          // Clone response to cache it
+          const responseClone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseClone);
+          });
+          return response;
+        })
+        .catch(() => {
+          // If network fails, try cache, then fallback to home page
+          return caches.match(event.request)
+            .then((cached) => cached || caches.match('/'));
+        })
+    );
+    return;
+  }
+
+  // For other requests (assets, etc.), use cache-first
   event.respondWith(
     caches.match(event.request)
       .then((response) => {
@@ -51,10 +74,8 @@ self.addEventListener('fetch', (event) => {
         return response || fetch(event.request);
       })
       .catch(() => {
-        // If both fail, return offline page if available
-        if (event.request.destination === 'document') {
-          return caches.match('/');
-        }
+        // If both fail, return nothing for non-document requests
+        return undefined;
       })
   );
 });
