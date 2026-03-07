@@ -1,4 +1,4 @@
-@import "react-image-gallery/styles/css/image-gallery.css";
+@import "react-image-gallery/styles/image-gallery.css";
 
 @tailwind base;
 @tailwind components;
@@ -436,7 +436,6 @@ article figure {
 
 article figure .figure_img {
   @apply -m-px bg-contain bg-no-repeat h-0 print:h-48 md:h-48 w-full print:w-48 md:w-48;
-  padding-top: 100%;
 }
 
 article figcaption {

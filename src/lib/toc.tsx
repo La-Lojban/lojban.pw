@@ -1,25 +1,38 @@
 import { debounce } from "./utils";
 
+function normalizePath(path: string): string {
+  return path.replace(/\/$/, "") || "/";
+}
+
 export function getClosestHeaderId() {
-  const headers = (
-    Array.from(document.querySelectorAll("h1, h2, h3")) as HTMLElement[]
-  ).sort((a, b) => {
-    return a.offsetTop - b.offsetTop;
-  });
-  for (const toScan of [
-    { itemClass: "a.in-toc", core: "toc-core" },
-    { itemClass: "a.in-topbar-toc", core: "toc-topbar" },
-  ]) {
-    const tocHeaders = Array.from(
-      document.querySelectorAll(toScan.itemClass)
-    ) as HTMLAnchorElement[];
+  const headers = Array.from(
+    document.querySelectorAll("h1, h2, h3")
+  ) as HTMLElement[];
 
-    let closestHeader: HTMLElement | null = null;
-    let distance = Number.MAX_VALUE;
+  // Use the article scroll container as viewport if present (main content scrolls there)
+  const scrollContainer = document.querySelector(
+    "article[class*='overflow-y-auto']"
+  ) as HTMLElement | null;
+  const useArticleViewport = !!scrollContainer;
+
+  let closestHeader: HTMLElement | null = null;
+  let distance = Number.MAX_VALUE;
+
+  if (useArticleViewport && scrollContainer) {
+    const containerRect = scrollContainer.getBoundingClientRect();
+    for (const header of headers) {
+      const headerRect = header.getBoundingClientRect();
+      const currentDistance = Math.abs(headerRect.top - containerRect.top);
+      if (currentDistance < distance) {
+        closestHeader = header;
+        distance = currentDistance;
+      }
+    }
+  } else {
     const currentPosition = window.scrollY;
-
-    for (let i = 0; i < headers.length; i++) {
-      const header = headers[i];
+    const sorted = [...headers].sort((a, b) => a.offsetTop - b.offsetTop);
+    for (let i = 0; i < sorted.length; i++) {
+      const header = sorted[i];
       const currentDistance = Math.abs(currentPosition - header.offsetTop);
       if (currentDistance < distance) {
         closestHeader = header;
@@ -28,11 +41,28 @@ export function getClosestHeaderId() {
         break;
       }
     }
+  }
 
-    const hashedId = "#" + closestHeader?.id;
-    history.replaceState(null, "", hashedId);
+  for (const toScan of [
+    { itemClass: "a.in-toc", core: "toc-core" },
+    { itemClass: "a.in-topbar-toc", core: "toc-topbar" },
+  ]) {
+    const tocHeaders = Array.from(
+      document.querySelectorAll(toScan.itemClass)
+    ) as HTMLAnchorElement[];
+
+    const hashedId = "#" + (closestHeader?.id ?? "");
+    if (closestHeader) {
+      history.replaceState(null, "", hashedId);
+    }
+    const currentPath = normalizePath(window.location.pathname);
     tocHeaders.forEach((a) => {
-      if (decodeURI(a.href).endsWith(hashedId)) {
+      const rawLinkPath =
+        a.pathname || new URL(a.href, window.location.origin).pathname;
+      const linkPath = normalizePath(rawLinkPath);
+      const matchesHash = decodeURI(a.href).endsWith(hashedId);
+      const matchesCurrentPage = linkPath === currentPath;
+      if (matchesHash && matchesCurrentPage) {
         a.classList.add("hover");
 
         const tocCore = document.getElementById(toScan.core);

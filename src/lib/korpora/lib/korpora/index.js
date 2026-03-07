@@ -32,20 +32,23 @@ var __importStar = (this && this.__importStar) || (function () {
         return result;
     };
 })();
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 /// <reference path="./types.d.ts" />
 const fs = __importStar(require("fs"));
 const path = __importStar(require("path"));
 const google_spreadsheet_1 = require("google-spreadsheet");
 const prettier = __importStar(require("prettier"));
-const archiver = require("archiver");
-const { sluggify } = require("../html-prettifier/slugger");
+const archiver_1 = __importDefault(require("archiver"));
+const slugger_1 = require("../html-prettifier/slugger");
 const locales_json_1 = require("../../config/locales.json");
-const { getMdPagesPath, getPublicAssetsPath, getStylesPath, getTmpPath, } = require("../paths");
+const paths_1 = require("../paths");
 const allLanguages = Object.keys(locales_json_1.languages);
 const MAX_CONCURRENT_TASKS = 20;
 const TSV_FOLDER_NAME = "korpora-tsv";
-const tsvOutputDir = path.join(getPublicAssetsPath(), TSV_FOLDER_NAME);
+const tsvOutputDir = path.join((0, paths_1.getPublicAssetsPath)(), TSV_FOLDER_NAME);
 const tsvIndexFilename = "korpora-tsv.md";
 function parseTableCell(cellContent) {
     if (!cellContent)
@@ -141,7 +144,7 @@ async function createTsvZip() {
     const zipPath = path.join(tsvOutputDir, zipFilename);
     return new Promise((resolve, reject) => {
         const output = fs.createWriteStream(zipPath);
-        const archive = archiver("zip", {
+        const archive = (0, archiver_1.default)("zip", {
             zlib: { level: 9 },
         });
         output.on("close", () => {
@@ -158,7 +161,7 @@ async function createTsvZip() {
     });
 }
 async function writeTsvIndexFile() {
-    const mdPagesPath = getMdPagesPath();
+    const mdPagesPath = (0, paths_1.getMdPagesPath)();
     if (!fs.existsSync(mdPagesPath))
         return;
     // Place the index in the English namespace so it is routable at /en/korpora-tsv
@@ -243,7 +246,7 @@ async function processSheet(sheet, title) {
     table.push(`</tr>`);
     table.push(`</thead>`);
     table.push(`<tbody>`);
-    const slug = sluggify(columns["glico"]?.[1] ?? title);
+    const slug = (0, slugger_1.sluggify)(columns["glico"]?.[1] ?? title);
     const priority = (columns["lojbo"] ?? []).slice(4).join("\n").length;
     const headers = {};
     allLanguages.forEach((lang) => {
@@ -270,7 +273,7 @@ async function processSheet(sheet, title) {
     for (const index in columns[langs[0]]) {
         const indexNum = parseInt(index);
         const lineNo = indexNum + 1;
-        const publicAssetsPath = getPublicAssetsPath();
+        const publicAssetsPath = (0, paths_1.getPublicAssetsPath)();
         // Priority: svg > png > webp
         const imageExtensions = ["svg", "png", "webp"];
         let candidatePath = "";
@@ -316,7 +319,7 @@ async function processSheet(sheet, title) {
     return { table, buttons, headers, slug, keywords, ogImage, columns, tsvContent };
 }
 async function writeFiles(lang, title, buttons, table, headers, slug, keywords, ogImage) {
-    const mdPagesPath = getMdPagesPath();
+    const mdPagesPath = (0, paths_1.getMdPagesPath)();
     const langInfo = locales_json_1.languages;
     const langedDirectoryRoot = path.join(mdPagesPath, langInfo[lang]?.short ?? lang);
     const langedDirectory = path.join(langedDirectoryRoot, "texts");
@@ -377,7 +380,7 @@ async function processTitlesInParallel(titles, processFunction) {
     const titles = doc.sheetsByIndex
         .map((sheet) => sheet.title)
         .filter((name) => name.indexOf("+") === 0);
-    fs.mkdirSync(getPublicAssetsPath(), { recursive: true });
+    fs.mkdirSync((0, paths_1.getPublicAssetsPath)(), { recursive: true });
     fs.rmSync(tsvOutputDir, { recursive: true, force: true });
     fs.mkdirSync(tsvOutputDir, { recursive: true });
     const processedData = await processTitlesInParallel(titles, async (title) => {
@@ -435,7 +438,7 @@ async function processTitlesInParallel(titles, processFunction) {
       white-space: nowrap;
     }
   `);
-    const stylesPath = getStylesPath();
+    const stylesPath = (0, paths_1.getStylesPath)();
     const csspath = path.join(stylesPath, "style.css");
     fs.writeFileSync(csspath, await prettier.format(Array.from(new Set(css)).join("\n\n"), {
         filepath: csspath,

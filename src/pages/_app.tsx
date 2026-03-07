@@ -31,11 +31,13 @@ const trimSocketChunk = (text: string) =>
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    document.addEventListener("scroll", debouncedGetClosestHeaderId);
-    window.addEventListener("resize", () => debouncedGetClosestHeaderId);
+    const onResize = () => debouncedGetClosestHeaderId();
+    // Use capture so we receive scroll from non-bubbling scrollable elements (e.g. article)
+    document.addEventListener("scroll", debouncedGetClosestHeaderId, true);
+    window.addEventListener("resize", onResize);
     return () => {
-      document.removeEventListener("scroll", debouncedGetClosestHeaderId);
-      window.addEventListener("resize", () => debouncedGetClosestHeaderId);
+      document.removeEventListener("scroll", debouncedGetClosestHeaderId, true);
+      window.removeEventListener("resize", onResize);
     };
   }, []);
 
