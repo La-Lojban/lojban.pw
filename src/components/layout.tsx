@@ -3,7 +3,8 @@ import Footer from "./footer";
 import Meta from "./meta";
 import { debounce } from "../lib/utils";
 import Header from "./header";
-import { TocElem } from "../types/toc";
+import { TocElem, TocItem } from "../types/toc";
+import { getClosestHeaderId } from "../lib/toc";
 import { Items } from "../lib/api";
 import { useRouter } from "next/router";
 import PostTitle from "./post-title";
@@ -14,6 +15,7 @@ type Props = {
   children: React.ReactNode;
   meta?: { [key: string]: string | undefined };
   toc?: TocElem[];
+  tocList?: TocItem[];
   path?: string;
   allPosts?: Items[];
   currentLanguage?: string;
@@ -30,6 +32,7 @@ const Layout = ({
   children,
   meta,
   toc = [],
+  tocList,
   path = "",
   allPosts = [],
   currentLanguage = "en",
@@ -69,10 +72,12 @@ const Layout = ({
   }, []);
 
   useEffect(() => {
-    const handleRouteChange = () => {
-      if (articleRef.current) {
+    const handleRouteChange = (url: string) => {
+      if (articleRef.current && !url.includes("#")) {
         articleRef.current.scrollTop = 0;
       }
+      // Run ToC highlight after navigation (e.g. when landing on a hash)
+      setTimeout(getClosestHeaderId, 150);
     };
 
     router.events.on("routeChangeComplete", handleRouteChange);
@@ -90,6 +95,7 @@ const Layout = ({
       <div className="flex flex-col h-screen print:h-auto">
         <Header
           toc={toc}
+          tocList={tocList}
           path={router.asPath.replace(/#.*/, "")}
           allPosts={allPosts}
           currentLanguage={currentLanguage}

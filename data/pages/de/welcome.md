@@ -7,9 +7,9 @@ meta.title: Was ist Lojban?
 
 Diese Website enthält inoffizielle, freie Tutorials und Dokumentationen zur Lojban-Sprache.
 
-## ['Lojban lernen' Kurs](/de/books/learn-lojban/!1)
+## ['Lojban lernen' Kurs](/de/books/learn-lojban/1)
 
-<pixra redirect="/de/books/learn-lojban/!1" url="/assets/pixra/cilre/sruri_since.webp" caption="'Lerne Lojban!' Kurs"></pixra>
+<pixra redirect="/de/books/learn-lojban/1" url="/assets/pixra/cilre/sruri_since.webp" caption="'Lerne Lojban!' Kurs"></pixra>
 
 Dieser Kurs lehrt Lojban von seinen formalen Grundlagen aus, aber in einfachen Begriffen und mit vielen Anwendungsbeispielen.
 

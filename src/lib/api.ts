@@ -5,6 +5,11 @@ import { promises as fsp } from "fs";
 
 const postsDirectory = process.env.md_content || "";
 
+/** Directories to never scan for content (e.g. tooling, history). Only data/ from root should be used. */
+function shouldSkipDir(name: string): boolean {
+  return name.startsWith(".");
+}
+
 async function getFiles(
   dir = postsDirectory,
   subfolder = ""
@@ -14,6 +19,9 @@ async function getFiles(
   const files = (
     await Promise.all(
       dirents.map((dirent: { name: any; isDirectory: () => any }) => {
+        if (dirent.isDirectory() && shouldSkipDir(dirent.name)) {
+          return null;
+        }
         const res = resolve(dir, dirent.name);
         return dirent.isDirectory()
           ? getFiles(res)
@@ -60,8 +68,9 @@ export async function getPostBySlug(
 
   const items: Items = { slug: [] };
 
-  // Check if the last element of the slug starts with "!"
-  if (slug[slug.length - 1].startsWith("!")) {
+  // Book chapters: any .md under [lang]/books/[book]/ (path has 4+ segments). Merge parent book index front matter.
+  const isBookChapter = slug[1] === "books" && slug.length >= 4;
+  if (isBookChapter) {
     const parentSlug = slug.slice(0, -1);
     const parentFullPath = join(postsDirectory, `${parentSlug.join("/")}.md`);
 
@@ -82,7 +91,6 @@ export async function getPostBySlug(
     .filter(
       (s) =>
         s[1] === "books" &&
-        s.slice(-1)[0].indexOf("!") === 0 &&
         s.length >= 4 &&
         s.slice(0, -1).join("/") === slug.slice(0, -1).join("/") &&
         s.join("/") !== slug.join("/")
@@ -104,7 +112,10 @@ export async function getPostBySlug(
       items[field] = slug;
     }
     if (field === "hidden") {
-      items[field] = slug?.map((part) => part.charAt(0))?.includes("!");
+      // Hidden: book chapters (path-based) or any slug part starting with "!" (legacy)
+      items[field] =
+        (slug[1] === "books" && slug.length >= 4) ||
+        (slug?.map((part) => part.charAt(0))?.includes("!") ?? false);
     }
     if (field === "content") {
       items[field] = content;
@@ -150,8 +161,12 @@ export async function getAllPosts(
     )
   );
 
-  const filteredPosts = posts.filter(post => 
-    (showHidden || !post.slug.some(part => part.startsWith("!"))) &&
+  const isBookChapterPost = (p: Items) =>
+    p.slug[1] === "books" && p.slug.length >= 4;
+  const filteredPosts = posts.filter(
+    (post) =>
+      (showHidden ||
+        (!isBookChapterPost(post) && !post.slug.some((part) => part.startsWith("!")))) &&
     (ignoreTitles || !fields.includes("title") || post.title !== undefined)
   )
     // sort posts by date in descending order
