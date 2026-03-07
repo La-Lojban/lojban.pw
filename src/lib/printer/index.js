@@ -37,10 +37,19 @@ async function generatePDF(browser, url, shortLang) {
 
     const vrejiPath = getVrejiPath();
     const pdfFile = path.join(vrejiPath, "uencu", shortLang, `${url.split("/").slice("-1")[0]}.pdf`);
+    // Dir already created at start of printPDF(); ensure it exists for this locale
     fs.mkdirSync(path.join(vrejiPath, "uencu", shortLang), { recursive: true });
-    
+
     // Use synchronous write with explicit error handling
-    fs.writeFileSync(pdfFile, pdf);
+    try {
+      fs.writeFileSync(pdfFile, pdf);
+    } catch (writeErr) {
+      if (writeErr.code === "EACCES") {
+        const hint = "If this dir or file was created by root/Docker, run: chown -R $(whoami):$(whoami) " + path.join(vrejiPath, "uencu");
+        throw new Error(`${writeErr.message}. ${hint}`);
+      }
+      throw writeErr;
+    }
     console.log(`pdf file saved: ${pdfFile}`);
     
     return { success: true, url, pdfFile };
@@ -81,6 +90,16 @@ async function processBatch(browser, urls, shortLang) {
 }
 
 async function printPDF() {
+  // Create all locale output dirs upfront so they are owned by the current user.
+  // (Avoids EACCES when dirs or files were left from a previous root/Docker run.)
+  const vrejiPath = getVrejiPath();
+  const uencuBase = path.join(vrejiPath, "uencu");
+  fs.mkdirSync(uencuBase, { recursive: true });
+  for (const lang of allLanguages) {
+    const shortLang = languages[lang].short;
+    fs.mkdirSync(path.join(uencuBase, shortLang), { recursive: true });
+  }
+
   // Launch a single browser instance for all languages to reuse
   const browser = await playwright.chromium.launch({
     headless: true,

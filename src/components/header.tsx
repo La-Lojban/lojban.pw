@@ -8,7 +8,7 @@ import { faList, faScroll } from "@fortawesome/free-solid-svg-icons";
 
 import { closeXicon } from "../lib/buttons";
 import { header } from "../config/config";
-import { TocElem } from "../types/toc";
+import { TocElem, TocItem } from "../types/toc";
 import { getClosestHeaderId } from "../lib/toc";
 import { Items } from "../lib/api";
 import { TPost } from "../types/post";
@@ -25,16 +25,11 @@ const langDict = Object.keys(languages)
     {}
   );
 
-type TocItem = {
-  name: string;
-  url: string;
-  depth: number;
-};
-
 const buttonClass = `text-black in-topbar-toc hover:no-underline px-3 py-2 text-sm font-medium overflow-ellipsis`;
 
 export default function Header({
   toc = [],
+  tocList,
   path = "",
   allPosts = [],
   currentLanguage = "en",
@@ -42,6 +37,7 @@ export default function Header({
   post,
 }: {
   toc?: TocElem[];
+  tocList?: TocItem[];
   path?: string;
   allPosts?: Items[];
   currentLanguage?: string;
@@ -55,11 +51,13 @@ export default function Header({
     undefined
   );
 
-  const listToC: TocItem[] = toc.map((tocElem) => ({
-    depth: parseInt(tocElem.depth),
-    name: tocElem.value,
-    url: `${path}#${tocElem.id}`,
-  }));
+  const listToC: TocItem[] =
+    tocList ??
+    toc.map((tocElem) => ({
+      depth: parseInt(tocElem.depth),
+      name: tocElem.value,
+      url: `${path}#${tocElem.id}`,
+    }));
 
   const hasToC = listToC.length > 0;
 

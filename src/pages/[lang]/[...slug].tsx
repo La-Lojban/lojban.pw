@@ -17,8 +17,9 @@ import { getPostBySlug, getAllPosts, Items } from "../../lib/api";
 import Head from "next/head";
 import markdownToHtml from "../../lib/markdownToHtml";
 import { TPost } from "../../types/post";
+import { TocItem } from "../../types/toc";
 import { site_title } from "../../config/config";
-import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
+import ImageGallery, { GalleryItem } from "react-image-gallery";
 import { retainStringValues } from "../../lib/utils";
 
 type Props = {
@@ -31,12 +32,7 @@ type Props = {
   nextPage: string | null;
   currentPageNumber?: number;
   totalPages?: number;
-};
-
-type TocItem = {
-  name: string;
-  url: string;
-  depth: number;
+  mergedTocList?: TocItem[] | null;
 };
 
 const siteSection = "books";
@@ -50,16 +46,19 @@ const Post = ({
   prevPage,
   nextPage,
   currentPageNumber,
+  mergedTocList,
 }: Props) => {
   post = post ?? parentPost;
   const router = useRouter();
   if (!router.isFallback && !post?.slug) return <ErrorPage statusCode={404} />;
 
-  const toc_list: TocItem[] = (post?.toc ?? []).map((i: any) => ({
-    depth: i.depth,
-    name: i.value,
-    url: `${router.asPath.replace(/#.*/, "")}#${i.id}`,
-  }));
+  const toc_list: TocItem[] =
+    mergedTocList ??
+    (post?.toc ?? []).map((i: any) => ({
+      depth: parseInt(String(i.depth), 10),
+      name: i.value,
+      url: `${router.asPath.replace(/#.*/, "")}#${i.id}`,
+    }));
   const hasToc = toc_list.length > 5;
 
   type GalleryState = { galleryShown: boolean; currentImgUrl: string | null };
@@ -68,7 +67,7 @@ const Post = ({
     React.Dispatch<React.SetStateAction<GalleryState>>,
   ] = useState({ galleryShown: false, currentImgUrl: null } as GalleryState);
 
-  const images: ReactImageGalleryItem[] = (post?.imgs ?? []).map((img) => ({
+  const images: GalleryItem[] = (post?.imgs ?? []).map((img) => ({
     original: img.url,
     thumbnail: img.url,
     originalTitle: img.caption,
@@ -95,6 +94,7 @@ const Post = ({
         "og:url": "/" + post.slug.join("/"),
       }}
       toc={post?.toc}
+      tocList={mergedTocList ?? undefined}
       path={router.asPath.replace(/#.*/, "")}
       allPosts={siblingPosts}
       currentLanguage={currentLanguage}
@@ -263,25 +263,60 @@ export async function getStaticProps({ params }: Params) {
 
   const siblingPosts = allPosts.filter((i) => i.slug[0] === params.lang);
 
+  // Build merged ToC for full book when this is a book chapter
+  let mergedTocList: TocItem[] | null = null;
+  const isBookChapter =
+    post.slug[1] === "books" && post.slug.length >= 4;
+  if (isBookChapter) {
+    const relatedSlugs = (post.relatedSlugs as string[]) || [];
+    const currentSlug = post.slug.join("/");
+    const allChapterSlugs = [currentSlug, ...relatedSlugs].sort((a, b) => {
+      const numA = parseInt(a.split("/").pop()?.replace(/^!/, "") ?? "0", 10);
+      const numB = parseInt(b.split("/").pop()?.replace(/^!/, "") ?? "0", 10);
+      return numA - numB;
+    });
+    const merged: TocItem[] = [];
+    for (const chapterSlug of allChapterSlugs) {
+      const chapterPost = await getPostBySlug(chapterSlug.split("/"), [
+        "content",
+        "fullPath",
+      ]);
+      const { toc: chapterToc } = await markdownToHtml({
+        content: (chapterPost.content as string) || "",
+        fullPath: chapterPost.fullPath as string,
+      });
+      const basePath = "/" + chapterSlug;
+      for (const i of chapterToc ?? []) {
+        merged.push({
+          depth: parseInt(String((i as any).depth), 10),
+          name: (i as any).value,
+          url: `${basePath}#${(i as any).id}`,
+        });
+      }
+    }
+    mergedTocList = merged;
+  }
+
   // Find prev and next pages
   let prevPage = null,
     nextPage = null,
     currentPageNumber;
   try {
     const relatedSlugs = post.relatedSlugs || [];
-    const currentIndex = parseInt(post.slug.slice(-1)[0].replace(/!/g, ""));
-    prevPage = post.slug
+    const lastPart = post.slug.slice(-1)[0];
+    const currentIndex = parseInt(lastPart.replace(/^!/, ""), 10);
+    const prevSlug = post.slug
       .slice(0, post.slug.length - 1)
-      .concat("!" + (currentIndex - 1).toString())
+      .concat((currentIndex - 1).toString())
       .join("/");
-    if (!relatedSlugs.includes(prevPage)) prevPage = null;
-    else prevPage = "/" + prevPage;
-    nextPage = post.slug
+    const nextSlug = post.slug
       .slice(0, post.slug.length - 1)
-      .concat("!" + (currentIndex + 1).toString())
+      .concat((currentIndex + 1).toString())
       .join("/");
-    if (!relatedSlugs.includes(nextPage)) nextPage = null;
-    else nextPage = "/" + nextPage;
+    if (!relatedSlugs.includes(prevSlug)) prevPage = null;
+    else prevPage = "/" + prevSlug;
+    if (!relatedSlugs.includes(nextSlug)) nextPage = null;
+    else nextPage = "/" + nextSlug;
     currentPageNumber = currentIndex;
     const firstSiblingSlug = allPosts.find(
       (externalPost) =>
@@ -310,6 +345,7 @@ export async function getStaticProps({ params }: Params) {
       prevPage,
       nextPage,
       currentPageNumber,
+      ...(mergedTocList && { mergedTocList }),
     },
   };
 }

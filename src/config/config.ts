@@ -34,7 +34,7 @@ export const footer = [
 ];
 
 export const header = [
-  { icon: "🎓", name: "Learn", url: "/books/learn", coverImage: "" },
+  { icon: "🎓", name: "Learn", url: "/books/learn-lojban/1", coverImage: "" },
   { icon: "💬", name: "Live chat", url: "/articles/chat" },
   { icon: "📚", name: "To read", url: "/texts", "og:image": "" },
   { icon: "🗂️", name: "All pages", url: "/list" },
@@ -58,7 +58,7 @@ export const links = [
     sizes: "16x16",
     href: "/assets/icons/lojbo-16.png",
   },
-  { rel: "manifest", href: "/assets/favicons/manifest.json" },
+  { rel: "manifest", href: "/assets/favicons/site.webmanifest" },
   {
     rel: "mask-icon",
     href: "/assets/pixra/ralju/pluka_lanci.svg",

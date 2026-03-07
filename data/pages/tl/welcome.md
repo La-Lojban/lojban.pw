@@ -7,9 +7,9 @@ Ang **Lojban** ay isang wikang lohikal na sinasalita na nilikha noong 1987 na ng
 
 Ang website na ito ay naglalaman ng mga di-opisyal na libreng pagtuturo at dokumentasyon sa wika ng Lojban.
 
-## [Kurso sa ‘Pag-aaral ng Lojban’](/tl/books/learn-lojban/!1)
+## [Kurso sa ‘Pag-aaral ng Lojban’](/tl/books/learn-lojban/1)
 
-<pixra redirect="/tl/books/learn-lojban/!1" url="/assets/pixra/cilre/sruri_since.webp" caption="Kurso sa ‘Pag-aaral ng Lojban’"></pixra>
+<pixra redirect="/tl/books/learn-lojban/1" url="/assets/pixra/cilre/sruri_since.webp" caption="Kurso sa ‘Pag-aaral ng Lojban’"></pixra>
 
 Ang kursong ito ay nagtuturo ng Lojban mula sa mga pormal na batayan, ngunit sa simpleng paraan at marami rin itong halimbawang ginamit.
 

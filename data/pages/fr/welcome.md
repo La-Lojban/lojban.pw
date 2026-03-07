@@ -7,9 +7,9 @@ Le **Lojban** est une langue logique parlée créée en 1987 et désormais prise
 
 Ce site Web répertorie des didacticiels et de la documentation libres et non officiels sur la langue Lojban.
 
-## [Cours ‘Apprenez le lojban’](/fr/books/learn-lojban/!1)
+## [Cours ‘Apprenez le lojban’](/fr/books/learn-lojban/1)
 
-<pixra redirect="/fr/books/learn-lojban/!1" url="/assets/pixra/cilre/sruri_since.webp" caption="Cours « Apprendre le Lojban »"></pixra>
+<pixra redirect="/fr/books/learn-lojban/1" url="/assets/pixra/cilre/sruri_since.webp" caption="Cours « Apprendre le Lojban »"></pixra>
 
 Ce cours enseigne le Lojban à partir de ses bases formelles, mais en termes simples et avec de nombreux exemples d'utilisation.
 
