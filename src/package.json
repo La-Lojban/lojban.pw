@@ -1,7 +1,7 @@
 {
   "name": "lojban-made-easy",
   "version": "2.0.0",
-  "packageManager": "pnpm@9.0.0",
+  "packageManager": "pnpm",
   "scripts": {
     "go": "pnpm install ; pnpm build:test ; pnpm start",
     "dev": "NODE_NO_WARNINGS=1 NODE_ENV=development next",
