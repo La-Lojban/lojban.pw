@@ -1,7 +1,7 @@
 {
   "name": "lojban-made-easy",
   "version": "2.0.0",
-  "packageManager": "pnpm@9.0.0",
+  "packageManager": "pnpm@9.15.9",
   "engines": {
     "node": ">=18"
   },
@@ -19,6 +19,7 @@
     "print": "node scripts/run-with-paths.js sh ./lib/printer/run-print.sh",
     "clearup-serve": "lsof -t -i:3000 | xargs --no-run-if-empty kill -9 && next telemetry disable",
     "cleanup": "node scripts/run-with-paths.js sh -c 'rm -rf ${MD_PAGES_PATH}/text'",
+    "algolia-index": "node scripts/algolia-index.js",
     "clean": "rm -rf .next",
     "typecheck": "tsc"
   },
@@ -37,7 +38,9 @@
     "nprogress": "^0.2.0",
     "react": "^19",
     "react-dom": "^19",
+    "algoliasearch": "^5.19.0",
     "react-image-gallery": "^2.1.2",
+    "react-instantsearch": "^7.26.1",
     "socket.io-client": "^4.8.3",
     "unist-util-is": "^6.0.1",
     "unist-util-visit": "^5.0.0",
