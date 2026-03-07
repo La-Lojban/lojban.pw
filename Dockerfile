@@ -21,8 +21,8 @@ RUN apt-get update && apt-get install -y \
 # Cleanup to reduce image size
 RUN apt-get autoclean && rm -rf /var/lib/apt/lists/*
 
-# Install pnpm
-RUN npm install -g pnpm@9.0.0
+# Install pnpm (latest 9.x)
+RUN npm install -g pnpm@9
 
 # Create workspace
 RUN mkdir -p /app/src

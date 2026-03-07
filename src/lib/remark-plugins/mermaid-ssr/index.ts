@@ -228,8 +228,14 @@ function optSvg(svg: string) {
     ],
   };
 
-  const value = optimize(svg, svgoOptions).data;
-  return value;
+  try {
+    const value = optimize(svg, svgoOptions).data;
+    return value;
+  } catch (err) {
+    // csso (used by svgo for CSS in SVGs) can throw "before doesn't belong to list"
+    // on some Mermaid output; fall back to unoptimized SVG so the build succeeds
+    return svg;
+  }
 }
 
 export default remarkMermaid;
