@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { Popover } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
@@ -7,6 +8,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faList, faScroll } from "@fortawesome/free-solid-svg-icons";
 
 import { closeXicon } from "../lib/buttons";
+import { AlgoliaSearchTrigger } from "./algolia-search-trigger";
+
+const AlgoliaSearchOverlay = dynamic(
+  () => import("./algolia-search-overlay").then((m) => m.default),
+  { ssr: false }
+);
 import { header } from "../config/config";
 import { TocElem, TocItem } from "../types/toc";
 import { getClosestHeaderId } from "../lib/toc";
@@ -47,6 +54,7 @@ export default function Header({
   const router = useRouter();
   const [visibleItems, setVisibleItems] = useState<number>(0);
   const [showBurger, setShowBurger] = useState<boolean>(true);
+  const [searchOpen, setSearchOpen] = useState<boolean>(false);
   const [useDeepOrange, setUseDeepOrange] = useState<boolean | undefined>(
     undefined
   );
@@ -144,11 +152,16 @@ export default function Header({
   const hiddenNavItems = header_.slice(visibleItems);
 
   return (
-    <Popover
-      as="nav"
-      className={`z-50 ${getColor("bg-deep-orange-400")} shadow-md print:hidden`}
-    >
-      {({ open }) => (
+    <>
+      <AlgoliaSearchOverlay
+        isOpen={searchOpen}
+        onClose={() => setSearchOpen(false)}
+      />
+      <Popover
+        as="nav"
+        className={`z-50 ${getColor("bg-deep-orange-400")} shadow-md print:hidden`}
+      >
+        {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-12">
@@ -240,6 +253,11 @@ export default function Header({
                   ))}
                 </select>
 
+                <AlgoliaSearchTrigger
+                  onOpen={() => setSearchOpen(true)}
+                  getColor={getColor}
+                />
+
                 {showBurger && (
                   <Popover.Button
                     onClick={() => {
@@ -323,5 +341,6 @@ export default function Header({
         </>
       )}
     </Popover>
+    </>
   );
 }

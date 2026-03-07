@@ -9,10 +9,10 @@ on:
     branches: [ main ]  # Added to run checks on PRs
   workflow_dispatch:  # Allow manual triggering from GitHub Actions UI
 
-# Limit concurrent runs of this workflow
+# Cancel any in-progress run when a new run of this workflow starts
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true  # Cancels in-progress runs when a new workflow is triggered
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
@@ -40,7 +40,7 @@ jobs:
     - name: Install pnpm
       uses: pnpm/action-setup@v4
       with:
-        version: 9.0.0
+        version: 9
 
     - name: Set up Node.js
       uses: actions/setup-node@v4
@@ -100,9 +100,15 @@ jobs:
                    -v ${{ github.workspace }}/src:/app/src:Z \
                    -e GOOGLE_LOJBAN_CORPUS_DOC_ID=${{ secrets.GOOGLE_LOJBAN_CORPUS_DOC_ID }} \
                    -e GOOGLE_READONLY_API_KEY=${{ secrets.GOOGLE_READONLY_API_KEY }} \
+                   -e NEXT_PUBLIC_ALGOLIA_APP_ID=${{ secrets.NEXT_PUBLIC_ALGOLIA_APP_ID }} \
+                   -e NEXT_PUBLIC_ALGOLIA_SEARCH_KEY=${{ secrets.NEXT_PUBLIC_ALGOLIA_SEARCH_KEY }} \
+                   -e NEXT_PUBLIC_ALGOLIA_INDEX_NAME=${{ secrets.NEXT_PUBLIC_ALGOLIA_INDEX_NAME }} \
+                   -e ALGOLIA_APP_ID=${{ secrets.NEXT_PUBLIC_ALGOLIA_APP_ID }} \
+                   -e ALGOLIA_ADMIN_KEY=${{ secrets.ALGOLIA_ADMIN_KEY }} \
+                   -e ALGOLIA_INDEX_NAME=lojban-pw \
                    -e CI=true \
                    lojban:latest \
-                   sh -c "${INSTALL_CMD}pnpm cicd"
+                   sh -c "${INSTALL_CMD}pnpm cicd && node scripts/algolia-index.js"
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
