@@ -27,6 +27,7 @@ jobs:
   build:
     name: Build for GitHub Pages
     runs-on: ubuntu-latest
+    environment: github-pages  # use env secrets (e.g. Algolia) from this environment
 
     steps:
     - name: Check out code
