@@ -3,6 +3,7 @@ import {
   InstantSearch,
   SearchBox,
   Hits,
+  Configure,
   useInstantSearch,
   useSearchBox,
 } from "react-instantsearch";
@@ -119,6 +120,7 @@ function SearchOverlayContent({ onClose }: { onClose: () => void }) {
       indexName={ALGOLIA_INDEX_NAME}
       future={{ preserveSharedStateOnUnmount: true }}
     >
+      <Configure hitsPerPage={200} />
       <div className="max-w-2xl mx-auto pt-4 pb-2 px-4">
         <div className="relative flex items-center">
           <MagnifyingGlassIcon className="absolute left-3 h-5 w-5 text-gray-400 pointer-events-none" />
@@ -129,15 +131,12 @@ function SearchOverlayContent({ onClose }: { onClose: () => void }) {
               root: "w-full",
               form: "w-full",
               input:
-                "w-full pl-10 pr-10 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-brown-400 focus:border-brown-400 outline-none",
+                "w-full pl-10 pr-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-brown-400 focus:border-brown-400 outline-none",
               submit: "hidden",
-              reset:
-                "absolute right-2 p-1 rounded text-gray-400 hover:text-gray-600 focus:outline-none",
+              reset: "hidden",
             }}
             submitIconComponent={() => null}
-            resetIconComponent={() => (
-              <XMarkIcon className="h-5 w-5" aria-hidden="true" />
-            )}
+            resetIconComponent={() => null}
           />
         </div>
       </div>
