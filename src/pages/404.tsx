@@ -16,12 +16,15 @@ export default function Custom404() {
   useEffect(() => {
     if (typeof window === "undefined" || done) return;
     const pathname = window.location.pathname.replace(/\/$/, "");
+    const search = window.location.search;
+    const hash = window.location.hash;
 
     // 1. Legacy book chapters: /:lang/books/:book/!:chapter → /:lang/books/:book/:chapter/
     const bookChapterMatch = pathname.match(/^(\/[^/]+)\/books\/([^/]+)\/!([^/]+)$/);
     if (bookChapterMatch) {
       const [, lang, book, chapter] = bookChapterMatch;
-      router.replace(`${lang}/books/${book}/${chapter}/`);
+      const target = `${lang}/books/${book}/${chapter}/${search}${hash}`;
+      router.replace(target);
       setDone(true);
       return;
     }
