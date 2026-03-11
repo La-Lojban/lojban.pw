@@ -31,12 +31,12 @@ const trimSocketChunk = (text: string) =>
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    const onResize = () => debouncedGetClosestHeaderId();
-    // Use capture so we receive scroll from non-bubbling scrollable elements (e.g. article)
-    document.addEventListener("scroll", debouncedGetClosestHeaderId, true);
+    const onScroll = debouncedGetClosestHeaderId;
+    const onResize = debouncedGetClosestHeaderId;
+    document.addEventListener("scroll", onScroll, true);
     window.addEventListener("resize", onResize);
     return () => {
-      document.removeEventListener("scroll", debouncedGetClosestHeaderId, true);
+      document.removeEventListener("scroll", onScroll, true);
       window.removeEventListener("resize", onResize);
     };
   }, []);
@@ -56,37 +56,35 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   }, []);
 
   useEffect(() => {
-    let socket1Chat_connected: boolean;
+    let socket1Chat_connected = false;
     const socket1Chat = io("wss://jbotcan.org:9091", {
       transports: ["polling", "websocket"],
     });
 
     socket1Chat.on("connect", () => {
-      console.log(socket1Chat);
       socket1Chat_connected = true;
     });
 
     socket1Chat.on("connect_error", () => {
-      console.log("1chat connection error");
+      console.warn("1chat connection error");
     });
 
-    socket1Chat.on("sentFrom", (data: any) => {
+    socket1Chat.on("sentFrom", (data: { data: { chunk: string; channelId: string; author: string } }) => {
       if (!socket1Chat_connected) return;
       const i = data.data;
-
       const msg = {
         d: trimSocketChunk(i.chunk),
         s: i.channelId,
         w: i.author,
       };
-
       const velsku = document.getElementById("velsku_sebenji");
-      if (velsku)
+      if (velsku) {
         velsku.innerHTML =
           '<span class="velsku_pamei">' + msg.w + ": " + msg.d + "</span>";
+      }
     });
 
-    socket1Chat.on("history", (data: any) => {
+    socket1Chat.on("history", (data: Array<{ chunk: string; channelId: string; author: string }>) => {
       if (!socket1Chat_connected) return;
       const i = data.slice(-1)[0];
       if (!i) return;
@@ -96,10 +94,16 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         w: i.author,
       };
       const velsku = document.getElementById("velsku_sebenji");
-      if (velsku)
+      if (velsku) {
         velsku.innerHTML =
           '<span class="velsku_pamei">' + msg.w + ": " + msg.d + "</span>";
+      }
     });
+
+    return () => {
+      socket1Chat.removeAllListeners();
+      socket1Chat.disconnect();
+    };
   }, []);
   return <Component {...pageProps} />;
 }

@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import Head from "next/head";
 import { links, meta as metaDefault } from "../config/config";
 
@@ -40,102 +41,102 @@ function getTag(fallbacks: string[], meta: TMeta, metaDefault: TMeta) {
   }
 }
 
-const Meta = ({
-  meta,
+function Meta({
+  meta: metaProp,
   title,
   parentSlug,
 }: {
   meta?: TMeta;
   title?: string;
   parentSlug?: string;
-}) => {
-  meta = meta ?? {};
-  let merged: TMeta = { ...metaDefault, ...meta };
+}) {
+  const meta = metaProp ?? {};
 
-  merged["og:title"] = getTag(
-    ["og:title", "twitter:title", "title"],
-    meta,
-    metaDefault
-  );
-  merged["og:description"] = getTag(
-    [
-      "meta.description",
-      "og:description",
-      "twitter:description",
-      "description",
-    ],
-    meta,
-    metaDefault
-  );
-  merged["og:url"] = getTag(["og:url", "twitter:url"], meta, metaDefault);
+  const merged = useMemo(() => {
+    const m: TMeta = { ...metaDefault, ...meta };
+    m["og:title"] = getTag(
+      ["og:title", "twitter:title", "title"],
+      meta,
+      metaDefault
+    );
+    m["og:description"] = getTag(
+      [
+        "meta.description",
+        "og:description",
+        "twitter:description",
+        "description",
+      ],
+      meta,
+      metaDefault
+    );
+    m["og:url"] = getTag(["og:url", "twitter:url"], meta, metaDefault);
+    m["twitter:title"] = getTag(
+      ["twitter:title", "og:title", "title"],
+      meta,
+      metaDefault
+    );
+    m["twitter:description"] = getTag(
+      [
+        "meta.description",
+        "twitter:description",
+        "og:description",
+        "description",
+      ],
+      meta,
+      metaDefault
+    );
+    m["twitter:url"] = getTag(["twitter:url", "og:url"], meta, metaDefault);
+    m["twitter:image"] = getTag(
+      ["twitter:image", "og:image"],
+      meta,
+      metaDefault
+    );
+    m["description"] = getTag(
+      [
+        "description",
+        "meta.description",
+        "twitter:description",
+        "og:description",
+      ],
+      meta,
+      metaDefault
+    );
+    delete m.title;
+    const { original, metaJson } = separateMetaKeys(m);
+    return { ...metaJson, ...original };
+  }, [metaProp]);
 
-  merged["twitter:title"] = getTag(
-    ["twitter:title", "og:title", "title"],
-    meta,
-    metaDefault
-  );
-  merged["twitter:description"] = getTag(
-    [
-      "meta.description",
-      "twitter:description",
-      "og:description",
-      "description",
-    ],
-    meta,
-    metaDefault
-  );
-  merged["twitter:url"] = getTag(["twitter:url", "og:url"], meta, metaDefault);
-  merged["twitter:image"] = getTag(
-    ["twitter:image", "og:image"],
-    meta,
-    metaDefault
-  );
-
-  merged["description"] = getTag(
-    [
-      "description",
-      "meta.description",
-      "twitter:description",
-      "og:description",
-    ],
-    meta,
-    metaDefault
-  );
-
-  delete merged.title;
-
-  const { original, metaJson } = separateMetaKeys(merged);
-  merged = { ...metaJson, ...original };
-
-  const icon = getTag(
-    ["coverImage", "og:image", "twitter:image"],
-    meta,
-    metaDefault
-  );
-  const links_ = (JSON.parse(JSON.stringify(links)) as MetaLink[]).reduce(
-    (acc, link) => {
-      if (icon && ["mask-icon", "shortcut icon"].includes(link.rel)) {
-        link.href = icon;
+  const links_ = useMemo(() => {
+    const icon = getTag(
+      ["coverImage", "og:image", "twitter:image"],
+      meta,
+      metaDefault
+    );
+    const result = (JSON.parse(JSON.stringify(links)) as MetaLink[]).map(
+      (link) => {
+        if (icon && ["mask-icon", "shortcut icon"].includes(link.rel)) {
+          return { ...link, href: icon };
+        }
+        return link;
       }
-      return acc.concat([link]);
-    },
-    [] as MetaLink[]
-  );
+    );
+    if (parentSlug) {
+      result.push({ rel: "canonical", href: "/" + parentSlug, sizes: "" });
+    }
+    return result;
+  }, [metaProp, parentSlug]);
 
-  if (parentSlug) {
-    links_.push({
-      rel: "canonical",
-      href: "/" + parentSlug,
-      sizes: "",
-    });
-  }
+  const metaEntries = useMemo(
+    () => Object.entries(removeUndefinedOrNull(merged)),
+    [merged]
+  );
 
   return (
     <Head>
       {title && <title>{title}</title>}
-      {links_.map((el, index: number) => (
+      {links_.map((el, index) => (
         <link
-          key={`link_${index}`}
+          key={el.rel + (el.href ?? "") + index}
           rel={el.rel}
           type={el.type}
           sizes={el.sizes}
@@ -143,16 +144,16 @@ const Meta = ({
           color={el.color}
         />
       ))}
-      {Object.entries(removeUndefinedOrNull(merged)).map(([key, value]) => (
+      {metaEntries.map(([key, value]) => (
         <meta
           key={key}
-          property={key.indexOf("og:") === 0 ? key : undefined}
-          name={key.indexOf("og:") === -1 ? key : undefined}
+          property={key.startsWith("og:") ? key : undefined}
+          name={!key.startsWith("og:") ? key : undefined}
           content={value as string}
         />
       ))}
     </Head>
   );
-};
+}
 
 export default Meta;

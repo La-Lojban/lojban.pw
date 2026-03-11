@@ -1,3 +1,4 @@
+import { memo } from "react";
 import Avatar from "./avatar";
 import DateFormatter from "./date-formatter";
 import Link from "next/link";
@@ -8,31 +9,36 @@ type Props = {
   post: TPost;
 };
 
-const PostPreview = ({ post }: Props) => {
+function PostPreview({ post }: Props) {
   const { title, date, excerpt, slug, coverImage } = post;
   const author: Author | TPost["meta.author"] =
     post.author ?? post["meta.author"];
+  const href = `/${slug.join("/")}`;
   return (
     <div
       className={
         "max-w-md p-4 align-middle shadow-lg rounded-lg place-items-left bg-blend-lighten bg-right" +
         (coverImage ? "" : " bg-white")
       }
-      style={{
-        backgroundImage: `url('${coverImage}')`,
-        backgroundPosition: "left",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "auto 100%",
-      }}
+      style={
+        coverImage
+          ? {
+              backgroundImage: `url('${coverImage}')`,
+              backgroundPosition: "left",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "auto 100%",
+            }
+          : undefined
+      }
     >
       <div className="inner">
         <h3 className="break-words text-gray-800 text-2xl text-center">
           <Link
-            as={`/${slug.join("/")}`}
-            href="/[...slug]"
+            href={href}
             className="hover:underline"
             style={{
-              textShadow: "-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff",
+              textShadow:
+                "-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff",
             }}
           >
             {title}
@@ -56,6 +62,6 @@ const PostPreview = ({ post }: Props) => {
       </div>
     </div>
   );
-};
+}
 
-export default PostPreview;
+export default memo(PostPreview);

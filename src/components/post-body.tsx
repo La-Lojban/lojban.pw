@@ -1,9 +1,10 @@
+import { useMemo } from "react";
 import { PostProps } from "../types/post";
 import PostHeader from "../components/post-header";
 import { buildDOMFromJSONBasic } from "../lib/json2react";
 import AllStories from "./all-stories";
 
-const PostBody = ({
+function PostBody({
   post,
   state,
   setState,
@@ -11,8 +12,11 @@ const PostBody = ({
   posts,
   lang,
   siteSection,
-}: PostProps<any>) => {
-  const content = buildDOMFromJSONBasic(post.content, { state, setState });
+}: PostProps<{ galleryShown: boolean; currentImgUrl: string | null }>) {
+  const content = useMemo(
+    () => buildDOMFromJSONBasic(post.content, { state, setState }),
+    [post.content, state, setState]
+  );
   const isBookPath = post.slug[1] === "books";
 
   return (
@@ -37,6 +41,6 @@ const PostBody = ({
       </div>
     </>
   );
-};
+}
 
 export default PostBody;
