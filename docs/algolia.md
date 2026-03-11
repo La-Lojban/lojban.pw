@@ -54,7 +54,12 @@ This repo includes a script that indexes all markdown pages to Algolia. It runs 
 ALGOLIA_APP_ID=your_app_id ALGOLIA_ADMIN_KEY=your_admin_key ALGOLIA_INDEX_NAME=lojban-pw node scripts/algolia-index.js
 ```
 
-The script walks `data/pages` (or `md_pages` in Docker), reads each `.md` file with gray-matter, and pushes records with `objectID`, `url`, `title`, `content` (first 500 chars), and `hierarchy`. Use the **full** `algoliasearch` client (not the lite one) for any custom indexing. Example record shape:
+The script walks `data/pages` (or `md_pages` in Docker), reads each `.md` file with gray-matter, and indexes **by section**: it splits the markdown body on headings (`##`, `###`, etc.). Each section becomes one or more records (chunked if over ~8KB) with:
+- **url** including a hash to the section (e.g. `/en/books/learn-lojban/1/#introduction`), so results link straight to that part of the page
+- **title** = section heading, **pageTitle** = document title, **content** = that section’s markdown
+- **hierarchy** from the path
+
+Only the markdown body is indexed (no front matter in `content`). Algolia’s **~10KB limit per record** is respected by chunking long sections. The search UI deduplicates by `url` so each section appears once. Use the **full** `algoliasearch` client (not the lite one) for any custom indexing. Example record shape:
 
 ```json
 {
