@@ -1,10 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 export default class MyDocument extends Document {
-  static async getInitialProps(context: any) {
-    const initialProps = await Document.getInitialProps(context);
-    return { ...initialProps };
-  }
   render() {
     return (
       <Html lang={this.props.dangerousAsPath.split("/")[1] ?? "en"}>

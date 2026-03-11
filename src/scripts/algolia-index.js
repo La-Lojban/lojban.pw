@@ -6,7 +6,7 @@
 const path = require("path");
 const fs = require("fs");
 const matter = require("gray-matter");
-const algoliasearch = require("algoliasearch");
+const { algoliasearch } = require("algoliasearch");
 const { getMdPagesPath } = require("../lib/paths");
 
 const APP_ID = process.env.ALGOLIA_APP_ID;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { memo } from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -19,7 +19,7 @@ type NavigationWidgetProps = {
   scrollToTop: () => void;
 };
 
-const NavigationWidget: React.FC<NavigationWidgetProps> = ({
+const NavigationWidget = memo<NavigationWidgetProps>(function NavigationWidget({
   firstSiblingSlug,
   prevPage,
   nextPage,
@@ -28,7 +28,7 @@ const NavigationWidget: React.FC<NavigationWidgetProps> = ({
   isVisible,
   scrollToTop,
   currentLanguage,
-}) => {
+}) {
   if (!isVisible || !currentLanguage) return <></>;
 
   const hasNavigation =
@@ -86,6 +86,6 @@ const NavigationWidget: React.FC<NavigationWidgetProps> = ({
       </div>
     </div>
   );
-};
+});
 
 export default NavigationWidget;

@@ -1,8 +1,9 @@
+import { memo } from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { footer } from "../config/config";
 
-const Footer = () => {
+function Footer() {
   return (
     <footer className="justify-center text-center p-4 print:hidden">
         <div id="velsku" className="noselect">
@@ -35,6 +36,6 @@ const Footer = () => {
         </div>
     </footer>
   );
-};
+}
 
-export default Footer;
+export default memo(Footer);

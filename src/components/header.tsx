@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo, useCallback } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { Popover } from "@headlessui/react";
@@ -54,44 +54,49 @@ export default function Header({
   const router = useRouter();
   const [visibleItems, setVisibleItems] = useState<number>(0);
   const [showBurger, setShowBurger] = useState<boolean>(true);
-  const [searchOpen, setSearchOpen] = useState<boolean>(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const handleCloseSearch = useCallback(() => setSearchOpen(false), []);
   const [useDeepOrange, setUseDeepOrange] = useState<boolean | undefined>(
     undefined
   );
 
-  const listToC: TocItem[] =
-    tocList ??
-    toc.map((tocElem) => ({
-      depth: parseInt(tocElem.depth),
-      name: tocElem.value,
-      url: `${path}#${tocElem.id}`,
-    }));
+  const listToC: TocItem[] = useMemo(
+    () =>
+      tocList ??
+      toc.map((tocElem) => ({
+        depth: parseInt(tocElem.depth, 10),
+        name: tocElem.value,
+        url: `${path}#${tocElem.id}`,
+      })),
+    [tocList, toc, path]
+  );
 
   const hasToC = listToC.length > 0;
 
-  const header_ = header.map((item) => {
-    const foundTitle = allPosts
-      .reduce((acc, post) => {
-        const slug = "/" + post.slug.join("/");
-        const localizedUrl = `/${currentLanguage}` + item.url;
-        if ([item.url, localizedUrl].includes(slug)) {
-          acc.push({
-            slug: post.slug,
-            url: localizedUrl,
-            icon: post.icon ?? "",
-            name: post.title,
-            directory: post.slug[0],
-            coverImage: post.coverImage,
-          });
-        }
-        return acc;
-      }, [] as Items[])
-      .sort((a, b) => {
-        if (a.directory === currentLanguage) return -1;
-        return 0;
-      })[0];
-    return { ...item, foundTitle };
-  });
+  const header_ = useMemo(
+    () =>
+      header.map((item) => {
+        const foundTitle = allPosts
+          .reduce((acc, post) => {
+            const slug = "/" + post.slug.join("/");
+            const localizedUrl = `/${currentLanguage}` + item.url;
+            if ([item.url, localizedUrl].includes(slug)) {
+              acc.push({
+                slug: post.slug,
+                url: localizedUrl,
+                icon: post.icon ?? "",
+                name: post.title,
+                directory: post.slug[0],
+                coverImage: post.coverImage,
+              });
+            }
+            return acc;
+          }, [] as Items[])
+          .sort((a, b) => (a.directory === currentLanguage ? -1 : 0))[0];
+        return { ...item, foundTitle };
+      }),
+    [allPosts, currentLanguage]
+  );
 
   const handleLanguageChange = (
     event: React.ChangeEvent<HTMLSelectElement>
@@ -125,28 +130,21 @@ export default function Header({
   }, [header_.length]);
 
   useEffect(() => {
+    const colorPreference = localStorage.getItem("headerColor");
+    setUseDeepOrange(colorPreference === "brown" ? false : true);
+
     const timer = setTimeout(() => {
       setUseDeepOrange(false);
       localStorage.setItem("headerColor", "brown");
     }, 30000);
-
     return () => clearTimeout(timer);
   }, []);
 
-  useEffect(() => {
-    const colorPreference = localStorage.getItem("headerColor");
-    if (colorPreference === "brown") {
-      setUseDeepOrange(false);
-    } else {
-      setUseDeepOrange(true);
-    }
-  }, []);
-
-  const getColor = (className: string) => {
+  const getColor = useCallback((className: string) => {
     return [undefined, false].includes(useDeepOrange)
       ? className.replace(/deep-orange/g, "brown")
       : className;
-  };
+  }, [useDeepOrange]);
 
   const visibleNavItems = header_.slice(0, visibleItems);
   const hiddenNavItems = header_.slice(visibleItems);
@@ -155,7 +153,7 @@ export default function Header({
     <>
       <AlgoliaSearchOverlay
         isOpen={searchOpen}
-        onClose={() => setSearchOpen(false)}
+        onClose={handleCloseSearch}
       />
       <Popover
         as="nav"

@@ -7,7 +7,7 @@
   },
   "scripts": {
     "go": "pnpm install ; pnpm build:test ; pnpm start",
-    "dev": "NODE_NO_WARNINGS=1 NODE_ENV=development next",
+    "dev": "NODE_NO_WARNINGS=1 NODE_ENV=development next dev --webpack",
     "start": "pnpm clearup-serve && python3 -m http.server 3000 --directory out",
     "compile": "pnpm build && pkill node",
     "cicd": "pnpm build  && mkdir -p out1 && cp -rT out out1 && pnpm clean",
