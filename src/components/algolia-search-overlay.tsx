@@ -2,10 +2,10 @@ import React, { useCallback, useEffect, useRef } from "react";
 import {
   InstantSearch,
   SearchBox,
-  Hits,
   Configure,
   useInstantSearch,
   useSearchBox,
+  useHits,
 } from "react-instantsearch";
 import { liteClient as algoliasearch } from "algoliasearch/lite";
 import { MagnifyingGlassIcon, XMarkIcon } from "@heroicons/react/24/solid";
@@ -16,10 +16,11 @@ import {
   ALGOLIA_INDEX_NAME,
 } from "../lib/algolia";
 
-/** Hit shape expected from index (DocSearch-style or custom). */
+/** Hit shape expected from index (section-based: title = section, pageTitle = doc, url may have #anchor). */
 export type AlgoliaHit = {
   objectID: string;
   title?: string;
+  pageTitle?: string;
   url: string;
   hierarchy?: Record<string, string>;
   content?: string;
@@ -27,11 +28,9 @@ export type AlgoliaHit = {
 };
 
 function Hit({ hit, onSelect }: { hit: AlgoliaHit; onSelect: () => void }) {
-  const title =
-    hit.title ??
-    hit.hierarchy?.lvl0 ??
-    hit.hierarchy?.lvl1 ??
-    "Untitled";
+  const sectionTitle =
+    hit.title ?? hit.hierarchy?.lvl0 ?? hit.hierarchy?.lvl1 ?? "Section";
+  const pageTitle = hit.pageTitle;
   const subtitle = hit.content
     ? hit.content.slice(0, 120) + (hit.content.length > 120 ? "…" : "")
     : undefined;
@@ -46,7 +45,10 @@ function Hit({ hit, onSelect }: { hit: AlgoliaHit; onSelect: () => void }) {
         window.location.href = hit.url;
       }}
     >
-      <div className="font-medium text-gray-900">{title}</div>
+      <div className="font-medium text-gray-900">{sectionTitle}</div>
+      {pageTitle && pageTitle !== sectionTitle && (
+        <div className="text-xs text-gray-500 mt-0.5">{pageTitle}</div>
+      )}
       {subtitle && (
         <div className="text-sm text-gray-600 mt-0.5 line-clamp-2">
           {subtitle}
@@ -86,15 +88,26 @@ function SearchResultsPanel({ onClose }: { onClose: () => void }) {
       </div>
     );
   }
+  return <DedupedHitsList onClose={onClose} />;
+}
+
+/** One row per page: when a doc is split into chunks we show the page once (first matching chunk). */
+function DedupedHitsList({ onClose }: { onClose: () => void }) {
+  const { hits } = useHits<AlgoliaHit>();
+  const seen = new Set<string>();
+  const byUrl = hits.filter((h) => {
+    if (seen.has(h.url)) return false;
+    seen.add(h.url);
+    return true;
+  });
   return (
-    <Hits<AlgoliaHit>
-      hitComponent={({ hit }: { hit: AlgoliaHit }) => (
-        <Hit hit={hit} onSelect={onClose} />
-      )}
-      classNames={{
-        list: "divide-y divide-gray-100",
-      }}
-    />
+    <ul className="divide-y divide-gray-100">
+      {byUrl.map((hit) => (
+        <li key={hit.objectID}>
+          <Hit hit={hit} onSelect={onClose} />
+        </li>
+      ))}
+    </ul>
   );
 }
 
