@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
 
 import { useRouter } from "next/router";
@@ -48,58 +48,67 @@ const Post = ({
   currentPageNumber,
   mergedTocList,
 }: Props) => {
-  post = post ?? parentPost;
+  const resolvedPost = post ?? parentPost;
   const router = useRouter();
-  if (!router.isFallback && !post?.slug) return <ErrorPage statusCode={404} />;
+  if (!router.isFallback && !resolvedPost?.slug) return <ErrorPage statusCode={404} />;
 
-  const toc_list: TocItem[] =
-    mergedTocList ??
-    (post?.toc ?? []).map((i: any) => ({
-      depth: parseInt(String(i.depth), 10),
-      name: i.value,
-      url: `${router.asPath.replace(/#.*/, "")}#${i.id}`,
-    }));
+  const pathBase = router.asPath.replace(/#.*/, "");
+  const toc_list: TocItem[] = useMemo(
+    () =>
+      mergedTocList ??
+      (resolvedPost?.toc ?? []).map((i: { depth: unknown; value: string; id: string }) => ({
+        depth: parseInt(String(i.depth), 10),
+        name: i.value,
+        url: `${pathBase}#${i.id}`,
+      })),
+    [mergedTocList, resolvedPost?.toc, pathBase]
+  );
   const hasToc = toc_list.length > 5;
 
-  type GalleryState = { galleryShown: boolean; currentImgUrl: string | null };
-  const [state, setState]: [
-    GalleryState,
-    React.Dispatch<React.SetStateAction<GalleryState>>,
-  ] = useState({ galleryShown: false, currentImgUrl: null } as GalleryState);
+  const [state, setState] = useState<{
+    galleryShown: boolean;
+    currentImgUrl: string | null;
+  }>({ galleryShown: false, currentImgUrl: null });
 
-  const images: GalleryItem[] = (post?.imgs ?? []).map((img) => ({
-    original: img.url,
-    thumbnail: img.url,
-    originalTitle: img.caption,
-    description: `${img.caption} | ${img.definition}`,
-  }));
-  const currentImgIndex = images.findIndex(
-    (element) => element.original === state.currentImgUrl
+  const images: GalleryItem[] = useMemo(
+    () =>
+      (resolvedPost?.imgs ?? []).map((img: { url: string; caption?: string; definition?: string }) => ({
+        original: img.url,
+        thumbnail: img.url,
+        originalTitle: img.caption,
+        description: `${img.caption ?? ""} | ${img.definition ?? ""}`,
+      })),
+    [resolvedPost?.imgs]
+  );
+  const currentImgIndex = useMemo(
+    () => images.findIndex((el) => el.original === state.currentImgUrl),
+    [images, state.currentImgUrl]
   );
 
-  const title_core = post["meta.title"] ?? post.title;
-  const firstHeaderPreview = post.firstHeader
-    ? post.firstHeader.slice(0, 50) +
-      (post.firstHeader.length > 50 ? "..." : "")
-    : "";
-
-  const title = firstHeaderPreview
-    ? `${firstHeaderPreview} | ${title_core}`
-    : `${title_core} | ${site_title}`;
+  const title_core = resolvedPost["meta.title"] ?? resolvedPost.title;
+  const title = useMemo(() => {
+    const firstHeaderPreview = resolvedPost.firstHeader
+      ? resolvedPost.firstHeader.slice(0, 50) +
+        (resolvedPost.firstHeader.length > 50 ? "..." : "")
+      : "";
+    return firstHeaderPreview
+      ? `${firstHeaderPreview} | ${title_core}`
+      : `${title_core} | ${site_title}`;
+  }, [resolvedPost.firstHeader, title_core]);
   return (
     <Layout
       meta={{
-        ...retainStringValues(post, ["content", "fullPath"]),
+        ...retainStringValues(resolvedPost, ["content", "fullPath"]),
         title,
-        "og:url": "/" + post.slug.join("/"),
+        "og:url": "/" + resolvedPost.slug.join("/"),
       }}
-      toc={post?.toc}
+      toc={resolvedPost?.toc}
       tocList={mergedTocList ?? undefined}
-      path={router.asPath.replace(/#.*/, "")}
+      path={pathBase}
       allPosts={siblingPosts}
       currentLanguage={currentLanguage}
       posts={posts}
-      post={post}
+      post={resolvedPost}
       siteSection={siteSection}
       title={title}
       prevPage={prevPage}
@@ -110,10 +119,10 @@ const Post = ({
         {/* Navigation links */}
         {(nextPage !== null || prevPage !== null) && (
           <div className="w-full flex justify-center mt-2 items-center space-x-8">
-            {post.firstSiblingSlug !== undefined &&
-            post.firstSiblingSlug !== post.slug.join("/") ? (
+            {resolvedPost.firstSiblingSlug !== undefined &&
+            resolvedPost.firstSiblingSlug !== resolvedPost.slug.join("/") ? (
               <Link
-                href={"/" + post.firstSiblingSlug}
+                href={"/" + resolvedPost.firstSiblingSlug}
                 className="text-brown-400 hover:text-brown-600 transition-colors"
               >
                 <FontAwesomeIcon className="w-6" icon={faBackwardFast} />
@@ -145,7 +154,7 @@ const Post = ({
           </div>
         )}
         
-        {state.galleryShown && post.slug[1] === siteSection && (
+        {state.galleryShown && resolvedPost.slug[1] === siteSection && (
           <ImageGallery
             additionalClass="fullpage"
             items={images}
@@ -163,7 +172,7 @@ const Post = ({
         )}
 
         <PostBody
-          post={{ ...post, title: title_core }}
+          post={{ ...resolvedPost, title: title_core }}
           state={state}
           setState={setState}
           hasToc={hasToc}

@@ -1,13 +1,13 @@
-import { useRouter } from 'next/router'
-import { useEffect } from 'react'
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 
-const Index = () => {
-  const router = useRouter()
+function Index() {
+  const router = useRouter();
   useEffect(() => {
-    router.push('/en/welcome')
-  }, [])
+    router.replace("/en/welcome");
+  }, [router]);
 
-  return <div />
+  return null;
 }
 
-export default Index
+export default Index;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useMemo, useCallback } from "react";
 import Footer from "./footer";
 import Meta from "./meta";
 import { debounce } from "../lib/utils";
@@ -47,29 +47,27 @@ const Layout = ({
   const router = useRouter();
 
   const articleRef = useRef<HTMLElement>(null);
-
   const [isVisible, setIsVisible] = useState(false);
 
-  const checkScrollTop = debounce(() => {
-    setIsVisible((articleRef.current?.scrollTop ?? 0) > 60);
-  }, 100);
+  const checkScrollTop = useMemo(
+    () =>
+      debounce(() => {
+        setIsVisible((articleRef.current?.scrollTop ?? 0) > 60);
+      }, 100),
+    []
+  );
 
-  // Function to handle the click event
-  const scrollToTop = () => {
+  const scrollToTop = useCallback(() => {
     articleRef.current?.scrollTo({ top: 0, behavior: "smooth" });
     setIsVisible(false);
-  };
+  }, []);
 
   useEffect(() => {
     const articleElement = articleRef.current;
-    if (articleElement) {
-      articleElement.addEventListener("scroll", checkScrollTop);
-
-      return () => {
-        articleElement.removeEventListener("scroll", checkScrollTop);
-      };
-    }
-  }, []);
+    if (!articleElement) return;
+    articleElement.addEventListener("scroll", checkScrollTop);
+    return () => articleElement.removeEventListener("scroll", checkScrollTop);
+  }, [checkScrollTop]);
 
   useEffect(() => {
     const handleRouteChange = (url: string) => {

@@ -1,12 +1,13 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-const Post = () => {
+function ArticlesRedirect() {
   const router = useRouter();
   useEffect(() => {
     router.replace("/en" + router.asPath);
-  }, []);
-  return <div />;
-};
+  }, [router]);
 
-export default Post;
+  return null;
+}
+
+export default ArticlesRedirect;

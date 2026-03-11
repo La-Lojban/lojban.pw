@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useEffect, useRef } from "react";
 
 /**
  * Custom 404 page. On static export (pnpm start, GitHub Pages) next.config.js
@@ -11,10 +11,11 @@ import { useEffect, useState } from "react";
  */
 export default function Custom404() {
   const router = useRouter();
-  const [done, setDone] = useState(false);
+  const didRun = useRef(false);
 
   useEffect(() => {
-    if (typeof window === "undefined" || done) return;
+    if (typeof window === "undefined" || didRun.current) return;
+    didRun.current = true;
     const pathname = window.location.pathname.replace(/\/$/, "");
     const search = window.location.search;
     const hash = window.location.hash;
@@ -25,12 +26,9 @@ export default function Custom404() {
       const [, lang, book, chapter] = bookChapterMatch;
       const target = `${lang}/books/${book}/${chapter}/${search}${hash}`;
       router.replace(target);
-      setDone(true);
       return;
     }
-
-    setDone(true);
-  }, [router, done]);
+  }, [router]);
 
   return (
     <div style={{ padding: "2rem", textAlign: "center" }}>

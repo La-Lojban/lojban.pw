@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import PostPreview from "./post-preview";
 import { TPost } from "../types/post";
 
@@ -6,44 +7,51 @@ type Props = {
   lang?: string;
 };
 
-const AllStories = ({ posts, lang }: Props) => {
-  const groupedPosts = posts.reduce(
-    function (acc, post) {
-      const directory =
-        post.slug.slice(0, post.slug.length - 1).join("/") ?? "";
-      acc[directory] = acc[directory] ?? [];
-      acc[directory].push(post);
-      return acc;
-    },
-    {} as { [key: string]: TPost[] }
+const sortByContentLength = (a: TPost, b: TPost) =>
+  (b.contentLength ?? 0) - (a.contentLength ?? 0);
+
+function AllStories({ posts, lang }: Props) {
+  const groupedPosts = useMemo(
+    () =>
+      posts.reduce((acc, post) => {
+        const directory =
+          post.slug.slice(0, post.slug.length - 1).join("/") ?? "";
+        if (!acc[directory]) acc[directory] = [];
+        acc[directory].push(post);
+        return acc;
+      }, {} as { [key: string]: TPost[] }),
+    [posts]
   );
 
-  if (Object.keys(groupedPosts).length === 1) {
-    return Object.keys(groupedPosts).map((key) => (
+  const orderedKeys = useMemo(() => {
+    const keys = Object.keys(groupedPosts);
+    if (keys.length === 1) return keys;
+    const current = keys
+      .filter((key) => key === lang || key.startsWith(`${lang}/`))
+      .sort();
+    const rest = keys
+      .filter((key) => key !== lang && !key.startsWith(`${lang}/`))
+      .sort();
+    return [...current, ...rest];
+  }, [groupedPosts, lang]);
+
+  if (orderedKeys.length === 1) {
+    const key = orderedKeys[0];
+    const sorted = [...(groupedPosts[key] ?? [])].sort(sortByContentLength);
+    return (
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-16 lg:gap-x-20 gap-y-8">
-        {groupedPosts[key]
-          .sort((post1, post2) =>
-            (post1.contentLength ?? 0) > (post2.contentLength ?? 0) ? -1 : 1
-          )
-          .map((post) => (
-            <PostPreview key={post.slug.join("~")} post={post} />
-          ))}
+        {sorted.map((post) => (
+          <PostPreview key={post.slug.join("~")} post={post} />
+        ))}
       </div>
-    ))[0];
+    );
   }
-  const twoParts = [
-    Object.keys(groupedPosts)
-      .filter((key) => key === lang || key.indexOf(`${lang}/`) === 0)
-      .sort(),
-    Object.keys(groupedPosts)
-      .filter((key) => key !== lang && key.indexOf(`${lang}/`) !== 0)
-      .sort(),
-  ];
+
   return (
     <div className="listing">
-      {twoParts.flat().map((key, index) => (
+      {orderedKeys.map((key) => (
         <div
-          key={`section_${index}`}
+          key={key}
           className="mb-3 w-full border border-gray-200 rounded-lg shadow"
         >
           <div
@@ -51,7 +59,7 @@ const AllStories = ({ posts, lang }: Props) => {
             role="tablist"
           >
             <div
-              id={`${key}`}
+              id={key}
               className="select-none mx-3 my-1 capitalize inline-block text-gray-500 border-gray-100 hover:border-gray-300"
             >
               <span>{key}</span>
@@ -67,12 +75,8 @@ const AllStories = ({ posts, lang }: Props) => {
               aria-labelledby="about-tab"
             >
               <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-8 gap-y-4">
-                {groupedPosts[key]
-                  .sort((post1, post2) =>
-                    (post1.contentLength ?? 0) > (post2.contentLength ?? 0)
-                      ? -1
-                      : 1
-                  )
+                {[...(groupedPosts[key] ?? [])]
+                  .sort(sortByContentLength)
                   .map((post) => (
                     <PostPreview key={post.slug.join("~")} post={post} />
                   ))}
@@ -83,6 +87,6 @@ const AllStories = ({ posts, lang }: Props) => {
       ))}
     </div>
   );
-};
+}
 
 export default AllStories;
