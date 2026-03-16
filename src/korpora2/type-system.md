@@ -1,10 +1,10 @@
 ## Gismu place type system
 
-This file specifies a type system for annotating gismu places in `formal-gismu.tsv`, written in a style similar to TypeScript or Rust type definitions.
+This document specifies a type system for annotating gismu places in `formal-gismu.tsv`, written in a style similar to TypeScript or Rust type definitions.
 
-Each place \(x_1, x_2, …\) in a definition is immediately followed by its type in parentheses, for example:
+Each place \(x₁, x₂, …\) in a definition is immediately followed by its type in parentheses, for example:
 
-`x_1 (Entity) does x_2 (Event) to x_3 (Entity)`
+`x₁ (Entity) does x₂ (Event) to x₃ (Entity)`
 
 In the TSV we still use human‑readable phrases like `set of Entity`, but conceptually these are instances of generic type constructors such as `Set<Entity>`.
 
@@ -59,7 +59,7 @@ type Standard extends Idea<unknown> // si'o used specifically as a normative or 
 - **Proposition<T>**: truth‑evaluated content (`du'u`), e.g. what is believed, known, claimed. In the TSV we write **proposition (du'u)**.
 - **Idea<T>**: conceptualization or mental image (`si'o`) not tied to numeric measurement.
 - **Scale<T>**: `si'o` used as a scale for measuring values of type `T`. For example, a temperature scale might be `Scale<Property<Entity>>`.
-- **Standard**: special case of `si'o` used as a **standard, norm, benchmark, reference frame, or measurement standard** (“by standard …”). In `formal-gismu.tsv` we normally render this as `x_n (si'o, Standard)`. It can cover both:
+- **Standard**: special case of `si'o` used as a **standard, norm, benchmark, reference frame, or measurement standard** (“by standard …”). In `formal-gismu.tsv` we normally render this as `xₙ (si'o, Standard)`. It can cover both:
   - *normative* standards (cultural, moral, aesthetic, etc.), and
   - *measurement* standards (unit systems, reference expectations, etc.),
   whenever the original gismu says “by standard …”, “as compared with standard …”, or “in standard …`.
@@ -83,9 +83,9 @@ type Group<T>    // mass / collective of T (loi)
 
 When annotating a place, we instantiate these:
 
-- `x_2 (set of Entity)` ⇔ `x_2: Set<Entity>`
-- `x_3 (sequence of Text)` ⇔ `x_3: Sequence<Text>`
-- `x_1 (group of Entity)` ⇔ `x_1: Group<Entity>`
+- `x₂ (set of Entity)` ⇔ `x₂: Set<Entity>`
+- `x₃ (sequence of Text)` ⇔ `x₃: Sequence<Text>`
+- `x₁ (group of Entity)` ⇔ `x₁: Group<Entity>`
 
 ---
 
@@ -106,21 +106,21 @@ Where:
 Examples:
 
 - **Property<Entity>**: property of a single argument, commonly written in TSV as **property of x₁ (ka)**.
-- **Two-argument “property of x₁ and x₂”**: this is in fact a relation between two places; in TSV we use **Relation<x_i, x_j>** (see below), not “property of x₁ and x₂”.
+- **Two-argument “property of x₁ and x₂”**: this is in fact a relation between two places; in TSV we use **Relation<xᵢ, xⱼ>** (see below), not “property of x₁ and x₂”.
 - **Amount<Entity>**: quantitative `ni` abstract over one argument, TSV: **amount of x₁ (ni)**.
 - **Relation<Args>**: a relation over two or more arguments. **Relation is not a subtype of Property (ka)**; it is its own type. In TSV we use one of three strict flavors:
 
   1. **Relation of members of xᵢ** — the relation holds among elements of the set (or sequence/group) given by argument xᵢ. Use when the place is “the relation among the members of [some set argument]”.
      - Conceptually: the relation’s domain is the set of members of xᵢ.
-     - TSV (strict, TypeScript-like): `Relation<members of x_i>`.
+     - TSV (strict, TypeScript-like): `Relation<members of xᵢ>`.
 
   2. **Relation of xᵢ and xⱼ** (and optionally more) — the relation holds between (or among) the specific arguments listed. Use when the place is “the relation between xᵢ and xⱼ”.
      - Conceptually: `Relation<[T_i, T_j]>` where the types match those of the listed places.
-     - TSV (strict, TypeScript-like): `Relation<x_i, x_j>` or `Relation<x_i, x_j, x_k>`.
+     - TSV (strict, TypeScript-like): `Relation<xᵢ, xⱼ>` or `Relation<xᵢ, xⱼ, xₖ>`.
 
   3. **Relation of each pair of members of xᵢ** — xᵢ is a Set (or collection), and the place is a binary relation that holds between each pair of (distinct) members of xᵢ. Use when the predicate is about a mutual or pairwise relation over a set.
      - Conceptually: a relation on the set xᵢ, i.e. pairs of members of xᵢ.
-     - TSV (strict, TypeScript-like): `Relation<Pair<members of x_i>>`.
+     - TSV (strict, TypeScript-like): `Relation<Pair<members of xᵢ>>`.
 
 In English glosses, phrases like “activity of x₁” or “role of x₂” are always modeled as `Property<…>` over the appropriate argument(s); there is no separate `Activity` base type.
 
@@ -153,12 +153,12 @@ Several semantic roles are common enough that we standardize their shape:
   }
   ```
 
-  In TSV we usually flatten this, e.g. `x_1 (Entity) is x_2 (Number) units on scale x_3 (scale of property of x_1)`.
+  In TSV we usually flatten this, e.g. `x₁ (Entity) is x₂ (Number) units on scale x₃ (scale of property of x₁)`.
 
 For **comparisons** (equality, excess, less‑than), the predicate is generic in a single type parameter `T`; both compared places have type `T`:
 
 ```ts
-// Both x_1 and x_2 have type T (e.g. Entity, or Entity | Amount<Entity>)
+// Both x₁ and x₂ have type T (e.g. Entity, or Entity | Amount<Entity>)
 type ComparablePair<T> = [T, T]
 type Equal<T> = ComparablePair<T>       // dunli
 type LessThan<T> = ComparablePair<T>   // mleca
@@ -168,15 +168,15 @@ type Excess<T> = ComparablePair<T>     // dukse, zmadu
 In TSV we use a **prenex** to declare the type parameter, then use **`T`** in both compared places:
 
 - **Prenex**: at the start of the definition, declare **`T`** with its constraint, e.g. **`T: Entity.`** or **`T: Entity or Amount<Entity>.`** (read as “T is a type, constrained to Entity” / “T is Entity or Amount&lt;Entity>”).
-- **Places**: **x_1 (T)** and **x_2 (T)** — both refer to the same `T` declared in the prenex.
+- **Places**: **x₁ (T)** and **x₂ (T)** — both refer to the same `T` declared in the prenex.
 
-Example: `T: Entity. x_1 (T) is equal or congruent to x_2 (T) in …` (dunli); `T: Entity or Amount<Entity>. x_1 (T) is less than x_2 (T) in …` (mleca). This matches a TypeScript-style generic with a single type parameter `<T>` and an optional constraint.
+Example: `T: Entity. x₁ (T) is equal or congruent to x₂ (T) in …` (dunli); `T: Entity or Amount<Entity>. x₁ (T) is less than x₂ (T) in …` (mleca). This matches a TypeScript-style generic with a single type parameter `<T>` and an optional constraint.
 
-- **Metric and dimensional gismu** (centi, zepti, mitre, minli, clani, rotsu, etc.): These predicates have a specific notion of **dimension** or **aspect** in which something is measured or compared. That dimension is always typed as **ka, Property of the entity being measured** (typically x_1).
-  - **SI prefix / scale gismu** (centi, zepti, gigdo, kilto, decti, dekto, milti, mikri, …): x_1 (Entity) is the entity measured; **x_2 (ka, Property of x_1)** and **x_3 (ka, Property of x_1)** are both properties of x_1 (e.g. the property in which the scale applies, and the dimension). No prenex; x_2 is a property of x_1, not a “reference entity”. Example: “The insect is 1 centimeter long” → the insect (x_1) is 10^-2 in property x_2 (ka, Property of x_1) in dimension x_3 (ka, Property of x_1, e.g. clani).
-  - **Unit gismu** (mitre, minli, gutci, dekpu): x_1 (Entity) is x_2 (Number) [units] in **dimension x_3 (ka, Property of x_1)** by standard x_4 (si'o, Standard); optional subunits as x_5. So the “in what respect” slot is always **(ka, Property of x_1)**, not Entity or Number.
-  - **Dimension adjectives** (clani, rotsu, tordu, condi, ganra, barda): x_1 (Entity) is long/thick/short/deep/wide/big in **dimension or direction x_2 (ka, Property of x_1)** (default e.g. longest dimension) by standard x_3 (si'o, Standard) when present.
-  - Non-SI units (minli “mile”, gutci “short distance units”, degygutci “inches”, jmagutci “feet”, etc.) follow the same pattern: dimension = (ka, Property of x_1).
+- **Metric and dimensional gismu** (centi, zepti, mitre, minli, clani, rotsu, etc.): These predicates have a specific notion of **dimension** or **aspect** in which something is measured or compared. That dimension is always typed as **ka, Property of the entity being measured** (typically x₁).
+  - **SI prefix / scale gismu** (centi, zepti, gigdo, kilto, decti, dekto, milti, mikri, …): x₁ (Entity) is the entity measured; **x₂ (ka, Property of x₁)** and **x₃ (ka, Property of x₁)** are both properties of x₁ (e.g. the property in which the scale applies, and the dimension). No prenex; x₂ is a property of x₁, not a “reference entity”. Example: “The insect is 1 centimeter long” → the insect (x₁) is 10^-2 in property x₂ (ka, Property of x₁) in dimension x₃ (ka, Property of x₁, e.g. clani).
+  - **Unit gismu** (mitre, minli, gutci, dekpu): x₁ (Entity) is x₂ (Number) [units] in **dimension x₃ (ka, Property of x₁)** by standard x₄ (si'o, Standard); optional subunits as x₅. So the “in what respect” slot is always **(ka, Property of x₁)**, not Entity or Number.
+  - **Dimension adjectives** (clani, rotsu, tordu, condi, ganra, barda): x₁ (Entity) is long/thick/short/deep/wide/big in **dimension or direction x₂ (ka, Property of x₁)** (default e.g. longest dimension) by standard x₃ (si'o, Standard) when present.
+  - Non-SI units (minli “mile”, gutci “short distance units”, degygutci “inches”, jmagutci “feet”, etc.) follow the same pattern: dimension = (ka, Property of x₁).
 
 ---
 
@@ -187,28 +187,28 @@ Example: `T: Entity. x_1 (T) is equal or congruent to x_2 (T) in …` (dunli); `
   - Column 2: `definition` – a single English sentence with all places in order, each annotated with its type rendered in a compact textual form.
 
 - **Place annotation rules**:
-  - Every place `x_n` must, at its first mention, be followed by a parenthesized type phrase that corresponds to one of the type shapes above.
+  - Every place `xₙ` must, at its first mention, be followed by a parenthesized type phrase that corresponds to one of the type shapes above.
   - For abstractors, we always put the Lojban abstractor name first, then the English type, for example:
-    - `x_1 (Entity)`
-    - `x_2 (nu, Event)`
-    - `x_3 (du'u, Proposition)`
-    - `x_4 (ka, Property of x_1)`
-    - `x_2 (ni, Amount of x_1)`
-    - `x_3 (si'o, Scale of property of x_1)`
-    - `x_2 (Set<Entity>)` → rendered as `x_2 (set of Entity)`
-    - `x_3 (Sequence<Text>)` → rendered as `x_3 (sequence of Text)`
-    - `x_1 (Group<Entity>)` → rendered as `x_1 (group of Entity)`
-    - Relation: use exactly one of the TypeScript-like forms `Relation<members of x_i>`, `Relation<x_i, x_j>`, or `Relation<Pair<members of x_i>>`.
-    - Comparison (dunli, mleca, zmadu, dukse): add a **prenex** that declares **T** (e.g. **`T: Entity.`** or **`T: Entity or Amount<Entity>.`**), then write **x_1 (T)** and **x_2 (T)** in the definition.
-    - Dimension / measurement (centi, mitre, minli, clani, rotsu, tordu, etc.): the “in what dimension or aspect” place is always **(ka, Property of x_1)** (or of the measured entity). For SI prefix gismu (centi, zepti, gigdo, …): **x_1 (Entity)**, **x_2 (ka, Property of x_1)**, **x_3 (ka, Property of x_1)** — both x_2 and x_3 are properties of x_1.
-  - Later mentions of the same `x_n` in that definition need not repeat the type.
+    - `x₁ (Entity)`
+    - `x₂ (nu, Event)`
+    - `x₃ (du'u, Proposition)`
+    - `x₄ (ka, Property of x₁)`
+    - `x₂ (ni, Amount of x₁)`
+    - `x₃ (si'o, Scale of property of x₁)`
+    - `x₂ (Set<Entity>)` → rendered as `x₂ (set of Entity)`
+    - `x₃ (Sequence<Text>)` → rendered as `x₃ (sequence of Text)`
+    - `x₁ (Group<Entity>)` → rendered as `x₁ (group of Entity)`
+    - Relation: use exactly one of the TypeScript-like forms `Relation<members of xᵢ>`, `Relation<xᵢ, xⱼ>`, or `Relation<Pair<members of xᵢ>>`.
+    - Comparison (dunli, mleca, zmadu, dukse): add a **prenex** that declares **T** (e.g. **`T: Entity.`** or **`T: Entity or Amount<Entity>.`**), then write **x₁ (T)** and **x₂ (T)** in the definition.
+    - Dimension / measurement (centi, mitre, minli, clani, rotsu, tordu, etc.): the “in what dimension or aspect” place is always **(ka, Property of x₁)** (or of the measured entity). For SI prefix gismu (centi, zepti, gigdo, …): **x₁ (Entity)**, **x₂ (ka, Property of x₁)**, **x₃ (ka, Property of x₁)** — both x₂ and x₃ are properties of x₁.
+  - Later mentions of the same `xₙ` in that definition need not repeat the type.
 
 - **Abstractors**:
   - If the source place is primarily `nu`‑like, annotate as `(nu, Event)`.
   - If it is primarily `du'u`‑like, annotate as `(du'u, Proposition)`.
-  - If it is explicitly `ka`, annotate as `(ka, Property of …)` for one argument; for a relation between two (or more) places use `(ka, Relation<x_i, x_j>)` (or more args), not “property of x_i and x_j”.
+  - If it is explicitly `ka`, annotate as `(ka, Property of …)` for one argument; for a relation between two (or more) places use `(ka, Relation<xᵢ, xⱼ>)` (or more args), not "property of xᵢ and xⱼ".
   - If it is explicitly `ni`, annotate as `(ni, Amount of …)`.
-  - If it is explicitly `si'o` as scale, annotate as `(si'o, Scale of …)` or `(si'o, Scale of property of x_i)`.
+  - If it is explicitly `si'o` as scale, annotate as `(si'o, Scale of …)` or `(si'o, Scale of property of xᵢ)`.
   - If the original just says “abstraction” and multiple abstractors are plausible, we may describe the place as “Abstraction: (nu, Event) or (du'u, Proposition)” or similar.
 
 ---
@@ -244,10 +244,9 @@ This type system refines those ideas as follows:
   - `Proposition` (old “proposition/du'u`”).
   The choice is driven by the verb’s semantics and by the old documentation (e.g. `djuno` uses `Proposition`, `nicte` uses `Event`).
 - **Property**: the old “property” places (marked with `ka` and explained via `ce'u`) correspond to `Property<Args>` here. In TSV they are rendered as “property of xᵢ (ka)” or “property of xᵢ and xⱼ (ka)`, with `ce'u` binding rules given in the dictionary text.
-  - When a place is glossed as an *action, activity, role or behaviour* **of a specific participant**, we model it primarily as a `ka`‑property of that participant (e.g. “action of x₁”, “activity of x₃”), not as a standalone event type. In TSV this shows up as patterns like `x_2 (ka, Property of x_3 or nu, Event)`. Typical examples are motives/goals (`mukti`, `zukte`), bravery in some activity (`virnu`), laziness about doing something (`lazni`), or influence into an action/state (`xlura`), where the core semantic object is “what this participant does/is like”, i.e. a property.
+  - When a place is glossed as an *action, activity, role or behaviour* **of a specific participant**, we model it primarily as a `ka`‑property of that participant (e.g. “action of x₁”, “activity of x₃”), not as a standalone event type. In TSV this shows up as patterns like `x₂ (ka, Property of x₃ or nu, Event)`. Typical examples are motives/goals (`mukti`, `zukte`), bravery in some activity (`virnu`), laziness about doing something (`lazni`), or influence into an action/state (`xlura`), where the core semantic object is “what this participant does/is like”, i.e. a property.
 - **Number**: unchanged, now the `Number` base type.
 - **Group / ordered group**: the old “group” and “ordered group” annotations map directly to `Group<T>` and `Sequence<T>` respectively and are rendered as “group of T” / “sequence of T”.
 - **Proposition**: the old “proposition” sub‑type of “clause” is now always annotated as `Proposition` (du'u), typically for epistemic, reportive, or logical predicates (`djuno`, `jetnu`, `jitfa`, `natfe`).
 
 All examples and explanations in the original typed‑gismu documentation (including `ka` + `ce'u`, `kau`, `tu'a`, and `zo'ei`) remain valid; this file just gives them a more explicit, generic type‑theoretic shape for use in `formal-gismu.tsv`.
-
