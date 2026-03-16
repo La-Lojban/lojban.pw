@@ -18,6 +18,10 @@ RUN apt-get update && apt-get install -y \
     fonts-noto-color-emoji \
     fonts-freefont-ttf
 
+# Install Node.js 24 (app and CI use Node 24)
+RUN curl -fsSL https://deb.nodesource.com/setup_24.x | bash - \
+    && apt-get install -y nodejs
+
 # Cleanup to reduce image size
 RUN apt-get autoclean && rm -rf /var/lib/apt/lists/*
 
@@ -27,16 +31,3 @@ RUN npm install -g pnpm@9
 # Create workspace
 RUN mkdir -p /app/src
 WORKDIR /app/src
-
-# Optionally, copy package.json and pnpm-lock.yaml if you want to install pnpm dependencies
-# COPY package.json pnpm-lock.yaml ./
-# RUN pnpm install
-
-# Optionally, copy application source code
-# COPY . .
-
-# Expose necessary ports
-# EXPOSE 3000
-
-# Command to run your application (modify as per your application)
-# CMD ["node", "app.js"]

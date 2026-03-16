@@ -22,6 +22,7 @@ permissions:
 env:
   TAG_NAME: ${{ github.sha }}
   DOCKER_BUILDKIT: 1  # Enable BuildKit for faster builds
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Opt into Node.js 24 (Node 20 deprecated on runners)
 
 jobs:
   build:
@@ -46,7 +47,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '20'
+        node-version: '24'
 
     - name: Cache Playwright browsers
       uses: actions/cache@v4
@@ -110,6 +111,9 @@ jobs:
                    -e CI=true \
                    lojban:latest \
                    sh -c "${INSTALL_CMD}pnpm cicd && node scripts/algolia-index.js"
+
+    - name: Fix artifact permissions
+      run: sudo chown -R $USER:$USER /output
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
