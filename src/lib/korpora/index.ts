@@ -7,6 +7,7 @@ import archiver from "archiver";
 import { sluggify } from "../html-prettifier/slugger";
 import { languages } from "../../config/locales.json";
 import {
+  getCwd,
   getMdPagesPath,
   getPublicAssetsPath,
   getStylesPath,
@@ -14,9 +15,9 @@ import {
 
 const allLanguages = Object.keys(languages);
 
-/** Directory in repo containing korpora2 assets (formal-gismu.tsv, type-system.md). */
+/** Directory containing korpora2 assets (formal-gismu.tsv, type-system.md). Lives under src/ so Docker mount of src finds it. */
 function getKorpora2Dir(): string {
-  return path.join(path.dirname(getMdPagesPath()), "korpora2");
+  return path.join(getCwd(), "korpora2");
 }
 const MAX_CONCURRENT_TASKS = 20;
 const TSV_FOLDER_NAME = "korpora-tsv";
