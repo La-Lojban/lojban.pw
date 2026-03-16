@@ -13,6 +13,11 @@ import {
 } from "../paths";
 
 const allLanguages = Object.keys(languages);
+
+/** Directory in repo containing korpora2 assets (formal-gismu.tsv, type-system.md). */
+function getKorpora2Dir(): string {
+  return path.join(path.dirname(getMdPagesPath()), "korpora2");
+}
 const MAX_CONCURRENT_TASKS = 20;
 const TSV_FOLDER_NAME = "korpora-tsv";
 const tsvOutputDir = path.join(getPublicAssetsPath(), TSV_FOLDER_NAME);
@@ -157,6 +162,94 @@ async function createTsvZip(): Promise<string | null> {
 
     archive.finalize();
   });
+}
+
+const FORMAL_GISMU_SLUG = "formal-gismu";
+
+async function writeFormalGismuPage(): Promise<void> {
+  const korpora2Dir = getKorpora2Dir();
+  const tsvPath = path.join(korpora2Dir, "dictionaries", "formal-gismu.tsv");
+  const preamblePath = path.join(korpora2Dir, "type-system.md");
+
+  if (!fs.existsSync(tsvPath) || !fs.existsSync(preamblePath)) {
+    console.log(
+      "formal-gismu: skipped (missing " +
+        (fs.existsSync(tsvPath) ? "type-system.md" : "formal-gismu.tsv") +
+        " at " +
+        korpora2Dir +
+        ")"
+    );
+    return;
+  }
+
+  const preamble = fs.readFileSync(preamblePath, "utf-8").trim();
+  const tsvRaw = fs.readFileSync(tsvPath, "utf-8");
+  const lines = tsvRaw.split(/\r?\n/).filter((line) => line.trim().length > 0);
+  if (lines.length < 2) {
+    console.log("formal-gismu: skipped (TSV has no data rows)");
+    return;
+  }
+
+  const headers = lines[0].split("\t").map((h) => h.trim());
+  const rows = lines.slice(1).map((row) => {
+    const firstTab = row.indexOf("\t");
+    const cell0 = firstTab < 0 ? row.trim() : row.slice(0, firstTab).trim();
+    const cell1 = firstTab < 0 ? "" : row.slice(firstTab + 1).trim();
+    return [cell0, cell1];
+  });
+
+  const tableRows = rows
+    .map(
+      (cells) =>
+        `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100">
+  <td class="font-bold p-2 align-text-top">${escapeHtml(cells[0])}</td>
+  <td class="text-left align-text-top p-2 max-w-2xl">${escapeHtml(cells[1])}</td>
+</tr>`
+    )
+    .join("\n");
+
+  const tableHtml = `<div class="w-full overflow-x-auto">
+<table class="mt-2 table-fixed max-w-full border font-light text-left text-sm">
+  <thead class="border-b italic">
+    <tr>
+      <th scope="col" class="w-32 p-2">${escapeHtml(headers[0])}</th>
+      <th scope="col" class="p-2">${escapeHtml(headers[1])}</th>
+    </tr>
+  </thead>
+  <tbody>
+${tableRows}
+  </tbody>
+</table>
+</div>`;
+
+  const contentFull = preamble + "\n\n" + tableHtml;
+
+  const mdPagesPath = getMdPagesPath();
+  const langInfo = languages as Record<string, { native?: string; short: string }>;
+  const title = "Formal gismu";
+
+  for (const lang of allLanguages) {
+    const langedDirectoryRoot = path.join(mdPagesPath, langInfo[lang]?.short ?? lang);
+    const langedDirectory = path.join(langedDirectoryRoot, "texts");
+    if (!fs.existsSync(langedDirectoryRoot)) continue;
+    fs.mkdirSync(langedDirectory, { recursive: true });
+    const filepathMd = path.join(langedDirectory, FORMAL_GISMU_SLUG + ".md");
+
+    const graymatter = [
+      { key: "title", value: title },
+      { key: "meta.type", value: "korpora" },
+      { key: "meta.description", value: "Gismu definitions with place type annotations and type system preamble." },
+    ];
+    const frontmatter = `---
+${graymatter.map(({ key, value }) => `${key}: ${value}`).join("\n")}
+---
+
+${contentFull}`;
+
+    fs.writeFileSync(filepathMd, frontmatter);
+  }
+
+  console.log("generated formal-gismu corpus entry");
 }
 
 async function writeTsvIndexFile(): Promise<void> {
@@ -573,5 +666,6 @@ async function processTitlesInParallel<T, R>(
   );
 
   await writeTsvIndexFile();
+  await writeFormalGismuPage();
 })();
 
