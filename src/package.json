@@ -33,7 +33,7 @@
     "date-fns": "^4.1.0",
     "html-react-parser": "^5.2.10",
     "jsdom": "^25.0.1",
-    "next": "^16.1.5",
+    "next": "^16.1.7",
     "node-html-parser": "^7.1.0",
     "nprogress": "^0.2.0",
     "react": "^19",
