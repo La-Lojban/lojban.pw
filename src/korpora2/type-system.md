@@ -1,12 +1,6 @@
 ## Gismu place type system
 
-This document specifies a type system for annotating gismu places in `formal-gismu.tsv`, written in a style similar to TypeScript or Rust type definitions.
-
-Each place \(x₁, x₂, …\) in a definition is immediately followed by its type in parentheses, for example:
-
-`x₁ (Entity) does x₂ (Event) to x₃ (Entity)`
-
-In the TSV we still use human‑readable phrases like `set of Entity`, but conceptually these are instances of generic type constructors such as `Set<Entity>`.
+This document specifies how **`dictionaries/formal-gismu.tsv`** annotates gismu places with **TypeScript-like** types. **`dictionaries/gismu.tsv`** is the **official** dictionary (definitions, places, rafsi, notes); typed English in the TSV is layered on top of those glosses.
 
 ---
 
@@ -21,232 +15,143 @@ type Organism extends Entity
 type Location extends Entity
 type Language extends Entity
 type Taxon
-type Text
+type Textit
+type Symbol extends Entity
+type GrammarStructure extends Entity
 type Sound
 type Number
 type TimeInterval
 ```
 
-- **Entity**: generic individual – person, object, place, institution, language, organism, etc. Default for “thing‑like” places.
-- **Object**: physical entity; used when the definition clearly implies physicality and this contrast is useful.
-- **Organism**: living being (animal, plant, microbe). Often we still annotate with **Entity** for simplicity.
-- **Location**: spatial region, place, site, address, etc.; a specialized **Entity** used where place‑ness matters.
-- **Language**: human or constructed language (e.g. Lojban, English, Mandarin). Used for places that are explicitly “language” rather than generic entities.
-- **Taxon**: species / breed / strain / genus / variety descriptor.
-- **Text**: string, written form, sentence, name, title, dictionary entry, etc.
-- **Sound**: non‑propositional acoustic event (voice, noise, tone, animal cry).
-- **Number**: numeric value, cardinal, measure, or mathematical result.
-- **TimeInterval**: span of time considered as an object (elapsed time) distinct from any particular event.
+- **Entity**: default for “thing-like” places (person, object, place, institution, language, organism, …).
+- **Object** / **Organism** / **Location** / **Language**: use when the definition needs that contrast.
+- **Taxon**: taxon-like designation (species, breed, cultivar, …), usually a **name or label**. The same slot may allow **`Taxon | Set<T>`** (with prenex **`x₁: T, T extends Organism`** or similar): **nominal** taxon vs **descriptive** unary-`ka` over the bearer. Further sumti kinds from **`gismu.tsv`** may add **`Entity`**, **`Group<Organism>`**, etc.
+- **Text**: strings, sentences, narrative wording, dictionary entries, …
+- **Symbol**: inscription-level unit (glyph, lerfu, me'o form, …)—the **form**, not only the abstract referent. **Text** often stands metonymically for **Symbol**; use **`Symbol | Text`** (or **`Entity | Symbol | Text`**) when both readings are licensed.
+- **GrammarStructure**: phrase or template in grammar talk (e.g. **gadri** x₂); **`GrammarStructure | Text | Symbol`** when the gloss is “(text)” but the role is structural.
+- **Sound**, **Number**, **TimeInterval**: as named.
 
-In `formal-gismu.tsv` these appear as `Entity`, `Object`, `Location`, etc. inside the parentheses after each place.
+In the TSV these appear as `Entity`, `Organism`, `Taxon | Set<T>`, etc. after each place.
 
 ---
 
 ### 2. Abstractors as type constructors
 
-Abstractors correspond to type constructors over some underlying content:
+Abstractors map to English-named constructors (do **not** prefix parenthetical types with `nu`, `ka`, `du'u`, … in the TSV):
 
 ```ts
-type Event<T = unknown>        // nu T
-type Proposition<T = unknown>  // du'u T
-type Idea<T = unknown>         // si'o T
-type Scale<T = unknown>        // si'o used as a measurement scale
-type Abstraction<T = unknown>  // generic nu/ka/ni/si'o/du'u when not pinned down
-type Standard extends Idea<unknown> // si'o used specifically as a normative or measurement standard
+type Event<T = unknown>        // nu
+type Proposition<T = unknown>  // du'u
+type Idea<T = unknown>         // si'o (non-measurement)
+type Scale<T = unknown>        // si'o as measurement scale
+type Abstraction<T = unknown>  // when not pinned down
+type Standard extends Idea<unknown>  // norm / measurement standard (“by standard …”)
 ```
 
-- **Event<T>**: reified occurrence, process, action, or state (`nu`). Used for “event / state / process” unless the gismu is explicitly about propositions or properties. In the TSV we normally just write **event (nu)**.
-- **Proposition<T>**: truth‑evaluated content (`du'u`), e.g. what is believed, known, claimed. In the TSV we write **proposition (du'u)**.
-- **Idea<T>**: conceptualization or mental image (`si'o`) not tied to numeric measurement.
-- **Scale<T>**: `si'o` used as a scale for measuring values of type `T`. For example, a temperature scale might be `Scale<Property<Entity>>`.
-- **Standard**: special case of `si'o` used as a **standard, norm, benchmark, reference frame, or measurement standard** (“by standard …”). In `formal-gismu.tsv` we normally render this as `xₙ (si'o, Standard)`. It can cover both:
-  - *normative* standards (cultural, moral, aesthetic, etc.), and
-  - *measurement* standards (unit systems, reference expectations, etc.),
-  whenever the original gismu says “by standard …”, “as compared with standard …”, or “in standard …`.
-- **Abstraction<T>**: used when the original definition says “abstraction” and several abstractors are possible; in the TSV we may still say “abstraction” and, if helpful, clarify likely `nu` / `ka` / `ni` / `du'u`.
+- **`(Event)`**, **`(Proposition)`**, **`(Standard)`**, etc. in the definition column.
+- **`Scale<Set<T>>`** when a scale ranges over a unary-`ka` facet; prenex ties **`T`** and bearer **`x₁: …`** as in §3.
 
 ---
 
-### 3. Generics for collections
+### 3. Collections, unary `ka` (`Set<T>`), and the prenex
 
-We model collections explicitly with generics:
+**Logic.** Where **`gismu.tsv`** marks **(ka)** or “property” in the unary-`ka` sense, read the slot as **extension / predicate-as-set**; in the TSV that is **`Set<T>`**, not a separate “phantom” brand. The **ckaji**-style link is **lexical** (gloss + structure), not an extra type constructor.
 
 ```ts
-type Set<T>      // extension set of T (lo'i)
-type Sequence<T> // ordered collection of T
-type Group<T>    // mass / collective of T (loi)
+type Set<T>      // extension (lo'i)
+type Sequence<T> // ordered collection
+type Group<T>    // mass / collective (loi)
 ```
 
-- **Set<T>**: extension set where membership is important, e.g. `Set<Entity>`. TSV form: `set of Entity`, `set of Text`, etc.
-- **Sequence<T>**: ordered collection, e.g. `Sequence<Text>` for an ordered list of words. TSV form: `sequence of Text`, `sequence of Entity`.
-- **Group<T>**: collective mass, e.g. `Group<Entity>` for a crowd of people. TSV form: `group of Entity`, `group of Organism`.
+**Layout of the definition column.** One sentence: **prenex first** (place typings **`x₁: …`, `x₂: …`, …** in order, then **`T extends …`, `U extends …`**), then the gloss with **bare** **`xᵢ`**. Each place’s **first** mention carries the parenthesized type: **`x₂ (Set<T>)`**, etc.
 
-When annotating a place, we instantiate these:
+**Bearer typing** — choose by meaning (not every row uses **`x₁`** as bearer; follow the gloss):
 
-- `x₂ (set of Entity)` ⇔ `x₂: Set<Entity>`
-- `x₃ (sequence of Text)` ⇔ `x₃: Sequence<Text>`
-- `x₁ (group of Entity)` ⇔ `x₁: Group<Entity>`
+| Pattern | Prenex / places | Examples |
+|--------|------------------|----------|
+| **Single unary-`ka` facet; bearer sort = aspect parameter** | **`x₁: T, T extends …`** and **`Set<T>`** on the facet tied to **`x₁`** | **bancu** **`x₁` / `x₄`**, **ckaji**, **jarco** |
+| **Two+ parallel unary-`ka` facets of the same bearer** | **`x₁: T & V, T extends …, V extends …`**, **`x₂ (Set<T>)`**, **`x₃ (Set<V>)`** | **centi** (scale + dimension), **fetsi** (species + traits), **marji** (composition + shape); **lanci** uses **`T & W`** (pattern + material) |
+| **Subject vs reference population** | **`U extends Entity, T extends U`**, **`x₁ (T)`**, **`Set<U>`** on the reference set | **fadni**, **girzu**, **rirci**, **mupli**, … |
+| **Mixed** | Only one unary-`ka` on **`x₁`**; another place is plain **`Entity`** (medium, source, …) | **`x₁: Entity`** + generics only for the **`ka`** slot — **@boxna**; do **not** force **`T & V`** |
+
+**Rules:**
+
+- Do **not** reuse **`T`** for two **semantically distinct** unary-`ka` facets; add **`V`**, **`W`** (**marji**, **centi**, **vamji**, …).
+- Do **not** use bare **`Set<Entity>`** without a prenex when the gloss ties the aspect to a bearer.
+- **Anonymous** extension: **`Set<Entity>`** / **`Set<T>`** when the slot is not “predicative-of-**`xᵢ`**” in the type line (reference sets, etc.).
+- **Plural glosses:** **`Group<T>`**; if the gloss allows one or many, **`T | Group<T>`**.
+
+
+- **Nested unary-`ka` in a group:** e.g. **lanxe** — **`T extends Entity`**, **`x₁: Group<T>`**, **`x₂ (Group<Set<Group<T>>>)`** (each force unary-`ka` over **`x₁`**).
+
+If you need a nominal or generic not listed here, add it here before using it in the TSV.
 
 ---
 
-### 4. Properties, quantities, and relations
-
-Here we make the dependency on argument places explicit with generics. Conceptually:
+### 4. Amounts and relations
 
 ```ts
-type Property<Args> // ka over one or more arguments
-type Amount<Arg>    // ni over one argument
-type Relation<Args> // relation over 2+ arguments
+type Amount<Arg>    // ni over one argument; TSV: (Amount of x₁)
+type Relation<Args> // relation over 2+ arguments; not a unary-`ka` Set
 ```
 
-Where:
+**Unary `ka`** elsewhere: always **`Set<T>`** with prenex from §3; bearer **`Group<S>`** shares **`S`** with nested **`Set<…>`** when the gloss requires.
 
-- **Args** can be a single type like `Entity`, or a tuple like `[Entity, Entity]` if the property depends on multiple arguments.
+**Relation** — three flavors:
 
-Examples:
+1. **Arguments from a collection** — collection **`Sequence<T>`** / **`Set<T>`**; relation place **`Relation<T[]>`** (e.g. **bridi** **`x₃`**).
+2. **Between named places** — **`Relation<xᵢ, xⱼ>`** (or more indices).
+3. **Distinct pairs from a set** — **`Relation<NonMatchingPair<T>>`** when the gloss excludes self-pairs (mutual action, ordering rules on **different** members): **simxu** **`x₂`**, **porsi** **`x₂`**, **liste** **`x₃`**.
 
-- **Property<Entity>**: property of a single argument, commonly written in TSV as **property of x₁ (ka)**.
-- **Two-argument “property of x₁ and x₂”**: this is in fact a relation between two places; in TSV we use **Relation<xᵢ, xⱼ>** (see below), not “property of x₁ and x₂”.
-- **Amount<Entity>**: quantitative `ni` abstract over one argument, TSV: **amount of x₁ (ni)**.
-- **Relation<Args>**: a relation over two or more arguments. **Relation is not a subtype of Property (ka)**; it is its own type. In TSV we use one of three strict flavors:
-
-  1. **Relation of members of xᵢ** — the relation holds among elements of the set (or sequence/group) given by argument xᵢ. Use when the place is “the relation among the members of [some set argument]”.
-     - Conceptually: the relation’s domain is the set of members of xᵢ.
-     - TSV (strict, TypeScript-like): `Relation<members of xᵢ>`.
-
-  2. **Relation of xᵢ and xⱼ** (and optionally more) — the relation holds between (or among) the specific arguments listed. Use when the place is “the relation between xᵢ and xⱼ”.
-     - Conceptually: `Relation<[T_i, T_j]>` where the types match those of the listed places.
-     - TSV (strict, TypeScript-like): `Relation<xᵢ, xⱼ>` or `Relation<xᵢ, xⱼ, xₖ>`.
-
-  3. **Relation of each pair of members of xᵢ** — xᵢ is a Set (or collection), and the place is a binary relation that holds between each pair of (distinct) members of xᵢ. Use when the predicate is about a mutual or pairwise relation over a set.
-     - Conceptually: a relation on the set xᵢ, i.e. pairs of members of xᵢ.
-     - TSV (strict, TypeScript-like): `Relation<Pair<members of xᵢ>>`.
-
-In English glosses, phrases like “activity of x₁” or “role of x₂” are always modeled as `Property<…>` over the appropriate argument(s); there is no separate `Activity` base type.
-
-In practice, the TSV file uses the human‑readable form (“property of x₁”, “amount of x₂”, and one of the three relation forms above), but those are just concrete instances of `Property<…>`, `Amount<…>`, and `Relation<…>`.
-
----
-
-### 5. Typing patterns for common roles
-
-Several semantic roles are common enough that we standardize their shape:
-
-- **Container<T>** (conceptual, not a separate nominal type): implemented as `Entity`, but we describe the role in English as “container for x₂ (Entity)”. Think of it as:
-
-  ```ts
-  type Container<T> = Entity
-  ```
-
-- **RoleOf<T>**: roles / jobs / functions of some bearer, implemented as `Property<T>` and written in TSV as “property of xᵢ (ka)” or “role of xᵢ`.
-
-  ```ts
-  type RoleOf<T> = Property<T>
-  ```
-
-- **MeasurementOf<T>**: numeric or unit‑bearing measurement of some argument:
-
-  ```ts
-  type MeasurementOf<T> = {
-    value: Number
-    scale: Scale<Property<T>> | Scale<Amount<T>> | Scale<unknown>
-  }
-  ```
-
-  In TSV we usually flatten this, e.g. `x₁ (Entity) is x₂ (Number) units on scale x₃ (scale of property of x₁)`.
-
-For **comparisons** (equality, excess, less‑than), the predicate is generic in a single type parameter `T`; both compared places have type `T`:
+**NonMatchingPair** (conceptual): ordered pairs **`[a, b]`** with **`a`**, **`b`** of type **`T`**, **`a ≠ b`**:
 
 ```ts
-// Both x₁ and x₂ have type T (e.g. Entity, or Entity | Amount<Entity>)
-type ComparablePair<T> = [T, T]
-type Equal<T> = ComparablePair<T>       // dunli
-type LessThan<T> = ComparablePair<T>   // mleca
-type Excess<T> = ComparablePair<T>     // dukse, zmadu
+type NonMatchingPair<T, U = T> = T extends any
+  ? [T, Exclude<U, T>]
+  : never;
 ```
 
-In TSV we use a **prenex** to declare the type parameter, then use **`T`** in both compared places:
-
-- **Prenex**: at the start of the definition, declare **`T`** with its constraint, e.g. **`T: Entity.`** or **`T: Entity or Amount<Entity>.`** (read as “T is a type, constrained to Entity” / “T is Entity or Amount&lt;Entity>”).
-- **Places**: **x₁ (T)** and **x₂ (T)** — both refer to the same `T` declared in the prenex.
-
-Example: `T: Entity. x₁ (T) is equal or congruent to x₂ (T) in …` (dunli); `T: Entity or Amount<Entity>. x₁ (T) is less than x₂ (T) in …` (mleca). This matches a TypeScript-style generic with a single type parameter `<T>` and an optional constraint.
-
-- **Metric and dimensional gismu** (centi, zepti, mitre, minli, clani, rotsu, etc.): These predicates have a specific notion of **dimension** or **aspect** in which something is measured or compared. That dimension is always typed as **ka, Property of the entity being measured** (typically x₁).
-  - **SI prefix / scale gismu** (centi, zepti, gigdo, kilto, decti, dekto, milti, mikri, …): x₁ (Entity) is the entity measured; **x₂ (ka, Property of x₁)** and **x₃ (ka, Property of x₁)** are both properties of x₁ (e.g. the property in which the scale applies, and the dimension). No prenex; x₂ is a property of x₁, not a “reference entity”. Example: “The insect is 1 centimeter long” → the insect (x₁) is 10^-2 in property x₂ (ka, Property of x₁) in dimension x₃ (ka, Property of x₁, e.g. clani).
-  - **Unit gismu** (mitre, minli, gutci, dekpu): x₁ (Entity) is x₂ (Number) [units] in **dimension x₃ (ka, Property of x₁)** by standard x₄ (si'o, Standard); optional subunits as x₅. So the “in what respect” slot is always **(ka, Property of x₁)**, not Entity or Number.
-  - **Dimension adjectives** (clani, rotsu, tordu, condi, ganra, barda): x₁ (Entity) is long/thick/short/deep/wide/big in **dimension or direction x₂ (ka, Property of x₁)** (default e.g. longest dimension) by standard x₃ (si'o, Standard) when present.
-  - Non-SI units (minli “mile”, gutci “short distance units”, degygutci “inches”, jmagutci “feet”, etc.) follow the same pattern: dimension = (ka, Property of x₁).
+Contrast *Comparisons* (§5): **`[T, T]`** allows **equal** components.
 
 ---
 
-### 6. How this maps into `formal-gismu.tsv`
+### 5. Common semantic patterns (unary `ka` and neighbors)
 
-- **Two columns**:
-  - Column 1: `word` – the gismu.
-  - Column 2: `definition` – a single English sentence with all places in order, each annotated with its type rendered in a compact textual form.
+The bullets below are **gloss-driven defaults** for unary-`ka` and related slots. Each row still needs the **correct prenex** (§3): **bare** **`xᵢ`** in English; **`Set<T>`** in parentheses.
 
-- **Place annotation rules**:
-  - Every place `xₙ` must, at its first mention, be followed by a parenthesized type phrase that corresponds to one of the type shapes above.
-  - For abstractors, we always put the Lojban abstractor name first, then the English type, for example:
-    - `x₁ (Entity)`
-    - `x₂ (nu, Event)`
-    - `x₃ (du'u, Proposition)`
-    - `x₄ (ka, Property of x₁)`
-    - `x₂ (ni, Amount of x₁)`
-    - `x₃ (si'o, Scale of property of x₁)`
-    - `x₂ (Set<Entity>)` → rendered as `x₂ (set of Entity)`
-    - `x₃ (Sequence<Text>)` → rendered as `x₃ (sequence of Text)`
-    - `x₁ (Group<Entity>)` → rendered as `x₁ (group of Entity)`
-    - Relation: use exactly one of the TypeScript-like forms `Relation<members of xᵢ>`, `Relation<xᵢ, xⱼ>`, or `Relation<Pair<members of xᵢ>>`.
-    - Comparison (dunli, mleca, zmadu, dukse): add a **prenex** that declares **T** (e.g. **`T: Entity.`** or **`T: Entity or Amount<Entity>.`**), then write **x₁ (T)** and **x₂ (T)** in the definition.
-    - Dimension / measurement (centi, mitre, minli, clani, rotsu, tordu, etc.): the “in what dimension or aspect” place is always **(ka, Property of x₁)** (or of the measured entity). For SI prefix gismu (centi, zepti, gigdo, …): **x₁ (Entity)**, **x₂ (ka, Property of x₁)**, **x₃ (ka, Property of x₁)** — both x₂ and x₃ are properties of x₁.
-  - Later mentions of the same `xₙ` in that definition need not repeat the type.
-
-- **Abstractors**:
-  - If the source place is primarily `nu`‑like, annotate as `(nu, Event)`.
-  - If it is primarily `du'u`‑like, annotate as `(du'u, Proposition)`.
-  - If it is explicitly `ka`, annotate as `(ka, Property of …)` for one argument; for a relation between two (or more) places use `(ka, Relation<xᵢ, xⱼ>)` (or more args), not "property of xᵢ and xⱼ".
-  - If it is explicitly `ni`, annotate as `(ni, Amount of …)`.
-  - If it is explicitly `si'o` as scale, annotate as `(si'o, Scale of …)` or `(si'o, Scale of property of xᵢ)`.
-  - If the original just says “abstraction” and multiple abstractors are plausible, we may describe the place as “Abstraction: (nu, Event) or (du'u, Proposition)” or similar.
+- **Container** (role only): type as **`Entity`** (“container for …”).
+- **RoleOf / ckaji-shaped property:** **`Set<T>`** + bearer in prenex (same idea as **ckaji** **`x₂`**).
+- **MeasurementOf** (flattened in TSV): e.g. **`x₁: Entity, T extends Entity`**, **`x₃ (Scale<Set<T>>)`** with prenex tying **`T`** to the measured bearer.
+- **Comparisons** (**dunli**, **mleca**, **zmadu**, …): **`T extends …`**, **`x₁ (T)`**, **`x₂ (T)`**.
+- **Metric / dimension:** dimension slot **`Set<T>`**; **SI prefixes** use **`x₁: T & V`**, **scale** **`x₂ (Set<T>)`**, **dimension** **`x₃ (Set<V>)`** (parallel facets). **Unit** / **dimension-adjective** gismu: **`x₃` `Set<T>`** + **`Standard`** where the gloss says so.
+- **Propulsion “propelled by”:** **`Set<T>`** on the propelled sumti; **jakne** propellant **`Entity`**.
+- **Information medium / channel** (format, broadcast, …): **`Set<T>`**; **physical** medium through which waves move: **`Entity`** (**@boxna**, **marce** **`x₃`**, …).
+- **“By method”:** **`Set<T>`**, not **`(Event)`**, when the gloss is manner/procedure relative to **`x₁`**.
+- **Modal “under rules”:** default **`Set<T>`**; **not** **porsi** **`x₂`**-style ordering — use **`Relation<NonMatchingPair<T>>`**; **javni** / **logji** / … as **object** sumti: **`Proposition`**, **`Entity`**, **`Idea`**, …
+- **Material / composition** of **`x₁`:** **`Set<T>`** unless the sumti is a discrete object or feedstock without an “of **`x₁`**” reading.
+- **Type / form / pattern / waveform** of **`x₁`:** **`Set<T>`**; **tarmi** **`x₁`** as ideal: **`Entity | Idea`**.
+- **Force (ka):** **`Set<T>`** or unions with **`Entity`**, **`(Event)`** per gloss; no separate **`Force`** type.
+- **lanxe** mass of forces: §3 *Nested* + **`Group<Set<Group<T>>>`**.
 
 ---
 
-### 7. Collections and new type shapes
+### 6. `formal-gismu.tsv` column checklist
 
-- **Collections**:
-  - For extension sets, use `Set<T>` rendered as “set of T”.
-  - For ordered collections, use `Sequence<T>` rendered as “sequence of T”.
-  - For masses, use `Group<T>` rendered as “group of T”.
-
-- **New type shapes**:
-  - If we discover a recurring pattern not captured above, define a new generic or nominal type here (in a short TypeScript‑like snippet), and then render it into TSV with a clear textual phrase, keeping the generic shape obvious (e.g. `Option<T>`, `Pair<A, B>` if ever needed).
-
-This way, the TSV stays human‑readable, while this file gives a precise, generic type system similar in spirit to TypeScript or Rust generics.
+- **Columns:** **`word`** | **`definition`** (one sentence, places in order, TypeScript-like types in parentheses after each place’s first mention).
+- **Unions:** **`Sound | Text`**, **`Taxon | Set<T>`**, … — spaces around **`|`**; no English “or” inside parentheses.
+- **Abstractors:** use §2 English names, not **`nu`** / **`ka`** prefixes in types.
+- **Examples of shapes:** **`x₁ (Entity)`**, **`x₂ (Event)`**, **`x₄ (Set<T>)`**, **`x₂ (Amount of x₁)`**, **`x₃ (Scale<Set<T>>)`**, **`x₂ (Set<Entity>)`** (anonymous), **`Relation<NonMatchingPair<T>>`**, **`x₁ (T)`** / **`x₂ (T)`** for comparisons.
+- **Later mentions** of the same **`xₙ`**: type need not repeat.
+- **Abstractor checklist:** **`nu`** → **`(Event)`**; **`du'u`** → **`(Proposition)`**; unary **`ka`** → **`Set<T>`** + §3 prenex; **`ni`** → **`(Amount of …)`**; **`si'o`** scale → **`Scale<…>`** / **`Scale<Set<T>>`**; vague “abstraction” → may union; **metaphysics** place → **`(Proposition)`**.
 
 ---
 
-### 8. Relation to the original typed-gismu description
+### 7. Elaboration and tooling
 
-The earlier `typed-gismu.tsv` documentation describes three top‑level place kinds:
+**What tools should preserve:** (1) which place is the bearer — from prenex + gloss; (2) anonymous **`Set`** vs unary-`ka`-of-**`xᵢ`** — same syntax, different gloss; (3) extensional vs intensional readings may differ in UI; (4) mapping to **`lo'i` / `ka` / `loi`** is a separate surface concern. Types **do not** prove **`ckaji(x₁, x₂)`** in running text; they document dictionary structure. **`Set<T>`** here is the spec’s collection type, not necessarily **`globalThis.Set`**.
 
-- **entity** (with **text** as a special case),
-- **clause** (with **property** and **proposition** as special cases),
-- **number**,
-plus flags for **group** and **ordered group**.
+**Reference populations:** **fadni** **`x₃`** is often a full reference class; **`x₁ (T)`**, **`x₃ (Set<T>)`** or **`T extends U`**, **`x₃ (Set<U>)`** per gloss; looser **`Set<Entity>`** or external metadata if needed for **`x₁ ∈ x₃`**.
 
-This type system refines those ideas as follows:
+**Open questions:** sequence places tied to a bearer vs orthogonal **`Sequence<T>`** and unary-**`ka`** **`Set<…>`**; whether species slots need a **shorter editorial alias** for the **`Set<T>`** arm of **`Taxon | Set<T>`** (the arm is still unary-`ka`, not a new type); extra tagging for **`Group<Set<…>>`**; metadata for non-**ckaji** parallels (**simsa**, **ckini**, …).
 
-- **Entity vs. Text**: `Entity` corresponds to the old “entity” type; `Text` is a separate base type but is still semantically an entity. A place that previously said “entity (text)” is now annotated simply as `Text`.
-- **Clause**: there is no separate `Clause` type. Old “clause” places become either:
-  - `Event` (old “clause” or “event/state/process/nu”), or
-  - `Proposition` (old “proposition/du'u`”).
-  The choice is driven by the verb’s semantics and by the old documentation (e.g. `djuno` uses `Proposition`, `nicte` uses `Event`).
-- **Property**: the old “property” places (marked with `ka` and explained via `ce'u`) correspond to `Property<Args>` here. In TSV they are rendered as “property of xᵢ (ka)” or “property of xᵢ and xⱼ (ka)`, with `ce'u` binding rules given in the dictionary text.
-  - When a place is glossed as an *action, activity, role or behaviour* **of a specific participant**, we model it primarily as a `ka`‑property of that participant (e.g. “action of x₁”, “activity of x₃”), not as a standalone event type. In TSV this shows up as patterns like `x₂ (ka, Property of x₃ or nu, Event)`. Typical examples are motives/goals (`mukti`, `zukte`), bravery in some activity (`virnu`), laziness about doing something (`lazni`), or influence into an action/state (`xlura`), where the core semantic object is “what this participant does/is like”, i.e. a property.
-- **Number**: unchanged, now the `Number` base type.
-- **Group / ordered group**: the old “group” and “ordered group” annotations map directly to `Group<T>` and `Sequence<T>` respectively and are rendered as “group of T” / “sequence of T”.
-- **Proposition**: the old “proposition” sub‑type of “clause” is now always annotated as `Proposition` (du'u), typically for epistemic, reportive, or logical predicates (`djuno`, `jetnu`, `jitfa`, `natfe`).
-
-All examples and explanations in the original typed‑gismu documentation (including `ka` + `ce'u`, `kau`, `tu'a`, and `zo'ei`) remain valid; this file just gives them a more explicit, generic type‑theoretic shape for use in `formal-gismu.tsv`.
+**QA samples:** two-facet rows (**centi**, **marji**, **vamji**, **cimde**); **ckaji**, **jarco**, **fadni**, **barda**, **mleca**, **kampu**, **canja**, **mutce** — align with **`gismu.tsv`** after edits.
