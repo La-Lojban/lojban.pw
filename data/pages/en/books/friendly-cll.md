@@ -2,8 +2,8 @@
 icon: 📖
 title: Friendly CLL
 description: A beginner-friendly rewrite of the Complete Lojban Language — chapters 1–21
-og:image: /assets/pixra/cilre/sruri_since.webp
-coverImage: /assets/pixra/cilre/sruri_since.webp
+og:image: /assets/pixra/books/cll-friendly/cover.webp
+coverImage: /assets/pixra/books/cll-friendly/cover.webp
 ---
 
 @include "friendly-cll/1.md"
