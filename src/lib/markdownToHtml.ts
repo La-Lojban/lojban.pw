@@ -20,6 +20,7 @@ import { TocElem } from "../types/toc";
 import { GalleryImg } from "../types/gallery-img";
 import path from "path";
 import replaceIncludes from "./remark-plugins/include/";
+import { expandFirstLojbanSpeakerTags } from "./expandFirstLojbanSpeakerTags";
 // import { serializeHTMLNodeTree } from "./json2react";
 
 export default async function markdownToHtml({
@@ -32,6 +33,7 @@ export default async function markdownToHtml({
   content = replaceIncludes(content, {
     resolveFrom: path.resolve(fullPath, ".."),
   });
+  content = expandFirstLojbanSpeakerTags(content);
   const root = htmlParser.parse(
     (
       await unified()
@@ -97,8 +99,10 @@ export default async function markdownToHtml({
     })
     .filter((item) => tocSelector.includes(item.tagName));
 
-  //Prepare image gallery
-  let imgs: Partial<GalleryImg>[] = Array.from(
+  // Gallery URLs: explicit <pixra> plus every portrait in .speaker-row. Dialogue sprites often
+  // appear only via expanded <speaker>/<speakers> (not duplicated as <pixra>), so we scrape the
+  // final HTML instead of re-parsing markdown attributes.
+  const fromPixra: Partial<GalleryImg>[] = Array.from(
     root.querySelectorAll("pixra")
   ).map((element: HTMLElement) => {
     return {
@@ -114,6 +118,27 @@ export default async function markdownToHtml({
         "",
     };
   });
+  const fromSpeakerPortraits: Partial<GalleryImg>[] = Array.from(
+    root.querySelectorAll(".speaker-row .figure_img[data-url]")
+  ).map((element: HTMLElement) => {
+    const url = element.getAttribute("data-url");
+    const img = element.querySelector("img");
+    const alt = img?.getAttribute("alt") ?? "";
+    return {
+      url,
+      redirect: null,
+      caption: alt,
+      definition: alt,
+    };
+  });
+  const seen = new Set<string>();
+  let imgs: Partial<GalleryImg>[] = [];
+  for (const item of [...fromPixra, ...fromSpeakerPortraits]) {
+    const u = item.url ?? "";
+    if (!u || seen.has(u)) continue;
+    seen.add(u);
+    imgs.push(item);
+  }
 
   //Transform elements of the page
   transformers.forEach(({ selector, fn, wrapper }) =>

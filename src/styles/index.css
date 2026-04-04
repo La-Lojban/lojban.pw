@@ -442,6 +442,77 @@ article figcaption {
   @apply text-xs m-3 text-center;
 }
 
+/* first-lojban (Hajiroji): portrait + speech — from <speaker> expansion in markdownToHtml */
+article .speaker-row {
+  @apply flex flex-row items-start gap-4 my-4 py-3 px-4 bg-gray-50 border border-gray-200 rounded-md shadow-sm;
+}
+
+article .speaker-row__avatar {
+  @apply flex-none w-20 max-w-[28%] md:w-28 md:max-w-none;
+}
+
+article .speaker-row--multiface .speaker-row__avatar {
+  @apply flex flex-row flex-wrap justify-center items-start gap-2 w-auto max-w-full md:max-w-xs;
+}
+
+article .speaker-row--multiface .speaker-row__avatar .wrapper {
+  @apply w-16 flex-shrink-0 md:w-[4.5rem];
+}
+
+article .speaker-row--multiface .speaker-row__avatar figure {
+  @apply w-full my-0;
+}
+
+article .speaker-row--multiface .speaker-row__avatar .figure_img {
+  @apply h-16 md:h-[4.5rem];
+}
+
+article .speaker-row__avatar figure {
+  float: none !important;
+  clear: none !important;
+  @apply w-full max-w-full my-0 mx-auto border border-gray-200 bg-white shadow-sm rounded-sm;
+}
+
+article .speaker-row__avatar .figure_img {
+  @apply h-20 md:h-24 w-full m-0 p-0 bg-contain bg-no-repeat bg-center;
+}
+
+article .speaker-row__avatar .figure_img img {
+  @apply w-full h-full object-contain object-bottom;
+}
+
+article .speaker-row__avatar figcaption {
+  @apply text-center m-1 mt-1.5 px-0.5 leading-tight;
+  font-size: 0.7rem;
+}
+
+article .speaker-row__avatar figcaption i:empty {
+  display: none;
+}
+
+article .speaker-row__speech {
+  @apply flex-1 min-w-0 self-center;
+}
+
+article .speaker-row__speech p {
+  @apply m-0 leading-relaxed;
+}
+
+article .speaker-row__speech ul {
+  @apply my-0 ml-4 list-disc pl-4;
+}
+
+article .speaker-row__speech ul li::before {
+  content: none;
+}
+
+@media print {
+  article .speaker-row {
+    break-inside: avoid;
+    @apply shadow-none bg-white;
+  }
+}
+
 /* wide figure */
 
 article figure.wide {
