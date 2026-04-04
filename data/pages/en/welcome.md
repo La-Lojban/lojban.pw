@@ -17,7 +17,7 @@ This course teaches Lojban from its formal foundations, but in simple terms and 
 
 ## [‘First Steps in Lojban’ course](/en/books/first-lojban/0)
 
-Manga-style beginner track (English edition of *Hajiroji 2*): characters **Koshon** and **Sora**, conversational pacing, and optional “back alley” logic chapters.
+Manga-style beginner track (English edition of *Hajiloji 2*): characters **Koshon** and **Sora**, conversational pacing, and optional “back alley” logic chapters.
 
 ## [Live Lojban chat](/en/articles/live_chat)
 

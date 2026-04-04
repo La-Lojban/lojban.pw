@@ -1,4 +1,4 @@
-/** Web path to Hajiroji dialogue sprites (matches `data/assets/pixra/books/first-lojban/icons/`). */
+/** Web path to Hajiloji dialogue sprites (matches `data/assets/pixra/books/first-lojban/icons/`). */
 export const FIRST_LOJBAN_SPEAKER_ICONS_BASE =
   "/assets/pixra/books/first-lojban/icons/";
 
@@ -94,6 +94,12 @@ function speechInnerForHtml(inner: string): string {
   return `\n\n${inner}`;
 }
 
+/**
+ * Blank line after a raw HTML block is required or CommonMark keeps the parser in “HTML” mode and
+ * following lines (e.g. `## Heading`) are emitted as plain text instead of mdast nodes.
+ */
+const AFTER_SPEAKER_ROW_HTML = "\n\n";
+
 function buildSpeakerRow(
   sprite: string,
   explicitName: string | undefined,
@@ -109,7 +115,7 @@ function buildSpeakerRow(
 </div>
 <div class="speaker-row__speech">${body}
 </div>
-</div>`;
+</div>${AFTER_SPEAKER_ROW_HTML}`;
 }
 
 function buildMultifaceRow(
@@ -137,7 +143,7 @@ function buildMultifaceRow(
 ${wrappers}</div>
 <div class="speaker-row__speech">${body}
 </div>
-</div>`;
+</div>${AFTER_SPEAKER_ROW_HTML}`;
 }
 
 type NextTag = { kind: "speaker" | "speakers"; pos: number };
@@ -169,7 +175,7 @@ function findNextSpeakerTag(markdown: string, from: number): NextTag | null {
 }
 
 /**
- * Expands Hajiroji dialogue tags into `speaker-row` markup (`src/styles/index.css`):
+ * Expands Hajiloji dialogue tags into `speaker-row` markup (`src/styles/index.css`):
  * - `<speaker sprite="sor1">…</speaker>` (optional `name="…"`, self-closing ok)
  * - `<speakers multiface sprites="sor5,sev1,koc5">…</speakers>` (optional `names="Sora,Sevan,Koshon"`)
  */
