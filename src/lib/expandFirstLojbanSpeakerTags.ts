@@ -1,4 +1,4 @@
-/** Web path to Hajiloji dialogue sprites (matches `data/assets/pixra/books/first-lojban/icons/`). */
+/** Web path to Hajiloji dialogue sprites (matches `data/assets/pixra/books/first-lojban/icons/*.webp`). */
 export const FIRST_LOJBAN_SPEAKER_ICONS_BASE =
   "/assets/pixra/books/first-lojban/icons/";
 
@@ -14,14 +14,14 @@ export function speakerDisplayNameFromSprite(
 ): string {
   const n = explicitName?.trim();
   if (n) return n;
-  const base = sprite.replace(/\.png$/i, "");
+  const base = sprite.replace(/\.(png|webp)$/i, "");
   const prefix = base.match(/^([a-z]+)/i)?.[1]?.toLowerCase() ?? "";
   return SPEAKER_LABEL_BY_PREFIX[prefix] ?? base;
 }
 
 export function firstLojbanSpeakerIconUrl(sprite: string): string {
-  const base = sprite.replace(/\.png$/i, "");
-  return `${FIRST_LOJBAN_SPEAKER_ICONS_BASE}${base}.png`;
+  const base = sprite.replace(/\.(png|webp)$/i, "");
+  return `${FIRST_LOJBAN_SPEAKER_ICONS_BASE}${base}.webp`;
 }
 
 function parseSpeakerOpenTag(attrStr: string): {
