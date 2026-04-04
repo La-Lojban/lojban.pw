@@ -37,3 +37,4 @@ data/pages/texts
 .specstory/*
 data/pages/.specstory/*
 tmp/
+archive/
