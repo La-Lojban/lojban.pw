@@ -165,7 +165,7 @@ export default function Header({
             <div className="flex items-center justify-between h-12">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <Link href={`/${currentLanguage}/welcome`}>
+                  <Link href={`/${currentLanguage}/welcome`} className="hover:no-underline">
                     <img
                       className="logo active:transform active:translate-y-px transition-all duration-150 hover:scale-110 hover:brightness-110"
                       src="/assets/pixra/ralju/ralju_lanci.svg"
@@ -207,7 +207,7 @@ export default function Header({
                           : item.url
                       }
                       key={item.url}
-                      className="mt-auto"
+                      className="mt-auto hover:no-underline"
                     >
                       <button
                         className={`h-8 flex-shrink-0 ${getColor("bg-deep-orange-300")} ${getColor("hover:bg-deep-orange-200")} text-gray-100 text-base leading-none px-4 rounded shadow-md focus:outline-none flex items-center relative overflow-hidden active:transform active:translate-y-px transition-all duration-150 hover:shadow-lg hover:scale-105 hover:-translate-y-0.5`}
