@@ -2,8 +2,8 @@
 icon: 📚
 title: The Complete Lojban Language
 description: Reference grammar for Lojban (CLL), web edition — chapters 1–21
-og:image: /assets/pixra/cilre/sruri_since.webp
-coverImage: /assets/pixra/cilre/sruri_since.webp
+og:image: /assets/pixra/books/cll/cover.webp
+coverImage: /assets/pixra/books/cll/cover.webp
 ---
 
 @include "cll/1.md"
