@@ -349,8 +349,15 @@ article ul {
   @apply list-none;
 }
 
+/* Native ::marker can still show a disc beside our ::before flowers (WebKit/Firefox);
+   learn-lojban leans on dl/blockquote so it’s less obvious than first-lojban’s many ul. */
+article ul li::marker {
+  content: none;
+}
+
 article ul li {
   @apply ml-6;
+  list-style-type: none;
   text-indent: -1rem;
 }
 
@@ -521,7 +528,7 @@ article .speaker-row--multiface .speaker-row__avatar .wrapper {
 }
 
 article .speaker-row--multiface .speaker-row__avatar figure {
-  @apply w-full my-0 border-0 shadow-none bg-transparent rounded-none;
+  @apply w-full my-0 border border-gray-200 bg-gray-100 print:bg-white shadow rounded-sm;
 }
 
 article .speaker-row--multiface .speaker-row__avatar .figure_img {
@@ -531,11 +538,11 @@ article .speaker-row--multiface .speaker-row__avatar .figure_img {
 article .speaker-row__avatar figure {
   float: none !important;
   clear: none !important;
-  @apply w-full max-w-full my-0 mx-auto border-0 shadow-none bg-transparent rounded-none;
+  @apply w-full max-w-full my-0 mx-auto border border-gray-200 bg-gray-100 print:bg-white shadow rounded-sm;
 }
 
 article .speaker-row__avatar .figure_img {
-  @apply h-20 md:h-24 w-full m-0 p-0 bg-contain bg-no-repeat bg-center;
+  @apply h-20 md:h-24 w-full -m-px p-0 bg-contain bg-no-repeat bg-center;
 }
 
 article .speaker-row__avatar .figure_img img {
@@ -543,16 +550,54 @@ article .speaker-row__avatar .figure_img img {
 }
 
 article .speaker-row__avatar figcaption {
-  @apply text-center m-1 mt-1.5 px-0.5 leading-tight;
-  font-size: 0.7rem;
+  @apply text-xs m-3 text-center;
 }
 
 article .speaker-row__avatar figcaption i:empty {
   display: none;
 }
 
+/* Hajiloji <speaker> dialogue: bubble aligned with brand (deep-orange scale, figure-like shadow) */
 article .speaker-row__speech {
-  @apply flex-1 min-w-0 self-center;
+  --speech-bubble-fill: #fbe9e7; /* deep-orange-50 */
+  --speech-bubble-border: #ffccbc; /* deep-orange-100 */
+  position: relative;
+  flex: 1 1 0%;
+  min-width: 0;
+  align-self: center;
+  padding: 0.75rem 1rem;
+  background-color: var(--speech-bubble-fill);
+  border: 1px solid var(--speech-bubble-border);
+  border-radius: 0.5rem;
+  box-shadow:
+    0 1px 3px 0 rgb(0 0 0 / 0.1),
+    0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+/* Tail toward avatar (left); outer rim + inner fill */
+article .speaker-row__speech::before,
+article .speaker-row__speech::after {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  pointer-events: none;
+}
+
+article .speaker-row__speech::before {
+  border-width: 11px 13px 11px 0;
+  border-color: transparent var(--speech-bubble-border) transparent transparent;
+  transform: translateY(-50%);
+  margin-right: -1px;
+}
+
+article .speaker-row__speech::after {
+  border-width: 10px 12px 10px 0;
+  border-color: transparent var(--speech-bubble-fill) transparent transparent;
+  transform: translate(1px, -50%);
 }
 
 article .speaker-row__speech p {
@@ -723,6 +768,17 @@ div.mermaid > svg foreignObject > div {
 
   article .speaker-row {
     break-inside: avoid;
+  }
+
+  article .speaker-row__speech {
+    --speech-bubble-fill: #ffffff;
+    --speech-bubble-border: #d1d5db;
+    box-shadow: none;
+  }
+
+  article .speaker-row__speech::before,
+  article .speaker-row__speech::after {
+    display: none;
   }
 
   article .note {
