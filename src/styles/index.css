@@ -505,7 +505,7 @@ article figcaption {
 }
 
 article .speaker-row {
-  @apply flex flex-row items-start gap-4 my-4 py-3 px-4 bg-gray-50 border border-gray-200 rounded-md shadow-sm;
+  @apply flex flex-row items-start gap-4 my-4;
 }
 
 article .speaker-row__avatar {
@@ -521,7 +521,7 @@ article .speaker-row--multiface .speaker-row__avatar .wrapper {
 }
 
 article .speaker-row--multiface .speaker-row__avatar figure {
-  @apply w-full my-0;
+  @apply w-full my-0 border-0 shadow-none bg-transparent rounded-none;
 }
 
 article .speaker-row--multiface .speaker-row__avatar .figure_img {
@@ -531,7 +531,7 @@ article .speaker-row--multiface .speaker-row__avatar .figure_img {
 article .speaker-row__avatar figure {
   float: none !important;
   clear: none !important;
-  @apply w-full max-w-full my-0 mx-auto border border-gray-200 bg-white shadow-sm rounded-sm;
+  @apply w-full max-w-full my-0 mx-auto border-0 shadow-none bg-transparent rounded-none;
 }
 
 article .speaker-row__avatar .figure_img {
@@ -565,9 +565,9 @@ article .speaker-row__speech ol {
   @apply my-0;
 }
 
-/* Consecutive dialogue bubbles read as one exchange */
+/* Consecutive dialogue rows: slight vertical rhythm */
 article .speaker-row + .speaker-row {
-  @apply mt-2 pt-3 border-t border-dashed border-gray-200;
+  @apply mt-2;
 }
 
 article .note {
@@ -660,25 +660,6 @@ description {
   margin-bottom: 5px;
 }
 
-/* Lojban ↔ gloss key (vocabulary line), same cue as blockquotes in books */
-article xample {
-  @apply flex relative py-4 px-3 mb-1 m-0 bg-gray-100 print:bg-white hover:bg-gray-200 border-0 shadow rounded-sm rounded-l-none;
-  border-left: 3px solid #1e90ff;
-}
-
-article xample:before {
-  @apply pointer-events-none inset-0 block absolute border border-l-0 border-gray-200 rounded-sm rounded-l-none;
-  content: "";
-}
-
-article xample p {
-  @apply font-normal mt-0 mb-0;
-}
-
-article xample p + p {
-  @apply mt-2;
-}
-
 .audio-inline {
   overflow: auto;
   white-space: nowrap;
@@ -742,11 +723,6 @@ div.mermaid > svg foreignObject > div {
 
   article .speaker-row {
     break-inside: avoid;
-    @apply shadow-none bg-white;
-  }
-
-  article .speaker-row + .speaker-row {
-    @apply border-gray-300;
   }
 
   article .note {
