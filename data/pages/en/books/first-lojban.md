@@ -1,7 +1,7 @@
 ---
 icon: 📘
 title: First Steps in Lojban
-description: Friendly manga-style beginner course (Hajiroji 2) — English edition
+description: Friendly manga-style beginner course (Hajiloji 2) — English edition
 og:image: /assets/pixra/books/first-lojban/cover.png
 coverImage: /assets/pixra/books/first-lojban/cover.png
 ---

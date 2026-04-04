@@ -3,6 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* -------------------------------------------------------------------------- */
+/* Base — fonts, document, global element defaults                             */
+/* -------------------------------------------------------------------------- */
+
 @layer base {
   @font-face {
     font-family: "Linux Libertine";
@@ -24,16 +29,183 @@
     font-family: "Linux Libertine";
     src: url("/assets/fonts/LinLibertine_R.otf");
   }
+
+  body {
+    font-family:
+      Roboto,
+      -apple-system,
+      BlinkMacSystemFont,
+      Helvetica,
+      Arial,
+      sans-serif;
+    font-feature-settings: "kern", "liga";
+  }
+
+  b,
+  strong {
+    @apply font-semibold;
+  }
+
+  small {
+    @apply italic;
+  }
+
+  a {
+    @apply text-deep-orange-700 hover:text-deep-orange-600 hover:underline;
+  }
+
+  img {
+    @apply inline;
+  }
+
+  code {
+    font-size: 80%;
+  }
 }
 
-b,
-strong {
-  @apply font-semibold;
+/* -------------------------------------------------------------------------- */
+/* Theme — third-party / MD palette hooks                                       */
+/* -------------------------------------------------------------------------- */
+
+[data-md-color-primary="youtube"] {
+  --md-primary-fg-color: #ee0f0f;
+  --md-primary-fg-color--light: #ecb7b7;
+  --md-primary-fg-color--dark: #90030c;
 }
 
-small {
-  @apply italic;
+/* -------------------------------------------------------------------------- */
+/* Layout — shell, fixed regions                                                */
+/* -------------------------------------------------------------------------- */
+
+.sidebar {
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  -ms-scroll-snap-type: none;
+  scroll-snap-type: none;
+  top: 0;
 }
+
+.sidebar-inner {
+  background-color: var(--md-default-bg-color);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+#velsku {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  background: white;
+  z-index: 10;
+}
+
+#velsku ul {
+  padding: 0.1rem;
+  display: flex;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-shadow:
+    0 0 0 1px rgb(56 136 233),
+    0 0 0 2px rgb(34 87 213),
+    0 0 0 3px rgb(38 99 224),
+    0 0 0 4px rgb(25 65 165);
+  margin-top: 3px;
+}
+
+#velsku a {
+  color: #2b79e0;
+  text-decoration: none;
+}
+
+.velsku_pamei {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fullpage {
+  display: block;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-color: black;
+}
+
+.h-screen-50 {
+  height: 50vh;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Chrome — header, footer, logo, nav affordances                               */
+/* -------------------------------------------------------------------------- */
+
+.toc-core {
+  @apply scrollbar-thin scrollbar-track-gray-200 scrollbar-thumb-gray-400 hover:scrollbar-thumb-deep-orange-500;
+}
+
+.logo {
+  @apply w-12 h-12 mt-2 opacity-60 hover:opacity-80 focus:opacity-100 active:opacity-100;
+  transform: skew(-10deg, 0deg);
+  width: 150%;
+}
+
+.md-footer-social__link {
+  display: inline-block;
+  height: 1.6rem;
+  text-align: center;
+  width: 1.6rem;
+  color: white;
+}
+
+.lojbo ~ * {
+  font-family: "Linux Libertine", Libertine, Constantia, "Lucida Bright",
+    Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif",
+    "Liberation Serif", Georgia, serif;
+}
+
+.katex {
+  font-size: 110%;
+}
+
+a.in-heading,
+a.in-toc,
+a.in-topbar-toc,
+md-footer-social__link.in-heading {
+  @apply hover:text-deep-orange-500;
+}
+
+a.in-toc.hover,
+a.in-topbar-toc.hover {
+  @apply font-bold text-deep-orange-500;
+}
+
+span.in-heading.hash {
+  @apply text-gray-300 hover:text-deep-orange-600 ml-1;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Utilities                                                                    */
+/* -------------------------------------------------------------------------- */
 
 .lme-ml-0 {
   @apply ml-0;
@@ -48,46 +220,34 @@ small {
   @apply ml-6;
 }
 
-a {
-  @apply text-deep-orange-700 hover:text-deep-orange-600;
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
 }
 
-.h-screen-50 {
-  height: 50vh;
+.latex {
+  @apply relative inline-block;
+}
+.latex::before,
+.latex::after {
+  @apply absolute text-gray-600;
+  font-size: 1.1em;
+  line-height: 0;
+}
+.latex::before {
+  @apply -left-2 top-0;
+  content: "\201C";
+}
+.latex::after {
+  @apply -right-2 bottom-0;
+  content: "\201D";
 }
 
-.toc-core {
-  @apply scrollbar-thin scrollbar-track-gray-200 scrollbar-thumb-gray-400 hover:scrollbar-thumb-deep-orange-500;
-}
-
-.sidebar {
-  bottom: 0;
-  left: 0;
-  margin: 0;
-  overflow: hidden;
-  position: absolute;
-  right: 0;
-  -ms-scroll-snap-type: none;
-  scroll-snap-type: none;
-  top: 0;
-}
-.sidebar-inner {
-  background-color: var(--md-default-bg-color);
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
-
-/* @media (prefers-color-scheme: dark) {
-  img, svg {
-    filter: invert(1) hue-rotate(180deg);
-  }
-} */
+/* -------------------------------------------------------------------------- */
+/* Article — headings & listing titles                                          */
+/* -------------------------------------------------------------------------- */
 
 article h1 {
   @apply text-4xl my-4 leading-snug;
@@ -108,16 +268,6 @@ article h4 {
 article h5 {
   @apply text-lg my-4 leading-tight;
 }
-
-/* article h1:before,
-article h2:before,
-article h3:before,
-article h4:before,
-article h5:before,
-article h6:before {
-  @apply -mt-20 pt-20 block;
-  content: "";
-} */
 
 article h1,
 article h2 {
@@ -149,20 +299,9 @@ article h6 {
   @apply text-lg leading-tight;
 }
 
-a.in-heading,
-a.in-toc,
-a.in-topbat-toc,
-md-footer-social__link.in-heading {
-  @apply hover:text-deep-orange-500;
-}
-a.in-toc.hover,
-a.in-topbar-toc.hover {
-  @apply font-bold text-deep-orange-500;
-}
-
-span.in-heading.hash {
-  @apply text-gray-300 hover:text-deep-orange-600 ml-1;
-}
+/* -------------------------------------------------------------------------- */
+/* Article — flow (paragraphs, lists, definition lists)                         */
+/* -------------------------------------------------------------------------- */
 
 article dl {
   @apply m-4 mr-0;
@@ -178,138 +317,9 @@ article ol {
   @apply my-2;
 }
 
-article table {
-  @apply shadow table-auto	divide-y divide-gray-200 w-full border border-collapse border-gray-200 rounded-sm;
+article hr {
+  @apply my-10 w-full border-0 border-t border-gray-300;
 }
-
-@media print {
-  table td:before,
-  table td:after {
-    content: "";
-    height: 4px;
-    display: block;
-  }
-}
-
-@media print {
-  table,
-  table td,
-  table tr,
-  table th,
-  .wrapper,
-  dl,
-  .common {
-    break-inside: avoid;
-  }
-}
-
-.md-typeset__table {
-  @apply inline-block mb-3 min-w-full rounded-sm;
-}
-
-.md-typeset__scrollwrap {
-  @apply mb-4 overflow-x-auto rounded-sm;
-}
-
-article table thead {
-  @apply bg-gray-50;
-}
-
-article table th,
-article .first_col table tr td:first-child {
-  @apply align-top text-center font-bold tracking-wider px-3 py-4 border border-collapse border-gray-200;
-}
-
-article table tbody {
-  @apply bg-white divide-y divide-gray-200;
-}
-
-article table tbody tr {
-  @apply hover:bg-gray-100;
-}
-
-article table tbody td,
-article .first_col table tr td:first-child {
-  @apply align-top text-left px-3 py-4 border border-collapse border-gray-200;
-}
-
-body {
-  font-family:
-    Roboto,
-    -apple-system,
-    BlinkMacSystemFont,
-    Helvetica,
-    Arial,
-    sans-serif;
-  font-feature-settings: "kern", "liga";
-}
-
-img {
-  @apply inline;
-}
-
-.md-footer-social__link {
-  display: inline-block;
-  height: 1.6rem;
-  text-align: center;
-  width: 1.6rem;
-  color: white;
-}
-
-.logo {
-  @apply w-12 h-12 mt-2 opacity-60 hover:opacity-80 focus:opacity-100 active:opacity-100;
-  transform: skew(-10deg, 0deg);
-  width: 150%;
-}
-
-.lojbo ~ * {
-  font-family: "Linux Libertine", Libertine, Constantia, "Lucida Bright",
-    Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif",
-    "Liberation Serif", Georgia, serif;
-}
-
-.katex {
-  /* font: normal 1.1em "Linux Libertine", Libertine, KaTeX_Main, Constantia, "Lucida Bright",
-    Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif",
-    "Liberation Serif", Georgia, serif; */
-  font-size: 110%;
-}
-
-[data-md-color-primary="youtube"] {
-  --md-primary-fg-color: #ee0f0f;
-  --md-primary-fg-color--light: #ecb7b7;
-  --md-primary-fg-color--dark: #90030c;
-}
-
-/* .navbar {
-  background: rgb(56,136,233);
-  background: linear-gradient( to bottom, rgba(56,136,233, 1) 0%, rgba(34,87,213, 1) 13%, rgba(38,99,224, 1) 88%, rgba(25,65,165, 1) 100% );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6db3f2', endColorstr='#1e69de', GradientType=0);
-}
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-  background: rgb(56,136,233);
-  border-radius: 4px;
-} */
-/* .headerlink {
-  color: #ccc;
-  font-size: 80%;
-  font-weight: normal;
-  margin-left: 0.25rem;
-}
-
-.bs-sidebar.well {
-  padding: 0;
-  max-height: 80%;
-  overflow-y: auto;
-}
-
-@media (min-width: 992px) {
-  .bs-sidebar.affix {
-    position: fixed;
-    top: 45px;
-    max-height: calc(100% - 45px);
-  }
-} */
 
 article > dl > dd > em:before {
   content: "‘";
@@ -328,7 +338,7 @@ article > dl > dd > strong:after {
 }
 
 article ol {
-  @apply list-outside	list-decimal pl-8;
+  @apply list-outside list-decimal pl-8;
 }
 
 article ul {
@@ -370,6 +380,71 @@ article ul li ul li::before {
   content: "⚙️ ";
 }
 
+dt,
+dd {
+  display: inline;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dt::after {
+  font-weight: normal;
+  content: " ≈ ";
+}
+
+dd {
+  font-style: italic;
+}
+
+dd::after {
+  content: "\a";
+  white-space: pre;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Article — tables                                                             */
+/* -------------------------------------------------------------------------- */
+
+article table {
+  @apply shadow table-auto divide-y divide-gray-200 w-full border border-collapse border-gray-200 rounded-sm;
+}
+
+.md-typeset__table {
+  @apply inline-block mb-3 min-w-full rounded-sm;
+}
+
+.md-typeset__scrollwrap {
+  @apply mb-4 overflow-x-auto rounded-sm;
+}
+
+article table thead {
+  @apply bg-gray-50;
+}
+
+article table th,
+article .first_col table tr td:first-child {
+  @apply align-top text-center font-bold tracking-wider px-3 py-4 border border-collapse border-gray-200;
+}
+
+article table tbody {
+  @apply bg-white divide-y divide-gray-200;
+}
+
+article table tbody tr {
+  @apply hover:bg-gray-100;
+}
+
+article table tbody td,
+article .first_col table tr td:first-child {
+  @apply align-top text-left px-3 py-4 border border-collapse border-gray-200;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Article — blockquotes & asides                                               */
+/* -------------------------------------------------------------------------- */
+
 article div.wrapper.with_blockquote {
   @apply pt-1 pb-2 pl-3 pr-0;
 }
@@ -409,26 +484,9 @@ article .cukta.simple_blockquotes ~ blockquote p > *:not(span) {
   @apply block;
 }
 
-dt,
-dd {
-  display: inline;
-}
-
-dt {
-  font-weight: bold;
-}
-
-dt::after {
-  font-weight: normal;
-  content: " ≈ ";
-}
-dd {
-  font-style: italic;
-}
-dd::after {
-  content: "\a";
-  white-space: pre;
-}
+/* -------------------------------------------------------------------------- */
+/* Article — figures & Hajiloji speaker rows                                    */
+/* -------------------------------------------------------------------------- */
 
 article figure {
   @apply print:ml-3 md:ml-3 mt-1 mb-3 print:float-right md:float-right border border-gray-200 bg-gray-100 print:bg-white shadow rounded-sm clear-right w-full print:w-48 md:w-48;
@@ -442,7 +500,6 @@ article figcaption {
   @apply text-xs m-3 text-center;
 }
 
-/* first-lojban (Hajiroji): portrait + speech — from <speaker> expansion in markdownToHtml */
 article .speaker-row {
   @apply flex flex-row items-start gap-4 my-4 py-3 px-4 bg-gray-50 border border-gray-200 rounded-md shadow-sm;
 }
@@ -498,22 +555,11 @@ article .speaker-row__speech p {
   @apply m-0 leading-relaxed;
 }
 
-article .speaker-row__speech ul {
-  @apply my-0 ml-4 list-disc pl-4;
+/* Match article body lists (🌼 / ⚙️ ::before); only tighten vertical rhythm in the bubble */
+article .speaker-row__speech ul,
+article .speaker-row__speech ol {
+  @apply my-0;
 }
-
-article .speaker-row__speech ul li::before {
-  content: none;
-}
-
-@media print {
-  article .speaker-row {
-    break-inside: avoid;
-    @apply shadow-none bg-white;
-  }
-}
-
-/* wide figure */
 
 article figure.wide {
   @apply w-auto max-w-full float-none;
@@ -527,14 +573,14 @@ article figure.wide .figure_img {
   @apply h-auto;
 }
 
-/* glekwille */
+/* -------------------------------------------------------------------------- */
+/* Custom elements — glekwille / Lojban markup                                  */
+/* -------------------------------------------------------------------------- */
 
 jbo {
   font-weight: bold;
 }
-code {
-  font-size: 80%;
-}
+
 this {
   white-space: nowrap;
   font-style: italic;
@@ -597,7 +643,6 @@ description {
   display: block;
   padding: 5px;
   border-color: #ccc;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   box-shadow: 1px 1px 4px #555 inset;
   margin-bottom: 5px;
 }
@@ -625,72 +670,12 @@ description {
   position: relative;
 }
 
-#velsku {
-  text-align: left;
-  margin: 0;
-  /* display: none; */
-  /* justify-content: baseline; */
-  /* align-items: flex-start; */
-  padding: 0;
-  /* height: 28px; */
-  width: 100%;
-  bottom: 0px;
-  left: 0px;
-  position: fixed;
-  background: white;
-  z-index: 10;
-}
-
-#velsku ul {
-  padding: 0.1rem;
-  display: flex;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  box-shadow:
-    0 0 0 1px rgb(56 136 233),
-    0 0 0 2px rgb(34 87 213),
-    0 0 0 3px rgb(38 99 224),
-    0 0 0 4px rgb(25 65 165);
-  margin-top: 3px;
-}
-
-.velsku_pamei {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-#velsku a {
-  color: #2b79e0;
-  text-decoration: none;
-}
-
-.noselect {
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  user-select: none;
-  cursor: default;
-}
-
-.fullpage {
-  display: block;
-  position: fixed;
-  z-index: 9999;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-size: contain;
-  background-repeat: no-repeat no-repeat;
-  background-position: center center;
-  background-color: black;
-}
+/* -------------------------------------------------------------------------- */
+/* Mermaid diagrams                                                             */
+/* -------------------------------------------------------------------------- */
 
 div.mermaid > svg {
   @apply mx-auto;
-  /* @apply mx-auto !max-w-full; */
 }
 
 div.mermaid > svg foreignObject {
@@ -701,27 +686,35 @@ div.mermaid > svg foreignObject > div {
   text-align: center;
 }
 
+/* -------------------------------------------------------------------------- */
+/* Print                                                                        */
+/* -------------------------------------------------------------------------- */
+
 @media print {
+  table td:before,
+  table td:after {
+    content: "";
+    height: 4px;
+    display: block;
+  }
+
+  table,
+  table td,
+  table tr,
+  table th,
+  .wrapper,
+  dl,
+  .common {
+    break-inside: avoid;
+  }
+
+  article .speaker-row {
+    break-inside: avoid;
+    @apply shadow-none bg-white;
+  }
+
   div,
   blockquote {
     break-inside: avoid;
   }
-}
-
-.latex {
-  @apply relative inline-block;
-}
-.latex::before,
-.latex::after {
-  @apply absolute text-gray-600;
-  font-size: 1.1em;
-  line-height: 0;
-}
-.latex::before {
-  @apply -left-2 top-0;
-  content: "\201C";
-}
-.latex::after {
-  @apply -right-2 bottom-0;
-  content: "\201D";
 }

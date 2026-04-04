@@ -21,6 +21,7 @@ import { GalleryImg } from "../types/gallery-img";
 import path from "path";
 import replaceIncludes from "./remark-plugins/include/";
 import { expandFirstLojbanSpeakerTags } from "./expandFirstLojbanSpeakerTags";
+import { markdownNormalizeThematicBreaks } from "./markdownNormalizeThematicBreaks";
 // import { serializeHTMLNodeTree } from "./json2react";
 
 export default async function markdownToHtml({
@@ -34,6 +35,7 @@ export default async function markdownToHtml({
     resolveFrom: path.resolve(fullPath, ".."),
   });
   content = expandFirstLojbanSpeakerTags(content);
+  content = markdownNormalizeThematicBreaks(content);
   const root = htmlParser.parse(
     (
       await unified()
