@@ -660,6 +660,25 @@ description {
   margin-bottom: 5px;
 }
 
+/* Lojban ↔ gloss key (vocabulary line), same cue as blockquotes in books */
+article xample {
+  @apply flex relative py-4 px-3 mb-1 m-0 bg-gray-100 print:bg-white hover:bg-gray-200 border-0 shadow rounded-sm rounded-l-none;
+  border-left: 3px solid #1e90ff;
+}
+
+article xample:before {
+  @apply pointer-events-none inset-0 block absolute border border-l-0 border-gray-200 rounded-sm rounded-l-none;
+  content: "";
+}
+
+article xample p {
+  @apply font-normal mt-0 mb-0;
+}
+
+article xample p + p {
+  @apply mt-2;
+}
+
 .audio-inline {
   overflow: auto;
   white-space: nowrap;
