@@ -1,7 +1,7 @@
 ---
 icon: 📖
-title: Friendly CLL
-description: A beginner-friendly rewrite of the Complete Lojban Language — chapters 1–21
+title: Friendly Lojban
+description: A beginner-friendly rewrite of the book "The Complete Lojban Language".
 og:image: /assets/pixra/books/cll-friendly/cover.webp
 coverImage: /assets/pixra/books/cll-friendly/cover.webp
 ---
