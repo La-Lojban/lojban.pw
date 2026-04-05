@@ -39,12 +39,13 @@ Ito ay maaaring makuha sa mga sumusunod na format:
 
 [Karagdagang impormasyon...](/tl/articles/complete-lojban-language)
 
-## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - di-opisyal na talahuluganan
+## [Lensisku](https://lensisku.lojban.org/) — buhay na talahuluganan sa lensisku.lojban.org
 
-Tuklasin ang [La Sutysisku](https://la-lojban.github.io/sutysisku/tl/#seskari=cnano&sisku=coi_munje), isang talahuluganan para sa Lojban na naglalaman ng:
+Ang [Lensisku](https://lensisku.lojban.org/) ay isang buhay na talahuluganan ng Lojban na may:
 
-* De facto na mga kahulugan ng mga salita
-* Mga eksperimental na kahulugan at halimbawa ng paggamit
+* mga kurso sa istilong flashcard
+* paghahanap ayon sa kahulugan (hindi lang ayon sa anyo ng salitang Lojban)
+* mga talakayan sa anyong “waves” sa mga entry at kahulugan
 
 ## Mga Mungkahi
 

@@ -1,9 +1,50 @@
-import { useMemo } from "react";
-import { PostProps } from "../types/post";
+/**
+ * SFC-style layout (dependency order: styles → markup → script):
+ *   STYLES — Tailwind fragments
+ *   MARKUP — presentational pieces
+ *   SCRIPT — data + composition
+ */
+import { useMemo, type ReactNode } from "react";
 import PostHeader from "../components/post-header";
 import { buildDOMFromJSONBasic } from "../lib/json2react";
+import { PostProps } from "../types/post";
 import AllStories from "./all-stories";
 
+// -----------------------------------------------------------------------------
+// STYLES
+// -----------------------------------------------------------------------------
+function articleShellClass(hasToc: boolean) {
+  return `mb-8 mt-3 mx-auto w-full print:bg-white ${
+    hasToc ? "md:w-3/5 " : ""
+  }bg-gray-100`;
+}
+
+// -----------------------------------------------------------------------------
+// MARKUP
+// -----------------------------------------------------------------------------
+function ContentWrapperClasses({ isBookPath }: { isBookPath: boolean }) {
+  return (
+    <div
+      className={["simple_blockquotes", "lojbo", isBookPath ? "cukta" : null]
+        .filter(Boolean)
+        .join(" ")}
+    />
+  );
+}
+
+function ArticleShell({
+  hasToc,
+  children,
+}: {
+  hasToc: boolean;
+  children: ReactNode;
+}) {
+  return <div className={articleShellClass(hasToc)}>{children}</div>;
+}
+
+// -----------------------------------------------------------------------------
+// SCRIPT
+// -----------------------------------------------------------------------------
 function PostBody({
   post,
   state,
@@ -21,24 +62,14 @@ function PostBody({
 
   return (
     <>
-      <div
-        className={`mb-8 mt-3 mx-auto w-full print:bg-white ${
-          hasToc ? "md:w-3/5 " : ""
-        }bg-gray-100`}
-      >
+      <ArticleShell hasToc={!!hasToc}>
         <PostHeader post={post} siteSection={siteSection} />
-        <div
-          className={[
-            "simple_blockquotes",
-            "lojbo",
-            isBookPath ? "cukta" : null,
-          ]
-            .filter(Boolean)
-            .join(" ")}
-        ></div>
+        <ContentWrapperClasses isBookPath={isBookPath} />
         {content}
-        {posts && posts.length > 0 && <AllStories posts={posts} lang={lang} />}
-      </div>
+        {posts && posts.length > 0 ? (
+          <AllStories posts={posts} lang={lang} />
+        ) : null}
+      </ArticleShell>
     </>
   );
 }

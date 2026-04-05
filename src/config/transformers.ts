@@ -40,7 +40,9 @@ export const transformers: {selector: string; fn?: any; wrapper?:string; idCount
 		selector: "p > pixra",
 		fn: (element: HTMLElement) => {
 			const wrapperElement = createElementFromSelector("div.wrapper");
-			wrapperElement.innerHTML = `<figure><div class="figure_img"><img src="${element.attributes.url}" alt="${element.attributes.caption}"></div><figcaption><b>${element.attributes.caption}</b><br/><i>${element.attributes.definition}</i></figcaption></figure>`;
+			const caption = element.attributes.caption ?? "";
+			const definition = element.attributes.definition ?? "";
+			wrapperElement.innerHTML = `<figure><div class="figure_img"><img src="${element.attributes.url}" alt="${caption}"></div><figcaption><b>${caption}</b><br/><i>${definition}</i></figcaption></figure>`;
 			element.insertAdjacentHTML("afterend", wrapperElement.outerHTML);
 			element.remove();
 		},

@@ -1,5 +1,5 @@
 ---
-icon: 💬 
+icon: "💬"
 title: Чат
 meta.type: article
 meta.description: Ложбан - живой язык, и вы можете связаться с экспертами по ложбану в чате.

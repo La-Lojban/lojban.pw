@@ -1,7 +1,21 @@
+/**
+ * SFC-style layout (dependency order: styles → markup → script):
+ *   STYLES — Tailwind fragments
+ *   MARKUP — presentational pieces
+ *   SCRIPT — data + composition
+ */
 import { useMemo } from "react";
 import Head from "next/head";
 import { links, meta as metaDefault } from "../config/config";
 
+// -----------------------------------------------------------------------------
+// STYLES
+// -----------------------------------------------------------------------------
+// (none — Head children are unstyled)
+
+// -----------------------------------------------------------------------------
+// MARKUP
+// -----------------------------------------------------------------------------
 type MetaLink = {
   rel: string;
   type?: string;
@@ -9,6 +23,47 @@ type MetaLink = {
   href: string;
   color?: string;
 };
+
+function DocumentLinks({ links: linkList }: { links: MetaLink[] }) {
+  return (
+    <>
+      {linkList.map((el, index) => (
+        <link
+          key={el.rel + (el.href ?? "") + index}
+          rel={el.rel}
+          type={el.type}
+          sizes={el.sizes}
+          href={el.href}
+          color={el.color}
+        />
+      ))}
+    </>
+  );
+}
+
+function DocumentMetaTags({
+  entries,
+}: {
+  entries: [string, unknown][];
+}) {
+  return (
+    <>
+      {entries.map(([key, value]) => (
+        <meta
+          key={key}
+          property={key.startsWith("og:") ? key : undefined}
+          name={!key.startsWith("og:") ? key : undefined}
+          content={value as string}
+        />
+      ))}
+    </>
+  );
+}
+
+// -----------------------------------------------------------------------------
+// SCRIPT
+// -----------------------------------------------------------------------------
+type TMeta = { [key: string]: string | undefined };
 
 function removeUndefinedOrNull(obj: any) {
   for (const key in obj) {
@@ -30,14 +85,12 @@ function separateMetaKeys(jsonObj: any) {
   return { original: jsonObj, metaJson: metaObj };
 }
 
-type TMeta = { [key: string]: string | undefined };
-
-function getTag(fallbacks: string[], meta: TMeta, metaDefault: TMeta) {
+function getTag(fallbacks: string[], meta: TMeta, metaDef: TMeta) {
   for (const el of fallbacks) {
     if (meta[el]) return meta[el];
   }
   for (const el of fallbacks) {
-    if (metaDefault[el]) return metaDefault[el];
+    if (metaDef[el]) return metaDef[el];
   }
 }
 
@@ -133,25 +186,9 @@ function Meta({
 
   return (
     <Head>
-      {title && <title>{title}</title>}
-      {links_.map((el, index) => (
-        <link
-          key={el.rel + (el.href ?? "") + index}
-          rel={el.rel}
-          type={el.type}
-          sizes={el.sizes}
-          href={el.href}
-          color={el.color}
-        />
-      ))}
-      {metaEntries.map(([key, value]) => (
-        <meta
-          key={key}
-          property={key.startsWith("og:") ? key : undefined}
-          name={!key.startsWith("og:") ? key : undefined}
-          content={value as string}
-        />
-      ))}
+      {title ? <title>{title}</title> : null}
+      <DocumentLinks links={links_} />
+      <DocumentMetaTags entries={metaEntries} />
     </Head>
   );
 }

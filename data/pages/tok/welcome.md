@@ -38,12 +38,13 @@ nasin lipu ilo ni la lipu li lon:
 
 [sona mute...](/tok/articles/complete-lojban-language)
 
-## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - lipu nimi, li tan kulupu open ala, lon ilo pona
+## [Lensisku](https://lensisku.lojban.org/) — ilo nimi pi toki Lojban lon lensisku.lojban.org
 
-o lukin a e lipu [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje). ona li lipu nimi li jo e ni:
+[lipu Lensisku](https://lensisku.lojban.org/) li ilo nimi pi toki Lojban. ona li jo e ni:
 
-* De facto standard definitions of words
-* Experimental definitions and usage examples
+* musi pi kama sona kepeken lipu lili (flashcard)
+* alasa nimi kepeken kon (a nimi Lojban ala kin)
+* toki mute lon lipu nimi (sama “waves”)
 
 ## lipu ni o kama seme?
 

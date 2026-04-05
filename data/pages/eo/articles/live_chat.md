@@ -1,5 +1,5 @@
 ---
-icon: 💬 
+icon: "💬"
 title: Viva babilejo
 meta.type: article
 meta.description: Lojban estas vivanta lingvo, kaj vi povas kontakti spertulojn en Lojban en babilejo.

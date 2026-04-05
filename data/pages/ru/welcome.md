@@ -39,12 +39,13 @@ meta.title: Что такое ложбан?
 
 [Подробнее...](/ru/articles/complete-lojban-language)
 
-## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku — отличный неофициальный словарь
+## [Lensisku](https://lensisku.lojban.org/) — живой словарь на lensisku.lojban.org
 
-Изучите [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), интерактивный словарь ложбана, который включает в себя:
+[Lensisku](https://lensisku.lojban.org/) — актуальный словарь ложбана с:
 
-* Де-факто стандартные определения слов.
-* Экспериментальные определения и примеры использования.
+* курсами в формате карточек для запоминания;
+* поиском по смыслу (не только по форме слова на ложбане);
+* обсуждениями в виде «волн» у статей и определений.
 
 ## Предложения
 

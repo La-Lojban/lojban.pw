@@ -1,5 +1,5 @@
 ---
-icon: 💬 
+icon: "💬"
 title: Live-Chat
 meta.type: article
 meta.description: Lojban ist eine lebendige Sprache, und Sie können Experten in Lojban in einem Chat kontaktieren.

@@ -39,12 +39,13 @@ en la Discord kaj Telegram mesaĝiloj.
 
 [Pliaj informoj...](/eo/articles/complete-lojban-language)
 
-## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - eleganta neoficiala vortaro
+## [Lensisku](https://lensisku.lojban.org/) — viva vortaro ĉe lensisku.lojban.org
 
-Esploru [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), vortaron por Lojban kiu inkluzivas:
+[Lensisku](https://lensisku.lojban.org/) estas viva vortaro de Lojban kun:
 
-* De facto-standardajn difinojn de vortoj
-* Eksperimentajn difinojn kaj ekzemplojn de uzo
+* kursoj laŭ flashcard-stilo
+* serĉo laŭ signifo (ne nur laŭ lojbana vortformo)
+* diskutaj „ondoj“ ĉe artikoloj kaj difinoj
 
 ## Sugestoj
 

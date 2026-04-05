@@ -39,12 +39,13 @@ Está disponible en los siguientes formatos:
 
 [Más información...](/es/articulos/lenguaje-lojban completo)
 
-## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - un elegante diccionario no oficial
+## [Lensisku](https://lensisku.lojban.org/) — diccionario en vivo en lensisku.lojban.org
 
-Explora [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), un diccionario de Lojban que incluye:
+[Lensisku](https://lensisku.lojban.org/) es un diccionario vivo de lojban con:
 
-* Definiciones estándar de facto de palabras.
-* Definiciones experimentales y ejemplos de uso.
+* cursos tipo tarjetas (flashcards)
+* búsqueda por significado (no solo por la forma de la palabra en lojban)
+* hilos de discusión en “olas” en entradas y definiciones
 
 ## Sugerencias
 

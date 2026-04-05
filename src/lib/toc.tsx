@@ -4,7 +4,13 @@ function normalizePath(path: string): string {
   return path.replace(/\/$/, "") || "/";
 }
 
-export function getClosestHeaderId() {
+export type GetClosestHeaderIdOptions = {
+  /** When false, only updates ToC highlight (no `history.replaceState`). Use while the user is scrolling so the URL/hash does not trigger scroll reconciliation. */
+  syncHistory?: boolean;
+};
+
+export function getClosestHeaderId(options?: GetClosestHeaderIdOptions) {
+  const syncHistory = options?.syncHistory !== false;
   const headers = Array.from(
     document.querySelectorAll("h1, h2, h3")
   ) as HTMLElement[];
@@ -52,7 +58,7 @@ export function getClosestHeaderId() {
     ) as HTMLAnchorElement[];
 
     const hashedId = "#" + (closestHeader?.id ?? "");
-    if (closestHeader) {
+    if (closestHeader && syncHistory) {
       history.replaceState(null, "", hashedId);
     }
     const currentPath = normalizePath(window.location.pathname);
@@ -88,4 +94,7 @@ export function getClosestHeaderId() {
   }
 }
 
-export const debouncedGetClosestHeaderId = debounce(getClosestHeaderId, 1000);
+export const debouncedGetClosestHeaderId = debounce(
+  () => getClosestHeaderId({ syncHistory: false }),
+  1000
+);

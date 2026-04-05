@@ -17,7 +17,15 @@ This course teaches Lojban from its formal foundations, but in simple terms and 
 
 ## [‘First Steps in Lojban’ course](/en/books/first-lojban/0)
 
+<pixra redirect="/en/books/first-lojban/0" url="/assets/pixra/books/first-lojban/cover.webp" caption="‘First Steps in Lojban’ course"></pixra>
+
 Manga-style beginner track (English edition of *Hajiloji 2*): characters **Koshon** and **Sora**, conversational pacing, and optional “back alley” logic chapters.
+
+## [‘Friendly Lojban’](/en/books/friendly-cll/1)
+
+<pixra redirect="/en/books/friendly-cll/1" url="/assets/pixra/books/cll-friendly/cover.webp" caption="Friendly Lojban"></pixra>
+
+A beginner-friendly rewrite of the book *The Complete Lojban Language*.
 
 ## [Live Lojban chat](/en/articles/live_chat)
 
@@ -43,12 +51,13 @@ It is available in the following formats:
 
 [More info...](/en/articles/complete-lojban-language)
 
-## ![](https://la-lojban.github.io/sutysisku/pixra/snime.svg) la sutysisku - a slick unofficial dictionary
+## [Lensisku](https://lensisku.lojban.org/) — live dictionary at lensisku.lojban.org
 
-Explore [La Sutysisku](https://la-lojban.github.io/sutysisku/en/#seskari=cnano&sisku=coi_munje), a dictionary for Lojban that includes:
+[Lensisku](https://lensisku.lojban.org/) is a live Lojban dictionary with:
 
-* De facto standard definitions of words
-* Experimental definitions and usage examples
+* Flashcard-style courses
+* Search by meaning (not only by Lojban word form)
+* Discussion “waves” on entries and definitions
 
 ## Suggestions
 
