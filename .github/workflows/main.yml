@@ -82,7 +82,11 @@ jobs:
           BUILDKIT_INLINE_CACHE=1
           NODE_ENV=production
 
-    - name: Run Docker container
+    # Site build, then Algolia index push (same markdown as the build). Runs on push to main,
+    # cron (every 3 days), and workflow_dispatch. Skipped on pull_request so PRs do not overwrite
+    # the live index. Requires ALGOLIA_ADMIN_KEY (+ app id / index name secrets); if unset, the
+    # script exits 0 and the build still succeeds.
+    - name: Run Docker container (build + Algolia index)
       run: |
         # Build install commands based on cache status
         INSTALL_CMD=""
@@ -92,6 +96,8 @@ jobs:
         if [ "${{ steps.playwright-cache.outputs.cache-hit }}" != "true" ]; then
           INSTALL_CMD="${INSTALL_CMD}pnpm exec playwright install chromium --with-deps && "
         fi
+        INDEX_NAME="${{ secrets.NEXT_PUBLIC_ALGOLIA_INDEX_NAME }}"
+        if [ -z "$INDEX_NAME" ]; then INDEX_NAME="lojban-pw"; fi
         docker run --rm -v /output:/app/src/out1 \
                    -v ${{ github.workspace }}/data/config:/app/src/config:Z \
                    -v ${{ github.workspace }}/ms-playwright:/ms-playwright:Z \
@@ -107,10 +113,10 @@ jobs:
                    -e NEXT_PUBLIC_ALGOLIA_INDEX_NAME=${{ secrets.NEXT_PUBLIC_ALGOLIA_INDEX_NAME }} \
                    -e ALGOLIA_APP_ID=${{ secrets.NEXT_PUBLIC_ALGOLIA_APP_ID }} \
                    -e ALGOLIA_ADMIN_KEY=${{ secrets.ALGOLIA_ADMIN_KEY }} \
-                   -e ALGOLIA_INDEX_NAME=lojban-pw \
+                   -e ALGOLIA_INDEX_NAME="$INDEX_NAME" \
                    -e CI=true \
                    lojban:latest \
-                   sh -c "${INSTALL_CMD}pnpm cicd && node scripts/algolia-index.js"
+                   sh -c "${INSTALL_CMD}pnpm cicd && if [ \"${{ github.event_name }}\" != \"pull_request\" ]; then node scripts/algolia-index.js; else echo \"Skipping Algolia index on pull_request\"; fi"
 
     - name: Fix artifact permissions
       run: sudo chown -R $USER:$USER /output

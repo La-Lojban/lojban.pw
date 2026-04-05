@@ -152,21 +152,27 @@ async function main() {
     objects: records,
   });
 
-  // Ensure title and content are searchable (otherwise e.g. "hello" in body won't match)
+  // Searchable attribute order matters: earlier = higher ranking weight (title / page before body).
   await client.setSettings({
     indexName: INDEX_NAME,
     indexSettings: {
       searchableAttributes: [
         "title",
         "pageTitle",
-        "content",
         "hierarchy.lvl0",
         "hierarchy.lvl1",
         "hierarchy.lvl2",
+        "content",
         "url",
       ],
       attributesToHighlight: ["title", "pageTitle", "content"],
-      attributesToSnippet: ["content:20"],
+      attributesToSnippet: ["content:24"],
+      // One hit per section URL; Algolia keeps the best-matching chunk (better than client-side dedup).
+      attributeForDistinct: "url",
+      distinct: true,
+      advancedSyntax: true,
+      // Short Lojban words in headings should match literally when possible.
+      disableTypoToleranceOnAttributes: ["title", "pageTitle"],
     },
   });
 

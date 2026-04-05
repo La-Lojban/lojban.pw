@@ -70,7 +70,7 @@ Only the markdown body is indexed (no front matter in `content`). Algolia’s **
 }
 ```
 
-3. Configure searchable attributes and ranking in the Algolia dashboard (e.g. `title`, `content`, `url`).
+3. After each index run, `scripts/algolia-index.js` applies index settings (searchable attributes, distinct-by-`url`, snippets, typo rules on titles). Re-run the script (or CI) after changing ranking; you can still tune further in the Algolia dashboard if needed.
 
 <!-- legacy example removed; see Option B above for the built-in script -->
 

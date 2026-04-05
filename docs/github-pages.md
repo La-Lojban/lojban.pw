@@ -22,7 +22,7 @@ or, for a custom domain, whatever you set in **Settings → Pages**.
 ## 3. What the workflow does
 
 1. **Build:** Checks out the repo, builds the app in Docker (runs `pnpm cicd`: full build, PDFs, copies static output to a single directory).
-2. **Algolia index:** Runs `node scripts/algolia-index.js` to push all markdown pages to the Algolia index `lojban-pw`. Requires the secret `ALGOLIA_ADMIN_KEY` (and the same App ID used for search); if not set, indexing is skipped and the build continues.
+2. **Algolia index:** After the build, runs `node scripts/algolia-index.js` to push all markdown pages to Algolia (index name from `NEXT_PUBLIC_ALGOLIA_INDEX_NAME`, defaulting to `lojban-pw` for the write step). Runs on pushes to `main`, the every-three-days schedule, and manual runs; it is **skipped on pull requests** so the live index is not overwritten from a PR. Requires the secret `ALGOLIA_ADMIN_KEY` (and the same App ID / index name as search); if not set, indexing is skipped and the build continues.
 3. **Upload:** Uploads that directory as the GitHub Pages artifact.
 4. **Deploy:** The `deploy-pages` action publishes it.
 

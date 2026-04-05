@@ -1,4 +1,12 @@
-import React, { useCallback, useEffect, useRef } from "react";
+import React, {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import {
   InstantSearch,
   SearchBox,
@@ -15,6 +23,11 @@ import {
   ALGOLIA_SEARCH_KEY,
   ALGOLIA_INDEX_NAME,
 } from "../lib/algolia";
+
+/** Mirrors the search input while the debounced query catches up (see `queryHook`). */
+const AlgoliaLiveQueryContext = createContext("");
+
+const SEARCH_DEBOUNCE_MS = 200;
 
 /** Hit shape expected from index (section-based: title = section, pageTitle = doc, url may have #anchor). */
 export type AlgoliaHit = {
@@ -58,50 +71,61 @@ function Hit({ hit, onSelect }: { hit: AlgoliaHit; onSelect: () => void }) {
   );
 }
 
-function SearchResultsPanel({ onClose }: { onClose: () => void }) {
-  const { query } = useSearchBox();
-  const { results, status } = useInstantSearch();
-  const hasQuery = query.trim().length > 0;
-  const resultsMeta = results as { __isArtificial?: boolean; nbHits?: number } | undefined;
-  const hasResults =
-    Boolean(resultsMeta && !resultsMeta.__isArtificial && (resultsMeta.nbHits ?? 0) > 0);
-  const loading = status === "loading" && hasQuery;
-
-  if (!hasQuery) {
-    return (
-      <div className="px-4 py-6 text-center text-gray-500 text-sm">
-        Type to search the site.
-      </div>
-    );
-  }
-  if (loading) {
-    return (
-      <div className="px-4 py-6 text-center text-gray-500 text-sm">
-        Searching…
-      </div>
-    );
-  }
-  if (!hasResults) {
-    return (
-      <div className="px-4 py-6 text-center text-gray-500 text-sm">
-        No results for &quot;{query}&quot;.
-      </div>
-    );
-  }
-  return <DedupedHitsList onClose={onClose} />;
-}
-
-/** One row per page: when a doc is split into chunks we show the page once (first matching chunk). */
-function DedupedHitsList({ onClose }: { onClose: () => void }) {
-  const { hits } = useHits<AlgoliaHit>();
+function dedupeHitsByUrl(hits: AlgoliaHit[]) {
   const seen = new Set<string>();
-  const byUrl = hits.filter((h) => {
+  return hits.filter((h) => {
     if (seen.has(h.url)) return false;
     seen.add(h.url);
     return true;
   });
+}
+
+function SearchResultsPanel({ onClose }: { onClose: () => void }) {
+  const liveQuery = useContext(AlgoliaLiveQueryContext);
+  const { query: indexQuery } = useSearchBox();
+  const { results, status } = useInstantSearch();
+  const { hits } = useHits<AlgoliaHit>();
+  const live = liveQuery.trim();
+  const indexed = indexQuery.trim();
+  const hasQuery = live.length > 0;
+  const debouncing = hasQuery && live !== indexed;
+  const resultsMeta = results as { __isArtificial?: boolean; nbHits?: number } | undefined;
+  const nbHits =
+    resultsMeta && !resultsMeta.__isArtificial ? (resultsMeta.nbHits ?? 0) : 0;
+  const byUrl = useMemo(() => dedupeHitsByUrl(hits), [hits]);
+  const hasHitsToShow = byUrl.length > 0;
+  const loading =
+    hasQuery && (status === "loading" || status === "stalled");
+  /**
+   * Avoid swapping the whole panel for each in-flight request (causes flashing).
+   * Keep showing the previous hit list while loading when possible; debounce reduces request churn.
+   */
+  const showBlockingLoading =
+    hasQuery && !hasHitsToShow && (debouncing || loading);
+
+  if (!hasQuery) {
+    return (
+      <div className="px-4 py-6 text-center text-gray-500 text-sm min-h-[4.5rem] flex items-center justify-center">
+        Type to search the site.
+      </div>
+    );
+  }
+  if (showBlockingLoading) {
+    return (
+      <div className="px-4 py-6 text-center text-gray-500 text-sm min-h-[4.5rem] flex items-center justify-center">
+        Searching…
+      </div>
+    );
+  }
+  if (!debouncing && !loading && nbHits === 0 && !hasHitsToShow) {
+    return (
+      <div className="px-4 py-6 text-center text-gray-500 text-sm min-h-[4.5rem] flex items-center justify-center">
+        No results for &quot;{indexQuery}&quot;.
+      </div>
+    );
+  }
   return (
-    <ul className="divide-y divide-gray-100">
+    <ul className="divide-y divide-gray-100 min-h-[4.5rem]" aria-busy={loading || undefined}>
       {byUrl.map((hit) => (
         <li key={hit.objectID}>
           <Hit hit={hit} onSelect={onClose} />
@@ -111,28 +135,32 @@ function DedupedHitsList({ onClose }: { onClose: () => void }) {
   );
 }
 
-function SearchOverlayContent({ onClose }: { onClose: () => void }) {
-  const handleClose = useCallback(() => onClose(), [onClose]);
+function InstantSearchInner({ onClose }: { onClose: () => void }) {
+  const [liveQuery, setLiveQuery] = useState("");
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  useEffect(() => {
-    const onKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") handleClose();
-    };
-    window.addEventListener("keydown", onKeyDown);
-    return () => window.removeEventListener("keydown", onKeyDown);
-  }, [handleClose]);
-
-  const searchClient = React.useMemo(
-    () => algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY),
+  useEffect(
+    () => () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+    },
     []
   );
 
+  const queryHook = useCallback((q: string, search: (sq: string) => void) => {
+    setLiveQuery(q);
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    if (q.trim() === "") {
+      search(q);
+      return;
+    }
+    debounceRef.current = setTimeout(() => {
+      debounceRef.current = null;
+      search(q);
+    }, SEARCH_DEBOUNCE_MS);
+  }, []);
+
   return (
-    <InstantSearch
-      searchClient={searchClient}
-      indexName={ALGOLIA_INDEX_NAME}
-      future={{ preserveSharedStateOnUnmount: true }}
-    >
+    <AlgoliaLiveQueryContext.Provider value={liveQuery}>
       <Configure hitsPerPage={200} />
       <div className="max-w-2xl mx-auto pt-4 pb-2 px-4">
         <div className="relative flex items-center">
@@ -140,6 +168,7 @@ function SearchOverlayContent({ onClose }: { onClose: () => void }) {
           <SearchBox
             placeholder="Search…"
             autoFocus
+            queryHook={queryHook}
             classNames={{
               root: "w-full",
               form: "w-full",
@@ -154,8 +183,35 @@ function SearchOverlayContent({ onClose }: { onClose: () => void }) {
         </div>
       </div>
       <div className="max-w-2xl mx-auto px-4 pb-4 max-h-[60vh] overflow-y-auto bg-white rounded-b-lg shadow-lg border border-t-0 border-gray-200">
-        <SearchResultsPanel onClose={handleClose} />
+        <SearchResultsPanel onClose={onClose} />
       </div>
+    </AlgoliaLiveQueryContext.Provider>
+  );
+}
+
+function SearchOverlayContent({ onClose }: { onClose: () => void }) {
+  const handleClose = useCallback(() => onClose(), [onClose]);
+
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") handleClose();
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [handleClose]);
+
+  const searchClient = useMemo(
+    () => algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY),
+    []
+  );
+
+  return (
+    <InstantSearch
+      searchClient={searchClient}
+      indexName={ALGOLIA_INDEX_NAME}
+      future={{ preserveSharedStateOnUnmount: true }}
+    >
+      <InstantSearchInner onClose={handleClose} />
     </InstantSearch>
   );
 }
