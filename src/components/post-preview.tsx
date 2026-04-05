@@ -62,7 +62,7 @@ function PostPreview({ post }: Props) {
           <img
             src={coverImage}
             alt=""
-            className="absolute left-0 top-0 h-full w-auto max-w-none select-none"
+            className="absolute left-1/2 top-0 h-full w-auto max-w-none -translate-x-1/2 select-none"
             decoding="async"
           />
         </div>
