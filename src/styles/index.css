@@ -507,7 +507,7 @@ article figure {
 }
 
 article figure .figure_img {
-  @apply -m-px bg-contain bg-no-repeat h-0 print:h-48 md:h-48 w-full print:w-48 md:w-48;
+  @apply -m-px p-2 bg-contain bg-no-repeat bg-center h-0 print:h-48 md:h-48 w-full print:w-48 md:w-48;
 }
 
 article figcaption {
@@ -545,7 +545,7 @@ article .speaker-row__avatar figure {
 }
 
 article .speaker-row__avatar .figure_img {
-  @apply h-20 md:h-24 w-full -m-px p-0 bg-contain bg-no-repeat bg-center;
+  @apply h-20 md:h-24 w-full -m-px p-2 bg-contain bg-no-repeat bg-center;
 }
 
 article .speaker-row__avatar .figure_img img {
