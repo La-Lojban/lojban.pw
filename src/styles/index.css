@@ -557,9 +557,9 @@ article .speaker-row__avatar figcaption i:empty {
   display: none;
 }
 
-/* Hajiloji <speaker> dialogue: bubble aligned with brand (deep-orange scale, figure-like shadow) */
+/* Hajiloji <speaker> dialogue: bubble tint from hashed sprite/name props (`speaker-row--bubble-*`) */
 article .speaker-row__speech {
-  --speech-bubble-fill: #fbe9e7; /* deep-orange-50 */
+  --speech-bubble-fill: #fbe9e7; /* deep-orange-50 — fallback if class missing */
   --speech-bubble-border: #ffccbc; /* deep-orange-100 */
   position: relative;
   flex: 1 1 0%;
@@ -572,6 +572,31 @@ article .speaker-row__speech {
   box-shadow:
     0 1px 3px 0 rgb(0 0 0 / 0.1),
     0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+article .speaker-row--bubble-0 .speaker-row__speech {
+  --speech-bubble-fill: #fbe9e7;
+  --speech-bubble-border: #ffccbc;
+}
+
+article .speaker-row--bubble-1 .speaker-row__speech {
+  --speech-bubble-fill: #e3f2fd;
+  --speech-bubble-border: #bbdefb;
+}
+
+article .speaker-row--bubble-2 .speaker-row__speech {
+  --speech-bubble-fill: #f3e5f5;
+  --speech-bubble-border: #e1bee7;
+}
+
+article .speaker-row--bubble-3 .speaker-row__speech {
+  --speech-bubble-fill: #e8f5e9;
+  --speech-bubble-border: #c8e6c9;
+}
+
+article .speaker-row--bubble-4 .speaker-row__speech {
+  --speech-bubble-fill: #fff8e1;
+  --speech-bubble-border: #ffecb3;
 }
 
 /* Tail toward avatar (left); outer rim + inner fill */

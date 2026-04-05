@@ -3,11 +3,11 @@ title: Hajiloji final exam — answer key (1.2)
 description: Markdown transcription of the Japanese answer-key PDF for “Hajime no Lojban ▶ New Game” final test (100 points, 45–60 min).
 ---
 
-This page is a **Markdown version** of the official Japanese answer key:
+This page is a _Markdown version_ of the official Japanese answer key:
 
 - Source PDF: [hajloj_cipra_danfu_1.2.pdf](https://cogas.github.io/hajiloji/article/drata/hajloj_cipra_danfu_1.2.pdf) (Cogas / Hajiloji)
 
-The **questions** are in a separate PDF (`hajloj_cipra_1.2.pdf`); this file is **answers and commentary only**. Wording below follows the PDF (Japanese).
+The _questions_ are in a separate PDF (`hajloj_cipra_1.2.pdf`); this file is _answers and commentary only_. Wording below follows the PDF (Japanese).
 
 ---
 

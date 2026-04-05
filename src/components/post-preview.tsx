@@ -14,51 +14,71 @@ function PostPreview({ post }: Props) {
   const author: Author | TPost["meta.author"] =
     post.author ?? post["meta.author"];
   const href = `/${slug.join("/")}`;
-  return (
-    <div
+
+  const meta = (date || author || excerpt) && (
+    <div className="mt-2 text-gray-600">
+      {date && (
+        <div className="text-lg mb-4">
+          <DateFormatter dateString={date} />
+        </div>
+      )}
+      {excerpt && (
+        <div className="text-lg leading-relaxed mb-4">{excerpt}</div>
+      )}
+      {author && (
+        <Avatar name={author?.name ?? author} picture={author?.picture} />
+      )}
+    </div>
+  );
+
+  const titleBlock = (
+    <h3
       className={
-        "max-w-md p-4 align-middle shadow-lg rounded-lg place-items-left bg-blend-lighten bg-right" +
-        (coverImage ? "" : " bg-white")
-      }
-      style={
-        coverImage
-          ? {
-              backgroundImage: `url('${coverImage}')`,
-              backgroundPosition: "left",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "auto 100%",
-            }
-          : undefined
+        "break-words text-gray-800 text-2xl " +
+        (coverImage ? "text-left" : "text-center")
       }
     >
+      <Link
+        href={href}
+        className="hover:underline"
+        style={
+          coverImage
+            ? undefined
+            : {
+                textShadow:
+                  "-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff",
+              }
+        }
+      >
+        {title}
+      </Link>
+    </h3>
+  );
+
+  if (coverImage) {
+    return (
+      <div className="flex max-w-md overflow-hidden rounded-lg shadow-lg bg-white">
+        <div className="relative w-1/3 shrink-0 min-h-[5rem] overflow-hidden bg-gray-100">
+          <img
+            src={coverImage}
+            alt=""
+            className="absolute left-0 top-0 h-full w-auto max-w-none select-none"
+            decoding="async"
+          />
+        </div>
+        <div className="inner flex flex-1 min-w-0 flex-col p-4">
+          {titleBlock}
+          {meta}
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="max-w-md p-4 align-middle shadow-lg rounded-lg place-items-left bg-white">
       <div className="inner">
-        <h3 className="break-words text-gray-800 text-2xl text-center">
-          <Link
-            href={href}
-            className="hover:underline"
-            style={{
-              textShadow:
-                "-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff",
-            }}
-          >
-            {title}
-          </Link>
-        </h3>
-        {(date || author || excerpt) && (
-          <div className="mt-2 text-gray-600">
-            {date && (
-              <div className="text-lg mb-4">
-                <DateFormatter dateString={date} />
-              </div>
-            )}
-            {excerpt && (
-              <div className="text-lg leading-relaxed mb-4">{excerpt}</div>
-            )}
-            {author && (
-              <Avatar name={author?.name ?? author} picture={author?.picture} />
-            )}
-          </div>
-        )}
+        {titleBlock}
+        {meta}
       </div>
     </div>
   );

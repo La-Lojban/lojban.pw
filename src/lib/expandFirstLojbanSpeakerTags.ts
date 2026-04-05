@@ -24,6 +24,51 @@ export function firstLojbanSpeakerIconUrl(sprite: string): string {
   return `${FIRST_LOJBAN_SPEAKER_ICONS_BASE}${base}.webp`;
 }
 
+/** Must match the number of `article .speaker-row--bubble-*` themes in `src/styles/index.css`. */
+const SPEAKER_BUBBLE_PALETTE_SIZE = 5;
+
+function normalizeSpriteId(sprite: string): string {
+  return sprite.replace(/\.(png|webp)$/i, "").toLowerCase();
+}
+
+/** FNV-1a 32-bit — stable, fast, good distribution for short keys. */
+function fnv1a32(str: string): number {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  return h >>> 0;
+}
+
+/** Hash input from `<speaker sprite="…" name="…">` props (name optional). */
+function bubbleThemeKeySingle(sprite: string, explicitName?: string): string {
+  const id = normalizeSpriteId(sprite);
+  const n = explicitName?.trim();
+  return n ? `${id}\x1e${n}` : id;
+}
+
+/**
+ * Hash input from `<speakers sprites="…" names="…">`; sprite order ignored so the same set maps to
+ * one color.
+ */
+function bubbleThemeKeyMultiface(
+  sprites: string[],
+  explicitNames?: string[]
+): string {
+  const pairs = sprites.map((sp, i) => ({
+    id: normalizeSpriteId(sp),
+    name: explicitNames?.[i]?.trim(),
+  }));
+  pairs.sort((a, b) => a.id.localeCompare(b.id));
+  return pairs.map((p) => (p.name ? `${p.id}\x1e${p.name}` : p.id)).join("|");
+}
+
+function speakerRowBubbleModifierFromThemeKey(key: string): string {
+  const idx = fnv1a32(key) % SPEAKER_BUBBLE_PALETTE_SIZE;
+  return `speaker-row--bubble-${idx}`;
+}
+
 function parseSpeakerOpenTag(attrStr: string): {
   sprite?: string;
   name?: string;
@@ -109,7 +154,10 @@ function buildSpeakerRow(
   const label = speakerDisplayNameFromSprite(sprite, explicitName);
   const safe = escapeHtmlAttr(label);
   const body = speechInnerForHtml(inner);
-  return `<div class="speaker-row">
+  const rowMod = speakerRowBubbleModifierFromThemeKey(
+    bubbleThemeKeySingle(sprite, explicitName)
+  );
+  return `<div class="speaker-row ${rowMod}">
 <div class="speaker-row__avatar">
 <figure><div class="figure_img" data-url="${url}"><img src="${url}" alt="${safe}"></div><figcaption><b>${safe}</b><br/><i></i></figcaption></figure>
 </div>
@@ -138,7 +186,10 @@ function buildMultifaceRow(
     })
     .join("");
   const body = speechInnerForHtml(inner);
-  return `<div class="speaker-row speaker-row--multiface">
+  const rowMod = speakerRowBubbleModifierFromThemeKey(
+    bubbleThemeKeyMultiface(sprites, explicitNames)
+  );
+  return `<div class="speaker-row speaker-row--multiface ${rowMod}">
 <div class="speaker-row__avatar">
 ${wrappers}</div>
 <div class="speaker-row__speech">${body}
@@ -177,7 +228,8 @@ function findNextSpeakerTag(markdown: string, from: number): NextTag | null {
 /**
  * Expands Hajiloji dialogue tags into `speaker-row` markup (`src/styles/index.css`):
  * - `<speaker sprite="sor1">…</speaker>` (optional `name="…"`, self-closing ok)
- * - `<speakers multiface sprites="sor5,sev1,koc5">…</speakers>` (optional `names="Sora,Sevan,Koshon"`)
+ * - `<speakers multiface sprites="sor5,sev1,koc5">…</speakers>` (optional `names="…"`)
+ * Bubble tint is `speaker-row--bubble-*` from a hash of sprite / names props (see `SPEAKER_BUBBLE_PALETTE_SIZE`).
  */
 export function expandFirstLojbanSpeakerTags(markdown: string): string {
   const SPEAKER_OPEN_LEN = "<speaker".length;
