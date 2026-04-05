@@ -31,6 +31,9 @@ function PostPreview({ post }: Props) {
     </div>
   );
 
+  const coverTitleLinkShadow =
+    "0 0 14px rgba(255,255,255,1), 0 0 6px rgba(255,255,255,0.95), 0 0 2px #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff";
+
   const titleBlock = (
     <h3
       className={
@@ -43,7 +46,7 @@ function PostPreview({ post }: Props) {
         className="hover:underline"
         style={
           coverImage
-            ? undefined
+            ? { textShadow: coverTitleLinkShadow }
             : {
                 textShadow:
                   "-1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff",
@@ -57,19 +60,17 @@ function PostPreview({ post }: Props) {
 
   if (coverImage) {
     return (
-      <div className="flex max-w-md overflow-hidden rounded-lg shadow-lg bg-white">
-        <div className="relative w-1/3 shrink-0 min-h-[5rem] overflow-hidden bg-gray-100">
-          <img
-            src={coverImage}
-            alt=""
-            className="absolute left-1/2 top-0 h-full w-auto max-w-none -translate-x-1/2 select-none"
-            decoding="async"
-          />
-        </div>
-        <div className="inner flex flex-1 min-w-0 flex-col p-4">
-          {titleBlock}
-          {meta}
-        </div>
+      <div
+        className="inner flex w-full min-w-0 max-w-md flex-col overflow-hidden rounded-lg shadow-lg bg-gray-100 px-4 pb-4 pt-[10rem]"
+        style={{
+          backgroundImage: `linear-gradient(to bottom, transparent 0, transparent 10rem, white 10rem, white 100%), url(${coverImage})`,
+          backgroundSize: "100% 100%, cover",
+          backgroundPosition: "0 0, center top",
+          backgroundRepeat: "no-repeat, no-repeat",
+        }}
+      >
+        {titleBlock}
+        {meta}
       </div>
     );
   }

@@ -28,7 +28,14 @@ export function firstLojbanSpeakerIconUrl(sprite: string): string {
 const SPEAKER_BUBBLE_PALETTE_SIZE = 5;
 
 function normalizeSpriteId(sprite: string): string {
-  return sprite.replace(/\.(png|webp)$/i, "").toLowerCase();
+  return sprite.replace(/\..*$/i, "").toLowerCase();
+}
+
+/** Palette key: normalized sprite id with all non-letters removed (e.g. koc2 → koc, foo-bar1 → foobar). */
+function bubblePaletteKeyFromSprite(sprite: string): string {
+  const base = normalizeSpriteId(sprite);
+  const letters = base.replace(/[^a-z]/gi, "").toLowerCase();
+  return letters || base;
 }
 
 /** FNV-1a 32-bit — stable, fast, good distribution for short keys. */
@@ -41,10 +48,10 @@ function fnv1a32(str: string): number {
   return h >>> 0;
 }
 
-/** Bubble palette hash uses `sprite` ids only (normalized); `name` / `names` do not affect color. */
+/** Bubble palette hash uses letters-only sprite key; `name` / `names` ignored. */
 function bubbleThemeKeyFromSprites(sprites: string[]): string {
   return [...sprites]
-    .map(normalizeSpriteId)
+    .map(bubblePaletteKeyFromSprite)
     .sort((a, b) => a.localeCompare(b))
     .join("|");
 }
@@ -214,7 +221,7 @@ function findNextSpeakerTag(markdown: string, from: number): NextTag | null {
  * Expands Hajiloji dialogue tags into `speaker-row` markup (`src/styles/index.css`):
  * - `<speaker sprite="sor1">…</speaker>` (optional `name="…"`, self-closing ok)
  * - `<speakers multiface sprites="sor5,sev1,koc5">…</speakers>` (optional `names="…"`)
- * Bubble tint is `speaker-row--bubble-*` from a hash of `sprite` ids only (see `SPEAKER_BUBBLE_PALETTE_SIZE`).
+ * Bubble tint is `speaker-row--bubble-*` from a hash of each sprite id with non-letters stripped (see `SPEAKER_BUBBLE_PALETTE_SIZE`).
  */
 export function expandFirstLojbanSpeakerTags(markdown: string): string {
   const SPEAKER_OPEN_LEN = "<speaker".length;
