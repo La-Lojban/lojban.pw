@@ -491,6 +491,9 @@ article blockquote p {
   @apply font-normal mt-0 mb-0;
 }
 
+/* Stack Lojban line + gloss as separate lines. Keep predicate/grammar notes outside the
+   blockquote (or wrap in <span>) — mixed <em>/<strong>/<sub> as siblings under p would each
+   become block-level here and read as awkward line breaks. */
 article .cukta.simple_blockquotes ~ blockquote p > *:not(span) {
   @apply block;
 }
