@@ -63,7 +63,7 @@ This page is a version of the official exam (originally in Japanese):
 </tbody>
 </table>
 
-### Ⅲ. Mark each statement **T** (true) or **F** (false).
+### Ⅲ. Mark each statement _T_ (true) or _F_ (false).
 
 **(1)** The following schema is correct: `zo'e [selbri] [sumti] [sumti] zo'e zo'e` = `[selbri] [sumti] [sumti]`
 
@@ -128,7 +128,7 @@ This page is a version of the official exam (originally in Japanese):
 8. `.i lo bruna poi vu xabju cu benji lo dakli ku po'u lo narju mi ne lo nurma`
 9. `lo ckule be fi lo lojbo bei fu la .miran. cu se stuzi ma`
 
-### Ⅵ. Each Lojban sentence below is intended to mean the English sentence shown alongside it. If the sentence is already correct as written, write **○**. If not, add exactly **one word** to fix it so it matches.
+### Ⅵ. Each Lojban sentence below is intended to mean the English sentence shown alongside it. If the sentence is already correct as written, write **○**. If not, add exactly <u>one word</u> to fix it so it matches.
 
 1. `coi mi klama fi la .akit.` &nbsp; / &nbsp; _Hello. I came from Akito._
 2. `le nanmu melbi` &nbsp; / &nbsp; _That man is beautiful._
@@ -153,7 +153,7 @@ This page is a version of the official exam (originally in Japanese):
 </tbody>
 </table>
 
-**Definitions:**
+_Definitions:_
 
 <table>
 <tbody>
@@ -194,7 +194,7 @@ This page is a version of the official exam (originally in Japanese):
 
 _(Single underline = ①②⑤; double underline = ③④. Blank `(a)` is the fill-in location from Section Ⅶ.)_
 
-**Vocabulary for this passage:**
+_Vocabulary for this passage:_
 
 <table>
 <tbody>
@@ -281,7 +281,7 @@ _(Single underline = ①②⑤; double underline = ③④. Blank `(a)` is the fi
 </tbody>
 </table>
 
-**Questions:**
+_Questions:_
 
 **(1)** For each word below, select the one cmavo closest in meaning.
 
@@ -313,14 +313,14 @@ _(Single underline = ①②⑤; double underline = ③④. Blank `(a)` is the fi
 
 **(7)** What does the double-underlined `{`④`lo se go'e}` refer back to? Extract the relevant Lojban expression from the passage.
 
-**(8)** Which of the following statements are correct? **Select two.**
+**(8)** Which of the following statements are correct? <u>Select two.</u>
 
 - (a) Sanit has a younger sister, but the sister does not like her very much.
 - (b) Sanit is a woman who values her health and her red glasses.
 - (c) Sanit was born in a snowy land in the north.
 - (d) Sanit is skilled at drawing pictures of birds.
 
-**(9)** Answer the following questions **in Lojban**.
+**(9)** Answer the following questions _in Lojban_.
 
 - (a) `.i la .sanit. cu tadni ma` — _What is Sanit studying?_
 - (b) `.i xu lo mensi be la .sanit. cu se cmene zo .ni'icman.` — _Is Sanit's sister named Ni'icman?_

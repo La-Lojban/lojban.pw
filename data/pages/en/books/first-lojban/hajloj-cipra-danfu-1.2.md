@@ -62,7 +62,7 @@ This section is about terminators, one of Lojban's distinctive features. It's a 
 
 **(1)** T **(2)** T **(3)** F **(4)** T **(5)** F **(6)** F **(7)** T **(8)** T **(9)** T **(10)** F **(11)** T **(12)** T
 
-Explanations for **False** answers only:
+Explanations for _False_ answers only:
 
 - **(3)** `lo sipna ku` means "something that sleeps / a sleeping thing," not "the act of sleeping."
 - **(5)** After a FA-tagged sumti, any following untagged sumti count from the *next* place after the tagged one — so `ta` falls into x<sub>4</sub>.
