@@ -23,6 +23,8 @@ env:
   TAG_NAME: ${{ github.sha }}
   DOCKER_BUILDKIT: 1  # Enable BuildKit for faster builds
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Opt into Node.js 24 (Node 20 deprecated on runners)
+  # CI-only: allow Next static generation to use more workers (next.config.js still caps at cpus-1).
+  NEXT_BUILD_MAX_CPUS: 16
 
 jobs:
   build:
@@ -65,7 +67,7 @@ jobs:
       continue-on-error: true
       with:
         path: ${{ github.workspace }}/src/.next
-        key: ${{ runner.OS }}-nextjs-${{ hashFiles('src/**/*.js', 'src/**/*.ts', 'src/**/*.tsx', 'src/**/*.json', 'src/package.json', 'src/pnpm-lock.yaml') }}
+        key: ${{ runner.OS }}-nextjs-${{ hashFiles('pnpm-lock.yaml', 'package.json', 'src/pnpm-lock.yaml', 'src/package.json', 'src/next.config.js', 'src/**/*.js', 'src/**/*.ts', 'src/**/*.tsx', 'src/**/*.json') }}
         restore-keys: |
           ${{ runner.OS }}-nextjs-
 
@@ -115,11 +117,16 @@ jobs:
                    -e ALGOLIA_ADMIN_KEY=${{ secrets.ALGOLIA_ADMIN_KEY }} \
                    -e ALGOLIA_INDEX_NAME="$INDEX_NAME" \
                    -e CI=true \
+                   -e NEXT_BUILD_MAX_CPUS="${{ env.NEXT_BUILD_MAX_CPUS }}" \
+                   -e PLAYWRIGHT_BROWSERS_PATH=/ms-playwright \
                    lojban:latest \
                    sh -c "${INSTALL_CMD}pnpm cicd && if [ \"${{ github.event_name }}\" != \"pull_request\" ]; then node scripts/algolia-index.js; else echo \"Skipping Algolia index on pull_request\"; fi"
 
-    - name: Fix artifact permissions
-      run: sudo chown -R $USER:$USER /output
+    - name: Fix artifact and cache paths (host ownership for Actions cache)
+      run: |
+        sudo chown -R "$USER:$USER" /output
+        sudo chown -R "$USER:$USER" "${{ github.workspace }}/ms-playwright" 2>/dev/null || true
+        sudo chown -R "$USER:$USER" "${{ github.workspace }}/src" 2>/dev/null || true
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
