@@ -1,6 +1,6 @@
 ---
 icon: 📚 
-title: Text corpus
+title: Mga kwento
 og:image: /assets/pixra/ralju/texts.webp
 description: mga kuwento, aklat sa Lojban at Ingles na may kaparehong pagsasalin
 ---

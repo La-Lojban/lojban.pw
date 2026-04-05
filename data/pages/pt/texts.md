@@ -1,6 +1,6 @@
 ---
 icon: 📚 
-title: Corpus de textos
+title: Histórias
 og:image: /assets/pixra/ralju/texts.webp
 description: contos, livros em lojban e português com tradução paralela
 ---

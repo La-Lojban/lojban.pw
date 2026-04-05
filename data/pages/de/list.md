@@ -1,4 +1,4 @@
 ---
 icon: 📑 
-title: Websitekarte
+title: Sitemap
 ---

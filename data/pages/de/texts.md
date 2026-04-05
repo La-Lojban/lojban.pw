@@ -1,6 +1,6 @@
 ---
 icon: 📚 
-title: Textkorpus
+title: Geschichten
 og:image: /assets/pixra/ralju/texts.webp
 description: Geschichten, Bücher in Lojban und Englisch mit Parallelübersetzung 
 ---

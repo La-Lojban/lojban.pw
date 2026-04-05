@@ -1,6 +1,6 @@
 ---
 icon: 📚 
-title: Text corpus
+title: Stories
 og:image: /assets/pixra/ralju/texts.webp
 description: stories, books in Lojban and English with parallel translation 
 ---

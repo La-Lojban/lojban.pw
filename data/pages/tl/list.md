@@ -1,4 +1,4 @@
 ---
 icon: 📑 
-title: Mapa ng Website
+title: Mapa ng site
 ---

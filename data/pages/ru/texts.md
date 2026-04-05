@@ -1,6 +1,6 @@
 ---
 icon: 📚 
-title: Корпус текстов
+title: Рассказы
 og:image: /assets/pixra/ralju/texts.webp
 description: тексты, книжки на ложбане и русском с параллельным переводом 
 ---

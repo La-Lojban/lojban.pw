@@ -1,4 +1,4 @@
 ---
 icon: 📑 
-title: Website map
+title: Site map
 ---
