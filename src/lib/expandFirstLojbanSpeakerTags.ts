@@ -41,27 +41,12 @@ function fnv1a32(str: string): number {
   return h >>> 0;
 }
 
-/** Hash input from `<speaker sprite="…" name="…">` props (name optional). */
-function bubbleThemeKeySingle(sprite: string, explicitName?: string): string {
-  const id = normalizeSpriteId(sprite);
-  const n = explicitName?.trim();
-  return n ? `${id}\x1e${n}` : id;
-}
-
-/**
- * Hash input from `<speakers sprites="…" names="…">`; sprite order ignored so the same set maps to
- * one color.
- */
-function bubbleThemeKeyMultiface(
-  sprites: string[],
-  explicitNames?: string[]
-): string {
-  const pairs = sprites.map((sp, i) => ({
-    id: normalizeSpriteId(sp),
-    name: explicitNames?.[i]?.trim(),
-  }));
-  pairs.sort((a, b) => a.id.localeCompare(b.id));
-  return pairs.map((p) => (p.name ? `${p.id}\x1e${p.name}` : p.id)).join("|");
+/** Bubble palette hash uses `sprite` ids only (normalized); `name` / `names` do not affect color. */
+function bubbleThemeKeyFromSprites(sprites: string[]): string {
+  return [...sprites]
+    .map(normalizeSpriteId)
+    .sort((a, b) => a.localeCompare(b))
+    .join("|");
 }
 
 function speakerRowBubbleModifierFromThemeKey(key: string): string {
@@ -155,7 +140,7 @@ function buildSpeakerRow(
   const safe = escapeHtmlAttr(label);
   const body = speechInnerForHtml(inner);
   const rowMod = speakerRowBubbleModifierFromThemeKey(
-    bubbleThemeKeySingle(sprite, explicitName)
+    bubbleThemeKeyFromSprites([sprite])
   );
   return `<div class="speaker-row ${rowMod}">
 <div class="speaker-row__avatar">
@@ -187,7 +172,7 @@ function buildMultifaceRow(
     .join("");
   const body = speechInnerForHtml(inner);
   const rowMod = speakerRowBubbleModifierFromThemeKey(
-    bubbleThemeKeyMultiface(sprites, explicitNames)
+    bubbleThemeKeyFromSprites(sprites)
   );
   return `<div class="speaker-row speaker-row--multiface ${rowMod}">
 <div class="speaker-row__avatar">
@@ -229,7 +214,7 @@ function findNextSpeakerTag(markdown: string, from: number): NextTag | null {
  * Expands Hajiloji dialogue tags into `speaker-row` markup (`src/styles/index.css`):
  * - `<speaker sprite="sor1">…</speaker>` (optional `name="…"`, self-closing ok)
  * - `<speakers multiface sprites="sor5,sev1,koc5">…</speakers>` (optional `names="…"`)
- * Bubble tint is `speaker-row--bubble-*` from a hash of sprite / names props (see `SPEAKER_BUBBLE_PALETTE_SIZE`).
+ * Bubble tint is `speaker-row--bubble-*` from a hash of `sprite` ids only (see `SPEAKER_BUBBLE_PALETTE_SIZE`).
  */
 export function expandFirstLojbanSpeakerTags(markdown: string): string {
   const SPEAKER_OPEN_LEN = "<speaker".length;

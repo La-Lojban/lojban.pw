@@ -557,7 +557,7 @@ article .speaker-row__avatar figcaption i:empty {
   display: none;
 }
 
-/* Hajiloji <speaker> dialogue: bubble tint from hashed sprite/name props (`speaker-row--bubble-*`) */
+/* Hajiloji <speaker> dialogue: bubble tint from hashed sprite ids (`speaker-row--bubble-*`) */
 article .speaker-row__speech {
   --speech-bubble-fill: #fbe9e7; /* deep-orange-50 — fallback if class missing */
   --speech-bubble-border: #ffccbc; /* deep-orange-100 */
