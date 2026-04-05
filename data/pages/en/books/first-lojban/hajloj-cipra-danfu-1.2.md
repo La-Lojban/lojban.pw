@@ -1,194 +1,206 @@
 ---
 title: Hajiloji final exam — answer key (1.2)
-description: Markdown transcription of the Japanese answer-key PDF for “Hajime no Lojban ▶ New Game” final test (100 points, 45–60 min).
+description: English translation of the answer key for the "Hajime no Lojban ▶ New Game" final test (100 points, 45–60 min).
 ---
 
-This page is a _Markdown version_ of the official Japanese answer key:
-
-- Source PDF: [hajloj_cipra_danfu_1.2.pdf](https://cogas.github.io/hajiloji/article/drata/hajloj_cipra_danfu_1.2.pdf) (Cogas / Hajiloji)
-
-The _questions_ are in a separate PDF (`hajloj_cipra_1.2.pdf`); this file is _answers and commentary only_. Wording below follows the PDF (Japanese).
+The _questions_ are on a [separate page](/en/books/first-lojban/hajloj-cipra-1.2/); this file is _answers and commentary only_.
 
 ---
 
-## はじめてのロジバン ▶ニューゲーム 最終テスト 解答
+## Hajime no Lojban ▶ New Game — Final Exam Answer Key
 
-（100 点満点・45～60 分）
+(100 points total · 45–60 min)
 
-### Ⅰ. シンプルな形態論の問題 → 3 章
+### Ⅰ. Simple morphology → Chapter 3
 
-- **brivla**: 内容語。母音で終わり、語頭５文字の中に連続子音が含まれる。
-- **cmevla**: 名称語（名の形をした語）。**la** の後に置く。子音で終わる。**cmene** は別の述語語（「～の名前は…」）で、混同しないこと。
-- **cmavo**: 母音で終わり、語頭以外に子音が出てこない。
+- **brivla** (content word / predicate): ends in a vowel and has a consonant cluster within the first five letters.
+- **cmevla** (name word): the name-shaped tokens that follow **la**. Always ends in a consonant. Note: **cmene** is a separate predicate word meaning "x<sub>1</sub> is the name of x<sub>2</sub>" — don't confuse the two.
+- **cmavo** (structure word / particle): ends in a vowel and has no consonant clusters outside the very beginning of the word.
 
 **(1)** (a), (g)
 
-- (f) も確かに cmavo だが `pu` と `ze'u` の複合 cmavoであることに注意。
+- Note that (f) is indeed a cmavo, but it is a compound cmavo made up of `pu` and `ze'u`.
 
 **(2)** (b), (d), (e)
 
 **(3)** (d)
 
-- (h) `tsasman` は brivla `tsasmani` に似ているが語末をよく見ること。
-- `{.ui}` は「嬉しい気持ち」を表す心態詞であるので、`gleki`「x<sub>1</sub> は x<sub>2</sub> が嬉しい」が正解。
+- (h) `tsasman` looks like the brivla `tsasmani`, but look carefully at the ending.
+- `{.ui}` is an attitudinal expressing happiness, so `gleki` ("x<sub>1</sub> is happy about x<sub>2</sub>") is the correct answer.
 
-(1), (2), (3) ともに完答 1 点 **【計 3 点】**
+1 point each for a fully correct answer to (1), (2), and (3). **[3 points total]**
 
-### Ⅱ. 終止詞についての問題
+### Ⅱ. Terminators
 
-ロジバンの特徴の一つである終止詞について。知識問題なので、しっかり覚えておこう。
+This section is about terminators, one of Lojban's distinctive features. It's a pure knowledge question — make sure you have these memorized.
 
-| 語 | 参照章 |
-|----|--------|
-| lo, le | 7 章 |
-| li | 21 章 |
-| poi, noi | 19 章 |
-| lu, lo'u | 22 章 |
-| be | 20 章 |
-| du'u | 10 章 |
+<table>
+<thead>
+<tr><th>Word</th><th>Chapter</th></tr>
+</thead>
+<tbody>
+<tr><td>lo, le</td><td>Ch. 7</td></tr>
+<tr><td>li</td><td>Ch. 21</td></tr>
+<tr><td>poi, noi</td><td>Ch. 19</td></tr>
+<tr><td>lu, lo'u</td><td>Ch. 22</td></tr>
+<tr><td>be</td><td>Ch. 20</td></tr>
+<tr><td>du'u</td><td>Ch. 10</td></tr>
+</tbody>
+</table>
 
-**正答:** (a), (d), (e), (g), (i)
+**Correct answers:** (a), (d), (e), (g), (i)
 
-- (b) `li` は数の冠詞であり、終止詞は `lo'o`。
-- (c) `poi` は関係詞であり、`noi` と同様 `ku'o` によって締められる。
-- (f) `du'u` は抽象詞 NU 類であり、終止詞は `kei`。
-- (h) `le` は述なれ語に冠せる冠詞であり、`lo` と同様 `ku` が終止詞。
-- (j) `zo` にはそもそも終止詞は存在しない。
+- (b) `li` is the number article; its terminator is `lo'o`.
+- (c) `poi` is a relative clause marker, closed by `ku'o`, just like `noi`.
+- (f) `du'u` is a NU abstractor; its terminator is `kei`.
+- (h) `le` is an article for selbri-described sumti; like `lo`, its terminator is `ku`.
+- (j) `zo` has no terminator at all.
 
-完答 2 点、間違い 1 つにつき −1 点 **【計 2 点】**
+2 points for a fully correct answer; −1 point per mistake. **[2 points total]**
 
-### Ⅲ. 正誤（○ / ✕）
+### Ⅲ. True / False
 
-**(1)** ○ **(2)** ○ **(3)** ✕ **(4)** ○ **(5)** ✕ **(6)** ✕ **(7)** ○ **(8)** ○ **(9)** ○ **(10)** ✕ **(11)** ○ **(12)** ○
+**(1)** T **(2)** T **(3)** F **(4)** T **(5)** F **(6)** F **(7)** T **(8)** T **(9)** T **(10)** F **(11)** T **(12)** T
 
-✕ のみ解説:
+Explanations for **False** answers only:
 
-- **(3)** `lo sipna ku` は「眠り」ではなく、「眠っている人」という意味である。
-- **(5)** FA 付き項の次にくる無印の項は FA が示す項番の次に位置するため、`ta` は x<sub>4</sub> にくる。
-- **(6)** 「PU 類 ZI 類 ZEhA 類」が正しい。
-- **(10)** `e'inai` は「放任」を意味する。
+- **(3)** `lo sipna ku` means "something that sleeps / a sleeping thing," not "the act of sleeping."
+- **(5)** After a FA-tagged sumti, any following untagged sumti count from the *next* place after the tagged one — so `ta` falls into x<sub>4</sub>.
+- **(6)** The correct order is PU · ZI · ZEhA (tense class · distance class · duration class).
+- **(10)** `e'inai` means "indifference / letting it happen," not permission.
 
-章への対応: (1)→5 章、(2)→6 章、(3)→7 章、(4)→8 章、(5)→9 章、(6)→12 章、(7)→13 章、(8)→15 章、(9)→17 章、(10)→18 章、(11)→19 章、(12)→23 章
+Chapter cross-reference: (1)→Ch. 5, (2)→Ch. 6, (3)→Ch. 7, (4)→Ch. 8, (5)→Ch. 9, (6)→Ch. 12, (7)→Ch. 13, (8)→Ch. 15, (9)→Ch. 17, (10)→Ch. 18, (11)→Ch. 19, (12)→Ch. 23
 
-1 問 1 点 **【計 12 点】**
+1 point per question. **[12 points total]**
 
 ### Ⅳ.
 
-**(1)** 単なる知識問題 → 21 章
+**(1)** Pure knowledge question → Chapter 21
 
-- (d) 他はすべて「1000」を表すが、(d) だけ「1001」を表す。
+- (d) Every other choice represents "1000," but (d) alone represents "1001."
 
-**(2)** → 8, 9 章（項の並び）
+**(2)** → Chapters 8, 9 (place structure)
 
-SE 類や FA 類を取り除いていけばよい。
+The approach is to strip away any SE and FA tags.
 
-- **(1)** `dunda` が `se` によって転換されている。SE 類を取り除くと、`ko'e dunda ko'a ko'i` と同義になる。
-- **(2)** SE 類もないので、単に `ko'e dunda ko'i ko'a` と同義である。
-- **(3)** まず、`te dunda` の状態で FA タグを取り除くと、`ko'i te dunda ko'a ko'e` となる。これから `te` を取り除くと、`ko'e dunda ko'a ko'i` と同義になる。
+- **(1)** `dunda` is converted by `se`. Removing the SE series word leaves `ko'e dunda ko'a ko'i`.
+- **(2)** No SE at all, so it is simply equivalent to `ko'e dunda ko'i ko'a`.
+- **(3)** Starting with `te dunda`, first strip the FA tags to get `ko'i te dunda ko'a ko'e`. Then removing `te` gives `ko'e dunda ko'a ko'i`.
 
-(1), (2) ともに 1 点 **【計 2 点】**
+1 point each for (1) and (2). **[2 points total]**
 
-### Ⅴ. 翻訳問題
+### Ⅴ. Translation
 
-時制・相が不定による訳の揺らぎがあることに注意。
+Note that answers may vary due to unspecified tense and aspect.
 
-| # | 解答例（ロジバン） | 日本語 |
-|---|-------------------|--------|
-| 1 | `lo so'i mlatu ku sipna` | たくさんの猫が寝ている。 → 5 章 |
-| 2 | `lo verba cu ciska fi lo pelxu pelji lo pinsi` | 子供が黄色い紙に鉛筆で書いている。 → 9 章 |
-| 3 | `lo nu tadni la .lojban. kei ku cinri mi` | ロジバンを学ぶことは私にとって興味深い／おもしろい。 → 10 章 |
-| 4 | `lo vu nanmu pu zi co'u jmive` | あそこにいる男は少し前に生き終えた／死んだ。 → 13 章 |
-| 5 | `mi cortu lo jamfu ki'u lo nu ze'u bajra` | 私は長い間走っていたので足が痛い。 → 14 章 |
-| 6 | `la .miran. cu dasni lo na'e crino kosta` | ミランは緑色でないコートを着ている。 → 16 章 |
-| 7 | `.i xu do ba'o citka lo sanmi` ― `.i na go'i` | あなたは既にごはんを食べ終わっていますか？ ― いいえ。 → 17 章 |
-| 8 | `.i lo bruna poi vu xabju cu benji lo dakli ku po'u lo narju mi ne lo nurma` | 遠くに住む兄弟がバッグのうち橙色のものを田舎の私に送ってくれた。 → 19 章 |
-| 9 | `lo ckule be fi lo lojbo bei fu la .miran. cu se stuzi ma` | ミランによって営まれている、ロジバンを教えている学校はどこにありますか？ → 20 章 |
+<table>
+<thead>
+<tr><th>#</th><th>Sample answer (Lojban)</th><th>English</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td><code>lo so'i mlatu ku sipna</code></td><td>Many cats are sleeping. → Ch. 5</td></tr>
+<tr><td>2</td><td><code>lo verba cu ciska fi lo pelxu pelji lo pinsi</code></td><td>A child is writing on yellow paper with a pencil. → Ch. 9</td></tr>
+<tr><td>3</td><td><code>lo nu tadni la .lojban. kei ku cinri mi</code></td><td>Studying Lojban is interesting to me. → Ch. 10</td></tr>
+<tr><td>4</td><td><code>lo vu nanmu pu zi co'u jmive</code></td><td>The man over there finished living / died a little while ago. → Ch. 13</td></tr>
+<tr><td>5</td><td><code>mi cortu lo jamfu ki'u lo nu ze'u bajra</code></td><td>My feet hurt because I've been running for a long time. → Ch. 14</td></tr>
+<tr><td>6</td><td><code>la .miran. cu dasni lo na'e crino kosta</code></td><td>Miran is wearing a coat that isn't green. → Ch. 16</td></tr>
+<tr><td>7</td><td><code>.i xu do ba'o citka lo sanmi</code> ― <code>.i na go'i</code></td><td>Have you already finished eating your meal? — No. → Ch. 17</td></tr>
+<tr><td>8</td><td><code>.i lo bruna poi vu xabju cu benji lo dakli ku po'u lo narju mi ne lo nurma</code></td><td>The brother who lives far away sent me the orange bag, to me in the countryside. → Ch. 19</td></tr>
+<tr><td>9</td><td><code>lo ckule be fi lo lojbo bei fu la .miran. cu se stuzi ma</code></td><td>Where is the school that teaches Lojban and is run by Miran? → Ch. 20</td></tr>
+</tbody>
+</table>
 
-意味がきちんと取れているなら 2 点。部分点可 **【計 18 点】**
+Full marks (2 points) if the meaning is correctly captured; partial credit allowed. **[18 points total]**
 
-### Ⅵ. 文意を合わせる問題 → 11 章
+### Ⅵ. Sentence repair → Chapter 11
 
-大抵の場合、ある語が余分に語を取り込んだり、意図せぬ語が結合したりすることが原因。対策として第一に考えるべきは終止詞の追加である。
+In most cases, the problem is that a word has absorbed more words than intended, or words that weren't meant to combine have formed an unwanted tanru. The first fix to consider is adding a terminator.
 
-1. **`coi do` / `do'u` / `.i mi klama fi la .akit.`** — こんにちは。私はアキトから来ました。  
-   `coi` が本来 x<sub>1</sub> に来るはずの `mi` を取り込んでしまっているのを抑えればよい。 → 25 章
-2. **`le nanmu ku` / `cu melbi`** — あの男の人は美しい。  
-   `nanmu` と `melbi` が tanru 化してしまっているのを抑えればよい。 → 6, 8 章
-3. **`mi klama lo zarci gi'e te vecnu lo plise`** — 私は店に行き、リンゴを買った。  
-   bridi 末端接続詞が抜けている。`.ije` でもよいが、これは 2 語であるため不適。 → 23 章
-4. **`le nanla na catra le gerku`** — あの少年はあの犬を殺していない。  
-   ○。`na` が `le nanla` と `catra` の区切りとして働いている。 → 16 章
-5. **`ca lo nu do klama ti kei` / `kei ku` / `ku mi sipna`** — 君がここに来たとき、私は寝ていた。  
-   NU 類は項を際限なく取り込んでしまうので注意。`kei` や、`lo` の終止詞 `ku` で抑えよう。 → 10 章
+1. **`coi do` / `do'u` / `.i mi klama fi la .akit.`** — Hello. I came from Akito.  
+   `coi` was absorbing `mi`, which should be in x<sub>1</sub>. Adding `do'u` stops it from doing so. → Ch. 25
+2. **`le nanmu ku` / `cu melbi`** — That man is beautiful.  
+   `nanmu` and `melbi` were forming an unwanted tanru. → Chs. 6, 8
+3. **`mi klama lo zarci gi'e te vecnu lo plise`** — I went to the store and bought an apple.  
+   The bridi-tail connective was missing. `.ije` would work in meaning, but since it is two words it cannot serve as a bridi-tail connective here. → Ch. 23
+4. **`le nanla na catra le gerku`** — The boy didn't kill the dog.  
+   ○ Correct as written. `na` is serving as a natural separator between `le nanla` and `catra`. → Ch. 16
+5. **`ca lo nu do klama ti kei` / `kei ku` / `ku mi sipna`** — When you came here, I was sleeping.  
+   NU abstractors can absorb words without limit, so be careful. Use `kei` to close the `nu` clause, or `ku` to close the `lo`. → Ch. 10
 
-各 2 点、部分点不可 **【計 10 点】**
+2 points each; no partial credit. **[10 points total]**
 
-### Ⅶ. 語彙問題
+### Ⅶ. Vocabulary
 
-（これらの語はすべて Ⅷ の文章問題で出てくる。）
+(All of these words appear in the reading passage in Section Ⅷ.)
 
-| 問 | 答 | 問 | 答 |
-|----|----|----|----|
-| (1) | k | (8) | g |
-| (2) | h | (9) | a |
-| (3) | l | (10) | j |
-| (4) | n | (11) | c |
-| (5) | d | (12) | b |
-| (6) | m | (13) | i |
-| (7) | f | (14) | e |
+<table>
+<thead>
+<tr><th>Q</th><th>A</th><th>Q</th><th>A</th></tr>
+</thead>
+<tbody>
+<tr><td>(1)</td><td>k</td><td>(8)</td><td>g</td></tr>
+<tr><td>(2)</td><td>h</td><td>(9)</td><td>a</td></tr>
+<tr><td>(3)</td><td>l</td><td>(10)</td><td>j</td></tr>
+<tr><td>(4)</td><td>n</td><td>(11)</td><td>c</td></tr>
+<tr><td>(5)</td><td>d</td><td>(12)</td><td>b</td></tr>
+<tr><td>(6)</td><td>m</td><td>(13)</td><td>i</td></tr>
+<tr><td>(7)</td><td>f</td><td>(14)</td><td>e</td></tr>
+</tbody>
+</table>
 
-各 1 点 **【計 14 点】**
+1 point each. **[14 points total]**
 
-### Ⅷ. 文章問題
+### Ⅷ. Reading comprehension
 
-はじロジ初の文章問題。はじロジで学んだ文法事項によって、これくらいの文章が既に書けるようになっていることを改めて認識してほしい。
+The first reading-comprehension passage in Hajiloji. We hope you'll notice that with just the grammar covered in this book, you're already able to read and write passages like this one.
 
-**(1)** (i) e　(ii) c  
+**(1)** (i) e　(ii) c
 
-`balvi` は「未来」、`jibni` は「近い」という意味の内容語である。【各 1 点】
+`balvi` ("future") and `jibni` ("close / near") are both brivla (content words). [1 point each]
 
-**(2)** 私は今（から）、あなたにサニットについて知らせます／紹介します。  
+**(2)** Starting now, I'm letting you know about / introducing you to Sanit.
 
-`jungau` は `x<sub>1</sub> gasnu lo nu x<sub>2</sub> djuno x<sub>3</sub> x<sub>4</sub> x<sub>5</sub>`、すなわち「x<sub>1</sub> は x<sub>2</sub> が x<sub>3</sub>（命題）・ x<sub>4</sub>（題目）を x<sub>5</sub>（認識体系）で知るようにする」であるから、「知らせる」や「紹介する」と訳せていれば良い。直訳的に「あなたが知るようにする」でも可。【2 点、部分点可】
+`jungau` has the place structure x<sub>1</sub> gasnu lo nu x<sub>2</sub> djuno x<sub>3</sub> x<sub>4</sub> x<sub>5</sub> — "x<sub>1</sub> causes x<sub>2</sub> to know x<sub>3</sub> (proposition) about topic x<sub>4</sub> in system x<sub>5</sub>." So "inform" or "introduce" are both acceptable. A more literal rendering such as "cause you to know" is also fine. [2 points; partial credit allowed]
 
-**(3)** `la .sanit.`  
+**(3)** `la .sanit.`
 
-2 文目に注目、`la .sanit. goi ko'a` によって、`ko'a` に `la .sanit.` が割り当てられていることが分かる。【1 点】
+Look at the second sentence: `la .sanit. goi ko'a` tells you that `ko'a` has been assigned to `la .sanit.`. [1 point]
 
-**(4)** fo — `jbena`「生まれる」は x<sub>4</sub> に出生地が入る（Ⅶ 参照）。【1 点】
+**(4)** fo — `jbena` ("to be born") has birthplace in x<sub>4</sub> (see Section Ⅶ). [1 point]
 
-**(5)** 正解の要点:
+**(5)** Key points:
 
-- サニットが空を見ることで未来を理解できること。
-- サニットが空を飛べること。
+- Sanit can understand the future by looking at the sky.
+- Sanit can fly.
 
-2 行目最後の方の `{.ue}`、下から 2 行目の最初の方の `.i la'e di'u spaji mi` に注目。`{.ue}` や `spaji` は驚きを意味する。`la'e di'u` は「直前の文内容」を意味し、`.i la'e di'u spaji mi`「そのことは私を驚かせる」わけだから、`ko'a kakne lo nu vofli` が答え。【両方正解で 3 点、1 つ間違いで −2 点】
+Look at `.ue` near the end of line 5, and `.i la'e di'u spaji mi` near the beginning of the second-to-last line. Both `.ue` and `spaji` signal surprise. `la'e di'u` refers to the content of the immediately preceding sentence. Since `.i la'e di'u spaji mi` means "that surprises me," the surprising thing must be `ko'a kakne lo nu vofli`. [3 points for both correct; −2 points per wrong answer]
 
-**(6)** `lo benske` — `ri` は 1 つ前の項を照応する。【1 点】
+**(6)** `lo benske` — `ri` is anaphoric and refers back to the most recent sumti. [1 point]
 
-**(7)** `lo benske` — `go'e` は 2 つ前の文の内容を表し、`lo` や `le` を冠することで、その文の x<sub>1</sub> を引き出すことができる。【1 点】
+**(7)** `lo benske` — `go'e` refers to the content of the sentence two sentences back. Placing `lo` or `le` before it extracts the x<sub>1</sub> of that sentence. [1 point]
 
-**(8)** (b), (d) 【各 1 点】
+**(8)** (b), (d) [1 point each]
 
-- (a) 5 行目最後から、サニットにはシャナムという妹がいることが分かるが、`la .canam. ko'a citno mensi gi'e nelci` とある通り、「あまり好かれていない」ではなく、好かれている。
-- (b) 確かにサニットは女性であり（1 行目）、健康と赤い眼鏡を大事にしている（下から 3 行目）。
-- (c) 下線部②より、「サニットは南の島で生まれた」。
-- (d) 3 行目より、サニットは鳥の絵を描くのに熟達していることが分かる。
+- (a) The end of line 11 tells us Sanit has a younger sister named Shanam. The text `la .canam. ko'a citno mensi gi'e nelci` says Shanam *likes* Sanit — not that she "doesn't like her very much."
+- (b) Correct: Sanit is a woman (line 2) and values her health and her red glasses (third-to-last line).
+- (c) From underlined section ②: Sanit was born on a southern island.
+- (d) From line 6, Sanit is skilled at drawing pictures of birds.
 
-**(9)** 質問の日本語訳と、その根拠となる箇所を記す。【各 2 点、部分点不可】
+**(9)** Each question below with its English translation and the relevant passage location. [2 points each; no partial credit]
 
-- **(a)** `lo benske` — 「サニットは何を学んでいますか」（4 行目）
-- **(b)** `na go'i` — 「サニットの姉妹は `ni'icman` という名前ですか」（5 行目）。なお、`ni'icman` はサニットがここに来る前にいた山の名前である（下から 4 行目）。
-- **(c)** `lo zarci klaji poi jibni lo xamsi` — 「あなたはサニットとどこで会いましたか」（下から 5 行目）「彼女はあなたと、海の近くの市場通りで会ったことを覚えている」より。
-- **(d)** `go'i` — 「サニットが行った山は有名ですか」（下から 4 行目）
-- **(e)** `na go'i` — 「あなたは話者が男であると確信できますか」— 話者の性別についての記述は無い。
+- **(a)** `lo benske` — "What is Sanit studying?" (line 7 in the Lojban text)
+- **(b)** `na go'i` — "Is Sanit's sister named Ni'icman?" (line 11). Note: Ni'icman is the name of the mountain Sanit visited before coming here (second-to-last line in the passage), not a person's name.
+- **(c)** `lo zarci klaji poi jibni lo xamsi` — "Where did you meet Sanit?" She remembers meeting you on the market street near the sea (line 12).
+- **(d)** `go'i` — "Is the mountain Sanit visited famous?" (second-to-last line, where `misno` = "famous / renowned")
+- **(e)** `na go'i` — "Can you be sure that the narrator is male?" No information about the narrator's gender is given anywhere in the passage.
 
-**(10)** 休日に、私たちでごはんを食べるのを楽しみませんか。  
-「食事を楽しみませんか」でも可（むしろこちらのほうが自然かもしれない）。`{e'u}` の「提案」、`ca lo nalgundei` の「休日に」がきちんと訳せているかをチェック。【2 点】
+**(10)** How about we enjoy a meal together on a day off?
 
-**【計 25 点】**
+"How about we enjoy eating together" is also acceptable — it may even feel more natural. Check that the translation captures `.e'u` ("suggestion / let's…") and `ca lo nalgundei` ("on a day off / holiday"). [2 points]
 
-#### «原文»（ロジバン）
+**[25 points total]**
+
+#### «Original text» (Lojban)
 
 ```lojban
 .i mi ca jungau do fo la .sanit.
@@ -213,54 +225,59 @@ SE 類や FA 類を取り除いていけばよい。
 .i ki'e
 ```
 
-（`(a)` は Ⅶ の穴埋め箇所。）
+(`(a)` marks the blank-fill location from Section Ⅶ.)
 
-#### «日本語 意訳»
+#### «Free English translation»
 
-私は今からあなたにサニットのことを紹介します。サニットは私の友達で、美しい女性です。彼女は旅をすること、鳥、それから絵を描くことが好きです。彼女は南の島で生まれました。驚くことに、彼女は空を見ることで未来のことを理解できます。彼女は鳥の絵を描くのがとても上手です。彼女は脳科学を学んでいます。それは私にとても興味深いものです。私は彼女にそれを教えてもらいたいです。彼女は最近、立方体のおもちゃであるルービックキューブに興味があります。シャナムは彼女の妹で、シャナムはサニットのことが好きです。サニットはあなたと海の近くにある市場通りで会ったことを覚えていますよ。彼女はここに来る前、ニヒシュマンという有名な山で青い空を長い間見つめていたり、サギの絵を鉛筆で描いていたりしていました。彼女は自分の健康と赤い眼鏡を大事にしています。彼女は飛ぶことができます。そのことは私を大いに驚かせます。私は彼女がどうやって空を飛ぶのか知りません。あなたとサニットが友達になってくれたらと思います。休日に、私たち３人で食事を楽しみませんか？ありがとう。
+I'm going to introduce you to Sanit. Sanit is my friend and a beautiful woman. She loves to travel, loves birds, and loves making pictures. She was born on a southern island. Remarkably, she can understand the future by looking at the sky. She is highly skilled at drawing pictures of birds. She's studying neuroscience. I find that very interesting — I'd love for her to teach me about it. She's recently been fascinated by the Rubik's Cube, a cubic puzzle toy. Shanam is her younger sister, and Shanam likes Sanit. Sanit remembers meeting you on the market street near the sea. Before coming here, at a famous mountain called Ni'icman, she spent a long time gazing at the blue sky and drawing pictures of herons with a pencil. She values her own health and her red glasses very much. She can fly. That greatly surprises me. I don't know how she does it. I hope you and Sanit become friends. How about the three of us enjoy a meal together on a day off? Thank you.
 
-### Ⅸ. ロジバン作文
+### Ⅸ. Lojban composition
 
-一般的にロジバンは SE 類や FA 類を使うことで様々な等価な文を作ることができる。また、終止詞を省略するかどうかでもパターンが生じる。ここでは一解答として、SE 類や FA 類を使わず、省略できる終止詞はすべて省略した文を書いておく。
+In general, Lojban allows many equivalent sentences by using the SE and FA series, and further variation arises from whether optional terminators are included or omitted. The answers below use neither SE nor FA, and omit all terminators that can legally be dropped.
 
-1. その少女は `pa le pu .kocon. lo be noi ci py.` と書く。  
+1. The girl writes `pa le pu .kocon. lo be noi ci py.`  
    **`le nixli cu ciska lo'u pa le pu .kocon. lo be noi ci py. le'u`**  
-   引用の問題。非文法的なロジバンの単語列は `lo'u` … `le'u` によって引用する。 → 22 章
+   A quoting question. Grammatically incorrect Lojban word sequences are quoted with `lo'u` … `le'u`. → Ch. 22
 
-2. あなたは辛いものと苦いもののどちらが好きですか？  
+2. Which do you prefer, spicy things or bitter things?  
    **`do nelci lo cpina ji lo kurki`**  
-   接続疑問文。項接続の疑問は `ji` によって行う。 → 23 章
+   A connective question. For questions about how sumti are connected, use `ji`. → Ch. 23
 
-3. あの男はあそこのリンゴが不味いと確信している。  
+3. That man is certain that the apples over there are bad-tasting.  
    **`le nanmu cu birti lo du'u lo vu plise cu to'e kukte`**  
-   `birti` の x<sub>2</sub> には命題項が入ること、「不味い」は `kukte`「美味しい」の反対語であること、「あそこの」は間制タグを使えることに着目。`lo vu plise` の代わりに `tu noi plise [ku'o]` でも可能。「あの男」を「あそこにいる男」と解釈する場合は `lo vu nanmu` か `tu noi nanmu [ku'o]` も許容。 → 10, 16 章
+   Note that `birti`'s x<sub>2</sub> takes a propositional sumti, that "bad-tasting" is the opposite (`to'e`) of `kukte` ("tasty / delicious"), and that "over there" can use a spatial distance tag. `lo vu plise` can be replaced with `tu noi plise [ku'o]`. If "that man" is read as "the man over there," `lo vu nanmu` or `tu noi nanmu [ku'o]` are also acceptable. → Chs. 10, 16
 
-4. 私はロジバンを話すことができる。  
+4. I am able to speak Lojban.  
    **`mi kakne lo nu la .lojban. cu bangu mi`**  
-   `tavla` は誰かに話しかけるという「話す」；ここでは「ロジバンが私の話し言葉であることが可能だ」なので `bangu`。`la .lojban.` の代わりに `lo lojbo` や `lo jbobau` も可。nu 節内の `mi` は省略可能。 → 10 章
+   `tavla` means "speak to someone" — here the meaning is "Lojban can be my language," so `bangu` is the right word. `lo lojbo` or `lo jbobau` can replace `la .lojban.`. The `mi` inside the `nu` clause can be omitted. → Ch. 10
 
-5. ５語より多くの単語から文を作りなさい。  
+5. Make a sentence out of more than five words.  
    **`ko zbasu lo jufra lo za'u mu valsi`**  
-   `za'u mu` で「5 より大きな」という意味の数詞。`su'e`, `su'o`, `za'u`, `me'i` を再確認。 → 18, 21 章
+   `za'u mu` means "greater than five." Review `su'e`, `su'o`, `za'u`, and `me'i`. → Chs. 18, 21
 
-6. 多くの人がすべての人は親切であると信じている。私はそうではない。  
+6. Many people believe that everyone is kind. I don't.  
    **`lo so'i prenu cu krici lo du'u lo ro prenu cu xendo .i mi na go'i`**  
-   2 文目を `mi na krici lo du'u lo ro prenu cu xendo` とした場合も誤りではない（採点は採点者に委ねる）。 → 10, 21, 24 章
+   Writing the second sentence as `mi na krici lo du'u lo ro prenu cu xendo` is not wrong (left to the examiner's discretion). → Chs. 10, 21, 24
 
-7. どうか、これらのうち冷たいものを飲んでください。  
+7. Please drink one of these that is cold.  
    **`.e'o ko pinxe ti poi ke'a lenku`**  
-   「どうか」を `.e'o` で訳せていると良い。`ko` は無くても減点とまでは言えない。`poi` 節の `ke'a` は無くてもよい。 → 18, 19 章
+   Rendering "please" with `.e'o` is expected. Omitting `ko` is not necessarily penalized. `ke'a` inside the `poi` clause can be omitted. → Chs. 18, 19
 
-各 2 点、部分点可 **【計 14 点】**
+2 points each; partial credit allowed. **[14 points total]**
 
-### 【成績・合格基準】
+### Grading scale
 
-裏付けのある合格点はないが、目安として次のように設定しておく。B 以上であらんことを！
+There is no officially validated passing score, but the following is offered as a rough guide. Aim for B or above!
 
-| 点数 | 評価 |
-|------|------|
-| 57 点以下 | F |
-| 58～69 点 | C |
-| 70～79 点 | B |
-| 80～87 点 | A |
-| 88 点以上 | S |
+<table>
+<thead>
+<tr><th>Score</th><th>Grade</th></tr>
+</thead>
+<tbody>
+<tr><td>57 or below</td><td>F</td></tr>
+<tr><td>58–69</td><td>C</td></tr>
+<tr><td>70–79</td><td>B</td></tr>
+<tr><td>80–87</td><td>A</td></tr>
+<tr><td>88 or above</td><td>S</td></tr>
+</tbody>
+</table>
