@@ -6,6 +6,8 @@ og:image: /assets/pixra/books/first-lojban/cover.webp
 coverImage: /assets/pixra/books/first-lojban/cover.webp
 ---
 
+<pixra wide url="/assets/pixra/books/first-lojban/cover.webp" caption="First Steps in Lojban"></pixra>
+
 @include "first-lojban/0.md"
 
 @include "first-lojban/1.md"
