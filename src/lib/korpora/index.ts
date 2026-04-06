@@ -491,6 +491,29 @@ async function processSheet(
   table.push(`</tbody>`);
   table.push(`</table>`);
 
+  if (!ogImage) {
+    const pixraDir = path.join(
+      getPublicAssetsPath(),
+      "pixra",
+      "texts",
+      slug
+    );
+    if (fs.existsSync(pixraDir)) {
+      const exts = new Set([".webp", ".png", ".svg", ".jpg", ".jpeg"]);
+      const imageFiles = fs
+        .readdirSync(pixraDir)
+        .filter((name) =>
+          exts.has(path.extname(name).toLowerCase())
+        )
+        .sort();
+      if (imageFiles.length > 0) {
+        ogImage = path
+          .join("/assets", "pixra", "texts", slug, imageFiles[0])
+          .replace(/\\/g, "/");
+      }
+    }
+  }
+
   return { table, buttons, headers, slug, keywords, ogImage, columns, tsvContent };
 }
 
@@ -539,7 +562,12 @@ ${table.join("")}
       key: "meta.author",
       value: headers[lang]?.author ?? headers["glico"]?.author,
     },
-    { key: "og:image", value: ogImage },
+    ...(ogImage
+      ? [
+          { key: "coverImage", value: ogImage },
+          { key: "og:image", value: ogImage },
+        ]
+      : []),
     {
       key: "meta.priority",
       value: headers[lang]?.priority ?? headers["glico"]?.priority,

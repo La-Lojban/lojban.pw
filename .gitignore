@@ -13,6 +13,7 @@ data/.cache
 src/tsconfig.tsbuildinfo
 tmp/
 archive/
+out/
 
 # Environment variable files
 .env

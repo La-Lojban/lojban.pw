@@ -65,7 +65,7 @@ This section is about terminators, one of Lojban's distinctive features. It's a 
 Explanations for _False_ answers only:
 
 - **(3)** `lo sipna ku` means "something that sleeps / a sleeping thing," not "the act of sleeping."
-- **(5)** After a FA-tagged sumti, any following untagged sumti count from the *next* place after the tagged one — so `ta` falls into x<sub>4</sub>.
+- **(5)** After a FA-tagged sumti, any following untagged sumti count from the *next* place after the tagged one — so `ta` fills **x<sub>4</sub>**.
 - **(6)** The correct order is PU · ZI · ZEhA (tense class · distance class · duration class).
 - **(10)** `e'inai` means "indifference / letting it happen," not permission.
 

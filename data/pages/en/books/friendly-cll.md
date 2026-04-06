@@ -6,8 +6,6 @@ og:image: /assets/pixra/books/cll-friendly/cover.webp
 coverImage: /assets/pixra/books/cll-friendly/cover.webp
 ---
 
-<pixra wide url="/assets/pixra/books/cll-friendly/cover.webp" caption="Friendly Lojban"></pixra>
-
 @include "friendly-cll/1.md"
 
 @include "friendly-cll/2.md"

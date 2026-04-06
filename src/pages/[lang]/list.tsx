@@ -143,6 +143,7 @@ export const getStaticProps = async ({
       "directory",
       "author",
       "coverImage",
+      "og:image",
       "icon",
       "fullPath",
       "content",
