@@ -1,11 +1,63 @@
+/**
+ * SFC-style layout (dependency order: styles → markup → script):
+ *   STYLES — Tailwind fragments
+ *   MARKUP — presentational pieces
+ *   SCRIPT — data + composition
+ */
+import { useMemo } from "react";
 import AllStories from "../../components/all-stories";
 import Layout from "../../components/layout";
 import { Items, getAllPosts } from "../../lib/api";
 import { TPost } from "../../types/post";
-
 import { GetStaticPropsContext } from "next";
 import markdownToHtml from "../../lib/markdownToHtml";
+import { site_description, site_title, site_url } from "../../config/config";
+import {
+  absoluteUrl,
+  defaultHreflangXDefault,
+  organizationJsonLd,
+  webSiteJsonLd,
+} from "../../lib/seo";
 
+// -----------------------------------------------------------------------------
+// STYLES
+// -----------------------------------------------------------------------------
+const tw = {
+  outer: "mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row",
+  inner: "mb-8 mt-3 mx-auto max-w-7xl px-4 sm:px-6",
+  introHtml: "mb-2",
+} as const;
+
+// -----------------------------------------------------------------------------
+// MARKUP
+// -----------------------------------------------------------------------------
+function ListIndexContent({
+  html,
+  contentPosts,
+  lang,
+}: {
+  html: string;
+  contentPosts: TPost[];
+  lang: string;
+}) {
+  return (
+    <div className={tw.outer}>
+      <div className={tw.inner}>
+        <div
+          className={tw.introHtml}
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+        {contentPosts.length > 0 ? (
+          <AllStories posts={contentPosts} lang={lang} />
+        ) : null}
+      </div>
+    </div>
+  );
+}
+
+// -----------------------------------------------------------------------------
+// SCRIPT
+// -----------------------------------------------------------------------------
 type Props = {
   siblingPosts: TPost[];
   contentPosts: TPost[];
@@ -14,13 +66,41 @@ type Props = {
   params: { lang: string };
 };
 
-const Index = ({
+function ListPage({
   posts,
   siblingPosts,
   contentPosts,
   indexPost,
   params,
-}: Props) => {
+}: Props) {
+  const langPosts = posts as unknown as { fullPath: string; language: string }[];
+
+  const alternates = useMemo(
+    () =>
+      langPosts.map((p) => ({
+        hreflang: p.language,
+        href: absoluteUrl(site_url, `/${p.fullPath}/`)!,
+      })),
+    [langPosts]
+  );
+
+  const hreflangXDefault = useMemo(
+    () => defaultHreflangXDefault(langPosts),
+    [langPosts]
+  );
+
+  const jsonLd = useMemo(
+    () => [
+      webSiteJsonLd({
+        name: site_title,
+        url: site_url,
+        description: site_description,
+      }),
+      organizationJsonLd({ name: site_title, url: site_url }),
+    ],
+    []
+  );
+
   return (
     <Layout
       meta={{
@@ -31,30 +111,29 @@ const Index = ({
       currentLanguage={params.lang}
       title={indexPost.title}
       posts={posts}
+      alternates={alternates}
+      hreflangXDefault={hreflangXDefault}
+      jsonLd={jsonLd}
+      useArticleShell={false}
     >
-      <div className="mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row">
-        <div className="mb-8 mt-3 mx-auto max-w-7xl px-4 sm:px-6">
-          {/* <Intro title={indexPost?.title} image={ogImage} /> */}
-          <div
-            className="mb-2"
-            dangerouslySetInnerHTML={{ __html: indexPost?.content ?? "" }}
-          />
-          {contentPosts.length > 0 && (
-            <AllStories posts={contentPosts} lang={params.lang} />
-          )}
-        </div>
-      </div>
+      <ListIndexContent
+        html={indexPost?.content ?? ""}
+        contentPosts={contentPosts}
+        lang={params.lang}
+      />
     </Layout>
   );
-};
+}
 
-export default Index;
+export default ListPage;
 
-export const getStaticProps = async ({ params }: GetStaticPropsContext<{ lang: string }>) => {
+export const getStaticProps = async ({
+  params,
+}: GetStaticPropsContext<{ lang: string }>) => {
   if (!params) {
     return { notFound: true };
   }
-  
+
   let allPosts = await getAllPosts({
     fields: [
       "title",
@@ -65,12 +144,8 @@ export const getStaticProps = async ({ params }: GetStaticPropsContext<{ lang: s
       "author",
       "coverImage",
       "icon",
-      // "excerpt",
-      // "meta.author",
-      // "meta.priority",
       "fullPath",
       "content",
-
       "meta.title",
       "description",
       "meta.keywords",
@@ -129,7 +204,7 @@ export const getStaticProps = async ({ params }: GetStaticPropsContext<{ lang: s
   };
 };
 
-export async function getStaticPaths(pa: any) {
+export async function getStaticPaths() {
   const posts = await getAllPosts({
     fields: ["slug", "hidden"],
     showHidden: true,
@@ -151,5 +226,3 @@ export async function getStaticPaths(pa: any) {
     fallback: false,
   };
 }
-
-// export const config = { amp: 'hybrid' }

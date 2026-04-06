@@ -1,7 +1,26 @@
-import { useRouter } from "next/router";
+/**
+ * SFC-style layout (dependency order: styles → markup → script):
+ *   STYLES — Tailwind fragments
+ *   MARKUP — presentational pieces
+ *   SCRIPT — data + composition
+ */
 import { useEffect } from "react";
+import { useRouter } from "next/router";
 
-function Index() {
+// -----------------------------------------------------------------------------
+// STYLES
+// -----------------------------------------------------------------------------
+// (none)
+
+// -----------------------------------------------------------------------------
+// MARKUP
+// -----------------------------------------------------------------------------
+// (none — redirect-only page)
+
+// -----------------------------------------------------------------------------
+// SCRIPT
+// -----------------------------------------------------------------------------
+function RootIndexRedirect() {
   const router = useRouter();
   useEffect(() => {
     router.replace("/en/welcome");
@@ -10,4 +29,4 @@ function Index() {
   return null;
 }
 
-export default Index;
+export default RootIndexRedirect;

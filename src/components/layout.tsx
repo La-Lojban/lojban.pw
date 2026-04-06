@@ -23,12 +23,16 @@ import { getClosestHeaderId } from "../lib/toc";
 import { Items } from "../lib/api";
 import { TPost } from "../types/post";
 import { TocElem, TocItem } from "../types/toc";
+import { normalizeCanonicalPath } from "../lib/seo";
 
 // -----------------------------------------------------------------------------
 // STYLES
 // -----------------------------------------------------------------------------
 const tw = {
   page: "flex flex-col h-screen print:h-auto",
+  header: "print:hidden flex-shrink-0",
+  skipLink:
+    "sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:shadow focus:outline-none focus:ring-2 focus:ring-deep-orange-400",
   article: "flex-grow overflow-y-auto",
 } as const;
 
@@ -39,7 +43,7 @@ function LayoutChrome({
   children,
   meta,
   title,
-  parentSlug,
+  canonicalPath,
   headerPath,
   toc,
   tocList,
@@ -47,17 +51,21 @@ function LayoutChrome({
   currentLanguage,
   posts,
   post,
-  articleRef,
+  mainRef,
   isVisible,
   scrollToTop,
   prevPage,
   nextPage,
   currentPageNumber,
+  alternates,
+  hreflangXDefault,
+  jsonLd,
+  useArticleShell,
 }: {
   children: ReactNode;
   meta?: { [key: string]: string | undefined };
   title?: string;
-  parentSlug?: string;
+  canonicalPath: string;
   headerPath: string;
   toc: TocElem[];
   tocList?: TocItem[];
@@ -65,29 +73,50 @@ function LayoutChrome({
   currentLanguage: string;
   posts?: Items[];
   post?: TPost;
-  articleRef: React.RefObject<HTMLElement | null>;
+  mainRef: React.RefObject<HTMLElement | null>;
   isVisible: boolean;
   scrollToTop: () => void;
   prevPage?: string | null;
   nextPage?: string | null;
   currentPageNumber?: number;
+  alternates?: { hreflang: string; href: string }[];
+  hreflangXDefault?: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[] | null;
+  useArticleShell: boolean;
 }) {
   return (
     <>
-      <Meta meta={meta} title={title} parentSlug={parentSlug} />
+      <Meta
+        meta={meta}
+        title={title}
+        canonicalPath={canonicalPath}
+        currentLanguage={currentLanguage}
+        alternates={alternates}
+        hreflangXDefault={hreflangXDefault}
+        jsonLd={jsonLd}
+      />
       <div className={tw.page}>
-        <Header
-          toc={toc}
-          tocList={tocList}
-          path={headerPath}
-          allPosts={allPosts}
-          currentLanguage={currentLanguage}
-          posts={posts}
-          post={post}
-        />
-        <article ref={articleRef} className={tw.article}>
-          {children}
-        </article>
+        <a href="#main-content" className={tw.skipLink}>
+          Skip to main content
+        </a>
+        <header className={tw.header}>
+          <Header
+            toc={toc}
+            tocList={tocList}
+            path={headerPath}
+            allPosts={allPosts}
+            currentLanguage={currentLanguage}
+            posts={posts}
+            post={post}
+          />
+        </header>
+        <main ref={mainRef} id="main-content" className={tw.article}>
+          {useArticleShell ? (
+            <article className="min-h-0">{children}</article>
+          ) : (
+            children
+          )}
+        </main>
         <Footer />
 
         <NavigationWidget
@@ -122,6 +151,11 @@ type Props = {
   prevPage?: string | null;
   nextPage?: string | null;
   currentPageNumber?: number;
+  alternates?: { hreflang: string; href: string }[];
+  hreflangXDefault?: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[] | null;
+  /** When true (default), wrap main content in an &lt;article&gt; for single-page posts. */
+  useArticleShell?: boolean;
 };
 
 function Layout({
@@ -139,36 +173,40 @@ function Layout({
   prevPage,
   nextPage,
   currentPageNumber,
+  alternates,
+  hreflangXDefault,
+  jsonLd,
+  useArticleShell = true,
 }: Props) {
   const router = useRouter();
 
-  const articleRef = useRef<HTMLElement>(null);
+  const mainRef = useRef<HTMLElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
   const checkScrollTop = useMemo(
     () =>
       debounce(() => {
-        setIsVisible((articleRef.current?.scrollTop ?? 0) > 60);
+        setIsVisible((mainRef.current?.scrollTop ?? 0) > 60);
       }, 100),
     []
   );
 
   const scrollToTop = useCallback(() => {
-    articleRef.current?.scrollTo({ top: 0, behavior: "smooth" });
+    mainRef.current?.scrollTo({ top: 0, behavior: "smooth" });
     setIsVisible(false);
   }, []);
 
   useEffect(() => {
-    const articleElement = articleRef.current;
-    if (!articleElement) return;
-    articleElement.addEventListener("scroll", checkScrollTop);
-    return () => articleElement.removeEventListener("scroll", checkScrollTop);
+    const mainEl = mainRef.current;
+    if (!mainEl) return;
+    mainEl.addEventListener("scroll", checkScrollTop);
+    return () => mainEl.removeEventListener("scroll", checkScrollTop);
   }, [checkScrollTop]);
 
   useEffect(() => {
     const handleRouteChange = (url: string) => {
-      if (articleRef.current && !url.includes("#")) {
-        articleRef.current.scrollTop = 0;
+      if (mainRef.current && !url.includes("#")) {
+        mainRef.current.scrollTop = 0;
       }
       setTimeout(getClosestHeaderId, 150);
     };
@@ -183,12 +221,13 @@ function Layout({
   if (router.isFallback) return <PostTitle>Loading…</PostTitle>;
 
   const headerPath = router.asPath.replace(/#.*/, "");
+  const canonicalPath = normalizeCanonicalPath(headerPath);
 
   return (
     <LayoutChrome
       meta={meta}
       title={title}
-      parentSlug={post?.parentSlug}
+      canonicalPath={canonicalPath}
       headerPath={headerPath}
       toc={toc}
       tocList={tocList}
@@ -196,12 +235,16 @@ function Layout({
       currentLanguage={currentLanguage}
       posts={posts}
       post={post}
-      articleRef={articleRef}
+      mainRef={mainRef}
       isVisible={isVisible}
       scrollToTop={scrollToTop}
       prevPage={prevPage}
       nextPage={nextPage}
       currentPageNumber={currentPageNumber}
+      alternates={alternates}
+      hreflangXDefault={hreflangXDefault}
+      jsonLd={jsonLd}
+      useArticleShell={useArticleShell}
     >
       {children}
     </LayoutChrome>

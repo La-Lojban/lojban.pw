@@ -1,27 +1,99 @@
+/**
+ * SFC-style layout (dependency order: styles → markup → script):
+ *   STYLES — Tailwind fragments
+ *   MARKUP — presentational pieces
+ *   SCRIPT — data + composition
+ */
 import { useState, useMemo } from "react";
 import Link from "next/link";
-
 import { useRouter } from "next/router";
 import ErrorPage from "next/error";
 import PostBody from "../../components/post-body";
 import Layout from "../../components/layout";
+import { PageTocSidebar } from "../../components/page-toc-sidebar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowLeft,
   faArrowRight,
-  faArrowUp,
   faBackwardFast,
 } from "@fortawesome/free-solid-svg-icons";
-
 import { getPostBySlug, getAllPosts, Items } from "../../lib/api";
-import Head from "next/head";
 import markdownToHtml from "../../lib/markdownToHtml";
 import { TPost } from "../../types/post";
 import { TocItem } from "../../types/toc";
-import { site_title } from "../../config/config";
+import { site_description, site_title, site_url } from "../../config/config";
 import ImageGallery, { GalleryItem } from "react-image-gallery";
 import { retainStringValues } from "../../lib/utils";
+import {
+  absoluteUrl,
+  articleJsonLd,
+  breadcrumbItemsFromSlug,
+  breadcrumbJsonLd,
+  defaultHreflangXDefault,
+  organizationJsonLd,
+  webSiteJsonLd,
+} from "../../lib/seo";
 
+// -----------------------------------------------------------------------------
+// STYLES
+// -----------------------------------------------------------------------------
+const tw = {
+  shell: "mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap",
+  bookNavRow: "w-full flex justify-center mt-2 items-center space-x-8",
+  iconLinkBrown: "text-brown-400 hover:text-brown-600 transition-colors",
+  iconLinkOrange: "text-deep-orange-400 hover:text-brown-600 transition-colors",
+  pageNum: "text-gray-600",
+  spacer: "w-12",
+} as const;
+
+// -----------------------------------------------------------------------------
+// MARKUP
+// -----------------------------------------------------------------------------
+function BookChapterPaginationNav({
+  resolvedPost,
+  prevPage,
+  nextPage,
+  currentPageNumber,
+}: {
+  resolvedPost: TPost;
+  prevPage: string | null;
+  nextPage: string | null;
+  currentPageNumber?: number;
+}) {
+  if (nextPage === null && prevPage === null) return null;
+
+  return (
+    <div className={tw.bookNavRow}>
+      {resolvedPost.firstSiblingSlug !== undefined &&
+      resolvedPost.firstSiblingSlug !== resolvedPost.slug.join("/") ? (
+        <Link href={"/" + resolvedPost.firstSiblingSlug} className={tw.iconLinkBrown}>
+          <FontAwesomeIcon className="w-6" icon={faBackwardFast} />
+        </Link>
+      ) : (
+        <div />
+      )}
+      {prevPage !== null ? (
+        <Link href={prevPage} className={tw.iconLinkOrange}>
+          <FontAwesomeIcon className="w-6" icon={faArrowLeft} />
+        </Link>
+      ) : (
+        <div className={tw.spacer} />
+      )}
+      <span className={tw.pageNum}>{currentPageNumber}</span>
+      {nextPage !== null ? (
+        <Link href={nextPage} className={tw.iconLinkOrange}>
+          <FontAwesomeIcon className="w-6" icon={faArrowRight} />
+        </Link>
+      ) : (
+        <div className={tw.spacer} />
+      )}
+    </div>
+  );
+}
+
+// -----------------------------------------------------------------------------
+// SCRIPT
+// -----------------------------------------------------------------------------
 type Props = {
   post: TPost;
   parentPost?: TPost;
@@ -37,7 +109,7 @@ type Props = {
 
 const siteSection = "books";
 
-const Post = ({
+function SlugPage({
   post,
   parentPost,
   posts,
@@ -47,7 +119,7 @@ const Post = ({
   nextPage,
   currentPageNumber,
   mergedTocList,
-}: Props) => {
+}: Props) {
   const resolvedPost = post ?? parentPost;
   const router = useRouter();
   if (!router.isFallback && !resolvedPost?.slug) return <ErrorPage statusCode={404} />;
@@ -95,12 +167,53 @@ const Post = ({
       ? `${firstHeaderPreview} | ${title_core}`
       : `${title_core} | ${site_title}`;
   }, [resolvedPost.firstHeader, title_core]);
+
+  const langPosts = posts as unknown as { fullPath: string; language: string }[];
+
+  const alternates = useMemo(() => {
+    return langPosts.map((p) => ({
+      hreflang: p.language,
+      href: absoluteUrl(site_url, `/${p.fullPath}/`)!,
+    }));
+  }, [langPosts]);
+
+  const hreflangXDefault = useMemo(
+    () => defaultHreflangXDefault(langPosts),
+    [langPosts]
+  );
+
+  const jsonLd = useMemo(() => {
+    const canonical = absoluteUrl(
+      site_url,
+      `/${resolvedPost.slug.join("/")}/`
+    )!;
+    const headline = title_core;
+    const crumbs = breadcrumbItemsFromSlug(resolvedPost.slug, site_url, headline);
+    const bc = breadcrumbJsonLd(crumbs);
+    return [
+      webSiteJsonLd({
+        name: site_title,
+        url: site_url,
+        description: site_description,
+      }),
+      organizationJsonLd({ name: site_title, url: site_url }),
+      articleJsonLd({
+        headline,
+        url: canonical,
+        datePublished: resolvedPost.date,
+        authorName: resolvedPost.author?.name,
+      }),
+      ...(bc ? [bc] : []),
+    ];
+  }, [resolvedPost, title_core]);
+
   return (
     <Layout
       meta={{
         ...retainStringValues(resolvedPost, ["content", "fullPath"]),
         title,
         "og:url": "/" + resolvedPost.slug.join("/"),
+        "og:type": "article",
       }}
       toc={resolvedPost?.toc}
       tocList={mergedTocList ?? undefined}
@@ -114,47 +227,19 @@ const Post = ({
       prevPage={prevPage}
       nextPage={nextPage}
       currentPageNumber={currentPageNumber}
+      alternates={alternates}
+      hreflangXDefault={hreflangXDefault}
+      jsonLd={jsonLd}
     >
-      <div className="mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap">
-        {/* Navigation links */}
-        {(nextPage !== null || prevPage !== null) && (
-          <div className="w-full flex justify-center mt-2 items-center space-x-8">
-            {resolvedPost.firstSiblingSlug !== undefined &&
-            resolvedPost.firstSiblingSlug !== resolvedPost.slug.join("/") ? (
-              <Link
-                href={"/" + resolvedPost.firstSiblingSlug}
-                className="text-brown-400 hover:text-brown-600 transition-colors"
-              >
-                <FontAwesomeIcon className="w-6" icon={faBackwardFast} />
-              </Link>
-            ) : (
-              <div />
-            )}
-            {prevPage !== null ? (
-              <Link
-                href={prevPage}
-                className="text-deep-orange-400 hover:text-brown-600 transition-colors"
-              >
-                <FontAwesomeIcon className="w-6" icon={faArrowLeft} />
-              </Link>
-            ) : (
-              <div className="w-12" />
-            )}
-            <span className="text-gray-600">{currentPageNumber}</span>
-            {nextPage !== null ? (
-              <Link
-                href={nextPage}
-                className="text-deep-orange-400 hover:text-brown-600 transition-colors"
-              >
-                <FontAwesomeIcon className="w-6" icon={faArrowRight} />
-              </Link>
-            ) : (
-              <div className="w-12" />
-            )}
-          </div>
-        )}
-        
-        {state.galleryShown && resolvedPost.slug[1] === siteSection && (
+      <div className={tw.shell}>
+        <BookChapterPaginationNav
+          resolvedPost={resolvedPost}
+          prevPage={prevPage}
+          nextPage={nextPage}
+          currentPageNumber={currentPageNumber}
+        />
+
+        {state.galleryShown && resolvedPost.slug[1] === siteSection ? (
           <ImageGallery
             additionalClass="fullpage"
             items={images}
@@ -169,7 +254,7 @@ const Post = ({
             }}
             onClick={() => setState((p) => ({ ...p, galleryShown: false }))}
           />
-        )}
+        ) : null}
 
         <PostBody
           post={{ ...resolvedPost, title: title_core }}
@@ -178,29 +263,13 @@ const Post = ({
           hasToc={hasToc}
           siteSection={siteSection}
         />
-        {hasToc && (
-          <nav className="hidden md:block toc w-full md:w-1/5 sticky px-2 bottom-0 md:top-20 h-16 md:h-screen font-medium text-sm overflow-ellipsis">
-            <div id="toc-core" className="toc-core h-4/5 overflow-y-auto">
-              {toc_list.map((item) => (
-                <Link
-                  href={item.url}
-                  key={item.url}
-                  className={`block text-black in-toc hover:no-underline px-3 py-2 lme-ml-${
-                    (item.depth - 2) * 2
-                  }`}
-                >
-                  {item.name}
-                </Link>
-              ))}
-            </div>
-          </nav>
-        )}
+        {hasToc ? <PageTocSidebar items={toc_list} /> : null}
       </div>
     </Layout>
   );
-};
+}
 
-export default Post;
+export default SlugPage;
 
 export type Params = {
   params: {

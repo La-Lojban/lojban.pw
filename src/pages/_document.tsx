@@ -1,9 +1,46 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+/**
+ * SFC-style layout (dependency order: styles → markup → script):
+ *   STYLES — Tailwind fragments
+ *   MARKUP — presentational pieces
+ *   SCRIPT — data + composition
+ */
+import Document, {
+  Html,
+  Head,
+  Main,
+  NextScript,
+  type DocumentContext,
+} from "next/document";
 
-export default class MyDocument extends Document {
+// -----------------------------------------------------------------------------
+// STYLES
+// -----------------------------------------------------------------------------
+// (Katex CDN + manifest links in Head; body uses className)
+
+// -----------------------------------------------------------------------------
+// MARKUP
+// -----------------------------------------------------------------------------
+type DocProps = {
+  lang: string;
+};
+
+// -----------------------------------------------------------------------------
+// SCRIPT
+// -----------------------------------------------------------------------------
+export default class MyDocument extends Document<DocProps> {
+  static async getInitialProps(ctx: DocumentContext) {
+    const initialProps = await Document.getInitialProps(ctx);
+    const path = ctx.asPath ?? ctx.pathname ?? "";
+    const seg = path.split("/").filter(Boolean)[0];
+    const lang =
+      seg && /^[a-z]{2}(-[a-z0-9]+)?$/i.test(seg) ? seg : "en";
+    return { ...initialProps, lang };
+  }
+
   render() {
+    const lang = this.props.lang ?? "en";
     return (
-      <Html lang={this.props.dangerousAsPath.split("/")[1] ?? "en"}>
+      <Html lang={lang}>
         <Head>
           <link
             rel="stylesheet"
@@ -14,8 +51,10 @@ export default class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
           <meta name="theme-color" content="#000000" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
-          <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-          {/* <Script src="/assets/js/redirector.js" strategy="beforeInteractive" /> */}
+          <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+          />
         </Head>
         <body className="bg-gray-100 print:bg-white">
           <Main />

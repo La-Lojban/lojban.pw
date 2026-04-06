@@ -6,6 +6,7 @@
  */
 import { useMemo } from "react";
 import PostPreview from "./post-preview";
+import { groupDirectoryLabel } from "../lib/lang-native";
 import { TPost } from "../types/post";
 
 // -----------------------------------------------------------------------------
@@ -54,7 +55,7 @@ function GroupHeading({ groupKey }: { groupKey: string }) {
       id={groupKey}
       className={tw.tabHeading}
     >
-      <span>{groupKey}</span>
+      <span className="normal-case">{groupDirectoryLabel(groupKey)}</span>
       <a className={tw.hashLink} aria-hidden="true" href={`#${groupKey}`}>
         <span className={tw.hashSpan}>#</span>
       </a>

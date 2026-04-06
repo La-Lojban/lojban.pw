@@ -20,7 +20,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faList, faScroll } from "@fortawesome/free-solid-svg-icons";
 
 import { header } from "../config/config";
-import langJson from "../config/locales.json";
+import { langDict } from "../lib/lang-native";
 import { Items } from "../lib/api";
 import { closeXicon } from "../lib/buttons";
 import { getClosestHeaderId } from "../lib/toc";
@@ -305,20 +305,6 @@ function BurgerButton({
 // -----------------------------------------------------------------------------
 // SCRIPT
 // -----------------------------------------------------------------------------
-const languages = langJson.languages;
-const langDict = Object.keys(languages)
-  .sort()
-  .reduce(
-    (acc: Record<string, string>, language: string) => ({
-      ...acc,
-      [(languages as Record<string, { short: string; native: string }>)[language]
-        .short]: (languages as Record<string, { short: string; native: string }>)[
-        language
-      ].native,
-    }),
-    {}
-  );
-
 export default function Header({
   toc = [],
   tocList,
@@ -443,6 +429,7 @@ export default function Header({
       <AlgoliaSearchOverlay isOpen={searchOpen} onClose={handleCloseSearch} />
       <Popover
         as="nav"
+        aria-label="Primary"
         className={`${tw.popoverNav} ${getColor("bg-deep-orange-400")}`}
       >
         {({ open }) => (

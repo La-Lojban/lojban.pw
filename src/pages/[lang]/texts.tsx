@@ -1,26 +1,120 @@
+/**
+ * SFC-style layout (dependency order: styles → markup → script):
+ *   STYLES — Tailwind fragments
+ *   MARKUP — presentational pieces
+ *   SCRIPT — data + composition
+ */
+import { useMemo } from "react";
 import AllStories from "../../components/all-stories";
 import Intro from "../../components/intro";
 import Layout from "../../components/layout";
 import { Items, getAllPosts } from "../../lib/api";
 import { TPost } from "../../types/post";
-import { header } from "../../config/config";
-
+import { header, site_description, site_title, site_url } from "../../config/config";
 import markdownToHtml from "../../lib/markdownToHtml";
+import {
+  absoluteUrl,
+  defaultHreflangXDefault,
+  organizationJsonLd,
+  webSiteJsonLd,
+} from "../../lib/seo";
 import { Params } from "./[...slug]";
 import { retainStringValues } from "../../lib/utils";
 
+// -----------------------------------------------------------------------------
+// STYLES
+// -----------------------------------------------------------------------------
+const tw = {
+  outer: "mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap",
+  inner: "mb-8 mt-3 mx-auto max-w-7xl px-4 sm:px-6",
+  introHtml: "mb-2",
+} as const;
+
+// -----------------------------------------------------------------------------
+// MARKUP
+// -----------------------------------------------------------------------------
+function TextsIndexContent({
+  title,
+  ogImage,
+  html,
+  storyPosts,
+}: {
+  title?: string;
+  ogImage?: string;
+  html: string;
+  storyPosts: TPost[];
+}) {
+  return (
+    <div className={tw.outer}>
+      <div className={tw.inner}>
+        <Intro title={title} image={ogImage} />
+        <div
+          className={tw.introHtml}
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+        {storyPosts.length > 0 ? (
+          <AllStories posts={storyPosts} />
+        ) : null}
+      </div>
+    </div>
+  );
+}
+
+// -----------------------------------------------------------------------------
+// SCRIPT
+// -----------------------------------------------------------------------------
 type Props = {
   siblingPosts: Items[];
   allPosts: Items[];
   indexPost: TPost;
   posts: Items[];
-  params: any;
+  params: { lang: string };
 };
 
-const ogImage = (header.filter((item) => item.url === "/texts")?.[0] as any)?.[
+const textsHeaderEntry = header.find((item) => item.url === "/texts") as
+  | (typeof header)[number]
+  | undefined;
+const ogImage = (textsHeaderEntry as { "og:image"?: string } | undefined)?.[
   "og:image"
 ];
-const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
+
+function TextsPage({
+  siblingPosts,
+  allPosts,
+  indexPost,
+  posts,
+  params,
+}: Props) {
+  const langPosts = posts as unknown as { fullPath: string; language: string }[];
+
+  const alternates = useMemo(
+    () =>
+      langPosts.map((p) => ({
+        hreflang: p.language,
+        href: absoluteUrl(site_url, `/${p.fullPath}/`)!,
+      })),
+    [langPosts]
+  );
+
+  const hreflangXDefault = useMemo(
+    () => defaultHreflangXDefault(langPosts),
+    [langPosts]
+  );
+
+  const jsonLd = useMemo(
+    () => [
+      webSiteJsonLd({
+        name: site_title,
+        url: site_url,
+        description: site_description,
+      }),
+      organizationJsonLd({ name: site_title, url: site_url }),
+    ],
+    []
+  );
+
+  const storyPosts = allPosts as unknown as TPost[];
+
   return (
     <Layout
       meta={{
@@ -32,24 +126,22 @@ const Index = ({ siblingPosts, allPosts, indexPost, posts, params }: Props) => {
       currentLanguage={params.lang}
       title={indexPost.title}
       posts={posts}
+      alternates={alternates}
+      hreflangXDefault={hreflangXDefault}
+      jsonLd={jsonLd}
+      useArticleShell={false}
     >
-      <div className="mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap">
-        <div className="mb-8 mt-3 mx-auto max-w-7xl px-4 sm:px-6">
-          <Intro title={indexPost?.title} image={ogImage} />
-          <div
-            className="mb-2"
-            dangerouslySetInnerHTML={{ __html: indexPost?.content ?? "" }}
-          />
-          {allPosts.length > 0 && (
-            <AllStories posts={allPosts as unknown as TPost[]} />
-          )}
-        </div>
-      </div>
+      <TextsIndexContent
+        title={indexPost?.title}
+        ogImage={ogImage}
+        html={indexPost?.content ?? ""}
+        storyPosts={storyPosts}
+      />
     </Layout>
   );
-};
+}
 
-export default Index;
+export default TextsPage;
 
 export const getStaticProps = async ({ params }: Params) => {
   let allPosts = await getAllPosts({
@@ -66,7 +158,6 @@ export const getStaticProps = async ({ params }: Params) => {
       "author",
       "fullPath",
       "content",
-
       "meta.title",
       "description",
       "meta.keywords",
@@ -120,7 +211,7 @@ export const getStaticProps = async ({ params }: Params) => {
   };
 };
 
-export async function getStaticPaths(pa: any) {
+export async function getStaticPaths() {
   const posts = await getAllPosts({
     fields: ["slug", "hidden"],
     showHidden: true,
@@ -142,5 +233,3 @@ export async function getStaticPaths(pa: any) {
     fallback: false,
   };
 }
-
-// export const config = { amp: 'hybrid' }

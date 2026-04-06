@@ -1,3 +1,4 @@
+// Keep in sync with ../../src/config/config.ts
 export const site_title = "lojban.pw";
 export const site_description = "Lojban language courses, stories";
 export const site_url = "https://lojban.pw";

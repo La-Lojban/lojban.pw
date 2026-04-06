@@ -143,11 +143,12 @@ function PlainCard({
 type Props = { post: TPost };
 
 function PostPreview({ post }: Props) {
-  const { title, date, excerpt, slug, coverImage } = post;
+  const { title, date, excerpt, slug } = post;
+  const coverUrl = post.coverImage || post["og:image"];
   const author: Author | TPost["meta.author"] =
     post.author ?? post["meta.author"];
   const href = `/${slug.join("/")}`;
-  const onCover = Boolean(coverImage);
+  const onCover = Boolean(coverUrl);
 
   const meta = (
     <PreviewMeta
@@ -158,10 +159,10 @@ function PostPreview({ post }: Props) {
     />
   );
 
-  if (coverImage) {
+  if (coverUrl) {
     return (
       <CoverCard
-        imageUrl={coverImage}
+        imageUrl={coverUrl}
         title={title}
         href={href}
         meta={meta}

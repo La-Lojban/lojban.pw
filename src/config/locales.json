@@ -4,6 +4,22 @@
             "native": "普通话",
             "short": "zh"
         },
+        "lojbo": {
+            "native": "lojbo",
+            "short": "jbo"
+        },
+        "sampu lojbo": {
+            "native": "sampu lojbo",
+            "short": "jbo-sampu"
+        },
+        "dzena xelso": {
+            "native": "αρχαία ελληνικά",
+            "short": "grc"
+        },
+        "spero": {
+            "native": "Esperanto",
+            "short": "eo"
+        },
         "spano": {
             "native": "español",
             "short": "es"
@@ -41,13 +57,17 @@
             "native": "svenska",
             "short": "sv"
         },
-        "lojbo": {
-            "native": "la .lojban.",
-            "short": "jbo"
-        },
         "tokpona": {
             "native": "toki pona",
             "short": "tok"
+        },
+        "bantugulu": {
+            "native": "Tagalog",
+            "short": "tl"
+        },
+        "balgaro": {
+            "native": "български",
+            "short": "bg"
         }
     }
 }

@@ -1,7 +1,26 @@
+/**
+ * SFC-style layout (dependency order: styles → markup → script):
+ *   STYLES — Tailwind fragments
+ *   MARKUP — presentational pieces
+ *   SCRIPT — data + composition
+ */
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-function QuestionsRedirect() {
+// -----------------------------------------------------------------------------
+// STYLES
+// -----------------------------------------------------------------------------
+// (none)
+
+// -----------------------------------------------------------------------------
+// MARKUP
+// -----------------------------------------------------------------------------
+// (none)
+
+// -----------------------------------------------------------------------------
+// SCRIPT
+// -----------------------------------------------------------------------------
+function QuestionsLangPrefixRedirect() {
   const router = useRouter();
   useEffect(() => {
     router.replace("/en" + router.asPath);
@@ -10,4 +29,4 @@ function QuestionsRedirect() {
   return null;
 }
 
-export default QuestionsRedirect;
+export default QuestionsLangPrefixRedirect;

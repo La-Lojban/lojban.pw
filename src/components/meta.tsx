@@ -6,7 +6,12 @@
  */
 import { useMemo } from "react";
 import Head from "next/head";
-import { links, meta as metaDefault } from "../config/config";
+import { links, meta as metaDefault, site_url } from "../config/config";
+import {
+  absoluteUrl,
+  normalizeCanonicalPath,
+  ogLocaleFromLang,
+} from "../lib/seo";
 
 // -----------------------------------------------------------------------------
 // STYLES
@@ -32,7 +37,7 @@ function DocumentLinks({ links: linkList }: { links: MetaLink[] }) {
           key={el.rel + (el.href ?? "") + index}
           rel={el.rel}
           type={el.type}
-          sizes={el.sizes}
+          sizes={el.sizes || undefined}
           href={el.href}
           color={el.color}
         />
@@ -60,12 +65,55 @@ function DocumentMetaTags({
   );
 }
 
+function HreflangLinks({
+  alternates,
+  xDefaultHref,
+}: {
+  alternates?: { hreflang: string; href: string }[];
+  xDefaultHref?: string;
+}) {
+  if (!alternates?.length && !xDefaultHref) return null;
+  return (
+    <>
+      {alternates?.map((a) => (
+        <link
+          key={`${a.hreflang}-${a.href}`}
+          rel="alternate"
+          hrefLang={a.hreflang}
+          href={a.href}
+        />
+      ))}
+      {xDefaultHref ? (
+        <link rel="alternate" hrefLang="x-default" href={xDefaultHref} />
+      ) : null}
+    </>
+  );
+}
+
+function JsonLdScripts({
+  blocks,
+}: {
+  blocks: Record<string, unknown>[];
+}) {
+  return (
+    <>
+      {blocks.map((obj, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(obj) }}
+        />
+      ))}
+    </>
+  );
+}
+
 // -----------------------------------------------------------------------------
 // SCRIPT
 // -----------------------------------------------------------------------------
 type TMeta = { [key: string]: string | undefined };
 
-function removeUndefinedOrNull(obj: any) {
+function removeUndefinedOrNull(obj: Record<string, unknown>) {
   for (const key in obj) {
     if (obj[key] === undefined || obj[key] === null) {
       delete obj[key];
@@ -74,8 +122,8 @@ function removeUndefinedOrNull(obj: any) {
   return obj;
 }
 
-function separateMetaKeys(jsonObj: any) {
-  const metaObj: any = {};
+function separateMetaKeys(jsonObj: Record<string, unknown>) {
+  const metaObj: Record<string, unknown> = {};
   Object.keys(jsonObj).forEach((key) => {
     if (key.startsWith("meta.")) {
       metaObj[key.replace(/^meta\./, "")] = jsonObj[key];
@@ -97,11 +145,20 @@ function getTag(fallbacks: string[], meta: TMeta, metaDef: TMeta) {
 function Meta({
   meta: metaProp,
   title,
-  parentSlug,
+  canonicalPath: canonicalPathProp,
+  currentLanguage = "en",
+  alternates,
+  hreflangXDefault,
+  jsonLd,
 }: {
   meta?: TMeta;
   title?: string;
-  parentSlug?: string;
+  /** Pathname with trailing slash (e.g. from router.asPath); used for canonical + absolutes. */
+  canonicalPath?: string;
+  currentLanguage?: string;
+  alternates?: { hreflang: string; href: string }[];
+  hreflangXDefault?: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[] | null;
 }) {
   const meta = metaProp ?? {};
 
@@ -155,9 +212,26 @@ function Meta({
       metaDefault
     );
     delete m.title;
-    const { original, metaJson } = separateMetaKeys(m);
-    return { ...metaJson, ...original };
-  }, [metaProp]);
+
+    m["og:url"] = absoluteUrl(site_url, m["og:url"]) ?? m["og:url"];
+    m["twitter:url"] = absoluteUrl(site_url, m["twitter:url"]) ?? m["twitter:url"];
+    m["og:image"] = absoluteUrl(site_url, m["og:image"]) ?? m["og:image"];
+    m["twitter:image"] =
+      absoluteUrl(site_url, m["twitter:image"]) ?? m["twitter:image"];
+
+    m["og:locale"] = ogLocaleFromLang(currentLanguage);
+
+    const { original, metaJson } = separateMetaKeys({
+      ...(m as Record<string, unknown>),
+    });
+    return { ...metaJson, ...original } as TMeta;
+  }, [metaProp, currentLanguage]);
+
+  const metaEntries = useMemo(
+    () =>
+      Object.entries(removeUndefinedOrNull({ ...merged } as Record<string, unknown>)),
+    [merged]
+  );
 
   const links_ = useMemo(() => {
     const icon = getTag(
@@ -173,22 +247,42 @@ function Meta({
         return link;
       }
     );
-    if (parentSlug) {
-      result.push({ rel: "canonical", href: "/" + parentSlug, sizes: "" });
+    const pathForCanonical = canonicalPathProp
+      ? normalizeCanonicalPath(canonicalPathProp)
+      : "/";
+    const canonicalHref = absoluteUrl(site_url, pathForCanonical);
+    if (canonicalHref) {
+      result.push({
+        rel: "canonical",
+        href: canonicalHref,
+        sizes: "",
+      });
     }
     return result;
-  }, [metaProp, parentSlug]);
+  }, [metaProp, canonicalPathProp]);
 
-  const metaEntries = useMemo(
-    () => Object.entries(removeUndefinedOrNull(merged)),
-    [merged]
-  );
+  const jsonLdBlocks = useMemo(() => {
+    if (jsonLd == null) return [];
+    return Array.isArray(jsonLd) ? jsonLd : [jsonLd];
+  }, [jsonLd]);
+
+  const ogLocaleAlternates = useMemo(() => {
+    const other = (alternates ?? [])
+      .filter((a) => a.hreflang !== currentLanguage)
+      .map((a) => ogLocaleFromLang(a.hreflang));
+    return [...new Set(other)];
+  }, [alternates, currentLanguage]);
 
   return (
     <Head>
       {title ? <title>{title}</title> : null}
       <DocumentLinks links={links_} />
-      <DocumentMetaTags entries={metaEntries} />
+      <HreflangLinks alternates={alternates} xDefaultHref={hreflangXDefault} />
+      {ogLocaleAlternates.map((loc) => (
+        <meta key={loc} property="og:locale:alternate" content={loc} />
+      ))}
+      <DocumentMetaTags entries={metaEntries as [string, unknown][]} />
+      <JsonLdScripts blocks={jsonLdBlocks} />
     </Head>
   );
 }

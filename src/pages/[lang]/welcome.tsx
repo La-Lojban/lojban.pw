@@ -1,43 +1,72 @@
-import Link from "next/link";
-
+/**
+ * SFC-style layout (dependency order: styles → markup → script):
+ *   STYLES — Tailwind fragments
+ *   MARKUP — presentational pieces
+ *   SCRIPT — data + composition
+ */
+import { useMemo, type ReactNode } from "react";
 import { useRouter } from "next/router";
 import ErrorPage from "next/error";
 import PostBody from "../../components/post-body";
 import Layout from "../../components/layout";
+import {
+  PageTocSidebar,
+  type PageTocItem,
+} from "../../components/page-toc-sidebar";
 import { getPostBySlug, getAllPosts, Items } from "../../lib/api";
 import markdownToHtml from "../../lib/markdownToHtml";
 import { TPost } from "../../types/post";
-import { site_title } from "../../config/config";
+import { site_description, site_title, site_url } from "../../config/config";
 import { retainStringValues } from "../../lib/utils";
+import {
+  absoluteUrl,
+  articleJsonLd,
+  breadcrumbItemsFromSlug,
+  breadcrumbJsonLd,
+  defaultHreflangXDefault,
+  organizationJsonLd,
+  webSiteJsonLd,
+} from "../../lib/seo";
 
+// -----------------------------------------------------------------------------
+// STYLES
+// -----------------------------------------------------------------------------
+const tw = {
+  shell: "mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row",
+} as const;
+
+// -----------------------------------------------------------------------------
+// MARKUP
+// -----------------------------------------------------------------------------
+function WelcomeMainColumn({ children }: { children: ReactNode }) {
+  return <div className={tw.shell}>{children}</div>;
+}
+
+// -----------------------------------------------------------------------------
+// SCRIPT
+// -----------------------------------------------------------------------------
 type Props = {
   post: TPost;
   posts: Items[];
   contentPosts: TPost[];
   siblingPosts: Items[];
   currentLanguage: string;
-  params: any;
+  params: { slug?: string[]; lang: string };
 };
 
-type TocItem = {
-  name: string;
-  url: string;
-  depth: number;
-};
-
-const Post = ({
+function WelcomePage({
   post,
   posts,
   contentPosts,
   siblingPosts,
   currentLanguage,
   params,
-}: Props) => {
+}: Props) {
   const router = useRouter();
   if (!router.isFallback && !post?.slug) return <ErrorPage statusCode={404} />;
 
-  const toc_list: TocItem[] = (post?.toc ?? []).map((i: any) => ({
-    depth: i.depth,
+  const toc_list: PageTocItem[] = (post?.toc ?? []).map((i: { depth: unknown; value: string; id: string }) => ({
+    depth: parseInt(String(i.depth), 10),
     name: i.value,
     url: `${router.asPath.replace(/#.*/, "")}#${i.id}`,
   }));
@@ -45,6 +74,45 @@ const Post = ({
 
   const title_core = post["meta.title"] ?? post.title;
   const title = title_core ? `${title_core} | ${site_title}` : site_title;
+
+  const langPosts = posts as unknown as { fullPath: string; language: string }[];
+
+  const alternates = useMemo(
+    () =>
+      langPosts.map((p) => ({
+        hreflang: p.language,
+        href: absoluteUrl(site_url, `/${p.fullPath}/`)!,
+      })),
+    [langPosts]
+  );
+
+  const hreflangXDefault = useMemo(
+    () => defaultHreflangXDefault(langPosts),
+    [langPosts]
+  );
+
+  const jsonLd = useMemo(() => {
+    const canonical = absoluteUrl(site_url, `/${post.slug.join("/")}/`)!;
+    const headline = title_core ?? site_title;
+    const crumbs = breadcrumbItemsFromSlug(post.slug, site_url, headline);
+    const bc = breadcrumbJsonLd(crumbs);
+    return [
+      webSiteJsonLd({
+        name: site_title,
+        url: site_url,
+        description: site_description,
+      }),
+      organizationJsonLd({ name: site_title, url: site_url }),
+      articleJsonLd({
+        headline,
+        url: canonical,
+        datePublished: post.date,
+        authorName: post.author?.name,
+      }),
+      ...(bc ? [bc] : []),
+    ];
+  }, [post, title_core]);
+
   return (
     <Layout
       meta={{
@@ -58,37 +126,24 @@ const Post = ({
       currentLanguage={currentLanguage}
       title={title}
       posts={posts}
+      alternates={alternates}
+      hreflangXDefault={hreflangXDefault}
+      jsonLd={jsonLd}
     >
-      <div className="mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row">
+      <WelcomeMainColumn>
         <PostBody
           post={post}
           hasToc={hasToc}
           posts={contentPosts}
           lang={params.lang}
         />
-        {hasToc && (
-          <nav className="hidden md:block toc w-full md:w-1/5 sticky px-2 bottom-0 md:top-20 h-16 md:h-screen font-medium text-sm overflow-ellipsis">
-            <div id="toc-core" className="toc-core h-4/5 overflow-y-auto">
-              {toc_list.map((item) => (
-                <Link
-                  href={item.url}
-                  key={item.url}
-                  className={`block text-black in-toc hover:no-underline px-3 py-2 lme-ml-${
-                    (item.depth - 2) * 2
-                  }`}
-                >
-                  {item.name}
-                </Link>
-              ))}
-            </div>
-          </nav>
-        )}
-      </div>
+        {hasToc ? <PageTocSidebar items={toc_list} /> : null}
+      </WelcomeMainColumn>
     </Layout>
   );
-};
+}
 
-export default Post;
+export default WelcomePage;
 
 export type Params = {
   params: {
@@ -114,7 +169,6 @@ export async function getStaticProps({ params }: Params) {
     "content",
     "coverImage",
     "fullPath",
-    // "pdf",
   ]);
 
   const fullSlug = params.lang + "/" + params.slug.join("/");
@@ -122,7 +176,7 @@ export async function getStaticProps({ params }: Params) {
   const currentLanguage = params.lang;
 
   const allPosts = await getAllPosts({
-    fields: ["slug", "hidden", "title", "directory", "coverImage", "icon"],
+    fields: ["slug", "hidden", "title", "directory", "coverImage", "og:image", "icon"],
     showHidden: true,
     folder: "",
     ignoreTitles: false,
@@ -134,13 +188,10 @@ export async function getStaticProps({ params }: Params) {
       const shortPath = slug.slice(1).join("/");
       const language = slug[0];
       if (fullSlug === shortPath) {
-        //the current path is the english version so list the found slug
         acc.push({ fullPath, language });
       } else if (shortSlug === fullPath) {
-        //the current path is the X-lang version so list the found english version
         acc.push({ fullPath, language: "en" });
       } else if (shortSlug === shortPath && currentLanguage !== language) {
-        //the current path is the X-lang version so list the found Y-lang version
         acc.push({ fullPath, language });
       }
       return acc;
@@ -201,5 +252,3 @@ export async function getStaticPaths() {
     fallback: false,
   };
 }
-
-// export const config = { amp: 'hybrid' }

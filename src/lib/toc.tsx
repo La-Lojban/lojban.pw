@@ -15,9 +15,8 @@ export function getClosestHeaderId(options?: GetClosestHeaderIdOptions) {
     document.querySelectorAll("h1, h2, h3")
   ) as HTMLElement[];
 
-  // Use the article scroll container as viewport if present (main content scrolls there)
-  const scrollContainer = document.querySelector(
-    "article[class*='overflow-y-auto']"
+  const scrollContainer = document.getElementById(
+    "main-content"
   ) as HTMLElement | null;
   const useArticleViewport = !!scrollContainer;
 

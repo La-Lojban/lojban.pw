@@ -1,10 +1,11 @@
-export const site_title = "My website";
-export const site_description = "My website";
+// Keep in sync with ../../data/config/config.ts (production source of truth for site copy).
+export const site_title = "lojban.pw";
+export const site_description = "Lojban language courses, stories";
 export const site_url = "https://lojban.pw";
-export const site_creator_twitter = "John Smith";
+export const site_creator_twitter = "Gleki Arxokuna";
 
-export const CMS_NAME = "My website title";
-
+export const CMS_NAME = "Learn Lojban website";
+const discordChatUrl = "https://discord.gg/wasp5fj";
 import {
   faDiscord,
   faFacebook,
@@ -17,27 +18,32 @@ export const footer = [
   {
     name: "telegram",
     icon: faTelegram,
-    link: "https://t.me/blalala",
+    link: "https://t.me/lojban",
   },
-  { name: "discord", icon: faDiscord, link: "https://discord.gg/123456" },
+  { name: "discord", icon: faDiscord, link: discordChatUrl },
   {
     icon: faFacebook,
     name: "facebook",
-    link: "https://facebook.com/groups/mywebsite",
+    link: "https://facebook.com/groups/lojban",
   },
   {
     name: "github",
     icon: faGithub,
-    link: "https://github.com/myname/myrepo/issues",
+    link: "https://github.com/lagleki/lojban/issues",
   },
-  { name: "reddit", icon: faReddit, link: "https://reddit.com/r/mywebsite" },
+  { name: "reddit", icon: faReddit, link: "https://reddit.com/r/lojban" },
 ];
 
 export const header = [
-  { icon: "🎓", name: "Learn", url: "/books/learn-lojban/1", coverImage: "" },
+  { icon: "🎓", name: "Learn Lojban", url: "/books/learn-lojban/1" },
   { icon: "💬", name: "Live chat", url: "/articles/live_chat" },
-  { icon: "📚", name: "To read", url: "/texts", "og:image": "" },
-  { icon: "🗂️", name: "All pages", url: "/list" },
+  {
+    icon: "📚",
+    name: "Texts",
+    url: "/texts",
+  },
+  { icon: "📕", name: "Full grammar", url: "/articles/complete-lojban-language" },
+  { name: "📂📑📑📑", url: "/list" },
 ];
 
 export const links = [
@@ -68,27 +74,29 @@ export const links = [
 ];
 
 export const meta = {
-  "application-name": "site_title",
+  viewport:
+    "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover",
+  "application-name": site_title,
   "msapplication-TileColor": "#000000",
   "msapplication-config": "/assets/favicons/browserconfig.xml",
   "theme-color": "#000",
+  "og:image": "/assets/pixra/ralju/pluka_lanci.svg",
   "apple-mobile-web-app-capable": "yes",
   "apple-mobile-web-app-status-bar-style": "default",
-  "apple-mobile-web-app-title": "site_title",
-  description: "site_description",
+  "apple-mobile-web-app-title": site_title,
+  description: site_description,
   "format-detection": "telephone=no",
   "mobile-web-app-capable": "yes",
   "msapplication-tap-highlight": "no",
   "twitter:card": "summary",
-  "twitter:url": "site_url",
-  "twitter:title": "site_title",
-  "twitter:description": "site_description",
+  "twitter:url": site_url,
+  "twitter:title": site_title,
+  "twitter:description": site_description,
   "twitter:image": "/assets/pixra/ralju/pluka_lanci.svg",
-  "twitter:creator": "site_creator_twitter",
-  "og:image": "/assets/icons/lojbo-512.png",
+  "twitter:creator": site_creator_twitter,
   "og:type": "website",
-  "og:title": "site_title",
-  "og:description": "site_description",
-  "og:site_name": "site_title",
-  "og:url": "site_url",
+  "og:title": site_title,
+  "og:description": site_description,
+  "og:site_name": site_title,
+  "og:url": site_url,
 };
