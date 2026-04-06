@@ -511,7 +511,7 @@ article figure .figure_img {
 }
 
 article figcaption {
-  @apply text-xs m-3 text-center;
+  @apply text-xs m-3 mt-1 text-center;
 }
 
 article .speaker-row {

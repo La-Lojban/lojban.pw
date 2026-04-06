@@ -18,7 +18,7 @@ const tw = {
   coverRoot:
     "inner relative z-0 flex w-full min-w-0 max-w-md min-h-[17rem] flex-col justify-end overflow-hidden rounded-lg shadow-lg bg-gray-100 bg-cover bg-center bg-no-repeat",
   coverFooter:
-    "w-full shrink-0 bg-gradient-to-t from-white/72 via-white/48 to-transparent px-4 py-2 backdrop-blur [mask-image:linear-gradient(to_bottom,transparent,black,black,black)] [-webkit-mask-image:linear-gradient(to_bottom,transparent,black,black,black)] [mask-size:100%_100%] [-webkit-mask-size:100%_100%]",
+    "w-full shrink-0 bg-gradient-to-t from-white/72 via-white/48 to-transparent px-4 pb-2 pt-4 backdrop-blur [mask-image:linear-gradient(to_bottom,transparent,black,black,black)] [-webkit-mask-image:linear-gradient(to_bottom,transparent,black,black,black)] [mask-size:100%_100%] [-webkit-mask-size:100%_100%]",
   plainCard:
     "max-w-md p-4 align-middle shadow-lg rounded-lg place-items-left bg-white",
   title: "m-0 w-full break-words text-center text-2xl",
