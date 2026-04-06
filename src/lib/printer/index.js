@@ -6,14 +6,46 @@ const { languages } = require("../../config/locales.json");
 const { getMdPagesPath, getVrejiPath } = require("../paths");
 
 const allLanguages = Object.keys(languages);
-const CONCURRENCY_LIMIT = 20; // Increased from 10 for faster PDF generation
+
+function ts() {
+  return new Date().toISOString();
+}
+
+function log(...args) {
+  console.log(`[${ts()}]`, ...args);
+}
+
+// Single global queue caps total in-flight PDFs (all locales). Override in CI with PDF_PRINT_CONCURRENCY.
+const CONCURRENCY_LIMIT = (() => {
+  const raw = process.env.PDF_PRINT_CONCURRENCY;
+  const n = raw ? parseInt(raw, 10) : 20;
+  return Number.isFinite(n) && n > 0 ? n : 20;
+})();
+
 const PAGE_TIMEOUT = 300000; // 5 minutes timeout for page operations (large books need time)
 const PDF_GENERATION_TIMEOUT = 600000; // 10 minutes timeout for PDF generation
 
-async function generatePDF(browser, url, shortLang) {
+/** Run async work over items with at most `concurrency` in flight (global pool). */
+async function mapPool(items, concurrency, fn) {
+  let i = 0;
+  const out = new Array(items.length);
+  async function worker() {
+    while (true) {
+      const j = i++;
+      if (j >= items.length) return;
+      out[j] = await fn(items[j], j);
+    }
+  }
+  const n = Math.min(concurrency, Math.max(1, items.length));
+  await Promise.all(Array.from({ length: n }, () => worker()));
+  return out;
+}
+
+async function generatePDF(browser, url, shortLang, meta) {
   const page = await browser.newPage();
   try {
-    console.log(`opening page: ${url}`);
+    const label = meta ? ` (${meta.index + 1}/${meta.total})` : "";
+    log(`opening page${label}: ${url}`);
     
     // Set page timeout
     page.setDefaultTimeout(PAGE_TIMEOUT);
@@ -36,7 +68,12 @@ async function generatePDF(browser, url, shortLang) {
     });
 
     const vrejiPath = getVrejiPath();
-    const pdfFile = path.join(vrejiPath, "uencu", shortLang, `${url.split("/").slice("-1")[0]}.pdf`);
+    const pdfFile = path.join(
+      vrejiPath,
+      "uencu",
+      shortLang,
+      `${url.split("/").slice(-1)[0]}.pdf`,
+    );
     // Dir already created at start of printPDF(); ensure it exists for this locale
     fs.mkdirSync(path.join(vrejiPath, "uencu", shortLang), { recursive: true });
 
@@ -50,7 +87,7 @@ async function generatePDF(browser, url, shortLang) {
       }
       throw writeErr;
     }
-    console.log(`pdf file saved: ${pdfFile}`);
+    log(`pdf file saved: ${pdfFile}`);
     
     return { success: true, url, pdfFile };
   } catch (error) {
@@ -59,16 +96,16 @@ async function generatePDF(browser, url, shortLang) {
   } finally {
     // Ensure page is closed even if there's an error
     try {
-    await page.close();
+      await page.close();
     } catch (closeError) {
       console.error(`Error closing page for ${url}:`, closeError);
     }
   }
 }
 
-async function generatePDFWithTimeout(browser, url, shortLang) {
+async function generatePDFWithTimeout(browser, url, shortLang, meta) {
   return Promise.race([
-    generatePDF(browser, url, shortLang),
+    generatePDF(browser, url, shortLang, meta),
     new Promise((_, reject) => 
       setTimeout(() => reject(new Error(`Timeout after ${PDF_GENERATION_TIMEOUT}ms`)), PDF_GENERATION_TIMEOUT + 10000)
     )
@@ -76,17 +113,6 @@ async function generatePDFWithTimeout(browser, url, shortLang) {
     console.error(`Failed to generate PDF for ${url}:`, error);
     return { success: false, url, error: error.message };
   });
-}
-
-async function processBatch(browser, urls, shortLang) {
-  const results = [];
-  for (let i = 0; i < urls.length; i += CONCURRENCY_LIMIT) {
-    const batch = urls.slice(i, i + CONCURRENCY_LIMIT);
-    console.log(`Processing batch ${Math.floor(i / CONCURRENCY_LIMIT) + 1} of ${Math.ceil(urls.length / CONCURRENCY_LIMIT)} (${batch.length} PDFs)`);
-    const batchPromises = batch.map(url => generatePDFWithTimeout(browser, url, shortLang));
-    results.push(...await Promise.all(batchPromises));
-  }
-  return results;
 }
 
 async function printPDF() {
@@ -113,55 +139,69 @@ async function printPDF() {
   });
 
   try {
-    // Process all languages in parallel for faster builds
-    const results = await Promise.all(
-      allLanguages.map(async (lang) => {
-        const shortLang = languages[lang].short;
-        const mdPagesPath = getMdPagesPath();
-        const dirPath = path.join(mdPagesPath, shortLang, "books");
+    const mdPagesPath = getMdPagesPath();
+    const jobs = [];
 
-        if (!fs.existsSync(dirPath)) {
-          return [];
+    for (const lang of allLanguages) {
+      const shortLang = languages[lang].short;
+      const dirPath = path.join(mdPagesPath, shortLang, "books");
+
+      if (!fs.existsSync(dirPath)) {
+        continue;
+      }
+
+      try {
+        const urls = fs
+          .readdirSync(dirPath)
+          .filter((i) => i.endsWith(".md"))
+          .map((i) => sluggify(i.replace(/.md$/, "")))
+          .map(
+            (slug) =>
+              `http://127.0.0.1:3000/${shortLang}/books/${slug}`,
+          );
+
+        for (const url of urls) {
+          jobs.push({ url, shortLang, lang });
         }
+      } catch (err) {
+        console.error(`[${ts()}] Error scanning language ${lang}:`, err);
+      }
+    }
 
-        try {
-          const urls = fs
-            .readdirSync(dirPath)
-            .filter((i) => i.endsWith(".md"))
-            .map((i) => sluggify(i.replace(/.md$/, "")))
-            .map((url) => `http://127.0.0.1:3000/${shortLang}/books/${url}`);
+    const total = jobs.length;
+    log(
+      `PDF queue: ${total} jobs, concurrency=${CONCURRENCY_LIMIT}` +
+        (process.env.PDF_PRINT_CONCURRENCY ? " (from PDF_PRINT_CONCURRENCY)" : ""),
+    );
+    const started = Date.now();
 
-          console.log("generating PDF files for", urls);
-          // Process URLs in batches with concurrency limit
-          return await processBatch(browser, urls, shortLang);
-        } catch (err) {
-          console.error(`Error processing language ${lang}:`, err);
-          return [];
-        }
-      })
+    const allResults = await mapPool(jobs, CONCURRENCY_LIMIT, (job, index) =>
+      generatePDFWithTimeout(browser, job.url, job.shortLang, {
+        index,
+        total,
+      }),
     );
 
-    // Log summary of results
-    const allResults = results.flat();
+    log(`PDF queue finished in ${((Date.now() - started) / 1000).toFixed(1)}s`);
     const successful = allResults.filter(r => r && r.success).length;
     const failed = allResults.filter(r => r && !r.success).length;
-    console.log(`PDF generation complete: ${successful} successful, ${failed} failed`);
+    log(`PDF generation complete: ${successful} successful, ${failed} failed`);
 
     if (failed > 0) {
-      console.error("Some PDFs failed to generate. Check logs above for details.");
+      console.error(`[${ts()}] Some PDFs failed to generate. Check logs above for details.`);
       process.exitCode = 1;
     }
   } finally {
     // Ensure browser is properly closed
-    console.log("Closing browser...");
+    log("Closing browser...");
     await browser.close();
-    console.log("Browser closed successfully");
+    log("Browser closed successfully");
   }
 }
 
 printPDF()
   .then(() => {
-    console.log("PDF generation script completed");
+    log("PDF generation script completed");
     // Give Node.js time to flush stdout/stderr before exiting
     setTimeout(() => {
       process.exit(process.exitCode || 0);
