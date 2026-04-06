@@ -42,7 +42,7 @@ export const transformers: {selector: string; fn?: any; wrapper?:string; idCount
 			const wrapperElement = createElementFromSelector("div.wrapper");
 			const caption = element.attributes.caption ?? "";
 			const definition = element.attributes.definition ?? "";
-			wrapperElement.innerHTML = `<figure><div class="figure_img"><img src="${element.attributes.url}" alt="${caption}"></div><figcaption><b>${caption}</b><br/><i>${definition}</i></figcaption></figure>`;
+			wrapperElement.innerHTML = `<figure><div class="figure_img" data-url="${element.attributes.url}"><img src="${element.attributes.url}" alt="${caption}"></div><figcaption><b>${caption}</b><br/><i>${definition}</i></figcaption></figure>`;
 			element.insertAdjacentHTML("afterend", wrapperElement.outerHTML);
 			element.remove();
 		},

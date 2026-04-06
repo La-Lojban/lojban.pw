@@ -54,7 +54,11 @@ export const transformers: {
       const wrapperElement = createElementFromSelector("div.wrapper");
       const url = sanitizeUrl(element.attributes.url);
       wrapperElement.innerHTML = `
-      <figure><div class="figure_img" data-url="${url}" style="background-image:url('${url}')"></div><figcaption>
+      <figure><div class="figure_img" data-url="${url}"><img src="${url}" alt="${
+        element.attributes.caption
+          ? element.attributes.caption.replace(/"/g, "&quot;")
+          : ""
+      }"></div><figcaption>
       ${
         element.attributes.caption
           ? `<b>${element.attributes.caption}</b><br/>`

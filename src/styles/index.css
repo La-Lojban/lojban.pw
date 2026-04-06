@@ -507,7 +507,13 @@ article figure {
 }
 
 article figure .figure_img {
-  @apply -m-px p-2 bg-contain bg-no-repeat bg-center h-0 print:h-48 md:h-48 w-full print:w-48 md:w-48;
+  @apply -m-px p-2 bg-contain bg-no-repeat bg-center h-auto print:h-48 md:h-48 w-full print:w-48 md:w-48;
+}
+
+article figure .figure_img img {
+  @apply block w-full max-w-full h-auto;
+  @apply print:h-full print:w-full print:object-contain print:object-center;
+  @apply md:h-full md:w-full md:object-contain md:object-center;
 }
 
 article figcaption {
