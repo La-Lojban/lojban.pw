@@ -88,6 +88,7 @@ function PreviewMeta({
         <Avatar
           name={typeof author === "string" ? author : author.name}
           picture={typeof author === "string" ? "" : author.picture}
+          nameClassName={onCover ? tw.linkOnCover : tw.linkPlain}
         />
       ) : null}
     </div>
