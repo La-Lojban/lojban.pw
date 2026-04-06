@@ -39,11 +39,14 @@ import {
 // -----------------------------------------------------------------------------
 const tw = {
   shell: "mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap",
-  bookNavRow: "w-full flex justify-center mt-2 items-center space-x-8",
+  bookNavRow:
+    "w-full flex justify-center mt-3 items-center gap-x-10 gap-y-2 min-h-12 text-xl",
   iconLinkBrown: "text-brown-400 hover:text-brown-600 transition-colors",
   iconLinkOrange: "text-deep-orange-400 hover:text-brown-600 transition-colors",
-  pageNum: "text-gray-600",
-  spacer: "w-12",
+  pageNum:
+    "text-gray-600 font-medium tabular-nums min-w-[1.25em] text-center select-none",
+  spacer: "w-16",
+  bookIcon: "w-8 h-8",
 } as const;
 
 // -----------------------------------------------------------------------------
@@ -67,14 +70,14 @@ function BookChapterPaginationNav({
       {resolvedPost.firstSiblingSlug !== undefined &&
       resolvedPost.firstSiblingSlug !== resolvedPost.slug.join("/") ? (
         <Link href={"/" + resolvedPost.firstSiblingSlug} className={tw.iconLinkBrown}>
-          <FontAwesomeIcon className="w-6" icon={faBackwardFast} />
+          <FontAwesomeIcon className={tw.bookIcon} icon={faBackwardFast} />
         </Link>
       ) : (
         <div />
       )}
       {prevPage !== null ? (
         <Link href={prevPage} className={tw.iconLinkOrange}>
-          <FontAwesomeIcon className="w-6" icon={faArrowLeft} />
+          <FontAwesomeIcon className={tw.bookIcon} icon={faArrowLeft} />
         </Link>
       ) : (
         <div className={tw.spacer} />
@@ -82,7 +85,7 @@ function BookChapterPaginationNav({
       <span className={tw.pageNum}>{currentPageNumber}</span>
       {nextPage !== null ? (
         <Link href={nextPage} className={tw.iconLinkOrange}>
-          <FontAwesomeIcon className="w-6" icon={faArrowRight} />
+          <FontAwesomeIcon className={tw.bookIcon} icon={faArrowRight} />
         </Link>
       ) : (
         <div className={tw.spacer} />

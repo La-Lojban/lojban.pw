@@ -7,9 +7,10 @@
 import { AppProps } from "next/app";
 import "../styles/index.css";
 import "../styles/style.css";
-import NProgress from "nprogress";
-import Router from "next/router";
-import "../styles/nprogress.css";
+import {
+  RouteProgressProvider,
+  type RouteProgressOptions,
+} from "../lib/slimprogress";
 import { io } from "socket.io-client";
 import { closeXicon } from "../lib/buttons";
 import { useEffect } from "react";
@@ -28,25 +29,14 @@ import { debouncedGetClosestHeaderId } from "../lib/toc";
 // -----------------------------------------------------------------------------
 // SCRIPT
 // -----------------------------------------------------------------------------
-NProgress.configure({
+const trimSocketChunk = (text: string) =>
+  text.replace(/[\n\r]+$/gims, " ").replace(/<br *\/?>/gims, " ");
+
+const routeProgressOptions: Partial<RouteProgressOptions> = {
   minimum: 0.3,
   easing: "ease",
   speed: 800,
-  showSpinner: false,
-});
-
-if (process.env.NODE_ENV !== "development") {
-  Router.events.on("routeChangeStart", () => NProgress.start());
-  Router.events.on("routeChangeComplete", () => {
-    NProgress.done();
-    closeXicon();
-    window && window.dispatchEvent(new Event("popstate"));
-  });
-  Router.events.on("routeChangeError", () => NProgress.done());
-}
-
-const trimSocketChunk = (text: string) =>
-  text.replace(/[\n\r]+$/gims, " ").replace(/<br *\/?>/gims, " ");
+};
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
@@ -131,5 +121,22 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       socket1Chat.disconnect();
     };
   }, []);
-  return <Component {...pageProps} />;
+
+  const page = <Component {...pageProps} />;
+
+  if (process.env.NODE_ENV === "development") {
+    return page;
+  }
+
+  return (
+    <RouteProgressProvider
+      options={routeProgressOptions}
+      onRouteChangeComplete={() => {
+        closeXicon();
+        window.dispatchEvent(new Event("popstate"));
+      }}
+    >
+      {page}
+    </RouteProgressProvider>
+  );
 }

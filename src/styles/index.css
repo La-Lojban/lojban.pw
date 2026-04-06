@@ -1,4 +1,5 @@
 @import "react-image-gallery/styles/image-gallery.css";
+@import "./route-progress.css";
 
 @tailwind base;
 @tailwind components;
@@ -742,24 +743,38 @@ description {
 .audio-inline {
   overflow: auto;
   white-space: nowrap;
+  vertical-align: baseline;
 }
 
-.tutci {
-  line-height: 150%;
-  background: #eee;
-  border-radius: 3px;
-  border: 1px solid #333;
-  cursor: pointer;
-  color: #000;
-  padding: 1px 6px;
-  margin: 0 4px 0 4px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #666;
-  max-height: 24px;
-  font-size: 50%;
-  top: -4px;
-  display: inline-block;
-  position: relative;
+/* Inline pronunciation play controls — aligned with nav / UI (white chip, deep-orange accent) */
+@layer components {
+  .tutci {
+    @apply inline-flex items-center justify-center shrink-0 align-middle;
+    @apply h-7 w-7 min-h-[1.75rem] min-w-[1.75rem] rounded-lg p-0;
+    @apply border border-deep-orange-200 bg-white text-deep-orange-600;
+    @apply shadow-sm;
+    @apply cursor-pointer select-none;
+    @apply transition-[background-color,border-color,color,box-shadow] duration-150 ease-in-out;
+    @apply hover:border-deep-orange-300 hover:bg-deep-orange-50 hover:text-deep-orange-700 hover:shadow;
+    @apply active:bg-deep-orange-100;
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-deep-orange-400 focus-visible:ring-offset-1;
+    margin: 0 0.35rem;
+    position: relative;
+    top: -0.08em;
+    font-family: inherit;
+    font-size: 0;
+    line-height: 0;
+  }
+
+  /* Right-pointing triangle; color follows `currentColor` (hover/focus states) */
+  .tutci::before {
+    content: "";
+    flex-shrink: 0;
+    width: 0.45rem;
+    height: 0.55rem;
+    background-color: currentColor;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+  }
 }
 
 /* -------------------------------------------------------------------------- */

@@ -1,0 +1,37 @@
+/* Top-of-viewport route transition bar (YouTube-style). Theme via --route-progress-* on :root. */
+
+:root {
+  --route-progress-color: #ff0000;
+  --route-progress-height: 4px;
+  --route-progress-z-index: 99999;
+}
+
+.route-progress {
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  z-index: var(--route-progress-z-index);
+}
+
+.route-progress .route-progress__bar {
+  background: var(--route-progress-color);
+  position: fixed;
+  z-index: var(--route-progress-z-index);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--route-progress-height);
+}
+
+.route-progress .route-progress__edge-glow {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  box-shadow:
+    0 0 10px var(--route-progress-color),
+    0 0 5px var(--route-progress-color);
+  opacity: 1;
+  transform: rotate(3deg) translate(0, -4px);
+}

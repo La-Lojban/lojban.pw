@@ -6,6 +6,7 @@ import { HTMLElement } from "node-html-parser";
 import { createElementFromSelector } from "../lib/html-prettifier/elements";
 
 import { sluggify } from "../lib/html-prettifier/slugger";
+import { encodeLerfuSlugForUrl } from "../lib/lerfuAudioUrl";
 
 export const tocSelector = ["h1", "h2", "h3"];
 export const allSelector = ["h1", "h2", "h3", "h4", "h5", "h6"];
@@ -50,16 +51,15 @@ export const transformers: {selector: string; fn?: any; wrapper?:string; idCount
 	{
 		selector: ".guibutton",
 		fn: (element: HTMLElement) => {
-			function encodeValsiForWeb(v: string) {
-				return encodeURIComponent(v).replace(/'/g, "\\'").trim();
-			}
-			const slug = encodeValsiForWeb(element.childNodes[0].innerText);
+			const slug = encodeLerfuSlugForUrl(element.childNodes[0].innerText);
 			const button = document.createElement("button");
 			button.className = "tutci print:hidden";
-			button.innerHTML = "▶";
+			button.setAttribute("type", "button");
+			button.setAttribute("aria-label", "Play pronunciation");
+			button.innerHTML = "";
 			button.setAttribute(
 				"onclick",
-				`(function (){var s=new Audio('https://la-lojban.github.io/sutysisku/sance/lerfu/${slug}.ogg');s.play()})()`
+				`(function (){var s=new Audio('/assets/sance/lerfu/${slug}.ogg');s.play()})()`
 			);
 
 			element.insertAdjacentHTML("afterend", button.outerHTML);
