@@ -3,20 +3,19 @@ const fs = require("fs");
 const { getMdPagesPath } = require("./lib/paths");
 const md_content = getMdPagesPath();
 
-// Limit parallelism locally so dev machines stay responsive (cap 3). CI can set
-// NEXT_BUILD_MAX_CPUS to raise the cap (e.g. 16); unset keeps localhost behavior.
+// Limit parallelism locally so dev machines stay responsive (cap 3, leave one CPU
+// free). When NEXT_BUILD_MAX_CPUS is set (e.g. CI), use up to min(env, cpuCount) workers
+// so standard 4-vCPU runners can use 4 workers instead of being stuck at cpuCount-1 (=3).
 const os = require("os");
 const cpuCount = os.cpus().length;
-const localCap = 3;
 const envCap = process.env.NEXT_BUILD_MAX_CPUS
   ? parseInt(process.env.NEXT_BUILD_MAX_CPUS, 10)
   : NaN;
-const maxCpuSetting =
-  Number.isFinite(envCap) && envCap > 0 ? envCap : localCap;
-const availableCPUs = Math.min(
-  maxCpuSetting,
-  Math.max(1, cpuCount - 1),
-);
+const hasCpuEnv =
+  Number.isFinite(envCap) && envCap > 0;
+const availableCPUs = hasCpuEnv
+  ? Math.min(envCap, Math.max(1, cpuCount))
+  : Math.min(3, Math.max(1, cpuCount - 1));
 
 /** Redirect old book chapter URLs (e.g. /en/books/learn-lojban/!1) to new paths without "!" prefix. */
 function getBookChapterRedirects() {
