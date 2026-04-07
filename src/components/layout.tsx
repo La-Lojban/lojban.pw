@@ -30,7 +30,7 @@ import { normalizeCanonicalPath } from "../lib/seo";
 // -----------------------------------------------------------------------------
 const tw = {
   page: "flex flex-col h-screen print:h-auto",
-  header: "print:hidden flex-shrink-0",
+  header: "print:hidden flex-shrink-0 z-10",
   skipLink:
     "sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:shadow focus:outline-none focus:ring-2 focus:ring-deep-orange-400",
   article: "flex-grow overflow-y-auto",

@@ -28,12 +28,14 @@ const tw = {
   pageLinkNext: "text-deep-orange-400 hover:text-brown-600",
   pageNumber:
     "text-gray-600 text-lg font-medium tabular-nums min-w-[1.25em] text-center select-none",
-  iconMd: "w-7 h-7",
+  /** Solid Heroicons read light vs Font Awesome; stroke + paint-order fattens the glyph. */
+  iconMd:
+    "w-7 h-7 stroke-current [stroke-width:1] [paint-order:stroke_fill]",
   scrollBtn:
     "bg-white rounded-lg shadow-md py-2.5 px-3.5 transition duration-150 ease-in-out hover:bg-deep-orange-600 group",
   scrollBtnIconWrap: "[&>svg]:w-5 [&>svg]:h-5",
   scrollBtnIcon:
-    "text-deep-orange-400 group-hover:text-white transition-colors duration-150 ease-in-out",
+    "text-deep-orange-400 group-hover:text-white transition-colors duration-150 ease-in-out stroke-current [stroke-width:1.75] [paint-order:stroke_fill]",
 } as const;
 
 // -----------------------------------------------------------------------------

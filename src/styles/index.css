@@ -811,6 +811,105 @@ div.mermaid > svg foreignObject > div {
 }
 
 /* -------------------------------------------------------------------------- */
+/* Korpora corpus tables (layout; visibility via JS + .korpora-col--hidden)   */
+/* -------------------------------------------------------------------------- */
+
+.korpora-root .korpora-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.korpora-root .korpora-col-toggle {
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  box-shadow:
+    0 1px 3px 0 rgb(0 0 0 / 0.1),
+    0 1px 2px -1px rgb(0 0 0 / 0.1);
+  font-weight: 700;
+  line-height: 1.5;
+  user-select: none;
+  padding: 0.5rem 1rem;
+  background-color: #ccfbf1;
+  color: #111827;
+}
+
+.korpora-root .korpora-col-toggle:hover,
+.korpora-root .korpora-col-toggle:focus-visible {
+  background-color: #0d9488;
+  color: #fff;
+  outline: none;
+}
+
+.korpora-root .korpora-col-toggle[aria-pressed="true"] {
+  background-color: #fff;
+  color: #999;
+}
+
+.korpora-root th.korpora-col,
+.korpora-root td.korpora-col {
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.korpora-root th.korpora-col[data-korpora-nowrap],
+.korpora-root td.korpora-col[data-korpora-nowrap] {
+  white-space: nowrap;
+  overflow-x: auto;
+  max-width: none;
+}
+
+th.korpora-col--hidden,
+td.korpora-col--hidden {
+  display: none;
+}
+
+/* Legacy korpora markup (checkbox + column-class-*) until pages are regenerated */
+input[type="checkbox"][id^="hide-column-"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+input[type="checkbox"][id^="hide-column-"]:checked + label {
+  background-color: #fff;
+  color: #999;
+}
+
+article th[class*="column-class-"],
+article td[class*="column-class-"] {
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.inner-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.inner-table td {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+tr td .inner-table {
+  table-layout: auto;
+  width: auto;
+}
+
+tr td .inner-table td {
+  white-space: nowrap;
+}
+
+/* -------------------------------------------------------------------------- */
 /* Print                                                                        */
 /* -------------------------------------------------------------------------- */
 

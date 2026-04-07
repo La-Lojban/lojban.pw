@@ -6,7 +6,6 @@
  */
 import { AppProps } from "next/app";
 import "../styles/index.css";
-import "../styles/style.css";
 import {
   RouteProgressProvider,
   type RouteProgressOptions,

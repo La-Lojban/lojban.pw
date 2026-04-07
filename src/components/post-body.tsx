@@ -9,6 +9,7 @@ import PostHeader from "../components/post-header";
 import { buildDOMFromJSONBasic } from "../lib/json2react";
 import { PostProps } from "../types/post";
 import AllStories from "./all-stories";
+import KorporaTableClient from "./korpora-table-client";
 
 // -----------------------------------------------------------------------------
 // STYLES
@@ -66,6 +67,9 @@ function PostBody({
         <PostHeader post={post} siteSection={siteSection} />
         <ContentWrapperClasses isBookPath={isBookPath} />
         {content}
+        {post["meta.type"] === "korpora" ? (
+          <KorporaTableClient storageSlug={post.slug.slice(1).join("/")} />
+        ) : null}
         {posts && posts.length > 0 ? (
           <AllStories posts={posts} lang={lang} />
         ) : null}

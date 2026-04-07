@@ -302,21 +302,13 @@ async function processSheet(sheet, title) {
             columnsWithTables[lang] = true;
         }
         const prettifiedLang = lang.replace(/\|\|/g, "").trim();
-        table.push(lang && lang.includes("||")
-            ? `<th scope="col" class="w-40 p-2 column-class-${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`
-            : `<th scope="col" class="w-40 p-2 column-class-${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`);
-        buttons.push(`<input type="checkbox" id="hide-column-${cssfiedLangName}" class="hide-column-checkbox-${cssfiedLangName}" />
-      <label for="hide-column-${cssfiedLangName}" class="
-      hide-column-button-${cssfiedLangName}
-      float-left
-      drop-shadow
-      bg-teal-100 hover:bg-teal-600 focus:bg-teal-600
-      text-gray-900 hover:text-white
-      font-bold
-      leading-normal
-      select-none
-      py-2 px-4
-      ">${locales_json_1.languages[lang]?.native ?? locales_json_1.languages[prettifiedLang]?.native ?? prettifiedLang}</label>`);
+        const nowrapAttr = lang.includes("||") ? ' data-korpora-nowrap=""' : "";
+        table.push(`<th scope="col" class="w-40 p-2 korpora-col"${nowrapAttr} data-korpora-col="${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`);
+        const btnLabel = locales_json_1.languages[lang]
+            ?.native ??
+            locales_json_1.languages[prettifiedLang]?.native ??
+            prettifiedLang;
+        buttons.push(`<button type="button" class="korpora-col-toggle" data-korpora-col="${cssfiedLangName}" aria-pressed="false">${escapeHtml(btnLabel)}</button>`);
     }
     table.push(`</tr>`);
     table.push(`</thead>`);
@@ -373,6 +365,7 @@ async function processSheet(sheet, title) {
         table.push(`<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100">`);
         for (const lang of langs) {
             const l = cssifyName(lang);
+            const cellNowrap = lang.includes("||") ? ' data-korpora-nowrap=""' : "";
             let cellContent = columns[lang]?.[indexNum] ?? "";
             if (columnsWithTables[lang] && cellContent.includes("|")) {
                 cellContent = parseTableCell(cellContent);
@@ -385,7 +378,7 @@ async function processSheet(sheet, title) {
                 ? "font-bold "
                 : indexNum < 4 || italicizedRows.includes(indexNum + 1)
                     ? "italic text-gray-500 "
-                    : ""}${langInfo[lang]?.direction === "RTL" ? "text-right" : "text-left"} align-text-top p-2 column-class-${l}">${cellContent}</td>`);
+                    : ""}${langInfo[lang]?.direction === "RTL" ? "text-right" : "text-left"} align-text-top p-2 korpora-col"${cellNowrap} data-korpora-col="${l}">${cellContent}</td>`);
         }
         table.push(`</tr>`);
     }
@@ -413,16 +406,16 @@ async function writeFiles(lang, title, buttons, table, headers, slug, keywords, 
     const langInfo = locales_json_1.languages;
     const langedDirectoryRoot = path.join(mdPagesPath, langInfo[lang]?.short ?? lang);
     const langedDirectory = path.join(langedDirectoryRoot, "texts");
-    const filepath = path.join(langedDirectory, title + ".html");
-    const contentMd = await prettier.format(`   
-  <div class="w-full">
-  ${buttons.join("")}
-  <div class="clear-both" />
+    const filepathMd = path.join(langedDirectory, slug + ".md");
+    const contentMd = await prettier.format(`<div class="korpora-root w-full" data-korpora-slug="texts/${slug}">
+  <div class="korpora-toolbar">
+  ${buttons.join("\n  ")}
+  </div>
   <div class="w-full overflow-x-auto">
 ${table.join("")}
+  </div>
 </div>
-</div>
-`, { filepath: filepath });
+`, { filepath: filepathMd });
     const graymatter = [
         { key: "title", value: headers[lang]?.header ?? headers["glico"]?.header },
         { key: "meta.type", value: "korpora" },
@@ -458,8 +451,7 @@ ${contentMd}`;
     if (!fs.existsSync(langedDirectoryRoot))
         return;
     fs.mkdirSync(langedDirectory, { recursive: true });
-    const filepath_md = path.join(langedDirectory, slug + ".md");
-    fs.writeFileSync(filepath_md, contentFull);
+    fs.writeFileSync(filepathMd, contentFull);
 }
 async function processTitlesInParallel(titles, processFunction) {
     const results = [];
@@ -483,61 +475,14 @@ async function processTitlesInParallel(titles, processFunction) {
         const cleanTitle = title.replace(/^\+/g, "").trim();
         return { title: cleanTitle, data: await processSheet(sheet, cleanTitle) };
     });
-    const css = [];
     console.log("generating korpora pages");
     await processTitlesInParallel(processedData, async ({ title, data }) => {
-        const { table, buttons, headers, slug, keywords, ogImage, columns, tsvContent } = data;
+        const { table, buttons, headers, slug, keywords, ogImage, tsvContent } = data;
         writeTsvFile(slug, tsvContent);
         // Parallelize language processing for faster builds
         await Promise.all(allLanguages.map((lang) => writeFiles(lang, title, buttons, table, headers, slug, keywords, ogImage)));
         console.log(`generated "${title}" corpus entry`);
-        // Generate CSS
-        for (const lang of Object.keys(columns)) {
-            const cssfiedLangName = cssifyName(lang);
-            css.push(`
-        .hide-column-checkbox-${cssfiedLangName} {
-          display: none;
-        }
-      
-        .hide-column-checkbox-${cssfiedLangName}:checked + .hide-column-button-${cssfiedLangName} ~ div table th.column-class-${cssfiedLangName},
-        .hide-column-checkbox-${cssfiedLangName}:checked + .hide-column-button-${cssfiedLangName} ~ div table td.column-class-${cssfiedLangName} {
-          display: none;
-        }
-
-        .hide-column-checkbox-${cssfiedLangName}:checked + .hide-column-button-${cssfiedLangName} {
-          background-color: #fff;
-          color: #999;
-        }
-
-        .column-class-${cssfiedLangName} {
-          min-width: 200px;
-          ${lang && lang.includes("||") ? "white-space: nowrap; overflow-x: auto;" : "max-width: 400px;"}
-        }
-      `);
-        }
     });
-    css.push(`
-    .inner-table {
-      table-layout: fixed;
-      width: 100%;
-    }
-    .inner-table td {
-      word-wrap: break-word;
-      overflow-wrap: break-word;
-    }
-    tr td .inner-table {
-      table-layout: auto;
-      width: auto;
-    }
-    tr td .inner-table td {
-      white-space: nowrap;
-    }
-  `);
-    const stylesPath = (0, paths_1.getStylesPath)();
-    const csspath = path.join(stylesPath, "style.css");
-    fs.writeFileSync(csspath, await prettier.format(Array.from(new Set(css)).join("\n\n"), {
-        filepath: csspath,
-    }));
     await writeTsvIndexFile();
     await writeFormalGismuPage();
 })();

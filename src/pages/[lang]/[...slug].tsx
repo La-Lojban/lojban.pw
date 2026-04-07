@@ -47,14 +47,17 @@ const TextsImageGallery = dynamic(
 // -----------------------------------------------------------------------------
 const tw = {
   shell: "mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap",
-  bookNavRow:
-    "w-full flex justify-center mt-2 items-center gap-x-8 gap-y-2 min-h-11 text-lg",
-  iconLinkBrown: "text-brown-400 hover:text-brown-600 transition-colors",
+  bookNavRow: "w-full flex justify-center mt-2",
+  /** Same card as NavigationWidget `navCluster` (no side margin — not beside scroll button). */
+  bookNavCluster:
+    "bg-white rounded-lg shadow-md p-2.5 flex items-center space-x-4 text-lg",
+  iconLinkBrown: "text-brown-400 hover:text-brown-600 transition-colors mr-4",
   iconLinkOrange: "text-deep-orange-400 hover:text-brown-600 transition-colors",
   pageNum:
     "text-gray-600 font-medium tabular-nums min-w-[1.25em] text-center select-none",
-  spacer: "w-14",
-  bookIcon: "w-7 h-7",
+  spacer: "w-14 shrink-0",
+  /** Match NavigationWidget: bolder solid Heroicons via stroke + paint-order. */
+  bookIcon: "w-7 h-7 stroke-current [stroke-width:1] [paint-order:stroke_fill]",
 } as const;
 
 // -----------------------------------------------------------------------------
@@ -75,29 +78,32 @@ function BookChapterPaginationNav({
 
   return (
     <div className={tw.bookNavRow}>
-      {resolvedPost.firstSiblingSlug !== undefined &&
-      resolvedPost.firstSiblingSlug !== resolvedPost.slug.join("/") ? (
-        <Link href={"/" + resolvedPost.firstSiblingSlug} className={tw.iconLinkBrown}>
-          <ChevronDoubleLeftIcon className={tw.bookIcon} aria-hidden />
-        </Link>
-      ) : (
-        <div />
-      )}
-      {prevPage !== null ? (
-        <Link href={prevPage} className={tw.iconLinkOrange}>
-          <ArrowLeftIcon className={tw.bookIcon} aria-hidden />
-        </Link>
-      ) : (
-        <div className={tw.spacer} />
-      )}
-      <span className={tw.pageNum}>{currentPageNumber}</span>
-      {nextPage !== null ? (
-        <Link href={nextPage} className={tw.iconLinkOrange}>
-          <ArrowRightIcon className={tw.bookIcon} aria-hidden />
-        </Link>
-      ) : (
-        <div className={tw.spacer} />
-      )}
+      <div className={tw.bookNavCluster}>
+        {resolvedPost.firstSiblingSlug !== undefined &&
+        resolvedPost.firstSiblingSlug !== resolvedPost.slug.join("/") ? (
+          <Link
+            href={"/" + resolvedPost.firstSiblingSlug}
+            className={tw.iconLinkBrown}
+          >
+            <ChevronDoubleLeftIcon className={tw.bookIcon} aria-hidden />
+          </Link>
+        ) : null}
+        {prevPage !== null ? (
+          <Link href={prevPage} className={tw.iconLinkOrange}>
+            <ArrowLeftIcon className={tw.bookIcon} aria-hidden />
+          </Link>
+        ) : (
+          <div className={tw.spacer} aria-hidden />
+        )}
+        <span className={tw.pageNum}>{currentPageNumber}</span>
+        {nextPage !== null ? (
+          <Link href={nextPage} className={tw.iconLinkOrange}>
+            <ArrowRightIcon className={tw.bookIcon} aria-hidden />
+          </Link>
+        ) : (
+          <div className={tw.spacer} aria-hidden />
+        )}
+      </div>
     </div>
   );
 }
