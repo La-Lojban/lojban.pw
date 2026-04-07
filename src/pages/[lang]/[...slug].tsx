@@ -40,13 +40,13 @@ import {
 const tw = {
   shell: "mx-auto pb-6 max-w-7xl px-4 sm:px-6 flex flex-row flex-wrap",
   bookNavRow:
-    "w-full flex justify-center mt-3 items-center gap-x-10 gap-y-2 min-h-12 text-xl",
+    "w-full flex justify-center mt-2 items-center gap-x-8 gap-y-2 min-h-11 text-lg",
   iconLinkBrown: "text-brown-400 hover:text-brown-600 transition-colors",
   iconLinkOrange: "text-deep-orange-400 hover:text-brown-600 transition-colors",
   pageNum:
     "text-gray-600 font-medium tabular-nums min-w-[1.25em] text-center select-none",
-  spacer: "w-16",
-  bookIcon: "w-8 h-8",
+  spacer: "w-14",
+  bookIcon: "w-7 h-7",
 } as const;
 
 // -----------------------------------------------------------------------------

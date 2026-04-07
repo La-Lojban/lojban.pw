@@ -19,20 +19,20 @@ import {
 // -----------------------------------------------------------------------------
 const tw = {
   root: "fixed bottom-14 right-4 md:right-auto z-50 md:left-1/2 md:transform md:-translate-x-1/2",
-  row: "min-h-14 flex items-center",
+  row: "min-h-12 flex items-center",
   navCluster:
-    "bg-white rounded-xl shadow-md p-3 flex items-center space-x-5 mr-6 md:mr-12",
+    "bg-white rounded-lg shadow-md p-2.5 flex items-center space-x-4 mr-6 md:mr-12",
   firstLink:
-    "text-brown-400 hover:text-brown-600 transition-colors mr-5",
+    "text-brown-400 hover:text-brown-600 transition-colors mr-4",
   pageLink:
     "text-deep-orange-400 hover:text-brown-600 transition-colors",
   pageLinkNext: "text-deep-orange-400 hover:text-brown-600",
   pageNumber:
-    "text-gray-600 text-xl font-medium tabular-nums min-w-[1.25em] text-center select-none",
-  iconMd: "w-8 h-8",
+    "text-gray-600 text-lg font-medium tabular-nums min-w-[1.25em] text-center select-none",
+  iconMd: "w-7 h-7",
   scrollBtn:
-    "bg-white rounded-xl shadow-md py-3 px-4 transition duration-150 ease-in-out hover:bg-deep-orange-600 group",
-  scrollBtnIconWrap: "[&>svg]:w-6 [&>svg]:h-6",
+    "bg-white rounded-lg shadow-md py-2.5 px-3.5 transition duration-150 ease-in-out hover:bg-deep-orange-600 group",
+  scrollBtnIconWrap: "[&>svg]:w-5 [&>svg]:h-5",
   scrollBtnIcon:
     "text-deep-orange-400 group-hover:text-white transition-colors duration-150 ease-in-out",
 } as const;
