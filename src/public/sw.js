@@ -1,4 +1,5 @@
-// Simple service worker for static export
+// Simple service worker for static export. Navigations use network-first; repeat visits
+// can add cache work on top of the network path — if FCP regresses, revisit scope/timing.
 const CACHE_NAME = 'lojban-pwa-v4';
 const urlsToCache = [
   '/'

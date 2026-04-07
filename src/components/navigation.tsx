@@ -6,13 +6,12 @@
  */
 import { memo } from "react";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faArrowUp,
-  faBackwardFast,
-  faArrowLeft,
-  faArrowRight,
-} from "@fortawesome/free-solid-svg-icons";
+  ArrowLeftIcon,
+  ArrowRightIcon,
+  ArrowUpIcon,
+  ChevronDoubleLeftIcon,
+} from "@heroicons/react/24/solid";
 
 // -----------------------------------------------------------------------------
 // STYLES
@@ -43,7 +42,7 @@ const tw = {
 function NavFirstSiblingLink({ slugPath }: { slugPath: string }) {
   return (
     <Link href={"/" + slugPath} className={tw.firstLink}>
-      <FontAwesomeIcon className={tw.iconMd} icon={faBackwardFast} />
+      <ChevronDoubleLeftIcon className={tw.iconMd} aria-hidden />
     </Link>
   );
 }
@@ -51,7 +50,7 @@ function NavFirstSiblingLink({ slugPath }: { slugPath: string }) {
 function NavPrevLink({ href }: { href: string }) {
   return (
     <Link href={href} className={tw.pageLink}>
-      <FontAwesomeIcon className={tw.iconMd} icon={faArrowLeft} />
+      <ArrowLeftIcon className={tw.iconMd} aria-hidden />
     </Link>
   );
 }
@@ -59,7 +58,7 @@ function NavPrevLink({ href }: { href: string }) {
 function NavNextLink({ href }: { href: string }) {
   return (
     <Link href={href} className={tw.pageLinkNext}>
-      <FontAwesomeIcon className={tw.iconMd} icon={faArrowRight} />
+      <ArrowRightIcon className={tw.iconMd} aria-hidden />
     </Link>
   );
 }
@@ -72,10 +71,7 @@ function ScrollToTopButton({ onClick }: { onClick: () => void }) {
   return (
     <button onClick={onClick} className={tw.scrollBtn} type="button">
       <span className={tw.scrollBtnIconWrap}>
-        <FontAwesomeIcon
-          icon={faArrowUp}
-          className={tw.scrollBtnIcon}
-        />
+        <ArrowUpIcon className={tw.scrollBtnIcon} aria-hidden />
       </span>
     </button>
   );

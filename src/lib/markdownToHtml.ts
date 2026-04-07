@@ -165,6 +165,20 @@ export default async function markdownToHtml({
     )
   );
 
-  // const text = serializeHTMLNodeTree(root);
-  return { toc, text: root.outerHTML, imgs };
+  const imgsNodes = root.querySelectorAll("img");
+  imgsNodes.forEach((img, index) => {
+    const el = img as HTMLElement;
+    if (!el.getAttribute("decoding")) el.setAttribute("decoding", "async");
+    if (index === 0) {
+      el.setAttribute("fetchpriority", "high");
+      el.setAttribute("loading", "eager");
+    } else if (!el.getAttribute("loading")) {
+      el.setAttribute("loading", "lazy");
+    }
+  });
+
+  const html = root.outerHTML;
+  const hasMath = html.includes("katex");
+
+  return { toc, text: html, imgs, hasMath };
 }

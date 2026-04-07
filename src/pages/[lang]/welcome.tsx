@@ -52,6 +52,7 @@ type Props = {
   siblingPosts: Items[];
   currentLanguage: string;
   params: { slug?: string[]; lang: string };
+  hasMath?: boolean;
 };
 
 function WelcomePage({
@@ -61,6 +62,7 @@ function WelcomePage({
   siblingPosts,
   currentLanguage,
   params,
+  hasMath,
 }: Props) {
   const router = useRouter();
   if (!router.isFallback && !post?.slug) return <ErrorPage statusCode={404} />;
@@ -129,6 +131,7 @@ function WelcomePage({
       alternates={alternates}
       hreflangXDefault={hreflangXDefault}
       jsonLd={jsonLd}
+      loadKatex={hasMath}
     >
       <WelcomeMainColumn>
         <PostBody
@@ -198,7 +201,7 @@ export async function getStaticProps({ params }: Params) {
     },
     [] as { fullPath: string; language: string }[]
   );
-  const { text, toc, imgs } = await markdownToHtml({
+  const { text, toc, imgs, hasMath } = await markdownToHtml({
     content: (post.content as string) || "",
     fullPath: post.fullPath as string,
   });
@@ -225,6 +228,7 @@ export async function getStaticProps({ params }: Params) {
         toc,
         imgs,
       },
+      hasMath,
     },
   };
 }

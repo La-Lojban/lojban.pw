@@ -6,32 +6,37 @@ export const site_creator_twitter = "Gleki Arxokuna";
 
 export const CMS_NAME = "Learn Lojban website";
 const discordChatUrl = "https://discord.gg/wasp5fj";
-import {
-  faDiscord,
-  faFacebook,
-  faReddit,
-  faGithub,
-  faTelegram,
-} from "@fortawesome/free-brands-svg-icons";
 
-export const footer = [
+/** Brand icon id — see `footerBrandIcon` in src/components/footer-icons.ts */
+export type FooterBrandId =
+  | "telegram"
+  | "discord"
+  | "facebook"
+  | "github"
+  | "reddit";
+
+export const footer: readonly {
+  name: string;
+  icon: FooterBrandId;
+  link: string;
+}[] = [
   {
     name: "telegram",
-    icon: faTelegram,
+    icon: "telegram",
     link: "https://t.me/lojban",
   },
-  { name: "discord", icon: faDiscord, link: discordChatUrl },
+  { name: "discord", icon: "discord", link: discordChatUrl },
   {
-    icon: faFacebook,
+    icon: "facebook",
     name: "facebook",
     link: "https://facebook.com/groups/lojban",
   },
   {
     name: "github",
-    icon: faGithub,
+    icon: "github",
     link: "https://github.com/lagleki/lojban/issues",
   },
-  { name: "reddit", icon: faReddit, link: "https://reddit.com/r/lojban" },
+  { name: "reddit", icon: "reddit", link: "https://reddit.com/r/lojban" },
 ];
 
 export const header = [

@@ -6,9 +6,9 @@
  */
 import { memo } from "react";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
-import { footer } from "../config/config";
+import { footer, type FooterBrandId } from "../config/config";
+import { BrandIcon } from "./brand-icon";
+import { footerBrandIcon } from "./footer-icons";
 
 // -----------------------------------------------------------------------------
 // STYLES
@@ -28,16 +28,17 @@ const tw = {
 function FooterNetworkLink({
   name,
   href,
-  icon,
+  brandId,
 }: {
   name: string;
   href: string;
-  icon: IconDefinition;
+  brandId: FooterBrandId;
 }) {
+  const icon = footerBrandIcon[brandId];
   return (
     <li className={tw.networkLi}>
-      <Link href={href}>
-        <FontAwesomeIcon className={tw.icon} icon={icon} />
+      <Link href={href} aria-label={name}>
+        <BrandIcon className={tw.icon} icon={icon} />
       </Link>
     </li>
   );
@@ -70,7 +71,7 @@ function Footer() {
               key={network.name}
               name={network.name}
               href={network.link || ""}
-              icon={network.icon}
+              brandId={network.icon}
             />
           ))}
           <LiveChatLink />

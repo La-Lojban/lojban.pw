@@ -14,10 +14,13 @@ import {
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { Popover } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import {
+  Bars3Icon,
+  DocumentTextIcon,
+  ListBulletIcon,
+  XMarkIcon,
+} from "@heroicons/react/24/solid";
 import { useRouter } from "next/router";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faList, faScroll } from "@fortawesome/free-solid-svg-icons";
 
 import { header } from "../config/config";
 import { langDict } from "../lib/lang-native";
@@ -248,8 +251,8 @@ function TopbarTocSection({
   return (
     <>
       <h1 className={`${tw.tocHeading} ${tw.tocLinkBase}`}>
-        <FontAwesomeIcon icon={faScroll} className="h-6" />
-        <FontAwesomeIcon icon={faList} className="ml-2 h-6" />
+        <DocumentTextIcon className="h-6 w-6" aria-hidden />
+        <ListBulletIcon className="ml-2 h-6 w-6" aria-hidden />
       </h1>
 
       <nav className={tw.tocNav}>

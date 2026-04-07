@@ -69,6 +69,7 @@ type Props = {
   indexPost: TPost;
   posts: Items[];
   params: { lang: string };
+  hasMath?: boolean;
 };
 
 const textsHeaderEntry = header.find((item) => item.url === "/texts") as
@@ -84,6 +85,7 @@ function TextsPage({
   indexPost,
   posts,
   params,
+  hasMath,
 }: Props) {
   const langPosts = posts as unknown as { fullPath: string; language: string }[];
 
@@ -130,6 +132,7 @@ function TextsPage({
       hreflangXDefault={hreflangXDefault}
       jsonLd={jsonLd}
       useArticleShell={false}
+      loadKatex={hasMath}
     >
       <TextsIndexContent
         title={indexPost?.title}
@@ -177,7 +180,7 @@ export const getStaticProps = async ({ params }: Params) => {
     )[0],
     ...thisLangPosts.filter((i) => i.slug.length === 2)[0],
   };
-  const { text } = await markdownToHtml({
+  const { text, hasMath } = await markdownToHtml({
     content: (indexPost.content as string) || "",
     fullPath: indexPost.fullPath as string,
   });
@@ -207,6 +210,7 @@ export const getStaticProps = async ({ params }: Params) => {
       indexPost: { ...indexPost, content: text },
       posts,
       params,
+      hasMath,
     },
   };
 };

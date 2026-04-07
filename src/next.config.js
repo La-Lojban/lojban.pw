@@ -58,6 +58,10 @@ module.exports = {
   },
   experimental: {
     cpus: availableCPUs,
+    optimizePackageImports: [
+      "@heroicons/react",
+      "@headlessui/react",
+    ],
   },
 
   // Optimize compiler settings
@@ -70,6 +74,8 @@ module.exports = {
         : false,
   },
   output: "export",
+  // Note: `redirects()` are not applied to `out/` with static export. Root `/` → `/en/welcome/`
+  // is implemented in pages/index.tsx (meta refresh). Book chapter redirects here serve non-export hosts.
   async redirects() {
     return getBookChapterRedirects();
   },

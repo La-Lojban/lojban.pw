@@ -64,6 +64,7 @@ type Props = {
   indexPost: TPost;
   posts: Items[];
   params: { lang: string };
+  hasMath?: boolean;
 };
 
 function ListPage({
@@ -72,6 +73,7 @@ function ListPage({
   contentPosts,
   indexPost,
   params,
+  hasMath,
 }: Props) {
   const langPosts = posts as unknown as { fullPath: string; language: string }[];
 
@@ -115,6 +117,7 @@ function ListPage({
       hreflangXDefault={hreflangXDefault}
       jsonLd={jsonLd}
       useArticleShell={false}
+      loadKatex={hasMath}
     >
       <ListIndexContent
         html={indexPost?.content ?? ""}
@@ -168,7 +171,7 @@ export const getStaticProps = async ({
     )[0],
   };
 
-  const { text } = await markdownToHtml({
+  const { text, hasMath } = await markdownToHtml({
     content: (indexPost.content as string) || "",
     fullPath: indexPost.fullPath as string,
   });
@@ -201,6 +204,7 @@ export const getStaticProps = async ({
       siblingPosts,
       indexPost: { ...indexPost, content: text },
       params,
+      hasMath,
     },
   };
 };

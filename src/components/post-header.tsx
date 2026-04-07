@@ -4,9 +4,8 @@
  *   MARKUP — presentational pieces
  *   SCRIPT — data + composition
  */
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import Avatar from "./avatar";
+import { PdfDocumentIcon } from "./pdf-document-icon";
 import DateFormatter from "./date-formatter";
 import PostTitle from "./post-title";
 import { TPost } from "../types/post";
@@ -18,7 +17,7 @@ const tw = {
   headerRow: "flex items-center",
   pdfLink:
     "mr-2 hover:from-lime-200 hover:to-lime-200 ease bg-gradient-to-br from-lime-50 to-white-900 h-10 inline-flex items-center py-1 px-3 border border-lime-500 hover:border-lime-600 rounded-l-md shadow-md print:hidden",
-  pdfIcon: "w-6 h-10",
+  pdfIcon: "w-6 h-8",
   avatarDesktop: "hidden md:block md:mb-12",
   metaBlock: "mx-auto",
   avatarMobile: "block md:hidden mb-6",
@@ -39,7 +38,7 @@ function PdfDownloadLink({
       href={href}
       className={tw.pdfLink}
     >
-      <FontAwesomeIcon className={tw.pdfIcon} icon={faFilePdf} />
+      <PdfDocumentIcon className={tw.pdfIcon} />
     </a>
   );
 }

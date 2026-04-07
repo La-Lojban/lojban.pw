@@ -11,7 +11,6 @@ import {
   RouteProgressProvider,
   type RouteProgressOptions,
 } from "../lib/slimprogress";
-import { io } from "socket.io-client";
 import { closeXicon } from "../lib/buttons";
 import { useEffect } from "react";
 import { debouncedGetClosestHeaderId } from "../lib/toc";
@@ -64,61 +63,99 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   }, []);
 
   useEffect(() => {
-    let socket1Chat_connected = false;
-    const socket1Chat = io("wss://jbotcan.org:9091", {
-      transports: ["polling", "websocket"],
-    });
+    let cancelled = false;
+    let socketInstance: import("socket.io-client").Socket | null = null;
 
-    socket1Chat.on("connect", () => {
-      socket1Chat_connected = true;
-    });
+    const cleanupSocket = () => {
+      socketInstance?.removeAllListeners();
+      socketInstance?.disconnect();
+      socketInstance = null;
+    };
 
-    socket1Chat.on("connect_error", () => {
-      console.warn("1chat connection error");
-    });
+    const connect = () => {
+      if (!document.getElementById("velsku_sebenji")) return;
 
-    socket1Chat.on(
-      "sentFrom",
-      (data: {
-        data: { chunk: string; channelId: string; author: string };
-      }) => {
-        if (!socket1Chat_connected) return;
-        const i = data.data;
-        const msg = {
-          d: trimSocketChunk(i.chunk),
-          s: i.channelId,
-          w: i.author,
-        };
-        const velsku = document.getElementById("velsku_sebenji");
-        if (velsku) {
-          velsku.innerHTML =
-            '<span class="velsku_pamei">' + msg.w + ": " + msg.d + "</span>";
+      void import("socket.io-client").then(({ io }) => {
+        if (cancelled) return;
+        if (!document.getElementById("velsku_sebenji")) return;
+
+        cleanupSocket();
+        let socket1Chat_connected = false;
+        const socket1Chat = io("wss://jbotcan.org:9091", {
+          transports: ["polling", "websocket"],
+        });
+        socketInstance = socket1Chat;
+
+        socket1Chat.on("connect", () => {
+          socket1Chat_connected = true;
+        });
+
+        socket1Chat.on("connect_error", () => {
+          console.warn("1chat connection error");
+        });
+
+        socket1Chat.on(
+          "sentFrom",
+          (data: {
+            data: { chunk: string; channelId: string; author: string };
+          }) => {
+            if (!socket1Chat_connected) return;
+            const i = data.data;
+            const msg = {
+              d: trimSocketChunk(i.chunk),
+              s: i.channelId,
+              w: i.author,
+            };
+            const velsku = document.getElementById("velsku_sebenji");
+            if (velsku) {
+              velsku.innerHTML =
+                '<span class="velsku_pamei">' + msg.w + ": " + msg.d + "</span>";
+            }
+          }
+        );
+
+        socket1Chat.on(
+          "history",
+          (
+            data: Array<{ chunk: string; channelId: string; author: string }>
+          ) => {
+            if (!socket1Chat_connected) return;
+            const i = data.slice(-1)[0];
+            if (!i) return;
+            const msg = {
+              d: trimSocketChunk(i.chunk),
+              s: i.channelId,
+              w: i.author,
+            };
+            const velsku = document.getElementById("velsku_sebenji");
+            if (velsku) {
+              velsku.innerHTML =
+                '<span class="velsku_pamei">' + msg.w + ": " + msg.d + "</span>";
+            }
+          }
+        );
+      });
+    };
+
+    connect();
+
+    let obs: MutationObserver | null = null;
+    if (typeof MutationObserver !== "undefined") {
+      obs = new MutationObserver(() => {
+        if (document.getElementById("velsku_sebenji")) {
+          obs?.disconnect();
+          connect();
         }
-      }
-    );
-
-    socket1Chat.on(
-      "history",
-      (data: Array<{ chunk: string; channelId: string; author: string }>) => {
-        if (!socket1Chat_connected) return;
-        const i = data.slice(-1)[0];
-        if (!i) return;
-        const msg = {
-          d: trimSocketChunk(i.chunk),
-          s: i.channelId,
-          w: i.author,
-        };
-        const velsku = document.getElementById("velsku_sebenji");
-        if (velsku) {
-          velsku.innerHTML =
-            '<span class="velsku_pamei">' + msg.w + ": " + msg.d + "</span>";
-        }
-      }
-    );
+      });
+    }
+    if (obs && !document.getElementById("velsku_sebenji")) {
+      obs.observe(document.documentElement, { childList: true, subtree: true });
+    }
 
     return () => {
-      socket1Chat.removeAllListeners();
-      socket1Chat.disconnect();
+      cancelled = true;
+      obs?.disconnect();
+      cleanupSocket();
     };
   }, []);
 

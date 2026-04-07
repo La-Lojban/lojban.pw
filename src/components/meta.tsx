@@ -150,6 +150,7 @@ function Meta({
   alternates,
   hreflangXDefault,
   jsonLd,
+  loadKatex,
 }: {
   meta?: TMeta;
   title?: string;
@@ -159,6 +160,7 @@ function Meta({
   alternates?: { hreflang: string; href: string }[];
   hreflangXDefault?: string;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[] | null;
+  loadKatex?: boolean;
 }) {
   const meta = metaProp ?? {};
 
@@ -276,6 +278,21 @@ function Meta({
   return (
     <Head>
       {title ? <title>{title}</title> : null}
+      {loadKatex ? (
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"
+          integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC"
+          crossOrigin="anonymous"
+        />
+      ) : null}
+      <link
+        rel="preload"
+        href="/assets/fonts/LinLibertine_R.otf"
+        as="font"
+        type="font/otf"
+        crossOrigin="anonymous"
+      />
       <DocumentLinks links={links_} />
       <HreflangLinks alternates={alternates} xDefaultHref={hreflangXDefault} />
       {ogLocaleAlternates.map((loc) => (

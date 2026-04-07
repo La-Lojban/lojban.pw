@@ -34,6 +34,8 @@ const tw = {
   skipLink:
     "sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:shadow focus:outline-none focus:ring-2 focus:ring-deep-orange-400",
   article: "flex-grow overflow-y-auto",
+  /** Offscreen long prose skips layout work until scrolled (print overrides in CSS). */
+  articleShell: "min-h-0 article-content-visibility",
 } as const;
 
 // -----------------------------------------------------------------------------
@@ -61,6 +63,7 @@ function LayoutChrome({
   hreflangXDefault,
   jsonLd,
   useArticleShell,
+  loadKatex,
 }: {
   children: ReactNode;
   meta?: { [key: string]: string | undefined };
@@ -83,6 +86,7 @@ function LayoutChrome({
   hreflangXDefault?: string;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[] | null;
   useArticleShell: boolean;
+  loadKatex?: boolean;
 }) {
   return (
     <>
@@ -94,6 +98,7 @@ function LayoutChrome({
         alternates={alternates}
         hreflangXDefault={hreflangXDefault}
         jsonLd={jsonLd}
+        loadKatex={loadKatex}
       />
       <div className={tw.page}>
         <a href="#main-content" className={tw.skipLink}>
@@ -112,7 +117,7 @@ function LayoutChrome({
         </header>
         <main ref={mainRef} id="main-content" className={tw.article}>
           {useArticleShell ? (
-            <article className="min-h-0">{children}</article>
+            <article className={tw.articleShell}>{children}</article>
           ) : (
             children
           )}
@@ -156,6 +161,8 @@ type Props = {
   jsonLd?: Record<string, unknown> | Record<string, unknown>[] | null;
   /** When true (default), wrap main content in an &lt;article&gt; for single-page posts. */
   useArticleShell?: boolean;
+  /** Load KaTeX stylesheet when the page HTML contains rendered math. */
+  loadKatex?: boolean;
 };
 
 function Layout({
@@ -177,6 +184,7 @@ function Layout({
   hreflangXDefault,
   jsonLd,
   useArticleShell = true,
+  loadKatex,
 }: Props) {
   const router = useRouter();
 
@@ -245,6 +253,7 @@ function Layout({
       hreflangXDefault={hreflangXDefault}
       jsonLd={jsonLd}
       useArticleShell={useArticleShell}
+      loadKatex={loadKatex}
     >
       {children}
     </LayoutChrome>

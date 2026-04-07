@@ -5,24 +5,24 @@
  *   SCRIPT — data + composition
  */
 import { useState, useMemo } from "react";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import ErrorPage from "next/error";
 import PostBody from "../../components/post-body";
 import Layout from "../../components/layout";
 import { PageTocSidebar } from "../../components/page-toc-sidebar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faArrowLeft,
-  faArrowRight,
-  faBackwardFast,
-} from "@fortawesome/free-solid-svg-icons";
+  ArrowLeftIcon,
+  ArrowRightIcon,
+  ChevronDoubleLeftIcon,
+} from "@heroicons/react/24/solid";
 import { getPostBySlug, getAllPosts, Items } from "../../lib/api";
 import markdownToHtml from "../../lib/markdownToHtml";
 import { TPost } from "../../types/post";
 import { TocItem } from "../../types/toc";
 import { site_description, site_title, site_url } from "../../config/config";
-import ImageGallery, { GalleryItem } from "react-image-gallery";
+import type { GalleryItem } from "../../components/texts-image-gallery";
 import { retainStringValues } from "../../lib/utils";
 import {
   absoluteUrl,
@@ -33,6 +33,14 @@ import {
   organizationJsonLd,
   webSiteJsonLd,
 } from "../../lib/seo";
+
+const TextsImageGallery = dynamic(
+  () =>
+    import("../../components/texts-image-gallery").then(
+      (m) => m.TextsImageGallery
+    ),
+  { ssr: false }
+);
 
 // -----------------------------------------------------------------------------
 // STYLES
@@ -70,14 +78,14 @@ function BookChapterPaginationNav({
       {resolvedPost.firstSiblingSlug !== undefined &&
       resolvedPost.firstSiblingSlug !== resolvedPost.slug.join("/") ? (
         <Link href={"/" + resolvedPost.firstSiblingSlug} className={tw.iconLinkBrown}>
-          <FontAwesomeIcon className={tw.bookIcon} icon={faBackwardFast} />
+          <ChevronDoubleLeftIcon className={tw.bookIcon} aria-hidden />
         </Link>
       ) : (
         <div />
       )}
       {prevPage !== null ? (
         <Link href={prevPage} className={tw.iconLinkOrange}>
-          <FontAwesomeIcon className={tw.bookIcon} icon={faArrowLeft} />
+          <ArrowLeftIcon className={tw.bookIcon} aria-hidden />
         </Link>
       ) : (
         <div className={tw.spacer} />
@@ -85,7 +93,7 @@ function BookChapterPaginationNav({
       <span className={tw.pageNum}>{currentPageNumber}</span>
       {nextPage !== null ? (
         <Link href={nextPage} className={tw.iconLinkOrange}>
-          <FontAwesomeIcon className={tw.bookIcon} icon={faArrowRight} />
+          <ArrowRightIcon className={tw.bookIcon} aria-hidden />
         </Link>
       ) : (
         <div className={tw.spacer} />
@@ -108,6 +116,7 @@ type Props = {
   currentPageNumber?: number;
   totalPages?: number;
   mergedTocList?: TocItem[] | null;
+  hasMath?: boolean;
 };
 
 const siteSection = "books";
@@ -122,6 +131,7 @@ function SlugPage({
   nextPage,
   currentPageNumber,
   mergedTocList,
+  hasMath,
 }: Props) {
   const resolvedPost = post ?? parentPost;
   const router = useRouter();
@@ -233,6 +243,7 @@ function SlugPage({
       alternates={alternates}
       hreflangXDefault={hreflangXDefault}
       jsonLd={jsonLd}
+      loadKatex={hasMath}
     >
       <div className={tw.shell}>
         <BookChapterPaginationNav
@@ -243,12 +254,8 @@ function SlugPage({
         />
 
         {state.galleryShown && resolvedPost.slug[1] === siteSection ? (
-          <ImageGallery
-            additionalClass="fullpage"
+          <TextsImageGallery
             items={images}
-            lazyLoad={true}
-            useTranslate3D={false}
-            showBullets={false}
             startIndex={currentImgIndex}
             onSlide={(currentIndex) => {
               document
@@ -337,7 +344,7 @@ export async function getStaticProps({ params }: Params) {
   allPosts = allPosts.filter(
     (post) => !fields.includes("title") || typeof post.title !== "undefined"
   );
-  const { text, toc, imgs } = await markdownToHtml({
+  const { text, toc, imgs, hasMath } = await markdownToHtml({
     content: (post.content as string) || "",
     fullPath: post.fullPath as string,
   });
@@ -427,6 +434,7 @@ export async function getStaticProps({ params }: Params) {
       nextPage,
       currentPageNumber,
       ...(mergedTocList && { mergedTocList }),
+      hasMath,
     },
   };
 }
