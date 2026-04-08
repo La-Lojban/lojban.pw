@@ -41,12 +41,25 @@ function toggleForColumn(root: HTMLElement, colId: string): HTMLButtonElement | 
   return found instanceof HTMLButtonElement ? found : null;
 }
 
+function syncKorporaVisibleColsVar(root: HTMLElement) {
+  const table = root.querySelector(
+    "table.korpora__table[data-korpora-grid]"
+  ) as HTMLElement | null;
+  if (!table) return;
+  const visible = root.querySelectorAll(
+    "th[data-korpora-col]:not(.korpora__col--hidden)"
+  ).length;
+  const n = Math.max(1, visible);
+  table.style.setProperty("--korpora-visible-cols", String(n));
+}
+
 function setColumnHidden(root: HTMLElement, colId: string, hidden: boolean) {
   for (const cell of cellsForColumn(root, colId)) {
     cell.classList.toggle("korpora__col--hidden", hidden);
   }
   const btn = toggleForColumn(root, colId);
   if (btn) btn.setAttribute("aria-pressed", hidden ? "true" : "false");
+  syncKorporaVisibleColsVar(root);
 }
 
 function legacyCellsWithColumnClass(container: HTMLElement, colId: string) {
@@ -84,6 +97,7 @@ export default function KorporaTableClient({ storageSlug }: { storageSlug: strin
         for (const colId of map[slug] ?? []) {
           setColumnHidden(root, colId, true);
         }
+        syncKorporaVisibleColsVar(root);
 
         const onClick = (e: MouseEvent) => {
           const t = e.target as HTMLElement | null;

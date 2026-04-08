@@ -34,6 +34,7 @@ import {
   organizationJsonLd,
   webSiteJsonLd,
 } from "../../lib/seo";
+import { listKorporaTsvBasenames } from "../../lib/korpora/corpusCore";
 
 const TextsImageGallery = dynamic(
   () =>
@@ -474,12 +475,17 @@ export async function getStaticPaths() {
     ignoreTitles: false,
   });
 
+  const korporaBasenames = new Set(listKorporaTsvBasenames());
+
   return {
     paths: posts
-      .filter(
-        (post) =>
-          !["texts", "list", "welcome"].includes(post.slug.slice(1).join("/"))
-      )
+      .filter((post) => {
+        const s = post.slug;
+        if (s.length === 3 && s[1] === "texts" && korporaBasenames.has(s[2])) {
+          return false;
+        }
+        return !["texts", "list", "welcome"].includes(post.slug.slice(1).join("/"));
+      })
       .map((post) => {
         return {
           params: {

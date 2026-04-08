@@ -16,14 +16,13 @@ import Link from "next/link";
 import { Popover } from "@headlessui/react";
 import {
   Bars3Icon,
-  DocumentTextIcon,
   ListBulletIcon,
   XMarkIcon,
 } from "@heroicons/react/24/solid";
 import { useRouter } from "next/router";
 
 import { header } from "../config/config";
-import { langDict } from "../lib/lang-native";
+import { currentPageContentsLabel, langDict } from "../lib/lang-native";
 import { Items } from "../lib/api";
 import { closeXicon } from "../lib/buttons";
 import { getClosestHeaderId } from "../lib/toc";
@@ -64,12 +63,15 @@ const tw = {
     "select-none inline-flex items-center justify-center p-2 rounded-md text-white focus:outline-none transition-all duration-150 hover:shadow-lg hover:scale-110",
   burgerIcon: "block h-6 w-6",
   panel: "bg-gray-100 shadow-lg",
-  panelInner: "px-2 pt-2 pb-3 space-y-1 sm:px-3",
-  hiddenNavLink: "block border-b last:border-b-0",
-  tocHeading: "flex bg-gray-200",
+  panelInner: "flex flex-col gap-3 pt-2 pb-0",
+  burgerLinksRow: "mx-2 flex flex-wrap gap-1.5 sm:mx-3",
+  burgerMenuLink:
+    "inline-flex max-w-full min-w-0 items-center rounded-md border border-gray-400/50 bg-white px-2 py-1 text-xs font-medium text-black shadow-sm in-topbar-toc hover:no-underline sm:px-2.5 sm:py-1.5 sm:text-sm active:translate-y-px",
+  tocHeading:
+    "flex flex-wrap items-center gap-2 bg-gray-200 min-w-0",
   tocNav:
-    "toc w-full p-2 bottom-0 md:top-20 h-48 md:h-screen font-medium text-sm overflow-ellipsis",
-  tocScroll: "h-full px-2 pb-3 space-y-1 sm:px-3 overflow-y-auto",
+    "toc mb-0 w-full bottom-0 md:top-20 h-48 md:h-screen font-medium text-sm overflow-ellipsis",
+  tocScroll: "mb-0 h-full space-y-1 overflow-y-auto pb-0",
   tocLink: "block border-b",
   tocLinkBase:
     "text-black in-topbar-toc hover:no-underline px-3 py-2 text-sm font-medium overflow-ellipsis",
@@ -232,9 +234,9 @@ function BurgerMenuLink({
         closeXicon();
         onNavigate();
       }}
-      className={`${tw.hiddenNavLink} ${getColor("hover:text-deep-orange-600")} ${tw.tocLinkBase}`}
+      className={`${tw.burgerMenuLink} ${getColor("hover:text-deep-orange-600")} ${getColor("hover:border-deep-orange-400")}`}
     >
-      {label}
+      <span className="truncate">{label}</span>
     </Link>
   );
 }
@@ -243,16 +245,24 @@ function TopbarTocSection({
   listToC,
   getColor,
   onNavigate,
+  currentLanguage,
 }: {
   listToC: TocItem[];
   getColor: (c: string) => string;
   onNavigate: () => void;
+  currentLanguage: string;
 }) {
+  const tocHeadingLabel = currentPageContentsLabel(currentLanguage);
   return (
-    <>
+    <div className="flex min-w-0 flex-col">
       <h1 className={`${tw.tocHeading} ${tw.tocLinkBase}`}>
-        <DocumentTextIcon className="h-6 w-6" aria-hidden />
-        <ListBulletIcon className="ml-2 h-6 w-6" aria-hidden />
+        <ListBulletIcon
+          className="h-6 w-6 flex-shrink-0"
+          aria-hidden
+        />
+        <span className="min-w-0 flex-1 italic leading-snug text-gray-600">
+          {tocHeadingLabel}
+        </span>
       </h1>
 
       <nav className={tw.tocNav}>
@@ -272,7 +282,7 @@ function TopbarTocSection({
           ))}
         </div>
       </nav>
-    </>
+    </div>
   );
 }
 
@@ -489,20 +499,25 @@ export default function Header({
               <Popover.Panel className={tw.panel}>
                 {({ close }) => (
                   <div className={tw.panelInner}>
-                    {hiddenNavItems.map((item) => (
-                      <BurgerMenuLink
-                        key={item.url}
-                        item={item}
-                        getColor={getColor}
-                        onNavigate={close}
-                      />
-                    ))}
+                    {hiddenNavItems.length > 0 ? (
+                      <div className={tw.burgerLinksRow}>
+                        {hiddenNavItems.map((item) => (
+                          <BurgerMenuLink
+                            key={item.url}
+                            item={item}
+                            getColor={getColor}
+                            onNavigate={close}
+                          />
+                        ))}
+                      </div>
+                    ) : null}
 
                     {hasToC ? (
                       <TopbarTocSection
                         listToC={listToC}
                         getColor={getColor}
                         onNavigate={close}
+                        currentLanguage={currentLanguage}
                       />
                     ) : null}
                   </div>

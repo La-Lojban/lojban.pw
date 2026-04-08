@@ -2,6 +2,8 @@
 icon: 📖
 title: "Gua\\spi"
 description: James F. Carter — artificial language reference (mirrored web edition)
+og:image: /assets/pixra/books/guaspi/guaspi-symbol.webp
+coverImage: /assets/pixra/books/guaspi/guaspi.webp
 ---
 
 @include "guaspi/0.md"

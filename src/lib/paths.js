@@ -34,6 +34,7 @@ const getBasePaths = () => {
       src: "/app/src",
       mdPages: "/app/src/md_pages",
       publicAssets: "/app/src/public/assets",
+      korporaTsv: "/app/data/assets/korpora-tsv",
       styles: "/app/src/styles",
       service: "/app/service",
       vreji: "/vreji",
@@ -46,6 +47,7 @@ const getBasePaths = () => {
       src: path.join(projectRoot, "src"),
       mdPages: path.join(projectRoot, "data", "pages"),
       publicAssets: path.join(projectRoot, "data", "assets"),
+      korporaTsv: path.join(projectRoot, "data", "assets", "korpora-tsv"),
       styles: path.join(projectRoot, "src", "styles"),
       service: path.join(projectRoot, "data", "DNS"),
       vreji: path.join(projectRoot, "data", ".cache"),
@@ -62,6 +64,7 @@ module.exports = {
   paths,
   // Helper functions for common paths
   getMdPagesPath: () => paths.mdPages,
+  getKorporaTsvPath: () => paths.korporaTsv,
   getPublicAssetsPath: () => paths.publicAssets,
   getStylesPath: () => paths.styles,
   getServicePath: () => paths.service,

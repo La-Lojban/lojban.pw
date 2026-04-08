@@ -179,7 +179,18 @@ export async function getStaticProps({ params }: Params) {
   const currentLanguage = params.lang;
 
   const allPosts = await getAllPosts({
-    fields: ["slug", "hidden", "title", "directory", "coverImage", "og:image", "icon"],
+    fields: [
+      "slug",
+      "hidden",
+      "title",
+      "directory",
+      "coverImage",
+      "og:image",
+      "icon",
+      "author",
+      "meta.author",
+      "description",
+    ],
     showHidden: true,
     folder: "",
     ignoreTitles: false,

@@ -39,104 +39,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /// <reference path="./types.d.ts" />
 const fs = __importStar(require("fs"));
 const path = __importStar(require("path"));
-const google_spreadsheet_1 = require("google-spreadsheet");
 const prettier = __importStar(require("prettier"));
 const archiver_1 = __importDefault(require("archiver"));
-const slugger_1 = require("../html-prettifier/slugger");
-const locales_json_1 = require("../../config/locales.json");
 const paths_1 = require("../paths");
-const allLanguages = Object.keys(locales_json_1.languages);
-/** Directory containing korpora2 assets (formal-gismu.tsv, type-system.md). Lives under src/ so Docker mount of src finds it. */
-function getKorpora2Dir() {
-    return path.join((0, paths_1.getCwd)(), "korpora2");
-}
-const MAX_CONCURRENT_TASKS = 20;
 const TSV_FOLDER_NAME = "korpora-tsv";
-const tsvOutputDir = path.join((0, paths_1.getPublicAssetsPath)(), TSV_FOLDER_NAME);
 const tsvIndexFilename = "korpora-tsv.md";
-function parseTableCell(cellContent) {
-    if (!cellContent)
-        return "";
-    const rows = cellContent.split("||");
-    let tableHtml = '<table class="inner-table w-full border-collapse border border-gray-300">';
-    rows.forEach((row) => {
-        const cells = row.split("|");
-        tableHtml += "<tr>";
-        cells.forEach((cell) => {
-            tableHtml += `<td class="border border-gray-300 px-2 py-1">${escapeHtml(cell.trim())}</td>`;
-        });
-        tableHtml += "</tr>";
-    });
-    tableHtml += "</table>";
-    return tableHtml;
-}
-if (!process.env.GOOGLE_LOJBAN_CORPUS_DOC_ID) {
-    console.log("generation cancelled, no GOOGLE_LOJBAN_CORPUS_DOC_ID in .env file specified");
-    process.exit();
-}
-if (!process.env.GOOGLE_READONLY_API_KEY) {
-    console.log("generation cancelled, no GOOGLE_READONLY_API_KEY in .env file specified");
-    process.exit();
-}
-const doc = new google_spreadsheet_1.GoogleSpreadsheet(process.env.GOOGLE_LOJBAN_CORPUS_DOC_ID);
-doc.useApiKey(process.env.GOOGLE_READONLY_API_KEY);
-function prettifyGraymatter(str) {
-    return str
-        .replace(/[\r\n]/g, " ")
-        .replace(/ {2,}/g, " ")
-        .replace(/:/g, "");
-}
-function escapeHtml(text) {
-    const map = {
-        "&": "&amp;",
-        "<": "&lt;",
-        ">": "&gt;",
-        '"': "&quot;",
-        "'": "&#039;",
-    };
-    return text.replace(/[&<>"']/g, (m) => map[m]);
-}
-function sanitizeTsvValue(value) {
-    if (value === null || value === undefined)
-        return "";
-    return String(value).replace(/\t/g, " ").replace(/\r?\n/g, " ").trim();
-}
-function shouldIncludeInTsv(header) {
-    const lower = (header ?? "").toLowerCase();
-    return (lower.includes("glico") ||
-        lower.includes("lojbo") ||
-        lower.includes("original") ||
-        lower.includes("source"));
-}
-function buildTsvContent(columns, langs) {
-    if (!langs?.length)
-        return "";
-    const selectedHeaders = [];
-    langs.forEach((header, index) => {
-        if (index === 0 || shouldIncludeInTsv(header)) {
-            if (!selectedHeaders.includes(header))
-                selectedHeaders.push(header);
-        }
-    });
-    if (!selectedHeaders.length)
-        return "";
-    const rowCount = columns[selectedHeaders[0]]?.length ?? 0;
-    const lines = [];
-    lines.push(selectedHeaders.map((h) => sanitizeTsvValue(h)).join("\t"));
-    for (let i = 0; i < rowCount; i++) {
-        const row = selectedHeaders.map((header) => sanitizeTsvValue(columns[header]?.[i]));
-        lines.push(row.join("\t"));
-    }
-    return lines.join("\n");
-}
-function writeTsvFile(slug, tsvContent) {
-    if (!tsvContent)
-        return;
-    fs.mkdirSync(tsvOutputDir, { recursive: true });
-    const tsvPath = path.join(tsvOutputDir, `${slug}.tsv`);
-    fs.writeFileSync(tsvPath, tsvContent);
-}
 async function createTsvZip() {
+    const tsvOutputDir = path.join((0, paths_1.getPublicAssetsPath)(), TSV_FOLDER_NAME);
     const tsvFiles = fs
         .readdirSync(tsvOutputDir, { withFileTypes: true })
         .filter((dirent) => dirent.isFile() && dirent.name.endsWith(".tsv"))
@@ -164,93 +73,23 @@ async function createTsvZip() {
         archive.finalize();
     });
 }
-const FORMAL_GISMU_SLUG = "formal-gismu";
-async function writeFormalGismuPage() {
-    const korpora2Dir = getKorpora2Dir();
-    const tsvPath = path.join(korpora2Dir, "dictionaries", "formal-gismu.tsv");
-    const preamblePath = path.join(korpora2Dir, "type-system.md");
-    if (!fs.existsSync(tsvPath) || !fs.existsSync(preamblePath)) {
-        console.log("formal-gismu: skipped (missing " +
-            (fs.existsSync(tsvPath) ? "type-system.md" : "formal-gismu.tsv") +
-            " at " +
-            korpora2Dir +
-            ")");
-        return;
-    }
-    const preamble = fs.readFileSync(preamblePath, "utf-8").trim();
-    const tsvRaw = fs.readFileSync(tsvPath, "utf-8");
-    const lines = tsvRaw.split(/\r?\n/).filter((line) => line.trim().length > 0);
-    if (lines.length < 2) {
-        console.log("formal-gismu: skipped (TSV has no data rows)");
-        return;
-    }
-    const headers = lines[0].split("\t").map((h) => h.trim());
-    const rows = lines.slice(1).map((row) => {
-        const firstTab = row.indexOf("\t");
-        const cell0 = firstTab < 0 ? row.trim() : row.slice(0, firstTab).trim();
-        const cell1 = firstTab < 0 ? "" : row.slice(firstTab + 1).trim();
-        return [cell0, cell1];
-    });
-    const tableRows = rows
-        .map((cells) => `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100">
-  <td class="font-bold p-2 align-text-top">${escapeHtml(cells[0])}</td>
-  <td class="text-left align-text-top p-2 max-w-2xl">${escapeHtml(cells[1])}</td>
-</tr>`)
-        .join("\n");
-    const tableHtml = `<div class="w-full overflow-x-auto">
-<table class="mt-2 table-fixed max-w-full border font-light text-left text-sm">
-  <thead class="border-b italic">
-    <tr>
-      <th scope="col" class="w-32 p-2">${escapeHtml(headers[0])}</th>
-      <th scope="col" class="p-2">${escapeHtml(headers[1])}</th>
-    </tr>
-  </thead>
-  <tbody>
-${tableRows}
-  </tbody>
-</table>
-</div>`;
-    const contentFull = preamble + "\n\n" + tableHtml;
-    const mdPagesPath = (0, paths_1.getMdPagesPath)();
-    const langInfo = locales_json_1.languages;
-    const title = "Formal gismu";
-    for (const lang of allLanguages) {
-        const langedDirectoryRoot = path.join(mdPagesPath, langInfo[lang]?.short ?? lang);
-        const langedDirectory = path.join(langedDirectoryRoot, "texts");
-        if (!fs.existsSync(langedDirectoryRoot))
-            continue;
-        fs.mkdirSync(langedDirectory, { recursive: true });
-        const filepathMd = path.join(langedDirectory, FORMAL_GISMU_SLUG + ".md");
-        const graymatter = [
-            { key: "title", value: title },
-            { key: "meta.type", value: "korpora" },
-            { key: "meta.description", value: "Gismu definitions with place type annotations and type system preamble." },
-        ];
-        const frontmatter = `---
-${graymatter.map(({ key, value }) => `${key}: ${value}`).join("\n")}
----
-
-${contentFull}`;
-        fs.writeFileSync(filepathMd, frontmatter);
-    }
-    console.log("generated formal-gismu corpus entry");
-}
 async function writeTsvIndexFile() {
     const mdPagesPath = (0, paths_1.getMdPagesPath)();
     if (!fs.existsSync(mdPagesPath))
         return;
-    // Place the index in the English namespace so it is routable at /en/korpora-tsv
     const targetDirectory = path.join(mdPagesPath, "en");
     fs.mkdirSync(targetDirectory, { recursive: true });
-    const tsvFiles = fs
-        .readdirSync(tsvOutputDir, { withFileTypes: true })
-        .filter((dirent) => dirent.isFile() && dirent.name.endsWith(".tsv"))
-        .map((dirent) => dirent.name)
-        .sort();
-    // Create zip file with all TSV files
+    const tsvDir = path.join((0, paths_1.getPublicAssetsPath)(), TSV_FOLDER_NAME);
+    const tsvFiles = fs.existsSync(tsvDir)
+        ? fs
+            .readdirSync(tsvDir, { withFileTypes: true })
+            .filter((dirent) => dirent.isFile() && dirent.name.endsWith(".tsv"))
+            .map((dirent) => dirent.name)
+            .sort()
+        : [];
     const zipFilename = await createTsvZip();
     const listBody = tsvFiles.length === 0
-        ? "_No TSV files generated._"
+        ? "_No TSV files in `data/assets/korpora-tsv/`._"
         : tsvFiles
             .map((file) => {
             const title = path.parse(file).name;
@@ -265,7 +104,7 @@ title: Korpora TSV Index
 meta.type: korpora
 ---
 
-Below is the list of generated TSV extracts from the corpus sheets:
+Source TSV files live in \`data/assets/korpora-tsv/\` (served at \`/assets/${TSV_FOLDER_NAME}/\`).
 
 ${listBody}${zipLink}
 `;
@@ -273,222 +112,7 @@ ${listBody}${zipLink}
     const formatted = await prettier.format(content, { filepath: targetPath });
     fs.writeFileSync(targetPath, formatted);
 }
-function cssifyName(text) {
-    return text.replace(/[!\"#$%&'\(\)\*\+,\.\/:;<=>\?\@\[\\\]\^`\{\|\}~\s]/g, "_");
-}
-async function processSheet(sheet, title) {
-    const meta = await sheet.getRows();
-    await sheet.loadCells();
-    const italicizedRows = [];
-    for (let i = 0; i < sheet.rowCount; i++) {
-        const cell = sheet.getCell(i, 0);
-        if (cell?.effectiveFormat?.textFormat?.italic)
-            italicizedRows.push(i);
-    }
-    let langs = meta[0]._sheet.headerValues.filter((lang) => lang.indexOf("!") !== 0);
-    let table = [];
-    let buttons = [];
-    let columns = {};
-    table.push(`<table data-korpora-grid class="korpora__table" lang="und">`);
-    table.push(`<thead class="korpora__thead">`);
-    table.push(`<tr>`);
-    const columnsWithTables = {};
-    for (const i in langs) {
-        const lang = langs[i];
-        const cssfiedLangName = cssifyName(lang);
-        const txt = meta.map((row) => row[lang]);
-        columns[lang] = txt;
-        if (lang && lang.includes("||")) {
-            columnsWithTables[lang] = true;
-        }
-        const prettifiedLang = lang.replace(/\|\|/g, "").trim();
-        const nowrapAttr = lang.includes("||") ? ' data-korpora-nowrap=""' : "";
-        table.push(`<th scope="col" class="korpora__th"${nowrapAttr} data-korpora-col="${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`);
-        const btnLabel = locales_json_1.languages[lang]
-            ?.native ??
-            locales_json_1.languages[prettifiedLang]?.native ??
-            prettifiedLang;
-        buttons.push(`<button type="button" class="korpora__toggle" data-korpora-col="${cssfiedLangName}" aria-pressed="false">${escapeHtml(btnLabel)}</button>`);
-    }
-    table.push(`</tr>`);
-    table.push(`</thead>`);
-    table.push(`<tbody>`);
-    const slug = (0, slugger_1.sluggify)(columns["glico"]?.[1] ?? title);
-    const priority = (columns["lojbo"] ?? []).slice(4).join("\n").length;
-    const headers = {};
-    allLanguages.forEach((lang) => {
-        const header = prettifyGraymatter(columns[lang]?.[1] ?? columns["glico"]?.[1] ?? title);
-        console.log({ header, lang });
-        const author = prettifyGraymatter(columns[lang]?.[2] ?? columns["glico"]?.[2] ?? "");
-        const translatedBy = prettifyGraymatter(columns[lang]?.[3] ?? columns["glico"]?.[3] ?? "");
-        headers[lang] = {
-            header,
-            priority,
-            author,
-            description: `${author} | ${translatedBy}`
-                .trim()
-                .replace(/ -$/, "")
-                .trim(),
-        };
-    });
-    const keywords = Object.keys(columns)
-        .map((lang) => columns[lang]?.[1])
-        .filter((column) => !!column)
-        .join(", ");
-    let ogImage;
-    const tsvContent = buildTsvContent(columns, langs);
-    for (const index in columns[langs[0]]) {
-        const indexNum = parseInt(index);
-        const lineNo = indexNum + 1;
-        const publicAssetsPath = (0, paths_1.getPublicAssetsPath)();
-        // Priority: svg > png > webp
-        const imageExtensions = ["svg", "png", "webp"];
-        let candidatePath = "";
-        for (const ext of imageExtensions) {
-            const candidate = path.join(publicAssetsPath, "pixra", "texts", slug, `${lineNo}.${ext}`);
-            if (fs.existsSync(candidate)) {
-                candidatePath = path.join("/assets", "pixra", "texts", slug, `${lineNo}.${ext}`);
-                break;
-            }
-        }
-        if (candidatePath) {
-            ogImage = ogImage ?? candidatePath;
-            table.push(`<tr class="korpora__row korpora__row--figure">
-          <td class="korpora__figure-cell" colspan="${langs.length}">
-          <div class="korpora__figure-wrap">
-          <img class="korpora__figure-img" src="${candidatePath}" alt="" />
-          </div>
-          </td>
-        </tr>
-        `);
-        }
-        table.push(`<tr class="korpora__row">`);
-        for (const lang of langs) {
-            const l = cssifyName(lang);
-            const cellNowrap = lang.includes("||") ? ' data-korpora-nowrap=""' : "";
-            let cellContent = columns[lang]?.[indexNum] ?? "";
-            if (columnsWithTables[lang] && cellContent.includes("|")) {
-                cellContent = parseTableCell(cellContent);
-            }
-            else {
-                cellContent = escapeHtml(cellContent);
-            }
-            const langInfo = locales_json_1.languages;
-            const tdClass = [
-                "korpora__td",
-                indexNum === 0 ? "korpora__td--heading" : "",
-                indexNum > 0 && (indexNum < 4 || italicizedRows.includes(indexNum + 1))
-                    ? "korpora__td--meta"
-                    : "",
-                langInfo[lang]?.direction === "RTL" ? "korpora__td--rtl" : "",
-            ]
-                .filter(Boolean)
-                .join(" ");
-            table.push(`<td class="${tdClass}"${cellNowrap} data-korpora-col="${l}">${cellContent}</td>`);
-        }
-        table.push(`</tr>`);
-    }
-    table.push(`</tbody>`);
-    table.push(`</table>`);
-    if (!ogImage) {
-        const pixraDir = path.join((0, paths_1.getPublicAssetsPath)(), "pixra", "texts", slug);
-        if (fs.existsSync(pixraDir)) {
-            const exts = new Set([".webp", ".png", ".svg", ".jpg", ".jpeg"]);
-            const imageFiles = fs
-                .readdirSync(pixraDir)
-                .filter((name) => exts.has(path.extname(name).toLowerCase()))
-                .sort();
-            if (imageFiles.length > 0) {
-                ogImage = path
-                    .join("/assets", "pixra", "texts", slug, imageFiles[0])
-                    .replace(/\\/g, "/");
-            }
-        }
-    }
-    return { table, buttons, headers, slug, keywords, ogImage, columns, tsvContent };
-}
-async function writeFiles(lang, title, buttons, table, headers, slug, keywords, ogImage) {
-    const mdPagesPath = (0, paths_1.getMdPagesPath)();
-    const langInfo = locales_json_1.languages;
-    const langedDirectoryRoot = path.join(mdPagesPath, langInfo[lang]?.short ?? lang);
-    const langedDirectory = path.join(langedDirectoryRoot, "texts");
-    const filepathMd = path.join(langedDirectory, slug + ".md");
-    const contentMd = await prettier.format(`<section class="korpora w-full" data-korpora-slug="texts/${slug}" aria-label="Corpus text">
-  <div class="korpora__toolbar" role="toolbar" aria-label="Language columns">
-  ${buttons.join("\n  ")}
-  </div>
-  <div class="korpora__scroll">
-${table.join("")}
-  </div>
-</section>
-`, { filepath: filepathMd });
-    const graymatter = [
-        { key: "title", value: headers[lang]?.header ?? headers["glico"]?.header },
-        { key: "meta.type", value: "korpora" },
-        {
-            key: "description",
-            value: headers[lang]?.description ?? headers["glico"]?.description,
-        },
-        {
-            key: "meta.description",
-            value: headers[lang]?.description ?? headers["glico"]?.description,
-        },
-        { key: "meta.keywords", value: keywords },
-        {
-            key: "meta.author",
-            value: headers[lang]?.author ?? headers["glico"]?.author,
-        },
-        ...(ogImage
-            ? [
-                { key: "coverImage", value: ogImage },
-                { key: "og:image", value: ogImage },
-            ]
-            : []),
-        {
-            key: "meta.priority",
-            value: headers[lang]?.priority ?? headers["glico"]?.priority,
-        },
-    ].filter((el) => el.value !== undefined);
-    const contentFull = `---
-${graymatter.map(({ key, value }) => `${key}: ${value}`).join("\n")}
----
-
-${contentMd}`;
-    if (!fs.existsSync(langedDirectoryRoot))
-        return;
-    fs.mkdirSync(langedDirectory, { recursive: true });
-    fs.writeFileSync(filepathMd, contentFull);
-}
-async function processTitlesInParallel(titles, processFunction) {
-    const results = [];
-    for (let i = 0; i < titles.length; i += MAX_CONCURRENT_TASKS) {
-        const batch = titles.slice(i, i + MAX_CONCURRENT_TASKS);
-        const batchResults = await Promise.all(batch.map(processFunction));
-        results.push(...batchResults);
-    }
-    return results;
-}
 (async () => {
-    await doc.loadInfo();
-    const titles = doc.sheetsByIndex
-        .map((sheet) => sheet.title)
-        .filter((name) => name.indexOf("+") === 0);
     fs.mkdirSync((0, paths_1.getPublicAssetsPath)(), { recursive: true });
-    fs.rmSync(tsvOutputDir, { recursive: true, force: true });
-    fs.mkdirSync(tsvOutputDir, { recursive: true });
-    const processedData = await processTitlesInParallel(titles, async (title) => {
-        const sheet = doc.sheetsByTitle[title];
-        const cleanTitle = title.replace(/^\+/g, "").trim();
-        return { title: cleanTitle, data: await processSheet(sheet, cleanTitle) };
-    });
-    console.log("generating korpora pages");
-    await processTitlesInParallel(processedData, async ({ title, data }) => {
-        const { table, buttons, headers, slug, keywords, ogImage, tsvContent } = data;
-        writeTsvFile(slug, tsvContent);
-        // Parallelize language processing for faster builds
-        await Promise.all(allLanguages.map((lang) => writeFiles(lang, title, buttons, table, headers, slug, keywords, ogImage)));
-        console.log(`generated "${title}" corpus entry`);
-    });
     await writeTsvIndexFile();
-    await writeFormalGismuPage();
 })();

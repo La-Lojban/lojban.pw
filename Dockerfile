@@ -28,6 +28,11 @@ RUN apt-get autoclean && rm -rf /var/lib/apt/lists/*
 # Install pnpm (latest 9.x)
 RUN npm install -g pnpm@9
 
-# Create workspace
+# Workspace: bind-mount the repo’s `src/` here, then overlay `data/` paths (see Makefile and
+# `.github/workflows/main.yml`). No COPY of the app — `src/public/assets` is a symlink to
+# `../../data/assets` in git; in Docker, mounting `data/assets` onto `/app/src/public/assets`
+# replaces that link with real files. Mount order must be: `src` first, then `data/assets`,
+# `data/pages`, `data/config`, etc., so overlays win.
+ENV IN_DOCKER=true
 RUN mkdir -p /app/src
 WORKDIR /app/src

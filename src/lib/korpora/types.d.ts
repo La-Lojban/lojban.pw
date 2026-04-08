@@ -1,13 +1,3 @@
-declare module "google-spreadsheet" {
-  export class GoogleSpreadsheet {
-    constructor(spreadsheetId: string);
-    useApiKey(apiKey: string): void;
-    loadInfo(): Promise<void>;
-    sheetsByIndex: Array<{ title: string }>;
-    sheetsByTitle: Record<string, any>;
-  }
-}
-
 declare module "archiver" {
   import { Writable } from "stream";
   

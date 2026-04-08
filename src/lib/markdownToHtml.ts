@@ -23,6 +23,7 @@ import replaceIncludes from "./remark-plugins/include/";
 import { expandFirstLojbanSpeakerTags } from "./expandFirstLojbanSpeakerTags";
 import { markdownEnableHtmlTableCellMarkdown } from "./markdownHtmlTableCellMarkdown";
 import { markdownNormalizeThematicBreaks } from "./markdownNormalizeThematicBreaks";
+import { enhanceKorporaSections } from "./korpora/ssgEnhance";
 // import { serializeHTMLNodeTree } from "./json2react";
 
 export default async function markdownToHtml({
@@ -74,6 +75,8 @@ export default async function markdownToHtml({
         .process(content)
     ).toString()
   );
+
+  enhanceKorporaSections(root as HTMLElement);
 
   let allHeaders: TocElem[] = Array.from(
     root.querySelectorAll(allSelector.join(","))

@@ -811,106 +811,65 @@ div.mermaid > svg foreignObject > div {
 }
 
 /* -------------------------------------------------------------------------- */
-/* Korpora — multilingual corpus                                                */
-/* Generator sets data-korpora-grid on <table> so transformers.ts skips the   */
-/* md-typeset inline-block wrapper. Styles are scoped to .korpora / .korpora__* */
+/* Korpora — multilingual corpus (deep-orange / brown brand)                    */
+/* SSG adds data-korpora-grid; transformers skip md-typeset on these tables.    */
 /* -------------------------------------------------------------------------- */
 
 article section.korpora {
-  width: 100%;
-  max-width: 100%;
+  @apply w-full max-w-full;
 }
 
 .korpora__toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 0.75rem;
+  @apply flex flex-wrap gap-2 mb-3;
 }
 
-/* Brand: deep-orange + brown (tailwind.config.js) */
 .korpora__toggle {
-  border: none;
-  cursor: pointer;
-  border-radius: 0.25rem;
-  box-shadow:
-    0 1px 3px 0 rgb(0 0 0 / 0.12),
-    0 1px 2px -1px rgb(0 0 0 / 0.1);
-  font-weight: 700;
-  line-height: 1.5;
-  user-select: none;
-  padding: 0.5rem 1rem;
-  background-color: #ffab91;
-  color: #3e2723;
+  @apply cursor-pointer select-none rounded border-0 px-4 py-2 font-bold leading-normal shadow-sm transition-colors duration-150;
+  @apply bg-deep-orange-200 text-brown-900;
 }
 
 .korpora__toggle:hover,
 .korpora__toggle:focus-visible {
-  background-color: #f4511e;
-  color: #fff;
-  outline: none;
+  @apply bg-deep-orange-600 text-white outline-none;
 }
 
 .korpora__toggle[aria-pressed="true"] {
-  background-color: #efebe9;
-  color: #8d6e63;
+  @apply bg-brown-100 text-brown-700;
 }
 
 .korpora__scroll {
-  width: 100%;
-  overflow-x: auto;
+  @apply w-full overflow-x-auto;
   -webkit-overflow-scrolling: touch;
 }
 
 article table.korpora__table[data-korpora-grid] {
-  display: table;
-  width: 100%;
-  min-width: 100%;
+  @apply border-collapse border-spacing-0 text-sm font-light text-gray-900;
   table-layout: fixed;
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin: 0;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  font-weight: 300;
-  color: #111827;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.125rem;
-  background: #fff;
-  box-shadow: 0 1px 2px rgb(0 0 0 / 0.06);
+  border-color: rgb(229 231 235);
+  @apply rounded-sm bg-white shadow-sm;
+  /* Equal shares 100%/N; total width at least N×12rem so each column can stay ≥12rem (scroll inside .korpora__scroll) */
+  width: max(100%, calc(var(--korpora-visible-cols, 1) * 12rem));
+  min-width: max(100%, calc(var(--korpora-visible-cols, 1) * 12rem));
 }
 
 .korpora__thead {
-  border-bottom: 1px solid #e5e7eb;
-  background: #f9fafb;
+  @apply border-b border-gray-200 bg-gray-50;
 }
 
 .korpora__th {
-  text-align: start;
-  font-weight: 700;
-  font-style: italic;
-  padding: 0.5rem 0.625rem;
-  vertical-align: top;
-  border: 1px solid #e5e7eb;
+  @apply border border-gray-200 px-2.5 py-2 text-start align-top font-bold italic;
 }
 
 .korpora__td {
-  padding: 0.5rem 0.625rem;
-  vertical-align: top;
-  border: 1px solid #e5e7eb;
-  text-align: start;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+  @apply border border-gray-200 px-2.5 py-2 text-start align-top break-words;
 }
 
 .korpora__td--heading {
-  font-weight: 700;
-  font-style: normal;
+  @apply font-bold not-italic;
 }
 
 .korpora__td--meta {
-  font-style: italic;
-  color: #6b7280;
+  @apply italic text-gray-500;
 }
 
 .korpora__td--rtl {
@@ -919,32 +878,25 @@ article table.korpora__table[data-korpora-grid] {
 }
 
 .korpora tbody tr:hover .korpora__td {
-  background: #f3f4f6;
+  @apply bg-gray-100;
 }
 
 .korpora__figure-cell {
-  border: 1px solid #e5e7eb;
-  padding: 0.5rem;
-  vertical-align: middle;
+  @apply border border-gray-200 p-2 align-middle;
 }
 
 .korpora__figure-wrap {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
+  @apply flex w-full items-center justify-center;
 }
 
 .korpora__figure-img {
-  height: 14rem;
-  width: auto;
-  max-width: 100%;
+  @apply h-56 w-auto max-w-full;
 }
 
-.korpora__table th[data-korpora-col],
-.korpora__table td[data-korpora-col] {
+.korpora__table th[data-korpora-col]:not(.korpora__col--hidden),
+.korpora__table td[data-korpora-col]:not(.korpora__col--hidden) {
   min-width: 12rem;
-  width: 1%;
+  width: calc(100% / var(--korpora-visible-cols, 1));
   max-width: none;
 }
 

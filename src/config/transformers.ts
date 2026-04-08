@@ -29,7 +29,11 @@ export const transformers: {selector: string; fn?: any; wrapper?:string; idCount
 	},
 	{ selector: "blockquote", wrapper: "div.wrapper.with_blockquote" },
 	/* Skip inner glossary tables and korpora corpus grid ([data-korpora-grid] must not get md-typeset inline-block). */
-	{ selector: "table:not(.inner-table):not([data-korpora-grid])", wrapper: "div.md-typeset__table" },
+	{
+		selector:
+			"table:not(.inner-table):not([data-korpora-grid]):not(section.korpora .korpora__scroll table)",
+		wrapper: "div.md-typeset__table",
+	},
 	{
 		selector: "div.md-typeset__table",
 		wrapper: "div.md-typeset__scrollwrap",

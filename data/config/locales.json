@@ -2,72 +2,89 @@
     "languages": {
         "jungo": {
             "native": "普通话",
-            "short": "zh"
+            "short": "zh",
+            "currentPageContents": "本页内容："
         },
         "lojbo": {
             "native": "lojbo",
-            "short": "jbo"
+            "short": "jbo",
+            "currentPageContents": "le tcila be le papri:"
         },
         "sampu lojbo": {
             "native": "sampu lojbo",
-            "short": "jbo-sampu"
+            "short": "jbo-sampu",
+            "currentPageContents": "tcila be papri:"
         },
         "dzena xelso": {
             "native": "αρχαία ελληνικά",
-            "short": "grc"
+            "short": "grc",
+            "currentPageContents": "Περιεχόμενα τῆς σελίδος:"
         },
         "spero": {
             "native": "Esperanto",
-            "short": "eo"
+            "short": "eo",
+            "currentPageContents": "Enhavo de ĉi tiu paĝo:"
         },
         "spano": {
             "native": "español",
-            "short": "es"
+            "short": "es",
+            "currentPageContents": "Contenido de esta página:"
         },
         "glico": {
             "native": "English",
-            "short": "en"
+            "short": "en",
+            "currentPageContents": "Current page contents:"
         },
         "xrabo": {
             "native": "العربية",
             "short": "ar",
-            "direction":"RTL"
+            "direction": "RTL",
+            "currentPageContents": "محتويات هذه الصفحة:"
         },
         "porto": {
             "native": "português",
-            "short": "pt"
+            "short": "pt",
+            "currentPageContents": "Conteúdo desta página:"
         },
         "rusko": {
             "native": "русский",
-            "short": "ru"
+            "short": "ru",
+            "currentPageContents": "Содержание страницы:"
         },
         "dotco": {
             "native": "Deutsch",
-            "short": "de"
+            "short": "de",
+            "currentPageContents": "Inhalt dieser Seite:"
         },
         "fraso": {
             "native": "français",
-            "short": "fr"
+            "short": "fr",
+            "currentPageContents": "Contenu de la page :"
         },
         "baurgulugu": {
             "native": "galego",
-            "short": "gl"
+            "short": "gl",
+            "currentPageContents": "Contido desta páxina:"
         },
         "sfe'ero": {
             "native": "svenska",
-            "short": "sv"
+            "short": "sv",
+            "currentPageContents": "Innehåll på den här sidan:"
         },
         "tokpona": {
             "native": "toki pona",
-            "short": "tok"
+            "short": "tok",
+            "currentPageContents": "ijo pi lipu ni:"
         },
         "bantugulu": {
             "native": "Tagalog",
-            "short": "tl"
+            "short": "tl",
+            "currentPageContents": "Mga nilalaman ng pahinang ito:"
         },
         "balgaro": {
             "native": "български",
-            "short": "bg"
+            "short": "bg",
+            "currentPageContents": "Съдържание на страницата:"
         }
     }
 }

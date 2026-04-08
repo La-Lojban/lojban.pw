@@ -1,9 +1,13 @@
 import langJson from "../config/locales.json";
 
-const languages = langJson.languages as Record<
-  string,
-  { short: string; native: string }
->;
+type LangEntry = {
+  short: string;
+  native: string;
+  direction?: string;
+  currentPageContents?: string;
+};
+
+const languages = langJson.languages as Record<string, LangEntry>;
 
 /** Maps URL language codes (e.g. `en`) to native language names (e.g. `English`). */
 export const langDict: Record<string, string> = Object.keys(languages).reduce(
@@ -14,6 +18,14 @@ export const langDict: Record<string, string> = Object.keys(languages).reduce(
   },
   {} as Record<string, string>
 );
+
+/** Localized heading for the mobile topbar table of contents (burger menu). */
+export function currentPageContentsLabel(lang: string): string {
+  const entry = Object.values(languages).find((e) => e.short === lang);
+  const fallback =
+    languages.glico?.currentPageContents ?? "Current page contents:";
+  return entry?.currentPageContents ?? fallback;
+}
 
 /**
  * Human-readable label for a post directory key (first segment = language code).

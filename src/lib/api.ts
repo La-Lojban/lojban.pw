@@ -2,6 +2,16 @@ import fs from "fs";
 import { join, resolve, relative, extname, dirname } from "path";
 import matter from "gray-matter";
 import { promises as fsp } from "fs";
+import {
+  listKorporaTsvBasenames,
+  loadProcessedCorpusFromTsv,
+  getCorpusPostFields,
+  shortFromLangKey,
+  korporaLanguageKeys,
+  resolveKorporaDisplayTitle,
+  resolveKorporaAuthorLine,
+} from "./korpora/corpusCore";
+import { getKorporaTsvPath } from "./paths";
 
 const postsDirectory = process.env.md_content || "";
 
@@ -83,6 +93,21 @@ export async function getPostBySlug(
     }
   }
 
+  // Some locales use `ogImage` instead of `og:image`; listings only request `og:image` / coverImage.
+  const ogFromFm =
+    (data["og:image"] as string | undefined) ??
+    (data as { ogImage?: string }).ogImage;
+  if (typeof ogFromFm === "string" && ogFromFm) {
+    data["og:image"] = ogFromFm;
+    if (!(data as { coverImage?: string }).coverImage) {
+      (data as { coverImage?: string }).coverImage = ogFromFm;
+    }
+  }
+  const cov = (data as { coverImage?: string }).coverImage;
+  if (typeof cov === "string" && cov && !data["og:image"]) {
+    data["og:image"] = cov;
+  }
+
   const folderPath = dirname(fullPath);
   allSlugs = allSlugs || (await getFiles(folderPath));
 
@@ -140,6 +165,48 @@ export async function getPostBySlug(
   return items;
 }
 
+function getKorporaSyntheticPosts(fields: string[]): Items[] {
+  const dir = getKorporaTsvPath();
+  const basenames = listKorporaTsvBasenames();
+  const posts: Items[] = [];
+  for (const basename of basenames) {
+    const data = loadProcessedCorpusFromTsv(basename);
+    if (!data) continue;
+    for (const langKey of korporaLanguageKeys) {
+      const short = shortFromLangKey(langKey);
+      const meta = getCorpusPostFields(data, langKey);
+      const displayTitle = resolveKorporaDisplayTitle(basename, meta.title);
+      const authorLine = resolveKorporaAuthorLine(basename, meta.author);
+      const slugArr = [short, "texts", basename];
+      const fullPath = slugArr.join("/");
+      const item: Items = { slug: slugArr };
+
+      if (fields.includes("directory")) item.directory = short;
+      if (fields.includes("slug")) item.slug = slugArr;
+      if (fields.includes("hidden")) item.hidden = false;
+      if (fields.includes("title")) item.title = displayTitle;
+      if (fields.includes("content")) item.content = "";
+      if (fields.includes("relatedSlugs")) item.relatedSlugs = [];
+      if (fields.includes("fullPath")) item.fullPath = fullPath;
+      // No date/excerpt on listing cards — mtime is not meaningful; description duplicates the author line.
+      item["meta.priority"] = meta.priority;
+      item["meta.type"] = "korpora";
+      item["meta.description"] = meta.description;
+      item["meta.keywords"] = meta.keywords;
+      item["meta.author"] = authorLine;
+      if (fields.includes("author")) {
+        item.author = { name: authorLine, picture: "" } as unknown as Items["author"];
+      }
+      if (meta.ogImage) {
+        item["og:image"] = meta.ogImage;
+        item.coverImage = meta.ogImage;
+      }
+      posts.push(item);
+    }
+  }
+  return posts;
+}
+
 export async function getAllPosts(
   {
     fields,
@@ -163,17 +230,42 @@ export async function getAllPosts(
 
   const isBookChapterPost = (p: Items) =>
     p.slug[1] === "books" && p.slug.length >= 4;
-  const filteredPosts = posts.filter(
-    (post) =>
-      (showHidden ||
-        (!isBookChapterPost(post) && !post.slug.some((part) => part.startsWith("!")))) &&
-    (ignoreTitles || !fields.includes("title") || post.title !== undefined)
-  )
+  const korporaBasenames = new Set(listKorporaTsvBasenames());
+  const filteredPosts = posts
+    .filter((post) => {
+      const s = post.slug;
+      if (
+        s.length === 3 &&
+        s[1] === "texts" &&
+        korporaBasenames.has(s[2])
+      ) {
+        return false;
+      }
+      return true;
+    })
+    .filter(
+      (post) =>
+        (showHidden ||
+          (!isBookChapterPost(post) && !post.slug.some((part) => part.startsWith("!")))) &&
+      (ignoreTitles || !fields.includes("title") || post.title !== undefined)
+    )
     // sort posts by date in descending order
     .sort((post1, post2) => ((post1.date ?? 0) > (post2.date ?? 0) ? -1 : 1))
     //sort by priority in descending order
     .sort((post1, post2) =>
       (post1["meta.priority"] ?? 0) > (post2["meta.priority"] ?? 0) ? -1 : 1
     );
-  return filteredPosts;
+
+  const korporaPosts = getKorporaSyntheticPosts(fields).filter(
+    (post) =>
+      ignoreTitles ||
+      !fields.includes("title") ||
+      typeof post.title !== "undefined"
+  );
+
+  return [...filteredPosts, ...korporaPosts]
+    .sort((post1, post2) => ((post1.date ?? 0) > (post2.date ?? 0) ? -1 : 1))
+    .sort((post1, post2) =>
+      (post1["meta.priority"] ?? 0) > (post2["meta.priority"] ?? 0) ? -1 : 1
+    );
 }
