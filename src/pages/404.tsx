@@ -31,12 +31,10 @@ function NotFoundMessage() {
 // SCRIPT
 // -----------------------------------------------------------------------------
 /**
- * Custom 404 page. On static export (pnpm start, GitHub Pages) next.config.js
- * redirects() are not run. This page mirrors all redirects from next.config.js
- * so the same rules apply client-side when a missing URL is hit.
+ * Custom 404 page. For static export, server redirects are unavailable; this is the
+ * canonical place for client-side fallbacks when a path has no HTML file.
  *
- * Current redirects (must stay in sync with next.config.js):
- * 1. Legacy book chapters: /:lang/books/:book/!:chapter → /:lang/books/:book/:chapter/
+ * Legacy book chapters: /:lang/books/:book/!:chapter → /:lang/books/:book/:chapter/
  */
 export default function Custom404() {
   const router = useRouter();
