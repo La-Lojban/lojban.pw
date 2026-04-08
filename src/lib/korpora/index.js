@@ -303,7 +303,7 @@ async function processSheet(sheet, title) {
         }
         const prettifiedLang = lang.replace(/\|\|/g, "").trim();
         const nowrapAttr = lang.includes("||") ? ' data-korpora-nowrap=""' : "";
-        table.push(`<th scope="col" class="w-40 p-2 korpora-col"${nowrapAttr} data-korpora-col="${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`);
+        table.push(`<th scope="col" class="p-2 korpora-col"${nowrapAttr} data-korpora-col="${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`);
         const btnLabel = locales_json_1.languages[lang]
             ?.native ??
             locales_json_1.languages[prettifiedLang]?.native ??

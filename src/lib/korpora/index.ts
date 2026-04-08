@@ -362,7 +362,7 @@ async function processSheet(
     const prettifiedLang = lang.replace(/\|\|/g, "").trim();
     const nowrapAttr = lang.includes("||") ? ' data-korpora-nowrap=""' : "";
     table.push(
-      `<th scope="col" class="w-40 p-2 korpora-col"${nowrapAttr} data-korpora-col="${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`
+      `<th scope="col" class="p-2 korpora-col"${nowrapAttr} data-korpora-col="${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`
     );
     const btnLabel =
       (languages as Record<string, { native?: string; short?: string; direction?: string }>)[lang]

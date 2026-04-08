@@ -821,37 +821,45 @@ div.mermaid > svg foreignObject > div {
   margin-bottom: 0.75rem;
 }
 
+/* Brand: deep-orange + brown (see tailwind.config.js) */
 .korpora-root .korpora-col-toggle {
   border: none;
   cursor: pointer;
   border-radius: 0.25rem;
   box-shadow:
-    0 1px 3px 0 rgb(0 0 0 / 0.1),
+    0 1px 3px 0 rgb(0 0 0 / 0.12),
     0 1px 2px -1px rgb(0 0 0 / 0.1);
   font-weight: 700;
   line-height: 1.5;
   user-select: none;
   padding: 0.5rem 1rem;
-  background-color: #ccfbf1;
-  color: #111827;
+  background-color: #ffab91;
+  color: #3e2723;
 }
 
 .korpora-root .korpora-col-toggle:hover,
 .korpora-root .korpora-col-toggle:focus-visible {
-  background-color: #0d9488;
+  background-color: #f4511e;
   color: #fff;
   outline: none;
 }
 
 .korpora-root .korpora-col-toggle[aria-pressed="true"] {
-  background-color: #fff;
-  color: #999;
+  background-color: #efebe9;
+  color: #8d6e63;
+}
+
+/* Equal flex in table-fixed: visible columns share full width (no 400px cap) */
+.korpora-root table.table-fixed {
+  width: 100%;
 }
 
 .korpora-root th.korpora-col,
 .korpora-root td.korpora-col {
-  min-width: 200px;
-  max-width: 400px;
+  min-width: min(12rem, 100%);
+  width: 1%;
+  max-width: none;
+  vertical-align: top;
 }
 
 .korpora-root th.korpora-col[data-korpora-nowrap],
@@ -884,10 +892,12 @@ input[type="checkbox"][id^="hide-column-"]:checked + label {
   color: #999;
 }
 
-article th[class*="column-class-"],
-article td[class*="column-class-"] {
-  min-width: 200px;
-  max-width: 400px;
+article table.table-fixed th[class*="column-class-"],
+article table.table-fixed td[class*="column-class-"] {
+  min-width: min(12rem, 100%);
+  width: 1%;
+  max-width: none;
+  vertical-align: top;
 }
 
 .inner-table {
