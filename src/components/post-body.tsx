@@ -54,6 +54,7 @@ function PostBody({
   posts,
   lang,
   siteSection,
+  suppressPdfLink,
 }: PostProps<{ galleryShown: boolean; currentImgUrl: string | null }>) {
   const content = useMemo(
     () => buildDOMFromJSONBasic(post.content, { state, setState }),
@@ -64,7 +65,11 @@ function PostBody({
   return (
     <>
       <ArticleShell hasToc={!!hasToc}>
-        <PostHeader post={post} siteSection={siteSection} />
+        <PostHeader
+          post={post}
+          siteSection={siteSection}
+          suppressPdfLink={suppressPdfLink}
+        />
         <ContentWrapperClasses isBookPath={isBookPath} />
         {content}
         {post["meta.type"] === "korpora" ? (

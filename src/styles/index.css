@@ -436,7 +436,7 @@ dd::after {
 /* Article — tables                                                             */
 /* -------------------------------------------------------------------------- */
 
-article table {
+article table:not([data-korpora-grid]) {
   @apply shadow table-auto divide-y divide-gray-200 w-full border border-collapse border-gray-200 rounded-sm;
 }
 
@@ -448,24 +448,24 @@ article table {
   @apply mb-4 overflow-x-auto rounded-sm;
 }
 
-article table thead {
+article table:not([data-korpora-grid]) thead {
   @apply bg-gray-50;
 }
 
-article table th,
+article table:not([data-korpora-grid]) th,
 article .first_col table tr td:first-child {
   @apply align-top text-center font-bold tracking-wider px-3 py-4 border border-collapse border-gray-200;
 }
 
-article table tbody {
+article table:not([data-korpora-grid]) tbody {
   @apply bg-white divide-y divide-gray-200;
 }
 
-article table tbody tr {
+article table:not([data-korpora-grid]) tbody tr {
   @apply hover:bg-gray-100;
 }
 
-article table tbody td,
+article table:not([data-korpora-grid]) tbody td,
 article .first_col table tr td:first-child {
   @apply align-top text-left px-3 py-4 border border-collapse border-gray-200;
 }
@@ -811,18 +811,25 @@ div.mermaid > svg foreignObject > div {
 }
 
 /* -------------------------------------------------------------------------- */
-/* Korpora corpus tables (layout; visibility via JS + .korpora-col--hidden)   */
+/* Korpora — multilingual corpus                                                */
+/* Generator sets data-korpora-grid on <table> so transformers.ts skips the   */
+/* md-typeset inline-block wrapper. Styles are scoped to .korpora / .korpora__* */
 /* -------------------------------------------------------------------------- */
 
-.korpora-root .korpora-toolbar {
+article section.korpora {
+  width: 100%;
+  max-width: 100%;
+}
+
+.korpora__toolbar {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 0.75rem;
 }
 
-/* Brand: deep-orange + brown (see tailwind.config.js) */
-.korpora-root .korpora-col-toggle {
+/* Brand: deep-orange + brown (tailwind.config.js) */
+.korpora__toggle {
   border: none;
   cursor: pointer;
   border-radius: 0.25rem;
@@ -837,44 +844,121 @@ div.mermaid > svg foreignObject > div {
   color: #3e2723;
 }
 
-.korpora-root .korpora-col-toggle:hover,
-.korpora-root .korpora-col-toggle:focus-visible {
+.korpora__toggle:hover,
+.korpora__toggle:focus-visible {
   background-color: #f4511e;
   color: #fff;
   outline: none;
 }
 
-.korpora-root .korpora-col-toggle[aria-pressed="true"] {
+.korpora__toggle[aria-pressed="true"] {
   background-color: #efebe9;
   color: #8d6e63;
 }
 
-/* Equal flex in table-fixed: visible columns share full width (no 400px cap) */
-.korpora-root table.table-fixed {
+.korpora__scroll {
   width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
-.korpora-root th.korpora-col,
-.korpora-root td.korpora-col {
-  min-width: min(12rem, 100%);
+article table.korpora__table[data-korpora-grid] {
+  display: table;
+  width: 100%;
+  min-width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #111827;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.125rem;
+  background: #fff;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.06);
+}
+
+.korpora__thead {
+  border-bottom: 1px solid #e5e7eb;
+  background: #f9fafb;
+}
+
+.korpora__th {
+  text-align: start;
+  font-weight: 700;
+  font-style: italic;
+  padding: 0.5rem 0.625rem;
+  vertical-align: top;
+  border: 1px solid #e5e7eb;
+}
+
+.korpora__td {
+  padding: 0.5rem 0.625rem;
+  vertical-align: top;
+  border: 1px solid #e5e7eb;
+  text-align: start;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.korpora__td--heading {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.korpora__td--meta {
+  font-style: italic;
+  color: #6b7280;
+}
+
+.korpora__td--rtl {
+  direction: rtl;
+  text-align: start;
+}
+
+.korpora tbody tr:hover .korpora__td {
+  background: #f3f4f6;
+}
+
+.korpora__figure-cell {
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem;
+  vertical-align: middle;
+}
+
+.korpora__figure-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.korpora__figure-img {
+  height: 14rem;
+  width: auto;
+  max-width: 100%;
+}
+
+.korpora__table th[data-korpora-col],
+.korpora__table td[data-korpora-col] {
+  min-width: 12rem;
   width: 1%;
   max-width: none;
-  vertical-align: top;
 }
 
-.korpora-root th.korpora-col[data-korpora-nowrap],
-.korpora-root td.korpora-col[data-korpora-nowrap] {
+.korpora__table th[data-korpora-nowrap],
+.korpora__table td[data-korpora-nowrap] {
   white-space: nowrap;
   overflow-x: auto;
-  max-width: none;
 }
 
-th.korpora-col--hidden,
-td.korpora-col--hidden {
-  display: none;
+.korpora__col--hidden {
+  display: none !important;
 }
 
-/* Legacy korpora markup (checkbox + column-class-*) until pages are regenerated */
+/* Legacy corpus pages (pre–section.korpora): checkbox + label toggles columns; hide the box only. */
 input[type="checkbox"][id^="hide-column-"] {
   position: absolute;
   width: 1px;
@@ -887,17 +971,46 @@ input[type="checkbox"][id^="hide-column-"] {
   border: 0;
 }
 
-input[type="checkbox"][id^="hide-column-"]:checked + label {
-  background-color: #fff;
-  color: #999;
+/* Legacy column chips: same shape as .korpora__toggle; teal variant (tailwind.config.js teal) */
+article label[for^="hide-column-"] {
+  float: left;
+  margin-right: 0.5rem;
+  margin-bottom: 0.35rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  box-shadow:
+    0 1px 3px 0 rgb(0 0 0 / 0.12),
+    0 1px 2px -1px rgb(0 0 0 / 0.1);
+  font-weight: 700;
+  line-height: 1.5;
+  user-select: none;
+  padding: 0.5rem 1rem;
+  background-color: #b2dfdb;
+  color: #004d40;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
 }
 
-article table.table-fixed th[class*="column-class-"],
-article table.table-fixed td[class*="column-class-"] {
-  min-width: min(12rem, 100%);
-  width: 1%;
-  max-width: none;
-  vertical-align: top;
+input[type="checkbox"][id^="hide-column-"]:not(:checked) + label[for^="hide-column-"]:hover {
+  background-color: #00897b;
+  color: #fff;
+}
+
+input[type="checkbox"][id^="hide-column-"]:focus-visible + label[for^="hide-column-"] {
+  outline: 2px solid #00796b;
+  outline-offset: 2px;
+}
+
+/* Column hidden (same muted treatment as .korpora__toggle[aria-pressed="true"]) */
+input[type="checkbox"][id^="hide-column-"]:checked + label[for^="hide-column-"] {
+  background-color: #efebe9;
+  color: #8d6e63;
+}
+
+input[type="checkbox"][id^="hide-column-"]:checked + label[for^="hide-column-"]:hover {
+  background-color: #d7ccc8;
+  color: #5d4037;
 }
 
 .inner-table {

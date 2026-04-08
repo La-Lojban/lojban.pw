@@ -1,8 +1,5 @@
 /**
- * SFC-style layout (dependency order: styles → markup → script):
- *   STYLES — (global `.korpora-*` in index.css)
- *   MARKUP — none (returns null)
- *   SCRIPT — column visibility + localStorage for `.korpora-root` blocks
+ * Korpora column visibility: modern `section.korpora` + buttons, or legacy checkbox + label rows.
  */
 import { useEffect } from "react";
 
@@ -37,27 +34,22 @@ function cellsForColumn(root: HTMLElement, colId: string) {
   );
 }
 
-function toggleButtonForColumn(root: HTMLElement, colId: string): HTMLButtonElement | null {
-  const found = Array.from(root.querySelectorAll("button.korpora-col-toggle[data-korpora-col]")).find(
-    (el) => el.getAttribute("data-korpora-col") === colId
+function toggleForColumn(root: HTMLElement, colId: string): HTMLButtonElement | null {
+  const found = Array.from(root.querySelectorAll("button.korpora__toggle[data-korpora-col]")).find(
+    (b) => b.getAttribute("data-korpora-col") === colId
   );
   return found instanceof HTMLButtonElement ? found : null;
 }
 
-function setColumnVisualState(root: HTMLElement, colId: string, hidden: boolean) {
-  for (const el of cellsForColumn(root, colId)) {
-    el.classList.toggle("korpora-col--hidden", hidden);
+function setColumnHidden(root: HTMLElement, colId: string, hidden: boolean) {
+  for (const cell of cellsForColumn(root, colId)) {
+    cell.classList.toggle("korpora__col--hidden", hidden);
   }
-  const btn = toggleButtonForColumn(root, colId);
+  const btn = toggleForColumn(root, colId);
   if (btn) btn.setAttribute("aria-pressed", hidden ? "true" : "false");
 }
 
-// -----------------------------------------------------------------------------
-// MARKUP
-// -----------------------------------------------------------------------------
-// (no visible UI; operates on markup from generated markdown)
-
-function legacyCellsForColumn(container: HTMLElement, colId: string) {
+function legacyCellsWithColumnClass(container: HTMLElement, colId: string) {
   const token = `column-class-${colId}`;
   return Array.from(container.querySelectorAll("th, td")).filter((el) =>
     el.classList.contains(token)
@@ -65,8 +57,8 @@ function legacyCellsForColumn(container: HTMLElement, colId: string) {
 }
 
 function setLegacyColumnHidden(container: HTMLElement, colId: string, hidden: boolean) {
-  for (const el of legacyCellsForColumn(container, colId)) {
-    el.classList.toggle("korpora-col--hidden", hidden);
+  for (const el of legacyCellsWithColumnClass(container, colId)) {
+    el.classList.toggle("korpora__col--hidden", hidden);
   }
   const input = document.getElementById(`hide-column-${colId}`);
   if (input instanceof HTMLInputElement) input.checked = hidden;
@@ -77,40 +69,36 @@ function colIdFromLegacyCheckbox(input: HTMLInputElement): string | null {
   return input.id.slice("hide-column-".length);
 }
 
-// -----------------------------------------------------------------------------
-// SCRIPT
-// -----------------------------------------------------------------------------
 export default function KorporaTableClient({ storageSlug }: { storageSlug: string }) {
   useEffect(() => {
-    const roots = document.querySelectorAll(".korpora-root");
+    const modernRoots = document.querySelectorAll("section.korpora");
     const cleanups: Array<() => void> = [];
 
-    if (roots.length > 0) {
-      roots.forEach((node) => {
+    if (modernRoots.length > 0) {
+      modernRoots.forEach((node) => {
         const root = node as HTMLElement;
-        const slug = root.dataset.korporaSlug;
+        const slug = root.dataset.korporaSlug ?? storageSlug;
         if (!slug) return;
 
         const map = readHiddenMap();
-        const hiddenList = map[slug] ?? [];
-        for (const colId of hiddenList) {
-          setColumnVisualState(root, colId, true);
+        for (const colId of map[slug] ?? []) {
+          setColumnHidden(root, colId, true);
         }
 
         const onClick = (e: MouseEvent) => {
           const t = e.target as HTMLElement | null;
-          const btn = t?.closest?.(".korpora-col-toggle");
+          const btn = t?.closest?.("button.korpora__toggle");
           if (!(btn instanceof HTMLButtonElement) || !root.contains(btn)) return;
           const colId = btn.dataset.korporaCol;
           if (!colId) return;
           const nowHidden = btn.getAttribute("aria-pressed") === "true";
           const nextHidden = !nowHidden;
-          setColumnVisualState(root, colId, nextHidden);
+          setColumnHidden(root, colId, nextHidden);
           const m = readHiddenMap();
-          const forSlug = new Set(m[slug] ?? []);
-          if (nextHidden) forSlug.add(colId);
-          else forSlug.delete(colId);
-          m[slug] = [...forSlug];
+          const set = new Set(m[slug] ?? []);
+          if (nextHidden) set.add(colId);
+          else set.delete(colId);
+          m[slug] = [...set];
           writeHiddenMap(m);
         };
 
@@ -128,9 +116,7 @@ export default function KorporaTableClient({ storageSlug }: { storageSlug: strin
     if (!legacyContainer || !storageSlug) return;
 
     const map = readHiddenMap();
-    const hiddenList = map[storageSlug] ?? [];
-    const hiddenSet = new Set(hiddenList);
-    for (const colId of hiddenSet) {
+    for (const colId of map[storageSlug] ?? []) {
       setLegacyColumnHidden(legacyContainer, colId, true);
     }
 
@@ -143,10 +129,10 @@ export default function KorporaTableClient({ storageSlug }: { storageSlug: strin
       const hidden = input.checked;
       setLegacyColumnHidden(legacyContainer, colId, hidden);
       const m = readHiddenMap();
-      const forSlug = new Set(m[storageSlug] ?? []);
-      if (hidden) forSlug.add(colId);
-      else forSlug.delete(colId);
-      m[storageSlug] = [...forSlug];
+      const set = new Set(m[storageSlug] ?? []);
+      if (hidden) set.add(colId);
+      else set.delete(colId);
+      m[storageSlug] = [...set];
       writeHiddenMap(m);
     };
 

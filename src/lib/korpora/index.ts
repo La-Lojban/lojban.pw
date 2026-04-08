@@ -343,8 +343,8 @@ async function processSheet(
   let table: string[] = [];
   let buttons: string[] = [];
   let columns: Record<string, string[]> = {};
-  table.push(`<table class="mt-2 table-fixed max-w-full border font-light text-left text-sm">
-    <thead class="border-b italic">`);
+  table.push(`<table data-korpora-grid class="korpora__table" lang="und">`);
+  table.push(`<thead class="korpora__thead">`);
   table.push(`<tr>`);
 
   const columnsWithTables: Record<string, boolean> = {};
@@ -362,7 +362,7 @@ async function processSheet(
     const prettifiedLang = lang.replace(/\|\|/g, "").trim();
     const nowrapAttr = lang.includes("||") ? ' data-korpora-nowrap=""' : "";
     table.push(
-      `<th scope="col" class="p-2 korpora-col"${nowrapAttr} data-korpora-col="${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`
+      `<th scope="col" class="korpora__th"${nowrapAttr} data-korpora-col="${cssfiedLangName}">${escapeHtml(prettifiedLang)}</th>`
     );
     const btnLabel =
       (languages as Record<string, { native?: string; short?: string; direction?: string }>)[lang]
@@ -372,7 +372,7 @@ async function processSheet(
       ]?.native ??
       prettifiedLang;
     buttons.push(
-      `<button type="button" class="korpora-col-toggle" data-korpora-col="${cssfiedLangName}" aria-pressed="false">${escapeHtml(btnLabel)}</button>`
+      `<button type="button" class="korpora__toggle" data-korpora-col="${cssfiedLangName}" aria-pressed="false">${escapeHtml(btnLabel)}</button>`
     );
   }
   table.push(`</tr>`);
@@ -442,19 +442,17 @@ async function processSheet(
     if (candidatePath) {
       ogImage = ogImage ?? candidatePath;
       table.push(
-        `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100">
-          <td colspan="${langs.length}">
-          <div class="h-full w-full flex justify-center items-center">
-          <img class="h-56" src="${candidatePath}"/>
+        `<tr class="korpora__row korpora__row--figure">
+          <td class="korpora__figure-cell" colspan="${langs.length}">
+          <div class="korpora__figure-wrap">
+          <img class="korpora__figure-img" src="${candidatePath}" alt="" />
           </div>
           </td>
         </tr>
         `
       );
     }
-    table.push(
-      `<tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:hover:bg-neutral-100">`
-    );
+    table.push(`<tr class="korpora__row">`);
     for (const lang of langs) {
       const l = cssifyName(lang);
       const cellNowrap = lang.includes("||") ? ' data-korpora-nowrap=""' : "";
@@ -468,14 +466,17 @@ async function processSheet(
       }
 
       const langInfo = languages as Record<string, { native?: string; short?: string; direction?: string }>;
-      table.push(
-        `<td class="${indexNum === 0
-          ? "font-bold "
-          : indexNum < 4 || italicizedRows.includes(indexNum + 1)
-            ? "italic text-gray-500 "
-            : ""
-        }${langInfo[lang]?.direction === "RTL" ? "text-right" : "text-left"} align-text-top p-2 korpora-col"${cellNowrap} data-korpora-col="${l}">${cellContent}</td>`
-      );
+      const tdClass = [
+        "korpora__td",
+        indexNum === 0 ? "korpora__td--heading" : "",
+        indexNum > 0 && (indexNum < 4 || italicizedRows.includes(indexNum + 1))
+          ? "korpora__td--meta"
+          : "",
+        langInfo[lang]?.direction === "RTL" ? "korpora__td--rtl" : "",
+      ]
+        .filter(Boolean)
+        .join(" ");
+      table.push(`<td class="${tdClass}"${cellNowrap} data-korpora-col="${l}">${cellContent}</td>`);
     }
     table.push(`</tr>`);
   }
@@ -525,14 +526,14 @@ async function writeFiles(
   const filepathMd = path.join(langedDirectory, slug + ".md");
 
   const contentMd = await prettier.format(
-    `<div class="korpora-root w-full" data-korpora-slug="texts/${slug}">
-  <div class="korpora-toolbar">
+    `<section class="korpora w-full" data-korpora-slug="texts/${slug}" aria-label="Corpus text">
+  <div class="korpora__toolbar" role="toolbar" aria-label="Language columns">
   ${buttons.join("\n  ")}
   </div>
-  <div class="w-full overflow-x-auto">
+  <div class="korpora__scroll">
 ${table.join("")}
   </div>
-</div>
+</section>
 `,
     { filepath: filepathMd }
   );

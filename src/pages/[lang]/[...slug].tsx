@@ -17,6 +17,7 @@ import {
   ArrowRightIcon,
   ChevronDoubleLeftIcon,
 } from "@heroicons/react/24/solid";
+import { PdfDocumentIcon } from "../../components/pdf-document-icon";
 import { getPostBySlug, getAllPosts, Items } from "../../lib/api";
 import markdownToHtml from "../../lib/markdownToHtml";
 import { TPost } from "../../types/post";
@@ -51,6 +52,9 @@ const tw = {
   /** Same card as NavigationWidget `navCluster` (no side margin — not beside scroll button). */
   bookNavCluster:
     "bg-white rounded-lg shadow-md p-2.5 flex items-center space-x-4 text-lg",
+  /** PDF link inside the cluster: flush hit target, separator only to the right. */
+  pdfInBar:
+    "inline-flex items-center justify-center shrink-0 p-0 m-0 leading-none rounded-sm text-deep-orange-400 hover:text-brown-600 hover:opacity-90 transition-all border-r border-gray-200 pr-3 print:hidden",
   iconLinkBrown: "text-brown-400 hover:text-brown-600 transition-colors mr-4",
   iconLinkOrange: "text-deep-orange-400 hover:text-brown-600 transition-colors",
   pageNum:
@@ -58,6 +62,7 @@ const tw = {
   spacer: "w-14 shrink-0",
   /** Match NavigationWidget: bolder solid Heroicons via stroke + paint-order. */
   bookIcon: "w-7 h-7 stroke-current [stroke-width:1] [paint-order:stroke_fill]",
+  pdfIconInBar: "block h-10 w-10 shrink-0",
 } as const;
 
 // -----------------------------------------------------------------------------
@@ -68,17 +73,24 @@ function BookChapterPaginationNav({
   prevPage,
   nextPage,
   currentPageNumber,
+  pdfHref,
 }: {
   resolvedPost: TPost;
   prevPage: string | null;
   nextPage: string | null;
   currentPageNumber?: number;
+  pdfHref?: string;
 }) {
   if (nextPage === null && prevPage === null) return null;
 
   return (
     <div className={tw.bookNavRow}>
       <div className={tw.bookNavCluster}>
+        {pdfHref ? (
+          <a href={pdfHref} className={tw.pdfInBar} title="Download PDF">
+            <PdfDocumentIcon className={tw.pdfIconInBar} />
+          </a>
+        ) : null}
         {resolvedPost.firstSiblingSlug !== undefined &&
         resolvedPost.firstSiblingSlug !== resolvedPost.slug.join("/") ? (
           <Link
@@ -257,6 +269,11 @@ function SlugPage({
           prevPage={prevPage}
           nextPage={nextPage}
           currentPageNumber={currentPageNumber}
+          pdfHref={
+            resolvedPost.slug[1] === siteSection
+              ? `/vreji/uencu/${resolvedPost.slug[0]}/${resolvedPost.slug[2]}.pdf`
+              : undefined
+          }
         />
 
         {state.galleryShown && resolvedPost.slug[1] === siteSection ? (
@@ -278,6 +295,10 @@ function SlugPage({
           setState={setState}
           hasToc={hasToc}
           siteSection={siteSection}
+          suppressPdfLink={
+            resolvedPost.slug[1] === siteSection &&
+            (prevPage !== null || nextPage !== null)
+          }
         />
         {hasToc ? <PageTocSidebar items={toc_list} /> : null}
       </div>

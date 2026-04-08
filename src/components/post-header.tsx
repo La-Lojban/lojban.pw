@@ -66,9 +66,11 @@ function PostHeaderTopRow({
 type Props = {
   post: TPost;
   siteSection?: string;
+  /** Hide header PDF when it appears in book chapter navigation. */
+  suppressPdfLink?: boolean;
 };
 
-function PostHeader({ post, siteSection }: Props) {
+function PostHeader({ post, siteSection, suppressPdfLink }: Props) {
   const { author, title, date } = post;
   const hasPdf = post && post.slug[1] === siteSection;
   const pdfHref = `/vreji/uencu/${post.slug[0]}/${post.slug[2]}.pdf`;
@@ -76,7 +78,7 @@ function PostHeader({ post, siteSection }: Props) {
   return (
     <>
       <PostHeaderTopRow
-        showPdf={!!hasPdf}
+        showPdf={!!hasPdf && !suppressPdfLink}
         pdfHref={pdfHref}
         title={title}
       />

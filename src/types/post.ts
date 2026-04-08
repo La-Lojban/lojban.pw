@@ -40,4 +40,6 @@ export type PostProps<S> = {
   setState?: React.Dispatch<React.SetStateAction<S>>;
   hasToc?: boolean;
   siteSection?: string;
+  /** When true, book PDF is shown in chapter nav only (not duplicated in header). */
+  suppressPdfLink?: boolean;
 };
