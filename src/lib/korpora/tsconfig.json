@@ -3,8 +3,8 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "commonjs",
-    "outDir": "./",
-    "noEmit": false,
+    "moduleResolution": "node",
+    "noEmit": true,
     "declaration": false,
     "sourceMap": false,
     "esModuleInterop": true,
