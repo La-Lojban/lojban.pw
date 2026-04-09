@@ -63,7 +63,11 @@ async function generatePDF(browser, url, shortLang, meta) {
       preferCSSPageSize: true,
       quality: 100,
       format: "A4",
-      margin: { top: "20px", right: "20px", bottom: "20px", left: "20px" },
+      displayHeaderFooter: true,
+      headerTemplate: "<div></div>",
+      footerTemplate:
+        '<div style="width:100%;font-size:9px;color:#4b5563;text-align:center;font-family:system-ui,Segoe UI,sans-serif;">Page <span class="pageNumber"></span></div>',
+      margin: { top: "12mm", right: "12mm", bottom: "18mm", left: "12mm" },
       timeout: PDF_GENERATION_TIMEOUT,
     });
 

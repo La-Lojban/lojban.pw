@@ -989,14 +989,6 @@ tr td .inner-table td {
 /* -------------------------------------------------------------------------- */
 
 @media print {
-  @page {
-    margin: 16mm 12mm 18mm 12mm;
-  }
-
-  body {
-    counter-reset: page;
-  }
-
   table td:before,
   table td:after {
     content: "";
@@ -1040,21 +1032,22 @@ tr td .inner-table td {
 
   .book-print-cover {
     position: relative;
-    min-height: calc(297mm - 34mm);
-    margin: -16mm -12mm 0;
+    min-height: calc(297mm - 30mm);
+    /* Pull to page edges; keep in sync with PDF margins in src/lib/printer/index.js */
+    margin: -12mm -12mm 0;
     padding: 20mm 18mm 24mm;
     break-after: page;
     overflow: hidden;
-    color: #1f2937;
+    color: #fafaf9;
   }
 
   .book-print-cover__backdrop {
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(circle at 15% 15%, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0) 45%),
-      radial-gradient(circle at 85% 80%, rgba(253, 230, 138, 0.35), rgba(253, 230, 138, 0) 35%),
-      linear-gradient(135deg, #fff7ed, #fffbeb 45%, #fefce8);
+      radial-gradient(ellipse 120% 80% at 10% 0%, rgba(234, 88, 12, 0.35), transparent 55%),
+      radial-gradient(circle at 90% 100%, rgba(120, 53, 15, 0.5), transparent 45%),
+      linear-gradient(165deg, #0c0a09 0%, #1c1917 38%, #292524 72%, #1c1917 100%);
     z-index: 0;
   }
 
@@ -1075,8 +1068,8 @@ tr td .inner-table td {
     object-fit: contain;
     border-radius: 8px;
     box-shadow:
-      0 12px 24px rgba(15, 23, 42, 0.15),
-      0 2px 6px rgba(15, 23, 42, 0.12);
+      0 16px 40px rgba(0, 0, 0, 0.45),
+      0 2px 8px rgba(0, 0, 0, 0.35);
   }
 
   .book-print-cover__title {
@@ -1086,6 +1079,7 @@ tr td .inner-table td {
     font-weight: 700;
     letter-spacing: 0.01em;
     text-wrap: balance;
+    color: #fafaf9;
   }
 
   .book-print-cover__description {
@@ -1093,34 +1087,24 @@ tr td .inner-table td {
     max-width: 140mm;
     font-size: 1.05rem;
     line-height: 1.45;
-    color: #374151;
+    color: #d6d3d1;
   }
 
+  /* Book PDF: must paginate across pages (global `div { break-inside: avoid }` would
+     block splits on this wrapper → blank / wrong continuation pages in Chromium). */
   .book-print-content {
+    break-inside: auto;
+    page-break-inside: auto;
     position: relative;
-    background:
-      linear-gradient(0deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),
-      repeating-linear-gradient(
-        -45deg,
-        rgba(148, 163, 184, 0.07) 0,
-        rgba(148, 163, 184, 0.07) 2.2mm,
-        transparent 2.2mm,
-        transparent 6.4mm
-      );
+    background-color: #fafafa;
+    background-image: repeating-linear-gradient(
+      -45deg,
+      rgba(148, 163, 184, 0.06) 0,
+      rgba(148, 163, 184, 0.06) 1px,
+      transparent 1px,
+      transparent 5mm
+    );
     border-radius: 6px;
     padding: 1.5mm 3mm 7mm;
-  }
-
-  .book-print-content::after {
-    counter-increment: page;
-    content: "Page " counter(page);
-    position: fixed;
-    bottom: 3mm;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-size: 0.72rem;
-    color: #4b5563;
-    letter-spacing: 0.03em;
   }
 }
