@@ -61,6 +61,7 @@
     "mermaid": "^11.14.0",
     "playwright-core": "^1.57.0",
     "postcss": "^8.5.8",
+    "pdf-lib": "^1.17.1",
     "prettier": "^3.8.1",
     "rehype-katex": "^7.0.1",
     "rehype-parse": "^8.0.4",
