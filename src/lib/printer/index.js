@@ -4,6 +4,10 @@ const path = require("path");
 const { sluggify } = require("../html-prettifier/slugger");
 const { languages } = require("../../config/locales.json");
 const { getMdPagesPath, getVrejiPath } = require("../paths");
+const {
+  stampBookPageNumbers,
+  coverPageCountForBookUrl,
+} = require("./stamp-book-page-numbers");
 
 const allLanguages = Object.keys(languages);
 
@@ -24,6 +28,56 @@ const CONCURRENCY_LIMIT = (() => {
 
 const PAGE_TIMEOUT = 300000; // 5 minutes timeout for page operations (large books need time)
 const PDF_GENERATION_TIMEOUT = 600000; // 10 minutes timeout for PDF generation
+
+/**
+ * Scroll the page (lazy images, content-visibility) and wait until every <img> has finished
+ * loading (or errored). Avoids PDFs with empty placeholders where images were still in flight.
+ */
+async function waitForImagesReady(page) {
+  const scrollPass = () =>
+    page.evaluate(async () => {
+      const delay = (ms) => new Promise((r) => setTimeout(r, ms));
+      const h = window.innerHeight || 800;
+      const maxY = Math.max(
+        document.documentElement.scrollHeight,
+        document.body?.scrollHeight ?? 0,
+      );
+      for (let y = 0; y <= maxY; y += Math.max(120, Math.floor(h * 0.75))) {
+        window.scrollTo(0, y);
+        await delay(35);
+      }
+      window.scrollTo(0, 0);
+      await delay(80);
+    });
+
+  await scrollPass();
+
+  await page.waitForFunction(
+    () => Array.from(document.images).every((img) => img.complete),
+    { timeout: PAGE_TIMEOUT },
+  );
+
+  // New images can appear after lazy-mount; second pass + wait again.
+  await scrollPass();
+
+  await page.waitForFunction(
+    () => Array.from(document.images).every((img) => img.complete),
+    { timeout: PAGE_TIMEOUT },
+  );
+
+  await page
+    .evaluate(async () => {
+      await document.fonts.ready.catch(() => {});
+      await Promise.all(
+        Array.from(document.images).map((img) =>
+          img.decode().catch(() => {}),
+        ),
+      );
+    })
+    .catch(() => {});
+
+  await page.waitForTimeout(150);
+}
 
 /** Run async work over items with at most `concurrency` in flight (global pool). */
 async function mapPool(items, concurrency, fn) {
@@ -51,24 +105,25 @@ async function generatePDF(browser, url, shortLang, meta) {
     page.setDefaultTimeout(PAGE_TIMEOUT);
     
     await page.goto(url, {
-      waitUntil: "load", // Changed from "networkidle" - just wait for page load, not all network activity
+      waitUntil: "load",
       timeout: PAGE_TIMEOUT,
     });
-    
-    // Give the page a bit more time to settle after load
-    await page.waitForTimeout(2000);
 
-    const pdf = await page.pdf({
+    await waitForImagesReady(page);
+
+    let pdf = await page.pdf({
       printBackground: true,
       preferCSSPageSize: true,
       quality: 100,
       format: "A4",
-      displayHeaderFooter: true,
-      headerTemplate: "<div></div>",
-      footerTemplate:
-        '<div style="width:100%;font-size:9px;color:#4b5563;text-align:center;font-family:system-ui,Segoe UI,sans-serif;">Page <span class="pageNumber"></span></div>',
-      margin: { top: "12mm", right: "12mm", bottom: "18mm", left: "12mm" },
+      /* Chromium footers always count from page 1; we stamp numbers in stamp-book-page-numbers.js so page 1 = first page after cover. */
+      displayHeaderFooter: false,
+      margin: { top: "0", right: "0", bottom: "0", left: "0" },
       timeout: PDF_GENERATION_TIMEOUT,
+    });
+
+    pdf = await stampBookPageNumbers(pdf, {
+      coverPageCount: coverPageCountForBookUrl(url),
     });
 
     const vrejiPath = getVrejiPath();

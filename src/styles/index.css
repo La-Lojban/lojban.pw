@@ -1125,6 +1125,17 @@ tr td .inner-table td {
 /* -------------------------------------------------------------------------- */
 
 @media print {
+  /* PDF generator uses zero page margins; avoid stray body offset around full-bleed blocks. */
+  html,
+  body {
+    margin: 0 !important;
+  }
+
+  /* Let book cover negative margins / full-bleed paint past the scroll container (screen uses overflow-y-auto). */
+  #main-content {
+    overflow: visible !important;
+  }
+
   table td:before,
   table td:after {
     content: "";
@@ -1166,14 +1177,59 @@ tr td .inner-table td {
     break-inside: avoid;
   }
 
+  /* Keep figures (image + caption) on one page — <figure> is not a div, so it needs its own rule. */
+  figure,
+  article figure {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Full-bleed light background (PDF margins are 0; see lib/printer/index.js). */
+  .book-print-root {
+    position: relative;
+    padding: 11mm 12mm 18mm;
+    break-inside: auto;
+    page-break-inside: auto;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .book-print-root::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-color: #f8fafc;
+    background-image:
+      radial-gradient(ellipse 90% 55% at 50% -15%, rgba(148, 163, 184, 0.18), transparent 52%),
+      repeating-linear-gradient(
+        -45deg,
+        rgba(148, 163, 184, 0.055) 0,
+        rgba(148, 163, 184, 0.055) 1px,
+        transparent 1px,
+        transparent 4.25mm
+      );
+    pointer-events: none;
+  }
+
+  /* Book index: title already on cover — hide duplicate heading if it sits right after the cukta hook. */
+  .book-print-root[data-book-main="true"] .cukta + h1 {
+    display: none;
+  }
+
   .book-print-cover {
     position: relative;
-    min-height: calc(297mm - 30mm);
-    /* Pull to page edges; keep in sync with PDF margins in src/lib/printer/index.js */
-    margin: -12mm -12mm 0;
-    padding: 20mm 18mm 24mm;
+    z-index: 1;
+    box-sizing: border-box;
+    /* Cancel .book-print-root padding on every side so the dark cover reaches the paper edges */
+    margin: -11mm -12mm 0 -12mm;
+    width: calc(100% + 24mm);
+    max-width: none;
+    /* Full first sheet — matches Chromium print viewport height with zero PDF margins. */
+    min-height: 100vh;
+    padding: 18mm 14mm 22mm;
     break-after: page;
-    overflow: hidden;
+    overflow: visible;
     color: #fafaf9;
   }
 
@@ -1232,15 +1288,9 @@ tr td .inner-table td {
     break-inside: auto;
     page-break-inside: auto;
     position: relative;
-    background-color: #fafafa;
-    background-image: repeating-linear-gradient(
-      -45deg,
-      rgba(148, 163, 184, 0.06) 0,
-      rgba(148, 163, 184, 0.06) 1px,
-      transparent 1px,
-      transparent 5mm
-    );
+    z-index: 0;
+    background: transparent;
     border-radius: 6px;
-    padding: 1.5mm 3mm 7mm;
+    padding: 0 0 6mm;
   }
 }

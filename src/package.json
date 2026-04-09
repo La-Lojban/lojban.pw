@@ -19,6 +19,7 @@
     "clearup-serve": "lsof -t -i:3000 | xargs --no-run-if-empty kill -9 && next telemetry disable",
     "cleanup": "node scripts/run-with-paths.js sh -c 'rm -rf ${MD_PAGES_PATH}/text'",
     "algolia-index": "node scripts/algolia-index.js",
+    "korpora:cnino": "tsx scripts/korpora.ts",
     "clean": "rm -rf .next",
     "typecheck": "tsc"
   },
@@ -54,6 +55,7 @@
     "@types/unist": "^3.0.3",
     "archiver": "^7.0.1",
     "dotenv": "^17.2.3",
+    "google-spreadsheet": "^5.2.0",
     "gray-matter": "^4.0.3",
     "jsdom": "^25.0.1",
     "mermaid": "^11.14.0",

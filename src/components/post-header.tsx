@@ -47,15 +47,21 @@ function PostHeaderTopRow({
   showPdf,
   pdfHref,
   title,
+  printHideTitle,
 }: {
   showPdf: boolean;
   pdfHref: string;
   title?: string;
+  printHideTitle?: boolean;
 }) {
   return (
     <div className={tw.headerRow}>
       {showPdf ? <PdfDownloadLink href={pdfHref} /> : null}
-      {title ? <PostTitle>{title}</PostTitle> : null}
+      {title ? (
+        <div className={printHideTitle ? "print:hidden" : undefined}>
+          <PostTitle>{title}</PostTitle>
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -68,9 +74,11 @@ type Props = {
   siteSection?: string;
   /** Hide header PDF when it appears in book chapter navigation. */
   suppressPdfLink?: boolean;
+  /** Hide the title row in print (e.g. book index: title already on cover). */
+  printHideTitle?: boolean;
 };
 
-function PostHeader({ post, siteSection, suppressPdfLink }: Props) {
+function PostHeader({ post, siteSection, suppressPdfLink, printHideTitle }: Props) {
   const { author, title, date } = post;
   const hasPdf = post && post.slug[1] === siteSection;
   const pdfHref = `/vreji/uencu/${post.slug[0]}/${post.slug[2]}.pdf`;
@@ -81,6 +89,7 @@ function PostHeader({ post, siteSection, suppressPdfLink }: Props) {
         showPdf={!!hasPdf && !suppressPdfLink}
         pdfHref={pdfHref}
         title={title}
+        printHideTitle={printHideTitle}
       />
       {author?.name ? (
         <div className={tw.avatarDesktop}>

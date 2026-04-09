@@ -30,7 +30,7 @@ pnpm start &
 SERVER_PID=$!
 echo "Started server with PID: $SERVER_PID"
 
-# Wait for the server to be ready
+# Wait for the server to be ready (cwd is package root: …/src, not repo root)
 node lib/printer/wait-for-server.js
 
 # Generate PDFs
@@ -45,7 +45,7 @@ fi
 
 # Shrink PDFs
 echo "Shrinking PDFs..."
-sh ./lib/printer/shrink-pdf.sh
+sh lib/printer/shrink-pdf.sh
 SHRINK_EXIT_CODE=$?
 
 if [ $SHRINK_EXIT_CODE -ne 0 ]; then

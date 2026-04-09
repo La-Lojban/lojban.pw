@@ -35,17 +35,38 @@ function ContentWrapperClasses({ isBookPath }: { isBookPath: boolean }) {
 
 function ArticleShell({
   hasToc,
+  bookPrintRoot,
+  bookMainPage,
   children,
 }: {
   hasToc: boolean;
+  bookPrintRoot?: boolean;
+  bookMainPage?: boolean;
   children: ReactNode;
 }) {
-  return <div className={articleShellClass(hasToc)}>{children}</div>;
+  const shellClass = [
+    articleShellClass(hasToc),
+    bookPrintRoot ? "book-print-root" : null,
+  ]
+    .filter(Boolean)
+    .join(" ");
+  return (
+    <div
+      className={shellClass}
+      {...(bookMainPage ? { "data-book-main": "true" } : {})}
+    >
+      {children}
+    </div>
+  );
 }
 
 function BookPdfCover({ post }: { post: PostProps<unknown>["post"] }) {
+  const titleLine = post["meta.title"] ?? post.title;
   const description =
-    post["meta.description"] || post.excerpt || "Lojban book edition";
+    post["meta.description"] ||
+    (post as { description?: string }).description ||
+    post.excerpt ||
+    "Lojban book edition";
   return (
     <section className="book-print-cover" aria-hidden>
       <div className="book-print-cover__backdrop" />
@@ -53,11 +74,11 @@ function BookPdfCover({ post }: { post: PostProps<unknown>["post"] }) {
         {post.coverImage ? (
           <img
             src={post.coverImage}
-            alt={`${post.title} cover`}
+            alt={`${titleLine} cover`}
             className="book-print-cover__image"
           />
         ) : null}
-        <h1 className="book-print-cover__title">{post.title}</h1>
+        <h1 className="book-print-cover__title">{titleLine}</h1>
         <p className="book-print-cover__description">{description}</p>
       </div>
     </section>
@@ -90,13 +111,18 @@ function PostBody({
 
   return (
     <>
-      <ArticleShell hasToc={!!hasToc}>
+      <ArticleShell
+        hasToc={!!hasToc}
+        bookPrintRoot={isBookPath}
+        bookMainPage={isBookMainPage}
+      >
         {showBookStyleCover ? <BookPdfCover post={post} /> : null}
         <div className={isBookPath ? "book-print-content" : undefined}>
           <PostHeader
             post={post}
             siteSection={siteSection}
             suppressPdfLink={suppressPdfLink}
+            printHideTitle={isBookMainPage}
           />
           <ContentWrapperClasses isBookPath={isBookPath} />
           {content}
