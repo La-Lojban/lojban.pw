@@ -847,9 +847,9 @@ article table.korpora__table[data-korpora-grid] {
   table-layout: fixed;
   border-color: rgb(229 231 235);
   @apply rounded-sm bg-white shadow-sm;
-  /* Equal shares 100%/N; total width at least N×12rem so each column can stay ≥12rem (scroll inside .korpora__scroll) */
-  width: max(100%, calc(var(--korpora-visible-cols, 1) * 12rem));
-  min-width: max(100%, calc(var(--korpora-visible-cols, 1) * 12rem));
+  /* Equal shares 100%/N; min total width N×8rem so narrow viewports scroll inside .korpora__scroll */
+  width: max(100%, calc(var(--korpora-visible-cols, 1) * 8rem));
+  min-width: max(100%, calc(var(--korpora-visible-cols, 1) * 8rem));
 }
 
 .korpora__thead {
@@ -857,11 +857,11 @@ article table.korpora__table[data-korpora-grid] {
 }
 
 .korpora__th {
-  @apply border border-gray-200 px-2.5 py-2 text-start align-top font-bold italic;
+  @apply border border-gray-200 px-2 py-1.5 text-start align-top font-bold italic;
 }
 
 .korpora__td {
-  @apply border border-gray-200 px-2.5 py-2 text-start align-top break-words;
+  @apply border border-gray-200 px-2 py-1.5 text-start align-top break-words;
 }
 
 .korpora__td--heading {
@@ -882,7 +882,7 @@ article table.korpora__table[data-korpora-grid] {
 }
 
 .korpora__figure-cell {
-  @apply border border-gray-200 p-2 align-middle;
+  @apply border border-gray-200 p-1.5 align-middle;
 }
 
 .korpora__figure-wrap {
@@ -895,7 +895,7 @@ article table.korpora__table[data-korpora-grid] {
 
 .korpora__table th[data-korpora-col]:not(.korpora__col--hidden),
 .korpora__table td[data-korpora-col]:not(.korpora__col--hidden) {
-  min-width: 12rem;
+  min-width: 8rem;
   width: calc(100% / var(--korpora-visible-cols, 1));
   max-width: none;
 }
