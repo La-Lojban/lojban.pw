@@ -39,9 +39,9 @@ const AlgoliaSearchOverlay = dynamic(
 // STYLES
 // -----------------------------------------------------------------------------
 const tw = {
-  popoverNav: "z-50 shadow-md print:hidden",
-  inner: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
-  bar: "flex items-center justify-between h-12",
+  popoverNav: "z-50 overflow-visible shadow-md print:hidden",
+  inner: "max-w-7xl mx-auto overflow-visible px-4 sm:px-6 lg:px-8",
+  bar: "flex h-12 items-center justify-between overflow-visible",
   leftCluster: "flex items-center",
   logoWrap: "flex-shrink-0",
   logoLink: "hover:no-underline",
@@ -56,19 +56,19 @@ const tw = {
   navBtnIconWrap:
     "absolute flex items-center justify-center text-xl opacity-80 left-1 top-1 bottom-1",
   navBtnLabel: "py-1 relative z-10 pl-4",
-  rightCluster: "flex items-center",
+  rightCluster: "flex items-center overflow-visible",
   langSelectMobile:
     "sm:hidden mr-3 h-8 inline-block my-auto py-1 px-2 bg-gray-100 border border-gray-300 hover:border-gray-400 rounded-md shadow-md text-gray-600 outline-none appearance-none",
   burgerBtn:
     "select-none inline-flex items-center justify-center p-2 rounded-md text-white focus:outline-none transition-all duration-150 hover:shadow-lg hover:scale-110",
   burgerIcon: "block h-6 w-6",
   panel: "bg-gray-100 shadow-lg",
-  panelInner: "flex flex-col gap-3 pt-2 pb-0",
+  panelInner: "flex flex-col gap-0 py-2",
   burgerLinksRow: "mx-2 flex flex-wrap gap-1.5 sm:mx-3",
   burgerMenuLink:
     "inline-flex max-w-full min-w-0 items-center rounded-md border border-gray-400/50 bg-white px-2 py-1 text-xs font-medium text-black shadow-sm in-topbar-toc hover:no-underline sm:px-2.5 sm:py-1.5 sm:text-sm active:translate-y-px",
   tocHeading:
-    "flex flex-wrap items-center gap-2 bg-gray-200 min-w-0",
+    "mt-2 flex flex-wrap items-center gap-2 bg-gray-200 min-w-0",
   tocNav:
     "toc mb-0 w-full bottom-0 md:top-20 h-48 md:h-screen font-medium text-sm overflow-ellipsis",
   tocScroll: "mb-0 h-full space-y-1 overflow-y-auto pb-0",
@@ -161,14 +161,16 @@ function LanguageSelectMobile({
       <option key={`bangu-${currentLanguage}`} value={path}>
         {langDict[currentLanguage]}
       </option>
-      {posts.map((p) => (
-        <option
-          key={`bangu-${p.language}`}
-          value={p.fullPath as string}
-        >
-          {langDict[p.language as keyof typeof langDict]}
-        </option>
-      ))}
+      {posts
+        .filter((p) => p.language !== currentLanguage)
+        .map((p) => (
+          <option
+            key={`bangu-${p.language}`}
+            value={p.fullPath as string}
+          >
+            {langDict[p.language as keyof typeof langDict]}
+          </option>
+        ))}
     </select>
   );
 }
@@ -254,7 +256,7 @@ function TopbarTocSection({
 }) {
   const tocHeadingLabel = currentPageContentsLabel(currentLanguage);
   return (
-    <div className="flex min-w-0 flex-col">
+    <div className="mt-0 flex min-w-0 flex-col">
       <h1 className={`${tw.tocHeading} ${tw.tocLinkBase}`}>
         <ListBulletIcon
           className="h-6 w-6 flex-shrink-0"

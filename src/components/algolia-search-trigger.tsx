@@ -12,7 +12,7 @@ import { isAlgoliaConfigured } from "../lib/algolia";
 // -----------------------------------------------------------------------------
 const tw = {
   buttonBase:
-    "ml-2 p-2 rounded-md text-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-white transition-all duration-150 hover:shadow-md",
+    "mx-2 p-2 rounded-md text-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-white transition-all duration-150 hover:shadow-md",
   icon: "h-5 w-5",
 } as const;
 
