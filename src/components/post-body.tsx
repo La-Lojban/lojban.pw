@@ -15,7 +15,7 @@ import KorporaTableClient from "./korpora-table-client";
 // STYLES
 // -----------------------------------------------------------------------------
 function articleShellClass(hasToc: boolean) {
-  return `mb-8 mt-3 mx-auto w-full print:bg-white ${
+  return `mb-8 mt-3 mx-auto w-full ${
     hasToc ? "md:w-3/5 " : ""
   }bg-gray-100`;
 }
@@ -43,6 +43,27 @@ function ArticleShell({
   return <div className={articleShellClass(hasToc)}>{children}</div>;
 }
 
+function BookPdfCover({ post }: { post: PostProps<unknown>["post"] }) {
+  const description =
+    post["meta.description"] || post.excerpt || "Lojban book edition";
+  return (
+    <section className="book-print-cover" aria-hidden>
+      <div className="book-print-cover__backdrop" />
+      <div className="book-print-cover__inner">
+        {post.coverImage ? (
+          <img
+            src={post.coverImage}
+            alt={`${post.title} cover`}
+            className="book-print-cover__image"
+          />
+        ) : null}
+        <h1 className="book-print-cover__title">{post.title}</h1>
+        <p className="book-print-cover__description">{description}</p>
+      </div>
+    </section>
+  );
+}
+
 // -----------------------------------------------------------------------------
 // SCRIPT
 // -----------------------------------------------------------------------------
@@ -61,23 +82,27 @@ function PostBody({
     [post.content, state, setState]
   );
   const isBookPath = post.slug[1] === "books";
+  const isBookMainPage = isBookPath && post.slug.length === 3;
 
   return (
     <>
       <ArticleShell hasToc={!!hasToc}>
-        <PostHeader
-          post={post}
-          siteSection={siteSection}
-          suppressPdfLink={suppressPdfLink}
-        />
-        <ContentWrapperClasses isBookPath={isBookPath} />
-        {content}
-        {post["meta.type"] === "korpora" ? (
-          <KorporaTableClient storageSlug={post.slug.slice(1).join("/")} />
-        ) : null}
-        {posts && posts.length > 0 ? (
-          <AllStories posts={posts} lang={lang} />
-        ) : null}
+        {isBookMainPage ? <BookPdfCover post={post} /> : null}
+        <div className={isBookPath ? "book-print-content" : undefined}>
+          <PostHeader
+            post={post}
+            siteSection={siteSection}
+            suppressPdfLink={suppressPdfLink}
+          />
+          <ContentWrapperClasses isBookPath={isBookPath} />
+          {content}
+          {post["meta.type"] === "korpora" ? (
+            <KorporaTableClient storageSlug={post.slug.slice(1).join("/")} />
+          ) : null}
+          {posts && posts.length > 0 ? (
+            <AllStories posts={posts} lang={lang} />
+          ) : null}
+        </div>
       </ArticleShell>
     </>
   );
