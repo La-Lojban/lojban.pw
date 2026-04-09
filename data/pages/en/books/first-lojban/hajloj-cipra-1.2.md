@@ -8,8 +8,6 @@ This page is a version of the official exam (originally in Japanese):
 - Source PDF: [hajloj_cipra_1.2.pdf](https://cogas.github.io/hajiloji/article/drata/hajloj_cipra_1.2.pdf) (Cogas / Hajiloji)
 - Answer key: [Hajiloji final exam — answer key (1.2)](/en/books/first-lojban/hajloj-cipra-danfu-1.2/)
 
----
-
 ## Hajime no Lojban ▶ New Game — Final Exam
 
 (100 points total · 45–60 min)

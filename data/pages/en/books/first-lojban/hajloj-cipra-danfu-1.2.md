@@ -5,8 +5,6 @@ description: English translation of the answer key for the "Hajime no Lojban ▶
 
 The _questions_ are on a [separate page](/en/books/first-lojban/hajloj-cipra-1.2/); this file is _answers and commentary only_.
 
----
-
 ## Hajime no Lojban ▶ New Game — Final Exam Answer Key
 
 (100 points total · 45–60 min)

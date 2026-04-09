@@ -20,7 +20,7 @@ https://lojban.pw website source code
 ### Without Docker
 All [src/package.json](src/package.json) scripts are meant to be run from the `src/` directory.
 
-* **Prerequisites:** Node.js 24 or newer (see `engines` in `src/package.json`), [pnpm](https://pnpm.io/) 9.x (matches `packageManager` there), and Python 3 (used by the `start` script to serve the static `out/` folder).
+* **Prerequisites:** Node.js 24 or newer (see `engines` in `src/package.json`), [pnpm](https://pnpm.io/) 10.x (matches `packageManager` there), and Python 3 (used by the `start` script to serve the static `out/` folder).
 * **Content paths:** Outside Docker, [src/lib/paths.js](src/lib/paths.js) reads site content from the repo’s `data/` tree (`data/pages`, `data/assets`, `data/DNS`, `data/.cache`, `tmp/`). Keep `src/config/` in line with `data/config/` the same way Docker bind-mounts `data/config` onto `src/config/`.
 * **Static assets:** There is no build step that copies `data/assets` into `src/public/`. The canonical tree is `data/assets/`; [src/public/assets](src/public/assets) is a **symlink** to `../../data/assets` (tracked in git) so Next.js serves `/assets/*` from the same files. **Docker:** bind-mount `src/` to `/app/src` **first**, then mount `data/assets` → `/app/src/public/assets` (and the other `data/*` overlays) so those mounts replace the symlink inside the container — see [Makefile](Makefile) `dev` and [.github/workflows/main.yml](.github/workflows/main.yml).
 * **Environment:** Docker loads the repo-root `.env` via `--env-file`. Next.js loads `.env` from the app directory, so copy or symlink the root `.env` to `src/.env` (for example from the repo root: `ln -sf ../.env src/.env`) so local runs see the same variables.

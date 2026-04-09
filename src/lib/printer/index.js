@@ -132,12 +132,17 @@ async function printPDF() {
 
   // Launch a single browser instance for all languages to reuse
   const browser = await playwright.chromium.launch({
+    // In CI, PLAYWRIGHT_BROWSERS_PATH is set and playwright finds its own browser there.
+    // Locally (no downloaded browsers), fall back to the system Chrome.
+    ...(process.env.PLAYWRIGHT_BROWSERS_PATH
+      ? {}
+      : { executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH ?? "/usr/bin/google-chrome" }),
     headless: true,
     args: [
       "--disable-dev-shm-usage",
       "--no-sandbox",
       "--disable-setuid-sandbox",
-      "--disable-gpu", // Faster in headless mode
+      "--disable-gpu",
       "--disable-software-rasterizer",
     ],
   });

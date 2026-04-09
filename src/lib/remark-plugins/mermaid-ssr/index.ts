@@ -70,6 +70,11 @@ const remarkMermaid: Plugin<[RemarkMermaidOptions?]> = function mermaidTrans(
 ): Transformer {
   const DEFAULT_SETTINGS = {
     launchOptions: {
+      // In CI, PLAYWRIGHT_BROWSERS_PATH is set and playwright finds its own browser there.
+      // Locally (no downloaded browsers), fall back to the system Chrome.
+      ...(!process.env.PLAYWRIGHT_BROWSERS_PATH && {
+        executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH ?? "/usr/bin/google-chrome",
+      }),
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",

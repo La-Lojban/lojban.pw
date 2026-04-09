@@ -10,6 +10,7 @@ Source TSV files live in `data/assets/korpora-tsv/` (served at `/assets/korpora-
 - [dictionary-with-examples](/assets/korpora-tsv/dictionary-with-examples.tsv)
 - [emerald-tablet](/assets/korpora-tsv/emerald-tablet.tsv)
 - [forest-nymph](/assets/korpora-tsv/forest-nymph.tsv)
+- [formal-gismu](/assets/korpora-tsv/formal-gismu.tsv)
 - [how-the-enemy-came-to-thlunrana](/assets/korpora-tsv/how-the-enemy-came-to-thlunrana.tsv)
 - [in-a-bitter-hour](/assets/korpora-tsv/in-a-bitter-hour.tsv)
 - [jokes](/assets/korpora-tsv/jokes.tsv)
@@ -22,7 +23,7 @@ Source TSV files live in `data/assets/korpora-tsv/` (served at `/assets/korpora-
 - [the-mask](/assets/korpora-tsv/the-mask.tsv)
 - [the-north-wind-and-the-sun](/assets/korpora-tsv/the-north-wind-and-the-sun.tsv)
 - [there-will-come-soft-rains](/assets/korpora-tsv/there-will-come-soft-rains.tsv)
-- [tlön-uqbar-orbistertius](/assets/korpora-tsv/tlön-uqbar-orbistertius.tsv)
+- [tlon-uqbar](/assets/korpora-tsv/tlon-uqbar.tsv)
 - [to-kill-a-child](/assets/korpora-tsv/to-kill-a-child.tsv)
 - [various-texts](/assets/korpora-tsv/various-texts.tsv)
 

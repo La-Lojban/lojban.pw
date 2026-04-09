@@ -21,6 +21,7 @@ import { GalleryImg } from "../types/gallery-img";
 import path from "path";
 import replaceIncludes from "./remark-plugins/include/";
 import { expandFirstLojbanSpeakerTags } from "./expandFirstLojbanSpeakerTags";
+import { expandFirstLojbanTfQuiz } from "./expandFirstLojbanTfQuiz";
 import { markdownEnableHtmlTableCellMarkdown } from "./markdownHtmlTableCellMarkdown";
 import { markdownNormalizeThematicBreaks } from "./markdownNormalizeThematicBreaks";
 import { enhanceKorporaSections } from "./korpora/ssgEnhance";
@@ -37,6 +38,7 @@ export default async function markdownToHtml({
     resolveFrom: path.resolve(fullPath, ".."),
   });
   content = expandFirstLojbanSpeakerTags(content);
+  content = expandFirstLojbanTfQuiz(content, fullPath);
   content = markdownEnableHtmlTableCellMarkdown(content);
   content = markdownNormalizeThematicBreaks(content);
   const root = htmlParser.parse(

@@ -25,8 +25,8 @@ RUN curl -fsSL https://deb.nodesource.com/setup_24.x | bash - \
 # Cleanup to reduce image size
 RUN apt-get autoclean && rm -rf /var/lib/apt/lists/*
 
-# Install pnpm (latest 9.x)
-RUN npm install -g pnpm@9
+# Install pnpm (matches packageManager in src/package.json)
+RUN npm install -g pnpm@10.33.0
 
 # Workspace: bind-mount the repo’s `src/` here, then overlay `data/` paths (see Makefile and
 # `.github/workflows/main.yml`). No COPY of the app — `src/public/assets` is a symlink to

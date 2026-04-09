@@ -63,3 +63,15 @@ coverImage: /assets/pixra/books/first-lojban/cover.webp
 @include "first-lojban/27.md"
 
 @include "first-lojban/28.md"
+
+@include "first-lojban/29.md"
+
+@include "first-lojban/30.md"
+
+@include "first-lojban/31.md"
+
+@include "first-lojban/32.md"
+
+@include "first-lojban/33.md"
+
+@include "first-lojban/34.md"

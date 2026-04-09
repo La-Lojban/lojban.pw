@@ -10,6 +10,7 @@ import {
   korporaLanguageKeys,
   resolveKorporaDisplayTitle,
   resolveKorporaAuthorLine,
+  resolveKorporaDescriptionLine,
 } from "./korpora/corpusCore";
 import { getKorporaTsvPath } from "./paths";
 
@@ -177,6 +178,10 @@ function getKorporaSyntheticPosts(fields: string[]): Items[] {
       const meta = getCorpusPostFields(data, langKey);
       const displayTitle = resolveKorporaDisplayTitle(basename, meta.title);
       const authorLine = resolveKorporaAuthorLine(basename, meta.author);
+      const descriptionLine = resolveKorporaDescriptionLine(
+        basename,
+        meta.description
+      );
       const slugArr = [short, "texts", basename];
       const fullPath = slugArr.join("/");
       const item: Items = { slug: slugArr };
@@ -191,7 +196,7 @@ function getKorporaSyntheticPosts(fields: string[]): Items[] {
       // No date/excerpt on listing cards — mtime is not meaningful; description duplicates the author line.
       item["meta.priority"] = meta.priority;
       item["meta.type"] = "korpora";
-      item["meta.description"] = meta.description;
+      item["meta.description"] = descriptionLine;
       item["meta.keywords"] = meta.keywords;
       item["meta.author"] = authorLine;
       if (fields.includes("author")) {

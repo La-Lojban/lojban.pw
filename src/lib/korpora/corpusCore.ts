@@ -259,16 +259,17 @@ export function getPreambleMdPath(basename: string): string {
   return path.join(getKorporaTsvPath(), `${basename}.md`);
 }
 
-/** Optional `data/assets/korpora-tsv/<basename>.md` — frontmatter (`name`, `author`, …) + optional preamble body. */
+/** Optional `data/assets/korpora-tsv/<basename>.md` — frontmatter (`name`, `author`, `description`, …) + optional preamble body. */
 const sidecarCache = new Map<
   string,
-  { name?: string; title?: string; author?: string } | null
+  { name?: string; title?: string; author?: string; description?: string } | null
 >();
 
 function readKorporaSidecarFields(basename: string): {
   name?: string;
   title?: string;
   author?: string;
+  description?: string;
 } {
   if (sidecarCache.has(basename)) {
     const c = sidecarCache.get(basename);
@@ -286,6 +287,8 @@ function readKorporaSidecarFields(basename: string): {
     name: typeof d.name === "string" ? d.name : undefined,
     title: typeof d.title === "string" ? d.title : undefined,
     author: typeof d.author === "string" ? d.author : undefined,
+    description:
+      typeof d.description === "string" ? d.description : undefined,
   };
   sidecarCache.set(basename, out);
   return out;
@@ -309,6 +312,16 @@ export function resolveKorporaAuthorLine(
   const s = readKorporaSidecarFields(basename);
   const a = s.author?.trim();
   return a || tsvFallbackAuthor;
+}
+
+/** Meta description: sidecar `description` if set, else TSV-derived. */
+export function resolveKorporaDescriptionLine(
+  basename: string,
+  tsvFallbackDescription: string
+): string {
+  const s = readKorporaSidecarFields(basename);
+  const d = s.description?.trim();
+  return d || tsvFallbackDescription;
 }
 
 /** Markdown body only (frontmatter stripped) for rendering below the corpus table. */

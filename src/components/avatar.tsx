@@ -27,7 +27,7 @@ function AvatarPicture({ src, alt }: { src: string; alt: string }) {
 type Props = {
   name: string;
   picture: string;
-  /** Matches post title link stroke on cover / plain cards (see post-preview). */
+  /** Matches post title link stroke on preview cards (see post-preview). */
   nameClassName?: string;
 };
 

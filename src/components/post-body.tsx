@@ -83,11 +83,15 @@ function PostBody({
   );
   const isBookPath = post.slug[1] === "books";
   const isBookMainPage = isBookPath && post.slug.length === 3;
+  const isKorporaTextPage =
+    post.slug[1] === "texts" && post.slug.length === 3;
+  const showBookStyleCover =
+    isBookMainPage || (isKorporaTextPage && Boolean(post.coverImage));
 
   return (
     <>
       <ArticleShell hasToc={!!hasToc}>
-        {isBookMainPage ? <BookPdfCover post={post} /> : null}
+        {showBookStyleCover ? <BookPdfCover post={post} /> : null}
         <div className={isBookPath ? "book-print-content" : undefined}>
           <PostHeader
             post={post}

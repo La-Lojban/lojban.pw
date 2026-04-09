@@ -1,3 +1,8 @@
+---
+name: Formal gismu
+description: Specification for annotating gismu predicate places in the paired formal-gismu.tsv with TypeScript-like types—prenex typings, unary ka as Set<T>, union types, and slot-filling compatibility rules.
+---
+
 ## Gismu place type system
 
 This document specifies a type system for annotating gismu places in `dictionaries/formal-gismu.tsv`, written in a style similar to TypeScript or Rust type definitions.

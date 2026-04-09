@@ -1,0 +1,309 @@
+{
+  "2": {
+    "answers": "010",
+    "questions": [
+      "In Lojban, the letter \"p\" is read as {pa}.",
+      "In Lojban, the letter \"e\" is read as {.ebu}.",
+      "In Lojban, the letter \"y\" is a consonant like English \"y\"."
+    ]
+  },
+  "3": {
+    "answers": "100101",
+    "questions": [
+      "Glossing cmavo as “function words” is reasonable.",
+      "Glossing brivla as “name words” is the usual terminology (instead of “content/predicate words”).",
+      "Every cmavo must begin with a consonant.",
+      "In Lojban, a proper name (cmevla) must end in a consonant for morphological reasons.",
+      "Cmavo stress is totally unconstrained in every context: there are no rules about where you may or may not stress cmavo.",
+      "For brivla, stress falls on the second-to-last syllable, counting from the end; the vowel y is ignored for this count."
+    ]
+  },
+  "4": {
+    "answers": "1011",
+    "questions": [
+      "A Lojban sentence is built from sumti and selbri.",
+      "A bridi may not contain two or more sumti.",
+      "The usual order is: first sumti — selbri — second sumti (and more sumti after, as needed).",
+      "Roughly, {mi} means “I/me” and {do} means “you” in that order."
+    ]
+  },
+  "5": {
+    "answers": "001010",
+    "questions": [
+      "Every zo'e may always be omitted.",
+      "The word {.i} marks the end of a sentence.",
+      "This diagram is correct: zo'e [selbri] [sumti] [sumti] zo'e zo'e = [selbri] [sumti] [sumti].",
+      "This diagram is correct: [selbri] [sumti] zo'e [sumti] = [selbri] [sumti] [sumti].",
+      "You can fill low‑priority sumti slots you do not care about with {zo'e}.",
+      "Even when context makes “I” obvious, you must still say {mi} and may not use {zo'e} there."
+    ]
+  },
+  "6": {
+    "answers": "11010",
+    "questions": [
+      "You can form tanru by stringing selbri together.",
+      "Any tanru always has exactly one syntactic parse.",
+      "Any tanru always has exactly one meaning.",
+      "In {blanu kanla mlatu}, the grouping is ((blanu kanla) mlatu).",
+      "{blanu mlatu} can mean “a cat that lives in a blue house”."
+    ]
+  },
+  "7": {
+    "answers": "01101",
+    "questions": [
+      "{lo} can pick out a specific referent for the speaker.",
+      "If you can say it with {le}, you can also say it with {lo}.",
+      "{la} is a “name article”.",
+      "{lo sipna ku} refers to sleeping people, not to “sleep” as an abstraction.",
+      "You can put {lo} or {le} on a tanru."
+    ]
+  },
+  "8": {
+    "answers": "1010",
+    "questions": [
+      "{se} swaps x1 and x2.",
+      "{xe} swaps x1 and x4.",
+      "{lo se citka ku} is a sumti meaning “something edible”.",
+      "{se}, {te}, {ve}, {xe} attach immediately before the sumti they modify."
+    ]
+  },
+  "9": {
+    "answers": "110",
+    "questions": [
+      "{fo} shows that the following sumti fills x4.",
+      "In {mi klama fi ti ta}, {ta} fills x4.",
+      "Among FA and SE conversions, FA is applied before SE."
+    ]
+  },
+  "10": {
+    "answers": "10011",
+    "questions": [
+      "{lo nu [bridi] kei ku} is a sumti meaning “the event that [bridi]”.",
+      "{du'u} talks about properties.",
+      "{nu} talks about propositions.",
+      "NU‑words wrap a following bridi into predicate‑like constructions in a precise syntactic sense.",
+      "Abstractors (NU) and “abstract nouns” are exactly the same class of words."
+    ]
+  },
+  "11": {
+    "answers": "001",
+    "questions": [
+      "Terminator cmavo are so important that they can never be omitted.",
+      "{.i lo nanmu ku klama} means exactly the same as {.i lo nanmu klama}.",
+      "{.i lo nanmu ku klama} means exactly the same as {.i lo nanmu cu klama}."
+    ]
+  },
+  "12": {
+    "answers": "010",
+    "questions": [
+      "When composing tense cmavo, the order is “PU, then ZEhA, then ZI”.",
+      "When composing locationals, the order is “FAhA, then VA, then VEhA”.",
+      "The composition rules for tense clusters and for locationals are fundamentally different."
+    ]
+  },
+  "13": {
+    "answers": "001",
+    "questions": [
+      "Aspect is expressed with a totally different grammar from tense.",
+      "Whenever you use an aspect tag, you must also have a tense tag.",
+      "Like tense tags, aspect tags are optional."
+    ]
+  },
+  "14": {
+    "answers": "100",
+    "questions": [
+      "Tags can attach to sumti.",
+      "Each tag is grounded in a brivla, and its meaning equals that brivla’s x2.",
+      "Tense tags cannot be used as sumtcita."
+    ]
+  },
+  "15": {
+    "answers": "111",
+    "questions": [
+      "{me} is basically glossed as “one/some among …”.",
+      "{du} expresses identity and can be used as a selbri even though it is a cmavo.",
+      "If A {du} B, then A {me} B always holds too."
+    ]
+  },
+  "16": {
+    "answers": "101",
+    "questions": [
+      "{na} and {ja'a} can replace {cu}.",
+      "{na} negates the selbri, while {na'e} negates the whole sentence.",
+      "NAhE-family words build new selbri from a selbri, so they cannot replace {cu}."
+    ]
+  },
+  "17": {
+    "answers": "11001",
+    "questions": [
+      "{ma} is a question sumti; {mo} is a question selbri.",
+      "You may place multiple {ma} in one sentence.",
+      "{mo} cannot appear inside a tanru.",
+      "You can tag {ma}, but only with a limited set of tag types.",
+      "Yes/no questions are normally answered with {go'i}, {na go'i}, or {ja'a go'i}."
+    ]
+  },
+  "18": {
+    "answers": "01011",
+    "questions": [
+      "{ko} only swaps with x1 of {do}.",
+      "{.e'o}, {.e'u}, {.e'a} are attitudinals for request, suggestion, and permission (in that order).",
+      "{.e'i} means “constraint”, and {.e'inai} means “forbidden”.",
+      "Putting {pei} right after {.e'a} can form “Is it OK if …?”.",
+      "{ko} by itself covers a wide range from crude commands to polite requests."
+    ]
+  },
+  "19": {
+    "answers": "1011",
+    "questions": [
+      "Relative phrase shapes are systematic: for example, p marks restrictive and n non‑restrictive uses.",
+      "{pe}/{ne} mark sameness of referent; {po'u}/{no'u} mark some relation.",
+      "The terminator for {poi}/{noi} clauses is {ku'o}.",
+      "In {poi mi klama fi tu}, {ke'a} is assumed to be in the x2 place of {klama}."
+    ]
+  },
+  "20": {
+    "answers": "1101",
+    "questions": [
+      "Sumti‑tail phrases with {be} are uncommon in main‑clause selbri, but common inside sumti.",
+      "The sumti after {be} fills x2 of the attached brivla.",
+      "When chaining more than one sumti tail, you may use repeated {be} instead of {bei}.",
+      "Using {lo klama be tu bei ti} matches {zo'e noi ke'a klama} with the same place assignment."
+    ]
+  },
+  "21": {
+    "answers": "0011111",
+    "questions": [
+      "The number 1560 is {pavomuno}.",
+      "Bare digits can always be used as ordinary sumti by themselves.",
+      "To count how many referents a sumti has, put the digit right after {lo}/{le} or use {mei}.",
+      "A {mei} phrase can be used as a selbri and therefore inside tanru.",
+      "For “at least one man”, both {lo su'o pa nanmu} and {lo su'o nanmu} are fine.",
+      "1000.5 can be {panononopimu} or {ki'opimu}.",
+      "Lojban uses {pi'e} to separate parts of mixed radix numbers (time, dates, etc.)."
+    ]
+  },
+  "22": {
+    "answers": "1010101",
+    "questions": [
+      "Lojban has different quotation mechanisms for grammatical text, ungrammatical Lojban, and non‑Lojban material.",
+      "The terminator for {lu} is {lu'u}.",
+      "The terminator for {lo'u} is {le'u}.",
+      "{zo} can quote any single Lojban word, including long fused cmavo clusters like {bazu}.",
+      "{la .soran.} refers to Sora; {zo .soran.} refers to the name form, not Sora herself.",
+      "The anaphora for “the previous utterance” and “the next utterance” are {di'e} and {di'u}.",
+      "A quoted sumti denotes the text; prefix {la'e} to refer to what the text denotes."
+    ]
+  },
+  "23": {
+    "answers": "1110",
+    "questions": [
+      "Logical connectives are chosen according to what kinds of things are being connected.",
+      "The A/E/O/U families differ in meaning.",
+      "{.ija} connects sentences and means “at least one of the connected sentences holds”.",
+      "{mi .anai do} with a forethought connective becomes {ganai mi gi do}."
+    ]
+  },
+  "24": {
+    "answers": "1011001",
+    "questions": [
+      "{mi'o} and {mi'a} are both personal sumti: “you and I” vs “I and someone else”.",
+      "{ri}, {ra}, {ru} refer back to earlier sumti as text strings.",
+      "{go'i} repeats the previous bridi; {di'u} is different in the same way.",
+      "{lo se go'i} refers to the same x2 as the previous bridi’s x2.",
+      "{ko'a} and {fo'a} are assignable anaphora set by {cei}.",
+      "{co'e} is the bridi‑level analogue of {zo'e}.",
+      "Latin letters can be used as sumti variables."
+    ]
+  },
+  "25": {
+    "answers": "11010101",
+    "questions": [
+      "Attitudinals syntactically attach to the previous word, but semantically they may “float”.",
+      "{.a'o} is hope, {.ua} is discovery, {.u'i} is amusement.",
+      "{cu'i} pairs with {no'e}; {nai} pairs with {na'e}.",
+      "Emotion intensity order is: cai > sai > ru'e > nairu'e > nai > naisai > naicai.",
+      "{coi} always takes a sumti and means a greeting at a meeting.",
+      "{ki'e sidju} can be glossed as “thanks for helping”.",
+      "{pei} must be immediately preceded by an attitudinal.",
+      "{pei} can attach to COI vocatives."
+    ]
+  },
+  "27": {
+    "answers": "1111",
+    "questions": [
+      "A {ka} clause always contains at least one {ce'u}.",
+      "In Lojban, properties vs relations differ by whether the underlying predication has one open slot or more.",
+      "A proposition is the meaning/content of a sentence; what that meaning “really is” can be debated.",
+      "{ce'u} is a free variable, while {mi}, {ta}, {zo'e}, and {lo broda} are bound or filled arguments."
+    ]
+  },
+  "28": {
+    "answers": "011110",
+    "questions": [
+      "The boundary between prenex and sentence is marked with {zo'e}.",
+      "Whether an existential sentence is true can depend on the domain of discourse.",
+      "When you quantify a free variable, it becomes a bound variable.",
+      "The prenex may be omitted.",
+      "{pa da re de zo'u da prami de} and {re de pa da zo'u da prami de} differ in meaning.",
+      "{pa de re da zo'u da prami de} can be shortened by dropping the prenex to {re da prami pa de}."
+    ]
+  },
+  "29": {
+    "answers": "10011",
+    "questions": [
+      "In {.abu dunda by. cy.}, the result is that a gives the string 'bc' (not b to c).",
+      "{denpa bu} is the Lojban letter word for the apostrophe.",
+      "{bu} can be placed after {zo} to make a letter standing for 'zo'.",
+      "A sequence of lerfu like {by. cy. dy.} is treated as a single sumti.",
+      "{boi} can terminate both lerfu strings and number sequences."
+    ]
+  },
+  "30": {
+    "answers": "01011",
+    "questions": [
+      "In Lojban, cmevla stress must always fall on the second-to-last syllable — no exceptions.",
+      "To mark stress on the first syllable of {.soran.}, you write {.SOran.}.",
+      "The consonant cluster {pv} is permitted in Lojban.",
+      "If a forbidden consonant cluster appears in a cmevla, the standard fix is to insert {y} between the two consonants.",
+      "The cluster {cs} is forbidden in Lojban."
+    ]
+  },
+  "31": {
+    "answers": "1011",
+    "questions": [
+      "Lojban's audio-visual isomorphism means every properly spoken utterance can be uniquely written, and every properly written text can be uniquely read aloud.",
+      "Spaces between Lojban words are always grammatically required.",
+      "Lojban places a dot before vowel-initial words partly to keep word boundaries unambiguous.",
+      "A cmavo ending in {y} (like {.y.}) needs a dot after it for the same word-boundary reason."
+    ]
+  },
+  "32": {
+    "answers": "11011",
+    "questions": [
+      "Selma'o is a syntactic category that groups cmavo with the same grammatical behavior.",
+      "Two words in the same selma'o can always be swapped without causing a syntax error.",
+      "Selma'o names are chosen arbitrarily and have no connection to the words in the group.",
+      "A selma'o can be subdivided with numbers (e.g. KOhA1, KOhA2) to distinguish semantic sub-groups.",
+      "The terms \"cmavo class\" and \"selma'o\" refer to the same concept."
+    ]
+  },
+  "33": {
+    "answers": "0101",
+    "questions": [
+      "The slot-filling definitions like 'x₁ loves x₂' perfectly and completely capture a brivla's meaning independent of any source language.",
+      "The real core of a brivla's meaning is the relation it names, not the English gloss used to describe it.",
+      "In a Lojban bridi, x₁ of the selbri is always also the topic of the sentence.",
+      "{zo'u} marks the boundary between the topic/prenex and the main predication."
+    ]
+  },
+  "34": {
+    "answers": "1011",
+    "questions": [
+      "In {blabi mlatu bo zdani}, it is the _house_ that is blabi (white), not the cat.",
+      "The {ke'e} in {broda ke brode brodi ke'e brodo} can always be safely omitted.",
+      "In a tanru containing {co}, the selbri to the _right_ of {co} is the head (the modified concept).",
+      "In {A B bo ke C D ke E F co G H}, the full grouping is ((G H) (A (B (C D (E F)))))."
+    ]
+  }
+}

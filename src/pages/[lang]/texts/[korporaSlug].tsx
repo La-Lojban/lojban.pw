@@ -21,6 +21,7 @@ import {
   korporaLanguageKeys,
   resolveKorporaDisplayTitle,
   resolveKorporaAuthorLine,
+  resolveKorporaDescriptionLine,
   readKorporaPreambleBodyMarkdown,
 } from "../../../lib/korpora/corpusCore";
 import { TPost } from "../../../types/post";
@@ -173,6 +174,10 @@ export async function getStaticProps({
   const meta = getCorpusPostFields(data, langKey);
   const pageTitle = resolveKorporaDisplayTitle(params.korporaSlug, meta.title);
   const authorName = resolveKorporaAuthorLine(params.korporaSlug, meta.author);
+  const descriptionLine = resolveKorporaDescriptionLine(
+    params.korporaSlug,
+    meta.description
+  );
 
   const preamblePath = getPreambleMdPath(params.korporaSlug);
   let preambleHtml = "";
@@ -199,14 +204,14 @@ export async function getStaticProps({
     title: pageTitle,
     "meta.title": pageTitle,
     "meta.type": "korpora",
-    "meta.description": meta.description,
+    "meta.description": descriptionLine,
     "meta.keywords": meta.keywords,
     "meta.author": authorName,
     "meta.priority": meta.priority,
     date: "",
     coverImage: meta.ogImage ?? "",
     author: { name: authorName, picture: "" },
-    excerpt: meta.description,
+    excerpt: descriptionLine,
     content: fullHtml,
     toc,
     imgs: imgs as GalleryImg[],

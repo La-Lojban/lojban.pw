@@ -470,6 +470,24 @@ article .first_col table tr td:first-child {
   @apply align-top text-left px-3 py-4 border border-collapse border-gray-200;
 }
 
+/* Book pages: two-column exercise tables (e.g. Learn Lojban “Task” tables) — equal width */
+article
+  .book-print-content
+  table:not([data-korpora-grid]):has(
+    tbody tr:first-child td:nth-child(2):last-child
+  ) {
+  table-layout: fixed;
+}
+
+article
+  .book-print-content
+  table:not([data-korpora-grid]):has(
+    tbody tr:first-child td:nth-child(2):last-child
+  )
+  :where(thead th, tbody td) {
+  width: 50%;
+}
+
 /* -------------------------------------------------------------------------- */
 /* Article — blockquotes & asides                                               */
 /* -------------------------------------------------------------------------- */
@@ -665,6 +683,59 @@ article .speaker-row__speech ol {
 /* Consecutive dialogue rows: slight vertical rhythm */
 article .speaker-row + .speaker-row {
   @apply mt-2;
+}
+
+/* Hajiloji ○× self-check (appended to each chapter in First Lojban) */
+article .tf-quiz {
+  @apply my-6 rounded-lg border border-gray-300 bg-white p-4 shadow-sm print:border-gray-400;
+}
+
+article .tf-quiz__title {
+  @apply mt-0 mb-2 text-lg font-semibold text-gray-900;
+}
+
+article .tf-quiz__lead {
+  @apply mt-0 mb-4 text-sm text-gray-600;
+}
+
+article .tf-quiz__list {
+  @apply m-0 list-decimal space-y-4 pl-6;
+}
+
+article .tf-quiz__item {
+  @apply pl-1;
+}
+
+article .tf-quiz__q {
+  @apply m-0 mb-2 text-sm leading-relaxed;
+}
+
+article .tf-quiz__choices {
+  @apply flex flex-wrap gap-2;
+}
+
+article .tf-quiz__btn {
+  @apply rounded border border-gray-300 bg-gray-50 px-3 py-1 text-sm print:border-gray-400;
+}
+
+article .tf-quiz__btn--on {
+  @apply border-deep-orange-600 bg-deep-orange-50 text-deep-orange-900;
+}
+
+article .tf-quiz__actions {
+  @apply mt-4 flex flex-wrap items-center gap-3;
+}
+
+article .tf-quiz__grade {
+  @apply rounded bg-deep-orange-700 px-4 py-2 text-sm font-medium text-white print:bg-gray-800;
+}
+
+article .tf-quiz__result {
+  @apply m-0 text-sm text-gray-800;
+}
+
+article .tf-quiz__error {
+  @apply text-sm text-red-700;
 }
 
 article .note {
@@ -982,6 +1053,71 @@ tr td .inner-table {
 
 tr td .inner-table td {
   white-space: nowrap;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Book / korpora text cover hero (screen) — matches print cover look in-browser */
+/* -------------------------------------------------------------------------- */
+
+@media screen {
+  .book-print-cover {
+    position: relative;
+    margin: 0 auto 1.5rem;
+    max-width: 56rem;
+    padding: 2rem 1.25rem 2.25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    color: #fafaf9;
+  }
+
+  .book-print-cover__backdrop {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 120% 80% at 10% 0%, rgba(234, 88, 12, 0.35), transparent 55%),
+      radial-gradient(circle at 90% 100%, rgba(120, 53, 15, 0.5), transparent 45%),
+      linear-gradient(165deg, #0c0a09 0%, #1c1917 38%, #292524 72%, #1c1917 100%);
+    z-index: 0;
+  }
+
+  .book-print-cover__inner {
+    position: relative;
+    z-index: 1;
+    max-width: 42rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .book-print-cover__image {
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+    max-height: 16rem;
+    margin: 0 auto 1.25rem;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow:
+      0 16px 40px rgba(0, 0, 0, 0.45),
+      0 2px 8px rgba(0, 0, 0, 0.35);
+  }
+
+  .book-print-cover__title {
+    margin: 0 0 0.75rem;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    text-wrap: balance;
+    color: #fafaf9;
+  }
+
+  .book-print-cover__description {
+    margin: 0 auto;
+    max-width: 36rem;
+    font-size: 1.05rem;
+    line-height: 1.45;
+    color: #d6d3d1;
+  }
 }
 
 /* -------------------------------------------------------------------------- */
