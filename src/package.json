@@ -57,6 +57,7 @@
     "gray-matter": "^4.0.3",
     "jsdom": "^25.0.1",
     "mermaid": "^11.14.0",
+    "playwright": "^1.59.1",
     "playwright-core": "^1.59.1",
     "postcss": "^8.5.8",
     "prettier": "^3.8.1",
