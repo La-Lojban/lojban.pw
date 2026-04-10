@@ -17,13 +17,31 @@ import {
   stripPrintHidden,
 } from "./prepare-html";
 
-/** `src/lib/typst-book` → repository root */
+/**
+ * `src/lib/typst-book` → repository root (parent of `src/`).
+ * In Docker, `data/pages` is mounted at `src/md_pages` (see Dockerfile / workflow); assets at
+ * `src/public/assets`. Locally, pages live in `data/pages` and assets in `data/assets`.
+ */
 function findProjectRoot(): string {
   const dir = path.resolve(__dirname, "..", "..", "..");
-  if (!fs.existsSync(path.join(dir, "data", "pages"))) {
-    throw new Error(`Cannot find project root (missing data/pages): ${dir}`);
+  const hasDataPages = fs.existsSync(path.join(dir, "data", "pages"));
+  const hasSrcMdPages = fs.existsSync(path.join(dir, "src", "md_pages"));
+  if (!hasDataPages && !hasSrcMdPages) {
+    throw new Error(
+      `Cannot find project root (expected data/pages or src/md_pages): ${dir}`
+    );
   }
   return dir;
+}
+
+function resolvePublicAssetsDir(projectRoot: string): string {
+  const atData = path.join(projectRoot, "data", "assets");
+  if (fs.existsSync(atData)) return atData;
+  const atSrcPublic = path.join(projectRoot, "src", "public", "assets");
+  if (fs.existsSync(atSrcPublic)) return atSrcPublic;
+  throw new Error(
+    `Assets directory missing (tried ${atData} and ${atSrcPublic})`
+  );
 }
 
 export interface BuildBookTypstOptions {
@@ -164,10 +182,7 @@ export async function buildBookTypst(
   const pandoc = options.pandoc ?? "pandoc";
   const typst = options.typst ?? "typst";
 
-  const publicAssetsDir = path.join(projectRoot, "data", "assets");
-  if (!fs.existsSync(publicAssetsDir)) {
-    throw new Error(`Assets directory missing: ${publicAssetsDir}`);
-  }
+  const publicAssetsDir = resolvePublicAssetsDir(projectRoot);
 
   // Keep work dir under the repo so `typst` (e.g. snap) can read paths reliably.
   const defaultWork = path.join(
@@ -335,19 +350,16 @@ ${paletteArg})[
 }
 
 async function main() {
-  const projectRoot = findProjectRoot();
+  const argv = process.argv.slice(2);
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const { getVrejiPath, getMdPagesPath } = require("../paths");
   const defaultBook = path.join(
-    projectRoot,
-    "data",
-    "pages",
+    getMdPagesPath(),
     "en",
     "books",
     "learn-lojban.md"
   );
-  const argv = process.argv.slice(2);
   const bookMd = argv[0] ? path.resolve(argv[0]) : defaultBook;
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const { getVrejiPath } = require("../paths");
   const vreji = getVrejiPath();
   const outPdf =
     argv[1] ?? path.join(vreji, "uencu", "en", "learn-lojban.pdf");

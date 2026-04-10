@@ -105,7 +105,8 @@ jobs:
         INDEX_NAME="${{ secrets.NEXT_PUBLIC_ALGOLIA_INDEX_NAME }}"
         if [ -z "$INDEX_NAME" ]; then INDEX_NAME="lojban-pw"; fi
         # Mount src/ first; then overlay repo data/ onto md_pages, public/assets, config so
-        # those paths win (a later -v /app/src hides earlier subpath mounts).
+        # those paths win (a later -v /app/src hides earlier subpath mounts). Typst uses /app as
+        # --root and finds pages via src/md_pages + assets via src/public/assets.
         docker run --rm -v /output:/app/src/out1 \
                    -v ${{ github.workspace }}/ms-playwright:/ms-playwright:Z \
                    -v ${{ github.workspace }}/src:/app/src:Z \

@@ -41,7 +41,8 @@ RUN npm install -g pnpm@10.33.0
 # `.github/workflows/main.yml`). No COPY of the app — `src/public/assets` is a symlink to
 # `../../data/assets` in git; in Docker, mounting `data/assets` onto `/app/src/public/assets`
 # replaces that link with real files. Mount order must be: `src` first, then `data/assets`,
-# `data/pages`, `data/config`, etc., so overlays win.
+# `data/pages` → `/app/src/md_pages`, `data/config`, etc., so overlays win. Typst PDF builds
+# (`build-learn-lojban.ts`) resolve repo root as `/app` using `src/md_pages` + `src/public/assets`.
 ENV IN_DOCKER=true
 RUN mkdir -p /app/src
 WORKDIR /app/src

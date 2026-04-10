@@ -324,6 +324,24 @@ export async function extractMermaidSvgDivsToImages(
   return doc.innerHTML;
 }
 
+/** Resolve `/data/assets/…` under repo root or Docker `src/public/assets/…`. */
+function absoluteFromProjectRoot(projectRoot: string, webPath: string): string {
+  const rel = webPath.startsWith("/") ? webPath.slice(1) : webPath;
+  const primary = path.join(projectRoot, rel);
+  if (fs.existsSync(primary)) return primary;
+  if (rel.startsWith("data/assets/")) {
+    const alt = path.join(
+      projectRoot,
+      "src",
+      "public",
+      "assets",
+      rel.slice("data/assets/".length)
+    );
+    if (fs.existsSync(alt)) return alt;
+  }
+  return primary;
+}
+
 /** Replace missing `/data/...` or `/assets/...` image URLs so Typst does not fail on stale links. */
 export function replaceMissingImageSrcs(html: string, projectRoot: string): string {
   const placeholder = "/data/assets/pixra/cilre/sruri_since.webp";
@@ -331,7 +349,7 @@ export function replaceMissingImageSrcs(html: string, projectRoot: string): stri
   for (const img of root.querySelectorAll("img")) {
     const src = img.getAttribute("src");
     if (!src?.startsWith("/")) continue;
-    const abs = path.join(projectRoot, src.slice(1));
+    const abs = absoluteFromProjectRoot(projectRoot, src);
     if (!fs.existsSync(abs)) {
       console.warn(`Missing image (placeholder): ${src}`);
       img.setAttribute("src", placeholder);
