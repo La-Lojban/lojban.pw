@@ -24,8 +24,28 @@ trap cleanup EXIT INT TERM
 # Create the output directory
 mkdir -p ${VREJI_PATH}/uencu
 
-# Start the server in the background
 cd "$(dirname "$0")/../.."
+
+if [ "${PDF_BACKEND:-chromium}" = "typst" ]; then
+  echo "Generating PDFs (Typst backend; all book indices × locales; PDF_TYPUST_ONLY_LEARN_LOJBAN=1 for local learn-lojban-only)..."
+  pnpm exec tsx lib/typst-book/print-all-books.ts
+  PDF_EXIT_CODE=$?
+  if [ $PDF_EXIT_CODE -ne 0 ]; then
+    echo "ERROR: Typst PDF generation failed with exit code $PDF_EXIT_CODE"
+    exit $PDF_EXIT_CODE
+  fi
+  echo "Shrinking PDFs (Typst)..."
+  sh lib/printer/shrink-pdf.sh
+  SHRINK_EXIT_CODE=$?
+  if [ $SHRINK_EXIT_CODE -ne 0 ]; then
+    echo "ERROR: PDF shrinking failed with exit code $SHRINK_EXIT_CODE"
+    exit $SHRINK_EXIT_CODE
+  fi
+  echo "Typst PDF generation completed successfully"
+  exit 0
+fi
+
+# Start the server in the background
 pnpm start &
 SERVER_PID=$!
 echo "Started server with PID: $SERVER_PID"
@@ -34,7 +54,7 @@ echo "Started server with PID: $SERVER_PID"
 node lib/printer/wait-for-server.js
 
 # Generate PDFs
-echo "Generating PDFs..."
+echo "Generating PDFs (Chromium)..."
 node lib/printer/index.js
 PDF_EXIT_CODE=$?
 

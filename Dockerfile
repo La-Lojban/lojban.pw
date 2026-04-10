@@ -15,8 +15,17 @@ RUN apt-get update && apt-get install -y \
     python3-pip \
     ghostscript \
     lsof \
+    pandoc \
     fonts-noto-color-emoji \
-    fonts-freefont-ttf
+    fonts-freefont-ttf \
+    xz-utils
+
+# Typst CLI for PDF_BACKEND=typst (Learn Lojban pilot and future books)
+ARG TYPST_VERSION=0.14.2
+RUN curl -fsSL "https://github.com/typst/typst/releases/download/v${TYPST_VERSION}/typst-x86_64-unknown-linux-musl.tar.xz" -o /tmp/typst.tar.xz \
+    && tar -xJf /tmp/typst.tar.xz -C /usr/local/bin --strip-components=1 "typst-x86_64-unknown-linux-musl/typst" \
+    && rm /tmp/typst.tar.xz \
+    && typst --version
 
 # Install Node.js 24 (app and CI use Node 24)
 RUN curl -fsSL https://deb.nodesource.com/setup_24.x | bash - \

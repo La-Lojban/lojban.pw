@@ -25,15 +25,33 @@ import { expandFirstLojbanTfQuiz } from "./expandFirstLojbanTfQuiz";
 import { markdownEnableHtmlTableCellMarkdown } from "./markdownHtmlTableCellMarkdown";
 import { markdownNormalizeThematicBreaks } from "./markdownNormalizeThematicBreaks";
 import { enhanceKorporaSections } from "./korpora/ssgEnhance";
+import {
+  MERMAID_BOOK_FONT_PX,
+  remarkMermaidBookPdfExtra,
+} from "./typst-book/mermaid-book-pdf";
 // import { serializeHTMLNodeTree } from "./json2react";
 
 export default async function markdownToHtml({
   content,
   fullPath,
+  /** Use fixed Mermaid label sizing and no width-squash (Typst PDF only). */
+  bookPdfMermaid = false,
+  /** Log sub-phase timings (Typst PDF book build only). */
+  verboseBookBuild = false,
 }: {
   content: string;
   fullPath: string;
+  bookPdfMermaid?: boolean;
+  verboseBookBuild?: boolean;
 }) {
+  let mdPhaseStart = Date.now();
+  const mdPhase = (label: string) => {
+    if (!verboseBookBuild) return;
+    const now = Date.now();
+    console.log(`[typst-book md] ${label}: ${now - mdPhaseStart}ms`);
+    mdPhaseStart = now;
+  };
+
   content = replaceIncludes(content, {
     resolveFrom: path.resolve(fullPath, ".."),
   });
@@ -41,6 +59,8 @@ export default async function markdownToHtml({
   content = expandFirstLojbanTfQuiz(content, fullPath);
   content = markdownEnableHtmlTableCellMarkdown(content);
   content = markdownNormalizeThematicBreaks(content);
+  mdPhase("sync preprocess (includes, speaker/quiz, tables, breaks)");
+
   const root = htmlParser.parse(
     (
       await unified()
@@ -52,13 +72,17 @@ export default async function markdownToHtml({
           themeVariables: {
             fontFamily:
               "Linux Libertine, Libertine, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif",
+            ...(bookPdfMermaid
+              ? { fontSize: `${MERMAID_BOOK_FONT_PX}px` }
+              : {}),
           },
           flowchart: {
-            useMaxWidth: true,
+            useMaxWidth: !bookPdfMermaid,
           },
           gitGraph: {
-            useMaxWidth: true,
+            useMaxWidth: !bookPdfMermaid,
           },
+          ...(bookPdfMermaid ? remarkMermaidBookPdfExtra : {}),
           //   htmlLabels: true,
           //   securityLevel: "loose",
         })
@@ -77,8 +101,12 @@ export default async function markdownToHtml({
         .process(content)
     ).toString()
   );
+  mdPhase(
+    "unified pipeline (parse→GFM→mermaid SSR→math→rehype→KaTeX→stringify)"
+  );
 
   enhanceKorporaSections(root as HTMLElement);
+  mdPhase("enhanceKorporaSections");
 
   let allHeaders: TocElem[] = Array.from(
     root.querySelectorAll(allSelector.join(","))
@@ -148,6 +176,7 @@ export default async function markdownToHtml({
     seen.add(u);
     imgs.push(item);
   }
+  mdPhase("toc + heading ids + gallery scrape");
 
   //Transform elements of the page
   transformers.forEach(({ selector, fn, wrapper }) =>
@@ -169,6 +198,7 @@ export default async function markdownToHtml({
           : () => {}
     )
   );
+  mdPhase("DOM transformers (pixra→figure, tables, headings, …)");
 
   const imgsNodes = root.querySelectorAll("img");
   imgsNodes.forEach((img, index) => {
@@ -181,6 +211,7 @@ export default async function markdownToHtml({
       el.setAttribute("loading", "lazy");
     }
   });
+  mdPhase("img decoding/loading attrs");
 
   const html = root.outerHTML;
   const hasMath = html.includes("katex");

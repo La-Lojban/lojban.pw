@@ -1,0 +1,7 @@
+# Metadata mirrored from book front matter (Learn Lojban pilot).
+# The build script reads YAML from each book’s index .md; this file documents defaults.
+title: "Learn Lojban"
+description: "Nice easy course with lots of examples"
+coverImage: "/assets/pixra/cilre/sruri_since.webp"
+# Optional Typst chrome: ember | forest | tide | plum | sienna | arctic | blue (→ tide), or 0–5. Omit → palette from title hash.
+palette: tide
