@@ -22,6 +22,8 @@ permissions:
 env:
   TAG_NAME: ${{ github.sha }}
   DOCKER_BUILDKIT: 1  # Enable BuildKit for faster builds
+  # Playwright browser cache: keep Dockerfile `FROM mcr.microsoft.com/playwright:…` aligned with
+  # `src/package.json` @playwright/test + playwright-core (and root package.json `playwright`).
   # Book PDFs: Typst builds every book index × locale (print-all-books.ts). Local-only: PDF_TYPUST_ONLY_LEARN_LOJBAN=1.
   PDF_BACKEND: typst
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Opt into Node.js 24 (Node 20 deprecated on runners)

@@ -1,4 +1,6 @@
-FROM mcr.microsoft.com/playwright:v1.45.3-focal
+# Noble = Ubuntu 24.04 (newer Chromium deps, glibc, and apt pandoc with native `-t typst`).
+# Tag matches npm: `src/package.json` (@playwright/test, playwright-core) and root `package.json` (playwright).
+FROM mcr.microsoft.com/playwright:v1.59.1-noble
 
 # Set timezone to avoid questions in CLI
 ENV TZ=Europe/London
