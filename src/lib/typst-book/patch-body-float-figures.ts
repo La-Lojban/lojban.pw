@@ -83,8 +83,7 @@ function consumePixraImageFigureBlock(
   if (!s.startsWith("#figure(", pos)) return null;
   const openParen = pos + "#figure".length;
   if (s[openParen] !== "(") return null;
-  const afterOpen = s.slice(openParen + 1);
-  if (!afterOpen.startsWith("[#block[")) return null;
+  if (!s.startsWith("[#block[", openParen + 1)) return null;
   const closeParen = endOfTypstCallWithParens(s, openParen);
   if (closeParen < 0) return null;
   const figureSrc = s.slice(pos, closeParen);
@@ -164,28 +163,40 @@ function skipTrailingBlockClosers(body: string, figureCallEnd: number): number {
 function tableFigureIntervals(body: string): { start: number; end: number }[] {
   const out: { start: number; end: number }[] = [];
   let search = 0;
-  while (true) {
+  /** Guard against pathological input / parser edge cases (stuck loop → RangeError on push). */
+  const maxTables = 50000;
+  while (out.length < maxTables) {
     const t = body.indexOf("align(center)[#table(", search);
     if (t < 0) break;
-    const fi = body.lastIndexOf("#figure(", t);
-    if (fi < 0) {
-      search = t + 1;
-      continue;
+    // `lastIndexOf("#figure(", t)` can hit a *shorter* figure that ends before `t` (e.g. pixra in
+    // prose). That yields `figureEnd <= t`, then `search = end` never passes `t` → infinite loop.
+    let fi = body.lastIndexOf("#figure(", t);
+    let figureEnd = -1;
+    while (fi >= 0) {
+      const openParen = fi + "#figure".length;
+      if (body[openParen] !== "(") {
+        fi = body.lastIndexOf("#figure(", fi - 1);
+        continue;
+      }
+      const fe = endOfTypstCallWithParens(body, openParen);
+      if (fe < 0) {
+        fi = body.lastIndexOf("#figure(", fi - 1);
+        continue;
+      }
+      if (fe > t) {
+        figureEnd = fe;
+        break;
+      }
+      fi = body.lastIndexOf("#figure(", fi - 1);
     }
-    const openParen = fi + "#figure".length;
-    if (body[openParen] !== "(") {
-      search = t + 1;
-      continue;
-    }
-    const figureEnd = endOfTypstCallWithParens(body, openParen);
-    if (figureEnd < 0) {
+    if (fi < 0 || figureEnd < 0) {
       search = t + 1;
       continue;
     }
     const start = outerBlockChainStart(body, fi);
     const end = skipTrailingBlockClosers(body, figureEnd);
     out.push({ start, end });
-    search = end;
+    search = Math.max(end, t + 1);
   }
   return out;
 }
@@ -273,11 +284,14 @@ function transformFlowSegment(flow: string): string {
   const ranges = extractPixraRanges(flowRest);
   if (ranges.length === 0) return flow;
 
-  let cleaned = flowRest;
-  for (let k = ranges.length - 1; k >= 0; k--) {
-    const r = ranges[k]!;
-    cleaned = cleaned.slice(0, r.start) + cleaned.slice(r.end);
+  let pos = 0;
+  const kept: string[] = [];
+  for (const r of ranges) {
+    if (r.start > pos) kept.push(flowRest.slice(pos, r.start));
+    pos = r.end;
   }
+  if (pos < flowRest.length) kept.push(flowRest.slice(pos));
+  let cleaned = kept.join("");
   cleaned = cleaned.replace(/\n{3,}/g, "\n\n");
   const figures = ranges.map((r) => r.figureSrc);
   const left = cleaned.trim();

@@ -1,4 +1,6 @@
-# Noble = Ubuntu 24.04 (newer Chromium deps, glibc, and apt pandoc with native `-t typst`).
+# Noble = Ubuntu 24.04 (newer Chromium deps, glibc). Pandoc is pinned to match local dev/CI
+# typst-book output (`pandoc -f html -t typst`); Ubuntu’s package is often older and emits
+# different Typst (`#blockquote[` vs `#quote(block: true)[`, etc.).
 # Tag matches npm: `src/package.json` (`playwright-core`).
 FROM mcr.microsoft.com/playwright:v1.59.1-noble
 
@@ -7,7 +9,7 @@ ENV TZ=Europe/London
 ENV IN_DOCKER=true
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-# Install additional common dependencies
+# Install additional common dependencies (Pandoc: see next RUN — pinned release .deb)
 RUN apt-get update && apt-get install -y \
     vim \
     bash \
@@ -17,10 +19,16 @@ RUN apt-get update && apt-get install -y \
     python3-pip \
     ghostscript \
     lsof \
-    pandoc \
     fonts-noto-color-emoji \
     fonts-freefont-ttf \
     xz-utils
+
+# Pin Pandoc to the same series as local `pandoc --version` (HTML→Typst writer stability).
+ARG PANDOC_VERSION=3.1.11.1
+RUN curl -fsSL "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-1-amd64.deb" -o /tmp/pandoc.deb \
+    && apt-get install -y /tmp/pandoc.deb \
+    && rm /tmp/pandoc.deb \
+    && pandoc --version | head -1
 
 # Typst CLI for book PDFs (Learn Lojban and future books)
 ARG TYPST_VERSION=0.14.2

@@ -17,7 +17,9 @@ mkdir -p ${VREJI_PATH}/uencu
 cd "$(dirname "$0")/../.."
 
 echo "Generating PDFs (Typst; all book indices × locales; PDF_TYPUST_ONLY_LEARN_LOJBAN=1 for local learn-lojban-only)..."
-pnpm exec tsx lib/typst-book/print-all-books.ts
+# Large books + Mermaid + pandoc HTML can approach default ~4GiB heap; typst float patch is string-heavy.
+NODE_OPTIONS="${NODE_OPTIONS:+${NODE_OPTIONS} }--max-old-space-size=8192" \
+  pnpm exec tsx lib/typst-book/print-all-books.ts
 PDF_EXIT_CODE=$?
 if [ $PDF_EXIT_CODE -ne 0 ]; then
   echo "ERROR: Typst PDF generation failed with exit code $PDF_EXIT_CODE"
