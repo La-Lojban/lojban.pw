@@ -1184,7 +1184,7 @@ tr td .inner-table td {
     page-break-inside: avoid;
   }
 
-  /* Full-bleed light background (PDF margins are 0; see lib/printer/index.js). */
+  /* Full-bleed light background (PDF margins are 0 in Typst book template). */
   .book-print-root {
     position: relative;
     padding: 11mm 12mm 18mm;

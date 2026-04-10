@@ -1,5 +1,5 @@
 # Noble = Ubuntu 24.04 (newer Chromium deps, glibc, and apt pandoc with native `-t typst`).
-# Tag matches npm: `src/package.json` (@playwright/test, playwright-core) and root `package.json` (playwright).
+# Tag matches npm: `src/package.json` (`playwright-core`).
 FROM mcr.microsoft.com/playwright:v1.59.1-noble
 
 # Set timezone to avoid questions in CLI
@@ -22,7 +22,7 @@ RUN apt-get update && apt-get install -y \
     fonts-freefont-ttf \
     xz-utils
 
-# Typst CLI for PDF_BACKEND=typst (Learn Lojban pilot and future books)
+# Typst CLI for book PDFs (Learn Lojban and future books)
 ARG TYPST_VERSION=0.14.2
 RUN curl -fsSL "https://github.com/typst/typst/releases/download/v${TYPST_VERSION}/typst-x86_64-unknown-linux-musl.tar.xz" -o /tmp/typst.tar.xz \
     && tar -xJf /tmp/typst.tar.xz -C /usr/local/bin --strip-components=1 "typst-x86_64-unknown-linux-musl/typst" \

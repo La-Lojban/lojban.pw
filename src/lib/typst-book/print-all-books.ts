@@ -1,5 +1,5 @@
 /**
- * Generate all book PDFs via Typst (same discovery as lib/printer/index.js):
+ * Generate all book PDFs via Typst (discovery: every `data/pages/<lang>/books/*.md` index):
  * every `data/pages/<lang>/books/*.md` index for each language in `config/locales.json`.
  *
  * Optional (local dev only): `PDF_TYPUST_ONLY_LEARN_LOJBAN=1` limits the queue to

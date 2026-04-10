@@ -22,15 +22,13 @@ permissions:
 env:
   TAG_NAME: ${{ github.sha }}
   DOCKER_BUILDKIT: 1  # Enable BuildKit for faster builds
-  # Playwright browser cache: keep Dockerfile `FROM mcr.microsoft.com/playwright:…` aligned with
-  # `src/package.json` @playwright/test + playwright-core (and root package.json `playwright`).
-  # Book PDFs: Typst builds every book index × locale (print-all-books.ts). Local-only: PDF_TYPUST_ONLY_LEARN_LOJBAN=1.
-  PDF_BACKEND: typst
+  # Playwright browser cache: Mermaid rasterization (typst-book) + optional Next tooling; keep
+  # Dockerfile `FROM mcr.microsoft.com/playwright:…` aligned with `src/package.json` playwright-core.
+  # Book PDFs: Typst builds every book index × locale (`lib/typst-book/print-all-books.ts`).
+  # Local-only: PDF_TYPUST_ONLY_LEARN_LOJBAN=1.
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Opt into Node.js 24 (Node 20 deprecated on runners)
   # CI-only: next.config.js uses min(NEXT_BUILD_MAX_CPUS, os.cpus().length) for static generation.
   NEXT_BUILD_MAX_CPUS: 16
-  # CI-only: parallel PDF jobs in src/lib/printer/index.js (global queue; unset locally uses default 20).
-  PDF_PRINT_CONCURRENCY: 4
 
 jobs:
   build:
@@ -125,8 +123,6 @@ jobs:
                    -e ALGOLIA_INDEX_NAME="$INDEX_NAME" \
                    -e CI=true \
                    -e NEXT_BUILD_MAX_CPUS="${{ env.NEXT_BUILD_MAX_CPUS }}" \
-                   -e PDF_PRINT_CONCURRENCY="${{ env.PDF_PRINT_CONCURRENCY }}" \
-                   -e PDF_BACKEND="${{ env.PDF_BACKEND }}" \
                    -e PLAYWRIGHT_BROWSERS_PATH=/ms-playwright \
                    lojban:latest \
                    sh -c "${INSTALL_CMD}pnpm cicd && if [ \"${{ github.event_name }}\" != \"pull_request\" ]; then node scripts/algolia-index.js; else echo \"Skipping Algolia index on pull_request\"; fi"
