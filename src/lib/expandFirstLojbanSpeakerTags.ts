@@ -1,9 +1,120 @@
+import fs from "fs";
+import path from "path";
+
 /**
  * Path segment (POSIX slashes) inside avatar image URLs for `<speaker>` / `<speakers>`.
- * Kept in sync with on-disk layout under `data/assets/pixra/…`; Typst pipeline matches this
- * substring to skip the margin pixra queue and to detect speaker rows in `body.typ`.
+ * Kept in sync with on-disk layout under `data/assets/pixra/…`; Typst pipeline matches these
+ * substrings to skip the margin pixra queue and to detect speaker rows in `body.typ`.
  */
 export const SPEAKER_AVATAR_IMAGE_PATH_INFIX = "pixra/books/first-lojban/icons";
+
+const SPEAKER_ICON_EXT = ".webp";
+const SPEAKER_BOOK_ICON_PATH_RE = /pixra\/books\/[^"\\/\s]+\/icons/i;
+const BOOK_SLUG_FROM_MD_PATH_RE =
+  /^(.*)\/data\/pages\/[^/]+\/books\/([^/]+?)(?:\/|\.md$)/i;
+const NUMERIC_SPRITE_SUFFIX_RE = /^(.+?)(\d+)$/;
+
+/** All infixes that may appear in `#image("…")` paths for book speaker avatars (Typst + site). */
+export const SPEAKER_AVATAR_IMAGE_PATH_INFICES: readonly string[] = [
+  SPEAKER_AVATAR_IMAGE_PATH_INFIX,
+];
+
+const spriteBasenameCacheByIconDir = new Map<string, string[]>();
+const SPEAKER_LABEL_BY_STEM: Record<string, string> = {
+  lif: "la lifri",
+  lifri: "la lifri",
+  lin: "la linto",
+  linto: "la linto",
+  bla: "la blanu",
+  blanu: "la blanu",
+};
+
+function capitalizeWord(word: string): string {
+  if (!word) return word;
+  return `${word[0]!.toUpperCase()}${word.slice(1)}`;
+}
+
+function humanizeSpriteStem(stem: string): string {
+  const noDigits = stem.replace(/\d+$/g, "");
+  const cleaned = noDigits.replace(/[^a-z0-9_-]+/gi, "");
+  return cleaned
+    .split(/[_-]+/)
+    .filter(Boolean)
+    .map((part) => capitalizeWord(part.toLowerCase()))
+    .join(" ");
+}
+
+function parseBookSlugFromMarkdownPath(fullPath: string): string | null {
+  const norm = fullPath.replace(/\\/g, "/");
+  const m = BOOK_SLUG_FROM_MD_PATH_RE.exec(norm);
+  if (!m?.[2]) return null;
+  return m[2];
+}
+
+function iconsAssetDirForMarkdownPath(fullPath: string): string | null {
+  const norm = fullPath.replace(/\\/g, "/");
+  const m = BOOK_SLUG_FROM_MD_PATH_RE.exec(norm);
+  if (!m?.[1] || !m[2]) return null;
+  return path.join(m[1], "data", "assets", "pixra", "books", m[2], "icons");
+}
+
+function listSpriteBasenamesForBook(fullPath: string): string[] {
+  const dir = iconsAssetDirForMarkdownPath(fullPath);
+  if (!dir) return [];
+  const hit = spriteBasenameCacheByIconDir.get(dir);
+  if (hit) return hit;
+  let out: string[] = [];
+  try {
+    out = fs
+      .readdirSync(dir, { withFileTypes: true })
+      .filter((entry) => entry.isFile())
+      .map((entry) => entry.name)
+      .filter((name) => name.toLowerCase().endsWith(SPEAKER_ICON_EXT))
+      .map((name) => name.slice(0, -SPEAKER_ICON_EXT.length));
+  } catch {
+    out = [];
+  }
+  spriteBasenameCacheByIconDir.set(dir, out);
+  return out;
+}
+
+function resolveSpriteBasenameForBook(sprite: string, fullPath?: string): string {
+  const base = sprite.replace(/\.(png|webp|jpe?g)$/i, "");
+  if (!fullPath) return base;
+
+  const basenames = listSpriteBasenamesForBook(fullPath);
+  if (!basenames.length) return base;
+  const lower = base.toLowerCase();
+  const exact = basenames.find((name) => name.toLowerCase() === lower);
+  if (exact) return exact;
+
+  const parts = NUMERIC_SPRITE_SUFFIX_RE.exec(base);
+  if (!parts) return base;
+  const letters = parts[1]!.toLowerCase();
+  const number = parts[2]!;
+  const candidates = basenames.filter((name) => {
+    const m = NUMERIC_SPRITE_SUFFIX_RE.exec(name);
+    if (!m) return false;
+    return (
+      m[2] === number &&
+      (m[1]!.toLowerCase().startsWith(letters) ||
+        letters.startsWith(m[1]!.toLowerCase()))
+    );
+  });
+  if (candidates.length === 1) return candidates[0]!;
+  return base;
+}
+
+export function speakerAvatarIconInfixForMarkdownPath(fullPath: string): string {
+  const slug = parseBookSlugFromMarkdownPath(fullPath);
+  if (slug) return `pixra/books/${slug}/icons`;
+  return SPEAKER_AVATAR_IMAGE_PATH_INFIX;
+}
+
+/** Web URL prefix for speaker sprites for the given authored markdown file path. */
+export function bookSpeakerIconsWebBaseForMarkdownPath(fullPath: string): string {
+  return `/assets/${speakerAvatarIconInfixForMarkdownPath(fullPath)}/`;
+}
 
 /** Web URL prefix for speaker sprites (`SPEAKER_AVATAR_IMAGE_PATH_INFIX` after `/assets/`). */
 export const BOOK_SPEAKER_ICONS_WEB_BASE = `/assets/${SPEAKER_AVATAR_IMAGE_PATH_INFIX}/`;
@@ -11,26 +122,29 @@ export const BOOK_SPEAKER_ICONS_WEB_BASE = `/assets/${SPEAKER_AVATAR_IMAGE_PATH_
 /** @deprecated Use `BOOK_SPEAKER_ICONS_WEB_BASE`. */
 export const FIRST_LOJBAN_SPEAKER_ICONS_BASE = BOOK_SPEAKER_ICONS_WEB_BASE;
 
-const SPEAKER_LABEL_BY_PREFIX: Record<string, string> = {
-  koc: "Koshon",
-  sor: "Sora",
-  sev: "Sevan",
-};
-
 export function speakerDisplayNameFromSprite(
   sprite: string,
-  explicitName?: string
+  explicitName?: string,
+  fullPath?: string
 ): string {
   const n = explicitName?.trim();
   if (n) return n;
-  const base = sprite.replace(/\.(png|webp)$/i, "");
-  const prefix = base.match(/^([a-z]+)/i)?.[1]?.toLowerCase() ?? "";
-  return SPEAKER_LABEL_BY_PREFIX[prefix] ?? base;
+  const base = resolveSpriteBasenameForBook(sprite, fullPath);
+  const stem = base.replace(/\d+$/g, "").toLowerCase();
+  if (SPEAKER_LABEL_BY_STEM[stem]) return SPEAKER_LABEL_BY_STEM[stem]!;
+  const friendly = humanizeSpriteStem(base);
+  return friendly || base;
 }
 
-export function firstLojbanSpeakerIconUrl(sprite: string): string {
-  const base = sprite.replace(/\.(png|webp)$/i, "");
-  return `${BOOK_SPEAKER_ICONS_WEB_BASE}${base}.webp`;
+export function firstLojbanSpeakerIconUrl(
+  sprite: string,
+  fullPath?: string
+): string {
+  const base = resolveSpriteBasenameForBook(sprite, fullPath);
+  const webBase = fullPath
+    ? bookSpeakerIconsWebBaseForMarkdownPath(fullPath)
+    : BOOK_SPEAKER_ICONS_WEB_BASE;
+  return `${webBase}${base}${SPEAKER_ICON_EXT}`;
 }
 
 /** Must match the number of `article .speaker-row--bubble-*` themes in `src/styles/index.css`. */
@@ -83,13 +197,9 @@ export function speakerBubblePaletteIndexFromSprites(sprites: string[]): number 
 export function extractSpeakerSpriteBasenamesFromTypstAvatarInner(
   avatarInner: string
 ): string[] {
-  const infix = SPEAKER_AVATAR_IMAGE_PATH_INFIX.replaceAll("\\", "/");
-  const esc = infix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const re = new RegExp(
-    `#image\\("[^"]*${esc}([^"/\\\\]+)\\.(?:webp|png)"`,
-    "gi"
-  );
   const out: string[] = [];
+  const re =
+    /#image\("[^"]*pixra\/books\/[^"/\\]+\/icons\/([^"/\\]+)\.(?:webp|png|jpe?g)"\)/gi;
   let m: RegExpExecArray | null;
   while ((m = re.exec(avatarInner))) {
     out.push(m[1]!);
@@ -103,6 +213,16 @@ export function speakerBubblePaletteIndexFromTypstAvatarInner(
   return speakerBubblePaletteIndexFromSprites(
     extractSpeakerSpriteBasenamesFromTypstAvatarInner(avatarInner)
   );
+}
+
+/** Typst/HTML fragment uses a known book-speaker `#image("…/pixra/books/…/icons/…")` path. */
+export function typstSnippetContainsSpeakerAvatarImagePath(s: string): boolean {
+  return SPEAKER_BOOK_ICON_PATH_RE.test(s);
+}
+
+/** Global regex for `#image("…")` calls whose path includes any speaker-avatar infix. */
+export function speakerAvatarTypstImageGlobalRegex(): RegExp {
+  return /#image\("[^"]*pixra\/books\/[^"/\\]+\/icons\/[^"]*"\)/g;
 }
 
 function parseSpeakerOpenTag(attrStr: string): {
@@ -184,10 +304,11 @@ const AFTER_SPEAKER_ROW_HTML = "\n\n";
 function buildSpeakerRow(
   sprite: string,
   explicitName: string | undefined,
-  inner: string
+  inner: string,
+  fullPath: string
 ): string {
-  const url = firstLojbanSpeakerIconUrl(sprite);
-  const label = speakerDisplayNameFromSprite(sprite, explicitName);
+  const url = firstLojbanSpeakerIconUrl(sprite, fullPath);
+  const label = speakerDisplayNameFromSprite(sprite, explicitName, fullPath);
   const safe = escapeHtmlAttr(label);
   const body = speechInnerForHtml(inner);
   const rowMod = speakerRowBubbleModifierFromThemeKey(
@@ -205,7 +326,8 @@ function buildSpeakerRow(
 function buildMultifaceRow(
   sprites: string[],
   explicitNames: string[] | undefined,
-  inner: string
+  inner: string,
+  fullPath: string
 ): string {
   const wrappers = sprites
     .map((sprite, i) => {
@@ -213,9 +335,9 @@ function buildMultifaceRow(
         explicitNames && explicitNames[i]
           ? explicitNames[i]
           : undefined;
-      const label = speakerDisplayNameFromSprite(sprite, name);
+      const label = speakerDisplayNameFromSprite(sprite, name, fullPath);
       const safe = escapeHtmlAttr(label);
-      const url = firstLojbanSpeakerIconUrl(sprite);
+      const url = firstLojbanSpeakerIconUrl(sprite, fullPath);
       return `<div class="wrapper">
 <figure><div class="figure_img" data-url="${url}"><img src="${url}" alt="${safe}"></div><figcaption><b>${safe}</b><br/><i></i></figcaption></figure>
 </div>`;
@@ -263,12 +385,16 @@ function findNextSpeakerTag(markdown: string, from: number): NextTag | null {
 
 /**
  * Expands `<speaker>` / `<speakers>` tags into `speaker-row` markup (`src/styles/index.css`) for
- * **any** book page (see `markdownToHtml`); sprite files live under `SPEAKER_AVATAR_IMAGE_PATH_INFIX`.
+ * **any** book page (see `markdownToHtml`); sprite files live under the infix from
+ * `speakerAvatarIconInfixForMarkdownPath(fullPath)` (default: first-lojban icons).
  * - `<speaker sprite="sor1">…</speaker>` (optional `name="…"`, self-closing ok)
  * - `<speakers multiface sprites="sor5,sev1,koc5">…</speakers>` (optional `names="…"`)
  * Bubble tint is `speaker-row--bubble-*` from a hash of each sprite id with non-letters stripped (see `SPEAKER_BUBBLE_PALETTE_SIZE`).
  */
-export function expandBookSpeakerTags(markdown: string): string {
+export function expandBookSpeakerTags(
+  markdown: string,
+  fullPath = ""
+): string {
   const SPEAKER_OPEN_LEN = "<speaker".length;
   const SPEAKERS_OPEN_LEN = "<speakers".length;
   let i = 0;
@@ -301,7 +427,7 @@ export function expandBookSpeakerTags(markdown: string): string {
         continue;
       }
       if (parsed.selfClosing) {
-        out += buildMultifaceRow(parsed.sprites, namesOpt, "\n\n");
+        out += buildMultifaceRow(parsed.sprites, namesOpt, "\n\n", fullPath);
         i = gt + 1;
         continue;
       }
@@ -313,7 +439,7 @@ export function expandBookSpeakerTags(markdown: string): string {
         break;
       }
       const inner = rest.slice(0, m.index);
-      out += buildMultifaceRow(parsed.sprites, namesOpt, inner);
+      out += buildMultifaceRow(parsed.sprites, namesOpt, inner, fullPath);
       i = afterGt + m.index + m[0].length;
       continue;
     }
@@ -331,7 +457,7 @@ export function expandBookSpeakerTags(markdown: string): string {
       continue;
     }
     if (selfClosing) {
-      out += buildSpeakerRow(sprite, name, "\n\n");
+      out += buildSpeakerRow(sprite, name, "\n\n", fullPath);
       i = gt + 1;
       continue;
     }
@@ -343,7 +469,7 @@ export function expandBookSpeakerTags(markdown: string): string {
       break;
     }
     const inner = rest.slice(0, m.index);
-    out += buildSpeakerRow(sprite, name, inner);
+    out += buildSpeakerRow(sprite, name, inner, fullPath);
     i = afterGt + m.index + m[0].length;
   }
 

@@ -55,7 +55,7 @@ export default async function markdownToHtml({
   content = replaceIncludes(content, {
     resolveFrom: path.resolve(fullPath, ".."),
   });
-  content = expandBookSpeakerTags(content);
+  content = expandBookSpeakerTags(content, fullPath);
   content = expandFirstLojbanTfQuiz(content, fullPath);
   content = markdownEnableHtmlTableCellMarkdown(content);
   content = markdownNormalizeThematicBreaks(content);

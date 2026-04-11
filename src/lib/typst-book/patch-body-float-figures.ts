@@ -4,8 +4,8 @@
  * For the PDF we keep a fixed two-column band: main text on the left, queued pixra on the right.
  *
  * **Not queued** (handled inline like the site):
- * - `<speaker>` avatars (`#image` paths containing `SPEAKER_AVATAR_IMAGE_PATH_INFIX` from
- *   `expandFirstLojbanSpeakerTags.ts` / `SPEAKER_AVATAR_IMAGE_PATH_INFIX`) — same typst shell as
+ * - `<speaker>` avatars (`#image` paths containing a speaker infix from
+ *   `SPEAKER_AVATAR_IMAGE_PATH_INFICES` in `expandFirstLojbanSpeakerTags.ts`) — same typst shell as
  *   `<pixra>` but must not join the margin stack; `rewriteSpeakerRowTypstBlock` wraps the avatar
  *   column in `#speaker_row_avatar_column` (`speaker-bubble.typ`) so `#figure` matches
  *   `src/styles/index.css` `.speaker-row__avatar` (not the margin-pixra `show figure` rule).
@@ -16,8 +16,9 @@
  */
 
 import {
-  SPEAKER_AVATAR_IMAGE_PATH_INFIX,
+  speakerAvatarTypstImageGlobalRegex,
   speakerBubblePaletteIndexFromTypstAvatarInner,
+  typstSnippetContainsSpeakerAvatarImagePath,
 } from "../expandFirstLojbanSpeakerTags";
 
 /** `#figure(` … matching `)` at depth 0, respecting double-quoted strings. */
@@ -37,7 +38,7 @@ function endOfTypstCallWithParens(s: string, openParenIdx: number): number {
       i++;
       continue;
     }
-    if (c === '"') {
+    if (c === '"' && (i === 0 || s[i - 1] !== "\\")) {
       inStr = true;
       i++;
       continue;
@@ -69,7 +70,7 @@ export function endOfBracketContent(s: string, openBracketIdx: number): number {
       i++;
       continue;
     }
-    if (c === '"') {
+    if (c === '"' && (i === 0 || s[i - 1] !== "\\")) {
       inStr = true;
       i++;
       continue;
@@ -85,7 +86,7 @@ export function endOfBracketContent(s: string, openBracketIdx: number): number {
 }
 
 function typstFigureCallLooksLikeSitePixraQueueCandidate(figureSrc: string): boolean {
-  if (figureSrc.includes(SPEAKER_AVATAR_IMAGE_PATH_INFIX)) return false;
+  if (typstSnippetContainsSpeakerAvatarImagePath(figureSrc)) return false;
   // Bare `<figure><img>` (and similar): inner content is `#image("…");` not `#block[ #image … ]`.
   if (/#image\s*\(\s*"[^"]*"\s*\)\s*;/.test(figureSrc) && !/\[#block\[/.test(figureSrc))
     return false;
@@ -258,10 +259,7 @@ function collectSpeakerRowTypstIntervals(
   body: string
 ): { start: number; end: number }[] {
   const out: { start: number; end: number }[] = [];
-  const re = new RegExp(
-    `#image\\("[^"]*${SPEAKER_AVATAR_IMAGE_PATH_INFIX.replace(/\//g, "\\/")}[^"]*"\\)`,
-    "g"
-  );
+  const re = speakerAvatarTypstImageGlobalRegex();
   let m: RegExpExecArray | null;
   let skipUntil = -1;
   while ((m = re.exec(body))) {
@@ -328,7 +326,8 @@ function trySplitSpeakerRowInner(inner: string): { avatarWrap: string; speechWra
   const rest = inner.slice(spEnd).replace(/\s+/g, "");
   if (rest.length > 0) return null;
   const avInner = typstOneBlockInner(avatarWrap);
-  if (avInner === null || !avInner.includes(SPEAKER_AVATAR_IMAGE_PATH_INFIX)) return null;
+  if (avInner === null || !typstSnippetContainsSpeakerAvatarImagePath(avInner))
+    return null;
   const speechInnerProbe = typstOneBlockInner(speechWrap);
   if (speechInnerProbe === null) return null;
   // Multiface: only the outer avatar wrapper may contain multiple `#figure`s; speech must not be a figure cell.
@@ -389,12 +388,55 @@ ${speechInner.trim()}
 }
 
 function rewriteSpeakerRowTypstIfNeeded(segment: string): string {
-  if (!segment.includes(SPEAKER_AVATAR_IMAGE_PATH_INFIX)) return segment;
+  if (!typstSnippetContainsSpeakerAvatarImagePath(segment)) return segment;
   const lead = segment.match(/^\s*/)?.[0] ?? "";
   const trimmed = segment.trim();
   if (!trimmed.startsWith("#block[")) return segment;
   const next = rewriteSpeakerRowTypstBlock(trimmed);
   return next === trimmed ? segment : lead + next;
+}
+
+/**
+ * Final safety pass: rewrite any remaining raw speaker rows that may have slipped through
+ * interval slicing (rare Pandoc layouts where one row stays as plain figure + text blocks).
+ */
+function rewriteResidualSpeakerRows(body: string): string {
+  const rows = collectSpeakerRowTypstIntervals(body);
+  if (rows.length === 0) return body;
+  let out = body;
+  for (let i = rows.length - 1; i >= 0; i -= 1) {
+    const row = rows[i]!;
+    const before = out.slice(0, row.start);
+    const target = out.slice(row.start, row.end);
+    const after = out.slice(row.end);
+    out = before + rewriteSpeakerRowTypstIfNeeded(target) + after;
+  }
+  return out;
+}
+
+/**
+ * Brute-force nested block scan fallback: try rewriting every `#block[...]` node in-place.
+ * This catches rare rows that are structurally valid speaker rows but missed by interval discovery.
+ */
+function rewriteSpeakerRowsByBlockScan(body: string): string {
+  let out = body;
+  let search = 0;
+  for (let guard = 0; guard < 30000; guard += 1) {
+    const b = out.indexOf("#block[", search);
+    if (b < 0) break;
+    const open = b + "#block[".length - 1;
+    const end = endOfBracketContent(out, open);
+    if (end < 0) break;
+    const block = out.slice(b, end);
+    const rewritten = rewriteSpeakerRowTypstIfNeeded(block);
+    if (rewritten !== block) {
+      out = out.slice(0, b) + rewritten + out.slice(end);
+      search = b + rewritten.length;
+      continue;
+    }
+    search = b + 1;
+  }
+  return out;
 }
 
 function mergeIntervals(
@@ -519,5 +561,5 @@ export function patchBodyTypFloatFigures(body: string): string {
     }
     out += piece;
   }
-  return out;
+  return rewriteSpeakerRowsByBlockScan(rewriteResidualSpeakerRows(out));
 }

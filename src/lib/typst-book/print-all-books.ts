@@ -4,6 +4,9 @@
  *
  * Optional (local dev only): `PDF_TYPUST_ONLY_LEARN_LOJBAN=1` limits the queue to
  * `learn-lojban.md` per language. CI should not set this.
+ *
+ * Outputs `*-pre.pdf` under the vreji tree; run `pnpm print` (or `shrink-pdf.sh` after Typst)
+ * to produce download `*.pdf` files.
  */
 import fs from "fs";
 import path from "path";
@@ -30,7 +33,8 @@ async function main() {
       const slug = sluggify(f.replace(/\.md$/, ""));
       jobs.push({
         bookMdPath: path.join(dirPath, f),
-        outPdfPath: path.join(vrejiPath, "uencu", shortLang, `${slug}.pdf`),
+        /** Typst writes `*-pre.pdf`; `lib/printer/shrink-pdf.sh` shrinks to `*.pdf` (same slug). */
+        outPdfPath: path.join(vrejiPath, "uencu", shortLang, `${slug}-pre.pdf`),
       });
     }
   }

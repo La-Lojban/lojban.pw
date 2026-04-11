@@ -1,5 +1,5 @@
 // Learn Lojban — Typst template (running header = section ##/###, brand palettes, site-like tables)
-// Cover: unnumbered; body: Arabic from 1. Brand palette from front matter or title-hash.
+// Cover: unnumbered, light wash + palette moiré (see `brandbooks.typ`); body: Arabic from 1.
 
 #import "brandbooks.typ": cover-bg-for-brand, page-bg-for-brand, resolve-brand
 
@@ -92,7 +92,7 @@
   page(
     margin: 0pt,
     numbering: none,
-    fill: bb.cover-deep,
+    fill: bb.cover-page-fill,
     header: none,
     footer: none,
   )[
@@ -105,7 +105,7 @@
             width: 70%,
             radius: 10pt,
             clip: true,
-            stroke: 0.85pt + bb.cover-text-light.transparentize(72%),
+            stroke: 0.85pt + bb.header-rule.transparentize(52%),
           )[
             #align(center)[
               #image(cover-image, width: 100%, fit: "contain")
@@ -118,7 +118,7 @@
           font: cover-title-fonts,
           size: 46pt,
           weight: "bold",
-          fill: bb.cover-text-light,
+          fill: bb.h1,
           tracking: -0.02em,
         )[#title]
         #v(1.15em)
@@ -126,7 +126,7 @@
           #box(width: 42mm)[
             #line(
               length: 100%,
-              stroke: 0.9pt + bb.cover-text-light.transparentize(58%),
+              stroke: 0.95pt + bb.header-rule.transparentize(35%),
             )
           ]
         ]
@@ -137,7 +137,7 @@
           #text(
             font: cover-subtitle-fonts,
             size: 17pt,
-            fill: bb.cover-text-muted,
+            fill: color.mix((bb.h2, 78%), (bb.page-tiling-stroke, 22%), space: rgb),
           )[#description]
         ]
       ]

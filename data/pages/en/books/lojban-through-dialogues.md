@@ -1,10 +1,10 @@
 ---
 icon: 🗣️
 title: Lojban Through Dialogues
-description: Immersive situational dialogue course with Koshon and Sora — learn Lojban through conversations, context, and built-in spiral review
-og:image: /assets/pixra/cilre/casnu.webp
-coverImage: /assets/pixra/cilre/casnu.webp
-palette: forest
+description: Immersive situational dialogue course with Lifri, Blanu, and Linto — learn Lojban through conversations, context, and built-in spiral review
+og:image: /assets/pixra/books/lojban-through-dialogues/cover.webp
+coverImage: /assets/pixra/books/lojban-through-dialogues/cover.webp
+palette: sienna
 ---
 
 @include "lojban-through-dialogues/0.md"

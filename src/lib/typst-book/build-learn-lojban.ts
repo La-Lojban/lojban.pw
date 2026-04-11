@@ -7,6 +7,10 @@ import { spawnSync } from "child_process";
 import matter from "gray-matter";
 import markdownToHtml from "../markdownToHtml";
 import {
+  speakerBubblePaletteIndexFromTypstAvatarInner,
+  typstSnippetContainsSpeakerAvatarImagePath,
+} from "../expandFirstLojbanSpeakerTags";
+import {
   endOfBracketContent,
   patchBodyTypFloatFigures,
 } from "./patch-body-float-figures";
@@ -181,7 +185,109 @@ ${inner}
     }
     searchFrom = i0 + gridOpen.length;
   }
+  s = rewriteResidualRawSpeakerRows(s);
   fs.writeFileSync(bodyTypPath, s, "utf8");
+}
+
+function blockInnerOrNull(block: string): string | null {
+  const t = block.trimStart();
+  if (!t.startsWith("#block[")) return null;
+  const offset = block.length - t.length;
+  const i = offset + t.indexOf("#block[");
+  const open = i + "#block[".length - 1;
+  const end = endOfBracketContent(block, open);
+  if (end < 0) return null;
+  return block.slice(open + 1, end - 1);
+}
+
+function splitRawSpeakerRowInner(
+  inner: string
+): { avatarWrap: string; speechWrap: string } | null {
+  const trimmed = inner.replace(/^\s+/, "");
+  if (!trimmed.startsWith("#block[")) return null;
+  const off = inner.length - trimmed.length;
+  const firstRel = off + trimmed.indexOf("#block[");
+  const firstOpen = firstRel + "#block[".length - 1;
+  const firstEnd = endOfBracketContent(inner, firstOpen);
+  if (firstEnd < 0) return null;
+  const avatarWrap = inner.slice(firstRel, firstEnd);
+  let pos = firstEnd;
+  while (pos < inner.length && /\s/.test(inner[pos]!)) pos += 1;
+  if (!inner.startsWith("#block[", pos)) return null;
+  const secondOpen = pos + "#block[".length - 1;
+  const secondEnd = endOfBracketContent(inner, secondOpen);
+  if (secondEnd < 0) return null;
+  const speechWrap = inner.slice(pos, secondEnd);
+  if (inner.slice(secondEnd).trim().length > 0) return null;
+  const avatarInner = blockInnerOrNull(avatarWrap);
+  if (!avatarInner || !typstSnippetContainsSpeakerAvatarImagePath(avatarInner)) {
+    return null;
+  }
+  const speechInner = blockInnerOrNull(speechWrap);
+  if (!speechInner) return null;
+  if (/^\s*#figure\(/s.test(speechInner)) return null;
+  return { avatarWrap, speechWrap };
+}
+
+function rewriteRawSpeakerBlock(block: string): string {
+  const t = block.trim();
+  if (!t.startsWith("#block[")) return block;
+  const open = t.indexOf("#block[") + "#block[".length - 1;
+  const end = endOfBracketContent(t, open);
+  if (end < 0) return block;
+  const inner = t.slice(open + 1, end - 1);
+  const parts = splitRawSpeakerRowInner(inner);
+  if (!parts) return block;
+  const avatarInner = blockInnerOrNull(parts.avatarWrap);
+  const speechInner = blockInnerOrNull(parts.speechWrap);
+  if (!avatarInner || !speechInner) return block;
+  const figCount = (avatarInner.match(/#figure\(/g) ?? []).length;
+  const multiface = figCount > 1;
+  const leftColRaw = multiface
+    ? `#stack(spacing: 0.5em)[\n${avatarInner.trim()}\n]`
+    : avatarInner.trim();
+  const bubbleIdx = speakerBubblePaletteIndexFromTypstAvatarInner(avatarInner);
+  return `#block[
+#grid(
+  columns: (auto, 1fr),
+  column-gutter: 12pt,
+  align: (top + left, top + left),
+)[
+#speaker_row_avatar_column(multiface: ${multiface})[
+${leftColRaw}
+]
+][
+#speaker_speech_bubble(${bubbleIdx})[
+${speechInner.trim()}
+]
+]
+]
+`;
+}
+
+function rewriteResidualRawSpeakerRows(body: string): string {
+  let out = body;
+  let search = 0;
+  for (let guard = 0; guard < 20000; guard += 1) {
+    const b = out.indexOf("#block[", search);
+    if (b < 0) break;
+    const open = b + "#block[".length - 1;
+    const end = endOfBracketContent(out, open);
+    if (end < 0) break;
+    const block = out.slice(b, end);
+    if (!typstSnippetContainsSpeakerAvatarImagePath(block)) {
+      search = b + 1;
+      continue;
+    }
+    const rewritten = rewriteRawSpeakerBlock(block);
+    if (rewritten === block) {
+      search = b + 1;
+      continue;
+    }
+    out = out.slice(0, b) + rewritten + out.slice(end);
+    search = b + rewritten.length;
+  }
+  return out;
 }
 
 /**
@@ -600,7 +706,7 @@ async function main() {
   const bookMd = argv[0] ? path.resolve(argv[0]) : defaultBook;
   const vreji = getVrejiPath();
   const outPdf = path.resolve(
-    argv[1] ?? path.join(vreji, "uencu", "en", "learn-lojban.pdf")
+    argv[1] ?? path.join(vreji, "uencu", "en", "learn-lojban-pre.pdf")
   );
 
   await buildBookTypst({

@@ -3,7 +3,7 @@
 
 #let n-brands = 6
 
-// --- Six brandbooks (deep saturated accents; running header = white bar + `cover-deep` hairline, `header-text`) ---
+// --- Six brandbooks (deep accents for chrome; running header = white bar + `header-rule` hairline, `header-text`) ---
 
 #let brands = (
   // 0 Ember — warm stone & amber
@@ -195,6 +195,16 @@
   let radial-fade-pct = 8 + calc.rem(calc.floor(h / 41), 12)
   // Top accent stripe visibility on cover (hash-tuned)
   let accent-fade-pct = 10 + calc.rem(calc.floor(h / 7), 22)
+  // Cover (light): moiré angles + pitch mismatch — title-hash keeps each book stable.
+  let cover-moire-a = 2.05deg + calc.rem(h, 9) * 0.28deg
+  let cover-moire-b = -2.38deg - calc.rem(calc.floor(h / 13), 7) * 0.24deg
+  let cover-moire-pitch-mul = 1.046 + calc.rem(calc.floor(h / 11), 5) * 0.0045
+  let cover-page-fill = color.mix(
+    (white, 76%),
+    (b.page-bg-a, 19%),
+    (b.page-radial-inner, 5%),
+    space: rgb,
+  )
   (
     name: b.name,
     idx: idx,
@@ -224,31 +234,191 @@
     h1: b.h1,
     h2: b.h2,
     h3: b.h3,
+    cover-moire-a: cover-moire-a,
+    cover-moire-b: cover-moire-b,
+    cover-moire-pitch-mul: cover-moire-pitch-mul,
+    cover-page-fill: cover-page-fill,
   )
 }
 
-/// Content pages: soft brand-tinted ground + faint curved moiré — two sine-wave gratings
-/// (slight angle, ~5.5% pitch mismatch) so beats read as smooth arcs.
-#let page-bg-for-brand(bb) = {
-  let pitch = 6.8pt
-  let stroke = rgb(58, 58, 58).transparentize(90%) + 0.11pt
-  let amp = 0.42pt
-  let samples = 20
-
+/// Two sine-wave gratings (slight angle + pitch mismatch) → smooth curved moiré beats.
+/// `tile-y-mul` — smaller ⇒ more wave rows per unit height. `harmonic` — 2nd harmonic wiggle on each curve.
+#let moire-wave-tiling(
+  stroke,
+  rot-a,
+  rot-b,
+  pitch: 6.8pt,
+  pitch-mul: 1.055,
+  amp: 0.42pt,
+  samples: 20,
+  tile-y-mul: 2.2,
+  harmonic: 0.0,
+) = {
+  let n-samples = if harmonic != 0.0 { 32 } else { samples }
   let wave-in-tile(p-cell) = place(
     center + horizon,
     curve(
       stroke: stroke,
       fill: none,
       curve.move((-p-cell / 2, 0pt)),
-      ..range(1, samples + 1).map(i => {
-        let u = i / samples
+      ..range(1, n-samples + 1).map(i => {
+        let u = i / n-samples
         let x = -p-cell / 2 + u * p-cell
-        let y = amp * calc.sin(u * 2 * calc.pi)
+        let y = amp * (
+          calc.sin(u * 2 * calc.pi)
+            + harmonic * calc.sin(u * 4 * calc.pi)
+        )
         curve.line((x, y))
       }),
     ),
   )
+  let h = pitch * tile-y-mul
+  [
+    #place(
+      top + left,
+      rotate(
+        rot-a,
+        rect(
+          width: 120%,
+          height: 120%,
+          fill: tiling(
+            size: (pitch, h),
+            relative: "parent",
+          )[#wave-in-tile(pitch)],
+        ),
+      ),
+    )
+    #place(
+      top + left,
+      rotate(
+        rot-b,
+        rect(
+          width: 120%,
+          height: 120%,
+          fill: tiling(
+            size: (pitch * pitch-mul, h),
+            relative: "parent",
+          )[#wave-in-tile(pitch * pitch-mul)],
+        ),
+      ),
+    )
+  ]
+}
+
+/// Single cubic Bézier as a sampled open curve (separate from tiled moiré grids).
+#let bezier-curve-open(stroke, p0, p1, p2, p3, samples: 28) = {
+  let uu(t) = 1 - t
+  let pt(t) = {
+    let u = uu(t)
+    let bx = u * u * u * p0.at(0) + 3 * u * u * t * p1.at(0) + 3 * u * t * t * p2.at(0) + t * t * t * p3.at(0)
+    let by = u * u * u * p0.at(1) + 3 * u * u * t * p1.at(1) + 3 * u * t * t * p2.at(1) + t * t * t * p3.at(1)
+    (bx, by)
+  }
+  curve(
+    stroke: stroke,
+    fill: none,
+    curve.move(pt(0)),
+    ..range(1, samples + 1).map(i => {
+      let t = i / samples
+      curve.line(pt(t))
+    }),
+  )
+}
+
+/// Wide overlapping swooshes in page space (mm) — distinct from moiré tilings.
+#let overlapping-swoosh-layer(bb, cover: true) = {
+  let pal = bb.page-tiling-stroke
+  let glow = bb.cover-glow
+  let s-fine(w, pt) = pal.transparentize(w) + pt
+  let s-g(w, pt) = color
+    .mix((glow, 48%), (pal, 52%), space: rgb)
+    .transparentize(w) + pt
+  let gray(w, pt) = rgb(58, 58, 58).transparentize(w) + pt
+  let (w0, w1, w2) = if cover {
+    (88%, 90%, 92%)
+  } else {
+    (93%, 94%, 95%)
+  }
+  let t0 = if cover { 0.085pt } else { 0.075pt }
+  let t1 = if cover { 0.1pt } else { 0.085pt }
+  [
+    #place(top + left, bezier-curve-open(s-fine(w0, t0), (-18mm, 55mm), (52mm, 12mm), (118mm, 108mm), (228mm, 38mm)))
+    #place(top + left, bezier-curve-open(s-g(w1, t0), (-12mm, 118mm), (48mm, 198mm), (142mm, 72mm), (232mm, 168mm)))
+    #place(top + left, bezier-curve-open(gray(w2, t0), (-8mm, 188mm), (78mm, 262mm), (168mm, 155mm), (222mm, 288mm)))
+    #place(top + left, bezier-curve-open(s-fine(w1, t0), (8mm, -6mm), (95mm, 88mm), (175mm, 22mm), (215mm, 95mm)))
+    #place(top + left, bezier-curve-open(s-g(w0, t1), (-22mm, 228mm), (42mm, 148mm), (128mm, 255mm), (218mm, 198mm)))
+    #place(top + left, bezier-curve-open(s-fine(w2, t0), (22mm, 142mm), (108mm, 42mm), (188mm, 128mm), (228mm, 52mm)))
+    #place(top + left, bezier-curve-open(gray(w1, t0), (-14mm, 92mm), (62mm, 168mm), (152mm, 48mm), (226mm, 132mm)))
+    #place(top + left, bezier-curve-open(s-g(w2, t0), (38mm, 218mm), (102mm, 278mm), (168mm, 188mm), (208mm, 302mm)))
+    #place(top + left, bezier-curve-open(s-fine(w0, t1), (-20mm, 168mm), (55mm, 118mm), (145mm, 198mm), (220mm, 88mm)))
+    #place(top + left, bezier-curve-open(s-fine(w2, t0), (12mm, 78mm), (88mm, -2mm), (162mm, 62mm), (218mm, 8mm)))
+    #place(top + left, bezier-curve-open(gray(w0, t0), (48mm, 205mm), (118mm, 125mm), (178mm, 242mm), (212mm, 168mm)))
+    #place(top + left, bezier-curve-open(s-g(w1, t0), (-16mm, 32mm), (32mm, 98mm), (128mm, 32mm), (208mm, 118mm)))
+    #place(
+      top + left,
+      rotate(
+        -7.5deg,
+        origin: center + horizon,
+        bezier-curve-open(s-fine(w1, t0), (-28mm, 135mm), (40mm, 85mm), (155mm, 175mm), (235mm, 95mm)),
+      ),
+    )
+    #place(
+      top + left,
+      rotate(
+        6.2deg,
+        origin: center + horizon,
+        bezier-curve-open(s-g(w2, t0), (-24mm, 248mm), (58mm, 188mm), (148mm, 268mm), (228mm, 218mm)),
+      ),
+    )
+    #place(top + left, bezier-curve-open(s-fine(w0, t0), (62mm, 168mm), (128mm, 228mm), (178mm, 142mm), (218mm, 198mm)))
+    #place(top + left, bezier-curve-open(gray(w2, t0), (2mm, 48mm), (72mm, 128mm), (158mm, 58mm), (208mm, 108mm)))
+    #place(top + left, bezier-curve-open(s-g(w0, t1), (28mm, 258mm), (92mm, 198mm), (162mm, 278mm), (202mm, 228mm)))
+    #if not cover [
+      #place(top + left, bezier-curve-open(gray(96%, t0), (-6mm, 68mm), (58mm, 118mm), (138mm, 52mm), (214mm, 98mm)))
+      #place(top + left, bezier-curve-open(s-fine(96%, t0), (32mm, 188mm), (92mm, 248mm), (158mm, 168mm), (208mm, 228mm)))
+      #place(top + left, bezier-curve-open(s-g(95%, t0), (-14mm, 158mm), (48mm, 98mm), (128mm, 178mm), (218mm, 128mm)))
+      #place(top + left, bezier-curve-open(gray(95%, t0), (18mm, 22mm), (88mm, 82mm), (168mm, 38mm), (212mm, 72mm)))
+      #place(
+        top + left,
+        rotate(
+          -5deg,
+          origin: center + horizon,
+          bezier-curve-open(s-fine(96%, t0), (-20mm, 118mm), (42mm, 178mm), (148mm, 88mm), (226mm, 158mm)),
+        ),
+      )
+    ]
+    #if cover [
+      #place(top + left, bezier-curve-open(s-fine(86%, t1), (-10mm, 8mm), (72mm, 72mm), (158mm, 18mm), (222mm, 62mm)))
+      #place(top + left, bezier-curve-open(s-g(87%, t0), (18mm, 95mm), (98mm, 155mm), (172mm, 88mm), (226mm, 142mm)))
+      #place(top + left, bezier-curve-open(s-fine(89%, t0), (-6mm, 202mm), (52mm, 268mm), (138mm, 218mm), (216mm, 248mm)))
+      #place(top + left, bezier-curve-open(gray(91%, t0), (72mm, 32mm), (128mm, 108mm), (182mm, 42mm), (218mm, 88mm)))
+      #place(
+        top + left,
+        rotate(
+          11deg,
+          origin: center + horizon,
+          bezier-curve-open(s-g(88%, t0), (-18mm, 72mm), (48mm, 12mm), (152mm, 98mm), (228mm, 42mm)),
+        ),
+      )
+      #place(
+        top + left,
+        rotate(
+          -9deg,
+          origin: center + horizon,
+          bezier-curve-open(s-fine(87%, t0), (-12mm, 255mm), (62mm, 185mm), (168mm, 245mm), (224mm, 275mm)),
+        ),
+      )
+      #place(top + left, bezier-curve-open(s-g(89%, t0), (42mm, 128mm), (108mm, 188mm), (168mm, 108mm), (212mm, 162mm)))
+      #place(top + left, bezier-curve-open(s-fine(90%, t0), (-24mm, 148mm), (32mm, 88mm), (118mm, 168mm), (208mm, 118mm)))
+    ]
+  ]
+}
+
+/// Content pages: soft brand-tinted ground + stacked faint curved moirés (gray + palette-tinged).
+#let page-bg-for-brand(bb) = {
+  let stroke-gray = rgb(58, 58, 58).transparentize(90%) + 0.1pt
+  let stroke-gray-fine = rgb(58, 58, 58).transparentize(92%) + 0.085pt
+  let stroke-brand = bb.page-tiling-stroke.transparentize(93%) + 0.085pt
 
   place(
     top + left,
@@ -262,56 +432,242 @@
       ),
     ),
   )
-  place(
-    top + left,
-    rotate(
-      2.2deg,
-      rect(
-        width: 120%,
-        height: 120%,
-        fill: tiling(
-          size: (pitch, pitch * 2.2),
-          relative: "parent",
-        )[#wave-in-tile(pitch)],
-      ),
-    ),
+  overlapping-swoosh-layer(bb, cover: false)
+  place(top + left, dx: -6mm, dy: 11mm)[
+    #overlapping-swoosh-layer(bb, cover: false)
+  ]
+  moire-wave-tiling(
+    stroke-gray-fine,
+    2.05deg,
+    -2.62deg,
+    pitch: 4.35pt,
+    pitch-mul: 1.064,
+    amp: 0.22pt,
+    tile-y-mul: 1.42,
   )
-  place(
-    top + left,
-    rotate(
-      -2.5deg,
-      rect(
-        width: 120%,
-        height: 120%,
-        fill: tiling(
-          size: (pitch * 1.055, pitch * 2.2),
-          relative: "parent",
-        )[#wave-in-tile(pitch * 1.055)],
-      ),
-    ),
+  moire-wave-tiling(
+    stroke-gray,
+    2.2deg,
+    -2.5deg,
+    pitch: 6.8pt,
+    pitch-mul: 1.055,
+    amp: 0.38pt,
+    tile-y-mul: 1.95,
+    harmonic: 0.28,
+  )
+  moire-wave-tiling(
+    stroke-brand,
+    -1.85deg,
+    2.95deg,
+    pitch: 5.1pt,
+    pitch-mul: 1.058,
+    amp: 0.24pt,
+    tile-y-mul: 1.38,
+  )
+  moire-wave-tiling(
+    rgb(58, 58, 58).transparentize(94%) + 0.09pt,
+    81.6deg,
+    84.1deg,
+    pitch: 7.2pt,
+    pitch-mul: 1.051,
+    amp: 0.32pt,
+    tile-y-mul: 1.72,
+  )
+  moire-wave-tiling(
+    bb.page-tiling-stroke.transparentize(96%) + 0.08pt,
+    83.2deg,
+    -86deg,
+    pitch: 10.5pt,
+    pitch-mul: 1.047,
+    amp: 0.44pt,
+    tile-y-mul: 2.05,
+    harmonic: 0.18,
   )
 }
 
-/// Cover: title-hash drives gradient angle and accent bar opacity; palette sets hue family.
+/// Cover: light “daylight” wash, palette moiré curves, soft radial sun; palette + title-hash tune angles.
 #let cover-bg-for-brand(bb) = {
+  let sky-a = color.mix(
+    (white, 70%),
+    (bb.page-bg-a, 22%),
+    (bb.page-radial-inner, 8%),
+    space: rgb,
+  )
+  let sky-b = color.mix(
+    (white, 78%),
+    (bb.page-bg-b, 16%),
+    (bb.cover-glow, 6%),
+    space: rgb,
+  )
+  let sky-c = color.mix((white, 90%), (bb.page-bg-a, 10%), space: rgb)
+  let s-pal = w => bb.page-tiling-stroke.transparentize(w) + 0.1pt
+  let s-pal-fine = w => bb.page-tiling-stroke.transparentize(w) + 0.085pt
+  let s-glow(w) = color
+    .mix((bb.cover-glow, 55%), (bb.page-tiling-stroke, 45%), space: rgb)
+    .transparentize(w) + 0.085pt
+  let sun-core = color.mix((white, 42%), (bb.cover-glow, 58%), space: rgb).transparentize(48%)
+  let sun-halo = color.mix((white, 88%), (bb.page-radial-inner, 12%), space: rgb).transparentize(18%)
+
   place(
     top + left,
     rect(
       width: 100%,
       height: 100%,
       fill: gradient.linear(
-        (bb.cover-deep, 0%),
-        (bb.cover-mid, 52%),
-        (bb.cover-glow.transparentize(88%), 100%),
-        angle: bb.cover-angle,
+        sky-a,
+        sky-b,
+        sky-c,
+        angle: bb.cover-angle - 12deg,
       ),
     ),
   )
+  // High sun: warm radial wash (palette glow + page inner tint).
+  place(
+    top + left,
+    dx: 12%,
+    dy: -6%,
+    ellipse(
+      width: 118%,
+      height: 58%,
+      fill: gradient.radial(
+        sun-core,
+        sun-halo,
+        focal-center: (44%, 38%),
+        focal-radius: 0%,
+        center: (48%, 42%),
+        radius: 72%,
+        relative: "self",
+      ),
+    ),
+  )
+  // Lower horizon haze — subtle second arc for depth (still on-palette).
+  place(
+    bottom + left,
+    dx: -8%,
+    dy: 22%,
+    ellipse(
+      width: 125%,
+      height: 48%,
+      fill: gradient.radial(
+        color.mix((white, 55%), (bb.page-bg-b, 45%), space: rgb).transparentize(72%),
+        color.mix((white, 92%), (bb.page-bg-a, 8%), space: rgb).transparentize(12%),
+        focal-center: (52%, 72%),
+        focal-radius: 0%,
+        center: (50%, 78%),
+        radius: 70%,
+        relative: "self",
+      ),
+    ),
+  )
+  overlapping-swoosh-layer(bb, cover: true)
+  let ma = bb.cover-moire-a
+  let mb = bb.cover-moire-b
+  let pm = bb.cover-moire-pitch-mul
+  // Stack many gratings (scales + slight rotations + one cross-oriented family) for dense moiré.
+  moire-wave-tiling(
+    s-pal-fine(91%),
+    ma,
+    mb,
+    pitch: 3.35pt,
+    pitch-mul: pm + 0.019,
+    amp: 0.16pt,
+    tile-y-mul: 1.28,
+    harmonic: 0.38,
+  )
+  moire-wave-tiling(
+    s-pal(89%),
+    ma + 83.4deg,
+    mb + 81.9deg,
+    pitch: 3.65pt,
+    pitch-mul: pm + 0.024,
+    amp: 0.19pt,
+    tile-y-mul: 1.32,
+  )
+  moire-wave-tiling(
+    s-glow(90%),
+    ma - 1.35deg,
+    mb + 1.5deg,
+    pitch: 4.9pt,
+    pitch-mul: pm + 0.011,
+    amp: 0.24pt,
+    tile-y-mul: 1.4,
+    harmonic: 0.32,
+  )
+  moire-wave-tiling(
+    s-pal(87%),
+    ma + 1.8deg,
+    mb - 2.05deg,
+    pitch: 6.15pt,
+    pitch-mul: pm + 0.006,
+    amp: 0.3pt,
+    tile-y-mul: 1.68,
+  )
+  moire-wave-tiling(
+    s-pal-fine(88%),
+    ma + 82.1deg,
+    mb - 84.6deg,
+    pitch: 5.4pt,
+    pitch-mul: pm + 0.014,
+    amp: 0.27pt,
+    tile-y-mul: 1.52,
+    harmonic: 0.22,
+  )
+  moire-wave-tiling(
+    s-pal(85%),
+    ma,
+    mb,
+    pitch: 7.6pt,
+    pitch-mul: pm,
+    amp: 0.38pt,
+    tile-y-mul: 1.88,
+    harmonic: 0.2,
+  )
+  moire-wave-tiling(
+    s-glow(88%),
+    ma + 2.95deg,
+    mb - 2.7deg,
+    pitch: 9.2pt,
+    pitch-mul: pm - 0.008,
+    amp: 0.42pt,
+    tile-y-mul: 2.0,
+  )
+  moire-wave-tiling(
+    s-pal(86%),
+    ma - 3.1deg,
+    mb + 3.35deg,
+    pitch: 11.8pt,
+    pitch-mul: pm - 0.012,
+    amp: 0.52pt,
+    tile-y-mul: 2.12,
+    harmonic: 0.24,
+  )
+  moire-wave-tiling(
+    s-pal-fine(89%),
+    ma + 79.2deg,
+    mb + 86.8deg,
+    pitch: 8.8pt,
+    pitch-mul: pm + 0.009,
+    amp: 0.4pt,
+    tile-y-mul: 1.78,
+  )
+  moire-wave-tiling(
+    s-pal(87%),
+    ma + 84deg,
+    mb - 80.5deg,
+    pitch: 13.6pt,
+    pitch-mul: pm - 0.018,
+    amp: 0.55pt,
+    tile-y-mul: 2.25,
+    harmonic: 0.16,
+  )
+  place(top + left, dx: 9mm, dy: -14mm)[
+    #overlapping-swoosh-layer(bb, cover: true)
+  ]
   place(
     top + left,
     rect(
       width: 100%,
-      height: 1.6mm,
+      height: 1.85mm,
       fill: bb.cover-accent-bar,
     ),
   )
