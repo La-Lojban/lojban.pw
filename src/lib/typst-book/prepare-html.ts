@@ -226,6 +226,7 @@ export async function extractMermaidSvgDivsToImages(
   const mLog = (msg: string) => {
     if (verbose) console.log(`[typst-book mermaid] ${msg}`);
   };
+  const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
   const dom = new JSDOM(`<!DOCTYPE html><html><body>${html}</body></html>`);
   const doc = dom.window.document.body;
@@ -294,7 +295,63 @@ export async function extractMermaidSvgDivsToImages(
 
       const pngPath = path.join(outDir, `mermaid-${i++}.png`);
       const handle = page.locator("div.mermaid svg").first();
-      await handle.screenshot({ path: pngPath, type: "png" });
+      let screenshotOk = false;
+      let lastError: unknown = null;
+      for (let attempt = 1; attempt <= 3 && !screenshotOk; attempt += 1) {
+        try {
+          // Element screenshots can time out while waiting for "stable"; short retries smooth over
+          // occasional layout/paint jitter without failing the whole book build.
+          await handle.screenshot({
+            path: pngPath,
+            type: "png",
+            timeout: 15000,
+            animations: "disabled",
+          });
+          screenshotOk = true;
+        } catch (e) {
+          lastError = e;
+          mLog(`diagram ${i}/${divs.length}: element screenshot retry ${attempt}/3`);
+          if (attempt < 3) await sleep(250 * attempt);
+        }
+      }
+      if (!screenshotOk) {
+        try {
+          const clip = await page.evaluate(() => {
+            const svg = document.querySelector("div.mermaid svg");
+            if (!svg) return null;
+            const r = svg.getBoundingClientRect();
+            if (!(r.width > 0) || !(r.height > 0)) return null;
+            return {
+              x: Math.max(0, r.x),
+              y: Math.max(0, r.y),
+              width: Math.max(1, r.width),
+              height: Math.max(1, r.height),
+            };
+          });
+          if (!clip) throw new Error("Cannot compute SVG clip rectangle");
+          mLog(`diagram ${i}/${divs.length}: fallback page clip screenshot`);
+          await page.screenshot({
+            path: pngPath,
+            type: "png",
+            clip,
+            animations: "disabled",
+            timeout: 15000,
+          });
+          screenshotOk = true;
+        } catch (fallbackErr) {
+          lastError = fallbackErr;
+        }
+      }
+      if (!screenshotOk) {
+        console.warn(
+          `[typst-book mermaid] diagram ${i}/${divs.length}: screenshot failed, replacing with text placeholder`
+        );
+        if (lastError) console.warn(lastError);
+        const fallback = dom.window.document.createElement("p");
+        fallback.textContent = "[Diagram unavailable in PDF build]";
+        div.parentNode.replaceChild(fallback, div);
+        continue;
+      }
 
       const relToRoot = path
         .relative(projectRoot, pngPath)
