@@ -23,7 +23,7 @@ import { getClosestHeaderId } from "../lib/toc";
 import { Items } from "../lib/api";
 import { TPost } from "../types/post";
 import { TocElem, TocItem } from "../types/toc";
-import { normalizeCanonicalPath } from "../lib/seo";
+import { htmlLangFromPath, normalizeCanonicalPath } from "../lib/seo";
 
 // -----------------------------------------------------------------------------
 // STYLES
@@ -225,6 +225,10 @@ function Layout({
       router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, [router.events]);
+
+  useEffect(() => {
+    document.documentElement.lang = htmlLangFromPath(router.asPath);
+  }, [router.asPath]);
 
   if (router.isFallback) return <PostTitle>Loading…</PostTitle>;
 

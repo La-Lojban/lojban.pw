@@ -286,13 +286,23 @@ function Meta({
           crossOrigin="anonymous"
         />
       ) : null}
-      <link
-        rel="preload"
-        href="/assets/fonts/LinLibertine_R.otf"
-        as="font"
-        type="font/otf"
-        crossOrigin="anonymous"
-      />
+      {currentLanguage === "orv" ? (
+        <link
+          rel="preload"
+          href="/assets/fonts/Monomakh-Regular.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+      ) : (
+        <link
+          rel="preload"
+          href="/assets/fonts/LinLibertine_R.otf"
+          as="font"
+          type="font/otf"
+          crossOrigin="anonymous"
+        />
+      )}
       <DocumentLinks links={links_} />
       <HreflangLinks alternates={alternates} xDefaultHref={hreflangXDefault} />
       {ogLocaleAlternates.map((loc) => (

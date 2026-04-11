@@ -34,6 +34,15 @@
     font-display: swap;
   }
 
+  /* Old East Slavic (`data/pages/orv/`): Monomakh (https://github.com/slavonic/Monomakh) */
+  @font-face {
+    font-family: Monomakh;
+    src: url("/assets/fonts/Monomakh-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
   body {
     font-family:
       Roboto,
@@ -203,6 +212,22 @@
   font-family: "Linux Libertine", Libertine, Constantia, "Lucida Bright",
     Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif",
     "Liberation Serif", Georgia, serif;
+}
+
+html[lang="orv"] article {
+  font-family: Monomakh, "Noto Serif", "DejaVu Serif", serif;
+}
+
+html[lang="orv"] .lojbo ~ * {
+  font-family: Monomakh, "Noto Serif", "DejaVu Serif", serif;
+}
+
+html[lang="orv"] article code,
+html[lang="orv"] article pre,
+html[lang="orv"] article kbd,
+html[lang="orv"] article samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", monospace;
 }
 
 .katex {

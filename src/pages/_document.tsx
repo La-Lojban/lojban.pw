@@ -11,6 +11,7 @@ import Document, {
   NextScript,
   type DocumentContext,
 } from "next/document";
+import { htmlLangFromPath } from "../lib/seo";
 
 // -----------------------------------------------------------------------------
 // STYLES
@@ -31,9 +32,7 @@ export default class MyDocument extends Document<DocProps> {
   static async getInitialProps(ctx: DocumentContext) {
     const initialProps = await Document.getInitialProps(ctx);
     const path = ctx.asPath ?? ctx.pathname ?? "";
-    const seg = path.split("/").filter(Boolean)[0];
-    const lang =
-      seg && /^[a-z]{2}(-[a-z0-9]+)?$/i.test(seg) ? seg : "en";
+    const lang = htmlLangFromPath(path);
     return { ...initialProps, lang };
   }
 

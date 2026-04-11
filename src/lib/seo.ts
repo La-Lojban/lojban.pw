@@ -1,5 +1,12 @@
 import { site_url } from "../config/config";
 
+/** First URL path segment when it looks like a site locale (`en`, `orv`, `tok`, …). */
+export function htmlLangFromPath(path: string): string {
+  const pathOnly = path.split(/[?#]/)[0] ?? "";
+  const seg = pathOnly.split("/").filter(Boolean)[0] ?? "";
+  return seg && /^[a-z]{2,3}(-[a-z0-9]+)?$/i.test(seg) ? seg : "en";
+}
+
 export function absoluteUrl(
   base: string,
   pathOrUrl: string | undefined | null

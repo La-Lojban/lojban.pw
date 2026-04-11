@@ -15,11 +15,23 @@ This course teaches Lojban from its formal foundations, but in simple terms and 
 
 * [PDF](/vreji/uencu/en/learn-lojban.pdf) - in a PDF file for download.
 
+<!--
+## [‘Lojban Through Dialogues’ course](/en/books/lojban-through-dialogues/0)
+
+<pixra redirect="/en/books/lojban-through-dialogues/0" url="/assets/pixra/cilre/casnu.webp" caption="‘Lojban Through Dialogues’ course"></pixra>
+
+Immersive situation-first course with characters *Koshon* and *Sora*: learn through dialogues, context, and written spiral review — inspired by the Pimsleur method.
+
+* [PDF](/vreji/uencu/en/lojban-through-dialogues.pdf) - in a PDF file for download.
+-->
+
 ## [‘First Steps in Lojban’ course](/en/books/first-lojban/0)
 
 <pixra redirect="/en/books/first-lojban/0" url="/assets/pixra/books/first-lojban/cover.webp" caption="‘First Steps in Lojban’ course"></pixra>
 
 Manga-style beginner track (English edition of *Hajiloji 2*): characters *Koshon* and *Sora*, conversational pacing, and optional “back alley” logic chapters.
+
+* [PDF](/vreji/uencu/en/first-lojban.pdf) - in a PDF file for download.
 
 ## [‘Friendly Lojban’](/en/books/friendly-cll/1)
 
