@@ -1,7 +1,7 @@
 ---
 icon: 🗣️
 title: Lojban Through Dialogues
-description: Immersive situational dialogue course with Lifri, Blanu, and Linto — learn Lojban through conversations, context, and built-in spiral review
+description: Immersive situational dialogue course with Lifri, Mentu, and Linto — learn Lojban through conversations, context, and built-in spiral review
 og:image: /assets/pixra/books/lojban-through-dialogues/cover.webp
 coverImage: /assets/pixra/books/lojban-through-dialogues/cover.webp
 palette: sienna

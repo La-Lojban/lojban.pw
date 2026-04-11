@@ -32,7 +32,7 @@
 
 shrink ()
 {
-	gs					\
+	timeout 300 gs				\
 	  -q -dNOPAUSE -dBATCH -dSAFER		\
 	  -sDEVICE=pdfwrite			\
 	  -dCompatibilityLevel=1.5		\
@@ -121,8 +121,7 @@ find ${VREJI_PATH}/uencu -type f -name '*-pre.pdf' | while read -r file; do
     # Apply the shrink command to each file
     output=$(echo "$file" | sed "s/-pre.pdf/.pdf/")
 
-	# Add timeout to prevent hanging (5 minutes per file should be more than enough)
-	if timeout 300 shrink "$file" "$output" "$res"; then
+	if shrink "$file" "$output" "$res"; then
 	check_smaller "$file" "$output"
 		rm "$file"
 		echo "successfully shrunk $file"

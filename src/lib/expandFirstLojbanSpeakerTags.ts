@@ -11,7 +11,7 @@ export const SPEAKER_AVATAR_IMAGE_PATH_INFIX = "pixra/books/first-lojban/icons";
 const SPEAKER_ICON_EXT = ".webp";
 const SPEAKER_BOOK_ICON_PATH_RE = /pixra\/books\/[^"\\/\s]+\/icons/i;
 const BOOK_SLUG_FROM_MD_PATH_RE =
-  /^(.*)\/data\/pages\/[^/]+\/books\/([^/]+?)(?:\/|\.md$)/i;
+  /(?:^|\/)(?:data\/pages|md_pages)\/[^/]+\/books\/([^/]+?)(?:\/|\.md$)/i;
 const NUMERIC_SPRITE_SUFFIX_RE = /^(.+?)(\d+)$/;
 
 /** All infixes that may appear in `#image("…")` paths for book speaker avatars (Typst + site). */
@@ -25,8 +25,9 @@ const SPEAKER_LABEL_BY_STEM: Record<string, string> = {
   lifri: "la lifri",
   lin: "la linto",
   linto: "la linto",
-  bla: "la blanu",
-  blanu: "la blanu",
+  bla: "la mentu",
+  men: "la mentu",
+  mentu: "la mentu",
 };
 
 function capitalizeWord(word: string): string {
@@ -47,15 +48,29 @@ function humanizeSpriteStem(stem: string): string {
 function parseBookSlugFromMarkdownPath(fullPath: string): string | null {
   const norm = fullPath.replace(/\\/g, "/");
   const m = BOOK_SLUG_FROM_MD_PATH_RE.exec(norm);
-  if (!m?.[2]) return null;
-  return m[2];
+  if (m?.[1]) return m[1];
+
+  // Fallback for uncommon path roots: ".../<lang>/books/<slug>.md" or ".../books/<slug>/..."
+  const parts = norm.split("/").filter(Boolean);
+  const booksIdx = parts.lastIndexOf("books");
+  if (booksIdx === -1) return null;
+  const maybeSlug = parts[booksIdx + 1];
+  if (!maybeSlug) return null;
+  return maybeSlug.replace(/\.md$/i, "");
 }
 
 function iconsAssetDirForMarkdownPath(fullPath: string): string | null {
   const norm = fullPath.replace(/\\/g, "/");
-  const m = BOOK_SLUG_FROM_MD_PATH_RE.exec(norm);
-  if (!m?.[1] || !m[2]) return null;
-  return path.join(m[1], "data", "assets", "pixra", "books", m[2], "icons");
+  const slug = parseBookSlugFromMarkdownPath(norm);
+  if (!slug) return null;
+  const relPrefix = "data/pages/";
+  const lowerNorm = norm.toLowerCase();
+  const relPrefixIdx = lowerNorm.indexOf(relPrefix);
+  const rootDir =
+    relPrefixIdx > 0
+      ? norm.slice(0, relPrefixIdx)
+      : path.resolve(process.cwd());
+  return path.join(rootDir, "data", "assets", "pixra", "books", slug, "icons");
 }
 
 function listSpriteBasenamesForBook(fullPath: string): string[] {
