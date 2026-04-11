@@ -23,15 +23,50 @@
   let i = calc.rem(int(idx), 5)
   let bf = speaker_bubble_fills.at(i)
   let bs = speaker_bubble_strokes.at(i)
-  // PDF: no tail triangle (HTML uses `::before` / `::after` toward the avatar).
-  block(
-    width: 100%,
-    breakable: true,
-    fill: bf,
-    stroke: 1pt + bs,
-    radius: 8pt,
-    inset: (x: 12pt, y: 9pt),
-  )[#body]
+  // Tail outside the rounded rect — `index.css` `::before` / `::after` (11px 13px / 10px 12px; 1px offset).
+  let tail-base-o = 9.75pt
+  let tail-half-o = 8.25pt
+  let tail-base-i = 9pt
+  let tail-half-i = 7.5pt
+  let tail-col = tail-base-o + 0.5pt
+  // PDF: tail top = 6px below speech card top (CSS pseudos use `top: 50%`; book PDF uses fixed offset).
+  let tail-top-pad = (6 / 96) * 72pt
+  block(width: 100%, breakable: true, clip: false)[
+    #pad(left: tail-col)[
+      #block(
+        width: 100%,
+        breakable: true,
+        fill: bf,
+        stroke: 1pt + bs,
+        radius: 8pt,
+        inset: (x: 12pt, y: 9pt),
+      )[#body]
+    ]
+    #place(left + top)[
+      #pad(top: tail-top-pad)[
+        #box(width: tail-col, clip: false)[
+          #place(left + top)[
+            #polygon(
+              fill: bs,
+              stroke: none,
+              (0pt, 0pt),
+              (tail-base-o, tail-half-o),
+              (tail-base-o, -tail-half-o),
+            )
+          ]
+          #place(left + top, dx: 0.75pt)[
+            #polygon(
+              fill: bf,
+              stroke: none,
+              (0pt, 0pt),
+              (tail-base-i, tail-half-i),
+              (tail-base-i, -tail-half-i),
+            )
+          ]
+        ]
+      ]
+    ]
+  ]
 }
 
 /// Avatar column only: overrides global `show figure` (margin pixra) with site speaker card layout.

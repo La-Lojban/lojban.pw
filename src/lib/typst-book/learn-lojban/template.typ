@@ -57,7 +57,7 @@
   } else {
     book_title
   }
-  // Light bar: white ground, palette `cover-deep` hairline (sides + bottom; no rule on top margin edge).
+  // Light bar: white ground, palette `header-rule` hairline (sides + bottom; no rule on top margin edge).
   block(
     width: 100%,
     inset: (x: 10pt, y: 7.5pt),
@@ -65,9 +65,9 @@
     fill: white,
     stroke: (
       top: none,
-      left: 0.85pt + bb.cover-deep,
-      right: 0.85pt + bb.cover-deep,
-      bottom: 0.85pt + bb.cover-deep,
+      left: 0.85pt + bb.header-rule,
+      right: 0.85pt + bb.header-rule,
+      bottom: 0.85pt + bb.header-rule,
     ),
   )[
     #set text(9.8pt, weight: "bold", fill: bb.header-text)
@@ -198,7 +198,7 @@
   // Inside `[…]` markup, `block(...)` is literal text unless prefixed with `#` (same as figure rules below).
   // One card: thick brand left stroke + thin gray other sides (no separate `rect` column — avoids full-height strip).
   // Shrink-to-fit up to 62% of line (measure with width cap for wrapping).
-  // Tighter vertical rhythm than body `set par`; height is intrinsic (no fixed min-height).
+  // `block(spacing)` stacks with `par(spacing)` between Pandoc paragraphs — use `0pt` here; tune only `par`.
   show quote: it => {
     layout(size => {
       let cap = quote-max-width * size.width
@@ -212,11 +212,11 @@
           right: quote-border-1px,
           bottom: quote-border-1px,
         ),
-        inset: (left: 10pt, top: 4.5pt, right: 9pt, bottom: 4.5pt),
+        inset: (left: 10pt, y: 1em, right: 9pt),
         radius: 0pt,
-        spacing: 0.12em,
+        spacing: 0.26em,
       )[
-        #set par(leading: 0.5em, spacing: 0.2em, justify: true)
+        #set block(spacing: 0.5em)
         #it.body
       ]
       let dims = measure(q, width: cap)

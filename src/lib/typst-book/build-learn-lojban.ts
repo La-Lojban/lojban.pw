@@ -185,6 +185,51 @@ ${inner}
 }
 
 /**
+ * Pandoc html→typst turns `<dl><dt>term</dt><dd>gloss</dd></dl>` into `term: #block[gloss]`, which
+ * loses site styling from `src/styles/index.css` (`dt` bold, `dt::after` " ≈ ", `dd` italic,
+ * `dd > em` curly quotes). Recreate that inline in Typst so the PDF matches the article.
+ */
+function patchTypstDefinitionListGlosses(s: string): string {
+  const lineRe = /^([ \t]*)(\S+(?:[ \t]+\S+)*):[ \t]*#block\[/gm;
+  type Hit = { start: number; end: number; indent: string; term: string; openBracket: number };
+  const hits: Hit[] = [];
+  let m: RegExpExecArray | null;
+  while ((m = lineRe.exec(s)) !== null) {
+    const term = m[2] ?? "";
+    if (/[\[\]]/.test(term)) continue;
+    // Skip list-like / explanatory headings (e.g. `- / .i ku'i: #block[…]`), not Lojban gloss keys.
+    if (!/^[\p{L}\p{N}]/u.test(term)) continue;
+    if (/\s\/\s/.test(term)) continue;
+    const openBracket = m.index + m[0].length - 1;
+    if (s[openBracket] !== "[") continue;
+    const closeBracket = endOfBracketContent(s, openBracket);
+    if (closeBracket < 0) continue;
+    const inner = s.slice(openBracket + 1, closeBracket - 1);
+    const innerTrimmed = inner.replace(/^\s+/, "").replace(/\s+$/, "");
+    if (innerTrimmed.length === 0) continue;
+    if (innerTrimmed.length > 800) continue;
+    if (/^\s*#(block|quote)\b/m.test(innerTrimmed)) continue;
+
+    hits.push({
+      start: m.index,
+      end: closeBracket,
+      indent: m[1] ?? "",
+      term,
+      openBracket,
+    });
+  }
+  hits.sort((a, b) => b.start - a.start);
+  for (const { start, end, indent, term, openBracket } of hits) {
+    const closeAfter = end;
+    const inner = s.slice(openBracket + 1, closeAfter - 1);
+    const innerTrimmed = inner.replace(/^\s+/, "").replace(/\s+$/, "");
+    const replacement = `${indent}#strong[${term}]#text(" ≈ ")#text("‘")#emph[${innerTrimmed}]#text("’")`;
+    s = s.slice(0, start) + replacement + s.slice(closeAfter);
+  }
+  return s;
+}
+
+/**
  * Pandoc emits `#horizontalrule`; included `body.typ` does not inherit `main.typ` imports
  * (speaker bubble: `#import "speaker-bubble.typ": speaker_speech_bubble` is prepended to `body.typ`).
  */
@@ -225,13 +270,30 @@ function patchBodyTypFile(bodyTypPath: string): void {
     /#strong\[(la|le|li|lo|lu)\]/g,
     '#strong[#"$1"]'
   );
-  // Continued "a / b / c" typography: a line starting with `/ #strong` / `/ #emph` is division in Typst.
-  s = s.replace(/^\/\s+#strong/gm, '#text("/ ") #strong');
-  s = s.replace(/^\/\s+#emph/gm, '#text("/ ") #emph');
-  s = s.replace(/^\/\s*$/gm, '#text("/")');
-  // Do **not** match Pandoc’s definition lists: `/ term: #block[…]` is valid Typst (see e.g. learn-lojban `ca` / `: now …` glosses).
+  // Pandoc definition-list gloss lines: `/ term: #block[` (term may contain spaces, e.g. `le prenu`).
+  // Strip the leading slash so output is uniform and Typst does not treat `/` as division; do not use
+  // `#text("/ ")` here (single-word terms were exempt from that escape and stayed as `/ …`, which
+  // still showed a slash in the PDF).
+  // Term is always on one line (horizontal spaces only between words; never `\n` in `\s`).
+  const glossDefHead = String.raw`(\S+(?:[ \t]+\S+)*:[ \t]*#block\[)`;
+  // Use horizontal whitespace only after `/` — `\s` includes `\n`, which would let one match span
+  // from `/` on a line to a distant `…: #block[` and corrupt almost the whole `body.typ` (friendly-cll).
+  const slashSep = "[ \\t]+";
   s = s.replace(
-    /^\/\s+(?!\S+:\s*#block\[)(?=[^\s#])/gm,
+    new RegExp(`^([ \\t]*)#text\\("/ "\\)${slashSep}${glossDefHead}`, "gm"),
+    "$1$2"
+  );
+  s = s.replace(new RegExp(`^([ \\t]*)/${slashSep}${glossDefHead}`, "gm"), "$1$2");
+  // Continued "a / b / c" typography: a line starting with `/ #strong` / `/ #emph` is division in Typst.
+  s = s.replace(new RegExp(`^/${slashSep}#strong`, "gm"), '#text("/ ") #strong');
+  s = s.replace(new RegExp(`^/${slashSep}#emph`, "gm"), '#text("/ ") #emph');
+  s = s.replace(/^\/[ \t]*$/gm, '#text("/")');
+  // Do **not** match Pandoc’s definition lists: `/ term: #block[…]` (any number of head words).
+  s = s.replace(
+    new RegExp(
+      String.raw`^/${slashSep}(?!\S+(?:[ \t]+\S+)*:[ \t]*#block\[)(?=[^\s#])`,
+      "gm"
+    ),
     '#text("/ ") '
   );
   // Pandoc html→typst + Kramdown `{#id}` on headings can emit `<slug-slug>` while `#link(<slug>)`
@@ -242,6 +304,7 @@ function patchBodyTypFile(bodyTypPath: string): void {
   // Pandoc table cells that are only `/` or `|` — Typst treats `[/` / `[|` as invalid markup in content.
   s = s.replace(/\[\/\s*\n/g, '[#text("/")\n');
   s = s.replace(/\[\|\s*\n/g, '[#text("|")\n');
+  s = patchTypstDefinitionListGlosses(s);
   fs.writeFileSync(bodyTypPath, s, "utf8");
 }
 

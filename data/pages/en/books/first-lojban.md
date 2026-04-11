@@ -4,6 +4,7 @@ title: First Steps in Lojban
 description: Friendly manga-style beginner course (Hajiloji 2) — English edition
 og:image: /assets/pixra/books/first-lojban/cover.webp
 coverImage: /assets/pixra/books/first-lojban/cover.webp
+palette: ember
 ---
 
 @include "first-lojban/0.md"

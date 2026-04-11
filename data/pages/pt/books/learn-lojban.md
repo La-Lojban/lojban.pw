@@ -4,6 +4,7 @@ title: Aprenda Lojban
 description: bom curso fácil com muitos exemplos
 og:image: /assets/pixra/cilre/sruri_since.webp
 coverImage: /assets/pixra/cilre/sruri_since.webp
+palette: cornflower
 
 ---
 

@@ -4,6 +4,7 @@ title: Изучаем ложбан
 og:image: /assets/pixra/cilre/sruri_since.webp
 description: Простой понятный курс с множеством примеров
 coverImage: /assets/pixra/cilre/sruri_since.webp
+palette: cornflower
 
 ---
 

@@ -4,6 +4,7 @@ title: Lernu Loĵbanon
 description: bela facila kurso kun multaj ekzemploj
 og:image: /assets/pixra/cilre/sruri_since.webp
 coverImage: /assets/pixra/cilre/sruri_since.webp
+palette: cornflower
 ---
 
 @include "learn-lojban/1.md"

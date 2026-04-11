@@ -4,6 +4,7 @@ title: Matuto ng Lojban
 description: magandang madaling kurso na may maraming halimbawa
 og:image: /assets/pixra/cilre/sruri_since.webp
 coverImage: /assets/pixra/cilre/sruri_since.webp
+palette: cornflower
 ---
 
 @include "learn-lojban/1.md"

@@ -4,6 +4,7 @@ title: Lerne Lojban!
 description: Schöner einfacher Kurs mit vielen Beispielen
 og:image: /assets/pixra/cilre/sruri_since.webp
 coverImage: /assets/pixra/cilre/sruri_since.webp
+palette: cornflower
 ---
 
 @include "learn-lojban/1.md"
