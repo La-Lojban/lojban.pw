@@ -57,25 +57,20 @@
   } else {
     book_title
   }
-  // Sides + bottom rule only (no line along the top margin edge).
+  // Light bar: white ground, palette `cover-deep` hairline (sides + bottom; no rule on top margin edge).
   block(
     width: 100%,
     inset: (x: 10pt, y: 7.5pt),
     radius: (bottom: 4pt),
-    fill: gradient.linear(
-      (bb.cover-deep, 0%),
-      (bb.cover-mid, 42%),
-      (color.mix((bb.cover-mid, 58%), (bb.cover-glow, 42%), space: rgb), 100%),
-      angle: 92deg,
-    ),
+    fill: white,
     stroke: (
       top: none,
-      left: 0.75pt + rgb(0, 0, 0),
-      right: 0.75pt + rgb(0, 0, 0),
-      bottom: 0.75pt + rgb(0, 0, 0),
+      left: 0.85pt + bb.cover-deep,
+      right: 0.85pt + bb.cover-deep,
+      bottom: 0.85pt + bb.cover-deep,
     ),
   )[
-    #set text(9.8pt, weight: "bold", fill: bb.cover-text-light)
+    #set text(9.8pt, weight: "bold", fill: bb.header-text)
     #set align(left)
     #label
   ]
@@ -203,7 +198,7 @@
   // Inside `[…]` markup, `block(...)` is literal text unless prefixed with `#` (same as figure rules below).
   // One card: thick brand left stroke + thin gray other sides (no separate `rect` column — avoids full-height strip).
   // Shrink-to-fit up to 62% of line (measure with width cap for wrapping).
-  // Tighter line + paragraph spacing inside quotes than body text (`set par` below).
+  // Tighter vertical rhythm than body `set par`; height is intrinsic (no fixed min-height).
   show quote: it => {
     layout(size => {
       let cap = quote-max-width * size.width
@@ -217,11 +212,11 @@
           right: quote-border-1px,
           bottom: quote-border-1px,
         ),
-        inset: (left: 10pt, y: 7pt, right: 9pt),
+        inset: (left: 10pt, top: 4.5pt, right: 9pt, bottom: 4.5pt),
         radius: 0pt,
-        spacing: 0.26em,
+        spacing: 0.12em,
       )[
-        #set par(leading: 0.5em, spacing: 0.52em, justify: true)
+        #set par(leading: 0.5em, spacing: 0.2em, justify: true)
         #it.body
       ]
       let dims = measure(q, width: cap)

@@ -3,7 +3,7 @@
 
 #let n-brands = 6
 
-// --- Six brandbooks (deep saturated accents; running header = palette cover gradient + black hairline) ---
+// --- Six brandbooks (deep saturated accents; running header = white bar + `cover-deep` hairline, `header-text`) ---
 
 #let brands = (
   // 0 Ember — warm stone & amber

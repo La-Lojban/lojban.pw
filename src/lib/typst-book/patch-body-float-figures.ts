@@ -6,15 +6,19 @@
  * **Not queued** (handled inline like the site):
  * - `<speaker>` avatars (`#image` paths containing `SPEAKER_AVATAR_IMAGE_PATH_INFIX` from
  *   `expandFirstLojbanSpeakerTags.ts` / `SPEAKER_AVATAR_IMAGE_PATH_INFIX`) — same typst shell as
- *   `<pixra>` but must not join the margin
- *   stack; `collectSpeakerRowTypstIntervals` still lifts whole rows for avatar|speech layout.
+ *   `<pixra>` but must not join the margin stack; `rewriteSpeakerRowTypstBlock` wraps the avatar
+ *   column in `#speaker_row_avatar_column` (`speaker-bubble.typ`) so `#figure` matches
+ *   `src/styles/index.css` `.speaker-row__avatar` (not the margin-pixra `show figure` rule).
  * - Bare `<figure><img>` — Pandoc emits `#figure([#image("…");], …)` (semicolon / no inner
  *   `#block[`); that shape never passes `consumePixraImageFigureBlock`.
  *
  * Full-width: headings, article tables, Mermaid raster, `<speaker>` rows (see above).
  */
 
-import { SPEAKER_AVATAR_IMAGE_PATH_INFIX } from "../expandFirstLojbanSpeakerTags";
+import {
+  SPEAKER_AVATAR_IMAGE_PATH_INFIX,
+  speakerBubblePaletteIndexFromTypstAvatarInner,
+} from "../expandFirstLojbanSpeakerTags";
 
 /** `#figure(` … matching `)` at depth 0, respecting double-quoted strings. */
 function endOfTypstCallWithParens(s: string, openParenIdx: number): number {
@@ -357,16 +361,17 @@ function rewriteSpeakerRowTypstBlock(block: string): string {
   const speechInner = typstOneBlockInner(parts.speechWrap);
   if (avatarInner === null || speechInner === null) return block;
   const figCount = (avatarInner.match(/#figure\(/g) ?? []).length;
-  const leftColRaw =
-    figCount > 1
-      ? `#stack(spacing: 0.45em)[
+  const multiface = figCount > 1;
+  const leftColRaw = multiface
+    ? `#stack(spacing: 0.5em)[
 ${avatarInner.trim()}
 ]`
-      : avatarInner.trim();
-  // Shrink portrait cards vs margin pixra (`template.typ` `figure-col-width`); scale keeps captions readable.
-  const leftCol = `#scale(72%)[
+    : avatarInner.trim();
+  // Avatar `#figure` layout matches `src/styles/index.css` `.speaker-row__avatar` (scoped in `speaker-bubble.typ`).
+  const leftCol = `#speaker_row_avatar_column(multiface: ${multiface})[
 ${leftColRaw}
 ]`;
+  const bubbleIdx = speakerBubblePaletteIndexFromTypstAvatarInner(avatarInner);
   return `#block[
 #grid(
   columns: (auto, 1fr),
@@ -375,7 +380,9 @@ ${leftColRaw}
 )[
 ${leftCol}
 ][
+#speaker_speech_bubble(${bubbleIdx})[
 ${speechInner.trim()}
+]
 ]
 ]
 `;

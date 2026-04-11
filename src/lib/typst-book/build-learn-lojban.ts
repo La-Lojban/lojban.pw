@@ -185,7 +185,8 @@ ${inner}
 }
 
 /**
- * Pandoc emits `#horizontalrule`; included `body.typ` does not inherit `main.typ` imports.
+ * Pandoc emits `#horizontalrule`; included `body.typ` does not inherit `main.typ` imports
+ * (speaker bubble: `#import "speaker-bubble.typ": speaker_speech_bubble` is prepended to `body.typ`).
  */
 function patchBodyTypFile(bodyTypPath: string): void {
   let s = fs.readFileSync(bodyTypPath, "utf8");
@@ -404,6 +405,11 @@ export async function buildBookTypst(
   const mainTypPath = path.join(workDir, "main.typ");
   const templateSrc = path.join(__dirname, "learn-lojban", "template.typ");
   const brandSrc = path.join(__dirname, "learn-lojban", "brandbooks.typ");
+  const speakerBubbleSrc = path.join(
+    __dirname,
+    "learn-lojban",
+    "speaker-bubble.typ"
+  );
 
   if (!fs.existsSync(templateSrc)) {
     throw new Error(`Missing template: ${templateSrc}`);
@@ -411,8 +417,12 @@ export async function buildBookTypst(
   if (!fs.existsSync(brandSrc)) {
     throw new Error(`Missing brandbooks: ${brandSrc}`);
   }
+  if (!fs.existsSync(speakerBubbleSrc)) {
+    throw new Error(`Missing speaker bubble module: ${speakerBubbleSrc}`);
+  }
   fs.copyFileSync(templateSrc, path.join(workDir, "template.typ"));
   fs.copyFileSync(brandSrc, path.join(workDir, "brandbooks.typ"));
+  fs.copyFileSync(speakerBubbleSrc, path.join(workDir, "speaker-bubble.typ"));
 
   const pandocInputPath = path.join(workDir, "pandoc-input.html");
   fs.writeFileSync(pandocInputPath, fullHtml, "utf8");
@@ -467,6 +477,18 @@ export async function buildBookTypst(
   console.log(`[typst-book] patchBodyTypFloatFigures done in ${Date.now() - floatT0}ms`);
 
   patchBookSpeakerTypstBody(bodyTypPath);
+
+  // `#include "body.typ"` does not inherit `main.typ` imports — normalize speaker helpers import.
+  {
+    let bodyTyp = fs.readFileSync(bodyTypPath, "utf8");
+    bodyTyp = bodyTyp.replace(/^#import "speaker-bubble.typ":[^\n]*\n+/m, "");
+    fs.writeFileSync(
+      bodyTypPath,
+      `#import "speaker-bubble.typ": speaker_speech_bubble, speaker_row_avatar_column\n\n` +
+        bodyTyp,
+      "utf8"
+    );
+  }
 
   const coverArg = coverImageRel ? JSON.stringify(coverImageRel) : "none";
   const titleHash = hashBookTitle(title);

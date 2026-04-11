@@ -70,6 +70,41 @@ function speakerRowBubbleModifierFromThemeKey(key: string): string {
   return `speaker-row--bubble-${idx}`;
 }
 
+/** Same bubble index as HTML `.speaker-row--bubble-*` (0..4). */
+export function speakerBubblePaletteIndexFromSprites(sprites: string[]): number {
+  if (sprites.length === 0) return 0;
+  const key = bubbleThemeKeyFromSprites(sprites);
+  return fnv1a32(key) % SPEAKER_BUBBLE_PALETTE_SIZE;
+}
+
+/**
+ * Sprite basenames from Pandoc-emitted `#image("…/icons/foo.webp")` paths (multiface: document order).
+ */
+export function extractSpeakerSpriteBasenamesFromTypstAvatarInner(
+  avatarInner: string
+): string[] {
+  const infix = SPEAKER_AVATAR_IMAGE_PATH_INFIX.replaceAll("\\", "/");
+  const esc = infix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const re = new RegExp(
+    `#image\\("[^"]*${esc}([^"/\\\\]+)\\.(?:webp|png)"`,
+    "gi"
+  );
+  const out: string[] = [];
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(avatarInner))) {
+    out.push(m[1]!);
+  }
+  return out;
+}
+
+export function speakerBubblePaletteIndexFromTypstAvatarInner(
+  avatarInner: string
+): number {
+  return speakerBubblePaletteIndexFromSprites(
+    extractSpeakerSpriteBasenamesFromTypstAvatarInner(avatarInner)
+  );
+}
+
 function parseSpeakerOpenTag(attrStr: string): {
   sprite?: string;
   name?: string;
