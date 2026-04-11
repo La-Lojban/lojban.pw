@@ -45,9 +45,7 @@ async function main() {
 
   console.log(
     `Typst PDF queue: ${filtered.length} book(s) (sequential)` +
-      (learnOnly
-        ? " (PDF_TYPUST_ONLY_LEARN_LOJBAN: learn-lojban only)"
-        : "")
+      (learnOnly ? " (PDF_TYPUST_ONLY_LEARN_LOJBAN: learn-lojban only)" : "")
   );
   for (const job of filtered) {
     console.log(`… ${job.bookMdPath}`);

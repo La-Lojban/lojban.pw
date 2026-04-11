@@ -19,6 +19,16 @@ export const langDict: Record<string, string> = Object.keys(languages).reduce(
   {} as Record<string, string>
 );
 
+const siteLanguageSet = new Set(Object.keys(langDict));
+
+/**
+ * True when the URL language segment has site chrome strings in `locales.json`.
+ * Book-only folders under `data/pages/<code>/` (e.g. parallel learn-lojban locales) are excluded.
+ */
+export function isSiteLanguage(lang: string): boolean {
+  return siteLanguageSet.has(lang);
+}
+
 /** Localized heading for the mobile topbar table of contents (burger menu). */
 export function currentPageContentsLabel(lang: string): string {
   const entry = Object.values(languages).find((e) => e.short === lang);

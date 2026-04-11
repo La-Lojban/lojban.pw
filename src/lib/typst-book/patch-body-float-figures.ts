@@ -1,9 +1,20 @@
 /**
- * Pandoc html→typst emits pixra as `#block[ #figure([#block[ #image(...) ]], caption: [...]) ]`.
- * For the PDF we keep a fixed two-column band: main text on the left, all pixra in that region
- * stacked on the right in source order (queue). Full-width elements (headings, article tables,
- * Mermaid raster) stay outside the band so they span the text block.
+ * Pandoc html→typst emits site `<pixra>` (in `<p>`) as
+ * `#block[ #figure([#block[ #image(...) ]], caption: [...]) ]`.
+ * For the PDF we keep a fixed two-column band: main text on the left, queued pixra on the right.
+ *
+ * **Not queued** (handled inline like the site):
+ * - `<speaker>` avatars (`#image` paths containing `SPEAKER_AVATAR_IMAGE_PATH_INFIX` from
+ *   `expandFirstLojbanSpeakerTags.ts` / `SPEAKER_AVATAR_IMAGE_PATH_INFIX`) — same typst shell as
+ *   `<pixra>` but must not join the margin
+ *   stack; `collectSpeakerRowTypstIntervals` still lifts whole rows for avatar|speech layout.
+ * - Bare `<figure><img>` — Pandoc emits `#figure([#image("…");], …)` (semicolon / no inner
+ *   `#block[`); that shape never passes `consumePixraImageFigureBlock`.
+ *
+ * Full-width: headings, article tables, Mermaid raster, `<speaker>` rows (see above).
  */
+
+import { SPEAKER_AVATAR_IMAGE_PATH_INFIX } from "../expandFirstLojbanSpeakerTags";
 
 /** `#figure(` … matching `)` at depth 0, respecting double-quoted strings. */
 function endOfTypstCallWithParens(s: string, openParenIdx: number): number {
@@ -38,7 +49,7 @@ function endOfTypstCallWithParens(s: string, openParenIdx: number): number {
 }
 
 /** Content of `[` … `]` starting at `openBracketIdx` (the `[` itself), respecting strings. */
-function endOfBracketContent(s: string, openBracketIdx: number): number {
+export function endOfBracketContent(s: string, openBracketIdx: number): number {
   if (s[openBracketIdx] !== "[") return -1;
   let depth = 1;
   let i = openBracketIdx + 1;
@@ -69,9 +80,17 @@ function endOfBracketContent(s: string, openBracketIdx: number): number {
   return -1;
 }
 
+function typstFigureCallLooksLikeSitePixraQueueCandidate(figureSrc: string): boolean {
+  if (figureSrc.includes(SPEAKER_AVATAR_IMAGE_PATH_INFIX)) return false;
+  // Bare `<figure><img>` (and similar): inner content is `#image("…");` not `#block[ #image … ]`.
+  if (/#image\s*\(\s*"[^"]*"\s*\)\s*;/.test(figureSrc) && !/\[#block\[/.test(figureSrc))
+    return false;
+  return true;
+}
+
 /**
  * One `#block[ ... ]` whose body is only `#figure([#block[ #image(...) ]], caption: [...])`
- * (site pixra). Returns end index and the inner `#figure(...)` source.
+ * (site `<p><pixra>` output). Returns end index and the inner `#figure(...)` source.
  */
 function consumePixraImageFigureBlock(
   s: string,
@@ -87,6 +106,7 @@ function consumePixraImageFigureBlock(
   const closeParen = endOfTypstCallWithParens(s, openParen);
   if (closeParen < 0) return null;
   const figureSrc = s.slice(pos, closeParen);
+  if (!typstFigureCallLooksLikeSitePixraQueueCandidate(figureSrc)) return null;
   pos = closeParen;
   while (pos < s.length && /[\s\n\r]/.test(s[pos])) pos++;
   if (s[pos] !== "]") return null;
@@ -230,6 +250,146 @@ function mermaidBlockIntervals(body: string): { start: number; end: number }[] {
   return out;
 }
 
+function collectSpeakerRowTypstIntervals(
+  body: string
+): { start: number; end: number }[] {
+  const out: { start: number; end: number }[] = [];
+  const re = new RegExp(
+    `#image\\("[^"]*${SPEAKER_AVATAR_IMAGE_PATH_INFIX.replace(/\//g, "\\/")}[^"]*"\\)`,
+    "g"
+  );
+  let m: RegExpExecArray | null;
+  let skipUntil = -1;
+  while ((m = re.exec(body))) {
+    if (m.index < skipUntil) continue;
+    const outer = findSpeakerRowTypstOuter(body, m.index);
+    if (!outer) continue;
+    out.push(outer);
+    skipUntil = outer.end;
+  }
+  return out;
+}
+
+/**
+ * Pandoc html→typst for `<speaker>` rows is a wrapping `#block[` around avatar `#block[#figure…]`
+ * plus a sibling `#block[speech]`. Treat each row as full-width (like headings), then rewrite to a
+ * two-column Typst grid (avatar | speech) so it matches site HTML and spans the lesson band.
+ */
+function findSpeakerRowTypstOuter(
+  body: string,
+  imageIdx: number
+): { start: number; end: number } | null {
+  let search = imageIdx;
+  for (let guard = 0; guard < 120; guard += 1) {
+    const b = body.lastIndexOf("#block[", search);
+    if (b < 0) return null;
+    const openBracketIdx = b + "#block[".length - 1;
+    const e = endOfBracketContent(body, openBracketIdx);
+    if (e < 0) {
+      search = b - 1;
+      continue;
+    }
+    if (imageIdx < b + "#block[".length || imageIdx >= e) {
+      search = b - 1;
+      continue;
+    }
+    const inner = body.slice(openBracketIdx + 1, e - 1);
+    if (!trySplitSpeakerRowInner(inner)) {
+      search = b - 1;
+      continue;
+    }
+    return { start: b, end: e };
+  }
+  return null;
+}
+
+/** Outer `#block` inner must be: avatar `#block[ … ]` then speech `#block[ … ]` only. */
+function trySplitSpeakerRowInner(inner: string): { avatarWrap: string; speechWrap: string } | null {
+  const trimmed = inner.replace(/^\s+/, "");
+  if (!trimmed.startsWith("#block[")) return null;
+  const offset = inner.length - trimmed.length;
+  const rel0 = offset + trimmed.indexOf("#block[");
+  const avOpenBracket = rel0 + "#block[".length - 1;
+  const avEnd = endOfBracketContent(inner, avOpenBracket);
+  if (avEnd < 0) return null;
+  const avatarWrap = inner.slice(rel0, avEnd);
+  let pos = avEnd;
+  while (pos < inner.length && /\s/.test(inner[pos]!)) pos += 1;
+  const spRel = inner.indexOf("#block[", pos);
+  if (spRel < 0) return null;
+  const spOpenBracket = spRel + "#block[".length - 1;
+  const spEnd = endOfBracketContent(inner, spOpenBracket);
+  if (spEnd < 0) return null;
+  const speechWrap = inner.slice(spRel, spEnd);
+  const rest = inner.slice(spEnd).replace(/\s+/g, "");
+  if (rest.length > 0) return null;
+  const avInner = typstOneBlockInner(avatarWrap);
+  if (avInner === null || !avInner.includes(SPEAKER_AVATAR_IMAGE_PATH_INFIX)) return null;
+  const speechInnerProbe = typstOneBlockInner(speechWrap);
+  if (speechInnerProbe === null) return null;
+  // Multiface: only the outer avatar wrapper may contain multiple `#figure`s; speech must not be a figure cell.
+  if (/^\s*#figure\(/s.test(speechInnerProbe)) return null;
+  return { avatarWrap, speechWrap };
+}
+
+function typstOneBlockInner(block: string): string | null {
+  const t = block.trimStart();
+  if (!t.startsWith("#block[")) return null;
+  const off = block.length - t.length;
+  const b = off + t.indexOf("#block[");
+  const openBracketIdx = b + "#block[".length - 1;
+  const e = endOfBracketContent(block, openBracketIdx);
+  if (e < 0) return null;
+  return block.slice(openBracketIdx + 1, e - 1);
+}
+
+function rewriteSpeakerRowTypstBlock(block: string): string {
+  const t = block.trim();
+  if (!t.startsWith("#block[")) return block;
+  const b = t.indexOf("#block[");
+  const openBracketIdx = b + "#block[".length - 1;
+  const e = endOfBracketContent(t, openBracketIdx);
+  if (e < 0) return block;
+  const inner = t.slice(openBracketIdx + 1, e - 1);
+  const parts = trySplitSpeakerRowInner(inner);
+  if (!parts) return block;
+  const avatarInner = typstOneBlockInner(parts.avatarWrap);
+  const speechInner = typstOneBlockInner(parts.speechWrap);
+  if (avatarInner === null || speechInner === null) return block;
+  const figCount = (avatarInner.match(/#figure\(/g) ?? []).length;
+  const leftColRaw =
+    figCount > 1
+      ? `#stack(spacing: 0.45em)[
+${avatarInner.trim()}
+]`
+      : avatarInner.trim();
+  // Shrink portrait cards vs margin pixra (`template.typ` `figure-col-width`); scale keeps captions readable.
+  const leftCol = `#scale(72%)[
+${leftColRaw}
+]`;
+  return `#block[
+#grid(
+  columns: (auto, 1fr),
+  column-gutter: 12pt,
+  align: (top + left, top + left),
+)[
+${leftCol}
+][
+${speechInner.trim()}
+]
+]
+`;
+}
+
+function rewriteSpeakerRowTypstIfNeeded(segment: string): string {
+  if (!segment.includes(SPEAKER_AVATAR_IMAGE_PATH_INFIX)) return segment;
+  const lead = segment.match(/^\s*/)?.[0] ?? "";
+  const trimmed = segment.trim();
+  if (!trimmed.startsWith("#block[")) return segment;
+  const next = rewriteSpeakerRowTypstBlock(trimmed);
+  return next === trimmed ? segment : lead + next;
+}
+
 function mergeIntervals(
   intervals: { start: number; end: number }[]
 ): { start: number; end: number }[] {
@@ -329,12 +489,16 @@ export function patchBodyTypFloatFigures(body: string): string {
     ...headingLineIntervals(body),
     ...tableFigureIntervals(body),
     ...mermaidBlockIntervals(body),
+    ...collectSpeakerRowTypstIntervals(body),
   ];
   const segments = splitByFullWidthIntervals(body, intervals);
   let out = "";
   for (let i = 0; i < segments.length; i++) {
     const seg = segments[i]!;
-    let piece = seg.kind === "full" ? seg.text : transformFlowSegment(seg.text);
+    let piece =
+      seg.kind === "full"
+        ? rewriteSpeakerRowTypstIfNeeded(seg.text)
+        : transformFlowSegment(seg.text);
     // Heading/table/mermaid slices exclude the trailing newline; the next flow often starts
     // with `#grid(` — insert `\n` so Typst doesn't glue `==== Section` to `#grid(`.
     if (

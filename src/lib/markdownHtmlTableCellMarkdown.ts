@@ -1,6 +1,6 @@
 /**
  * GFM parses markdown inside raw HTML when there is a newline after the opening tag (see
- * `speechInnerForHtml` in expandFirstLojbanSpeakerTags). Table cells in authored HTML often omit
+ * `speechInnerForHtml` in `expandBookSpeakerTags`). Table cells in authored HTML often omit
  * that, so `**bold**` stays literal. Insert a leading blank line after each `<td>` / `<th>` open.
  *
  * Skips fenced ``` / ~~~ blocks (same idea as markdownNormalizeThematicBreaks).

@@ -22,7 +22,11 @@ import {
 import { useRouter } from "next/router";
 
 import { header } from "../config/config";
-import { currentPageContentsLabel, langDict } from "../lib/lang-native";
+import {
+  currentPageContentsLabel,
+  isSiteLanguage,
+  langDict,
+} from "../lib/lang-native";
 import { Items } from "../lib/api";
 import { closeXicon } from "../lib/buttons";
 import { getClosestHeaderId } from "../lib/toc";
@@ -118,10 +122,10 @@ function LanguageSelectDesktop({
     <select
       className={`${tw.langSelectDesktop} ${getColor("bg-deep-orange-300")} ${getColor("hover:bg-deep-orange-200")}`}
       onChange={onChange}
-      defaultValue={langDict[defaultLangKey]}
+      defaultValue={langDict[defaultLangKey] ?? defaultLangKey}
     >
       <option key={`bangu-${currentLanguage}`} value={path}>
-        {langDict[currentLanguage]}
+        {langDict[currentLanguage] ?? currentLanguage}
       </option>
       {posts
         .filter((p) => p.language !== currentLanguage)
@@ -130,7 +134,7 @@ function LanguageSelectDesktop({
             key={`bangu-${p.language}`}
             value={p.fullPath as string}
           >
-            {langDict[p.language as keyof typeof langDict]}
+            {langDict[p.language as keyof typeof langDict] ?? p.language}
           </option>
         ))}
     </select>
@@ -156,10 +160,10 @@ function LanguageSelectMobile({
     <select
       className={tw.langSelectMobile}
       onChange={onChange}
-      defaultValue={langDict[defaultLangKey]}
+      defaultValue={langDict[defaultLangKey] ?? defaultLangKey}
     >
       <option key={`bangu-${currentLanguage}`} value={path}>
-        {langDict[currentLanguage]}
+        {langDict[currentLanguage] ?? currentLanguage}
       </option>
       {posts
         .filter((p) => p.language !== currentLanguage)
@@ -168,7 +172,7 @@ function LanguageSelectMobile({
             key={`bangu-${p.language}`}
             value={p.fullPath as string}
           >
-            {langDict[p.language as keyof typeof langDict]}
+            {langDict[p.language as keyof typeof langDict] ?? p.language}
           </option>
         ))}
     </select>
@@ -439,6 +443,16 @@ export default function Header({
   const defaultLangKey =
     post?.slug[0] ?? router.asPath.split("/")[1] ?? "en";
 
+  /** Omit book-only URL locales (not listed in `config/locales.json`) from alternates. */
+  const languageSelectPosts = useMemo(() => {
+    if (!posts.length) return posts;
+    return posts.filter(
+      (p) =>
+        p.language === currentLanguage ||
+        isSiteLanguage(String(p.language))
+    );
+  }, [posts, currentLanguage]);
+
   return (
     <>
       <AlgoliaSearchOverlay isOpen={searchOpen} onClose={handleCloseSearch} />
@@ -458,7 +472,7 @@ export default function Header({
                     <LanguageSelectDesktop
                       path={path}
                       currentLanguage={currentLanguage}
-                      posts={posts}
+                      posts={languageSelectPosts}
                       defaultLangKey={defaultLangKey}
                       getColor={getColor}
                       onChange={handleLanguageChange}
@@ -479,7 +493,7 @@ export default function Header({
                   <LanguageSelectMobile
                     path={path}
                     currentLanguage={currentLanguage}
-                    posts={posts}
+                    posts={languageSelectPosts}
                     defaultLangKey={defaultLangKey}
                     onChange={handleLanguageChange}
                     langDict={langDict}

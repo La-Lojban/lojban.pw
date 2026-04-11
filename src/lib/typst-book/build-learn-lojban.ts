@@ -6,7 +6,10 @@ import path from "path";
 import { spawnSync } from "child_process";
 import matter from "gray-matter";
 import markdownToHtml from "../markdownToHtml";
-import { patchBodyTypFloatFigures } from "./patch-body-float-figures";
+import {
+  endOfBracketContent,
+  patchBodyTypFloatFigures,
+} from "./patch-body-float-figures";
 import {
   blockquoteEmSpanBlockLines,
   extractDataUriImagesToFiles,
@@ -58,6 +61,130 @@ export interface BuildBookTypstOptions {
 }
 
 /**
+ * Pandoc html→typst can emit `#block[ … ][ #stack(…) … ]`, which Typst 0.14 rejects (“unexpected
+ * argument”). `<speaker>` lesson layouts hit this; run after `patchBodyTypFloatFigures`.
+ *
+ * Lesson `#grid(…)[ … ][ #stack(…) … ]`: Pandoc sometimes omits the `][` cell boundary between
+ * plain-text cell1 and a `#block` speaker column (`]\n]\n#block[`); that is fixed first.
+ * Native `]\n]\n][\n  #stack` junctions must **not** be wrapped in a second grid.
+ */
+function patchBookLessonGridCellGlue(s: string): string {
+  const lessonGridHead =
+    "#grid(\n  columns: (1fr, auto),\n  gutter: 2.5mm,\n  align: (top + left, top + right),\n)[\n";
+  const gluedSpeaker = "\n]\n]\n#block[\n\n#block[";
+  let from = 0;
+  for (let guard = 0; guard < 400; guard += 1) {
+    const g = s.indexOf(lessonGridHead, from);
+    if (g === -1) break;
+    const cellStart = g + lessonGridHead.length;
+    let p = cellStart;
+    while (p < s.length && s[p] === "\n") p += 1;
+    const cell1StartsBlock = s.startsWith("#block[", p);
+    const nextGrid = s.indexOf(lessonGridHead, cellStart);
+    const searchEnd = nextGrid === -1 ? s.length : nextGrid;
+    const glueIdx = s.indexOf(gluedSpeaker, cellStart);
+    if (glueIdx === -1 || glueIdx >= searchEnd) {
+      from = g + 1;
+      continue;
+    }
+    const cellSepIdx = s.indexOf("][\n", cellStart);
+    const needsGlue =
+      !cell1StartsBlock &&
+      (cellSepIdx === -1 || cellSepIdx > glueIdx) &&
+      glueIdx < searchEnd;
+    if (needsGlue) {
+      const insert = "\n]\n]\n][\n#block[\n\n#block[";
+      s = s.slice(0, glueIdx) + insert + s.slice(glueIdx + gluedSpeaker.length);
+      from = glueIdx + insert.length;
+    } else {
+      from = g + 1;
+    }
+  }
+  return s;
+}
+
+function patchBookSpeakerTypstBody(bodyTypPath: string): void {
+  let s = fs.readFileSync(bodyTypPath, "utf8");
+  s = patchBookLessonGridCellGlue(s);
+  const prefix = "#block[\n\n#block[\n";
+  const stackOpen = "][\n  #stack(spacing: 0.55em)[";
+  const stackCloseTail = ")\n  ]\n]\n";
+  const stackCloseExpanded = ")\n  ]\n  ]\n]\n]\n";
+  const stackCloseNested = ")\n  ]\n]\n]\n";
+  const stackCloseLen = stackCloseTail.length;
+
+  const alreadyExpandedClose = (j: number): boolean =>
+    s.slice(j, j + stackCloseExpanded.length) === stackCloseExpanded ||
+    s.slice(j, j + stackCloseNested.length) === stackCloseNested;
+
+  const innerSiblingBlock = /\n\]\s*\n\]\s*\n#block\[/;
+  const innerInvalid = (inner: string): boolean => {
+    if (inner.includes(prefix)) return true;
+    if (inner.includes(stackOpen)) return true;
+    if (innerSiblingBlock.test(inner)) return true;
+    // Gloss lines / examples (not a single speaker paragraph + stack).
+    if (inner.includes('#text("/ ")')) return true;
+    if (inner.includes("#quote(")) return true;
+    return false;
+  };
+
+  let searchFrom = 0;
+  for (let guard = 0; guard < 400; guard += 1) {
+    const i1 = s.indexOf(stackOpen, searchFrom);
+    if (i1 === -1) break;
+    if (i1 >= 4 && s.slice(i1 - 4, i1) === "]\n]\n") {
+      searchFrom = i1 + stackOpen.length;
+      continue;
+    }
+    let i0 = s.lastIndexOf(prefix, i1 - 1);
+    while (i0 !== -1) {
+      const inner = s.slice(i0 + prefix.length, i1);
+      if (!innerInvalid(inner)) break;
+      i0 = s.lastIndexOf(prefix, i0 - 1);
+    }
+    if (i0 === -1) {
+      searchFrom = i1 + stackOpen.length;
+      continue;
+    }
+    let inner = s.slice(i0 + prefix.length, i1);
+    inner = inner.replace(/\n\]\n\]\s*$/s, "");
+    const nestedClose =
+      i0 >= 4 && s.slice(i0 - 4, i0) === "]\n]\n";
+    const stackCloseOut = nestedClose ? stackCloseNested : stackCloseExpanded;
+    const gridOpen = `#block[
+#grid(
+  columns: (1.1fr, 0.9fr),
+  column-gutter: 14pt,
+)[
+  [
+${inner}
+  ]
+  [
+  #stack(spacing: 0.55em)[`;
+    s = s.slice(0, i0) + gridOpen + s.slice(i1 + stackOpen.length);
+    const insertEnd = i0 + gridOpen.length;
+    const stackListOpenIdx = insertEnd - 1;
+    const stackContentEnd = endOfBracketContent(s, stackListOpenIdx);
+    if (stackContentEnd < 0 || s[stackListOpenIdx] !== "[") {
+      searchFrom = i0 + gridOpen.length;
+      continue;
+    }
+    const stackInner = s.slice(stackListOpenIdx + 1, stackContentEnd - 1);
+    const rel = stackInner.lastIndexOf(stackCloseTail);
+    if (rel === -1) {
+      searchFrom = i0 + gridOpen.length;
+      continue;
+    }
+    const j = stackListOpenIdx + 1 + rel;
+    if (!alreadyExpandedClose(j)) {
+      s = s.slice(0, j) + stackCloseOut + s.slice(j + stackCloseLen);
+    }
+    searchFrom = i0 + gridOpen.length;
+  }
+  fs.writeFileSync(bodyTypPath, s, "utf8");
+}
+
+/**
  * Pandoc emits `#horizontalrule`; included `body.typ` does not inherit `main.typ` imports.
  */
 function patchBodyTypFile(bodyTypPath: string): void {
@@ -92,6 +219,28 @@ function patchBodyTypFile(bodyTypPath: string): void {
       return `#align(center)[#box(width: ${rounded}pt, image("${imgPath}"))]`;
     }
   );
+  // Pandoc html→typst: `#strong[la]` / `#strong[lo]` — inner `[la]` is parsed as a link, not text.
+  s = s.replace(
+    /#strong\[(la|le|li|lo|lu)\]/g,
+    '#strong[#"$1"]'
+  );
+  // Continued "a / b / c" typography: a line starting with `/ #strong` / `/ #emph` is division in Typst.
+  s = s.replace(/^\/\s+#strong/gm, '#text("/ ") #strong');
+  s = s.replace(/^\/\s+#emph/gm, '#text("/ ") #emph');
+  s = s.replace(/^\/\s*$/gm, '#text("/")');
+  // Do **not** match Pandoc’s definition lists: `/ term: #block[…]` is valid Typst (see e.g. learn-lojban `ca` / `: now …` glosses).
+  s = s.replace(
+    /^\/\s+(?!\S+:\s*#block\[)(?=[^\s#])/gm,
+    '#text("/ ") '
+  );
+  // Pandoc html→typst + Kramdown `{#id}` on headings can emit `<slug-slug>` while `#link(<slug>)`
+  // still targets the short id — collapse any duplicated ASCII slug segment.
+  s = s.replace(/<([a-z0-9][a-z0-9-]*)-\1>/gi, "<$1>");
+  // Same pipeline may leave a literal `{\#id}` suffix on `===` / `==` heading lines; strip it.
+  s = s.replace(/^(={1,6}\s[^\n]+?)\s*\{\\#[^}\n]+\}/gm, "$1");
+  // Pandoc table cells that are only `/` or `|` — Typst treats `[/` / `[|` as invalid markup in content.
+  s = s.replace(/\[\/\s*\n/g, '[#text("/")\n');
+  s = s.replace(/\[\|\s*\n/g, '[#text("|")\n');
   fs.writeFileSync(bodyTypPath, s, "utf8");
 }
 
@@ -178,7 +327,9 @@ export async function buildBookTypst(
   options: BuildBookTypstOptions
 ): Promise<void> {
   const projectRoot = findProjectRoot();
-  const { bookMdPath, outPdfPath } = options;
+  const { bookMdPath } = options;
+  /** Typst `cwd` is `workDir`; output must be absolute or writes resolve under `tmp/typst-book/…`. */
+  const outPdfPath = path.resolve(options.outPdfPath);
   const pandoc = options.pandoc ?? "pandoc";
   const typst = options.typst ?? "typst";
 
@@ -315,6 +466,8 @@ export async function buildBookTypst(
   }
   console.log(`[typst-book] patchBodyTypFloatFigures done in ${Date.now() - floatT0}ms`);
 
+  patchBookSpeakerTypstBody(bodyTypPath);
+
   const coverArg = coverImageRel ? JSON.stringify(coverImageRel) : "none";
   const titleHash = hashBookTitle(title);
   const paletteIdx = paletteIndexFromBookFrontmatter(data);
@@ -361,8 +514,9 @@ async function main() {
   );
   const bookMd = argv[0] ? path.resolve(argv[0]) : defaultBook;
   const vreji = getVrejiPath();
-  const outPdf =
-    argv[1] ?? path.join(vreji, "uencu", "en", "learn-lojban.pdf");
+  const outPdf = path.resolve(
+    argv[1] ?? path.join(vreji, "uencu", "en", "learn-lojban.pdf")
+  );
 
   await buildBookTypst({
     bookMdPath: bookMd,

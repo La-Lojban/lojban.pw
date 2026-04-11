@@ -13,9 +13,9 @@
 // Pixra: ~1px gray stroke (site uses CSS `shadow`; PDF has no drop shadows).
 #let pixra-border-1px = 0.75pt + tbl-border
 #let widget-rule = 1.05pt
-// px-3 py-4 → 12px × 16px → 9pt × 12pt
-#let tbl-inset-x = 9pt
-#let tbl-inset-y = 12pt
+// Tighter than site px-3 py-4 for denser book PDFs
+#let tbl-inset-x = 6pt
+#let tbl-inset-y = 8pt
 // rounded-sm (~2px) + slight bump for print
 #let tbl-radius = 3pt
 
@@ -217,11 +217,11 @@
           right: quote-border-1px,
           bottom: quote-border-1px,
         ),
-        inset: (left: 12pt, y: 10pt, right: 10pt),
+        inset: (left: 10pt, y: 7pt, right: 9pt),
         radius: 0pt,
-        spacing: 0.38em,
+        spacing: 0.26em,
       )[
-        #set par(leading: 0.62em, spacing: 0.72em, justify: true)
+        #set par(leading: 0.5em, spacing: 0.52em, justify: true)
         #it.body
       ]
       let dims = measure(q, width: cap)
@@ -276,7 +276,8 @@
   show heading.where(level: 1): it => {
     section-h2.update(none)
     section-h3.update(none)
-    pagebreak(weak: true)
+    // No `pagebreak(weak: true)` here: Typst 0.14 forbids page breaks inside pandoc’s nested
+    // `#block[...]` stacks (CLL `body.typ`). Spacing + sticky heading blocks still separate sections.
     v(0.45em)
     block(width: 100%, breakable: false, sticky: true)[
       #block(
@@ -304,7 +305,6 @@
   show heading.where(level: 2): it => {
     section-h3.update(none)
     section-h2.update(it.body)
-    pagebreak(weak: true)
     v(0.35em)
     block(width: 100%, breakable: false, sticky: true)[
       #block(

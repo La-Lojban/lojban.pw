@@ -1,6 +1,15 @@
-/** Web path to Hajiloji dialogue sprites (matches `data/assets/pixra/books/first-lojban/icons/*.webp`). */
-export const FIRST_LOJBAN_SPEAKER_ICONS_BASE =
-  "/assets/pixra/books/first-lojban/icons/";
+/**
+ * Path segment (POSIX slashes) inside avatar image URLs for `<speaker>` / `<speakers>`.
+ * Kept in sync with on-disk layout under `data/assets/pixra/…`; Typst pipeline matches this
+ * substring to skip the margin pixra queue and to detect speaker rows in `body.typ`.
+ */
+export const SPEAKER_AVATAR_IMAGE_PATH_INFIX = "pixra/books/first-lojban/icons";
+
+/** Web URL prefix for speaker sprites (`SPEAKER_AVATAR_IMAGE_PATH_INFIX` after `/assets/`). */
+export const BOOK_SPEAKER_ICONS_WEB_BASE = `/assets/${SPEAKER_AVATAR_IMAGE_PATH_INFIX}/`;
+
+/** @deprecated Use `BOOK_SPEAKER_ICONS_WEB_BASE`. */
+export const FIRST_LOJBAN_SPEAKER_ICONS_BASE = BOOK_SPEAKER_ICONS_WEB_BASE;
 
 const SPEAKER_LABEL_BY_PREFIX: Record<string, string> = {
   koc: "Koshon",
@@ -21,7 +30,7 @@ export function speakerDisplayNameFromSprite(
 
 export function firstLojbanSpeakerIconUrl(sprite: string): string {
   const base = sprite.replace(/\.(png|webp)$/i, "");
-  return `${FIRST_LOJBAN_SPEAKER_ICONS_BASE}${base}.webp`;
+  return `${BOOK_SPEAKER_ICONS_WEB_BASE}${base}.webp`;
 }
 
 /** Must match the number of `article .speaker-row--bubble-*` themes in `src/styles/index.css`. */
@@ -218,12 +227,13 @@ function findNextSpeakerTag(markdown: string, from: number): NextTag | null {
 }
 
 /**
- * Expands Hajiloji dialogue tags into `speaker-row` markup (`src/styles/index.css`):
+ * Expands `<speaker>` / `<speakers>` tags into `speaker-row` markup (`src/styles/index.css`) for
+ * **any** book page (see `markdownToHtml`); sprite files live under `SPEAKER_AVATAR_IMAGE_PATH_INFIX`.
  * - `<speaker sprite="sor1">…</speaker>` (optional `name="…"`, self-closing ok)
  * - `<speakers multiface sprites="sor5,sev1,koc5">…</speakers>` (optional `names="…"`)
  * Bubble tint is `speaker-row--bubble-*` from a hash of each sprite id with non-letters stripped (see `SPEAKER_BUBBLE_PALETTE_SIZE`).
  */
-export function expandFirstLojbanSpeakerTags(markdown: string): string {
+export function expandBookSpeakerTags(markdown: string): string {
   const SPEAKER_OPEN_LEN = "<speaker".length;
   const SPEAKERS_OPEN_LEN = "<speakers".length;
   let i = 0;
@@ -304,3 +314,6 @@ export function expandFirstLojbanSpeakerTags(markdown: string): string {
 
   return out;
 }
+
+/** @deprecated Use `expandBookSpeakerTags`. */
+export const expandFirstLojbanSpeakerTags = expandBookSpeakerTags;
