@@ -522,12 +522,12 @@ article div.wrapper.with_blockquote {
 }
 
 article blockquote:has(.naldra) {
-  @apply flex relative py-4 px-3 m-0 bg-gray-100 print:bg-white hover:bg-gray-200 border-0 shadow rounded-sm rounded-l-none;
+  @apply flex flex-col relative py-4 px-3 m-0 bg-gray-100 print:bg-white hover:bg-gray-200 border-0 shadow rounded-sm rounded-l-none;
   border-left: 3px solid #ff1e1e;
 }
 
 article blockquote {
-  @apply flex relative py-4 px-3 mb-1 m-0 bg-gray-100 print:bg-white hover:bg-gray-200 border-0 shadow rounded-sm rounded-l-none;
+  @apply flex flex-col gap-0.5 relative py-4 px-3 mb-1 m-0 bg-gray-100 print:bg-white hover:bg-gray-200 border-0 shadow rounded-sm rounded-l-none;
   border-left: 3px solid #1e90ff;
 }
 
@@ -550,13 +550,6 @@ article blockquote:before {
 
 article blockquote p {
   @apply font-normal mt-0 mb-0;
-}
-
-/* Stack Lojban line + gloss as separate lines. Keep predicate/grammar notes outside the
-   blockquote (or wrap in <span>) — mixed <em>/<strong>/<sub> as siblings under p would each
-   become block-level here and read as awkward line breaks. */
-article .cukta.simple_blockquotes ~ blockquote p > *:not(span) {
-  @apply block;
 }
 
 /* -------------------------------------------------------------------------- */

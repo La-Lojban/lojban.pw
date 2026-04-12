@@ -4,6 +4,13 @@ function normalizePath(path: string): string {
   return path.replace(/\/$/, "") || "/";
 }
 
+/** Scroll containers for in-page ToC (sidebar + mobile topbar). Used to ignore scroll events from manual ToC browsing. */
+const tocScrollContainerSelector = "#toc-core, #toc-topbar";
+
+export function isTocScrollContainerTarget(target: EventTarget | null): boolean {
+  return target instanceof Element && !!target.closest(tocScrollContainerSelector);
+}
+
 export type GetClosestHeaderIdOptions = {
   /** When false, only updates ToC highlight (no `history.replaceState`). Use while the user is scrolling so the URL/hash does not trigger scroll reconciliation. */
   syncHistory?: boolean;

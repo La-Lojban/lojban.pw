@@ -12,7 +12,10 @@ import {
 } from "../lib/slimprogress";
 import { closeXicon } from "../lib/buttons";
 import { useEffect } from "react";
-import { debouncedGetClosestHeaderId } from "../lib/toc";
+import {
+  debouncedGetClosestHeaderId,
+  isTocScrollContainerTarget,
+} from "../lib/toc";
 
 // -----------------------------------------------------------------------------
 // STYLES
@@ -38,7 +41,10 @@ const routeProgressOptions: Partial<RouteProgressOptions> = {
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    const onScroll = debouncedGetClosestHeaderId;
+    const onScroll = (e: Event) => {
+      if (isTocScrollContainerTarget(e.target)) return;
+      debouncedGetClosestHeaderId();
+    };
     const onResize = debouncedGetClosestHeaderId;
     document.addEventListener("scroll", onScroll, true);
     window.addEventListener("resize", onResize);

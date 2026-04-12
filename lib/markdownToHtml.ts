@@ -24,6 +24,7 @@ import { expandBookSpeakerTags } from "./expandFirstLojbanSpeakerTags";
 import { expandFirstLojbanTfQuiz } from "./expandFirstLojbanTfQuiz";
 import { markdownEnableHtmlTableCellMarkdown } from "./markdownHtmlTableCellMarkdown";
 import { markdownNormalizeThematicBreaks } from "./markdownNormalizeThematicBreaks";
+import remarkSplitBlockquoteLines from "./remark-plugins/split-blockquote-lines";
 import { enhanceKorporaSections } from "./korpora/ssgEnhance";
 import {
   MERMAID_BOOK_FONT_PX,
@@ -88,6 +89,7 @@ export default async function markdownToHtml({
         })
         .use(remarkMath)
         .use(remarkDefinitionList)
+        .use(remarkSplitBlockquoteLines)
         .use(remarkRehype, {
           handlers: {
             // any other handlers
