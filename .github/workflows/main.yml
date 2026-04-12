@@ -26,7 +26,9 @@ env:
   # Dockerfile `FROM mcr.microsoft.com/playwright:…` aligned with `src/package.json` playwright-core.
   # Book PDFs: Typst → `*-pre.pdf` per book × locale (`lib/typst-book/print-all-books.ts`), then
   # Ghostscript shrink via `lib/printer/shrink-pdf.sh` during `pnpm print` → final `*.pdf` in `/vreji/uencu`.
-  # Queue is bounded by PDF_TYPUST_MAX_CONCURRENCY (at most N books processed at once).
+  # Shrink runs up to PDF_SHRINK_MAX_CONCURRENCY Ghostscript jobs in parallel (per *-pre.pdf file).
+  # Typst queue: PDF_TYPUST_MAX_CONCURRENCY (markdown + compile phases); Mermaid uses one Chromium for all books.
+  PDF_SHRINK_MAX_CONCURRENCY: 4
   # Local-only filter: PDF_TYPUST_ONLY_LEARN_LOJBAN=1.
   PDF_TYPUST_MAX_CONCURRENCY: 2
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Opt into Node.js 24 (Node 20 deprecated on runners)
@@ -126,6 +128,7 @@ jobs:
                    -e ALGOLIA_INDEX_NAME="$INDEX_NAME" \
                    -e CI=true \
                    -e PDF_TYPUST_MAX_CONCURRENCY="${{ env.PDF_TYPUST_MAX_CONCURRENCY }}" \
+                   -e PDF_SHRINK_MAX_CONCURRENCY="${{ env.PDF_SHRINK_MAX_CONCURRENCY }}" \
                    -e NEXT_BUILD_MAX_CPUS="${{ env.NEXT_BUILD_MAX_CPUS }}" \
                    -e PLAYWRIGHT_BROWSERS_PATH=/ms-playwright \
                    lojban:latest \

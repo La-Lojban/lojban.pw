@@ -20,7 +20,7 @@ This course teaches Lojban from its formal foundations, but in simple terms and 
 
 <pixra redirect="/en/books/lojban-through-dialogues/0" url="/assets/pixra/books/lojban-through-dialogues/cover.webp" caption="‘Lojban Through Dialogues’ course"></pixra>
 
-Immersive situation-first course with characters *Koshon* and *Sora*: learn through dialogues, context, and written spiral review — inspired by the Pimsleur method.
+Immersive situation-first course with characters *Koshon* and *Sora*: learn through dialogues, context, and written spiral review.
 
 * [PDF](/vreji/uencu/en/lojban-through-dialogues.pdf) - in a PDF file for download.
 -->

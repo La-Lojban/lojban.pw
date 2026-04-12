@@ -1,5 +1,6 @@
-#!/bin/sh
-
+#!/usr/bin/env bash
+# Parallel Ghostscript shrink for *-pre.pdf → *.pdf (bounded by PDF_SHRINK_MAX_CONCURRENCY).
+#
 # http://www.alfredklomp.com/programming/shrinkpdf
 # Licensed under the 3-clause BSD license:
 #
@@ -29,6 +30,7 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
+set -euo pipefail
 
 shrink ()
 {
@@ -55,32 +57,6 @@ shrink ()
 	  "$1"
 }
 
-# shrink ()
-# {
-# 	gs					\
-# 	  -q -dNOPAUSE -dBATCH -dSAFER		\
-# 	  -sDEVICE=pdfwrite			\
-# 	  -dCompatibilityLevel=1.5		\
-# 	  -dPDFSETTINGS=/prepress		\
-# 	  -dEmbedAllFonts=true			\
-# 	  -dSubsetFonts=true			\
-# 	  -dAutoRotatePages=/None		\
-# 	  -dColorImageDownsampleType=/None	\
-# 	  -dGrayImageDownsampleType=/None	\
-# 	  -dMonoImageDownsampleType=/None	\
-# 	  -dAutoFilterColorImages=false	\
-# 	  -dAutoFilterGrayImages=false	\
-# 	  -dCompressFonts=true \
-# 	  -dDetectDuplicateImages=true \
-# 	  -dColorConversionStrategy=/LeaveColorUnchanged \
-# 	  -dUseFlateCompression=true \
-# 	  -dDoThumbnails=false \
-# 	  -sOutputFile="$2"			\
-# 	  -c "[ /Title (Learn Lojban) /DOCINFO pdfmark" \
-# 	  -f \
-# 	  "$1"
-# }
-
 check_smaller ()
 {
 	# If $1 and $2 are regular files, we can compare file sizes to
@@ -99,46 +75,57 @@ check_smaller ()
 usage ()
 {
 	echo "Reduces PDF filesize by lossy recompressing with Ghostscript."
-	echo "Not guaranteed to succeed, but usually works."
-	echo "  Usage: $1 [resolution_in_dpi]"
+	echo "  Usage: $0 [resolution_in_dpi]"
+	echo "  Env: PDF_SHRINK_MAX_CONCURRENCY (default 4), PDF_SHRINK_DPI (default 120)"
 }
 
-# Output resolution defaults to 96 unless given:
-if [ ! -z "$3" ]; then
-	res="$3"
+# Output resolution: optional first argument, else PDF_SHRINK_DPI, else 120 dpi
+if [ -n "${1:-}" ]; then
+	res="$1"
+elif [ -n "${PDF_SHRINK_DPI:-}" ]; then
+	res="$PDF_SHRINK_DPI"
 else
 	res="120"
 fi
 
-echo "Shrinking pdf files"
+MAXP="${PDF_SHRINK_MAX_CONCURRENCY:-4}"
+case "$MAXP" in
+	''|*[!0-9]*) MAXP=4 ;;
+esac
+if [ "$MAXP" -lt 1 ]; then MAXP=1; fi
 
-# Use VREJI_PATH environment variable if set, otherwise default to Docker path
+echo "Shrinking pdf files (parallel jobs: ${MAXP}, dpi: ${res})"
+
 VREJI_PATH=${VREJI_PATH:-/vreji}
 
-# Find all files matching the *-pre.pdf wildcard recursively
-find ${VREJI_PATH}/uencu -type f -name '*-pre.pdf' | while read -r file; do
+shrink_one_pre_pdf() {
+	local file="$1"
+	local output="${file/-pre.pdf/.pdf}"
 	echo "shrinking $file"
-    # Apply the shrink command to each file
-    output=$(echo "$file" | sed "s/-pre.pdf/.pdf/")
-
 	if shrink "$file" "$output" "$res"; then
-	check_smaller "$file" "$output"
-		rm "$file"
+		check_smaller "$file" "$output"
+		rm -f "$file"
 		echo "successfully shrunk $file"
 	else
-		exit_code=$?
-		if [ $exit_code -eq 124 ]; then
+		local exit_code=$?
+		if [ "$exit_code" -eq 124 ]; then
 			echo "ERROR: Timeout shrinking $file - took more than 5 minutes" >&2
-			# Copy original file as fallback
 			cp "$file" "$output"
-	rm "$file"
+			rm -f "$file"
 		else
 			echo "ERROR: Failed to shrink $file with exit code $exit_code" >&2
-			exit $exit_code
+			return "$exit_code"
 		fi
 	fi
-done
+}
 
+export -f shrink_one_pre_pdf shrink check_smaller
+export res
 
+if ! find "${VREJI_PATH}/uencu" -type f -name '*-pre.pdf' -print0 2>/dev/null | \
+	xargs -0 -r -P"$MAXP" -n1 bash -c 'shrink_one_pre_pdf "$1" || exit 255' _; then
+	echo "ERROR: one or more shrink jobs failed" >&2
+	exit 1
+fi
 
 echo "Shrunk pdf files"

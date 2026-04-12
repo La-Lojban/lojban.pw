@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import { JSDOM } from "jsdom";
 import sharp from "sharp";
-import playwright, { type Page } from "playwright-core";
+import playwright, { type Browser, type Page } from "playwright-core";
 import htmlParser from "node-html-parser";
 
 import { mermaidBookScreenshotStyle } from "./mermaid-book-pdf";
@@ -212,16 +212,37 @@ export function extractDataUriImagesToFiles(
   return root.toString();
 }
 
+const chromiumLaunchOptions = {
+  headless: true as const,
+  ...(process.env.PLAYWRIGHT_BROWSERS_PATH
+    ? {}
+    : {
+        executablePath:
+          process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH ??
+          "/usr/bin/google-chrome",
+      }),
+  args: ["--no-sandbox", "--disable-setuid-sandbox"],
+};
+
+/** Single shared browser for all book PDF Mermaid passes (`print-all-books` batch). */
+export async function launchBookPdfMermaidBrowser(): Promise<Browser> {
+  return playwright.chromium.launch(chromiumLaunchOptions);
+}
+
 /**
  * Mermaid SVG uses `foreignObject` text; Sharp/librsvg drops labels. Rasterize with Chromium
  * (same idea as remark-mermaid SSR) so labels appear in the PDF.
+ *
+ * @param sharedBrowser When set, this browser is reused (not closed); use for batch rasterization
+ *   after `launchBookPdfMermaidBrowser()`.
  */
 export async function extractMermaidSvgDivsToImages(
   html: string,
   workDir: string,
   projectRoot: string,
   /** Log diagram-by-diagram progress (book PDF builds). */
-  verbose = false
+  verbose = false,
+  sharedBrowser?: Browser
 ): Promise<string> {
   const mLog = (msg: string) => {
     if (verbose) console.log(`[typst-book mermaid] ${msg}`);
@@ -241,20 +262,14 @@ export async function extractMermaidSvgDivsToImages(
     return doc.innerHTML;
   }
 
-  mLog(`rasterize ${divs.length} diagram(s) with Playwright Chromium`);
-  const tLaunch = Date.now();
-  const browser = await playwright.chromium.launch({
-    headless: true,
-    ...(process.env.PLAYWRIGHT_BROWSERS_PATH
-      ? {}
-      : {
-          executablePath:
-            process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH ??
-            "/usr/bin/google-chrome",
-        }),
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
-  });
-  mLog(`Chromium launched in ${Date.now() - tLaunch}ms`);
+  const ownBrowser = sharedBrowser == null;
+  const browser = sharedBrowser ?? (await launchBookPdfMermaidBrowser());
+  if (ownBrowser) {
+    mLog(`rasterize ${divs.length} diagram(s) with Playwright Chromium`);
+    mLog(`Chromium launched`);
+  } else {
+    mLog(`rasterize ${divs.length} diagram(s) with shared Playwright Chromium`);
+  }
 
   try {
     const tCtx = Date.now();
@@ -271,8 +286,9 @@ export async function extractMermaidSvgDivsToImages(
       const svg = div.querySelector("svg");
       if (!svg || !div.parentNode) continue;
 
+      const diagramIndex = i + 1;
       const tDiag = Date.now();
-      mLog(`diagram ${i + 1}/${divs.length}: setContent + screenshot …`);
+      mLog(`diagram ${diagramIndex}/${divs.length}: setContent + screenshot …`);
 
       const snippet = `<!DOCTYPE html><html><head><meta charset="utf-8"/>
 <style>html,body{margin:0;padding:0;background:white}</style>
@@ -310,7 +326,9 @@ export async function extractMermaidSvgDivsToImages(
           screenshotOk = true;
         } catch (e) {
           lastError = e;
-          mLog(`diagram ${i}/${divs.length}: element screenshot retry ${attempt}/3`);
+          mLog(
+            `diagram ${diagramIndex}/${divs.length}: element screenshot retry ${attempt}/3`
+          );
           if (attempt < 3) await sleep(250 * attempt);
         }
       }
@@ -329,7 +347,7 @@ export async function extractMermaidSvgDivsToImages(
             };
           });
           if (!clip) throw new Error("Cannot compute SVG clip rectangle");
-          mLog(`diagram ${i}/${divs.length}: fallback page clip screenshot`);
+          mLog(`diagram ${diagramIndex}/${divs.length}: fallback page clip screenshot`);
           await page.screenshot({
             path: pngPath,
             type: "png",
@@ -344,7 +362,7 @@ export async function extractMermaidSvgDivsToImages(
       }
       if (!screenshotOk) {
         console.warn(
-          `[typst-book mermaid] diagram ${i}/${divs.length}: screenshot failed, replacing with text placeholder`
+          `[typst-book mermaid] diagram ${diagramIndex}/${divs.length}: screenshot failed, replacing with text placeholder`
         );
         if (lastError) console.warn(lastError);
         const fallback = dom.window.document.createElement("p");
@@ -369,13 +387,17 @@ export async function extractMermaidSvgDivsToImages(
         img.setAttribute("height", String(Math.round(logicalSize.h)));
       }
       div.parentNode.replaceChild(img, div);
-      mLog(`diagram ${i}/${divs.length}: done in ${Date.now() - tDiag}ms → ${path.basename(pngPath)}`);
+      mLog(
+        `diagram ${diagramIndex}/${divs.length}: done in ${Date.now() - tDiag}ms → ${path.basename(pngPath)}`
+      );
     }
     await context.close();
     mLog("browser context closed");
   } finally {
-    await browser.close();
-    mLog("Chromium closed");
+    if (ownBrowser) {
+      await browser.close();
+      mLog("Chromium closed");
+    }
   }
 
   return doc.innerHTML;

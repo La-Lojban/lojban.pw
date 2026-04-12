@@ -27,7 +27,7 @@ if [ $PDF_EXIT_CODE -ne 0 ]; then
 fi
 
 echo "Shrinking PDFs…"
-sh lib/printer/shrink-pdf.sh
+bash lib/printer/shrink-pdf.sh
 SHRINK_EXIT_CODE=$?
 if [ $SHRINK_EXIT_CODE -ne 0 ]; then
   echo "ERROR: PDF shrinking failed with exit code $SHRINK_EXIT_CODE"

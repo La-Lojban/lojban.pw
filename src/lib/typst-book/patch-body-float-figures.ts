@@ -346,6 +346,36 @@ function typstOneBlockInner(block: string): string | null {
   return block.slice(openBracketIdx + 1, e - 1);
 }
 
+/**
+ * Pandoc-emitted `<speaker>` row → `#speaker_row_avatar_column` + `#speaker_speech_bubble` grid.
+ * Single implementation for every book PDF (see `speaker-bubble.typ`).
+ */
+export function typstSpeakerRowRewrittenBlock(p: {
+  multiface: boolean;
+  leftColRaw: string;
+  bubbleIdx: number;
+  speechInner: string;
+}): string {
+  const { multiface, leftColRaw, bubbleIdx, speechInner } = p;
+  const leftCol = `#speaker_row_avatar_column(multiface: ${multiface})[
+${leftColRaw}
+]`;
+  return `#block[
+#grid(
+  columns: (auto, 1fr),
+  column-gutter: 12pt,
+  align: (top + left, horizon + left),
+)[
+${leftCol}
+][
+#speaker_speech_bubble(${bubbleIdx})[
+${speechInner.trim()}
+]
+]
+]
+`;
+}
+
 function rewriteSpeakerRowTypstBlock(block: string): string {
   const t = block.trim();
   if (!t.startsWith("#block[")) return block;
@@ -366,25 +396,13 @@ function rewriteSpeakerRowTypstBlock(block: string): string {
 ${avatarInner.trim()}
 ]`
     : avatarInner.trim();
-  // Avatar `#figure` layout matches `src/styles/index.css` `.speaker-row__avatar` (scoped in `speaker-bubble.typ`).
-  const leftCol = `#speaker_row_avatar_column(multiface: ${multiface})[
-${leftColRaw}
-]`;
   const bubbleIdx = speakerBubblePaletteIndexFromTypstAvatarInner(avatarInner);
-  return `#block[
-#grid(
-  columns: (auto, 1fr),
-  column-gutter: 12pt,
-  align: (top + left, top + left),
-)[
-${leftCol}
-][
-#speaker_speech_bubble(${bubbleIdx})[
-${speechInner.trim()}
-]
-]
-]
-`;
+  return typstSpeakerRowRewrittenBlock({
+    multiface,
+    leftColRaw,
+    bubbleIdx,
+    speechInner,
+  });
 }
 
 function rewriteSpeakerRowTypstIfNeeded(segment: string): string {

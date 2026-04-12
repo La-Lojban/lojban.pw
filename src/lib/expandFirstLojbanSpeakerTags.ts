@@ -28,6 +28,12 @@ const SPEAKER_LABEL_BY_STEM: Record<string, string> = {
   bla: "la mentu",
   men: "la mentu",
   mentu: "la mentu",
+  koc: "la .kocon.",
+  kocon: "la .kocon.",
+  sev: "la .sevan.",
+  sevan: "la .sevan.",
+  sor: "la .soran.",
+  soran: "la .soran.",
 };
 
 function capitalizeWord(word: string): string {

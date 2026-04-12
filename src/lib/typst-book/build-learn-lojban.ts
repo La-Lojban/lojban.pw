@@ -13,6 +13,7 @@ import {
 import {
   endOfBracketContent,
   patchBodyTypFloatFigures,
+  typstSpeakerRowRewrittenBlock,
 } from "./patch-body-float-figures";
 import {
   blockquoteEmSpanBlockLines,
@@ -62,6 +63,43 @@ export interface BuildBookTypstOptions {
   pandoc?: string;
   /** Typst binary */
   typst?: string;
+  /**
+   * HTML after Mermaid rasterization (`workDir/extracted-media` must already exist).
+   * When set, markdown → Mermaid is skipped (used by `print-all-books` after one Chromium batch).
+   */
+  htmlAfterMermaid?: string;
+}
+
+/**
+ * Markdown → site HTML through blockquote prep, **before** Mermaid rasterization.
+ * Each book uses its own `workDir` (created if missing).
+ */
+export async function prepareBookHtmlBeforeMermaid(options: {
+  bookMdPath: string;
+  workDir: string;
+}): Promise<string> {
+  const workDir = path.resolve(options.workDir);
+  fs.mkdirSync(workDir, { recursive: true });
+
+  const raw = fs.readFileSync(options.bookMdPath, "utf8");
+  const { content } = matter(raw);
+
+  const { text: htmlFragment } = await markdownToHtml({
+    content,
+    fullPath: options.bookMdPath,
+    bookPdfMermaid: true,
+    verboseBookBuild: true,
+  });
+
+  let html = stripPrintHidden(htmlFragment);
+  html = normalizeFontColorTags(html);
+  html = blockquoteEmSpanBlockLines(html);
+  return html;
+}
+
+/** Repository root for Typst `--root` (same as `buildBookTypst`). */
+export function getTypstBookProjectRoot(): string {
+  return findProjectRoot();
 }
 
 /**
@@ -247,22 +285,12 @@ function rewriteRawSpeakerBlock(block: string): string {
     ? `#stack(spacing: 0.5em)[\n${avatarInner.trim()}\n]`
     : avatarInner.trim();
   const bubbleIdx = speakerBubblePaletteIndexFromTypstAvatarInner(avatarInner);
-  return `#block[
-#grid(
-  columns: (auto, 1fr),
-  column-gutter: 12pt,
-  align: (top + left, top + left),
-)[
-#speaker_row_avatar_column(multiface: ${multiface})[
-${leftColRaw}
-]
-][
-#speaker_speech_bubble(${bubbleIdx})[
-${speechInner.trim()}
-]
-]
-]
-`;
+  return typstSpeakerRowRewrittenBlock({
+    multiface,
+    leftColRaw,
+    bubbleIdx,
+    speechInner,
+  });
 }
 
 function rewriteResidualRawSpeakerRows(body: string): string {
@@ -545,21 +573,29 @@ export async function buildBookTypst(
   }
 
   phaseMs = Date.now();
-  const { text: htmlFragment } = await markdownToHtml({
-    content,
-    fullPath: bookMdPath,
-    bookPdfMermaid: true,
-    verboseBookBuild: true,
-  });
-  logPhase("markdownToHtml (total; see [typst-book md] lines above)");
+  let html: string;
+  if (options.htmlAfterMermaid !== undefined) {
+    html = options.htmlAfterMermaid;
+    logPhase("markdown + mermaid (skipped; using batch-raster HTML)");
+  } else {
+    const { text: htmlFragment } = await markdownToHtml({
+      content,
+      fullPath: bookMdPath,
+      bookPdfMermaid: true,
+      verboseBookBuild: true,
+    });
+    logPhase("markdownToHtml (total; see [typst-book md] lines above)");
 
-  let html = stripPrintHidden(htmlFragment);
-  html = normalizeFontColorTags(html);
-  html = blockquoteEmSpanBlockLines(html);
-  logPhase("stripPrintHidden + normalizeFontColorTags + blockquoteEmSpanBlockLines");
+    html = stripPrintHidden(htmlFragment);
+    html = normalizeFontColorTags(html);
+    html = blockquoteEmSpanBlockLines(html);
+    logPhase(
+      "stripPrintHidden + normalizeFontColorTags + blockquoteEmSpanBlockLines"
+    );
 
-  html = await extractMermaidSvgDivsToImages(html, workDir, projectRoot, true);
-  logPhase("mermaid rasterize (total; see [typst-book mermaid] lines above)");
+    html = await extractMermaidSvgDivsToImages(html, workDir, projectRoot, true);
+    logPhase("mermaid rasterize (total; see [typst-book mermaid] lines above)");
+  }
 
   html = extractDataUriImagesToFiles(html, workDir, projectRoot);
   logPhase("extractDataUriImagesToFiles");

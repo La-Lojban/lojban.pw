@@ -1,4 +1,5 @@
 // Hajiloji `<speaker>` helpers for Pandoc `body.typ` (prepend `#import` here; `#include` does not see `main` or `lojban-book`).
+// Shared by every book PDF that uses this module (e.g. first-lojban, lojban-through-dialogues): one tail geometry, no per-book overrides.
 // Bubble fills/strokes = `src/styles/index.css` `.speaker-row--bubble-0..4` (index from TS).
 // Avatar `#figure` styling = same file `article .speaker-row__avatar figure` / `.figure_img` / `figcaption` (print: white card).
 
@@ -29,8 +30,9 @@
   let tail-base-i = 9pt
   let tail-half-i = 7.5pt
   let tail-col = tail-base-o + 0.5pt
-  // PDF: tail top = 6px below speech card top (CSS pseudos use `top: 50%`; book PDF uses fixed offset).
-  let tail-top-pad = (6 / 96) * 72pt
+  // Tail: same as `index.css` `.speaker-row__speech::before` / `::after` — `top: 50%` + `translateY(-50%)`
+  // (triangle vertically centered on the speech card). Row alignment: `typstSpeakerRowRewrittenBlock` uses
+  // `horizon + left` on the speech grid cell to match `.speaker-row__speech { align-self: center }`.
   block(width: 100%, breakable: true, clip: false)[
     #pad(left: tail-col)[
       #block(
@@ -42,27 +44,25 @@
         inset: (x: 12pt, y: 9pt),
       )[#body]
     ]
-    #place(left + top)[
-      #pad(top: tail-top-pad)[
-        #box(width: tail-col, clip: false)[
-          #place(left + top)[
-            #polygon(
-              fill: bs,
-              stroke: none,
-              (0pt, 0pt),
-              (tail-base-o, tail-half-o),
-              (tail-base-o, -tail-half-o),
-            )
-          ]
-          #place(left + top, dx: 0.75pt)[
-            #polygon(
-              fill: bf,
-              stroke: none,
-              (0pt, 0pt),
-              (tail-base-i, tail-half-i),
-              (tail-base-i, -tail-half-i),
-            )
-          ]
+    #place(left + horizon)[
+      #box(width: tail-col, clip: false)[
+        #place(left + top)[
+          #polygon(
+            fill: bs,
+            stroke: none,
+            (0pt, 0pt),
+            (tail-base-o, tail-half-o),
+            (tail-base-o, -tail-half-o),
+          )
+        ]
+        #place(left + top, dx: 0.75pt)[
+          #polygon(
+            fill: bf,
+            stroke: none,
+            (0pt, 0pt),
+            (tail-base-i, tail-half-i),
+            (tail-base-i, -tail-half-i),
+          )
         ]
       ]
     ]

@@ -581,6 +581,8 @@ article figcaption {
   @apply text-xs m-3 mt-1 text-center;
 }
 
+/* PDF parity: `src/lib/typst-book/learn-lojban/speaker-bubble.typ` + `typstSpeakerRowRewrittenBlock`
+   (Typst `horizon` on the speech grid cell; tail matches `::before` / `::after` `top: 50%` + `translateY(-50%)`). */
 article .speaker-row {
   @apply flex flex-row items-start gap-4 my-4;
 }
