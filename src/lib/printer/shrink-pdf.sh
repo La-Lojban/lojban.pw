@@ -76,16 +76,16 @@ usage ()
 {
 	echo "Reduces PDF filesize by lossy recompressing with Ghostscript."
 	echo "  Usage: $0 [resolution_in_dpi]"
-	echo "  Env: PDF_SHRINK_MAX_CONCURRENCY (default 4), PDF_SHRINK_DPI (default 120)"
+	echo "  Env: PDF_SHRINK_MAX_CONCURRENCY (default 4), PDF_SHRINK_DPI (default 300)"
 }
 
-# Output resolution: optional first argument, else PDF_SHRINK_DPI, else 120 dpi
+# Output resolution: optional first argument, else PDF_SHRINK_DPI, else 300 dpi
 if [ -n "${1:-}" ]; then
 	res="$1"
 elif [ -n "${PDF_SHRINK_DPI:-}" ]; then
 	res="$PDF_SHRINK_DPI"
 else
-	res="120"
+	res="300"
 fi
 
 MAXP="${PDF_SHRINK_MAX_CONCURRENCY:-4}"
