@@ -1,4 +1,4 @@
-// Keep in sync with ../../src/config/config.ts
+// Keep in sync with ../../config/config.ts
 export const site_title = "lojban.pw";
 export const site_description = "Lojban language courses, stories";
 export const site_url = "https://lojban.pw";
@@ -7,7 +7,7 @@ export const site_creator_twitter = "Gleki Arxokuna";
 export const CMS_NAME = "Learn Lojban website";
 const discordChatUrl = "https://discord.gg/wasp5fj";
 
-/** Brand icon id — see `footerBrandIcon` in src/components/footer-icons.ts */
+/** Brand icon id — see `footerBrandIcon` in components/footer-icons.ts */
 export type FooterBrandId =
   | "telegram"
   | "discord"

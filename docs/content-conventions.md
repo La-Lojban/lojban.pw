@@ -19,5 +19,5 @@ Do not use bold for ordinary English emphasis if italics carry the meaning more 
 ### Legacy URLs (old `!` chapter paths)
 
 - Old chapter URLs that used the `!` prefix (e.g. `/en/books/learn-lojban/!1`) should redirect to the new paths (e.g. `/en/books/learn-lojban/1/`).
-- **Static export / GitHub Pages:** Legacy `!*` URLs are handled by the **custom 404 page** (`src/pages/404.tsx`), which client-side redirects when the path matches `/:lang/books/:book/!:chapter`. (`next.config.js` does not define `redirects()` because they are ignored for `output: export` and only produced a build warning.)
+- **Static export / GitHub Pages:** Legacy `!*` URLs are handled by the **custom 404 page** (`pages/404.tsx`), which client-side redirects when the path matches `/:lang/books/:book/!:chapter`. (`next.config.js` does not define `redirects()` because they are ignored for `output: export` and only produced a build warning.)
 - Use the new URLs (without `!`) in new links.

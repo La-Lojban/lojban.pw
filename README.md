@@ -1,31 +1,55 @@
-https://lojban.pw website source code
-## Deployment
+# lojban.pw
 
-* edit contents of `data/` folder
-* commit&push changes
-* CI/CD will deploy changes and publish them in gh-pages branch
-* if you fork the repo enable deploying to gh-pages via CI/CD actions
+Static [Next.js](https://nextjs.org/) site (export to `out/`) for Lojban courses, texts, and articles. Content lives under `data/`; the app code, `pages/`, and `public/` sit at the **repository root** next to `data/`.
 
-## Local development
-* Korpora texts are **local TSV files** under [`data/assets/korpora-tsv/`](data/assets/korpora-tsv/) (optional same-named `.md` for title/author/preamble). The build does **not** call the Google Sheets API.
-* See [.env.example](.env.example) for optional Algolia variables.
+## Requirements
 
-### With Docker
-* `make build` - you can use it only once
-* `make dev` - run the docker container
-	* run `pnpm install` in the docker console
-	* `pnpm dev` - run the website in dev mode locally, access it at http://localhost:3298/
-	* `pnpm build && pnpm start` - compile to a static folder and run it locally at http://localhost:3298/
+- **Node.js** 24+ and **pnpm** 10.x (see `engines` and `packageManager` in [package.json](package.json))
+- **Python 3** for the `pnpm start` static server
+- **Docker** (optional) for the same environment as CI — see [Makefile](Makefile)
 
-### Without Docker
-All [src/package.json](src/package.json) scripts are meant to be run from the `src/` directory.
+## Layout
 
-* **Prerequisites:** Node.js 24 or newer (see `engines` in `src/package.json`), [pnpm](https://pnpm.io/) 10.x (matches `packageManager` there), and Python 3 (used by the `start` script to serve the static `out/` folder).
-* **Content paths:** Outside Docker, [src/lib/paths.js](src/lib/paths.js) reads site content from the repo’s `data/` tree (`data/pages`, `data/assets`, `data/DNS`, `data/.cache`, `tmp/`). Keep `src/config/` in line with `data/config/` the same way Docker bind-mounts `data/config` onto `src/config/`.
-* **Static assets:** There is no build step that copies `data/assets` into `src/public/`. The canonical tree is `data/assets/`; [src/public/assets](src/public/assets) is a **symlink** to `../../data/assets` (tracked in git) so Next.js serves `/assets/*` from the same files. **Docker:** bind-mount `src/` to `/app/src` **first**, then mount `data/assets` → `/app/src/public/assets` (and the other `data/*` overlays) so those mounts replace the symlink inside the container — see [Makefile](Makefile) `dev` and [.github/workflows/main.yml](.github/workflows/main.yml).
-* **Environment:** Docker loads the repo-root `.env` via `--env-file`. Next.js loads `.env` from the app directory, so copy or symlink the root `.env` to `src/.env` (for example from the repo root: `ln -sf ../.env src/.env`) so local runs see the same variables.
-* **Commands** (from `src/` after `cd src`):
-	* `pnpm install` — install dependencies
-	* `pnpm dev` — Next.js dev server (default URL http://localhost:3000/)
-	* `pnpm build && pnpm start` — full static build then `python3 -m http.server` on port 3000 (http://localhost:3000/)
-	* `pnpm build:test` — build variant used in CI (see script in `src/package.json`)
+| Path | Role |
+|------|------|
+| `data/pages/` | Markdown pages (bind-mounted to `md_pages/` in Docker) |
+| `data/assets/` | Images, audio, korpora TSVs (served as `/assets/*` via `public/assets` → `../data/assets`) |
+| `data/config/` | Site copy shared with editors; keep in sync with [config/config.ts](config/config.ts) |
+| `data/DNS/` | Static service files copied into `out/` on build |
+| `data/.cache/` | Build cache (e.g. PDF intermediates under `vreji/`) |
+| `lib/paths.js` | Resolves `data/*` paths locally and overlay paths under `/app` in Docker |
+
+## Environment
+
+Put secrets and overrides in a **repo-root** `.env`. Next.js loads `.env` from the project directory (the repo root), so no extra symlink is required.
+
+## Commands
+
+Install and run from the **repository root**:
+
+```bash
+pnpm install
+pnpm dev          # Next dev server
+pnpm build        # Full production build (korpora, Next export, sitemap, book PDFs, static copies)
+pnpm build:test   # Lighter build used in CI (no full korpora/print pipeline)
+pnpm start        # Serve `out/` on port 3000 (Python)
+pnpm typecheck
+pnpm korpora:cnino   # Optional: fetch spreadsheet TSVs into archive/ (see scripts/korpora.ts)
+```
+
+CI builds inside the Playwright Docker image (see [Dockerfile](Dockerfile)); the workflow bind-mounts the repo at `/app` and overlays `data/config`, `data/pages`, `data/assets`, and `node_modules` — see [.github/workflows/main.yml](.github/workflows/main.yml).
+
+## Docker dev shell
+
+```bash
+make build   # build image
+make dev     # run container with repo mounted at /app, bash on exec
+```
+
+## Legacy `src/` folder
+
+If you previously used Docker with the old layout, a leftover `src/` directory may contain root-owned `.pnpm-store` or `service/` files. It is not used anymore; remove it when convenient (e.g. `sudo rm -rf src`).
+
+## Docs
+
+Editor-facing notes: [docs/content-conventions.md](docs/content-conventions.md).

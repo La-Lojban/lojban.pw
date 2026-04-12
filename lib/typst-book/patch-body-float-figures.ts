@@ -8,7 +8,7 @@
  *   `SPEAKER_AVATAR_IMAGE_PATH_INFICES` in `expandFirstLojbanSpeakerTags.ts`) — same typst shell as
  *   `<pixra>` but must not join the margin stack; `rewriteSpeakerRowTypstBlock` wraps the avatar
  *   column in `#speaker_row_avatar_column` (`speaker-bubble.typ`) so `#figure` matches
- *   `src/styles/index.css` `.speaker-row__avatar` (not the margin-pixra `show figure` rule).
+ *   `styles/index.css` `.speaker-row__avatar` (not the margin-pixra `show figure` rule).
  * - Bare `<figure><img>` — Pandoc emits `#figure([#image("…");], …)` (semicolon / no inner
  *   `#block[`); that shape never passes `consumePixraImageFigureBlock`.
  *

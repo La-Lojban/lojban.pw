@@ -4,13 +4,13 @@
 node_modules
 /.pnp
 .pnp.js
+.pnpm-store/*
 src/.pnpm-store/*
 
 # Build output and cache files
 .next
-src/out/
 data/.cache
-src/tsconfig.tsbuildinfo
+tsconfig.tsbuildinfo
 tmp/
 archive/
 out/
@@ -37,9 +37,8 @@ data/pages/.specstory/*
 .DS_Store
 *.pem
 
-# Scripts and temporary folders
-scripts/
-!src/scripts/
-
 # Project-specific ignored files
 data/pages/texts
+
+# Old app root (Docker); remove locally — see README
+src/

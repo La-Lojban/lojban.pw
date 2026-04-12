@@ -168,7 +168,7 @@ export function firstLojbanSpeakerIconUrl(
   return `${webBase}${base}${SPEAKER_ICON_EXT}`;
 }
 
-/** Must match the number of `article .speaker-row--bubble-*` themes in `src/styles/index.css`. */
+/** Must match the number of `article .speaker-row--bubble-*` themes in `styles/index.css`. */
 const SPEAKER_BUBBLE_PALETTE_SIZE = 5;
 
 function normalizeSpriteId(sprite: string): string {
@@ -405,7 +405,7 @@ function findNextSpeakerTag(markdown: string, from: number): NextTag | null {
 }
 
 /**
- * Expands `<speaker>` / `<speakers>` tags into `speaker-row` markup (`src/styles/index.css`) for
+ * Expands `<speaker>` / `<speakers>` tags into `speaker-row` markup (`styles/index.css`) for
  * **any** book page (see `markdownToHtml`); sprite files live under the infix from
  * `speakerAvatarIconInfixForMarkdownPath(fullPath)` (default: first-lojban icons).
  * - `<speaker sprite="sor1">…</speaker>` (optional `name="…"`, self-closing ok)

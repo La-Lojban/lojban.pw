@@ -1,7 +1,7 @@
 # Noble = Ubuntu 24.04 (newer Chromium deps, glibc). Pandoc is pinned to match local dev/CI
 # typst-book output (`pandoc -f html -t typst`); Ubuntu’s package is often older and emits
 # different Typst (`#blockquote[` vs `#quote(block: true)[`, etc.).
-# Tag matches npm: `src/package.json` (`playwright-core`).
+# Tag matches npm: `package.json` (`playwright-core`).
 FROM mcr.microsoft.com/playwright:v1.59.1-noble
 
 # Set timezone to avoid questions in CLI
@@ -44,15 +44,13 @@ RUN curl -fsSL https://deb.nodesource.com/setup_24.x | bash - \
 # Cleanup to reduce image size
 RUN apt-get autoclean && rm -rf /var/lib/apt/lists/*
 
-# Install pnpm (matches packageManager in src/package.json)
+# Install pnpm (matches packageManager in package.json)
 RUN npm install -g pnpm@10.33.0
 
-# Workspace: bind-mount the repo’s `src/` here, then overlay `data/` paths (see Makefile and
-# `.github/workflows/main.yml`). No COPY of the app — `src/public/assets` is a symlink to
-# `../../data/assets` in git; in Docker, mounting `data/assets` onto `/app/src/public/assets`
-# replaces that link with real files. Mount order must be: `src` first, then `data/assets`,
-# `data/pages` → `/app/src/md_pages`, `data/config`, etc., so overlays win. Typst PDF builds
-# (`build-learn-lojban.ts`) resolve repo root as `/app` using `src/md_pages` + `src/public/assets`.
-ENV IN_DOCKER=true
-RUN mkdir -p /app/src
-WORKDIR /app/src
+# CI bind-mounts the repo at `/app`, then overlays `data/` onto `md_pages`, `public/assets`,
+# `config`, and `node_modules` (see Makefile and `.github/workflows/main.yml`). Mount order:
+# repo root first, then overlays so they replace paths inside the tree. `public/assets` is a
+# symlink to `../data/assets` in git; the assets volume mount supplies real files in Docker.
+# Typst PDF builds resolve repo root as `/app` using `md_pages` + `public/assets`.
+RUN mkdir -p /app
+WORKDIR /app

@@ -84,7 +84,7 @@ async function main() {
   const vrejiPath = getVrejiPath();
   const srcPath = getSrcPath();
   // Typst `--root` is project root (`/app` in Docker), so temp sources must stay under it.
-  const typstTmpRoot = path.resolve(srcPath, "..", "tmp", "typst-book");
+  const typstTmpRoot = path.join(srcPath, "tmp", "typst-book");
   const jobs: BookJob[] = [];
 
   for (const lang of allLanguages) {

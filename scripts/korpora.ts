@@ -2,9 +2,9 @@
  * Download Google Spreadsheet tabs whose titles start with "+", filter columns
  * (! prefix or empty skipped), localize headers from config/locales.json, write TSVs to archive/cnino_korpora.
  *
- * Requires in src/.env (or repo .env): GOOGLE_LOJBAN_CORPUS_DOC_ID, GOOGLE_READONLY_API_KEY
+ * Requires repo-root `.env`: GOOGLE_LOJBAN_CORPUS_DOC_ID, GOOGLE_READONLY_API_KEY
  *
- * Run from `src/`: `pnpm korpora:cnino` or `npx tsx scripts/korpora.ts`
+ * Run: `pnpm korpora:cnino` or `npx tsx scripts/korpora.ts`
  */
 import * as fs from "fs";
 import * as path from "path";
@@ -16,15 +16,13 @@ import {
 } from "google-spreadsheet";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const srcRoot = path.resolve(__dirname, "..");
-const projectRoot = path.resolve(srcRoot, "..");
+const repoRoot = path.resolve(__dirname, "..");
 
-dotenv.config({ path: path.join(srcRoot, ".env") });
-dotenv.config({ path: path.join(projectRoot, ".env") });
+dotenv.config({ path: path.join(repoRoot, ".env") });
 
 type LangInfo = { native?: string; short?: string };
 const locales = JSON.parse(
-  fs.readFileSync(path.join(srcRoot, "config", "locales.json"), "utf-8"),
+  fs.readFileSync(path.join(repoRoot, "config", "locales.json"), "utf-8"),
 ) as { languages: Record<string, LangInfo> };
 const { languages } = locales;
 const langOrder = Object.keys(languages);
@@ -130,7 +128,7 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  const outDir = path.join(projectRoot, ARCHIVE_REL);
+  const outDir = path.join(repoRoot, ARCHIVE_REL);
   fs.mkdirSync(outDir, { recursive: true });
 
   const doc = new GoogleSpreadsheet(docId, { apiKey });
@@ -153,7 +151,7 @@ async function main(): Promise<void> {
     }
     const filePath = path.join(outDir, `${baseSlug}.tsv`);
     fs.writeFileSync(filePath, tsv, "utf-8");
-    console.log(`Wrote ${path.relative(projectRoot, filePath)}`);
+    console.log(`Wrote ${path.relative(repoRoot, filePath)}`);
   }
 
   console.log(`Done. Output directory: ${outDir}`);

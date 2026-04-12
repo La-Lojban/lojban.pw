@@ -23,7 +23,7 @@ env:
   TAG_NAME: ${{ github.sha }}
   DOCKER_BUILDKIT: 1  # Enable BuildKit for faster builds
   # Playwright browser cache: Mermaid rasterization (typst-book) + optional Next tooling; keep
-  # Dockerfile `FROM mcr.microsoft.com/playwright:…` aligned with `src/package.json` playwright-core.
+  # Dockerfile `FROM mcr.microsoft.com/playwright:…` aligned with `package.json` playwright-core.
   # Book PDFs: Typst → `*-pre.pdf` per book × locale (`lib/typst-book/print-all-books.ts`), then
   # Ghostscript shrink via `lib/printer/shrink-pdf.sh` during `pnpm print` → final `*.pdf` in `/vreji/uencu`.
   # Shrink runs up to PDF_SHRINK_MAX_CONCURRENCY Ghostscript jobs in parallel (per *-pre.pdf file).
@@ -75,8 +75,8 @@ jobs:
       id: nextjs-cache
       continue-on-error: true
       with:
-        path: ${{ github.workspace }}/src/.next
-        key: ${{ runner.OS }}-nextjs-${{ hashFiles('pnpm-lock.yaml', 'package.json', 'src/pnpm-lock.yaml', 'src/package.json', 'src/next.config.js', 'src/**/*.js', 'src/**/*.ts', 'src/**/*.tsx', 'src/**/*.json') }}
+        path: ${{ github.workspace }}/.next
+        key: ${{ runner.OS }}-nextjs-${{ hashFiles('pnpm-lock.yaml', 'package.json', 'next.config.js', '**/*.js', '**/*.ts', '**/*.tsx', '**/*.json') }}
         restore-keys: |
           ${{ runner.OS }}-nextjs-
 
@@ -109,16 +109,15 @@ jobs:
         fi
         INDEX_NAME="${{ secrets.NEXT_PUBLIC_ALGOLIA_INDEX_NAME }}"
         if [ -z "$INDEX_NAME" ]; then INDEX_NAME="lojban-pw"; fi
-        # Mount src/ first; then overlay repo data/ onto md_pages, public/assets, config so
-        # those paths win (a later -v /app/src hides earlier subpath mounts). Typst uses /app as
-        # --root and finds pages via src/md_pages + assets via src/public/assets.
-        docker run --rm -v /output:/app/src/out1 \
+        # Mount repo at /app first; overlay data/ onto md_pages, public/assets, config so those
+        # paths win. Typst uses /app as --root and finds pages via md_pages + assets via public/assets.
+        docker run --rm -v /output:/app/out1 \
                    -v ${{ github.workspace }}/ms-playwright:/ms-playwright:Z \
-                   -v ${{ github.workspace }}/src:/app/src:Z \
-                   -v ${{ github.workspace }}/data/config:/app/src/config:Z \
-                   -v ${{ github.workspace }}/data/pages:/app/src/md_pages:Z \
-                   -v ${{ github.workspace }}/data/assets:/app/src/public/assets:Z \
-                   -v ${{ github.workspace }}/node_modules:/app/src/node_modules:Z \
+                   -v ${{ github.workspace }}:/app:Z \
+                   -v ${{ github.workspace }}/data/config:/app/config:Z \
+                   -v ${{ github.workspace }}/data/pages:/app/md_pages:Z \
+                   -v ${{ github.workspace }}/data/assets:/app/public/assets:Z \
+                   -v ${{ github.workspace }}/node_modules:/app/node_modules:Z \
                    -v ${{ github.workspace }}/data/DNS:/app/service/DNS:Z \
                    -e NEXT_PUBLIC_ALGOLIA_APP_ID=${{ secrets.NEXT_PUBLIC_ALGOLIA_APP_ID }} \
                    -e NEXT_PUBLIC_ALGOLIA_SEARCH_KEY=${{ secrets.NEXT_PUBLIC_ALGOLIA_SEARCH_KEY }} \
@@ -138,7 +137,8 @@ jobs:
       run: |
         sudo chown -R "$USER:$USER" /output
         sudo chown -R "$USER:$USER" "${{ github.workspace }}/ms-playwright" 2>/dev/null || true
-        sudo chown -R "$USER:$USER" "${{ github.workspace }}/src" 2>/dev/null || true
+        sudo chown -R "$USER:$USER" "${{ github.workspace }}/.next" 2>/dev/null || true
+        sudo chown -R "$USER:$USER" "${{ github.workspace }}/node_modules" 2>/dev/null || true
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3

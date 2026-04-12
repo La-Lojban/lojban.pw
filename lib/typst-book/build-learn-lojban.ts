@@ -26,17 +26,17 @@ import {
 } from "./prepare-html";
 
 /**
- * `src/lib/typst-book` → repository root (parent of `src/`).
- * In Docker, `data/pages` is mounted at `src/md_pages` (see Dockerfile / workflow); assets at
- * `src/public/assets`. Locally, pages live in `data/pages` and assets in `data/assets`.
+ * `lib/typst-book` → repository root (Next app and `data/` live at the same level).
+ * In Docker, `data/pages` is mounted at `md_pages` (see Dockerfile / workflow); assets at
+ * `public/assets`. Locally, pages live in `data/pages` and assets in `data/assets`.
  */
 function findProjectRoot(): string {
-  const dir = path.resolve(__dirname, "..", "..", "..");
+  const dir = path.resolve(__dirname, "..", "..");
   const hasDataPages = fs.existsSync(path.join(dir, "data", "pages"));
-  const hasSrcMdPages = fs.existsSync(path.join(dir, "src", "md_pages"));
-  if (!hasDataPages && !hasSrcMdPages) {
+  const hasMdPagesMount = fs.existsSync(path.join(dir, "md_pages"));
+  if (!hasDataPages && !hasMdPagesMount) {
     throw new Error(
-      `Cannot find project root (expected data/pages or src/md_pages): ${dir}`
+      `Cannot find project root (expected data/pages or md_pages): ${dir}`
     );
   }
   return dir;
@@ -45,10 +45,10 @@ function findProjectRoot(): string {
 function resolvePublicAssetsDir(projectRoot: string): string {
   const atData = path.join(projectRoot, "data", "assets");
   if (fs.existsSync(atData)) return atData;
-  const atSrcPublic = path.join(projectRoot, "src", "public", "assets");
-  if (fs.existsSync(atSrcPublic)) return atSrcPublic;
+  const atPublic = path.join(projectRoot, "public", "assets");
+  if (fs.existsSync(atPublic)) return atPublic;
   throw new Error(
-    `Assets directory missing (tried ${atData} and ${atSrcPublic})`
+    `Assets directory missing (tried ${atData} and ${atPublic})`
   );
 }
 
@@ -320,7 +320,7 @@ function rewriteResidualRawSpeakerRows(body: string): string {
 
 /**
  * Pandoc html→typst turns `<dl><dt>term</dt><dd>gloss</dd></dl>` into `term: #block[gloss]`, which
- * loses site styling from `src/styles/index.css` (`dt` bold, `dt::after` " ≈ ", `dd` italic,
+ * loses site styling from `styles/index.css` (`dt` bold, `dt::after` " ≈ ", `dd` italic,
  * `dd > em` curly quotes). Recreate that inline in Typst so the PDF matches the article.
  */
 function patchTypstDefinitionListGlosses(s: string): string {

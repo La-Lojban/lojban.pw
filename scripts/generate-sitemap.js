@@ -40,7 +40,7 @@ function escapeXml(s) {
 
 function main() {
   const mdRoot = paths.mdPages;
-  // Next.js `output: "export"` writes beside `next.config.js` → `src/out` (same as `paths.cwd`).
+  // Next.js `output: "export"` writes beside `next.config.js` → `out/` (same as `paths.cwd`).
   const outDir = path.join(paths.cwd, "out");
   const files = getMdFiles(mdRoot);
   const urls = files.map((f) => {

@@ -3,10 +3,10 @@ const { JSDOM } = jsdom;
 const { document } = new JSDOM(`<body></body>`).window;
 
 import { HTMLElement } from "node-html-parser";
-import { createElementFromSelector } from "../lib/html-prettifier/elements";
+import { createElementFromSelector } from "@lib/html-prettifier/elements";
 
-import { sluggify } from "../lib/html-prettifier/slugger";
-import { encodeLerfuSlugForUrl } from "../lib/lerfuAudioUrl";
+import { sluggify } from "@lib/html-prettifier/slugger";
+import { encodeLerfuSlugForUrl } from "@lib/lerfuAudioUrl";
 
 export const tocSelector = ["h1", "h2", "h3"];
 export const allSelector = ["h1", "h2", "h3", "h4", "h5", "h6"];

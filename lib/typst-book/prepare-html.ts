@@ -403,7 +403,7 @@ export async function extractMermaidSvgDivsToImages(
   return doc.innerHTML;
 }
 
-/** Resolve `/data/assets/…` under repo root or Docker `src/public/assets/…`. */
+/** Resolve `/data/assets/…` under repo root or Docker `public/assets/…`. */
 function absoluteFromProjectRoot(projectRoot: string, webPath: string): string {
   const rel = webPath.startsWith("/") ? webPath.slice(1) : webPath;
   const primary = path.join(projectRoot, rel);
