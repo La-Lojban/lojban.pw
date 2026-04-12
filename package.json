@@ -21,6 +21,7 @@
     "cleanup": "node scripts/run-with-paths.js sh -c 'rm -rf ${MD_PAGES_PATH}/text'",
     "algolia-index": "node scripts/algolia-index.js",
     "korpora:cnino": "tsx scripts/korpora.ts",
+    "validate:dialogues": "tsx scripts/validate-lojban-through-dialogues-spiral.ts",
     "clean": "rm -rf .next",
     "typecheck": "tsc"
   },
