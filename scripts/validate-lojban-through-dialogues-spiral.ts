@@ -1,7 +1,8 @@
 /**
  * Validates *Lojban Through Dialogues* lesson files for spiral pedagogy:
- * 1) Spaced-recall tables (+ following challenge line) use only lemmas already
- *    introduced by the max lesson cited in the section heading (cumulative 1..max).
+ * 1) Spaced-recall **| Lojban | English |** rows use only lemmas through the max
+ *    lesson cited in the section heading. **| Prompt | Lojban |** blocks under
+ *    **#### Challenge** may use vocabulary through the **current** lesson (synthesis).
  * 2) Each lemma from **New words** / **New word** has a non-empty gloss and
  *    appears again later in a spaced-recall block (or Lesson 30 capstone tables),
  *    once that block's heading permits it.
@@ -14,7 +15,8 @@
  *   `--no-explain-bodies` — skip dialogue / practice / anticipation checks below.
  *
  * Dialogue “explained” check (default on): tokens in the opening table, practice
- * table, and anticipation answers must be covered by cumulative **New words**
+ * table, and **Anticipation prompts** / **Final anticipation** (`| Prompt | Lojban |`
+ * tables, answers in column 2) must be covered by cumulative **New words**
  * through that lesson, **or** by a consecutive 2–4 gram / skip-1 bigram (same
  * `.i` or `,` in the middle) taken from a **New words** Lojban cell, **or** by a
  * token extracted from this lesson’s **Grammar note** (**bold** / `backticks`).
@@ -63,7 +65,8 @@ type LessonData = {
   spacedRecallBlocks: {
     headingLine: string;
     maxLesson: number | null;
-    lojbanSnippets: string[];
+    recallLojbanSnippets: string[];
+    challengeLojbanSnippets: string[];
   }[];
   capstoneLojbanSnippets: string[];
 };
@@ -103,6 +106,32 @@ function extractTableLojbanColumn(section: string): string[] {
   return out;
 }
 
+/** `| Prompt | Lojban |` tables: Lojban answers live in the second column. */
+function extractPromptLojbanSecondColumn(section: string): string[] {
+  const out: string[] = [];
+  let inPromptTable = false;
+  for (const line of section.split("\n")) {
+    if (!line.trim().startsWith("|") || line.includes("---")) continue;
+    const cells = line.split("|").map((c) => c.trim());
+    if (cells.length < 3) continue;
+    const c1 = cells[1].toLowerCase();
+    const c2 = cells[2].toLowerCase();
+    if (c1 === "lojban" && c2 === "english") {
+      inPromptTable = false;
+      continue;
+    }
+    if (c1 === "prompt" && c2 === "lojban") {
+      inPromptTable = true;
+      continue;
+    }
+    if (inPromptTable && c1 !== "prompt") {
+      const ans = (cells[2] ?? "").trim();
+      if (ans) out.push(ans);
+    }
+  }
+  return out;
+}
+
 function indexOfFirstNewWordsHeading(content: string): number {
   const a = content.indexOf("**New words**");
   const b = content.indexOf("**New word**");
@@ -133,11 +162,13 @@ function parseBodyLojbanSnippets(content: string): string[] {
     snippets.push(...extractTableLojbanColumn(content.slice(pr, end)));
   }
   if (an !== -1) {
+    let antEnd = content.length;
     const sr = content.indexOf("### Spaced recall");
-    const ant = content.slice(an, sr === -1 ? content.length : sr);
-    for (const m of ant.matchAll(/\*\(([^)]+)\)\s*$/gm)) {
-      snippets.push(m[1].trim());
-    }
+    const fsr = content.indexOf("### Full spiral review");
+    if (sr !== -1) antEnd = Math.min(antEnd, sr);
+    if (fsr !== -1) antEnd = Math.min(antEnd, fsr);
+    const ant = content.slice(an, antEnd);
+    snippets.push(...extractPromptLojbanSecondColumn(ant));
   }
   return snippets;
 }
@@ -238,12 +269,14 @@ function parseRecallMaxLesson(headingLine: string): number | null {
 function parseSpacedRecallBlocks(content: string): {
   headingLine: string;
   maxLesson: number | null;
-  lojbanSnippets: string[];
+  recallLojbanSnippets: string[];
+  challengeLojbanSnippets: string[];
 }[] {
   const blocks: {
     headingLine: string;
     maxLesson: number | null;
-    lojbanSnippets: string[];
+    recallLojbanSnippets: string[];
+    challengeLojbanSnippets: string[];
   }[] = [];
   const lines = content.split("\n");
   for (let li = 0; li < lines.length; li++) {
@@ -251,23 +284,42 @@ function parseSpacedRecallBlocks(content: string): {
     if (!line.startsWith("### Spaced recall")) continue;
     const headingLine = line;
     const maxLesson = parseRecallMaxLesson(headingLine);
-    const snippets: string[] = [];
+    const recallLojbanSnippets: string[] = [];
+    const challengeLojbanSnippets: string[] = [];
+    let tableMode: "lojban_first" | "prompt_second" | null = null;
+    let afterChallenge = false;
     let j = li + 1;
     for (; j < lines.length; j++) {
       const line = lines[j];
-      if (line.startsWith("### ") && !line.startsWith("### Spaced")) break;
-      if (line.trim().startsWith("|") && !line.includes("---")) {
-        const cells = line.split("|").map((c) => c.trim());
-        if (cells.length >= 3 && cells[1] && cells[1] !== "Lojban") {
-          snippets.push(cells[1]);
-        }
+      if (line.startsWith("### ") && !line.startsWith("### Spaced recall")) break;
+      if (line.startsWith("#### Challenge")) {
+        afterChallenge = true;
+        tableMode = null;
+        continue;
       }
-      if (line.includes("**Challenge:**")) {
-        const paren = line.match(/\*\(([^)]+)\)\s*$/);
-        if (paren) snippets.push(paren[1].trim());
+      if (!line.trim().startsWith("|") || line.includes("---")) continue;
+      const cells = line.split("|").map((c) => c.trim());
+      if (cells.length < 3) continue;
+      const c1 = cells[1].toLowerCase();
+      const c2 = cells[2].toLowerCase();
+      if (c1 === "lojban" && c2 === "english") {
+        tableMode = "lojban_first";
+        continue;
       }
+      if (c1 === "prompt" && c2 === "lojban") {
+        tableMode = "prompt_second";
+        continue;
+      }
+      const target = afterChallenge ? challengeLojbanSnippets : recallLojbanSnippets;
+      if (tableMode === "lojban_first" && cells[1]) target.push(cells[1]);
+      if (tableMode === "prompt_second" && cells[2]) target.push(cells[2]);
     }
-    blocks.push({ headingLine, maxLesson, lojbanSnippets: snippets });
+    blocks.push({
+      headingLine,
+      maxLesson,
+      recallLojbanSnippets,
+      challengeLojbanSnippets,
+    });
     li = j - 1;
   }
   return blocks;
@@ -490,21 +542,41 @@ function main(): void {
 
   for (const L of lessons) {
     for (const block of L.spacedRecallBlocks) {
-      if (block.maxLesson === null) continue;
       const maxK = block.maxLesson;
-      for (const snip of block.lojbanSnippets) {
+      if (maxK !== null) {
+        for (const snip of block.recallLojbanSnippets) {
+          for (const tok of tokenizeLojbanSnippet(snip)) {
+            if (isIgnorableToken(tok)) continue;
+            const intro = lookupIntro(introLesson, tok);
+            if (intro === undefined) {
+              addWarn(
+                `Lesson ${L.num} spaced recall (${block.headingLine.trim()}): token "${tok}" not found in any **New words** table (name fragment, typo, or multi-word row split?).`,
+              );
+              continue;
+            }
+            if (intro > maxK) {
+              errors.push(
+                `Lesson ${L.num} spaced recall (${block.headingLine.trim()}): forward reference — "${tok}" first introduced in Lesson ${intro}, but heading allows only through Lesson ${maxK}.`,
+              );
+            }
+          }
+        }
+      }
+      const capK = L.num;
+      for (const snip of block.challengeLojbanSnippets) {
         for (const tok of tokenizeLojbanSnippet(snip)) {
           if (isIgnorableToken(tok)) continue;
           const intro = lookupIntro(introLesson, tok);
           if (intro === undefined) {
             addWarn(
-              `Lesson ${L.num} spaced recall (${block.headingLine.trim()}): token "${tok}" not found in any **New words** table (name fragment, typo, or multi-word row split?).`,
+              `Lesson ${L.num} spaced recall challenge (${block.headingLine.trim()}): token "${tok}" not found in any **New words** table (name fragment, typo, or multi-word row split?).`,
             );
             continue;
           }
-          if (intro > maxK) {
+          // Lesson 1 challenge is allowed to preview a little beyond **New words** L1.
+          if (L.num > 1 && intro > capK) {
             errors.push(
-              `Lesson ${L.num} spaced recall (${block.headingLine.trim()}): forward reference — "${tok}" first introduced in Lesson ${intro}, but heading allows only through Lesson ${maxK}.`,
+              `Lesson ${L.num} spaced recall challenge (${block.headingLine.trim()}): forward reference — "${tok}" first introduced in Lesson ${intro}, but challenge should use only vocabulary through Lesson ${capK}.`,
             );
           }
         }
@@ -531,7 +603,8 @@ function main(): void {
         if (L.num <= introL) continue;
         const zones: { snippets: string[]; maxK: number | null }[] = [];
         for (const b of L.spacedRecallBlocks) {
-          zones.push({ snippets: b.lojbanSnippets, maxK: b.maxLesson });
+          zones.push({ snippets: b.recallLojbanSnippets, maxK: b.maxLesson });
+          zones.push({ snippets: b.challengeLojbanSnippets, maxK: L.num });
         }
         if (L.num === 30) {
           zones.push({ snippets: L.capstoneLojbanSnippets, maxK: 30 });
