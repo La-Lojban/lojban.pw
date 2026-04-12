@@ -101,6 +101,27 @@ type Props = {
 const sortByContentLength = (a: TPost, b: TPost) =>
   (b.contentLength ?? 0) - (a.contentLength ?? 0);
 
+/** First path segment (language code), e.g. `en/books/foo` → `en`. */
+const langOfDirectoryKey = (key: string) => {
+  const i = key.indexOf("/");
+  return i === -1 ? key : key.slice(0, i);
+};
+
+/** Book chapter groups use slug shape `…/<lang>/books/<book>/…`. */
+const isBookDirectoryKey = (key: string) => key.split("/")[1] === "books";
+
+/** Per language: `…/books/…` directories first, then others; alpha within each bucket. */
+const sortDirectoryKeys = (keys: string[]) =>
+  [...keys].sort((a, b) => {
+    const la = langOfDirectoryKey(a);
+    const lb = langOfDirectoryKey(b);
+    if (la !== lb) return la.localeCompare(lb);
+    const aBook = isBookDirectoryKey(a);
+    const bBook = isBookDirectoryKey(b);
+    if (aBook !== bBook) return aBook ? -1 : 1;
+    return a.localeCompare(b);
+  });
+
 function AllStories({ posts, lang }: Props) {
   const groupedPosts = useMemo(
     () =>
@@ -117,12 +138,12 @@ function AllStories({ posts, lang }: Props) {
   const orderedKeys = useMemo(() => {
     const keys = Object.keys(groupedPosts);
     if (keys.length === 1) return keys;
-    const current = keys
-      .filter((key) => key === lang || key.startsWith(`${lang}/`))
-      .sort();
-    const rest = keys
-      .filter((key) => key !== lang && !key.startsWith(`${lang}/`))
-      .sort();
+    const current = sortDirectoryKeys(
+      keys.filter((key) => key === lang || key.startsWith(`${lang}/`))
+    );
+    const rest = sortDirectoryKeys(
+      keys.filter((key) => key !== lang && !key.startsWith(`${lang}/`))
+    );
     return [...current, ...rest];
   }, [groupedPosts, lang]);
 

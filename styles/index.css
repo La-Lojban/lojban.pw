@@ -581,7 +581,7 @@ article .speaker-row {
 }
 
 article .speaker-row__avatar {
-  @apply flex-none w-20 max-w-[28%] md:w-28 md:max-w-none;
+  @apply flex-none w-28 max-w-[28%];
 }
 
 article .speaker-row--multiface .speaker-row__avatar {
@@ -607,7 +607,7 @@ article .speaker-row__avatar figure {
 }
 
 article .speaker-row__avatar .figure_img {
-  @apply h-20 md:h-24 w-full -m-px p-2 bg-contain bg-no-repeat bg-center;
+  @apply h-20 md:h-24 w-full -m-px p-1 bg-contain bg-no-repeat bg-center;
 }
 
 article .speaker-row__avatar .figure_img img {
@@ -615,7 +615,7 @@ article .speaker-row__avatar .figure_img img {
 }
 
 article .speaker-row__avatar figcaption {
-  @apply text-xs m-3 text-center;
+  @apply text-xs m-2 text-center;
 }
 
 article .speaker-row__avatar figcaption i:empty {
