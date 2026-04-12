@@ -24,28 +24,21 @@
   let i = calc.rem(int(idx), 5)
   let bf = speaker_bubble_fills.at(i)
   let bs = speaker_bubble_strokes.at(i)
-  // Tail outside the rounded rect — `index.css` `::before` / `::after` (11px 13px / 10px 12px; 1px offset).
+  // Tail mostly left of rounded rect; `tail-inset` overlaps bubble slightly — see `index.css` `::before` / `::after`.
   let tail-base-o = 9.75pt
   let tail-half-o = 8.25pt
   let tail-base-i = 9pt
   let tail-half-i = 7.5pt
-  let tail-col = tail-base-o + 0.5pt
+  // Nudge tail into bubble (matches “tail slightly inside” in print).
+  let tail-inset = 0.5pt
+  let tail-col = tail-base-o + 0.5pt - tail-inset
   // Tail: same as `index.css` `.speaker-row__speech::before` / `::after` — `top: 50%` + `translateY(-50%)`
   // (triangle vertically centered on the speech card). Row alignment: `typstSpeakerRowRewrittenBlock` uses
   // `horizon + left` on the speech grid cell to match `.speaker-row__speech { align-self: center }`.
+  // Tail first, bubble after — Typst paint order; tail must sit under rounded rect + stroke.
   block(width: 100%, breakable: true, clip: false)[
-    #pad(left: tail-col)[
-      #block(
-        width: 100%,
-        breakable: true,
-        fill: bf,
-        stroke: 1pt + bs,
-        radius: 8pt,
-        inset: (x: 12pt, y: 9pt),
-      )[#body]
-    ]
-    #place(left + horizon)[
-      #box(width: tail-col, clip: false)[
+    #place(left + horizon, dx: tail-inset)[
+      #box(width: tail-col + tail-inset, clip: false)[
         #place(left + top)[
           #polygon(
             fill: bs,
@@ -66,13 +59,23 @@
         ]
       ]
     ]
+    #pad(left: tail-col)[
+      #block(
+        width: 100%,
+        breakable: true,
+        fill: bf,
+        stroke: 1pt + bs,
+        radius: 8pt,
+        inset: (x: 12pt, y: 9pt),
+      )[#body]
+    ]
   ]
 }
 
 /// Avatar column only: overrides global `show figure` (margin pixra) with site speaker card layout.
 /// `multiface`: card width like `.speaker-row--multiface` (`w-16` ≈ 48pt) vs single (`w-20` ≈ 60pt); image height is intrinsic (auto), not fixed CSS `h-20`/`h-16`.
 #let speaker_row_avatar_column(multiface: false, body) = {
-  let card-w = if multiface { 48pt } else { 60pt }
+  let card-w = 60pt
   show figure.where(kind: image): it => {
     align(center)[
       #block(
@@ -80,22 +83,22 @@
         width: card-w,
         fill: white,
         stroke: 0.75pt + speaker_avatar_border,
-        radius: 2pt,
+        radius: 4pt,
         clip: true,
       )[
         #stack(spacing: 0pt)[
           #block(
             width: 100%,
-            inset: (left: 8pt, right: 8pt, top: 8pt, bottom: 0pt),
+            inset: (left: 2pt, right: 2pt, top: 4pt, bottom: 0pt),
           )[
             #align(center + bottom)[#it.body]
           ]
           #block(
             width: 100%,
-            inset: (left: 10pt, right: 10pt, top: -6pt, bottom: 8pt),
+            inset: (left: 4pt, right: 4pt, top: -9pt, bottom: 6pt),
           )[
             #set align(center)
-            #set par(leading: 0.5em, justify: false, spacing: 0.4em)
+            #set par(leading: 0em, justify: false, spacing: 0.4em)
             #set text(size: 9pt, fill: speaker_avatar_caption)
             #it.caption
           ]
