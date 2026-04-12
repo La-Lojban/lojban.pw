@@ -378,6 +378,19 @@ ${wrappers}</div>
 
 type NextTag = { kind: "speaker" | "speakers"; pos: number };
 
+/**
+ * True when `idx` lies inside an HTML block comment (`<!--` … `-->`). Maintainer docs often
+ * include literal `<speaker …>` examples; those must not be consumed by `expandBookSpeakerTags`
+ * (otherwise the first real `<speaker>` in chapter body is paired with the wrong `</speaker>`).
+ */
+function isIndexInsideHtmlBlockComment(s: string, idx: number): boolean {
+  const open = s.lastIndexOf("<!--", idx);
+  if (open === -1) return false;
+  const close = s.indexOf("-->", open + 4);
+  if (close === -1) return idx >= open;
+  return idx >= open && idx < close;
+}
+
 /** `<speaker` must not match the prefix of `<speakers`. */
 function indexOfSingleSpeakerOpen(markdown: string, from: number): number {
   const token = "<speaker";
@@ -389,6 +402,25 @@ function indexOfSingleSpeakerOpen(markdown: string, from: number): number {
       pos = i + token.length;
       continue;
     }
+    if (isIndexInsideHtmlBlockComment(markdown, i)) {
+      pos = i + token.length;
+      continue;
+    }
+    return i;
+  }
+  return -1;
+}
+
+function indexOfSpeakersOpen(markdown: string, from: number): number {
+  const token = "<speakers";
+  let pos = from;
+  while (pos < markdown.length) {
+    const i = markdown.indexOf(token, pos);
+    if (i === -1) return -1;
+    if (isIndexInsideHtmlBlockComment(markdown, i)) {
+      pos = i + token.length;
+      continue;
+    }
     return i;
   }
   return -1;
@@ -396,7 +428,7 @@ function indexOfSingleSpeakerOpen(markdown: string, from: number): number {
 
 function findNextSpeakerTag(markdown: string, from: number): NextTag | null {
   const iSpeaker = indexOfSingleSpeakerOpen(markdown, from);
-  const iSpeakers = markdown.indexOf("<speakers", from);
+  const iSpeakers = indexOfSpeakersOpen(markdown, from);
   if (iSpeaker === -1 && iSpeakers === -1) return null;
   if (iSpeakers === -1 || (iSpeaker !== -1 && iSpeaker < iSpeakers)) {
     return { kind: "speaker", pos: iSpeaker };
