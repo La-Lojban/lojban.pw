@@ -89,6 +89,7 @@
         #stack(spacing: 0pt)[
           #block(
             width: 100%,
+            stroke: none,
             inset: (left: 2pt, right: 2pt, top: 4pt, bottom: 0pt),
           )[
             #align(center + bottom)[#it.body]

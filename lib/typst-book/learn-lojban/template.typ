@@ -10,8 +10,6 @@
 #let tbl-cell = rgb(255, 255, 255)
 // 1px border at 96dpi → Typst pt
 #let tbl-rule = 0.85pt + tbl-border
-// Pixra: ~1px gray stroke (site uses CSS `shadow`; PDF has no drop shadows).
-#let pixra-border-1px = 0.75pt + tbl-border
 #let widget-rule = 1.05pt
 // Tighter than site px-3 py-4 for denser book PDFs
 #let tbl-inset-x = 6pt
@@ -240,7 +238,7 @@
         width: figure-col-width,
         clip: true,
         fill: white,
-        stroke: pixra-border-1px,
+        stroke: none,
         radius: (bottom-right: 4pt, bottom-left: 4pt, top-right: 4pt, top-left: 4pt),
         inset: (x: 8pt, y: 8pt),
         spacing: 0.4em,

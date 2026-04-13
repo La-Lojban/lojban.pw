@@ -589,7 +589,7 @@ article .speaker-row--multiface .speaker-row__avatar {
 }
 
 article .speaker-row--multiface .speaker-row__avatar .wrapper {
-  @apply w-16 flex-shrink-0 md:w-[4.5rem];
+  @apply w-20 flex-shrink-0 md:w-[4.5rem];
 }
 
 article .speaker-row--multiface .speaker-row__avatar figure {
