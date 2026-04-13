@@ -21,10 +21,14 @@ import {
   typstSnippetContainsSpeakerAvatarImagePath,
 } from "../expandFirstLojbanSpeakerTags";
 
-/** `#figure(` … matching `)` at depth 0, respecting double-quoted strings. */
-function endOfTypstCallWithParens(s: string, openParenIdx: number): number {
+/**
+ * `#figure(` / `table(` … matching `)` at paren-depth 0, respecting double-quoted strings.
+ * Ignores `(` / `)` inside `[...]` so captions like `caption: [(see §1)]` do not end the call early.
+ */
+export function endOfTypstCallWithParens(s: string, openParenIdx: number): number {
   if (s[openParenIdx] !== "(") return -1;
   let depth = 0;
+  let bracketDepth = 0;
   let i = openParenIdx;
   let inStr = false;
   while (i < s.length) {
@@ -40,6 +44,20 @@ function endOfTypstCallWithParens(s: string, openParenIdx: number): number {
     }
     if (c === '"' && (i === 0 || s[i - 1] !== "\\")) {
       inStr = true;
+      i++;
+      continue;
+    }
+    if (c === "[") {
+      bracketDepth++;
+      i++;
+      continue;
+    }
+    if (c === "]") {
+      if (bracketDepth > 0) bracketDepth--;
+      i++;
+      continue;
+    }
+    if (bracketDepth > 0) {
       i++;
       continue;
     }

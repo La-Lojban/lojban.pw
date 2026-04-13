@@ -6,6 +6,14 @@
 #let speaker_avatar_border = rgb(229, 231, 235)
 #let speaker_avatar_caption = rgb(17, 24, 39)
 
+// `template.typ` `tbl-rule` — vertical grid only; outer top/bottom from `show table` wrapper `block` stroke.
+#let dialogue_table_stroke(_, _) = (
+  left: 0.85pt + rgb(175, 185, 200),
+  right: 0.85pt + rgb(175, 185, 200),
+  top: none,
+  bottom: none,
+)
+
 #let speaker_bubble_fills = (
   rgb("#fbe9e7"),
   rgb("#e3f2fd"),

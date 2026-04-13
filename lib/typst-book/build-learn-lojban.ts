@@ -12,6 +12,7 @@ import {
 } from "../expandFirstLojbanSpeakerTags";
 import {
   endOfBracketContent,
+  endOfTypstCallWithParens,
   patchBodyTypFloatFigures,
   typstSpeakerRowRewrittenBlock,
 } from "./patch-body-float-figures";
@@ -224,7 +225,35 @@ ${inner}
     searchFrom = i0 + gridOpen.length;
   }
   s = rewriteResidualRawSpeakerRows(s);
+  s = patchDialogueTablesNoInnerHorizontalStroke(s);
   fs.writeFileSync(bodyTypPath, s, "utf8");
+}
+
+/** Dialogue `table(` (cells contain `#speaker_row_avatar_column` / nested `#grid`): no per-cell top/bottom strokes between rows; verticals + outer `show table` block frame. */
+function patchDialogueTablesNoInnerHorizontalStroke(s: string): string {
+  const marker = "stroke: dialogue_table_stroke";
+  const speakerNeedle = "speaker_row_avatar_column";
+  let search = 0;
+  for (let guard = 0; guard < 6000; guard += 1) {
+    const t = s.indexOf("table(", search);
+    if (t < 0) break;
+    const openParen = t + "table(".length - 1;
+    const closeEnd = endOfTypstCallWithParens(s, openParen);
+    if (closeEnd < 0) {
+      search = t + 1;
+      continue;
+    }
+    const inner = s.slice(openParen + 1, closeEnd - 1);
+    if (!inner.includes(speakerNeedle) || inner.includes(marker)) {
+      search = closeEnd;
+      continue;
+    }
+    const insertAt = t + "table(".length;
+    const insertion = `\n  ${marker},`;
+    s = s.slice(0, insertAt) + insertion + s.slice(insertAt);
+    search = insertAt + insertion.length;
+  }
+  return s;
 }
 
 function blockInnerOrNull(block: string): string | null {
@@ -390,7 +419,8 @@ function patchBodyTypFile(bodyTypPath: string): void {
   // visible left/right gutter around dialogue tables in PDF. Unwrap to plain `#table(...)`.
   s = s.replace(/align\(center\)\s*\[#table\(/g, "table(");
   // Close bracket from `align(center)[ ... ]` becomes redundant after unwrapping.
-  s = s.replace(/\n\)\s*\]\s*\n\)/g, "\n)\n)");
+  // Pandoc often indents the `)` that closes `table(`, so allow `\n\s*\)` not only `\n)`.
+  s = s.replace(/\n\s*\)\s*\]\s*\n\s*\)/g, "\n)\n)");
   // Pandoc html→typst: `<img width="663">` becomes `#box(width: 663, …)`; Typst needs a unit.
   s = s.replace(/#box\(width: (\d+),/g, "#box(width: $1pt,");
   // Article book print: two-column tables 50%/50% (`index.css` .book-print-content … :has(…2…last))
@@ -702,7 +732,7 @@ export async function buildBookTypst(
     bodyTyp = bodyTyp.replace(/^#import "speaker-bubble.typ":[^\n]*\n+/m, "");
     fs.writeFileSync(
       bodyTypPath,
-      `#import "speaker-bubble.typ": speaker_speech_bubble, speaker_row_avatar_column\n\n` +
+      `#import "speaker-bubble.typ": speaker_speech_bubble, speaker_row_avatar_column, dialogue_table_stroke\n\n` +
         bodyTyp,
       "utf8"
     );
