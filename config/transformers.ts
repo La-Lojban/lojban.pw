@@ -6,6 +6,7 @@ import { HTMLElement } from "node-html-parser";
 import { createElementFromSelector } from "@lib/html-prettifier/elements";
 
 import { sluggify } from "@lib/html-prettifier/slugger";
+import { sanitizeUrl } from "@lib/html-prettifier/sanitizer";
 import { encodeLerfuSlugForUrl } from "@lib/lerfuAudioUrl";
 
 export const tocSelector = ["h1", "h2", "h3"];
@@ -50,6 +51,25 @@ export const transformers: {selector: string; fn?: any; wrapper?:string; idCount
 			const definition = element.attributes.definition ?? "";
 			wrapperElement.innerHTML = `<figure><div class="figure_img" data-url="${element.attributes.url}"><img src="${element.attributes.url}" alt="${caption}"></div><figcaption><b>${caption}</b><br/><i>${definition}</i></figcaption></figure>`;
 			element.insertAdjacentHTML("afterend", wrapperElement.outerHTML);
+			element.remove();
+		},
+	},
+	/** Lojban Through Dialogues: tiny borderless portrait in table column 1 (not a figure card). */
+	{
+		selector: "dialogue-sprite",
+		fn: (element: HTMLElement) => {
+			const url = sanitizeUrl(element.attributes.url);
+			const span = document.createElement("span");
+			span.className = "dialogue-sprite";
+			const img = document.createElement("img");
+			img.setAttribute("src", url);
+			img.setAttribute("alt", "");
+			img.setAttribute("width", "36");
+			img.setAttribute("height", "36");
+			img.setAttribute("loading", "lazy");
+			img.setAttribute("decoding", "async");
+			span.appendChild(img);
+			element.insertAdjacentHTML("afterend", span.outerHTML);
 			element.remove();
 		},
 	},

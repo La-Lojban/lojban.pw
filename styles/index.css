@@ -553,6 +553,36 @@ article blockquote p {
 }
 
 /* -------------------------------------------------------------------------- */
+/* Article — dialogue table avatars (Lojban Through Dialogues `<dialogue-sprite>`) */
+/* -------------------------------------------------------------------------- */
+
+article .dialogue-sprite {
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  line-height: 0;
+}
+
+article .dialogue-sprite img {
+  display: block;
+  width: 2.25rem;
+  height: 2.25rem;
+  max-width: none;
+  object-fit: cover;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* -------------------------------------------------------------------------- */
 /* Article — figures & Hajiloji speaker rows                                    */
 /* -------------------------------------------------------------------------- */
 

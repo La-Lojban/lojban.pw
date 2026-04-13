@@ -376,14 +376,27 @@ function patchBodyTypFile(bodyTypPath: string): void {
   // Pandoc html→typst emits per-table inset + align; those override `#set table(...)` in the template
   // so article table styling (site CSS parity) never applies unless we strip them.
   s = s.replace(/\n\s*inset:\s*6pt,\s*/g, "\n");
+  // Strip Pandoc table-local cell alignment callbacks (2-col, 3-col, ... `auto` tuples).
+  // Keep template-level table alignment as single source of truth.
+  s = s.replace(
+    /\n\s*align:\s*\(col,\s*row\)\s*=>\s*\((?:\s*auto\s*,)+\s*\)\.at\(col\),\s*/g,
+    "\n"
+  );
   s = s.replace(
     /\n\s*align:\s*\(col,\s*row\)\s*=>\s*\(auto,auto,\)\.at\(col\),\s*/g,
     "\n"
   );
+  // Pandoc wraps tables as `#figure(align(center)[#table(...)])`; center wrapper creates the
+  // visible left/right gutter around dialogue tables in PDF. Unwrap to plain `#table(...)`.
+  s = s.replace(/align\(center\)\s*\[#table\(/g, "table(");
+  // Close bracket from `align(center)[ ... ]` becomes redundant after unwrapping.
+  s = s.replace(/\n\)\s*\]\s*\n\)/g, "\n)\n)");
   // Pandoc html→typst: `<img width="663">` becomes `#box(width: 663, …)`; Typst needs a unit.
   s = s.replace(/#box\(width: (\d+),/g, "#box(width: $1pt,");
   // Article book print: two-column tables 50%/50% (`index.css` .book-print-content … :has(…2…last))
   s = s.replace(/columns:\s*2(\s*,)/g, "columns: (1fr, 1fr)$1");
+  // Dialogue tables (sprite + Lojban + English): keep avatar narrow, stretch text columns.
+  s = s.replace(/columns:\s*3(\s*,)/g, "columns: (auto, 1fr, 1fr)$1");
   // Mermaid `<img width>` values are CSS px from `extractMermaidSvgDivsToImages`; Pandoc
   // labels them `Npt` but N is still px → huge layout width. Convert px→pt (72/96) and cap
   // to body inner width (same 210mm − 2×11mm as `learn-lojban/template.typ` / prepare-html).

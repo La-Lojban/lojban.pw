@@ -1,3 +1,4 @@
+/** @deprecated Duplicate — `lib/markdownToHtml.ts` imports `config/transformers.ts` (repo root). Edit that file for site + PDF. */
 import jsdom from "jsdom";
 const { JSDOM } = jsdom;
 const { document } = new JSDOM(`<body></body>`).window;
@@ -73,6 +74,25 @@ export const transformers: {
         wrapperElement.innerHTML = `<a href="${element.attributes.redirect}">${wrapperElement.innerHTML}</a>`;
       }
       element.insertAdjacentHTML("afterend", wrapperElement.outerHTML);
+      element.remove();
+    },
+  },
+  /** Lojban Through Dialogues: tiny borderless portrait in table column 1 (not a figure card). */
+  {
+    selector: "dialogue-sprite",
+    fn: (element: HTMLElement) => {
+      const url = sanitizeUrl(element.attributes.url);
+      const span = document.createElement("span");
+      span.className = "dialogue-sprite";
+      const img = document.createElement("img");
+      img.setAttribute("src", url);
+      img.setAttribute("alt", "");
+      img.setAttribute("width", "36");
+      img.setAttribute("height", "36");
+      img.setAttribute("loading", "lazy");
+      img.setAttribute("decoding", "async");
+      span.appendChild(img);
+      element.insertAdjacentHTML("afterend", span.outerHTML);
       element.remove();
     },
   },

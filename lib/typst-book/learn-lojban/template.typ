@@ -8,6 +8,8 @@
 // Article tables — `index.css`: rounded-sm, border-gray-200, px-3 py-4; book PDF uses uniform cells (no thead row).
 #let tbl-border = rgb(175, 185, 200)
 #let tbl-cell = rgb(255, 255, 255)
+// Pixra: ~1px gray stroke (site uses CSS `shadow`; PDF has no drop shadows).
+#let pixra-border-1px = 0.75pt + tbl-border
 // 1px border at 96dpi → Typst pt
 #let tbl-rule = 0.85pt + tbl-border
 #let widget-rule = 1.05pt
@@ -167,6 +169,7 @@
 
   set heading(numbering: none)
 
+  // Dialogue tables (Lojban Through Dialogues): `<dialogue-sprite>` in HTML becomes `#box(width: 36pt, image("…/icons/….webp"))` in table cells via Pandoc — not the margin-pixra `#figure` band (`patch-body-float-figures.ts`).
   // Article table: full grid stroke; every cell same fill + alignment (no `<th>` / first-row chrome).
   set table(
     stroke: (x, y) => (
@@ -202,7 +205,7 @@
       let cap = quote-max-width * size.width
       let q = block(
         width: 100%,
-        breakable: true,
+        breakable: false,
         fill: white,
         stroke: (
           left: quote-left-accent + bb.quote-border,
@@ -238,7 +241,7 @@
         width: figure-col-width,
         clip: true,
         fill: white,
-        stroke: none,
+        stroke: pixra-border-1px,
         radius: (bottom-right: 4pt, bottom-left: 4pt, top-right: 4pt, top-left: 4pt),
         inset: (x: 8pt, y: 8pt),
         spacing: 0.4em,
@@ -250,20 +253,10 @@
       ]
     ]
   }
-  show figure.where(kind: table): it => {
-    block(breakable: false, width: 100%)[
-      #block(
-        width: 100%,
-        clip: true,
-        radius: tbl-radius,
-        fill: white,
-        stroke: widget-rule + tbl-border,
-      )[
-        #it.body
-        #it.caption
-      ]
-    ]
-  }
+  // Tables already styled by `show table` below.
+  // Keep figure(table) default so we avoid double wrappers (`figure` + `table`) and
+  // centered inner gaps around dialogue tables.
+  show figure.where(kind: table): it => it
 
   // Headings: larger type, white ground, top/bottom rules only (no left/right stroke)
   show heading.where(level: 1): it => {

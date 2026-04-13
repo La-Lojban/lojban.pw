@@ -14,7 +14,8 @@ palette: sienna
   Copy this block into prompts or project rules when extending this book.
 
   PEDAGOGY (Pimsleur-style, written medium)
-  - Dialogue-first: each lesson opens with a situational table (Lojban | English).
+  - Dialogue-first: each lesson opens with a situational table: column 1 is a **dialogue-sprite** portrait
+    (`<dialogue-sprite url="/assets/pixra/books/lojban-through-dialogues/icons/<stem>.webp" />` — small borderless image, not a figure card), then **Lojban | English**.
   - Passive then active: learner reads, then speaks (anticipation prompts).
   - New vocabulary: target roughly 3–5 **New words** per lesson; every Lojban
     form in dialogues, practice, prompts, spaced recall, and challenges must
@@ -48,6 +49,7 @@ palette: sienna
     In English copy, name **Lifri** and **Linto** directly; do not use **he** / **him** / **his** for Linto or Lifri.
   - Speaker tags use sprites under data/assets/pixra/books/lojban-through-dialogues/;
     keep naming consistent with expandFirstLojbanSpeakerTags (if applicable).
+  - Dialogue tables: column 1 uses `<dialogue-sprite url="…/icons/<stem>.webp" />` (rendered as a small borderless **img**, not `<pixra>` / figure chrome), aligned with the scene’s `<speaker sprite>` / `<speakers multiface sprites>` tag; stems **lifN** / **blaN** / **linN** per the manifest below. Site: `config/transformers.ts` + `styles/index.css`; PDF: Pandoc **html→typst** emits `#box(width: …, image(…))` in table cells (`lib/typst-book/build-learn-lojban.ts` width patch).
 
   SPRITES (illustration manifest — mirror gismu-tiktok/lojban-through-dialogues-images.js)
   - Canonical generator + prompts: `gismu-tiktok/lojban-through-dialogues-images.js` (ITEMS array +
@@ -92,7 +94,7 @@ palette: sienna
     use as design intent, not as a licence to overload vocabulary per lesson.
 
   STANDARD LESSON SKELETON (lessons 1–29; adapt for capstone)
-  1) Speaker intro  2) Opening dialogue table  3) **New words**
+  1) Speaker intro  2) Opening dialogue table (dialogue-sprite | Lojban | English)  3) **New words**
   4) **Grammar note** (when needed) — in Markdown use a blockquote with the
      title alone on the first line, then the body on following `>` lines, e.g.
      `> **Grammar note:**` then `> …explanation…`.  5) **Practice dialogue**

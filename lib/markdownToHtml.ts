@@ -141,6 +141,17 @@ export default async function markdownToHtml({
   // Gallery URLs: explicit <pixra> plus every portrait in .speaker-row. Dialogue sprites often
   // appear only via expanded <speaker>/<speakers> (not duplicated as <pixra>), so we scrape the
   // final HTML instead of re-parsing markdown attributes.
+  const fromDialogueSprites: Partial<GalleryImg>[] = Array.from(
+    root.querySelectorAll("dialogue-sprite")
+  ).map((element: HTMLElement) => {
+    const url = element.getAttribute("url");
+    return {
+      url,
+      redirect: null,
+      caption: "",
+      definition: "",
+    };
+  });
   const fromPixra: Partial<GalleryImg>[] = Array.from(
     root.querySelectorAll("pixra")
   ).map((element: HTMLElement) => {
@@ -172,7 +183,7 @@ export default async function markdownToHtml({
   });
   const seen = new Set<string>();
   let imgs: Partial<GalleryImg>[] = [];
-  for (const item of [...fromPixra, ...fromSpeakerPortraits]) {
+  for (const item of [...fromDialogueSprites, ...fromPixra, ...fromSpeakerPortraits]) {
     const u = item.url ?? "";
     if (!u || seen.has(u)) continue;
     seen.add(u);

@@ -38,9 +38,10 @@ const LESSON_DIR = path.join(
  * Lesson numbers = first lesson where the pattern is canonical in this book.
  */
 const GRAMMAR_STRUCTURAL_LEMMA: Record<string, number> = {
-  nu: 22,
-  /** First heavy use + grammar in Lesson 28 (**ba le nu … kei**). */
-  kei: 28,
+  /** lo nu introduced in Lesson 18 (I Need to Work). */
+  nu: 18,
+  /** kei first appears in Lesson 20 dialogue (lo nu tavla do kei cu pluka). */
+  kei: 20,
 };
 
 const NAME_EXCEPTIONS = new Set(
@@ -93,15 +94,26 @@ function normalizeLemmaKey(s: string): string {
   return s.replace(/\*\*/g, "").trim();
 }
 
-/** Lojban cells from markdown tables in a slice (| col1 | col2 |). */
+/** Lojban cells from markdown tables in a slice (| col1 | col2 |).
+ *  Handles both the old 2-column format (| Lojban | English |)
+ *  and 3-column formats: (| Speaker | Lojban | English |) or
+ *  (| | Lojban | English |) with **dialogue-sprite** (or legacy name column) in column 1.
+ */
 function extractTableLojbanColumn(section: string): string[] {
   const out: string[] = [];
+  let lojbanColIdx = 1; // default: first data column
   for (const line of section.split("\n")) {
     if (!line.trim().startsWith("|") || line.includes("---")) continue;
     const cells = line.split("|").map((c) => c.trim());
-    if (cells.length >= 3 && cells[1] && cells[1] !== "Lojban") {
-      out.push(cells[1]);
-    }
+    if (cells.length < 3) continue;
+    const c1 = cells[1].toLowerCase();
+    const c2 = cells.length >= 4 ? cells[2].toLowerCase() : "";
+    // Header row detection
+    if (c1 === "lojban") { lojbanColIdx = 1; continue; }
+    if (c1 === "speaker" && c2 === "lojban") { lojbanColIdx = 2; continue; }
+    if (cells[1] === "" && c2 === "lojban") { lojbanColIdx = 2; continue; }
+    const lojban = (cells[lojbanColIdx] ?? "").trim();
+    if (lojban && lojban !== "Lojban") out.push(lojban);
   }
   return out;
 }
@@ -330,31 +342,34 @@ function parseCapstoneSnippets(content: string): string[] {
   const snippets: string[] = [];
   const lines = content.split("\n");
   let zone: "opening" | "cumulative" | "spiral" | "none" = "opening";
+  // Track whether the current table has a Speaker column (3-col dialogue format)
+  let hasSpeakerCol = false;
   for (let i = 0; i < lines.length; i++) {
     const L = lines[i];
     if (L.startsWith("### Cumulative vocabulary reference")) {
-      zone = "cumulative";
-      continue;
+      zone = "cumulative"; hasSpeakerCol = false; continue;
     }
     if (L.startsWith("### Final anticipation")) {
-      zone = "none";
-      continue;
+      zone = "none"; continue;
     }
     if (L.startsWith("### Full spiral review")) {
-      zone = "spiral";
-      continue;
+      zone = "spiral"; hasSpeakerCol = false; continue;
     }
-    if (L.startsWith("## ") && i > 0) zone = "opening";
-    if (
-      (zone === "opening" || zone === "cumulative" || zone === "spiral") &&
-      L.trim().startsWith("|") &&
-      !L.includes("---")
-    ) {
-      const cells = L.split("|").map((c) => c.trim());
-      if (cells.length >= 3 && cells[1] && cells[1] !== "Lojban") {
-        snippets.push(cells[1]);
-      }
-    }
+    if (L.startsWith("## ") && i > 0) { zone = "opening"; hasSpeakerCol = false; }
+    if (zone === "none") continue;
+    if (!L.trim().startsWith("|")) continue;
+    if (L.includes("---")) { /* separator row — reset nothing */ continue; }
+    const cells = L.split("|").map((c) => c.trim());
+    const c1 = cells[1]?.toLowerCase() ?? "";
+    const c2 = cells[2]?.toLowerCase() ?? "";
+    // Header row detection — sets table type for subsequent data rows
+    if (c1 === "speaker" && c2 === "lojban") { hasSpeakerCol = true; continue; }
+    if (cells[1] === "" && c2 === "lojban") { hasSpeakerCol = true; continue; }
+    if (c1 === "lojban") { hasSpeakerCol = false; continue; }
+    if (c1 === "prompt") { hasSpeakerCol = false; continue; }
+    const lojbanIdx = hasSpeakerCol ? 2 : 1;
+    const snip = (cells[lojbanIdx] ?? "").trim();
+    if (snip) snippets.push(snip);
   }
   return snippets;
 }
