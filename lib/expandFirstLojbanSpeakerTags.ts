@@ -322,6 +322,50 @@ function speechInnerForHtml(inner: string): string {
  */
 const AFTER_SPEAKER_ROW_HTML = "\n\n";
 
+/** Minimal escapes so Lojban text is safe inside a one-line table cell `<div>`. */
+function escapeHtmlBodyText(s: string): string {
+  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+}
+
+/**
+ * True when the `<speaker` … `</speaker>` (or self-closing `/>`) sits entirely on one GFM pipe
+ * table row (`| … |`). Then we emit compact single-line HTML so the table parser still sees one
+ * physical line (see `expandBookSpeakerTags`).
+ */
+function isSpeakerInSingleLinePipeTableRow(
+  md: string,
+  openSpeakerIdx: number,
+  afterCloseSpeakerIdx: number
+): boolean {
+  const lineStart = md.lastIndexOf("\n", openSpeakerIdx - 1) + 1;
+  const lineEnd = md.indexOf("\n", lineStart);
+  const lineEndExclusive = lineEnd === -1 ? md.length : lineEnd;
+  if (afterCloseSpeakerIdx > lineEndExclusive) return false;
+  const line = md.slice(lineStart, lineEndExclusive);
+  if (line.includes("\n")) return false;
+  const t = line.trimStart();
+  if (!t.startsWith("|")) return false;
+  if (!line.trimEnd().endsWith("|")) return false;
+  return true;
+}
+
+/** One-line speaker row for pipe-table cells (no trailing `\\n\\n` — that would break GFM tables). */
+function buildSpeakerRowTableCell(
+  sprite: string,
+  explicitName: string | undefined,
+  inner: string,
+  fullPath: string
+): string {
+  const url = firstLojbanSpeakerIconUrl(sprite, fullPath);
+  const label = speakerDisplayNameFromSprite(sprite, explicitName, fullPath);
+  const safe = escapeHtmlAttr(label);
+  const body = escapeHtmlBodyText(inner.trim());
+  const rowMod = speakerRowBubbleModifierFromThemeKey(
+    bubbleThemeKeyFromSprites([sprite])
+  );
+  return `<div class="speaker-row speaker-row--table-cell ${rowMod}"><div class="speaker-row__avatar"><figure><div class="figure_img" data-url="${url}"><img src="${url}" alt="${safe}"></div><figcaption class="speaker-row__table-cell-caption"><b>${safe}</b><br/><i></i></figcaption></figure></div><div class="speaker-row__speech">${body}</div></div>`;
+}
+
 function buildSpeakerRow(
   sprite: string,
   explicitName: string | undefined,
@@ -443,6 +487,10 @@ function findNextSpeakerTag(markdown: string, from: number): NextTag | null {
  * - `<speaker sprite="sor1">…</speaker>` (optional `name="…"`, self-closing ok)
  * - `<speakers multiface sprites="sor5,sev1,koc5">…</speakers>` (optional `names="…"`)
  * Bubble tint is `speaker-row--bubble-*` from a hash of each sprite id with non-letters stripped (see `SPEAKER_BUBBLE_PALETTE_SIZE`).
+ *
+ * **GFM pipe tables:** when a `<speaker>…</speaker>` (or self-closing `/>`) sits entirely on one
+ * `| … |` line, expansion uses a single-line `speaker-row--table-cell` fragment (no trailing `\\n\\n`)
+ * so the table still parses.
  */
 export function expandBookSpeakerTags(
   markdown: string,
@@ -510,8 +558,16 @@ export function expandBookSpeakerTags(
       continue;
     }
     if (selfClosing) {
-      out += buildSpeakerRow(sprite, name, "\n\n", fullPath);
-      i = gt + 1;
+      const closeEnd = gt + 1;
+      const inPipeTableRow = isSpeakerInSingleLinePipeTableRow(
+        markdown,
+        start,
+        closeEnd
+      );
+      out += inPipeTableRow
+        ? buildSpeakerRowTableCell(sprite, name, "", fullPath)
+        : buildSpeakerRow(sprite, name, "\n\n", fullPath);
+      i = closeEnd;
       continue;
     }
     const afterGt = gt + 1;
@@ -522,8 +578,16 @@ export function expandBookSpeakerTags(
       break;
     }
     const inner = rest.slice(0, m.index);
-    out += buildSpeakerRow(sprite, name, inner, fullPath);
-    i = afterGt + m.index + m[0].length;
+    const closeEnd = afterGt + m.index + m[0].length;
+    const inPipeTableRow = isSpeakerInSingleLinePipeTableRow(
+      markdown,
+      start,
+      closeEnd
+    );
+    out += inPipeTableRow
+      ? buildSpeakerRowTableCell(sprite, name, inner, fullPath)
+      : buildSpeakerRow(sprite, name, inner, fullPath);
+    i = closeEnd;
   }
 
   return out;

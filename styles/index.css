@@ -735,6 +735,27 @@ article .speaker-row + .speaker-row {
   @apply mt-2;
 }
 
+/* `<speaker>` inside GFM pipe-table dialogue cells (`expandFirstLojbanSpeakerTags` table-cell mode) */
+article .speaker-row--table-cell {
+  @apply my-0 gap-2 items-center;
+}
+
+article .speaker-row--table-cell .speaker-row__avatar {
+  @apply w-14 max-w-[4.5rem] shrink-0;
+}
+
+article .speaker-row--table-cell .speaker-row__avatar .figure_img {
+  @apply h-12 md:h-14;
+}
+
+article .speaker-row--table-cell .speaker-row__speech {
+  @apply py-1.5 px-2.5 self-center text-sm leading-snug;
+}
+
+article .speaker-row--table-cell .speaker-row__table-cell-caption {
+  @apply hidden;
+}
+
 /* Hajiloji ○× self-check (appended to each chapter in First Lojban) */
 article .tf-quiz {
   @apply my-6 rounded-lg border border-gray-300 bg-white p-4 shadow-sm print:border-gray-400;

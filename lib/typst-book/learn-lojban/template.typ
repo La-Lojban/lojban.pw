@@ -169,8 +169,9 @@
 
   set heading(numbering: none)
 
-  // Dialogue tables (Lojban Through Dialogues): `<dialogue-sprite>` in HTML becomes `#box(width: 36pt, image("…/icons/….webp"))` in table cells via Pandoc — not the margin-pixra `#figure` band (`patch-body-float-figures.ts`).
+  // Dialogue tables (Lojban Through Dialogues): `<speaker>` in the Lojban column expands to `speaker-row` HTML, then Pandoc — not the margin-pixra `#figure` band (`patch-body-float-figures.ts`).
   // Article table: full grid stroke; every cell same fill + alignment (no `<th>` / first-row chrome).
+  // Vertical center so short cells (e.g. avatars, one-line Lojban) align mid-row vs taller English.
   set table(
     stroke: (x, y) => (
       left: tbl-rule,
@@ -180,7 +181,7 @@
     ),
     inset: (x: tbl-inset-x, y: tbl-inset-y),
     fill: tbl-cell,
-    align: left + top,
+    align: left + horizon,
   )
 
   set list(

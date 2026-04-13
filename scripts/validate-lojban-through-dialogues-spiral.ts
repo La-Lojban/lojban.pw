@@ -94,10 +94,18 @@ function normalizeLemmaKey(s: string): string {
   return s.replace(/\*\*/g, "").trim();
 }
 
+function lojbanTextFromDialogueCell(cell: string): string {
+  const t = cell.trim();
+  const m = /<speaker\b[^>]*>([\s\S]*?)<\/speaker>/i.exec(t);
+  if (m) return m[1]!.trim();
+  return t;
+}
+
 /** Lojban cells from markdown tables in a slice (| col1 | col2 |).
  *  Handles both the old 2-column format (| Lojban | English |)
  *  and 3-column formats: (| Speaker | Lojban | English |) or
  *  (| | Lojban | English |) with **dialogue-sprite** (or legacy name column) in column 1.
+ *  Dialogue tables may use (| <speaker sprite="…">…</speaker> | English |).
  */
 function extractTableLojbanColumn(section: string): string[] {
   const out: string[] = [];
@@ -112,7 +120,8 @@ function extractTableLojbanColumn(section: string): string[] {
     if (c1 === "lojban") { lojbanColIdx = 1; continue; }
     if (c1 === "speaker" && c2 === "lojban") { lojbanColIdx = 2; continue; }
     if (cells[1] === "" && c2 === "lojban") { lojbanColIdx = 2; continue; }
-    const lojban = (cells[lojbanColIdx] ?? "").trim();
+    let lojban = (cells[lojbanColIdx] ?? "").trim();
+    lojban = lojbanTextFromDialogueCell(lojban);
     if (lojban && lojban !== "Lojban") out.push(lojban);
   }
   return out;
@@ -342,7 +351,7 @@ function parseCapstoneSnippets(content: string): string[] {
   const snippets: string[] = [];
   const lines = content.split("\n");
   let zone: "opening" | "cumulative" | "spiral" | "none" = "opening";
-  // Track whether the current table has a Speaker column (3-col dialogue format)
+  // True when dialogue table used an empty first column + Lojban in column 2 (legacy 3-col).
   let hasSpeakerCol = false;
   for (let i = 0; i < lines.length; i++) {
     const L = lines[i];
@@ -368,7 +377,8 @@ function parseCapstoneSnippets(content: string): string[] {
     if (c1 === "lojban") { hasSpeakerCol = false; continue; }
     if (c1 === "prompt") { hasSpeakerCol = false; continue; }
     const lojbanIdx = hasSpeakerCol ? 2 : 1;
-    const snip = (cells[lojbanIdx] ?? "").trim();
+    let snip = (cells[lojbanIdx] ?? "").trim();
+    snip = lojbanTextFromDialogueCell(snip);
     if (snip) snippets.push(snip);
   }
   return snippets;
