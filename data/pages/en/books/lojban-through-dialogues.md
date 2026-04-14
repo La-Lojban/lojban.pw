@@ -51,37 +51,69 @@ palette: sienna
     keep naming consistent with expandFirstLojbanSpeakerTags (if applicable).
   - Dialogue tables: column 1 uses `<dialogue-sprite url="…/icons/<stem>.webp" />` (rendered as a small borderless **img**, not `<pixra>` / figure chrome), aligned with the scene’s `<speaker sprite>` / `<speakers multiface sprites>` tag; stems **lifN** / **blaN** / **linN** per the manifest below. Site: `config/transformers.ts` + `styles/index.css`; PDF: Pandoc **html→typst** emits `#box(width: …, image(…))` in table cells (`lib/typst-book/build-learn-lojban.ts` width patch).
 
-  SPRITES (illustration manifest — mirror gismu-tiktok/lojban-through-dialogues-images.js)
-  - Canonical generator + prompts: `gismu-tiktok/lojban-through-dialogues-images.js` (ITEMS array +
-    prefix strings), usually as a sibling checkout next to `lojban.pw` (same parent folder as this
-    repo). Regenerate or add expressions there first, then export WebP into
-    `data/assets/pixra/books/lojban-through-dialogues/` (see site paths below).
+  SPRITES (what each asset shows — stems align with `lojban-through-dialogues-images.js` ITEMS)
   - On disk / URLs: `cover.webp` at book pixra root; expression sprites `icons/lif1.webp` …
     `icons/lif8.webp`, `icons/bla1.webp` … `icons/bla8.webp`, `icons/lin1.webp` … `icons/lin8.webp`.
     Markdown `<speaker sprite="lif2">` maps to stem `lif2` → that basename under `icons/`.
-  - Pipeline roots (not always shipped on lojban.pw): **lif0**, **bla0**, **lin0** — square reference
-    portraits built from first-lojban WebP sources; Lifri’s root enforces a **modest dress** canon for
-    all later **lif*** frames. **Cover** composes the three roots at a table on **solid flat white**.
-  - Shared sprite rules (generation): anime, flat colour (no gradients), Miyazaki / Studio Ghibli–like
-    warmth, clean line art, bust or half-body, solid flat white background, 512×512, **no text** in
-    the image (no lettering, speech bubbles, signs, watermarks).
+  - Pipeline-only roots (optional on site): **lif0**, **bla0**, **lin0** — square reference portraits
+    from first-lojban sources; Lifri’s root sets a modest-dress canon for all **lif*** frames.
 
-  Sprite meanings (expression index N = 1…8; same mood labels in the JS file):
-  - **Lifri** `lifN` — guide, young woman, modest dress locked to lif0 reference:
-    lif1 calm friendly baseline (“we are learning together”); lif2 explaining / teaching, light gesture;
-    lif3 puzzled or mild concern; lif4 dry / deadpan comic timing; lif5 warm enthusiasm / encouragement;
-    lif6 playful delight after a joke; lif7 sheepish / apologetic; lif8 gentle correction, kind but firm.
-  - **Mentu** `blaN` — learner, young man:
-    bla1 calm friendly baseline; bla2 curious / leaning in; bla3 confused or lost; bla4 mild annoyance /
-    pushback (playful, not hostile); bla5 thinking, hand on chin; bla6 wry confidence / “got it”;
-    bla7 pleased “aha” / satisfied; bla8 weary or overwhelmed.
-  - **Linto** `linN` — learner, young woman, blonde:
-    lin1 curious / open, beginner enthusiasm; lin2 confused or lost; lin3 energized / hyped; lin4
-    prickly or annoyed (mild eyeroll energy); lin5 thinking, finger on chin; lin6 smug or wry quiet
-    pride; lin7 pleased “aha” / got it; lin8 weary or overwhelmed (homework groan).
-  - **cover** — book cover: Lifri, Mentu, Linto (same faces/outfits as roots) as friends around a
-    minimal plain table, clearly discussing; whole frame solid flat white; no extra people; learning /
-    Lojban vibe; no readable text.
+  **lif0** — Root reference portrait: Lifri facing the viewer, bust or half-body, calm approachable
+    “guide” presence. Clothing: modest dress suitable for the course mascot (not the source sketch outfit).
+
+  **lif1** — Lifri (guide), young woman: calm friendly baseline—soft smile, relaxed; default “we are learning together” face.
+
+  **lif2** — Lifri (guide): explaining / teaching—open hand or light pointing gesture, engaged didactic focus, not over-excited.
+
+  **lif3** — Lifri (guide): puzzled or mild concern—slight frown, raised or knit brows; “something is odd or tricky” (not cartoon shock).
+
+  **lif4** — Lifri (guide): dry / deadpan / understated comic timing—flat or minimal mouth, knowing or tired eyes; teasing one-liner energy.
+
+  **lif5** — Lifri (guide): warm enthusiasm or encouragement—bright eyes, open positive energy; praise, welcome, or exciting news.
+
+  **lif6** — Lifri (guide): playful delight—amused smile, comedic payoff after a jokey line.
+
+  **lif7** — Lifri (guide): sheepish or apologetic—awkward friendly smile, hand behind head or rub neck; “oops I rambled” warmth.
+
+  **lif8** — Lifri (guide): gentle correction—firm but kind eyes, slight forward lean; “not quite” teaching moment, no anger.
+
+  **bla0** — Root reference portrait: Mentu only, facing the viewer, bust or half-body, calm approachable peer presence; plain flat white backdrop.
+
+  **bla1** — Mentu (learner), young man: calm friendly baseline—relaxed smile; approachable peer energy.
+
+  **bla2** — Mentu: curious / asking—leaning in, interested eyes; follow-up questions, “what about…?”
+
+  **bla3** — Mentu: confused or lost—furrowed brow, uncertain mouth; “wait, what?”
+
+  **bla4** — Mentu: mild annoyance or pushback—narrow eyes, tight mouth; playful complaint, not hostile.
+
+  **bla5** — Mentu: thinking—hand on chin or distant thoughtful gaze; working through a pattern.
+
+  **bla6** — Mentu: wry confidence—half-smile; understated “got it” without showing off.
+
+  **bla7** — Mentu: pleased “aha” / satisfied—eyes brighten, warm smile; clean insight landed.
+
+  **bla8** — Mentu: weary or overwhelmed—droopy lids, small exhale; “that is a lot to digest.”
+
+  **lin0** — Root reference portrait: Linto only, facing the viewer, bust or half-body, calm approachable peer presence; plain flat white backdrop.
+
+  **lin1** — Linto (learner), young woman, blonde: curious / open—bright interested eyes; beginner-friendly enthusiasm.
+
+  **lin2** — Linto: confused or lost—furrowed brow, uncertain mouth; fuzzy concept, “wait, what?”
+
+  **lin3** — Linto: energized / hyped—animated smile; playful excitement or “I am on fire!”
+
+  **lin4** — Linto: prickly or annoyed—narrow eyes, eyeroll energy; mild complaint about a weird example.
+
+  **lin5** — Linto: thinking / chewing on it—finger on chin; ambiguity, deep pattern, hmm.
+
+  **lin6** — Linto: smug or wry—half-smile, relaxed pride; “naturally,” pattern mastered quietly.
+
+  **lin7** — Linto: pleased “aha” / got it—warm satisfied smile; summary punchline, “simple!” after understanding.
+
+  **lin8** — Linto: weary or overwhelmed—droopy eyelids, small groan; homework groan, exhausted cute.
+
+  **cover** — Course cover for “Lojban Through Dialogues”: Lifri, Mentu, and Linto (same faces, hair, clothing, and age as their reference portraits) as friends around a simple table, clearly discussing something—warm engaged poses, eye contact, small gestures. Entire frame solid flat white behind them (no room interior, sky, or gradient); only the three characters and a minimal plain table. Learning / Lojban discussion vibe; no extra characters; no readable text, signs, lettering, or logos.
 
   SOURCES (verify new lines against these before merge)
   - data/assets/korpora-tsv/muplis-database.tsv — natural dialogue snippets.

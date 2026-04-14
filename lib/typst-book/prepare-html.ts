@@ -148,6 +148,66 @@ export function normalizeFontColorTags(html: string): string {
   return doc.innerHTML;
 }
 
+/**
+ * Replace `.audio-inline` / `.guibutton` wrappers (web audio UI) with plain HTML that Pandoc→Typst
+ * renders as bold; any `color:` from inline styles is preserved via `typst-colors.lua` on `<span style="…">`.
+ */
+export function flattenGuibuttonForBookPdf(html: string): string {
+  const dom = new JSDOM(`<!DOCTYPE html><html><body>${html}</body></html>`);
+  const doc = dom.window.document.body;
+
+  const colorFromStyle = (style: string): string | null => {
+    const m = style.match(/color:\s*([^;]+)/i);
+    return m ? m[1]!.trim() : null;
+  };
+
+  /** First `color:` on this node or nested colored spans / `<font color>`. */
+  const inheritedTextColor = (el: Element): string | null => {
+    const own = colorFromStyle(el.getAttribute("style") ?? "");
+    if (own) return own;
+    for (const node of el.querySelectorAll("span[style]")) {
+      const c = colorFromStyle(node.getAttribute("style") ?? "");
+      if (c) return c;
+    }
+    const font = el.querySelector("font[color]");
+    if (font) {
+      const raw = font.getAttribute("color")?.trim() ?? "";
+      if (raw) return raw.startsWith("#") ? raw : `#${raw}`;
+    }
+    return null;
+  };
+
+  const replaceWithStrongOrColoredSpan = (el: Element) => {
+    const text = el.textContent?.trim() ?? "";
+    if (!text) return;
+    const color = inheritedTextColor(el);
+    if (color) {
+      const span = dom.window.document.createElement("span");
+      span.setAttribute("style", `color:${color};font-weight:700`);
+      span.textContent = text;
+      el.replaceWith(span);
+    } else {
+      const strong = dom.window.document.createElement("strong");
+      strong.textContent = text;
+      el.replaceWith(strong);
+    }
+  };
+
+  for (const el of [
+    ...doc.querySelectorAll("span.audio-inline"),
+    ...doc.querySelectorAll("b.audio-inline"),
+  ]) {
+    replaceWithStrongOrColoredSpan(el);
+  }
+
+  for (const el of [...doc.querySelectorAll("b.guibutton, strong.guibutton")]) {
+    if (el.closest("span.audio-inline") || el.classList.contains("audio-inline")) continue;
+    replaceWithStrongOrColoredSpan(el);
+  }
+
+  return doc.innerHTML;
+}
+
 export function stripPrintHidden(html: string): string {
   const root = htmlParser.parse(html);
   let el: import("node-html-parser").HTMLElement | null;

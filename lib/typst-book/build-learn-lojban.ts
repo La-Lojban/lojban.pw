@@ -20,6 +20,7 @@ import {
   blockquoteEmSpanBlockLines,
   extractDataUriImagesToFiles,
   extractMermaidSvgDivsToImages,
+  flattenGuibuttonForBookPdf,
   normalizeFontColorTags,
   replaceMissingImageSrcs,
   rewriteAssetUrlsForTypstProjectRoot,
@@ -94,6 +95,7 @@ export async function prepareBookHtmlBeforeMermaid(options: {
 
   let html = stripPrintHidden(htmlFragment);
   html = normalizeFontColorTags(html);
+  html = flattenGuibuttonForBookPdf(html);
   html = blockquoteEmSpanBlockLines(html);
   return html;
 }
@@ -631,9 +633,10 @@ export async function buildBookTypst(
 
     html = stripPrintHidden(htmlFragment);
     html = normalizeFontColorTags(html);
+    html = flattenGuibuttonForBookPdf(html);
     html = blockquoteEmSpanBlockLines(html);
     logPhase(
-      "stripPrintHidden + normalizeFontColorTags + blockquoteEmSpanBlockLines"
+      "stripPrintHidden + normalizeFontColorTags + flattenGuibuttonForBookPdf + blockquoteEmSpanBlockLines"
     );
 
     html = await extractMermaidSvgDivsToImages(html, workDir, projectRoot, true);

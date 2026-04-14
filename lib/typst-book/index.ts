@@ -7,6 +7,7 @@ export {
   blockquoteEmSpanBlockLines,
   extractDataUriImagesToFiles,
   extractMermaidSvgDivsToImages,
+  flattenGuibuttonForBookPdf,
   normalizeFontColorTags,
   replaceMissingImageSrcs,
   rewriteAssetUrlsForTypstProjectRoot,

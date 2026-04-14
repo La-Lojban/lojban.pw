@@ -171,7 +171,8 @@
 
   // Dialogue tables (Lojban Through Dialogues): `<speaker>` in the Lojban column expands to `speaker-row` HTML, then Pandoc — not the margin-pixra `#figure` band (`patch-body-float-figures.ts`).
   // Article table: full grid stroke; every cell same fill + alignment (no `<th>` / first-row chrome).
-  // Vertical center so short cells (e.g. avatars, one-line Lojban) align mid-row vs taller English.
+  // Top-align cells: matches `index.css` `tbody td` (`align-top`) and block `<speaker>` rows (flex `items-start`),
+  // so PDF dialogue tables match first-lojban / site — not `horizon`, which vertically centered short Lojban vs tall English.
   set table(
     stroke: (x, y) => (
       left: tbl-rule,
@@ -181,7 +182,7 @@
     ),
     inset: (x: tbl-inset-x, y: tbl-inset-y),
     fill: tbl-cell,
-    align: left + horizon,
+    align: left + top,
   )
 
   set list(
