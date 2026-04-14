@@ -337,7 +337,7 @@
   let (w0, w1, w2) = if cover {
     (88%, 90%, 92%)
   } else {
-    (89%, 90%, 92%)
+    (91%, 92%, 94%)
   }
   let t0 = 0.09pt
   let t1 = 0.1pt
@@ -374,16 +374,16 @@
     #place(top + left, bezier-curve-open(gray(w2, t0), (2mm, 48mm), (72mm, 128mm), (158mm, 58mm), (208mm, 108mm)))
     #place(top + left, bezier-curve-open(s-g(w0, t1), (28mm, 258mm), (92mm, 198mm), (162mm, 278mm), (202mm, 228mm)))
     #if not cover [
-      #place(top + left, bezier-curve-open(gray(92%, t0), (-6mm, 68mm), (58mm, 118mm), (138mm, 52mm), (214mm, 98mm)))
-      #place(top + left, bezier-curve-open(s-fine(92%, t0), (32mm, 188mm), (92mm, 248mm), (158mm, 168mm), (208mm, 228mm)))
-      #place(top + left, bezier-curve-open(s-g(91%, t0), (-14mm, 158mm), (48mm, 98mm), (128mm, 178mm), (218mm, 128mm)))
-      #place(top + left, bezier-curve-open(gray(91%, t0), (18mm, 22mm), (88mm, 82mm), (168mm, 38mm), (212mm, 72mm)))
+      #place(top + left, bezier-curve-open(gray(94%, t0), (-6mm, 68mm), (58mm, 118mm), (138mm, 52mm), (214mm, 98mm)))
+      #place(top + left, bezier-curve-open(s-fine(94%, t0), (32mm, 188mm), (92mm, 248mm), (158mm, 168mm), (208mm, 228mm)))
+      #place(top + left, bezier-curve-open(s-g(93%, t0), (-14mm, 158mm), (48mm, 98mm), (128mm, 178mm), (218mm, 128mm)))
+      #place(top + left, bezier-curve-open(gray(93%, t0), (18mm, 22mm), (88mm, 82mm), (168mm, 38mm), (212mm, 72mm)))
       #place(
         top + left,
         rotate(
           -5deg,
           origin: center + horizon,
-          bezier-curve-open(s-fine(92%, t0), (-20mm, 118mm), (42mm, 178mm), (148mm, 88mm), (226mm, 158mm)),
+          bezier-curve-open(s-fine(94%, t0), (-20mm, 118mm), (42mm, 178mm), (148mm, 88mm), (226mm, 158mm)),
         ),
       )
     ]
