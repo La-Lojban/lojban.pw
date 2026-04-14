@@ -66,9 +66,9 @@ async function sizeMermaidSvgToViewBoxPx(
  * Pandoc drops `<font color>`; convert to `<span style="color:…">` so the AST keeps color (see typst-colors.lua).
  */
 /**
- * Direct-child <em> and <span> inside blockquote <p> are forced onto separate lines for Typst PDF.
- * Pandoc’s HTML reader ignores CSS `display:block` on inline tags; a wrapping <div> becomes `#block[…]`
- * inside `#quote` (same UX as treating gloss / colored spans as block-level in print).
+ * Direct-child `<span style="color:…">` inside blockquote `<p>` only: wrapped in `<div>` so Pandoc→Typst
+ * keeps colored gloss as `#block` inside `#quote` (`typst-colors.lua`). `<em>` / plain `<span>` stay inline
+ * like `<strong>` — splitting every `<em>` used to force one line per italic in the PDF.
  */
 export function blockquoteEmSpanBlockLines(html: string): string {
   const dom = new JSDOM(`<!DOCTYPE html><html><body>${html}</body></html>`);
@@ -84,15 +84,19 @@ export function blockquoteEmSpanBlockLines(html: string): string {
   return doc.innerHTML;
 }
 
+/** Only color-styled spans (gloss); not `<em>` / unstyled `<span>`. */
+function isBlockquoteColorSpanSplitTarget(n: Node): n is Element {
+  if (n.nodeType !== 1 || (n as Element).nodeName !== "SPAN") return false;
+  const style = (n as Element).getAttribute("style") ?? "";
+  return /(?:^|;)\s*color\s*:/i.test(style);
+}
+
 function splitBlockquoteParagraphForTypst(p: HTMLParagraphElement) {
   const parent = p.parentElement;
   if (!parent) return;
 
-  const isSplitTarget = (n: Node): n is Element =>
-    n.nodeType === 1 && (n.nodeName === "EM" || n.nodeName === "SPAN");
-
   const children = Array.from(p.childNodes);
-  if (!children.some(isSplitTarget)) return;
+  if (!children.some(isBlockquoteColorSpanSplitTarget)) return;
 
   const doc = p.ownerDocument!;
   const insertPoint = p.nextSibling;
@@ -120,7 +124,7 @@ function splitBlockquoteParagraphForTypst(p: HTMLParagraphElement) {
   };
 
   for (const node of children) {
-    if (isSplitTarget(node)) {
+    if (isBlockquoteColorSpanSplitTarget(node)) {
       flushParagraph();
       const div = doc.createElement("div");
       div.className = "book-print-bq-block";
