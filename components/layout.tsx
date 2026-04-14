@@ -14,7 +14,7 @@ import {
 } from "react";
 import { useRouter } from "next/router";
 import Footer from "./footer";
-import Header from "./header";
+import TopBar from "./header";
 import Meta from "./meta";
 import NavigationWidget from "./navigation";
 import PostTitle from "./post-title";
@@ -105,7 +105,7 @@ function LayoutChrome({
           Skip to main content
         </a>
         <header className={tw.header}>
-          <Header
+          <TopBar
             toc={toc}
             tocList={tocList}
             path={headerPath}

@@ -15,7 +15,7 @@
 #let widget-rule = 1.05pt
 // Tighter than site px-3 py-4 for denser book PDFs
 #let tbl-inset-x = 6pt
-#let tbl-inset-y = 8pt
+#let tbl-inset-y = 6pt
 // rounded-sm (~2px) + slight bump for print
 #let tbl-radius = 3pt
 

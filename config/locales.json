@@ -85,6 +85,12 @@
             "native": "български",
             "short": "bg",
             "currentPageContents": "Съдържание на страницата:"
+        },
+        "dzena stuna slovo": {
+            "native": "рѹсьскыи",
+            "short": "orv",
+            "siteLocale": false,
+            "currentPageContents": "Съдьржаниѥ страницѧ:"
         }
     }
 }

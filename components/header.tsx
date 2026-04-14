@@ -324,7 +324,7 @@ function BurgerButton({
 // -----------------------------------------------------------------------------
 // SCRIPT
 // -----------------------------------------------------------------------------
-export default function Header({
+export default function TopBar({
   toc = [],
   tocList,
   path = "",
@@ -443,7 +443,7 @@ export default function Header({
   const defaultLangKey =
     post?.slug[0] ?? router.asPath.split("/")[1] ?? "en";
 
-  /** Omit book-only URL locales (not listed in `config/locales.json`) from alternates. */
+  /** Omit book-only URL locales (`siteLocale: false` in `config/locales.json`) from alternates. */
   const languageSelectPosts = useMemo(() => {
     if (!posts.length) return posts;
     return posts.filter(
