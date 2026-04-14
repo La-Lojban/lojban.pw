@@ -4,6 +4,7 @@
  *   MARKUP — presentational pieces
  *   SCRIPT — data + composition
  */
+import Image from "next/image";
 import { useMemo, type ReactNode } from "react";
 import PostHeader from "../components/post-header";
 import { buildDOMFromJSONBasic } from "../lib/json2react";
@@ -23,6 +24,11 @@ function articleShellClass(hasToc: boolean) {
 // -----------------------------------------------------------------------------
 // MARKUP
 // -----------------------------------------------------------------------------
+/** Maps `cover.webp` → `cover-hero.webp` (see `pnpm generate:cover-heroes`). */
+function coverHeroScreenSrc(original: string) {
+  return original.replace(/\.(webp|png|jpe?g)$/i, "-hero.webp");
+}
+
 function ContentWrapperClasses({ isBookPath }: { isBookPath: boolean }) {
   return (
     <div
@@ -72,11 +78,18 @@ function BookPdfCover({ post }: { post: PostProps<unknown>["post"] }) {
       <div className="book-print-cover__backdrop" />
       <div className="book-print-cover__inner">
         {post.coverImage ? (
-          <img
-            src={post.coverImage}
-            alt={`${titleLine} cover`}
-            className="book-print-cover__image"
-          />
+          <picture>
+            <source media="print" srcSet={post.coverImage} />
+            <Image
+              src={coverHeroScreenSrc(post.coverImage)}
+              alt={`${titleLine} cover`}
+              width={900}
+              height={1200}
+              sizes="(max-width: 56rem) 90vw, 20rem"
+              priority
+              className="book-print-cover__image"
+            />
+          </picture>
         ) : null}
         <h1 className="book-print-cover__title">{titleLine}</h1>
         <p className="book-print-cover__description">{description}</p>

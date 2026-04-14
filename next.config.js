@@ -42,6 +42,7 @@ module.exports = {
         : false,
   },
   output: "export",
+  images: { unoptimized: true },
   // No `redirects()` here: Next.js ignores them for static export and warns. Legacy book
   // chapter URLs (`/:lang/books/:book/!:chapter`) are handled in pages/404.tsx instead.
   // Root `/` → default locale is pages/index.tsx (meta refresh).

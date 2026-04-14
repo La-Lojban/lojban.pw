@@ -1164,9 +1164,11 @@ tr td .inner-table td {
     width: 100%;
     max-width: 20rem;
     max-height: 16rem;
+    height: auto;
     margin: 0 auto 1.25rem;
     object-fit: cover;
     object-position: center;
+    image-rendering: auto;
     border-radius: 8px;
     box-shadow:
       0 16px 40px rgba(0, 0, 0, 0.45),
@@ -1328,9 +1330,11 @@ tr td .inner-table td {
     width: 100%;
     max-width: 120mm;
     max-height: 140mm;
+    height: auto;
     margin: 0 auto 12mm;
     object-fit: cover;
     object-position: center;
+    image-rendering: auto;
     border-radius: 8px;
     box-shadow:
       0 16px 40px rgba(0, 0, 0, 0.45),
