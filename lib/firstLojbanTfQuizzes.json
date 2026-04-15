@@ -49,7 +49,7 @@
     ]
   },
   "7": {
-    "answers": "01101",
+    "answers": "01111",
     "questions": [
       "{lo} can pick out a specific referent for the speaker.",
       "If you can say it with {le}, you can also say it with {lo}.",
