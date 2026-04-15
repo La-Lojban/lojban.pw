@@ -332,6 +332,15 @@ function escapeHtmlBodyText(s: string): string {
  * table row (`| … |`). Then we emit compact single-line HTML so the table parser still sees one
  * physical line (see `expandBookSpeakerTags`).
  */
+/**
+ * Inner surface so `.speaker-row__speech` tail `::before` / `::after` stack below the bubble:
+ * negative-`z-index` pseudos still paint above the same element’s `background` (stacking order),
+ * so the visible fill/border/shadow live on this child (`z-index: 1` in CSS).
+ */
+function wrapSpeakerSpeechSurface(innerHtml: string): string {
+  return `<div class="speaker-row__speech-surface">${innerHtml}</div>`;
+}
+
 function isSpeakerInSingleLinePipeTableRow(
   md: string,
   openSpeakerIdx: number,
@@ -363,7 +372,7 @@ function buildSpeakerRowTableCell(
   const rowMod = speakerRowBubbleModifierFromThemeKey(
     bubbleThemeKeyFromSprites([sprite])
   );
-  return `<div class="speaker-row speaker-row--table-cell ${rowMod}"><div class="speaker-row__avatar"><figure><div class="figure_img" data-url="${url}"><img src="${url}" alt="${safe}"></div><figcaption class="speaker-row__table-cell-caption"><b>${safe}</b><br/><i></i></figcaption></figure></div><div class="speaker-row__speech">${body}</div></div>`;
+  return `<div class="speaker-row speaker-row--table-cell ${rowMod}"><div class="speaker-row__avatar"><figure><div class="figure_img" data-url="${url}"><img src="${url}" alt="${safe}"></div><figcaption class="speaker-row__table-cell-caption"><b>${safe}</b><br/><i></i></figcaption></figure></div><div class="speaker-row__speech">${wrapSpeakerSpeechSurface(body)}</div></div>`;
 }
 
 function buildSpeakerRow(
@@ -383,7 +392,7 @@ function buildSpeakerRow(
 <div class="speaker-row__avatar">
 <figure><div class="figure_img" data-url="${url}"><img src="${url}" alt="${safe}"></div><figcaption><b>${safe}</b><br/><i></i></figcaption></figure>
 </div>
-<div class="speaker-row__speech">${body}
+<div class="speaker-row__speech">${wrapSpeakerSpeechSurface(body)}
 </div>
 </div>${AFTER_SPEAKER_ROW_HTML}`;
 }
@@ -415,7 +424,7 @@ function buildMultifaceRow(
   return `<div class="speaker-row speaker-row--multiface ${rowMod}">
 <div class="speaker-row__avatar">
 ${wrappers}</div>
-<div class="speaker-row__speech">${body}
+<div class="speaker-row__speech">${wrapSpeakerSpeechSurface(body)}
 </div>
 </div>${AFTER_SPEAKER_ROW_HTML}`;
 }

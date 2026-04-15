@@ -5,6 +5,8 @@ type LangEntry = {
   native: string;
   direction?: string;
   currentPageContents?: string;
+  /** Localized labels for URL directory segments (e.g. `books`, `articles`) under `/<short>/…`. */
+  directorySegments?: Record<string, string>;
   /** When false, the short code is for books/parallel content only (no full site locale / list index). */
   siteLocale?: boolean;
 };
@@ -43,14 +45,36 @@ export function currentPageContentsLabel(lang: string): string {
   return entry?.currentPageContents ?? fallback;
 }
 
+const byShort = Object.values(languages).reduce(
+  (acc, e) => {
+    acc[e.short] = e;
+    return acc;
+  },
+  {} as Record<string, LangEntry>
+);
+
+function localizedDirectorySegment(contentLang: string, segment: string) {
+  const entry = byShort[contentLang];
+  const en = languages.glico?.directorySegments;
+  return (
+    entry?.directorySegments?.[segment] ??
+    en?.[segment] ??
+    segment
+  );
+}
+
 /**
  * Human-readable label for a post directory key (first segment = language code).
- * Example: `en` → `English`, `de/books/foo` → `Deutsch / books/foo`.
+ * Example: `en` → `English`, `de/books/foo` → `Deutsch / Bücher / foo`.
  */
 export function groupDirectoryLabel(directoryKey: string): string {
   const parts = directoryKey.split("/");
   const short = parts[0] ?? "";
   const native = langDict[short] ?? short;
   if (parts.length <= 1) return native;
-  return `${native} / ${parts.slice(1).join("/")}`;
+  const tail = parts
+    .slice(1)
+    .map((seg) => localizedDirectorySegment(short, seg))
+    .join(" / ");
+  return `${native} / ${tail}`;
 }

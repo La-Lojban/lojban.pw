@@ -479,7 +479,7 @@ article table:not([data-korpora-grid]) thead {
 
 article table:not([data-korpora-grid]) th,
 article .first_col table tr td:first-child {
-  @apply align-top text-center font-bold tracking-wider px-3 py-4 border border-collapse border-gray-200;
+  @apply align-middle text-center font-bold tracking-wider px-3 py-4 border border-collapse border-gray-200;
 }
 
 article table:not([data-korpora-grid]) tbody {
@@ -492,7 +492,7 @@ article table:not([data-korpora-grid]) tbody tr {
 
 article table:not([data-korpora-grid]) tbody td,
 article .first_col table tr td:first-child {
-  @apply align-top text-left px-3 py-4 border border-collapse border-gray-200;
+  @apply align-middle text-left px-3 py-4 border border-collapse border-gray-200;
 }
 
 /* Book pages: two-column exercise tables (e.g. Learn Lojban “Task” tables) — equal width */
@@ -660,6 +660,13 @@ article .speaker-row__speech {
   flex: 1 1 0%;
   min-width: 0;
   align-self: center;
+}
+
+/* Painted bubble sits above tail `::before` / `::after` on `.speaker-row__speech` (see `wrapSpeakerSpeechSurface` in expandFirstLojbanSpeakerTags). */
+article .speaker-row__speech-surface {
+  position: relative;
+  z-index: 1;
+  min-width: 0;
   padding: 0.75rem 1rem;
   background-color: var(--speech-bubble-fill);
   border: 1px solid var(--speech-bubble-border);
@@ -720,13 +727,13 @@ article .speaker-row__speech::after {
   transform: translate(1px, -50%);
 }
 
-article .speaker-row__speech p {
+article .speaker-row__speech-surface p {
   @apply m-0 leading-relaxed;
 }
 
 /* Match article body lists (🌼 / ⚙️ ::before); only tighten vertical rhythm in the bubble */
-article .speaker-row__speech ul,
-article .speaker-row__speech ol {
+article .speaker-row__speech-surface ul,
+article .speaker-row__speech-surface ol {
   @apply my-0;
 }
 
@@ -745,11 +752,15 @@ article .speaker-row--table-cell .speaker-row__avatar {
 }
 
 article .speaker-row--table-cell .speaker-row__avatar .figure_img {
-  @apply h-12 md:h-14;
+  @apply h-14 md:h-16;
 }
 
 article .speaker-row--table-cell .speaker-row__speech {
-  @apply py-1.5 px-2.5 self-center text-sm leading-snug;
+  @apply self-center;
+}
+
+article .speaker-row--table-cell .speaker-row__speech-surface {
+  @apply py-1.5 px-2.5 text-sm leading-snug;
 }
 
 article .speaker-row--table-cell .speaker-row__table-cell-caption {
@@ -999,11 +1010,11 @@ article table.korpora__table[data-korpora-grid] {
 }
 
 .korpora__th {
-  @apply border border-gray-200 px-2 py-1.5 text-start align-top font-bold italic;
+  @apply border border-gray-200 px-2 py-1.5 text-start align-middle font-bold italic;
 }
 
 .korpora__td {
-  @apply border border-gray-200 px-2 py-1.5 text-start align-top break-words;
+  @apply border border-gray-200 px-2 py-1.5 text-start align-middle break-words;
 }
 
 .korpora__td--heading {
@@ -1234,6 +1245,9 @@ tr td .inner-table td {
   article .speaker-row__speech {
     --speech-bubble-fill: #ffffff;
     --speech-bubble-border: #d1d5db;
+  }
+
+  article .speaker-row__speech-surface {
     box-shadow: none;
   }
 
