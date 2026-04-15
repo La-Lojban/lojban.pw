@@ -33,11 +33,11 @@ Manga-style beginner track (English edition of *Hajiloji 2*): characters *Koshon
 
 * [PDF](/vreji/uencu/en/first-lojban.pdf) - in a PDF file for download.
 
-## [‘Friendly Lojban’](/en/books/friendly-cll/1)
+<!-- ## [‘Friendly Lojban’](/en/books/friendly-cll/1)
 
 <pixra redirect="/en/books/friendly-cll/1" url="/assets/pixra/books/cll-friendly/cover.webp" caption="Friendly Lojban"></pixra>
 
-A beginner-friendly rewrite of the book *The Complete Lojban Language*.
+A beginner-friendly rewrite of the book *The Complete Lojban Language*. -->
 
 ## [Live Lojban chat](/en/articles/live_chat)
 
