@@ -3,88 +3,220 @@
         "jungo": {
             "native": "普通话",
             "short": "zh",
-            "currentPageContents": "本页内容："
+            "currentPageContents": "本页内容：",
+            "directorySegments": {
+                "books": "书籍",
+                "articles": "文章",
+                "humour": "幽默",
+                "questions": "问题",
+                "learn-lojban": "学习逻辑语"
+            }
         },
         "lojbo": {
             "native": "lojbo",
             "short": "jbo",
-            "currentPageContents": "le tcila be le papri:"
+            "currentPageContents": "tcila le papri",
+            "directorySegments": {
+                "books": "cukta",
+                "articles": "uencu",
+                "humour": "xajmi",
+                "questions": "preti",
+                "learn-lojban": "cilre fi la .lojban."
+            }
         },
         "sampu lojbo": {
             "native": "sampu lojbo",
             "short": "jbo-sampu",
-            "currentPageContents": "tcila be papri:"
+            "currentPageContents": "tcila le papri",
+            "directorySegments": {
+                "books": "cukta",
+                "articles": "papri",
+                "humour": "xajmi",
+                "questions": "preti",
+                "learn-lojban": "cilre fi la .lojban."
+            }
         },
         "dzena xelso": {
             "native": "αρχαία ελληνικά",
             "short": "grc",
-            "currentPageContents": "Περιεχόμενα τῆς σελίδος:"
+            "currentPageContents": "Περιεχόμενα τῆς σελίδος:",
+            "directorySegments": {
+                "books": "βιβλία",
+                "articles": "συγγράμματα",
+                "humour": "γέλως",
+                "questions": "ἐρωτήσεις",
+                "learn-lojban": "μάθετε τὸ λόζβανον"
+            }
         },
         "spero": {
             "native": "Esperanto",
             "short": "eo",
-            "currentPageContents": "Enhavo de ĉi tiu paĝo:"
+            "currentPageContents": "Enhavo de ĉi tiu paĝo:",
+            "directorySegments": {
+                "books": "Libroj",
+                "articles": "Artikoloj",
+                "humour": "Humuro",
+                "questions": "Demandoj",
+                "learn-lojban": "Lernu la loĵbanon"
+            }
         },
         "spano": {
             "native": "español",
             "short": "es",
-            "currentPageContents": "Contenido de esta página:"
+            "currentPageContents": "Contenido de esta página:",
+            "directorySegments": {
+                "books": "Libros",
+                "articles": "Artículos",
+                "humour": "Humor",
+                "questions": "Preguntas",
+                "learn-lojban": "Aprender lojban"
+            }
         },
         "glico": {
             "native": "English",
             "short": "en",
-            "currentPageContents": "Current page contents:"
+            "currentPageContents": "Current page contents:",
+            "directorySegments": {
+                "books": "Books",
+                "articles": "Articles",
+                "humour": "Humour",
+                "questions": "Questions",
+                "learn-lojban": "Learn Lojban"
+            }
         },
         "xrabo": {
             "native": "العربية",
             "short": "ar",
             "direction": "RTL",
-            "currentPageContents": "محتويات هذه الصفحة:"
+            "currentPageContents": "محتويات هذه الصفحة:",
+            "directorySegments": {
+                "books": "كتب",
+                "articles": "مقالات",
+                "humour": "فكاهة",
+                "questions": "أسئلة",
+                "learn-lojban": "تعلّم اللوجبان"
+            }
         },
         "porto": {
             "native": "português",
             "short": "pt",
-            "currentPageContents": "Conteúdo desta página:"
+            "currentPageContents": "Conteúdo desta página:",
+            "directorySegments": {
+                "books": "Livros",
+                "articles": "Artigos",
+                "humour": "Humor",
+                "questions": "Perguntas",
+                "learn-lojban": "Aprender Lojban"
+            }
         },
         "rusko": {
             "native": "русский",
             "short": "ru",
-            "currentPageContents": "Содержание страницы:"
+            "currentPageContents": "Содержание страницы:",
+            "directorySegments": {
+                "books": "Книги",
+                "articles": "Статьи",
+                "humour": "Юмор",
+                "questions": "Вопросы",
+                "learn-lojban": "Изучение ложбана"
+            }
         },
         "dotco": {
             "native": "Deutsch",
             "short": "de",
-            "currentPageContents": "Inhalt dieser Seite:"
+            "currentPageContents": "Inhalt dieser Seite:",
+            "directorySegments": {
+                "books": "Bücher",
+                "articles": "Artikel",
+                "humour": "Humor",
+                "questions": "Fragen",
+                "learn-lojban": "Lojban lernen"
+            }
         },
         "fraso": {
             "native": "français",
             "short": "fr",
-            "currentPageContents": "Contenu de la page :"
+            "currentPageContents": "Contenu de la page :",
+            "directorySegments": {
+                "books": "Livres",
+                "articles": "Articles",
+                "humour": "Humour",
+                "questions": "Questions",
+                "learn-lojban": "Apprendre le lojban"
+            }
         },
         "baurgulugu": {
             "native": "galego",
             "short": "gl",
-            "currentPageContents": "Contido desta páxina:"
+            "currentPageContents": "Contido desta páxina:",
+            "directorySegments": {
+                "books": "Libros",
+                "articles": "Artigos",
+                "humour": "Humor",
+                "questions": "Preguntas",
+                "learn-lojban": "Aprender o lojban"
+            }
         },
         "sfe'ero": {
             "native": "svenska",
             "short": "sv",
-            "currentPageContents": "Innehåll på den här sidan:"
+            "currentPageContents": "Innehåll på den här sidan:",
+            "directorySegments": {
+                "books": "Böcker",
+                "articles": "Artiklar",
+                "humour": "Humor",
+                "questions": "Frågor",
+                "learn-lojban": "Lär dig lojban"
+            }
         },
         "tokpona": {
             "native": "toki pona",
             "short": "tok",
-            "currentPageContents": "ijo pi lipu ni:"
+            "currentPageContents": "ijo pi lipu ni:",
+            "directorySegments": {
+                "books": "lipu suli",
+                "articles": "lipu toki",
+                "humour": "musi",
+                "questions": "wile sona",
+                "learn-lojban": "o kama sona e toki Losupan"
+            }
         },
         "bantugulu": {
             "native": "Tagalog",
             "short": "tl",
-            "currentPageContents": "Mga nilalaman ng pahinang ito:"
+            "currentPageContents": "Mga nilalaman ng pahinang ito:",
+            "directorySegments": {
+                "books": "Mga libro",
+                "articles": "Mga artikulo",
+                "humour": "Humor",
+                "questions": "Mga tanong",
+                "learn-lojban": "Matuto ng Lojban"
+            }
         },
         "balgaro": {
             "native": "български",
             "short": "bg",
-            "currentPageContents": "Съдържание на страницата:"
+            "currentPageContents": "Съдържание на страницата:",
+            "directorySegments": {
+                "books": "Книги",
+                "articles": "Статии",
+                "humour": "Хумор",
+                "questions": "Въпроси",
+                "learn-lojban": "Учене на ложбан"
+            }
+        },
+        "dzena stuna slovo": {
+            "native": "рѹсьскыи",
+            "short": "orv",
+            "siteLocale": false,
+            "currentPageContents": "Съдьржаниѥ страницѧ:",
+            "directorySegments": {
+                "books": "книгы",
+                "articles": "статьѧ",
+                "humour": "смѣхъ",
+                "questions": "вопросы",
+                "learn-lojban": "наꙑкати ложбанъ"
+            }
         }
     }
 }
