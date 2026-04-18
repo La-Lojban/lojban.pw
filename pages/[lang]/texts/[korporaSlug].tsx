@@ -22,6 +22,7 @@ import {
   resolveKorporaDisplayTitle,
   resolveKorporaAuthorLine,
   resolveKorporaDescriptionLine,
+  resolveKorporaCoverImage,
   readKorporaPreambleBodyMarkdown,
 } from "../../../lib/korpora/corpusCore";
 import { TPost } from "../../../types/post";
@@ -199,6 +200,9 @@ export async function getStaticProps({
 
   const fullHtml = (preambleHtml ? `${preambleHtml}\n\n` : "") + sectionHtml;
 
+  const coverImage =
+    resolveKorporaCoverImage(params.korporaSlug) ?? meta.ogImage ?? "";
+
   const post: TPost = {
     slug: [params.lang, "texts", params.korporaSlug],
     title: pageTitle,
@@ -209,13 +213,13 @@ export async function getStaticProps({
     "meta.author": authorName,
     "meta.priority": meta.priority,
     date: "",
-    coverImage: meta.ogImage ?? "",
+    coverImage,
     author: { name: authorName, picture: "" },
     excerpt: descriptionLine,
     content: fullHtml,
     toc,
     imgs: imgs as GalleryImg[],
-    ...(meta.ogImage ? { "og:image": meta.ogImage } : {}),
+    ...(coverImage ? { "og:image": coverImage } : {}),
   };
 
   const fields = ["slug", "hidden", "title", "directory", "coverImage", "icon"];

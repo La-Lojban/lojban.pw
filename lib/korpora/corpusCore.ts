@@ -213,7 +213,13 @@ function processColumnsToCorpus(
       const exts = new Set([".webp", ".png", ".svg", ".jpg", ".jpeg"]);
       const imageFiles = fs
         .readdirSync(pixraDir)
-        .filter((name) => exts.has(path.extname(name).toLowerCase()))
+        .filter((name) => {
+          const ext = path.extname(name).toLowerCase();
+          if (!exts.has(ext)) return false;
+          // Generated screen downscales (see `pnpm generate:cover-heroes`); must not win sort over `cover.webp`.
+          if (name.toLowerCase().endsWith("-hero.webp")) return false;
+          return true;
+        })
         .sort();
       if (imageFiles.length > 0) {
         ogImage = path
@@ -260,17 +266,17 @@ export function getPreambleMdPath(basename: string): string {
 }
 
 /** Optional `data/assets/korpora-tsv/<basename>.md` — frontmatter (`name`, `author`, `description`, …) + optional preamble body. */
-const sidecarCache = new Map<
-  string,
-  { name?: string; title?: string; author?: string; description?: string } | null
->();
-
-function readKorporaSidecarFields(basename: string): {
+type KorporaSidecarFields = {
   name?: string;
   title?: string;
   author?: string;
   description?: string;
-} {
+  coverImage?: string;
+};
+
+const sidecarCache = new Map<string, KorporaSidecarFields | null>();
+
+function readKorporaSidecarFields(basename: string): KorporaSidecarFields {
   if (sidecarCache.has(basename)) {
     const c = sidecarCache.get(basename);
     return c ?? {};
@@ -283,12 +289,18 @@ function readKorporaSidecarFields(basename: string): {
   const raw = fs.readFileSync(mdPath, "utf-8");
   const { data } = matter(raw);
   const d = data as Record<string, unknown>;
-  const out = {
+  const coverRaw = d.coverImage;
+  const coverImage =
+    typeof coverRaw === "string" && coverRaw.startsWith("/assets/")
+      ? coverRaw
+      : undefined;
+  const out: KorporaSidecarFields = {
     name: typeof d.name === "string" ? d.name : undefined,
     title: typeof d.title === "string" ? d.title : undefined,
     author: typeof d.author === "string" ? d.author : undefined,
     description:
       typeof d.description === "string" ? d.description : undefined,
+    coverImage,
   };
   sidecarCache.set(basename, out);
   return out;
@@ -322,6 +334,11 @@ export function resolveKorporaDescriptionLine(
   const s = readKorporaSidecarFields(basename);
   const d = s.description?.trim();
   return d || tsvFallbackDescription;
+}
+
+/** Preamble `coverImage` (`/assets/...`) when set; else callers fall back to corpus `ogImage`. */
+export function resolveKorporaCoverImage(basename: string): string | undefined {
+  return readKorporaSidecarFields(basename).coverImage;
 }
 
 /** Markdown body only (frontmatter stripped) for rendering below the corpus table. */
