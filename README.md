@@ -10,14 +10,16 @@ Static [Next.js](https://nextjs.org/) site (export to `out/`) for Lojban courses
 
 ## Layout
 
-| Path | Role |
-|------|------|
-| `data/pages/` | Markdown pages (bind-mounted to `md_pages/` in Docker) |
-| `data/assets/` | Images, audio, korpora TSVs (served as `/assets/*` via `public/assets` → `../data/assets`) |
-| `data/config/` | Site copy shared with editors; keep in sync with [config/config.ts](config/config.ts) |
-| `data/DNS/` | Static service files copied into `out/` on build |
-| `data/.cache/` | Build cache (e.g. PDF intermediates under `vreji/`) |
-| `lib/paths.js` | Resolves `data/*` paths locally and overlay paths under `/app` in Docker |
+
+| Path           | Role                                                                                       |
+| -------------- | ------------------------------------------------------------------------------------------ |
+| `data/pages/`  | Markdown pages (bind-mounted to `md_pages/` in Docker)                                     |
+| `data/assets/` | Images, audio, korpora TSVs (served as `/assets/`* via `public/assets` → `../data/assets`) |
+| `data/config/` | Site copy shared with editors; keep in sync with [config/config.ts](config/config.ts)      |
+| `data/DNS/`    | Static service files copied into `out/` on build                                           |
+| `data/.cache/` | Build cache (e.g. PDF intermediates under `vreji/`)                                        |
+| `lib/paths.js` | Resolves `data/*` paths locally and overlay paths under `/app` in Docker                   |
+
 
 ## Environment
 
@@ -45,10 +47,6 @@ CI builds inside the Playwright Docker image (see [Dockerfile](Dockerfile)); the
 make build   # build image
 make dev     # run container with repo mounted at /app, bash on exec
 ```
-
-## Legacy `src/` folder
-
-If you previously used Docker with the old layout, a leftover `src/` directory may contain root-owned `.pnpm-store` or `service/` files. It is not used anymore; remove it when convenient (e.g. `sudo rm -rf src`).
 
 ## Docs
 

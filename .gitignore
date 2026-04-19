@@ -42,5 +42,4 @@ data/pages/texts
 # Generated screen-only cover downscales (see scripts/generate-cover-hero-webp.mjs)
 data/assets/**/*-hero.webp
 
-# Old app root (Docker); remove locally — see README
-src/
+.lighthouseci/
