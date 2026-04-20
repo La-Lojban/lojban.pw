@@ -7,8 +7,9 @@ name: Lighthouse CI
 #
 # URL source: https://lojban.pw/sitemap.xml (published by the deploy job via
 # scripts/generate-sitemap.js). Every `<loc>` is audited — no sampling, no
-# synthesised URLs. Auditing anything outside the sitemap caused 404s that
-# aborted `lhci collect` for the whole matrix cell.
+# synthesised URLs. `scripts/lighthouse-collect.cjs` runs one `lhci collect`
+# per URL (`--additive` after the first success) so a timeout on one heavy
+# page does not drop the rest of the batch or block manifest / artifacts.
 #
 # Outputs (ranked by utility):
 #   1. $GITHUB_STEP_SUMMARY — Markdown table with Core Web Vitals per URL,
@@ -54,6 +55,9 @@ jobs:
     # site. Scheduled and manual runs always proceed.
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
+    env:
+      # Keep in sync with scripts/lighthouse-collect.cjs (LHCI_PKG).
+      LHCI_CLI_VERSION: '0.15.1'
     # Sitemap has ~380 URLs × 2 presets = ~760 Lighthouse runs worst case;
     # each takes ~15-20s. Default 6h job timeout is enough, but bump matrix
     # parallelism via preset only.
@@ -96,23 +100,26 @@ jobs:
             echo 'EOF'
           } >> "$GITHUB_OUTPUT"
 
-      - name: Run Lighthouse (${{ matrix.preset }})
-        id: lhci
-        # A single 404 (or any other page load error) makes `lhci collect`
-        # exit non-zero and fails the step. Continue so the summary + HTML
-        # artifact still publish with whatever results did complete.
-        continue-on-error: true
-        uses: treosh/lighthouse-ci-action@v12
-        with:
-          urls: ${{ steps.urls.outputs.list }}
-          configPath: './.lighthouserc.cjs'
-          uploadArtifacts: true
-          temporaryPublicStorage: true
-          runs: ${{ github.event.inputs.runs || '1' }}
+      - name: Lighthouse collect (per URL)
         env:
           LHCI_FORM_FACTOR: ${{ matrix.preset }}
           LHCI_BUILD_CONTEXT__CURRENT_HASH: ${{ github.sha }}
           LHCI_BUILD_CONTEXT__COMMIT_MESSAGE: ${{ github.event.head_commit.message || 'scheduled run' }}
+        run: node scripts/lighthouse-collect.cjs urls.txt "${{ github.event.inputs.runs || '1' }}"
+
+      - name: Lighthouse manifest, assert, upload
+        id: lhci
+        continue-on-error: true
+        env:
+          LHCI_FORM_FACTOR: ${{ matrix.preset }}
+          LHCI_BUILD_CONTEXT__CURRENT_HASH: ${{ github.sha }}
+          LHCI_BUILD_CONTEXT__COMMIT_MESSAGE: ${{ github.event.head_commit.message || 'scheduled run' }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          npx --yes "@lhci/cli@${LHCI_CLI_VERSION}" upload --config=./.lighthouserc.cjs --target=filesystem --outputDir=.lighthouseci
+          npx --yes "@lhci/cli@${LHCI_CLI_VERSION}" assert --config=./.lighthouserc.cjs
+          npx --yes "@lhci/cli@${LHCI_CLI_VERSION}" upload --config=./.lighthouserc.cjs --target=temporary-public-storage
 
       - name: Render step summary
         if: always()

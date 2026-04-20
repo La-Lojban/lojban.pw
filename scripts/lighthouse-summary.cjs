@@ -30,6 +30,11 @@ if (!fs.existsSync(manifestPath)) {
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
 const links = fs.existsSync(linksPath) ? JSON.parse(fs.readFileSync(linksPath, 'utf8')) : {};
 
+const failuresPath = path.join(lhciDir, 'collection-failures.json');
+const collectionFailures = fs.existsSync(failuresPath)
+  ? JSON.parse(fs.readFileSync(failuresPath, 'utf8'))
+  : [];
+
 const medianRows = manifest.filter((r) => r.isRepresentativeRun);
 const runsPerUrl = medianRows.length ? manifest.length / medianRows.length : 0;
 
@@ -59,11 +64,19 @@ const lhrFileFor = (url) => {
 
 let out = '';
 out += `## 🚦 Lighthouse — ${presetLabel} (median of ${runsPerUrl || '?'} runs)\n\n`;
+if (collectionFailures.length) {
+  out += `**${collectionFailures.length} URL(s)** failed during collect (timeout, DNS, etc.) — see table at bottom.\n\n`;
+}
 out += `Commit: \`${(process.env.GITHUB_SHA || 'n/a').slice(0, 7)}\` · `;
 out += `Run: [#${process.env.GITHUB_RUN_ID}](${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID})\n\n`;
 
 out += '| URL | Perf | A11y | BP | SEO | LCP | FCP | CLS | TBT | TTI | SI |\n';
 out += '|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|\n';
+
+if (!medianRows.length) {
+  out +=
+    '| _no successful runs_ | — | — | — | — | — | — | — | — | — | — |\n';
+}
 
 for (const r of medianRows) {
   const s = r.summary;
@@ -95,6 +108,21 @@ for (const r of medianRows) {
   out += `| ${fmtMs(tbt)} `;
   out += `| ${fmtMs(tti)} `;
   out += `| ${fmtMs(si)} |\n`;
+}
+
+if (collectionFailures.length) {
+  out += '\n### Pages that did not complete (collect failed)\n\n';
+  out += '| URL | Error / detail |\n';
+  out += '|---|---|\n';
+  for (const f of collectionFailures) {
+    const shortUrl = f.url.replace(/^https?:\/\/[^/]+/, '') || '/';
+    const detail =
+      (f.snippet && String(f.snippet).trim()) ||
+      (f.exitCode != null ? `Lighthouse exited with code ${f.exitCode}` : '') ||
+      'unknown';
+    const safe = String(detail).replace(/\|/g, '\\|').replace(/\n/g, ' ');
+    out += `| \`${shortUrl}\` | ${safe} |\n`;
+  }
 }
 
 out += '\n**Legend**: 🟢 ≥ 90 · 🟡 50–89 · 🔴 < 50\n';

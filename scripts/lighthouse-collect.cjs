@@ -13,7 +13,8 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { spawnSync } = require('node:child_process');
 
-const LHCI_PKG = '@lhci/cli@0.15.1';
+/** Pinned in .github/workflows/lighthouse.yml (`LHCI_CLI_VERSION`). */
+const LHCI_PKG = `@lhci/cli@${process.env.LHCI_CLI_VERSION || '0.15.1'}`;
 const LHCI_DIR = path.join(process.cwd(), '.lighthouseci');
 
 const urlsFile = process.argv[2] || 'urls.txt';
@@ -43,7 +44,8 @@ fs.mkdirSync(LHCI_DIR, { recursive: true });
 /** @type {{ url: string, exitCode: number|null, signal: string|null, snippet: string }[]} */
 const failures = [];
 
-let useAdditive = false;
+/** After the first successful collect, use --additive so later runs append LHRs. */
+let hadSuccessfulRun = false;
 
 for (const url of urls) {
   const args = [
@@ -55,7 +57,7 @@ for (const url of urls) {
     '--url',
     url,
   ];
-  if (useAdditive) args.push('--additive');
+  if (hadSuccessfulRun) args.push('--additive');
 
   process.stdout.write(`\n[lighthouse-collect] ${url}\n`);
   const r = spawnSync('npx', args, {
@@ -73,7 +75,7 @@ for (const url of urls) {
     });
     process.stderr.write(`[lighthouse-collect] FAILED (exit ${r.status}) ${url}\n`);
   } else {
-    useAdditive = true;
+    hadSuccessfulRun = true;
   }
 }
 
