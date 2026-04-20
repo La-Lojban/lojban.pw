@@ -6,10 +6,12 @@ name: Lighthouse CI
 # preview.
 #
 # URL source: https://lojban.pw/sitemap.xml (published by the deploy job via
-# scripts/generate-sitemap.js). Every `<loc>` is audited — no sampling, no
-# synthesised URLs. `scripts/lighthouse-collect.cjs` runs one `lhci collect`
-# per URL (`--additive` after the first success) so a timeout on one heavy
-# page does not drop the rest of the batch or block manifest / artifacts.
+# scripts/generate-sitemap.js). Filtered to `/en/…` pages only — other
+# locales render from the same templates, so auditing them multiplies wall
+# time without surfacing different regressions. No sampling, no synthesised
+# URLs. `scripts/lighthouse-collect.cjs` runs one `lhci collect` per URL
+# (`--additive` after the first success) so a timeout on one heavy page does
+# not drop the rest of the batch or block manifest / artifacts.
 #
 # Outputs (ranked by utility):
 #   1. $GITHUB_STEP_SUMMARY — Markdown table with Core Web Vitals per URL,
@@ -90,7 +92,7 @@ jobs:
           if [ -n "$INPUT_URLS" ]; then
             printf '%s\n' "$INPUT_URLS" | tr ',' '\n' | sed '/^$/d' > urls.txt
           else
-            node scripts/lighthouse-urls.cjs --base="$BASE_URL" > urls.txt
+            node scripts/lighthouse-urls.cjs --base="$BASE_URL" --locale=en > urls.txt
           fi
           echo "Targets ($(wc -l < urls.txt) URLs):"
           cat urls.txt

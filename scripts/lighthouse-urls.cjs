@@ -10,16 +10,21 @@
  *
  * Usage:
  *   node scripts/lighthouse-urls.cjs [--base=https://lojban.pw]
+ *                                    [--locale=en]
  *
- * No filtering, no sampling — every `<loc>` in the sitemap is emitted as-is.
+ * Flags:
+ *   --base=<url>     Sitemap host (default: https://lojban.pw).
+ *   --locale=<code>  Keep only URLs whose first path segment equals <code>
+ *                    (e.g. `en` → `/en/...`). Default: no locale filter.
  */
 
 const DEFAULT_BASE = 'https://lojban.pw';
 
 function parseArgs(argv) {
-  const opts = { base: DEFAULT_BASE };
+  const opts = { base: DEFAULT_BASE, locale: null };
   for (const a of argv) {
     if (a.startsWith('--base=')) opts.base = a.slice(7).replace(/\/+$/, '');
+    else if (a.startsWith('--locale=')) opts.locale = a.slice(9).toLowerCase();
     else if (a.startsWith('--')) {
       console.error(`Unknown flag: ${a}`);
       process.exit(2);
@@ -56,10 +61,18 @@ async function main() {
 
   const opts = parseArgs(process.argv.slice(2));
   const xml = await fetchSitemap(opts.base);
-  const urls = [...new Set(extractUrls(xml))].sort();
+  let urls = [...new Set(extractUrls(xml))].sort();
+
+  if (opts.locale) {
+    const prefix = `${opts.base}/${opts.locale}/`;
+    urls = urls.filter((u) => u === prefix || u.startsWith(prefix));
+  }
 
   if (urls.length === 0) {
-    console.error(`No URLs found in sitemap at ${opts.base}/sitemap.xml`);
+    console.error(
+      `No URLs found in sitemap at ${opts.base}/sitemap.xml` +
+        (opts.locale ? ` for locale "${opts.locale}"` : '')
+    );
     process.exit(1);
   }
 
