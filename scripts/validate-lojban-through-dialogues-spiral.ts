@@ -11,7 +11,15 @@
  *   `npx tsx scripts/validate-lojban-through-dialogues-spiral.ts`
  * Optional:
  *   `--recall-coverage` — also warn when a **New words** lemma never appears in
- *   any later spaced-recall / Lesson 30 capstone table (noisy; heuristic only).
+ *   any later spaced-recall / Lesson 30 capstone table (binary heuristic).
+ *   `--pimsleur` — full Pimsleur-style schedule check: every **New words** lemma
+ *     must be recycled within `--max-first-gap=N` lessons of introduction
+ *     (default 5) and at least `--min-recycles=N` times before Lesson 30
+ *     (default 2). A "recycle" is any later-lesson appearance in **opening
+ *     dialogue**, **practice dialogue**, **Anticipation prompts**, **Spaced
+ *     recall** rows, **Challenge** rows, or the Lesson 30 capstone. Pass
+ *     `--require-non-capstone` to also warn when the only recycle is in
+ *     the Lesson 30 capstone.
  *   `--no-explain-bodies` — skip dialogue / practice / anticipation checks below.
  *
  * Dialogue “explained” check (default on): tokens in the opening table, practice
@@ -42,6 +50,8 @@ const GRAMMAR_STRUCTURAL_LEMMA: Record<string, number> = {
   nu: 18,
   /** kei first appears in Lesson 20 dialogue (lo nu tavla do kei cu pluka). */
   kei: 20,
+  /** fa marks the subject slot; introduced in Lesson 29 (cumki fa lo nu …). */
+  fa: 29,
 };
 
 const NAME_EXCEPTIONS = new Set(
@@ -270,7 +280,11 @@ function parseNewWordTables(content: string): { lojbanCell: string; meaningCell:
         .split("|")
         .map((c) => c.trim())
         .filter((c) => c.length > 0);
-      if (cells.length >= 2 && cells[0] !== "Lojban") {
+      if (
+        cells.length >= 2 &&
+        cells[0] !== "Lojban" &&
+        !/^[-\s]+$/.test(cells[0])
+      ) {
         rows.push({ lojbanCell: cells[0], meaningCell: cells[1] ?? "" });
       }
     }
@@ -410,15 +424,36 @@ function isIgnorableToken(tok: string): boolean {
   return false;
 }
 
+/**
+ * Discover lesson files dynamically. We accept any `<n>.md` (integer) under
+ * LESSON_DIR. The capstone is the highest-numbered file. This lets us insert
+ * extra review lessons (e.g. `31.md`, `32.md`) between the last numbered
+ * teaching lesson and the capstone without changing the validator.
+ */
+function discoverLessonNumbers(): { numbers: number[]; capstone: number } {
+  const entries = fs.readdirSync(LESSON_DIR);
+  const numbers: number[] = [];
+  for (const e of entries) {
+    const m = e.match(/^(\d+)\.md$/);
+    if (m) numbers.push(parseInt(m[1]!, 10));
+  }
+  numbers.sort((a, b) => a - b);
+  if (numbers.length === 0) throw new Error(`No <n>.md lesson files in ${LESSON_DIR}`);
+  return { numbers, capstone: numbers[numbers.length - 1]! };
+}
+
+const { numbers: LESSON_NUMBERS, capstone: CAPSTONE_LESSON } = discoverLessonNumbers();
+
 function loadLessons(): LessonData[] {
   const out: LessonData[] = [];
-  for (let n = 1; n <= 30; n++) {
+  for (const n of LESSON_NUMBERS) {
     const raw = readLesson(n);
     const newWordRows = parseNewWordTables(raw);
     const bodyLojbanSnippets = parseBodyLojbanSnippets(raw);
     const grammarMentionTokens = parseGrammarMentionedTokens(raw);
     const spacedRecallBlocks = parseSpacedRecallBlocks(raw);
-    const capstoneLojbanSnippets = n === 30 ? parseCapstoneSnippets(raw) : [];
+    const capstoneLojbanSnippets =
+      n === CAPSTONE_LESSON ? parseCapstoneSnippets(raw) : [];
     out.push({
       num: n,
       raw,
@@ -519,8 +554,20 @@ function consumeExplainedTokens(
   return { ok: true };
 }
 
+function parseIntFlag(name: string, fallback: number): number {
+  for (const a of process.argv.slice(2)) {
+    const m = a.match(new RegExp(`^--${name}=(\\d+)$`));
+    if (m) return parseInt(m[1]!, 10);
+  }
+  return fallback;
+}
+
 function main(): void {
   const recallCoverage = process.argv.includes("--recall-coverage");
+  const pimsleur = process.argv.includes("--pimsleur");
+  const requireNonCapstone = process.argv.includes("--require-non-capstone");
+  const maxFirstGap = parseIntFlag("max-first-gap", 5);
+  const minRecycles = parseIntFlag("min-recycles", 2);
   const explainBodies = !process.argv.includes("--no-explain-bodies");
   const lessons = loadLessons();
   const introLesson = buildIntroLesson(lessons);
@@ -609,30 +656,31 @@ function main(): void {
     }
   }
 
-  const cap = lessons.find((x) => x.num === 30)!;
+  const cap = lessons.find((x) => x.num === CAPSTONE_LESSON)!;
   for (const snip of cap.capstoneLojbanSnippets) {
     for (const tok of tokenizeLojbanSnippet(snip)) {
       if (isIgnorableToken(tok)) continue;
       const intro = lookupIntro(introLesson, tok);
       if (intro === undefined) {
-        addWarn(`Lesson 30 capstone: token "${tok}" not in **New words** tables.`);
+        addWarn(`Lesson ${CAPSTONE_LESSON} capstone: token "${tok}" not in **New words** tables.`);
       }
     }
   }
 
   if (recallCoverage) {
     for (const [lem, introL] of introLesson) {
-      if (introL >= 30) continue;
+      if (introL >= CAPSTONE_LESSON) continue;
       let recalled = false;
       for (const L of lessons) {
         if (L.num <= introL) continue;
         const zones: { snippets: string[]; maxK: number | null }[] = [];
+        zones.push({ snippets: L.bodyLojbanSnippets, maxK: L.num });
         for (const b of L.spacedRecallBlocks) {
           zones.push({ snippets: b.recallLojbanSnippets, maxK: b.maxLesson });
           zones.push({ snippets: b.challengeLojbanSnippets, maxK: L.num });
         }
-        if (L.num === 30) {
-          zones.push({ snippets: L.capstoneLojbanSnippets, maxK: 30 });
+        if (L.num === CAPSTONE_LESSON) {
+          zones.push({ snippets: L.capstoneLojbanSnippets, maxK: CAPSTONE_LESSON });
         }
         for (const z of zones) {
           if (z.maxK !== null && z.maxK < introL) continue;
@@ -653,7 +701,74 @@ function main(): void {
       }
       if (!recalled) {
         addWarn(
-          `Lemma "${lem}" (introduced Lesson ${introL}) never appears in a later spaced-recall / Lesson 30 capstone zone (check manually — may appear only in main dialogue).`,
+          `Lemma "${lem}" (introduced Lesson ${introL}) never appears in a later spaced-recall / Lesson ${CAPSTONE_LESSON} capstone zone (check manually — may appear only in main dialogue).`,
+        );
+      }
+    }
+  }
+
+  if (pimsleur) {
+    // For each lemma, collect every later lesson whose recall / challenge / capstone
+    // zones reference it. Then enforce Pimsleur-style rules:
+    //   (a) first recycle within `maxFirstGap` lessons of introduction;
+    //   (b) at least `minRecycles` total recycles before Lesson 30;
+    //   (c) (optional) at least one recycle outside the Lesson 30 capstone.
+    for (const [lem, introL] of introLesson) {
+      if (introL >= CAPSTONE_LESSON) continue;
+      const recycles: { lesson: number; capstone: boolean }[] = [];
+      for (const L of lessons) {
+        if (L.num <= introL) continue;
+        const zones: { snippets: string[]; maxK: number | null; capstone: boolean }[] = [];
+        // Body dialogue / practice / anticipation in later lessons is also valid
+        // spaced repetition (a previously taught word reappearing organically).
+        zones.push({ snippets: L.bodyLojbanSnippets, maxK: L.num, capstone: false });
+        for (const b of L.spacedRecallBlocks) {
+          zones.push({ snippets: b.recallLojbanSnippets, maxK: b.maxLesson, capstone: false });
+          zones.push({ snippets: b.challengeLojbanSnippets, maxK: L.num, capstone: false });
+        }
+        if (L.num === CAPSTONE_LESSON) {
+          zones.push({ snippets: L.capstoneLojbanSnippets, maxK: CAPSTONE_LESSON, capstone: true });
+        }
+        let hit = false;
+        let inCapstone = false;
+        for (const z of zones) {
+          if (z.maxK !== null && z.maxK < introL) continue;
+          const hay = z.snippets.join(" ");
+          const toks = tokenizeLojbanSnippet(hay);
+          if (
+            toks.includes(lem) ||
+            toks.includes(lem.toLowerCase()) ||
+            new RegExp(`(^|[^a-z.'])${escapeRe(lem)}([^a-z.']|$)`, "i").test(` ${hay} `)
+          ) {
+            hit = true;
+            if (z.capstone) inCapstone = true;
+            else { inCapstone = false; break; }
+          }
+        }
+        if (hit) recycles.push({ lesson: L.num, capstone: inCapstone });
+      }
+
+      if (recycles.length === 0) {
+        addWarn(
+          `Pimsleur: Lemma "${lem}" (Lesson ${introL}) never recycled — needs spaced repetition before capstone.`,
+        );
+        continue;
+      }
+      const firstGap = recycles[0]!.lesson - introL;
+      if (firstGap > maxFirstGap) {
+        addWarn(
+          `Pimsleur: Lemma "${lem}" (Lesson ${introL}) first recycle at Lesson ${recycles[0]!.lesson} (gap ${firstGap} > ${maxFirstGap}).`,
+        );
+      }
+      const preCapstone = recycles.filter((r) => r.lesson < CAPSTONE_LESSON).length;
+      if (preCapstone < minRecycles) {
+        addWarn(
+          `Pimsleur: Lemma "${lem}" (Lesson ${introL}) has only ${preCapstone} pre-capstone recycle(s); need ≥${minRecycles} (recycled at: ${recycles.map((r) => r.lesson).join(", ") || "—"}).`,
+        );
+      }
+      if (requireNonCapstone && recycles.every((r) => r.capstone)) {
+        addWarn(
+          `Pimsleur: Lemma "${lem}" (Lesson ${introL}) only recycled in Lesson ${CAPSTONE_LESSON} capstone — add a mid-course touch.`,
         );
       }
     }
@@ -671,9 +786,11 @@ function main(): void {
   const parts = [
     "OK: no spaced-recall scope violations.",
     explainBodies ? "Body explain check on." : "Body explain check skipped (--no-explain-bodies).",
-    recallCoverage
-      ? `${warnings.length} warning(s) (tokens + recall coverage).`
-      : `${warnings.length} token warning(s). Pass --recall-coverage for spiral gap heuristics.`,
+    pimsleur
+      ? `${warnings.length} warning(s) (tokens + recall + Pimsleur, max-first-gap=${maxFirstGap}, min-recycles=${minRecycles}${requireNonCapstone ? ", non-capstone required" : ""}).`
+      : recallCoverage
+      ? `${warnings.length} warning(s) (tokens + recall coverage). Pass --pimsleur for full schedule check.`
+      : `${warnings.length} token warning(s). Pass --pimsleur for full Pimsleur schedule check, or --recall-coverage for the binary heuristic.`,
   ];
   console.log(parts.join(" "));
 }

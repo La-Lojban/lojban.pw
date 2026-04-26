@@ -231,3 +231,9 @@ palette: sienna
 @include "lojban-through-dialogues/29.md"
 
 @include "lojban-through-dialogues/30.md"
+
+@include "lojban-through-dialogues/31.md"
+
+@include "lojban-through-dialogues/32.md"
+
+@include "lojban-through-dialogues/33.md"
