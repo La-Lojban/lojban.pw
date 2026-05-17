@@ -39,6 +39,23 @@ function collectCoverPaths() {
       if (typeof c === "string" && c.startsWith("/assets/")) urls.add(c);
     }
   }
+
+  // Korpora covers auto-discovered from TSV rows (no sidecar .md files).
+  const IMG_RE = /\.(webp|png|jpe?g)$/i;
+  const textsDir = path.join(assetsRoot, "pixra", "texts");
+  if (fs.existsSync(textsDir)) {
+    for (const ent of fs.readdirSync(textsDir, { withFileTypes: true })) {
+      if (!ent.isDirectory()) continue;
+      const dir = path.join(textsDir, ent.name);
+      for (const img of fs.readdirSync(dir)) {
+        if (img.endsWith("-hero.webp")) continue;
+        if (IMG_RE.test(img)) {
+          urls.add(`/assets/pixra/texts/${ent.name}/${img}`);
+        }
+      }
+    }
+  }
+
   return urls;
 }
 
