@@ -10,7 +10,7 @@ title: Buong Wika
 *   Ipadala ang iyong feedback (mga napansin na bugs, mga mungkahi, mga suhestiyon) sa isa sa mga sumusunod na lugar:
     *   [Lojban Reddit group](https://www.reddit.com/r/lojban/)
     *   [Lojban Facebook group](https://www.facebook.com/groups/lojban)
-    *   Live chat: [Telegram chat](https://t.me/lojban) o [Discord chat](https://discord.gg/BVm4EYR)
+    *   Live chat: [Telegram chat](https://telegram.me/lojban) o [Discord chat](https://discord.gg/BVm4EYR)
     *   sa <gleki.is.my.name@gmail.com> (Gleki&nbsp;Arxokuna), ang tagapangalaga ng UnCLL.
 
 

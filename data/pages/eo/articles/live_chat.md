@@ -15,7 +15,7 @@ Elektu la mesaĝilon, kiun vi ŝatas.
 
 La ĉefa babilado estas publike registrita: ajnaj demandoj
 
-Aliĝu per libera mesaĝilo: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Aliĝu per libera mesaĝilo: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### <img src="/assets/pixra/ralju/jduli.svg" alt="lojban school logo" style="height:60px;"/> #ckule - "Lernejo"
 
@@ -23,13 +23,13 @@ Babilado, kie vi demandas pri Lojban kaj ricevas respondojn de flue parolantaj s
 
 Amuzfakto: ĉi tio estas la simbolo de gelateno nomata **lo jduli** en Lojban (prononcata kiel *loh zhdooh-leeh*), kiu rimas kun **lo ckule**, lernejo (*loh shkooh-leh*)
 
-Aliĝu per libera mesaĝilo: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Aliĝu per libera mesaĝilo: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### #jbosnu - Nur Lojbanaj diskutoj
 
 Babilado por paroli nur en Lojban
 
-Aliĝu per libera mesaĝilo: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Aliĝu per libera mesaĝilo: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### #jboselbau - Ofte tema diskutoj
 
@@ -39,7 +39,7 @@ Aliĝu per libera mesaĝilo: [Discord](https://discord.gg/BVm4EYR), [Telegram](h
 
 ### #voknoi - Interŝanĝo de voĉaj mesaĝoj
 
-Aliĝu per libera mesaĝilo: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Aliĝu per libera mesaĝilo: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 <!-- ## Matrica reto (Riot mesaĝilo kaj aliaj)
 

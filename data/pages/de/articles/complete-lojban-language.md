@@ -10,7 +10,7 @@ title: Complete language
 *   Senden Sie Ihr Feedback (bemerkte Fehler, Vorschläge, Anregungen) an eine der folgenden Stellen:
     *   [Lojban Reddit Gruppe](https://www.reddit.com/r/lojban/)
     *   [Lojban Facebook Gruppe](https://www.facebook.com/groups/lojban)
-    *   Live-Chat: [Telegram Chat](https://t.me/lojban) oder [Discord Chat](https://discord.gg/BVm4EYR)
+    *   Live-Chat: [Telegram Chat](https://telegram.me/lojban) oder [Discord Chat](https://discord.gg/BVm4EYR)
     *   an <gleki.is.my.name@gmail.com> (Gleki&nbsp;Arxokuna), den Betreuer des UnCLL.
 
 

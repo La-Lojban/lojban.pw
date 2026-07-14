@@ -15,7 +15,7 @@ Choose the messenger you like.
 
 The main chat publicly logged: any questions
 
-Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### <img src="/assets/pixra/ralju/jduli.svg" alt="lojban school logo" style="height:60px;"/> #ckule - "School"
 
@@ -23,13 +23,13 @@ A chat where you ask questions about Lojban and get answers from fluent knowledg
 
 Fun fact: this is the symbol of jelly called **lo jduli** in Lojban (pronounced as *loh zhdooh-leeh*), which rhymes with **lo ckule**, school (*loh shkooh-leh*)
 
-Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### #jbosnu - Lojban-only discussions
 
 A chat for talking in Lojban only
 
-Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### #jboselbau - offtopic discussions
 
@@ -39,7 +39,7 @@ Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](htt
 
 ### #voknoi - voice messeages exchange
 
-Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Join via a free messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 <!-- ## Matrix network (Riot messenger and others)
 

@@ -14,19 +14,19 @@ Escolha o mensageiro que você gosta.
 
 O chat principal é publicamente registrado: qualquer pergunta
 
-Entre através de um mensageiro gratuito: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Entre através de um mensageiro gratuito: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 ### <img src="/assets/pixra/ralju/jduli.svg" alt="lojban school logo" style="height:60px;"/> #ckule - "Escola"
 
 Um chat onde você faz perguntas sobre Lojban e recebe respostas de falantes fluentes e conhecedores.
 
 Curiosidade: este é o símbolo da gelatina chamada **lo jduli** em Lojban (pronunciado como *loh zhdooh-leeh*), que rima com **lo ckule**, escola (*loh shkooh-leh*)
 
-Entre através de um mensageiro gratuito: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Entre através de um mensageiro gratuito: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 ### #jbosnu - Discussões apenas em Lojban
 
 Um chat para conversar apenas em Lojban
 
-Entre através de um mensageiro gratuito: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Entre através de um mensageiro gratuito: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 ### #jboselbau - Discussões fora do tópico
 
 Um chat para conversar apenas em Lojban.
@@ -34,7 +34,7 @@ Um chat para conversar apenas em Lojban.
 Entre através de um mensageiro gratuito: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 ### #voknoi - Troca de mensagens de voz
 
-Entre através de um mensageiro gratuito: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Entre através de um mensageiro gratuito: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 <!-- ## Rede Matrix (mensageiro Riot e outros)
 

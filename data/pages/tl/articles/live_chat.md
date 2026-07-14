@@ -15,7 +15,7 @@ Pumili ng messenger na gusto mo.
 
 Ang pangunahing chat na pampubliko: anumang mga tanong
 
-Sumali sa pamamagitan ng isang libreng messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Sumali sa pamamagitan ng isang libreng messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### <img src="/assets/pixra/ralju/jduli.svg" alt="lojban school logo" style="height:60px;"/> #ckule - "School"
 
@@ -23,13 +23,13 @@ Isang chat kung saan maaari kang magtanong tungkol sa Lojban at makakuha ng mga 
 
 Katuwaang katotohanan: ito ang simbolo ng jelly na tinatawag na **lo jduli** sa Lojban (bigkas bilang *loh zhdooh-leeh*), na tugma sa **lo ckule**, paaralan (*loh shkooh-leh*)
 
-Sumali sa pamamagitan ng isang libreng messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Sumali sa pamamagitan ng isang libreng messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### #jbosnu - Mga diskusyon sa Lojban lamang
 
 Isang chat para sa pakikipag-usap sa Lojban lamang
 
-Sumali sa pamamagitan ng isang libreng messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Sumali sa pamamagitan ng isang libreng messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### #jboselbau - Mga diskusyon sa labas ng paksa
 
@@ -39,7 +39,7 @@ Sumali sa pamamagitan ng isang libreng messenger: [Discord](https://discord.gg/B
 
 ### #voknoi - Palitan ng boses na mensahe
 
-Sumali sa pamamagitan ng isang libreng messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Sumali sa pamamagitan ng isang libreng messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 <!-- ## Matrix network (Riot messenger and others)
 

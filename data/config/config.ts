@@ -23,7 +23,7 @@ export const footer: readonly {
   {
     name: "telegram",
     icon: "telegram",
-    link: "https://t.me/lojban",
+    link: "https://telegram.me/lojban",
   },
   { name: "discord", icon: "discord", link: discordChatUrl },
   {

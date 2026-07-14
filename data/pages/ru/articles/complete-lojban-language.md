@@ -8,7 +8,7 @@ title: Грамматика
 *   Отправьте свой отзыв (обнаруженные ошибки, предложения, замечания) в одно из следующих мест:
     *   [Группа Lojban на Reddit](https://www.reddit.com/r/lojban/)
     *   [Группа Lojban на Facebook](https://www.facebook.com/groups/lojban)
-    *   Прямой эфир: [чат в Telegram](https://t.me/lojban) или [чат в Discord](https://discord.gg/BVm4EYR)
+    *   Прямой эфир: [чат в Telegram](https://telegram.me/lojban) или [чат в Discord](https://discord.gg/BVm4EYR)
     *   на <gleki.is.my.name@gmail.com> (Глеки&nbsp;Арксокуна), сопровождающий UnCLL.
 
 ## Релизы

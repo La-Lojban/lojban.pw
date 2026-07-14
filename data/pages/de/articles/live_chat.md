@@ -15,7 +15,7 @@ Wählen Sie den Messenger, den Sie mögen.
 
 Der Hauptchat wird öffentlich protokolliert: alle Fragen
 
-Beitreten über einen kostenlosen Messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Beitreten über einen kostenlosen Messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### <img src="/assets/pixra/ralju/jduli.svg" alt="lojban school logo" style="height:60px;"/> #ckule - "Schule"
 
@@ -23,13 +23,13 @@ Ein Chat, in dem Sie Fragen zu Lojban stellen und Antworten von fließend sprech
 
 Fun Fact: Dies ist das Symbol für Gelee, das auf Lojban **lo jduli** genannt wird (ausgesprochen als *loh zhdooh-leeh*), was sich auf **lo ckule**, Schule (*loh shkooh-leh*) reimt.
 
-Beitreten über einen kostenlosen Messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Beitreten über einen kostenlosen Messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### #jbosnu - Nur-Lojban-Diskussionen
 
 Ein Chat, um nur in Lojban zu sprechen
 
-Beitreten über einen kostenlosen Messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Beitreten über einen kostenlosen Messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 ### #jboselbau - Offtopic-Diskussionen
 
@@ -39,7 +39,7 @@ Beitreten über einen kostenlosen Messenger: [Discord](https://discord.gg/BVm4EY
 
 ### #voknoi - Sprachnachrichtenaustausch
 
-Beitreten über einen kostenlosen Messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://t.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
+Beitreten über einen kostenlosen Messenger: [Discord](https://discord.gg/BVm4EYR), [Telegram](https://telegram.me/lojban), [Slack](https://join.slack.com/t/lojban/shared_invite/zt-k3s96tvq-4mtkvG0ZlW2rFIwTPb4rIg).
 
 <!-- ## Matrix-Netzwerk (Riot Messenger und andere)
 

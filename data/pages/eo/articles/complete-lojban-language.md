@@ -10,7 +10,7 @@ title: Kompleta lingvo
 *   Sendu vian reagon (rimarkitajn erarojn, proponojn, sugestojn) al unu el la sekvaj lokoj:
     *   [Lojban Reddit grupo](https://www.reddit.com/r/lojban/)
     *   [Lojban Facebook grupo](https://www.facebook.com/groups/lojban)
-    *   Vivaj babiladoj: [Telegrama babilejo](https://t.me/lojban) aŭ [Discorda babilejo](https://discord.gg/BVm4EYR)
+    *   Vivaj babiladoj: [Telegrama babilejo](https://telegram.me/lojban) aŭ [Discorda babilejo](https://discord.gg/BVm4EYR)
     *   al <gleki.is.my.name@gmail.com> (Gleki&nbsp;Arxokuna), la prizorganto de la NeCLL.
 
 
@@ -113,7 +113,7 @@ title: Complete language
 *   Send your feedback (noticed bugs, proposals, suggestions) to one of the following places:
     *   [Lojban Reddit group](https://www.reddit.com/r/lojban/)
     *   [Lojban Facebook group](https://www.facebook.com/groups/lojban)
-    *   Live chat: [Telegram chat](https://t.me/lojban) or [Discord chat](https://discord.gg/BVm4EYR)
+    *   Live chat: [Telegram chat](https://telegram.me/lojban) or [Discord chat](https://discord.gg/BVm4EYR)
     *   to <gleki.is.my.name@gmail.com> (Gleki&nbsp;Arxokuna), the maintainer of the UnCLL.
 
 
@@ -280,7 +280,7 @@ title: Complete language
 *   Send your feedback (noticed bugs, proposals, suggestions) to one of the following places:
     *   [Lojban Reddit group](https://www.reddit.com/r/lojban/)
     *   [Lojban Facebook group](https://www.facebook.com/groups/lojban)
-    *   Live chat: [Telegram chat](https://t.me/lojban) or [Discord chat](https://discord.gg/BVm4EYR)
+    *   Live chat: [Telegram chat](https://telegram.me/lojban) or [Discord chat](https://discord.gg/BVm4EYR)
     *   to <gleki.is.my.name@gmail.com> (Gleki&nbsp;Arxokuna), the maintainer of the UnCLL.
 
 

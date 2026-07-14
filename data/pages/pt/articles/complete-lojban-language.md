@@ -8,7 +8,7 @@ title: Idioma completo
 *   Envie seus comentários (bugs notados, propostas, sugestões) para um dos seguintes lugares:
     *   [Grupo Lojban Reddit](https://www.reddit.com/r/lojban/)
     *   [Grupo Lojban Facebook](https://www.facebook.com/groups/lojban)
-    *   Chat ao vivo: [Chat Telegram](https://t.me/lojban) ou [Chat Discord](https://discord.gg/BVm4EYR)
+    *   Chat ao vivo: [Chat Telegram](https://telegram.me/lojban) ou [Chat Discord](https://discord.gg/BVm4EYR)
     *   para <gleki.is.my.name@gmail.com> (Gleki&nbsp;Arxokuna), o mantenedor do UnCLL.
 
 ## Lançamentos
